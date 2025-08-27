@@ -1,0 +1,15 @@
+<div class="card mb-4 shadow-sm">
+  <div class="card-body">
+    <h5 class="card-title">{{ include.course.title }}</h5>
+    <p class="card-text text-muted">
+      <strong>{{ include.course.university | default: "Sciences Po" }}</strong><br>
+      {{ include.course.semester }}
+    </p>
+    {% if include.course.description %}
+      <p class="card-text">{{ include.course.description | truncate: 160 }}</p>
+    {% endif %}
+    <a href="{{ include.course.url | default: '#' }}" class="btn btn-outline-primary btn-sm">
+      View course
+    </a>
+  </div>
+</div>

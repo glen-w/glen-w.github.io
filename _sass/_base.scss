@@ -19,6 +19,8 @@ strong {
   color: var(--global-text-color);
 }
 
+
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -274,6 +276,11 @@ ul.task-list input[type="checkbox"] {
     color: var(--global-hover-color);
     background-color: var(--global-bg-color);
   }
+}
+
+// Remove dropdown arrow from navbar dropdowns
+.navbar .dropdown-toggle::after {
+  display: none !important;
 }
 
 .navbar.navbar-light {
@@ -629,12 +636,12 @@ footer.sticky-bottom {
       padding: 0.75rem 1.15rem;
 
       &:hover {
-        color: $black-color;
+        color: var(--global-text-color);
       }
     }
 
     &.active .page-link {
-      color: $white-color;
+      color: var(--global-bg-color);
       background-color: var(--global-theme-color);
 
       &:hover {
@@ -675,6 +682,18 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+    }
+    
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    
+    // creative category titles should not be bold
+    &[data-category="creative"] .card-title,
+    &[data-category="collage"] .card-title {
+      font-weight: 400;
     }
   }
 
@@ -817,7 +836,7 @@ footer.sticky-bottom {
         padding-bottom: 0.5rem;
         span {
           display: inline-block;
-          color: $black-color;
+          color: var(--global-text-color);
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
@@ -1350,6 +1369,30 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
+// Global image styles to remove unwanted borders
+img {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+// Additional reset for all images to prevent browser defaults
+img,
+img:focus,
+img:hover,
+img:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
 figure.cover {
   display: inline-block;
   text-align: center;
@@ -1357,6 +1400,22 @@ figure.cover {
 
   img {
     vertical-align: bottom;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  a.cover-link {
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    
+    &:hover,
+    &:focus {
+      border: none !important;
+      outline: none !important;
+      text-decoration: none !important;
+    }
   }
 
   figcaption.abandoned {

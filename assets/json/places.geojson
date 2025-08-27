@@ -1,0 +1,4834 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "701 S. Wakefield Street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.10803841195414,
+          38.86107880713616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aberdeen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.095393625241957,
+          57.14749589888084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aberystwyth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.083569278172692,
+          52.4143949229389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abu Dhabi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.38413703426679,
+          24.45564361965748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Achuapa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.59069839512672,
+          13.05432795475707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acropolis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.72667260049898,
+          37.97134387459714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Akureyri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.11046000030226,
+          65.68386800196716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Ain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.7445593762731,
+          24.22512064440744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alajuela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.22126045359072,
+          10.01644046617236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alamo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.12254114290967,
+          26.18341574344036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexandria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.94410944329735,
+          31.21329693129874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amarillo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8312913452288,
+          35.22198751072153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amphitheatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.359606068244471,
+          43.83480905909393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amsterdam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.893359594852996,
+          52.37427844001218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andorra la Vella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.521835530414788,
+          42.50729072228121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Appledore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.191029999999983,
+          51.05416599999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arc de Triomphe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.804721599844815,
+          44.14217239977557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Athens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.71664471402672,
+          37.97918149205649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Austin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74312011568972,
+          30.26668223538929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bakewell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.675736171208585,
+          53.21287274515477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ballston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.11368828473942,
+          38.88010583507411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bangalow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5247858743882,
+          -28.68635450278741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bargara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.4629859928375,
+          -24.81493603629541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bath"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.357262175424683,
+          51.38145891917372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bauska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.19379699539021,
+          56.40420613075595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beerwah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9571620344059,
+          -26.85704290961783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beijing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.408133479172,
+          39.9046022434669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belgenny Farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7006039990442,
+          -34.05481600092046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bellingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8981938839305,
+          -30.45260702203826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bewdley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.31625420288117,
+          52.37520385065286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bibliotheca Alexandrina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.90945475865701,
+          31.20900781224708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Big Banana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1337635984981,
+          -30.27456580977313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Big Prawn, Ballina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.531565437684,
+          -28.86382932563886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bimbadgen Estate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.315500933052,
+          -32.74460364202998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Birmingham"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.893591999999973,
+          52.482961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blackpool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.053583893302715,
+          53.81405041294429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bluetongue Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2594098417956,
+          -32.72804732041413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bondi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2762984913836,
+          -33.89127595942092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boomerang Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5453125233203,
+          -32.33709948466677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brighton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1364343208162433,
+          50.81948128527029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brighton Beach, Melbourne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9871853546328,
+          -37.91914622936358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brisbane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.027892,
+          -27.46758000000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bristol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.59180639155232,
+          51.45528289391503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bronte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2684449714195,
+          -33.90406271079504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brownsville"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49689299023984,
+          25.90025423585304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bundaberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.3488469858423,
+          -24.86610901780526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buxton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.913011565032564,
+          53.25893181183138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Byron Bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.6122239977002,
+          -28.64338700036481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Béziers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.215794998860981,
+          43.34423299471671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cadillac Ranch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9870002916579,
+          35.18723052798567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cairo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.24971959991953,
+          30.06428633331048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cairo Citadel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.26060619633316,
+          30.02960704741957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caloundra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1303491466076,
+          -26.80463652669872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cameron House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.606829522448351,
+          56.01315192860341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carcassonne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.353662983667353,
+          43.21237034890122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cardiff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.180296646718548,
+          51.48126024364931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Castle Hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0106040834866,
+          -33.74752288859676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Catacombs of Kom el Shoqafa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.89315363609276,
+          31.17842263122419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Notre-Dame-de-la-Rouvière"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.701036805689901,
+          44.04814253147203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puech Sigal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.71162643071707,
+          44.05710677637705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Col de l'Homme Mort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.726845002614949,
+          44.08527900057131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mas Gilbert"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.696093265330651,
+          44.06599032609547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chester"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.895007103225528,
+          53.19145759890922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cholsey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.153309365194422,
+          51.57511400592816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cigu Township"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1013762078637,
+          23.11961241216127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cirque de Navacelles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.510036000526953,
+          43.89058299951544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Compton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2191506324819,
+          33.89473470512735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coney Island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97864817742497,
+          40.57329570174347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conroe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4562615991247,
+          30.31069523153673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conwy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.828790176459153,
+          53.2810338092913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coomba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.471947098341,
+          -32.24010050062306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Copan Ruinas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.15616451167514,
+          14.83823982972071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Copenhagen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.56811650096002,
+          55.67629375096081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cottage Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.206576851646,
+          -33.61595012643283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coventry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.512661058902132,
+          52.40583750782042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dark Point Sand Dunes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.3956511057677,
+          -32.49260671690374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Death Row"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.48533382970456,
+          30.88954230057319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dimmuborgir",
+        "balloon_text": "<table width =\"250\"><tr><td colspan=\"2\"><font size=\"+1\"><b><a href=\"http://maps.google.co.uk/maps/place?cid=12790544126410636000&q=dimmuborgir&hl=en&cad=src:kml_balloon&ei=PdDCTLuFOdSNkAXn-aSpBQ\">$[name]</a></b></font><br/><font color=\"#808080\">1 review</font></td></tr><tr><td>Ísland<br/></td><td><a href=\"/maps/place?cid=12790544126410636000&amp;q=dimmuborgir&amp;hl=en&amp;cd=1&amp;cad=src:ppphoto&amp;ei=PdDCTLuFOdSNkAXn-aSpBQ\"><img src=\"http://static.panoramio.com/photos/iw-thumbnail/23063261.jpg\"/></a></td></tr></table><br/><br/>&#160;&#160;$[geDirections]",
+        "contents": "Dimmuborgir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.91431,
+          65.586039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Djúpivogur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.29827976054877,
+          64.65660703714285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Donna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.05152931342454,
+          26.16965468898779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dover"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.310297293742373,
+          51.12937246692962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Drayton Manor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.715947199282463,
+          52.61129309739062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dreaming Dragon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5225799767505,
+          25.0237388756633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dubai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.30000000000001,
+          25.25000000000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dublin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.267493999999996,
+          53.344104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dudley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.087335376894179,
+          52.50867160553266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "E.41st"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72078590352713,
+          30.2984812367969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Easternmost point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.6380467503878,
+          -28.63628470088374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edinburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.16240310655509,
+          26.30188428846241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edinburgh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.187576463455586,
+          55.95017280531317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Paso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.4869129517743,
+          31.75862711829411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ensérune"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.12186484553413,
+          43.31772056880578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ephesus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.34236631964658,
+          37.94083117609744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Esteli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.35553957985556,
+          13.08949852186433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eweleaze Farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.40334940842324,
+          50.6382925635762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eyjafjallajökull"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.62571769439424,
+          63.6740674224335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fleetwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.008655425653752,
+          53.92400984939244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Former British Consulate at Takao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2668739085285,
+          22.61884266347377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fortuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.64543427596321,
+          10.46564905916283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Four Corners"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.0409141385446,
+          36.99336183537047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Freehills"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2092641657356,
+          -33.8687537102242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuerteventura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.05367599999999,
+          28.35874400000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glasgow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.256236152988269,
+          55.86522194780431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glasshouse Mountains"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8947545990716,
+          -26.93174450053801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gosport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.128912733617892,
+          50.79229269113641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Granada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.95738219991367,
+          11.92752101502548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gullfoss"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.13875723820225,
+          64.3224120950049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gympie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.6602720354855,
+          -26.18935206645203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harlingen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.696103,
+          26.190631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haverfordwest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.971582549406276,
+          51.8009049846867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hawks Nest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.184960722036,
+          -32.6780904521617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HEB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71987234322565,
+          30.30045449433516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HMNB Clyde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.817292504135645,
+          56.05650029819929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holiday Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.74382162000943,
+          32.51256626820962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hoover Dam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.737200098891,
+          36.01625002235114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Houston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36328464061211,
+          29.76326853694174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HueHue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.46993268053083,
+          15.32212056712165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hunter Valley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9540373061265,
+          -32.6728373405042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Husavik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.34351390643554,
+          66.0475864457347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Isle of Wight"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.290747098579959,
+          50.67023698147241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Izmir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.12872,
+          38.41885000000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jebel Hafeet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.77803310693918,
+          24.05868445110033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jinotega"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0012140865394,
+          13.09164997497115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "John C. Stennis Space Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6160540377876,
+          30.36955535521935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kaohsiung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324289205737,
+          22.61277786845606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8616004671325,
+          -34.67216346978051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krak des Chevaliers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.29473762791241,
+          34.75677452094304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kusadasi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.25918940541907,
+          37.85782707180168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Couvertoirade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.316609992980668,
+          43.9129429963114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Entrada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.75420988792095,
+          15.05818784839659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laguna Apanas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.98354570330464,
+          13.15442603898715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laguna de Apoyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.03634891367005,
+          11.91991514475839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Atitlan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.187559457507,
+          14.69950581223579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Havasu City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.32259140683,
+          34.48328006330719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Travis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.90760749584626,
+          30.41786708576862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lancaster"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3053885626567,
+          40.0379643348519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Las Vegas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.172816,
+          36.11464600000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Le Puy-en-Velay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.882940502706587,
+          45.04276810581418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Le Vigan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.606321998680402,
+          43.99292700164485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lebanon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.41134991543088,
+          40.34092475838831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leeds"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.549057473326974,
+          53.79965767351882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leiden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.490424804235627,
+          52.16110360806159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lennox Head"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.5939009982821,
+          -28.7957150007764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lenton Boulevard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.174580222602971,
+          52.94885413257653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.88177321620714,
+          12.43486457067642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liberty Bell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15026600418656,
+          39.94969053920544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lighthouse at Alexandria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.88554612089449,
+          31.21367265544354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Limassol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.04216200000001,
+          34.683405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lindos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.08571480622145,
+          36.09031577955356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lismore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2787209952467,
+          -28.81272494661259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Llandudno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.834413055346934,
+          53.32651946392699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Llangollen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.17031574719987,
+          52.97038469810771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Loch Lomond"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.599460548735642,
+          56.08278018349979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "London"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1250643637780269,
+          51.49760825113362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Long Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.188817575224,
+          33.76685661894674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Angeles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3461894236872,
+          34.04237565290232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Chiles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.71527799027794,
+          11.0308630731101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Louisiana Boardwalk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.74160255245552,
+          32.51997445053123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90618800000001,
+          40.69385000000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lyndon City Line Diner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.33137781623142,
+          40.06888563359253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mad Dog's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0343149999999,
+          35.19056200000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maison Carrée"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.356115985075744,
+          43.83819037578036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malaga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.420018892562075,
+          36.71964599322664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.00130270462619,
+          55.60333094594687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mancarron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.02915197113404,
+          11.17889790591545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manuel Antonio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.15527710708466,
+          9.409218117061362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.09547923478756,
+          11.97618545790717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matagalpa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.91747990663595,
+          12.92704681316165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matamoros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50051634557373,
+          25.8920655439706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "McAllen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.22917784461129,
+          26.20263455255667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Melbourne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9629800387913,
+          -37.81318700096651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Melstaður"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.90561337952812,
+          65.31203113042018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mercedes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.91309822221636,
+          26.15006227204693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mojo's Pool Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.74665354574383,
+          32.5146589797731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monastery of St. George"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.26805811672444,
+          34.76722349317644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monument Valley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.2293001916916,
+          36.84328978847098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mosque of Muhammad Ali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.25986971239059,
+          30.02863481164282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Tamborine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.2016616596063,
+          -27.9724794519951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mt Bonnell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7739313395805,
+          30.32453199028112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mudgee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.5887617049401,
+          -32.59052189895917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Museum of Egyptian Antiquities"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.23527499864748,
+          30.04445100121378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mývatn Nature Baths",
+        "balloon_text": "<table width =\"200\"><tr><td colspan=\"2\"><font size=\"+1\"><b><a href=\"http://maps.google.co.uk/maps/place?cid=7646058542415798066&q=myvatn+nature+baths&hl=en&cad=src:kml_balloon&ei=V9fTTM3DFIGWvQPk4fHlBQ\">$[name]</a></b></font><br/><font color=\"#808080\"></font></td></tr><tr><td>660<br/>Iceland<br/>464-4411<br/><a href=\"http://www.jardbodin.is\" style=\"color:#008000\">jardbodin.is</a></td></tr></table><br/><br/>&#160;&#160;$[geDirections]",
+        "contents": "Mývatn Nature Baths"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.848006,
+          65.630966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Orleans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0706036273464,
+          29.96472887225019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New York"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00634457675413,
+          40.71390659473733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Newgrange"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.475332283291145,
+          53.69459340721575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Newquay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.083062011124301,
+          50.41282925189399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noble Savage Tavern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.749003,
+          32.512897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0896473581998,
+          -26.3964897359276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nottingham"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.149309999999983,
+          52.955108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nottingham Uni Law School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.198604507587702,
+          52.93807199950759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nîmes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.360053995772379,
+          43.8366990027233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oasis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.87265062006244,
+          30.40513637270235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oklahoma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.51642751213919,
+          35.46755988665097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ometepe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.56378277362191,
+          11.49350152600501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Omodos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8091214735931,
+          34.84820450922581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Orkney Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.048137667909146,
+          58.98905208299861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Osmington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.391163255134377,
+          50.64454956121623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oxford"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.255825069073521,
+          51.75227734157633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Padre Island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.30853671271811,
+          27.40608104696098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pagoda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4959515790173,
+          24.18014127849211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panajachel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.15731462045666,
+          14.73880071784668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paphos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4308324198912,
+          34.78126224431414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.351138782044731,
+          48.85672384934398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pharr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1831845393556,
+          26.19393969479615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16606921928744,
+          39.9530472365242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Picayune"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.67950822028428,
+          30.5254690952522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pilsrundale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0249344154488,
+          56.41346750642025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port Isaac"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.82991061748304,
+          50.5939135436857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port Said"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.29150942684458,
+          31.25649982477296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Power station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.92840036726133,
+          40.00871931188092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Portsmouth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.090707322373019,
+          50.79872728577612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pyramids"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.13069987850255,
+          29.97676646478015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Queen Victoria Market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9564239994616,
+          -37.80635900058184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Resolute Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3068858236225,
+          -33.58476705074337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reykjavik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.89520998008379,
+          64.13533799587972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rhodes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.22655734252535,
+          36.44342893035923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rhyl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.488782473523674,
+          53.31944704150575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.10527170193022,
+          56.94526744388844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rivas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.82933412105204,
+          11.43870301072129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rocksprings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.2053579330548,
+          30.01576501038601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sam Houston Statue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.51072151257563,
+          30.66124912715969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Antonio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49362568556768,
+          29.42412201585908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Carlos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.77557571700073,
+          11.11988620216705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Fernando"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.97985124753052,
+          11.18000836817101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194152369332,
+          37.77492982761071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Juan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.15536413855673,
+          26.18869730243361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Juan del Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.87352097508246,
+          11.25597348971149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pedro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.27145284886852,
+          14.69405989216817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pedro Sula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.00468059540404,
+          15.50365857636895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Ramon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.83949528586643,
+          12.92298849350332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sandia Peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.4800174235275,
+          35.1908775290524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Fe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.9377980429345,
+          35.68697487941202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanxia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.370038,
+          24.93376200000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scott's Head"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9927241572697,
+          -30.746664887391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scunthorpe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6544191300389735,
+          53.57912325135043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seal Rocks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.5318245411773,
+          -32.4356206694389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seljaland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.9916633747624,
+          63.61614034682848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sheffield"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.464767703733443,
+          53.3830536023599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sheikh Zayed Mosque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.47502630263975,
+          24.4122846698881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shiner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.17054203506756,
+          29.42913000679674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shreveport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.74875579109536,
+          32.51051174302375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shreveport Regional Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.82758488922978,
+          32.45247898930002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shrewsbury"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.754321100000006,
+          52.70817380000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skjálfandi Bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.45557300215551,
+          66.0724293384378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skogar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.50336164431902,
+          63.52959745980801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skógafoss",
+        "balloon_text": "<table width =\"250\"><tr><td colspan=\"2\"><font size=\"+1\"><b><a href=\"http://maps.google.co.uk/maps/place?cid=7713299092193436449&q=Latitude:+64%C2%B0+4'+0+N,+Longitude:+20%C2%B0+13'+0+W&hl=en&cad=src:kml_balloon&ei=Rc_CTL3yHoveuQP4trzUBQ\">$[name]</a></b></font><br/><font color=\"#808080\">11 reviews</font></td></tr><tr><td></td><td><a href=\"/maps/place?cid=7713299092193436449&amp;q=Latitude:+64%C2%B0+4%27+0+N,+Longitude:+20%C2%B0+13%27+0+W&amp;hl=en&amp;cd=1&amp;cad=src:ppphoto&amp;ei=Rc_CTL3yHoveuQP4trzUBQ\"><img src=\"http://static.panoramio.com/photos/iw-thumbnail/20428040.jpg\"/></a></td></tr></table><br/><br/>&#160;&#160;$[geDirections]",
+        "contents": "Skógafoss"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.513092,
+          63.530118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Somoto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.58345551687341,
+          13.48115114161351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sphinx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.13748383302633,
+          29.97536982790333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Springwood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5641509372407,
+          -33.69850610553185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spyro Gyros"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.30622463133817,
+          40.04244348241643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Square One Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.30392570677996,
+          40.04114938966265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St Albans"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9716430745548,
+          -33.29299486201793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Kilda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9767400015761,
+          -37.86804200325774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Storey Grange Cottage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.5802450789957,
+          -33.72106605167731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stourbridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.154056290388253,
+          52.45418211740505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stourport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.276199873962703,
+          52.34179817431173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stóra-Dímon (Devil's Rock)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.95,
+          63.666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunny Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.70762199837974,
+          42.68732225241103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swansea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.946429218785885,
+          51.62037826871405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sydney"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2071134846695,
+          -33.86713881435939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taipei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.559834,
+          25.091075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taipei 101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5641018254619,
+          25.03349535534587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tamarama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2717341574533,
+          -33.89748503691535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tapachula"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.26185805542072,
+          14.90730758284081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taroko Gorge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6235012498562,
+          24.15378780446296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tea Gardens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.1663371334655,
+          -32.66951044871017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Telford"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.449260603254283,
+          52.6777217871337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tempe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9093612699265,
+          33.41479129954681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Texas Capitol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7402693470076,
+          30.27458089899627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Solentiname Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.00360932087956,
+          11.17341341334516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Three Sisters"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3147479993484,
+          -33.73567199976189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Théâtre antique d'Orange"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.808811701088587,
+          44.13590309940403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tianxiang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4945373286936,
+          24.18250888232556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tikal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.62367133089806,
+          17.22204185555842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Todos Santos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.14342825211943,
+          15.83097255414429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Troodos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.88106415713091,
+          34.92309895913489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UNSW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.22777774285,
+          -33.91707383401243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UT Tower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73943661379086,
+          30.2858019496016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uvita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.74231201160417,
+          9.154456507313052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Volcan Arenal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.70353072248469,
+          10.46348822611142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Volcan Concepcion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.61922891462343,
+          11.53169134275954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Volcan Maderas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.50781300656547,
+          11.44720423939043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Waco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.14704628315002,
+          31.54820347396217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Washington DC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.03897800728365,
+          38.89426072794537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wes-Mer Drive-In"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.94409508225606,
+          26.149648214415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weslaco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.99038509409655,
+          26.1594540425188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Head Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.3093548098693,
+          -33.57881620356866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Westward Ho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.237653000000012,
+          51.039995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weymouth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.453490999158514,
+          50.6082250150644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wisemans Ferry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9883596536511,
+          -33.38003865616417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wolverhampton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.129203275410303,
+          52.58569605079212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wooden Shoe Books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15420728932261,
+          39.94215039218415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woodstock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11819706522024,
+          42.04092487181733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.52194490126237,
+          14.83615736316449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yangmingshan National Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5446352229385,
+          25.16356847106573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yehliu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.689339743055,
+          25.20388569634779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soymonov Bay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.90836153664729,
+          40.01519009047861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oil refinery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.94416337021664,
+          40.02947228249247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Arzuw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.84921621025816,
+          39.95565058801318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ashgabat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.36659047205916,
+          37.93200309558208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6068371201902,
+          49.19506020762777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anticafé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.51025000061537,
+          41.88454200055497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FAO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48896500025754,
+          41.88298900073128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vatican City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.45338901597286,
+          41.902916001615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49636548676117,
+          41.90278349846297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vienna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37381885915547,
+          48.20817433928604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berline"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.45529191379603,
+          52.49380532030275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greifswald"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.39234140486366,
+          54.08654631415332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frankfurt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.682126706127693,
+          50.1109220973616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eschborn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.561455502070272,
+          50.14674690806265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cologne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.960282420094583,
+          50.93752914159543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bonn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.098206796022703,
+          50.73742999431668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bruges"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.224699603538739,
+          51.20934818906195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brussels"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.351721099320582,
+          50.85034630064905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beekse Bergen (Best Kept Secret)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.116499807782424,
+          51.51945473808004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alton Towers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.886451200052216,
+          52.98743660013162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chatsworth House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.611427509310255,
+          53.22754325766637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bourges"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.398781999989885,
+          47.08101200142691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dijon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.041479999993523,
+          47.32204290674755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mûr-de-Bretagne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.987594611751171,
+          48.20170566814745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shetland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.281379287656631,
+          60.50745072423302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chantilly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.468738901440635,
+          49.19316000186309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nantes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.55362100181949,
+          47.2183709942984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St Malo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.025673487414404,
+          48.64933548490169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Rance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.023841719061465,
+          48.61807575612317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lac de Guerlédan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.049999999975767,
+          48.20416700004194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Versailles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.130126033509974,
+          48.80140946546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maisons-Laffitte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.142365267348172,
+          48.94754471780841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fontainebleau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.701619985116774,
+          48.40467598672218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shanghai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4737009544428,
+          31.23041585378703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Singapore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198552400531,
+          1.35209391865047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sungei Buloh Wetland Reserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7301334547781,
+          1.44670426458012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kuala Lumpur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6875946632391,
+          3.13779610654806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Adelaide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6009282592122,
+          -34.92839326863341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port Vila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.3273244998833,
+          -17.73325120011935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hideaway Island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.2632472053928,
+          -17.69696356296341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canberra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1300086139487,
+          -35.28093886259672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kioloa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3790096981104,
+          -35.54502216992233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ubud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.2643794006523,
+          -8.50780750067734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nusa Lembongan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.455585801009,
+          -8.678582811550891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sliema"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.50322109746199,
+          35.91098486348825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valetta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.51452201421364,
+          35.89894047967329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zurich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541694004574367,
+          47.37688661093723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stockholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0685758365847,
+          59.32932219013188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barcelona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.173403501670983,
+          41.38506388032845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Figueres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.958097464215452,
+          42.2654986480884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Girona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.821426401548626,
+          41.97940050842091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tarragona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.244494310825868,
+          41.1188982825602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bilbao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.934985206067514,
+          43.26301259939218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santander"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.809980281974798,
+          43.4623057033606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Vega"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.78274929934219,
+          43.15842330220681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Porto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.629105298570058,
+          41.1579437931806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lisbon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.139336658147819,
+          38.72225242531499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beau Vallon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.42778005099277,
+          -4.621096687925131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cascais"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.420740872470544,
+          38.69675734518859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tamarindo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.84135315755984,
+          10.2990610034201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bogota"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07209279123983,
+          4.710989718810752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rio de Janeiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.17290027139231,
+          -22.90684745805763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Petrolia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.2861602413697,
+          40.32532877802425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lost Coast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.4024914053697,
+          40.43553904774946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quogue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.60713936730092,
+          40.82284455278214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Angkor Wat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8669859899261,
+          13.41246807014838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phnom Penh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8921344683287,
+          11.54493197095434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krong Kampot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.164591592282,
+          10.59298118657435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sihanoukville"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5233965269018,
+          10.62530157383269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bangkok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5018518147661,
+          13.75635335894381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ko Tao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.8403961154189,
+          10.09561138065026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amstardam Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.9788303526192,
+          9.724720166070576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ko Phangan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.0218260554167,
+          9.754719207558677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Worth Farm (Glastonbury)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.583460102546468,
+          51.15908086887728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Antananarivo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.50790553748121,
+          -18.87919023323006
+        ]
+      }
+    }
+  ]
+}

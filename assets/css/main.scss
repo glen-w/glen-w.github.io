@@ -23,3 +23,40 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Custom styles for smaller social icons
+.social .contact-icons {
+  font-size: 1.75rem; // Reduced by 30% from 2.5rem
+  
+  a {
+    img {
+      width: 1.4rem; // Reduced by 30% from 2rem
+      height: 1.4rem; // Reduced by 30% from 2rem
+      margin-bottom: 1rem;
+    }
+
+    svg {
+      width: 1.54rem; // Reduced by 30% from 2.2rem
+      height: 1.75rem; // Reduced by 30% from 2.5rem
+      margin-bottom: 0.5rem;
+
+      image {
+        width: 1.54rem; // Reduced by 30% from 2.2rem
+        height: 1.54rem; // Reduced by 30% from 2.2rem
+      }
+    }
+
+    i::before {
+      color: var(--global-theme-color); // Use theme color instead of black
+      transition-property: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      i::before {
+        color: var(--global-hover-color); // Use hover color on hover
+      }
+    }
+  }
+}
