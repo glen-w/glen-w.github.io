@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Glen
-middle_name: 
+middle_name:
 last_name: Wright
 #contact_note: >
 #  Send me an email.
@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: thoughts in progress # blog_name will be displayed in your blog page
-#blog_description: 
+#blog_description:
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts - disabled due to classifier-reborn issues
 
@@ -147,19 +147,18 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-
   creative:
     output: true
     permalink: /creative/:name/
 
   books:
-   output: true
+    output: true
 
   failures:
     output: true
     permalink: /failures/:name/
 
-  media:    
+  media:
     layout: post
     output: true
     permalink: /media/:title/
@@ -167,12 +166,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:title/
-  
+
   teaching:
     output: true
     permalink: /teaching/:title/
-  
-
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -313,7 +310,7 @@ scholar:
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-#  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  #  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
 #  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 

@@ -5,10 +5,9 @@ nav: true
 nav_order: 70
 dropdown: true
 children:
-  
   - title: ambient findability
     permalink: /findability/
-  
+
   - title: bookshelf
     permalink: /books/
 
@@ -23,13 +22,13 @@ children:
 
   - title: roadmap
     permalink: /roadmap/
- 
+
   - title: sitemap
     permalink: /sitemap/
 
   - title: thinking out loud
     permalink: /thinking/
-  
+
   - title: test
-    permalink: 
+    permalink:
 ---

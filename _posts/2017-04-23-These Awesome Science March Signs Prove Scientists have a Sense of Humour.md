@@ -2,9 +2,9 @@
 layout: post
 title: "These Awesome Science March Signs Prove Scientists have a Sense of Humour"
 date: 2017-04-23
-description: 
-tags: ['Science March']
-categories: ['Academia Obscura']
+description:
+tags: ["Science March"]
+categories: ["Academia Obscura"]
 ---
 
 [![](../assets/img/posts/170423_These_Awesome_Science_March_Signs_Prove_Scientists_02.jpg)](../assets/img/posts/170423_These_Awesome_Science_March_Signs_Prove_Scientists_18.jpg)[@AlternateUSFW](https://twitter.com/AlternateUSFW)

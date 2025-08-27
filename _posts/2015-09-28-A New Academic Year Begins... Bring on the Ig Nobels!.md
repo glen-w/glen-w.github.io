@@ -2,14 +2,14 @@
 layout: post
 title: "A New Academic Year Begins... Bring on the Ig Nobels!"
 date: 2015-09-28
-description: 
-tags: ['chickens', 'dinosaurs', 'eggs', 'Huh?', 'Ig Nobels', 'kissing', 'linguistics', 'Oxford Comma', 'penguins', 'punctuation', 'twitter']
-categories: ['Academic Humour', 'Crazy Research', 'Misc.']
+description:
+tags: ["chickens", "dinosaurs", "eggs", "Huh?", "Ig Nobels", "kissing", "linguistics", "Oxford Comma", "penguins", "punctuation", "twitter"]
+categories: ["Academic Humour", "Crazy Research", "Misc."]
 ---
 
 Summer is, sadly, over. Freshers week is, thankfully, also over. And yet another academic year kicked off with that most amusing of academic traditions: the Ig Nobel Prizes.
 
-This year the Ig Nobels, which recognise research that “first makes people laugh then makes them think”, celebrated its 25th *first** *annual award ceremony.
+This year the Ig Nobels, which recognise research that “first makes people laugh then makes them think”, celebrated its 25th *first\*\* *annual award ceremony.
 
 In case you’ve never heard of the Ig Nobels, they are described by singer Amanda Palmer, herself a little off-the-wall, as “a collection of, like, actual Nobel Prize winners giving away prizes to real scientists for doing f’d-up things...”
 
@@ -29,9 +29,9 @@ By the far the most bizarre this year is a study in which chickens were fitted w
 
 Other gems this year include:
 
-	- A chemical recipe to partially un-boil an egg.
-	- A paper answering the question: “Is ‘Huh’ A Universal World?”
-	- A series of studies looking at the biomedical benefits, and consequences, of intense kissing.
+    - A chemical recipe to partially un-boil an egg.
+    - A paper answering the question: “Is ‘Huh’ A Universal World?”
+    - A series of studies looking at the biomedical benefits, and consequences, of intense kissing.
 
 If you are looking for a bit of distraction after the whirlwind of the first weeks of term, you can watch the whole ceremony [online](https://www.youtube.com/watch?t=5275&v=MqVCl2VoZqU), or explore all the prizes to date with this [neat data viz tool](https://ig-nobel.silk.co/).
 
@@ -39,23 +39,20 @@ As is now the norm, the whole thing was also live-tweeted (#IgNobel). In fact, t
 
 Elsewhere on Twitter this week, I discovered:
 
-	- That animated gifs make for great academic metaphors:
+    - That animated gifs make for great academic metaphors:
 
-> 
-I don't always co-author papers, but when I do... pic.twitter.com/0xFP9Se3PV
+> I don't always co-author papers, but when I do... pic.twitter.com/0xFP9Se3PV
 
 — Academia Obscura (@AcademiaObscura) [September 25, 2015](https://twitter.com/AcademiaObscura/status/647436679125405696)
 
-	- That the resident penguin at the University of Portsmouth library has its own account:
+    - That the resident penguin at the University of Portsmouth library has its own account:
 
-> 
-[@BucksLib](https://twitter.com/BucksLib) scanny scan scan... I like a good card scanning turnstile! pic.twitter.com/PZzwXRNzIr
+> [@BucksLib](https://twitter.com/BucksLib) scanny scan scan... I like a good card scanning turnstile! pic.twitter.com/PZzwXRNzIr
 
 — UoPLibrary Penguin (@uoppenguin) [September 23, 2015](https://twitter.com/uoppenguin/status/646645325902520320)
 
-	- That National Punctuation Day is a thing:
+    - That National Punctuation Day is a thing:
 
-> 
-This [#NationalPunctuationDay](https://twitter.com/hashtag/NationalPunctuationDay?src=hash), spare a thought for your friend, the Oxford Comma.
+> This [#NationalPunctuationDay](https://twitter.com/hashtag/NationalPunctuationDay?src=hash), spare a thought for your friend, the Oxford Comma.
 
 — Oxford Comma (@IAmOxfordComma) [September 24, 2015](https://twitter.com/IAmOxfordComma/status/646971622491058176)

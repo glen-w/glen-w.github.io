@@ -2,12 +2,12 @@
 layout: post
 title: "Food, Glorious Food"
 date: 2014-12-09
-description: 
-tags: ['appetite', 'cake', 'cheese', 'crisps', 'fish', 'food', 'fungi', 'olive oil', 'popcorn', 'ramen noodles', 'salami', 'seafood', 'soup']
-categories: ['Academic Humour', 'Crazy Research']
+description:
+tags: ["appetite", "cake", "cheese", "crisps", "fish", "food", "fungi", "olive oil", "popcorn", "ramen noodles", "salami", "seafood", "soup"]
+categories: ["Academic Humour", "Crazy Research"]
 ---
 
-*This is a slightly edited version of a post that originally appeared on the Guardian Higher Education blog.*
+_This is a slightly edited version of a post that originally appeared on the Guardian Higher Education blog._
 
 Whether you like it or not, the festive season is approaching. Soon, we will be eating all sorts of delicious things that are really bad for us, and drinking in quantities that would be considered problematic at any other time of the year. But this week we shall settle for some tasty morsels from academia’s pantry of nonsense.
 
@@ -31,7 +31,7 @@ And remember when your parents told you not to play with your food? There was go
 
 Should you find yourself in the midst of a life-threatening nosebleed at Christmas dinner, however, do feel free to unwrap your pigs from their blankets and fashion a “nasal tampon” to stem the bleeding.
 
-Particularly odd is the rich literature on the swallowing of whole live fish. You’d think we’d have figured out the difference between live fish and dead fish (also known as seafood) by now, yet I found at least four reports of this error. One is entitled *Return of the Killer Fish*, and I can’t help but think that this is more a case of stupid human than killer fish.
+Particularly odd is the rich literature on the swallowing of whole live fish. You’d think we’d have figured out the difference between live fish and dead fish (also known as seafood) by now, yet I found at least four reports of this error. One is entitled _Return of the Killer Fish_, and I can’t help but think that this is more a case of stupid human than killer fish.
 
 To finish up on the subject of food, I bring you two of my favourite happy coincidences. The first is a study on the chemical composition of the flavour of popcorn. The lead author is one Mr Ron Buttery. The second is a paper on the fungi used in cheese making, written by none other than Mr Kevin Cheeseman. You couldn’t make this stuff up.
 

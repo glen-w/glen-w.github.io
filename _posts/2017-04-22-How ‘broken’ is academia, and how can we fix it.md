@@ -2,12 +2,12 @@
 layout: post
 title: "How ‘broken’ is academia, and how can we fix it?"
 date: 2017-04-22
-description: 
-tags: ['abuse of power', 'academic culture', "don't hate the player", 'ECR', 'hate the game']
-categories: ['Surprisingly Helpful']
+description:
+tags: ["abuse of power", "academic culture", "don't hate the player", "ECR", "hate the game"]
+categories: ["Surprisingly Helpful"]
 ---
 
-*Jon Tennant just finished his PhD in paleontology. This post originally appeared on Jon’s blog, **[Fossils and Shit](https://fossilsandshit.com/2016/09/15/shit-i-learned-during-my-phd/)**. Follow him on twitter **@protohedgehog**.*
+_Jon Tennant just finished his PhD in paleontology. This post originally appeared on Jon’s blog, **[Fossils and Shit](https://fossilsandshit.com/2016/09/15/shit-i-learned-during-my-phd/)**. Follow him on twitter **@protohedgehog**._
 
 ![](../assets/img/posts/170422_How_broken_is_academia_and_how_can_we_fix_it_01.jpg)
 
@@ -45,6 +45,6 @@ What I want to see more of is senior researchers listening more to ECRs, to thei
 
 Let us be brave and challenge the status quo, let us create, let us think outside the box. Isn’t this is what research is supposed to be about, after all?
 
-*Note: Parts of this discussion are chopped up on Twitter [here](https://twitter.com/Protohedgehog/status/854288821042663424)*.
+_Note: Parts of this discussion are chopped up on Twitter [here](https://twitter.com/Protohedgehog/status/854288821042663424)_.
 
 **Edit**: I’m much less interested in responses to this about how the system has benefited people (i.e., the “It’s worked for me so what’s the problem” mentality). That’s not what this is about. I’m interested in finding out why it doesn’t work or hasn’t worked for those who are worse off. #notallacademics, right..

@@ -2,9 +2,9 @@
 layout: post
 title: "Marine Governance in an Industrialised Ocean"
 date: 2013-08-20
-description: 
-tags: 
-categories: ['Marine Energy', 'Marine Governance']
+description:
+tags:
+categories: ["Marine Energy", "Marine Governance"]
 ---
 
 The seas and coasts have long been strong drivers of economies worldwide, and coastal communities and ports have traditionally been hubs for ideas and innovation due to their outward-looking geography. Yet the potential for industrial activity and innovation in the marine environment has grown exponentially in recent decades due to three main factors.
@@ -14,7 +14,7 @@ Firstly, rapid technological progress has opened up new possibilities for the ex
 This process of ocean industrialisation is adding a lengthening list of new uses to traditional shipping and fishing activities, with a concomitant increase in the potential for negative environmental impacts. While the industrial revolution on land precipitated the climate change era, the industrial revolution in the oceans has the potential to be part of the solution if managed appropriately.
 
 Though some marine activities, such as the established oil and gas extraction industries, present an inherent challenge to sustainability, a number of new offshore industries have great potential to contribute to the climate mitigation effort and to sustainable development. For example, well-managed aquaculture could provide a much needed source of food to coastal communities while preserving natural ecosystems; carbon capture and storage could remove carbon from the atmosphere and store it offshore; sustainable tourism can lead to improved resource management; and wave and tidal energy technologies can provide clean renewable energy.[
-](file:///C:/Users/Glen/Documents/Publications/Journal%20of%20Underwater%20Technology/JUT%20legal%20paper%20(revision,%2018%20January).docx#_ftn5)
+](<file:///C:/Users/Glen/Documents/Publications/Journal%20of%20Underwater%20Technology/JUT%20legal%20paper%20(revision,%2018%20January).docx#_ftn5>)
 
 Nonetheless, the number and intensity of these activities have the collective potential to generate significant cumulative impacts and place pressure on fragile ecosystems. The need to balance new economic and social opportunities with conservation is encapsulated by the EU’s ‘Blue Growth’ agenda, which focuses on the opportunity to harness the potential of Europe's oceans for jobs and growth whilst also safeguarding biodiversity and protecting the marine environment.
 
@@ -23,7 +23,7 @@ This new wave of industrial activity in the oceans and the need to balance this 
 Within their own waters, states have traditionally managed marine activities on a single-sector basis. This was somewhat functional where uses of the oceans were limited and conflicts were few, and where the oceans were not imperilled by industrialisation. However, this paradigm has severe limitations when marine activities increase, conflicts between users become more common, and the environment is put under pressure.
 
 The rise of systems thinking and the negotiation of the UN Convention on Law of the Sea saw the decline of single-sector management and its replacement by integrated management concepts like Marine Protected Areas (MPAs) and Integrated Coastal Zone Management (ICZM). These mechanisms improved upon single-sector management, but have also been the subject of criticism, particularly for failing to balance ecological with social considerations. A large review of MPAs published in 2011 noted the challenges involved in successfully implementing MPAs and the perils of focussing solely on conservation, concluding that they can only address some causes of biodiversity loss. Similarly, ICZM has been criticised as being ineffective, with few successful implementations in place.[
-](file:///C:/Users/Glen/Documents/Publications/Journal%20of%20Underwater%20Technology/JUT%20legal%20paper%20(revision,%2018%20January).docx#_ftn11)
+](<file:///C:/Users/Glen/Documents/Publications/Journal%20of%20Underwater%20Technology/JUT%20legal%20paper%20(revision,%2018%20January).docx#_ftn11>)
 
 As ocean industrialisation has advanced, so too has the need for fresh thinking, both on options for sustainably developing marine resources and on governance structures to regulate and facilitate such developments. In this rapidly evolving context, both MPAs and ICZM have been criticised as being deficient, having a strong environmental focus without the ability to adapt to, and incorporate, new marine industrial developments.
 

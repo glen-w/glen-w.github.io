@@ -2,9 +2,9 @@
 layout: post
 title: "A Delegação da Universidade Nacional da Austrália para Rio +20"
 date: 2012-07-03
-description: 
-tags: 
-categories: ['Uncategorized']
+description:
+tags:
+categories: ["Uncategorized"]
 ---
 
 Entre junho 20-22, uma delegação de 17 alunos da Universidade Nacional da Austrália (UNA) participou da Conferência das Nações Unidas sobre Desenvolvimento Sustentável (Rio +20) no Rio de Janeiro, Brasil.

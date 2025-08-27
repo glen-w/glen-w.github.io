@@ -2,9 +2,9 @@
 layout: post
 title: "A Day in the Life of an Academic (with cats)"
 date: 2015-01-10
-description: 
-tags: ['cats', 'listicles']
-categories: ['Academia Obscura']
+description:
+tags: ["cats", "listicles"]
+categories: ["Academia Obscura"]
 ---
 
 The internet is approximately 85% cats. Lots and lots of academics have cats and they have been rushing in their hundreds to proclaim as much with the [#AcademicsWithCats](https://twitter.com/search?f=realtime&q=%23AcademicsWithCats) hashtag. So, we decided to hold the First Annual Academics with Cats Awards. Voting closed yesterday and we shall now wade through the votes, announcing the results on Friday 16 January.
@@ -129,4 +129,4 @@ To keep you amused as you await the results with bated breath, we bring you our
 
 ![Image: @jbardhan](../assets/img/posts/150110_A_Day_in_the_Life_of_an_Academic_with_cats_25.jpg)
 
-Prefer hats to cats? Click here! 
+Prefer hats to cats? Click here!

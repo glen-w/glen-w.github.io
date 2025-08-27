@@ -5,14 +5,14 @@ author: Peter Morville
 cover: assets/img/book_covers/ambient_findability.jpg
 olid: OL7581127M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 0596553013 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
-categories: 
+categories:
 tags: top-100
 buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
-started: 
-finished: 
+started:
+finished:
 released: 1969
-stars: 
-goodreads_review: 
+stars:
+goodreads_review:
 status: reading
 ---
 

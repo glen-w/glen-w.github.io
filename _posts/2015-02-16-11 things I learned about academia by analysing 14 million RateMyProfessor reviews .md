@@ -2,9 +2,9 @@
 layout: post
 title: "11 things I learned about academia by analysing 14 million RateMyProfessor reviews "
 date: 2015-02-16
-description: 
-tags: ['alcohol', 'clickbait', 'dental hygiene', 'elbow patches', 'gender', 'hair', 'listicles', 'RateMyProfessor', 'weird']
-categories: ['Academia Obscura']
+description:
+tags: ["alcohol", "clickbait", "dental hygiene", "elbow patches", "gender", "hair", "listicles", "RateMyProfessor", "weird"]
+categories: ["Academia Obscura"]
 ---
 
 I love data visualisation, and every now and then a gem comes along that blows my mind. Last week I came across Ben Schmidt’s tool for analysing gendered language in teaching evaluations. The tool allows you to plug in any word (or two-word phrase) and see how much that phrase is used in 14 million RateMyProfessor.com reviews. You can see usage is split across gender and discipline. While intended to show gender differences, it turns out the tool is excellent for revealing all sorts of weird and wonderful trends.
@@ -30,8 +30,8 @@ I love data visualisation, and every now and then a gem comes along that blows m
 
 [![hairy](../assets/img/posts/150216_11_things_I_learned_about_academia_by_analysing_14_01.png)](../assets/img/posts/150216_11_things_I_learned_about_academia_by_analysing_14_01.png)
 
-**6. ****Some disciplines have poor dental hygiene
-**A search for 'bad teeth' reveals that male anthropologists and female historians and apparently have problems going to the dentist.
+**6. \*\***Some disciplines have poor dental hygiene
+\*\*A search for 'bad teeth' reveals that male anthropologists and female historians and apparently have problems going to the dentist.
 
 [![bad teeth](../assets/img/posts/150216_11_things_I_learned_about_academia_by_analysing_14_08.png)](../assets/img/posts/150216_11_things_I_learned_about_academia_by_analysing_14_08.png)
 

@@ -2,15 +2,15 @@
 layout: post
 title: "Beards in Academia"
 date: 2014-09-01
-description: 
-tags: ['beards', 'chicks', 'Darwin', 'funny', 'pathogens', 'skirts', 'UV']
-categories: ['Academic Humour', 'Crazy Research']
+description:
+tags: ["beards", "chicks", "Darwin", "funny", "pathogens", "skirts", "UV"]
+categories: ["Academic Humour", "Crazy Research"]
 ---
 
-> 
-*To sport a beard signifies something.*
-* Stories are not generally written about being clean shaven.*
-Aristotle[1. OK, not really. Actually just the personal experiences of some bearded dude living in South Korea (). But it sounds much better with Aristotle.]
+> _To sport a beard signifies something._
+
+- Stories are not generally written about being clean shaven.\*
+  Aristotle[1. OK, not really. Actually just the personal experiences of some bearded dude living in South Korea (). But it sounds much better with Aristotle.]
 
 It seems like beards are everywhere these days, having made a bit of a hipster-fuelled comeback. Yet academics know that they have been the bastion of beards for many decades. In honour of World Beard Day (September 6), we are taking a look at the furry, fluffy world of academic beards.
 
@@ -26,9 +26,9 @@ Such peaks are not uncommon. A previous review of facial hair styles in recent h
 **To Beard or not to Beard?
 **Studies have come up with mixed results on whether beards make you more or less attractive. In one study00022-6/abstract), full beards rated highest for parenting ability and healthiness, while in another, bearded men with an aggressive facial expression were rated as significantly more aggressive than the same men when clean-shaven.[2. Presumably bearded men should simply refrain from pulling faces.] Another study even considered, in detail, the effect of the participants' menstrual cycles on their perceptions. The peak beard study itself concludes that beards "role in facial attractiveness is equivocal."
 
-Indeed, in [*Beards: an archaeological and historical overview*](https://www.academia.edu/466184/Beards_an_archaeological_and_historical_overview), the author notes:
+Indeed, in [_Beards: an archaeological and historical overview_](https://www.academia.edu/466184/Beards_an_archaeological_and_historical_overview), the author notes:
 
-> *beards have been ascribed various symbolic attributes, such as sexual virility, wisdom and high social status, but conversely barbarism, eccentricity and Satanism*
+> _beards have been ascribed various symbolic attributes, such as sexual virility, wisdom and high social status, but conversely barbarism, eccentricity and Satanism_
 
 Darwin himself posited that beards "evolved in human ancestors via female choice as a highly attractive masculine adornment". But then, he might have been a little biased:
 
@@ -39,7 +39,7 @@ Darwin himself posited that beards "evolved in human ancestors via female choice
 
 One wonders where exactly this concern came from. The authors kindly fill us in, noting that:
 
-> *After many years of absence from the laboratory scene, beards are now being worn by some persons working with pathogenic microorganisms*
+> _After many years of absence from the laboratory scene, beards are now being worn by some persons working with pathogenic microorganisms_
 
 Heaven forbid! What ensues is a rather bizarre study and a series of amusing photographs. In short, the study involved spraying some pathogens on some bearded guys faces (specifically 73 day old beards), washing the faces using one of two methods (figure 1), and then collecting some beard dust to see if the pathogens were still there (figure 2).
 
@@ -69,6 +69,6 @@ They conclude that some protection is provided, but not all that much. Probably 
 
 **Bonus reading**
 
-	- PhD comics: beard migration
-	- Beard Science
-	- Will It Beard?
+    - PhD comics: beard migration
+    - Beard Science
+    - Will It Beard?

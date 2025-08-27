@@ -7,7 +7,6 @@ importance: 2
 category: side quests
 ---
 
-
 <div align="center">
   <img src="/assets/img/projects/thumbs/transcriptx_logo.png" alt="TranscriptX Logo" width="200"/>
 </div>
@@ -37,6 +36,7 @@ TranscriptX is a comprehensive, modular toolkit for analyzing transcripts with a
 ### 🐳 Docker (Recommended - Solves All Dependency Issues)
 
 #### Quick Start with Docker
+
 ```bash
 # Complete Docker setup (recommended)
 ./scripts/docker-setup.sh
@@ -53,6 +53,7 @@ TranscriptX is a comprehensive, modular toolkit for analyzing transcripts with a
 ```
 
 #### Docker Services Available
+
 - **Development Environment** (port 8000): Full development container with interactive shell
 - **Web Viewer** (port 8001): Results viewing interface
 - **Documentation Server** (port 8003): Sphinx documentation with API docs
@@ -62,6 +63,7 @@ TranscriptX is a comprehensive, modular toolkit for analyzing transcripts with a
 **📖 [Complete Docker Documentation](docs/DOCKER_README.md)**
 
 ### For Users (Local Installation)
+
 ```bash
 # Interactive setup with virtual environment
 ./scripts/setup_env.sh
@@ -74,6 +76,7 @@ TranscriptX is a comprehensive, modular toolkit for analyzing transcripts with a
 ```
 
 ### For Developers (Local Installation)
+
 ```bash
 # Development setup with virtual environment
 ./scripts/setup_env.sh  # Choose option 4 for development
@@ -132,10 +135,12 @@ transcriptx/
 ## Documentation
 
 ### 📚 Main Documentation
+
 - **[README.md](README.md)** - This file - Primary project overview
 - **[docs/](docs/)** - Sphinx-generated documentation with API reference
 
 ### 🔧 Development Documentation
+
 - **[Project Organization](docs/development/README_ORGANIZED.md)** - Detailed project structure and cleanup
 - **[Developer Guide](docs/development/DEVELOPER_GUIDE.md)** - Development setup and guidelines
 - **[Consistency Standards](docs/development/CONSISTENCY_STANDARDS_SUMMARY.md)** - Code quality standards
@@ -148,6 +153,7 @@ transcriptx/
 ## Testing & Coverage
 
 TranscriptX includes a comprehensive test suite covering:
+
 - **Error Logging**: All error/exception cases are logged and asserted in tests
 - **Input Validation**: Extensive tests for invalid, edge, and boundary inputs
 - **Graceful Exit**: All CLI and process entry points are tested for KeyboardInterrupt and clean exit
@@ -182,18 +188,21 @@ TranscriptX implements comprehensive error handling standards to ensure robust o
 ### 🛡️ Error Handling Standards
 
 #### **Centralized Logging System**
+
 - **Standardized Error Logging**: All errors are logged through `transcriptx.core.logger.log_error()`
 - **Module Context**: Errors include module name and operation context
 - **Exception Tracking**: Full stack traces preserved for debugging
 - **Structured Format**: `[MODULE] Error message | Context: additional_info`
 
 #### **Input Validation & Sanitization**
+
 - **Comprehensive Validation**: All inputs validated before processing
 - **Graceful Degradation**: Invalid inputs handled without crashing
 - **User-Friendly Messages**: Clear error messages for common issues
 - **File Format Support**: Robust handling of various transcript formats
 
 #### **DAG Pipeline Resilience**
+
 - **Module Isolation**: Individual module failures don't affect others
 - **Timeout Protection**: Long-running operations have configurable timeouts
 - **Resource Management**: Proper cleanup of system resources
@@ -202,6 +211,7 @@ TranscriptX implements comprehensive error handling standards to ensure robust o
 ### 🔧 Error Recovery Mechanisms
 
 #### **Automatic Retry Logic**
+
 ```python
 # Example: File operations with retry
 try:
@@ -213,6 +223,7 @@ except (FileNotFoundError, json.JSONDecodeError) as e:
 ```
 
 #### **Graceful Degradation**
+
 - **Missing Dependencies**: Modules continue with reduced functionality
 - **Large Files**: Memory-efficient processing for large transcripts
 - **Network Issues**: Offline operation when external services unavailable
@@ -223,6 +234,7 @@ except (FileNotFoundError, json.JSONDecodeError) as e:
 #### **Handling Common Errors**
 
 **File Not Found**
+
 ```bash
 # Check file path and permissions
 ls -la transcript.json
@@ -231,6 +243,7 @@ file transcript.json
 ```
 
 **Memory Issues**
+
 ```bash
 # Use smaller batch sizes
 transcriptx analyze transcript.json --modules sentiment --batch-size 100
@@ -239,6 +252,7 @@ transcriptx analyze transcript.json --modules emotion --chunk-size 50
 ```
 
 **Missing Dependencies**
+
 ```bash
 # Install required packages
 pip install -r requirements.txt
@@ -247,6 +261,7 @@ pip install nltk textblob transformers
 ```
 
 **Timeout Issues**
+
 ```bash
 # Increase timeout for complex analysis
 transcriptx analyze transcript.json --timeout 600
@@ -257,12 +272,14 @@ transcriptx analyze transcript.json --timeout 600
 
 TranscriptX offers two semantic similarity analysis methods:
 
-**Simple Method (`semantic_similarity`)**: 
+**Simple Method (`semantic_similarity`)**:
+
 - Fast keyword-based analysis
 - Suitable for quick repetition detection
 - Lower computational requirements
 
 **Advanced Method (`semantic_similarity_advanced`)**:
+
 - Integrates with existing analysis modules (sentiment, emotion, acts, etc.)
 - Quality-based segment filtering
 - Configurable profiles for different conversation types
@@ -283,6 +300,7 @@ transcriptx analyze transcript.json --modules semantic_similarity_advanced
 TranscriptX includes a comprehensive database backend for persistent speaker profiling and cross-session analysis:
 
 ### Features
+
 - **Persistent Speaker Profiles**: Speaker data persists across sessions
 - **Cross-Session Tracking**: Link speakers across different conversations
 - **Behavioral Fingerprinting**: Unique behavioral patterns for speaker identification
@@ -290,6 +308,7 @@ TranscriptX includes a comprehensive database backend for persistent speaker pro
 - **Confidence Scoring**: Measure reliability of behavioral analysis
 
 ### Usage
+
 ```bash
 # Initialize database
 transcriptx db init
@@ -323,6 +342,7 @@ transcriptx create-zip /path/to/outputs/
 ```
 
 Zip files include:
+
 - All analysis outputs organized by module
 - Validation report for missing modules
 - README with usage instructions
@@ -357,22 +377,24 @@ python -m transcriptx.cli.main simplify-transcript INPUT.json OUTPUT.json
 ### Example
 
 Input:
+
 ```json
 [
-  {"speaker": "Alice", "text": "Um, I think we should start."},
-  {"speaker": "Bob", "text": "Yeah, I agree."},
-  {"speaker": "Alice", "text": "Let's review the agenda."},
-  {"speaker": "Bob", "text": "Let's review the agenda."},
-  {"speaker": "Alice", "text": "You know, the main point is the launch."}
+  { "speaker": "Alice", "text": "Um, I think we should start." },
+  { "speaker": "Bob", "text": "Yeah, I agree." },
+  { "speaker": "Alice", "text": "Let's review the agenda." },
+  { "speaker": "Bob", "text": "Let's review the agenda." },
+  { "speaker": "Alice", "text": "You know, the main point is the launch." }
 ]
 ```
 
 Output:
+
 ```json
 [
-  {"speaker": "Alice", "text": "I think we should start."},
-  {"speaker": "Alice", "text": "Let's review the agenda."},
-  {"speaker": "Alice", "text": "the main point is the launch."}
+  { "speaker": "Alice", "text": "I think we should start." },
+  { "speaker": "Alice", "text": "Let's review the agenda." },
+  { "speaker": "Alice", "text": "the main point is the launch." }
 ]
 ```
 
@@ -388,16 +410,19 @@ TypeError: can't multiply sequence by non-int of type 'numpy.float64'
 
 **Root Cause**: This is a known matplotlib bug where the figure's DPI scale transform matrix (`self._mtx[0, 0]`) becomes corrupted and contains a sequence instead of a numeric value. This corruption occurs in matplotlib's internal transform system during the `fig.savefig()` call.
 
-**Affected Modules**: 
+**Affected Modules**:
+
 - Topic modeling (LDA/NMF heatmaps and speaker charts)
 - Potentially other modules that generate matplotlib charts
 
-**Current Workaround**: 
+**Current Workaround**:
+
 - Chart generation is gracefully skipped with informative logging
 - All analysis data (JSON files, topic distributions, etc.) is still saved successfully
 - The analysis completes without interruption
 
-**Status**: 
+**Status**:
+
 - ✅ **Analysis functionality**: Fully working
 - ✅ **Data output**: All JSON and analysis results saved
 - ⚠️ **Chart generation**: Skipped due to matplotlib corruption
@@ -410,25 +435,30 @@ TypeError: can't multiply sequence by non-int of type 'numpy.float64'
 **Solution**: Use Docker environment which pins NumPy to <2.0, or manually install compatible versions.
 
 **Status**:
+
 - ✅ **Docker environment**: Fully resolved with pinned dependencies
 - ⚠️ **Local environment**: May require manual dependency management
 
 ## Roadmap Highlights
 
 ### Current Version (v0.2.0)
+
 - **Database Backend**: Complete speaker profiling and cross-session tracking
 - **Docker Support**: Full containerization with dependency resolution
 - **Enhanced Error Handling**: Comprehensive error handling and recovery
 - **Cross-Session Analysis**: Advanced speaker tracking across multiple conversations
 
 ### Upcoming Features (v0.3.0)
+
 - **Plotly Chart Integration**: Interactive charts alongside matplotlib (3-4 hours development)
 - **Enhanced Web Interface**: Improved user experience and interactivity
 - **Additional Output Formats**: CSV, JSONL, DOCX support
 - **Advanced Speaker Analytics**: Machine learning-based speaker analysis
 
 ### Web-Native Focus
+
 TranscriptX is designed as a web-native application, prioritizing:
+
 - **Cross-platform accessibility** through web browsers
 - **Modern deployment** via containers and cloud platforms
 - **Scalable architecture** for enterprise integration

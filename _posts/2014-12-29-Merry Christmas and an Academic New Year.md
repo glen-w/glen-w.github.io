@@ -2,18 +2,18 @@
 layout: post
 title: "Merry Christmas and an Academic New Year"
 date: 2014-12-29
-description: 
-tags: ['baking', 'Christmas', 'doctors', 'economics', 'entheogens', 'Lebkuchen', 'parasites', 'reindeer', 'Rudolph', 'Santa', 'spices']
-categories: ['Academic Humour', 'Guardian Blog', 'Misc.']
+description:
+tags: ["baking", "Christmas", "doctors", "economics", "entheogens", "Lebkuchen", "parasites", "reindeer", "Rudolph", "Santa", "spices"]
+categories: ["Academic Humour", "Guardian Blog", "Misc."]
 ---
 
-*This post originally appeared on my Guardian Higher Education blog.*
+_This post originally appeared on my Guardian Higher Education blog._
 
 Merry Christmas (REF is over). Hopefully you can breathe a sigh of relief and ease into a nice relaxing Christmas break. Or, if like me you have a long list of papers to finish, I hope this post will at least bring you a little bit of holiday cheer.
 
 One of my favourite ways to get into the holiday mood is to bake something Christmassy; there is nothing quite like the smell of nutmeg, cinnamon and cloves filling your house. As well as reminding you of Christmases past, it turns out that these spices produce chemicals similar to amphetamines when baked, potentially acting as a natural mood enhancer.
 
-Once you are high on Lebkuchen, you are ready to put your feet up and sink into some Christmas-themed research. Highlights include *[Will climate change kill Santa Claus?](https://www.academia.edu/1170607/Will_climate_change_kill_Santa_Claus_The_potential_impacts_of_climate_change_on_place_competition)*, on the potential decline of Santa-themed tourism, and a rigorous analysis of 344 letters to Santa. Though kids ask for an average of seven gifts per letter, the jury is still out on whether or not gift giving is ultimately welfare enhancing.
+Once you are high on Lebkuchen, you are ready to put your feet up and sink into some Christmas-themed research. Highlights include _[Will climate change kill Santa Claus?](https://www.academia.edu/1170607/Will_climate_change_kill_Santa_Claus_The_potential_impacts_of_climate_change_on_place_competition)_, on the potential decline of Santa-themed tourism, and a rigorous analysis of 344 letters to Santa. Though kids ask for an average of seven gifts per letter, the jury is still out on whether or not gift giving is ultimately welfare enhancing.
 
 While kids may love his gift-giving powers, this study shows that they are pretty ambivalent about actually meeting Santa in person. The facial expressions of children queuing to see Santa in a shopping centre were compared with a scale used to measure pain in medical settings. Of 300 children assessed, 247 were deemed “indifferent” to the prospect of meeting the mythical bearded man, while 47 were “hesitant”. By contrast, most of the accompanying adults wore “exhilarated” expressions, perhaps as a result of overenthusiastic attempts to get the kids to give a damn.
 
@@ -28,7 +28,9 @@ Speaking of Rudolph, the chemists may be interested to learn of two chemicals, r
 An excellent contribution to the Christmas literature came this year from Laura Birg and Anna Goeddeke. Their comprehensive review of Christmas economics highlights some interesting trends: the US stock market surges in the pre-holiday period, though this effect is decreasing over time (in New Zealand the effect is increasing); alcohol consumption and related accidents and deaths spike during the holidays, though suicides decrease; and the number of people dying of cardiovascular diseases increases markedly, though the exact reasons for this are unclear.
 
 Women do most of the Christmas shopping, men are happier, and more kids are conceived – no causal link has been established between these three observations.
+
 ## The week on Twitter
+
 The academic Twittersphere has been particularly full of Christmas cheer this week. The hashtag #XmasSongPapers is being used to reframe famous Christmas song titles as academic papers:
 
 > MacGowan & MacColl (1987) 'Alcohol in domestic disputes: an ethnography of Irish migrants in New York' MT [@sadieboniface](https://twitter.com/sadieboniface) [#XmasSongPapers](https://twitter.com/hashtag/XmasSongPapers?src=hash)
@@ -39,8 +41,7 @@ The academic Twittersphere has been particularly full of Christmas cheer this we
 
 — Stephen Etheridge (@Gtrombone) [December 18, 2014](https://twitter.com/Gtrombone/status/545629064682541056)
 
-> 
-Geldof et al (1984) Awareness of Christian celebrations in the context of food shortages on the African continent [#XmasSongPapers](https://twitter.com/hashtag/XmasSongPapers?src=hash)
+> Geldof et al (1984) Awareness of Christian celebrations in the context of food shortages on the African continent [#XmasSongPapers](https://twitter.com/hashtag/XmasSongPapers?src=hash)
 
 — John Canning (@johngcanning) [December 16, 2014](https://twitter.com/johngcanning/status/544978206952943616)
 
@@ -50,8 +51,7 @@ Meanwhile, a handful of creative academics have been converting their left over 
 
 — Hanneke Meijer (@DrHanneke) [December 9, 2014](https://twitter.com/DrHanneke/status/542293855547453440)
 
-> 
-[@AcademiaObscura](https://twitter.com/AcademiaObscura) Library [#draftflakes](https://twitter.com/hashtag/draftflakes?src=hash) tree version pic.twitter.com/6jKinznn21
+> [@AcademiaObscura](https://twitter.com/AcademiaObscura) Library [#draftflakes](https://twitter.com/hashtag/draftflakes?src=hash) tree version pic.twitter.com/6jKinznn21
 
 — Katie T (@bookslinger) [December 15, 2014](https://twitter.com/bookslinger/status/544633346618585088)
 

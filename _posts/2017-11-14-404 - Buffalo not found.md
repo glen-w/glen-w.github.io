@@ -2,9 +2,9 @@
 layout: post
 title: "404 - Buffalo not found"
 date: 2017-11-14
-description: 
-tags: 
-categories: ['Academia Obscura']
+description:
+tags:
+categories: ["Academia Obscura"]
 ---
 
 [![](../assets/img/posts/171114_404_-_Buffalo_not_found_02.jpeg)]()

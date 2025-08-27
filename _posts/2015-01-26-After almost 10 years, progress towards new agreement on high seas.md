@@ -2,9 +2,9 @@
 layout: post
 title: "After almost 10 years, progress towards new agreement on high seas"
 date: 2015-01-26
-description: 
-tags: 
-categories: ['BBNJ', 'International', 'Marine Governance']
+description:
+tags:
+categories: ["BBNJ", "International", "Marine Governance"]
 ---
 
 [![UN](http://www.glenwright.net/wp-content/uploads/2015/01/B708joTCIAAVPKX-300x168.jpg)](http://www.glenwright.net/wp-content/uploads/2015/01/B708joTCIAAVPKX.jpg)

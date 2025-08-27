@@ -2,12 +2,12 @@
 layout: post
 title: "Male, Mad and Muddleheaded! The portrayal of academics in kids books"
 date: 2015-07-24
-description: 
-tags: ['children', 'digitisation', 'kids books', 'libraries', 'side projects']
-categories: ['Crazy Research']
+description:
+tags: ["children", "digitisation", "kids books", "libraries", "side projects"]
+categories: ["Crazy Research"]
 ---
 
-*[*](../assets/img/posts/150724_Male_Mad_and_Muddleheaded_The_portrayal_of_academi_02.jpg)Melissa Terras is Director of the Centre for Digital Humanities and a Professor of Digital Humanities at University College London (UCL). **She is also an expert on the portrayal of academics in kids’ books, having meticulously analysed over 200 titles. **You can check out the project here, and follow Melissa on twitter [@melissaterras](https://twitter.com/melissaterras). **Check out the interview with Melissa here.*
+_[_](../assets/img/posts/150724_Male_Mad_and_Muddleheaded_The_portrayal_of_academi_02.jpg)Melissa Terras is Director of the Centre for Digital Humanities and a Professor of Digital Humanities at University College London (UCL). **She is also an expert on the portrayal of academics in kids’ books, having meticulously analysed over 200 titles. **You can check out the project here, and follow Melissa on twitter [@melissaterras](https://twitter.com/melissaterras). \*_Check out the interview with Melissa here._
 
 Like many academics, I love books. Like many book-loving parents, I’m keen to share that love with my young children. Two years ago, I chanced upon two different professors in children’s books, in quick succession. Wouldn’t it be a fun project, I thought, to see how academics, and universities, appear in children’s illustrated books? This would function both as an excuse to buy more books (we do live in a golden age of second hand books, cheaply delivered to your front door) and to explain to my kids – now five and a half, and twins of three – what Mummy Actually Does.
 
@@ -15,7 +15,7 @@ Like many academics, I love books. Like many book-loving parents, I’m keen to 
 
 It turns out it’s hard to search just for children’s books, and picture books, in library catalogues, but I combed through various electronic library resources, as well as Amazon, eBay, LibraryThing, and Abe, to dig up source material. I began to obsessively search the bookshelves of kids books in friend’s houses, and doctors and dentist and hospital waiting rooms, whilst also keeping on the look out on our regular visits to our local library: often academics appear in books without being named in the title, so don't turn up easily via electronic searches.
 
-Parking my finds on a devoted Tumblr which was shared on social media, friends, family members, and total strangers tweeted, facebooked, and emailed me to suggest additions. People sidled up to me after invited guest lectures to whisper “I have a good professor for you…” Two years on, I’ve no doubt still not found all of the possible candidates, but new finds in my source material are becoming less frequent. 101 books (or individual books from a series*) and 108 academics, and a few specific mentions of university architecture and systems later, its time to look at the results from a survey of the representation of academics and academia in children’s picture books.
+Parking my finds on a devoted Tumblr which was shared on social media, friends, family members, and total strangers tweeted, facebooked, and emailed me to suggest additions. People sidled up to me after invited guest lectures to whisper “I have a good professor for you…” Two years on, I’ve no doubt still not found all of the possible candidates, but new finds in my source material are becoming less frequent. 101 books (or individual books from a series\*) and 108 academics, and a few specific mentions of university architecture and systems later, its time to look at the results from a survey of the representation of academics and academia in children’s picture books.
 
 **What are academics in children’s books like?**
 
@@ -43,7 +43,7 @@ There are some other fun trends to note. 46% of those humans featured are bald (
 
 [![attire](../assets/img/posts/150724_Male_Mad_and_Muddleheaded_The_portrayal_of_academi_04.png)](../assets/img/posts/150724_Male_Mad_and_Muddleheaded_The_portrayal_of_academi_04.png)
 
-Labcoats, suits (but not if you are female!) or safari suits (but not if you are female!) are the academic uniform du jour*.
+Labcoats, suits (but not if you are female!) or safari suits (but not if you are female!) are the academic uniform du jour\*.
 
 The names given to the academics are telling, with the majority being less than complimentary: Professor Dinglebat, Professor P. Brain, Professor Blabbermouth, Professor Bumblebrain, ProfessorMuddlehead, Professor Hogwash, Professor Bumble, Professor Dumkopf, Professor Nutter, and two different Professor Potts. There is the odd professor with a name that alludes to intelligence: Professor I.Q, Professor Inkling, Professor Wiseman, but those are in the minority.
 
@@ -59,7 +59,7 @@ What about the universities themselves? They dont feature as often as the academ
 
 **Why is this relevant?**
 
-Obviously, this has been a bit of a fun project. Given the lengths gone to to gather this corpus of children’s books, it is unlikely that any individual child would happen across all of the books noted. It’s actually interesting to think how few children’s picture or illustrated books feature academics or academia (at time of writing, Amazon lists 1.3 million books in its children’s section, and 101* different books (or books series) were identified in this project). While no doubt there are other books out there not on the list, this has been a darn good crack at finding as many as possible, not only in the English Language. Professors and academic Doctors in children’s books are a useful device on occasion, but really are not terribly frequent in the scheme of things.
+Obviously, this has been a bit of a fun project. Given the lengths gone to to gather this corpus of children’s books, it is unlikely that any individual child would happen across all of the books noted. It’s actually interesting to think how few children’s picture or illustrated books feature academics or academia (at time of writing, Amazon lists 1.3 million books in its children’s section, and 101\* different books (or books series) were identified in this project). While no doubt there are other books out there not on the list, this has been a darn good crack at finding as many as possible, not only in the English Language. Professors and academic Doctors in children’s books are a useful device on occasion, but really are not terribly frequent in the scheme of things.
 
 That said, the difference in gender, and how women and men are represented, and the underepresentation of those who are anything but white in children’s books about academia, is shocking, especially given that almost all scientific fields are still dominated by men, and women are frequently discriminated against and although 46% of all PhD graduates in the EU are female, only 1/3 of senior research posts are occupied by women.
 
@@ -81,4 +81,4 @@ In this age of proving academic “impact”, it might be not so bad for us to b
 
 I mean, who would spend two years gathering a corpus of kids lit for fun, and then count how many beards the people in the books had. Weirdos. Weirdos, the lot of them.
 
-*This post originally appeared on LSE's Impact of Social Sciences blog and is reposted with minor formatting/spacing modifications under the Creative Commons Attribution 3.0 Unported License (and with permission of the author).*
+_This post originally appeared on LSE's Impact of Social Sciences blog and is reposted with minor formatting/spacing modifications under the Creative Commons Attribution 3.0 Unported License (and with permission of the author)._

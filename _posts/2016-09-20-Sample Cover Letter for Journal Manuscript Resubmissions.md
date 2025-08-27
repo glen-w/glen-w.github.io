@@ -2,9 +2,9 @@
 layout: post
 title: "Sample Cover Letter for Journal Manuscript Resubmissions"
 date: 2016-09-20
-description: 
-tags: ['anger', 'funny', 'journals', 'letters', 'peer review', 'reviewer 3']
-categories: ['Academic Humour', 'Adjuncts (guest posts)', 'Journals', 'Parody']
+description:
+tags: ["anger", "funny", "journals", "letters", "peer review", "reviewer 3"]
+categories: ["Academic Humour", "Adjuncts (guest posts)", "Journals", "Parody"]
 ---
 
 By Roy F. Baumeister

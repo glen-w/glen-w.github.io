@@ -2,9 +2,9 @@
 layout: post
 title: "Top 10 Honest Job Ads"
 date: 2014-08-05
-description: 
-tags: 
-categories: ['Academia Obscura']
+description:
+tags:
+categories: ["Academia Obscura"]
 ---
 
 Imposter syndrome

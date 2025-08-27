@@ -2,9 +2,9 @@
 layout: post
 title: "Top 10 hashtags for academics"
 date: 2014-08-28
-description: 
-tags: 
-categories: ['Academia Obscura']
+description:
+tags:
+categories: ["Academia Obscura"]
 ---
 
 If you are new to twitter, or even if you've been around a while, the wave of content can be overwhelming. To get the most out of twitter,

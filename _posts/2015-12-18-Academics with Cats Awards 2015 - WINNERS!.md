@@ -2,9 +2,9 @@
 layout: post
 title: "Academics with Cats Awards 2015 - WINNERS!"
 date: 2015-12-18
-description: 
-tags: ['cats']
-categories: ['Misc.']
+description:
+tags: ["cats"]
+categories: ["Misc."]
 ---
 
 [![1. Best in Show - KirstyLiddiard1](../assets/img/posts/151218_Academics_with_Cats_Awards_2015_-_WINNERS_40.jpg)](../assets/img/posts/151218_Academics_with_Cats_Awards_2015_-_WINNERS_27.jpg)
@@ -104,8 +104,8 @@ Deborah is an Associate Professor of Medicine at Duke University and co-winner o
 **@Nadine_Muller
 Nadine is a Senior Lecturer in English Literature, a BBC Radio 3 New Generation Thinker, and an academic with both cats and dogs.
 
-**[![Cristina Rigutto](../assets/img/posts/161118_The_Third_Annual_Academics_with_Cats_Awards_04.jpg)](../assets/img/posts/161118_The_Third_Annual_Academics_with_Cats_Awards_07.jpg)****Cristina Rigutto
-**[@cristinarigutto
+**[![Cristina Rigutto](../assets/img/posts/161118_The_Third_Annual_Academics_with_Cats_Awards_04.jpg)](../assets/img/posts/161118_The_Third_Annual_Academics_with_Cats_Awards_07.jpg)\*\***Cristina Rigutto
+\*\*[@cristinarigutto
 ](https://twitter.com/cristinarigutto)Cristina is an avid golfer, Sci Comm expert, and tweeter. Her cat tweets @academichashcat.
 
 [![Camera 360](../assets/img/posts/161118_The_Third_Annual_Academics_with_Cats_Awards_01.jpg)](../assets/img/posts/161118_The_Third_Annual_Academics_with_Cats_Awards_11.jpg)**Glen Wright**

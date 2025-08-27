@@ -2,12 +2,28 @@
 layout: post
 title: "An Academic Guide to Love & Romance - Happy Valentine's Day!"
 date: 2015-02-14
-description: 
-tags: ['academic publishing', 'hashtags', 'heart', 'loneliness', 'love', 'neuroscience', 'orgasm', 'Rate My Professor', 'science', 'sex', 'sexology', 'socks', 'twitter', "Valentine's"]
-categories: ['Academic Humour', 'Guardian Blog']
+description:
+tags:
+  [
+    "academic publishing",
+    "hashtags",
+    "heart",
+    "loneliness",
+    "love",
+    "neuroscience",
+    "orgasm",
+    "Rate My Professor",
+    "science",
+    "sex",
+    "sexology",
+    "socks",
+    "twitter",
+    "Valentine's",
+  ]
+categories: ["Academic Humour", "Guardian Blog"]
 ---
 
-*This post originally appeared on the Guardian Higher Education Network.*
+_This post originally appeared on the Guardian Higher Education Network._
 
 Whether you find yourself alone this Valentine’s Day, or you just need some top tips on pleasing your partner, our guide to love is sure to help. So put down your pen, back away from the UCLA Loneliness Scale, and read on.
 
@@ -25,15 +41,15 @@ Even if you do find a mate and manage to live happily ever after in a blissful b
 
 The academic Twittersphere has been particularly amusing, if a little cynical, as Valentine’s Day approaches. The hashtag [how to ruin a date with an academic in five words](https://twitter.com/search?q=%23RuinADateWithAnAcademicInFiveWords&src=tyah) has academics pitching in with pithy comments on how not to wine and dine them:
 
-	- “How is your thesis going?” ([@JamesGrime](https://twitter.com/jamesgrime/statuses/565514294222405633))
-	- “Is that all you’ve published?” ([@BilbySummerhill](https://twitter.com/BilbySummerhill/status/555535987691249665))
-	- “Not a *real* doctor, though” ([@stephenkinsella](https://twitter.com/stephenkinsella/statuses/556555989710032898))
-	- “How do you pronounce hegemony?” ([@AcademicsSay](https://twitter.com/AcademicsSay/status/555707212086398976))
+    - “How is your thesis going?” ([@JamesGrime](https://twitter.com/jamesgrime/statuses/565514294222405633))
+    - “Is that all you’ve published?” ([@BilbySummerhill](https://twitter.com/BilbySummerhill/status/555535987691249665))
+    - “Not a *real* doctor, though” ([@stephenkinsella](https://twitter.com/stephenkinsella/statuses/556555989710032898))
+    - “How do you pronounce hegemony?” ([@AcademicsSay](https://twitter.com/AcademicsSay/status/555707212086398976))
 
 Others have used the occasion to have a dig at the broken model of academic publishing:
 
 > Roses are mine Violets are mine Everything you published is mine [#ElsevierValentines](https://twitter.com/hashtag/ElsevierValentines?src=hash)
-— Sylvain Deville (@DevilleSy) [February 10, 2015](https://twitter.com/DevilleSy/status/565123518191648769)
+> — Sylvain Deville (@DevilleSy) [February 10, 2015](https://twitter.com/DevilleSy/status/565123518191648769)
 
 #ScienceValentines is a little more warm and fuzzy, if asteroids and cold fusion are your cup of tea:
 

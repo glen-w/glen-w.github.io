@@ -2,9 +2,9 @@
 layout: post
 title: "The Third Annual Academics with Cats Awards 2016 - Winners!"
 date: 2016-12-15
-description: 
-tags: 
-categories: ['Misc.']
+description:
+tags:
+categories: ["Misc."]
 ---
 
 [![mikejonesmelb](../assets/img/posts/161215_The_Third_Annual_Academics_with_Cats_Awards_2016_-_02.jpg)](../assets/img/posts/161215_The_Third_Annual_Academics_with_Cats_Awards_2016_-_02.jpg)

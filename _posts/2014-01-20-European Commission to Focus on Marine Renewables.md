@@ -2,9 +2,9 @@
 layout: post
 title: "European Commission to Focus on Marine Renewables"
 date: 2014-01-20
-description: 
-tags: 
-categories: ['Uncategorized']
+description:
+tags:
+categories: ["Uncategorized"]
 ---
 
 The European Commission today announced an action plan for marine renewables, including the creation of an energy forum and strategic roadmap by 2016, and a European Industrial Initiative by 2020. The Communication on Ocean Energy was launched at a press conference hosted by The European Commissioner for Fisheries & Maritime Affairs, Maria Damanaki and the European Commissioner for Energy, Gunther Oettinger.

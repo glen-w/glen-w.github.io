@@ -2,12 +2,12 @@
 layout: post
 title: "The Workaholic and Academia: in defense of #AcaDowntime"
 date: 2015-07-31
-description: 
-tags: ['#AcaDowntime', 'family', 'feminism', 'mental health', 'privilege', 'self-care', 'work-life balance', 'workaholism']
-categories: ['Adjuncts (guest posts)', 'Surprisingly Helpful']
+description:
+tags: ["#AcaDowntime", "family", "feminism", "mental health", "privilege", "self-care", "work-life balance", "workaholism"]
+categories: ["Adjuncts (guest posts)", "Surprisingly Helpful"]
 ---
 
-*Gemma Aherne is a PhD candidate at Leeds Beckett University. She originally posted this piece on [her blog](https://plasticdollheads.wordpress.com/) following a debate about #AcaDowntime on twitter. It is reposted here with permission. You can follow Gemma on twitter [@princessjack](https://twitter.com/princessjack).*
+_Gemma Aherne is a PhD candidate at Leeds Beckett University. She originally posted this piece on [her blog](https://plasticdollheads.wordpress.com/) following a debate about #AcaDowntime on twitter. It is reposted here with permission. You can follow Gemma on twitter [@princessjack](https://twitter.com/princessjack)._
 
 [![palm](../assets/img/posts/150731_The_Workaholic_and_Academia_in_defense_of_AcaDownt_02.jpg)](../assets/img/posts/150731_The_Workaholic_and_Academia_in_defense_of_AcaDownt_01.jpg)
 

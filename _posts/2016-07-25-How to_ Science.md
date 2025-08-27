@@ -2,9 +2,9 @@
 layout: post
 title: "How to: Science"
 date: 2016-07-25
-description: 
-tags: 
-categories: ['Academia Obscura']
+description:
+tags:
+categories: ["Academia Obscura"]
 ---
 
 **1. NOT LIKE THIS...**

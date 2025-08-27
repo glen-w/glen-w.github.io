@@ -1,13 +1,14 @@
 ---
-layout: page 
-permalink: /roadmap/ 
-title: roadmap 
-#description: 
-#nav: false 
-#nav_order: 
+layout: page
+permalink: /roadmap/
+title: roadmap
+#description:
+#nav: false
+#nav_order:
 render_with_liquid: false #turned off so as to not break on render
 ---
-```markdown
+
+````markdown
 # Publications Tagging System - Project Roadmap
 
 ## 📚 Library
@@ -18,6 +19,7 @@ render_with_liquid: false #turned off so as to not break on render
 ### To-Do Items
 
 #### Processing Script Finalization
+
 - [ ] **Complete PDF processing automation** for new publications
 - [ ] **Implement automatic thumbnail generation** for publication previews
 - [ ] **Add metadata extraction** from PDFs (title, authors, abstract)
@@ -25,6 +27,7 @@ render_with_liquid: false #turned off so as to not break on render
 - [ ] **Test end-to-end workflow** with sample publications
 
 #### Zotero Presentations Cleanup
+
 - [ ] **Review and categorize** all presentation entries in Zotero
 - [ ] **Standardize presentation metadata** (conference names, dates, locations)
 - [ ] **Add consistent tags** for presentation types and topics
@@ -32,6 +35,7 @@ render_with_liquid: false #turned off so as to not break on render
 - [ ] **Export cleaned presentation data** to website structure
 
 #### Event Agenda Buttons
+
 - [ ] **Design agenda button components** for event pages
 - [ ] **Implement interactive agenda display** with expandable sections
 - [ ] **Add calendar integration** for event scheduling
@@ -39,11 +43,13 @@ render_with_liquid: false #turned off so as to not break on render
 - [ ] **Test agenda functionality** across different event types
 
 #### Content Export & Migration
+
 - [ ] **Export books from Goodreads/Google Books sheet** - Migrate reading list data
 - [ ] **Export old newsletters** - Archive and organize historical newsletter content
 - [ ] **Export old blog posts** - Migrate legacy blog content to current structure
 
 ### Implementation Timeline
+
 - **Week 1**: Processing script finalization
 - **Week 2**: Zotero presentations cleanup
 - **Week 3**: Event agenda button development
@@ -57,13 +63,15 @@ render_with_liquid: false #turned off so as to not break on render
 **Priority**: URGENT - Blocking publication workflow
 **Objective**: Automate the complete publication pipeline from Zotero export to website integration
 
-**Current Problem**: 
+**Current Problem**:
+
 - Zotero export only creates `papers.bib` file
 - PDFs are not automatically saved to website structure
 - Missing tags/keywords for filtering
 - No automatic thumbnail generation for publication previews
 
 **Target State**: Fully automated pipeline that:
+
 1. Exports from Zotero with complete metadata
 2. Adds structured tags to all bib entries
 3. Downloads and organizes PDFs in website directory
@@ -73,30 +81,35 @@ render_with_liquid: false #turned off so as to not break on render
 ### Zotero Postprocessing Implementation Steps
 
 #### Phase 1: Zotero Export Enhancement (Week 1)
+
 - [ ] **Configure Zotero Better BibTeX plugin** for enhanced export
 - [ ] **Set up custom export format** with structured tags
 - [ ] **Create tag taxonomy** for consistent categorization
 - [ ] **Test export workflow** with sample publications
 
 #### Phase 2: PDF Management System (Week 1-2)
+
 - [ ] **Create PDF download script** that processes Zotero export
 - [ ] **Set up directory structure** for organized PDF storage
 - [ ] **Implement PDF naming convention** for consistency
 - [ ] **Add PDF metadata extraction** for additional information
 
 #### Phase 3: Tagging Automation (Week 2)
+
 - [ ] **Develop tag assignment logic** based on publication content
 - [ ] **Create tag validation system** to ensure consistency
 - [ ] **Implement bulk tagging** for existing publications
 - [ ] **Set up tag maintenance workflow** for new publications
 
 #### Phase 4: Thumbnail Generation (Week 2-3)
+
 - [ ] **Create PDF thumbnail generator** using first page
 - [ ] **Implement image optimization** for web display
 - [ ] **Set up thumbnail storage** in assets structure
 - [ ] **Test thumbnail integration** with publication pages
 
 #### Phase 5: Integration & Testing (Week 3)
+
 - [ ] **Test complete pipeline** end-to-end
 - [ ] **Validate all links** and file references
 - [ ] **Performance testing** for large publication sets
@@ -105,12 +118,14 @@ render_with_liquid: false #turned off so as to not break on render
 ### Technical Requirements
 
 #### Zotero Configuration
+
 - Better BibTeX plugin installation
 - Custom export format with tags
 - PDF attachment handling
 - Metadata completeness validation
 
 #### Scripting Requirements
+
 - Python script for PDF processing
 - Tag management and validation
 - Thumbnail generation (PIL/Pillow)
@@ -123,14 +138,16 @@ render_with_liquid: false #turned off so as to not break on render
 **Priority**: HIGH - Improves publication metadata quality
 **Objective**: Automatically enhance bibliography entries with rich metadata from academic databases
 
-**Current State**: 
+**Current State**:
+
 - Basic PDF processing and thumbnail generation working
 - DOI finding integrated into paper processing pipeline
 - Automatic backup system implemented
 
 **Target State**: Enhanced pipeline that automatically populates:
+
 1. **Abstracts** from Crossref/Semantic Scholar
-2. **Keywords** from academic databases  
+2. **Keywords** from academic databases
 3. **ISSN/ISBN** from Crossref
 4. **Citation counts** and impact metrics
 5. **Enhanced author information** and ORCIDs
@@ -138,6 +155,7 @@ render_with_liquid: false #turned off so as to not break on render
 ### Implementation Phases
 
 #### Phase 1: Core Metadata Enhancement ✅ COMPLETED
+
 - [x] **DOI finding integration** - Integrated into paper processing script
 - [x] **Abstract extraction** - From Crossref API
 - [x] **Keyword extraction** - From Crossref subject fields
@@ -147,6 +165,7 @@ render_with_liquid: false #turned off so as to not break on render
 - [x] **Rate limiting** - Respects API limits (Crossref: 1s, Semantic Scholar: 0.5s)
 
 #### Phase 2: Citation Metrics & Author Info (Next)
+
 - [ ] **Citation counts** - From Semantic Scholar API
 - [ ] **Altmetric scores** - Social media and news mentions
 - [ ] **ORCID integration** - Author identifier lookup
@@ -154,6 +173,7 @@ render_with_liquid: false #turned off so as to not break on render
 - [ ] **Co-author networks** - Collaboration mapping
 
 #### Phase 3: Advanced Classification (Future)
+
 - [ ] **Subject classification** - Academic taxonomy mapping
 - [ ] **Research methodology** - Method classification
 - [ ] **Geographic scope** - Regional coverage analysis
@@ -163,11 +183,13 @@ render_with_liquid: false #turned off so as to not break on render
 ### Technical Implementation
 
 #### API Integration
+
 - **Crossref API**: Primary source for published papers (free, no auth)
 - **Semantic Scholar API**: Secondary source for citations and altmetrics (free, no auth)
 - **Rate limiting**: Prevents API blocking and ensures reliable operation
 
 #### Metadata Fields Added
+
 ```bibtex
 abstract = {Paper abstract from academic databases}
 keywords = {Automatically extracted subject keywords}
@@ -176,8 +198,10 @@ isbn = {International Standard Book Number}
 citation_count = {Number of academic citations}
 doi_updated = {true}  # Flag for newly added DOIs
 ```
+````
 
 #### Script Usage
+
 ```bash
 # Run with metadata enhancement (default)
 python3 process_papers.py
@@ -196,6 +220,7 @@ python3 process_papers.py --no-backup --keep-backups 10
 ```
 
 ### Benefits
+
 - **Richer metadata**: Abstracts and keywords improve searchability
 - **Standard identifiers**: ISSN/ISBN for proper journal/book identification
 - **Impact tracking**: Citation counts show research influence
@@ -203,6 +228,7 @@ python3 process_papers.py --no-backup --keep-backups 10
 - **Data quality**: Consistent formatting and completeness
 
 #### Directory Structure
+
 ```
 assets/
 ├── pdf/
@@ -218,11 +244,12 @@ assets/
 ```
 
 #### Tag Structure
+
 ```yaml
 # Publication Type
 type: [journal_article, conference_paper, report, book_chapter, working_paper]
 
-# Research Area  
+# Research Area
 topic: [ocean, energy, climate, policy, governance, technology]
 
 # Author Role
@@ -252,36 +279,42 @@ method: [qualitative, quantitative, mixed, review, case_study]
 ## Project Structure
 
 ### Phase 1: Foundation & Planning (Week 1)
+
 - [ ] Requirements finalization
 - [ ] Tag taxonomy design
 - [ ] Technical architecture planning
 - [ ] Migration strategy development
 
 ### Phase 2: Data Structure & Configuration (Week 2)
+
 - [ ] Extend BibTeX structure
 - [ ] Update configuration files
 - [ ] Create tag management system
 - [ ] Sample data preparation
 
 ### Phase 3: Core Functionality (Weeks 3-4)
+
 - [ ] Tag parsing and extraction
 - [ ] Filtering engine development
 - [ ] Search integration
 - [ ] URL state management
 
 ### Phase 4: User Interface (Weeks 5-6)
+
 - [ ] Tag cloud component
 - [ ] Filter controls
 - [ ] Active tag display
 - [ ] Responsive design
 
 ### Phase 5: Testing & Optimization (Week 7)
+
 - [ ] Functionality testing
 - [ ] Performance optimization
 - [ ] Cross-browser compatibility
 - [ ] User experience refinement
 
 ### Phase 6: Documentation & Deployment (Week 8)
+
 - [ ] User documentation
 - [ ] Technical documentation
 - [ ] Migration guide
@@ -294,39 +327,41 @@ method: [qualitative, quantitative, mixed, review, case_study]
 ### 1. Tag Taxonomy Design
 
 #### 1.1 Tag Categories
+
 ```yaml
 # Three main tag categories with specific values:
 
 types:
-  - journal_article      # Peer-reviewed journal publications
-  - submission          # Submitted manuscripts
-  - report             # Policy reports, technical reports
-  - blog               # Blog posts, opinion pieces
-  - presentation       # Conference presentations, talks
-  - workshop           # Workshop materials, proceedings
+  - journal_article # Peer-reviewed journal publications
+  - submission # Submitted manuscripts
+  - report # Policy reports, technical reports
+  - blog # Blog posts, opinion pieces
+  - presentation # Conference presentations, talks
+  - workshop # Workshop materials, proceedings
 
 roles:
-  - lead_author        # Primary author responsibility
-  - co_author          # Contributing author
-  - editor             # Editorial role
-  - facilitator        # Workshop/conference facilitation
-  - speaker            # Presentation delivery
-  - group_author       # Part of collaborative authorship
+  - lead_author # Primary author responsibility
+  - co_author # Contributing author
+  - editor # Editorial role
+  - facilitator # Workshop/conference facilitation
+  - speaker # Presentation delivery
+  - group_author # Part of collaborative authorship
 
 topics:
-  - ocean              # Marine/ocean-related research
-  - energy             # Energy policy and technology
-  - academia           # Academic research and policy
-  - climate            # Climate change and policy
-  - law                # Legal and regulatory aspects
-  - policy             # Policy analysis and recommendations
-  - governance         # Governance and institutional aspects
-  - technology         # Technology and innovation
-  - sustainability     # Sustainable development
-  - international      # International relations and cooperation
+  - ocean # Marine/ocean-related research
+  - energy # Energy policy and technology
+  - academia # Academic research and policy
+  - climate # Climate change and policy
+  - law # Legal and regulatory aspects
+  - policy # Policy analysis and recommendations
+  - governance # Governance and institutional aspects
+  - technology # Technology and innovation
+  - sustainability # Sustainable development
+  - international # International relations and cooperation
 ```
 
 #### 1.2 Tag Naming Conventions
+
 - Use snake_case for all tag values
 - Keep tags concise but descriptive
 - Avoid abbreviations unless universally understood
@@ -335,6 +370,7 @@ topics:
 ### 2. Technical Architecture
 
 #### 2.1 Data Flow
+
 ```
 papers.bib → Jekyll Scholar → Liquid Templates → JavaScript Engine → DOM Updates
      ↓              ↓              ↓              ↓              ↓
@@ -342,6 +378,7 @@ Tag Fields → Tag Extraction → Tag Rendering → Filter Logic → Filtered Di
 ```
 
 #### 2.2 Component Structure
+
 ```
 bib_search.liquid (Main Interface)
 ├── tag_cloud.liquid (Tag Display)
@@ -359,6 +396,7 @@ bib_search.liquid (Main Interface)
 #### 3.1 BibTeX Structure Extension
 
 **Current Structure:**
+
 ```bibtex
 @article{Example2024,
   title = {Example Title},
@@ -369,6 +407,7 @@ bib_search.liquid (Main Interface)
 ```
 
 **Extended Structure:**
+
 ```bibtex
 @article{Example2024,
   title = {Example Title},
@@ -383,12 +422,13 @@ bib_search.liquid (Main Interface)
 
 #### 3.2 Configuration Updates
 
-**Add to _config.yml:**
+**Add to \_config.yml:**
+
 ```yaml
 # Publication Tag System Configuration
 publication_tags:
   enabled: true
-  
+
   # Tag categories and their display names
   categories:
     types:
@@ -400,14 +440,14 @@ publication_tags:
     topics:
       label: "Research Topics"
       values: ["ocean", "energy", "academia", "climate", "law", "policy", "governance", "technology", "sustainability", "international"]
-  
+
   # Display settings
   display:
     show_tag_cloud: true
     show_active_tags: true
     max_tags_per_category: 10
     tag_cloud_style: "cloud" # cloud, list, or pills
-  
+
   # Filtering behavior
   filtering:
     default_logic: "AND" # AND or OR between different categories
@@ -417,20 +457,21 @@ publication_tags:
 
 #### 3.3 Liquid Template Updates
 
-**Update _includes/bib_search.liquid:**
+**Update \_includes/bib_search.liquid:**
+
 ```liquid
 {% if site.publication_tags.enabled %}
   <div class="publication-tag-system">
     <!-- Tag Cloud -->
     {% include tag_cloud.liquid %}
-    
+
     <!-- Search and Filter Controls -->
     {% include filter_controls.liquid %}
-    
+
     <!-- Active Tags Display -->
     {% include active_tags.liquid %}
   </div>
-  
+
   <!-- Enhanced Search Script -->
   <script src="{{ '/assets/js/enhanced_bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
 {% else %}
@@ -439,11 +480,12 @@ publication_tags:
 {% endif %}
 ```
 
-**Create _includes/tag_cloud.liquid:**
+**Create \_includes/tag_cloud.liquid:**
+
 ```liquid
 <div class="tag-cloud-container">
   <h3>Filter by Tags</h3>
-  
+
   {% for category in site.publication_tags.categories %}
     <div class="tag-category">
       <h4>{{ category[1].label }}</h4>
@@ -462,11 +504,12 @@ publication_tags:
 #### 3.4 JavaScript Implementation
 
 **Create assets/js/enhanced_bibsearch.js:**
+
 ```javascript
-import { TagManager } from './modules/TagManager.js';
-import { FilterEngine } from './modules/FilterEngine.js';
-import { URLManager } from './modules/URLManager.js';
-import { UIManager } from './modules/UIManager.js';
+import { TagManager } from "./modules/TagManager.js";
+import { FilterEngine } from "./modules/FilterEngine.js";
+import { URLManager } from "./modules/URLManager.js";
+import { UIManager } from "./modules/UIManager.js";
 
 class EnhancedBibSearch {
   constructor() {
@@ -474,74 +517,77 @@ class EnhancedBibSearch {
     this.filterEngine = new FilterEngine();
     this.urlManager = new URLManager();
     this.uiManager = new UIManager();
-    
+
     this.initialize();
   }
-  
+
   initialize() {
     this.setupEventListeners();
     this.loadInitialState();
     this.renderTagCloud();
   }
-  
+
   setupEventListeners() {
     // Tag button clicks
-    document.addEventListener('click', (e) => {
-      if (e.target.classList.contains('tag-btn')) {
+    document.addEventListener("click", (e) => {
+      if (e.target.classList.contains("tag-btn")) {
         this.handleTagClick(e.target);
       }
     });
-    
+
     // Search input
-    const searchInput = document.getElementById('enhanced-bibsearch');
+    const searchInput = document.getElementById("enhanced-bibsearch");
     if (searchInput) {
-      searchInput.addEventListener('input', this.debounce((e) => {
-        this.handleSearchInput(e.target.value);
-      }, 300));
+      searchInput.addEventListener(
+        "input",
+        this.debounce((e) => {
+          this.handleSearchInput(e.target.value);
+        }, 300)
+      );
     }
-    
+
     // Clear button
-    const clearBtn = document.getElementById('clear-filters');
+    const clearBtn = document.getElementById("clear-filters");
     if (clearBtn) {
-      clearBtn.addEventListener('click', () => this.clearAllFilters());
+      clearBtn.addEventListener("click", () => this.clearAllFilters());
     }
   }
-  
+
   handleTagClick(tagButton) {
     const category = tagButton.dataset.category;
     const tag = tagButton.dataset.tag;
-    
+
     this.tagManager.toggleTag(category, tag);
     this.updateFilters();
     this.updateUI();
   }
-  
+
   handleSearchInput(searchTerm) {
     this.filterEngine.setTextSearch(searchTerm);
     this.updateFilters();
   }
-  
+
   updateFilters() {
     const activeTags = this.tagManager.getActiveTags();
     const searchTerm = this.filterEngine.getTextSearch();
-    
+
     this.filterEngine.applyFilters(activeTags, searchTerm);
     this.urlManager.updateURL(activeTags, searchTerm);
   }
-  
+
   updateUI() {
     this.uiManager.updateTagCloud(this.tagManager.getActiveTags());
     this.uiManager.updateActiveTagsDisplay(this.tagManager.getActiveTags());
     this.uiManager.updatePublicationCount(this.filterEngine.getVisibleCount());
   }
-  
+
   clearAllFilters() {
     this.tagManager.clearAllTags();
     this.filterEngine.clearTextSearch();
     this.updateFilters();
     this.updateUI();
   }
-  
+
   debounce(func, wait) {
     let timeout;
     return function executedFunction(...args) {
@@ -556,7 +602,7 @@ class EnhancedBibSearch {
 }
 
 // Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   new EnhancedBibSearch();
 });
 ```
@@ -564,16 +610,19 @@ document.addEventListener('DOMContentLoaded', () => {
 ### 4. Migration Strategy
 
 #### 4.1 Phase 1: Preparation
+
 - [ ] Backup current `papers.bib`
 - [ ] Create tag mapping for existing publications
 - [ ] Test tag parsing with sample entries
 
 #### 4.2 Phase 2: Gradual Rollout
+
 - [ ] Start with 10-20 most important publications
 - [ ] Add tags to new publications as they're added
 - [ ] Gradually tag remaining publications over time
 
 #### 4.3 Phase 3: Validation
+
 - [ ] Test filtering with tagged publications
 - [ ] Verify search integration works correctly
 - [ ] Check URL state management
@@ -581,18 +630,21 @@ document.addEventListener('DOMContentLoaded', () => {
 ### 5. Testing Strategy
 
 #### 5.1 Unit Testing
+
 - [ ] Tag parsing and validation
 - [ ] Filter logic correctness
 - [ ] URL state management
 - [ ] Search integration
 
 #### 5.2 Integration Testing
+
 - [ ] End-to-end filtering workflows
 - [ ] Cross-browser compatibility
 - [ ] Mobile responsiveness
 - [ ] Performance under load
 
 #### 5.3 User Testing
+
 - [ ] Tag discovery and usage
 - [ ] Filter combination logic
 - [ ] Search and tag integration
@@ -601,12 +653,14 @@ document.addEventListener('DOMContentLoaded', () => {
 ### 6. Performance Considerations
 
 #### 6.1 Optimization Strategies
+
 - **Lazy Loading**: Load tag data only when needed
 - **Debounced Search**: Prevent excessive API calls
 - **Caching**: Cache parsed tag data in localStorage
 - **Virtual Scrolling**: For large publication lists
 
 #### 6.2 Monitoring
+
 - **Search Performance**: Track filter response times
 - **Memory Usage**: Monitor tag data memory footprint
 - **User Behavior**: Track most used tag combinations
@@ -614,12 +668,14 @@ document.addEventListener('DOMContentLoaded', () => {
 ### 7. Future Enhancements
 
 #### 7.1 Advanced Features
+
 - **Tag Suggestions**: AI-powered tag recommendations
 - **Tag Analytics**: Usage statistics and trends
 - **Export Functionality**: Filtered publication lists
 - **Social Sharing**: Share filtered publication views
 
 #### 7.2 Integration Opportunities
+
 - **Academic APIs**: Integration with citation databases
 - **Social Media**: Share publications with relevant tags
 - **Newsletter Integration**: Tag-based publication digests
@@ -629,18 +685,21 @@ document.addEventListener('DOMContentLoaded', () => {
 ## Success Metrics
 
 ### Technical Metrics
+
 - [ ] Filter response time < 100ms
 - [ ] 100% cross-browser compatibility
 - [ ] Mobile performance score > 90
 - [ ] Zero JavaScript errors in production
 
 ### User Experience Metrics
+
 - [ ] Tag usage rate > 60% of visitors
 - [ ] Average filter combinations > 2 per session
 - [ ] Search + tag combination usage > 40%
 - [ ] User satisfaction score > 4.5/5
 
 ### Content Metrics
+
 - [ ] 80% of publications tagged within 3 months
 - [ ] Tag coverage across all categories > 70%
 - [ ] Consistent tag usage across similar publications
@@ -650,35 +709,36 @@ document.addEventListener('DOMContentLoaded', () => {
 ## Risk Assessment & Mitigation
 
 ### High Risk
+
 - **Performance Impact**: Large publication lists may slow down filtering
-  - *Mitigation*: Implement virtual scrolling and lazy loading
-  
+  - _Mitigation_: Implement virtual scrolling and lazy loading
 - **Browser Compatibility**: Complex JavaScript may not work in older browsers
-  - *Mitigation*: Progressive enhancement and fallback support
+  - _Mitigation_: Progressive enhancement and fallback support
 
 ### Medium Risk
+
 - **Tag Inconsistency**: Users may apply tags inconsistently
-  - *Mitigation*: Tag validation and suggestion system
-  
+  - _Mitigation_: Tag validation and suggestion system
 - **Migration Complexity**: Large number of existing publications
-  - *Mitigation*: Gradual rollout and automated tagging tools
+  - _Mitigation_: Gradual rollout and automated tagging tools
 
 ### Low Risk
+
 - **User Adoption**: Users may not immediately understand the system
-  - *Mitigation*: Clear documentation and onboarding
+  - _Mitigation_: Clear documentation and onboarding
 
 ---
 
 ## Timeline Summary
 
-| Week | Phase | Deliverables | Dependencies |
-|------|-------|--------------|--------------|
-| 1 | Foundation | Requirements, Architecture, Migration Plan | None |
-| 2 | Data Structure | Extended BibTeX, Configuration, Sample Data | Week 1 completion |
-| 3-4 | Core Functionality | Tag Engine, Filtering, Search Integration | Week 2 completion |
-| 5-6 | User Interface | Tag Cloud, Controls, Responsive Design | Week 4 completion |
-| 7 | Testing | Functionality, Performance, UX Testing | Week 6 completion |
-| 8 | Documentation | User Guides, Technical Docs, Deployment | Week 7 completion |
+| Week | Phase              | Deliverables                                | Dependencies      |
+| ---- | ------------------ | ------------------------------------------- | ----------------- |
+| 1    | Foundation         | Requirements, Architecture, Migration Plan  | None              |
+| 2    | Data Structure     | Extended BibTeX, Configuration, Sample Data | Week 1 completion |
+| 3-4  | Core Functionality | Tag Engine, Filtering, Search Integration   | Week 2 completion |
+| 5-6  | User Interface     | Tag Cloud, Controls, Responsive Design      | Week 4 completion |
+| 7    | Testing            | Functionality, Performance, UX Testing      | Week 6 completion |
+| 8    | Documentation      | User Guides, Technical Docs, Deployment     | Week 7 completion |
 
 **Total Duration**: 8 weeks
 **Team Size**: 1-2 developers
@@ -689,11 +749,13 @@ document.addEventListener('DOMContentLoaded', () => {
 ## Next Steps
 
 1. **Immediate Actions** (This Week)
+
    - [ ] Review and approve this roadmap
    - [ ] Finalize tag taxonomy
    - [ ] Set up development environment
 
 2. **Week 1 Deliverables**
+
    - [ ] Tag taxonomy document
    - [ ] Technical architecture diagram
    - [ ] Migration strategy document
@@ -710,10 +772,12 @@ document.addEventListener('DOMContentLoaded', () => {
 ### Phase 1: Configuration Setup (30 minutes)
 
 #### Step 1.1: Enable Jekyll Archives for Publications
+
 **File**: `_config.yml`
 **Location**: Around line 265 (Jekyll Archives section)
 
 **Current State**:
+
 ```yaml
 # jekyll-archives:
 #   posts:
@@ -731,6 +795,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ```
 
 **Updated Configuration**:
+
 ```yaml
 jekyll-archives:
   posts:
@@ -755,15 +820,17 @@ jekyll-archives:
 ```
 
 #### Step 1.2: Add Publication Tag Configuration
+
 **File**: `_config.yml`
 **Location**: After the Jekyll Scholar section (around line 350)
 
 **Add This Configuration**:
+
 ```yaml
 # Publication Tag System Configuration
 publication_tags:
   enabled: true
-  
+
   # Tag categories and their display names
   categories:
     types:
@@ -775,14 +842,14 @@ publication_tags:
     topics:
       label: "Research Topics"
       values: ["ocean", "energy", "academia", "climate", "law", "policy", "governance", "technology", "sustainability", "international"]
-  
+
   # Display settings
   display:
     show_tag_cloud: true
     show_active_tags: true
     max_tags_per_category: 10
     tag_cloud_style: "pills" # cloud, list, or pills
-  
+
   # Filtering behavior
   filtering:
     default_logic: "AND" # AND or OR between different categories
@@ -793,21 +860,26 @@ publication_tags:
 ### Phase 2: BibTeX Structure Updates (1-2 hours)
 
 #### Step 2.1: Tag Format Convention
+
 **Use existing `keywords` field with structured format**:
+
 ```bibtex
 keywords = {type:journal_article, role:lead_author, topic:ocean, topic:climate}
 ```
 
 **Tag Format Rules**:
+
 - `category:value` format (e.g., `type:journal_article`)
 - Multiple values of same category separated by commas
 - Use snake_case for all values
 - Keep existing keywords if they exist
 
 #### Step 2.2: Sample Publications to Tag First
+
 **Start with these 5-10 publications for testing**:
 
 1. **Ocean-related journal articles**:
+
 ```bibtex
 @article{Wright2011a,
   title = {Marine energy},
@@ -817,6 +889,7 @@ keywords = {type:journal_article, role:lead_author, topic:ocean, topic:climate}
 ```
 
 2. **Climate policy reports**:
+
 ```bibtex
 @article{Wright2010,
   title = {Designing Climate Law: A Comparative Analysis of the US and EU},
@@ -826,6 +899,7 @@ keywords = {type:journal_article, role:lead_author, topic:ocean, topic:climate}
 ```
 
 3. **Workshop presentations**:
+
 ```bibtex
 @inproceedings{Example2024,
   title = {Example Workshop Presentation},
@@ -835,9 +909,11 @@ keywords = {type:journal_article, role:lead_author, topic:ocean, topic:climate}
 ```
 
 #### Step 2.3: Batch Tagging Script
+
 **Create a simple script to help with tagging** (optional):
 
 **File**: `scripts/tag_publications.py`
+
 ```python
 #!/usr/bin/env python3
 """
@@ -852,9 +928,9 @@ def suggest_tags(title, abstract=""):
     """Suggest tags based on title and abstract content"""
     title_lower = title.lower()
     abstract_lower = abstract.lower()
-    
+
     suggestions = []
-    
+
     # Type suggestions
     if any(word in title_lower for word in ['journal', 'article', 'paper']):
         suggestions.append('type:journal_article')
@@ -866,7 +942,7 @@ def suggest_tags(title, abstract=""):
         suggestions.append('type:presentation')
     elif any(word in title_lower for word in ['workshop', 'conference']):
         suggestions.append('type:workshop')
-    
+
     # Topic suggestions
     if any(word in title_lower for word in ['ocean', 'marine', 'sea']):
         suggestions.append('topic:ocean')
@@ -878,17 +954,17 @@ def suggest_tags(title, abstract=""):
         suggestions.append('topic:law')
     if any(word in title_lower for word in ['policy', 'governance']):
         suggestions.append('topic:policy')
-    
+
     # Role suggestions (default to lead_author)
     suggestions.append('role:lead_author')
-    
+
     return suggestions
 
 def main():
     print("Publication Tagging Helper")
     print("=" * 40)
     print()
-    
+
     # Read papers.bib
     try:
         with open('_bibliography/papers.bib', 'r') as f:
@@ -896,25 +972,25 @@ def main():
     except FileNotFoundError:
         print("Error: papers.bib not found in _bibliography/ directory")
         sys.exit(1)
-    
+
     # Find all entries
     entries = re.findall(r'@(\w+)\{([^,]+),\s*\n(.*?)\n\}', content, re.DOTALL)
-    
+
     print(f"Found {len(entries)} publications")
     print()
-    
+
     for entry_type, key, fields in entries[:5]:  # Show first 5
         # Extract title
         title_match = re.search(r'title\s*=\s*\{([^}]+)\}', fields)
         if title_match:
             title = title_match.group(1)
             suggestions = suggest_tags(title)
-            
+
             print(f"Entry: {key}")
             print(f"Title: {title}")
             print(f"Suggested tags: {', '.join(suggestions)}")
             print("-" * 40)
-    
+
     print("\nTo add tags, edit papers.bib and add to keywords field:")
     print("keywords = {type:journal_article, role:lead_author, topic:ocean}")
 
@@ -925,6 +1001,7 @@ if __name__ == "__main__":
 ### Phase 3: Template Creation (45 minutes)
 
 #### Step 3.1: Create Tag Cloud Include
+
 **File**: `_includes/publication_tag_cloud.liquid`
 
 ```liquid
@@ -935,21 +1012,21 @@ if __name__ == "__main__":
 
 {% if site.publication_tags.enabled %}
   {% comment %} Extract all tags from bibliography {% endcomment %}
-  {% assign all_tags = "" | split: "," %}
-  {% assign tag_categories = "" | split: "," %}
-  
+  {% assign all_tags = '' | split: ',' %}
+  {% assign tag_categories = '' | split: ',' %}
+
   {% for entry in site.bibliography %}
     {% if entry.keywords %}
       {% for keyword in entry.keywords %}
-        {% if keyword contains ":" %}
-          {% assign parts = keyword | split: ":" %}
+        {% if keyword contains ':' %}
+          {% assign parts = keyword | split: ':' %}
           {% assign category = parts[0] | strip %}
           {% assign tag_value = parts[1] | strip %}
-          
+
           {% unless all_tags contains tag_value %}
             {% assign all_tags = all_tags | push: tag_value %}
           {% endunless %}
-          
+
           {% unless tag_categories contains category %}
             {% assign tag_categories = tag_categories | push: category %}
           {% endunless %}
@@ -957,14 +1034,14 @@ if __name__ == "__main__":
       {% endfor %}
     {% endif %}
   {% endfor %}
-  
+
   <div class="publication-tag-system">
     <h3>Filter Publications by Tags</h3>
-    
+
     {% for category in tag_categories %}
       {% assign category_label = site.publication_tags.categories[category].label | default: category | capitalize %}
       {% assign category_values = site.publication_tags.categories[category].values %}
-      
+
       <div class="tag-category mb-3">
         <h4 class="h5 text-muted">{{ category_label }}</h4>
         <div class="tag-list">
@@ -976,28 +1053,27 @@ if __name__ == "__main__":
                 {% break %}
               {% endif %}
             {% endfor %}
-            
+
             {% if has_this_tag %}
-              {% assign tag_url = "/writing/tags/" | append: tag | slugify | append: "/" %}
+              {% assign tag_url = '/writing/tags/' | append: tag | slugify | append: '/' %}
               <a href="{{ tag_url | relative_url }}" class="tag-link btn btn-sm btn-outline-secondary me-2 mb-2">
-                {{ tag | replace: "_", " " | titleize }}
+                {{ tag | replace: '_', ' ' | titleize }}
               </a>
             {% endif %}
           {% endfor %}
         </div>
       </div>
     {% endfor %}
-    
+
     <div class="tag-actions mt-3">
-      <a href="{{ '/writing/' | relative_url }}" class="btn btn-outline-primary btn-sm">
-        <i class="fa-solid fa-times"></i> Clear All Filters
-      </a>
+      <a href="{{ '/writing/' | relative_url }}" class="btn btn-outline-primary btn-sm"> <i class="fa-solid fa-times"></i> Clear All Filters </a>
     </div>
   </div>
 {% endif %}
 ```
 
 #### Step 3.2: Create Active Tags Display
+
 **File**: `_includes/publication_active_tags.liquid`
 
 ```liquid
@@ -1017,7 +1093,7 @@ if __name__ == "__main__":
           <a href="{{ '/writing/' | relative_url }}" class="text-white text-decoration-none ms-1">×</a>
         </span>
       {% endif %}
-      
+
       {% if page.url contains '/categories/' %}
         {% assign current_category = page.url | split: '/' | last | replace: '-', ' ' | titleize %}
         <span class="badge bg-secondary me-2">
@@ -1026,7 +1102,7 @@ if __name__ == "__main__":
         </span>
       {% endif %}
     </div>
-    
+
     <div class="mt-2">
       <a href="{{ '/writing/' | relative_url }}" class="btn btn-outline-secondary btn-sm">
         <i class="fa-solid fa-arrow-left"></i> Back to All Publications
@@ -1037,9 +1113,11 @@ if __name__ == "__main__":
 ```
 
 #### Step 3.3: Update Writing Page
+
 **File**: `_pages/writing.md`
 
 **Current Content**:
+
 ```liquid
 ---
 layout: page
@@ -1049,7 +1127,6 @@ description:
 nav: true
 nav_order: 10
 ---
-
 <!-- _pages/writing.md -->
 
 <!-- Bibsearch Feature -->
@@ -1057,13 +1134,12 @@ nav_order: 10
 {% include bib_search.liquid %}
 
 <div class="publications">
-
-{% bibliography %}
-
+  {% bibliography %}
 </div>
 ```
 
 **Updated Content**:
+
 ```liquid
 ---
 layout: page
@@ -1073,7 +1149,6 @@ description:
 nav: true
 nav_order: 10
 ---
-
 <!-- _pages/writing.md -->
 
 <!-- Publication Tag System -->
@@ -1087,9 +1162,7 @@ nav_order: 10
   <div class="enhanced-search mb-4">
     <div class="input-group">
       <input type="text" id="enhanced-bibsearch" class="form-control" placeholder="Search publications and filter by tags above...">
-      <button class="btn btn-outline-secondary" type="button" id="clear-search">
-        <i class="fa-solid fa-times"></i> Clear
-      </button>
+      <button class="btn btn-outline-secondary" type="button" id="clear-search"><i class="fa-solid fa-times"></i> Clear</button>
     </div>
   </div>
 {% else %}
@@ -1098,13 +1171,14 @@ nav_order: 10
 {% endif %}
 
 <div class="publications">
-{% bibliography %}
+  {% bibliography %}
 </div>
 ```
 
 ### Phase 4: Enhanced Search Integration (30 minutes)
 
 #### Step 4.1: Create Enhanced Search JavaScript
+
 **File**: `assets/js/enhanced_bibsearch.js`
 
 ```javascript
@@ -1113,39 +1187,42 @@ nav_order: 10
  * Works alongside Jekyll Archives for tag-based filtering
  */
 
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('enhanced-bibsearch');
-  const clearButton = document.getElementById('clear-search');
-  
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("enhanced-bibsearch");
+  const clearButton = document.getElementById("clear-search");
+
   if (!searchInput) return;
-  
+
   // Initialize search with URL parameters
   initializeSearch();
-  
+
   // Enhanced search with tag awareness
-  searchInput.addEventListener('input', debounce(function() {
-    const searchTerm = this.value.toLowerCase();
-    performEnhancedSearch(searchTerm);
-  }, 300));
-  
+  searchInput.addEventListener(
+    "input",
+    debounce(function () {
+      const searchTerm = this.value.toLowerCase();
+      performEnhancedSearch(searchTerm);
+    }, 300)
+  );
+
   // Clear search
   if (clearButton) {
-    clearButton.addEventListener('click', function() {
-      searchInput.value = '';
-      performEnhancedSearch('');
+    clearButton.addEventListener("click", function () {
+      searchInput.value = "";
+      performEnhancedSearch("");
     });
   }
-  
+
   // Handle tag clicks (if on tag page)
   handleTagPageSearch();
 });
 
 function initializeSearch() {
   const urlParams = new URLSearchParams(window.location.search);
-  const searchTerm = urlParams.get('search');
-  
+  const searchTerm = urlParams.get("search");
+
   if (searchTerm) {
-    const searchInput = document.getElementById('enhanced-bibsearch');
+    const searchInput = document.getElementById("enhanced-bibsearch");
     if (searchInput) {
       searchInput.value = searchTerm;
       performEnhancedSearch(searchTerm);
@@ -1154,58 +1231,58 @@ function initializeSearch() {
 }
 
 function performEnhancedSearch(searchTerm) {
-  const publications = document.querySelectorAll('.bibliography > li');
+  const publications = document.querySelectorAll(".bibliography > li");
   let visibleCount = 0;
-  
-  publications.forEach(function(pub) {
+
+  publications.forEach(function (pub) {
     const text = pub.textContent.toLowerCase();
-    const isVisible = searchTerm === '' || text.includes(searchTerm);
-    
+    const isVisible = searchTerm === "" || text.includes(searchTerm);
+
     if (isVisible) {
-      pub.style.display = '';
+      pub.style.display = "";
       visibleCount++;
     } else {
-      pub.style.display = 'none';
+      pub.style.display = "none";
     }
   });
-  
+
   // Update publication count
   updatePublicationCount(visibleCount, publications.length);
-  
+
   // Hide empty year groups
   hideEmptyYearGroups();
 }
 
 function updatePublicationCount(visible, total) {
-  let countElement = document.getElementById('publication-count');
-  
+  let countElement = document.getElementById("publication-count");
+
   if (!countElement) {
-    countElement = document.createElement('div');
-    countElement.id = 'publication-count';
-    countElement.className = 'text-muted mb-3';
-    
-    const searchContainer = document.querySelector('.enhanced-search');
+    countElement = document.createElement("div");
+    countElement.id = "publication-count";
+    countElement.className = "text-muted mb-3";
+
+    const searchContainer = document.querySelector(".enhanced-search");
     if (searchContainer) {
       searchContainer.appendChild(countElement);
     }
   }
-  
+
   countElement.textContent = `Showing ${visible} of ${total} publications`;
 }
 
 function hideEmptyYearGroups() {
-  const yearHeaders = document.querySelectorAll('h2.bibliography');
-  
-  yearHeaders.forEach(function(header) {
+  const yearHeaders = document.querySelectorAll("h2.bibliography");
+
+  yearHeaders.forEach(function (header) {
     const nextElement = header.nextElementSibling;
-    if (nextElement && nextElement.tagName === 'OL') {
+    if (nextElement && nextElement.tagName === "OL") {
       const visiblePublications = nextElement.querySelectorAll('li[style=""]');
       if (visiblePublications.length === 0) {
-        header.style.display = 'none';
-        nextElement.style.display = 'none';
+        header.style.display = "none";
+        nextElement.style.display = "none";
       } else {
-        header.style.display = '';
-        nextElement.style.display = '';
+        header.style.display = "";
+        nextElement.style.display = "";
       }
     }
   });
@@ -1213,10 +1290,10 @@ function hideEmptyYearGroups() {
 
 function handleTagPageSearch() {
   // If we're on a tag page, integrate with existing search
-  const tagPage = window.location.pathname.includes('/tags/') || window.location.pathname.includes('/categories/');
-  
+  const tagPage = window.location.pathname.includes("/tags/") || window.location.pathname.includes("/categories/");
+
   if (tagPage && searchInput) {
-    searchInput.placeholder = 'Search within filtered publications...';
+    searchInput.placeholder = "Search within filtered publications...";
   }
 }
 
@@ -1236,6 +1313,7 @@ function debounce(func, wait) {
 ### Phase 5: Styling (15 minutes)
 
 #### Step 5.1: Add CSS for Tag System
+
 **File**: `_sass/_publications.scss` (create new file)
 
 ```scss
@@ -1246,43 +1324,43 @@ function debounce(func, wait) {
   border-radius: 8px;
   padding: 1.5rem;
   margin-bottom: 2rem;
-  
+
   h3 {
     margin-bottom: 1.5rem;
     color: #495057;
     font-size: 1.25rem;
   }
-  
+
   .tag-category {
     margin-bottom: 1.5rem;
-    
+
     h4 {
       font-size: 0.9rem;
       font-weight: 600;
       margin-bottom: 0.75rem;
       color: #6c757d;
     }
-    
+
     .tag-list {
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
     }
   }
-  
+
   .tag-link {
     font-size: 0.8rem;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
     text-decoration: none;
     transition: all 0.2s ease;
-    
+
     &:hover {
       transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
   }
-  
+
   .tag-actions {
     border-top: 1px solid #dee2e6;
     padding-top: 1rem;
@@ -1293,16 +1371,16 @@ function debounce(func, wait) {
   background: #e3f2fd;
   border-radius: 6px;
   padding: 1rem;
-  
+
   h4 {
     font-size: 1rem;
     margin-bottom: 0.75rem;
     color: #1976d2;
   }
-  
+
   .active-tags {
     margin-bottom: 1rem;
-    
+
     .badge {
       font-size: 0.8rem;
       padding: 0.5rem 0.75rem;
@@ -1314,7 +1392,7 @@ function debounce(func, wait) {
   .input-group {
     max-width: 600px;
   }
-  
+
   #publication-count {
     font-size: 0.9rem;
     margin-top: 0.5rem;
@@ -1325,11 +1403,11 @@ function debounce(func, wait) {
 @media (max-width: 768px) {
   .publication-tag-system {
     padding: 1rem;
-    
+
     .tag-list {
       gap: 0.25rem;
     }
-    
+
     .tag-link {
       font-size: 0.75rem;
       padding: 0.2rem 0.6rem;
@@ -1339,9 +1417,11 @@ function debounce(func, wait) {
 ```
 
 #### Step 5.2: Import New Styles
+
 **File**: `assets/css/main.scss`
 
 **Add this line** (if it doesn't exist):
+
 ```scss
 @import "publications";
 ```
@@ -1349,18 +1429,21 @@ function debounce(func, wait) {
 ### Phase 6: Testing & Validation (30 minutes)
 
 #### Step 6.1: Test Tag Generation
+
 1. **Start Jekyll server**: `bundle exec jekyll serve`
 2. **Visit `/writing/` page**
 3. **Verify tag cloud appears**
 4. **Check tag links work** (should go to `/writing/tags/[tag-name]/`)
 
 #### Step 6.2: Test Tag Pages
+
 1. **Click on a tag** (e.g., "ocean")
 2. **Verify filtered publications display**
 3. **Check URL structure** (`/writing/tags/ocean/`)
 4. **Test back navigation**
 
 #### Step 6.3: Test Search Integration
+
 1. **Use enhanced search bar**
 2. **Verify publication count updates**
 3. **Test clear functionality**
@@ -1369,21 +1452,27 @@ function debounce(func, wait) {
 ### Phase 7: Migration & Cleanup (1 hour)
 
 #### Step 7.1: Tag Existing Publications
+
 **Priority order**:
+
 1. **High-impact publications** (most cited, most relevant)
 2. **Recent publications** (last 2 years)
 3. **Representative samples** (one from each topic area)
 4. **Remaining publications** (gradually over time)
 
 #### Step 7.2: Validate Tag Consistency
+
 **Check for**:
+
 - Consistent tag naming (snake_case)
 - Proper category prefixes
 - No duplicate tags
 - Meaningful tag values
 
 #### Step 7.3: Update Documentation
+
 **Files to update**:
+
 - `README.md` - Add tag system documentation
 - `CUSTOMIZE.md` - Add tag customization instructions
 - `_config.yml` - Add comments explaining tag system
@@ -1393,33 +1482,39 @@ function debounce(func, wait) {
 ## Implementation Checklist
 
 ### Configuration (30 min)
+
 - [ ] Enable Jekyll Archives for publications
 - [ ] Add publication tag configuration
 - [ ] Test Jekyll build
 
 ### Templates (45 min)
+
 - [ ] Create publication tag cloud include
 - [ ] Create active tags display include
 - [ ] Update writing page
 - [ ] Test template rendering
 
 ### Functionality (30 min)
+
 - [ ] Create enhanced search JavaScript
 - [ ] Test search integration
 - [ ] Verify tag filtering
 
 ### Styling (15 min)
+
 - [ ] Create publication styles
 - [ ] Import styles to main CSS
 - [ ] Test responsive design
 
 ### Testing (30 min)
+
 - [ ] Test tag generation
 - [ ] Test tag pages
 - [ ] Test search integration
 - [ ] Cross-browser testing
 
 ### Migration (1 hour)
+
 - [ ] Tag 10-20 key publications
 - [ ] Validate tag consistency
 - [ ] Update documentation
@@ -1430,4 +1525,7 @@ function debounce(func, wait) {
 **Risk**: Very Low (backward compatible, gradual rollout)
 
 This roadmap provides comprehensive step-by-step instructions for implementing the Jekyll Archives approach with minimal code changes and maximum leverage of existing functionality.
+
+```
+
 ```

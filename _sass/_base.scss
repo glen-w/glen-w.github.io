@@ -19,8 +19,6 @@ strong {
   color: var(--global-text-color);
 }
 
-
-
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -683,13 +681,13 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
-    
+
     .card-title {
       font-size: 1.1rem;
       font-weight: 600;
       margin-bottom: 0.5rem;
     }
-    
+
     // creative category titles should not be bold
     &[data-category="creative"] .card-title,
     &[data-category="collage"] .card-title {
@@ -1409,7 +1407,7 @@ figure.cover {
     border: none !important;
     outline: none !important;
     text-decoration: none !important;
-    
+
     &:hover,
     &:focus {
       border: none !important;

@@ -2,20 +2,31 @@
 layout: post
 title: "Top 8 #AlternateScienceMetrics"
 date: 2014-08-01
-description: 
-tags: ['Adam Sandler', 'Bechdal Test', 'clickbait', 'hashtags', 'impact factor', 'K-Index', 'Kanye West', 'Kim Kardashian', 'Richard Dawkins', 'social media']
-categories: ['Academia Obscura']
+description:
+tags:
+  [
+    "Adam Sandler",
+    "Bechdal Test",
+    "clickbait",
+    "hashtags",
+    "impact factor",
+    "K-Index",
+    "Kanye West",
+    "Kim Kardashian",
+    "Richard Dawkins",
+    "social media",
+  ]
+categories: ["Academia Obscura"]
 ---
 
-The Twittersphere has been all a flutter with this week with academics writing in with proposed methods for measuring the impact of publications ([#AlternateScienceMetrics](https://twitter.com/hashtag/AlternateScienceMetrics)). This was all kicked off by Neil Hall's paper in *Genome Biology*. That and 7 more of our favourites follow.[1. Why eight? It was late and I got tired.] Enjoy!
+The Twittersphere has been all a flutter with this week with academics writing in with proposed methods for measuring the impact of publications ([#AlternateScienceMetrics](https://twitter.com/hashtag/AlternateScienceMetrics)). This was all kicked off by Neil Hall's paper in _Genome Biology_. That and 7 more of our favourites follow.[1. Why eight? It was late and I got tired.] Enjoy!
 
 **1. The Kardashian Index
- **Neil Hall's paper, 'The Kardashian index: a measure of discrepant social media profile for scientists', is full of great lines and it is a good idea to go and read the whole thing. In perhaps the most honest description of Kim Kardashian ever written, Hall says 
+**Neil Hall's paper, 'The Kardashian index: a measure of discrepant social media profile for scientists', is full of great lines and it is a good idea to go and read the whole thing. In perhaps the most honest description of Kim Kardashian ever written, Hall says
 
-> 
-*she comes from a privileged background and, despite having not achieved anything consequential in science, politics or the arts... she is one of the most followed people on twitter and among the most searched-for on Google"*
+> _she comes from a privileged background and, despite having not achieved anything consequential in science, politics or the arts... she is one of the most followed people on twitter and among the most searched-for on Google"_
 
-Hall is concerned that Kim Kardashian academics walk amongst us: individuals who are "renowned for being renowned", who command a strong following on social media but do not match it with significant scientific output. Realising this, Hall wanted *"develop a metric that will clearly indicate if a scientist has an overblown public profile so that we can adjust our expectations of them accordingly"*. His rather neat solution is to compare the number of followers an academic has on Twitter with the number of citations to their peer-reviewed work.
+Hall is concerned that Kim Kardashian academics walk amongst us: individuals who are "renowned for being renowned", who command a strong following on social media but do not match it with significant scientific output. Realising this, Hall wanted _"develop a metric that will clearly indicate if a scientist has an overblown public profile so that we can adjust our expectations of them accordingly"_. His rather neat solution is to compare the number of followers an academic has on Twitter with the number of citations to their peer-reviewed work.
 
 ![Where F(a) is the actual number of twitter followers and F(c) is the number of citations.](../assets/img/posts/140801_Top_8_AlternateScienceMetrics_03.jpg)
 
@@ -26,24 +37,21 @@ The outliers, those with a high ratio of followers to citations (a K-index gre
 It is worth noting however that Hall's paper, while obviously intended as a joke, is not without its own problems, and not everyone finds it amusing.
 
 **2. The Kanye Index**
- It didn't take long for academic tweeters to catch on to the potential here, and of course Kanye West was quickly in the line of fire.
+It didn't take long for academic tweeters to catch on to the potential here, and of course Kanye West was quickly in the line of fire.
 
-> 
-The Kanye Index = number of self-citations / number of citations [#AlternateScienceMetrics](https://twitter.com/hashtag/AlternateScienceMetrics?src=hash) (this one could actually work)   — Jason McDermott (@BioDataGanache) [July 30, 2014](https://twitter.com/BioDataGanache/statuses/494572419857010688)
+> The Kanye Index = number of self-citations / number of citations [#AlternateScienceMetrics](https://twitter.com/hashtag/AlternateScienceMetrics?src=hash) (this one could actually work)   — Jason McDermott (@BioDataGanache) [July 30, 2014](https://twitter.com/BioDataGanache/statuses/494572419857010688)
 
 We've all read a Kanye West paper or two, where the author seems to take great delight in citing themselves multiple times in one paper, so this metric comes in at number two.
 
-**3. The Counterfactual Index**    
+**3. The Counterfactual Index**
 
-> 
-The Counterfactual Index: the degree to which the world would change had the paper never been published. — Matthew Hankins (@mc_hankins) [July 30, 2014](https://twitter.com/mc_hankins/statuses/494609474662174720)
+> The Counterfactual Index: the degree to which the world would change had the paper never been published. — Matthew Hankins (@mc_hankins) [July 30, 2014](https://twitter.com/mc_hankins/statuses/494609474662174720)
 
 We academics love the idea that we are leaving our mark on the world in some way, contributing positively to society. Yet the reality of the publication mill is that a lot of stuff gets written that is only ever read by a very small number of people. The Counterfactual Index may therefore be both illuminating, and depressing.
 
 **4. The Priorities Index**
 
-> 
-Priorities index: # of dead house plants / (# of total house plants + # papers published) [#AlternateScienceMetrics](https://twitter.com/hashtag/AlternateScienceMetrics?src=hash)pic.twitter.com/Kx5OcqhJns — Nick Wan (@nickwan) [July 30, 2014](https://twitter.com/nickwan/statuses/494612693915947009)
+> Priorities index: # of dead house plants / (# of total house plants + # papers published) [#AlternateScienceMetrics](https://twitter.com/hashtag/AlternateScienceMetrics?src=hash)pic.twitter.com/Kx5OcqhJns — Nick Wan (@nickwan) [July 30, 2014](https://twitter.com/nickwan/statuses/494612693915947009)
 
 I particularly like this one as I have a terrible record with house/office plants. I once bought a plant called 'Thrives on Neglect', but I managed to kill it after only a couple of weeks. The sad nugget of truth behind this one is that academics are often working so hard on so many different projects that they neglect everything else, from plants to relationships. Calculating your Priorities Index might just help you get a little perspective!
 

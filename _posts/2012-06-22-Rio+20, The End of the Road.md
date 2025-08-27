@@ -2,9 +2,9 @@
 layout: post
 title: "Rio+20, The End of the Road"
 date: 2012-06-22
-description: 
-tags: 
-categories: ['Uncategorized']
+description:
+tags:
+categories: ["Uncategorized"]
 ---
 
 Six years ago I started university - the meeting places for great young minds, where those around you are not yet cynical and jaded, where ideas flourish and where youthful enthusiasm means anything is possible.
@@ -19,7 +19,7 @@ I was absolutely convinced that if you shouted loud enough, those in power would
 
 We replaced our nuclear weapons, committing future generations to decades more anachronistic cold war politics and power relations based on military might. Heathrow got its extra terminal and is responsible for 18 million tonnes of carbon dioxide per year; at a time when scientists agree on the need to drastically reduce such emissions. The corporatisation of universities, schools, and public spaces continues unabated. Even Rio+20 is sponsored by Coca-Cola.
 
-Cynical and jaded, burnt out, and exhausted, I looked for another way. A way that I, *we*, could still effect change. As a lawyer, I thought that maybe this was the answer. I thought that binding international laws could be agreed that would steer us in the right direction. If all nations see the problem, and we fairly distribute the responsibility for solving the problem, everyone will be happy, right?
+Cynical and jaded, burnt out, and exhausted, I looked for another way. A way that I, _we_, could still effect change. As a lawyer, I thought that maybe this was the answer. I thought that binding international laws could be agreed that would steer us in the right direction. If all nations see the problem, and we fairly distribute the responsibility for solving the problem, everyone will be happy, right?
 
 Wrong again.
 
@@ -27,7 +27,7 @@ A few more years later, and we have only regressed. There is no successor to the
 
 In short, our failure to act with the required urgency is plunging our planet into potential catastrophe. And we shouldn’t be so arrogant as to think that we could ever fully understand the complexity of the impacts our actions have on our environment.
 
-Rio+20 *was* an exciting prospect. An opportunity to enunciate the future we want and agree on a way to get there. Instead, the vast majority of world leaders, with notable exceptions, have settled for the lowest common denominator, bedded down for an endless talkfest, and condemned my future children to inherit a planet in crisis.
+Rio+20 _was_ an exciting prospect. An opportunity to enunciate the future we want and agree on a way to get there. Instead, the vast majority of world leaders, with notable exceptions, have settled for the lowest common denominator, bedded down for an endless talkfest, and condemned my future children to inherit a planet in crisis.
 
 We must do better.
 

@@ -2,9 +2,9 @@
 layout: post
 title: "The Rochdale Envelope"
 date: 2012-11-15
-description: 
-tags: 
-categories: ['Uncategorized']
+description:
+tags:
+categories: ["Uncategorized"]
 ---
 
 ![Wind Turbine Overlooking Rochdale](http://s0.geograph.org.uk/photos/76/10/761096_7ab67b01.jpg)
@@ -15,12 +15,12 @@ The Rochdale Envelope is an approach to consenting and environmental impact, nam
 
 The Infrastructure Planning Commission, citing the Encyclopaedia of Planning Law and Practice, expands on this concept, noting the following core propositions:[3]
 
-	- An application should acknowledge the need for details to evolve over a number of years, within clearly defined parameters and the EIA must take account of this and reflect the likely significant effects of such a project;
-	- the permission given must create ‘clearly defined parameters’ and the local planning authority, in granting outline planning permission, can impose conditions to ensure that the process of evolution remains within the parameters;
-	- the level of detail of the proposal, within the defined parameters, must be such as to enable a proper assessment of the likely environmental effects, and necessary mitigation ;
-	- ‘The assessment may conclude that a particular effect may fall within a fairly wide range. In assessing the ‘likely’ effects, it is entirely consistent with the objectives of [European Council Directive 85/337/EEC] to adopt a cautious ‘worst case’ approach: mitigation measures should be adequate to deal with the worst case so as to optimise the effects of the development on the environment;
-	- The flexibility is not to be abused and does not give developers an excuse to give inadequate descriptions of their projects;
-	- it is for the planning authority to determine what degree of flexibility can be permitted in the particular case having regard to the specific facts of an application. It will clearly be prudent for developers and authorities to ensure they have assessed the range of possible effects implicit in the flexibility provided by the permission.
+    - An application should acknowledge the need for details to evolve over a number of years, within clearly defined parameters and the EIA must take account of this and reflect the likely significant effects of such a project;
+    - the permission given must create ‘clearly defined parameters’ and the local planning authority, in granting outline planning permission, can impose conditions to ensure that the process of evolution remains within the parameters;
+    - the level of detail of the proposal, within the defined parameters, must be such as to enable a proper assessment of the likely environmental effects, and necessary mitigation ;
+    - ‘The assessment may conclude that a particular effect may fall within a fairly wide range. In assessing the ‘likely’ effects, it is entirely consistent with the objectives of [European Council Directive 85/337/EEC] to adopt a cautious ‘worst case’ approach: mitigation measures should be adequate to deal with the worst case so as to optimise the effects of the development on the environment;
+    - The flexibility is not to be abused and does not give developers an excuse to give inadequate descriptions of their projects;
+    - it is for the planning authority to determine what degree of flexibility can be permitted in the particular case having regard to the specific facts of an application. It will clearly be prudent for developers and authorities to ensure they have assessed the range of possible effects implicit in the flexibility provided by the permission.
 
 This approach has been “used on numerous occasions in the application for development consents for offshore wind farms”,[4] as well as for other developments, in the UK.[5] The approach appears to be one that could be helpful to Marine Renewable Energy [MRE] developers, and MRE developers have begun using this approach in applying for consents. The envelope could apply, in the case of MRE, to the structural components of the turbine, e.g. rotor diameter, its operational characteristics, such as rotor speed, the physical footprint of the device, either the size of its foundations or the size of a proposed array, the design and layout of such an array and choices regarding construction and deployment methods etc.
 
@@ -51,5 +51,4 @@ Walker, discussing the application of the approach to offshore wind in the UK, n
 ## Comments
 
 **<![CDATA[Carol]]>** (2014-04-16 19:33:02):
-Thanks for a concise and informative explanation of the Rochdale Envelope.  Very helpful to an engineer who needs to work within one.
-
+Thanks for a concise and informative explanation of the Rochdale Envelope. Very helpful to an engineer who needs to work within one.

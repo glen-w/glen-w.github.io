@@ -14,11 +14,11 @@ description: >
 
 **Key modules include:**
 
-- The Sixth Mass Extinction and Anthropocene  
-- The Convention on Biological Diversity (CBD) and IPBES  
-- Economic Instruments: PES, Offsetting, Biodiversity Credits  
-- Embedded Deforestation & Global Trade  
-- Science-policy interfaces and valuation controversies  
+- The Sixth Mass Extinction and Anthropocene
+- The Convention on Biological Diversity (CBD) and IPBES
+- Economic Instruments: PES, Offsetting, Biodiversity Credits
+- Embedded Deforestation & Global Trade
+- Science-policy interfaces and valuation controversies
 - Guest talks from WWF, Tour du Valat, IDDRI, and others
 
 **Format:** Hybrid lectures, student debates, group research presentations.

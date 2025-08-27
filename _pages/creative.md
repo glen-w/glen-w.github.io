@@ -72,6 +72,7 @@ horizontal: false
 
 Images can be made zoomable.
 Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/collage/with_or_without_you.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}

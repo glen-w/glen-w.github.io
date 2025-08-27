@@ -11,6 +11,7 @@ This enhanced script processes the `_bibliography/papers.bib` file to:
 ## New Features
 
 ### 🧹 Regenerate Mode
+
 The `--regenerate` flag deletes all existing PDFs and publication preview thumbnails before running, ensuring a clean slate:
 
 ```bash
@@ -19,11 +20,13 @@ python process_papers.py --regenerate
 ```
 
 ### 🔒 Improved Brace Handling
+
 - **Nested braces are handled gracefully** - All `{text}` patterns are properly parsed and cleaned
 - **No braces in filenames** - All braces are removed while preserving the content inside
 - **Clean tags** - Both `pdf` and `preview` tags contain clean, brace-free filenames
 
 ### 📝 Full Title Preservation
+
 - **Complete titles in filenames** - The full paper title is preserved in the filename for better descriptiveness
 - **Smart truncation** - If titles are too long, they're intelligently truncated while keeping essential information
 - **Meaningful filenames** - Files are named as: `Author_Year_FullTitle_Journal.pdf`
@@ -31,6 +34,7 @@ python process_papers.py --regenerate
 ## Usage
 
 ### Prerequisites
+
 - Python 3.6+
 - Access to the PDF files referenced in the BibTeX entries
 - ImageMagick installed for thumbnail generation
@@ -63,7 +67,7 @@ python process_papers.py --bibtex-file path/to/other.bib
 - `--regenerate-thumbnails` - Regenerate thumbnails for existing papers (without deleting PDFs)
 - `--force` - Force reprocessing of entries even if they already have tags
 - `--thumbnail-size` - Set thumbnail dimensions (default: 600x for auto height)
-- `--bibtex-file` - Specify path to BibTeX file (default: _bibliography/papers.bib)
+- `--bibtex-file` - Specify path to BibTeX file (default: \_bibliography/papers.bib)
 - `--rename-urls` - Rename "url" fields to "website" for Jekyll compatibility
 - `--add-altmetric` - Add altmetric: true for entries with DOI
 - `--update-metadata` - Update PDF metadata with BibTeX information (default: True)
@@ -130,6 +134,7 @@ python process_papers.py --regenerate
 ```
 
 Output:
+
 ```
 🧹 Regenerate mode: Cleaning up existing files...
   🗑️  Deleted: Carole_Durussel_etal_2018_Strengthening_Regional_Ocean_Governance_for_the_High_Seas_STRONG_High_Seas.pdf
@@ -169,24 +174,30 @@ cp _bibliography/papers.bib _bibliography/papers.bib.backup
 ## Technical Details
 
 ### Brace Handling Algorithm
+
 The script uses a recursive approach to handle nested braces:
+
 1. Find the innermost braces `{text}` and extract `text`
 2. Repeat until no more braces remain
 3. Clean up any unmatched braces
 4. Preserve all content while ensuring no braces remain in output
 
 ### Filename Generation
+
 Filenames are constructed as:
 `AuthorNames_Year_FullTitle_Journal.pdf`
 
 Where:
+
 - **AuthorNames**: First author's first and last name, or "etal" for multiple authors
 - **Year**: Publication year
 - **FullTitle**: Complete paper title (cleaned of special characters)
 - **Journal**: Journal name, publisher, or institution
 
 ### Thumbnail Generation
+
 Uses ImageMagick to create high-quality JPEG previews:
+
 - 150 DPI for crisp images
 - White background to handle transparency issues
 - 85% JPEG quality for good file size balance
@@ -194,7 +205,9 @@ Uses ImageMagick to create high-quality JPEG previews:
 - Fallback to legacy `convert` command if `magick` fails
 
 ### PDF Metadata Updating
+
 Automatically updates PDF metadata with BibTeX information:
+
 - **Title**: Full paper title from BibTeX
 - **Author**: First author's full name
 - **Subject**: Journal/conference/institution name
@@ -206,6 +219,7 @@ Automatically updates PDF metadata with BibTeX information:
 **Requirements**: Install `PyPDF2` or `pikepdf` for metadata updating
 
 **Automatic Installation**: The script automatically checks for and installs missing Python dependencies:
+
 ```bash
 # Dependencies are checked and installed automatically
 python process_papers.py
@@ -215,6 +229,7 @@ python process_papers.py --skip-deps-check
 ```
 
 **Manual Installation** (if auto-install fails):
+
 ```bash
 pip install PyPDF2
 # or

@@ -2,9 +2,9 @@
 layout: post
 title: "An update from the BBNJ working group"
 date: 2014-06-30
-description: 
-tags: 
-categories: ['BBNJ', 'International', 'Marine Governance']
+description:
+tags:
+categories: ["BBNJ", "International", "Marine Governance"]
 ---
 
 The catchily titled *Ad Hoc Open-ended Informal Working Group to study issues relating to the conservation and sustainable use of marine biological diversity beyond areas of national jurisdiction* recently met in New York (June 16-19). This was the second of three meetings convened to discuss the possibility of negotiating a new international agreement on high seas biodiversity. I was [live tweeting the event](https://twitter.com/Glenski_W) using the [#BBNJ hashtag](https://twitter.com/hashtag/bbnj?src=hash), and [IISD](http://www.iisd.ca/) has released their [briefing on the discussions](http://www.iisd.ca/oceans/marinebiodiv8/). [IDDRI](http://www.iddri.org/) and [IASS](http://www.iass-potsdam.de/) will shortly publish a briefing paper on the negotiations, focussing on next steps towards a potential agreement.
@@ -17,11 +17,11 @@ The June meeting saw some convergence on a number of issues. There was broad sup
 
 Beyond these limited elements of convergence, a number of debates on substantive issues intensified and demonstrated the likely ‘battle lines’ of future negotiations, including:
 
-	- whether an IA should fill only legal gaps or whether it should have a broader vision;
-	- how an IA will respect the mandates of existing organisations;
-	- how fisheries will be treated;
-	- the role of a new IA in implementing and enforcing EIA and MPAs;
-	- the relevance of the distinction between the regional and global approaches to oceans governance; and
-	- eventual institutional arrangements
+    - whether an IA should fill only legal gaps or whether it should have a broader vision;
+    - how an IA will respect the mandates of existing organisations;
+    - how fisheries will be treated;
+    - the role of a new IA in implementing and enforcing EIA and MPAs;
+    - the relevance of the distinction between the regional and global approaches to oceans governance; and
+    - eventual institutional arrangements
 
 The working group will have one more meeting in January 2015 to formulate its recommendations to the UN General Assembly in August, yet many questions remain about how this process will proceed.

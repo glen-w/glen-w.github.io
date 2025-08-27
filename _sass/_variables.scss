@@ -9,29 +9,29 @@
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
-$blue-color: #8c8478 !default;           // stonewall taupe
-$blue-color-dark: #423e38 !default;      // aged slate
-$cyan-color: #b2aa9f !default;           // earth dust
+$blue-color: #8c8478 !default; // stonewall taupe
+$blue-color-dark: #423e38 !default; // aged slate
+$cyan-color: #b2aa9f !default; // earth dust
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #6a6257 !default;          // true sufficiency brown
-$green-color-lime: #d2ccc4 !default;     // dry soil
-$green-color-dark: #544e46 !default;     // espresso bark
-$green-color-light: #d2ccc4 !default;    // dry soil
-$green-color-bright: #11d68b !default;   // unchanged
-$purple-color: #32302d !default;         // wet rock
+$green-color: #6a6257 !default; // true sufficiency brown
+$green-color-lime: #d2ccc4 !default; // dry soil
+$green-color-dark: #544e46 !default; // espresso bark
+$green-color-light: #d2ccc4 !default; // dry soil
+$green-color-bright: #11d68b !default; // unchanged
+$purple-color: #32302d !default; // wet rock
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
-$grey-color: #8c8478 !default;           // stonewall taupe
-$grey-color-light: #e9e5e1 !default;     // soft clay
-$grey-color-dark: #242320 !default;      // midnight soil
-$grey-900: #32302d !default;             // wet rock
-$white-color: #f8f7f5 !default;          // misted linen
-$black-color: #141412 !default;          // deep cave
+$grey-color: #8c8478 !default; // stonewall taupe
+$grey-color-light: #e9e5e1 !default; // soft clay
+$grey-color-dark: #242320 !default; // midnight soil
+$grey-900: #32302d !default; // wet rock
+$white-color: #f8f7f5 !default; // misted linen
+$black-color: #141412 !default; // deep cave
 // Theme colors
-$code-bg-color-light: rgba(#32302d, 0.05);  // wet rock with alpha
-$code-bg-color-dark: #242320 !default;      // midnight soil
+$code-bg-color-light: rgba(#32302d, 0.05); // wet rock with alpha
+$code-bg-color-dark: #242320 !default; // midnight soil
 
 // Font awesome location
 $fa-font-path: "../webfonts";

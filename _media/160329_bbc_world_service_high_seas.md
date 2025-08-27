@@ -2,10 +2,10 @@
 layout: post
 title: UN High Seas treaty negotiations
 outlet: BBC World Service
-date: 2016-03-29 
-description: 
-tags: 
-categories: 
+date: 2016-03-29
+description:
+tags:
+categories:
 inline: true
 ---
 

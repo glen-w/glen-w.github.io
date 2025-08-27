@@ -2,18 +2,18 @@
 layout: post
 title: "Is This the Worst Academic Journal Ever?"
 date: 2015-06-29
-description: 
-tags: ['#HeadDesk', 'fake journals', 'journals', 'open access', 'scams']
-categories: ['Academic Humour', 'Journals', 'Publish/Perish']
+description:
+tags: ["#HeadDesk", "fake journals", "journals", "open access", "scams"]
+categories: ["Academic Humour", "Journals", "Publish/Perish"]
 ---
 
-*Update: Since I first drafted this post, ABRJ has revamped it's website. Not to worry, it's still hilarious.*
+_Update: Since I first drafted this post, ABRJ has revamped it's website. Not to worry, it's still hilarious._
 
 Spoiler alert: yes, probably.
 
 We are all aware of the growth in open access 'journals' of dubious quality, but my attention was recently drawn to one of the worst examples I have ever seen. It is so bad, and unintentionally hilarious, that I couldn't resist sharing it.
 
-The *American Based Research Journal (ABRJ) *is, and I quote, an “Open-Access–Monthly–Online–Double Blind Peer Reviewed Journal”. This *American* based journal lists a UK contact address, which google earth shows to be a rather nondescript suburban lane on the outskirts of Manchester.
+The *American Based Research Journal (ABRJ) *is, and I quote, an “Open-Access–Monthly–Online–Double Blind Peer Reviewed Journal”. This _American_ based journal lists a UK contact address, which google earth shows to be a rather nondescript suburban lane on the outskirts of Manchester.
 
 This is far from the first warning sign. The mere scope of the journal is baffling: “All areas of Accounting and Finance, Business, Management, HRM, Marketing Computer Science, Engineering, Social Sciences, Natural Sciences and Arts (Including Fine Arts) are covered”.
 
@@ -31,8 +31,7 @@ Researchers these days are so picky, with their newfangled double blind studies 
 
 The ‘journal’ regularly spams scholars asking them to submit, but at the very least the emails are (unintentionally) funny. Jeffrey Beall has [archived it online](https://scholarlyoa.files.wordpress.com/2014/09/copy-of-the-email.pdf) for posterity. Showing that the sender never learnt how to do a mail merge, the email starts:
 
-> 
-Dear Dear Author, We are really impressed after reading your research work: ‘Research Article’
+> Dear Dear Author, We are really impressed after reading your research work: ‘Research Article’
 
 It continues:
 
@@ -43,11 +42,11 @@ Online publication costs only $150, and the reader is exhorted to submit  “ar
 Here comes my favorite bit. The email is signed:
 
 > Best wishes
-Editor
-Dr. Merry Jeans
-New York, USA
+> Editor
+> Dr. Merry Jeans
+> New York, USA
 
-No matter how many times I’ve read it, I still chuckle a little at *Merry Jeans*, possibly the funniest fake name ever concocted. Or is it? The editorial board of ABRJ features other gems, including “Dr. belly Joseph”, “Dr. Jazzy Rolph”, and “Prof. William” (no surname), while reviewers include a “Dr. Phineas drown”. At some point I stopped even bothering to google these names to confirm my strong suspicion that none of them really exist.
+No matter how many times I’ve read it, I still chuckle a little at _Merry Jeans_, possibly the funniest fake name ever concocted. Or is it? The editorial board of ABRJ features other gems, including “Dr. belly Joseph”, “Dr. Jazzy Rolph”, and “Prof. William” (no surname), while reviewers include a “Dr. Phineas drown”. At some point I stopped even bothering to google these names to confirm my strong suspicion that none of them really exist.
 
 This journal is so obviously bullshit, but I had to know who was behind it. I dug around a bit and found that ABRJ’s web address is registered to one Abid Ali from ‘Zoom SEO Services’, based in Lahore, Pakistan. A couple of searches later and I found myself on his personal blog site, which consists of one rather telling page.
 

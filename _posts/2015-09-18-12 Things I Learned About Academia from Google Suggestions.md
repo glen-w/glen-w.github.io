@@ -2,9 +2,9 @@
 layout: post
 title: "12 Things I Learned About Academia from Google Suggestions"
 date: 2015-09-18
-description: 
-tags: ['funny', 'google', 'internet', 'stereotypes', 'suggestions']
-categories: ['Academia Obscura']
+description:
+tags: ["funny", "google", "internet", "stereotypes", "suggestions"]
+categories: ["Academia Obscura"]
 ---
 
 1. University is free in Germany, but elsewhere it's just business. It is also [like riding a bike](../assets/img/posts/150918_12_Things_I_Learned_About_Academia_from_Google_Sug_07.jpg).
@@ -59,4 +59,4 @@ Many questions remain.
 
 [![do academics](../assets/img/posts/150918_12_Things_I_Learned_About_Academia_from_Google_Sug_17.png)](../assets/img/posts/150918_12_Things_I_Learned_About_Academia_from_Google_Sug_11.png)
 
-*What does Google suggestions say where you are? Tweet your screenshots to [@AcademiaObscura](https://twitter.com/AcademiaObscura) with the hashtag #GoogleAcademia.*
+_What does Google suggestions say where you are? Tweet your screenshots to [@AcademiaObscura](https://twitter.com/AcademiaObscura) with the hashtag #GoogleAcademia._

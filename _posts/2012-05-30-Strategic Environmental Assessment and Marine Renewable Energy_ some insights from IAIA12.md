@@ -2,9 +2,9 @@
 layout: post
 title: "Strategic Environmental Assessment and Marine Renewable Energy: some insights from IAIA12"
 date: 2012-05-30
-description: 
-tags: 
-categories: ['Conferences', 'Impact Assessment', 'Marine Energy']
+description:
+tags:
+categories: ["Conferences", "Impact Assessment", "Marine Energy"]
 ---
 
 The sessions discussing Strategic Environmental Assessment (SEA) at the [International Association for Impact Assessment conference](http://www.iaia.org/iaia12/) (IAIA12) today gave me some real food for thought regarding if and how SEAs should be undertaken in an attempt to facilitate and manage the deployment of marine renewable energy (MRE) devices. Though none of the presentations directly addressed marine renewables, the insights into the efficacy of SEA processes provided some valuable insights which will inform my thinking on this issue.
@@ -39,8 +39,8 @@ As already noted, lengthy timescales are problematic, but most concerning is tha
 
 What these observations suggest is a need to develop a more considered and nuanced approach to SEA in the context of MRE, rather than simply assuming that SEA drive MRE development. There is therefore a need to:
 
-	- More precisely define what SEA is, what it involves, and what the expectation should be in terms of end results, both generally and specifically in terms of MRE. In particular, is SEA a management tool or a development facilitation tool?;
-	- Determine the potential benefits that a SEA process could bring to the development of the MRE industry;
-	- Expound also the potential pitfalls of an SEA process for MRE;
-	- Conduct a balancing exercise to determine whether SEA is likely to be a useful process in the context of MRE; and
-	- Develop principles to guide SEA processes that are driven by MRE development.
+    - More precisely define what SEA is, what it involves, and what the expectation should be in terms of end results, both generally and specifically in terms of MRE. In particular, is SEA a management tool or a development facilitation tool?;
+    - Determine the potential benefits that a SEA process could bring to the development of the MRE industry;
+    - Expound also the potential pitfalls of an SEA process for MRE;
+    - Conduct a balancing exercise to determine whether SEA is likely to be a useful process in the context of MRE; and
+    - Develop principles to guide SEA processes that are driven by MRE development.

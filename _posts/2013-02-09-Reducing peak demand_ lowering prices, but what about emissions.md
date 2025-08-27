@@ -2,9 +2,9 @@
 layout: post
 title: "Reducing peak demand: lowering prices, but what about emissions?"
 date: 2013-02-09
-description: 
-tags: 
-categories: ['Electricity', 'National Electricity Market', 'Total Environment Centre']
+description:
+tags:
+categories: ["Electricity", "National Electricity Market", "Total Environment Centre"]
 featured: true
 ---
 

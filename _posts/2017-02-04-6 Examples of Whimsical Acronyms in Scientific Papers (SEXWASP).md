@@ -2,9 +2,9 @@
 layout: post
 title: "6 Examples of Whimsical Acronyms in Scientific Papers (SEXWASP)"
 date: 2017-02-04
-description: 
-tags: ['acronyms', 'funny', 'listicles', 'posts', 'SEXWASP', 'writing']
-categories: ['Academic Humour', 'Publications', 'Publish/Perish']
+description:
+tags: ["acronyms", "funny", "listicles", "posts", "SEXWASP", "writing"]
+categories: ["Academic Humour", "Publications", "Publish/Perish"]
 ---
 
 [caption id="attachment_1329" align="aligncenter" width="471"]![](../assets/img/posts/170204_6_Examples_of_Whimsical_Acronyms_in_Scientific_Pap_10.png) Source[/caption]

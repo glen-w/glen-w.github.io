@@ -2,25 +2,35 @@
 layout: post
 title: "Reforming the NEM: Discussions at the First Australian Energy Efficiency Summer Study"
 date: 2012-03-03
-description: 
-tags: ['cogeneration', 'demand side participation', 'electricity networks', 'National Electricity Market', 'National Electricity Objective', 'NEM', 'TEC', 'Total Environment Centre']
-categories: ['Conferences', 'Electricity', 'National Electricity Market', 'Total Environment Centre']
+description:
+tags:
+  [
+    "cogeneration",
+    "demand side participation",
+    "electricity networks",
+    "National Electricity Market",
+    "National Electricity Objective",
+    "NEM",
+    "TEC",
+    "Total Environment Centre",
+  ]
+categories: ["Conferences", "Electricity", "National Electricity Market", "Total Environment Centre"]
 ---
 
-I have just arrived back in Canberra having attended the final day of the inaugural [Australian Energy Efficiency Summer Study](http://www.a2se.org.au/activities/events/summer-study), run by the [Australian Alliance to Save Energy](http://www.a2se.org.au/). I was invited to speak on behalf of the [Total Environment Centre](http://www.tec.org.au) in the session entitled *Watts in a NEM: Reforming the National Electricity Market for Energy Efficiency and Distributed Generation.*
+I have just arrived back in Canberra having attended the final day of the inaugural [Australian Energy Efficiency Summer Study](http://www.a2se.org.au/activities/events/summer-study), run by the [Australian Alliance to Save Energy](http://www.a2se.org.au/). I was invited to speak on behalf of the [Total Environment Centre](http://www.tec.org.au) in the session entitled _Watts in a NEM: Reforming the National Electricity Market for Energy Efficiency and Distributed Generation._
 
-My presentation, *[Systemic Biases in the NEM: Barriers to Demand Side Participation](/files/Glen%20Wright,%20Summer%20Study%20presentation.pdf)*, explored some of the barriers to greater demand side participation in Australia's National Electricity Market. These barriers are often identified and lamented, without deeper understanding of their genesis. The presentation also made some broad recommendations for reform.
+My presentation, _[Systemic Biases in the NEM: Barriers to Demand Side Participation](/files/Glen%20Wright,%20Summer%20Study%20presentation.pdf)_, explored some of the barriers to greater demand side participation in Australia's National Electricity Market. These barriers are often identified and lamented, without deeper understanding of their genesis. The presentation also made some broad recommendations for reform.
 
 I was privileged to speak alongside experienced and interesting speakers, whose presentations have given me much food for thought.
 
-Chris Dunstan from the [Institute for Sustainable Futures](http://www.isf.uts.edu.au/) presented a short summary of the recently released [National Electricity Market Report Card](http://tec.org.au/component/docman/doc_download/409-nem-report-card-full) (summary [here](http://tec.org.au/component/docman/doc_download/407-nem-report-card-summary)), commissioned by the [Total Environment Centre](http://tec.org.au/) as part of out [NEM campaign](http://tec.org.au/green-energy-action). The Report Card is the first comprehensive assessment of the performance of the NEM since its inception. The Report measures whether the NEM is meeting the National Electricity Objective (NEO), which is defined by S. 7 of the [National Electricity Law](http://www.legislation.sa.gov.au/LZ/C/A/NATIONAL%20ELECTRICITY%20(SOUTH%20AUSTRALIA)%20ACT%201996/CURRENT/1996.44.UN.PDF):
+Chris Dunstan from the [Institute for Sustainable Futures](http://www.isf.uts.edu.au/) presented a short summary of the recently released [National Electricity Market Report Card](http://tec.org.au/component/docman/doc_download/409-nem-report-card-full) (summary [here](http://tec.org.au/component/docman/doc_download/407-nem-report-card-summary)), commissioned by the [Total Environment Centre](http://tec.org.au/) as part of out [NEM campaign](http://tec.org.au/green-energy-action). The Report Card is the first comprehensive assessment of the performance of the NEM since its inception. The Report measures whether the NEM is meeting the National Electricity Objective (NEO), which is defined by S. 7 of the [National Electricity Law](<http://www.legislation.sa.gov.au/LZ/C/A/NATIONAL%20ELECTRICITY%20(SOUTH%20AUSTRALIA)%20ACT%201996/CURRENT/1996.44.UN.PDF>):
 
 > to promote efficient investment in, and efficient operation and use of, electricity services for the long term interests of consumers of electricity with respect to –
 
-	- price, quality, safety, reliability, and security of supply of electricity; and
-	- the reliability, safety and security of the national electricity system.
+    - price, quality, safety, reliability, and security of supply of electricity; and
+    - the reliability, safety and security of the national electricity system.
 
-[Craig Memery](http://www.cosmosmagazine.com/profile/5301/tbe-power-wind), wind power expert and NEM advocate at the [Alternative Technology Association](http://www.ata.org.au/), talked about the split incentives problem in the NEM. That is, in a disaggregated market, there are a number of actors, each with different drivers and motivations. In addition, it is not always possible for those that invest in demand side initiatives to fully recoup the benefits that they bring. For example, a householder that installs a rooftop solar PV system is not rewarded for the benefits that their system brings to the network as a whole:  distributed generation can reduce peak demand and help to defer network augmentation, but the owner is not paid for this. Craig suggests that, *inter alia*, a long-term, consistent and well-designed feed-in tariff, that rewards distributed generation at a reasonable level, is a solution to this problem.
+[Craig Memery](http://www.cosmosmagazine.com/profile/5301/tbe-power-wind), wind power expert and NEM advocate at the [Alternative Technology Association](http://www.ata.org.au/), talked about the split incentives problem in the NEM. That is, in a disaggregated market, there are a number of actors, each with different drivers and motivations. In addition, it is not always possible for those that invest in demand side initiatives to fully recoup the benefits that they bring. For example, a householder that installs a rooftop solar PV system is not rewarded for the benefits that their system brings to the network as a whole:  distributed generation can reduce peak demand and help to defer network augmentation, but the owner is not paid for this. Craig suggests that, _inter alia_, a long-term, consistent and well-designed feed-in tariff, that rewards distributed generation at a reasonable level, is a solution to this problem.
 
 The NEO, as set out above, was itself the subject of much discussion in the session. There has been a consistent thread of activism and agitation for environmental and social goals to be including within the NEO, but similarly consistent resistance on the part of the Australian Energy Market Commission, and other actors in the NEM. This resistance has been based on the belief that the NEM is an energy-only market and that non-supply goals are external to the NEM.
 

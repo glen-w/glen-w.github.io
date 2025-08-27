@@ -2,9 +2,9 @@
 layout: post
 title: "On Commonplace Books"
 date: 2016-10-16
-description: 
-tags: ['commonplace books', 'digitisations', 'evernote']
-categories: ['Adjuncts (guest posts)']
+description:
+tags: ["commonplace books", "digitisations", "evernote"]
+categories: ["Adjuncts (guest posts)"]
 ---
 
 By Steven Hill

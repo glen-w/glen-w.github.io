@@ -2,9 +2,9 @@
 layout: post
 title: "Deployment of Marine Renewables: some thoughts on precaution and risk"
 date: 2013-02-09
-description: 
-tags: 
-categories: ['Impact Assessment', 'Marine Energy']
+description:
+tags:
+categories: ["Impact Assessment", "Marine Energy"]
 ---
 
 ![](http://www.glenwright.net/wp-content/uploads/2013/02/FeaturedImage-300x189.jpg)

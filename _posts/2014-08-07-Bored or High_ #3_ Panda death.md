@@ -2,18 +2,18 @@
 layout: post
 title: "Bored or High? #3: Panda death"
 date: 2014-08-07
-description: 
-tags: ['cartoons', 'China', 'diagrams', 'funny', 'morbid', 'Paleobiology', 'pandas']
-categories: ['Academic Humour', 'Bored or High?']
+description:
+tags: ["cartoons", "China", "diagrams", "funny", "morbid", "Paleobiology", "pandas"]
+categories: ["Academic Humour", "Bored or High?"]
 ---
 
-One of my favourite diagrams of all time comes from a paper in *Historical Biology: An International Journal of Paleobiology*. * *The title of the paper does little to warn of the horrors within:
+One of my favourite diagrams of all time comes from a paper in *Historical Biology: An International Journal of Paleobiology*. \* \*The title of the paper does little to warn of the horrors within:
 
-> *Remains of Holocene giant pandas from Jiangdong Mountain (Yunnan, China) and their relevance to the evolution of quaternary environments in south-western China*
+> _Remains of Holocene giant pandas from Jiangdong Mountain (Yunnan, China) and their relevance to the evolution of quaternary environments in south-western China_
 
 Peek into the abstract however and you may begin to see where this is going:
 
-> *Two subfossil partial skeletons of male giant pandas were recovered, along with remains of 16 other mammalian species, from a natural sinkhole on Jiangdong Mountain... The bones represent a natural accumulation of mostly large mammals (>30 kg), which had **fallen accidentally into the sinkhole**.*
+> _Two subfossil partial skeletons of male giant pandas were recovered, along with remains of 16 other mammalian species, from a natural sinkhole on Jiangdong Mountain... The bones represent a natural accumulation of mostly large mammals (>30 kg), which had **fallen accidentally into the sinkhole**._
 
 The authors illustrate this accidental falling through the medium of cartoon, providing 7 beautifully illustrated panels. I reproduce the panels separately below; the full diagram is a lot to take in all at once.
 

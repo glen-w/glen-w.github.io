@@ -2,9 +2,9 @@
 layout: post
 title: "Regulating Marine Renewable Energy: a brief literature review"
 date: 2012-11-10
-description: 
-tags: 
-categories: ['Uncategorized']
+description:
+tags:
+categories: ["Uncategorized"]
 ---
 
 Exploration of the legal and policy issues surrounding marine renewable energy (MRE) technologies, is an emerging topic of interest for academics. One commentator noted in 2009 that “scholarly literature—whether on the science, environmental effects, or legal aspects of wave energy—is scarce, but growing.”[1]
@@ -17,14 +17,14 @@ As such, the literature tends to make suggestions as to reforms and regulatory m
 
 Other research has aimed simply at identifying laws and policies that may be applicable to MRE projects.[5] While this is useful and necessary to assist project developers navigate current regulatory frameworks, this research cannot assist in creating an improved regulatory environment, other than indirectly by providing a basis for critique.
 
-In 2009, Leary and Esteban,[6] in a paper entitled *Renewable Energy from the Ocean and Tides: A Viable Renewable Energy Resource in Search of a Suitable Regulatory Framework*, made perhaps the first effort to bring the discussion of MRE regulation into the academic context and provide a foundation and invitation for further discussion. They identify the key overall issue that regulatory frameworks are generally poor and that there is a “need for new regulatory regimes to be developed where they do not exist, and a streamlining of existing regulations where they do exist”.[7] They explore the international law aspects implications of MRE, discuss the onerous nature of environmental impact assessment requirements,[8] the absence of clear licensing frameworks, the need for reform and promotion mechanisms such as feed-in tariffs.[9]
+In 2009, Leary and Esteban,[6] in a paper entitled _Renewable Energy from the Ocean and Tides: A Viable Renewable Energy Resource in Search of a Suitable Regulatory Framework_, made perhaps the first effort to bring the discussion of MRE regulation into the academic context and provide a foundation and invitation for further discussion. They identify the key overall issue that regulatory frameworks are generally poor and that there is a “need for new regulatory regimes to be developed where they do not exist, and a streamlining of existing regulations where they do exist”.[7] They explore the international law aspects implications of MRE, discuss the onerous nature of environmental impact assessment requirements,[8] the absence of clear licensing frameworks, the need for reform and promotion mechanisms such as feed-in tariffs.[9]
 
 However, Leary and Esteban do not conceptualise these issues, consider them in depth, nor assess efforts to implement reform. Furthermore, they do not address additional issues of importance such as:
 
-	- marine spatial planning and how MRE integrates with planning for the physical use of the oceans;
-	- equitable resource allocation, i.e. ensuring a fair distribution of the rights to explore and exploit the resource;
-	- the basis on which the MRE developer occupies the seabed; and
-	- rules for grid connection and how these will apply to commercial-scale MRE projects.
+    - marine spatial planning and how MRE integrates with planning for the physical use of the oceans;
+    - equitable resource allocation, i.e. ensuring a fair distribution of the rights to explore and exploit the resource;
+    - the basis on which the MRE developer occupies the seabed; and
+    - rules for grid connection and how these will apply to commercial-scale MRE projects.
 
 Since Leary and Esteban’s comments, regulatory frameworks have moved forward, particularly in certain jurisdictions. For example, Scotland in particular has pressed ahead with licensing, environmental assessment, and marine spatial planning issues. This presents an additional area for exploration: study of reforms implemented in jurisdictions like Scotland and assessment of whether the reforms are effective, generally applicable and future-proof.
 
@@ -40,17 +40,17 @@ Further work is needed to expand on Leary and Esteban’s brief overview of MRE 
 
 ---
 
-[1] HV Campbell, “Emerging from the Deep: Pacific Coast Wave Energy” (2009) 24 *Journal of Environmental Law and Litigation* 7–34  at 21 March 2012.
+[1] HV Campbell, “Emerging from the Deep: Pacific Coast Wave Energy” (2009) 24 _Journal of Environmental Law and Litigation_ 7–34 at 21 March 2012.
 
-[2] For an overview of such research, see George Boehlert & Andrew Gill, “Environmental and Ecological Effects of Ocean Renewable Energy: A Current Synthesis” (2008) 23(2). Chris Frid et al., “The environmental interactions of tidal and wave energy generation devices” (2012) 32(1) *Environmental Impact Assessment Review* 133–139 .
+[2] For an overview of such research, see George Boehlert & Andrew Gill, “Environmental and Ecological Effects of Ocean Renewable Energy: A Current Synthesis” (2008) 23(2). Chris Frid et al., “The environmental interactions of tidal and wave energy generation devices” (2012) 32(1) _Environmental Impact Assessment Review_ 133–139 .
 
 [3] See http://www.eimr.org/docs/EIMR2012_Brochure.pdf.
 
-[4] G Dalton et al., “Non-technical barriers to wave energy development, comparing progress in Ireland and Europe” in *8th European Wave and Tidal Energy Conference* (2009) 1–9, 1  at 8 March 2012.
+[4] G Dalton et al., “Non-technical barriers to wave energy development, comparing progress in Ireland and Europe” in _8th European Wave and Tidal Energy Conference_ (2009) 1–9, 1 at 8 March 2012.
 
-[5] E.g. Ocean Renewable Energy Coalition & Foundation for Ocean Renewables, “Summary Chart: Applicable Regulation of Offshore Alternative Energy Uses”; Glen Wright & David Leary, “Marine energy: overview of New Zealand law and policy” [2011] *New Zealand Law Journal* 227–230.
+[5] E.g. Ocean Renewable Energy Coalition & Foundation for Ocean Renewables, “Summary Chart: Applicable Regulation of Offshore Alternative Energy Uses”; Glen Wright & David Leary, “Marine energy: overview of New Zealand law and policy” [2011] _New Zealand Law Journal_ 227–230.
 
-[6] David Leary & Miguel Esteban, “Renewable Energy from the Ocean and Tides: A Viable Renewable Energy Resource in Search of a Suitable Regulatory Framework” [2009] *Carbon & Climate Law Review* 417–425.
+[6] David Leary & Miguel Esteban, “Renewable Energy from the Ocean and Tides: A Viable Renewable Energy Resource in Search of a Suitable Regulatory Framework” [2009] _Carbon & Climate Law Review_ 417–425.
 
 [7] Ibid 425.
 
@@ -58,18 +58,18 @@ Further work is needed to expand on Leary and Esteban’s brief overview of MRE 
 
 [9] Ibid 423.
 
-[10] Holly Campbell, “A Rising Tide: Wave Energy in the United States and Scotland” (2011) 2(2) *Sea Grant Law and Policy Journal* 29–48.
+[10] Holly Campbell, “A Rising Tide: Wave Energy in the United States and Scotland” (2011) 2(2) _Sea Grant Law and Policy Journal_ 29–48.
 
-[11] Michelle E. Portman, “Marine Renewable Energy Policy: Some US and International Perspectives Compared” (2010) 23(2) *Oceanography* 98–105  at 15 March 2012.
+[11] Michelle E. Portman, “Marine Renewable Energy Policy: Some US and International Perspectives Compared” (2010) 23(2) _Oceanography_ 98–105 at 15 March 2012.
 
 [12] Ian Boisvert, “Mountains of ‘Blue Tape’: Barriers to United States and New Zealand Marine Renewable Energy Projects” (2011) .
 
 [13] Dalton et al., “Non-technical barriers to wave energy development, comparing progress in Ireland and Europe,” above.
 
-[14] Paul Todd, “Marine renewable energy and public rights” (2012) 36(3) *Marine Policy* 667–672 .
+[14] Paul Todd, “Marine renewable energy and public rights” (2012) 36(3) _Marine Policy_ 667–672 .
 
-[15] Meinhard Doelle, “The Role of Strategic Environmental Assessments (SEAs) in Energy Governance: A Case Study of Tidal Energy in Nova Scotia” [2009] *Journal of Energy & Natural Resources Law* 111–144 .
+[15] Meinhard Doelle, “The Role of Strategic Environmental Assessments (SEAs) in Energy Governance: A Case Study of Tidal Energy in Nova Scotia” [2009] _Journal of Energy & Natural Resources Law_ 111–144 .
 
-[16] Charles Ehler, *Marine Spatial Planning - An Idea Whose Time Has Come* .
+[16] Charles Ehler, _Marine Spatial Planning - An Idea Whose Time Has Come_ .
 
-[17] See, for example, Courtney Fidler & Bram Noble, “Advancing strategic environmental assessment in the offshore oil and gas sector: Lessons from Norway, Canada, and the United Kingdom” (2012) 34 *Environmental Impact Assessment Review* 12–21  at 23 October 2012. Meinhard Doelle, Nigel Bankes & Louie Porta, “Using Strategic Environmental Assessments to Guide Oil and Gas Exploration Decisions in the Beaufort Sea: Lessons Learned from Atlantic Canada” (2011) .
+[17] See, for example, Courtney Fidler & Bram Noble, “Advancing strategic environmental assessment in the offshore oil and gas sector: Lessons from Norway, Canada, and the United Kingdom” (2012) 34 _Environmental Impact Assessment Review_ 12–21 at 23 October 2012. Meinhard Doelle, Nigel Bankes & Louie Porta, “Using Strategic Environmental Assessments to Guide Oil and Gas Exploration Decisions in the Beaufort Sea: Lessons Learned from Atlantic Canada” (2011) .

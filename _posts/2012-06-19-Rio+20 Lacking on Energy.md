@@ -2,9 +2,9 @@
 layout: post
 title: "Rio+20 Lacking on Energy"
 date: 2012-06-19
-description: 
-tags: 
-categories: ['Uncategorized']
+description:
+tags:
+categories: ["Uncategorized"]
 featured: true
 ---
 

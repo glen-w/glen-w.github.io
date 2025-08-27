@@ -2,9 +2,9 @@
 layout: post
 title: "Why does it always rain on me? Academics forecast their day"
 date: 2015-04-27
-description: 
-tags: ['funny', 'hashtags', 'twitter', 'weather']
-categories: ['Academia Obscura']
+description:
+tags: ["funny", "hashtags", "twitter", "weather"]
+categories: ["Academia Obscura"]
 ---
 
 People have, on occasion, asked how a particular hashtag came about. I have often wondered the same of others' hashtag creations ([#PhDAsExistentialCrucible](https://twitter.com/hashtag/phdasexistentialcrucible) anyone?) but usually struggle to remember what the thinking was behind my own. The latest, #AcademicForecast, is easily explained.
@@ -51,14 +51,14 @@ As usual, the academic twittersphere did not disappoint! A hundred or so tweets 
 
 > Conference forming on Hawaii's big island. Outlook good for PI's mood. 100% chance of email delays. [#AcademicForecast](https://twitter.com/hashtag/AcademicForecast?src=hash) — Andrew Davis (@weemadandrew) [April 27, 2015](https://twitter.com/weemadandrew/status/592690807142019074)
 
-> Heavy showers of rain after the manuscript is rejected; freezing rain till resubmission 
-[#AcademicForecast](https://twitter.com/hashtag/AcademicForecast?src=hash) 
-[@AcademiaObscura](https://twitter.com/AcademiaObscura)
+> Heavy showers of rain after the manuscript is rejected; freezing rain till resubmission
+> [#AcademicForecast](https://twitter.com/hashtag/AcademicForecast?src=hash)
+> [@AcademiaObscura](https://twitter.com/AcademiaObscura)
 
 — blue_and_black (@blue_and_black1) [April 27, 2015](https://twitter.com/blue_and_black1/status/592797791325396993)
 
-> Grades will continue to steadily decline next week, until the arrival of a low pressure system lasting into early June. 
-[#AcademicForecast](https://twitter.com/hashtag/AcademicForecast?src=hash)
+> Grades will continue to steadily decline next week, until the arrival of a low pressure system lasting into early June.
+> [#AcademicForecast](https://twitter.com/hashtag/AcademicForecast?src=hash)
 
 — Professor Jaded (@ProfessorJaded) [April 27, 2015](https://twitter.com/ProfessorJaded/status/592803802190864384)
 

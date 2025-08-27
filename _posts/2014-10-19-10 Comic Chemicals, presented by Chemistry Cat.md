@@ -2,9 +2,9 @@
 layout: post
 title: "10 Comic Chemicals, presented by Chemistry Cat"
 date: 2014-10-19
-description: 
-tags: ['Apollo', 'cat', 'chemistry', 'geology', 'minerals', 'Neil Armstrong', 'puns', 'rude']
-categories: ['Academic Humour', 'Crazy Research']
+description:
+tags: ["Apollo", "cat", "chemistry", "geology", "minerals", "Neil Armstrong", "puns", "rude"]
+categories: ["Academic Humour", "Crazy Research"]
 ---
 
 This week is National Chemistry Week in the US, so I thought I'd take this opportunity to showcase some of the more unusual chemicals. To make it interesting, we also have Chemistry Cat giving his/her (?) thoughts on the comic compounds.
@@ -12,7 +12,7 @@ This week is National Chemistry Week in the US, so I thought I'd take this oppor
 **1. C4H4AsH
 **Any guesses as to the common name of this chemical? [![Arsole](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_13.jpeg)](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_13.jpeg)Yup, that is **Arsole**.
 
-The chemists have really gone to town on this one, writing papers such as *Studies on the Chemistry of the Arsoles, *and sticking six of them together to get a '**sexiarsole**'. One study looks at whether arsoles smell. Due to the wonders of the academic publishing system, access to these fascinating insights will cost you $65. Other contributions to this expanding niche include *Unusual Substitution in an Arsole Ring *and *Arsole metal complexes.*
+The chemists have really gone to town on this one, writing papers such as *Studies on the Chemistry of the Arsoles, *and sticking six of them together to get a '**sexiarsole**'. One study looks at whether arsoles smell. Due to the wonders of the academic publishing system, access to these fascinating insights will cost you $65. Other contributions to this expanding niche include *Unusual Substitution in an Arsole Ring *and _Arsole metal complexes._
 
 [![Arsole Meme](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_02.jpeg)](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_02.jpeg)
 
@@ -23,8 +23,7 @@ Vaginatin** and **Clitorin** [1. The closest that male chemists get to female a
 ![Vaginatin](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_07.jpeg)[![clitorin](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_12.png)]()   **4. Mg2Mg5Si8O22(OH)2** [![Cummingtonite](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_11.jpeg)](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_11.jpeg)A long time favourite of geologists, chemists, and other sciency types, that little lump of rock there is called Cummingtonite. It got its name from the locality where it was first found, Cummington, Massachusetts.
 
 [![cat-cummingtonite](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_08.jpg)](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_08.jpg)
-**5. Apolloane
-6. Rocketene
+**5. Apolloane 6. Rocketene
 **Apolloane was synthesised around the time of the Apollo 11 moon landings, and when drawn looks like a rocket. The OH is located at carbon 11, making the full name **apolloane-11-ol**. Legend has it that Neil Armstrong's has a copy of the paper which named it. [2. Neil has unfortunately not returned my request for comment.]
 
 ![]()
@@ -67,8 +66,8 @@ For more penguin-themed goodness in academia, see this previous post.
 **Bonus: **The final two are more chemistry thought experiments, but they are pretty cool nonetheless.
 
 **11. Chemistry: the human dimension
-**The Nano Putian group of chemicals are proposed in a paper called *Synthesis of Anthropomorphic Molecules*. Standing at a diminutive 2-nm-tall, these tiny figures have nonetheless drawn 13 citations!**
-**
+**The Nano Putian group of chemicals are proposed in a paper called *Synthesis of Anthropomorphic Molecules*. Standing at a diminutive 2-nm-tall, these tiny figures have nonetheless drawn 13 citations!\*\*
+\*\*
 
 [![The Nano Putians](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_10.jpeg)](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_03.jpeg)   [![The Nano Putians](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_09.jpeg)](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_15.jpeg)
 
@@ -77,4 +76,4 @@ For more penguin-themed goodness in academia, see this previous post.
 
 [![Old MacDonald](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_06.jpeg)](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_06.jpeg) [![](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_16.jpeg)](../assets/img/posts/141019_10_Comic_Chemicals_presented_by_Chemistry_Cat_16.jpeg)
 
-*Many thanks to Paul May for his incredibly comprehensive page and book on funny molecules which inspired this post.*
+_Many thanks to Paul May for his incredibly comprehensive page and book on funny molecules which inspired this post._

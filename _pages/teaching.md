@@ -2,7 +2,7 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: 
+description:
 nav: true
 nav_order: 50
 display_categories: [Sciences Po]
@@ -12,10 +12,10 @@ horizontal: false
 <div class="teaching">
 
 {% if site.teaching and page.display_categories %}
-  {% for category in page.display_categories %}
-    <a id="{{ category }}" href=".#{{ category }}">
-      <h2 class="category">{{ category }}</h2>
-    </a>
+{% for category in page.display_categories %}
+<a id="{{ category }}" href=".#{{ category }}">
+<h2 class="category">{{ category }}</h2>
+</a>
 
     {% assign categorized_courses = site.teaching | where: "category", category %}
     {% if categorized_courses and categorized_courses != empty %}
@@ -28,8 +28,10 @@ horizontal: false
     {% else %}
       <p>No courses found under "{{ category }}".</p>
     {% endif %}
-  {% endfor %}
+
+{% endfor %}
 {% else %}
+
   <p>No teaching data found. Make sure the <code>_teaching/</code> folder exists and is defined in <code>_config.yml</code>.</p>
 {% endif %}
 

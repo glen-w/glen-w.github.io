@@ -2,9 +2,9 @@
 layout: post
 title: "Academics with Cats Awards: the results are in!"
 date: 2015-01-15
-description: 
-tags: ['cats']
-categories: ['Academia Obscura']
+description:
+tags: ["cats"]
+categories: ["Academia Obscura"]
 ---
 
 [![winnersannounce](../assets/img/posts/150115_Academics_with_Cats_Awards_the_results_are_in_14.png)](../assets/img/posts/150115_Academics_with_Cats_Awards_the_results_are_in_14.png)
@@ -17,14 +17,14 @@ In case you have already forgotten their furry little faces, you can [see all th
 
 Winners will be announced as follows:
 
-	- Friday 16 January: **Cats with Computers**
-	- Saturday 17 January: **Cats with Books**
-	- Sunday 18 January: **Cats with Papers**
-	- Monday 19 January: **Unhelpful Office Buddies**
-	- Tuesday 20 January: **Special Mentions**
-	- Wednesday 21 January: **Scholarly Cats**
-	- Thursday 22 January: **Best Photography**
-	- Friday 23 January: **Cats and Their Academics**
+    - Friday 16 January: **Cats with Computers**
+    - Saturday 17 January: **Cats with Books**
+    - Sunday 18 January: **Cats with Papers**
+    - Monday 19 January: **Unhelpful Office Buddies**
+    - Tuesday 20 January: **Special Mentions**
+    - Wednesday 21 January: **Scholarly Cats**
+    - Thursday 22 January: **Best Photography**
+    - Friday 23 January: **Cats and Their Academics**
 
 The winners will be announced first via [Twitter](https://twitter.com/AcademiaObscura), then posted below.
 

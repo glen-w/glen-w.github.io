@@ -2,9 +2,9 @@
 layout: post
 title: "High Hopes for Fossil Fuel Subsidies Dashed at Rio+20"
 date: 2012-06-21
-description: 
-tags: ['Fossil Fuel Subsidies', 'renewable energy', 'Rio+20', 'SE4All']
-categories: ['Conferences', 'Electricity']
+description:
+tags: ["Fossil Fuel Subsidies", "renewable energy", "Rio+20", "SE4All"]
+categories: ["Conferences", "Electricity"]
 ---
 
 There were a number of hopes for Rio+20, and for a while it looked as though consensus and momentum was building toward a few key outcomes. While upgrading UNEP and coming to some agreement on protecting biodiversity on the high seas were high on the list, phasing out fossil fuel subsidies was perhaps at the top. Yet hopes for strong action on this crucial issue were dashed when the final negotiating text was released by the Brazilian hosts yesterday.

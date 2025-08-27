@@ -2,9 +2,9 @@
 layout: post
 title: "Academics with Cats Awards 2016 - The Shortlist"
 date: 2016-12-15
-description: 
-tags: 
-categories: ['Academia Obscura']
+description:
+tags:
+categories: ["Academia Obscura"]
 ---
 
 The results of the Third Annual Academics with Cats Awards will be announced tomorrow. Here were the fantastic entries this year, shortlisted by our expert panel.

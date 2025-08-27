@@ -2,9 +2,9 @@
 layout: post
 title: "Marine Renewable Energy at the All-Energy Expo"
 date: 2012-05-29
-description: 
-tags: ['All-Energy']
-categories: ['Conferences', 'Marine Energy']
+description:
+tags: ["All-Energy"]
+categories: ["Conferences", "Marine Energy"]
 ---
 
 The sheer presence of marine renewables at the All-Energy conference was an encouraging  indication of where this fledgling industry is heading.  The companies represented at the expo included device developers, both established and startups, utilities, and a range of ancillary service providers, such as marine engineering and diving firms. In total, around [200 exhibitors](http://www.all-energy.co.uk/PageVisitorTrails.html?TrailsID=T_Wave_Tidal) had an interest in wave and tidal energy, with some 50 of those being dedicated to the industry.

@@ -2,12 +2,12 @@
 layout: post
 title: "Academia: Survival of the Bitterest?"
 date: 2015-07-11
-description: 
-tags: ['#AcaDowntime', 'dance', 'metaphor', 'papers', 'publishing', 'work-life balance']
-categories: ['Adjuncts (guest posts)', 'Surprisingly Helpful']
+description:
+tags: ["#AcaDowntime", "dance", "metaphor", "papers", "publishing", "work-life balance"]
+categories: ["Adjuncts (guest posts)", "Surprisingly Helpful"]
 ---
 
-*[![t4_-1069229323](../assets/img/posts/150711_Academia_Survival_of_the_Bitterest_03.jpeg)](../assets/img/posts/150711_Academia_Survival_of_the_Bitterest_02.jpeg)Jan Klimas is a scientist, artist, thinker and writer who's interested in communicating with the public and using art to blend boundaries between the two disciplines. Check out his blog, and follow him on twitter [@janklimas](https://twitter.com/janklimas).*
+_[![t4_-1069229323](../assets/img/posts/150711_Academia_Survival_of_the_Bitterest_03.jpeg)](../assets/img/posts/150711_Academia_Survival_of_the_Bitterest_02.jpeg)Jan Klimas is a scientist, artist, thinker and writer who's interested in communicating with the public and using art to blend boundaries between the two disciplines. Check out his blog, and follow him on twitter [@janklimas](https://twitter.com/janklimas)._
 
 > In dance, I call it Survival of the Bitterest. The choreographers who stick around are often the ones most comfortable feeling bitter and resentful. My artistic mentors were brilliant artists. But I do not want to live the lives they led.
 
@@ -39,14 +39,14 @@ My own anecdotal evidence suggests the following developmental stages of early a
 
 **Stages of development**
 
-	- **Solitude**: For the extroverts, this stage is excruciating. As they focus on the work, their social networks suffer. The computer becomes their best friend. Introverts find working alone easier, but it can be hard at the start. The junior scientist embraces loneliness in exchange for better concentration.
+    - **Solitude**: For the extroverts, this stage is excruciating. As they focus on the work, their social networks suffer. The computer becomes their best friend. Introverts find working alone easier, but it can be hard at the start. The junior scientist embraces loneliness in exchange for better concentration.
 
-	- **Despair**: Some come into academia with genuine prosocial intentions. When they hit the brick wall of loneliness and parked integrity, they collapse. Too much science is done only for the sake of science and for personal interest. Finding the right balance between the need for helping others and promoting oneself moves the young scientist to the next stage.
+    - **Despair**: Some come into academia with genuine prosocial intentions. When they hit the brick wall of loneliness and parked integrity, they collapse. Too much science is done only for the sake of science and for personal interest. Finding the right balance between the need for helping others and promoting oneself moves the young scientist to the next stage.
 
-	- **Good science vs. bad science**: OK, so if I can’t change the world through science, let’s just do it right so that the bad guys don’t win. Unlike fairy tales, the good scientists don’t always win. Bad science informs policy. Bad science receives funding. The fight for good science is endless. New researchers must decide which side of the battle they join.
+    - **Good science vs. bad science**: OK, so if I can’t change the world through science, let’s just do it right so that the bad guys don’t win. Unlike fairy tales, the good scientists don’t always win. Bad science informs policy. Bad science receives funding. The fight for good science is endless. New researchers must decide which side of the battle they join.
 
-	- **Fear and loathing**: power and control, greed and envy are common in academia. Fear is a natural reaction of junior scientists towards the loathsome deeds of some senior scientists. Scientists are humans too. They err. Some err too much and don’t acknowledge their mistakes. It is up to the junior scientists then to stay or to leave the kitchen if they can’t stand the heat. Learning to detach resolves this developmental conflict.
+    - **Fear and loathing**: power and control, greed and envy are common in academia. Fear is a natural reaction of junior scientists towards the loathsome deeds of some senior scientists. Scientists are humans too. They err. Some err too much and don’t acknowledge their mistakes. It is up to the junior scientists then to stay or to leave the kitchen if they can’t stand the heat. Learning to detach resolves this developmental conflict.
 
-	- **Workaholism**: The balance is not static. It changes all the time. Latch on to the dynamic, forget about the static. The early-career scholar’s task is to make a healthy lifestyle their number one work tool.
+    - **Workaholism**: The balance is not static. It changes all the time. Latch on to the dynamic, forget about the static. The early-career scholar’s task is to make a healthy lifestyle their number one work tool.
 
 The path to academic success is rough and bitter. Bitterness is the key to survival, but happiness lies in enjoying the journey, rather than focusing on the bitter end.

@@ -9,9 +9,11 @@ related_publications: false
 ---
 
 # RENWeB: Renewable Energy Balance Web
+
 A comprehensive data processing and analysis toolkit for renewable energy statistics, developed by REN21.
 
 ## 📊 Features
+
 - **Data Processing**: Automated processing of IEA, IRENA, and REN21 data
 - **Analysis Modules**: Comprehensive renewable energy analysis
 - **Web Interface**: Modern React + TypeScript frontend for data visualization

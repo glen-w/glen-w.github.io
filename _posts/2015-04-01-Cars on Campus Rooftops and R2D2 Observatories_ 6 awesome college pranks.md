@@ -2,9 +2,9 @@
 layout: post
 title: "Cars on Campus Rooftops and R2D2 Observatories: 6 awesome college pranks"
 date: 2015-04-01
-description: 
-tags: ['animals', 'Caltech', 'cars', 'college', 'flamingos', 'football', 'Goose Girl', 'Harvard', 'MIT', 'pranks', 'sports', 'Wisconsin', 'Yale']
-categories: ['Academic Humour', 'Guardian Blog']
+description:
+tags: ["animals", "Caltech", "cars", "college", "flamingos", "football", "Goose Girl", "Harvard", "MIT", "pranks", "sports", "Wisconsin", "Yale"]
+categories: ["Academic Humour", "Guardian Blog"]
 ---
 
 **1) Spruced up statues**
@@ -41,4 +41,4 @@ In the town of Göttingen in Germany, recently minted doctoral graduates rush of
 
 Does your university have a history of foolish pranks? Have you hung a giant bra from a balcony or stolen a priceless George III cannon and welded a brass rat to it? Share your story @AcademiaObscura.
 
-*This post originally appeared on the Guardian Higher Education Network.*
+_This post originally appeared on the Guardian Higher Education Network._

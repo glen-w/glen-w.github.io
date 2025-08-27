@@ -2,9 +2,9 @@
 layout: post
 title: "The First Annual Academics In Hats Awards"
 date: 2014-12-03
-description: 
-tags: ['chicken', 'hats', 'helmets', 'llama', 'moustache', 'photoshop', 'pirates', 'tattoos', 'Toy Story', 'Woody']
-categories: ['Misc.']
+description:
+tags: ["chicken", "hats", "helmets", "llama", "moustache", "photoshop", "pirates", "tattoos", "Toy Story", "Woody"]
+categories: ["Misc."]
 ---
 
 We recently managed to get the hashtag #AcademicsInHats doing the rounds on twitter.

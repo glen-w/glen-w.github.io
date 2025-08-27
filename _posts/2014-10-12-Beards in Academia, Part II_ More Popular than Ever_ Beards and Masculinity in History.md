@@ -2,12 +2,12 @@
 layout: post
 title: "Beards in Academia, Part II: More Popular than Ever? Beards and Masculinity in History"
 date: 2014-10-12
-description: 
-tags: ['beards', 'celebrity', 'history', 'monarchy', 'paintings']
-categories: ['Academic Humour', 'Adjuncts (guest posts)', 'Crazy Research']
+description:
+tags: ["beards", "celebrity", "history", "monarchy", "paintings"]
+categories: ["Academic Humour", "Adjuncts (guest posts)", "Crazy Research"]
 ---
 
-*This post originally appeared over at Dr Alun Withey's blog Follow him on twitter [@DrAlun](https://twitter.com/DrAlun).*
+_This post originally appeared over at Dr Alun Withey's blog Follow him on twitter [@DrAlun](https://twitter.com/DrAlun)._
 
 ![Hipster Beard 
 Credit: Come2England](../assets/img/posts/141012_Beards_in_Academia_Part_II_More_Popular_than_Ever__09.jpg)
@@ -56,4 +56,4 @@ After 1900 with the burgeoning market for shaving apparel and cosmetics the situ
 
 If all this is true, what does the current vogue for facial hair tell us about men today? What ideal of masculinity are men in 2014 aspiring to? It is difficult to say. Unlike in the past it is harder to track changes in masculine ideal as they are now much more transitory. Nonetheless, one of the constants has been emulation. In the early modern period monarchs provided a bearded (or indeed clean-shaven) ideal. By the Victorian period powerful and fashionable figures, and new types of industrial and military heroes, offered men something to aspire to. Now, with almost unlimited access to the lives of celebrities through the voracious media and internet, the opportunities to find fashion ‘heroes’ to emulate are almost limitless. The question now is how long this trend will last and, perhaps more interesting, will there be a backlash against the beard? History suggests so.
 
-*[![DrAlun](../assets/img/posts/141012_Beards_in_Academia_Part_II_More_Popular_than_Ever__06.jpeg)](../assets/img/posts/141012_Beards_in_Academia_Part_II_More_Popular_than_Ever__04.jpeg)This post originally appeared over at Dr Alun Withey's blog Follow him on twitter [@DrAlun](https://twitter.com/DrAlun).*
+_[![DrAlun](../assets/img/posts/141012_Beards_in_Academia_Part_II_More_Popular_than_Ever__06.jpeg)](../assets/img/posts/141012_Beards_in_Academia_Part_II_More_Popular_than_Ever__04.jpeg)This post originally appeared over at Dr Alun Withey's blog Follow him on twitter [@DrAlun](https://twitter.com/DrAlun)._

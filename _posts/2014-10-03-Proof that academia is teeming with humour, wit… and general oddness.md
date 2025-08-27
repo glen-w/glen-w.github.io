@@ -2,12 +2,30 @@
 layout: post
 title: "Proof that academia is teeming with humour, wit… and general oddness"
 date: 2014-10-03
-description: 
-tags: ['Andre Geim', 'banana skin', 'defecation', 'dogs', 'fancy dress', 'friction', 'Ig Nobel', 'insults', 'magnetic fields', 'Marc Abraham', 'nosebleeds', 'polar bears', 'pork', 'reindeer', 'seals', 'twitter']
-categories: ['Academic Humour', 'Crazy Research', 'Guardian Blog']
+description:
+tags:
+  [
+    "Andre Geim",
+    "banana skin",
+    "defecation",
+    "dogs",
+    "fancy dress",
+    "friction",
+    "Ig Nobel",
+    "insults",
+    "magnetic fields",
+    "Marc Abraham",
+    "nosebleeds",
+    "polar bears",
+    "pork",
+    "reindeer",
+    "seals",
+    "twitter",
+  ]
+categories: ["Academic Humour", "Crazy Research", "Guardian Blog"]
 ---
 
-*This post originally appeared on my Guardian Higher Education blog.*
+_This post originally appeared on my Guardian Higher Education blog._
 
 Though we academics are often maligned for our perceived stuffiness, academia is in fact teeming with humour, wit, and general oddness. This blog, which I have every intention of publishing every two weeks (lest it perish), is my attempt to collate some of this oddity for your Friday procrastination and amusement.
 
@@ -17,24 +35,24 @@ The ceremony has been described as “a collection of, like, actual Nobel Prize 
 
 My favourites from this year include:
 
-	- 
+    -
 
 !An image taken from the published study. Photograph: Hart et al.
 
 A study finding that dogs align their body axis with Earth’s north-south geomagnetic field lines while they are “doing their business”. This necessitated the rigorous scientific observation of no fewer than 1,893 defecations.
 
-	- [A study](https://www.jstage.jst.go.jp/article/trol/7/3/7_147/_article) measuring the frictional forces at play when a person steps on a banana skin.
-	- A study entitled, ‘Seeing Jesus in Toast’. It’s about seeing Jesus in toast.
+    - [A study](https://www.jstage.jst.go.jp/article/trol/7/3/7_147/_article) measuring the frictional forces at play when a person steps on a banana skin.
+    - A study entitled, ‘Seeing Jesus in Toast’. It’s about seeing Jesus in toast.
 
-	- A medical report documenting the stemming of severe nosebleeds by stuffing strips of cured pork up the nostrils (you literally couldn’t make this stuff up).
+    - A medical report documenting the stemming of severe nosebleeds by stuffing strips of cured pork up the nostrils (you literally couldn’t make this stuff up).
 
-	- A study in which researchers play dress up to see how reindeer react to humans disguised as polar bears. The authors shirked the usual convention of publishing in the most appropriate journal available by choosing not to publish in the ultra-specific *Rangifer: Research, Management and Husbandry of Reindeer and Other Northern Ungulates*.
+    - A study in which researchers play dress up to see how reindeer react to humans disguised as polar bears. The authors shirked the usual convention of publishing in the most appropriate journal available by choosing not to publish in the ultra-specific *Rangifer: Research, Management and Husbandry of Reindeer and Other Northern Ungulates*.
 
 For the sacrilegious academics who slipped away from academia, there are still opportunities to win: the economics prize went to the Italian government’s National Institute of Statistics. They admittedly don’t sound like such a fun bunch, but when the meddling powers at the EU mandated that each member increase the size of its economy, the Institute took the lead by counting a range of “innovative” revenues in its accounts, including those from prostitution, illegal drug sales, smuggling, and other unlawful financial transactions.
 
 The Igs are almost as popular as the real Nobels these days. Marc Abrahams, the organiser, reckons that many want to follow in Geim’s footsteps, conducting studies with the sole aim of netting an Ig. About 10-20% of the 9,000 nominations received each year are self-nominations from self-appointed academic-comedians (academedians?!).
 
-The Igs spawned an accompanying journal, the *Annals of Improbable Research*, in turn no doubt inspiring the *Journal of Universal Rejection*, which rejects every submission received, and the recently launched *Proceedings of the Natural Institute of Science*, whose acronym (PNIS) speaks for itself.
+The Igs spawned an accompanying journal, the _Annals of Improbable Research_, in turn no doubt inspiring the _Journal of Universal Rejection_, which rejects every submission received, and the recently launched _Proceedings of the Natural Institute of Science_, whose acronym (PNIS) speaks for itself.
 
 And so it is that this humble blog reaches you, merely the latest in a long line of academics trying to prove their unstuffiness. We hope you enjoy it!
 
@@ -44,4 +62,4 @@ And so it is that this humble blog reaches you, merely the latest in a long line
 **Overheard on Twitter**
 
 > So there's a dead headless [#seal](https://twitter.com/hashtag/seal?src=hash) on the shore in front of my lab. Anybody has a clue if that needs to be reported to in Northern Ireland? :/
-— Carina M. Gsottbauer (@CarinaDSLR) [September 30, 2014](https://twitter.com/CarinaDSLR/status/516884881490862080)
+> — Carina M. Gsottbauer (@CarinaDSLR) [September 30, 2014](https://twitter.com/CarinaDSLR/status/516884881490862080)

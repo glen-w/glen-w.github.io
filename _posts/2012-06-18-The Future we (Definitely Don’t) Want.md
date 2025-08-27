@@ -2,9 +2,9 @@
 layout: post
 title: "The Future we (Definitely Don’t) Want"
 date: 2012-06-18
-description: 
-tags: 
-categories: ['Uncategorized']
+description:
+tags:
+categories: ["Uncategorized"]
 ---
 
 The Rio+20 negotiations so far have not been particularly promising. After a week which saw negotiators from developing countries [walk out of a key working group](http://www.guardian.co.uk/environment/2012/jun/15/rio-earth-summit-walkout-economy), the Brazilian delegation to the Rio+20 Conference, now leading the negotiation process, released an overhauled negotiating text last night that will be the basis for negotiations over the coming days.
@@ -17,10 +17,10 @@ While the Brazilian’s are keen to show leadership, the draft text itself prese
 
 The key issues with the new text are:
 
-	- The concept of creating an Ombudsperson, High Commissioner or High Level Representative for future generations has been completely deleted, in spite of the fact that this had not yet been debated and no strong opposition had yet emerged;
-	- UNEP has been stripped of its proposed role in coordinating Multilateral Environment Agreements;
-	- Participation of Civil society has been weakened;
-	- There is no mention of planetary boundaries, but ‘efficiency’ and economic growth’ feature 14 and 20 times respectively;
-	- The text is full to the brim with words like ‘encourage’ and ‘promote’, but lacking in strong language like ‘will’ and ‘commit’;
+    - The concept of creating an Ombudsperson, High Commissioner or High Level Representative for future generations has been completely deleted, in spite of the fact that this had not yet been debated and no strong opposition had yet emerged;
+    - UNEP has been stripped of its proposed role in coordinating Multilateral Environment Agreements;
+    - Participation of Civil society has been weakened;
+    - There is no mention of planetary boundaries, but ‘efficiency’ and economic growth’ feature 14 and 20 times respectively;
+    - The text is full to the brim with words like ‘encourage’ and ‘promote’, but lacking in strong language like ‘will’ and ‘commit’;
 
 Daniel Mittler, Greenpeace International’s Political Director is reported as saying, “if broadly adopted, the latest text from the Brazilian government would condemn the world to a future of pollution, plunder and destruction. There is no action here, no commitment, no future we want”. In fact, the weak and ineffectual document currently on the table is likely to perpetuate business-as-usual, the future that we definitely don’t want.

@@ -2,9 +2,9 @@
 layout: post
 title: "Medieval Marginalia, Reimagined by Modern Academics"
 date: 2015-06-23
-description: 
-tags: ['listicles', 'marginalia']
-categories: ['Academia Obscura']
+description:
+tags: ["listicles", "marginalia"]
+categories: ["Academia Obscura"]
 ---
 
 For a few months now we have been posting #MondayMarginalia. It is one of our favourite regular slots, and we thought we'd take a moment to give you our top ten, from Ayn Rands withering criticism of # to cats urinating on manuscripts, to killer monkeys. It's all here!

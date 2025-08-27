@@ -2,19 +2,19 @@
 layout: post
 title: "IRENA in the Global Energy Governance context"
 date: 2013-05-12
-description: 
-tags: 
-categories: ['Uncategorized']
+description:
+tags:
+categories: ["Uncategorized"]
 featured: true
 ---
 
-*Transitioning to a renewable energy future requires unprecedented investment in development and deployment of new technologies and infrastructure. This necessarily entails cooperation between a range of actors, both within and between countries, yet the existing global energy governance framework is fragmented and incoherent with no overarching framework for facilitating such interactions.
+\*Transitioning to a renewable energy future requires unprecedented investment in development and deployment of new technologies and infrastructure. This necessarily entails cooperation between a range of actors, both within and between countries, yet the existing global energy governance framework is fragmented and incoherent with no overarching framework for facilitating such interactions.
 
 The International Energy Agency (IEA) is currently the closest to being such an organization. Though its initial core role was to manage oil stockpiles, this has now grown to encompass the provision of energy statistics and discussion of policy and technology. The IEA is also one of the few institutions where any effort is made to think systematically about energy governance. However, in a fast-changing world, the importance of the IEA and its continued ability to govern and influence is uncertain.
 
 A number of attempts have been made to close some of the gaps in the global energy governance framework, leading to a proliferation of new actors. [Suding and Lempp](http://www.iaee.org/documents/newsletterarticles/Suding.pdf) describe the current landscape as a ‘jungle’, identifying six distinct types of actor in the renewable energy field (partnerships, networks, organised exchange of experience and plans, voluntary public commitments, conference series and review arrangements). Each of these vies for influence and relevance in an increasingly crowded space. As a result of the increasing complexity of global energy governance, [Dubash and Florini](http://onlinelibrary.wiley.com/doi/10.1111/j.1758-5899.2011.00119.x/abstract) note:
 
-> It is not clear how the various pieces of this dizzying array of initiatives, actors and processes do or can fit together. At every stage of collective action… multiple authorities are putting forward demands. There is likely to be institutional competition across the various actors and approaches.*
+> It is not clear how the various pieces of this dizzying array of initiatives, actors and processes do or can fit together. At every stage of collective action… multiple authorities are putting forward demands. There is likely to be institutional competition across the various actors and approaches.\*
 
 The International Renewable Energy Agency (IRENA) enters this space as one of only a handful of new intergovernmental organisations to be created in recent years, which immediately sets it apart and provides it with a global mandate. IRENA is also unusual in a number of other respects. It is the first international organisation of this kind to be hosted in the Middle East and the first created under German leadership. It is also the first international organisation to be joined by the US in fifteen years.
 

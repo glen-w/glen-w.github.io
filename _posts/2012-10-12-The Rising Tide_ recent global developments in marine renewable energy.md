@@ -2,9 +2,9 @@
 layout: post
 title: "The Rising Tide: recent global developments in marine renewable energy"
 date: 2012-10-12
-description: 
-tags: 
-categories: ['Uncategorized']
+description:
+tags:
+categories: ["Uncategorized"]
 ---
 
 The potential of harnessing the waves and tides of the seas to generate electricity continues to drive advancements in the fledgling marine renewable energy (MRE) industry. In spite of the tough investment climate, the sector continues to grow as technologies edge closer to commercial viability. In recent months, a number of high-profile deals, device deployments and new project proposals have added to the anticipation that the industry can make a significant contribution to a clean energy future.

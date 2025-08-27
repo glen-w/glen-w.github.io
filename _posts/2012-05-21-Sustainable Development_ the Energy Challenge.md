@@ -2,9 +2,9 @@
 layout: post
 title: "Sustainable Development: the Energy Challenge"
 date: 2012-05-21
-description: 
-tags: ['renewable energy', 'Rio+20', 'sustainable development']
-categories: ['Conferences', 'Electricity']
+description:
+tags: ["renewable energy", "Rio+20", "sustainable development"]
+categories: ["Conferences", "Electricity"]
 ---
 
 Approximately 1.3 billion people worldwide lack access to electricity services, while another 1 billion are served by unreliable electricity networks. At the same time, approximately 2.7 billion people use dirty, expensive and sometimes scarce fuels.[](file:///C:/Users/Glen/Desktop/Renewables%20at%20Rio+20.docx#_ftn1)[1] The energy poor,[](file:///C:/Users/Glen/Desktop/Renewables%20at%20Rio+20.docx#_ftn2)[2]whose lives are powered by these inadequate sources of energy, pay disproportionately high costs, but receive poor quality energy services in return.

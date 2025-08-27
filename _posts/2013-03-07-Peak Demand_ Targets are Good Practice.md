@@ -2,9 +2,9 @@
 layout: post
 title: "Peak Demand: Targets are Good Practice"
 date: 2013-03-07
-description: 
-tags: 
-categories: ['National Electricity Market', 'National Electricity Market', 'Publications', 'Total Environment Centre']
+description:
+tags:
+categories: ["National Electricity Market", "National Electricity Market", "Publications", "Total Environment Centre"]
 ---
 
 ![](http://www.glenwright.net/wp-content/uploads/2013/03/64sctdg4-1359605743-300x145.jpg)

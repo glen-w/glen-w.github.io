@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'Traité sur la haute mer: comment protéger les écosystèmes marins ?'
+title: "Traité sur la haute mer: comment protéger les écosystèmes marins ?"
 outlet: France 24
-date: 2023-03-09 
-description: 
-tags: 
-categories: 
+date: 2023-03-09
+description:
+tags:
+categories:
 inline: true
 ---
 

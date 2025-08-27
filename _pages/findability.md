@@ -20,7 +20,7 @@ Below is an interactive map showing a few key places I've visited. This demonstr
 **Note:** The interactive map is temporarily disabled due to technical issues. Instead, here's a simple demonstration of ambient findability:
 
 - **London** (UK) - Discovered through cultural exploration
-- **Paris** (France) - Found through architectural serendipity  
+- **Paris** (France) - Found through architectural serendipity
 - **New York** (USA) - Encountered through urban navigation
 
 This concept shows how information can find you through context and proximity rather than active searching.
@@ -45,4 +45,4 @@ As technology becomes more embedded in our environments, ambient findability wil
 
 ---
 
-*This page demonstrates ambient findability through an interactive map of places visited, allowing for serendipitous discovery of locations rather than targeted searching.*
+_This page demonstrates ambient findability through an interactive map of places visited, allowing for serendipitous discovery of locations rather than targeted searching._

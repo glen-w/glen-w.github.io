@@ -2,12 +2,12 @@
 layout: post
 title: "Shit I learned during my PhD"
 date: 2016-09-16
-description: 
-tags: 
-categories: ['Surprisingly Helpful']
+description:
+tags:
+categories: ["Surprisingly Helpful"]
 ---
 
-*Jon Tennant just finished his PhD in paleontology. This post originally appeared on Jon's blog, **Fossils and Shit**. Follow him on twitter **@protohedgehog**.*
+_Jon Tennant just finished his PhD in paleontology. This post originally appeared on Jon's blog, **Fossils and Shit**. Follow him on twitter **@protohedgehog**._
 
 Doing a PhD is one of the greatest trials you will ever experience in your life. It is physically and mentally grueling, you will be challenged and pushed to the limit every single day, and the pressure levels are so high they will bust you right into the sixth dimension if you’re not prepared or strong enough.
 
@@ -19,7 +19,7 @@ I’m a strong believer in committing yourself fully to something if you believe
 Every day, you will see other people achieving their own things. Encourage the success of others, but do not think that this means your own work has any less value. I think this competitive nature of academia is one of the main causes of Imposter Syndrome for researchers. Acknowledge that others will succeed, and that your own successes will come too. Which leads on to...
 
 **2. Be content with your successes
-**Celebrate all the things!** **Get a paper published? Awesome! Abstract accepted for that conference? You’re amazing! Get some code to run? Get a beer! Accepting that your successes, no matter how big or small, are meaningful is a great step towards acknowledging your personal worth. Both to yourself and others. That doesn’t mean rub them in other people’s faces; simply allow yourself to enjoy the feeling of completing something that meant something to yourself or others. It took me about three and a half years of my PhD to get there and realise ‘Oh. Maybe I’ve finally done something good.’, and then it was like a cascade from there where every achievement began to mean something and excite and motivate me even more. My only wish is that I’d realised this sooner.
+**Celebrate all the things!\*\* \*\*Get a paper published? Awesome! Abstract accepted for that conference? You’re amazing! Get some code to run? Get a beer! Accepting that your successes, no matter how big or small, are meaningful is a great step towards acknowledging your personal worth. Both to yourself and others. That doesn’t mean rub them in other people’s faces; simply allow yourself to enjoy the feeling of completing something that meant something to yourself or others. It took me about three and a half years of my PhD to get there and realise ‘Oh. Maybe I’ve finally done something good.’, and then it was like a cascade from there where every achievement began to mean something and excite and motivate me even more. My only wish is that I’d realised this sooner.
 
 **3. Social media is a doubled-edged sword**
 Social media such as blogging and Twitter are amazing to learn for personal development, networking, and science communication. The negative side of this is that social media emphasises point 1 in this list. People basically pump out all of the good things in their lives, and it’s like having 1000 marginally interesting success stories pummeled into your face on a daily basis. That is not healthy, as it becomes too easy to see this as a single timeline of success that you could not possibly live up to. This is why it is so essential to know that if you do use social media, what you’re looking at is a multitude, and not a single narrative of another person’s life.

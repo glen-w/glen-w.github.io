@@ -2,12 +2,12 @@
 layout: post
 title: "Marine Renewable Energy in Australia: the urgent need for regulatory reform"
 date: 2012-07-26
-description: 
-tags: 
-categories: ['Marine Energy', 'Publications']
+description:
+tags:
+categories: ["Marine Energy", "Publications"]
 ---
 
-*Published in EcoGeneration, July/August 2012*
+_Published in EcoGeneration, July/August 2012_
 
 Wave and tidal energy technologies offer the exciting prospect of generating electricity using the energy contained in the waters off our expansive coastline. Globally, marine renewable energy (MRE) technologies are rapidly developing and moving closer to commercialisation, while finance is beginning to flow as governments and large, well-established companies begin to invest in the industry.
 

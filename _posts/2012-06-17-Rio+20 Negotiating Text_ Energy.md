@@ -2,15 +2,14 @@
 layout: post
 title: "Rio+20 Negotiating Text: Energy"
 date: 2012-06-17
-description: 
-tags: ['Rio+20']
-categories: ['Conferences']
+description:
+tags: ["Rio+20"]
+categories: ["Conferences"]
 ---
 
 Just for reference, the following is the text on energy contained within the consolidated negotiating text released by Brazil this evening here in Rio at the UN Conference on Sustainable Development. The general feeling here is that the text in general is weak, and this is certainly true of energy, where no commitments are made, only 'reaffirmation' and 'recognition'.
 
-> 
-Energy
+> Energy
 
 125. We recognize the critical role that energy plays in the development process, as access to sustainable modern energy services contributes to poverty eradication, saves lives, improves health and helps provide basic human needs. We stress that these services are essential to social inclusion and gender equality, and that energy is also a key input to production. We commit to facilitate support for access to these services by 1.4 billion people worldwide who are currently without these services. We recognize that access to these services is critical for achieving sustainable development.
 

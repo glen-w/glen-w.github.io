@@ -2,12 +2,12 @@
 layout: post
 title: "The Portrayal of Academics in Kids Books - a chat with Melissa Terras"
 date: 2015-07-24
-description: 
-tags: ['cartoons', 'digitisation', 'illustrations', 'interviews', 'kids books', 'libraries', 'side projects', 'stereotypes']
-categories: ['Crazy Research']
+description:
+tags: ["cartoons", "digitisation", "illustrations", "interviews", "kids books", "libraries", "side projects", "stereotypes"]
+categories: ["Crazy Research"]
 ---
 
-*Melissa Terras is Director of the Centre for Digital Humanities and a Professor of Digital Humanities at University College London (UCL). **She is also an expert on the portrayal of academics in kids’ books, having meticulously analysed over 200 titles. **Melissa took some time to chat with me about her fascinating project. **You can check it out here, and follow Melissa on twitter [@melissaterras](https://twitter.com/melissaterras).*
+_Melissa Terras is Director of the Centre for Digital Humanities and a Professor of Digital Humanities at University College London (UCL). **She is also an expert on the portrayal of academics in kids’ books, having meticulously analysed over 200 titles. **Melissa took some time to chat with me about her fascinating project. \*\*You can check it out here, and follow Melissa on twitter [@melissaterras](https://twitter.com/melissaterras)._
 
 "I have a son, aged 7, and twins, aged 4. We buy, and read, a lot of books”, Melissa tells me when I ask how this all started. “One week I spotted a couple of profs in books, so I tweeted about it and posted pictures on a tumblr blog".
 
@@ -17,7 +17,7 @@ This on-a-whim posting ultimately turned into a full-blown research project span
 
 The earliest appearance of an academic in a kids book goes all the way back to 1860, a time when the world had far fewer higher education institutions. Indeed, given the exponential growth of universities and the publication of 1.6m English language kids books in the intervening 150 years, 281 academics seems disappointingly low.
 
-Also disappointing is the unrepresentative picture that the books paint. "There are some truly lovely books", Melissa says, "but there is also a lot of lazy stereotyping". Academics tend to be either crazy evil egotists (like Dr Frankensteiner, the “maddest mad scientist on mercury!”), whilst the Professors tend to be kindly, but baffled, obsessive egg-heads who don’t quite function normally.* *
+Also disappointing is the unrepresentative picture that the books paint. "There are some truly lovely books", Melissa says, "but there is also a lot of lazy stereotyping". Academics tend to be either crazy evil egotists (like Dr Frankensteiner, the “maddest mad scientist on mercury!”), whilst the Professors tend to be kindly, but baffled, obsessive egg-heads who don’t quite function normally.\* \*
 
 Across all the books, there are a mere 13 women and 3 minorities represented. Only one character is both - Professor Wiseman from Curious George, is a described as “American, likely with Indian ancestry”. There is some surprising variety though - Professor Peabody is a vegetable.
 

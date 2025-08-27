@@ -2,9 +2,9 @@
 layout: post
 title: "5 More Ultra Modern University Buildings"
 date: 2014-08-15
-description: 
-tags: 
-categories: ['Academia Obscura']
+description:
+tags:
+categories: ["Academia Obscura"]
 ---
 
 **Biochemistry Building, University of Oxford
@@ -27,8 +27,7 @@ categories: ['Academia Obscura']
 [![cooper1](../assets/img/posts/140815_5_More_Ultra_Modern_University_Buildings_10.jpg)](../assets/img/posts/140815_5_More_Ultra_Modern_University_Buildings_04.jpg) [
 ](../assets/img/posts/140815_5_More_Ultra_Modern_University_Buildings_07.jpeg)
 
-![1 graduate centre2](../assets/img/posts/140815_5_More_Ultra_Modern_University_Buildings_08.jpg)**Graduate Centre
-***London Metropolitan University*
+![1 graduate centre2](../assets/img/posts/140815_5_More_Ultra_Modern_University_Buildings_08.jpg)**Graduate Centre \***London Metropolitan University\*
 
 Facilities at the Graduate Centre include a state-of-the-art lecture theatre, three seminar rooms, IT facilities and a social space for students. We particularly love the sharp angles and steel are in complete contrast to almost everything nearby, particularly the neighbouring dull brown tower block.1. This opinion is far from universal. One comment on a [BBC article about the building says: "the structure in no way complements the 60s tower block on to which it is grafted... in fact it's so ugly it fits in rather well with the rest of the frankly minging Holloway Road!! Vile." Another says: "It looks awful if you ask me. You half expect it to blast off and start shooting laser guns."]
 

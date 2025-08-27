@@ -2,14 +2,14 @@
 layout: post
 title: "Campus Chaos as Pokemon Go Goes Viral"
 date: 2016-07-12
-description: 
-tags: 
-categories: ['Academic Humour', 'Parody']
+description:
+tags:
+categories: ["Academic Humour", "Parody"]
 ---
 
 ![Credit: [Burdie](https://drawception.com/player/343613/burdie/)](../assets/img/posts/160712_Campus_Chaos_as_Pokemon_Go_Goes_Viral_02.png)
 
-Campuses across the country are facing chaos today as the viral video game *Pokemon Go* continues to grip the student body.
+Campuses across the country are facing chaos today as the viral video game _Pokemon Go_ continues to grip the student body.
 
 Dr. Samuel Oak, a professor of zoology at Celadon University, took the drastic step of failing all of his students after they refused to pay attention in class following the release of the hit new game.
 
@@ -23,7 +23,7 @@ Elsewhere campus gyms have been designated as a Pokemon gyms, resulting in a num
 
 ![Campuses nationwide have been affected.](../assets/img/posts/160712_Campus_Chaos_as_Pokemon_Go_Goes_Viral_01.jpg)
 
-*Pokemon Go* is the latest in a string of distractions that are leaving lecturers helpless - just last year a student was marked absent after spending her class taking selfies and [googling pictures of golden retriever puppies in party hats](../assets/img/posts/160712_Campus_Chaos_as_Pokemon_Go_Goes_Viral_03.jpg).
+_Pokemon Go_ is the latest in a string of distractions that are leaving lecturers helpless - just last year a student was marked absent after spending her class taking selfies and [googling pictures of golden retriever puppies in party hats](../assets/img/posts/160712_Campus_Chaos_as_Pokemon_Go_Goes_Viral_03.jpg).
 
 But Oak and others argue that this is an entirely new breed of distraction, more involved and insidious than the selfies and emojis that have previously plagued their pedagogy.
 

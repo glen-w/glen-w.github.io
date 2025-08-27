@@ -2,9 +2,9 @@
 layout: post
 title: a quick website update
 date: 2025-08-20
-description: 
-tags: 
-categories: 
+description:
+tags:
+categories:
 chart:
   plotly: true
 featured: true
