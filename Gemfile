@@ -17,7 +17,7 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
-    # gemspec :path => "_plugins/jekyll-terser"  # Commented out due to build issues
+    gemspec :path => "_plugins/jekyll-terser"
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'

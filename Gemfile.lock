@@ -1,3 +1,10 @@
+PATH
+  remote: _plugins/jekyll-terser
+  specs:
+    jekyll-terser (0.2.3)
+      jekyll (>= 0.10.0)
+      terser (>= 1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -227,6 +234,7 @@ DEPENDENCIES
   jekyll-scholar
   jekyll-sitemap
   jekyll-tabs
+  jekyll-terser!
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
