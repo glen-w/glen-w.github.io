@@ -8,7 +8,7 @@ categories:
 date: 2019-March-01
 description: 'Side Event: Towards an Effective High Seas Treaty: Building on and Strengthening
   Regional Ocean Gove...'
-entry_type: Organized Event
+entry_type: organized
 layout: library-item
 location: New York City, NY, USA
 tags:

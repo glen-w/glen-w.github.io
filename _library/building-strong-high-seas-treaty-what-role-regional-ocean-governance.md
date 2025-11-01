@@ -8,7 +8,7 @@ categories:
 date: 2018-September-01
 description: 'Building a Strong High Seas Treaty: What is the Role for Regional Ocean
   Governance? (High-Level Expe...'
-entry_type: Moderated Event
+entry_type: moderated
 gallery:
 - '20180908_094855'
 - '20180908_101906'

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2025-10-07 16:03:46",
-    "total_locations": 5,
-    "successfully_geocoded": 5,
+    "generated_at": "2025-11-01 22:46:38",
+    "total_locations": 15,
+    "successfully_geocoded": 14,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
     "refresh_mode": false,
@@ -71,6 +71,133 @@
       "coordinates": {
         "lat": 48.8588897,
         "lng": 2.320041
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "stronghighseasSideEventEffective2019",
+      "title": "Side Event: Towards an Effective High Seas Treaty: Building on and Strengthening Regional Ocean Governance",
+      "address": "New York City, NY, USA",
+      "year": "2019",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": {
+        "lat": 40.7127281,
+        "lng": -74.0060152
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightStrengtheningMonitoringControl2019",
+      "title": "Strengthening Monitoring, Control and Surveillance (MCS) through an international instrument on high seas biodiversity",
+      "address": "Guayaquil, Ecuador",
+      "year": "2019",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": {
+        "lat": -2.2895167,
+        "lng": -80.0983887
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "OpportunitiesStrengtheningOcean2018",
+      "title": "Opportunities for Strengthening Ocean Governance in the Southeast Pacific",
+      "address": "Cali, Colombia",
+      "year": "2018",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightABNJWesternIndian2017",
+      "title": "ABNJ in the Western Indian Ocean: Options for Governance \\& Management",
+      "address": "The Setchelles",
+      "year": "2017",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": null,
+      "geocoded": false
+    },
+    {
+      "bibtex_key": "PotsdamOceanGovernance2017",
+      "title": "Potsdam Ocean Governance Workshop",
+      "address": "Potsdam, Germany",
+      "year": "2017",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": {
+        "lat": 52.4009309,
+        "lng": 13.0591397
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightEnvironmentalImpactAssessment2016",
+      "title": "Environmental Impact Assessment: Developing options for ABNJ",
+      "address": "Costa Rica",
+      "year": "2016",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": {
+        "lat": 10.2735633,
+        "lng": -84.0739102
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "WorkshopLinkingGlobal2015",
+      "title": "Workshop on Linking Global and Regional Levels in the Management of Marine Areas Beyond National Jurisdiction",
+      "address": "Rome, Italy",
+      "year": "2015",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": {
+        "lat": 41.8933203,
+        "lng": 12.4829321
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightNorthwestPassageLegal2015",
+      "title": "The Northwest Passage: Legal status and issues",
+      "address": "Malta",
+      "year": "2015",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": {
+        "lat": 35.8885993,
+        "lng": 14.4476911
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightNewInternationalInstrument2014",
+      "title": "Towards a new international instrument on the conservation and sustainable use of marine biodiversity in Areas Beyond National Jurisdiction",
+      "address": "Canberra, Australia",
+      "year": "2014",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": {
+        "lat": -35.2975906,
+        "lng": 149.1012676
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightNewInternationalAgreement2014",
+      "title": "Towards a New International Agreement on High Seas Biodiversity",
+      "address": "Sydney, Australia",
+      "year": "2014",
+      "month": "",
+      "entry_type": "misc",
+      "coordinates": {
+        "lat": -33.8698439,
+        "lng": 151.2082848
       },
       "geocoded": true
     }

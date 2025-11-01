@@ -7,7 +7,7 @@ categories:
 - other
 date: 2018-June-01
 description: Marine Planning on the High Seas
-entry_type: Workshop
+entry_type: workshop
 layout: library-item
 location: Nausicaá, Boulogne sur Mer, France
 tags:

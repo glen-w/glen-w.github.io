@@ -7,7 +7,7 @@ categories:
 - other
 date: 2015-October-01
 description: Bottom Fisheries Closures in Areas Beyond National Jurisdiction
-entry_type: Webinar
+entry_type: webinar
 layout: library-item
 tags:
 - webinar

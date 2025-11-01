@@ -7,7 +7,7 @@ categories:
 - other
 date: 2017-November-01
 description: 'ABNJ in the Western Indian Ocean: Options for Governance & Management'
-entry_type: Workshop
+entry_type: workshop
 layout: library-item
 location: The Setchelles
 tags:

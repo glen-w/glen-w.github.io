@@ -36,7 +36,7 @@ date: 2020-June-01
 description: Plastic pollution of the ocean is now reaching an alarming level, threatening
   species and ecosystems, affecting the well-being of populations and costing billions
   of euros every year, in particular th...
-entry_type: Organized Event
+entry_type: organized
 layout: library-item
 preview: thumbnail
 tags:

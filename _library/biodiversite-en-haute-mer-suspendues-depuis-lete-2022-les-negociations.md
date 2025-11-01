@@ -13,8 +13,8 @@ entry_type: Newspaper
 layout: library-item
 location: Paris, France
 tags:
-- french
 - interview
+- french
 title: 'Biodiversité en haute mer : suspendues depuis l’été 2022, les négociations
   rouvrent pour un potentiel dernier round'
 url: https://www.aefinfo.fr/depeche/687707-biodiversite-en-haute-mer-suspendues-depuis-l-ete-2022-les-negociations-rouvrent-pour-un-potentiel-dernier-round
@@ -40,4 +40,4 @@ Cette session sera-t-elle la dernière ? Suspendues en août dernier, les négoc
 
 ## Keywords
 
-french, interview
+interview, french

@@ -19,11 +19,11 @@ date: 2020-December-01
 description: The mesopelagic, or "twilight zone" - the waters of the open ocean at
   a depth of approximately 150-1,000 metres - hosts significant fish stocks. These
   fish are unpalatable but proposals are emerging t...
-entry_type: Moderated Event
+entry_type: moderated
 layout: library-item
 tags:
-- moderator
 - organiser
+- moderator
 title: 'Fishing in the Twilight Zone: illuminating governance challenges at the next
   fisheries frontier'
 venue: ''
@@ -44,4 +44,4 @@ This webinar introduces the science and ecology of the mesopelagic zone and expl
 
 ## Keywords
 
-moderator, organiser
+organiser, moderator

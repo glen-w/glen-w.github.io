@@ -22,7 +22,7 @@ date: 2018-July-01
 description: Monitoring Control and Surveillance (MCS) will be crucial to ensuring
   compliance with management measures developed under a future international agreement
   on Areas Beyond National Jurisdiction (ABNJ)....
-entry_type: Organized Event
+entry_type: organized
 institution: STRONG High Seas
 layout: library-item
 location: Paris, France

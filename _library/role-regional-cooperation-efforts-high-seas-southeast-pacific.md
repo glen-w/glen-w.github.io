@@ -7,7 +7,7 @@ categories:
 date: '2021-05-01'
 description: The Role of Regional Cooperation Efforts for the High Seas of the Southeast
   Pacific
-entry_type: Workshop
+entry_type: workshop
 layout: library-item
 tags:
 - workshop

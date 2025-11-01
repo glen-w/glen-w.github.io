@@ -7,7 +7,7 @@ categories:
 date: 2018-July-01
 description: Technological tools for Monitoring, Control and Surveillance in Marine
   Areas Beyond National Jurisdi...
-entry_type: Moderated Event
+entry_type: moderated
 layout: library-item
 location: Paris, France
 tags:

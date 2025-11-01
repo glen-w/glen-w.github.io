@@ -7,7 +7,7 @@ categories:
 - other
 date: 2016-February-01
 description: 'Environmental Impact Assessment: Developing options for ABNJ'
-entry_type: Workshop
+entry_type: workshop
 layout: library-item
 location: Costa Rica
 tags:

@@ -9,7 +9,7 @@ categories:
 date: 2019-April-01
 description: La deuxième session de négociations sur la préservation et l’utilisation
   durable de la biodiversité en haute mer s’est conclue le 5 avril dernier. L’occasion...
-entry_type: Other
+entry_type: Media
 layout: library-item
 location: Paris, France
 tags:

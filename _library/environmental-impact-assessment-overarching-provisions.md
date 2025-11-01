@@ -7,7 +7,7 @@ categories:
 - other
 date: 2016-September-01
 description: Environmental Impact Assessment and Overarching Provisions
-entry_type: Organized Event
+entry_type: organized
 gallery:
 - FullSizeRender
 - IMG_2834

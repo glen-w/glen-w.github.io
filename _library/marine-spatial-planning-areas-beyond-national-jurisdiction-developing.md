@@ -8,7 +8,7 @@ categories:
 date: 2014-February-01
 description: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: developing
   a research agenda'
-entry_type: Other
+entry_type: Brown Bag
 layout: library-item
 location: Paris, France
 tags:

@@ -1,16 +1,41 @@
 entry_types:
+- Blog
+- Book
+- Book Chapter
+- Briefing note
 - Conference
+- Conference Paper
+- Guest lecture
+- Journal Article
+- Media
 - Newspaper
+- Other
+- Panel
 - Report
+- Report section
 - Roundtable
 - Webinar
+- Workshop
 role_tags:
 - attendee
 - co-author
+- contributor
 - coordinator
+- delegate
+- editor
+- facilitator
 - featured
 - interview
+- lead author
 - moderator
+- organiser
+- panelist
+- panellist
+- participant
+- presenter
 - quoted
+- speaker
 language_tags:
+- chinese
 - french
+- spanish

@@ -8,7 +8,7 @@ categories:
 date: 2019-March-01
 description: 'High-level expert meeting summary: Towards an Effective High Seas Treaty:
   Building on and Strengthen...'
-entry_type: Organized Event
+entry_type: organized
 institution: STRONG High Seas
 layout: library-item
 location: New York, USA

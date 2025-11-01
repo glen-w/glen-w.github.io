@@ -2,7 +2,7 @@
 abstract: ''
 authors:
 - 'REN21 '
-bibtex_key: ren21Renewables2024Global2024b
+bibtex_key: ren21Renewables2024Global2024a
 categories:
 - other
 date: '2024-01-01'

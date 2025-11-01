@@ -30,7 +30,7 @@ date: 2015-June-01
 description: 1. The Convention for Cooperation in the Protection, Management and Development
   of the Marine and Coastal Environment of the Atlantic Coast of the West, Central
   and Southern Africa Region (Abidjan Con...
-entry_type: Organized Event
+entry_type: organized
 layout: library-item
 location: Mahé, Seychelles
 publisher: IDDRI, UNEP, IASS, Government of Sweden

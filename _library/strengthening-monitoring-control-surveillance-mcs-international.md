@@ -9,7 +9,7 @@ categories:
 date: 2019-November-01
 description: Strengthening Monitoring, Control and Surveillance (MCS) through an international
   instrument on high...
-entry_type: Organized Event
+entry_type: organized
 layout: library-item
 location: Guayaquil, Ecuador
 tags:

@@ -20,7 +20,7 @@ date: 2018-September-01
 description: On the 3rd of September 2018 the STRONG High Seas Project hosted a capacity
   building workshop in New York. It brought together 21 ministry representatives and
   UN negotiators from the Southeast Pacific...
-entry_type: Organized Event
+entry_type: organized
 gallery:
 - '20180903_094649'
 - '20180903_155145'

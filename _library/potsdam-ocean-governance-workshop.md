@@ -6,7 +6,7 @@ categories:
 - other
 date: 2017-December-01
 description: Potsdam Ocean Governance Workshop
-entry_type: Moderated Event
+entry_type: moderated
 gallery:
 - _MG_8855
 - _MG_9036

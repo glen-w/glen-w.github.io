@@ -6,7 +6,7 @@ categories:
 - other
 date: 2018-June-01
 description: Opportunities for Strengthening Ocean Governance in the  Southeast Pacific
-entry_type: Organized Event
+entry_type: organized
 gallery:
 - All-participants
 - IMG_0478

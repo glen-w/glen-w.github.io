@@ -10,7 +10,7 @@ abstract: "This module explores the status and recent trends of some of the buil
   \ of hydrogen production worldwide continues to come from fossil fuel sources."
 authors:
 - 'REN21 '
-bibtex_key: ren21Renewables2024Global2024
+bibtex_key: ren21Renewables2024Global2024c
 categories:
 - other
 date: '2024-01-01'

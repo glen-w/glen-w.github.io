@@ -9,7 +9,7 @@ abstract: "Global investment in and deployment of renewables reached an all-time
   \ of renewables in the electricity supply."
 authors:
 - 'REN21 '
-bibtex_key: ren21Renewables2024Global2024c
+bibtex_key: ren21Renewables2024Global2024
 categories:
 - other
 date: '2024-01-01'

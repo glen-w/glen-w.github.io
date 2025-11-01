@@ -9,7 +9,7 @@ categories:
 - other
 date: 2015-June-01
 description: What role for the Nairobi Convention in the high seas?
-entry_type: Organized Event
+entry_type: organized
 layout: library-item
 location: Mahé, Seychelles
 publisher: IDDRI, FFEM, IUCN

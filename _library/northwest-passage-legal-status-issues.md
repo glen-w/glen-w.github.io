@@ -7,7 +7,7 @@ categories:
 - other
 date: 2015-December-01
 description: 'The Northwest Passage: Legal status and issues'
-entry_type: Other
+entry_type: Guest Lecture
 layout: library-item
 location: Malta
 tags:

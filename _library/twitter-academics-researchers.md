@@ -7,7 +7,7 @@ categories:
 - other
 date: '2013-01-01'
 description: Twitter for Academics & Researchers
-entry_type: Other
+entry_type: Brown Bag
 layout: library-item
 tags:
 - brown bag

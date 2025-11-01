@@ -8,7 +8,7 @@ categories:
 date: 2019-March-01
 description: Overview of regional initiatives for the conservation and sustainable
   use of marine biodiversity in ...
-entry_type: Organized Event
+entry_type: organized
 layout: library-item
 location: New York City, NY, USA
 publisher: STRONG High Seas
