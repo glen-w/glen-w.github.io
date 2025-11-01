@@ -5671,6 +5671,11 @@ ninja.data = [{
           description: "Marine Regions Forum: An international stakeholder forum to strengthen regional ocean governance",
           section: "Library",handler: () => {
               window.location.href = "/library/neumannmarineregionsforum2021/";
+            },},{id: "library-ocean-power",
+          title: 'Ocean Power',
+          description: "Ocean Power",
+          section: "Library",handler: () => {
+              window.location.href = "/library/ocean-power/";
             },},{id: "library-options-for-strengthening-monitoring-control-and-surveillance-of-human-activities-in-the-southeast-atlantic-region",
           title: 'Options for Strengthening Monitoring, Control and Surveillance of Human Activities in the Southeast...',
           description: "Effective monitoring, control and surveillance (MCS) of human activities is critical for the conservation and sustainable use of the ocean. This is particularly important in the Southeast Atlantic, wh...",
@@ -5911,11 +5916,6 @@ ninja.data = [{
           description: "Ce que les observateurs pressentaient début mars s’est vérifié: à New York, la quatrième session de négociations sur le futur traité international sur...",
           section: "Library",handler: () => {
               window.location.href = "/library/legendrebiodiversitehautemer2022a/";
-            },},{id: "library-ocean-power",
-          title: 'Ocean Power',
-          description: "Ocean Power",
-          section: "Library",handler: () => {
-              window.location.href = "/library/ocean-power/";
             },},{id: "library-summary-report-inter-regional-dialogues-on-high-seas-governance",
           title: 'Summary report: Inter-regional Dialogues on High Seas Governance',
           description: "Member States at the United Nations (UN) are currently negotiating a new treaty for the conservation and sustainable use of high seas biodiversity in areas beyond national jurisdiction (ABNJ). While i...",
@@ -6436,6 +6436,11 @@ ninja.data = [{
           description: "Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 2023), GlobalABC has been highly active, strengthening its role as a community and a collaborative force for a zero-emission, resilie...",
           section: "Library",handler: () => {
               window.location.href = "/library/global-alliance-for-buildings-and-construction-globalabc-general-assembly/";
+            },},{id: "library-a-global-cross-resource-assessment-of-offshore-renewable-energy",
+          title: 'A global cross-resource assessment of offshore renewable energy',
+          description: "Current global climate mitigation efforts are considered insufficient to meet international carbon emission targets. Modeled scenarios showing how these targets can be reached are underpinned by furth...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/global-cross-resource-assessment-offshore-renewable-energy/";
             },},{id: "library-renewables-for-nature-integrating-biodiversity-amp-communities-in-energy-policy",
           title: 'Renewables for Nature: Integrating Biodiversity &amp;amp; Communities in Energy Policy',
           description: "How can renewable energy accelerate the energy transition while also delivering tangible benefits for nature and communities? This joint online event hosted by The Nature Conservancy (TNC) and REN21...",
