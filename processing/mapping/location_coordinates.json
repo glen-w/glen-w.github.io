@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-15 13:03:41",
+    "total_conferences": 3,
+    "successfully_geocoded": 3,
+    "source_file": "/Users/89298/glen-w.github.io/_bibliography/papers.bib"
+  },
+  "conferences": [
+    {
+      "bibtex_key": "GlobalAllianceBuildings2025",
+      "title": "Global {Alliance} for {Buildings} and {Construction} ({GlobalABC}) {General} {Assembly}",
+      "address": "Dresden, Germany",
+      "year": "2025",
+      "month": "",
+      "entry_type": "conference",
+      "coordinates": {
+        "lat": 51.0493286,
+        "lng": 13.7381437
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "HowProtectOur2024",
+      "title": "How to protect our ocean",
+      "address": "Paris, France",
+      "year": "2024",
+      "month": "",
+      "entry_type": "roundtable",
+      "coordinates": {
+        "lat": 48.8534951,
+        "lng": 2.3483915
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "BuildingsClimateGlobal2024",
+      "title": "Buildings and {Climate} {Global} {Forum}",
+      "address": "Paris, France",
+      "year": "2024",
+      "month": "",
+      "entry_type": "conference",
+      "coordinates": {
+        "lat": 48.8534951,
+        "lng": 2.3483915
+      },
+      "geocoded": true
+    }
+  ]
+}

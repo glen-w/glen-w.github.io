@@ -1,0 +1,16 @@
+entry_types:
+- Conference
+- Newspaper
+- Report
+- Roundtable
+- Webinar
+role_tags:
+- attendee
+- co-author
+- coordinator
+- featured
+- interview
+- moderator
+- quoted
+language_tags:
+- french

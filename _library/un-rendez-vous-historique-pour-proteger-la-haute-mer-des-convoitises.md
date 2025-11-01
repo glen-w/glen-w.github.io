@@ -1,0 +1,24 @@
+---
+abstract: ''
+authors:
+- Julien Rochette
+- Glen Wright
+bibtex_key: rochetteRendezvousHistoriquePour2016
+categories:
+- other
+date: 2016-March-01
+description: Un rendez-vous historique pour protéger la haute mer des convoitises
+entry_type: Other
+layout: library-item
+tags: []
+title: Un rendez-vous historique pour protéger la haute mer des convoitises
+venue: The Conversation
+year: '2016'
+---
+
+## Publication Details
+
+**Authors:** Julien Rochette, Glen Wright
+
+**Venue:** The Conversation
+**Year:** 2016

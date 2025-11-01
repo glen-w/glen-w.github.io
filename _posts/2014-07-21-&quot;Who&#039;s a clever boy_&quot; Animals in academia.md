@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Who's a clever boy?" Animals in academia"
+title: "Who's a clever boy? Animals in academia"
 date: 2014-07-21
 description: 
 tags: ['animals', 'cats', 'cute', 'dogs', 'funny']

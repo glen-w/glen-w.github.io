@@ -1,0 +1,30 @@
+---
+abstract: ''
+authors:
+- Glen Wright
+bibtex_key: wrightMarineGovernanceIndustrialised2014b
+categories:
+- other
+date: 2014-July-01
+description: 'Marine Governance in an Industrialised Ocean: a case study of the UK''s
+  emerging marine renewable ene...'
+entry_type: Other
+gallery:
+- DSC_0155
+- DSC_0156
+layout: library-item
+location: Tarragona, Spain
+preview: DSC_0155
+tags: []
+title: 'Marine Governance in an Industrialised Ocean: a case study of the UK''s emerging
+  marine renewable energy industry'
+venue: ''
+year: '2014'
+---
+
+## Publication Details
+
+**Authors:** Glen Wright
+
+**Year:** 2014
+**Location:** Tarragona, Spain

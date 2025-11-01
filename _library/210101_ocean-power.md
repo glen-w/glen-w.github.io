@@ -1,0 +1,31 @@
+---
+abstract: ''
+authors:
+- Glen Wright
+categories:
+- other
+date: '2021-01-01'
+description: Ocean Power
+entry_type: Other
+layout: library-item
+pdf: glen_wright_2021_ocean_power.pdf
+preview: glen_wright_2021_ocean_power.jpeg
+publisher: REN21
+tags: []
+title: Ocean Power
+venue: REN21, Renewables 2021 Global Status Report
+year: '2021'
+---
+
+## Publication Details
+
+**Authors:** Glen Wright
+
+**Venue:** REN21, Renewables 2021 Global Status Report
+**Year:** 2021
+**Publisher:** REN21
+
+## Links and Resources
+
+- [PDF](glen_wright_2021_ocean_power.pdf)
+- [Additional Link](glen_wright_2021_ocean_power.jpeg)

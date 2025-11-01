@@ -4,8 +4,8 @@ layout: post
 date: 2023-01-01
 importance: 1
 category: "Sciences Po"
-university: "Sciences Po"
-semester: "Spring 2023"
+#university: "Sciences Po"
+#semester: "Spring 2023"
 url: /teaching/marine-policy/
 topics: ["High seas", "ABNJ", "Regional governance", "Deep sea mining", "Marine spatial planning"]
 description: >

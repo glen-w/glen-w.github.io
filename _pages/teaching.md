@@ -5,7 +5,7 @@ permalink: /teaching/
 description:
 nav: true
 nav_order: 50
-display_categories: [Sciences Po]
+display_categories: [Sciences Po, International Ocean Institute, Miscellaneous]
 horizontal: false
 ---
 

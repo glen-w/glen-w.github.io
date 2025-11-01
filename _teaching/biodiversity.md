@@ -1,11 +1,11 @@
 ---
 title: "Biodiversity Values & Policies"
 layout: post
-date: 2022-10-01
+#date: 2022-10-01
 importance: 2
 category: "Sciences Po"
-university: "Sciences Po"
-semester: "Fall 2022"
+#university: "Sciences Po"
+#semester: "Fall 2022"
 url: /teaching/biodiversity/
 topics: ["Biodiversity policy", "Economic instruments", "CBD", "Global biodiversity frameworks"]
 description: >

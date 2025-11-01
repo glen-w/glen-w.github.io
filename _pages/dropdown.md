@@ -14,6 +14,12 @@ children:
   - title: catalogue of failures
     permalink: /failures/
 
+  - title: code
+    permalink: /code/
+
+  - title: map
+    permalink: /map.html
+
   - title: pieces of paper
     permalink: https://glen.trilium.cc/share/pieces_of_paper
 
