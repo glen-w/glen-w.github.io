@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-creative",
           title: "creative",
-          description: "mostly collage (the original cut and paste, and the one true art form).",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/creative/";
@@ -50,13 +50,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
-          },
-        },{id: "nav-code",
-          title: "code",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/code/";
           },
         },{id: "dropdown-ambient-findability",
               title: "ambient findability",
@@ -1505,6 +1498,11 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/commercial-refrigerator/";
+            },},{id: "creative-contre-couru",
+          title: 'contre-couru?',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/contre-couru/";
             },},{id: "creative-for-two",
           title: 'for two',
           description: "",
@@ -1601,6 +1599,11 @@ ninja.data = [{
           description: "Carbon Offsets and Consumer Protection",
           section: "Library",handler: () => {
               window.location.href = "/library/carbon-offsets-consumer-protection/";
+            },},{id: "library-climate-change-solutions-conference",
+          title: 'Climate Change Solutions Conference',
+          description: "Climate Change Solutions Conference",
+          section: "Library",handler: () => {
+              window.location.href = "/library/climate-change-solutions-conference/";
             },},{id: "library-designing-climate-law-a-comparative-analysis-of-the-us-and-eu",
           title: 'Designing Climate Law: A Comparative Analysis of the US and EU',
           description: "As evidence of anthropogenic climate change mounts there is a growing concern with, and a pressing need for, legal regimes to curtail the problem. This concern culminated in the recent climate change ...",
@@ -2546,6 +2549,26 @@ ninja.data = [{
           description: "Marine Renewable Energy: Effectively Balancing  the Needs of Developers and  Potential Environmental...",
           section: "Library",handler: () => {
               window.location.href = "/library/marine-renewable-energy-effectively-balancing-needs-developers/";
+            },},{id: "library-the-anu-rio-20-project-rio-20-lacking-on-energy",
+          title: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy',
+          description: "The ANU Rio+20 Project: Rio+20 Lacking on Energy",
+          section: "Library",handler: () => {
+              window.location.href = "/library/anu-rio-20-project-rio-20-lacking-energy/";
+            },},{id: "library-the-future-we-definitely-don-t-want",
+          title: 'The Future we (Definitely Don’t) Want',
+          description: "The Future we (Definitely Don’t) Want",
+          section: "Library",handler: () => {
+              window.location.href = "/library/future-definitely-dont-want/";
+            },},{id: "library-rio-20-crucial-summit-hard-times",
+          title: 'Rio+20: crucial summit, hard times',
+          description: "Rio+20: crucial summit, hard times",
+          section: "Library",handler: () => {
+              window.location.href = "/library/rio-20-crucial-summit-hard-times/";
+            },},{id: "library-rio-20-the-end-of-the-road",
+          title: 'Rio+20, The End of the Road',
+          description: "Rio+20, The End of the Road",
+          section: "Library",handler: () => {
+              window.location.href = "/library/rio-20-end-road/";
             },},{id: "library-submission-to-the-australian-climate-change-authority-renewable-energy-target-review",
           title: 'Submission to the Australian Climate Change Authority: Renewable Energy Target review',
           description: "Submission to the Australian Climate Change Authority: Renewable Energy Target review",
@@ -4301,6 +4324,11 @@ ninja.data = [{
           description: "Un rendez-vous historique pour protéger la haute mer des convoitises",
           section: "Library",handler: () => {
               window.location.href = "/library/un-rendez-vous-historique-pour-proteger-la-haute-mer-des-convoitises/";
+            },},{id: "library-cressey2016",
+          title: 'cressey2016',
+          description: "cressey2016",
+          section: "Library",handler: () => {
+              window.location.href = "/library/cressey2016/";
             },},{id: "library-l-union-européenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond",
           title: 'L’Union européenne va-t-elle enfin mettre un terme au chalutage profond ?',
           description: "Désastreuse pour les écosystèmes marins, la pêche en eaux profondes fait l’objet de vifs débats à Bruxelles. Une nouvelle réglementation européenne encadrant cette pratique est attendue à l’été 2016.",

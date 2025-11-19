@@ -275,7 +275,8 @@
             
             createPopupContent(conf) {
                 const date = this.formatDate(conf.year, conf.month);
-                const eventType = this.formatEventType(conf.entry_type);
+                // Use custom Zotero tag if available, otherwise fall back to entry_type
+                const eventType = conf.tag || this.formatEventType(conf.entry_type);
                 
                 return `
                     <div class="popup-content">
@@ -285,7 +286,7 @@
                                 <i class="fas fa-calendar"></i> ${date}
                             </div>
                             <div class="popup-detail">
-                                <i class="fas fa-tag"></i> ${eventType}
+                                <i class="fas fa-tag"></i> ${this.escapeHtml(eventType)}
                             </div>
                             <div class="popup-detail">
                                 <i class="fas fa-map-marker-alt"></i> ${this.escapeHtml(conf.address)}
