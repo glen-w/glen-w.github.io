@@ -11,7 +11,6 @@ description: El experto en política internacional Glen Wright aclara que el Tra
   de alta mar de la ONU no podrá por sí solo frenar la minería submarina
 entry_type: Newspaper
 layout: library-item
-location: Madrid, Spain
 preview: thumbnail
 tags:
 - spanish
@@ -31,7 +30,6 @@ El experto en política internacional Glen Wright aclara que el Tratado de alta 
 
 **Venue:** efeverde
 **Year:** 2023
-**Location:** Madrid, Spain
 
 ## Links and Resources
 

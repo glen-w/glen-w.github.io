@@ -12,6 +12,7 @@ Here we will give you some tips on how to customize the website. One important t
   - [Creating new pages](#creating-new-pages)
   - [Creating new blog posts](#creating-new-blog-posts)
   - [Creating new projects](#creating-new-projects)
+  - [Creating creative works with series grouping](#creating-creative-works-with-series-grouping)
   - [Adding some news](#adding-some-news)
   - [Adding Collections](#adding-collections)
   - [Adding a new publication](#adding-a-new-publication)
@@ -102,6 +103,50 @@ Note that `posts` is also a collection, but it is a default collection created a
 ## Creating new projects
 
 You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory. The easiest way to do this is to copy an existing project and modify it.
+
+## Creating creative works with series grouping
+
+The creative collection supports hierarchical organization with categories and series. Items are displayed grouped by category, then further organized by series within each category.
+
+### Structure
+
+Creative items are stored in the [\_creative](_creative/) directory. Each item should have the following front matter fields:
+
+- `title`: The title of the creative work
+- `category`: The category (e.g., "collage", "poems")
+- `series`: (Optional) The series name to group related works together
+- `importance`: Numeric value for ordering items within their series
+- `img`: Path to the image file
+- `description`: (Optional) Description of the work
+
+### Series Grouping
+
+Items with a `series` field are automatically grouped together under their series name. Series are displayed alphabetically within each category. Items within each series are sorted by their `importance` value.
+
+Items without a `series` field are automatically grouped under "misc." and displayed after all series groups.
+
+### Example
+
+```yaml
+---
+layout: page
+title: "My Creative Work"
+img: assets/img/collage/my_work.jpg
+description: A description of the work
+category: collage
+importance: 2
+series: generally uncanny
+---
+```
+
+### Display Order
+
+1. Category header (e.g., "collage") - displayed with a horizontal line
+2. Series headers (e.g., "generally uncanny", "songbook") - smaller, indented headers
+3. Project cards grouped under each series, sorted by importance
+4. "misc." section (if any items lack a series field)
+
+The series grouping is automatically handled by the layout in [\_pages/creative.md](_pages/creative.md).
 
 ## Adding some news
 

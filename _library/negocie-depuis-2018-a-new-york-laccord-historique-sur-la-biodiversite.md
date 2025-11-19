@@ -11,7 +11,6 @@ description: Après cinq sessions de négociations commencées en 2018, les Éta
   enfin acté le 4 mars 2023 à New York le futur traité international juridiquement...
 entry_type: Newspaper
 layout: library-item
-location: Paris, France
 tags: []
 title: Négocié depuis 2018 à New York, l’accord "historique" sur la biodiversité en
   haute mer est enfin acté
@@ -30,7 +29,6 @@ Après cinq sessions de négociations commencées en 2018, les États ont enfin 
 
 **Venue:** AEF Info
 **Year:** 2023
-**Location:** Paris, France
 
 ## Links and Resources
 

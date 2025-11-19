@@ -224,12 +224,26 @@ class PaperProcessor:
             print(f"  ⚠️  No file field found")
             return True
         
-        # Extract file paths
-        pdf_paths = self.bibtex_processor.extract_pdf_files(fields['file'])
+        # Extract file paths - separate agenda and slides PDFs from regular PDFs
+        all_pdf_paths = self.bibtex_processor.extract_pdf_files(fields['file'])
+        agenda_paths = self.bibtex_processor.extract_agenda_pdfs(fields['file'])
+        slides_paths = self.bibtex_processor.extract_slides_pdfs(fields['file'])
         image_paths = self.bibtex_processor.extract_image_files(fields['file'])
         
-        # Process PDFs
-        pdf_success = self._process_pdfs(citation_key, fields, pdf_paths, regenerate, force, verbose)
+        # Remove agenda and slides PDFs from regular PDF list to avoid double processing
+        regular_pdf_paths = [p for p in all_pdf_paths if p not in agenda_paths and p not in slides_paths]
+        
+        # Process regular PDFs
+        pdf_success = self._process_pdfs(citation_key, fields, regular_pdf_paths, regenerate, force, verbose)
+        
+        # Process agenda PDFs separately (creates agenda field, not pdf field)
+        agenda_success = self._process_agenda_pdfs(citation_key, fields, agenda_paths, regenerate, force, verbose)
+        
+        # Process slides PDFs separately if found by name (creates slides field)
+        # Note: Slides may also be created from keyword detection elsewhere
+        slides_success = True
+        if slides_paths:
+            slides_success = self._process_slides_pdfs(citation_key, fields, slides_paths, regenerate, force, verbose)
         
         # Process images
         image_success = self._process_images(citation_key, fields, image_paths, regenerate, force, verbose)
@@ -244,10 +258,10 @@ class PaperProcessor:
         
         # Clean file field to remove all processed files (PDFs, images, thumbnails)
         # Only keep the file field if there are unprocessed files
-        if pdf_success or image_success or thumbnail_success:
+        if pdf_success or agenda_success or slides_success or image_success or thumbnail_success:
             fields['file'] = self._clean_file_field_after_processing(fields['file'], fields)
         
-        return pdf_success and image_success and thumbnail_success
+        return pdf_success and agenda_success and slides_success and image_success and thumbnail_success
     
     def _clean_file_field_after_processing(self, file_field: str, fields: Dict) -> str:
         """Replace processed files in the file field with their new descriptive filenames."""
@@ -260,6 +274,8 @@ class PaperProcessor:
             processed_pdfs.append(fields['pdf'])
         if 'slides' in fields and fields['slides']:
             processed_pdfs.append(fields['slides'])
+        if 'agenda' in fields and fields['agenda']:
+            processed_pdfs.append(fields['agenda'])
         
         processed_images = []
         if 'photos' in fields and fields['photos']:
@@ -377,6 +393,82 @@ class PaperProcessor:
         # Add tags to fields
         fields['pdf'] = filename
         fields['preview'] = preview_filename
+        
+        return True
+    
+    def _process_agenda_pdfs(self, citation_key: str, fields: Dict, agenda_paths: List[str], 
+                            regenerate: bool, force: bool, verbose: bool) -> bool:
+        """Process agenda PDF files for an entry."""
+        if not agenda_paths:
+            return True
+        
+        # Process the first agenda PDF (typically only one)
+        agenda_path = agenda_paths[0]
+        if not os.path.exists(agenda_path):
+            print(f"  ❌ Agenda PDF not found: {agenda_path}")
+            return False
+        
+        # Generate filename
+        filename = self.text_processor.generate_filename(citation_key, fields, 'pdf')
+        if not filename:
+            print(f"  ❌ Could not generate filename for agenda PDF")
+            return False
+        
+        # Modify filename to indicate it's an agenda
+        base_name = filename.replace('.pdf', '')
+        agenda_filename = f"{base_name}_agenda.pdf"
+        
+        # Copy agenda PDF
+        dest_path = os.path.join(self.config.PDF_DIR, agenda_filename)
+        if not os.path.exists(dest_path) or force:
+            if not self.file_manager.copy_file(agenda_path, dest_path, force):
+                return False
+        
+        # Add agenda field (do NOT add pdf or preview fields)
+        fields['agenda'] = agenda_filename
+        
+        return True
+    
+    def _process_slides_pdfs(self, citation_key: str, fields: Dict, slides_paths: List[str], 
+                            regenerate: bool, force: bool, verbose: bool) -> bool:
+        """Process slides PDF files for an entry."""
+        if not slides_paths:
+            return True
+        
+        # Process the first slides PDF (typically only one)
+        slides_path = slides_paths[0]
+        if not os.path.exists(slides_path):
+            print(f"  ❌ Slides PDF not found: {slides_path}")
+            return False
+        
+        # Generate filename
+        filename = self.text_processor.generate_filename(citation_key, fields, 'pdf')
+        if not filename:
+            print(f"  ❌ Could not generate filename for slides PDF")
+            return False
+        
+        # Modify filename to indicate it's slides (or use as-is if already descriptive)
+        base_name = filename.replace('.pdf', '')
+        slides_filename = f"{base_name}_slides.pdf"
+        
+        # Copy slides PDF
+        dest_path = os.path.join(self.config.PDF_DIR, slides_filename)
+        if not os.path.exists(dest_path) or force:
+            if not self.file_manager.copy_file(slides_path, dest_path, force):
+                return False
+        
+        # Generate thumbnail for slides
+        preview_filename = slides_filename.replace('.pdf', '.jpeg')
+        preview_path = os.path.join(self.config.PREVIEW_DIR, preview_filename)
+        
+        if not os.path.exists(preview_path) or force:
+            if not self.file_manager.generate_pdf_thumbnail(dest_path, preview_path):
+                return False
+        
+        # Add slides field (and preview if not already set)
+        fields['slides'] = slides_filename
+        if 'preview' not in fields or not fields['preview']:
+            fields['preview'] = preview_filename
         
         return True
     
@@ -610,7 +702,7 @@ class PaperProcessor:
         # Add new fields that don't already exist and have valid values
         new_fields = []
         for field_name, field_value in fields.items():
-            if field_name in ['preview', 'pdf', 'slides']:
+            if field_name in ['preview', 'pdf', 'slides', 'agenda']:
                 # Skip empty or None values
                 if not field_value or field_value.strip() == '':
                     continue

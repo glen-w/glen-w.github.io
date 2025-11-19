@@ -3,20 +3,21 @@
 Notes Processor for Zotero Notes Integration
 
 This module handles importing and processing Zotero notes into BibTeX entries.
-It extracts structured information from Zotero notes and adds them as note fields
+It extracts structured information from Zotero notes and adds them as annote fields
 to BibTeX entries for use in the library display system.
 """
 
 import re
 from typing import Dict, List, Optional, Tuple
+from .tag_extractor import TagExtractor
 
 
 class NotesProcessor:
-    """Handles processing of Zotero notes into BibTeX note fields."""
+    """Handles processing of Zotero notes into BibTeX annote fields."""
     
     def __init__(self):
         """Initialize the notes processor."""
-        pass
+        self.tag_extractor = TagExtractor(preserve_case=False)
     
     def process_notes_for_entry(self, entry: Dict[str, any], zotero_notes: str) -> Dict[str, any]:
         """
@@ -37,12 +38,9 @@ class NotesProcessor:
         # Clean and structure the notes
         structured_notes = self._structure_notes(zotero_notes)
         
-        # Add the structured notes as a note field
-        # If the original was in 'annote', keep it there, otherwise use 'note'
-        if 'annote' in entry and entry['annote'] == zotero_notes:
-            entry['annote'] = structured_notes
-        else:
-            entry['note'] = structured_notes
+        # Add the structured notes to annote field (Zotero Notes export standard)
+        # Custom tags should only come from Zotero Notes field, which exports to annote
+        entry['annote'] = structured_notes
         
         # Extract and populate BibTeX fields from notes
         entry = self._extract_and_populate_fields(entry, structured_notes)
@@ -81,18 +79,15 @@ class NotesProcessor:
             
             display_type = type_mapping.get(bibtex_type, bibtex_type)
             
-            # Add the type to the notes field for the template to use
+            # Add the type to the annote field for the template to use
             # Escape @ symbols to prevent BibTeX parsing conflicts
             escaped_type = display_type.replace('@', '@@')
-            if 'note' in entry and entry['note']:
-                # Add to existing note
-                entry['note'] += f'\n\n[type]\n{escaped_type}'
-            elif 'annote' in entry and entry['annote']:
+            if 'annote' in entry and entry['annote']:
                 # Add to existing annote
                 entry['annote'] += f'\n\n[type]\n{escaped_type}'
             else:
-                # Create new note field
-                entry['note'] = f'[type]\n{escaped_type}'
+                # Create new annote field
+                entry['annote'] = f'[type]\n{escaped_type}'
         
         return entry
     
@@ -136,34 +131,19 @@ class NotesProcessor:
         if not notes:
             return entry
         
+        # Use unified tag extractor for consistent extraction
+        # Create temporary entry dict with annote for extraction
+        temp_entry = entry.copy()
+        temp_entry['annote'] = notes
+        
         # Extract type information from notes
-        entry_type = self.extract_type_from_notes(notes)
-        if entry_type:
-            # For multiword custom types, don't set as ENTRYTYPE (causes BibTeX parsing issues)
-            # Instead, just add to keywords for backward compatibility
-            if 'keywords' in entry:
-                entry['keywords'] += f', {entry_type}'
-            else:
-                entry['keywords'] = entry_type
-        else:
+        entry_type = self.tag_extractor.extract_type(temp_entry)
+        if not entry_type:
             # If no custom type found in notes, add BibTeX type fallback to notes
             entry = self._add_bibtex_type_fallback(entry)
         
-        # Extract role information and add to keywords
-        role = self.extract_role_from_notes(notes)
-        if role:
-            if 'keywords' in entry:
-                entry['keywords'] += f', {role}'
-            else:
-                entry['keywords'] = role
-        
-        # Extract language information and add to keywords
-        language = self.extract_language_from_notes(notes)
-        if language:
-            if 'keywords' in entry:
-                entry['keywords'] += f', {language}'
-            else:
-                entry['keywords'] = language
+        # Note: Tags are stored in annote field only (Zotero Notes export), not in keywords field
+        # This ensures single source of truth and preserves Zotero format
         
         # Extract video links and add to appropriate fields
         video_links = self._extract_video_links(notes)
@@ -213,78 +193,6 @@ class NotesProcessor:
         
         return other_links
     
-    def extract_type_from_notes(self, notes: str) -> Optional[str]:
-        """
-        Extract type information from structured notes.
-        
-        Args:
-            notes: Structured notes text
-            
-        Returns:
-            Type string if found, None otherwise
-        """
-        if not notes or '[type]' not in notes:
-            return None
-        
-        # Extract the type section
-        type_section = notes.split('[type]')[-1].split('[')[0].strip()
-        type_lines = type_section.split('\n')
-        
-        for line in type_lines:
-            clean_line = line.strip()
-            if clean_line:
-                # Return the type as-is (preserve multiword custom types)
-                return clean_line
-        
-        return None
-    
-    def extract_role_from_notes(self, notes: str) -> Optional[str]:
-        """
-        Extract role information from structured notes.
-        
-        Args:
-            notes: Structured notes text
-            
-        Returns:
-            Role string if found, None otherwise
-        """
-        if not notes or '[role]' not in notes:
-            return None
-        
-        # Extract the role section
-        role_section = notes.split('[role]')[-1].split('[')[0].strip()
-        role_lines = role_section.split('\n')
-        
-        for line in role_lines:
-            clean_line = line.strip()
-            if clean_line:
-                return clean_line.lower()
-        
-        return None
-    
-    def extract_language_from_notes(self, notes: str) -> Optional[str]:
-        """
-        Extract language information from structured notes.
-        
-        Args:
-            notes: Structured notes text
-            
-        Returns:
-            Language string if found, None otherwise
-        """
-        if not notes or '[language]' not in notes:
-            return None
-        
-        # Extract the language section
-        language_section = notes.split('[language]')[-1].split('[')[0].strip()
-        language_lines = language_section.split('\n')
-        
-        for line in language_lines:
-            clean_line = line.strip()
-            if clean_line:
-                return clean_line.lower()
-        
-        return None
     
     def extract_links_from_notes(self, notes: str) -> List[str]:
         """
@@ -315,7 +223,7 @@ class NotesProcessor:
             zotero_notes_map: Mapping of citation keys to Zotero notes
             
         Returns:
-            Updated entries with note fields added
+            Updated entries with annote fields added
         """
         processed_entries = []
         
@@ -334,53 +242,27 @@ def main():
     processor = NotesProcessor()
     
     # Test notes processing
-    test_notes = """supplementary
-
-[audio]
-
-[links]
-
-[quotes]
+    test_entry = {
+        'ENTRYTYPE': 'misc',
+        'annote': """supplementary
 
 [role]
-
 moderator
-
-[speakers]
-
-José Elias Cabrera, Policy Officer, DG ENER (European Commission)
-
-Louise Combret, Renewable Energy Policy Associate, The Nature Conservancy
-
-Anne Georgelin, Deputy Head of the Office for Hydraulic and Marine Renewable Energies at the French Directorate-General for Energy and Climate (DGEC).
-
-Ross Glover, Senior Nature Strategy Manager, SSE Renewables
-
-Zoë Ledwith, Policy Advisor, REScoop
-
-Dr Boze Hancock, Senior Marine Habitat Restoration Scientist, The Nature Conservancy
-
-Andrea Wainer, Sustainability Lead, REN21
+speaker
 
 [type]
-
 webinar
 
 [video]
-
-[https://www.youtube.com/watch?v=iMmbqMbH8go](https://www.youtube.com/watch?v=iMmbqMbH8go)"""
+https://www.youtube.com/watch?v=iMmbqMbH8go"""
+    }
     
-    # Test type extraction
-    entry_type = processor.extract_type_from_notes(test_notes)
-    print(f"Extracted type: {entry_type}")
+    processed = processor.process_notes_for_entry(test_entry, test_entry['annote'])
+    print(f"Processed entry: {processed}")
     
-    # Test role extraction
-    role = processor.extract_role_from_notes(test_notes)
-    print(f"Extracted role: {role}")
-    
-    # Test links extraction
-    links = processor.extract_links_from_notes(test_notes)
-    print(f"Extracted links: {links}")
+    # Test tag extraction using unified extractor
+    tags = processor.tag_extractor.extract_all_tags(processed)
+    print(f"Extracted tags: {tags}")
 
 
 if __name__ == "__main__":

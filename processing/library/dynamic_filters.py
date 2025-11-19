@@ -7,9 +7,13 @@ This includes entry types, role tags, and language tags.
 """
 
 import os
-import re
 import yaml
 from typing import List, Dict, Any
+import sys
+
+# Add processing directory to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from core.tag_extractor import TagExtractor
 
 
 class DynamicFiltersGenerator:
@@ -22,6 +26,7 @@ class DynamicFiltersGenerator:
             output_dir (str): Output directory for the _data folder
         """
         self.output_dir = output_dir
+        self.tag_extractor = TagExtractor(preserve_case=False)
     
     def generate_filters(self, entries: List[Dict[str, Any]]) -> None:
         """Generate dynamic filters data from bibliography entries.
@@ -40,143 +45,22 @@ class DynamicFiltersGenerator:
         # These entries have already been loaded and parsed by the calling code
         print("Processing entries for dynamic filters...")
         
-        # Entry type mapping - standard BibTeX types use proper multiword names
-        entry_type_mapping = {
-            'article': 'Journal Article',
-            'inproceedings': 'Conference Paper',
-            'incollection': 'Book Chapter',
-            'book': 'Book',
-            'phdthesis': 'PhD Thesis',
-            'mastersthesis': "Master's Thesis",
-            'thesis': 'Thesis',
-            'techreport': 'Report',
-            'misc': 'Other',
-            'unpublished': 'Unpublished',
-            'inbook': 'Book Section',
-            'proceedings': 'Proceedings',
-            'manual': 'Manual',
-            'patent': 'Patent',
-            'webinar': 'Webinar',
-            'roundtable': 'Roundtable',
-            'workshop': 'Workshop',
-            'panel': 'Panel',
-            'conference': 'Conference'
-        }
-        
-        # Process each entry
+        # Process each entry using unified tag extractor
         for entry in entries:
-            # Extract entry type - bibtexparser stores it in ENTRYTYPE field
-            entry_type = entry.get('ENTRYTYPE', '').lower()
-            display_name = ''
+            # Extract entry type using unified extractor
+            entry_type = self.tag_extractor.extract_type(entry)
+            if entry_type:
+                entry_types.add(entry_type)
             
-            # First check for type override from notes or annote field [type] section
-            note = entry.get('note', '')
-            annote = entry.get('annote', '')
+            # Extract ALL roles using unified extractor
+            roles = self.tag_extractor.extract_roles(entry)
+            for role in roles:
+                role_tags.add(role)  # Already lowercased by extractor
             
-            # Check note field first
-            if note:
-                note_text = note.strip()
-                if '[type]' in note_text:
-                    type_section = note_text.split('[type]')[-1].split('[')[0].strip()
-                    type_lines = type_section.split('\n')
-                    for line in type_lines:
-                        clean_line = line.strip()
-                        if clean_line != '':
-                            # Use the custom type with proper capitalization
-                            # Unescape @ symbols that were escaped for BibTeX compatibility
-                            display_name = clean_line.replace('@@', '@').capitalize()
-                            break
-            
-            # If no type from note field, check annote field
-            if not display_name and annote:
-                annote_text = annote.strip()
-                if '[type]' in annote_text:
-                    type_section = annote_text.split('[type]')[-1].split('[')[0].strip()
-                    type_lines = type_section.split('\n')
-                    for line in type_lines:
-                        clean_line = line.strip()
-                        if clean_line != '':
-                            # Use the custom type with proper capitalization
-                            # Unescape @ symbols that were escaped for BibTeX compatibility
-                            display_name = clean_line.replace('@@', '@').capitalize()
-                            break
-            
-            # If no type from notes, use original entry type
-            if not display_name and entry_type:
-                # Use mapping if available, otherwise capitalize the entry type
-                display_name = entry_type_mapping.get(entry_type, entry_type.capitalize())
-            
-            if display_name:
-                entry_types.add(display_name)
-            
-            # Extract role from notes or annote field [role] section
-            if note:
-                note_text = note.strip()
-                if '[role]' in note_text:
-                    role_section = note_text.split('[role]')[-1].split('[')[0].strip()
-                    role_lines = role_section.split('\n')
-                    for line in role_lines:
-                        clean_line = line.strip()
-                        if clean_line:
-                            role_tags.add(clean_line.lower())
-                
-                # Extract language from notes field [language] section
-                if '[language]' in note_text:
-                    language_section = note_text.split('[language]')[-1].split('[')[0].strip()
-                    language_lines = language_section.split('\n')
-                    for line in language_lines:
-                        clean_line = line.strip()
-                        if clean_line:
-                            language = clean_line.replace('@@', '@').lower()
-                            if language in ['french', 'spanish', 'chinese']:
-                                language_tags.add(language)
-            
-            # Also check annote field for role and language
-            if annote:
-                annote_text = annote.strip()
-                if '[role]' in annote_text:
-                    role_section = annote_text.split('[role]')[-1].split('[')[0].strip()
-                    role_lines = role_section.split('\n')
-                    for line in role_lines:
-                        clean_line = line.strip()
-                        if clean_line:
-                            role_tags.add(clean_line.lower())
-                
-                # Extract language from annote field [language] section
-                if '[language]' in annote_text:
-                    language_section = annote_text.split('[language]')[-1].split('[')[0].strip()
-                    language_lines = language_section.split('\n')
-                    for line in language_lines:
-                        clean_line = line.strip()
-                        if clean_line:
-                            language = clean_line.replace('@@', '@').lower()
-                            if language in ['french', 'spanish', 'chinese']:
-                                language_tags.add(language)
-            
-            # Extract keywords for role tags and language tags
-            keywords = entry.get('keywords', '')
-            if keywords:
-                keyword_list = [k.strip() for k in keywords.split(',')]
-                for keyword in keyword_list:
-                    keyword_lower = keyword.lower()
-                    
-                    # Check for language indicators
-                    if re.search(r'🇫🇷|french|français', keyword_lower):
-                        language_tags.add('french')
-                    elif re.search(r'🇪🇸|spanish|español', keyword_lower):
-                        language_tags.add('spanish')
-                    elif re.search(r'🇨🇳|chinese|中文', keyword_lower):
-                        language_tags.add('chinese')
-                    else:
-                        # Only add actual role keywords to role_tags
-                        actual_roles = {
-                            'attendee', 'contributor', 'coordinator', 'delegate', 'editor',
-                            'facilitator', 'featured', 'interview', 'lead author', 'moderator',
-                            'organiser', 'organizer', 'panellist', 'panelist', 'participant',
-                            'presenter', 'quoted', 'speaker'
-                        }
-                        if keyword_lower in actual_roles:
-                            role_tags.add(keyword_lower)
+            # Extract ALL languages using unified extractor
+            languages = self.tag_extractor.extract_languages(entry)
+            for language in languages:
+                language_tags.add(language)  # Already lowercased and validated by extractor
         
         # All entry types are now dynamically discovered from the actual bibliography entries
         # This includes both standard BibTeX types and custom types from ignore tags

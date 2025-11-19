@@ -278,6 +278,9 @@ nav_order: 10
 
 <!-- Library Filter Script -->
 <script>
+// Flag to track if we're filtering by badge (exact match) vs manual search (free-form text)
+let isBadgeFiltering = false;
+
 // Check for jump action on page load
 document.addEventListener('DOMContentLoaded', function() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -300,10 +303,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 500);
   }
   
-  // Add listener to search input for item count updates
+  // Add listener to search input for item count updates and to detect manual typing
   const searchInput = document.getElementById('bibsearch');
   if (searchInput) {
-    searchInput.addEventListener('input', function() {
+    // Listen for manual typing (not programmatic badge clicks)
+    searchInput.addEventListener('input', function(e) {
+      // If this is manual typing (not from badge click), reset badge filtering flag
+      // This allows bibsearch.js to do free-form text search
+      if (!isBadgeFiltering) {
+        // Clear active tags when user manually types (switching to free-form search)
+        clearActiveTags();
+      }
+      
       // Use a small delay to allow the search to process
       setTimeout(() => {
         if (this.value.trim() !== '') {
@@ -311,8 +322,17 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
           hideItemCount();
           clearActiveTags();
+          isBadgeFiltering = false;
         }
       }, 100);
+    });
+    
+    // Detect when user manually types (not programmatic value setting)
+    let lastValue = searchInput.value;
+    searchInput.addEventListener('keydown', function() {
+      // User is typing - this is manual input, not badge click
+      isBadgeFiltering = false;
+      clearActiveTags();
     });
   }
   
@@ -322,13 +342,42 @@ document.addEventListener('DOMContentLoaded', function() {
   }, 200);
 });
 
-// Simple filter functions that use the existing bibsearch infrastructure
+// Filter functions that use exact badge/tag matching for entry types
 function filterByTag(tag) {
   const searchInput = document.getElementById('bibsearch');
   if (searchInput) {
-    searchInput.value = tag;
-    // Trigger the input event to activate the existing search
-    searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+    // First, ensure all items are visible by removing unloaded classes
+    // This is critical when switching between different filter types
+    document.querySelectorAll('.publications .bibliography, .publications .bibliography li, .publications h2.bibliography, .publications ol.bibliography').forEach(element => {
+      element.classList.remove('unloaded');
+    });
+    
+    // Check if this is an entry type filter by checking if it matches entry types
+    const entryTypes = Array.from(document.querySelectorAll('.entry-type-filters .badge')).map(b => {
+      return b.textContent.replace(/\s*\(\d+\)\s*$/, '').trim();
+    });
+    const isEntryType = entryTypes.includes(tag);
+    
+    if (isEntryType) {
+      // For entry types, use exact badge matching to avoid false matches
+      // (e.g., "Conference" should not match "Conference Paper" or items with "conference" in title)
+      // Set flag to indicate we're doing badge filtering (not free-form text search)
+      isBadgeFiltering = true;
+      
+      // Set the search input value for display purposes
+      searchInput.value = tag;
+      
+      // Use exact badge matching - this will NOT match title text
+      filterByExactBadge(tag);
+    } else {
+      // For role tags and language tags, use the existing bibsearch infrastructure
+      // These can match anywhere in the text (titles, authors, etc.)
+      isBadgeFiltering = false;
+      searchInput.value = tag;
+      // Dispatch input event to trigger bibsearch.js filtering
+      searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+    
     // Add active state to clicked tag
     setActiveTag(tag);
     
@@ -339,10 +388,69 @@ function filterByTag(tag) {
   }
 }
 
+// Custom filtering function for entry types that uses exact badge matching
+function filterByExactBadge(filterText) {
+  const filterLower = filterText.toLowerCase();
+  
+  // Remove unloaded class from ALL elements first (items, group headers, OL elements)
+  // This ensures we start with a clean slate when switching filters
+  document.querySelectorAll('.publications .bibliography, .publications .bibliography li, .publications h2.bibliography, .publications ol.bibliography').forEach(element => {
+    element.classList.remove('unloaded');
+  });
+  
+  const allItems = document.querySelectorAll('.publications ol.bibliography li');
+  
+  // Filter items based on exact badge match
+  allItems.forEach(item => {
+    // Skip group headers
+    const hasTitle = item.querySelector('.title');
+    const hasAuthor = item.querySelector('.author');
+    const hasLinks = item.querySelector('.links');
+    const isGroupHeader = !hasTitle && !hasAuthor && !hasLinks;
+    
+    if (isGroupHeader) {
+      return;
+    }
+    
+    // Check if this item matches the filter using exact badge matching
+    const matches = itemMatchesFilter(item, filterText);
+    
+    if (!matches) {
+      item.classList.add('unloaded');
+    }
+  });
+  
+  // Hide empty groups (same logic as bibsearch.js)
+  document.querySelectorAll("h2.bibliography").forEach(function (element) {
+    let iterator = element.nextElementSibling;
+    let hideFirstGroupingElement = true;
+    while (iterator && iterator.tagName !== "H2") {
+      if (iterator.tagName === "OL") {
+        const ol = iterator;
+        const unloadedSiblings = ol.querySelectorAll(":scope > li.unloaded");
+        const totalSiblings = ol.querySelectorAll(":scope > li");
+        
+        if (unloadedSiblings.length === totalSiblings.length) {
+          ol.previousElementSibling.classList.add("unloaded");
+          ol.classList.add("unloaded");
+        } else {
+          hideFirstGroupingElement = false;
+        }
+      }
+      iterator = iterator.nextElementSibling;
+    }
+    if (hideFirstGroupingElement) {
+      element.classList.add("unloaded");
+    }
+  });
+}
+
 function clearFilters() {
   const searchInput = document.getElementById('bibsearch');
   if (searchInput) {
     searchInput.value = '';
+    // Reset badge filtering flag
+    isBadgeFiltering = false;
     // Trigger the input event to clear the search
     searchInput.dispatchEvent(new Event('input', { bubbles: true }));
     // Remove active state from all tags
@@ -446,7 +554,8 @@ function itemMatchesFilter(item, filterText) {
   const filterLower = filterText.toLowerCase();
   
   // First, check if this is a role tag filter by looking for role tags in the item
-  const roleTags = item.querySelectorAll('.item-type .tag');
+  // FIXED: Use correct CSS selector .item-type-and-roles instead of .item-type
+  const roleTags = item.querySelectorAll('.item-type-and-roles .tag');
   const hasRoleTag = Array.from(roleTags).some(tag => {
     const tagText = tag.textContent.toLowerCase().trim();
     return tagText === filterLower;
@@ -460,8 +569,11 @@ function itemMatchesFilter(item, filterText) {
   // Check for language tags
   const languageTags = item.querySelectorAll('.all-tags .tag');
   const hasLanguageTag = Array.from(languageTags).some(tag => {
+    // Language tags are displayed with emoji (e.g., "🇫🇷 French"), so use includes()
     const tagText = tag.textContent.toLowerCase().trim();
-    return tagText.includes(filterLower);
+    // Remove emoji and check if filter text matches
+    const tagWithoutEmoji = tagText.replace(/🇫🇷|🇪🇸|🇨🇳/g, '').trim();
+    return tagWithoutEmoji === filterLower || tagText.includes(filterLower);
   });
   
   if (hasLanguageTag) {
@@ -469,31 +581,47 @@ function itemMatchesFilter(item, filterText) {
     return true;
   }
   
-  // Check for item type badges
-  const itemTypeBadges = item.querySelectorAll('.item-type .badge');
-  const hasItemTypeBadge = Array.from(itemTypeBadges).some(badge => {
-    const badgeText = badge.textContent.toLowerCase().trim();
-    return badgeText === filterLower;
-  });
+  // Check for item type badges - this is the primary matching method
+  // FIXED: Use correct CSS selector .item-type-and-roles instead of .item-type
+  const itemTypeBadges = item.querySelectorAll('.item-type-and-roles .badge');
   
-  if (hasItemTypeBadge) {
-    console.log(`Item type badge "${filterLower}" found in item`);
-    return true;
+  // CRITICAL: If item has a badge, ONLY match on that badge - never match on title text
+  // This ensures "Conference" filter doesn't match items with "conference" in title but "Journal Article" badge
+  if (itemTypeBadges.length > 0) {
+    const hasItemTypeBadge = Array.from(itemTypeBadges).some(badge => {
+      const badgeText = badge.textContent.toLowerCase().trim();
+      // Use case-insensitive exact match - this ensures "Conference" doesn't match "Conference Paper"
+      return badgeText === filterLower;
+    });
+    
+    if (hasItemTypeBadge) {
+      console.log(`Item type badge "${filterLower}" found in item`);
+      return true;
+    } else {
+      // Item has a badge but it doesn't match - return false immediately
+      // Do NOT check title text or patterns - badges are the source of truth
+      console.log(`Item has badge but doesn't match "${filterLower}" - returning false`);
+      return false;
+    }
   }
   
-  // Dynamic pattern matching based on common patterns for item types
+  // Pattern matching as fallback ONLY for items without badges
+  // This handles legacy items or items that might not have badges rendered
+  // IMPORTANT: Patterns should NOT overlap - each filter should have distinct patterns
   const patterns = {
     // Standard BibTeX entry types - proper multiword names
-    'journal article': ['journal article', 'article', 'journal'],
-    'conference paper': ['conference paper', 'conference', 'inproceedings'],
-    'conference': ['conference', 'conference paper', 'inproceedings'],
-    'book chapter': ['book chapter', 'incollection', 'chapter'],
-    'book section': ['book section', 'inbook', 'section'],
-    'phd thesis': ['phd thesis', 'ph.d. thesis', 'phdthesis', 'phd'],
-    'master\'s thesis': ['master\'s thesis', 'master thesis', 'mastersthesis', 'master'],
+    'journal article': ['journal article', 'article'],
+    // FIXED: Remove overlapping patterns - "Conference Paper" should only match "conference paper" or "inproceedings"
+    'conference paper': ['conference paper', 'inproceedings'],
+    // FIXED: "Conference" should only match "conference" (not "conference paper")
+    'conference': ['conference'],
+    'book chapter': ['book chapter', 'incollection'],
+    'book section': ['book section', 'inbook'],
+    'phd thesis': ['phd thesis', 'ph.d. thesis', 'phdthesis'],
+    'master\'s thesis': ['master\'s thesis', 'master thesis', 'mastersthesis'],
     'thesis': ['thesis'],
     'report': ['report', 'techreport'],
-    'briefing note': ['briefing note', 'briefing'],
+    'briefing note': ['briefing note'],
     'proceedings': ['proceedings'],
     'manual': ['manual'],
     'patent': ['patent'],
@@ -509,24 +637,30 @@ function itemMatchesFilter(item, filterText) {
     'newspaper': ['newspaper']
   };
   
-  // Check if we have specific patterns for this filter
+  // Only use pattern matching if no badge was found
+  // This prevents double-counting and ensures badges are the source of truth
   if (patterns[filterLower]) {
     const patternMatches = patterns[filterLower].some(pattern => {
       const matches = itemText.includes(pattern);
       if (matches) {
-        console.log(`Pattern "${pattern}" matched in item text`);
+        console.log(`Pattern "${pattern}" matched in item text (no badge found)`);
       }
       return matches;
     });
-    return patternMatches;
+    if (patternMatches) {
+      return true;
+    }
   }
   
-  // Fallback to simple text matching for other cases
+  // Final fallback: check if filter text appears anywhere in item text
+  // Only use this if no badge was found (to avoid false matches)
   const simpleMatch = itemText.includes(filterLower);
   if (simpleMatch) {
-    console.log(`Simple text match for "${filterLower}"`);
+    console.log(`Simple text match for "${filterLower}" (no badge found)`);
+    return true;
   }
-  return simpleMatch;
+  
+  return false;
 }
 
 function updateItemCount() {
@@ -719,7 +853,8 @@ function createLibraryMap() {
 
 function createPopupContent(conf) {
   const date = formatDate(conf.year, conf.month);
-  const eventType = formatEventType(conf.entry_type);
+  // Use custom Zotero tag if available, otherwise fall back to entry_type
+  const eventType = conf.tag || formatEventType(conf.entry_type);
   
   return `
     <div class="popup-content">
@@ -729,7 +864,7 @@ function createPopupContent(conf) {
           <i class="fas fa-calendar"></i> ${date}
         </div>
         <div class="popup-detail">
-          <i class="fas fa-tag"></i> ${eventType}
+          <i class="fas fa-tag"></i> ${escapeHtml(eventType)}
         </div>
         <div class="popup-detail">
           <i class="fas fa-map-marker-alt"></i> ${escapeHtml(conf.address)}

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2025-11-01 22:46:38",
-    "total_locations": 15,
-    "successfully_geocoded": 14,
+    "generated_at": "2025-11-19 20:12:49",
+    "total_locations": 39,
+    "successfully_geocoded": 38,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
     "refresh_mode": false,
@@ -101,6 +101,20 @@
       "geocoded": true
     },
     {
+      "bibtex_key": "stronghighseasHighlevelExpertMeeting2019",
+      "title": "High-level expert meeting summary: Towards an Effective High Seas Treaty: Building on and Strengthening Regional Ocean Governance",
+      "address": "New York, USA",
+      "year": "2019",
+      "month": "",
+      "entry_type": "techreport",
+      "tag": "Report",
+      "coordinates": {
+        "lat": 40.7127281,
+        "lng": -74.0060152
+      },
+      "geocoded": true
+    },
+    {
       "bibtex_key": "OpportunitiesStrengtheningOcean2018",
       "title": "Opportunities for Strengthening Ocean Governance in the Southeast Pacific",
       "address": "Cali, Colombia",
@@ -110,6 +124,48 @@
       "coordinates": {
         "lat": 3.4108435,
         "lng": -76.5812127
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightEngagingAudiencesFun2018",
+      "title": "Engaging audiences with a fun and friendly newsletter: The Little Blue Letter Story",
+      "address": "Southampton, UK",
+      "year": "2018",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 50.9025349,
+        "lng": -1.404189
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightRegionalGlobalGovernance2018",
+      "title": "Regional \\& Global Governance of Areas Beyond National Jurisdiction",
+      "address": "New York, NY, USA",
+      "year": "2018",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 40.7127281,
+        "lng": -74.0060152
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightMarinePlanningHigh2018",
+      "title": "Marine Planning on the High Seas",
+      "address": "Nausicaá, Boulogne sur Mer, France",
+      "year": "2018",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 50.7302561,
+        "lng": 1.5938399
       },
       "geocoded": true
     },
@@ -137,6 +193,48 @@
       "geocoded": true
     },
     {
+      "bibtex_key": "Wright2017n",
+      "title": "Environmental Impact Assessment in Areas beyond National Jurisdiction: Options for a New International Agreement",
+      "address": "Shanghai",
+      "year": "2017",
+      "month": "",
+      "entry_type": "incollection",
+      "tag": "Book Chapter",
+      "coordinates": {
+        "lat": 31.2312707,
+        "lng": 121.4700152
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightPartneringSustainableOcean2017",
+      "title": "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing SDG14",
+      "address": "Hong Kong",
+      "year": "2017",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 22.350627,
+        "lng": 114.1849161
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightEnvironmentalImpactAssessment2017",
+      "title": "Environmental impact assessment in Areas Beyond National Jurisdiction: challenges and opportunities for Small-Island Developing States",
+      "address": "Brussels, Belgium",
+      "year": "2017",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 50.8465573,
+        "lng": 4.351697
+      },
+      "geocoded": true
+    },
+    {
       "bibtex_key": "wrightEnvironmentalImpactAssessment2016",
       "title": "Environmental Impact Assessment: Developing options for ABNJ",
       "address": "Costa Rica",
@@ -146,6 +244,62 @@
       "coordinates": {
         "lat": 10.2735633,
         "lng": -84.0739102
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightEnvironmentalImpactAssessment2016c",
+      "title": "Environmental Impact Assessment in areas beyond national jurisdiction",
+      "address": "Shanghai, China",
+      "year": "2016",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 31.2312707,
+        "lng": 121.4700152
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "waweruRoleScienceImplementing2016",
+      "title": "The Role of Science in Implementing the 2030 Agenda",
+      "address": "Mahé, Seychelles",
+      "year": "2016",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": -4.6837955,
+        "lng": 55.492638
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "ConservationSustainableUse2016",
+      "title": "Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction: Preparing for the PrepCom",
+      "address": "Singapore",
+      "year": "2016",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 1.357107,
+        "lng": 103.8194992
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "TimeActOceans2016",
+      "title": "Time to act for oceans in the 2030 Agenda: collaborative partnerships for SDG14",
+      "address": "Hawaii",
+      "year": "2016",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 19.5938015,
+        "lng": -155.4283701
       },
       "geocoded": true
     },
@@ -176,6 +330,34 @@
       "geocoded": true
     },
     {
+      "bibtex_key": "greiberRegionalApproachesABNJ2015",
+      "title": "Regional approaches for ABNJ - state of play",
+      "address": "Mahe, Seychelles",
+      "year": "2015",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": -4.6837955,
+        "lng": 55.492638
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightAccommodatingOceanEnergy2015",
+      "title": "Accommodating Ocean Energy in Marine Spatial Planning Processes",
+      "address": "Nantes, France",
+      "year": "2015",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 47.2186371,
+        "lng": -1.5541362
+      },
+      "geocoded": true
+    },
+    {
       "bibtex_key": "wrightNewInternationalInstrument2014",
       "title": "Towards a new international instrument on the conservation and sustainable use of marine biodiversity in Areas Beyond National Jurisdiction",
       "address": "Canberra, Australia",
@@ -198,6 +380,160 @@
       "coordinates": {
         "lat": -33.8698439,
         "lng": 151.2082848
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightMarineGovernanceIndustrialised2014",
+      "title": "Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)",
+      "address": "La Vega, Spain",
+      "year": "2014",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 42.2507678,
+        "lng": -7.0260508
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightMarineGovernanceIndustrialised2014b",
+      "title": "Marine Governance in an Industrialised Ocean: a case study of the UK's emerging marine renewable energy industry",
+      "address": "Tarragona, Spain",
+      "year": "2014",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 41.1172364,
+        "lng": 1.2546057
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "VisitingFellowship2013",
+      "title": "Visiting Fellowship",
+      "address": "Orkney, Scotland",
+      "year": "2013",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 58.9418231,
+        "lng": -3.1296944
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "Wright2012a",
+      "title": "Marine Renewable Energy: Legal and Policy Challenges to Integrating an Emerging Renewable Energy Source",
+      "address": "Berlin",
+      "year": "2012",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 52.5173885,
+        "lng": 13.3951309
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightAnimalRightsRights2012",
+      "title": "Animal Rights and the Rights of Nature, a brief overview",
+      "address": "Southern Cross University",
+      "year": "2012",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": -37.8100242,
+        "lng": 144.9688921
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightMarineRenewableEnergy2012",
+      "title": "Marine Renewable Energy: Effectively Balancing the Needs of Developers and Potential Environmental Impacts, an Australasian Perspective",
+      "address": "Orkney, Scotland, UK",
+      "year": "2012",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 58.9418231,
+        "lng": -3.1296944
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "InternationalAssociationImpact2012",
+      "title": "International Association for Impact Assessment Annual Conference",
+      "address": "Lisbon, Portugal",
+      "year": "2012",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 38.7077507,
+        "lng": -9.1365919
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "Wright2011",
+      "title": "Marine Energy in Australia and New Zealand: Regulatory Barriers and Policy Measures",
+      "address": "Melbourne",
+      "year": "2011",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": -37.8142454,
+        "lng": 144.9631732
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightMarineEnergyAustralia2011",
+      "title": "Marine Energy in Australia and New Zealand",
+      "address": "Melbourne, Australia",
+      "year": "2011",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": -37.8142454,
+        "lng": 144.9631732
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "EnvironmentalLawDeveloping2011",
+      "title": "Environmental Law in Developing Countries: Challenges and Prospects",
+      "address": "Port Vila, Vanuatu",
+      "year": "2011",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": -17.7414972,
+        "lng": 168.3150163
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "ModelUnitedNations2010",
+      "title": "Model United Nations",
+      "address": "Taipei, Taiwan",
+      "year": "2010",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 25.0375198,
+        "lng": 121.5636796
       },
       "geocoded": true
     }

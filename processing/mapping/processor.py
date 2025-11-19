@@ -20,6 +20,11 @@ import requests
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime
+import sys
+
+# Add parent directory to path to import TagExtractor
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from core.tag_extractor import TagExtractor
 
 
 class MappingProcessor:
@@ -48,6 +53,9 @@ class MappingProcessor:
         
         # Ensure output directory exists
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Initialize tag extractor for extracting custom Zotero tags
+        self.tag_extractor = TagExtractor()
         
         # Load existing cache
         self.cache_file = self.output_dir / "location_coordinates.json"
@@ -140,26 +148,37 @@ class MappingProcessor:
         print(f"Found {len(entries)} total entries")
         
         for entry_type, bibtex_key, entry_content in entries:
-            # Look for entry types that might have address fields
-            if entry_type.lower() in ['conference', 'roundtable', 'workshop', 'misc']:
-                # Extract relevant fields
-                title = self._extract_field(entry_content, 'title')
-                address = self._extract_field(entry_content, 'address')
-                year = self._extract_field(entry_content, 'year')
-                month = self._extract_field(entry_content, 'month')
-                preview = self._extract_field(entry_content, 'preview')
-                
-                # Only include entries with address information
-                if address and address.strip():
-                    locations.append({
-                        'bibtex_key': bibtex_key.strip(),
-                        'title': title.strip() if title else '',
-                        'address': address.strip(),
-                        'year': year.strip() if year else '',
-                        'month': month.strip() if month else '',
-                        'entry_type': entry_type,
-                        'preview': preview.strip() if preview else None
-                    })
+            # Extract relevant fields - check all entry types for address fields
+            title = self._extract_field(entry_content, 'title')
+            address = self._extract_field(entry_content, 'address')
+            year = self._extract_field(entry_content, 'year')
+            month = self._extract_field(entry_content, 'month')
+            preview = self._extract_field(entry_content, 'preview')
+            note = self._extract_field(entry_content, 'note')
+            annote = self._extract_field(entry_content, 'annote')
+            
+            # Extract custom Zotero tag from [type] section
+            tag = None
+            if note or annote:
+                entry_dict = {
+                    'ENTRYTYPE': entry_type,
+                    'note': note or '',
+                    'annote': annote or ''
+                }
+                tag = self.tag_extractor.extract_type(entry_dict)
+            
+            # Include any entry that has an address field, regardless of entry type
+            if address and address.strip():
+                locations.append({
+                    'bibtex_key': bibtex_key.strip(),
+                    'title': title.strip() if title else '',
+                    'address': address.strip(),
+                    'year': year.strip() if year else '',
+                    'month': month.strip() if month else '',
+                    'entry_type': entry_type,
+                    'tag': tag,  # Custom Zotero tag from [type] section
+                    'preview': preview.strip() if preview else None
+                })
         
         # Sort by year and month (most recent first)
         locations = self._sort_by_date(locations)
@@ -266,6 +285,7 @@ class MappingProcessor:
                     'year': loc['year'],
                     'month': loc['month'],
                     'entry_type': loc['entry_type'],
+                    'tag': loc.get('tag'),  # Custom Zotero tag
                     'coordinates': {
                         'lat': coordinates[0],
                         'lng': coordinates[1]
@@ -281,6 +301,7 @@ class MappingProcessor:
                     'year': loc['year'],
                     'month': loc['month'],
                     'entry_type': loc['entry_type'],
+                    'tag': loc.get('tag'),  # Custom Zotero tag
                     'coordinates': None,
                     'geocoded': False
                 }

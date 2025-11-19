@@ -8,4 +8,6 @@ importance: 2
 series: generally uncanny
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/collage/commercial_refrigerator.jpg" class="img-fluid rounded z-depth-1" %}
+{% if page.img %}
+{% include figure.liquid loading="eager" path=page.img class="img-fluid rounded z-depth-1" %}
+{% endif %}

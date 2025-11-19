@@ -696,6 +696,37 @@ class BibTeXProcessor:
         
         return agenda_paths
     
+    def extract_slides_pdfs(self, file_field: str) -> List[str]:
+        """Extract PDF files with 'slides' in filename or description."""
+        if not file_field:
+            return []
+        
+        slides_paths = []
+        # Split by semicolon and process each part
+        for part in file_field.split(';'):
+            part = part.strip()
+            if not part:  # Skip empty parts
+                continue
+                
+            # Handle different formats: Description:path:mime or path:mime or just path
+            if ':' in part:
+                # Split by colon and check if it's a slides PDF
+                parts = part.split(':')
+                if len(parts) >= 2:
+                    # Check if the description contains "slides" and MIME type indicates PDF
+                    description = parts[0].strip().lower()
+                    mime_type = parts[-1].strip().lower()
+                    if 'slides' in description and 'application/pdf' in mime_type:
+                        path_part = parts[1].strip()
+                        if path_part and self._is_valid_path(path_part):
+                            slides_paths.append(path_part)
+            else:
+                # Check if the filename contains "slides" and ends with .pdf
+                if 'slides' in part.lower() and part.lower().endswith('.pdf') and self._is_valid_path(part):
+                    slides_paths.append(part.strip())
+        
+        return slides_paths
+    
     def extract_most_recent_pdf(self, file_field: str) -> Optional[str]:
         """Extract the most recent PDF file based on modification time."""
         if not file_field:
@@ -823,11 +854,10 @@ class BibTeXProcessor:
                 entry['file'] = self._filter_snapshot_attachments(entry['file'])
             
             # Check if this entry has notes with structured information
-            # Look for both 'note' and 'annote' fields (Zotero exports to 'annote')
+            # Only check 'annote' field (Zotero Notes field exports to 'annote')
+            # Custom tags should only come from Zotero Notes field
             note_content = None
-            if 'note' in entry:
-                note_content = entry['note']
-            elif 'annote' in entry:
+            if 'annote' in entry:
                 note_content = entry['annote']
             
             # Always process notes to add BibTeX type fallback if needed

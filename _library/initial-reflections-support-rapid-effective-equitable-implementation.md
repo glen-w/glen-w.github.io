@@ -24,11 +24,10 @@ entry_type: Policy Brief
 institution: IDDRI
 layout: library-item
 number: '1'
-pages: '4'
 preview: BBNJ_Graph_FINAL.jpg
 tags:
-- featured
 - coordinator
+- featured
 - lead author
 title: Initial reflections to support rapid, effective and equitable implementation
   of the BBNJ Agreement
@@ -43,9 +42,8 @@ year: '2023'
 **Venue:** IDDRI
 **Year:** 2023
 **Number:** 1
-**Pages:** 4
 **Institution:** IDDRI
 
 ## Keywords
 
-featured, coordinator, lead author
+coordinator, featured, lead author

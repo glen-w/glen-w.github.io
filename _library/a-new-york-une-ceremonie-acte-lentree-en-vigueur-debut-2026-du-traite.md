@@ -17,7 +17,6 @@ description: Les représentants des 68 États ayant à ce jour ratifié le trait
   réunis le 23 septembre 2025 à New York, en marge d...
 entry_type: Newspaper
 layout: library-item
-location: Paris, France
 tags:
 - french
 title: À New York, une cérémonie acte l’entrée en vigueur début 2026 du traité sur
@@ -37,7 +36,6 @@ Les représentants des 68 États ayant à ce jour ratifié le traité sur la pr�
 
 **Venue:** AEF Info
 **Year:** 2025
-**Location:** Paris, France
 
 ## Links and Resources
 
