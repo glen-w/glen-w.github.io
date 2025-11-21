@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/library/";
           },
-        },{id: "nav-media",
-          title: "media",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/media/";
-          },
         },{id: "nav-projects",
           title: "projects",
           description: "",
@@ -1493,6 +1486,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/ambient_findability/";
+            },},{id: "creative-bad-idea",
+          title: 'bad idea',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/bad-idea/";
+            },},{id: "creative-before-it-is-all-over",
+          title: 'before it is all over',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/before-it-is-all-over/";
+            },},{id: "creative-belles-parentheses",
+          title: 'belles parentheses',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/belles-parentheses/";
+            },},{id: "creative-climate-apocalypse-for-kids",
+          title: 'climate apocalypse for kids',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/climate-apocalypse-for-kids/";
             },},{id: "creative-commercial-refrigerator",
           title: 'commercial refrigerator',
           description: "",
@@ -1503,6 +1516,71 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/contre-couru/";
+            },},{id: "creative-death-is-inevitable",
+          title: 'death is inevitable',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/death-is-inevitable/";
+            },},{id: "creative-devastatingly-alone",
+          title: 'devastatingly alone',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/devastatingly-alone/";
+            },},{id: "creative-disc-usa",
+          title: 'disc USA',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/disc-usa/";
+            },},{id: "creative-door",
+          title: 'door',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/door/";
+            },},{id: "creative-drugstore",
+          title: 'drugstore',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/drugstore/";
+            },},{id: "creative-escape",
+          title: 'escape',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/escape/";
+            },},{id: "creative-feelings",
+          title: 'feelings',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/feelings/";
+            },},{id: "creative-fight",
+          title: 'fight',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/fight/";
+            },},{id: "creative-flamingo-i",
+          title: 'flamingo I',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/flamingo-i/";
+            },},{id: "creative-flamingo-ii",
+          title: 'flamingo II',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/flamingo-ii/";
+            },},{id: "creative-flamingos-iii",
+          title: 'flamingos III',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/flamingos-iii/";
+            },},{id: "creative-flamingos-vi",
+          title: 'flamingos VI',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/flamingos-vi/";
+            },},{id: "creative-fog-lifting",
+          title: 'fog lifting',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/fog-lifting/";
             },},{id: "creative-for-two",
           title: 'for two',
           description: "",
@@ -1513,26 +1591,281 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/four-seasons-in-one-day/";
+            },},{id: "creative-gas-station",
+          title: 'gas station',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/gas-station/";
             },},{id: "creative-generally-uncanny",
           title: 'generally uncanny',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/generally-uncanny/";
+            },},{id: "creative-getting-shit-done",
+          title: 'getting shit done',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/getting-shit-done/";
+            },},{id: "creative-good-news",
+          title: 'good news',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/good-news/";
+            },},{id: "creative-gush",
+          title: 'Gush',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/gush/";
+            },},{id: "creative-half-the-world-i",
+          title: 'half the world I',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/half-the-world-i/";
+            },},{id: "creative-half-the-world-ii",
+          title: 'half the world II',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/half-the-world-ii/";
+            },},{id: "creative-hallucinant",
+          title: 'hallucinant',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/hallucinant/";
+            },},{id: "creative-hike",
+          title: 'hike',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/hike/";
+            },},{id: "creative-hillside",
+          title: 'hillside',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/hillside/";
+            },},{id: "creative-i-dont-think",
+          title: 'i dont think',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/i-dont-think/";
+            },},{id: "creative-ignorance-is-bliss",
+          title: 'ignorance is bliss',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/ignorance-is-bliss/";
+            },},{id: "creative-in-the-context",
+          title: 'in the context',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/in-the-context/";
+            },},{id: "creative-individuals-suffer",
+          title: 'individuals suffer',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/individuals-suffer/";
+            },},{id: "creative-invite",
+          title: 'invite',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/invite/";
+            },},{id: "creative-kids",
+          title: 'kids',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/kids/";
+            },},{id: "creative-loop",
+          title: 'loop',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/loop/";
+            },},{id: "creative-lost-keys",
+          title: 'lost keys',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/lost-keys/";
+            },},{id: "creative-money",
+          title: 'money',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/money/";
             },},{id: "creative-normal-oligarchs",
           title: 'normal oligarchs',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/normal-oligarchs/";
+            },},{id: "creative-ode",
+          title: 'ode',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/ode/";
+            },},{id: "creative-on-est-ici",
+          title: 'on est ici',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/on-est-ici/";
+            },},{id: "creative-on-making-time",
+          title: 'on making time',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/on-making-time/";
+            },},{id: "creative-one-pretends",
+          title: 'one pretends',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/one-pretends/";
+            },},{id: "creative-paradoxe",
+          title: 'paradoxe',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/paradoxe/";
             },},{id: "creative-pause",
           title: 'pause',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/pause/";
+            },},{id: "creative-pint-of-best",
+          title: 'pint of best',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/pint-of-best/";
+            },},{id: "creative-pool",
+          title: 'pool',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/pool/";
+            },},{id: "creative-purposes-are-bullshit",
+          title: 'purposes are bullshit',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/purposes-are-bullshit/";
+            },},{id: "creative-restart",
+          title: 'restart',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/restart/";
+            },},{id: "creative-return",
+          title: 'return',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/return/";
+            },},{id: "creative-schrodingers-bullshitter",
+          title: 'schrodingers bullshitter',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/schrodingers-bullshitter/";
+            },},{id: "creative-seduits",
+          title: 'seduits',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/seduits/";
+            },},{id: "creative-self",
+          title: 'self',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/self/";
+            },},{id: "creative-six-different-stories",
+          title: 'six different stories',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/six-different-stories/";
+            },},{id: "creative-slice-of-heaven",
+          title: 'slice of heaven',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/slice-of-heaven/";
+            },},{id: "creative-sunday",
+          title: 'sunday',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/sunday/";
+            },},{id: "creative-take-a-look",
+          title: 'take a look',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/take-a-look/";
+            },},{id: "creative-talking-endlessly",
+          title: 'talking endlessly',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/talking-endlessly/";
+            },},{id: "creative-tanks",
+          title: 'tanks',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/tanks/";
+            },},{id: "creative-the-edge-of-the-desk",
+          title: 'the edge of the desk',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/the-edge-of-the-desk/";
+            },},{id: "creative-the-object-that-refuses-to-leave",
+          title: 'the object that refuses to leave',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/the-object-that-refuses-to-lea/";
+            },},{id: "creative-the-privilege-of-freedom",
+          title: 'the privilege of freedom',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/the-privilege-of-freedom/";
+            },},{id: "creative-the-void",
+          title: 'the void',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/the-void/";
+            },},{id: "creative-thoughts",
+          title: 'thoughts',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/thoughts/";
+            },},{id: "creative-tour-du-table",
+          title: 'tour du table',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/tour-du-table/";
+            },},{id: "creative-transcend-bullshit",
+          title: 'transcend bullshit',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/transcend-bullshit/";
+            },},{id: "creative-treat-yourself",
+          title: 'treat yourself',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/treat-yourself/";
+            },},{id: "creative-what-end",
+          title: 'what end',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/what-end/";
+            },},{id: "creative-what-happened",
+          title: 'what happened',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/what-happened/";
+            },},{id: "creative-what-is-the-point",
+          title: 'what is the point',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/what-is-the-point/";
+            },},{id: "creative-white-amp-black",
+          title: 'white &amp;amp; black',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/white-black/";
             },},{id: "creative-with-or-without-you",
           title: 'with or without you',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/with-or-without-you/";
+            },},{id: "creative-withdrawn",
+          title: 'withdrawn',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/withdrawn/";
+            },},{id: "creative-yellow",
+          title: 'yellow',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/yellow/";
             },},{id: "failures-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
@@ -6331,7 +6664,7 @@ ninja.data = [{
               window.location.href = "/library/buildings-and-climate-global-forum/";
             },},{id: "library-how-to-protect-our-ocean",
           title: 'How to Protect Our Ocean',
-          description: "Rémi Parmentier, Director, The Varda GroupMonica Verbeek, CEO, Seas at RiskStudent Speaker: Vivienne Dosoo, Environmental Policy, PSIAStudent Panel Presenter: Charlee Heath, International Security,...",
+          description: "Rémi Parmentier, Director, The Varda GroupMonica Verbeek, CEO, Seas at RiskStudent Speaker: Vivienne Dosoo, Environmental Policy, PSIAStudent Panel Presenter: Charlee Heath, International Security, PSIAModerator: Glen Wright, Senior Research Fellow, International Ocean Governance",
           section: "Library",handler: () => {
               window.location.href = "/library/how-to-protect-our-ocean/";
             },},{id: "library-renewables-2024-global-status-report-energy-systems-and-infrastructure",
