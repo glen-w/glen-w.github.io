@@ -9,7 +9,7 @@ categories:
 date: 2013-April-01
 description: 'Submission to the Department of Resources, Energy & Tourism: Energy
   Efficiency Opportunities Program...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

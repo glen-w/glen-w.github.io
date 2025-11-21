@@ -6,7 +6,7 @@ categories:
 - other
 date: 2011-July-01
 description: 'Environmental Law in Developing Countries: Challenges and Prospects'
-entry_type: Other
+entry_type: Training
 layout: library-item
 location: Port Vila, Vanuatu
 preview: Picture 219a

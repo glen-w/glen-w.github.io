@@ -6,6 +6,7 @@ Scans subfolders in the collage directory, copies images to assets,
 and generates MD pages with proper metadata.
 """
 
+import argparse
 import re
 import shutil
 from pathlib import Path
@@ -88,9 +89,22 @@ def backup_existing_md_files():
     return backed_up
 
 
-def process_collage_images():
+def file_exists(normalized_name, extension):
+    """
+    Check if both the image and MD file already exist.
+    Returns True if both exist, False otherwise.
+    """
+    image_path = OUTPUT_IMG_DIR / f"{normalized_name}{extension}"
+    md_path = OUTPUT_MD_DIR / f"{normalized_name}.md"
+    return image_path.exists() and md_path.exists()
+
+
+def process_collage_images(regenerate=False):
     """
     Main function to process all collage images and generate MD pages.
+    
+    Args:
+        regenerate: If True, overwrite all existing files. If False, skip existing files.
     """
     # Read template
     if not TEMPLATE_PATH.exists():
@@ -104,10 +118,14 @@ def process_collage_images():
     OUTPUT_MD_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_IMG_DIR.mkdir(parents=True, exist_ok=True)
     
-    # Backup existing MD files before processing
-    print("Backing up existing MD files...")
-    backup_existing_md_files()
-    print()
+    # Backup existing MD files before processing (only in regenerate mode)
+    if regenerate:
+        print("Regenerate mode: Backing up existing MD files...")
+        backup_existing_md_files()
+        print()
+    else:
+        print("Incremental mode: Skipping existing files, only processing new ones.")
+        print()
     
     # Check if source directory exists
     if not SOURCE_DIR.exists():
@@ -117,6 +135,7 @@ def process_collage_images():
     # Process each subfolder
     processed_count = 0
     skipped_count = 0
+    existing_count = 0
     
     for subfolder in SOURCE_DIR.iterdir():
         if not subfolder.is_dir():
@@ -145,11 +164,19 @@ def process_collage_images():
                 skipped_count += 1
                 continue
             
+            # Check if file already exists (skip if not in regenerate mode)
+            if not regenerate and file_exists(normalized_name, original_extension):
+                print(f"  Skipping existing: {image_file.name} (already processed)")
+                existing_count += 1
+                continue
+            
             # Copy image to assets directory
             dest_image_path = OUTPUT_IMG_DIR / f"{normalized_name}{original_extension}"
+            image_existed = dest_image_path.exists()
             try:
                 shutil.copy2(image_file, dest_image_path)
-                print(f"  Copied: {image_file.name} -> {dest_image_path.name}")
+                action = "Overwritten" if regenerate and image_existed else "Copied"
+                print(f"  {action}: {image_file.name} -> {dest_image_path.name}")
             except Exception as e:
                 print(f"  Error copying {image_file.name}: {e}")
                 skipped_count += 1
@@ -157,6 +184,7 @@ def process_collage_images():
             
             # Generate MD file
             md_file_path = OUTPUT_MD_DIR / f"{normalized_name}.md"
+            md_existed = md_file_path.exists()
             
             # Prepare replacements
             title = get_title_from_filename(image_file.name)
@@ -190,7 +218,8 @@ def process_collage_images():
             try:
                 with open(md_file_path, 'w', encoding='utf-8') as f:
                     f.write(md_content)
-                print(f"  Created: {md_file_path.name}")
+                action = "Overwritten" if regenerate and md_existed else "Created"
+                print(f"  {action}: {md_file_path.name}")
                 processed_count += 1
             except Exception as e:
                 print(f"  Error creating {md_file_path.name}: {e}")
@@ -199,10 +228,28 @@ def process_collage_images():
     print(f"\n{'='*60}")
     print(f"Processing complete!")
     print(f"  Processed: {processed_count} images")
-    print(f"  Skipped: {skipped_count} files")
+    if not regenerate:
+        print(f"  Skipped (existing): {existing_count} files")
+    print(f"  Skipped (errors): {skipped_count} files")
     print(f"{'='*60}")
 
 
 if __name__ == "__main__":
-    process_collage_images()
+    parser = argparse.ArgumentParser(
+        description="Generate MD pages for collage images from template.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  %(prog)s                    # Process only new images (skip existing)
+  %(prog)s --regenerate       # Overwrite all existing files
+        """
+    )
+    parser.add_argument(
+        '--regenerate',
+        action='store_true',
+        help='Regenerate all files, overwriting existing ones'
+    )
+    
+    args = parser.parse_args()
+    process_collage_images(regenerate=args.regenerate)
 

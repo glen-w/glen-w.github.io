@@ -30,13 +30,11 @@ date: 2015-June-01
 description: 1. The Convention for Cooperation in the Protection, Management and Development
   of the Marine and Coastal Environment of the Atlantic Coast of the West, Central
   and Southern Africa Region (Abidjan Con...
-entry_type: organized
+entry_type: Workshop
 layout: library-item
 location: Mahé, Seychelles
 publisher: IDDRI, UNEP, IASS, Government of Sweden
-tags:
-- organiser
-- workshop
+tags: []
 title: 'Scoping Workshop: Supporting the development of regional initiatives for ABNJ
   in the Abidjan Convention Region'
 venue: ''

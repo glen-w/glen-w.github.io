@@ -24,7 +24,7 @@ date: '2024-01-01'
 description: Despite a notable decline in the prices of fossil fuels and other energy
   commodities in the first half of 2023, wholesale electricity prices remained high
   in many countries, negatively affecting energ...
-entry_type: Other
+entry_type: Report
 institution: REN21
 layout: library-item
 tags: []

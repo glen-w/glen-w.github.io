@@ -13,7 +13,7 @@ date: '2011-01-01'
 description: The Judge considered in detail whether there were serious questions to
   be tried under section 237(2)(d).The Judge held that claims that the companies in
   question had made loans to directors, "alienate...
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 tags: []
 title: Granting of leave to bring derivative proceedings under section 237 of the

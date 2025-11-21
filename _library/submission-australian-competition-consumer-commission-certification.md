@@ -9,7 +9,7 @@ categories:
 date: 2012-August-01
 description: 'Submission to the Australian Competition and Consumer Commission: Certification
   Trade Mark Applicati...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 tags: []
 title: 'Submission to the Australian Competition and Consumer Commission: Certification

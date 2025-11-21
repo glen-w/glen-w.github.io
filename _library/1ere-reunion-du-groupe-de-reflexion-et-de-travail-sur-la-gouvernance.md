@@ -7,12 +7,10 @@ categories:
 date: 2016-November-01
 description: 1ère réunion du groupe de réflexion et de travail sur la gouvernance
   de la haute mer
-entry_type: Other
+entry_type: Workshop
 layout: library-item
 location: Paris, France
-tags:
-- participant
-- french
+tags: []
 title: 1ère réunion du groupe de réflexion et de travail sur la gouvernance de la
   haute mer
 venue: ''

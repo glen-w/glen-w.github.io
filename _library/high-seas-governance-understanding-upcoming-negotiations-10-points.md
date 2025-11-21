@@ -14,7 +14,7 @@ date: 2017-December-01
 description: The United Nations General Assembly just launched a new initiative to
   address the increasing number of threats to marine areas beyond national jurisdiction
   (ABNJ). Negotiations will commence in 2018 t...
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: 'High seas governance: Understanding the upcoming negotiations in 10 points'

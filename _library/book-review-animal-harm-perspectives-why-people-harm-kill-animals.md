@@ -7,7 +7,7 @@ categories:
 - other
 date: '2013-05-01'
 description: 'Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals'
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '9'
 tags: []

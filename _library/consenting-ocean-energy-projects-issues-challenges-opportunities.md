@@ -8,7 +8,7 @@ categories:
 - other
 date: '2017-01-01'
 description: 'Consenting ocean energy projects: Issues, challenges and opportunities'
-entry_type: Other
+entry_type: Book chapter
 layout: library-item
 publisher: Earthscan
 tags: []

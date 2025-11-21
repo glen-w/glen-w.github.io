@@ -18,11 +18,10 @@ date: 2016-October-01
 description: The meeting on the Partnership on Science to Policy Forum was organized
   by the Secretariat of the Nairobi Convention for the Protection, Management and
   Development of the Marine and Coastal Environmen...
-entry_type: Other
+entry_type: Workshop
 layout: library-item
 publisher: United Nations, Nairobi Convention
-tags:
-- participant
+tags: []
 title: The Partnership on Science to Policy Forum
 url: https://nairobiconvention.org/clearinghouse/sites/default/files/Report%20of%20the%20Science%20to%20Policy%20Forum%2011-12Oct2016_Final.pdf
 venue: ''

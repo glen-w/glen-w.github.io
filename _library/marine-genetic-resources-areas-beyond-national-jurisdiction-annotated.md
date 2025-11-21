@@ -8,7 +8,7 @@ categories:
 date: 2012-February-01
 description: 'Marine Genetic Resources in Areas Beyond National Jurisdiction: an annotated
   bibliography'
-entry_type: Other
+entry_type: Report
 layout: library-item
 tags: []
 title: 'Marine Genetic Resources in Areas Beyond National Jurisdiction: an annotated

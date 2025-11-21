@@ -14,15 +14,11 @@ date: '2011-01-01'
 description: This paper aims to explore the interaction between domestic legal frameworks
   implementing the REDD+ mechanism and customary land ownership by using the regulatory
   regime of Indonesia as a case study. ...
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '2'
 pages: 117--131
-tags:
-- customary tenure
-- forestry
-- land rights
-- redd+
+tags: []
 title: 'Indigenous People and Customary Land Ownership Under Domestic REDD+ Frameworks:
   a case study of Indonesia'
 venue: Law, Environment and Development

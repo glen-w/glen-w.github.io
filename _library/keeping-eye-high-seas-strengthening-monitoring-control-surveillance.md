@@ -23,17 +23,11 @@ description: Effective monitoring, control and surveillance (MCS) is critical fo
   the success of marine conservation and management measures. Whereas States have
   the exclusive right to manage the marine resources ...
 doi: https://doi.org/10.2312/iass.2018.015
-entry_type: Other
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '14'
-tags:
-- ★
-- monitoring
-- abnj
-- bbnj
-- control and surveillance (mcs)
-- strong high seas
+tags: []
 title: Keeping an Eye on the High Seas Strengthening Monitoring, Control and Surveillance
   through a New Marine Biodiversity Treaty
 url: https://www.iddri.org/en/publications-and-events/report/keeping-eye-high-seas

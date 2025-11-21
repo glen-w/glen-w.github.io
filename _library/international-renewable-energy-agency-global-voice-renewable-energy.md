@@ -13,17 +13,14 @@ authors:
 bibtex_key: Wright2012d
 categories:
 - other
-- renewable-energy
 date: '2011-01-01'
 description: The International Renewable Energy Agency held the first session of its
   Assembly as a fully-fledged international organisation in April 2011. This article
   aims to introduce the Agency and provide a ba...
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 251--268
-tags:
-- irena
-- renewables
+tags: []
 title: 'The International Renewable Energy Agency: A Global Voice for the Renewable
   Energy Era?'
 url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2000433

@@ -8,15 +8,15 @@ categories:
 - other
 date: '2015-01-01'
 description: Strengthening the international regulation of offshore oil and gas activities
-entry_type: Other
+entry_type: Report section
 layout: library-item
 tags: []
 title: Strengthening the international regulation of offshore oil and gas activities
-venue: Brief for GSDR
+venue: Global Sustainable Development Report
 year: '2015'
 ---
 
 ## Publication Details
 
 **Authors:** Julien Rochette, Glen Wright
-**Venue:** Brief for GSDR
+**Venue:** Global Sustainable Development Report

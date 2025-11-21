@@ -52,30 +52,15 @@ authors:
 bibtex_key: Gjerde2016
 categories:
 - other
-- marine-policy
-- governance
 date: '2016-01-01'
 description: 1. Marine areas beyond national jurisdiction (ABNJ) comprise most of
   Earth's interconnected ocean, hosting complex ecosystems that play key roles in
   sustaining life and providing important goods and s...
 doi: https://doi.org/10.1002/aqc.2646
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 45--60
-tags:
-- reviw
-- ★
-- conservation
-- high seas
-- review
-- marine protected areas (mpas)
-- 10.1002/aqc.2646 and marine areas beqyond national
-- bbnj:abnj
-- biological diversity conservation
-- international seabed area
-- marine areas beqyond national jurisdiction (abnj)
-- new legally-binding instrument under the united na
-- regional governance
+tags: []
 title: 'Protecting Earth''s last conservation frontier: scientific, management and
   legal priorities for MPAs beyond national boundaries'
 url: http://doi.wiley.com/10.1002/aqc.2646

@@ -8,19 +8,18 @@ categories:
 date: 2018-September-01
 description: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: Opportunities
   and challenges'
-entry_type: Side Event
+entry_type: Side event
 layout: library-item
-location: New York City, NY, USA
-tags:
-- side event
-- speaker
+location: United Nations, New York City, NY, USA
+tags: []
 title: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: Opportunities
   and challenges'
-venue: ''
+venue: Building MSP frameworks to enable Blue Growth
 year: '2018'
 ---
 
 ## Publication Details
 
 **Authors:** Glen Wright
-**Location:** New York City, NY, USA
+**Venue:** Building MSP frameworks to enable Blue Growth
+**Location:** United Nations, New York City, NY, USA

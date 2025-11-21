@@ -27,7 +27,7 @@ date: 2016-August-01
 description: Since the adoption of the United Nations (UN) Convention on the Law of
   the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction
   (ABNJ)1 have developed exponentially. Existing a...
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 164--167
 tags: []

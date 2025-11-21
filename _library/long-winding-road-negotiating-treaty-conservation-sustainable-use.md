@@ -24,16 +24,11 @@ date: '2018-01-01'
 description: Marine areas beyond national jurisdiction (ABNJ) cover nearly half of
   the Earth’s surface and host a significant portion of its biodiversity. The international
   community, increasingly aware of the gro...
-entry_type: Study
+entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '82'
-tags:
-- high seas
-- abnj
-- bbnj
-- iddri
-- featured
+tags: []
 title: 'The Long and Winding Road: negotiating a treaty for the conservation and sustainable
   use of marine biodiversity in areas beyond national jurisdiction'
 url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty

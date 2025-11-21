@@ -6,19 +6,14 @@ authors:
 bibtex_key: Wright2017m
 categories:
 - other
-- ocean-governance
 date: '2017-01-01'
 description: 'Regional Management of Areas beyond National Jurisdiction in the Western
   Indian Ocean: State of Play...'
 doi: https://doi.org/https://doi.org/10.1163/15718085-13204020
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 765--796
-tags:
-- abnj
-- bbnj
-- indian ocean
-- regional ocean governance
+tags: []
 title: 'Regional Management of Areas beyond National Jurisdiction in the Western Indian
   Ocean: State of Play and Possible Ways Forward'
 venue: The International Journal of Marine and Coastal Law

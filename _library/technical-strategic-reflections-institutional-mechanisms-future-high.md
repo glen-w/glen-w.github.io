@@ -17,7 +17,7 @@ date: '2020-01-01'
 description: The negotiations for the development of a legally binding instrument
   on high seas biodiversity began at the end of 2017 and are currently suspended due
   to the public health crisis. The negotiations ha...
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: 'Technical but strategic: reflections on the institutional mechanisms of a

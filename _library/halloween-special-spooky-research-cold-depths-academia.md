@@ -9,7 +9,7 @@ categories:
 date: 2014-October-01
 description: Could vampires exist (mathematically speaking)? What causes ghostly cold
   chills? And what does death smell like? Researcher Glen Wright investigates
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: 'Halloween special: spooky research from the cold depths of academia'

@@ -5,18 +5,13 @@ authors:
 bibtex_key: Wright2011
 categories:
 - other
-- ocean-governance
-- energy-policy
 date: '2011-01-01'
 description: A Tidal Power Project
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: September
 pages: 260--261
-tags:
-- new zealand
-- ocean energy
-- tidal energy
+tags: []
 title: A Tidal Power Project
 venue: New Zealand Law Journal
 year: '2011'

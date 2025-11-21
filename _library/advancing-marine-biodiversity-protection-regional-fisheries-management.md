@@ -22,30 +22,15 @@ authors:
 bibtex_key: Wright2015c
 categories:
 - other
-- marine-policy
 date: '2015-01-01'
 description: Fishing is a significant threat to marine biodiversity in areas beyond
   national jurisdiction (ABNJ). Bottom fishing in particular can impact deep-sea ecosystems,
   and the UN General Assembly has called...
 doi: https://doi.org/10.1016/j.marpol.2015.06.030
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 134--148
-tags:
-- fisheries
-- fisheries management
-- high seas
-- fisheries management
-- abnj
-- bbnj
-- fisheries closures
-- regional fisheries management organizations (rfmos
-- vulnerable marine ecosystems
-- area-based management tools (abmts)
-- vulnerable marine ecosystems (vmes)
-- bottom fishing
-- bottom fishing
-- fisheries closures
+tags: []
 title: 'Advancing marine biodiversity protection through regional fisheries management:
   A review of bottom fisheries closures in areas beyond national jurisdiction'
 venue: Marine Policy

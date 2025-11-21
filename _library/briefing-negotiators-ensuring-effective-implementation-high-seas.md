@@ -8,7 +8,7 @@ categories:
 date: '2022-01-01'
 description: 'Briefing for negotiators: Ensuring Effective Implementation of a High
   Seas Biodiversity Treaty'
-entry_type: Briefing note
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 tags: []

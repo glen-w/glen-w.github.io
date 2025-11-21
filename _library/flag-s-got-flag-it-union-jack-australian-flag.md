@@ -7,7 +7,7 @@ categories:
 - other
 date: '2011-01-01'
 description: 'Your Flag''s Got My Flag On It: the Union Jack and the Australian Flag'
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: January
 pages: 6--11

@@ -8,7 +8,7 @@ categories:
 date: 2012-February-01
 description: 'Systemic Biases in the National Electricity Market: Barriers to Demand-side
   Participation'
-entry_type: Other
+entry_type: Conference
 layout: library-item
 publisher: Total Environment Centre
 tags: []

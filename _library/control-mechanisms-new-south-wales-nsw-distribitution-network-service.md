@@ -8,7 +8,7 @@ categories:
 date: 2013-April-01
 description: Control Mechanisms for New South Wales (NSW) Distribitution Network Service
   Providers (DNSPs), 2014-...
-entry_type: Background Paper
+entry_type: Submission
 institution: Total Environment Centre
 layout: library-item
 tags: []

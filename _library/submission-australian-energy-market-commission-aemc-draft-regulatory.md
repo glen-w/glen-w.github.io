@@ -9,7 +9,7 @@ categories:
 date: 2013-July-01
 description: 'Submission to the Australian Energy Market Commission (AEMC): Draft
   regulatory investment test for d...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

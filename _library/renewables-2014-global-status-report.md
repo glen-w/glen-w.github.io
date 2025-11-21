@@ -7,7 +7,7 @@ categories:
 - other
 date: '2014-01-01'
 description: Renewables 2014 Global Status Report
-entry_type: Other
+entry_type: Report
 institution: REN21
 layout: library-item
 tags: []

@@ -12,7 +12,7 @@ date: 2016-July-01
 description: Le 30 juin dernier, l’Union européenne décidait après des années d’âpres
   négociations d’interdire la pêche en eau profonde au-delà de 800 mètres. Retour
   sur cet accord historique.
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
 tags: []
 title: 'Interdiction du chalutage profond : une belle victoire et quelques concessions'

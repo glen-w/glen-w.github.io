@@ -9,11 +9,10 @@ categories:
 date: 2016-March-01
 description: Tout comprendre des prochaines négociations sur la gouvernance de la
   haute mer
-entry_type: Other
+entry_type: Report
 institution: IDDRI
 layout: library-item
-tags:
-- french
+tags: []
 title: Tout comprendre des prochaines négociations sur la gouvernance de la haute
   mer
 venue: IDDRI

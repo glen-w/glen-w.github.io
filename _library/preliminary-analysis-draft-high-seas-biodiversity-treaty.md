@@ -27,7 +27,7 @@ date: '2020-01-01'
 description: In 2017, following more than a decade of informal discussions, States
   at the United Nations decided to convene an intergovernmental conference (IGC) to
   negotiate an international legally binding instr...
-entry_type: Study
+entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '1'

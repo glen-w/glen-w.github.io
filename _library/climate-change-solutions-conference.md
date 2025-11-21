@@ -6,7 +6,7 @@ categories:
 - other
 date: '2010-01-01'
 description: Climate Change Solutions Conference
-entry_type: Other
+entry_type: Conference
 layout: library-item
 tags: []
 title: Climate Change Solutions Conference

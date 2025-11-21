@@ -9,7 +9,7 @@ categories:
 date: '2016-01-01'
 description: 'Sea change: Negotiating a new agreement on the conservation and sustainable
   use of marine biodiversi...'
-entry_type: Other
+entry_type: Report
 institution: IDDRI
 layout: library-item
 tags: []

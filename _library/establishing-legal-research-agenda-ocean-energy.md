@@ -24,23 +24,15 @@ authors:
 bibtex_key: Wright2016a
 categories:
 - other
-- energy-policy
-- ocean-governance
-- marine-policy
 date: '2016-01-01'
 description: The literature on ocean energy has, to date, largely focussed on technical,
   environmental, and, increasingly, social and political aspects. Legal and regulatory
   factors have received far less attentio...
 doi: https://doi.org/10.1016/j.marpol.2015.09.030
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 126--134
-tags:
-- wave energy
-- ocean energy
-- tidal energy
-- marine governance
-- featured
+tags: []
 title: Establishing a legal research agenda for ocean energy
 url: https://www.sciencedirect.com/science/article/pii/S0308597X1500281X
 venue: Marine Policy

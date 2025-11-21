@@ -7,7 +7,7 @@ categories:
 - other
 date: 2012-September-01
 description: Wild Law
-entry_type: Other
+entry_type: Conference
 layout: library-item
 location: Canberra, Australia
 tags: []

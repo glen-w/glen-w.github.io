@@ -8,7 +8,7 @@ categories:
 - other
 date: 2014-February-01
 description: 'Sumbission to Department of Industry: Energy White Paper'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

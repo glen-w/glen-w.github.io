@@ -4,14 +4,14 @@ abstract: The past year has seen several processes to reduce the price of electr
   reducing use at peak times to reduce the…
 authors:
 - Glen Wright
-bibtex_key: wrightReducingPeakDemand2013a
+bibtex_key: wrightReducingPeakDemand2013
 categories:
 - other
 date: 2013-January-01
 description: The past year has seen several processes to reduce the price of electricity
   to consumers. Each has highlighted the importance of “demand management” - consumers
   reducing use at peak times to reduce th...
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
 tags: []
 title: 'Reducing peak demand: lowering prices, but what about emissions?'

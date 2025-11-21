@@ -18,7 +18,7 @@ date: '2010-01-01'
 description: This paper will consider the extent to which HLA Hart can be said to
   have turned the positivist tradition of legal thought from positivism to a sociology
   of law. Hart's claim to be engaging in 'descri...
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 tags: []
 title: 'Hart’s Concept of Law: Positivist Legal Theory or Sociology?'

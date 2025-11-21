@@ -6,7 +6,7 @@ categories:
 - other
 date: 2017-December-01
 description: Potsdam Ocean Governance Workshop
-entry_type: moderated
+entry_type: Workshop
 gallery:
 - _MG_8855
 - _MG_9036
@@ -20,9 +20,7 @@ gallery:
 layout: library-item
 location: Potsdam, Germany
 preview: _MG_8855
-tags:
-- workshop
-- moderator
+tags: []
 title: Potsdam Ocean Governance Workshop
 url: https://www.prog-ocean.org/blog/2017/12/14/4th-potsdam-ocean-governance-workshop/
 venue: ''

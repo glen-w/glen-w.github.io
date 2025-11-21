@@ -30,17 +30,12 @@ date: '2019-01-01'
 description: Cognisant of the growing threats to biodiversity in marine areas beyond
   national jurisdiction (ABNJ), States at the United Nations are negotiating a treaty
   to ensure the conservation and sustainable u...
-entry_type: Issue Brief
+entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '9'
 pages: '8'
-tags:
-- ★
-- unclos
-- high seas
-- abnj
-- bbnj
+tags: []
 title: 'High Hopes for the High Seas: beyond the package deal towards an ambitious
   treaty'
 url: https://www.iddri.org/en/publications-and-events/issue-brief/high-hopes-high-seas-beyond-package-deal-towards-ambitious

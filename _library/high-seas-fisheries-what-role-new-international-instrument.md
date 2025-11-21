@@ -29,18 +29,11 @@ date: '2016-01-01'
 description: States are currently discussing the development of a new international
   legally binding instrument (ILBI) on the conservation and sustainable use of marine
   biological diversity of areas beyond national...
-entry_type: Study
+entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '20'
-tags:
-- fisheries
-- fisheries management
-- abnj
-- bbnj
-- fisheries closures
-- international institutions
-- regional fisheries management organizations (rfmos
+tags: []
 title: 'High seas fisheries: what role for a new international instrument?'
 url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
 venue: IDDRI

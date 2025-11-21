@@ -12,7 +12,7 @@ categories:
 date: '2022-01-01'
 description: 'Ensuring Effective Implementation of a High Seas Biodiversity Treaty:
   Lessons Learned and Options fo...'
-entry_type: Other
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '22'

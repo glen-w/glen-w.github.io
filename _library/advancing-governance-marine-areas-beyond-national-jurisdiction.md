@@ -12,7 +12,7 @@ categories:
 - other
 date: '2015-01-01'
 description: Advancing governance of marine areas beyond national jurisdiction
-entry_type: Other
+entry_type: Report section
 layout: library-item
 publisher: United Nations
 tags: []

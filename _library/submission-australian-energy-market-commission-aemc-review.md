@@ -9,7 +9,7 @@ categories:
 date: 2013-January-01
 description: 'Submission to the Australian Energy Market Commission (AEMC): Review
   of Distribution Reliability Out...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

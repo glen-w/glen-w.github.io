@@ -22,11 +22,10 @@ description: 'Gjerde, K., Boteler, B., Durussel, C., Rochette, J., Unger, S., Wr
   G., ‘Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National
   Jurisdiction: Options for Underpinning a S...'
 doi: https://doi.org/10.2312/iass.2018.015
-entry_type: Other
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
-tags:
-- iddri
+tags: []
 title: 'Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National
   Jurisdiction: Options for Underpinning a Strong Global BBNJ Agreement through Regional
   and Sectoral Governance'

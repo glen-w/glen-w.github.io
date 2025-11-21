@@ -10,7 +10,7 @@ categories:
 - other
 date: '2020-01-01'
 description: 'Combatting marine plastic litter: state of play and perspectives'
-entry_type: Study
+entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '3'

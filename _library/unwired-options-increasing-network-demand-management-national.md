@@ -9,11 +9,10 @@ categories:
 date: 2012-August-01
 description: 'Unwired: Options for Increasing Network Demand Management in the National
   Electricity Market'
-entry_type: Other
+entry_type: Report
 institution: Total Environment Centre
 layout: library-item
-tags:
-- featured
+tags: []
 title: 'Unwired: Options for Increasing Network Demand Management in the National
   Electricity Market'
 venue: Total Environment Centre

@@ -8,7 +8,7 @@ categories:
 - other
 date: 2016-October-01
 description: The Role of Science in Implementing the 2030 Agenda
-entry_type: Other
+entry_type: Conference
 layout: library-item
 location: Mahé, Seychelles
 tags: []

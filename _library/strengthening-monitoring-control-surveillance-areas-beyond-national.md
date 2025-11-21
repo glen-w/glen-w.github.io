@@ -14,14 +14,14 @@ authors:
 - Klaudija Cremers
 - Glen Wright
 - Julien Rochette
-bibtex_key: cremersStrengtheningMonitoringControl2020a
+bibtex_key: cremersStrengtheningMonitoringControl2020
 categories:
 - other
 date: '2020-01-01'
 description: Monitoring, control and surveillance (MCS) is critical for the success
   of marine conservation and management, but effective MCS remains challenging. This
   is especially true for the deep and distant wa...
-entry_type: Other
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '46'

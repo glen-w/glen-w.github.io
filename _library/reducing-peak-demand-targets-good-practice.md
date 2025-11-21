@@ -4,14 +4,14 @@ abstract: Better managing peak demand, the primary culprit behind recent rapid p
   Market (NEM). To deal with peak demand…
 authors:
 - Glen Wright
-bibtex_key: wrightReducingPeakDemand2013
+bibtex_key: wrightReducingPeakDemand2013a
 categories:
 - other
 date: 2013-February-01
 description: Better managing peak demand, the primary culprit behind recent rapid
   price rises across Australia, is a key challenge facing Eastern Australia’s National
   Electricity Market (NEM). To deal with peak de...
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
 tags: []
 title: 'Reducing peak demand: targets are good practice'

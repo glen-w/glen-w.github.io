@@ -6,7 +6,7 @@ categories:
 - other
 date: 2018-June-01
 description: Opportunities for Strengthening Ocean Governance in the  Southeast Pacific
-entry_type: organized
+entry_type: Workshop
 gallery:
 - All-participants
 - IMG_0478
@@ -14,10 +14,7 @@ gallery:
 layout: library-item
 location: Cali, Colombia
 preview: All-participants
-tags:
-- presenter
-- organiser
-- workshop
+tags: []
 title: Opportunities for Strengthening Ocean Governance in the  Southeast Pacific
 venue: ''
 year: '2018'

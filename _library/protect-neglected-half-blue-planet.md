@@ -18,14 +18,10 @@ description: At the close of 2017, 14 million UK viewers tuned into the acclaime
   second series of David Attenborough’s Blue Planet, making it the year’s most-watched
   television show. It brought the wonders of the...
 doi: https://doi.org/10.1038/d41586-018-01594-1
-entry_type: Other
+entry_type: Oped
 layout: library-item
 number: '7691'
-tags:
-- abnj
-- bbnj
-- mpas
-- featured
+tags: []
 title: Protect the neglected half of our blue planet
 url: https://www.nature.com/articles/d41586-018-01594-1
 venue: Nature

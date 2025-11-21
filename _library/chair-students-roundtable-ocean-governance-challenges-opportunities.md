@@ -12,6 +12,7 @@ description: The third Chair and Students’ Roundtable was held on February 24.
   We were delighted to welcome Glen Wright (PSIA ...
 entry_type: Roundtable
 layout: library-item
+location: Sciences Po, Paris, France
 preview: Roundtable3-2
 tags: []
 title: 'Chair and Students’ Roundtable: Ocean Governance Challenges and Opportunities'
@@ -19,6 +20,10 @@ url: https://webserver07.reims.sciences-po.fr/psia/chair-sustainable-development
 venue: ''
 year: '2022'
 ---
+
+## Publication Details
+
+**Location:** Sciences Po, Paris, France
 
 ## Links and Resources
 

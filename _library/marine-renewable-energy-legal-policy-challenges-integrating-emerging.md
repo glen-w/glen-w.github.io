@@ -8,12 +8,12 @@ categories:
 date: '2012-01-01'
 description: 'Marine Renewable Energy: Legal and Policy Challenges to Integrating
   an Emerging Renewable Energy Sou...'
-entry_type: Other
+entry_type: Conference
 gallery:
 - DSC_9105
 - DSC_9111
 layout: library-item
-location: Berlin
+location: Berlin, Germany
 preview: DSC_9105
 tags: []
 title: 'Marine Renewable Energy: Legal and Policy Challenges to Integrating an Emerging
@@ -27,7 +27,7 @@ year: '2012'
 
 **Authors:** Glen Wright
 **Venue:** IKEM International Summer Academy on Energy and the Environment
-**Location:** Berlin
+**Location:** Berlin, Germany
 
 ## Links and Resources
 

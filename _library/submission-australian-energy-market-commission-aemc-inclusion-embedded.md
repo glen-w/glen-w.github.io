@@ -2,13 +2,13 @@
 abstract: ''
 authors:
 - Glen Wright
-bibtex_key: wrightSubmissionAustralianEnergy2011c
+bibtex_key: wrightSubmissionAustralianEnergy2011d
 categories:
 - other
 date: 2011-November-01
 description: Submission to the Australian Energy Market Commission (AEMC):Inclusion
   of Embedded Generation Resear...
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

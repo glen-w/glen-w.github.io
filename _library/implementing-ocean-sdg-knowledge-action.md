@@ -7,7 +7,7 @@ categories:
 - other
 date: 2015-December-01
 description: 'Implementing the Ocean SDG: from knowledge to action'
-entry_type: Other
+entry_type: Guest lecture
 layout: library-item
 location: Malta
 publisher: International Ocean Institute

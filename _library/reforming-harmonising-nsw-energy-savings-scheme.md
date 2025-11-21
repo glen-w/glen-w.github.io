@@ -7,7 +7,7 @@ categories:
 - other
 date: 2014-April-01
 description: Reforming and Harmonising the NSW Energy Savings Scheme
-entry_type: Briefing Note
+entry_type: Report
 institution: Total Environment Centre
 layout: library-item
 tags: []

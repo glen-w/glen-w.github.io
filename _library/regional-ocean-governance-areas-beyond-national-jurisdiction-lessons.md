@@ -9,7 +9,7 @@ categories:
 date: '2019-01-01'
 description: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons
   Learnt and Ways Forward'
-entry_type: Other
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 tags: []

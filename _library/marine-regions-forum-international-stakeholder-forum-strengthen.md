@@ -12,7 +12,7 @@ categories:
 date: '2021-01-01'
 description: 'Marine Regions Forum: An international stakeholder forum to strengthen
   regional ocean governance'
-entry_type: Other
+entry_type: Report
 institution: German Environment Agency
 layout: library-item
 tags: []

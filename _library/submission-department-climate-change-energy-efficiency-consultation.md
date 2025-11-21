@@ -9,7 +9,7 @@ categories:
 date: '2012-01-01'
 description: 'Submission to the Department of Climate Change and Energy Efficiency:
   Consultation on a national Ene...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

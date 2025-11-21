@@ -9,7 +9,7 @@ categories:
 date: 2014-December-01
 description: From diagnosing Rudolph’s red nose to festive spices that make you happy,
   Glen Wright picks out some of the best Christmassy research
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: Will climate change kill Santa Claus? This and more festive-themed research

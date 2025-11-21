@@ -11,7 +11,7 @@ date: 2014-October-01
 description: Ever wondered where all the bloody teaspoons are? Or how to avoid that
   pesky dribble down the underside of the teapot spout? Thankfully researchers have
   tackled these pressing issues
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: How to make a cup of tea for an academic

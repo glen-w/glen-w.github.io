@@ -21,7 +21,7 @@ date: 2020-November-01
 description: We have known since the 1970s that the Ocean's vast mesopelagic, or "twilight",
   zone could contain huge quantities of fish. Technological advancements now make
   exploitation possible and interest is gr...
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: 'The Ocean''s "twilight zone": climate risks at the next fisheries frontier'

@@ -9,20 +9,21 @@ categories:
 - other
 date: 2015-June-01
 description: What role for the Nairobi Convention in the high seas?
-entry_type: organized
+entry_type: Side event
 layout: library-item
 location: Mahé, Seychelles
 publisher: IDDRI, FFEM, IUCN
-tags:
-- organiser
-- side event
+tags: []
 title: What role for the Nairobi Convention in the high seas?
-venue: ''
+venue: 8th Conference of Parties to the Nairobi Convention for the Protection, Management
+  and Development of the Marine and Coastal Environment of the Western Indian Ocean
+  Region
 year: '2015'
 ---
 
 ## Publication Details
 
 **Authors:** Julien Rochette, Glen Wright, Aurélie Spadone
+**Venue:** 8th Conference of Parties to the Nairobi Convention for the Protection, Management and Development of the Marine and Coastal Environment of the Western Indian Ocean Region
 **Location:** Mahé, Seychelles
 **Publisher:** IDDRI, FFEM, IUCN

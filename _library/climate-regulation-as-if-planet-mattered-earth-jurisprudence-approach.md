@@ -8,7 +8,7 @@ categories:
 date: '2013-01-01'
 description: 'Climate Regulation as if the Planet Mattered: the Earth Jurisprudence
   Approach to Climate Change'
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 33--57
 tags: []

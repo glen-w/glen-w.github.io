@@ -2,13 +2,13 @@
 abstract: ''
 authors:
 - Glen Wright
-bibtex_key: wrightSubmissionAustralianEnergy2011d
+bibtex_key: wrightSubmissionAustralianEnergy2011
 categories:
 - other
 date: 2011-November-01
 description: 'Submission to the Australian Energy Market Commission (AEMC): Distribution
   Network Planning and Expa...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

@@ -8,12 +8,11 @@ categories:
 date: '2016-01-01'
 description: 'Regulating wave and tidal energy: An industry perspective on the Scottish
   marine governance framewor...'
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '65'
 pages: 115--126
-tags:
-- ★
+tags: []
 title: 'Regulating wave and tidal energy: An industry perspective on the Scottish
   marine governance framework'
 venue: Marine Policy

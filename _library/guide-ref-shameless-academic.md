@@ -9,7 +9,7 @@ categories:
 date: 2014-December-01
 description: Palm your teaching off on gullible colleagues and get yourself a TV show
   – Glen Wright shares his tips for success in the Research Excellence Framework
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: A guide to the REF for the shameless academic

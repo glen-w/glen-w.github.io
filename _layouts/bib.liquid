@@ -448,6 +448,8 @@
     <div class="links">
       <!-- View Details Link (if library page exists) -->
       {% assign library_page_exists = false %}
+      {% assign library_page_url = '' %}
+      {% comment %}Try exact match first{% endcomment %}
       {% for library_item in site.library %}
         {% if library_item.title == entry.title %}
           {% assign library_page_exists = true %}
@@ -455,6 +457,16 @@
           {% break %}
         {% endif %}
       {% endfor %}
+      {% comment %}If no exact match, try matching by bibtex_key{% endcomment %}
+      {% unless library_page_exists %}
+        {% for library_item in site.library %}
+          {% if library_item.bibtex_key == entry.key %}
+            {% assign library_page_exists = true %}
+            {% assign library_page_url = library_item.url %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endunless %}
       {% if library_page_exists %}
         <a href="{{ library_page_url }}" class="btn btn-sm z-depth-0" role="button" title="View Details">
           <i class="fa-solid fa-circle-info"></i>

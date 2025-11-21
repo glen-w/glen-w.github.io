@@ -7,7 +7,7 @@ categories:
 - other
 date: 2012-June-01
 description: The Future we (Definitely Don’t) Want
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: The Future we (Definitely Don’t) Want

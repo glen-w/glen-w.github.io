@@ -6,7 +6,7 @@ categories:
 - other
 date: 2010-March-01
 description: Model United Nations
-entry_type: Other
+entry_type: Conference
 gallery:
 - 24826_10150154359050484_696620483_11651117_4564583_n
 - DSCF7072

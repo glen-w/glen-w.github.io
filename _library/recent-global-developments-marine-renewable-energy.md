@@ -7,7 +7,7 @@ categories:
 - other
 date: 2012-October-01
 description: Recent global developments in marine renewable energy
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
 preview: thumbnail
 tags: []

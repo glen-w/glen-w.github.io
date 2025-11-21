@@ -11,7 +11,7 @@ date: '2014-01-01'
 description: 'Regulating marine renewable energy development: a preliminary assessment
   of UK permitting processes'
 doi: https://doi.org/10.3723/ut.32.000
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '1'
 pages: 1--12

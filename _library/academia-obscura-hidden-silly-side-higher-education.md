@@ -7,7 +7,7 @@ categories:
 - other
 date: '2018-01-01'
 description: 'Academia Obscura: The Hidden Silly Side of Higher Education'
-entry_type: Other
+entry_type: Book
 layout: library-item
 publisher: Penguin Random House (Unbound)
 tags: []

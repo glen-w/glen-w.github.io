@@ -12,10 +12,9 @@ date: 2016-April-01
 description: Désastreuse pour les écosystèmes marins, la pêche en eaux profondes fait
   l’objet de vifs débats à Bruxelles. Une nouvelle réglementation européenne encadrant
   cette pratique est attendue à l’été 2016.
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
-tags:
-- french
+tags: []
 title: L’Union européenne va-t-elle enfin mettre un terme au chalutage profond ?
 url: http://theconversation.com/lunion-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond-58469
 venue: The Conversation

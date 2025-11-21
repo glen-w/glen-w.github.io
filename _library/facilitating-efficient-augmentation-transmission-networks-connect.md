@@ -5,20 +5,14 @@ authors:
 bibtex_key: Wright2012
 categories:
 - other
-- energy-policy
 date: '2012-01-01'
 description: Facilitating efficient augmentation of transmission networks to connect
   renewable energy generation:...
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '44'
 pages: 79--91
-tags:
-- regulation
-- renewable energy
-- electricity transmission and distribution
-- elictricity
-- energy policy
+tags: []
 title: 'Facilitating efficient augmentation of transmission networks to connect renewable
   energy generation: the Australian experience'
 url: http://linkinghub.elsevier.com/retrieve/pii/S0301421512000195

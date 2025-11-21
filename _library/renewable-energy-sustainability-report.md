@@ -7,7 +7,7 @@ categories:
 - other
 date: '2023-01-01'
 description: Renewable Energy and Sustainability Report
-entry_type: Other
+entry_type: Report
 layout: library-item
 tags:
 - contributor

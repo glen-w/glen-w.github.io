@@ -9,7 +9,7 @@ categories:
 date: 2013-February-01
 description: 'Submission to the Australian Energy Regulator (AER): Regulatory Investment
   Test - Distribution'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

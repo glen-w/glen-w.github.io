@@ -839,10 +839,26 @@ class PaperProcessor:
         if 'preview' in fields or 'pdf' in fields or 'photos' in fields or 'figures' in fields:
             before_brace = self._clean_file_field_in_content(before_brace, fields)
         
+        # Update annote field if it was modified (e.g., by audio processing)
+        if 'annote' in fields and fields['annote']:
+            # Replace existing annote field or add new one
+            annote_pattern = r'annote\s*=\s*\{[^}]*\}'
+            new_annote = fields['annote']
+            # Format annote with proper braces
+            if not new_annote.startswith('{'):
+                new_annote = '{' + new_annote + '}'
+            
+            if re.search(annote_pattern, before_brace):
+                # Replace existing annote field
+                before_brace = re.sub(annote_pattern, f'annote = {new_annote}', before_brace)
+            else:
+                # Add new annote field (will be added to new_fields below)
+                pass
+        
         # Add new fields that don't already exist and have valid values
         new_fields = []
         for field_name, field_value in fields.items():
-            if field_name in ['preview', 'pdf', 'slides', 'agenda']:
+            if field_name in ['preview', 'pdf', 'slides', 'agenda', 'annote']:
                 # Skip empty or None values
                 if not field_value or field_value.strip() == '':
                     continue

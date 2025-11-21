@@ -9,7 +9,7 @@ categories:
 date: '2013-01-01'
 description: 'Submission to Queensland Government Department of Energy and Water Supply:
   30-Year Electricity Strat...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

@@ -9,7 +9,7 @@ categories:
 date: 2015-April-01
 description: Hoisted cars, fake students and remodeled buildings – practical jokes
   have a long history on university campuses. Here are some of the most notorious
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: Top five university pranks to watch out for on April Fools' day

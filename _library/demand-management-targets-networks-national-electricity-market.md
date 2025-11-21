@@ -7,7 +7,7 @@ categories:
 - other
 date: '2012-01-01'
 description: Demand management targets for networks in the National Electricity Market
-entry_type: Other
+entry_type: Report
 layout: library-item
 publisher: Total Environment Centre
 tags: []

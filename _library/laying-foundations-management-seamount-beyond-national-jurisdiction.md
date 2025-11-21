@@ -9,20 +9,14 @@ authors:
 bibtex_key: Iucn2018c
 categories:
 - other
-- ocean-governance
 date: '2018-01-01'
 description: 'Laying the Foundations for Management of a Seamount Beyond National
   Jurisdiction: A case study of th...'
-entry_type: Other
+entry_type: Report
 institution: IDDRI, IUCN, FFEM
 layout: library-item
 pages: 1--40
-tags:
-- seamounts
-- abnj
-- bbnj
-- indian ocean
-- area-based management tools (abmts)
+tags: []
 title: 'Laying the Foundations for Management of a Seamount Beyond National Jurisdiction:
   A case study of the Walters Shoal in the South West Indian Ocean'
 url: https://www.iddri.org/en/publications-and-events/report/laying-foundations-management-seamount-beyond-national-jurisdiction

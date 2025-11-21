@@ -9,7 +9,7 @@ categories:
 date: 2015-February-01
 description: Love is no simple matter. Fortunately, there’s plenty of academic research
   to help you find – and satisfy – your soulmate
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: Dreading Valentine's? Here's a rigorously academic, research-backed guide to

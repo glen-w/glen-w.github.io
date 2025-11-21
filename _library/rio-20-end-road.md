@@ -7,7 +7,7 @@ categories:
 - other
 date: 2012-June-01
 description: Rio+20, The End of the Road
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: Rio+20, The End of the Road

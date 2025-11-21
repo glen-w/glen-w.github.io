@@ -7,7 +7,7 @@ categories:
 - other
 date: 2014-November-01
 description: Towards a New International Agreement on High Seas Biodiversity
-entry_type: Other
+entry_type: Guest lecture
 layout: library-item
 location: Sydney, Australia
 tags: []

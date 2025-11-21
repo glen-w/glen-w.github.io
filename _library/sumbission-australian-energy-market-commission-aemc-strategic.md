@@ -9,7 +9,7 @@ categories:
 date: '2013-05-01'
 description: 'Sumbission to the Australian Energy Market Commission (AEMC): Strategic
   priorities'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

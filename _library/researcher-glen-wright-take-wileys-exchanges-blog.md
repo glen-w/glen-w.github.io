@@ -20,7 +20,7 @@ date: '2015-05-01'
 description: Hoboken, NJ – May 7, 2015 – John Wiley & Sons, Inc., is pleased to welcome
   Glen Wright, a research fellow at the Institute for Sustainable Development and
   International Relations (IDDRI) in Paris, as ...
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: Researcher Glen Wright to take over Wiley’s Exchanges Blog

@@ -9,7 +9,7 @@ categories:
 date: '2012-01-01'
 description: 'Submission to Council of Australian Governors: Regulatory and Competition
   Reform'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

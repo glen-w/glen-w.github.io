@@ -3,13 +3,13 @@ abstract: Les négociations sur le traité de conservation et d’utilisation du
   de la biodiversité en haute mer sont entrées dans une nouvelle phase avec la publication,...
 authors:
 - Émilie Legendre
-bibtex_key: legendreBiodiversiteHauteMer2022c
+bibtex_key: legendreBiodiversiteHauteMer2022a
 categories:
 - other
 date: 2022-August-01
 description: Les négociations sur le traité de conservation et d’utilisation durable
   de la biodiversité en haute mer sont entrées dans une nouvelle phase avec la publication,...
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
 location: Paris, France
 tags: []

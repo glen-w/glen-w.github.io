@@ -8,7 +8,7 @@ date: 2024-March-01
 description: How to Protect Our Ocean
 entry_type: Roundtable
 layout: library-item
-location: Paris, France
+location: Sciences Po, Paris, France
 preview: thumbnail
 tags: []
 title: How to Protect Our Ocean
@@ -18,4 +18,4 @@ year: '2024'
 
 ## Publication Details
 
-**Location:** Paris, France
+**Location:** Sciences Po, Paris, France

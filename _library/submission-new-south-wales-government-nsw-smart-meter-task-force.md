@@ -8,7 +8,7 @@ categories:
 - other
 date: '2013-01-01'
 description: 'Submission to New South Wales Government: NSW Smart Meter Task Force'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

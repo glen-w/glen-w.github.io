@@ -7,11 +7,10 @@ categories:
 date: 2015-December-01
 description: An International Instrument on Conservation and Sustainable Use of Biodiversity
   in Marine Areas beyo...
-entry_type: Other
+entry_type: Report
 institution: IUCN
 layout: library-item
-tags:
-- contributor
+tags: []
 title: 'An International Instrument on Conservation and Sustainable Use of Biodiversity
   in Marine Areas beyond National Jurisdiction: Matrix of Suggestions'
 venue: IUCN

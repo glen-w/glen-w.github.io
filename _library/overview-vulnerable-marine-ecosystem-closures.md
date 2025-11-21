@@ -6,19 +6,13 @@ authors:
 bibtex_key: Wright2016i
 categories:
 - other
-- marine-policy
 date: '2016-01-01'
 description: An overview of vulnerable marine ecosystem closures
-entry_type: Issue Brief
+entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '2'
-tags:
-- abnj
-- bbnj
-- fisheries closures
-- regional fisheries management organizations (rfmos
-- vulnerable marine ecosystems (vmes)
+tags: []
 title: An overview of vulnerable marine ecosystem closures
 url: https://www.iddri.org/en/publications-and-events/decryptage/overview-vulnerable-marine-ecosystem-closures
 venue: IDDRI

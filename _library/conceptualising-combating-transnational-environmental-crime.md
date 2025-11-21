@@ -27,17 +27,11 @@ description: To date, transnational environmental crime has been poorly attended
   by the transnational organised crime and transnational policing discourse. Academics
   have focused on individual elements of envir...
 doi: https://doi.org/10.1007/s12117-011-9130-4
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '4'
 pages: 332--346
-tags:
-- ★
-- environmental crime
-- organised crime
-- trade in endangered species
-- transnational policing
-- wildlife crime
+tags: []
 title: Conceptualising and combating transnational environmental crime
 url: https://link.springer.com/article/10.1007/s12117-011-9130-4
 venue: Trends in Organized Crime

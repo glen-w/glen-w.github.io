@@ -8,7 +8,7 @@ categories:
 - other
 date: 2015-February-01
 description: Regional approaches for ABNJ – state of play
-entry_type: Other
+entry_type: Workshop
 layout: library-item
 location: Mahe, Seychelles
 publisher: Partnership for Regional Ocean Governance (UNEP, IASS, IDDRI)

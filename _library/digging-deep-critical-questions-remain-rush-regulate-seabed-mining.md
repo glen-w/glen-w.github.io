@@ -31,7 +31,7 @@ date: '2022-01-01'
 description: The 1982 United Nations Convention on the Law of the Sea (UNCLOS) defines
   areas of maritime jurisdiction and sets out the rights and obligations of States,
   thus serving as a “Constitution for the ocea...
-entry_type: Other
+entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '8'

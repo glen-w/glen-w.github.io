@@ -26,7 +26,7 @@ date: '2017-01-01'
 description: The United Nations 2030 Agenda for Sustainable Development and its comprehensive
   set of 17 interlinking Sustainable Development Goals (SDGs) offer a unique opportunity
   to advance ocean sustainability....
-entry_type: Other
+entry_type: Report
 institution: IASS
 layout: library-item
 pages: 1--12

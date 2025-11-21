@@ -8,7 +8,7 @@ categories:
 date: 2012-August-01
 description: 'Submission to National Australian Built Environment Rating System (NABERS)
   Administrator: Review of ...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

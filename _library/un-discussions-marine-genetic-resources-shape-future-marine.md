@@ -14,7 +14,7 @@ date: 2020-April-01
 description: The first recorded medicinal use of marine species dates from almost
   3000 BCE in China. In 400 BCE, Hippocrates noted the antibiotic properties of sponges
   and recommended they be applied to soldiers' ...
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: UN discussions on marine genetic resources shape the future of marine biotechnology

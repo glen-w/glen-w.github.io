@@ -7,18 +7,17 @@ categories:
 - other
 date: 2018-June-01
 description: Marine Planning on the High Seas
-entry_type: workshop
+entry_type: Conference
 layout: library-item
 location: Nausicaá, Boulogne sur Mer, France
-tags:
-- workshop
-- speaker
+tags: []
 title: Marine Planning on the High Seas
-venue: ''
+venue: High Seas International Conference
 year: '2018'
 ---
 
 ## Publication Details
 
 **Authors:** Glen Wright
+**Venue:** High Seas International Conference
 **Location:** Nausicaá, Boulogne sur Mer, France

@@ -19,7 +19,7 @@ date: '2015-01-01'
 description: The MRE industry is at a crucial moment. Devices are now moving from
   engineering drawings to full-scale prototypes, and the first commercial scale wave
   and tide energy farms have been announced and ar...
-entry_type: Other
+entry_type: Report
 institution: ISSMER
 layout: library-item
 tags: []

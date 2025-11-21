@@ -25,7 +25,7 @@ date: '2010-01-01'
 description: The case concerns the standard of reasonable care and skill expected
   of an accountant, and the tests for causation, contributory negligence, and concurrent
   wrongdoing. The accountant in this case advi...
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '159'
 tags: []

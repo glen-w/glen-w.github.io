@@ -26,7 +26,7 @@ description: The development of a new international legally binding instrument f
   the conservation and sustainable use of marine biodiversity beyond national jurisdiction
   (BBNJ agreement) is in the final negotiat...
 doi: https://doi.org/10.1016/j.marpol.2020.104059
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: '104059'
 tags: []

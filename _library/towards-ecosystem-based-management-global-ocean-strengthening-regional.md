@@ -11,7 +11,7 @@ categories:
 date: '2019-01-01'
 description: 'Towards Ecosystem-based Management of the Global Ocean: Strengthening
   Regional Cooperation through a...'
-entry_type: Other
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '28'

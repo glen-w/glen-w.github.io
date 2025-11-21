@@ -13,7 +13,7 @@ categories:
 date: '2018-01-01'
 description: Strategic Environmental Assessment (SEA). Envisioning its Application
   to Marine Areas beyond Nationa...
-entry_type: Policy Brief
+entry_type: Report
 institution: DOSI
 layout: library-item
 pages: '4'

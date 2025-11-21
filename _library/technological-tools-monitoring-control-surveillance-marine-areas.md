@@ -1,19 +1,31 @@
 ---
-abstract: ''
+abstract: Monitoring Control and Surveillance (MCS) will be crucial to ensuring compliance
+  with management measures developed under a future international agreement on Areas
+  Beyond National Jurisdiction (ABNJ). Tools for MCS have been drastically extended
+  by a range of new technologies and techniques using previously unavailable or inaccessible
+  data sources, while there is no clear and singular MCS solution. A key challenge
+  facing MCS is an excess, not a lack, of data available through the different technologies
+  which is further compounded by potential skills shortages for data interpretation.
+  There may be resistance to MCS tools by e.g. the fisheries sector concerned about
+  control over the industry, while some fishers may also view MCS as way to prove
+  that their fish was sustainably caught and provide them with a market advantage.
+  The key challenge currently facing MCS tools is a lack of appropriate policy approaches
+  and governance mechanisms for the design and implementation of the available technologies.
+  Any future successful options will need to be co-created with stakeholder to ensure
+  appropriate design and early buy-in amongst different sectors.
 authors: []
 bibtex_key: TechnologicalToolsMonitoring2018
 categories:
 - other
 date: 2018-July-01
-description: Technological tools for Monitoring, Control and Surveillance in Marine
-  Areas Beyond National Jurisdi...
-entry_type: moderated
+description: Monitoring Control and Surveillance (MCS) will be crucial to ensuring
+  compliance with management measures developed under a future international agreement
+  on Areas Beyond National Jurisdiction (ABNJ)....
+entry_type: Workshop
 layout: library-item
-location: Paris, France
-tags:
-- organiser
-- workshop
-- moderator
+location: Sciences Po, Paris, France
+publisher: STRONG High Seas
+tags: []
 title: Technological tools for Monitoring, Control and Surveillance in Marine Areas
   Beyond National Jurisdiction
 venue: ''
@@ -22,4 +34,5 @@ year: '2018'
 
 ## Publication Details
 
-**Location:** Paris, France
+**Location:** Sciences Po, Paris, France
+**Publisher:** STRONG High Seas

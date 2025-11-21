@@ -2,15 +2,15 @@
 abstract: ''
 authors:
 - Glen Wright
-bibtex_key: wrightEnvironmentalImpactAssessment2016c
+bibtex_key: wrightEnvironmentalImpactAssessment2016
 categories:
 - other
 date: 2016-November-01
 description: Environmental Impact Assessment in areas beyond national jurisdiction
-entry_type: Other
+entry_type: Conference
 layout: library-item
 location: Shanghai, China
-publisher: Shanghai Jiao Tong University
+publisher: Shanghai Jiao Tong University, Shanghai, China
 tags:
 - chinese
 title: Environmental Impact Assessment in areas beyond national jurisdiction
@@ -22,4 +22,4 @@ year: '2016'
 
 **Authors:** Glen Wright
 **Location:** Shanghai, China
-**Publisher:** Shanghai Jiao Tong University
+**Publisher:** Shanghai Jiao Tong University, Shanghai, China

@@ -6,19 +6,13 @@ authors:
 bibtex_key: Wright2011a
 categories:
 - other
-- energy-policy
-- ocean-governance
 date: '2011-01-01'
 description: Marine energy
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: August
 pages: 227--230
-tags:
-- wave energy
-- new zealand
-- ocean energy
-- tidal energy
+tags: []
 title: Marine energy
 venue: New Zealand Law Journal
 year: '2011'

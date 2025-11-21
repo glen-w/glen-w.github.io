@@ -8,7 +8,7 @@ categories:
 date: 2011-November-01
 description: 'Submission to the Australian Energy Market Commission (AEMC): National
   Electricity Amendment (Total ...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

@@ -6,7 +6,7 @@ categories:
 - other
 date: '2012-01-01'
 description: Australian National University student delegation to Rio+20
-entry_type: Other
+entry_type: Conference
 gallery:
 - DSC_7365
 - DSC_7381
@@ -16,8 +16,7 @@ gallery:
 - DSC_7650
 layout: library-item
 preview: DSC_7365
-tags:
-- participant
+tags: []
 title: Australian National University student delegation to Rio+20
 venue: ''
 year: '2012'

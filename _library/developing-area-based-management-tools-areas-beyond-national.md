@@ -10,7 +10,7 @@ categories:
 date: '2015-01-01'
 description: 'Developing area-based management tools in areas beyond national jurisdiction:
   possible options for t...'
-entry_type: Other
+entry_type: Report
 institution: IDDRI
 layout: library-item
 tags: []

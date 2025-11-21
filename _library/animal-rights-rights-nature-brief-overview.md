@@ -7,7 +7,7 @@ categories:
 - other
 date: 2012-October-01
 description: Animal Rights and the Rights of Nature, a brief overview
-entry_type: Other
+entry_type: Report
 layout: library-item
 location: Southern Cross University
 tags: []

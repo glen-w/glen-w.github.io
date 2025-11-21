@@ -28,7 +28,7 @@ date: '2016-01-01'
 description: In 2015, States agreed to launch negotiations for the elaboration of
   an international legally binding instrument dedicated to the conservation and sustainable
   use of the marine biological diversity of...
-entry_type: Study
+entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '1'

@@ -8,7 +8,7 @@ categories:
 - other
 date: '2021-01-01'
 description: 'Toward a Strategic Action Roadmap on Oceans and Climate: 2016 to 2021'
-entry_type: Other
+entry_type: Report
 institution: Global Ocean Forum
 layout: library-item
 tags: []

@@ -31,18 +31,19 @@ date: '2014-01-01'
 description: Marine areas beyond national jurisdiction (ABJN), often referred to as
   the “High Seas1”, represent around half of the Planet’s surface and host a significant
   portion of its biodiversity. Despite their...
-entry_type: Other
+entry_type: Report
 layout: library-item
 location: Potsdam, Germany
 pages: 1--14
 tags: []
 title: Governing the “High Seas” - Linking global governance and regional implementation
-venue: ''
+venue: Potsdam Ocean Governance Workshop
 year: '2014'
 ---
 
 ## Publication Details
 
 **Authors:** Julien Rochette, Sebastian Unger, Glen Wright
+**Venue:** Potsdam Ocean Governance Workshop
 **Location:** Potsdam, Germany
 **Pages:** 1--14

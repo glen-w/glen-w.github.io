@@ -25,17 +25,17 @@ date: '2015-05-01'
 description: The RiCORE project aims at designing ways to accelerate and streamline
   the environmental requirements associated with consents for novel marine renewable
   technologies, including offshore wind, wave an...
-entry_type: Other
+entry_type: Workshop
 layout: library-item
 location: Paris, France
-tags:
-- participant
+tags: []
 title: 'Dealing with the risk of licensing marine renewables: The role and experience
   of regulators'
-venue: ''
+venue: RiCORE Project (Risk-based Consenting for Offshore Renewables) Workshop 2
 year: '2015'
 ---
 
 ## Publication Details
 
+**Venue:** RiCORE Project (Risk-based Consenting for Offshore Renewables) Workshop 2
 **Location:** Paris, France

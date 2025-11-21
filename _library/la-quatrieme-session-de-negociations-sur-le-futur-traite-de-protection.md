@@ -9,7 +9,7 @@ categories:
 date: 2022-March-01
 description: Après une pause de plus de deux ans et demi due à la pandémie de Covid-19,
   les négociations sur le futur traité international sur la préservation et l’utilisation...
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
 location: Paris, France
 tags: []

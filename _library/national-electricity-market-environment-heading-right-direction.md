@@ -8,7 +8,7 @@ categories:
 date: '2012-01-01'
 description: 'The National Electricity Market and the Environment: Are we heading
   in the right direction?'
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 tags: []
 title: 'The National Electricity Market and the Environment: Are we heading in the

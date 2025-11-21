@@ -19,7 +19,7 @@ date: 2016-September-01
 description: Seeking to fill the gaps in the international legal framework for ocean
   governance, States gathered at the UN headquarters in New York (26 August-9 September)
   to discuss elements of an agreement on th...
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: Cautious steps towards a new high seas agreement

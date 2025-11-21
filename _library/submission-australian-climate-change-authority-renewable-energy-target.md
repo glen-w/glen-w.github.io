@@ -8,7 +8,7 @@ categories:
 date: 2012-August-01
 description: 'Submission to the Australian Climate Change Authority: Renewable Energy
   Target review'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 tags: []
 title: 'Submission to the Australian Climate Change Authority: Renewable Energy Target

@@ -9,7 +9,7 @@ categories:
 date: 2014-November-01
 description: Are you a PhD student surviving on left-over crisps? Studies show that
   sound effects alone can help freshen up old food
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: 'Academia and food: stale snacks and strange research'

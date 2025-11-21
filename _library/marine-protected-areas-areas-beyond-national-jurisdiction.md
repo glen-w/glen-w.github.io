@@ -9,7 +9,7 @@ categories:
 - other
 date: '2015-01-01'
 description: Marine protected areas in areas beyond national jurisdiction
-entry_type: Other
+entry_type: Book chapter
 layout: library-item
 preview: thumbnail
 publisher: Edward Elgar

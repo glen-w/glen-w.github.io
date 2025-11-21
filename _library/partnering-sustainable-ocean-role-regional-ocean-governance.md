@@ -8,7 +8,7 @@ categories:
 date: 2017-April-01
 description: 'Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance
   in Implementing SDG14'
-entry_type: Other
+entry_type: Conference
 layout: library-item
 location: Hong Kong
 preview: Official Group Photo.jpg

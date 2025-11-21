@@ -9,9 +9,8 @@ categories:
 date: 2019-April-01
 description: La deuxième session de négociations sur la préservation et l’utilisation
   durable de la biodiversité en haute mer s’est conclue le 5 avril dernier. L’occasion...
-entry_type: Media
+entry_type: Newspaper
 layout: library-item
-location: Paris, France
 tags:
 - french
 title: 'Haute mer : une version "zéro" du traité attendue d’ici à la fin juillet...'
@@ -24,7 +23,6 @@ year: '2019'
 
 **Authors:** Émilie Legendre
 **Venue:** AEF Info
-**Location:** Paris, France
 
 ## Links and Resources
 

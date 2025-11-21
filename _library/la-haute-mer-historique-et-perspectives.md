@@ -7,7 +7,7 @@ categories:
 - other
 date: 2015-October-01
 description: 'La Haute Mer: Historique et perspectives'
-entry_type: Other
+entry_type: Conference
 layout: library-item
 publisher: L'Institut Français de la Mer
 tags:

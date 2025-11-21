@@ -9,7 +9,7 @@ categories:
 date: '2013-01-01'
 description: 'Submission to Energy Consumer Advocacy Secretariat: A National Electricity
   Consumer Body'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

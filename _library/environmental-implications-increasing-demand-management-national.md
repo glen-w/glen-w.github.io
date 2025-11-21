@@ -8,7 +8,7 @@ categories:
 date: 2012-November-01
 description: Environmental implications of increasing demand management in the National
   Electricity Market
-entry_type: Discussion Paper
+entry_type: Report
 institution: Total Environment Centre
 layout: library-item
 tags: []

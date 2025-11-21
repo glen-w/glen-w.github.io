@@ -3,13 +3,13 @@ abstract: ''
 authors:
 - Mark Byrne
 - Glen Wright
-bibtex_key: byrneSubmissionAustralianEnergy2012
+bibtex_key: byrneSubmissionAustralianEnergy2012b
 categories:
 - other
 date: 2012-August-01
 description: 'Submission to the Australian Energy Regulator (AER): Preliminary Framework
   and Approach - Ausgrid, E...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

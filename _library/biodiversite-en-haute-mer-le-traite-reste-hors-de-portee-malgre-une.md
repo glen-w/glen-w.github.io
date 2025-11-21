@@ -3,13 +3,13 @@ abstract: 'Ce que les observateurs pressentaient début mars s’est vérifié: 
   la quatrième session de négociations sur le futur traité international sur...'
 authors:
 - Émilie Legendre
-bibtex_key: legendreBiodiversiteHauteMer2022a
+bibtex_key: legendreBiodiversiteHauteMer2022b
 categories:
 - other
 date: 2022-March-01
 description: 'Ce que les observateurs pressentaient début mars s’est vérifié: à New
   York, la quatrième session de négociations sur le futur traité international sur...'
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
 location: Paris, France
 tags:

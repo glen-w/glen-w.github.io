@@ -6,7 +6,7 @@ categories:
 - other
 date: '2017-01-01'
 description: 'Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies'
-entry_type: Other
+entry_type: Book
 gallery:
 - '9780367403812'
 - PDF

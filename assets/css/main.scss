@@ -52,6 +52,21 @@ $max-content-width: {{ site.max_width }};
 .documents.hidden.open {
   display: block;
   margin-top: 1rem;
+  padding: 1rem;
+}
+
+// Audio player full width styling
+.audio-item {
+  width: 100%;
+  
+  figure {
+    width: 100%;
+    margin: 0;
+  }
+  
+  audio {
+    width: 100%;
+  }
 }
 
 .gallery-label {

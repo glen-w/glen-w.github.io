@@ -19,10 +19,9 @@ date: 2016-April-01
 description: Alors que nous sommes à un moment décisif pour l'avenir de l'océan, plus
   de 80 États se sont réunis au siège de l'ONU à New York (30 Mars - 8 Avril) pour
   lancer les négociations d'un nouvel accord sur...
-entry_type: Other
+entry_type: Blog
 layout: library-item
-tags:
-- french
+tags: []
 title: 'Vers un accord sur la haute mer : des mesures positives à New York'
 url: https://www.iddri.org/fr/publications-et-evenements/billet-de-blog/vers-un-accord-sur-la-haute-mer-des-mesures-positives-new
 venue: IDDRI

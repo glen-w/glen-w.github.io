@@ -8,7 +8,7 @@ categories:
 date: 2016-October-01
 description: Negotiations for a new agreement on the conservation and sustainable
   use of marine biodiversity in A...
-entry_type: Other
+entry_type: Workshop
 layout: library-item
 location: Mahé, Seychelles
 tags: []

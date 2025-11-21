@@ -1,13 +1,13 @@
 ---
 abstract: ''
 authors: []
-bibtex_key: wrightSubmissionAustralianEnergy2011
+bibtex_key: wrightSubmissionAustralianEnergy2011c
 categories:
 - other
 date: 2011-December-01
 description: 'Submission to the Australian Energy Market Commission: Economic Regulation
   of Network Service Provid...'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

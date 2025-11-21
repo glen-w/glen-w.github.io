@@ -21,7 +21,7 @@ date: '2016-01-01'
 description: The world’s oceans are critical providers of ecosystem services and they
   are under increasing pressure from expanding and intensifying human activities.
   A range of international instruments and instit...
-entry_type: Other
+entry_type: Book chapter
 layout: library-item
 publisher: Springer
 tags:
@@ -30,7 +30,6 @@ tags:
 - marine genetic resources
 - areas beyond national jurisdiction
 - access and benefit sharing
-- offshore oil and gas
 title: 'Sustainable development of the oceans: Closing the gaps in the international
   legal framework'
 venue: 'Legal Aspects of Sustainable Development: Horizontal and Sectorial Policy

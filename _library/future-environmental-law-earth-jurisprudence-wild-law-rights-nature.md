@@ -8,7 +8,7 @@ categories:
 date: 2012-November-01
 description: The Future of Environmental Law? Earth Jurisprudence, Wild Law and the
   Rights of Nature
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
 tags: []
 title: The Future of Environmental Law? Earth Jurisprudence, Wild Law and the Rights

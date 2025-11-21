@@ -16,7 +16,7 @@ date: '2012-01-01'
 description: Since their rise to prominence in the post-World War II period, NGOs
   have grown exponentially in size and stature. This growth has occurred most notably
   under the New Policy Agenda, with Western donor...
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '1'
 pages: 123--134

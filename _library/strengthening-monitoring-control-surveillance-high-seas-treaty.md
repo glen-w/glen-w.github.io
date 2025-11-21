@@ -16,12 +16,9 @@ date: 2020-November-01
 description: The high seas treaty is expected to provide for the establishment of
   marine protected areas (MPAs) beyond national jurisdiction, but there are significant
   challenges for ensuring that such areas are t...
-entry_type: moderated
+entry_type: Webinar
 layout: library-item
-tags:
-- organiser
-- moderator
-- webinar
+tags: []
 title: Strengthening Monitoring Control and Surveillance through a High Seas Treaty
 url: https://www.iddri.org/en/publications-and-events/conference/replay-strengthening-monitoring-control-and-surveillance-through
 venue: ''

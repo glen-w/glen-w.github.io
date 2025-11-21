@@ -24,7 +24,7 @@ description: After more than a decade of discussions, States at the United Natio
   are nearing agreement on a new international legally binding instrument for the
   conservation and sustainable use of biodiversity i...
 doi: https://doi.org/10.1163/22116001-03701004
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '1'
 pages: 30--36

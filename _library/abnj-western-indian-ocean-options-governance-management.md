@@ -7,18 +7,17 @@ categories:
 - other
 date: 2017-November-01
 description: 'ABNJ in the Western Indian Ocean: Options for Governance & Management'
-entry_type: workshop
+entry_type: Workshop
 layout: library-item
-location: The Setchelles
-tags:
-- presenter
-- workshop
+location: Mahé, Seychelles
+tags: []
 title: 'ABNJ in the Western Indian Ocean: Options for Governance & Management'
-venue: ''
+venue: Nairobi Convention Marine Spatial Planning (MSP) Workshop
 year: '2017'
 ---
 
 ## Publication Details
 
 **Authors:** Glen Wright
-**Location:** The Setchelles
+**Venue:** Nairobi Convention Marine Spatial Planning (MSP) Workshop
+**Location:** Mahé, Seychelles

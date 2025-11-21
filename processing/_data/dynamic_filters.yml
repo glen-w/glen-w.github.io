@@ -2,32 +2,38 @@ entry_types:
 - Blog
 - Book
 - Book Chapter
-- Briefing Note
 - Conference
 - Conference Paper
+- Fellowship
 - Guest Lecture
 - Journal Article
-- Media
 - Newspaper
+- Oped
 - Other
-- Panel
+- Poster
+- Radio
 - Report
 - Report Section
 - Roundtable
+- Side Event
+- Submission
+- Training
 - Webinar
 - Workshop
 role_tags:
 - attendee
+- author
 - co-author
+- contributor
 - coordinator
 - facilitator
+- guest lecture
 - interview
+- lead author
 - moderator
 - organiser
 - panelist
-- panellist
 - participant
-- presenter
 - quoted
 - speaker
 language_tags:

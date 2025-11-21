@@ -7,7 +7,7 @@ categories:
 - other
 date: '2021-01-01'
 description: Ocean Power
-entry_type: Other
+entry_type: Report section
 layout: library-item
 publisher: REN21
 tags: []

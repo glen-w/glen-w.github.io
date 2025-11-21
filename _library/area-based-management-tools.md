@@ -7,7 +7,7 @@ categories:
 - other
 date: '2018-05-01'
 description: Area-based management tools
-entry_type: Other
+entry_type: Training
 layout: library-item
 location: New York City, NY, USA
 tags: []

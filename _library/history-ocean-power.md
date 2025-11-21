@@ -7,7 +7,7 @@ categories:
 - other
 date: '2020-01-01'
 description: The History of Ocean Power
-entry_type: Other
+entry_type: Report section
 layout: library-item
 publisher: REN21
 tags:

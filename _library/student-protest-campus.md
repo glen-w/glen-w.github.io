@@ -7,7 +7,7 @@ categories:
 - other
 date: '2010-01-01'
 description: Student Protest on Campus
-entry_type: Other
+entry_type: Report
 institution: Activist Legal Project
 layout: library-item
 tags: []

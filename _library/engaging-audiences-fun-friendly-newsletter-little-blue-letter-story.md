@@ -8,11 +8,10 @@ categories:
 date: 2018-December-01
 description: 'Engaging audiences with a fun and friendly newsletter: The Little Blue
   Letter Story'
-entry_type: Other
+entry_type: Conference
 layout: library-item
 location: Southampton, UK
-tags:
-- presenter
+tags: []
 title: 'Engaging audiences with a fun and friendly newsletter: The Little Blue Letter
   Story'
 venue: ''

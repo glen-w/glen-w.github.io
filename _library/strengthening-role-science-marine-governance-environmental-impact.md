@@ -9,7 +9,7 @@ date: 2014-October-01
 description: 'Strengthening the role of science in marine governance through environmental
   impact assessment: a ca...'
 doi: https://doi.org/10.1016/j.ocecoaman.2014.07.004
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 23--30
 tags: []

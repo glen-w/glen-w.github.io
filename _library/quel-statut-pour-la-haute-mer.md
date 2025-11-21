@@ -7,7 +7,7 @@ categories:
 - other
 date: 2016-November-01
 description: Quel statut pour la haute mer ?
-entry_type: Other
+entry_type: Conference
 gallery:
 - Capture d’écran 2016-11-30 à 19.12.42
 - Capture d’écran 2016-11-30 à 19.12.59
@@ -15,7 +15,6 @@ gallery:
 layout: library-item
 location: Paris, France
 preview: Capture d’écran 2016-11-30 à 19.12.42
-publisher: Maison des Océans
 tags: []
 title: Quel statut pour la haute mer ?
 venue: ''
@@ -26,4 +25,3 @@ year: '2016'
 
 **Authors:** Glen Wright
 **Location:** Paris, France
-**Publisher:** Maison des Océans

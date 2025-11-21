@@ -8,7 +8,7 @@ categories:
 date: 2014-July-01
 description: 'Marine Governance in an Industrialised Ocean: a case study of the UK''s
   emerging marine renewable ene...'
-entry_type: Other
+entry_type: Conference
 gallery:
 - DSC_0155
 - DSC_0156

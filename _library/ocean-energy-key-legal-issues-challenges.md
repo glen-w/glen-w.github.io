@@ -9,7 +9,7 @@ categories:
 - other
 date: '2015-01-01'
 description: 'Ocean energy: key legal issues and challenges'
-entry_type: Issue Brief
+entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '4'

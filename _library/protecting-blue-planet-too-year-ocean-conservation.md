@@ -11,7 +11,7 @@ date: 2017-December-01
 description: 'Protecting our Blue Planet too: the year in ocean conservation - watched
   in awe as Sir David Attenborough and the Blue Planet II team showed us spellbinding
   images of an underwater world.'
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: 'Protecting our Blue Planet too: the year in ocean conservation'

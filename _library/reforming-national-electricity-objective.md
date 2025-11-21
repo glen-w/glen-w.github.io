@@ -7,7 +7,7 @@ categories:
 - other
 date: '2013-01-01'
 description: Reforming the National Electricity Objective
-entry_type: Discussion Paper
+entry_type: Report
 institution: Total Environment Centre
 layout: library-item
 pages: 89--97

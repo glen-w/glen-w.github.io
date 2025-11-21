@@ -27,6 +27,7 @@ nav_order: 10
   
   <!-- Entry Type Filters -->
   <div class="filter-group entry-type-filters">
+    <div class="filter-group-title">type</div>
     <div class="filter-tags">
       {% for entry_type in site.data.dynamic_filters.entry_types %}
         <a href="#" onclick="filterByTag('{{ entry_type }}'); return false;" class="badge badge-light">{{ entry_type }}</a>
@@ -36,6 +37,7 @@ nav_order: 10
   
   <!-- Role Tags Filters -->
   <div class="filter-group role-tags-filters">
+    <div class="filter-group-title">role</div>
     <div class="filter-tags">
       {% for role_tag in site.data.dynamic_filters.role_tags %}
         <a href="#" onclick="filterByTag('{{ role_tag }}'); return false;" class="tag">{{ role_tag }}</a>
@@ -45,6 +47,7 @@ nav_order: 10
   
   <!-- Language Tags Filters -->
   <div class="filter-group language-tags-filters">
+    <div class="filter-group-title">language</div>
     <div class="filter-tags">
       {% for language_tag in site.data.dynamic_filters.language_tags %}
         <a href="#" onclick="filterByTag('{{ language_tag }}'); return false;" class="tag">{{ language_tag }}</a>
@@ -55,7 +58,7 @@ nav_order: 10
   <!-- View Map Button -->
   <div class="filter-actions">
     <a href="#" onclick="toggleMap(); return false;" class="view-map-link" id="mapToggleBtn">
-      <i class="fas fa-map-marker-alt"></i> View Map
+      <i class="fas fa-map-marker-alt"></i> view map
     </a>
   </div>
 </div>
@@ -67,7 +70,7 @@ nav_order: 10
 
 <!-- Item Count Display -->
 <div id="itemCountDisplay" class="item-count-display" style="display: none;">
-  <span id="itemCountText">Showing 0 items</span>
+  <span id="itemCountText">showing 0 items</span>
 </div>
 
 <div class="publications">
@@ -134,8 +137,8 @@ nav_order: 10
 
 /* Increased spacing for all filter tags */
 .filter-group .filter-tags {
-  gap: 0.75rem;
-  row-gap: 0.75rem;
+  gap: 1rem;
+  row-gap: 2.5rem;
 }
 
 .filter-group.role-tags-filters {
@@ -144,6 +147,13 @@ nav_order: 10
 
 .filter-group.language-tags-filters {
   margin-bottom: 0.75rem;
+}
+
+/* Filter group title styling */
+.filter-group-title {
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Additional styling for filter badges and tags to match bibliography behavior */
@@ -155,6 +165,8 @@ nav_order: 10
   color: inherit;
   margin-right: 0 !important; /* Override bibliography margin to use gap instead */
   margin-bottom: 0 !important; /* Override bibliography margin to use gap instead */
+  padding: 0.2rem 0.35rem; /* Smaller padding for filter badges */
+  font-size: 0.8rem;
   
   &:hover {
     text-decoration: none;
@@ -706,7 +718,7 @@ function updateItemCount() {
       console.log(`Item ${index} (${isGroupHeader ? 'GROUP HEADER' : 'BIBLIOGRAPHY ITEM'}):`, item.textContent.substring(0, 100));
     });
     
-    countText.textContent = `Showing ${count} item${count !== 1 ? 's' : ''}`;
+    countText.textContent = `showing ${count} item${count !== 1 ? 's' : ''}`;
     countDisplay.classList.add('show');
     countDisplay.style.display = 'block';
   }

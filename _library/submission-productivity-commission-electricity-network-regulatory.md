@@ -9,7 +9,7 @@ categories:
 date: 2012-October-01
 description: 'Submission to the Productivity Commission: Electricity Network Regulatory
   Frameworks'
-entry_type: Other
+entry_type: Submission
 layout: library-item
 publisher: Total Environment Centre
 tags: []

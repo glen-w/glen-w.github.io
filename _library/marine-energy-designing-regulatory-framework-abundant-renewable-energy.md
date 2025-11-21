@@ -8,7 +8,7 @@ categories:
 date: '2012-01-01'
 description: 'Marine Energy: Designing a Regulatory Framework for an Abundant Renewable
   Energy Resource (Poster)'
-entry_type: Other
+entry_type: Poster
 layout: library-item
 tags: []
 title: 'Marine Energy: Designing a Regulatory Framework for an Abundant Renewable

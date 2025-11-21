@@ -35,7 +35,7 @@ date: '2015-01-01'
 description: Marine areas beyond national jurisdiction (ABNJ) represent around half
   of the Planet’s surface and a significant amount of its biodiversity. In recent
   years, the international community has become inc...
-entry_type: Issue Brief
+entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '4'

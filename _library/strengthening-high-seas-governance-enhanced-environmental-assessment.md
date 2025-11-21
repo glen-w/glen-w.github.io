@@ -16,7 +16,7 @@ description: This report explores the challenges of addressing emerging activiti
   in areas beyond national jurisdiction (ABNJ) through a case study – a hypothetical
   proposal to develop commercial fisheries in the...
 doi: https://doi.org/10.48440/IASS.2021.001
-entry_type: Other
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '56'

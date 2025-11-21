@@ -18,7 +18,7 @@ date: 2017-August-01
 description: Late in the evening of Friday, 21 July, States meeting at the UN headquarters
   in New York quietly took a significant step in a longrunning process aiming to close
   gaps in the international rules cover...
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: 'Coming soon: towards formal negotiations for a agreement on high seas governance'

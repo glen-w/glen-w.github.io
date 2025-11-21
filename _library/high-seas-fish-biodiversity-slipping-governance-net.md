@@ -19,17 +19,11 @@ description: States at the United Nations have begun negotiating a new treaty to
   the legal regime for marine biodiversity in areas beyond national jurisdiction.
   Failure to ensure the full scope of fish ...
 doi: https://doi.org/10.1038/s41559-019-0981-4
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '9'
 pages: 1273--1276
-tags:
-- ★
-- fisheries
-- high seas
-- abnj
-- bbnj
-- regional fisheries management organizations (rfmos
+tags: []
 title: High-seas fish biodiversity is slipping through the governance net
 url: https://www.nature.com/articles/s41559-019-0981-4
 venue: Nature Ecology & Evolution

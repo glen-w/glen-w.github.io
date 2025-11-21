@@ -8,7 +8,7 @@ categories:
 date: '2013-01-01'
 description: 'Animal Law and Earth Jurisprudence: A Comparative Analysis of the Status
   of Animals in two Emerging ...'
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 5--29
 tags: []

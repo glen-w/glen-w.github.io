@@ -20,7 +20,7 @@ date: '2010-01-01'
 description: As evidence of anthropogenic climate change mounts there is a growing
   concern with, and a pressing need for, legal regimes to curtail the problem. This
   concern culminated in the recent climate change ...
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 tags: []
 title: 'Designing Climate Law: A Comparative Analysis of the US and EU'

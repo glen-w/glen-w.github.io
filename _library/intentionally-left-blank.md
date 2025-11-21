@@ -11,11 +11,10 @@ categories:
 - other
 date: '2015-01-01'
 description: This Study is Intentionally Left Blank
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '2'
-tags:
-- reviw
+tags: []
 title: This Study is Intentionally Left Blank
 venue: Annals of Improbable Research
 volume: '21'

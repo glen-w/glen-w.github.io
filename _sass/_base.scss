@@ -706,7 +706,7 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    color: rgba(0, 0, 0, 0.55);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
@@ -717,7 +717,7 @@ footer.sticky-bottom {
   h3.series {
     font-size: 1rem;
     font-weight: 400;
-    color: var(--global-divider-color);
+    color: rgba(0, 0, 0, 0.55);
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
     padding-right: 1rem;
@@ -747,7 +747,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: rgba(0, 0, 0, 0.55);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -967,7 +967,7 @@ footer.sticky-bottom {
         .filter-tags {
           display: flex;
           flex-wrap: wrap;
-          gap: 0.5rem;
+          gap: 1rem;
           
           .badge, .tag {
             cursor: pointer;
@@ -980,7 +980,8 @@ footer.sticky-bottom {
             color: #495057 !important;
             background-color: #f8f9fa !important;
             border: 1px solid #dee2e6 !important;
-            padding: 0.35rem 0.5rem !important; // Slightly taller than tags
+            padding: 0.2rem 0.35rem !important;
+            font-size: 0.8rem !important;
           }
         }
         
@@ -1064,6 +1065,7 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         display: block;
         border-color: var(--global-text-color);
+        padding: 1rem;
       }
     }
     div.award.hidden {
@@ -1073,6 +1075,7 @@ footer.sticky-bottom {
     div.award.hidden.open {
       display: block;
       border-color: var(--global-highlight-color);
+      padding: 1rem;
     }
     div.bibtex.hidden {
       display: none;
@@ -1081,6 +1084,7 @@ footer.sticky-bottom {
     div.bibtex.hidden.open {
       display: block;
       border-color: var(--global-text-color);
+      padding: 1rem;
     }
     div.quotes.hidden {
       display: none;
@@ -1089,6 +1093,7 @@ footer.sticky-bottom {
     div.quotes.hidden.open {
       display: block;
       border-color: var(--global-text-color);
+      padding: 1rem;
     }
     div.speakers.hidden {
       display: none;
@@ -1097,6 +1102,7 @@ footer.sticky-bottom {
     div.speakers.hidden.open {
       display: block;
       border-color: var(--global-text-color);
+      padding: 1rem;
     }
     div.video.hidden {
       display: none;
@@ -1105,6 +1111,7 @@ footer.sticky-bottom {
     div.video.hidden.open {
       display: block;
       border-color: var(--global-text-color);
+      padding: 1rem;
     }
     div.audio.hidden {
       display: none;
@@ -1113,6 +1120,7 @@ footer.sticky-bottom {
     div.audio.hidden.open {
       display: block;
       border-color: var(--global-text-color);
+      padding: 1rem;
     }
     div.documents.hidden {
       display: none;
@@ -1121,6 +1129,7 @@ footer.sticky-bottom {
     div.documents.hidden.open {
       display: block;
       border-color: var(--global-text-color);
+      padding: 1rem;
     }
   }
 }
@@ -1748,6 +1757,22 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+// Dark theme overrides for H2 and H3 headings
+html[data-theme="dark"] {
+  .projects {
+    h2.category,
+    h3.series {
+      color: #9a9a9a;
+    }
+  }
+
+  .publications {
+    h2.bibliography {
+      color: #9a9a9a;
+    }
   }
 }
 

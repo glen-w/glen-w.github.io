@@ -1,17 +1,14 @@
 ---
-abstract: '"Négocier un traité international juridiquement contraignant permettrait
-  de soutenir les initiatives nationales", a déclaré Glen Wright, membre de l’UICN,...'
+abstract: ''
 authors:
-- Émilie Legendre
-bibtex_key: legendreCooperationMondialeNouveau2020
+- Margaux Otter
+bibtex_key: otterCooperationMondialeNouveau2020
 categories:
 - other
 date: 2020-June-01
-description: '"Négocier un traité international juridiquement contraignant permettrait
-  de soutenir les initiatives nationales", a déclaré Glen Wright, membre de l’UICN,...'
-entry_type: Other
+description: La coopération mondiale, nouveau défi dans la lutte contre la pollution...
+entry_type: Newspaper
 layout: library-item
-location: Paris, France
 tags: []
 title: La coopération mondiale, nouveau défi dans la lutte contre la pollution...
 url: https://www.aefinfo.fr/depeche/629539-la-cooperation-mondiale-nouveau-defi-dans-la-lutte-contre-la-pollution-des-oceans
@@ -21,9 +18,8 @@ year: '2020'
 
 ## Publication Details
 
-**Authors:** Émilie Legendre
+**Authors:** Margaux Otter
 **Venue:** AEF Info
-**Location:** Paris, France
 
 ## Links and Resources
 

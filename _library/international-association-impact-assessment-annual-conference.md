@@ -6,7 +6,7 @@ categories:
 - other
 date: '2012-05-01'
 description: International Association for Impact Assessment Annual Conference
-entry_type: attendance
+entry_type: Conference
 layout: library-item
 location: Lisbon, Portugal
 tags:

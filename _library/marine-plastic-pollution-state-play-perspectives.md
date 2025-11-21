@@ -13,20 +13,7 @@ abstract: 'Plastic pollution of the ocean is now reaching an alarming level, thr
   political actions and private initiatives? How to ensure synergy between measures
   developed at local, national and even international levels? What gaps need to be
   filled to enable genuine protection of the marine environment? These issues are
-  discussed during this webinar which brings together :
-
-
-  Brune Poirson, Secretary of State to the French Minister of the Ecological and Solidarity
-  Transition;
-
-  Gaetano Leone, Coordinator of the Mediterranean Action Plan;
-
-  Leila Meistertzheim, President of Plastic@Sea, Banyuls Oceanological Observatory,
-  Fondation Tara Océan;
-
-  Glen Wright, International Ocean Policy Researcher, IDDRI
-
-  Moderated by Sébastien Treyer, Executive Director of IDDRI.'
+  discussed during this webinar which brings together :'
 authors:
 - Glen Wright
 bibtex_key: wrightMarinePlasticPollution2020
@@ -36,7 +23,7 @@ date: 2020-June-01
 description: Plastic pollution of the ocean is now reaching an alarming level, threatening
   species and ecosystems, affecting the well-being of populations and costing billions
   of euros every year, in particular th...
-entry_type: organized
+entry_type: Webinar
 layout: library-item
 preview: thumbnail
 tags:

@@ -9,7 +9,7 @@ categories:
 date: '2012-01-01'
 description: 'Submission to the Australian Energy Market Commission (AEMC): Power
   of Choice Review'
-entry_type: Other
+entry_type: Submission
 institution: Total Environment Centre
 layout: library-item
 tags: []

@@ -17,20 +17,16 @@ authors:
 bibtex_key: Durussel2018
 categories:
 - other
-- ocean-governance
 date: '2018-01-01'
 description: The Southeast Atlantic and Southeast Pacific regions are both characterised
   by their high biological productivity, supported by important oceanic currents.
   Recognising the need to ensure conservation ...
 doi: https://doi.org/10.2312/iass.2018.025
-entry_type: Other
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '92'
-tags:
-- abnj
-- bbnj
-- regional ocean governance
+tags: []
 title: 'Strengthening Regional Ocean Governance for the High Seas: Opportunities and
   Challenges to Improve the Legal and Institutional Framework of the Southeast Atlantic
   and Southeast Pacific'

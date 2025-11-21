@@ -20,14 +20,14 @@ categories:
 date: '2023-01-01'
 description: Initial reflections to support rapid, effective and equitable implementation
   of the BBNJ Agreement
-entry_type: Policy Brief
+entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '1'
 preview: BBNJ_Graph_FINAL.jpg
 tags:
-- coordinator
 - featured
+- coordinator
 - lead author
 title: Initial reflections to support rapid, effective and equitable implementation
   of the BBNJ Agreement

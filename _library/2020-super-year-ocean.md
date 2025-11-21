@@ -16,7 +16,7 @@ date: 2020-January-01
 description: After the “Blue COP”, whose real political impacts will need to be assessed
   beyond the strong mobilisation of civil society, 2020 is presented as a “super year”
   for the ocean, marked with several impo...
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: '2020: a “Super Year” for the ocean?'

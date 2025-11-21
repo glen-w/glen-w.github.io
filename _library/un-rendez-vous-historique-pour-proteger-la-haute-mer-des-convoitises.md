@@ -8,7 +8,7 @@ categories:
 - other
 date: 2016-March-01
 description: Un rendez-vous historique pour protéger la haute mer des convoitises
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: Un rendez-vous historique pour protéger la haute mer des convoitises

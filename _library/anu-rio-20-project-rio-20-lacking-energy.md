@@ -7,7 +7,7 @@ categories:
 - other
 date: 2012-June-01
 description: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy'
-entry_type: Other
+entry_type: Blog
 layout: library-item
 tags: []
 title: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy'

@@ -7,12 +7,10 @@ categories:
 - other
 date: '2010-01-01'
 description: Carbon Offsets and Consumer Protection
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '90'
-tags:
-- carbon offsets
-- vcm
+tags: []
 title: Carbon Offsets and Consumer Protection
 venue: Impact! A National Journal of Environmental Law
 volume: December

@@ -7,7 +7,7 @@ categories:
 - other
 date: '2016-01-01'
 description: 'Academics With Cats 2016: the winning photographs'
-entry_type: Other
+entry_type: Newspaper
 layout: library-item
 tags: []
 title: 'Academics With Cats 2016: the winning photographs'

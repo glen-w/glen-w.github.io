@@ -11,7 +11,7 @@ categories:
 date: '2022-01-01'
 description: 'Conserving the Global Ocean: Initial Indications for Effective Area-based
   Management Tools on the Hi...'
-entry_type: Other
+entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 preview: BBNJ_Graph_FINAL.jpg

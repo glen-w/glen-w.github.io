@@ -8,14 +8,11 @@ categories:
 date: '2017-01-01'
 description: 'Risky Business: Enterprise Liability, Corporate Groups and Torts'
 doi: https://doi.org/10.1515/jetl-2017-0003
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 number: '1'
 pages: 54--77
-tags:
-- corporations
-- human rights
-- torts
+tags: []
 title: 'Risky Business: Enterprise Liability, Corporate Groups and Torts'
 venue: Journal of European Tort Law
 volume: '8'
