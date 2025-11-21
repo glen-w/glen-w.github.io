@@ -28,18 +28,6 @@ venue: ''
 year: '2020'
 ---
 
-## Abstract
-
-The high seas treaty is expected to provide for the establishment of marine protected areas (MPAs) beyond national jurisdiction, but there are significant challenges for ensuring that such areas are truly protected through effective monitoring, control and surveillance. This webinar will explore how the ongoing negotiations can strengthen Monitoring, control and surveillance (MCS) and highlights how MCS can contribute to the implementation of the new instrument. In particular, speakers will illustrate how new technologies and data sharing can improve MCS and strengthen States capacity, share concrete proposals for the future international instrument, and provide insight into the current options being considered for MPA designation and implementation.
-
-## Publication Details
-
-**Year:** 2020
-
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/conference/replay-strengthening-monitoring-control-and-surveillance-through)
-
-## Keywords
-
-organiser, moderator, webinar

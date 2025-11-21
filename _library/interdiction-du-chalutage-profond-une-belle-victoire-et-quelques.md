@@ -21,16 +21,10 @@ venue: The Conversation
 year: '2016'
 ---
 
-## Abstract
-
-Le 30 juin dernier, l’Union européenne décidait après des années d’âpres négociations d’interdire la pêche en eau profonde au-delà de 800 mètres. Retour sur cet accord historique.
-
 ## Publication Details
 
 **Authors:** Elisabeth Druel, Glen Wright
-
 **Venue:** The Conversation
-**Year:** 2016
 
 ## Links and Resources
 

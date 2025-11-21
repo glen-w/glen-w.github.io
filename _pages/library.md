@@ -281,11 +281,22 @@ nav_order: 10
 // Flag to track if we're filtering by badge (exact match) vs manual search (free-form text)
 let isBadgeFiltering = false;
 
-// Check for jump action on page load
+// Check for jump action or filter parameter on page load
 document.addEventListener('DOMContentLoaded', function() {
   const urlParams = new URLSearchParams(window.location.search);
   const action = urlParams.get('action');
+  const filterParam = urlParams.get('filter');
   const hash = window.location.hash;
+  
+  // Handle filter parameter from library item page links
+  if (filterParam) {
+    // Wait for page to fully load, then trigger filtering
+    setTimeout(() => {
+      filterByTag(decodeURIComponent(filterParam));
+      // Scroll to top of results
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 500);
+  }
   
   if (action === 'jump' && hash) {
     // Wait a bit for the page to fully load, then scroll to the anchor

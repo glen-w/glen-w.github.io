@@ -15,10 +15,6 @@ venue: ''
 year: '2017'
 ---
 
-## Publication Details
-
-**Year:** 2017
-
 ## Links and Resources
 
 - [Original URL](https://prog-ocean.org/our-work/strong-high-seas)

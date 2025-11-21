@@ -19,9 +19,7 @@ year: '2023'
 ## Publication Details
 
 **Authors:** Jeffrey Marlow
-
 **Venue:** The New Yorker
-**Year:** 2023
 
 ## Links and Resources
 

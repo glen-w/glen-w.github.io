@@ -18,5 +18,4 @@ year: '2024'
 
 ## Publication Details
 
-**Year:** 2024
 **Location:** Paris, France

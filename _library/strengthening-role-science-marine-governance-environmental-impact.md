@@ -24,9 +24,7 @@ year: '2014'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Ocean & Coastal Management
-**Year:** 2014
 **Volume:** 99
 **Pages:** 23--30
 

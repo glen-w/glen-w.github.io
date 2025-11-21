@@ -20,7 +20,5 @@ year: '2017'
 ## Publication Details
 
 **Authors:** Kate Johnson, Glen Wright
-
 **Venue:** Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies
-**Year:** 2017
 **Publisher:** Earthscan

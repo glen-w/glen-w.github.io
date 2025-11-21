@@ -24,9 +24,7 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Julien Rochette, Glen Wright, Lucien Chabason, Sebastian Unger, Jeff Ardron, Katherine Houghton
-
 **Venue:** Global Sustainable Development Report
-**Year:** 2015
 **Publisher:** United Nations
 
 ## Notes

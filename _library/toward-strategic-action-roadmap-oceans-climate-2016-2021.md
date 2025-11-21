@@ -20,7 +20,5 @@ year: '2021'
 ## Publication Details
 
 **Authors:** Cicin-Sain Biliana, et al.
-
 **Venue:** Global Ocean Forum
-**Year:** 2021
 **Institution:** Global Ocean Forum

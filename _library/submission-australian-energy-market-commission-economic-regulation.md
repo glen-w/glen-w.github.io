@@ -19,5 +19,4 @@ year: '2011'
 
 ## Publication Details
 
-**Year:** 2011
 **Publisher:** Total Environment Centre

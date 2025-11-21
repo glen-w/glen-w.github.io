@@ -21,10 +21,4 @@ year: '2017'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2017
 **Location:** The Setchelles
-
-## Keywords
-
-presenter, workshop

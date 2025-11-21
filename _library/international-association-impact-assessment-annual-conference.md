@@ -18,9 +18,4 @@ year: '2012'
 
 ## Publication Details
 
-**Year:** 2012
 **Location:** Lisbon, Portugal
-
-## Keywords
-
-attendee

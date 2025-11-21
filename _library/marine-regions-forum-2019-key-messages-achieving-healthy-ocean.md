@@ -25,9 +25,3 @@ year: '2019'
 ## Publication Details
 
 **Authors:** Institute for Advanced Sustainability Studies (IASS), Institute for Sustainable Development, International Relations (IDDRI), TMG – Think Tank for Sustainability (TMG)
-
-**Year:** 2019
-
-## Keywords
-
-contributor, editor

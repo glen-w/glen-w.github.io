@@ -25,11 +25,5 @@ year: '2019'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2019
 **Location:** New York City, NY, USA
 **Publisher:** STRONG High Seas
-
-## Keywords
-
-organiser, side event, speaker

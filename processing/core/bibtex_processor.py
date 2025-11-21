@@ -696,6 +696,36 @@ class BibTeXProcessor:
         
         return agenda_paths
     
+    def extract_audio_files(self, file_field: str) -> List[str]:
+        """Extract audio file paths from a BibTeX file field."""
+        if not file_field:
+            return []
+        
+        audio_paths = []
+        # Split by semicolon and process each part
+        for part in file_field.split(';'):
+            part = part.strip()
+            if not part:  # Skip empty parts
+                continue
+                
+            # Handle different formats: Description:path:mime or path:mime or just path
+            if ':' in part:
+                # Split by colon and check if it's an audio file
+                parts = part.split(':')
+                if len(parts) >= 2:
+                    # Check if the MIME type indicates audio
+                    mime_type = parts[-1].strip().lower()
+                    if any(audio_type in mime_type for audio_type in ['audio/mpeg', 'audio/mp3', 'audio/wav', 'audio/ogg', 'audio/mp4', 'audio/aac']):
+                        path_part = parts[1].strip()
+                        if path_part and self._is_valid_path(path_part):
+                            audio_paths.append(path_part)
+            else:
+                # Check if the filename has an audio extension
+                if any(part.lower().endswith(ext) for ext in ['.mp3', '.wav', '.ogg', '.m4a', '.aac']) and self._is_valid_path(part):
+                    audio_paths.append(part.strip())
+        
+        return audio_paths
+    
     def extract_slides_pdfs(self, file_field: str) -> List[str]:
         """Extract PDF files with 'slides' in filename or description."""
         if not file_field:

@@ -22,10 +22,4 @@ year: '2018'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2018
 **Location:** Southampton, UK
-
-## Keywords
-
-presenter

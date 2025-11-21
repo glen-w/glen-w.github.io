@@ -22,6 +22,4 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Jeff Angel, Glen Wright
-
-**Year:** 2012
 **Publisher:** Total Environment Centre

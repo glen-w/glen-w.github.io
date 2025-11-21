@@ -18,7 +18,10 @@ layout: default
     
     <!-- Entry type and basic metadata -->
     <p class="post-meta">
-      <i class="fa-solid fa-file-lines fa-sm"></i> {{ page.entry_type }}
+      {% if page.entry_type %}
+        <i class="fa-solid fa-file-lines fa-sm"></i> 
+        <a href="/library/?filter={{ page.entry_type | url_encode }}" class="badge badge-light" style="text-decoration: none; color: inherit; cursor: pointer; display: inline-block; padding: 0.25rem 0.5rem; border-radius: 0.25rem; background-color: #f8f9fa; border: 1px solid #dee2e6;">{{ page.entry_type }}</a>
+      {% endif %}
       {% if page.year %}
         &nbsp;&middot;&nbsp; <i class="fa-solid fa-calendar fa-sm"></i> {{ page.year }}
       {% endif %}
@@ -29,6 +32,16 @@ layout: default
         &nbsp;&middot;&nbsp; <i class="fa-solid fa-location-dot fa-sm"></i> {{ page.location }}
       {% endif %}
     </p>
+    
+    <!-- Role tags (from tags field) -->
+    {% if page.tags and page.tags.size > 0 %}
+      <p class="post-meta">
+        <i class="fa-solid fa-user-tag fa-sm"></i>
+        {% for tag in page.tags %}
+          <a href="/library/?filter={{ tag | url_encode }}" class="tag" style="text-decoration: none; color: inherit; cursor: pointer; display: inline-block; padding: 0.25rem 0.5rem; margin-right: 0.5rem; border-radius: 0.25rem; background-color: #f8f9fa; border: 1px dashed #6c757d;">{{ tag }}</a>
+        {% endfor %}
+      </p>
+    {% endif %}
 
     <!-- Authors -->
     {% if page.authors and page.authors.size > 0 %}
@@ -45,35 +58,33 @@ layout: default
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
 
-    <!-- Tags and Categories -->
-    <p class="post-tags">
-      <a href="{{ year | prepend: '/library/' | relative_url }}"> 
-        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} 
-      </a>
-      {% if tags != '' %}
-        &nbsp;&middot;&nbsp;
-        {% for tag in page.tags %}
-          <a href="{{ tag | slugify | prepend: '/library/tag/' | relative_url }}"> 
-            <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
+    <!-- Categories (tags are now shown as role badges above) -->
+    {% if categories != '' %}
+      <p class="post-tags">
+        {% if year %}
+          <a href="{{ year | prepend: '/library/' | relative_url }}"> 
+            <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} 
           </a>
-          {% unless forloop.last %}
-            &nbsp;
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-
-      {% if categories != '' %}
-        &nbsp;&middot;&nbsp;
-        {% for category in page.categories %}
-          <a href="{{ category | slugify | prepend: '/library/category/' | relative_url }}"> 
-            <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
-          </a>
-          {% unless forloop.last %}
-            &nbsp;
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-    </p>
+        {% endif %}
+        {% if categories != '' %}
+          {% if year %}&nbsp;&middot;&nbsp;{% endif %}
+          {% for category in page.categories %}
+            <a href="{{ category | slugify | prepend: '/library/category/' | relative_url }}"> 
+              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
+            </a>
+            {% unless forloop.last %}
+              &nbsp;
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
+      </p>
+    {% elsif year %}
+      <p class="post-tags">
+        <a href="{{ year | prepend: '/library/' | relative_url }}"> 
+          <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} 
+        </a>
+      </p>
+    {% endif %}
 
     <!-- Action buttons for PDFs, links, etc. -->
     {% if page.pdf or page.url or page.doi %}
@@ -102,6 +113,22 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Preview image if available - moved to header for higher placement -->
+    {% if page.preview %}
+      <figure class="library-preview library-preview-header">
+        {% assign preview_filename = page.preview | split: '/' | last %}
+        {% assign preview_path_preview = preview_filename | prepend: '/assets/img/publication_preview/' | relative_url %}
+        {% assign preview_path_publications = preview_filename | prepend: '/assets/img/publications/' | relative_url %}
+        <img src="{{ preview_path_preview }}" 
+             alt="{{ page.title }} preview" 
+             class="img-fluid"
+             onerror="this.onerror=null; this.src='{{ preview_path_publications }}'; this.onerror=null;">
+        <figcaption>
+          Preview of <em>{{ page.title }}</em>
+        </figcaption>
+      </figure>
+    {% endif %}
+
     <hr>
   </header>
 
@@ -113,30 +140,128 @@ layout: default
   </div>
 
   <article class="post-content">
-    <!-- Preview image if available -->
-    {% if page.preview %}
-      <figure class="library-preview">
-        <img src="{{ page.preview | prepend: '/assets/img/publications/' | relative_url }}" 
-             alt="{{ page.title }} preview" 
-             class="img-fluid">
-        <figcaption>
-          Preview of <em>{{ page.title }}</em>
-        </figcaption>
-      </figure>
-    {% endif %}
-
-    <!-- Abstract section -->
-    {% if page.abstract %}
-      <div class="library-abstract">
-        <h3>Abstract</h3>
-        <p>{{ page.abstract }}</p>
-      </div>
-    {% endif %}
 
     <!-- Main content -->
     <div id="markdown-content">
       {{ content }}
     </div>
+    
+    <!-- Clean up redundant content with JavaScript -->
+    <script>
+    (function() {
+      // Wait for content to be rendered
+      setTimeout(function() {
+        const contentDiv = document.getElementById('markdown-content');
+        if (!contentDiv) return;
+        
+        // 1. Hide Abstract section if it's the same as description
+        const description = document.querySelector('.post-description');
+        const abstractHeading = contentDiv.querySelector('h2');
+        if (abstractHeading && abstractHeading.textContent.trim() === 'Abstract') {
+          const abstractSection = abstractHeading.nextElementSibling;
+          if (abstractSection && description) {
+            const abstractText = abstractSection.textContent.trim();
+            const descriptionText = description.textContent.trim();
+            // Check if abstract is same as description (allowing for truncation)
+            if (descriptionText && abstractText.startsWith(descriptionText.substring(0, Math.min(100, descriptionText.length)))) {
+              abstractHeading.style.display = 'none';
+              abstractSection.style.display = 'none';
+            }
+          }
+        }
+        
+        // 2. Hide Publication Details if it only contains Year/Location (already in header)
+        const pubDetailsHeadings = contentDiv.querySelectorAll('h2');
+        pubDetailsHeadings.forEach(function(heading) {
+          if (heading.textContent.trim() === 'Publication Details') {
+            const detailsSection = heading.nextElementSibling;
+            if (detailsSection) {
+              const detailsText = detailsSection.textContent || '';
+              // Check if it only contains Year and/or Location
+              const hasYear = detailsText.includes('**Year:**');
+              const hasLocation = detailsText.includes('**Location:**');
+              const hasOnlyBasicInfo = (hasYear || hasLocation) && 
+                !detailsText.includes('**Authors:**') &&
+                !detailsText.includes('**Venue:**') &&
+                !detailsText.includes('**Publisher:**') &&
+                !detailsText.includes('**Volume:**') &&
+                !detailsText.includes('**Number:**') &&
+                !detailsText.includes('**Pages:**') &&
+                !detailsText.includes('**Institution:**');
+              
+              if (hasOnlyBasicInfo) {
+                heading.style.display = 'none';
+                detailsSection.style.display = 'none';
+              }
+            }
+          }
+        });
+        
+        // 3. Fix Links and Resources - remove image file links
+        const linksHeadings = contentDiv.querySelectorAll('h2');
+        linksHeadings.forEach(function(heading) {
+          if (heading.textContent.trim() === 'Links and Resources') {
+            const linksSection = heading.nextElementSibling;
+            if (linksSection) {
+              const links = linksSection.querySelectorAll('a');
+              links.forEach(function(link) {
+                const href = link.getAttribute('href') || '';
+                // Remove links to image files
+                if (href.match(/\.(jpg|jpeg|png|gif|webp|svg)$/i)) {
+                  link.parentElement.remove();
+                }
+              });
+              
+              // If no links remain, hide the section
+              if (linksSection.querySelectorAll('a').length === 0) {
+                heading.style.display = 'none';
+                linksSection.style.display = 'none';
+              }
+            }
+          }
+        });
+        
+        // 4. Hide Keywords section (tags already shown in header)
+        const keywordsHeadings = contentDiv.querySelectorAll('h2');
+        keywordsHeadings.forEach(function(heading) {
+          if (heading.textContent.trim() === 'Keywords') {
+            heading.style.display = 'none';
+            const keywordsSection = heading.nextElementSibling;
+            if (keywordsSection) {
+              keywordsSection.style.display = 'none';
+            }
+          }
+        });
+        
+        // 5. Improve Notes section formatting
+        const notesHeadings = contentDiv.querySelectorAll('h2');
+        notesHeadings.forEach(function(heading) {
+          if (heading.textContent.trim() === 'Notes') {
+            const notesSection = heading.nextElementSibling;
+            if (notesSection) {
+              const notesText = notesSection.textContent || '';
+              // Format quotes and links in notes
+              const lines = notesText.split('\n');
+              const formattedLines = lines.map(function(line) {
+                line = line.trim();
+                if (line.startsWith('quote:')) {
+                  return '<blockquote>' + line.substring(6).trim() + '</blockquote>';
+                } else if (line.startsWith('link:')) {
+                  const url = line.substring(5).trim();
+                  return '<p><a href="' + url + '" target="_blank" rel="noopener">' + url + '</a></p>';
+                }
+                return line ? '<p>' + line + '</p>' : '';
+              });
+              
+              if (formattedLines.some(function(l) { return l.includes('<blockquote>') || l.includes('<a href'); })) {
+                notesSection.innerHTML = formattedLines.join('');
+              }
+            }
+          }
+        });
+      }, 100);
+    })();
+    </script>
 
     <!-- Image gallery if available -->
     {% if page.gallery and page.gallery.size > 1 %}
@@ -180,6 +305,11 @@ layout: default
     float: right;
     margin: 0 0 1rem 1rem;
     max-width: 300px;
+  }
+  
+  .library-preview-header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   
   .library-preview img {

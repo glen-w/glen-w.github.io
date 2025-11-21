@@ -20,16 +20,10 @@ venue: Blue Planet Society
 year: '2017'
 ---
 
-## Abstract
-
-Protecting our Blue Planet too: the year in ocean conservation - watched in awe as Sir David Attenborough and the Blue Planet II team showed us spellbinding images of an underwater world.
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Blue Planet Society
-**Year:** 2017
 
 ## Links and Resources
 

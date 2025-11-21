@@ -22,7 +22,6 @@ year: '2017'
 
 ## Publication Details
 
-**Year:** 2017
 **Publisher:** Earthscan
 
 ## Links and Resources

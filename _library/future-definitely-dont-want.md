@@ -19,9 +19,7 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** The ANU Rio+20 Project
-**Year:** 2012
 
 ## Links and Resources
 

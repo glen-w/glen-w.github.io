@@ -18,5 +18,4 @@ year: '2013'
 
 ## Publication Details
 
-**Year:** 2013
 **Location:** Orkney, Scotland

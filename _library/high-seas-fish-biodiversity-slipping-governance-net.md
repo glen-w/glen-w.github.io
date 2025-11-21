@@ -37,16 +37,10 @@ volume: '3'
 year: '2019'
 ---
 
-## Abstract
-
-States at the United Nations have begun negotiating a new treaty to strengthen the legal regime for marine biodiversity in areas beyond national jurisdiction. Failure to ensure the full scope of fish biodiversity is covered could result in thousands of species continuing to slip through the cracks of a fragmented global ocean governance framework.
-
 ## Publication Details
 
 **Authors:** Guillermo Ortuño Crespo, Daniel C. Dunn, Matthew Gianni, Kristina Gjerde, Glen Wright, Patrick N. Halpin
-
 **Venue:** Nature Ecology & Evolution
-**Year:** 2019
 **Volume:** 3
 **Number:** 9
 **Pages:** 1273--1276
@@ -55,10 +49,6 @@ States at the United Nations have begun negotiating a new treaty to strengthen t
 
 - [Original URL](https://www.nature.com/articles/s41559-019-0981-4)
 - [DOI](https://doi.org/10.1038/s41559-019-0981-4)
-
-## Keywords
-
-★, fisheries, high seas, abnj, bbnj, regional fisheries management organizations (rfmos
 
 ## Notes
 

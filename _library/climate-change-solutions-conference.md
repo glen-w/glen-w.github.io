@@ -14,6 +14,3 @@ venue: ''
 year: '2010'
 ---
 
-## Publication Details
-
-**Year:** 2010

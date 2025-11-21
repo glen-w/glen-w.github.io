@@ -26,24 +26,10 @@ venue: REN21
 year: '2024'
 ---
 
-## Abstract
-
-Global investment in and deployment of renewables reached an all-time high in 2023, despite high interest rates and higher costs of raw materials. 
-
-Globally, renewable energy supplied 30% of electricity, 10% of heat and 3.5% of fuel in 2023.
-
-Global renewable capacity additions need to reach almost 1 terawatt (TW) per year to achieve the global target of 11 TW by 2030. 
-
-Investment in renewable energy and enabling technology manufacturing grew 70% in 2023, mainly in solar PV and batteries. 
-
-In 2023, 24 countries updated their targets for the share of renewables in the electricity supply.
-
 ## Publication Details
 
 **Authors:** REN21
-
 **Venue:** REN21
-**Year:** 2024
 **Institution:** REN21
 
 ## Links and Resources

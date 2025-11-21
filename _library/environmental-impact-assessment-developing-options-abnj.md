@@ -21,10 +21,4 @@ year: '2016'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2016
 **Location:** Costa Rica
-
-## Keywords
-
-presenter, workshop

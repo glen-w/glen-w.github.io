@@ -18,16 +18,10 @@ venue: The Guardian
 year: '2014'
 ---
 
-## Abstract
-
-Could vampires exist (mathematically speaking)? What causes ghostly cold chills? And what does death smell like? Researcher Glen Wright investigates
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** The Guardian
-**Year:** 2014
 
 ## Links and Resources
 

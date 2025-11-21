@@ -27,16 +27,10 @@ venue: IDDRI
 year: '2020'
 ---
 
-## Abstract
-
-The negotiations for the development of a legally binding instrument on high seas biodiversity began at the end of 2017 and are currently suspended due to the public health crisis. The negotiations have focused mainly on the substantive issues at stake, but negotiators must also carefully consider the development of the treaty's institutional mechanisms, which will be crucial for ensuring effectiveness.
-
 ## Publication Details
 
 **Authors:** Julien Rochette, Klaudija Cremers, Glen Wright, Cyrille Barnerias, Phénia Marras-Ait Razouk
-
 **Venue:** IDDRI
-**Year:** 2020
 
 ## Links and Resources
 

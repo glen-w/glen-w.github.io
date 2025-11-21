@@ -18,16 +18,10 @@ venue: The Guardian
 year: '2014'
 ---
 
-## Abstract
-
-In a new fortnightly series, researcher Glen Wright attempts to prove academia is not entirely full of stuffiness by sharing some amusing oddities
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** The Guardian
-**Year:** 2014
 
 ## Links and Resources
 

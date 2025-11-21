@@ -25,15 +25,9 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Glen Wright, F.X. Coudert, Martin Bentley, Graham Steel, Sylvain Deville
-
 **Venue:** Annals of Improbable Research
-**Year:** 2015
 **Volume:** 21
 **Number:** 2
-
-## Keywords
-
-reviw
 
 ## Notes
 

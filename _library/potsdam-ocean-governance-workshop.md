@@ -31,14 +31,9 @@ year: '2017'
 
 ## Publication Details
 
-**Year:** 2017
 **Location:** Potsdam, Germany
 
 ## Links and Resources
 
 - [Original URL](https://www.prog-ocean.org/blog/2017/12/14/4th-potsdam-ocean-governance-workshop/)
 - [Additional Link](https://www.iass-potsdam.de/en/news/good-intentions-concrete-action-experts-analyse-progress-protecting-oceans)
-
-## Keywords
-
-workshop, moderator

@@ -21,7 +21,5 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Ambiente
-**Year:** 2012
 **Volume:** 1

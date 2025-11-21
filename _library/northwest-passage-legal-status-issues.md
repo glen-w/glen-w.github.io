@@ -21,14 +21,8 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2015
 **Location:** Malta
 
 ## Links and Resources
 
 - [Original URL](https://prezi.com/rnirypd_1pyz/the-northwest-passage/?present=1)
-
-## Keywords
-
-guest lecture

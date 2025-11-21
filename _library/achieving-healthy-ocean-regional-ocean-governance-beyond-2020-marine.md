@@ -20,5 +20,4 @@ year: '2019'
 ## Publication Details
 
 **Venue:** Marine Regions Forum
-**Year:** 2019
 **Institution:** Marine Regions Forum

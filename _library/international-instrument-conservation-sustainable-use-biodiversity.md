@@ -21,9 +21,4 @@ year: '2015'
 ## Publication Details
 
 **Venue:** IUCN
-**Year:** 2015
 **Institution:** IUCN
-
-## Keywords
-
-contributor

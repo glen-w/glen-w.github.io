@@ -21,6 +21,4 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2012
 **Location:** Orkney, Scotland, UK

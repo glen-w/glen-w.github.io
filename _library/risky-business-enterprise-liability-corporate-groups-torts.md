@@ -25,9 +25,7 @@ year: '2017'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Journal of European Tort Law
-**Year:** 2017
 **Volume:** 8
 **Number:** 1
 **Pages:** 54--77
@@ -35,7 +33,3 @@ year: '2017'
 ## Links and Resources
 
 - [DOI](https://doi.org/10.1515/jetl-2017-0003)
-
-## Keywords
-
-corporations, human rights, torts

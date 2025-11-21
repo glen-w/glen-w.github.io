@@ -19,16 +19,10 @@ venue: AEF Info
 year: '2020'
 ---
 
-## Abstract
-
-"Négocier un traité international juridiquement contraignant permettrait de soutenir les initiatives nationales", a déclaré Glen Wright, membre de l’UICN,...
-
 ## Publication Details
 
 **Authors:** Émilie Legendre
-
 **Venue:** AEF Info
-**Year:** 2020
 **Location:** Paris, France
 
 ## Links and Resources

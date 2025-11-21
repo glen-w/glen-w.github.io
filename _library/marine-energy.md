@@ -27,12 +27,6 @@ year: '2011'
 ## Publication Details
 
 **Authors:** Glen Wright, David Leary
-
 **Venue:** New Zealand Law Journal
-**Year:** 2011
 **Number:** August
 **Pages:** 227--230
-
-## Keywords
-
-wave energy, new zealand, ocean energy, tidal energy

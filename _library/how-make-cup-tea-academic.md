@@ -20,16 +20,10 @@ venue: The Guardian
 year: '2014'
 ---
 
-## Abstract
-
-Ever wondered where all the bloody teaspoons are? Or how to avoid that pesky dribble down the underside of the teapot spout? Thankfully researchers have tackled these pressing issues
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** The Guardian
-**Year:** 2014
 
 ## Links and Resources
 

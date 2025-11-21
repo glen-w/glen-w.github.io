@@ -21,21 +21,11 @@ venue: AEF Info
 year: '2023'
 ---
 
-## Abstract
-
-Cette session sera-t-elle la dernière ? Suspendues en août dernier, les négociations sur le futur traité juridiquement contraignant visant à conserver...
-
 ## Publication Details
 
 **Authors:** Emilie Legendre
-
 **Venue:** AEF Info
-**Year:** 2023
 
 ## Links and Resources
 
 - [Original URL](https://www.aefinfo.fr/depeche/687707-biodiversite-en-haute-mer-suspendues-depuis-l-ete-2022-les-negociations-rouvrent-pour-un-potentiel-dernier-round)
-
-## Keywords
-
-french, interview

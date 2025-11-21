@@ -22,12 +22,6 @@ year: '2023'
 
 **Authors:** REN21
 
-**Year:** 2023
-
 ## Links and Resources
 
 - [Original URL](https://www.ren21.net/renewable-energy-and-sustainability-report-2024/)
-
-## Keywords
-
-contributor, editor

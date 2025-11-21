@@ -20,6 +20,4 @@ year: '2024'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2024
 **Publisher:** UNESCO, HSE University

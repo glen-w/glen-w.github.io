@@ -19,7 +19,5 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Animal Rights and the Rights of Nature
-**Year:** 2012
 **Location:** Southern Cross University

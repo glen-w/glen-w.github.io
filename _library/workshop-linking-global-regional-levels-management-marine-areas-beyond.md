@@ -21,13 +21,8 @@ year: '2015'
 
 ## Publication Details
 
-**Year:** 2015
 **Location:** Rome, Italy
 
 ## Links and Resources
 
 - [Original URL](https://globaloceanforum.com/wp-content/uploads/2015/03/abnj-workshop-list-of-participants-final.pdf)
-
-## Keywords
-
-participant

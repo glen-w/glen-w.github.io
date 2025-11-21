@@ -18,10 +18,3 @@ venue: ''
 year: '2021'
 ---
 
-## Publication Details
-
-**Year:** 2021
-
-## Keywords
-
-workshop, participant

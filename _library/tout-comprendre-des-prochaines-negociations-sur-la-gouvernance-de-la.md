@@ -23,11 +23,5 @@ year: '2016'
 ## Publication Details
 
 **Authors:** Julien Rochette, Glen Wright
-
 **Venue:** IDDRI
-**Year:** 2016
 **Institution:** IDDRI
-
-## Keywords
-
-french

@@ -23,12 +23,6 @@ year: '2016'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Marine Policy
-**Year:** 2016
 **Number:** 65
 **Pages:** 115--126
-
-## Keywords
-
-★

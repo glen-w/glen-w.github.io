@@ -20,6 +20,4 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** National Environmental Law Review
-**Year:** 2012

@@ -22,12 +22,6 @@ year: '2019'
 
 **Authors:** Glen Wright
 
-**Year:** 2019
-
 ## Links and Resources
 
 - [Original URL](https://www.youtube.com/watch?v=ytn3CgFJNZw)
-
-## Keywords
-
-interview

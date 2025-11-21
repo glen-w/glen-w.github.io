@@ -19,6 +19,4 @@ year: '2016'
 ## Publication Details
 
 **Authors:** Julien Rochette, Glen Wright
-
 **Venue:** The Conversation
-**Year:** 2016

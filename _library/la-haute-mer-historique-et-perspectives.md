@@ -20,10 +20,4 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2015
 **Publisher:** L'Institut Français de la Mer
-
-## Keywords
-
-french

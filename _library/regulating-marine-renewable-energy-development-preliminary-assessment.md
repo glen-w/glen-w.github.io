@@ -31,9 +31,7 @@ year: '2014'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Underwater Technology: The International Journal of the Society for Underwater
-**Year:** 2014
 **Volume:** 32
 **Number:** 1
 **Pages:** 1--12
@@ -41,7 +39,3 @@ year: '2014'
 ## Links and Resources
 
 - [DOI](https://doi.org/10.3723/ut.32.000)
-
-## Keywords
-
-marine renewable energy, crown estate leasing process, marine governance, marine licensing, seabed leasing

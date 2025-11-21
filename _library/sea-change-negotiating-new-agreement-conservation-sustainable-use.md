@@ -22,7 +22,5 @@ year: '2016'
 ## Publication Details
 
 **Authors:** Glen Wright, Julien Rochette
-
 **Venue:** IDDRI
-**Year:** 2016
 **Institution:** IDDRI

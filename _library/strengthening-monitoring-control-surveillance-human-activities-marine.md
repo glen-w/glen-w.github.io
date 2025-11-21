@@ -35,16 +35,10 @@ volume: '122'
 year: '2020'
 ---
 
-## Abstract
-
-Monitoring, control and surveillance (MCS) is critical for the success of marine conservation and management. This raises specific challenges in the deep and distant waters of marine areas beyond national jurisdiction (ABNJ), which is characterised by a fragmented governance framework and reliance on flag States to ensure control over vessels. States at the United Nations are currently negotiating an international legally binding instrument for the conservation and sustainable use of the biological diversity of marine areas beyond national jurisdiction and there is a growing interest in how MCS tools and policies can contribute to the management of this vast global commons. The paper provides some suggested pathways for strengthening MCS in ABNJ, as well as three concrete proposals for provisions that could be included in the future international instrument.
-
 ## Publication Details
 
 **Authors:** Klaudija Cremers, Glen Wright, Julien Rochette
-
 **Venue:** Marine Policy
-**Year:** 2020
 **Volume:** 122
 **Pages:** 103976
 

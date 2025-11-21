@@ -20,7 +20,5 @@ year: '2018'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2018
 **Location:** New York City, NY, USA
 **Publisher:** STRONG High Seas

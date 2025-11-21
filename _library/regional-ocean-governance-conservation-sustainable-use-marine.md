@@ -22,6 +22,4 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Carole Durussel, Glen Wright
-
-**Year:** 2015
 **Publisher:** IDDRI, IASS

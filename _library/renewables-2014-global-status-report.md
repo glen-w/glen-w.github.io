@@ -19,7 +19,5 @@ year: '2014'
 ## Publication Details
 
 **Authors:** REN21
-
 **Venue:** REN21
-**Year:** 2014
 **Institution:** REN21

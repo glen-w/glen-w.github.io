@@ -19,5 +19,3 @@ year: '2023'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2023

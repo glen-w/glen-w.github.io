@@ -21,6 +21,7 @@ class Configuration:
     PDF_DIR = "../assets/pdf"
     PREVIEW_DIR = "../assets/img/publication_preview"
     IMAGES_DIR = "../assets/img/publications"
+    AUDIO_DIR = "../assets/audio"
     
     # File extensions
     PDF_EXTENSIONS = ['.pdf']
@@ -121,7 +122,7 @@ class Configuration:
     @classmethod
     def ensure_directories_exist(cls) -> None:
         """Ensure all required directories exist."""
-        directories = [cls.PDF_DIR, cls.PREVIEW_DIR, cls.IMAGES_DIR]
+        directories = [cls.PDF_DIR, cls.PREVIEW_DIR, cls.IMAGES_DIR, cls.AUDIO_DIR]
         for directory in directories:
             os.makedirs(directory, exist_ok=True)
     

@@ -28,9 +28,7 @@ year: '2018'
 ## Publication Details
 
 **Authors:** Robin Warner, Glen Wright, Phillip Turner, Guillermo Ortuño Crespo, Daniel Dunn, Gerald Singh
-
 **Venue:** DOSI
-**Year:** 2018
 **Pages:** 4
 **Institution:** DOSI
 

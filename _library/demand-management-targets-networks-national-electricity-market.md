@@ -19,6 +19,4 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2012
 **Publisher:** Total Environment Centre

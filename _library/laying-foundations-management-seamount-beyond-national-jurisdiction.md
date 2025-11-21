@@ -33,19 +33,13 @@ year: '2018'
 ## Publication Details
 
 **Authors:** Sabrina Guduff, Julien Rochette, François Simard, Aurélie Spadone, Glen Wright
-
 **Venue:** IDDRI, IUCN, FFEM
-**Year:** 2018
 **Pages:** 1--40
 **Institution:** IDDRI, IUCN, FFEM
 
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/report/laying-foundations-management-seamount-beyond-national-jurisdiction)
-
-## Keywords
-
-seamounts, abnj, bbnj, indian ocean, area-based management tools (abmts)
 
 ## Notes
 

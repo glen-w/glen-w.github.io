@@ -19,7 +19,5 @@ year: '2010'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Activist Legal Project
-**Year:** 2010
 **Institution:** Activist Legal Project

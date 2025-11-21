@@ -22,7 +22,5 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Glen Wright, Julien Rochette, Elisabeth Druel
-
 **Venue:** Research Handbook on International Marine Environmental Law
-**Year:** 2015
 **Publisher:** Edward Elgar

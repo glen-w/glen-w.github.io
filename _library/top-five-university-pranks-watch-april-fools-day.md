@@ -18,16 +18,10 @@ venue: The Guardian
 year: '2015'
 ---
 
-## Abstract
-
-Hoisted cars, fake students and remodeled buildings – practical jokes have a long history on university campuses. Here are some of the most notorious
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** The Guardian
-**Year:** 2015
 
 ## Links and Resources
 

@@ -15,6 +15,3 @@ venue: ''
 year: '2023'
 ---
 
-## Publication Details
-
-**Year:** 2023

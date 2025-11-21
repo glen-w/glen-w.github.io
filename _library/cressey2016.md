@@ -20,8 +20,6 @@ year: '2016'
 
 **Authors:** Daniel Cressey
 
-**Year:** 2016
-
 ## Links and Resources
 
 - [Original URL](https://www.nature.com/articles/532018a)

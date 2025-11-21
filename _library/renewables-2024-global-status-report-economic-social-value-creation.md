@@ -20,9 +20,7 @@ year: '2024'
 ## Publication Details
 
 **Authors:** REN21
-
 **Venue:** REN21
-**Year:** 2024
 **Institution:** REN21
 
 ## Links and Resources

@@ -34,22 +34,10 @@ venue: REN21
 year: '2024'
 ---
 
-## Abstract
-
-Despite a notable decline in the prices of fossil fuels and other energy commodities in the first half of 2023, wholesale electricity prices remained high in many countries, negatively affecting energy-consuming sectors.
-
-Inflation and high interest rates continued to hamper investment, particularly in emerging markets that face debt burdens and a higher cost of capital.
-
-Meanwhile, massive subsidies to fossil fuels remain prevalent and have distorted the market, placing renewables at a disadvantage.
-
-Renewables nonetheless continued to prove attractive as an affordable and secure energy source in 2023, with investments rising to a record USD 623 billion and corporate power purchase agreements reaching a record 46 gigawatts (GW)
-
 ## Publication Details
 
 **Authors:** REN21
-
 **Venue:** REN21
-**Year:** 2024
 **Institution:** REN21
 
 ## Links and Resources

@@ -38,12 +38,6 @@ year: '2023'
 ## Publication Details
 
 **Authors:** Kristina M. Gjerde, A. Clark, Clément Chazot, Klaudija Cremers, Harriet Harden-Davies, Daniel Kachelriess, Cymie R. Payne, Mariamalia Rodriguez-Chaves, Aurélie Spadone, Thorsten Thiele, Marjo Vierros, Gabriele Goettsche-Wanli, Glen Wright
-
 **Venue:** IDDRI
-**Year:** 2023
 **Number:** 1
 **Institution:** IDDRI
-
-## Keywords
-
-coordinator, featured, lead author

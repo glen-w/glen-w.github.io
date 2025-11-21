@@ -19,16 +19,10 @@ venue: AEF Info
 year: '2022'
 ---
 
-## Abstract
-
-Après une pause de plus de deux ans et demi due à la pandémie de Covid-19, les négociations sur le futur traité international sur la préservation et l’utilisation...
-
 ## Publication Details
 
 **Authors:** Émilie Legendre
-
 **Venue:** AEF Info
-**Year:** 2022
 **Location:** Paris, France
 
 ## Links and Resources

@@ -18,5 +18,4 @@ year: '2011'
 
 ## Publication Details
 
-**Year:** 2011
 **Location:** Port Vila, Vanuatu

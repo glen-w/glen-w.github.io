@@ -20,6 +20,4 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** ANU School of Law Doctoral Showcase
-**Year:** 2012

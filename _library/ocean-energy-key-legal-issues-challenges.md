@@ -23,9 +23,7 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Glen Wright, Anne Marie O’Hagan, Jiska de Groot
-
 **Venue:** IDDRI
-**Year:** 2015
 **Number:** 4
 **Pages:** 4
 **Institution:** IDDRI

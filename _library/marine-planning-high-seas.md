@@ -21,10 +21,4 @@ year: '2018'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2018
 **Location:** Nausicaá, Boulogne sur Mer, France
-
-## Keywords
-
-workshop, speaker

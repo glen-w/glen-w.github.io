@@ -19,10 +19,6 @@ venue: ''
 year: '2023'
 ---
 
-## Publication Details
-
-**Year:** 2023
-
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean)

@@ -21,9 +21,4 @@ year: '2016'
 
 ## Publication Details
 
-**Year:** 2016
 **Location:** Paris, France
-
-## Keywords
-
-participant, french

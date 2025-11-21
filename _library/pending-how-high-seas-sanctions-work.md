@@ -22,21 +22,11 @@ venue: France 24
 year: '2023'
 ---
 
-## Abstract
-
-A new global treaty on the high seas will enable the creation of sanctuaries deemed vital for the oceans, but many questions remain unanswered. Among them: How can we protect marine areas far from the…
-
 ## Publication Details
 
 **Authors:** AFP
-
 **Venue:** France 24
-**Year:** 2023
 
 ## Links and Resources
 
 - [Original URL](https://www.france24.com/en/live-news/20230619-much-still-pending-on-how-high-seas-sanctions-will-work)
-
-## Keywords
-
-quoted

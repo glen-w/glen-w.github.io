@@ -23,10 +23,4 @@ year: '2019'
 ## Publication Details
 
 **Authors:** STRONG High Seas
-
-**Year:** 2019
 **Location:** New York City, NY, USA
-
-## Keywords
-
-organiser, side event

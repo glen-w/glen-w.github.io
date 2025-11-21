@@ -19,7 +19,5 @@ year: '2021'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** REN21, Renewables 2021 Global Status Report
-**Year:** 2021
 **Publisher:** REN21

@@ -37,18 +37,10 @@ volume: '37'
 year: '2023'
 ---
 
-## Abstract
-
-After more than a decade of discussions, States at the United Nations are nearing agreement on a new international legally binding instrument for the conservation and sustainable use of biodiversity in marine areas beyond national jurisdiction. The instrument would resolve longstanding questions over the use of marine genetic resources, put in place a process for the des-ignation of marine protected areas, strengthen the framework for environ-mental impact assessment, and enhance capacity building and technology transfer. 
-
-At the fifth meeting of the Intergovernmental Conference in August 2022, delegations showed significantly more flexibility and made con-siderable progress towards consensus. Many issues nonetheless remained unresolved and the meeting ultimately could not deliver the clean text needed to negotiate the final trade-offs. This short commentary reviews the progress made, identifies key outstanding issues, and highlights the next steps in the process to finalize the high seas treaty.
-
 ## Publication Details
 
 **Authors:** Glen Wright, Klaudija Cremers, Julien Rochette
-
 **Venue:** Ocean Yearbook
-**Year:** 2023
 **Volume:** 37
 **Number:** 1
 **Pages:** 30--36

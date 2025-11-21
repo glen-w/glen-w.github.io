@@ -24,8 +24,6 @@ year: '2017'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2017
 **Location:** Hong Kong
 **Publisher:** International Oceans Institute
 

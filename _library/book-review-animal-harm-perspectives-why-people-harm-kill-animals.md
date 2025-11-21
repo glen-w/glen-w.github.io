@@ -19,7 +19,5 @@ year: '2013'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Green Criminology Monthly
-**Year:** 2013
 **Number:** 9

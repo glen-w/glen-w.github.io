@@ -22,11 +22,5 @@ year: '2011'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** All-Energy Australia
-**Year:** 2011
 **Location:** Melbourne
-
-## Keywords
-
-reviw

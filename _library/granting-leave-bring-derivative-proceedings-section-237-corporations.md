@@ -22,13 +22,7 @@ venue: Global Corporate Law Bulletin
 year: '2011'
 ---
 
-## Abstract
-
-The Judge considered in detail whether there were serious questions to be tried under section 237(2)(d).The Judge held that claims that the companies in question had made loans to directors, "alienated" share options to directors' companies, provided excessive remuneration, diverted business to another company and engaged in oppressive conduct each satisfied the test in section 237(2)(d).
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Global Corporate Law Bulletin
-**Year:** 2011

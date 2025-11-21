@@ -26,8 +26,6 @@ year: '2022'
 ## Publication Details
 
 **Authors:** Morgane Bouvet, Glen Wright, Daniel Kechelriess, Klaudija Cremers, Julien Rochette
-
 **Venue:** STRONG High Seas
-**Year:** 2022
 **Pages:** 22
 **Institution:** STRONG High Seas

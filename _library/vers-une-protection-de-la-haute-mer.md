@@ -19,19 +19,10 @@ venue: Alternatives Economiques
 year: '2018'
 ---
 
-## Abstract
-
-Un traité international devrait mieux protéger la haute mer, de plus en plus touchée par l’activité humaine. Mais le processus reste encore long.
-
 ## Publication Details
 
 **Venue:** Alternatives Economiques
-**Year:** 2018
 
 ## Links and Resources
 
 - [Original URL](https://www.alternatives-economiques.fr/vers-une-protection-de-haute-mer/00086327)
-
-## Keywords
-
-french

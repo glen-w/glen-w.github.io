@@ -1,7 +1,7 @@
 ---
 layout: page
 title: media
-nav: true
+nav: false
 permalink: /media/
 nav_order: 30
 ---

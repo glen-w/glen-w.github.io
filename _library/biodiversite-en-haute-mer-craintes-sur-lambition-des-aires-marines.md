@@ -19,16 +19,10 @@ venue: AEF Info
 year: '2022'
 ---
 
-## Abstract
-
-Les négociations sur le traité de conservation et d’utilisation durable de la biodiversité en haute mer sont entrées dans une nouvelle phase avec la publication,...
-
 ## Publication Details
 
 **Authors:** Émilie Legendre
-
 **Venue:** AEF Info
-**Year:** 2022
 **Location:** Paris, France
 
 ## Links and Resources

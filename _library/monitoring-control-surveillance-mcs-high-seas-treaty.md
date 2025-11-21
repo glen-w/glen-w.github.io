@@ -22,10 +22,4 @@ year: '2018'
 ## Publication Details
 
 **Authors:** Glen Wright, Isabel Seeger
-
-**Year:** 2018
 **Location:** New York City, NY, USA
-
-## Keywords
-
-side event, speaker

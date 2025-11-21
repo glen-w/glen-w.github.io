@@ -19,16 +19,10 @@ venue: AEF Info
 year: '2019'
 ---
 
-## Abstract
-
-La troisième session de négociations d’un traité sur la préservation et l’utilisation durable de la biodiversité en haute mer s’ouvre ce lundi 19 août...
-
 ## Publication Details
 
 **Authors:** Émilie Legendre
-
 **Venue:** AEF Info
-**Year:** 2019
 **Location:** Paris, France
 
 ## Links and Resources

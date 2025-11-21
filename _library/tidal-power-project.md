@@ -25,12 +25,6 @@ year: '2011'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** New Zealand Law Journal
-**Year:** 2011
 **Number:** September
 **Pages:** 260--261
-
-## Keywords
-
-new zealand, ocean energy, tidal energy

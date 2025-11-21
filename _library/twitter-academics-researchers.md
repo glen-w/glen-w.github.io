@@ -21,12 +21,6 @@ year: '2013'
 
 **Authors:** Glen Wright
 
-**Year:** 2013
-
 ## Links and Resources
 
 - [Original URL](https://prezi.com/9zyvkzuijvdo/twitter-for-academics-researchers/?present=1)
-
-## Keywords
-
-brown bag

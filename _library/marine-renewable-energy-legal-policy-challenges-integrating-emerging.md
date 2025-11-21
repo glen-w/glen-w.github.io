@@ -26,9 +26,7 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** IKEM International Summer Academy on Energy and the Environment
-**Year:** 2012
 **Location:** Berlin
 
 ## Links and Resources

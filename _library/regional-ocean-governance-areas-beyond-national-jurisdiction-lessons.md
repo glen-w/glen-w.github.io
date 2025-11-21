@@ -22,7 +22,5 @@ year: '2019'
 ## Publication Details
 
 **Authors:** Glen Wright, Julien Rochette
-
 **Venue:** STRONG High Seas
-**Year:** 2019
 **Institution:** STRONG High Seas

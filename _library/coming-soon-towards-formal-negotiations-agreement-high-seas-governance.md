@@ -27,16 +27,10 @@ venue: IDDRI
 year: '2017'
 ---
 
-## Abstract
-
-Late in the evening of Friday, 21 July, States meeting at the UN headquarters in New York quietly took a significant step in a longrunning process aiming to close gaps in the international rules covering marine areas beyond national jurisdiction (ABNJ, commonly referred to as the “high seas” or “international waters”). At the conclusion of the fourth and final meeting of the Preparatory Committee (PrepCom) tasked with making recommendations for a possible new international legally binding instrument (ILBI), States recommended that the UN General Assembly (UNGA) take a decision, as soon as possible, on the convening of an intergovernmental conference (IGC) to elaborate the text of a new agreement.
-
 ## Publication Details
 
 **Authors:** Glen Wright, Julien Rochette
-
 **Venue:** IDDRI
-**Year:** 2017
 
 ## Links and Resources
 

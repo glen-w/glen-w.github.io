@@ -18,16 +18,10 @@ venue: The Guardian
 year: '2014'
 ---
 
-## Abstract
-
-From diagnosing Rudolph’s red nose to festive spices that make you happy, Glen Wright picks out some of the best Christmassy research
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** The Guardian
-**Year:** 2014
 
 ## Links and Resources
 

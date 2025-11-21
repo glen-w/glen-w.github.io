@@ -22,8 +22,6 @@ year: '2013'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Environment and Earth Law Journal
-**Year:** 2013
 **Volume:** 3
 **Pages:** 33--57

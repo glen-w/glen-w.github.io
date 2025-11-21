@@ -37,16 +37,10 @@ volume: '122'
 year: '2020'
 ---
 
-## Abstract
-
-The development of a new international legally binding instrument for the conservation and sustainable use of marine biodiversity beyond national jurisdiction (BBNJ agreement) is in the final negotiation phase. Legal recognition of rights of nature is emerging worldwide as a fresh imperative to preserve ecological integrity, safeguard human wellbeing, broaden participation in decision-making, and give a voice to nature – but so far exclusively within national jurisdiction. In this paper, we consider how a Rights of Nature perspective might inform the BBNJ agreement. We examine Rights of Nature laws and identify four characteristics relating to: i) rights; ii) connectivity; iii) reciprocity; and iv) representation and implementation. We argue that a Rights of Nature perspective can reinforce existing ocean governance norms, inspire new measures to enhance the effectiveness and equitability of the BBNJ agreement and enable global ocean stewardship in ABNJ.
-
 ## Publication Details
 
 **Authors:** Harriet Harden-Davies, Fran Humphries, Michelle Maloney, Glen Wright, Kristina Gjerde, Marjo Vierros
-
 **Venue:** Marine Policy
-**Year:** 2020
 **Volume:** 122
 **Pages:** 104059
 

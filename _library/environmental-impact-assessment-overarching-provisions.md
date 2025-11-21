@@ -27,14 +27,8 @@ year: '2016'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2016
 **Location:** New York City, NY, USA
 
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/intervention/high-seas-fisheries-new-international-legally-binding)
-
-## Keywords
-
-organiser, side event

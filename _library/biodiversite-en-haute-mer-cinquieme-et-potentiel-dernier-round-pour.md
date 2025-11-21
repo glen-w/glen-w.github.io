@@ -19,16 +19,10 @@ venue: AEF Info
 year: '2022'
 ---
 
-## Abstract
-
-La 5e et potentielle dernière session de négociations sur le futur traité international sur la conservation et l’utilisation durable de la biodiversité...
-
 ## Publication Details
 
 **Authors:** Émilie Legendre
-
 **Venue:** AEF Info
-**Year:** 2022
 **Location:** Paris, France
 
 ## Links and Resources

@@ -23,16 +23,10 @@ venue: IDDRI
 year: '2020'
 ---
 
-## Abstract
-
-The first recorded medicinal use of marine species dates from almost 3000 BCE in China. In 400 BCE, Hippocrates noted the antibiotic properties of sponges and recommended they be applied to soldiers' wounds. Today, scientists and companies are racing to discover the medicines of the future, while States are negotiating a cooperative framework.
-
 ## Publication Details
 
 **Authors:** Klaudija Cremers, Glen Wright
-
 **Venue:** IDDRI
-**Year:** 2020
 
 ## Links and Resources
 

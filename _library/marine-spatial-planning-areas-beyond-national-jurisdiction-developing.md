@@ -23,14 +23,8 @@ year: '2014'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2014
 **Location:** Paris, France
 
 ## Links and Resources
 
 - [Original URL](https://prezi.com/428z2rbqi05u/marine-spatial-planning-in-areas-beyond-national-jurisdiction/?present=1)
-
-## Keywords
-
-brown bag

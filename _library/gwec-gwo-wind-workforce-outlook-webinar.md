@@ -21,8 +21,6 @@ year: '2023'
 
 **Authors:** Glen Wright
 
-**Year:** 2023
-
 ## Links and Resources
 
 - [Original URL](https://www.globalwindsafety.org/event/webinar-gwwo-report-23-27)

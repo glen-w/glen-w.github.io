@@ -51,12 +51,19 @@ class NotesProcessor:
         """
         Add BibTeX type fallback to entries that don't have custom types in notes.
         
+        Only adds fallback if [type] section doesn't already exist in annote.
+        
         Args:
             entry: The BibTeX entry dictionary
             
         Returns:
             Updated entry dictionary with type fallback
         """
+        # Check if [type] already exists in annote - if so, don't add fallback
+        annote = entry.get('annote', '')
+        if annote and '[type]' in annote:
+            return entry
+        
         bibtex_type = entry.get('ENTRYTYPE', '').lower()
         if bibtex_type:
             # Map BibTeX types to proper multiword display types

@@ -28,16 +28,10 @@ venue: STRONG High Seas
 year: '2021'
 ---
 
-## Abstract
-
-This report explores the challenges of addressing emerging activities in areas beyond national jurisdiction (ABNJ) through a case study – a hypothetical proposal to develop commercial fisheries in the mesopelagic zone. The case study considers how such a proposal might be addressed by existing global and regional bodies and processes and the potential future role of the BBNJ Agreement.
-
 ## Publication Details
 
 **Authors:** Kristina M. Gjerde, Glen Wright, Carole Durussel
-
 **Venue:** STRONG High Seas
-**Year:** 2021
 **Pages:** 56
 **Institution:** STRONG High Seas
 

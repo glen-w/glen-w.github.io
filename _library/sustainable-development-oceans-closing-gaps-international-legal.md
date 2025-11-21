@@ -38,21 +38,11 @@ venue: 'Legal Aspects of Sustainable Development: Horizontal and Sectorial Polic
 year: '2016'
 ---
 
-## Abstract
-
-The world’s oceans are critical providers of ecosystem services and they are under increasing pressure from expanding and intensifying human activities. A range of international instruments and institutions aim to regulate maritime activities, though some legal gaps in the international framework remain. In particular, areas beyond national jurisdiction (ABNJ) lack an overarching regulatory framework, with no provisions for marine protected areas, environmental impact assessment, or access and benefit sharing in relation to marine genetic resources. There are also gaps and weakness in the international framework for the exploitation of offshore oil and gas resources. In this chapter, we highlight these gaps, outline relevant ongoing processes to fill them, and propose ways forward.
-
 ## Publication Details
 
 **Authors:** Glen Wright, Julien Rochette, Thomas Greiber
-
 **Venue:** Legal Aspects of Sustainable Development: Horizontal and Sectorial Policy Issues
-**Year:** 2016
 **Publisher:** Springer
-
-## Keywords
-
-marine protected areas, environmental impact assessment, marine genetic resources, areas beyond national jurisdiction, access and benefit sharing, offshore oil and gas
 
 ## Notes
 

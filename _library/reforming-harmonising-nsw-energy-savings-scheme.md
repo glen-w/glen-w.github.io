@@ -19,7 +19,5 @@ year: '2014'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Total Environment Centre
-**Year:** 2014
 **Institution:** Total Environment Centre

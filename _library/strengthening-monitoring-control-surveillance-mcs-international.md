@@ -25,10 +25,4 @@ year: '2019'
 ## Publication Details
 
 **Authors:** Glen Wright, Klaudija Cremers
-
-**Year:** 2019
 **Location:** Guayaquil, Ecuador
-
-## Keywords
-
-organiser, facilitator, workshop

@@ -18,16 +18,10 @@ venue: The Guardian
 year: '2014'
 ---
 
-## Abstract
-
-Are you a PhD student surviving on left-over crisps? Studies show that sound effects alone can help freshen up old food
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** The Guardian
-**Year:** 2014
 
 ## Links and Resources
 

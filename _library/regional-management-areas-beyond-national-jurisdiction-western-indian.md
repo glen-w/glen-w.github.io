@@ -29,16 +29,10 @@ year: '2017'
 ## Publication Details
 
 **Authors:** Glen Wright, Julien Rochette
-
 **Venue:** The International Journal of Marine and Coastal Law
-**Year:** 2017
 **Volume:** 4
 **Pages:** 765--796
 
 ## Links and Resources
 
 - [DOI](https://doi.org/https://doi.org/10.1163/15718085-13204020)
-
-## Keywords
-
-abnj, bbnj, indian ocean, regional ocean governance

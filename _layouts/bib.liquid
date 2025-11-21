@@ -241,12 +241,12 @@
     {% if item_type != '' or has_roles %}
       <div class="item-type-and-roles">
         {% if item_type != '' %}
-          <a href="#{{ item_type | downcase }}" class="badge badge-light" style="text-decoration: none; color: inherit;">{{ item_type }}</a>
+          <a href="#" onclick="filterByTag('{{ item_type }}'); return false;" class="badge badge-light" style="text-decoration: none; color: inherit; cursor: pointer;">{{ item_type }}</a>
         {% endif %}
         {% if has_roles %}
           {% for role in roles %}
             {% assign clean_role = role | strip %}
-            {% if clean_role != "" %}<span class="tag">{{ clean_role }}</span>{% endif %}
+            {% if clean_role != "" %}<a href="#" onclick="filterByTag('{{ clean_role }}'); return false;" class="tag" style="text-decoration: none; color: inherit; cursor: pointer;">{{ clean_role }}</a>{% endif %}
           {% endfor %}
         {% endif %}
       </div>

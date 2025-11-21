@@ -20,9 +20,7 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** EcoGeneration
-**Year:** 2012
 
 ## Links and Resources
 

@@ -21,7 +21,5 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Thomas Greiber, Glen Wright
-
-**Year:** 2015
 **Location:** Mahe, Seychelles
 **Publisher:** Partnership for Regional Ocean Governance (UNEP, IASS, IDDRI)

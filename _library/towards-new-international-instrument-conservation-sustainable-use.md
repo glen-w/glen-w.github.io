@@ -22,7 +22,5 @@ year: '2014'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2014
 **Location:** Malta
 **Publisher:** International Oceans Institute

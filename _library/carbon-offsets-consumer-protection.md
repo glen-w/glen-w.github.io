@@ -22,12 +22,6 @@ year: '2010'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Impact! A National Journal of Environmental Law
-**Year:** 2010
 **Volume:** December
 **Number:** 90
-
-## Keywords
-
-carbon offsets, vcm

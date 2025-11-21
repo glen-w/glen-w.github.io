@@ -19,16 +19,10 @@ venue: AEF Info
 year: '2023'
 ---
 
-## Abstract
-
-Après cinq sessions de négociations commencées en 2018, les États ont enfin acté le 4 mars 2023 à New York le futur traité international juridiquement...
-
 ## Publication Details
 
 **Authors:** Émilie Legendre
-
 **Venue:** AEF Info
-**Year:** 2023
 
 ## Links and Resources
 

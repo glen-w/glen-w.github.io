@@ -229,6 +229,7 @@ class PaperProcessor:
         agenda_paths = self.bibtex_processor.extract_agenda_pdfs(fields['file'])
         slides_paths = self.bibtex_processor.extract_slides_pdfs(fields['file'])
         image_paths = self.bibtex_processor.extract_image_files(fields['file'])
+        audio_paths = self.bibtex_processor.extract_audio_files(fields['file'])
         
         # Remove agenda and slides PDFs from regular PDF list to avoid double processing
         regular_pdf_paths = [p for p in all_pdf_paths if p not in agenda_paths and p not in slides_paths]
@@ -252,16 +253,23 @@ class PaperProcessor:
         if image_success and image_paths and ('photos' in fields or 'figures' in fields):
             fields['file'] = self._clean_file_field_from_images(fields['file'])
         
+        # Process audio files
+        audio_success = self._process_audio_files(citation_key, fields, audio_paths, regenerate, force, verbose)
+        
+        # Clean file field to remove audio entries if audio files were processed
+        if audio_success and audio_paths:
+            fields['file'] = self._clean_file_field_from_audio(fields['file'])
+        
         # Process thumbnails with priority logic
         thumbnail_success = self._process_thumbnails_with_priority(citation_key, fields, 
                                                                   regenerate, force, thumbnail_size, verbose)
         
-        # Clean file field to remove all processed files (PDFs, images, thumbnails)
+        # Clean file field to remove all processed files (PDFs, images, thumbnails, audio)
         # Only keep the file field if there are unprocessed files
-        if pdf_success or agenda_success or slides_success or image_success or thumbnail_success:
+        if pdf_success or agenda_success or slides_success or image_success or audio_success or thumbnail_success:
             fields['file'] = self._clean_file_field_after_processing(fields['file'], fields)
         
-        return pdf_success and agenda_success and slides_success and image_success and thumbnail_success
+        return pdf_success and agenda_success and slides_success and image_success and audio_success and thumbnail_success
     
     def _clean_file_field_after_processing(self, file_field: str, fields: Dict) -> str:
         """Replace processed files in the file field with their new descriptive filenames."""
@@ -288,6 +296,9 @@ class PaperProcessor:
         if 'preview' in fields and fields['preview']:
             processed_thumbnails.append(fields['preview'])
         
+        # Audio files are stored in annote field, not file field
+        # So we don't need to add them back to file field
+        
         # If we have processed files, replace the entire file field with processed versions
         if processed_pdfs or processed_images or processed_thumbnails:
             updated_parts = []
@@ -309,10 +320,53 @@ class PaperProcessor:
             for thumbnail in processed_thumbnails:
                 updated_parts.append(f"thumbnail:/assets/img/publication_preview/{thumbnail}:image/jpeg")
             
+            # Note: Audio files are stored in annote field, not file field
+            # They are removed from file field during processing
+            
             return '; '.join(updated_parts)
         
         # If no processed files, return original field
         return file_field
+    
+    def _clean_file_field_from_audio(self, file_field: str) -> str:
+        """Remove audio entries from the file field, keeping only other files."""
+        if not file_field:
+            return file_field
+        
+        # Extract audio files to remove
+        audio_paths = self.bibtex_processor.extract_audio_files(file_field)
+        if not audio_paths:
+            return file_field
+        
+        # Split by semicolon and filter out audio entries
+        file_parts = file_field.split(';')
+        non_audio_parts = []
+        
+        for part in file_parts:
+            part = part.strip()
+            if not part:
+                continue
+            
+            # Check if this part is an audio file
+            is_audio = False
+            if ':' in part:
+                parts = part.split(':')
+                if len(parts) >= 2:
+                    mime_type = parts[-1].strip().lower()
+                    if any(audio_type in mime_type for audio_type in ['audio/mpeg', 'audio/mp3', 'audio/wav', 'audio/ogg', 'audio/mp4', 'audio/aac']):
+                        is_audio = True
+            else:
+                if any(part.lower().endswith(ext) for ext in ['.mp3', '.wav', '.ogg', '.m4a', '.aac']):
+                    is_audio = True
+            
+            if not is_audio:
+                non_audio_parts.append(part)
+        
+        # Reconstruct the file field
+        if non_audio_parts:
+            return '; '.join(non_audio_parts)
+        else:
+            return ''
     
     def _clean_file_field_from_images(self, file_field: str) -> str:
         """Remove image entries from the file field, keeping only PDFs, thumbnails, and other non-image files."""
@@ -491,6 +545,92 @@ class PaperProcessor:
                 fields[field_name] = ', '.join(files)
         
         return True
+    
+    def _process_audio_files(self, citation_key: str, fields: Dict, audio_paths: List[str], 
+                           regenerate: bool, force: bool, verbose: bool) -> bool:
+        """Process audio files for an entry."""
+        if not audio_paths:
+            return True
+        
+        # Ensure audio directory exists
+        os.makedirs(self.config.AUDIO_DIR, exist_ok=True)
+        
+        processed_audio_paths = []
+        
+        for audio_path in audio_paths:
+            if not os.path.exists(audio_path):
+                if verbose:
+                    print(f"  ⚠️  Audio file not found: {audio_path}")
+                continue
+            
+            # Get the original filename
+            original_filename = os.path.basename(audio_path)
+            # Keep original filename (or could use naming convention if needed)
+            audio_filename = original_filename
+            
+            # Copy audio file to assets/audio/
+            dest_path = os.path.join(self.config.AUDIO_DIR, audio_filename)
+            
+            if not os.path.exists(dest_path) or force:
+                if not self.file_manager.copy_file(audio_path, dest_path, force):
+                    if verbose:
+                        print(f"  ❌ Failed to copy audio file: {audio_path}")
+                    continue
+            
+            # Store relative path for annote field (relative to site root)
+            relative_path = f"assets/audio/{audio_filename}"
+            processed_audio_paths.append(relative_path)
+            
+            if verbose:
+                print(f"  ✅ Processed audio: {audio_filename}")
+        
+        # Add audio paths to annote field in [audio] format
+        if processed_audio_paths:
+            self._add_audio_to_annote(fields, processed_audio_paths)
+        
+        return True
+    
+    def _add_audio_to_annote(self, fields: Dict, audio_paths: List[str]) -> None:
+        """Add audio file paths to annote field in [audio] format."""
+        # Create the audio section content
+        audio_section = '\n'.join(audio_paths)
+        
+        # Check if annote field exists
+        if 'annote' in fields and fields['annote']:
+            annote_content = fields['annote'].strip()
+            
+            # Check if [audio] section already exists
+            if '[audio]' in annote_content:
+                # Replace existing [audio] section
+                # Split by [audio] tag, keep everything before it, add new audio section
+                parts = annote_content.split('[audio]')
+                before_audio = parts[0].strip()
+                # Remove everything after [audio] until next [tag] or end
+                if len(parts) > 1:
+                    after_audio = parts[1]
+                    # Find next [tag] or end of string
+                    next_tag_match = re.search(r'\[', after_audio)
+                    if next_tag_match:
+                        after_audio = after_audio[next_tag_match.start():]
+                    else:
+                        after_audio = ''
+                else:
+                    after_audio = ''
+                
+                # Reconstruct annote with new audio section
+                if before_audio:
+                    fields['annote'] = f"{before_audio}\n\n[audio]\n{audio_section}"
+                else:
+                    fields['annote'] = f"[audio]\n{audio_section}"
+                
+                if after_audio:
+                    fields['annote'] += f"\n\n{after_audio}"
+            else:
+                # Append [audio] section to existing annote
+                fields['annote'] = f"{annote_content}\n\n[audio]\n{audio_section}"
+        else:
+            # Create new annote field with [audio] section
+            fields['annote'] = f"[audio]\n{audio_section}"
     
     def _process_thumbnails_with_priority(self, citation_key: str, fields: Dict, 
                                         regenerate: bool, force: bool, thumbnail_size: str, verbose: bool) -> bool:

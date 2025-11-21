@@ -21,7 +21,5 @@ year: '2022'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** STRONG High Seas
-**Year:** 2022
 **Institution:** STRONG High Seas

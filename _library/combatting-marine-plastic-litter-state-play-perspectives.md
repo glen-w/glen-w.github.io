@@ -23,8 +23,6 @@ year: '2020'
 ## Publication Details
 
 **Authors:** Julien Rochette, Romain Schumm, Glen Wright, Klaudija Cremers
-
 **Venue:** IDDRI
-**Year:** 2020
 **Number:** 3
 **Institution:** IDDRI

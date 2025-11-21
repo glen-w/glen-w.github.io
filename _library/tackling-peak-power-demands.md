@@ -19,7 +19,5 @@ year: '2013'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Waste Management and Energy Magazine
-**Year:** 2013
 **Pages:** 13

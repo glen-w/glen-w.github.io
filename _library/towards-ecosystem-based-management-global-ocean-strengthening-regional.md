@@ -27,9 +27,7 @@ year: '2019'
 ## Publication Details
 
 **Authors:** Kristina Gjerde, Glen Wright, Ben Boteler, Carole Durussel
-
 **Venue:** STRONG High Seas
-**Year:** 2019
 **Pages:** 28
 **Institution:** STRONG High Seas
 

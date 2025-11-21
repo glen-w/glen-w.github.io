@@ -20,8 +20,6 @@ year: '2018'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2018
 **Publisher:** Penguin Random House (Unbound)
 
 ## Links and Resources

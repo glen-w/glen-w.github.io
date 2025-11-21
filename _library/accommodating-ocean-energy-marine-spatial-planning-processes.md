@@ -19,6 +19,4 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2015
 **Location:** Nantes, France

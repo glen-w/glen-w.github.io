@@ -25,9 +25,4 @@ year: '2018'
 
 ## Publication Details
 
-**Year:** 2018
 **Location:** Cali, Colombia
-
-## Keywords
-
-presenter, organiser, workshop

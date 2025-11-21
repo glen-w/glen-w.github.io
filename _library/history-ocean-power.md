@@ -21,15 +21,9 @@ year: '2020'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** REN21, Renewables 2020 Global Status Report
-**Year:** 2020
 **Publisher:** REN21
 
 ## Links and Resources
 
 - [Original URL](https://www.ren21.net/reports/global-status-report/)
-
-## Keywords
-
-featured

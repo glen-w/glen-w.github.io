@@ -18,6 +18,4 @@ year: '2016'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Times Higher Education
-**Year:** 2016

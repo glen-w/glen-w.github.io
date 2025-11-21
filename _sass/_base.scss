@@ -869,7 +869,7 @@ footer.sticky-bottom {
           font-size: 0.75rem;
           text-transform: capitalize;
           vertical-align: middle;
-          cursor: default;
+          cursor: pointer;
           margin-right: 0 !important;
           margin-bottom: 0 !important;
           text-decoration: none;
@@ -889,6 +889,11 @@ footer.sticky-bottom {
           border: 1px solid #dee2e6 !important;
           border-radius: 0.25rem;
           padding: 0.35rem 0.5rem !important; // Slightly taller than tags
+          
+          &:hover {
+            background-color: #e9ecef !important;
+            border-color: var(--global-theme-color) !important;
+          }
         }
         
         // Override Bootstrap badge-light specifically with higher specificity
@@ -908,7 +913,8 @@ footer.sticky-bottom {
           border-radius: 0.25rem;
           
           &:hover {
-            background-color: #dee2e6 !important;
+            background-color: #e9ecef !important;
+            border-color: var(--global-theme-color) !important;
             color: #495057 !important;
           }
         }

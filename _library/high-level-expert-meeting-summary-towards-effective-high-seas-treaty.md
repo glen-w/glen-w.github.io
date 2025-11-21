@@ -25,12 +25,6 @@ year: '2019'
 ## Publication Details
 
 **Authors:** STRONG High Seas
-
 **Venue:** STRONG High Seas
-**Year:** 2019
 **Location:** New York, USA
 **Institution:** STRONG High Seas
-
-## Keywords
-
-organiser, facilitator, workshop

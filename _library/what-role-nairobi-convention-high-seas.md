@@ -24,11 +24,5 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Julien Rochette, Glen Wright, Aurélie Spadone
-
-**Year:** 2015
 **Location:** Mahé, Seychelles
 **Publisher:** IDDRI, FFEM, IUCN
-
-## Keywords
-
-organiser, side event

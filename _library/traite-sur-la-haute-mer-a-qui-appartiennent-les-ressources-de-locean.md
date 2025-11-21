@@ -24,24 +24,14 @@ venue: La Croix
 year: '2023'
 ---
 
-## Abstract
-
-Les États membres de l’ONU reprennent les négociations d’un traité sur la haute mer ce lundi 20 février pour réglementer et mieux protéger les eaux internationales. L’un des principaux points de blocage est le partage des « ressources génétiques marines », tous ces composants du vivant marin aux propriétés prometteuses dans le domaine de la santé.
-
 ## Publication Details
 
 **Authors:** Camille Richir
-
 **Venue:** La Croix
-**Year:** 2023
 
 ## Links and Resources
 
 - [Original URL](https://www.la-croix.com/Economie/Traite-haute-mer-appartiennent-ressources-locean-2023-02-20-1201255960)
-
-## Keywords
-
-french
 
 ## Notes
 

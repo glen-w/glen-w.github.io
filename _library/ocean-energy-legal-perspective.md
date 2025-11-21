@@ -26,13 +26,7 @@ year: '2013'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Journal of Ocean Technology
-**Year:** 2013
 **Volume:** 8
 **Number:** 1
 **Pages:** 26--32
-
-## Keywords
-
-wave energy, ocean energy, tidal energy

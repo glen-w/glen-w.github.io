@@ -22,9 +22,4 @@ year: '2018'
 
 ## Publication Details
 
-**Year:** 2018
 **Location:** Paris, France
-
-## Keywords
-
-organiser, workshop, moderator

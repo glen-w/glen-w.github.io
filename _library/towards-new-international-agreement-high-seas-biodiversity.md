@@ -19,6 +19,4 @@ year: '2014'
 ## Publication Details
 
 **Authors:** Glen Wright
-
-**Year:** 2014
 **Location:** Sydney, Australia

@@ -25,7 +25,5 @@ year: '2021'
 ## Publication Details
 
 **Authors:** Barbara Neumann, Sebastian Unger, Laura Weiand, Julien Rochette, Glen Wright
-
 **Venue:** German Environment Agency
-**Year:** 2021
 **Institution:** German Environment Agency

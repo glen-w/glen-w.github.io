@@ -21,7 +21,5 @@ year: '2013'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Total Environment Centre
-**Year:** 2013
 **Institution:** Total Environment Centre

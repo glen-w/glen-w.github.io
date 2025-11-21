@@ -22,8 +22,6 @@ year: '2013'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Australian Animal Protection Law Journal
-**Year:** 2013
 **Volume:** 9
 **Pages:** 5--29

@@ -18,16 +18,10 @@ venue: The Guardian
 year: '2014'
 ---
 
-## Abstract
-
-Palm your teaching off on gullible colleagues and get yourself a TV show – Glen Wright shares his tips for success in the Research Excellence Framework
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** The Guardian
-**Year:** 2014
 
 ## Links and Resources
 

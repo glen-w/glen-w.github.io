@@ -17,5 +17,4 @@ year: '2022'
 
 ## Publication Details
 
-**Year:** 2022
 **Publisher:** STRONG High Seas, International MCS Network, IUCN

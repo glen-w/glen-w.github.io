@@ -23,6 +23,4 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Mark Byrne, Glen Wright
-
-**Year:** 2012
 **Publisher:** Total Environment Centre

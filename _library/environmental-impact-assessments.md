@@ -20,10 +20,4 @@ year: '2023'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** High seas treaty: preliminary analysis and implementation challenges
-**Year:** 2023
-
-## Keywords
-
-organiser, speaker

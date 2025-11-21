@@ -22,9 +22,7 @@ year: '2011'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Crux Australis
-**Year:** 2011
 **Volume:** 1901
 **Number:** January
 **Pages:** 6--11

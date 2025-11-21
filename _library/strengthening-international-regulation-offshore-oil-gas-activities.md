@@ -19,6 +19,4 @@ year: '2015'
 ## Publication Details
 
 **Authors:** Julien Rochette, Glen Wright
-
 **Venue:** Brief for GSDR
-**Year:** 2015

@@ -29,19 +29,13 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** Energy Policy
-**Year:** 2012
 **Number:** 44
 **Pages:** 79--91
 
 ## Links and Resources
 
 - [Original URL](http://linkinghub.elsevier.com/retrieve/pii/S0301421512000195)
-
-## Keywords
-
-regulation, renewable energy, electricity transmission and distribution, elictricity, energy policy
 
 ## Notes
 

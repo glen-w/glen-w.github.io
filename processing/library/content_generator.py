@@ -163,17 +163,22 @@ class ContentGenerator:
         """Generate the main content for the library page."""
         content_parts = []
         
-        # Abstract section
+        # Abstract section - only show if different from description
         abstract = self.bib_parser.get_abstract(entry)
+        description = self.bib_parser.get_description(entry)
         if abstract:
-            content_parts.append("## Abstract\n")
-            content_parts.append(abstract)
-            content_parts.append("")
+            # Only show abstract if it's meaningfully different from description
+            abstract_clean = abstract.strip()[:200]  # First 200 chars for comparison
+            description_clean = (description or '').strip()[:200]
+            if abstract_clean != description_clean and len(abstract.strip()) > 50:
+                content_parts.append("## Abstract\n")
+                content_parts.append(abstract)
+                content_parts.append("")
         
-        # Publication details
-        content_parts.append("## Publication Details\n")
+        # Publication details - only show if there's additional info beyond what's in header
+        pub_details = []
         
-        # Authors
+        # Authors (only include if not already shown prominently in header)
         authors = self.bib_parser.format_authors(entry)
         if authors:
             author_names = []
@@ -183,69 +188,73 @@ class ContentGenerator:
                 else:
                     author_names.append(author['full'])
             
-            content_parts.append(f"**Authors:** {', '.join(author_names)}")
-            content_parts.append("")
+            pub_details.append(f"**Authors:** {', '.join(author_names)}")
         
         # Venue and publication info
         venue = self.bib_parser.format_venue(entry)
         if venue:
-            content_parts.append(f"**Venue:** {venue}")
+            pub_details.append(f"**Venue:** {venue}")
         
-        # Year
-        year = self.bib_parser.extract_year(entry)
-        content_parts.append(f"**Year:** {year}")
+        # Don't include Year and Location in Publication Details if they're already in header
+        # (They're shown in the page front matter)
         
-        # Location
-        if entry.get('address'):
-            content_parts.append(f"**Location:** {entry['address']}")
+        # Location (only if not already in header via address field)
+        if entry.get('address') and not entry.get('location'):
+            pub_details.append(f"**Location:** {entry['address']}")
         
         # Additional fields
         if entry.get('volume'):
-            content_parts.append(f"**Volume:** {entry['volume']}")
+            pub_details.append(f"**Volume:** {entry['volume']}")
         if entry.get('number'):
-            content_parts.append(f"**Number:** {entry['number']}")
+            pub_details.append(f"**Number:** {entry['number']}")
         if entry.get('pages'):
-            content_parts.append(f"**Pages:** {entry['pages']}")
+            pub_details.append(f"**Pages:** {entry['pages']}")
         if entry.get('institution'):
-            content_parts.append(f"**Institution:** {entry['institution']}")
+            pub_details.append(f"**Institution:** {entry['institution']}")
         if entry.get('publisher'):
-            content_parts.append(f"**Publisher:** {entry['publisher']}")
+            pub_details.append(f"**Publisher:** {entry['publisher']}")
         
-        content_parts.append("")
+        # Only add Publication Details section if there's content
+        if pub_details:
+            content_parts.append("## Publication Details\n")
+            content_parts.append("\n".join(pub_details))
+            content_parts.append("")
         
-        # Links and resources
+        # Links and resources - only show if there are actual links
         links = self.bib_parser.extract_links(entry)
+        link_items = []
+        
         if links:
-            content_parts.append("## Links and Resources\n")
-            
             if links.get('url'):
-                content_parts.append(f"- [Original URL]({links['url']})")
+                link_items.append(f"- [Original URL]({links['url']})")
             if links.get('doi'):
-                content_parts.append(f"- [DOI]({links['doi']})")
+                link_items.append(f"- [DOI]({links['doi']})")
             if links.get('arxiv'):
-                content_parts.append(f"- [arXiv]({links['arxiv']})")
+                link_items.append(f"- [arXiv]({links['arxiv']})")
             if links.get('pdf'):
-                content_parts.append(f"- [PDF]({links['pdf']})")
+                link_items.append(f"- [PDF]({links['pdf']})")
             if links.get('video'):
-                content_parts.append(f"- [Video]({links['video']})")
+                link_items.append(f"- [Video]({links['video']})")
             if links.get('slides'):
-                content_parts.append(f"- [Slides]({links['slides']})")
+                link_items.append(f"- [Slides]({links['slides']})")
             if links.get('poster'):
-                content_parts.append(f"- [Poster]({links['poster']})")
+                link_items.append(f"- [Poster]({links['poster']})")
             
-            # Additional links
+            # Additional links - exclude image files
             for key, url in links.items():
-                if key not in ['url', 'doi', 'arxiv', 'pdf', 'video', 'slides', 'poster']:
-                    content_parts.append(f"- [Additional Link]({url})")
-            
+                if key not in ['url', 'doi', 'arxiv', 'pdf', 'video', 'slides', 'poster', 'preview']:
+                    # Skip image files
+                    if not url.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg')):
+                        link_items.append(f"- [Additional Link]({url})")
+        
+        # Only add Links and Resources section if there are actual links
+        if link_items:
+            content_parts.append("## Links and Resources\n")
+            content_parts.append("\n".join(link_items))
             content_parts.append("")
         
-        # Keywords
-        keywords = self.bib_parser.extract_keywords(entry)
-        if keywords:
-            content_parts.append("## Keywords\n")
-            content_parts.append(", ".join(keywords))
-            content_parts.append("")
+        # Keywords - don't show (tags are already in header)
+        # Removed to avoid redundancy
         
         # Notes and additional information
         if entry.get('note'):

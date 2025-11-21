@@ -19,16 +19,10 @@ venue: The Guardian
 year: '2015'
 ---
 
-## Abstract
-
-Love is no simple matter. Fortunately, there’s plenty of academic research to help you find – and satisfy – your soulmate
-
 ## Publication Details
 
 **Authors:** Glen Wright
-
 **Venue:** The Guardian
-**Year:** 2015
 
 ## Links and Resources
 

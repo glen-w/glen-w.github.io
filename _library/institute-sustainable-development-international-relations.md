@@ -25,9 +25,7 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Elisabeth Druel, Raphaël Billé, Sébastien Treyer
-
 **Venue:** The International Journal of Marine and Coastal Law
-**Year:** 2012
 **Volume:** 27
 **Number:** 1
 **Pages:** 179--185

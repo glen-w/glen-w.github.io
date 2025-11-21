@@ -24,9 +24,4 @@ year: '2010'
 
 ## Publication Details
 
-**Year:** 2010
 **Location:** Taipei, Taiwan
-
-## Keywords
-
-delegate
