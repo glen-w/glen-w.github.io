@@ -1486,6 +1486,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/ambient_findability/";
+            },},{id: "creative-ancient-landscape",
+          title: 'ancient landscape',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/ancient-landscape/";
+            },},{id: "creative-are-we-alone",
+          title: 'are we alone',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/are-we-alone/";
+            },},{id: "creative-around-the-corner",
+          title: 'around the corner',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/around-the-corner/";
+            },},{id: "creative-attempting-to-survive",
+          title: 'attempting to survive',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/attempting-to-survive/";
             },},{id: "creative-bad-idea",
           title: 'bad idea',
           description: "",
@@ -1501,6 +1521,16 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/belles-parentheses/";
+            },},{id: "creative-canal-mania",
+          title: 'canal mania',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/canal-mania/";
+            },},{id: "creative-cannabis",
+          title: 'cannabis',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/cannabis/";
             },},{id: "creative-climate-apocalypse-for-kids",
           title: 'climate apocalypse for kids',
           description: "",
@@ -1516,6 +1546,11 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/contre-couru/";
+            },},{id: "creative-dead-people-don-39-t-move",
+          title: 'dead people don&amp;#39;t move',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/dead-people-dont-move/";
             },},{id: "creative-death-is-inevitable",
           title: 'death is inevitable',
           description: "",
@@ -1536,16 +1571,31 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/door/";
+            },},{id: "creative-dress-informal",
+          title: 'dress informal',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/dress-informal/";
             },},{id: "creative-drugstore",
           title: 'drugstore',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/drugstore/";
+            },},{id: "creative-end",
+          title: 'end',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/end/";
             },},{id: "creative-escape",
           title: 'escape',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/escape/";
+            },},{id: "creative-extends-absurdly",
+          title: 'extends absurdly',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/extends-absurdly/";
             },},{id: "creative-feelings",
           title: 'feelings',
           description: "",
@@ -1591,6 +1641,11 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/four-seasons-in-one-day/";
+            },},{id: "creative-further-radicalize",
+          title: 'further radicalize',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/further-radicalize/";
             },},{id: "creative-gas-station",
           title: 'gas station',
           description: "",
@@ -1606,6 +1661,11 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/getting-shit-done/";
+            },},{id: "creative-ghost-station",
+          title: 'ghost station',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/ghost-station/";
             },},{id: "creative-good-news",
           title: 'good news',
           description: "",
@@ -1661,16 +1721,36 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/individuals-suffer/";
+            },},{id: "creative-industrial-production",
+          title: 'industrial production',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/industrial-production/";
+            },},{id: "creative-intense-spaces",
+          title: 'intense spaces',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/intense-spaces/";
             },},{id: "creative-invite",
           title: 'invite',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/invite/";
+            },},{id: "creative-juvenile-turtles",
+          title: 'juvenile turtles',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/juvenile-turtles/";
             },},{id: "creative-kids",
           title: 'kids',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/kids/";
+            },},{id: "creative-leather-shoes",
+          title: 'leather shoes',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/leather-shoes/";
             },},{id: "creative-loop",
           title: 'loop',
           description: "",
@@ -1681,6 +1761,11 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/lost-keys/";
+            },},{id: "creative-mimetic-animals",
+          title: 'mimetic animals',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/mimetic-animals/";
             },},{id: "creative-money",
           title: 'money',
           description: "",
@@ -1731,6 +1816,16 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/pool/";
+            },},{id: "creative-pop-art",
+          title: 'pop art',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/pop-art/";
+            },},{id: "creative-pretty-airplane",
+          title: 'pretty airplane',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/pretty-airplane/";
             },},{id: "creative-purposes-are-bullshit",
           title: 'purposes are bullshit',
           description: "",
@@ -1746,11 +1841,21 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/return/";
+            },},{id: "creative-returned-to-earth",
+          title: 'returned to earth',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/returned-to-earth/";
             },},{id: "creative-schrodingers-bullshitter",
           title: 'schrodingers bullshitter',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/schrodingers-bullshitter/";
+            },},{id: "creative-seaside",
+          title: 'seaside',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/seaside/";
             },},{id: "creative-seduits",
           title: 'seduits',
           description: "",
@@ -1791,6 +1896,11 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/tanks/";
+            },},{id: "creative-tasting-board",
+          title: 'tasting board',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/tasting-board/";
             },},{id: "creative-the-edge-of-the-desk",
           title: 'the edge of the desk',
           description: "",
@@ -1811,11 +1921,36 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/the-void/";
+            },},{id: "creative-therefore-i-am",
+          title: 'therefore i am',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/therefore-i-am/";
             },},{id: "creative-thoughts",
           title: 'thoughts',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/thoughts/";
+            },},{id: "creative-to-go-out",
+          title: 'to go out',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/to-go-out/";
+            },},{id: "creative-to-live",
+          title: 'to live',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/to-live/";
+            },},{id: "creative-to-swim",
+          title: 'to swim',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/to-swim/";
+            },},{id: "creative-to-worry",
+          title: 'to worry',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/to-worry/";
             },},{id: "creative-tour-du-table",
           title: 'tour du table',
           description: "",
@@ -1831,6 +1966,11 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/treat-yourself/";
+            },},{id: "creative-we-shall-not-cease",
+          title: 'we shall not cease',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/we-shall-not-cease/";
             },},{id: "creative-what-end",
           title: 'what end',
           description: "",
@@ -1846,11 +1986,26 @@ ninja.data = [{
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/what-is-the-point/";
+            },},{id: "creative-where-are-we",
+          title: 'where are we',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/where-are-we/";
             },},{id: "creative-white-amp-black",
           title: 'white &amp;amp; black',
           description: "",
           section: "Creative",handler: () => {
               window.location.href = "/creative/white-black/";
+            },},{id: "creative-who-are-we",
+          title: 'who are we',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/who-are-we/";
+            },},{id: "creative-why-are-we-here",
+          title: 'why are we here',
+          description: "",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/why-are-we-here/";
             },},{id: "creative-with-or-without-you",
           title: 'with or without you',
           description: "",
@@ -2577,6 +2732,11 @@ ninja.data = [{
           description: "The Energy Challenge: Renewables at Rio+20 (poster)",
           section: "Library",handler: () => {
               window.location.href = "/library/energy-challenge-renewables-rio-20-poster/";
+            },},{id: "library-the-energy-challenge-renewables-at-rio-20",
+          title: 'The Energy Challenge: Renewables at Rio+20',
+          description: "The Energy Challenge: Renewables at Rio+20",
+          section: "Library",handler: () => {
+              window.location.href = "/library/energy-challenge-renewables-rio-20/";
             },},{id: "library-the-energy-challenge-renewables-at-rio-20-poster",
           title: 'The Energy Challenge: Renewables at Rio+20 (poster)',
           description: "The Energy Challenge: Renewables at Rio+20 (poster)",
@@ -2707,6 +2867,21 @@ ninja.data = [{
           description: "Submission to the Australian Energy Market Commission (AEMC): Power of Choice Review",
           section: "Library",handler: () => {
               window.location.href = "/library/submission-australian-energy-market-commission-aemc-power-choice/";
+            },},{id: "library-submission-to-the-australian-energy-market-commission-aemc-small-generation-aggregator-framework",
+          title: 'Submission to the Australian Energy Market Commission (AEMC): Small Generation Aggregator Framework',
+          description: "Submission to the Australian Energy Market Commission (AEMC): Small Generation Aggregator Framework",
+          section: "Library",handler: () => {
+              window.location.href = "/library/submission-australian-energy-market-commission-aemc-small-generation/";
+            },},{id: "library-submission-to-the-australian-energy-regulator-powerlink-revenue-determination",
+          title: 'Submission to the Australian Energy Regulator: Powerlink Revenue Determination',
+          description: "Submission to the Australian Energy Regulator: Powerlink Revenue Determination",
+          section: "Library",handler: () => {
+              window.location.href = "/library/submission-australian-energy-regulator-powerlink-revenue-determination/";
+            },},{id: "library-submission-to-the-australian-energy-regulator-review-of-limited-merits-review-regime",
+          title: 'Submission to the Australian Energy Regulator: Review of Limited Merits Review Regime',
+          description: "Submission to the Australian Energy Regulator: Review of Limited Merits Review Regime",
+          section: "Library",handler: () => {
+              window.location.href = "/library/submission-australian-energy-regulator-review-limited-merits-review/";
             },},{id: "library-submission-to-council-of-australian-governors-regulatory-and-competition-reform",
           title: 'Submission to Council of Australian Governors: Regulatory and Competition Reform',
           description: "Submission to Council of Australian Governors: Regulatory and Competition Reform",
@@ -2717,6 +2892,11 @@ ninja.data = [{
           description: "Submission to the Department of Climate Change and Energy Efficiency: Consultation on a national Ene...",
           section: "Library",handler: () => {
               window.location.href = "/library/submission-department-climate-change-energy-efficiency-consultation/";
+            },},{id: "library-submission-to-the-public-accounts-committee-inquiry-into-the-economics-of-energy-generation",
+          title: 'Submission to the Public Accounts Committee: Inquiry into the Economics of Energy Generation...',
+          description: "Submission to the Public Accounts Committee: Inquiry into the Economics of Energy Generation",
+          section: "Library",handler: () => {
+              window.location.href = "/library/submission-public-accounts-committee-inquiry-economics-energy/";
             },},{id: "library-submission-to-council-of-australian-governors-regulatory-and-competition-reform",
           title: 'Submission to Council of Australian Governors: Regulatory and Competition Reform',
           description: "Submission to Council of Australian Governors: Regulatory and Competition Reform",
@@ -2887,6 +3067,11 @@ ninja.data = [{
           description: "The ANU Rio+20 Project: Rio+20 Lacking on Energy",
           section: "Library",handler: () => {
               window.location.href = "/library/anu-rio-20-project-rio-20-lacking-energy/";
+            },},{id: "library-fair-ideas-sharing-solutions-for-a-sustainable-planet",
+          title: 'Fair Ideas: Sharing Solutions for a Sustainable Planet',
+          description: "Fair Ideas: Sharing Solutions for a Sustainable Planet",
+          section: "Library",handler: () => {
+              window.location.href = "/library/fair-ideas-sharing-solutions-sustainable-planet/";
             },},{id: "library-the-future-we-definitely-don-t-want",
           title: 'The Future we (Definitely Don’t) Want',
           description: "The Future we (Definitely Don’t) Want",
@@ -2902,6 +3087,11 @@ ninja.data = [{
           description: "Rio+20, The End of the Road",
           section: "Library",handler: () => {
               window.location.href = "/library/rio-20-end-road/";
+            },},{id: "library-marine-renewable-energy-in-australia-the-urgent-need-for-regulatory-reform",
+          title: 'Marine Renewable Energy in Australia: the urgent need for regulatory reform',
+          description: "Marine Renewable Energy in Australia: the urgent need for regulatory reform",
+          section: "Library",handler: () => {
+              window.location.href = "/library/marine-renewable-energy-australia-urgent-need-regulatory-reform/";
             },},{id: "library-submission-to-the-australian-climate-change-authority-renewable-energy-target-review",
           title: 'Submission to the Australian Climate Change Authority: Renewable Energy Target review',
           description: "Submission to the Australian Climate Change Authority: Renewable Energy Target review",
@@ -3327,6 +3517,11 @@ ninja.data = [{
           description: "Submission to the Australian Energy Market Commission (AEMC): Draft regulatory investment test for d...",
           section: "Library",handler: () => {
               window.location.href = "/library/submission-australian-energy-market-commission-aemc-draft-regulatory/";
+            },},{id: "library-visiting-fellowship-international-centre-for-island-technology",
+          title: 'Visiting Fellowship: International Centre for Island Technology',
+          description: "Visiting Fellowship: International Centre for Island Technology",
+          section: "Library",handler: () => {
+              window.location.href = "/library/visiting-fellowship-international-centre-island-technology/";
             },},{id: "library-visiting-fellowship",
           title: 'Visiting Fellowship',
           description: "Visiting Fellowship",
@@ -3479,7 +3674,7 @@ ninja.data = [{
               window.location.href = "/library/marine-governance-industrialised-ocean-case-uks-emerging-marine/";
             },},{id: "library-marine-governance-in-an-industrialised-ocean-a-marine-renewable-energy-case-study-poster",
           title: 'Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)...',
-          description: "The oceans are undergoing a period of unprecedented industrialisaCon. Our rapidly growing populaCon and resource consumpCon have driven us to look further afield in search of ...",
+          description: "Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)",
           section: "Library",handler: () => {
               window.location.href = "/library/marine-governance-industrialised-ocean-marine-renewable-energy-case/";
             },},{id: "library-marine-spatial-planning-in-areas-beyond-national-jurisdiction-developing-a-research-agenda",
@@ -4652,6 +4847,16 @@ ninja.data = [{
           description: "Tout comprendre des prochaines négociations sur la gouvernance de la haute mer",
           section: "Library",handler: () => {
               window.location.href = "/library/tout-comprendre-des-prochaines-negociations-sur-la-gouvernance-de-la/";
+            },},{id: "library-training-programme-on-the-sustainable-development-and-governance-of-the-caspian-sea",
+          title: 'Training Programme on the Sustainable Development and Governance of the Caspian Sea',
+          description: "Training Programme on the Sustainable Development and Governance of the Caspian Sea",
+          section: "Library",handler: () => {
+              window.location.href = "/library/training-programme-sustainable-development-governance-caspian-sea/";
+            },},{id: "library-un-high-seas-treaty-negotiations",
+          title: 'UN High Seas treaty negotiations',
+          description: "UN High Seas treaty negotiations",
+          section: "Library",handler: () => {
+              window.location.href = "/library/un-high-seas-treaty-negotiations/";
             },},{id: "library-un-rendez-vous-historique-pour-protéger-la-haute-mer-des-convoitises",
           title: 'Un rendez-vous historique pour protéger la haute mer des convoitises',
           description: "Un rendez-vous historique pour protéger la haute mer des convoitises",
@@ -4667,6 +4872,11 @@ ninja.data = [{
           description: "Désastreuse pour les écosystèmes marins, la pêche en eaux profondes fait l’objet de vifs débats à Bruxelles. Une nouvelle réglementation européenne encadrant cette pratique est attendue à l’été 2016.",
           section: "Library",handler: () => {
               window.location.href = "/library/lunion-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond/";
+            },},{id: "library-talks-aim-to-tame-marine-wild-west-nations-debate-how-to-protect-biodiversity-in-the-high-seas",
+          title: 'Talks aim to tame marine Wild West: Nations debate how to protect biodiversity...',
+          description: "Talks aim to tame marine Wild West: Nations debate how to protect biodiversity in the high seas",
+          section: "Library",handler: () => {
+              window.location.href = "/library/talks-aim-tame-marine-wild-west-nations-debate-how-protect/";
             },},{id: "library-vers-un-accord-sur-la-haute-mer-des-mesures-positives-à-new-york",
           title: 'Vers un accord sur la haute mer : des mesures positives à New...',
           description: "Alors que nous sommes à un moment décisif pour l&#39;avenir de l&#39;océan, plus de 80 États se sont réunis au siège de l&#39;ONU à New York (30 Mars - 8 Avril) pour lancer les négociations d&#39;un nouvel accord sur...",
@@ -5342,9 +5552,14 @@ ninja.data = [{
           description: "Opportunities for Strengthening Ocean Governance in the  Southeast Pacific",
           section: "Library",handler: () => {
               window.location.href = "/library/opportunities-strengthening-ocean-governance-southeast-pacific/";
+            },},{id: "library-pollution-des-océans-le-problème-est-il-sous-estimé",
+          title: 'Pollution des océans: le problème est-il sous-estimé ?',
+          description: "Pollution des océans: le problème est-il sous-estimé ?",
+          section: "Library",handler: () => {
+              window.location.href = "/library/pollution-des-oceans-le-probleme-est-il-sous-estime/";
             },},{id: "library-technological-tools-for-monitoring-control-and-surveillance-in-marine-areas-beyond-national-jurisdiction",
           title: 'Technological tools for Monitoring, Control and Surveillance in Marine Areas Beyond National Jurisdiction...',
-          description: "Technological tools for Monitoring, Control and Surveillance in Marine Areas Beyond National Jurisdi...",
+          description: "Monitoring Control and Surveillance (MCS) will be crucial to ensuring compliance with management measures developed under a future international agreement on Areas Beyond National Jurisdiction (ABNJ)....",
           section: "Library",handler: () => {
               window.location.href = "/library/technological-tools-monitoring-control-surveillance-marine-areas/";
             },},{id: "library-workshop-summary-technological-tools-for-mcs-in-abnj",
@@ -5362,6 +5577,16 @@ ninja.data = [{
           description: "On the 3rd of September 2018 the STRONG High Seas Project hosted a capacity building workshop in New York. It brought together 21 ministry representatives and UN negotiators from the Southeast Pacific...",
           section: "Library",handler: () => {
               window.location.href = "/library/capacity-building-workshop-bbnj-negotiations/";
+            },},{id: "library-capacity-building-workshop-un-biodiversity-beyond-national-jurisdiction-bbnj-negotiations",
+          title: 'Capacity Building Workshop: UN Biodiversity Beyond National Jurisdiction (BBNJ) Negotiations',
+          description: "Capacity Building Workshop: UN Biodiversity Beyond National Jurisdiction (BBNJ) Negotiations",
+          section: "Library",handler: () => {
+              window.location.href = "/library/capacity-building-workshop-un-biodiversity-beyond-national/";
+            },},{id: "library-high-level-expert-meeting-building-a-strong-high-seas-treaty-what-is-the-role-for-regional-ocean-governance",
+          title: 'High-Level Expert Meeting: Building a Strong High Seas Treaty: What is the Role...',
+          description: "High-Level Expert Meeting: Building a Strong High Seas Treaty: What is the Role for Regional Ocean G...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/high-level-expert-meeting-building-strong-high-seas-treaty-what-role/";
             },},{id: "library-marine-spatial-planning-in-areas-beyond-national-jurisdiction-opportunities-and-challenges",
           title: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: Opportunities and challenges',
           description: "Marine Spatial Planning in Areas Beyond National Jurisdiction: Opportunities and challenges",
@@ -5372,6 +5597,11 @@ ninja.data = [{
           description: "Monitoring, control and surveillance (MCS) in a high seas treaty",
           section: "Library",handler: () => {
               window.location.href = "/library/monitoring-control-surveillance-mcs-high-seas-treaty/";
+            },},{id: "library-role-of-technology-and-monitoring-control-and-surveillance-in-marine-conservation-and-management",
+          title: 'Role of technology and Monitoring, Control and Surveillance in Marine Conservation and Management...',
+          description: "Role of technology and Monitoring, Control and Surveillance in Marine Conservation and Management",
+          section: "Library",handler: () => {
+              window.location.href = "/library/role-technology-monitoring-control-surveillance-marine-conservation/";
             },},{id: "library-state-of-play-of-the-bbnj-negotiations",
           title: 'State of Play of the BBNJ Negotiations',
           description: "State of Play of the BBNJ Negotiations",
@@ -5632,9 +5862,14 @@ ninja.data = [{
           description: "High-level expert meeting summary: Towards an Effective High Seas Treaty: Building on and Strengthen...",
           section: "Library",handler: () => {
               window.location.href = "/library/high-level-expert-meeting-summary-towards-effective-high-seas-treaty/";
+            },},{id: "library-high-level-expert-meeting-towards-an-effective-high-seas-treaty-building-on-and-strengthening-regional-ocean-governance",
+          title: 'High-level expert meeting: Towards an Effective High Seas Treaty: Building on and Strengthening...',
+          description: "High-level expert meeting: Towards an Effective High Seas Treaty: Building on and Strengthening Regi...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/high-level-expert-meeting-towards-effective-high-seas-treaty-building/";
             },},{id: "library-overview-of-regional-initiatives-for-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
           title: 'Overview of regional initiatives for the conservation and sustainable use of marine biodiversity...',
-          description: "Overview of regional initiatives for the conservation and sustainable use of marine biodiversity in ...",
+          description: "Overview of regional initiatives for  the conservation and sustainable  use of marine biodiversity i...",
           section: "Library",handler: () => {
               window.location.href = "/library/overview-regional-initiatives-conservation-sustainable-use-marine/";
             },},{id: "library-side-event-towards-an-effective-high-seas-treaty-building-on-and-strengthening-regional-ocean-governance",
@@ -5642,6 +5877,11 @@ ninja.data = [{
           description: "Side Event: Towards an Effective High Seas Treaty: Building on and Strengthening Regional Ocean Gove...",
           section: "Library",handler: () => {
               window.location.href = "/library/side-event-towards-effective-high-seas-treaty-building-strengthening/";
+            },},{id: "library-towards-an-effective-high-seas-treaty-building-on-and-strengthening-regional-ocean-governance",
+          title: 'Towards an Effective High Seas Treaty - Building on and Strengthening Regional Ocean...',
+          description: "Towards an Effective High Seas Treaty - Building on and Strengthening Regional Ocean Governance",
+          section: "Library",handler: () => {
+              window.location.href = "/library/towards-effective-high-seas-treaty-building-strengthening-regional/";
             },},{id: "library-haute-mer-une-version-quot-zéro-quot-du-traité-attendue-d-ici-à-la-fin-juillet",
           title: 'Haute mer : une version &amp;quot;zéro&amp;quot; du traité attendue d’ici à la fin...',
           description: "La deuxième session de négociations sur la préservation et l’utilisation durable de la biodiversité en haute mer s’est conclue le 5 avril dernier. L’occasion...",
@@ -5649,7 +5889,7 @@ ninja.data = [{
               window.location.href = "/library/haute-mer-une-version-zero-du-traite-attendue-dici-a-la-fin-juillet/";
             },},{id: "library-la-haute-mer-à-l-épreuve-de-la-diplomatie",
           title: 'La haute mer à l’épreuve de la diplomatie',
-          description: "Elle n’appartient à personne et échappe à toute réglementation. Face aux pressions humaines et climatiques, l’Onu tente de négocier un traité sur le statut juridique de ce...",
+          description: "Elle n’appartient à personne et échappe à toute réglementation. Face aux pressions humaines et climatiques, l’Onu tente de négocier un traité sur le statut juridique de cette vaste étendue d’eau pour ...",
           section: "Library",handler: () => {
               window.location.href = "/library/la-haute-mer-a-lepreuve-de-la-diplomatie/";
             },},{id: "library-les-négociations-sur-la-biodiversité-en-haute-mer-reprennent-à-new",
@@ -5667,6 +5907,11 @@ ninja.data = [{
           description: "Interview with Ocean University Initiative",
           section: "Library",handler: () => {
               window.location.href = "/library/interview-ocean-university-initiative/";
+            },},{id: "library-traité-sur-la-haute-mer-comment-protéger-les-écosystèmes-marins",
+          title: 'Traité sur la haute mer: comment protéger les écosystèmes marins ?',
+          description: "Traité sur la haute mer: comment protéger les écosystèmes marins ?",
+          section: "Library",handler: () => {
+              window.location.href = "/library/traite-sur-la-haute-mer-comment-proteger-les-ecosystemes-marins/";
             },},{id: "library-strengthening-monitoring-control-and-surveillance-mcs-through-an-international-instrument-on-high-seas-biodiversity",
           title: 'Strengthening Monitoring, Control and Surveillance (MCS) through an international instrument on high seas...',
           description: "Strengthening Monitoring, Control and Surveillance (MCS) through an international instrument on high...",
@@ -5909,7 +6154,7 @@ ninja.data = [{
               window.location.href = "/library/200601-marine-plastic-pollution-state-of-play-perspective/";
             },},{id: "library-la-coopération-mondiale-nouveau-défi-dans-la-lutte-contre-la-pollution",
           title: 'La coopération mondiale, nouveau défi dans la lutte contre la pollution...',
-          description: "&quot;Négocier un traité international juridiquement contraignant permettrait de soutenir les initiatives nationales&quot;, a déclaré Glen Wright, membre de l’UICN,...",
+          description: "La coopération mondiale, nouveau défi dans la lutte contre la pollution...",
           section: "Library",handler: () => {
               window.location.href = "/library/la-cooperation-mondiale-nouveau-defi-dans-la-lutte-contre-la-pollution/";
             },},{id: "library-marine-plastic-pollution-state-of-play-amp-perspectives",
@@ -6314,7 +6559,7 @@ ninja.data = [{
               window.location.href = "/library/wrightsummaryreportinterregional2022/";
             },},{id: "library-high-seas-marine-protected-areas-vast-remote-and-costly",
           title: 'High Seas Marine Protected Areas: Vast, Remote and Costly?',
-          description: "High Seas Marine Protected Areas: Vast, Remote and Costly?",
+          description: "Organised by IDDRI in the context of the STRONG High Seas project, in cooperation with the International Monitoring, Control and Surveillance (IMCS) Network and the International Union for Conservatio...",
           section: "Library",handler: () => {
               window.location.href = "/library/high-seas-marine-protected-areas-vast-remote-costly/";
             },},{id: "library-biodiversité-en-haute-mer-le-traité-reste-hors-de-portée-malgré-une",
@@ -6567,6 +6812,11 @@ ninja.data = [{
           description: "El experto en política internacional Glen Wright aclara que el Tratado de alta mar de la ONU no podrá por sí solo frenar la minería submarina",
           section: "Library",handler: () => {
               window.location.href = "/library/el-tratado-de-alta-mar-no-bastara-para-evitar-la-mineria-submarina/";
+            },},{id: "library-environmental-impact-assessments-on-the-high-seas",
+          title: 'Environmental Impact Assessments on the High Seas',
+          description: "Environmental Impact Assessments on the High Seas",
+          section: "Library",handler: () => {
+              window.location.href = "/library/environmental-impact-assessments-high-seas/";
             },},{id: "library-environmental-impact-assessments",
           title: 'Environmental impact assessments',
           description: "Environmental impact assessments",
@@ -6901,11 +7151,6 @@ ninja.data = [{
           description: "This interdisciplinary course explores how biodiversity is valued and governed, and how science, economics and politics shape environmental decisions. Students engage with real-world debates and learn to critically assess international policies, funding mechanisms, and biodiversity offsets.",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/biodiversity/";
-            },},{id: "teaching-training-programme-on-the-sustainable-development-and-governance-of-the-caspian-sea",
-          title: 'Training Programme on the Sustainable Development and Governance of the Caspian Sea',
-          description: "This interdisciplinary training programme examines the sustainable development and governance of the Caspian Sea, exploring the intersection of law, policy, science, and economics in ocean management. Participants study frameworks such as the UN Convention on the Law of the Sea, marine spatial planning, and integrated coastal zone management while addressing biodiversity protection, maritime trade, and emerging ocean industries. Through lectures, field visits, and collaborative exercises, students critically assess governance challenges, legal regimes, and conservation strategies, developing practical solutions for regional cooperation and sustainable use of Caspian resources.I contributed as a lecturer on marine governance, presenting sessions on traditional and emerging regulatory frameworks, the legal context of ocean industries, and tools such as marine spatial planning and integrated coastal zone management. I guided participants through case studies and class exercises to help them apply these concepts to the Caspian context, supporting collaborative policy design and practical implementation.",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/ioi-training/";
             },},{id: "teaching-marine-policy-amp-ocean-governance",
           title: 'Marine Policy &amp;amp; Ocean Governance',
           description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean. Students examine global and regional governance regimes, with case studies on biodiversity, fisheries, and emerging issues like deep sea mining and ocean energy.",
