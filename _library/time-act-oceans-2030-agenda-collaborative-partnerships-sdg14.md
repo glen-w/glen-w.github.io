@@ -7,7 +7,7 @@ categories:
 date: 2016-September-01
 description: 'Time to act for oceans in the 2030 Agenda: collaborative partnerships
   for SDG14'
-entry_type: Other
+entry_type: Side event
 layout: library-item
 tags: []
 title: 'Time to act for oceans in the 2030 Agenda: collaborative partnerships for

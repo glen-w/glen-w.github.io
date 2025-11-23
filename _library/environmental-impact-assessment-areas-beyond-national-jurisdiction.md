@@ -2,24 +2,22 @@
 abstract: ''
 authors:
 - Glen Wright
-bibtex_key: wrightEnvironmentalImpactAssessment2016
+bibtex_key: wrightEnvironmentalImpactAssessment2019
 categories:
 - other
-date: 2016-November-01
-description: Environmental Impact Assessment in areas beyond national jurisdiction
+date: 2019-November-01
+description: Environmental Impact Assessment in Areas Beyond National Jurisdiction
 entry_type: Conference
 layout: library-item
-location: Shanghai, China
-publisher: Shanghai Jiao Tong University, Shanghai, China
-tags:
-- chinese
-title: Environmental Impact Assessment in areas beyond national jurisdiction
-venue: ''
-year: '2016'
+tags: []
+title: Environmental Impact Assessment in Areas Beyond National Jurisdiction
+venue: Pew Charitable Trusts workshop "Protecting at least 30% of the ocean by 2030
+  and Conservation & sustainable use of marine biodiversity in areas beyond national
+  jurisdiction"
+year: '2019'
 ---
 
 ## Publication Details
 
 **Authors:** Glen Wright
-**Location:** Shanghai, China
-**Publisher:** Shanghai Jiao Tong University, Shanghai, China
+**Venue:** Pew Charitable Trusts workshop "Protecting at least 30% of the ocean by 2030 and Conservation & sustainable use of marine biodiversity in areas beyond national jurisdiction"

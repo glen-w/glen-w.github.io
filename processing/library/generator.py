@@ -56,10 +56,23 @@ class LibraryPageGenerator:
     
     def load_bibliography(self):
         """Load and parse the BibTeX file."""
+        # Create a safe wrapper for convert_to_unicode that handles the combining() error
+        def safe_convert_to_unicode(record):
+            """Wrapper that handles Unicode conversion errors gracefully."""
+            try:
+                return convert_to_unicode(record)
+            except (TypeError, ValueError) as e:
+                # If there's an error with Unicode conversion (e.g., combining() issue),
+                # return the record as-is. This is safe for library page generation.
+                if "combining()" in str(e):
+                    # Log but don't fail - we can still generate pages without Unicode conversion
+                    return record
+                raise
+        
         try:
             with open(self.bib_file, 'r', encoding='utf-8') as bibtex_file:
                 parser = BibTexParser(common_strings=True)
-                parser.customization = convert_to_unicode
+                parser.customization = safe_convert_to_unicode
                 bib_database = bibtexparser.load(bibtex_file, parser=parser)
             
             print(f"Loaded {len(bib_database.entries)} entries from {self.bib_file}")

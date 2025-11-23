@@ -18,7 +18,7 @@ preview: DSC_9105
 tags: []
 title: 'Marine Renewable Energy: Legal and Policy Challenges to Integrating an Emerging
   Renewable Energy Source'
-url: http://www.slideshare.net/glen_wright/marine-renewable-energy-legal-and-policy-challenges-to-integrating-an-emerging-renewable-energy-source
+url: https://www.ikem.de/en/summer-academy-2012/
 venue: IKEM International Summer Academy on Energy and the Environment
 year: '2012'
 ---
@@ -31,7 +31,7 @@ year: '2012'
 
 ## Links and Resources
 
-- [Original URL](http://www.slideshare.net/glen_wright/marine-renewable-energy-legal-and-policy-challenges-to-integrating-an-emerging-renewable-energy-source)
+- [Original URL](https://www.ikem.de/en/summer-academy-2012/)
 
 ## Notes
 

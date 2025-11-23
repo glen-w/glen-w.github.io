@@ -5,7 +5,7 @@ bibtex_key: OpportunitiesStrengtheningOcean2018
 categories:
 - other
 date: 2018-June-01
-description: Opportunities for Strengthening Ocean Governance in the  Southeast Pacific
+description: Opportunities for Strengthening Ocean Governance in the Southeast Pacific
 entry_type: Workshop
 gallery:
 - All-participants
@@ -15,7 +15,7 @@ layout: library-item
 location: Cali, Colombia
 preview: All-participants
 tags: []
-title: Opportunities for Strengthening Ocean Governance in the  Southeast Pacific
+title: Opportunities for Strengthening Ocean Governance in the Southeast Pacific
 venue: ''
 year: '2018'
 ---

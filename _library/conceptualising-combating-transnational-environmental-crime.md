@@ -31,6 +31,7 @@ entry_type: Journal article
 layout: library-item
 number: '4'
 pages: 332--346
+preview: thumbnail
 tags: []
 title: Conceptualising and combating transnational environmental crime
 url: https://link.springer.com/article/10.1007/s12117-011-9130-4

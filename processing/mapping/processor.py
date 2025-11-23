@@ -321,8 +321,20 @@ class MappingProcessor:
     
     def _generate_mapping_data(self, locations: List[Dict]) -> None:
         """Generate the mapping data JSON file with caching."""
-        # Merge new results with existing cache
-        all_locations = list(self.cache['locations'].values())
+        # Get all current bibtex keys and addresses from parsed locations
+        current_bibtex_keys = {loc['bibtex_key'] for loc in locations}
+        current_addresses = {loc['address'].strip().lower() for loc in locations}
+        
+        # Start with existing cache, but filter to only keep entries that are still in BibTeX
+        # This removes entries that were deleted from the BibTeX file
+        all_locations = []
+        for cached_loc in self.cache['locations'].values():
+            cached_bibtex_key = cached_loc.get('bibtex_key', '')
+            cached_address = cached_loc.get('address', '').strip().lower()
+            # Keep if bibtex_key matches current entry OR address matches current entry
+            if (cached_bibtex_key in current_bibtex_keys or 
+                cached_address in current_addresses):
+                all_locations.append(cached_loc)
         
         # Add new results that aren't already in cache
         existing_addresses = {loc['address'].strip().lower() for loc in all_locations}

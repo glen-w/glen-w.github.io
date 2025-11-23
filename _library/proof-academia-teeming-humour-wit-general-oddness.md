@@ -11,6 +11,7 @@ description: In a new fortnightly series, researcher Glen Wright attempts to pro
   academia is not entirely full of stuffiness by sharing some amusing oddities
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: Proof that academia is teeming with humour, wit… and general oddness
 url: https://www.theguardian.com/higher-education-network/blog/2014/oct/03/-sp-academia-is-teeming-with-humour-wit-and-general-oddness

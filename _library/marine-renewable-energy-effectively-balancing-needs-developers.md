@@ -11,9 +11,11 @@ description: 'Marine Renewable Energy: Effectively Balancing  the Needs of Devel
 entry_type: Conference
 layout: library-item
 location: Orkney, Scotland, UK
+preview: thumbnail
 tags: []
 title: 'Marine Renewable Energy: Effectively Balancing  the Needs of Developers and  Potential
   Environmental Impacts, an Australasian Perspective'
+url: https://www.uhi.ac.uk/en/research-enterprise/events-and-seminars/eimr/eimr-2012/
 venue: International Conference on the Environmental Interactions of Marine Renewable
   Energy Technologies
 year: '2012'
@@ -24,3 +26,7 @@ year: '2012'
 **Authors:** Glen Wright
 **Venue:** International Conference on the Environmental Interactions of Marine Renewable Energy Technologies
 **Location:** Orkney, Scotland, UK
+
+## Links and Resources
+
+- [Original URL](https://www.uhi.ac.uk/en/research-enterprise/events-and-seminars/eimr/eimr-2012/)

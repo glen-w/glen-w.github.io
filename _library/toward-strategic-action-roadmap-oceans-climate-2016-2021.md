@@ -1,9 +1,7 @@
 ---
 abstract: ''
-authors:
-- Cicin-Sain Biliana
-- et al.
-bibtex_key: bilianaStrategicActionRoadmap2021
+authors: []
+bibtex_key: StrategicActionRoadmap2021
 categories:
 - other
 date: '2021-01-01'
@@ -19,6 +17,5 @@ year: '2021'
 
 ## Publication Details
 
-**Authors:** Cicin-Sain Biliana, et al.
 **Venue:** Global Ocean Forum
 **Institution:** Global Ocean Forum

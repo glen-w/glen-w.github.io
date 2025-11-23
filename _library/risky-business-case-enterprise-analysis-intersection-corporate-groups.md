@@ -11,6 +11,7 @@ description: 'Risky Business: the Case for Enterprise Analysis at the Intersecti
 entry_type: Journal article
 layout: library-item
 number: '1'
+preview: thumbnail
 tags: []
 title: 'Risky Business: the Case for Enterprise Analysis at the Intersection of Corporate
   Groups and Torts'

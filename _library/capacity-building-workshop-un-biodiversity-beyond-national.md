@@ -9,7 +9,7 @@ description: 'Capacity Building Workshop: UN Biodiversity Beyond National Jurisd
   (BBNJ) Negotiations'
 entry_type: Training
 layout: library-item
-location: 307 West 38th Street, 10018 New York, NY, USA
+location: 307 West 38th Street, New York, NY, USA
 publisher: STRONG High Seas
 tags: []
 title: 'Capacity Building Workshop: UN Biodiversity Beyond National Jurisdiction (BBNJ)
@@ -20,5 +20,5 @@ year: '2018'
 
 ## Publication Details
 
-**Location:** 307 West 38th Street, 10018 New York, NY, USA
+**Location:** 307 West 38th Street, New York, NY, USA
 **Publisher:** STRONG High Seas

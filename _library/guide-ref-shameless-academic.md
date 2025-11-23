@@ -11,6 +11,7 @@ description: Palm your teaching off on gullible colleagues and get yourself a TV
   – Glen Wright shares his tips for success in the Research Excellence Framework
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: A guide to the REF for the shameless academic
 url: https://www.theguardian.com/higher-education-network/2014/dec/12/research-excellence-framework-success-academic

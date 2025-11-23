@@ -11,6 +11,7 @@ description: From diagnosing Rudolph’s red nose to festive spices that make yo
   Glen Wright picks out some of the best Christmassy research
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: Will climate change kill Santa Claus? This and more festive-themed research
 url: https://www.theguardian.com/higher-education-network/2014/dec/24/will-climate-change-kill-santa-claus-this-and-more-festive-themed-research

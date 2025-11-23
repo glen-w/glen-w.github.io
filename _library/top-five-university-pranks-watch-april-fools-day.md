@@ -11,6 +11,7 @@ description: Hoisted cars, fake students and remodeled buildings – practical j
   have a long history on university campuses. Here are some of the most notorious
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: Top five university pranks to watch out for on April Fools' day
 url: https://www.theguardian.com/higher-education-network/2015/apr/01/top-five-university-pranks-to-watch-out-for-on-april-fools-day

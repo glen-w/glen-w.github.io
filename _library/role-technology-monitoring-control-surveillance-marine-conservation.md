@@ -11,7 +11,8 @@ description: Role of technology and Monitoring, Control and Surveillance in Mari
   Conservation and Management
 entry_type: Side event
 layout: library-item
-location: UN Headquarters, New York City, NY, USA
+location: United Nations Headquarters, New York City, NY, USA
+preview: thumbnail
 tags: []
 title: Role of technology and Monitoring, Control and Surveillance in Marine Conservation
   and Management
@@ -22,4 +23,4 @@ year: '2018'
 ## Publication Details
 
 **Authors:** Glen Wright, Isabel Seeger
-**Location:** UN Headquarters, New York City, NY, USA
+**Location:** United Nations Headquarters, New York City, NY, USA

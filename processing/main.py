@@ -311,12 +311,26 @@ def run_dynamic_filters_generation(args) -> bool:
         import bibtexparser
         from bibtexparser.bparser import BibTexParser
         from bibtexparser.customization import convert_to_unicode
+        import unicodedata
+        
+        # Create a safe wrapper for convert_to_unicode that handles the combining() error
+        def safe_convert_to_unicode(record):
+            """Wrapper that handles Unicode conversion errors gracefully."""
+            try:
+                return convert_to_unicode(record)
+            except (TypeError, ValueError) as e:
+                # If there's an error with Unicode conversion (e.g., combining() issue),
+                # return the record as-is. This is safe for tag extraction.
+                if "combining()" in str(e):
+                    # Log but don't fail - we can still extract tags without Unicode conversion
+                    return record
+                raise
         
         # Load bibliography entries from processed file
         bib_file = '../_bibliography/papers.bib'
         with open(bib_file, 'r', encoding='utf-8') as f:
             parser = BibTexParser(common_strings=True)
-            parser.customization = convert_to_unicode
+            parser.customization = safe_convert_to_unicode
             bib_database = bibtexparser.load(f, parser=parser)
         
         # Generate dynamic filters
@@ -343,11 +357,24 @@ def run_dynamic_filters_only(args) -> bool:
         from bibtexparser.bparser import BibTexParser
         from bibtexparser.customization import convert_to_unicode
         
+        # Create a safe wrapper for convert_to_unicode that handles the combining() error
+        def safe_convert_to_unicode(record):
+            """Wrapper that handles Unicode conversion errors gracefully."""
+            try:
+                return convert_to_unicode(record)
+            except (TypeError, ValueError) as e:
+                # If there's an error with Unicode conversion (e.g., combining() issue),
+                # return the record as-is. This is safe for tag extraction.
+                if "combining()" in str(e):
+                    # Log but don't fail - we can still extract tags without Unicode conversion
+                    return record
+                raise
+        
         # Load bibliography from processed file
         bib_file = '../_bibliography/papers.bib'
         with open(bib_file, 'r', encoding='utf-8') as f:
             parser = BibTexParser(common_strings=True)
-            parser.customization = convert_to_unicode
+            parser.customization = safe_convert_to_unicode
             bib_database = bibtexparser.load(f, parser=parser)
         
         entries = bib_database.entries
@@ -388,11 +415,12 @@ def run_mapping_generation(args) -> bool:
         from mapping.processor import MappingProcessor
         
         # Create processor with same test mode as process_papers
+        # If regenerate mode is enabled, also refresh the geocoding cache
         processor = MappingProcessor(
             bib_file_path='../_bibliography/papers.bib',
             output_dir='../assets/mapping',
             test_mode=args.test,
-            refresh_cache=False,  # Default to using cache
+            refresh_cache=args.regenerate,  # Refresh cache if in regenerate mode
             cache_only=False      # Default to processing all locations
         )
         

@@ -12,8 +12,9 @@ gallery:
 - DSCF7072
 - DSCF7091
 - DSCF7206
+- thumbnail
 layout: library-item
-location: Taipei, Taiwan
+location: Taipei International Convention Center, Taipei, Taiwan
 preview: 24826_10150154359050484_696620483_11651117_4564583_n
 tags:
 - delegate
@@ -24,4 +25,4 @@ year: '2010'
 
 ## Publication Details
 
-**Location:** Taipei, Taiwan
+**Location:** Taipei International Convention Center, Taipei, Taiwan

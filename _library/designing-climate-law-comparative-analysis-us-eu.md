@@ -22,6 +22,7 @@ description: As evidence of anthropogenic climate change mounts there is a growi
   concern culminated in the recent climate change ...
 entry_type: Journal article
 layout: library-item
+preview: thumbnail
 tags: []
 title: 'Designing Climate Law: A Comparative Analysis of the US and EU'
 venue: Cork Online Law Review

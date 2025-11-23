@@ -9,6 +9,7 @@ date: 2012-June-01
 description: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy'
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy'
 url: http://anurio20.blogspot.com/2012/06/rio20-lacking-on-energy.html

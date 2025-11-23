@@ -11,6 +11,7 @@ description: 'Marine Energy in Australia and New Zealand: Regulatory Barriers an
 entry_type: Conference
 layout: library-item
 location: Melbourne, Australia
+preview: thumbnail
 tags:
 - reviw
 title: 'Marine Energy in Australia and New Zealand: Regulatory Barriers and Policy

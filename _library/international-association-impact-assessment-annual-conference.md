@@ -9,6 +9,7 @@ description: International Association for Impact Assessment Annual Conference
 entry_type: Conference
 layout: library-item
 location: Lisbon, Portugal
+preview: thumbnail
 tags:
 - attendee
 title: International Association for Impact Assessment Annual Conference

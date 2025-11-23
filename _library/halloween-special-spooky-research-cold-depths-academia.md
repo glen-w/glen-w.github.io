@@ -11,6 +11,7 @@ description: Could vampires exist (mathematically speaking)? What causes ghostly
   chills? And what does death smell like? Researcher Glen Wright investigates
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: 'Halloween special: spooky research from the cold depths of academia'
 url: https://www.theguardian.com/higher-education-network/blog/2014/oct/31/-sp-halloween-special-spooky-research-from-the-cold-depths-of-academia

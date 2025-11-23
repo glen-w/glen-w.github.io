@@ -13,6 +13,7 @@ description: Ever wondered where all the bloody teaspoons are? Or how to avoid t
   tackled these pressing issues
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: How to make a cup of tea for an academic
 url: https://www.theguardian.com/higher-education-network/blog/2014/oct/17/-sp-how-to-make-a-cup-of-tea-for-an-academic

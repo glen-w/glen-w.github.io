@@ -20,11 +20,12 @@ description: The International Renewable Energy Agency held the first session of
 entry_type: Journal article
 layout: library-item
 pages: 251--268
+preview: thumbnail
 tags: []
 title: 'The International Renewable Energy Agency: A Global Voice for the Renewable
   Energy Era?'
 url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2000433
-venue: Renewable Energy Law and Policy
+venue: Renewable Energy Law and Policy Review
 volume: '4'
 year: '2011'
 ---
@@ -32,7 +33,7 @@ year: '2011'
 ## Publication Details
 
 **Authors:** Glen Wright
-**Venue:** Renewable Energy Law and Policy
+**Venue:** Renewable Energy Law and Policy Review
 **Volume:** 4
 **Pages:** 251--268
 

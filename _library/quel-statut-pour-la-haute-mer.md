@@ -17,11 +17,12 @@ location: Paris, France
 preview: Capture d’écran 2016-11-30 à 19.12.42
 tags: []
 title: Quel statut pour la haute mer ?
-venue: ''
+venue: 'Un seul océan : enjeux et solutions'
 year: '2016'
 ---
 
 ## Publication Details
 
 **Authors:** Glen Wright
+**Venue:** Un seul océan : enjeux et solutions
 **Location:** Paris, France

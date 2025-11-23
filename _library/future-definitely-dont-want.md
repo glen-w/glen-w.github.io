@@ -9,6 +9,7 @@ date: 2012-June-01
 description: The Future we (Definitely Don’t) Want
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: The Future we (Definitely Don’t) Want
 url: http://anurio20.blogspot.com/2012/06/future-we-definitely-dont-want.html

@@ -7,7 +7,7 @@ categories:
 date: 2016-February-01
 description: Conservation and Sustainable Use of Marine Biological Diversity of Areas
   Beyond National Jurisdictio...
-entry_type: Conference
+entry_type: Workshop
 layout: library-item
 location: Singapore
 tags:

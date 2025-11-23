@@ -9,6 +9,7 @@ date: 2012-June-01
 description: Rio+20, The End of the Road
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: Rio+20, The End of the Road
 url: http://anurio20.blogspot.com/2012/06/rio20-end-of-road.html

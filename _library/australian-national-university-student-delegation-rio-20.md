@@ -14,6 +14,7 @@ gallery:
 - DSC_7451
 - DSC_7525
 - DSC_7650
+- thumbnail
 layout: library-item
 preview: DSC_7365
 tags: []

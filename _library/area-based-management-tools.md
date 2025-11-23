@@ -12,11 +12,12 @@ layout: library-item
 location: New York City, NY, USA
 tags: []
 title: Area-based management tools
-venue: ''
+venue: AOSIS Capacity Building Workshop for SIDS in BBNJ Negotiations
 year: '2018'
 ---
 
 ## Publication Details
 
 **Authors:** Glen Wright
+**Venue:** AOSIS Capacity Building Workshop for SIDS in BBNJ Negotiations
 **Location:** New York City, NY, USA

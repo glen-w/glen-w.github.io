@@ -210,11 +210,24 @@ def main():
     
     args = parser.parse_args()
     
+    # Create a safe wrapper for convert_to_unicode that handles the combining() error
+    def safe_convert_to_unicode(record):
+        """Wrapper that handles Unicode conversion errors gracefully."""
+        try:
+            return convert_to_unicode(record)
+        except (TypeError, ValueError) as e:
+            # If there's an error with Unicode conversion (e.g., combining() issue),
+            # return the record as-is. This is safe for tag extraction.
+            if "combining()" in str(e):
+                # Log but don't fail - we can still extract tags without Unicode conversion
+                return record
+            raise
+    
     # Load bibliography
     try:
         with open(args.bib_file, 'r', encoding='utf-8') as bibtex_file:
             parser = BibTexParser(common_strings=True)
-            parser.customization = convert_to_unicode
+            parser.customization = safe_convert_to_unicode
             bib_database = bibtexparser.load(bibtex_file, parser=parser)
         
         entries = bib_database.entries

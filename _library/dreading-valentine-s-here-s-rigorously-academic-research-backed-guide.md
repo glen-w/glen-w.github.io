@@ -11,6 +11,7 @@ description: Love is no simple matter. Fortunately, there’s plenty of academic
   to help you find – and satisfy – your soulmate
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: Dreading Valentine's? Here's a rigorously academic, research-backed guide to
   love

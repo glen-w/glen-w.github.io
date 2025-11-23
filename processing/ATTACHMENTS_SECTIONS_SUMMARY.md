@@ -109,3 +109,4 @@
 - [ ] Sections close when another opens
 - [ ] Sections work without JavaScript (graceful degradation)
 
+

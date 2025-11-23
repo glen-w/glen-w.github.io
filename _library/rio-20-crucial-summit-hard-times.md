@@ -9,6 +9,7 @@ date: 2012-June-01
 description: 'Rio+20: crucial summit, hard times'
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: 'Rio+20: crucial summit, hard times'
 url: http://anurio20.blogspot.com/2012/06/rio20-crucial-summit-hard-times.html

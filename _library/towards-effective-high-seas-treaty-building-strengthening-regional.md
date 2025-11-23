@@ -7,9 +7,9 @@ categories:
 date: 2019-March-01
 description: Towards an Effective High Seas Treaty - Building on and Strengthening
   Regional Ocean Governance
-entry_type: Side event
+entry_type: Workshop
 layout: library-item
-location: United Nations, New York City, NY, USA
+location: United Nations Headquarters, New York City, NY, USA
 publisher: STRONG High Seas
 tags: []
 title: Towards an Effective High Seas Treaty - Building on and Strengthening Regional
@@ -20,5 +20,5 @@ year: '2019'
 
 ## Publication Details
 
-**Location:** United Nations, New York City, NY, USA
+**Location:** United Nations Headquarters, New York City, NY, USA
 **Publisher:** STRONG High Seas

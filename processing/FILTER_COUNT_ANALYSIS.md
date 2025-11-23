@@ -124,3 +124,4 @@ const patterns = {
 4. **Unify Tag Extraction**: Use same extraction logic for display and filters
 5. **Remove Pattern Fallback**: Rely on CSS class matching only, remove text matching
 
+

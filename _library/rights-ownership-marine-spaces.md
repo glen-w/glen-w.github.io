@@ -11,10 +11,11 @@ entry_type: Webinar
 layout: library-item
 tags: []
 title: Rights and Ownership in Marine Spaces
-venue: ''
+venue: International network for Social Studies of Marine Energy (ISSMER) Seminar
 year: '2014'
 ---
 
 ## Publication Details
 
 **Authors:** Glen Wright
+**Venue:** International network for Social Studies of Marine Energy (ISSMER) Seminar

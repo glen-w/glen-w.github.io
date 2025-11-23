@@ -10,8 +10,7 @@ description: 'La Haute Mer: Historique et perspectives'
 entry_type: Conference
 layout: library-item
 publisher: L'Institut Français de la Mer
-tags:
-- french
+tags: []
 title: 'La Haute Mer: Historique et perspectives'
 venue: ''
 year: '2015'
