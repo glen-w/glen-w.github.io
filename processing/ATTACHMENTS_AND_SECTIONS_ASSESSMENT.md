@@ -154,3 +154,4 @@
    - Test with entries that have multiple sections
    - Verify sections close when another is opened
 
+
