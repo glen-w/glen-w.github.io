@@ -37,6 +37,23 @@
 <span class="p">-</span> [ ] <span class="gs">**Export old newsletters**</span> - Archive and organize historical newsletter content
 <span class="p">-</span> [ ] <span class="gs">**Export old blog posts**</span> - Migrate legacy blog content to current structure
 
+<span class="gu">#### Filter Engine Refactor</span>
+
+<span class="gs">**Current State**</span>: Library page filters are non-cumulative - only one filter can be active at a time. Users cannot combine filters (e.g., "Conferences where I've facilitated" or "Workshops I've organized").
+
+<span class="gs">**Planned Enhancement**</span>: Refactor the filter engine to support cumulative/multi-select filtering:
+<span class="p">-</span> [ ] <span class="gs">**Refactor filter state management**</span> - Track multiple active filters across categories (entry types, roles, languages)
+<span class="p">-</span> [ ] <span class="gs">**Implement toggle behavior**</span> - Allow users to activate/deactivate multiple filters simultaneously
+<span class="p">-</span> [ ] <span class="gs">**Update filtering logic**</span> - Apply AND logic so items must match all active filters
+<span class="p">-</span> [ ] <span class="gs">**Enhance UI feedback**</span> - Show multiple active filter states and update search input display
+<span class="p">-</span> [ ] <span class="gs">**Update filter counts**</span> - Consider showing counts for filter combinations
+<span class="p">-</span> [ ] <span class="gs">**Maintain backward compatibility**</span> - Ensure single-filter behavior still works correctly
+
+<span class="gs">**Use Cases**</span>:
+<span class="p">-</span> Filter by "Conference" (entry type) + "facilitator" (role) to find conferences where user facilitated
+<span class="p">-</span> Filter by "Workshop" (entry type) + "organiser" (role) to find workshops user organized
+<span class="p">-</span> Combine any entry type with role or language tags for precise filtering
+
 <span class="gu">### Implementation Timeline</span>
 <span class="p">
 -</span> <span class="gs">**Week 1**</span>: Processing script finalization

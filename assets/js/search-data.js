@@ -4317,6 +4317,11 @@ ninja.data = [{
           description: "Regional approaches for ABNJ – state of play",
           section: "Library",handler: () => {
               window.location.href = "/library/regional-approaches-abnj-state-play/";
+            },},{id: "library-rights-and-ownership-in-sea-country-implications-of-marine-renewable-energy-for-indigenous-and-local-communities",
+          title: 'Rights and ownership in sea country: implications of marine renewable energy for indigenous...',
+          description: "The adoption of UN Convention of the Law of the Sea in 1982 created optimism for indigenous peoples and marginalised coastal communities that they may (re)gain control of, or improve access to, marine...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/rights-ownership-sea-country-implications-marine-renewable-energy/";
             },},{id: "library-workshop-on-linking-global-and-regional-levels-in-the-management-of-marine-areas-beyond-national-jurisdiction",
           title: 'Workshop on Linking Global and Regional Levels in the Management of Marine Areas...',
           description: "Workshop on Linking Global and Regional Levels in the Management of Marine Areas Beyond National Jur...",
@@ -4367,6 +4372,11 @@ ninja.data = [{
           description: "What role for the Nairobi Convention in the high seas?",
           section: "Library",handler: () => {
               window.location.href = "/library/what-role-nairobi-convention-high-seas/";
+            },},{id: "library-collation-of-building-blocks-and-different-options-for-an-unclos-implementing-agreement",
+          title: 'Collation of Building Blocks and Different Options for an UNCLOS Implementing Agreement',
+          description: "Collation of Building Blocks and Different Options for an UNCLOS Implementing Agreement",
+          section: "Library",handler: () => {
+              window.location.href = "/library/collation-building-blocks-different-options-unclos-implementing/";
             },},{id: "library-review-workshop-collation-of-building-blocks-and-different-options-for-an-unclos-implementing-agreement",
           title: 'Review Workshop: Collation of Building Blocks and Different Options for an UNCLOS Implementing...',
           description: "Review Workshop: Collation of Building Blocks and Different Options for an UNCLOS Implementing Agree...",
@@ -4797,6 +4807,11 @@ ninja.data = [{
           description: "Un rendez-vous historique pour protéger la haute mer des convoitises",
           section: "Library",handler: () => {
               window.location.href = "/library/un-rendez-vous-historique-pour-prot%C3%A9ger-la-haute-mer-des-convoitises/";
+            },},{id: "library-vers-un-accord-sur-la-haute-mer-des-mesures-positives-a-new-york",
+          title: 'Vers un accord sur la haute mer : des mesures positives a New...',
+          description: "Alors que nous sommes a un moment decisif pour l&#39;avenir de l&#39;ocean, plus de 80 Etats se sont reunis au siege de l&#39;ONU a New York (30 Mars - 8 Avril) pour lancer les negociations d&#39;un nouvel accord sur...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/vers-un-accord-sur-la-haute-mer-des-mesures-positives-new-york/";
             },},{id: "library-vers-un-accord-sur-la-haute-mer-des-mesures-positives-à-new-york",
           title: 'Vers un accord sur la haute mer : des mesures positives à New...',
           description: "Alors que nous sommes à un moment décisif pour l&#39;avenir de l&#39;océan, plus de 80 États se sont réunis au siège de l&#39;ONU à New York (30 Mars - 8 Avril) pour lancer les négociations d&#39;un nouvel accord sur...",
@@ -5267,6 +5282,11 @@ ninja.data = [{
           description: "The United Nations General Assembly just launched a new initiative to address the increasing number of threats to marine areas beyond national jurisdiction (ABNJ). Negotiations will commence in 2018 t...",
           section: "Library",handler: () => {
               window.location.href = "/library/high-seas-governance-understanding-upcoming-negotiations-10-points/";
+            },},{id: "library-potsdam-ocean-governance-workshop-the-ocean-in-2030-how-to-get-to-the-future-we-want",
+          title: 'Potsdam Ocean Governance Workshop: The Ocean in 2030 – How to get to...',
+          description: "Potsdam Ocean Governance Workshop: The Ocean in 2030 – How to get to the future we want?",
+          section: "Library",handler: () => {
+              window.location.href = "/library/potsdam-ocean-governance-workshop-ocean-2030-how-get-future-want/";
             },},{id: "library-potsdam-ocean-governance-workshop",
           title: 'Potsdam Ocean Governance Workshop',
           description: "Potsdam Ocean Governance Workshop",
@@ -5832,6 +5852,11 @@ ninja.data = [{
           description: "Towards Ecosystem-based Management of the Global Ocean: Strengthening Regional Cooperation through a...",
           section: "Library",handler: () => {
               window.location.href = "/library/gjerdeecosystembasedmanagementglobal2019/";
+            },},{id: "library-haute-mer-une-version-quot-zero-quot-du-traite-attendue-d-ici-a-la-fin-juillet",
+          title: 'Haute mer : une version &amp;quot;zero&amp;quot; du traite attendue d’ici a la fin...',
+          description: "La deuxieme session de negociations sur la preservation et l’utilisation durable de la biodiversite en haute mer s’est conclue le 5 avril dernier. L’occasion...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/haute-mer-une-version-zero-du-traite-attendue-dici-la-fin-juillet/";
             },},{id: "library-haute-mer-une-version-quot-zéro-quot-du-traité-attendue-d-ici-à-la-fin-juillet",
           title: 'Haute mer : une version &amp;quot;zéro&amp;quot; du traité attendue d’ici à la fin...',
           description: "La deuxième session de négociations sur la préservation et l’utilisation durable de la biodiversité en haute mer s’est conclue le 5 avril dernier. L’occasion...",
@@ -5877,11 +5902,21 @@ ninja.data = [{
           description: "Effective monitoring, control and surveillance (MCS) is critical for the success of marine conservation and management measures. Whereas States have the exclusive right to manage the marine resources ...",
           section: "Library",handler: () => {
               window.location.href = "/library/keeping-eye-high-seas-strengthening-monitoring-control-surveillance/";
+            },},{id: "library-la-haute-mer-a-l-epreuve-de-la-diplomatie",
+          title: 'La haute mer a l’epreuve de la diplomatie',
+          description: "Elle n’appartient a personne et echappe a toute reglementation. Face aux pressions humaines et climatiques, l’Onu tente de negocier un traite sur le statut juridique de cette vaste etendue d’eau pour ...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/la-haute-mer-lepreuve-de-la-diplomatie/";
             },},{id: "library-la-haute-mer-à-l-épreuve-de-la-diplomatie",
           title: 'La haute mer à l’épreuve de la diplomatie',
           description: "Elle n’appartient à personne et échappe à toute réglementation. Face aux pressions humaines et climatiques, l’Onu tente de négocier un traité sur le statut juridique de ce...",
           section: "Library",handler: () => {
               window.location.href = "/library/la-haute-mer-%C3%A0-l%C3%A9preuve-de-la-diplomatie/";
+            },},{id: "library-les-negociations-sur-la-biodiversite-en-haute-mer-reprennent-a-new",
+          title: 'Les negociations sur la biodiversite en haute mer reprennent a New...',
+          description: "La troisieme session de negociations d’un traite sur la preservation et l’utilisation durable de la biodiversite en haute mer s’ouvre ce lundi 19 aout...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/les-negociations-sur-la-biodiversite-en-haute-mer-reprennent-new/";
             },},{id: "library-marine-regions-forum-2019-key-messages-achieving-a-healthy-ocean-regional-ocean-governance-beyond-2020",
           title: 'Marine Regions Forum 2019 Key Messages: Achieving a Healthy Ocean - Regional Ocean...',
           description: "Marine Regions Forum 2019 Key Messages: Achieving a Healthy Ocean - Regional Ocean Governance Beyond...",
@@ -5902,11 +5937,6 @@ ninja.data = [{
           description: "Regional Governance of Areas Beyond National Jurisdiction",
           section: "Library",handler: () => {
               window.location.href = "/library/regional-governance-areas-beyond-national-jurisdiction/";
-            },},{id: "library-regional-ocean-governance-of-areas-beyond-national-jurisdiction-lessons-learnt-and-ways-forward",
-          title: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward...',
-          description: "Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward",
-          section: "Library",handler: () => {
-              window.location.href = "/library/regional-ocean-governance-areas-beyond-national-jurisdiction-lessons/";
             },},{id: "library-regional-ocean-governance-of-areas-beyond-national-jurisdiction-lessons-learnt-and-ways-forward",
           title: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward...',
           description: "Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward",
@@ -6002,6 +6032,11 @@ ninja.data = [{
           description: "Overview of regional initiatives for the conservation and sustainable use of marine biodiversity in ...",
           section: "Library",handler: () => {
               window.location.href = "/library/overview-regional-initiatives-conservation-sustainable-use-marine/";
+            },},{id: "library-regional-ocean-governance-of-areas-beyond-national-jurisdiction-lessons-learnt-and-ways-forward",
+          title: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward...',
+          description: "Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward",
+          section: "Library",handler: () => {
+              window.location.href = "/library/regional-ocean-governance-areas-beyond-national-jurisdiction-lessons/";
             },},{id: "library-science-for-solutions-bringing-stakeholders-together-to-improve-ocean-planning-and-governance-in-abnj-of-the-south-east-pacific",
           title: 'Science for Solutions: Bringing Stakeholders Together to Improve Ocean Planning and Governance in...',
           description: "Science for Solutions: Bringing Stakeholders Together to Improve Ocean Planning and Governance in AB...",
@@ -6962,6 +6997,11 @@ ninja.data = [{
           description: "A new global treaty on the high seas will enable the creation of sanctuaries deemed vital for the oceans, but many questions remain unanswered. Among them: How can we protect marine areas far from the...",
           section: "Library",handler: () => {
               window.location.href = "/library/much-still-pending-on-how-high-seas-sanctions-will-work/";
+            },},{id: "library-negocie-depuis-2018-a-new-york-l-accord-quot-historique-quot-sur-la-biodiversite-en-haute-mer-est-enfin-acte",
+          title: 'Negocie depuis 2018 a New York, l’accord &amp;quot;historique&amp;quot; sur la biodiversite en haute...',
+          description: "Apres cinq sessions de negociations commencees en 2018, les Etats ont enfin acte le 4 mars 2023 a New York le futur traite international juridiquement...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/negocie-depuis-2018-new-york-laccord-historique-sur-la-biodiversite-en/";
             },},{id: "library-post-2020-global-biodiversity-framework-what-s-next-for-the-ocean",
           title: 'Post-2020 Global Biodiversity Framework: what’s next for the Ocean?',
           description: "Post-2020 Global Biodiversity Framework: what’s next for the Ocean?",
@@ -6997,6 +7037,11 @@ ninja.data = [{
           description: "On Saturday March 4, 2023, the President of the Intergovernmental Conference (IGC) tasked with elaborating an Agreement to protect global ocean biodiversity declared, “The ship has reached the shore”....",
           section: "Library",handler: () => {
               window.location.href = "/library/the-ship-reached-shore-why-historic-agreement-protect-high-seas/";
+            },},{id: "library-traite-sur-la-haute-mer-a-qui-appartiennent-les-ressources-de-l-ocean",
+          title: 'Traite sur la haute mer : a qui appartiennent les ressources de l’ocean...',
+          description: "Les Etats membres de l’ONU reprennent les negociations d’un traite sur la haute mer ce lundi 20 fevrier pour reglementer et mieux proteger les eaux internationales. L’un des principaux points de bloca...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/traite-sur-la-haute-mer-qui-appartiennent-les-ressources-de-locean/";
             },},{id: "library-traité-sur-la-haute-mer-à-qui-appartiennent-les-ressources-de-l-océan",
           title: 'Traité sur la haute mer : à qui appartiennent les ressources de l’océan...',
           description: "Les États membres de l’ONU reprennent les négociations d’un traité sur la haute mer ce lundi 20 février pour réglementer et mieux protéger les eaux internationales. L’un des principaux points de bloca...",
@@ -7237,6 +7282,11 @@ ninja.data = [{
           description: "La deuxième session de négociations sur la préservation et l’utilisation durable de la biodiversité en haute mer s’est conclue le 5 avril dernier. L’occasion...",
           section: "Library",handler: () => {
               window.location.href = "/library/hautemerversion/";
+            },},{id: "library-a-new-york-une-ceremonie-acte-l-entree-en-vigueur-debut-2026-du-traite-sur-la-biodiversite-en-haute-mer",
+          title: 'A New York, une ceremonie acte l’entree en vigueur debut 2026 du traite...',
+          description: "Les representants des 68 Etats ayant a ce jour ratifie le traite sur la preservation et l’utilisation durable de la biodiversite en haute mer se sont reunis le 23 septembre 2025 a New York, en marge d...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/new-york-une-ceremonie-acte-lentree-en-vigueur-debut-2026-du-traite/";
             },},{id: "library-renewables-2025-global-status-report-global-overview",
           title: 'Renewables 2025 Global Status Report: Global Overview',
           description: "In 2024, global renewable energy growth was primarily driven by the power sector, where capacity expanded by 741 gigawatts (GW), the largest annual increase ever recorded. Solar photovoltaics (PV) led...",
