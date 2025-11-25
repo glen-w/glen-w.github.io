@@ -239,6 +239,12 @@ class BibParser:
         if entry.get('poster'):
             links['poster'] = entry['poster']
         
+        # Extract PDF from file field if pdf field is not already set
+        if not links.get('pdf') and entry.get('file'):
+            pdf_filename = self._extract_pdf_from_file_field(entry['file'])
+            if pdf_filename:
+                links['pdf'] = pdf_filename
+        
         # Extract URLs from note field
         note = entry.get('note', '')
         if note and 'http' in note:
@@ -252,6 +258,64 @@ class BibParser:
                     links[f'link_{i+1}'] = url
         
         return links
+    
+    def _extract_pdf_from_file_field(self, file_field: str) -> Optional[str]:
+        """Extract PDF filename from a BibTeX file field.
+        
+        Returns the PDF filename if found, or None if no PDF is found.
+        Note: This extracts the original filename from the file field. If the PDF
+        has been processed, the processed filename (in the 'pdf' field) should be
+        used instead. This method is a fallback when the 'pdf' field is missing.
+        """
+        if not file_field:
+            return None
+        
+        import os
+        
+        # Split by semicolon and process each part
+        # Note: BibTeX file fields use semicolons to separate multiple files
+        for part in file_field.split(';'):
+            part = part.strip()
+            if not part:
+                continue
+            
+            # Handle format: Description:path:mime or path:mime
+            # The MIME type is always the last part after the last colon
+            if ':' in part:
+                # Find the last colon to separate path from mime type
+                last_colon_idx = part.rfind(':')
+                if last_colon_idx > 0:
+                    mime_part = part[last_colon_idx + 1:].strip().lower()
+                    
+                    # Check if the MIME type indicates PDF
+                    if 'application/pdf' in mime_part:
+                        # Extract the path part (everything before the last colon)
+                        path_part = part[:last_colon_idx].strip()
+                        
+                        # If there's a description prefix (like "PDF:"), remove it
+                        # Format: Description:path, so find the first colon after the description
+                        if ':' in path_part:
+                            # There's a description, get the path after the first colon
+                            first_colon_idx = path_part.find(':')
+                            path_part = path_part[first_colon_idx + 1:].strip()
+                        
+                        if path_part:
+                            # Handle escaped semicolons in filenames (BibTeX escaping)
+                            path_part = path_part.replace('\\;', ';')
+                            # Extract just the filename from the path
+                            filename = os.path.basename(path_part)
+                            
+                            # Return the filename (may need to be matched to processed filename)
+                            return filename
+            else:
+                # Simple case: just a filename ending with .pdf
+                if part.lower().endswith('.pdf'):
+                    # Handle escaped semicolons
+                    part = part.replace('\\;', ';')
+                    filename = os.path.basename(part.strip())
+                    return filename
+        
+        return None
     
     def extract_images(self, entry: Dict[str, Any]) -> List[str]:
         """Extract image files from entry."""

@@ -34,6 +34,7 @@ doi: https://doi.org/10.1017/9781780687360.010
 entry_type: Book chapter
 layout: library-item
 pages: 189--212
+pdf: EU Environmental and Planning Law_1stproof_08 Wright.pdf
 publisher: Intersentia
 tags: []
 title: 'Environmental Impact Assessment to Support Marine Innovation: The ‘Rochdale
@@ -56,3 +57,4 @@ year: '2016'
 
 - [Original URL](https://www.cambridge.org/core/books/eu-environmental-and-planning-law-aspects-of-largescale-projects/environmental-impact-assessment-to-support-marine-innovation-the-rochdale-envelope-and-deploy-monitor-in-the-uks-ocean-energy-industry/CEAE84E1FF0A437372F0E985F8121445)
 - [DOI](https://doi.org/10.1017/9781780687360.010)
+- [PDF](EU Environmental and Planning Law_1stproof_08 Wright.pdf)

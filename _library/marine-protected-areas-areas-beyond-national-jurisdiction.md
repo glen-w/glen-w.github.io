@@ -11,6 +11,7 @@ date: '2015-01-01'
 description: Marine protected areas in areas beyond national jurisdiction
 entry_type: Book chapter
 layout: library-item
+pdf: Wright et al. - 2015 - Marine protected areas in areas beyond national jurisdiction.pdf
 preview: thumbnail
 publisher: Edward Elgar
 tags: []
@@ -24,3 +25,7 @@ year: '2015'
 **Authors:** Glen Wright, Julien Rochette, Elisabeth Druel
 **Venue:** Research Handbook on International Marine Environmental Law
 **Publisher:** Edward Elgar
+
+## Links and Resources
+
+- [PDF](Wright et al. - 2015 - Marine protected areas in areas beyond national jurisdiction.pdf)

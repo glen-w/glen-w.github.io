@@ -11,6 +11,7 @@ description: 'Partnering for a Sustainable Ocean: The Role of Regional Ocean Gov
 entry_type: Conference
 layout: library-item
 location: Hong Kong
+pdf: PROGRAMME Leadership Seminar HK 25-26April.pdf
 preview: photo
 publisher: International Oceans Institute
 tags: []
@@ -25,3 +26,7 @@ year: '2017'
 **Authors:** Glen Wright
 **Location:** Hong Kong
 **Publisher:** International Oceans Institute
+
+## Links and Resources
+
+- [PDF](PROGRAMME Leadership Seminar HK 25-26April.pdf)

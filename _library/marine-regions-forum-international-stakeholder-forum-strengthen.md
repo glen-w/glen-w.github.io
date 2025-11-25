@@ -15,6 +15,7 @@ description: 'Marine Regions Forum: An international stakeholder forum to streng
 entry_type: Report
 institution: German Environment Agency
 layout: library-item
+pdf: Marine Regions Forum An international stakeholder.pdf
 tags: []
 title: 'Marine Regions Forum: An international stakeholder forum to strengthen regional
   ocean governance'
@@ -27,3 +28,7 @@ year: '2021'
 **Authors:** Barbara Neumann, Sebastian Unger, Laura Weiand, Julien Rochette, Glen Wright
 **Venue:** German Environment Agency
 **Institution:** German Environment Agency
+
+## Links and Resources
+
+- [PDF](Marine Regions Forum An international stakeholder.pdf)

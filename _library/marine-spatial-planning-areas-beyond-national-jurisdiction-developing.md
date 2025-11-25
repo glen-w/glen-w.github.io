@@ -8,9 +8,10 @@ categories:
 date: 2014-February-01
 description: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: developing
   a research agenda'
-entry_type: Guest lecture
+entry_type: Workshop
 layout: library-item
 location: Paris, France
+preview: thumbnail
 tags:
 - brown bag
 title: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: developing

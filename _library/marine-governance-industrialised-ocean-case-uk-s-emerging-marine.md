@@ -14,6 +14,8 @@ gallery:
 - DSC_0156
 layout: library-item
 location: Tarragona, Spain
+pdf: Wright - Marine Governance in an Industrialised Ocean a case study of the UK's
+  emerging marine renewable ene.pdf
 preview: DSC_0155
 tags: []
 title: 'Marine Governance in an Industrialised Ocean: a case study of the UK''s emerging
@@ -26,3 +28,7 @@ year: '2014'
 
 **Authors:** Glen Wright
 **Location:** Tarragona, Spain
+
+## Links and Resources
+
+- [PDF](Wright - Marine Governance in an Industrialised Ocean a case study of the UK's emerging marine renewable ene.pdf)

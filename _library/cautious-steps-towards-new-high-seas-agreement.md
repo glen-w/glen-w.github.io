@@ -21,6 +21,7 @@ description: Seeking to fill the gaps in the international legal framework for o
   to discuss elements of an agreement on th...
 entry_type: Blog
 layout: library-item
+pdf: Cautious steps towards a new high seas agreement .pdf
 tags: []
 title: Cautious steps towards a new high seas agreement
 url: https://www.iddri.org/en/publications-and-events/blog-post/cautious-steps-towards-new-high-seas-agreement
@@ -36,3 +37,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/cautious-steps-towards-new-high-seas-agreement)
+- [PDF](Cautious steps towards a new high seas agreement .pdf)

@@ -15,6 +15,8 @@ description: The Judge considered in detail whether there were serious questions
   question had made loans to directors, "alienate...
 entry_type: Journal article
 layout: library-item
+pdf: Granting of leave to bring proceedings under the Corporations Act 2001, section
+  237.pdf
 tags: []
 title: Granting of leave to bring derivative proceedings under section 237 of the
   Corporations Act
@@ -26,3 +28,7 @@ year: '2011'
 
 **Authors:** Glen Wright
 **Venue:** Global Corporate Law Bulletin
+
+## Links and Resources
+
+- [PDF](Granting of leave to bring proceedings under the Corporations Act 2001, section 237.pdf)

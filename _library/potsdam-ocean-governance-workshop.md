@@ -19,6 +19,7 @@ gallery:
 - Potsdam-Ocean-Governance-Workshop-2-1024x660
 layout: library-item
 location: Potsdam, Germany
+pdf: POGW2017_agenda_171205.pdf
 preview: _MG_8855
 tags: []
 title: Potsdam Ocean Governance Workshop
@@ -34,4 +35,5 @@ year: '2017'
 ## Links and Resources
 
 - [Original URL](https://www.prog-ocean.org/blog/2017/12/14/4th-potsdam-ocean-governance-workshop/)
+- [PDF](POGW2017_agenda_171205.pdf)
 - [Additional Link](https://www.iass-potsdam.de/en/news/good-intentions-concrete-action-experts-analyse-progress-protecting-oceans)

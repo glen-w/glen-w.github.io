@@ -14,6 +14,7 @@ description: Le 30 juin dernier, l’Union européenne décidait après des ann�
   sur cet accord historique.
 entry_type: Newspaper
 layout: library-item
+pdf: Wright and Druel - Interdiction du chalutage profond  une belle vict.pdf
 tags: []
 title: 'Interdiction du chalutage profond : une belle victoire et quelques concessions'
 url: http://theconversation.com/interdiction-du-chalutage-profond-une-belle-victoire-et-quelques-concessions-62645
@@ -29,3 +30,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](http://theconversation.com/interdiction-du-chalutage-profond-une-belle-victoire-et-quelques-concessions-62645)
+- [PDF](Wright and Druel - Interdiction du chalutage profond  une belle vict.pdf)

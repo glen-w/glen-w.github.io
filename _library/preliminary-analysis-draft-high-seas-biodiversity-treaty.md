@@ -31,6 +31,7 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '1'
+pdf: Cremers - A preliminary analysis of the draft high seas biod.pdf
 tags: []
 title: A preliminary analysis of the draft high seas biodiversity treaty
 venue: IDDRI
@@ -43,3 +44,7 @@ year: '2020'
 **Venue:** IDDRI
 **Number:** 1
 **Institution:** IDDRI
+
+## Links and Resources
+
+- [PDF](Cremers - A preliminary analysis of the draft high seas biod.pdf)

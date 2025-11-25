@@ -11,6 +11,8 @@ description: 'Submission to the Australian Energy Regulator (AER): Preliminary F
   and Approach - Ausgrid, E...'
 entry_type: Submission
 layout: library-item
+pdf: Total Environment Centre - Submission on Preliminary Framework and Approach -
+  15 August 2012_1.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Submission to the Australian Energy Regulator (AER): Preliminary Framework
@@ -24,3 +26,7 @@ year: '2012'
 
 **Authors:** Mark Byrne, Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](Total Environment Centre - Submission on Preliminary Framework and Approach - 15 August 2012_1.pdf)

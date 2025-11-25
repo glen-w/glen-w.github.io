@@ -23,6 +23,7 @@ description: We have known since the 1970s that the Ocean's vast mesopelagic, or
   exploitation possible and interest is gr...
 entry_type: Blog
 layout: library-item
+pdf: Wright, Glen et al. - 2020 - The Ocean's twilight zone climate risks at the .pdf
 tags: []
 title: 'The Ocean''s "twilight zone": climate risks at the next fisheries frontier'
 url: https://www.iddri.org/en/publications-and-events/blog-post/oceans-twilight-zone-climate-risks-next-fisheries-frontier
@@ -38,3 +39,4 @@ year: '2020'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/oceans-twilight-zone-climate-risks-next-fisheries-frontier)
+- [PDF](Wright, Glen et al. - 2020 - The Ocean's twilight zone climate risks at the .pdf)

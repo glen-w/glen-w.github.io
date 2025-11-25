@@ -21,6 +21,7 @@ description: The mesopelagic, or "twilight zone" - the waters of the open ocean 
   fish are unpalatable but proposals are emerging t...
 entry_type: Webinar
 layout: library-item
+pdf: Mesopelagic fisheries webinar.pdf
 tags: []
 title: 'Fishing in the Twilight Zone: illuminating governance challenges at the next
   fisheries frontier'
@@ -31,3 +32,7 @@ year: '2020'
 ## Publication Details
 
 **Authors:** Glen Wright
+
+## Links and Resources
+
+- [PDF](Mesopelagic fisheries webinar.pdf)

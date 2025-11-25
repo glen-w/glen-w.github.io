@@ -10,6 +10,7 @@ description: Submission to the Australian Energy Market Commission (AEMC):Inclus
   of Embedded Generation Resear...
 entry_type: Submission
 layout: library-item
+pdf: Street - Total Environment Centre Submission to the AEMC.PDF
 publisher: Total Environment Centre
 tags: []
 title: Submission to the Australian Energy Market Commission (AEMC):Inclusion of Embedded
@@ -22,3 +23,7 @@ year: '2011'
 
 **Authors:** Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](Street - Total Environment Centre Submission to the AEMC.PDF)

@@ -10,6 +10,7 @@ description: 'Submission to National Australian Built Environment Rating System 
   Administrator: Review of ...'
 entry_type: Submission
 layout: library-item
+pdf: NABERS cogen submission.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Submission to National Australian Built Environment Rating System (NABERS)
@@ -23,3 +24,7 @@ year: '2012'
 
 **Authors:** Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](NABERS cogen submission.pdf)

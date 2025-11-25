@@ -30,6 +30,7 @@ doi: https://doi.org/10.1016/j.marpol.2015.06.030
 entry_type: Journal article
 layout: library-item
 pages: 134--148
+pdf: Wright et al. - 2015 - Advancing marine biodiversity protection through r.pdf
 tags: []
 title: 'Advancing marine biodiversity protection through regional fisheries management:
   A review of bottom fisheries closures in areas beyond national jurisdiction'
@@ -48,3 +49,4 @@ year: '2015'
 ## Links and Resources
 
 - [DOI](https://doi.org/10.1016/j.marpol.2015.06.030)
+- [PDF](Wright et al. - 2015 - Advancing marine biodiversity protection through r.pdf)

@@ -10,6 +10,7 @@ description: Wild Law
 entry_type: Conference
 layout: library-item
 location: Canberra, Australia
+pdf: Wild Law, Pecha Kucha.pdf
 tags: []
 title: Wild Law
 venue: 'ANU Sustainability and Human Ecology Pecha Kucha Evening: Sustaining People,
@@ -22,3 +23,7 @@ year: '2012'
 **Authors:** Glen Wright
 **Venue:** ANU Sustainability and Human Ecology Pecha Kucha Evening: Sustaining People, Sustaining Place
 **Location:** Canberra, Australia
+
+## Links and Resources
+
+- [PDF](Wild Law, Pecha Kucha.pdf)

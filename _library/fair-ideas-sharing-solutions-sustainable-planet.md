@@ -9,6 +9,7 @@ description: 'Fair Ideas: Sharing Solutions for a Sustainable Planet'
 entry_type: Conference
 layout: library-item
 location: Pontifícia Universidade Católica, Rio de Janeiro, Brazil
+pdf: 2012 - Fair Ideas Sharing Solutions for a Sustainable Planet.pdf
 publisher: IIED
 tags: []
 title: 'Fair Ideas: Sharing Solutions for a Sustainable Planet'
@@ -25,3 +26,4 @@ year: '2012'
 ## Links and Resources
 
 - [Original URL](https://www.iied.org/g03347)
+- [PDF](2012 - Fair Ideas Sharing Solutions for a Sustainable Planet.pdf)

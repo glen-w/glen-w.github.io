@@ -35,6 +35,7 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '8'
+pdf: 202305-IB0423-deep sea mining_1.pdf
 tags: []
 title: 'Digging deep: critical questions remain in the rush to regulate seabed mining'
 venue: IDDRI
@@ -47,3 +48,7 @@ year: '2022'
 **Venue:** IDDRI
 **Pages:** 8
 **Institution:** IDDRI
+
+## Links and Resources
+
+- [PDF](202305-IB0423-deep sea mining_1.pdf)

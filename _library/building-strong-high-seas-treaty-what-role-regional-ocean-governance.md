@@ -10,6 +10,7 @@ description: Building a Strong High Seas Treaty - What is the Role for Regional 
 entry_type: Workshop
 layout: library-item
 location: New York, NY, USA
+pdf: agenda.pdf
 publisher: STRONG High Seas
 tags: []
 title: Building a Strong High Seas Treaty - What is the Role for Regional Ocean Governance?
@@ -21,3 +22,7 @@ year: '2018'
 
 **Location:** New York, NY, USA
 **Publisher:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](agenda.pdf)

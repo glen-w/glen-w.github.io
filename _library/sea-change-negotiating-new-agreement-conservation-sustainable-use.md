@@ -12,6 +12,7 @@ description: 'Sea change: Negotiating a new agreement on the conservation and su
 entry_type: Report
 institution: IDDRI
 layout: library-item
+pdf: Wright and Rochette - Sea change Negotiating a new agreement on the con.pdf
 tags: []
 title: 'Sea change: Negotiating a new agreement on the conservation and sustainable
   use of marine biodiversity in areas beyond national jurisdiction'
@@ -24,3 +25,7 @@ year: '2016'
 **Authors:** Glen Wright, Julien Rochette
 **Venue:** IDDRI
 **Institution:** IDDRI
+
+## Links and Resources
+
+- [PDF](Wright and Rochette - Sea change Negotiating a new agreement on the con.pdf)

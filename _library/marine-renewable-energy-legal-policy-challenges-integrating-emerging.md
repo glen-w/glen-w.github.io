@@ -14,6 +14,7 @@ gallery:
 - DSC_9111
 layout: library-item
 location: Berlin, Germany
+pdf: 2012-Marine_Renewable_Energy_Legal_and_Policy_Challenges_to_Integrating_an_Emerging_Renewable_Energy_Source.pdf
 preview: DSC_9105
 tags: []
 title: 'Marine Renewable Energy: Legal and Policy Challenges to Integrating an Emerging
@@ -32,6 +33,7 @@ year: '2012'
 ## Links and Resources
 
 - [Original URL](https://www.ikem.de/en/summer-academy-2012/)
+- [PDF](2012-Marine_Renewable_Energy_Legal_and_Policy_Challenges_to_Integrating_an_Emerging_Renewable_Energy_Source.pdf)
 
 ## Notes
 

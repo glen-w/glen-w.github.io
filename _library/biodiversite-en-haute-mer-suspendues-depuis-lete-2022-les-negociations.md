@@ -11,6 +11,7 @@ description: Cette session sera-t-elle la dernière ? Suspendues en août dernie
   négociations sur le futur traité juridiquement contraignant visant à conserver...
 entry_type: Newspaper
 layout: library-item
+pdf: Biodiversité en haute mer _ suspendues depuis l’été 2022, les négociations....pdf
 tags: []
 title: 'Biodiversité en haute mer : suspendues depuis l’été 2022, les négociations
   rouvrent pour un potentiel dernier round'
@@ -27,3 +28,4 @@ year: '2023'
 ## Links and Resources
 
 - [Original URL](https://www.aefinfo.fr/depeche/687707-biodiversite-en-haute-mer-suspendues-depuis-l-ete-2022-les-negociations-rouvrent-pour-un-potentiel-dernier-round)
+- [PDF](Biodiversité en haute mer _ suspendues depuis l’été 2022, les négociations....pdf)

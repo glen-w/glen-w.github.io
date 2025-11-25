@@ -152,6 +152,28 @@ class TagExtractor:
         
         return normalized_languages
     
+    def extract_selected(self, entry: Dict[str, any]) -> bool:
+        """
+        Extract selected tag from annote field (Zotero Notes export).
+        
+        Checks for [selected] marker (case-insensitive) anywhere in annote field.
+        
+        Args:
+            entry: BibTeX entry dictionary
+            
+        Returns:
+            Boolean indicating if entry should be marked as selected
+        """
+        # Check annote field (Zotero Notes export standard)
+        annote = entry.get('annote', '')
+        if annote:
+            annote_text = annote.strip()
+            # Check for [selected] marker (case-insensitive)
+            if '[selected]' in annote_text.lower():
+                return True
+        
+        return False
+    
     def extract_all_tags(self, entry: Dict[str, any]) -> Dict[str, any]:
         """
         Extract all tags (type, roles, languages) from an entry.

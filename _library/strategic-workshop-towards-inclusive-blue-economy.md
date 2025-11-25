@@ -9,6 +9,7 @@ description: 'Strategic workshop: towards an inclusive blue economy'
 entry_type: Workshop
 layout: library-item
 location: Windsor Great Park, SL4 2HP, UK
+pdf: Background doc for Cumberland Lodge participants.pdf
 publisher: IIED
 tags: []
 title: 'Strategic workshop: towards an inclusive blue economy'
@@ -20,3 +21,7 @@ year: '2019'
 
 **Location:** Windsor Great Park, SL4 2HP, UK
 **Publisher:** IIED
+
+## Links and Resources
+
+- [PDF](Background doc for Cumberland Lodge participants.pdf)

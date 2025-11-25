@@ -13,6 +13,8 @@ description: 'Protecting our Blue Planet too: the year in ocean conservation - w
   images of an underwater world.'
 entry_type: Blog
 layout: library-item
+pdf: Protecting our Blue Planet too_ the year in ocean conservation - Blue Planet
+  Society.pdf
 tags: []
 title: 'Protecting our Blue Planet too: the year in ocean conservation'
 url: https://blueplanetsociety.org/protecting-blue-planet/
@@ -28,3 +30,4 @@ year: '2017'
 ## Links and Resources
 
 - [Original URL](https://blueplanetsociety.org/protecting-blue-planet/)
+- [PDF](Protecting our Blue Planet too_ the year in ocean conservation - Blue Planet Society.pdf)

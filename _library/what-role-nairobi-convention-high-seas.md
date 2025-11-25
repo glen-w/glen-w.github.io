@@ -12,6 +12,7 @@ description: What role for the Nairobi Convention in the high seas?
 entry_type: Side event
 layout: library-item
 location: Mahé, Seychelles
+pdf: Side-event, ABNJ.pdf
 publisher: IDDRI, FFEM, IUCN
 tags: []
 title: What role for the Nairobi Convention in the high seas?
@@ -27,3 +28,7 @@ year: '2015'
 **Venue:** 8th Conference of Parties to the Nairobi Convention for the Protection, Management and Development of the Marine and Coastal Environment of the Western Indian Ocean Region
 **Location:** Mahé, Seychelles
 **Publisher:** IDDRI, FFEM, IUCN
+
+## Links and Resources
+
+- [PDF](Side-event, ABNJ.pdf)

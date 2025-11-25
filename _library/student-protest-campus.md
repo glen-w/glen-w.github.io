@@ -10,6 +10,7 @@ description: Student Protest on Campus
 entry_type: Report
 institution: Activists Legal Project
 layout: library-item
+pdf: Campus law briefing.pdf
 tags: []
 title: Student Protest on Campus
 venue: Activists Legal Project
@@ -21,3 +22,7 @@ year: '2007'
 **Authors:** Glen Wright
 **Venue:** Activists Legal Project
 **Institution:** Activists Legal Project
+
+## Links and Resources
+
+- [PDF](Campus law briefing.pdf)

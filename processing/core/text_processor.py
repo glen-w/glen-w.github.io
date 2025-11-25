@@ -7,6 +7,7 @@ Handles all text cleaning, normalization, and processing operations.
 import re
 import sys
 import os
+import string
 from typing import Dict, List, Optional
 
 # Add the processing directory to the Python path
@@ -375,8 +376,20 @@ class TextProcessor:
         cache_string = f"{clean_title}|{clean_author}"
         return hashlib.md5(cache_string.encode('utf-8')).hexdigest()
     
-    def generate_filename(self, citation_key: str, fields: Dict[str, str], file_type: str = 'pdf') -> Optional[str]:
-        """Generate a filename for a file based on BibTeX entry fields."""
+    def generate_filename(self, citation_key: str, fields: Dict[str, str], file_type: str = 'pdf', 
+                         existing_filenames: set = None, check_directory: str = None) -> Optional[str]:
+        """Generate a filename for a file based on BibTeX entry fields.
+        
+        Args:
+            citation_key: The BibTeX citation key
+            fields: Dictionary of BibTeX fields
+            file_type: Type of file ('pdf', 'jpeg', etc.)
+            existing_filenames: Set of existing filenames to check for collisions
+            check_directory: Directory path to check for existing files (alternative to existing_filenames)
+        
+        Returns:
+            Unique filename with appropriate extension, or None if generation fails
+        """
         try:
             # Extract basic information
             title = fields.get('title', '')
@@ -417,13 +430,45 @@ class TextProcessor:
             # Clean the filename to remove any invalid characters
             base_filename = self.clean_filename(base_filename)
             
-            # Add appropriate extension
+            # Determine extension
             if file_type == 'pdf':
-                return f"{base_filename}.pdf"
+                extension = '.pdf'
             elif file_type in ['jpeg', 'jpg']:
-                return f"{base_filename}.jpeg"
+                extension = '.jpeg'
             else:
-                return f"{base_filename}.{file_type}"
+                extension = f'.{file_type}'
+            
+            # Generate base filename with extension
+            candidate_filename = f"{base_filename}{extension}"
+            
+            # Check for collisions and append sequential letters if needed
+            if existing_filenames is None:
+                existing_filenames = set()
+            
+            # Only check directory if existing_filenames is empty (not tracking session filenames)
+            # When existing_filenames is provided (non-empty), it means we're tracking filenames
+            # for the current entry only - don't add directory files to avoid false collisions
+            if check_directory and os.path.exists(check_directory) and len(existing_filenames) == 0:
+                for existing_file in os.listdir(check_directory):
+                    if existing_file not in existing_filenames:
+                        existing_filenames.add(existing_file)
+            
+            # If filename is unique, return it
+            if candidate_filename not in existing_filenames:
+                existing_filenames.add(candidate_filename)
+                return candidate_filename
+            
+            # Otherwise, append sequential letters (a, b, c, ...) until unique
+            # This only happens when multiple PDFs for the SAME entry would generate the same filename
+            for suffix in string.ascii_lowercase:
+                candidate_filename = f"{base_filename}_{suffix}{extension}"
+                if candidate_filename not in existing_filenames:
+                    existing_filenames.add(candidate_filename)
+                    return candidate_filename
+            
+            # If we've exhausted all letters (extremely unlikely), return None
+            print(f"  ⚠️  Could not generate unique filename for {citation_key} (exhausted all suffixes)")
+            return None
                 
         except Exception as e:
             print(f"  ❌ Error generating filename for {citation_key}: {e}")

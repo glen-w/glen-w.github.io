@@ -11,6 +11,7 @@ description: Regional approaches for ABNJ – state of play
 entry_type: Workshop
 layout: library-item
 location: Mahe, Seychelles
+pdf: Agenda_Mahe.pdf
 publisher: Partnership for Regional Ocean Governance (UNEP, IASS, IDDRI)
 tags: []
 title: Regional approaches for ABNJ – state of play
@@ -23,3 +24,7 @@ year: '2015'
 **Authors:** Thomas Greiber, Glen Wright
 **Location:** Mahe, Seychelles
 **Publisher:** Partnership for Regional Ocean Governance (UNEP, IASS, IDDRI)
+
+## Links and Resources
+
+- [PDF](Agenda_Mahe.pdf)

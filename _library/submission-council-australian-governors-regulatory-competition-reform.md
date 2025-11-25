@@ -11,6 +11,7 @@ description: 'Submission to Council of Australian Governors: Regulatory and Comp
   Reform'
 entry_type: Submission
 layout: library-item
+pdf: Wright and Centre - TOTAL ENVIRONMENT CENTRE INC.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Submission to Council of Australian Governors: Regulatory and Competition
@@ -23,3 +24,7 @@ year: '2012'
 
 **Authors:** Mark Byrne, Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](Wright and Centre - TOTAL ENVIRONMENT CENTRE INC.pdf)

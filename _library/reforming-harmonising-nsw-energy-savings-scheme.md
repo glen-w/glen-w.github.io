@@ -10,6 +10,7 @@ description: Reforming and Harmonising the NSW Energy Savings Scheme
 entry_type: Report
 institution: Total Environment Centre
 layout: library-item
+pdf: TEC Energy Efficiency Briefing Note, FINAL 6 April.pdf
 tags: []
 title: Reforming and Harmonising the NSW Energy Savings Scheme
 venue: Total Environment Centre
@@ -21,3 +22,7 @@ year: '2014'
 **Authors:** Glen Wright
 **Venue:** Total Environment Centre
 **Institution:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](TEC Energy Efficiency Briefing Note, FINAL 6 April.pdf)

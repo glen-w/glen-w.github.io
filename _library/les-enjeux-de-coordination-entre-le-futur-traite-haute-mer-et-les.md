@@ -13,6 +13,8 @@ description: Les enjeux de coordination entre le futur traité haute mer et les 
 entry_type: Workshop
 layout: library-item
 location: Paris, France
+pdf: Jacquinot - Les enjeux de coordination entre le futur traité haute mer et les
+  organisations existantes.pdf
 tags: []
 title: Les enjeux de coordination entre le futur traité haute mer et les organisations
   existantes
@@ -25,3 +27,7 @@ year: '2020'
 **Authors:** Julien Rochette, Klaudija Cremers, Glen Wright
 **Venue:** 16ème reunion du Groupe informel haute mer
 **Location:** Paris, France
+
+## Links and Resources
+
+- [PDF](Jacquinot - Les enjeux de coordination entre le futur traité haute mer et les organisations existantes.pdf)

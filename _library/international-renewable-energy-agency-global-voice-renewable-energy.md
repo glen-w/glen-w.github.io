@@ -20,6 +20,7 @@ description: The International Renewable Energy Agency held the first session of
 entry_type: Journal article
 layout: library-item
 pages: 251--268
+pdf: 2011-The_International_Renewable_Energy_Agency_A_Global_Voice_for_the_Renewable_Energy_Era.pdf
 preview: thumbnail
 tags: []
 title: 'The International Renewable Energy Agency: A Global Voice for the Renewable
@@ -40,3 +41,4 @@ year: '2011'
 ## Links and Resources
 
 - [Original URL](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2000433)
+- [PDF](2011-The_International_Renewable_Energy_Agency_A_Global_Voice_for_the_Renewable_Energy_Era.pdf)

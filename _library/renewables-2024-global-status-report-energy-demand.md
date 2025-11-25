@@ -27,6 +27,7 @@ description: Despite a notable decline in the prices of fossil fuels and other e
 entry_type: Report
 institution: REN21
 layout: library-item
+pdf: GSR2024_Demand_Full_Report.pdf
 tags: []
 title: 'Renewables 2024 Global Status Report: Energy Demand'
 url: https://www.ren21.net/gsr-2024/modules/energy_demand
@@ -43,3 +44,4 @@ year: '2024'
 ## Links and Resources
 
 - [Original URL](https://www.ren21.net/gsr-2024/modules/energy_demand)
+- [PDF](GSR2024_Demand_Full_Report.pdf)

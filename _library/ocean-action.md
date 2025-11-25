@@ -9,6 +9,7 @@ description: Ocean Action
 entry_type: Conference
 layout: library-item
 location: Brussels, Belgium
+pdf: Conference_report_Ocean_Action.pdf
 preview: thumbnail
 publisher: Seas at Risk
 tags: []
@@ -21,3 +22,7 @@ year: '2020'
 
 **Location:** Brussels, Belgium
 **Publisher:** Seas at Risk
+
+## Links and Resources
+
+- [PDF](Conference_report_Ocean_Action.pdf)

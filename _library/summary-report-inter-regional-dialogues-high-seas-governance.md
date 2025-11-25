@@ -20,6 +20,7 @@ description: Member States at the United Nations (UN) are currently negotiating 
 entry_type: Report
 institution: STRONG High Seas
 layout: library-item
+pdf: STRONG-inter-regional-dialogues-summary-report.pdf
 tags: []
 title: 'Summary report: Inter-regional Dialogues on High Seas Governance'
 venue: STRONG High Seas
@@ -31,3 +32,7 @@ year: '2022'
 **Authors:** Glen Wright
 **Venue:** STRONG High Seas
 **Institution:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](STRONG-inter-regional-dialogues-summary-report.pdf)

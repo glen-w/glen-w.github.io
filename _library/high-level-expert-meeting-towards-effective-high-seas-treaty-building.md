@@ -12,6 +12,7 @@ entry_type: Workshop
 institution: STRONG High Seas
 layout: library-item
 location: New York, USA
+pdf: 2019_High-level-expert-meeting_New-York_summary.pdf
 tags: []
 title: 'High-level expert meeting: Towards an Effective High Seas Treaty: Building
   on and Strengthening Regional Ocean Governance'
@@ -25,3 +26,7 @@ year: '2019'
 **Venue:** STRONG High Seas
 **Location:** New York, USA
 **Institution:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](2019_High-level-expert-meeting_New-York_summary.pdf)

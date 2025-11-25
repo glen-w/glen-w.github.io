@@ -28,6 +28,7 @@ entry_type: Journal article
 layout: library-item
 number: '1'
 pages: 30--36
+pdf: Wright et al. - 2023 - A High Seas Treaty on the Horizon Progress and Pr.pdf
 tags: []
 title: 'A High Seas Treaty on the Horizon: Progress and Prospects for the Intergovernmental
   Conference'
@@ -49,3 +50,4 @@ year: '2023'
 
 - [Original URL](https://brill.com/view/journals/ocyo/37/1/article-p30_3.xml)
 - [DOI](https://doi.org/10.1163/22116001-03701004)
+- [PDF](Wright et al. - 2023 - A High Seas Treaty on the Horizon Progress and Pr.pdf)

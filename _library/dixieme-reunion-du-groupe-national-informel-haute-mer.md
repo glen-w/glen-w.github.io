@@ -9,6 +9,7 @@ description: Dixième réunion du Groupe national informel haute mer
 entry_type: Workshop
 layout: library-item
 location: Paris, France
+pdf: IDDRI et al. - 2017 - Dixième réunion du Groupe national informel haute mer.pdf
 publisher: IDDRI, Agence française pour la biodiversité, Institut océanographique
   de Paris
 tags: []
@@ -21,3 +22,7 @@ year: '2017'
 
 **Location:** Paris, France
 **Publisher:** IDDRI, Agence française pour la biodiversité, Institut océanographique de Paris
+
+## Links and Resources
+
+- [PDF](IDDRI et al. - 2017 - Dixième réunion du Groupe national informel haute mer.pdf)

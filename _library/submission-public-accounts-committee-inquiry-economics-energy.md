@@ -11,6 +11,7 @@ description: 'Submission to the Public Accounts Committee: Inquiry into the Econ
   of Energy Generation'
 entry_type: Submission
 layout: library-item
+pdf: Byrne and Wright - 2012 - Inquiry into the Economics of Energy Generation.pdf
 tags: []
 title: 'Submission to the Public Accounts Committee: Inquiry into the Economics of
   Energy Generation'
@@ -21,3 +22,7 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Mark Byrne, Glen Wright
+
+## Links and Resources
+
+- [PDF](Byrne and Wright - 2012 - Inquiry into the Economics of Energy Generation.pdf)

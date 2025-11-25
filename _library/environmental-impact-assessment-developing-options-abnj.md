@@ -10,6 +10,7 @@ description: 'Environmental Impact Assessment: Developing options for ABNJ'
 entry_type: Workshop
 layout: library-item
 location: Guanacaste, Costa Rica
+pdf: Rica - Developing options for ABNJ.pdf
 tags: []
 title: 'Environmental Impact Assessment: Developing options for ABNJ'
 venue: Informal Meeting to Consider the Substantive Aspects of a New International
@@ -23,3 +24,7 @@ year: '2016'
 **Authors:** Glen Wright
 **Venue:** Informal Meeting to Consider the Substantive Aspects of a New International Instrument for the Conservation and Sustainable Use of Marine Biodiversity beyond National Jurisdiction
 **Location:** Guanacaste, Costa Rica
+
+## Links and Resources
+
+- [PDF](Rica - Developing options for ABNJ.pdf)

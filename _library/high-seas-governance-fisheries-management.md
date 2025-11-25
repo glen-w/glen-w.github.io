@@ -9,6 +9,7 @@ description: High seas governance and fisheries management
 entry_type: Workshop
 layout: library-item
 location: Paris, France
+pdf: agenda_participants_final.pdf
 publisher: IDDRI
 tags: []
 title: High seas governance and fisheries management
@@ -20,3 +21,7 @@ year: '2018'
 
 **Location:** Paris, France
 **Publisher:** IDDRI
+
+## Links and Resources
+
+- [PDF](agenda_participants_final.pdf)

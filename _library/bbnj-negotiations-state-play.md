@@ -10,6 +10,7 @@ description: 'BBNJ Negotiations: State of play'
 entry_type: Training
 layout: library-item
 location: New York, NY, USA
+pdf: Wright - BBNJ Negotiations State of play.pdf
 publisher: STRONG High Seas
 tags: []
 title: 'BBNJ Negotiations: State of play'
@@ -23,3 +24,7 @@ year: '2018'
 **Venue:** BBNJ Training for UN Negotiations
 **Location:** New York, NY, USA
 **Publisher:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](Wright - BBNJ Negotiations State of play.pdf)

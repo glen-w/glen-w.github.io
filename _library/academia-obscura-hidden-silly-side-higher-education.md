@@ -9,6 +9,7 @@ date: '2018-01-01'
 description: 'Academia Obscura: The Hidden Silly Side of Higher Education'
 entry_type: Book
 layout: library-item
+pdf: Wright - Academia Obscura The Hidden Silly Side of Higher Education.pdf
 publisher: Penguin Random House (Unbound)
 tags: []
 title: 'Academia Obscura: The Hidden Silly Side of Higher Education'
@@ -25,3 +26,4 @@ year: '2018'
 ## Links and Resources
 
 - [Original URL](https://www.amazon.com/Academia-Obscura-Hidden-Higher-Education/dp/1783523417)
+- [PDF](Wright - Academia Obscura The Hidden Silly Side of Higher Education.pdf)

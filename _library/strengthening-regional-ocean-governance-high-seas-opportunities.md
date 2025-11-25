@@ -26,6 +26,7 @@ entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '92'
+pdf: Online_IASS_Summary_EN_190227.pdf
 tags: []
 title: 'Strengthening Regional Ocean Governance for the High Seas: Opportunities and
   Challenges to Improve the Legal and Institutional Framework of the Southeast Atlantic
@@ -44,3 +45,4 @@ year: '2018'
 ## Links and Resources
 
 - [DOI](https://doi.org/10.2312/iass.2018.025)
+- [PDF](Online_IASS_Summary_EN_190227.pdf)

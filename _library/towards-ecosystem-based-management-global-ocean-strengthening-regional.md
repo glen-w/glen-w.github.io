@@ -15,6 +15,7 @@ entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '28'
+pdf: Gjerde and Wright - 2019 - Hacia una gestión ecosistémica del océano Fortale.pdf
 tags: []
 title: 'Towards Ecosystem-based Management of the Global Ocean: Strengthening Regional
   Cooperation through a New Agreement for the Conservation and Sustainable Use of
@@ -34,6 +35,7 @@ year: '2019'
 ## Links and Resources
 
 - [Original URL](https://publications.rifs-potsdam.de/pubman/item/item_4979888)
+- [PDF](Gjerde and Wright - 2019 - Hacia una gestión ecosistémica del océano Fortale.pdf)
 
 ## Notes
 

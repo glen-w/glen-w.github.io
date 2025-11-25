@@ -14,6 +14,7 @@ description: 'Conserving the Global Ocean: Initial Indications for Effective Are
 entry_type: Report
 institution: STRONG High Seas
 layout: library-item
+pdf: full-text.pdf
 preview: BBNJ_Graph_FINAL.jpg
 tags: []
 title: 'Conserving the Global Ocean: Initial Indications for Effective Area-based
@@ -32,3 +33,4 @@ year: '2022'
 ## Links and Resources
 
 - [Original URL](www.prog-ocean.org/our-work/strong-high-seas/)
+- [PDF](full-text.pdf)

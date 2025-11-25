@@ -23,6 +23,7 @@ description: Building on recent work by DIW Berlin, Ecologic, and Client Earth, 
   IEA Tracking Clean Energy Progress reports,...
 entry_type: Workshop
 layout: library-item
+pdf: Workshop Agenda_Climate targets (2).pdf
 tags: []
 title: Workshop on supplementary indicators towards climate targets
 url: https://www.diw.de/en/diw_01.c.897050.en/events/supplementary_indicators_towards_climate_targets.html
@@ -33,3 +34,4 @@ year: '2023'
 ## Links and Resources
 
 - [Original URL](https://www.diw.de/en/diw_01.c.897050.en/events/supplementary_indicators_towards_climate_targets.html)
+- [PDF](Workshop Agenda_Climate targets (2).pdf)

@@ -10,6 +10,7 @@ description: The Future of Environmental Law? Earth Jurisprudence, Wild Law and 
   Rights of Nature
 entry_type: Newspaper
 layout: library-item
+pdf: ambiente-glen wright.pdf
 tags: []
 title: The Future of Environmental Law? Earth Jurisprudence, Wild Law and the Rights
   of Nature
@@ -23,3 +24,7 @@ year: '2012'
 **Authors:** Glen Wright
 **Venue:** Ambiente
 **Volume:** 1
+
+## Links and Resources
+
+- [PDF](ambiente-glen wright.pdf)

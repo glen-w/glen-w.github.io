@@ -15,6 +15,7 @@ entry_type: Journal article
 layout: library-item
 number: '1'
 pages: 1--12
+pdf: 2014-Regulating_marine_renewable_energy_development_a_preliminary_assessment_of_UK_permitting_processes.pdf
 tags:
 - marine renewable energy
 - crown estate leasing process
@@ -39,3 +40,4 @@ year: '2014'
 ## Links and Resources
 
 - [DOI](https://doi.org/10.3723/ut.32.000)
+- [PDF](2014-Regulating_marine_renewable_energy_development_a_preliminary_assessment_of_UK_permitting_processes.pdf)

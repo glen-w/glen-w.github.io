@@ -11,6 +11,7 @@ description: 'Sumbission to the Australian Energy Market Commission (AEMC): Stra
   priorities'
 entry_type: Submission
 layout: library-item
+pdf: TEC sub AEMC strategic priorities 7 May 2013.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Sumbission to the Australian Energy Market Commission (AEMC): Strategic priorities'
@@ -22,3 +23,7 @@ year: '2013'
 
 **Authors:** Mark Byrne, Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](TEC sub AEMC strategic priorities 7 May 2013.pdf)

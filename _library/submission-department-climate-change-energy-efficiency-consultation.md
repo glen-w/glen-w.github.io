@@ -11,6 +11,7 @@ description: 'Submission to the Department of Climate Change and Energy Efficien
   Consultation on a national Ene...'
 entry_type: Submission
 layout: library-item
+pdf: Street - 2012 - TOTAL ENVIRONMENT CENTRE INC.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Submission to the Department of Climate Change and Energy Efficiency: Consultation
@@ -23,3 +24,7 @@ year: '2012'
 
 **Authors:** Jeff Angel, Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](Street - 2012 - TOTAL ENVIRONMENT CENTRE INC.pdf)

@@ -11,6 +11,8 @@ description: 'Biodiversity Beyond National Jurisdictions: Area-based Management 
 entry_type: Workshop
 layout: library-item
 location: Gland, Switzerland
+pdf: IUCN - Biodiversity Beyond National Jurisdictions Area-based Management Tools,
+  including Marine Protected.pdf
 tags: []
 title: 'Biodiversity Beyond National Jurisdictions: Area-based Management Tools, including
   Marine Protected Areas'
@@ -22,3 +24,7 @@ year: '2017'
 
 **Authors:** IUCN
 **Location:** Gland, Switzerland
+
+## Links and Resources
+
+- [PDF](IUCN - Biodiversity Beyond National Jurisdictions Area-based Management Tools, including Marine Protected.pdf)

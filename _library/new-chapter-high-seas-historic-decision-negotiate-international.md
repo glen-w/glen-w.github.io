@@ -39,6 +39,7 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '4'
+pdf: 2015-A_new_chapter_for_the_high_seas_Historic_decision_to_negotiate_an_international_legally_binding_instrument_on_the_c.pdf
 tags: []
 title: A new chapter for the high seas? Historic decision to negotiate an international
   legally binding instrument on the conservation and sustainable use of marine biodiversity
@@ -53,6 +54,10 @@ year: '2015'
 **Venue:** IDDRI
 **Pages:** 4
 **Institution:** IDDRI
+
+## Links and Resources
+
+- [PDF](2015-A_new_chapter_for_the_high_seas_Historic_decision_to_negotiate_an_international_legally_binding_instrument_on_the_c.pdf)
 
 ## Notes
 

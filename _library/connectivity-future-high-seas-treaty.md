@@ -10,6 +10,7 @@ description: Connectivity in a Future High Seas Treaty
 entry_type: Side event
 layout: library-item
 location: United Nations, New York City, NY, USA
+pdf: Notes on connectivity 190327.pdf
 preview: photo
 tags: []
 title: Connectivity in a Future High Seas Treaty
@@ -22,3 +23,7 @@ year: '2019'
 **Authors:** Glen Wright
 **Venue:** IIED side event
 **Location:** United Nations, New York City, NY, USA
+
+## Links and Resources
+
+- [PDF](Notes on connectivity 190327.pdf)

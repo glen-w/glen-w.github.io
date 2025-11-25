@@ -14,6 +14,7 @@ description: Désastreuse pour les écosystèmes marins, la pêche en eaux profo
   cette pratique est attendue à l’été 2016.
 entry_type: Newspaper
 layout: library-item
+pdf: Wright and Druel - L’Union européenne va-t-elle enfin mettre un terme.pdf
 tags: []
 title: L’Union européenne va-t-elle enfin mettre un terme au chalutage profond ?
 url: http://theconversation.com/lunion-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond-58469
@@ -29,3 +30,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](http://theconversation.com/lunion-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond-58469)
+- [PDF](Wright and Druel - L’Union européenne va-t-elle enfin mettre un terme.pdf)

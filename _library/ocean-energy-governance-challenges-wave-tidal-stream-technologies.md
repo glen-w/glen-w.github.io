@@ -8,10 +8,11 @@ date: '2017-01-01'
 description: 'Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies'
 entry_type: Book
 gallery:
-- '9780367403812'
 - PDF
+- thumbnail
 layout: library-item
-preview: '9780367403812'
+pdf: 9780367403812.jpg.pdf
+preview: PDF
 publisher: Earthscan
 tags: []
 title: 'Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies'
@@ -27,3 +28,4 @@ year: '2017'
 ## Links and Resources
 
 - [Original URL](https://www.routledge.com/Ocean-Energy-Governance-Challenges-for-Wave-and-Tidal-Stream-Technologies/Wright-Kerr-Johnson/p/book/9780367403812)
+- [PDF](9780367403812.jpg.pdf)

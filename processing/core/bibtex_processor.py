@@ -786,7 +786,7 @@ class BibTeXProcessor:
         """Get files for thumbnail generation in priority order.
         
         Returns list of dicts with 'path', 'type', and 'priority' keys.
-        Priority: 1=thumbnail file, 2=agenda PDF, 3=most recent PDF
+        Priority: 1=thumbnail file, 2=slides PDF, 3=agenda PDF, 4=most recent PDF
         """
         if not file_field:
             return []
@@ -803,16 +803,22 @@ class BibTeXProcessor:
                 elif file_ext in ['.png', '.jpg', '.jpeg']:
                     priority_files.append({'path': path, 'type': 'image', 'priority': 1})
         
-        # Priority 2: Agenda PDFs
-        agenda_paths = self.extract_agenda_pdfs(file_field)
-        for path in agenda_paths:
+        # Priority 2: Slides PDFs
+        slides_paths = self.extract_slides_pdfs(file_field)
+        for path in slides_paths:
             if os.path.exists(path):
                 priority_files.append({'path': path, 'type': 'pdf', 'priority': 2})
         
-        # Priority 3: Most recent PDF
+        # Priority 3: Agenda PDFs
+        agenda_paths = self.extract_agenda_pdfs(file_field)
+        for path in agenda_paths:
+            if os.path.exists(path):
+                priority_files.append({'path': path, 'type': 'pdf', 'priority': 3})
+        
+        # Priority 4: Most recent PDF
         most_recent_pdf = self.extract_most_recent_pdf(file_field)
         if most_recent_pdf and most_recent_pdf not in [f['path'] for f in priority_files]:
-            priority_files.append({'path': most_recent_pdf, 'type': 'pdf', 'priority': 3})
+            priority_files.append({'path': most_recent_pdf, 'type': 'pdf', 'priority': 4})
         
         # Sort by priority (lower number = higher priority)
         priority_files.sort(key=lambda x: x['priority'])

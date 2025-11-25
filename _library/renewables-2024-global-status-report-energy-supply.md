@@ -19,6 +19,7 @@ description: "Global investment in and deployment of renewables reached an all-t
 entry_type: Other
 institution: REN21
 layout: library-item
+pdf: GSR2024_Supply.pdf
 tags: []
 title: 'Renewables 2024 Global Status Report: Energy Supply'
 url: https://www.ren21.net/gsr-2024/modules/energy_supply/01_global_trends/
@@ -35,3 +36,4 @@ year: '2024'
 ## Links and Resources
 
 - [Original URL](https://www.ren21.net/gsr-2024/modules/energy_supply/01_global_trends/)
+- [PDF](GSR2024_Supply.pdf)

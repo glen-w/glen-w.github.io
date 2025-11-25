@@ -13,6 +13,7 @@ description: 'Developing area-based management tools in areas beyond national ju
 entry_type: Report
 institution: IDDRI
 layout: library-item
+pdf: Wright et al. - 2015 - Developing area-based management tools in areas be.PDF
 tags: []
 title: 'Developing area-based management tools in areas beyond national jurisdiction:
   possible options for the Western Indian Ocean'
@@ -25,3 +26,7 @@ year: '2015'
 **Authors:** Glen Wright, Julien Rochette, Glen Wright
 **Venue:** IDDRI
 **Institution:** IDDRI
+
+## Links and Resources
+
+- [PDF](Wright et al. - 2015 - Developing area-based management tools in areas be.PDF)

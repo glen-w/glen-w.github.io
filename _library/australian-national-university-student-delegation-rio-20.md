@@ -16,6 +16,7 @@ gallery:
 - DSC_7650
 - thumbnail
 layout: library-item
+pdf: Glen Wright Rio accreditation letter.pdf
 preview: DSC_7365
 tags: []
 title: Australian National University student delegation to Rio+20
@@ -23,3 +24,6 @@ venue: ''
 year: '2012'
 ---
 
+## Links and Resources
+
+- [PDF](Glen Wright Rio accreditation letter.pdf)

@@ -11,6 +11,7 @@ description: 'Areas Beyond National Jurisdiction in the Western Indian Ocean: Op
 entry_type: Workshop
 layout: library-item
 location: Mahé, Seychelles
+pdf: Wright - Nairobi Convention, MSP workshop.pdf
 tags: []
 title: 'Areas Beyond National Jurisdiction in the Western Indian Ocean: Options for
   Governance & Management'
@@ -23,3 +24,7 @@ year: '2017'
 **Authors:** Glen Wright
 **Venue:** Nairobi Convention Marine Spatial Planning (MSP) Workshop
 **Location:** Mahé, Seychelles
+
+## Links and Resources
+
+- [PDF](Wright - Nairobi Convention, MSP workshop.pdf)

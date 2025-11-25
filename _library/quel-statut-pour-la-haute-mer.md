@@ -14,6 +14,7 @@ gallery:
 - Capture d’écran 2016-11-30 à 19.13.14
 layout: library-item
 location: Paris, France
+pdf: Conf 23 nov  1 seul océan.pdf
 preview: Capture d’écran 2016-11-30 à 19.12.42
 tags: []
 title: Quel statut pour la haute mer ?
@@ -26,3 +27,7 @@ year: '2016'
 **Authors:** Glen Wright
 **Venue:** Un seul océan : enjeux et solutions
 **Location:** Paris, France
+
+## Links and Resources
+
+- [PDF](Conf 23 nov  1 seul océan.pdf)

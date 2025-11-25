@@ -12,6 +12,7 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '2'
+pdf: Wright and Rochette - 2016 - An overview of vulnerable marine ecosystem closure.pdf
 tags: []
 title: An overview of vulnerable marine ecosystem closures
 url: https://www.iddri.org/en/publications-and-events/decryptage/overview-vulnerable-marine-ecosystem-closures
@@ -29,3 +30,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/decryptage/overview-vulnerable-marine-ecosystem-closures)
+- [PDF](Wright and Rochette - 2016 - An overview of vulnerable marine ecosystem closure.pdf)

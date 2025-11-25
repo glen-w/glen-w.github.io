@@ -9,6 +9,7 @@ description: 'Towards Integrated Ocean Management of the High Seas: Lessons Lear
   for Regional and Global Action'
 entry_type: Workshop
 layout: library-item
+pdf: Agenda-Dialogue-Workshop-V_Official_EN.pdf
 publisher: STRONG High Seas
 tags: []
 title: 'Towards Integrated Ocean Management of the High Seas: Lessons Learnt for Regional
@@ -20,3 +21,7 @@ year: '2022'
 ## Publication Details
 
 **Publisher:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](Agenda-Dialogue-Workshop-V_Official_EN.pdf)

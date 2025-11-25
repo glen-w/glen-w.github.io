@@ -13,6 +13,7 @@ description: 'A new global treaty on the high seas will enable the creation of s
   can we protect marine areas far from the...'
 entry_type: Newspaper
 layout: library-item
+pdf: Much still pending on how high seas sanctions will work.pdf
 preview: thumbnail
 tags:
 - quoted
@@ -30,3 +31,4 @@ year: '2023'
 ## Links and Resources
 
 - [Original URL](https://www.france24.com/en/live-news/20230619-much-still-pending-on-how-high-seas-sanctions-will-work)
+- [PDF](Much still pending on how high seas sanctions will work.pdf)

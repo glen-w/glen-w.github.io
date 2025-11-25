@@ -9,6 +9,7 @@ description: 'Submission to the Australian Energy Market Commission: Economic Re
   of Network Service Provid...'
 entry_type: Submission
 layout: library-item
+pdf: Economic Regulation of NSPs.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Submission to the Australian Energy Market Commission: Economic Regulation
@@ -20,3 +21,7 @@ year: '2011'
 ## Publication Details
 
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](Economic Regulation of NSPs.pdf)

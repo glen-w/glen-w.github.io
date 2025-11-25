@@ -16,6 +16,7 @@ entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '22'
+pdf: STRONG-High-Seas-compliance-report_EN.pdf
 tags: []
 title: 'Ensuring Effective Implementation of a High Seas Biodiversity Treaty: Lessons
   Learned and Options for an Implementation and Compliance Committee'
@@ -29,3 +30,7 @@ year: '2022'
 **Venue:** STRONG High Seas
 **Pages:** 22
 **Institution:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](STRONG-High-Seas-compliance-report_EN.pdf)

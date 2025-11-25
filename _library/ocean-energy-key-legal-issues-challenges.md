@@ -14,6 +14,7 @@ institution: IDDRI
 layout: library-item
 number: '4'
 pages: '4'
+pdf: Wright et al. - Ocean energy key legal issues and challenges.pdf
 tags: []
 title: 'Ocean energy: key legal issues and challenges'
 venue: IDDRI
@@ -27,3 +28,7 @@ year: '2015'
 **Number:** 4
 **Pages:** 4
 **Institution:** IDDRI
+
+## Links and Resources
+
+- [PDF](Wright et al. - Ocean energy key legal issues and challenges.pdf)

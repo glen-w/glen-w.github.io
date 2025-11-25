@@ -28,6 +28,7 @@ description: The case concerns the standard of reasonable care and skill expecte
 entry_type: Journal article
 layout: library-item
 number: '159'
+pdf: The Standard of Reasonable Care and Skill Expected of an Accountant.pdf
 tags: []
 title: The Standard of Reasonable Care and Skill Expected of an Accountant
 venue: Global Corporate Law Bulletin
@@ -39,3 +40,7 @@ year: '2010'
 **Authors:** Glen Wright
 **Venue:** Global Corporate Law Bulletin
 **Number:** 159
+
+## Links and Resources
+
+- [PDF](The Standard of Reasonable Care and Skill Expected of an Accountant.pdf)

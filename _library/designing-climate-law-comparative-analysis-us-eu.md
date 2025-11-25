@@ -22,6 +22,7 @@ description: As evidence of anthropogenic climate change mounts there is a growi
   concern culminated in the recent climate change ...
 entry_type: Journal article
 layout: library-item
+pdf: 2010-Designing_Climate_Law_A_Comparative_Analysis_of_the_US_and_EU.pdf
 preview: thumbnail
 tags: []
 title: 'Designing Climate Law: A Comparative Analysis of the US and EU'
@@ -33,3 +34,7 @@ year: '2010'
 
 **Authors:** Glen Wright
 **Venue:** Cork Online Law Review
+
+## Links and Resources
+
+- [PDF](2010-Designing_Climate_Law_A_Comparative_Analysis_of_the_US_and_EU.pdf)

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2025-11-23 20:24:40",
+    "generated_at": "2025-11-25 02:10:53",
     "total_locations": 65,
     "successfully_geocoded": 58,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
-    "refresh_mode": false,
+    "refresh_mode": true,
     "cache_only_mode": false
   },
   "locations": [
@@ -141,8 +141,8 @@
       "entry_type": "inproceedings",
       "tag": "Workshop",
       "coordinates": {
-        "lat": 51.5320856,
-        "lng": -0.4801431
+        "lat": 51.4993857,
+        "lng": -0.1247241
       },
       "geocoded": true
     },
@@ -403,8 +403,8 @@
       "entry_type": "inproceedings",
       "tag": "Training",
       "coordinates": {
-        "lat": 40.7550594,
-        "lng": -73.9921483
+        "lat": 40.7550216,
+        "lng": -73.9920584
       },
       "geocoded": true
     },
@@ -582,7 +582,7 @@
       "year": "2015",
       "month": "",
       "entry_type": "inproceedings",
-      "tag": "Guest Lecture Training",
+      "tag": "Training",
       "coordinates": {
         "lat": 40.0053169,
         "lng": 52.9928838
@@ -632,16 +632,16 @@
       "geocoded": true
     },
     {
-      "bibtex_key": "iucnReviewWorkshopCollation2015",
-      "title": "Review Workshop: Collation of Building Blocks and Different Options for an UNCLOS Implementing Agreement",
-      "address": "Donn, Germany",
+      "bibtex_key": "iucnCollationBuildingBlocks2015",
+      "title": "Collation of Building Blocks and Different Options for an UNCLOS Implementing Agreement",
+      "address": "Bonn, Germany",
       "year": "2015",
       "month": "",
       "entry_type": "inproceedings",
       "tag": "Workshop",
       "coordinates": {
-        "lat": 48.7344466,
-        "lng": 8.3714516
+        "lat": 50.7352621,
+        "lng": 7.1024635
       },
       "geocoded": true
     },
@@ -652,10 +652,10 @@
       "year": "2014",
       "month": "",
       "entry_type": "misc",
-      "tag": "Guest Lecture",
+      "tag": "Workshop",
       "coordinates": {
-        "lat": 48.8588897,
-        "lng": 2.320041
+        "lat": 48.8534951,
+        "lng": 2.3483915
       },
       "geocoded": true
     },
@@ -694,7 +694,7 @@
       "year": "2014",
       "month": "",
       "entry_type": "inproceedings",
-      "tag": "Guest Lecture",
+      "tag": "Training",
       "coordinates": {
         "lat": 35.8885993,
         "lng": 14.4476911
@@ -708,7 +708,7 @@
       "year": "2014",
       "month": "",
       "entry_type": "misc",
-      "tag": "Guest Lecture",
+      "tag": "Workshop",
       "coordinates": {
         "lat": -33.8698439,
         "lng": 151.2082848

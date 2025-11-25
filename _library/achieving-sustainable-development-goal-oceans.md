@@ -30,6 +30,8 @@ entry_type: Report
 institution: IASS
 layout: library-item
 pages: 1--12
+pdf: Unger et al. - Achieving the Sustainable Development Goal for the Oceans - 2017
+  - IASS Policy Brief 1.pdf
 tags: []
 title: Achieving the Sustainable Development Goal for the Oceans
 url: 'http://publications.iass-potsdam.de/pubman/item/escidoc:2041892:3&title=eSciDoc
@@ -48,3 +50,4 @@ year: '2017'
 ## Links and Resources
 
 - [Original URL](http://publications.iass-potsdam.de/pubman/item/escidoc:2041892:3&title=eSciDoc PubMan: Achieving the Sustainable Development Goal for the Oceans)
+- [PDF](Unger et al. - Achieving the Sustainable Development Goal for the Oceans - 2017 - IASS Policy Brief 1.pdf)

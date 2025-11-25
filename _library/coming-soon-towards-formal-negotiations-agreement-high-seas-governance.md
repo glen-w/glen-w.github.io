@@ -20,6 +20,7 @@ description: Late in the evening of Friday, 21 July, States meeting at the UN he
   gaps in the international rules cover...
 entry_type: Blog
 layout: library-item
+pdf: Coming soon towards formal negotiations for a agr.pdf
 tags: []
 title: 'Coming soon: towards formal negotiations for a agreement on high seas governance'
 url: https://www.iddri.org/en/publications-and-events/blog-post/coming-soon-towards-formal-negotiations-agreement-high-seas
@@ -35,3 +36,4 @@ year: '2017'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/coming-soon-towards-formal-negotiations-agreement-high-seas)
+- [PDF](Coming soon towards formal negotiations for a agr.pdf)

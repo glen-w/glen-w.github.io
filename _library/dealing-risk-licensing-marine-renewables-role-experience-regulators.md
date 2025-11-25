@@ -28,6 +28,8 @@ description: The RiCORE project aims at designing ways to accelerate and streaml
 entry_type: Workshop
 layout: library-item
 location: Paris, France
+pdf: 2015 - Dealing with the risk of licensing marine renewables The role and experience
+  of regulators.pdf
 tags: []
 title: 'Dealing with the risk of licensing marine renewables: The role and experience
   of regulators'
@@ -39,3 +41,7 @@ year: '2015'
 
 **Venue:** RiCORE Project (Risk-based Consenting for Offshore Renewables) Workshop 2
 **Location:** Paris, France
+
+## Links and Resources
+
+- [PDF](2015 - Dealing with the risk of licensing marine renewables The role and experience of regulators.pdf)

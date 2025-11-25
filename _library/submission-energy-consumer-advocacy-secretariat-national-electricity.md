@@ -11,6 +11,7 @@ description: 'Submission to Energy Consumer Advocacy Secretariat: A National Ele
   Consumer Body'
 entry_type: Submission
 layout: library-item
+pdf: Wright and Centre - 2013 - TOTAL ENVIRONMENT CENTRE INC.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Submission to Energy Consumer Advocacy Secretariat: A National Electricity
@@ -23,3 +24,7 @@ year: '2013'
 
 **Authors:** Mark Byrne, Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](Wright and Centre - 2013 - TOTAL ENVIRONMENT CENTRE INC.pdf)

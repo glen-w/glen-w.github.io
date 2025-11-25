@@ -11,6 +11,7 @@ description: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: Opp
 entry_type: Side event
 layout: library-item
 location: United Nations, New York City, NY, USA
+pdf: ATLAS_PC3_flyer.pdf
 tags: []
 title: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: Opportunities
   and challenges'
@@ -23,3 +24,7 @@ year: '2018'
 **Authors:** Glen Wright
 **Venue:** Building MSP frameworks to enable Blue Growth
 **Location:** United Nations, New York City, NY, USA
+
+## Links and Resources
+
+- [PDF](ATLAS_PC3_flyer.pdf)

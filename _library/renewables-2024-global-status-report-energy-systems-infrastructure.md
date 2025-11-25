@@ -20,6 +20,7 @@ description: This module explores the status and recent trends of some of the bu
 entry_type: Other
 institution: REN21
 layout: library-item
+pdf: gsr2024_SYSTEMS_module.pdf
 tags: []
 title: 'Renewables 2024 Global Status Report: Energy Systems and Infrastructure'
 url: https://www.ren21.net/gsr-2024/modules/energy_systems_infrastructure/
@@ -36,3 +37,4 @@ year: '2024'
 ## Links and Resources
 
 - [Original URL](https://www.ren21.net/gsr-2024/modules/energy_systems_infrastructure/)
+- [PDF](gsr2024_SYSTEMS_module.pdf)

@@ -36,6 +36,7 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '4'
+pdf: 2014-The_Scores_at_Half_Time_An_update_on_the_international_discussions_on_the_governance_of_marine_biodiversity_in_area.pdf
 tags: []
 title: 'The Scores at Half Time: An update on the international discussions on the
   governance of marine biodiversity in areas beyond national jurisdiction'
@@ -49,6 +50,10 @@ year: '2014'
 **Venue:** IDDRI
 **Pages:** 4
 **Institution:** IDDRI
+
+## Links and Resources
+
+- [PDF](2014-The_Scores_at_Half_Time_An_update_on_the_international_discussions_on_the_governance_of_marine_biodiversity_in_area.pdf)
 
 ## Notes
 

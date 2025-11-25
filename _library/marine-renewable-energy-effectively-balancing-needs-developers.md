@@ -11,6 +11,7 @@ description: 'Marine Renewable Energy: Effectively Balancing  the Needs of Devel
 entry_type: Conference
 layout: library-item
 location: Orkney, Scotland, UK
+pdf: EIMR-Handbook.pdf
 preview: thumbnail
 tags: []
 title: 'Marine Renewable Energy: Effectively Balancing  the Needs of Developers and  Potential
@@ -30,3 +31,4 @@ year: '2012'
 ## Links and Resources
 
 - [Original URL](https://www.uhi.ac.uk/en/research-enterprise/events-and-seminars/eimr/eimr-2012/)
+- [PDF](EIMR-Handbook.pdf)

@@ -10,6 +10,7 @@ description: 'Submission to the Australian Energy Regulator: Review of Limited M
   Review Regime'
 entry_type: Submission
 layout: library-item
+pdf: Wright - 2012 - Review of Limited Merits Review.pdf
 tags: []
 title: 'Submission to the Australian Energy Regulator: Review of Limited Merits Review
   Regime'
@@ -20,3 +21,7 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
+
+## Links and Resources
+
+- [PDF](Wright - 2012 - Review of Limited Merits Review.pdf)

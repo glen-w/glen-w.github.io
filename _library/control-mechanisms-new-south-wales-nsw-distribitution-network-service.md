@@ -11,6 +11,7 @@ description: Control Mechanisms for New South Wales (NSW) Distribitution Network
 entry_type: Submission
 institution: Total Environment Centre
 layout: library-item
+pdf: TEC, NSW DNSPs revenue reset - control mechanisms.pdf
 tags: []
 title: Control Mechanisms for New South Wales (NSW) Distribitution Network Service
   Providers (DNSPs), 2014-2019
@@ -23,3 +24,7 @@ year: '2013'
 **Authors:** Glen Wright
 **Venue:** Total Environment Centre
 **Institution:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](TEC, NSW DNSPs revenue reset - control mechanisms.pdf)

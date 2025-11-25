@@ -45,6 +45,10 @@ def main():
                        help='Test mode: process only first 5 entries for quick testing')
     parser.add_argument('--test-count', type=int, default=5,
                        help='Number of entries to process in test mode (default: 5)')
+    parser.add_argument('--update-pdf-metadata', action='store_true',
+                       help='Update PDF metadata with BibTeX information (default: False, opt-in feature)')
+    parser.add_argument('--no-pdf-metadata', action='store_true',
+                       help='Explicitly disable PDF metadata updating (overrides config and --update-pdf-metadata)')
     
     # Post-processing options
     parser.add_argument('--clean-file-field', action='store_true',
@@ -132,6 +136,14 @@ def run_main_processing(config: Configuration, args) -> bool:
     """Run the main paper processing."""
     print("📚 Starting main paper processing...")
     
+    # Determine PDF metadata update setting
+    # Default to config value, but allow CLI override
+    update_pdf_metadata = config.UPDATE_PDF_METADATA
+    if args.no_pdf_metadata:
+        update_pdf_metadata = False
+    elif args.update_pdf_metadata:
+        update_pdf_metadata = True
+    
     processor = PaperProcessor(config)
     
     try:
@@ -146,7 +158,8 @@ def run_main_processing(config: Configuration, args) -> bool:
             verbose=args.verbose,
             force_refetch_metadata=False,
             rename_urls=True,
-            rename_only=False
+            rename_only=False,
+            update_pdf_metadata=update_pdf_metadata
         )
         return True
     except Exception as e:

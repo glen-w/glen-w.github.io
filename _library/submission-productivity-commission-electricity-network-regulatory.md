@@ -11,6 +11,7 @@ description: 'Submission to the Productivity Commission: Electricity Network Reg
   Frameworks'
 entry_type: Submission
 layout: library-item
+pdf: subdr050-electricity.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Submission to the Productivity Commission: Electricity Network Regulatory
@@ -23,3 +24,7 @@ year: '2012'
 
 **Authors:** Mark Byrne, Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](subdr050-electricity.pdf)

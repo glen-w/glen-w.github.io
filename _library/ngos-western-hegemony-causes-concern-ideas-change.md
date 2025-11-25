@@ -20,6 +20,7 @@ entry_type: Journal article
 layout: library-item
 number: '1'
 pages: 123--134
+pdf: Wright - 2012 - NGOs and Western hegemony causes for concern and .pdf
 tags: []
 title: 'NGOs and Western hegemony: causes for concern and ideas for change'
 venue: Development in Practice
@@ -34,3 +35,7 @@ year: '2012'
 **Volume:** 22
 **Number:** 1
 **Pages:** 123--134
+
+## Links and Resources
+
+- [PDF](Wright - 2012 - NGOs and Western hegemony causes for concern and .pdf)

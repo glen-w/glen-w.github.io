@@ -11,6 +11,7 @@ description: 'Sustainably advancing the Blue Economy: Environmental Impact Asses
 entry_type: Conference
 layout: library-item
 location: Brussels, Belgium
+pdf: Glen Wright, EELF 2014.pdf
 tags: []
 title: 'Sustainably advancing the Blue Economy: Environmental Impact Assessment of
   of Marine Renewable Energy projects in the UK'
@@ -23,3 +24,7 @@ year: '2014'
 **Authors:** Glen Wright
 **Venue:** European Environmental Law Forum
 **Location:** Brussels, Belgium
+
+## Links and Resources
+
+- [PDF](Glen Wright, EELF 2014.pdf)

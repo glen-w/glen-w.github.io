@@ -22,6 +22,7 @@ description: The MRE industry is at a crucial moment. Devices are now moving fro
 entry_type: Report
 institution: ISSMER
 layout: library-item
+pdf: ISSMER Notes.pdf
 tags: []
 title: 'Marine Renewable Energy: Community, Consultation and Planning (Summary of
   the International network for Social Studies of Marine Energy (ISSMER) online seminar
@@ -35,3 +36,7 @@ year: '2015'
 **Authors:** Glen Wright
 **Venue:** ISSMER
 **Institution:** ISSMER
+
+## Links and Resources
+
+- [PDF](ISSMER Notes.pdf)

@@ -10,6 +10,7 @@ description: 'The Northwest Passage: Legal status and issues'
 entry_type: Training
 layout: library-item
 location: Malta
+preview: thumbnail
 tags: []
 title: 'The Northwest Passage: Legal status and issues'
 url: https://prezi.com/rnirypd_1pyz/the-northwest-passage/?present=1

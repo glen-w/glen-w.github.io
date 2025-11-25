@@ -60,6 +60,7 @@ doi: https://doi.org/10.1002/aqc.2646
 entry_type: Journal article
 layout: library-item
 pages: 45--60
+pdf: Gjerde et al. - 2016 - Protecting Earth's last conservation frontier sci.pdf
 tags: []
 title: 'Protecting Earth''s last conservation frontier: scientific, management and
   legal priorities for MPAs beyond national boundaries'
@@ -80,3 +81,4 @@ year: '2016'
 
 - [Original URL](http://doi.wiley.com/10.1002/aqc.2646)
 - [DOI](https://doi.org/10.1002/aqc.2646)
+- [PDF](Gjerde et al. - 2016 - Protecting Earth's last conservation frontier sci.pdf)

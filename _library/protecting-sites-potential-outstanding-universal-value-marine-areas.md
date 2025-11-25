@@ -10,6 +10,7 @@ description: Protecting sites of potential Outstanding Universal Value in marine
 entry_type: Report
 institution: UNESCO
 layout: library-item
+pdf: _.pdf
 tags: []
 title: 'Protecting sites of potential Outstanding Universal Value in marine Areas
   Beyond National Jurisdiction:  The practical modalities'
@@ -26,3 +27,4 @@ year: '2020'
 ## Links and Resources
 
 - [Original URL](https://unesdoc.unesco.org/ark:/48223/pf0000374415)
+- [PDF](_.pdf)

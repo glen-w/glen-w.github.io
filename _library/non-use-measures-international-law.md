@@ -9,6 +9,7 @@ description: Non-use Measures in International Law
 entry_type: Workshop
 layout: library-item
 location: Utrecht, Netherlands
+pdf: agenda.pdf
 tags: []
 title: Non-use Measures in International Law
 venue: ''
@@ -18,3 +19,7 @@ year: '2023'
 ## Publication Details
 
 **Location:** Utrecht, Netherlands
+
+## Links and Resources
+
+- [PDF](agenda.pdf)

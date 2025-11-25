@@ -10,6 +10,7 @@ description: Second Meeting of the Sustainable Ocean Initiative Global Dialogue 
 entry_type: Workshop
 layout: library-item
 location: Seoul, South Korea
+pdf: Meeting Programme-2nd SOI Global Dialogue (4 April)-updated.pdf
 publisher: Convention on Biological Diversity
 tags: []
 title: Second Meeting of the Sustainable Ocean Initiative Global Dialogue with Regional
@@ -23,3 +24,7 @@ year: '2018'
 
 **Location:** Seoul, South Korea
 **Publisher:** Convention on Biological Diversity
+
+## Links and Resources
+
+- [PDF](Meeting Programme-2nd SOI Global Dialogue (4 April)-updated.pdf)

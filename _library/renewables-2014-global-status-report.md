@@ -10,6 +10,7 @@ description: Renewables 2014 Global Status Report
 entry_type: Report
 institution: REN21
 layout: library-item
+pdf: Lohani et al. - INTERNATIONAL ORGANISATIONS.pdf
 tags: []
 title: Renewables 2014 Global Status Report
 venue: REN21
@@ -21,3 +22,7 @@ year: '2014'
 **Authors:** REN21
 **Venue:** REN21
 **Institution:** REN21
+
+## Links and Resources
+
+- [PDF](Lohani et al. - INTERNATIONAL ORGANISATIONS.pdf)

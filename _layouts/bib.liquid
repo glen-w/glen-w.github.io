@@ -578,6 +578,8 @@
           {%- comment -%}
           Prefer the *_url field if present and looks like a URL or absolute path.
           Otherwise, if the plain value looks like a URL, use that.
+          Special case: PDF, slides, and agenda fields may contain just filenames (not URLs),
+          which will be converted to full URLs in the URL construction block (lines 616-620).
           Never append '_url' to a value.
           {%- endcomment -%}
           {% assign url = '' %}
@@ -586,6 +588,9 @@
           {% if val_url != '' and (val_url contains '://' or val_url_starts_with_slash == '/' ) %}
             {% assign url = val_url %}
           {% elsif val != '' and (val contains '://' or val_starts_with_slash == '/' ) %}
+            {% assign url = val %}
+          {% elsif val != '' and (key == 'pdf' or key == 'slides' or key == 'agenda') %}
+            {% comment %}PDF, slides, and agenda fields often contain just filenames that will be converted to full URLs in the URL construction block below{% endcomment %}
             {% assign url = val %}
           {% endif %}
 

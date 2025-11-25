@@ -18,6 +18,7 @@ entry_type: Journal article
 layout: library-item
 number: '2'
 pages: 117--131
+pdf: 2011-Indigenous_People_and_Customary_Land_Ownership_Under_Domestic_REDD_Frameworks_a_case_study_of_Indonesia.pdf
 tags: []
 title: 'Indigenous People and Customary Land Ownership Under Domestic REDD+ Frameworks:
   a case study of Indonesia'
@@ -33,3 +34,7 @@ year: '2011'
 **Volume:** 7
 **Number:** 2
 **Pages:** 117--131
+
+## Links and Resources
+
+- [PDF](2011-Indigenous_People_and_Customary_Land_Ownership_Under_Domestic_REDD_Frameworks_a_case_study_of_Indonesia.pdf)

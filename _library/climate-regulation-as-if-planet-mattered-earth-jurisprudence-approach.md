@@ -11,6 +11,7 @@ description: 'Climate Regulation as if the Planet Mattered: the Earth Jurisprude
 entry_type: Journal article
 layout: library-item
 pages: 33--57
+pdf: Earth Jurisprudence & Climate Change.pdf
 tags: []
 title: 'Climate Regulation as if the Planet Mattered: the Earth Jurisprudence Approach
   to Climate Change'
@@ -25,3 +26,7 @@ year: '2013'
 **Venue:** Environment and Earth Law Journal
 **Volume:** 3
 **Pages:** 33--57
+
+## Links and Resources
+
+- [PDF](Earth Jurisprudence & Climate Change.pdf)

@@ -11,6 +11,7 @@ description: 'Briefing for negotiators: Ensuring Effective Implementation of a H
 entry_type: Report
 institution: STRONG High Seas
 layout: library-item
+pdf: STRONG-compliance-report-briefing-for-negotiators.pdf
 tags: []
 title: 'Briefing for negotiators: Ensuring Effective Implementation of a High Seas
   Biodiversity Treaty'
@@ -23,3 +24,7 @@ year: '2022'
 **Authors:** Glen Wright
 **Venue:** STRONG High Seas
 **Institution:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](STRONG-compliance-report-briefing-for-negotiators.pdf)

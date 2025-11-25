@@ -13,6 +13,7 @@ gallery:
 - FR2I5002
 layout: library-item
 location: Monte Carlo, Monaco
+pdf: Agenda.pdf
 preview: FR2I4888
 publisher: UNESCO
 tags: []
@@ -25,3 +26,7 @@ year: '2018'
 
 **Location:** Monte Carlo, Monaco
 **Publisher:** UNESCO
+
+## Links and Resources
+
+- [PDF](Agenda.pdf)

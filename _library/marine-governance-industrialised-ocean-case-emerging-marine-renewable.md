@@ -24,10 +24,10 @@ description: The world's oceans are currently undergoing an unprecedented period
   industrialisation, made possible by advances in technology and driven by our growing
   need for food, energy and resources. This is...
 doi: https://doi.org/10.1016/j.marpol.2014.10.021
-entry_type: Other
+entry_type: Journal article
 layout: library-item
 pages: 77--84
-preview: thumbnail
+pdf: 2015-Marine_governance_in_an_industrialised_ocean_A_case_study_of_the_emerging_marine_renewable_energy_industry.pdf
 tags:
 - wave energy
 - ocean energy
@@ -54,3 +54,4 @@ year: '2015'
 
 - [Original URL](https://www.sciencedirect.com/science/article/pii/S0308597X14002838)
 - [DOI](https://doi.org/10.1016/j.marpol.2014.10.021)
+- [PDF](2015-Marine_governance_in_an_industrialised_ocean_A_case_study_of_the_emerging_marine_renewable_energy_industry.pdf)

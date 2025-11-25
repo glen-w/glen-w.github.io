@@ -35,6 +35,7 @@ description: Effective monitoring, control and surveillance (MCS) of human activ
 entry_type: Report
 institution: STRONG High Seas
 layout: library-item
+pdf: Options pour le renforcement du suivi, contrôle et.pdf
 tags:
 - featured
 title: Options for Strengthening Monitoring, Control and Surveillance of Human Activities
@@ -48,3 +49,7 @@ year: '2021'
 **Authors:** Klaudija Cremers, Morgane Bouvet, Glen Wright, Julien Rochette
 **Venue:** STRONG High Seas
 **Institution:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](Options pour le renforcement du suivi, contrôle et.pdf)

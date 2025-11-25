@@ -11,6 +11,7 @@ entry_type: Journal article
 layout: library-item
 number: September
 pages: 260--261
+pdf: 2011-A_Tidal_Power_Project.pdf
 tags: []
 title: A Tidal Power Project
 venue: New Zealand Law Journal
@@ -23,3 +24,7 @@ year: '2011'
 **Venue:** New Zealand Law Journal
 **Number:** September
 **Pages:** 260--261
+
+## Links and Resources
+
+- [PDF](2011-A_Tidal_Power_Project.pdf)

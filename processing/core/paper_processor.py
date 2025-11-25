@@ -54,7 +54,7 @@ class PaperProcessor:
                       thumbnail_size: str = '600x', test_mode: bool = False, 
                       test_count: int = 5, verbose: bool = False, 
                       force_refetch_metadata: bool = False, rename_urls: bool = True,
-                      rename_only: bool = False) -> None:
+                      rename_only: bool = False, update_pdf_metadata: bool = False) -> None:
         """Main function to process papers from Zotero export."""
         source_file = source_bibtex_file or self.config.SOURCE_BIBTEX_FILE
         working_file = self.config.WORKING_BIBTEX_FILE
@@ -90,7 +90,7 @@ class PaperProcessor:
         # Process entries
         self._process_entries(content, working_file, regenerate, force, update_metadata, 
                             thumbnail_size, test_mode, test_count, verbose, 
-                            force_refetch_metadata, rename_urls, rename_only)
+                            force_refetch_metadata, rename_urls, rename_only, update_pdf_metadata)
         
         print(f"\n✅ Processing completed successfully!")
     
@@ -146,7 +146,7 @@ class PaperProcessor:
                         force: bool, update_metadata: bool, thumbnail_size: str, 
                         test_mode: bool, test_count: int, verbose: bool, 
                         force_refetch_metadata: bool, rename_urls: bool, 
-                        rename_only: bool) -> None:
+                        rename_only: bool, update_pdf_metadata: bool = False) -> None:
         """Process all BibTeX entries."""
         # Parse entries
         entries = self.bibtex_processor.parse_bibtex_entries(content)
@@ -159,7 +159,7 @@ class PaperProcessor:
         for entry in entries:
             if self._process_single_entry(entry, regenerate, force, update_metadata, 
                                         thumbnail_size, verbose, force_refetch_metadata, 
-                                        rename_urls, rename_only):
+                                        rename_urls, rename_only, update_pdf_metadata):
                 processed_count += 1
         
         print(f"  📊 Processed {processed_count} entries")
@@ -170,7 +170,7 @@ class PaperProcessor:
     def _process_single_entry(self, entry: Dict, regenerate: bool, force: bool, 
                             update_metadata: bool, thumbnail_size: str, verbose: bool, 
                             force_refetch_metadata: bool, rename_urls: bool, 
-                            rename_only: bool) -> bool:
+                            rename_only: bool, update_pdf_metadata: bool = False) -> bool:
         """Process a single BibTeX entry."""
         citation_key = entry.get('citation_key', '')
         fields = entry.get('fields', {})
@@ -187,7 +187,7 @@ class PaperProcessor:
         
         # Process files and generate thumbnails
         if not self._process_entry_files(citation_key, fields, regenerate, force, 
-                                       thumbnail_size, verbose):
+                                       thumbnail_size, verbose, update_pdf_metadata):
             return False
         
         # Update metadata if requested
@@ -218,7 +218,8 @@ class PaperProcessor:
         return has_basic_processing
     
     def _process_entry_files(self, citation_key: str, fields: Dict, regenerate: bool, 
-                           force: bool, thumbnail_size: str, verbose: bool) -> bool:
+                           force: bool, thumbnail_size: str, verbose: bool,
+                           update_pdf_metadata: bool = False) -> bool:
         """Process files for an entry (PDFs, images, thumbnails)."""
         if 'file' not in fields or not fields['file']:
             print(f"  ⚠️  No file field found")
@@ -235,7 +236,7 @@ class PaperProcessor:
         regular_pdf_paths = [p for p in all_pdf_paths if p not in agenda_paths and p not in slides_paths]
         
         # Process regular PDFs
-        pdf_success = self._process_pdfs(citation_key, fields, regular_pdf_paths, regenerate, force, verbose)
+        pdf_success = self._process_pdfs(citation_key, fields, regular_pdf_paths, regenerate, force, verbose, update_pdf_metadata)
         
         # Process agenda PDFs separately (creates agenda field, not pdf field)
         agenda_success = self._process_agenda_pdfs(citation_key, fields, agenda_paths, regenerate, force, verbose)
@@ -405,30 +406,46 @@ class PaperProcessor:
             return ''
     
     def _process_pdfs(self, citation_key: str, fields: Dict, pdf_paths: List[str], 
-                     regenerate: bool, force: bool, verbose: bool) -> bool:
+                     regenerate: bool, force: bool, verbose: bool, 
+                     update_pdf_metadata: bool = False) -> bool:
         """Process PDF files for an entry."""
         if not pdf_paths:
             return True
         
+        # Track filenames being generated for this entry to handle multiple PDFs
+        # that would generate the same base filename (only add suffixes for same-entry collisions)
+        session_filenames = set()
+        
         success = True
         for pdf_path in pdf_paths:
-            if not self._process_single_pdf(citation_key, fields, pdf_path, regenerate, force, verbose):
+            if not self._process_single_pdf(citation_key, fields, pdf_path, regenerate, force, verbose, update_pdf_metadata, session_filenames):
                 success = False
         
         return success
     
     def _process_single_pdf(self, citation_key: str, fields: Dict, pdf_path: str, 
-                          regenerate: bool, force: bool, verbose: bool) -> bool:
+                          regenerate: bool, force: bool, verbose: bool,
+                          update_pdf_metadata: bool = False, session_filenames: set = None) -> bool:
         """Process a single PDF file."""
         if not os.path.exists(pdf_path):
             print(f"  ❌ PDF not found: {pdf_path}")
             return False
         
-        # Generate filename
-        filename = self.text_processor.generate_filename(citation_key, fields, 'pdf')
+        # Use session_filenames to track filenames for this entry only
+        # Only add suffixes when multiple PDFs for the SAME entry would generate the same filename
+        if session_filenames is None:
+            session_filenames = set()
+        
+        # Generate filename (only check for collisions within current entry's session)
+        # Don't check directory - only add suffixes for same-entry duplicates
+        filename = self.text_processor.generate_filename(citation_key, fields, 'pdf', 
+                                                         existing_filenames=session_filenames)
         if not filename:
             print(f"  ❌ Could not generate filename for PDF")
             return False
+        
+        # Add to session tracking
+        session_filenames.add(filename)
         
         # Copy PDF
         dest_path = os.path.join(self.config.PDF_DIR, filename)
@@ -436,17 +453,20 @@ class PaperProcessor:
             if not self.file_manager.copy_file(pdf_path, dest_path, force):
                 return False
         
-        # Generate thumbnail
-        preview_filename = filename.replace('.pdf', '.jpeg')
-        preview_path = os.path.join(self.config.PREVIEW_DIR, preview_filename)
-        
-        if not os.path.exists(preview_path) or force:
-            if not self.file_manager.generate_pdf_thumbnail(dest_path, preview_path):
-                return False
+        # Update PDF metadata only in regenerate mode (if enabled)
+        if update_pdf_metadata and regenerate:
+            # Prepare metadata from BibTeX fields
+            metadata = self.pdf_processor.prepare_pdf_metadata(fields)
+            
+            # Update metadata on destination PDF (not source)
+            # Failures are logged but don't stop processing
+            if not self.pdf_processor.update_pdf_metadata(dest_path, metadata, backup=False):
+                if verbose:
+                    print(f"  ⚠️  PDF metadata update failed for {filename}, continuing...")
+            # Note: We don't return False here - metadata update failure shouldn't stop processing
         
         # Add tags to fields
         fields['pdf'] = filename
-        fields['preview'] = preview_filename
         
         return True
     
@@ -463,7 +483,8 @@ class PaperProcessor:
             return False
         
         # Generate filename
-        filename = self.text_processor.generate_filename(citation_key, fields, 'pdf')
+        filename = self.text_processor.generate_filename(citation_key, fields, 'pdf',
+                                                         check_directory=self.config.PDF_DIR)
         if not filename:
             print(f"  ❌ Could not generate filename for agenda PDF")
             return False
@@ -496,7 +517,8 @@ class PaperProcessor:
             return False
         
         # Generate filename
-        filename = self.text_processor.generate_filename(citation_key, fields, 'pdf')
+        filename = self.text_processor.generate_filename(citation_key, fields, 'pdf',
+                                                         check_directory=self.config.PDF_DIR)
         if not filename:
             print(f"  ❌ Could not generate filename for slides PDF")
             return False
@@ -511,18 +533,8 @@ class PaperProcessor:
             if not self.file_manager.copy_file(slides_path, dest_path, force):
                 return False
         
-        # Generate thumbnail for slides
-        preview_filename = slides_filename.replace('.pdf', '.jpeg')
-        preview_path = os.path.join(self.config.PREVIEW_DIR, preview_filename)
-        
-        if not os.path.exists(preview_path) or force:
-            if not self.file_manager.generate_pdf_thumbnail(dest_path, preview_path):
-                return False
-        
-        # Add slides field (and preview if not already set)
+        # Add slides field
         fields['slides'] = slides_filename
-        if 'preview' not in fields or not fields['preview']:
-            fields['preview'] = preview_filename
         
         return True
     
@@ -634,7 +646,7 @@ class PaperProcessor:
     
     def _process_thumbnails_with_priority(self, citation_key: str, fields: Dict, 
                                         regenerate: bool, force: bool, thumbnail_size: str, verbose: bool) -> bool:
-        """Process thumbnails using priority logic: thumbnail file > agenda PDF > most recent PDF."""
+        """Process thumbnails using priority logic: thumbnail file > slides PDF > agenda PDF > most recent PDF."""
         if 'file' not in fields or not fields['file']:
             return True
         
@@ -652,7 +664,7 @@ class PaperProcessor:
             priority = file_info['priority']
             
             if verbose:
-                priority_names = {1: "thumbnail file", 2: "agenda PDF", 3: "most recent PDF"}
+                priority_names = {1: "thumbnail file", 2: "slides PDF", 3: "agenda PDF", 4: "most recent PDF"}
                 print(f"  🔍 Trying {priority_names[priority]}: {os.path.basename(file_path)}")
             
             if self._process_single_thumbnail_file(citation_key, fields, file_path, file_type, 
@@ -674,7 +686,7 @@ class PaperProcessor:
                 print(f"  ❌ File not found: {file_path}")
             return False
         
-        # Generate filename for thumbnail
+        # Generate filename for thumbnail (only check for collisions within same entry)
         filename = self.text_processor.generate_filename(citation_key, fields, 'jpeg')
         if not filename:
             if verbose:
@@ -683,8 +695,8 @@ class PaperProcessor:
         
         preview_path = os.path.join(self.config.PREVIEW_DIR, filename)
         
-        # Skip if already exists and not forcing
-        if os.path.exists(preview_path) and not force:
+        # Skip if already exists and not forcing or regenerating
+        if os.path.exists(preview_path) and not (force or regenerate):
             if verbose:
                 print(f"  ⏭️  Thumbnail already exists: {filename}")
             # Only add the preview tag if there's something to preview

@@ -30,6 +30,7 @@ description: Since the adoption of the United Nations (UN) Convention on the Law
 entry_type: Journal article
 layout: library-item
 pages: 164--167
+pdf: Historic UN talks could save the high seas  IDDRI.pdf
 tags: []
 title: Historic UN talks could save the high seas
 url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
@@ -46,3 +47,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas)
+- [PDF](Historic UN talks could save the high seas  IDDRI.pdf)

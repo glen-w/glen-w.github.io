@@ -11,6 +11,7 @@ description: Environmental implications of increasing demand management in the N
 entry_type: Report
 institution: Total Environment Centre
 layout: library-item
+pdf: TEC DM enviro discussion paper.pdf
 tags: []
 title: Environmental implications of increasing demand management in the National
   Electricity Market
@@ -23,3 +24,7 @@ year: '2012'
 **Authors:** Glen Wright
 **Venue:** Total Environment Centre
 **Institution:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](TEC DM enviro discussion paper.pdf)

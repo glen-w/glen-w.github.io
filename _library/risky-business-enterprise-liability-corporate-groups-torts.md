@@ -12,6 +12,9 @@ entry_type: Journal article
 layout: library-item
 number: '1'
 pages: 54--77
+pdf: Wright - Risky Business Enterprise Liability , Corporate Groups and Torts - 2017
+  - Unknown.pdf
+preview: thumbnail
 tags: []
 title: 'Risky Business: Enterprise Liability, Corporate Groups and Torts'
 venue: Journal of European Tort Law
@@ -30,3 +33,4 @@ year: '2017'
 ## Links and Resources
 
 - [DOI](https://doi.org/10.1515/jetl-2017-0003)
+- [PDF](Wright - Risky Business Enterprise Liability , Corporate Groups and Torts - 2017 - Unknown.pdf)

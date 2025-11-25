@@ -25,6 +25,7 @@ entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '46'
+pdf: Cremers-K.-et-al-Fortalecer-el-MCS-en-ABNJ.pdf
 tags: []
 title: Strengthening Monitoring, Control and Surveillance in Areas Beyond National
   Jurisdiction
@@ -38,3 +39,7 @@ year: '2020'
 **Venue:** STRONG High Seas
 **Pages:** 46
 **Institution:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](Cremers-K.-et-al-Fortalecer-el-MCS-en-ABNJ.pdf)

@@ -15,6 +15,7 @@ gallery:
 - thumbnail
 layout: library-item
 location: Suva, Fiji
+pdf: Wright - Regional Governance of Areas Beyond National Jurisdiction.pdf
 preview: '1548905312817'
 tags: []
 title: Regional Governance of Areas Beyond National Jurisdiction
@@ -28,3 +29,7 @@ year: '2019'
 **Authors:** Glen Wright
 **Venue:** Biological Diversity Beyond National Jurisdiction Pacific Workshop, Pacific Islands Forum
 **Location:** Suva, Fiji
+
+## Links and Resources
+
+- [PDF](Wright - Regional Governance of Areas Beyond National Jurisdiction.pdf)

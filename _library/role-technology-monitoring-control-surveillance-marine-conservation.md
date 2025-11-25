@@ -12,6 +12,7 @@ description: Role of technology and Monitoring, Control and Surveillance in Mari
 entry_type: Side event
 layout: library-item
 location: United Nations Headquarters, New York City, NY, USA
+pdf: HSA MCS presentation.pdf
 preview: thumbnail
 tags: []
 title: Role of technology and Monitoring, Control and Surveillance in Marine Conservation
@@ -24,3 +25,7 @@ year: '2018'
 
 **Authors:** Glen Wright, Isabel Seeger
 **Location:** United Nations Headquarters, New York City, NY, USA
+
+## Links and Resources
+
+- [PDF](HSA MCS presentation.pdf)

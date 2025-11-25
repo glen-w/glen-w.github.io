@@ -152,6 +152,11 @@ class NotesProcessor:
         # Note: Tags are stored in annote field only (Zotero Notes export), not in keywords field
         # This ensures single source of truth and preserves Zotero format
         
+        # Extract selected tag from notes
+        is_selected = self.tag_extractor.extract_selected(temp_entry)
+        if is_selected:
+            entry['selected'] = 'true'
+        
         # Extract video links and add to appropriate fields
         video_links = self._extract_video_links(notes)
         if video_links:

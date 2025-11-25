@@ -19,6 +19,7 @@ description: On Saturday March 4, 2023, the President of the Intergovernmental C
   declared, “The ship has reached the shore”....
 entry_type: Blog
 layout: library-item
+pdf: Wright et al. - 2023 - The ship has reached the shore why the historic.pdf
 tags: []
 title: 'The ship has reached the shore": why the historic Agreement to protect the
   High Seas matters and what happens next'
@@ -35,3 +36,4 @@ year: '2023'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/ship-has-reached-shore-why-historic-agreement-protect-high-seas)
+- [PDF](Wright et al. - 2023 - The ship has reached the shore why the historic.pdf)

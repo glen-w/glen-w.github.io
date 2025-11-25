@@ -11,6 +11,7 @@ description: 'Animal Law and Earth Jurisprudence: A Comparative Analysis of the 
 entry_type: Journal article
 layout: library-item
 pages: 5--29
+pdf: australia_journal_vol9.pdf
 tags: []
 title: 'Animal Law and Earth Jurisprudence: A Comparative Analysis of the Status of
   Animals in two Emerging Discourses'
@@ -25,3 +26,7 @@ year: '2013'
 **Venue:** Australian Animal Protection Law Journal
 **Volume:** 9
 **Pages:** 5--29
+
+## Links and Resources
+
+- [PDF](australia_journal_vol9.pdf)

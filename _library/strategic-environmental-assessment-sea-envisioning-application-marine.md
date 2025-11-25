@@ -17,6 +17,7 @@ entry_type: Report
 institution: DOSI
 layout: library-item
 pages: '4'
+pdf: full-text.pdf
 tags: []
 title: Strategic Environmental Assessment (SEA). Envisioning its Application to Marine
   Areas beyond National Jurisdiction (ABNJ)
@@ -35,3 +36,4 @@ year: '2018'
 ## Links and Resources
 
 - [Original URL](www.dosi-project.org)
+- [PDF](full-text.pdf)

@@ -7,9 +7,11 @@ categories:
 date: 2016-March-01
 description: Training Programme on the Sustainable Development and Governance of the
   Caspian Sea
-entry_type: Guest lecture
+entry_type: Training
 layout: library-item
 location: Turkmenbashi, Turkmenistan
+pdf: 2015 - Training Programme on the Sustainable Development and Governance of the
+  Caspian Sea.pdf
 preview: thumbnail
 publisher: State Enterprise on Caspian Sea Issues at the President of Turkmenistan
   and the International Ocean Institute
@@ -24,3 +26,7 @@ year: '2016'
 
 **Location:** Turkmenbashi, Turkmenistan
 **Publisher:** State Enterprise on Caspian Sea Issues at the President of Turkmenistan and the International Ocean Institute
+
+## Links and Resources
+
+- [PDF](2015 - Training Programme on the Sustainable Development and Governance of the Caspian Sea.pdf)

@@ -16,6 +16,8 @@ description: The United Nations General Assembly just launched a new initiative 
   (ABNJ). Negotiations will commence in 2018 t...
 entry_type: Blog
 layout: library-item
+pdf: Wright - 2016 - Negotiations for a new agreement on the conservation and sustainable
+  use of marine biodiversity in A.pdf
 tags: []
 title: 'High seas governance: Understanding the upcoming negotiations in 10 points'
 url: https://www.iddri.org/en/publications-and-events/blog-post/high-seas-governance-understanding-upcoming-negotiations-10
@@ -31,3 +33,4 @@ year: '2017'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/high-seas-governance-understanding-upcoming-negotiations-10)
+- [PDF](Wright - 2016 - Negotiations for a new agreement on the conservation and sustainable use of marine biodiversity in A.pdf)

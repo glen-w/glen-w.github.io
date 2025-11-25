@@ -98,6 +98,9 @@ class Configuration:
     
     # PDF metadata
     PDF_PRODUCER = "RENWeB"
+    UPDATE_PDF_METADATA = True  # Update PDF metadata by default when processing papers
+    PDF_METADATA_BACKUP_DIR = "../backups/pdf_metadata"
+    PDF_METADATA_BACKUP_RETENTION_DAYS = 30
     
     # Error messages
     ERROR_MESSAGES = {
@@ -125,6 +128,11 @@ class Configuration:
         directories = [cls.PDF_DIR, cls.PREVIEW_DIR, cls.IMAGES_DIR, cls.AUDIO_DIR]
         for directory in directories:
             os.makedirs(directory, exist_ok=True)
+    
+    @classmethod
+    def ensure_pdf_metadata_backup_dir_exists(cls) -> None:
+        """Ensure PDF metadata backup directory exists."""
+        os.makedirs(cls.PDF_METADATA_BACKUP_DIR, exist_ok=True)
     
     @classmethod
     def get_backup_filename(cls, original_file: str) -> str:

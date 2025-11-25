@@ -9,6 +9,7 @@ description: Achieving a Healthy Ocean - Regional Ocean Governance Beyond 2020 (
   Regions Forum 2019 Confere...
 entry_type: Report
 layout: library-item
+pdf: MRF2019_Conference-Report_fin_04.02.2020.pdf
 tags: []
 title: Achieving a Healthy Ocean - Regional Ocean Governance Beyond 2020 (Marine Regions
   Forum 2019 Conference Report)
@@ -16,3 +17,6 @@ venue: ''
 year: '2019'
 ---
 
+## Links and Resources
+
+- [PDF](MRF2019_Conference-Report_fin_04.02.2020.pdf)

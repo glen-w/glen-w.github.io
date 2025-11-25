@@ -10,6 +10,7 @@ description: 'Building Capacities for Regional Ocean Governance: Marine Genetic 
 entry_type: Training
 layout: library-item
 location: New York City, NY, USA
+pdf: Invitation_STRONG Workshop_IGC3 copie.pdf
 publisher: STRONG High Seas
 tags: []
 title: 'Building Capacities for Regional Ocean Governance: Marine Genetic Resources
@@ -22,3 +23,7 @@ year: '2019'
 
 **Location:** New York City, NY, USA
 **Publisher:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](Invitation_STRONG Workshop_IGC3 copie.pdf)

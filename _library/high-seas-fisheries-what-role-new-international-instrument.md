@@ -33,6 +33,7 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '20'
+pdf: 2016-High_seas_fisheries_what_role_for_a_new_international_instrument.pdf
 tags: []
 title: 'High seas fisheries: what role for a new international instrument?'
 url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
@@ -50,3 +51,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument)
+- [PDF](2016-High_seas_fisheries_what_role_for_a_new_international_instrument.pdf)

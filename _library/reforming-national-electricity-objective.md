@@ -11,6 +11,7 @@ entry_type: Report
 institution: Total Environment Centre
 layout: library-item
 pages: 89--97
+pdf: Wright - 2013 - Reforming the National Electricity Objective.pdf
 tags: []
 title: Reforming the National Electricity Objective
 venue: Total Environment Centre
@@ -23,3 +24,7 @@ year: '2013'
 **Venue:** Total Environment Centre
 **Pages:** 89--97
 **Institution:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](Wright - 2013 - Reforming the National Electricity Objective.pdf)

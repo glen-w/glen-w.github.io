@@ -35,6 +35,7 @@ institution: IDDRI
 layout: library-item
 number: '9'
 pages: '8'
+pdf: Wright et al. - 2019 - High Hopes for the High Seas beyond the package d.pdf
 tags: []
 title: 'High Hopes for the High Seas: beyond the package deal towards an ambitious
   treaty'
@@ -54,3 +55,4 @@ year: '2019'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/issue-brief/high-hopes-high-seas-beyond-package-deal-towards-ambitious)
+- [PDF](Wright et al. - 2019 - High Hopes for the High Seas beyond the package d.pdf)

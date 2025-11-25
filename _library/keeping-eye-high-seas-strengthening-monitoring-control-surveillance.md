@@ -27,6 +27,7 @@ entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '14'
+pdf: Cremers-et-al-2019_Surveiller-la-haute-mer.pdf
 tags: []
 title: Keeping an Eye on the High Seas Strengthening Monitoring, Control and Surveillance
   through a New Marine Biodiversity Treaty
@@ -46,3 +47,4 @@ year: '2019'
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/report/keeping-eye-high-seas)
 - [DOI](https://doi.org/10.2312/iass.2018.015)
+- [PDF](Cremers-et-al-2019_Surveiller-la-haute-mer.pdf)

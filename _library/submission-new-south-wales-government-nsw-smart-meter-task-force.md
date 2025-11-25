@@ -10,6 +10,7 @@ date: '2013-01-01'
 description: 'Submission to New South Wales Government: NSW Smart Meter Task Force'
 entry_type: Submission
 layout: library-item
+pdf: Wright and Centre - 2013 - TOTAL ENVIRONMENT CENTRE INC.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Submission to New South Wales Government: NSW Smart Meter Task Force'
@@ -21,3 +22,7 @@ year: '2013'
 
 **Authors:** Mark Byrne, Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](Wright and Centre - 2013 - TOTAL ENVIRONMENT CENTRE INC.pdf)

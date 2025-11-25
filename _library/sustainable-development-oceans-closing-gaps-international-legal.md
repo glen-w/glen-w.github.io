@@ -23,6 +23,7 @@ description: The world’s oceans are critical providers of ecosystem services a
   A range of international instruments and instit...
 entry_type: Book chapter
 layout: library-item
+pdf: Wright et al. - 2015 - Sustainable development of the oceans Closing the.pdf
 publisher: Springer
 tags:
 - marine protected areas
@@ -42,6 +43,10 @@ year: '2016'
 **Authors:** Glen Wright, Julien Rochette, Thomas Greiber
 **Venue:** Legal Aspects of Sustainable Development: Horizontal and Sectorial Policy Issues
 **Publisher:** Springer
+
+## Links and Resources
+
+- [PDF](Wright et al. - 2015 - Sustainable development of the oceans Closing the.pdf)
 
 ## Notes
 

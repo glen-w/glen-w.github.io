@@ -11,6 +11,7 @@ entry_type: Journal article
 layout: library-item
 number: January
 pages: 6--11
+pdf: Crux Australis Previous Issues Volumes 21-27.pdf
 preview: Crux 98 Small.jpg
 tags: []
 title: 'Your Flag''s Got My Flag On It: the Union Jack and the Australian Flag'
@@ -26,3 +27,7 @@ year: '2011'
 **Volume:** 1901
 **Number:** January
 **Pages:** 6--11
+
+## Links and Resources
+
+- [PDF](Crux Australis Previous Issues Volumes 21-27.pdf)

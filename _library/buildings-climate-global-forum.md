@@ -46,6 +46,7 @@ description: The Buildings and Climate Global Forum, co-organised by France and 
 entry_type: Conference
 layout: library-item
 location: Palais des Congrès, Paris, France
+pdf: 0103_FMBC_Programme_veng.pdf
 preview: thumbnail
 tags: []
 title: Buildings and Climate Global Forum
@@ -62,3 +63,4 @@ year: '2024'
 ## Links and Resources
 
 - [Original URL](https://www.ecologie.gouv.fr/rendez-vous/forum-mondial-batiments-climat/english-version)
+- [PDF](0103_FMBC_Programme_veng.pdf)

@@ -20,6 +20,7 @@ description: The meeting on the Partnership on Science to Policy Forum was organ
   Development of the Marine and Coastal Environmen...
 entry_type: Workshop
 layout: library-item
+pdf: Report of the Science to Policy Forum 11-12Oct2016_Final.pdf
 publisher: United Nations, Nairobi Convention
 tags: []
 title: The Partnership on Science to Policy Forum
@@ -35,3 +36,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](https://nairobiconvention.org/clearinghouse/sites/default/files/Report%20of%20the%20Science%20to%20Policy%20Forum%2011-12Oct2016_Final.pdf)
+- [PDF](Report of the Science to Policy Forum 11-12Oct2016_Final.pdf)

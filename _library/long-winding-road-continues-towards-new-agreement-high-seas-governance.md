@@ -32,6 +32,8 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '1'
+pdf: Wright et al. - The long and winding road continues Towards a new agreement on
+  high seas governance - 2016 - IDDRI Study 2.pdf
 tags: []
 title: 'The long and winding road continues: Towards a new agreement on high seas
   governance'
@@ -50,6 +52,7 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-continues-towards-new-agreement-high-seas)
+- [PDF](Wright et al. - The long and winding road continues Towards a new agreement on high seas governance - 2016 - IDDRI Study 2.pdf)
 
 ## Notes
 

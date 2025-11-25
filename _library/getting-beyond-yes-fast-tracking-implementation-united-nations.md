@@ -37,6 +37,7 @@ description: With a new international agreement on the conservation and sustaina
 entry_type: Journal article
 layout: library-item
 number: '6'
+pdf: Gjerde et al. - 2022 - Getting beyond yes fast-tracking implementation o.pdf
 tags: []
 title: 'Getting Beyond Yes: Fast-tracking Implementation of the United Nations Agreement
   for Marine Biodiversity Beyond National Jurisdiction'
@@ -54,3 +55,4 @@ year: '2022'
 ## Links and Resources
 
 - [Original URL](https://www.nature.com/articles/s44183-022-00006-2)
+- [PDF](Gjerde et al. - 2022 - Getting beyond yes fast-tracking implementation o.pdf)

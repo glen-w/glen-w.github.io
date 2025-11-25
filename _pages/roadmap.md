@@ -48,6 +48,23 @@ render_with_liquid: false #turned off so as to not break on render
 - [ ] **Export old newsletters** - Archive and organize historical newsletter content
 - [ ] **Export old blog posts** - Migrate legacy blog content to current structure
 
+#### Filter Engine Refactor
+
+**Current State**: Library page filters are non-cumulative - only one filter can be active at a time. Users cannot combine filters (e.g., "Conferences where I've facilitated" or "Workshops I've organized").
+
+**Planned Enhancement**: Refactor the filter engine to support cumulative/multi-select filtering:
+- [ ] **Refactor filter state management** - Track multiple active filters across categories (entry types, roles, languages)
+- [ ] **Implement toggle behavior** - Allow users to activate/deactivate multiple filters simultaneously
+- [ ] **Update filtering logic** - Apply AND logic so items must match all active filters
+- [ ] **Enhance UI feedback** - Show multiple active filter states and update search input display
+- [ ] **Update filter counts** - Consider showing counts for filter combinations
+- [ ] **Maintain backward compatibility** - Ensure single-filter behavior still works correctly
+
+**Use Cases**:
+- Filter by "Conference" (entry type) + "facilitator" (role) to find conferences where user facilitated
+- Filter by "Workshop" (entry type) + "organiser" (role) to find workshops user organized
+- Combine any entry type with role or language tags for precise filtering
+
 ### Implementation Timeline
 
 - **Week 1**: Processing script finalization

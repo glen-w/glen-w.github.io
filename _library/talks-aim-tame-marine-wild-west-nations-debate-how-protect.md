@@ -10,6 +10,7 @@ description: 'Talks aim to tame marine Wild West: Nations debate how to protect 
   in the high seas'
 entry_type: Newspaper
 layout: library-item
+pdf: cressey2016.pdf
 tags: []
 title: 'Talks aim to tame marine Wild West: Nations debate how to protect biodiversity
   in the high seas'
@@ -26,3 +27,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](https://www.nature.com/articles/532018a)
+- [PDF](cressey2016.pdf)

@@ -31,6 +31,7 @@ entry_type: Journal article
 layout: library-item
 number: '4'
 pages: 332--346
+pdf: Wright - 2011 - Conceptualising and combating transnational enviro.pdf
 preview: thumbnail
 tags: []
 title: Conceptualising and combating transnational environmental crime
@@ -52,3 +53,4 @@ year: '2011'
 
 - [Original URL](https://link.springer.com/article/10.1007/s12117-011-9130-4)
 - [DOI](https://doi.org/10.1007/s12117-011-9130-4)
+- [PDF](Wright - 2011 - Conceptualising and combating transnational enviro.pdf)

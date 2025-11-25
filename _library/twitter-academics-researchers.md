@@ -7,8 +7,9 @@ categories:
 - other
 date: '2013-01-01'
 description: Twitter for Academics & Researchers
-entry_type: Guest lecture
+entry_type: Training
 layout: library-item
+preview: thumbnail
 tags:
 - brown bag
 title: Twitter for Academics & Researchers

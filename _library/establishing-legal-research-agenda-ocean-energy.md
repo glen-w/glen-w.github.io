@@ -32,6 +32,7 @@ doi: https://doi.org/10.1016/j.marpol.2015.09.030
 entry_type: Journal article
 layout: library-item
 pages: 126--134
+pdf: 2016-Establishing_a_legal_research_agenda_for_ocean_energy.pdf
 tags: []
 title: Establishing a legal research agenda for ocean energy
 url: https://www.sciencedirect.com/science/article/pii/S0308597X1500281X
@@ -51,3 +52,4 @@ year: '2016'
 
 - [Original URL](https://www.sciencedirect.com/science/article/pii/S0308597X1500281X)
 - [DOI](https://doi.org/10.1016/j.marpol.2015.09.030)
+- [PDF](2016-Establishing_a_legal_research_agenda_for_ocean_energy.pdf)

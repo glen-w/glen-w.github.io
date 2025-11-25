@@ -33,6 +33,8 @@ description: 1. The Convention for Cooperation in the Protection, Management and
 entry_type: Workshop
 layout: library-item
 location: Mahé, Seychelles
+pdf: 2015 - Scoping Workshop Supporting the development of regional initiatives for
+  ABNJ in the Abidjan Convent.pdf
 publisher: IDDRI, UNEP, IASS, Government of Sweden
 tags: []
 title: 'Scoping Workshop: Supporting the development of regional initiatives for ABNJ
@@ -45,3 +47,7 @@ year: '2015'
 
 **Location:** Mahé, Seychelles
 **Publisher:** IDDRI, UNEP, IASS, Government of Sweden
+
+## Links and Resources
+
+- [PDF](2015 - Scoping Workshop Supporting the development of regional initiatives for ABNJ in the Abidjan Convent.pdf)

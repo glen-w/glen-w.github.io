@@ -10,6 +10,8 @@ description: Conservation and Sustainable Use of Marine Biological Diversity of 
 entry_type: Workshop
 layout: library-item
 location: Singapore
+pdf: 2016 - Conservation and Sustainable Use of Marine Biological Diversity of Areas
+  Beyond National Jurisdictio.pdf
 tags:
 - participant
 title: 'Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond
@@ -21,3 +23,7 @@ year: '2016'
 ## Publication Details
 
 **Location:** Singapore
+
+## Links and Resources
+
+- [PDF](2016 - Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdictio.pdf)

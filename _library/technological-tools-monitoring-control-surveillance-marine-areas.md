@@ -24,6 +24,7 @@ description: Monitoring Control and Surveillance (MCS) will be crucial to ensuri
 entry_type: Workshop
 layout: library-item
 location: Sciences Po, Paris, France
+pdf: MCS-Workshop-I-summary-final.pdf
 publisher: STRONG High Seas
 tags: []
 title: Technological tools for Monitoring, Control and Surveillance in Marine Areas
@@ -36,3 +37,7 @@ year: '2018'
 
 **Location:** Sciences Po, Paris, France
 **Publisher:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](MCS-Workshop-I-summary-final.pdf)

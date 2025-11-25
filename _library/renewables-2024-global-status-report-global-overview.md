@@ -22,6 +22,7 @@ description: "Policy responses to geopolitical developments and global commitmen
   \ the power sector. \n\nThe historic decision at the 2023..."
 entry_type: Webinar
 layout: library-item
+pdf: GSR2024_GO_presentation.pdf
 tags: []
 title: Renewables 2024 Global Status Report, Global Overview
 venue: ''
@@ -31,3 +32,7 @@ year: '2024'
 ## Publication Details
 
 **Authors:** Glen Wright
+
+## Links and Resources
+
+- [PDF](GSR2024_GO_presentation.pdf)

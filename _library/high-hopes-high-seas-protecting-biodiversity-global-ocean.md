@@ -10,6 +10,7 @@ description: 'High Hopes for the High Seas: Protecting biodiversity in the globa
 entry_type: Conference
 layout: library-item
 location: Marseille, France
+pdf: IUCN WCC - High Seas session.pdf
 tags: []
 title: 'High Hopes for the High Seas: Protecting biodiversity in the global ocean'
 url: https://www.iucncongress2020.org/programme/official-programme/session-43542
@@ -25,3 +26,4 @@ year: '2021'
 ## Links and Resources
 
 - [Original URL](https://www.iucncongress2020.org/programme/official-programme/session-43542)
+- [PDF](IUCN WCC - High Seas session.pdf)

@@ -9,6 +9,7 @@ date: 2023-March-01
 description: Environmental Impact Assessments on the High Seas
 entry_type: Webinar
 layout: library-item
+pdf: Wright - 2023 - Environmental impact assessments.pdf
 tags:
 - organiser
 - speaker
@@ -21,3 +22,7 @@ year: '2023'
 
 **Authors:** Glen Wright
 **Venue:** High seas treaty: preliminary analysis and implementation challenges
+
+## Links and Resources
+
+- [PDF](Wright - 2023 - Environmental impact assessments.pdf)

@@ -16,6 +16,8 @@ description: The first recorded medicinal use of marine species dates from almos
   and recommended they be applied to soldiers' ...
 entry_type: Blog
 layout: library-item
+pdf: UN discussions on marine genetic resources shape the future of marine biotechnology
+  _ IDDRI.pdf
 tags: []
 title: UN discussions on marine genetic resources shape the future of marine biotechnology
 url: https://www.iddri.org/en/publications-and-events/blog-post/un-discussions-marine-genetic-resources-shape-future-marine
@@ -31,3 +33,4 @@ year: '2020'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/un-discussions-marine-genetic-resources-shape-future-marine)
+- [PDF](UN discussions on marine genetic resources shape the future of marine biotechnology _ IDDRI.pdf)

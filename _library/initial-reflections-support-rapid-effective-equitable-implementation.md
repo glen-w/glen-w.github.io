@@ -24,6 +24,7 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '1'
+pdf: 2023 - Initial reflections to support rapid, effective an.pdf
 preview: BBNJ_Graph_FINAL.jpg
 tags:
 - featured
@@ -41,3 +42,7 @@ year: '2023'
 **Venue:** IDDRI
 **Number:** 1
 **Institution:** IDDRI
+
+## Links and Resources
+
+- [PDF](2023 - Initial reflections to support rapid, effective an.pdf)

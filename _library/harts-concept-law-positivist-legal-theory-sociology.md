@@ -20,6 +20,7 @@ description: This paper will consider the extent to which HLA Hart can be said t
   of law. Hart's claim to be engaging in 'descri...
 entry_type: Journal article
 layout: library-item
+pdf: Wright - 2010 - Hart’s Concept of Law Positivist Legal Theory or .pdf
 tags: []
 title: 'Hart’s Concept of Law: Positivist Legal Theory or Sociology?'
 venue: ''
@@ -29,3 +30,7 @@ year: '2010'
 ## Publication Details
 
 **Authors:** Glen Wright
+
+## Links and Resources
+
+- [PDF](Wright - 2010 - Hart’s Concept of Law Positivist Legal Theory or .pdf)

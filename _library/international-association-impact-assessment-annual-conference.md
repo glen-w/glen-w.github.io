@@ -9,6 +9,7 @@ description: International Association for Impact Assessment Annual Conference
 entry_type: Conference
 layout: library-item
 location: Lisbon, Portugal
+pdf: 2012 - International Association for Impact Assessment Annual Conference.pdf
 preview: thumbnail
 tags:
 - attendee
@@ -20,3 +21,7 @@ year: '2012'
 ## Publication Details
 
 **Location:** Lisbon, Portugal
+
+## Links and Resources
+
+- [PDF](2012 - International Association for Impact Assessment Annual Conference.pdf)

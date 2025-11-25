@@ -11,6 +11,7 @@ gallery:
 - speakers
 - thumbnail
 layout: library-item
+pdf: agenda.pdf
 preview: speakers
 tags: []
 title: 'Post-2020 Global Biodiversity Framework: what’s next for the Ocean?'
@@ -22,3 +23,4 @@ year: '2023'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean)
+- [PDF](agenda.pdf)

@@ -9,6 +9,7 @@ date: '2023-01-01'
 description: Renewable Energy and Sustainability Report
 entry_type: Report
 layout: library-item
+pdf: REN21-RESR-2023_LowRes.pdf
 tags:
 - contributor
 - editor
@@ -25,3 +26,4 @@ year: '2023'
 ## Links and Resources
 
 - [Original URL](https://www.ren21.net/renewable-energy-and-sustainability-report-2024/)
+- [PDF](REN21-RESR-2023_LowRes.pdf)

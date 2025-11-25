@@ -10,6 +10,9 @@ date: '2017-01-01'
 description: 'Consenting ocean energy projects: Issues, challenges and opportunities'
 entry_type: Book chapter
 layout: library-item
+pdf: O'Hagan and Wright - 2017 - Consenting ocean energy projects Issues, challenges
+  and opportunities.pdf
+preview: thumbnail
 publisher: Earthscan
 tags: []
 title: 'Consenting ocean energy projects: Issues, challenges and opportunities'
@@ -22,3 +25,7 @@ year: '2017'
 **Authors:** Anne-Marie O'Hagan, Glen Wright
 **Venue:** Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies
 **Publisher:** Earthscan
+
+## Links and Resources
+
+- [PDF](O'Hagan and Wright - 2017 - Consenting ocean energy projects Issues, challenges and opportunities.pdf)

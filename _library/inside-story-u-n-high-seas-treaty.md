@@ -9,6 +9,7 @@ date: 2023-March-01
 description: The Inside Story of the U.N. High Seas Treaty
 entry_type: Newspaper
 layout: library-item
+pdf: Marlow - The Inside Story of the U.N. High Seas Treaty.pdf
 tags: []
 title: The Inside Story of the U.N. High Seas Treaty
 url: https://www.newyorker.com/news/daily-comment/the-inside-story-of-the-un-high-seas-treaty
@@ -24,6 +25,7 @@ year: '2023'
 ## Links and Resources
 
 - [Original URL](https://www.newyorker.com/news/daily-comment/the-inside-story-of-the-un-high-seas-treaty)
+- [PDF](Marlow - The Inside Story of the U.N. High Seas Treaty.pdf)
 
 ## Notes
 

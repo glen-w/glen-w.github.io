@@ -10,6 +10,7 @@ description: 'The high seas: how can we govern half of the  planet for the benef
 entry_type: Workshop
 layout: library-item
 location: Central Hall, London, UK
+pdf: Martin-Mehers and Mohammed - The high seas how can we govern half of the.pdf
 publisher: IIED
 tags: []
 title: 'The high seas: how can we govern half of the  planet for the benefit of all
@@ -22,3 +23,7 @@ year: '2019'
 
 **Location:** Central Hall, London, UK
 **Publisher:** IIED
+
+## Links and Resources
+
+- [PDF](Martin-Mehers and Mohammed - The high seas how can we govern half of the.pdf)

@@ -87,13 +87,27 @@ layout: default
     {% endif %}
 
     <!-- Action buttons for PDFs, links, etc. -->
-    {% if page.pdf or page.url or page.doi %}
+    {% if page.pdf or page.url or page.doi or page.slides or page.agenda %}
       <div class="library-actions">
         {% if page.pdf %}
           <a href="{{ page.pdf | prepend: '/assets/pdf/' | relative_url }}" 
              class="btn btn-primary btn-sm" 
              target="_blank">
             <i class="fa-solid fa-file-pdf fa-sm"></i> View PDF
+          </a>
+        {% endif %}
+        {% if page.slides %}
+          <a href="{{ page.slides | prepend: '/assets/pdf/' | relative_url }}" 
+             class="btn btn-outline-primary btn-sm" 
+             target="_blank">
+            <i class="fa-solid fa-file-powerpoint fa-sm"></i> Slides
+          </a>
+        {% endif %}
+        {% if page.agenda %}
+          <a href="{{ page.agenda | prepend: '/assets/pdf/' | relative_url }}" 
+             class="btn btn-outline-primary btn-sm" 
+             target="_blank">
+            <i class="fa-solid fa-file-lines fa-sm"></i> Agenda
           </a>
         {% endif %}
         {% if page.url %}
@@ -269,15 +283,18 @@ layout: default
         <h3>Gallery</h3>
         <div class="row">
           {% for image in page.gallery %}
-            <div class="col-md-4 col-sm-6 mb-3">
-              <a href="{{ image | prepend: '/assets/img/publications/' | relative_url }}" 
-                 data-lightbox="gallery" 
-                 data-title="{{ page.title }}">
-                <img src="{{ image | prepend: '/assets/img/publications/' | relative_url }}" 
-                     alt="{{ page.title }} image {{ forloop.index }}" 
-                     class="img-fluid rounded">
-              </a>
-            </div>
+            {% assign image_lower = image | downcase %}
+            {% unless image_lower contains 'thumbnail' %}
+              <div class="col-md-4 col-sm-6 mb-3">
+                <a href="{{ image | prepend: '/assets/img/publications/' | relative_url }}" 
+                   data-lightbox="gallery" 
+                   data-title="{{ page.title }}">
+                  <img src="{{ image | prepend: '/assets/img/publications/' | relative_url }}" 
+                       alt="{{ page.title }} image {{ forloop.index }}" 
+                       class="img-fluid rounded">
+                </a>
+              </div>
+            {% endunless %}
           {% endfor %}
         </div>
       </div>

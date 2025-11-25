@@ -22,6 +22,7 @@ description: Organised by IDDRI in the context of the STRONG High Seas project, 
   and the International Union for Conservatio...
 entry_type: Workshop
 layout: library-item
+pdf: agenda.pdf
 publisher: STRONG High Seas, International MCS Network, IUCN
 tags: []
 title: 'High Seas Marine Protected Areas: Vast, Remote and Costly?'
@@ -32,3 +33,7 @@ year: '2022'
 ## Publication Details
 
 **Publisher:** STRONG High Seas, International MCS Network, IUCN
+
+## Links and Resources
+
+- [PDF](agenda.pdf)

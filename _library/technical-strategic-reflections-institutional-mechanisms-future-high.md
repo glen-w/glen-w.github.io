@@ -19,6 +19,7 @@ description: The negotiations for the development of a legally binding instrumen
   to the public health crisis. The negotiations ha...
 entry_type: Blog
 layout: library-item
+pdf: Rochette et al. - 2020 - Technical but strategic reflections on the instit.pdf
 tags: []
 title: 'Technical but strategic: reflections on the institutional mechanisms of a
   future High Seas Treaty'
@@ -35,3 +36,4 @@ year: '2020'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/billet-de-blog/technical-strategic-reflections-institutional-mechanisms)
+- [PDF](Rochette et al. - 2020 - Technical but strategic reflections on the instit.pdf)

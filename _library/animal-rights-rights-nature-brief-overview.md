@@ -10,6 +10,7 @@ description: Animal Rights and the Rights of Nature, a brief overview
 entry_type: Report
 layout: library-item
 location: Southern Cross University
+pdf: Animal Rights and the Rights of Nature, a brief overview.pdf
 tags: []
 title: Animal Rights and the Rights of Nature, a brief overview
 venue: Animal Rights and the Rights of Nature
@@ -21,3 +22,7 @@ year: '2012'
 **Authors:** Glen Wright
 **Venue:** Animal Rights and the Rights of Nature
 **Location:** Southern Cross University
+
+## Links and Resources
+
+- [PDF](Animal Rights and the Rights of Nature, a brief overview.pdf)

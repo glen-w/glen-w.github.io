@@ -22,6 +22,7 @@ description: Hoboken, NJ – May 7, 2015 – John Wiley & Sons, Inc., is pleased
   International Relations (IDDRI) in Paris, as ...
 entry_type: Blog
 layout: library-item
+preview: thumbnail
 tags: []
 title: Researcher Glen Wright to take over Wiley’s Exchanges Blog
 url: https://johnwiley2020news.q4web.com/press-releases/press-release-details/2015/Researcher-Glen-Wright-to-take-over-Wileys-Exchanges-Blog-0f3e3e7e5/default.aspx

@@ -10,6 +10,8 @@ description: Regional launch of Western Indian Ocean Economy Report and presenta
 entry_type: Conference
 layout: library-item
 location: Antananarivo, Madagascar
+pdf: 2017 - Regional launch of Western Indian Ocean Economy Report and presentation
+  of Madagascar’s vision on Oc.pdf
 preview: thumbnail
 tags: []
 title: Regional launch of Western Indian Ocean Economy Report and presentation of
@@ -21,3 +23,7 @@ year: '2017'
 ## Publication Details
 
 **Location:** Antananarivo, Madagascar
+
+## Links and Resources
+
+- [PDF](2017 - Regional launch of Western Indian Ocean Economy Report and presentation of Madagascar’s vision on Oc.pdf)

@@ -11,6 +11,7 @@ description: Workshop on Linking Global and Regional Levels in the Management of
 entry_type: Workshop
 layout: library-item
 location: Rome, Italy
+pdf: abnj-workshop-list-of-participants-final.pdf
 tags: []
 title: Workshop on Linking Global and Regional Levels in the Management of Marine
   Areas Beyond National Jurisdiction
@@ -27,3 +28,4 @@ year: '2015'
 ## Links and Resources
 
 - [Original URL](https://globaloceanforum.com/wp-content/uploads/2015/03/abnj-workshop-list-of-participants-final.pdf)
+- [PDF](abnj-workshop-list-of-participants-final.pdf)

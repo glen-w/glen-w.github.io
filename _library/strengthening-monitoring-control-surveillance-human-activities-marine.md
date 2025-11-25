@@ -25,6 +25,7 @@ doi: https://doi.org/10.1016/j.marpol.2020.103976
 entry_type: Journal article
 layout: library-item
 pages: '103976'
+pdf: MCS Marine Policy Paper (1).pdf
 tags: []
 title: 'Strengthening monitoring, control and surveillance of human activities in
   marine areas beyond national jurisdiction: Challenges and opportunities for an international
@@ -46,3 +47,4 @@ year: '2020'
 
 - [Original URL](https://www.sciencedirect.com/science/article/pii/S0308597X19309534)
 - [DOI](https://doi.org/10.1016/j.marpol.2020.103976)
+- [PDF](MCS Marine Policy Paper (1).pdf)

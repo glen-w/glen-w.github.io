@@ -21,6 +21,8 @@ description: Alors que nous sommes à un moment décisif pour l'avenir de l'océ
   lancer les négociations d'un nouvel accord sur...
 entry_type: Blog
 layout: library-item
+pdf: Wright - 2016 - Vers un accord sur la haute mer  des mesures positives à New
+  York.pdf
 tags: []
 title: 'Vers un accord sur la haute mer : des mesures positives à New York'
 url: https://www.iddri.org/fr/publications-et-evenements/billet-de-blog/vers-un-accord-sur-la-haute-mer-des-mesures-positives-new
@@ -36,3 +38,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/fr/publications-et-evenements/billet-de-blog/vers-un-accord-sur-la-haute-mer-des-mesures-positives-new)
+- [PDF](Wright - 2016 - Vers un accord sur la haute mer  des mesures positives à New York.pdf)

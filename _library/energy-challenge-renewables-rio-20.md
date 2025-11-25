@@ -10,6 +10,7 @@ description: 'The Energy Challenge: Renewables at Rio+20'
 entry_type: Poster
 layout: library-item
 location: Canberra, Australia
+pdf: Glen Wright, Rio+20 energy poster.pdf
 tags: []
 title: 'The Energy Challenge: Renewables at Rio+20'
 venue: Rio+20 Workshop
@@ -21,3 +22,7 @@ year: '2012'
 **Authors:** Glen Wright
 **Venue:** Rio+20 Workshop
 **Location:** Canberra, Australia
+
+## Links and Resources
+
+- [PDF](Glen Wright, Rio+20 energy poster.pdf)

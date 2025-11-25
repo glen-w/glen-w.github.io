@@ -28,6 +28,7 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 pages: '82'
+pdf: Wright et al. - 2018 - The Long and Winding Road negotiating a treaty fo.pdf
 tags: []
 title: 'The Long and Winding Road: negotiating a treaty for the conservation and sustainable
   use of marine biodiversity in areas beyond national jurisdiction'
@@ -46,6 +47,7 @@ year: '2018'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty)
+- [PDF](Wright et al. - 2018 - The Long and Winding Road negotiating a treaty fo.pdf)
 
 ## Notes
 

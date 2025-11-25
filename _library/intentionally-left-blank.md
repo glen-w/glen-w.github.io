@@ -14,6 +14,7 @@ description: This Study is Intentionally Left Blank
 entry_type: Journal article
 layout: library-item
 number: '2'
+pdf: 2015-This_Study_is_Intentionally_Left_Blank.pdf
 tags: []
 title: This Study is Intentionally Left Blank
 venue: Annals of Improbable Research
@@ -27,6 +28,10 @@ year: '2015'
 **Venue:** Annals of Improbable Research
 **Volume:** 21
 **Number:** 2
+
+## Links and Resources
+
+- [PDF](2015-This_Study_is_Intentionally_Left_Blank.pdf)
 
 ## Notes
 

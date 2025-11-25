@@ -18,6 +18,7 @@ description: After the “Blue COP”, whose real political impacts will need to
   for the ocean, marked with several impo...
 entry_type: Blog
 layout: library-item
+pdf: 2020 a “super year” for the ocean.pdf
 tags: []
 title: '2020: a “Super Year” for the ocean?'
 url: https://www.iddri.org/en/publications-and-events/blog-post/2020-super-year-ocean
@@ -33,3 +34,4 @@ year: '2020'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/2020-super-year-ocean)
+- [PDF](2020 a “super year” for the ocean.pdf)

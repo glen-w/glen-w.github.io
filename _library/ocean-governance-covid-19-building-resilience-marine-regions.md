@@ -11,6 +11,7 @@ gallery:
 - MRF workshop - group photo
 - thumbnail
 layout: library-item
+pdf: 20201207_draft Agenda_MRF workshop on regional responses to COVID 19_prt.pdf
 preview: MRF workshop - group photo
 publisher: Marine Regions Forum
 tags: []
@@ -22,3 +23,7 @@ year: '2021'
 ## Publication Details
 
 **Publisher:** Marine Regions Forum
+
+## Links and Resources
+
+- [PDF](20201207_draft Agenda_MRF workshop on regional responses to COVID 19_prt.pdf)

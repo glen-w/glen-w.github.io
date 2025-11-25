@@ -10,6 +10,7 @@ description: 'Marine Energy: Designing a Regulatory Framework for an Abundant Re
   Energy Resource (Poster)'
 entry_type: Poster
 layout: library-item
+pdf: Glen Wright, Marine Energy poster.pdf
 tags: []
 title: 'Marine Energy: Designing a Regulatory Framework for an Abundant Renewable
   Energy Resource (Poster)'
@@ -21,3 +22,7 @@ year: '2012'
 
 **Authors:** Glen Wright
 **Venue:** ANU School of Law Doctoral Showcase
+
+## Links and Resources
+
+- [PDF](Glen Wright, Marine Energy poster.pdf)

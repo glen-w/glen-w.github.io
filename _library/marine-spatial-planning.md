@@ -9,7 +9,7 @@ date: 2022-July-01
 description: Marine Spatial Planning
 entry_type: Webinar
 layout: library-item
-preview: IMG-20220708-WA0000
+preview: thumbnail
 tags: []
 title: Marine Spatial Planning
 venue: YOUMARES talks

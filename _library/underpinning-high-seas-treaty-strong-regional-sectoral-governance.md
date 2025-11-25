@@ -11,6 +11,8 @@ description: Underpinning a High Seas Treaty through Strong Regional and Sectora
 entry_type: Workshop
 layout: library-item
 location: New York, NY, USA
+pdf: Wright - Underpinning a High Seas Treaty through Strong Regional and Sectoral
+  Governance.pdf
 publisher: STRONG High Seas
 tags: []
 title: Underpinning a High Seas Treaty through Strong Regional and Sectoral Governance
@@ -24,3 +26,7 @@ year: '2018'
 **Venue:** Building a Strong High Seas Treaty - What is the Role for Regional Ocean Governance?
 **Location:** New York, NY, USA
 **Publisher:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](Wright - Underpinning a High Seas Treaty through Strong Regional and Sectoral Governance.pdf)

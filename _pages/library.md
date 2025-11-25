@@ -60,12 +60,21 @@ nav_order: 10
     <a href="#" onclick="toggleMap(); return false;" class="view-map-link" id="mapToggleBtn">
       <i class="fas fa-map-marker-alt"></i> view map
     </a>
+    <a href="#" onclick="toggleSelectedPublications(); return false;" class="view-map-link" id="selectedToggleBtn">
+      <i class="fas fa-eye-slash"></i> hide selected publications
+    </a>
   </div>
 </div>
 
 <!-- Map Container (initially hidden) -->
 <div id="libraryMapContainer" class="library-map-container" style="display: none;">
   <div id="libraryMap" class="library-map"></div>
+</div>
+
+<!-- Selected Publications Container -->
+<div id="selectedPublicationsContainer" class="selected-publications-container">
+  <h2>Selected Publications</h2>
+  {% include selected_papers.liquid %}
 </div>
 
 <!-- Item Count Display -->
@@ -94,9 +103,26 @@ nav_order: 10
   width: 100%;
 }
 
+.selected-publications-container {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border: 1px solid #e0e0e0;
+  background-color: var(--global-bg-color);
+}
+
+.selected-publications-container h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--global-text-color);
+}
+
 .filter-actions {
-  display: inline-block;
-  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
   margin-bottom: 0.5rem;
 }
 
@@ -186,7 +212,7 @@ nav_order: 10
 
 /* Marker cluster styling */
 .marker-cluster {
-  background-color: rgba(0, 123, 255, 0.6);
+  background-color: rgba(102, 187, 106, 0.7);
   border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   color: white;
@@ -199,12 +225,12 @@ nav_order: 10
 }
 
 .marker-cluster-medium {
-  background-color: rgba(255, 193, 7, 0.8);
-  color: #212529;
+  background-color: rgba(102, 187, 106, 0.7);
+  color: white;
 }
 
 .marker-cluster-large {
-  background-color: rgba(220, 53, 69, 0.8);
+  background-color: rgba(102, 187, 106, 0.7);
   color: white;
 }
 
@@ -307,6 +333,8 @@ document.addEventListener('DOMContentLoaded', function() {
       filterByTag(decodeURIComponent(filterParam));
       // Scroll to top of results
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      // Hide selected publications when filter parameter is present
+      hideSelectedPublications();
     }, 500);
   }
   
@@ -342,10 +370,14 @@ document.addEventListener('DOMContentLoaded', function() {
       setTimeout(() => {
         if (this.value.trim() !== '') {
           updateItemCount();
+          // Hide selected publications when user searches
+          hideSelectedPublications();
         } else {
           hideItemCount();
           clearActiveTags();
           isBadgeFiltering = false;
+          // Show selected publications when search is cleared
+          showSelectedPublications();
         }
       }, 100);
     });
@@ -363,6 +395,18 @@ document.addEventListener('DOMContentLoaded', function() {
   setTimeout(() => {
     updateFilterCounts();
   }, 200);
+  
+  // Check on page load for active filters/search and hide selected publications if needed
+  // Reuse searchInput variable declared on line 358
+  if (searchInput && searchInput.value.trim() !== '') {
+    hideSelectedPublications();
+  }
+  
+  // Check if any filter tags are active on page load
+  const activeTags = document.querySelectorAll('.library-filters .filter-tags a.badge.active, .library-filters .filter-tags a.tag.active');
+  if (activeTags.length > 0) {
+    hideSelectedPublications();
+  }
 });
 
 // Filter functions that use exact badge/tag matching for entry types
@@ -381,6 +425,12 @@ function filterByTag(tag) {
     });
     const isEntryType = entryTypes.includes(tag);
     
+    // Check if this is a role tag filter by checking if it matches role tags
+    const roleTags = Array.from(document.querySelectorAll('.role-tags-filters .tag')).map(t => {
+      return t.textContent.replace(/\s*\(\d+\)\s*$/, '').trim();
+    });
+    const isRoleTag = roleTags.includes(tag);
+    
     if (isEntryType) {
       // For entry types, use exact badge matching to avoid false matches
       // (e.g., "Conference" should not match "Conference Paper" or items with "conference" in title)
@@ -392,9 +442,14 @@ function filterByTag(tag) {
       
       // Use exact badge matching - this will NOT match title text
       filterByExactBadge(tag);
+    } else if (isRoleTag) {
+      // For role tags, use exact tag matching to avoid false matches
+      // (e.g., "author" should not match "co-author")
+      isBadgeFiltering = true;
+      searchInput.value = tag;
+      filterByExactBadge(tag);
     } else {
-      // For role tags and language tags, use the existing bibsearch infrastructure
-      // These can match anywhere in the text (titles, authors, etc.)
+      // For language tags, use the existing bibsearch infrastructure
       isBadgeFiltering = false;
       searchInput.value = tag;
       // Dispatch input event to trigger bibsearch.js filtering
@@ -403,6 +458,9 @@ function filterByTag(tag) {
     
     // Add active state to clicked tag
     setActiveTag(tag);
+    
+    // Hide selected publications when a filter is applied
+    hideSelectedPublications();
     
     // Update item count after a delay to ensure filtering has taken effect
     setTimeout(() => {
@@ -478,6 +536,9 @@ function clearFilters() {
     searchInput.dispatchEvent(new Event('input', { bubbles: true }));
     // Remove active state from all tags
     clearActiveTags();
+    
+    // Show selected publications when filters are cleared
+    showSelectedPublications();
     
     // Hide item count after a delay to ensure clearing has taken effect
     setTimeout(() => {
@@ -677,7 +738,34 @@ function itemMatchesFilter(item, filterText) {
   
   // Final fallback: check if filter text appears anywhere in item text
   // Only use this if no badge was found (to avoid false matches)
-  const simpleMatch = itemText.includes(filterLower);
+  // For single-word filters that could be part of compound terms (like "book" in "book chapter"),
+  // use word boundaries to ensure we only match standalone words
+  const isSingleWord = !filterLower.includes(' ');
+  const compoundTerms = {
+    'book': ['book chapter', 'book section'],
+    'conference': ['conference paper'],
+    'thesis': ['phd thesis', 'master\'s thesis']
+  };
+  
+  let simpleMatch = false;
+  if (isSingleWord && compoundTerms[filterLower]) {
+    // Check if filter text appears as a standalone word (not part of compound terms)
+    const compoundPatterns = compoundTerms[filterLower];
+    const hasCompoundTerm = compoundPatterns.some(term => itemText.includes(term));
+    
+    if (!hasCompoundTerm) {
+      // Use word boundary regex to match standalone word
+      const wordBoundaryRegex = new RegExp(`\\b${filterLower}\\b`);
+      simpleMatch = wordBoundaryRegex.test(itemText);
+    } else {
+      // Item contains a compound term, so don't match the single word
+      simpleMatch = false;
+    }
+  } else {
+    // For multi-word filters or filters without compound terms, use simple includes
+    simpleMatch = itemText.includes(filterLower);
+  }
+  
   if (simpleMatch) {
     console.log(`Simple text match for "${filterLower}" (no badge found)`);
     return true;
@@ -743,9 +831,14 @@ function toggleMap() {
   const mapContainer = document.getElementById('libraryMapContainer');
   const toggleBtn = document.getElementById('mapToggleBtn');
   
-  if (mapContainer.style.display === 'none') {
+  if (!mapContainer || !toggleBtn) return;
+  
+  const isHidden = mapContainer.style.display === 'none' || 
+                   window.getComputedStyle(mapContainer).display === 'none';
+  
+  if (isHidden) {
     mapContainer.style.display = 'block';
-    toggleBtn.innerHTML = '<i class="fas fa-map-marker-alt"></i> Hide Map';
+    toggleBtn.innerHTML = '<i class="fas fa-map-marker-alt"></i> hide map';
     
     // Initialize map if not already done
     if (!mapInitialized) {
@@ -753,7 +846,48 @@ function toggleMap() {
     }
   } else {
     mapContainer.style.display = 'none';
-    toggleBtn.innerHTML = '<i class="fas fa-map-marker-alt"></i> View Map';
+    toggleBtn.innerHTML = '<i class="fas fa-map-marker-alt"></i> view map';
+  }
+}
+
+// Selected publications toggle functionality
+function toggleSelectedPublications() {
+  const container = document.getElementById('selectedPublicationsContainer');
+  const toggleBtn = document.getElementById('selectedToggleBtn');
+  
+  if (!container || !toggleBtn) return;
+  
+  const isHidden = container.style.display === 'none' || 
+                   window.getComputedStyle(container).display === 'none';
+  
+  if (isHidden) {
+    container.style.display = 'block';
+    toggleBtn.innerHTML = '<i class="fas fa-eye-slash"></i> hide selected publications';
+  } else {
+    container.style.display = 'none';
+    toggleBtn.innerHTML = '<i class="fas fa-eye"></i> show selected publications';
+  }
+}
+
+// Helper function to hide selected publications container
+function hideSelectedPublications() {
+  const container = document.getElementById('selectedPublicationsContainer');
+  const toggleBtn = document.getElementById('selectedToggleBtn');
+  
+  if (container && toggleBtn) {
+    container.style.display = 'none';
+    toggleBtn.innerHTML = '<i class="fas fa-eye"></i> show selected publications';
+  }
+}
+
+// Helper function to show selected publications container
+function showSelectedPublications() {
+  const container = document.getElementById('selectedPublicationsContainer');
+  const toggleBtn = document.getElementById('selectedToggleBtn');
+  
+  if (container && toggleBtn) {
+    container.style.display = 'block';
+    toggleBtn.innerHTML = '<i class="fas fa-eye-slash"></i> hide selected publications';
   }
 }
 
@@ -835,7 +969,8 @@ function createLibraryMap() {
       return L.divIcon({
         html: '<div class="cluster-icon cluster-' + size + '">' + count + '</div>',
         className: 'marker-cluster marker-cluster-' + size,
-        iconSize: L.point(40, 40)
+        iconSize: L.point(40, 40),
+        iconAnchor: L.point(20, 20)
       });
     }
   });

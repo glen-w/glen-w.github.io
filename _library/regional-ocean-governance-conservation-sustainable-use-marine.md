@@ -11,6 +11,7 @@ description: Regional Ocean Governance  Conservation and Sustainable Use of Mari
   Biodiversity
 entry_type: Workshop
 layout: library-item
+pdf: Doc 2.Information Note for participants - english version.pdf
 preview: Taller-CPPS-PORI-2015.jpg
 publisher: IDDRI, IASS
 tags: []
@@ -24,3 +25,7 @@ year: '2015'
 **Authors:** Carole Durussel, Glen Wright
 **Venue:** CPPS Workshop on Integrated Regional Oceanic Policy
 **Publisher:** IDDRI, IASS
+
+## Links and Resources
+
+- [PDF](Doc 2.Information Note for participants - english version.pdf)

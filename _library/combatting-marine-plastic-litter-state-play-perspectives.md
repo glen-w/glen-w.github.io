@@ -14,6 +14,7 @@ entry_type: Report
 institution: IDDRI
 layout: library-item
 number: '3'
+pdf: Rochette et al. - Combatting marine plastic litter state of play an.pdf
 tags: []
 title: 'Combatting marine plastic litter: state of play and perspectives'
 venue: IDDRI
@@ -26,3 +27,7 @@ year: '2020'
 **Venue:** IDDRI
 **Number:** 3
 **Institution:** IDDRI
+
+## Links and Resources
+
+- [PDF](Rochette et al. - Combatting marine plastic litter state of play an.pdf)

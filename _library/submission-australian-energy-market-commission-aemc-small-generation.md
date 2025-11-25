@@ -10,6 +10,7 @@ description: 'Submission to the Australian Energy Market Commission (AEMC): Smal
   Generation Aggregator Framework'
 entry_type: Submission
 layout: library-item
+pdf: Wright - 2012 - Small Generation Aggregator Framework.pdf
 tags: []
 title: 'Submission to the Australian Energy Market Commission (AEMC): Small Generation
   Aggregator Framework'
@@ -20,3 +21,7 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
+
+## Links and Resources
+
+- [PDF](Wright - 2012 - Small Generation Aggregator Framework.pdf)

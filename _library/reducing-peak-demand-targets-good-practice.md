@@ -13,6 +13,7 @@ description: Better managing peak demand, the primary culprit behind recent rapi
   Electricity Market (NEM). To deal with peak de...
 entry_type: Newspaper
 layout: library-item
+pdf: Wright - Reducing peak demand targets are good practice.pdf
 tags: []
 title: 'Reducing peak demand: targets are good practice'
 url: http://theconversation.com/reducing-peak-demand-targets-are-good-practice-11749
@@ -28,3 +29,4 @@ year: '2013'
 ## Links and Resources
 
 - [Original URL](http://theconversation.com/reducing-peak-demand-targets-are-good-practice-11749)
+- [PDF](Wright - Reducing peak demand targets are good practice.pdf)

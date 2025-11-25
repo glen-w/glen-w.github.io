@@ -10,6 +10,7 @@ description: 'Marine Genetic Resources in Areas Beyond National Jurisdiction: an
   bibliography'
 entry_type: Report
 layout: library-item
+pdf: MGR bibliography.pdf
 tags: []
 title: 'Marine Genetic Resources in Areas Beyond National Jurisdiction: an annotated
   bibliography'
@@ -20,3 +21,7 @@ year: '2012'
 ## Publication Details
 
 **Authors:** Glen Wright
+
+## Links and Resources
+
+- [PDF](MGR bibliography.pdf)

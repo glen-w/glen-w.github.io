@@ -11,6 +11,7 @@ description: 'Marine Energy in Australia and New Zealand: Regulatory Barriers an
 entry_type: Conference
 layout: library-item
 location: Melbourne, Australia
+pdf: 2011-Marine_Energy_in_Australia_and_New_Zealand_Regulatory_Barriers_and_Policy_Measures.pdf
 preview: thumbnail
 tags:
 - reviw
@@ -25,3 +26,7 @@ year: '2011'
 **Authors:** Glen Wright
 **Venue:** All-Energy Australia
 **Location:** Melbourne, Australia
+
+## Links and Resources
+
+- [PDF](2011-Marine_Energy_in_Australia_and_New_Zealand_Regulatory_Barriers_and_Policy_Measures.pdf)

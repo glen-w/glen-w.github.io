@@ -20,6 +20,7 @@ entry_type: Report
 institution: STRONG High Seas
 layout: library-item
 pages: '56'
+pdf: Gjerde et al. - 2021 - Fortalecer la gobernanza en alta mar mediante proc.pdf
 tags: []
 title: 'Strengthening high seas governance through enhanced environmental assessment
   processes: A case study of mesopelagic fisheries and options for a future BBNJ treaty'
@@ -39,6 +40,7 @@ year: '2021'
 
 - [Original URL](https://publications.rifs-potsdam.de/pubman/item/item_6000701)
 - [DOI](https://doi.org/10.48440/IASS.2021.001)
+- [PDF](Gjerde et al. - 2021 - Fortalecer la gobernanza en alta mar mediante proc.pdf)
 
 ## Notes
 

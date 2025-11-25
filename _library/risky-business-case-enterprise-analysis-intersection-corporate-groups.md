@@ -11,6 +11,7 @@ description: 'Risky Business: the Case for Enterprise Analysis at the Intersecti
 entry_type: Journal article
 layout: library-item
 number: '1'
+pdf: 2011-Risky_Business_the_Case_for_Enterprise_Analysis_at_the_Intersection_of_Corporate_Groups_and_Torts.pdf
 preview: thumbnail
 tags: []
 title: 'Risky Business: the Case for Enterprise Analysis at the Intersection of Corporate
@@ -26,3 +27,7 @@ year: '2011'
 **Venue:** Journal of European Tort Law
 **Volume:** 8
 **Number:** 1
+
+## Links and Resources
+
+- [PDF](2011-Risky_Business_the_Case_for_Enterprise_Analysis_at_the_Intersection_of_Corporate_Groups_and_Torts.pdf)

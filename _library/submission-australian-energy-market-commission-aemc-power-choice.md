@@ -12,6 +12,7 @@ description: 'Submission to the Australian Energy Market Commission (AEMC): Powe
 entry_type: Submission
 institution: Total Environment Centre
 layout: library-item
+pdf: Wright and Centre - 2012 - TOTAL ENVIRONMENT CENTRE INC.pdf
 tags: []
 title: 'Submission to the Australian Energy Market Commission (AEMC): Power of Choice
   Review'
@@ -24,3 +25,7 @@ year: '2012'
 **Authors:** Mark Byrne, Glen Wright
 **Venue:** Total Environment Centre
 **Institution:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](Wright and Centre - 2012 - TOTAL ENVIRONMENT CENTRE INC.pdf)

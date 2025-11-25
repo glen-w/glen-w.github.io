@@ -35,6 +35,7 @@ entry_type: Report
 layout: library-item
 location: Potsdam, Germany
 pages: 1--14
+pdf: Rochette et al. - 2014 - Governing the “ High Seas ” - Linking global gover.pdf
 tags: []
 title: Governing the “High Seas” - Linking global governance and regional implementation
 venue: Potsdam Ocean Governance Workshop
@@ -47,3 +48,7 @@ year: '2014'
 **Venue:** Potsdam Ocean Governance Workshop
 **Location:** Potsdam, Germany
 **Pages:** 1--14
+
+## Links and Resources
+
+- [PDF](Rochette et al. - 2014 - Governing the “ High Seas ” - Linking global gover.pdf)

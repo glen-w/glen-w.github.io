@@ -9,6 +9,7 @@ date: '2020-01-01'
 description: The History of Ocean Power
 entry_type: Report section
 layout: library-item
+pdf: gsr2020_ocean_sidebar.pdf
 publisher: REN21
 tags:
 - featured
@@ -27,3 +28,4 @@ year: '2020'
 ## Links and Resources
 
 - [Original URL](https://www.ren21.net/reports/global-status-report/)
+- [PDF](gsr2020_ocean_sidebar.pdf)

@@ -11,6 +11,7 @@ description: 'Gobernanza regional en las zonas fuera de la jurisdicción naciona
 entry_type: Workshop
 layout: library-item
 location: Guayaquil, Ecuador
+pdf: 190315GW CPPS.pdf
 publisher: STRONG High Seas
 tags: []
 title: 'Gobernanza regional en las zonas fuera de la jurisdicción nacional: Qué aprendimos
@@ -25,3 +26,7 @@ year: '2018'
 **Venue:** STRONG High Seas- Dialogue Workshop II
 **Location:** Guayaquil, Ecuador
 **Publisher:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](190315GW CPPS.pdf)

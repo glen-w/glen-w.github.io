@@ -10,6 +10,8 @@ description: 1ère réunion du groupe de réflexion et de travail sur la gouvern
 entry_type: Workshop
 layout: library-item
 location: Paris, France
+pdf: 1ère réunion du groupe de réflexion et de travail sur la gouvernance de la haute
+  mer.pdf
 tags: []
 title: 1ère réunion du groupe de réflexion et de travail sur la gouvernance de la
   haute mer
@@ -20,3 +22,7 @@ year: '2016'
 ## Publication Details
 
 **Location:** Paris, France
+
+## Links and Resources
+
+- [PDF](1ère réunion du groupe de réflexion et de travail sur la gouvernance de la haute mer.pdf)

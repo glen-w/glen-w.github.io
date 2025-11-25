@@ -25,16 +25,22 @@ description: Plastic pollution of the ocean is now reaching an alarming level, t
   of euros every year, in particular th...
 entry_type: Webinar
 layout: library-item
+pdf: plastics slides copie.pdf
 preview: thumbnail
 tags:
 - organiser
 - speaker
 - webinar
 title: 'Marine Plastic Pollution: State of Play & Perspectives'
-venue: ''
+venue: What solutions to fight plastic pollution in the ocean?
 year: '2020'
 ---
 
 ## Publication Details
 
 **Authors:** Glen Wright
+**Venue:** What solutions to fight plastic pollution in the ocean?
+
+## Links and Resources
+
+- [PDF](plastics slides copie.pdf)

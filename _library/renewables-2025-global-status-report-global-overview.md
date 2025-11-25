@@ -44,6 +44,7 @@ description: In 2024, global renewable energy growth was primarily driven by the
 entry_type: Other
 institution: REN21
 layout: library-item
+pdf: 25-1395_GO_2025_Full_Report_14opt.pdf
 tags:
 - featured
 title: 'Renewables 2025 Global Status Report: Global Overview'
@@ -61,3 +62,4 @@ year: '2025'
 ## Links and Resources
 
 - [Original URL](https://www.ren21.net/gsr-2025/)
+- [PDF](25-1395_GO_2025_Full_Report_14opt.pdf)

@@ -14,6 +14,8 @@ gallery:
 - IMG_2835
 layout: library-item
 location: United Nations, New York City, NY, USA
+pdf: Wright - Side Event High seas fisheries in a new international legally binding
+  instrument PrepCom 2 (26 Augu.pdf
 preview: FullSizeRender
 tags: []
 title: Environmental Impact Assessment and Overarching Provisions
@@ -31,3 +33,4 @@ year: '2016'
 ## Links and Resources
 
 - [Original URL](https://www.iddri.org/en/publications-and-events/intervention/high-seas-fisheries-new-international-legally-binding)
+- [PDF](Wright - Side Event High seas fisheries in a new international legally binding instrument PrepCom 2 (26 Augu.pdf)

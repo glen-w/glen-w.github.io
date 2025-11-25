@@ -10,6 +10,8 @@ description: 'Science for Solutions: Bringing Stakeholders Together to Improve O
 entry_type: Workshop
 layout: library-item
 location: Bogotá, Colombia
+pdf: Scrimgeour - 1030 – 1100 Session 2 Engagement related to ABNJ and BBNJ in the
+  region CPPS Presentation on Stat.pdf
 tags: []
 title: 'Science for Solutions: Bringing Stakeholders Together to Improve Ocean Planning
   and Governance in ABNJ of the South-East Pacific'
@@ -20,3 +22,7 @@ year: '2019'
 ## Publication Details
 
 **Location:** Bogotá, Colombia
+
+## Links and Resources
+
+- [PDF](Scrimgeour - 1030 – 1100 Session 2 Engagement related to ABNJ and BBNJ in the region CPPS Presentation on Stat.pdf)

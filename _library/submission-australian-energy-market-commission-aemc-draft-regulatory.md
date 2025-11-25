@@ -11,6 +11,7 @@ description: 'Submission to the Australian Energy Market Commission (AEMC): Draf
   regulatory investment test for d...'
 entry_type: Submission
 layout: library-item
+pdf: TEC sub AEMC RIT-D July 2013.pdf
 publisher: Total Environment Centre
 tags: []
 title: 'Submission to the Australian Energy Market Commission (AEMC): Draft regulatory
@@ -23,3 +24,7 @@ year: '2013'
 
 **Authors:** Mark Byrne, Glen Wright
 **Publisher:** Total Environment Centre
+
+## Links and Resources
+
+- [PDF](TEC sub AEMC RIT-D July 2013.pdf)

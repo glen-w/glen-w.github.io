@@ -10,6 +10,7 @@ description: Strengthening Monitoring, Control and Surveillance (MCS) through an
 entry_type: Workshop
 layout: library-item
 location: Guayaquil, Ecuador
+pdf: Overview - Strengthening MCS in the Southeast Pacific.pdf
 tags: []
 title: Strengthening Monitoring, Control and Surveillance (MCS) through an international
   instrument on high seas biodiversity
@@ -20,3 +21,7 @@ year: '2019'
 ## Publication Details
 
 **Location:** Guayaquil, Ecuador
+
+## Links and Resources
+
+- [PDF](Overview - Strengthening MCS in the Southeast Pacific.pdf)

@@ -10,6 +10,7 @@ description: Towards an Effective High Seas Treaty - Building on and Strengtheni
 entry_type: Workshop
 layout: library-item
 location: United Nations Headquarters, New York City, NY, USA
+pdf: STRONG High Seas, IGC2 side event (agenda).pdf
 publisher: STRONG High Seas
 tags: []
 title: Towards an Effective High Seas Treaty - Building on and Strengthening Regional
@@ -22,3 +23,7 @@ year: '2019'
 
 **Location:** United Nations Headquarters, New York City, NY, USA
 **Publisher:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](STRONG High Seas, IGC2 side event (agenda).pdf)
