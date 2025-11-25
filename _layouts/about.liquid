@@ -13,7 +13,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.9}}px, (min-width: 576px)
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.81}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
@@ -50,7 +50,7 @@ layout: default
         <h2>
           <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
         </h2>
-        {% include selected_papers.liquid %}
+        {% include selected_papers_home.liquid %}
       </div>
     {% endif %}
 
@@ -73,5 +73,14 @@ layout: default
 <style>
 #selectedPublicationsContainer {
   margin: 2rem 0;
+}
+
+/* Home page selected publications styling */
+.publications-home ol.bibliography li {
+  margin-bottom: 1.25rem;
+}
+
+.publications-home h2.bibliography {
+  display: none;
 }
 </style>

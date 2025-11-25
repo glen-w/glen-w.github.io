@@ -29,6 +29,7 @@ layout: library-item
 number: '1'
 pages: 30--36
 pdf: Wright et al. - 2023 - A High Seas Treaty on the Horizon Progress and Pr.pdf
+preview: thumbnail
 tags: []
 title: 'A High Seas Treaty on the Horizon: Progress and Prospects for the Intergovernmental
   Conference'

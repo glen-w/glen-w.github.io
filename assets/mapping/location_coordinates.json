@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2025-11-25 02:10:53",
-    "total_locations": 65,
-    "successfully_geocoded": 58,
+    "generated_at": "2025-11-25 10:09:40",
+    "total_locations": 66,
+    "successfully_geocoded": 59,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
     "refresh_mode": true,
@@ -60,8 +60,8 @@
       "entry_type": "inproceedings",
       "tag": "Training",
       "coordinates": {
-        "lat": 37.9404648,
-        "lng": 58.3823487
+        "lat": 37.9378322,
+        "lng": 58.2359467
       },
       "geocoded": true
     },
@@ -838,6 +838,20 @@
       "coordinates": {
         "lat": -22.9796815,
         "lng": -43.2331377
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "AustralianNationalUniversity2012",
+      "title": "Australian National University student delegation to Rio+20",
+      "address": "Rio de Janeiro, Brasil",
+      "year": "2012",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": -22.9110137,
+        "lng": -43.2093727
       },
       "geocoded": true
     },

@@ -33,6 +33,7 @@ entry_type: Journal article
 layout: library-item
 pages: 126--134
 pdf: 2016-Establishing_a_legal_research_agenda_for_ocean_energy.pdf
+preview: thumbnail
 tags: []
 title: Establishing a legal research agenda for ocean energy
 url: https://www.sciencedirect.com/science/article/pii/S0308597X1500281X

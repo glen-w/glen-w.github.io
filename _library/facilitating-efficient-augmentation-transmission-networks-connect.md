@@ -13,6 +13,7 @@ layout: library-item
 number: '44'
 pages: 79--91
 pdf: 2012-Facilitating_efficient_augmentation_of_transmission_networks_to_connect_renewable_energy_generation_the_Australian_.pdf
+preview: thumbnail
 tags: []
 title: 'Facilitating efficient augmentation of transmission networks to connect renewable
   energy generation: the Australian experience'

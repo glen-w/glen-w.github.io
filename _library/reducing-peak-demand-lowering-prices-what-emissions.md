@@ -14,6 +14,7 @@ description: The past year has seen several processes to reduce the price of ele
 entry_type: Newspaper
 layout: library-item
 pdf: Wright - Reducing peak demand lowering prices, but what ab.pdf
+preview: thumbnail
 tags: []
 title: 'Reducing peak demand: lowering prices, but what about emissions?'
 url: http://theconversation.com/reducing-peak-demand-lowering-prices-but-what-about-emissions-11564

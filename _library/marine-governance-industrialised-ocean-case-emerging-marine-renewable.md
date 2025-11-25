@@ -28,6 +28,7 @@ entry_type: Journal article
 layout: library-item
 pages: 77--84
 pdf: 2015-Marine_governance_in_an_industrialised_ocean_A_case_study_of_the_emerging_marine_renewable_energy_industry.pdf
+preview: thumbnail
 tags:
 - wave energy
 - ocean energy

@@ -1,0 +1,1517 @@
+<div class="row">
+  {% if site.enable_publication_thumbnails %}
+    <div class="col col-sm-2 abbr">
+      {% assign has_abbr = entry.abbr | to_s | strip | size | plus: 0 %}
+      {% if has_abbr > 0 %}
+        {%- if site.data.venues[entry.abbr] -%}
+          {% assign venue_style = null %}
+          {% assign has_venue_color = site.data.venues[entry.abbr].color | to_s | strip | size | plus: 0 %}
+          {% if has_venue_color > 0 %}
+            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+          {%- endif -%}
+          <abbr
+            class="badge rounded w-100"
+            {% if venue_style %}
+              {{ venue_style }}
+            {% endif -%}
+          >
+            {% assign has_venue_url = site.data.venues[entry.abbr].url | to_s | strip | size | plus: 0 %}
+            {% if has_venue_url > 0 %}
+              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+            {% else %}
+              <div>{{- entry.abbr -}}</div>
+            {% endif %}
+          </abbr>
+        {% else %}
+          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+        {%- endif -%}
+      {%- endif -%}
+      {% assign has_preview = entry.preview | to_s | strip | size | plus: 0 %}
+      {% if has_preview > 0 %}
+        {% if entry.preview contains '://' %}
+          <img class="preview rounded" src="{{ entry.preview }}">
+        {% else %}
+          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=entry_path
+            sizes = "200px"
+            class="preview rounded"
+            zoomable=true
+            avoid_scaling=true
+            alt=entry.preview
+          %}
+        {% endif %}
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <!-- Entry bib key -->
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+    <!-- Title -->
+    <div class="title">{{ entry.title }} ({{ entry.year }})</div>
+    
+    <!-- Item Type -->
+    {% assign item_type = '' %}
+    
+    <!-- Check for type from annote field [type] section (Zotero Notes export standard) -->
+    {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
+    {% if has_annote > 0 %}
+      {% assign annote_text = entry.annote | strip %}
+      {% if annote_text contains '[type]' %}
+        {% assign type_section = annote_text | split: '[type]' | last | split: '[' | first | strip %}
+        {% assign type_lines = type_section | split: '\n' %}
+        {% for line in type_lines %}
+          {% assign clean_line = line | strip %}
+          {% if clean_line != '' %}
+            {% assign item_type = clean_line | replace: '@@', '@' %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+    
+    <!-- If no type from structured annote, fallback to BibTeX @type tag -->
+    {% if item_type == '' %}
+        {% case entry.ENTRYTYPE %}
+        {% when 'article' %}
+          {% assign item_type = 'Journal Article' %}
+        {% when 'inproceedings' %}
+          {% assign item_type = 'Conference Paper' %}
+        {% when 'incollection' %}
+          {% assign item_type = 'Book Chapter' %}
+        {% when 'book' %}
+          {% assign item_type = 'Book' %}
+        {% when 'phdthesis' %}
+          {% assign item_type = 'PhD Thesis' %}
+        {% when 'mastersthesis' %}
+          {% assign item_type = 'Master\'s Thesis' %}
+        {% when 'thesis' %}
+          {% assign item_type = 'Thesis' %}
+        {% when 'techreport' %}
+          {% assign item_type = 'Report' %}
+        {% when 'misc' %}
+          {% if entry.howpublished contains 'blog' or entry.howpublished contains 'Blog' %}
+            {% assign item_type = 'Blog Post' %}
+          {% elsif entry.howpublished contains 'report' or entry.howpublished contains 'Report' %}
+            {% assign item_type = 'Report' %}
+          {% elsif entry.howpublished contains 'workshop' or entry.howpublished contains 'Workshop' %}
+            {% assign item_type = 'Workshop' %}
+          {% elsif entry.howpublished contains 'presentation' or entry.howpublished contains 'Presentation' %}
+            {% assign item_type = 'Presentation' %}
+          {% else %}
+            {% assign item_type = 'Other' %}
+          {% endif %}
+        {% when 'unpublished' %}
+          {% assign item_type = 'Unpublished' %}
+        {% when 'inbook' %}
+          {% assign item_type = 'Book Section' %}
+        {% when 'proceedings' %}
+          {% assign item_type = 'Proceedings' %}
+        {% when 'manual' %}
+          {% assign item_type = 'Manual' %}
+        {% when 'patent' %}
+          {% assign item_type = 'Patent' %}
+        <!-- Custom entry types from ignore tags - specific multiword types -->
+        {% when 'newsarticle' %}
+          {% assign item_type = 'newspaper' %}
+        {% when 'guestlecture' %}
+          {% assign item_type = 'Guest Lecture' %}
+        {% when 'launchevent' %}
+          {% assign item_type = 'launch' %}
+        {% when 'blogpost' %}
+          {% assign item_type = 'blog' %}
+        {% when 'webinar' %}
+          {% assign item_type = 'webinar' %}
+        {% when 'panel' %}
+          {% assign item_type = 'panel' %}
+        {% when 'paneldiscussion' %}
+          {% assign item_type = 'panel' %}
+        {% when 'sideevent' %}
+          {% assign item_type = 'Side Event' %}
+        {% when 'conferenceattendance' %}
+          {% assign item_type = 'attendance' %}
+        {% when 'moderatedevent' %}
+          {% assign item_type = 'moderated' %}
+        {% when 'organizedevent' %}
+          {% assign item_type = 'organized' %}
+        {% when 'backgroundpaper' %}
+          {% assign item_type = 'Background Paper' %}
+        {% when 'briefingnote' %}
+          {% assign item_type = 'Briefing Note' %}
+        {% when 'discussionpaper' %}
+          {% assign item_type = 'Discussion Paper' %}
+        {% when 'invitedpresentation' %}
+          {% assign item_type = 'presentation' %}
+        {% when 'issuebrief' %}
+          {% assign item_type = 'Issue Brief' %}
+        {% when 'policybrief' %}
+          {% assign item_type = 'Policy Brief' %}
+        {% when 'reportsection' %}
+          {% assign item_type = 'Report Section' %}
+        {% when 'brownbag' %}
+          {% assign item_type = 'Brown Bag' %}
+        {% when 'workshop' %}
+          {% assign item_type = 'workshop' %}
+        {% when 'study' %}
+          {% assign item_type = 'study' %}
+        {% when 'presentation' %}
+          {% assign item_type = 'presentation' %}
+        {% when 'roundtable' %}
+          {% assign item_type = 'roundtable' %}
+        {% when 'conference' %}
+          {% assign item_type = 'Conference' %}
+        {% when 'newspaper' %}
+          {% assign item_type = 'newspaper' %}
+        {% when 'blog' %}
+          {% assign item_type = 'blog' %}
+        {% when 'guest' %}
+          {% assign item_type = 'guest' %}
+        {% when 'news' %}
+          {% assign item_type = 'news' %}
+        {% when 'launch' %}
+          {% assign item_type = 'launch' %}
+        {% when 'webinar' %}
+          {% assign item_type = 'webinar' %}
+        {% when 'roundtable' %}
+          {% assign item_type = 'roundtable' %}
+        {% when 'workshop' %}
+          {% assign item_type = 'workshop' %}
+        {% when 'panel' %}
+          {% assign item_type = 'panel' %}
+        {% else %}
+          {% assign item_type = entry.ENTRYTYPE | capitalize %}
+      {% endcase %}
+    {% endif %}
+    
+    <!-- Extract role from annote field [role] section (Zotero Notes export standard) -->
+    {% comment %}Extract role ONLY from [role] sections in annote field - NEVER from keywords or note{% endcomment %}
+    {% comment %}Custom tags come only from annote field (Zotero Notes export standard){% endcomment %}
+    {% assign block_role = '' %}
+    {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
+    {% if has_annote > 0 %}
+      {% assign annote_text = entry.annote | strip %}
+      {% if annote_text contains '[role]' %}
+        {% comment %}Extract everything between [role] and next [ marker{% endcomment %}
+        {% assign role_section = annote_text | split: '[role]' | last | split: '[' | first | strip %}
+        {% if role_section != '' %}
+          {% assign block_role = role_section %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+      
+    
+    <!-- Extract and format roles (regardless of whether item_type exists) -->
+    {% assign has_roles = false %}
+    {% assign roles = '' | split: ',' %}
+    {% assign roles = roles | shift %} <!-- Remove the empty string from split -->
+    
+    {% comment %}Check for roles in block_role (structured format from [role] section){% endcomment %}
+    {% if block_role != "" %}
+      {%- comment -%} Normalize newlines: handle Windows (\r\n), Mac (\r), and Unix (\n) line endings {%- endcomment -%}
+      {%- comment -%} Liquid replace doesn't work with escape sequences, so we split directly on newlines {%- endcomment -%}
+      {% assign role_lines = block_role | newline_to_br | split: '<br />' %}
+      {% for line in role_lines %}
+        {% assign clean_line = line | strip %}
+        {% if clean_line != "" %}
+          {% comment %}Normalize role to lowercase, then capitalize for display{% endcomment %}
+          {% assign role_lower = clean_line | downcase | strip %}
+          {% comment %}Handle multi-word roles like "co-author" -> "Co-Author"{% endcomment %}
+          {% assign role_words = role_lower | split: '-' %}
+          {% assign role_formatted = '' %}
+          {% for word in role_words %}
+            {% assign word_capitalized = word | capitalize %}
+            {% if role_formatted == '' %}
+              {% assign role_formatted = word_capitalized %}
+            {% else %}
+              {% assign role_formatted = role_formatted | append: '-' | append: word_capitalized %}
+            {% endif %}
+          {% endfor %}
+          {% if role_formatted == '' %}
+            {% assign role_formatted = role_lower | capitalize %}
+          {% endif %}
+          {% assign roles = roles | push: role_formatted %}
+          {% assign has_roles = true %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    
+    <!-- Display type badge and role tags -->
+    {% if item_type != '' or has_roles %}
+      <div class="item-type-and-roles">
+        {% if item_type != '' %}
+          <a href="#" onclick="filterByTag('{{ item_type }}'); return false;" class="badge badge-light" style="text-decoration: none; color: inherit; cursor: pointer;">{{ item_type }}</a>
+        {% endif %}
+        {% if has_roles %}
+          {% for role in roles %}
+            {% assign clean_role = role | strip %}
+            {% if clean_role != "" %}<a href="#" onclick="filterByTag('{{ clean_role }}'); return false;" class="tag" style="text-decoration: none; color: inherit; cursor: pointer;">{{ clean_role }}</a>{% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    {% endif %}
+    
+    <!-- Journal/Book title and date -->
+    {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+    {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+    {% if entry.type == 'article' %}
+      {% assign has_journal = entry.journal | to_s | strip | size | plus: 0 %}
+      {% if has_journal > 0 %}
+        {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% else %}
+        {% capture entrytype %}{% endcapture %}
+      {% endif %}
+    {% elsif proceedings contains entry.type %}
+      {% assign has_booktitle = entry.booktitle | to_s | strip | size | plus: 0 %}
+      {% if has_booktitle > 0 %}
+        {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
+      {% else %}
+        {% capture entrytype %}{% endcapture %}
+      {% endif %}
+    {% elsif thesis contains entry.type %}
+      {% assign has_school = entry.school | to_s | strip | size | plus: 0 %}
+      {% if has_school > 0 %}
+        {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+      {% else %}
+        {% capture entrytype %}{% endcapture %}
+      {% endif %}
+    {% else %}
+      {% capture entrytype %}{% endcapture %}
+    {% endif %}
+    {% assign has_location = entry.location | to_s | strip | size | plus: 0 %}
+    {% if has_location > 0 %}
+      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
+    {% endif -%}
+    {% assign has_additional_info = entry.additional_info | to_s | strip | size | plus: 0 %}
+    {% if has_additional_info > 0 %}
+      {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+    {% endif %}
+    {% comment %}Hook include removed due to file_exists tag incompatibility{% endcomment %}
+    {% assign entrytype_text = entrytype | strip_html | strip %}
+    {% if entrytype_text != "" %}
+      <div class="periodical">
+        {{ entrytype | strip }}
+      </div>
+    {% endif %}
+    {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
+    {% if has_annote > 0 %}
+      {% assign annote_text = entry.annote | strip %}
+      <div class="periodical">
+        {% comment %}Check if this is structured notes format{% endcomment %}
+        {% if annote_text contains '[audio]' or annote_text contains '[links]' or annote_text contains '[quotes]' or annote_text contains '[role]' or annote_text contains '[speakers]' or annote_text contains '[type]' or annote_text contains '[video]' %}
+          {% comment %}This is structured notes - only display the first part (before any [tag]){% endcomment %}
+          {% assign structured_parts = annote_text | split: '[' %}
+          {% assign first_part = structured_parts[0] | strip %}
+          {% comment %}Also filter out quote: content from the first part{% endcomment %}
+          {% if first_part contains 'quote:' %}
+            {% assign quote_parts = first_part | split: 'quote:' %}
+            {% if quote_parts.size > 1 %}
+              {% assign first_part = quote_parts[0] | strip %}
+            {% endif %}
+          {% endif %}
+          {% if first_part != '' and first_part != 'supplementary' %}
+            {{ first_part }}
+          {% endif %}
+        {% elsif annote_text contains 'http' or annote_text contains 'link:' or annote_text contains 'quote:' %}
+          {% comment %}Filter out structured content - remove everything after link: or quote:{% endcomment %}
+          {% assign filtered_text = annote_text %}
+          {% assign link_parts = filtered_text | split: 'link:' %}
+          {% if link_parts.size > 1 %}
+            {% assign filtered_text = link_parts[0] | strip %}
+          {% endif %}
+          {% assign quote_parts = filtered_text | split: 'quote:' %}
+          {% if quote_parts.size > 1 %}
+            {% assign filtered_text = quote_parts[0] | strip %}
+          {% endif %}
+          {% comment %}Remove URLs from the text since they're displayed as buttons{% endcomment %}
+          {% assign filtered_text = filtered_text | regex_replace: 'https?://[^\s]+', '' | strip %}
+          {% assign filtered_text = filtered_text | regex_replace: 'www\.[^\s]+', '' | strip %}
+          {% assign filtered_text = filtered_text | regex_replace: '[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}[^\s]*', '' | strip %}
+          {% if filtered_text != '' %}
+            {{ filtered_text }}
+          {% endif %}
+        {% else %}
+          {% comment %}Remove URLs from the text since they're displayed as buttons{% endcomment %}
+          {% assign annote_text = annote_text | regex_replace: 'https?://[^\s]+', '' | strip %}
+          {% assign annote_text = annote_text | regex_replace: 'www\.[^\s]+', '' | strip %}
+          {% assign annote_text = annote_text | regex_replace: '[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}[^\s]*', '' | strip %}
+          {{ annote_text }}
+        {% endif %}
+      </div>
+    {% endif %}
+    
+    <!-- Author (only show if multiple authors) -->
+    {% assign author_array_size = entry.author_array | size %}
+    {% if author_array_size > 1 %}
+    <div class="author">
+      {% assign author_array_size = entry.author_array | size %}
+
+      {% assign author_array_limit = author_array_size %}
+      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
+        {% assign author_array_limit = site.max_author_limit %}
+      {% endif %}
+
+      {%- for author in entry.author_array limit: author_array_limit -%}
+        {% assign author_is_self = false %}
+        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+        {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {% if site.scholar.last_name contains author_last_name %}
+          {% if site.scholar.first_name contains author.first %}
+            {% assign author_is_self = true %}
+          {% endif %}
+        {%- endif -%}
+        {% assign coauthor_url = null %}
+        {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
+        {% if site.data.coauthors[clean_last_name] %}
+          {%- for coauthor in site.data.coauthors[clean_last_name] -%}
+            {% if coauthor.firstname contains author.first %}
+              {%- assign coauthor_url = coauthor.url -%}
+              {% break %}
+            {%- endif -%}
+          {% endfor %}
+        {%- endif -%}
+
+        {%- if forloop.length > 1 -%}
+          {% if forloop.first == false -%}
+            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
+          {%- endif %}
+          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
+        {% endif %}
+        {%- if author_is_self -%}
+          <em>
+            {{- author.first }}
+            {{ author_last_html -}}
+          </em>
+        {%- else -%}
+          {%- if coauthor_url -%}
+            <a href="{{ coauthor_url }}">
+              {{- author.first }}
+              {{ author_last_html -}}
+            </a>
+          {%- else -%}
+            {{- author.first }}
+            {{ author_last_html -}}
+          {% endif %}
+        {%- endif -%}
+      {% endfor %}
+      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
+
+      {%- assign more_authors_hide = more_authors | append: ' more author' -%}
+      {% if more_authors > 0 %}
+        {%- if more_authors > 1 -%}
+          {% assign more_authors_hide = more_authors_hide | append: 's' %}
+        {%- endif -%}
+        {% assign more_authors_show = '' %}
+        {%- for author in entry.author_array offset: author_array_limit -%}
+          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% unless forloop.last %}
+            {% assign more_authors_show = more_authors_show | append: ', ' %}
+          {% endunless %}
+        {%- endfor -%}
+        {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        , and
+        <span
+          class="more-authors"
+          title="click to view {{ more_authors_hide }}"
+          onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '{{ site.more_authors_animation_delay }}');
+          "
+        >
+          {{- more_authors_hide -}}
+        </span>
+      {% endif %}
+      {% assign has_annotation = entry.annotation | to_s | strip | size | plus: 0 %}
+      {% if has_annotation > 0 %}
+        <i
+          class="fa-solid fa-circle-info ml-1"
+          data-toggle="popover"
+          data-placement="top"
+          data-html="true"
+          data-content="{{ entry.annotation | escape }}"
+        >
+        </i>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <!-- View Details Link (if library page exists) -->
+      {% assign library_page_exists = false %}
+      {% assign library_page_url = '' %}
+      {% comment %}Try exact match first{% endcomment %}
+      {% for library_item in site.library %}
+        {% if library_item.title == entry.title %}
+          {% assign library_page_exists = true %}
+          {% assign library_page_url = library_item.url %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% comment %}If no exact match, try matching by bibtex_key{% endcomment %}
+      {% unless library_page_exists %}
+        {% for library_item in site.library %}
+          {% if library_item.bibtex_key == entry.key %}
+            {% assign library_page_exists = true %}
+            {% assign library_page_url = library_item.url %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endunless %}
+      {% if library_page_exists %}
+        <a href="{{ library_page_url }}" class="btn btn-sm z-depth-0" role="button" title="View Details">
+          <i class="fa-solid fa-circle-info"></i>
+        </a>
+      {% endif %}
+      {% if entry.award %}
+        <a class="award btn btn-sm z-depth-0" role="button" title="{%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}">
+          <i class="fa-solid fa-trophy"></i>
+        </a>
+      {% endif %}
+      
+      <!-- Dynamic button generation from annote field square brackets first, then fallback to entry fields -->
+      {% assign links = "" %}
+      
+      <!-- First, check annote field for square bracket definitions -->
+      {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
+      {% if has_annote > 0 %}
+        {% assign annote_text = entry.annote | strip %}
+        {% comment %}Extract all square bracket sections from annote{% endcomment %}
+        {% assign annote_sections = annote_text | split: '[' %}
+        {% for section in annote_sections %}
+          {% if section contains ']' %}
+            {% assign bracket_content = section | split: ']' | first | strip %}
+            {% assign bracket_parts = bracket_content | split: ' ' %}
+            {% if bracket_parts.size > 0 %}
+              {% assign field_name = bracket_parts[0] | downcase %}
+              {% assign field_content = bracket_content | remove_first: field_name | strip %}
+              {% if field_content != '' %}
+                {% comment %}Generate button for this field{% endcomment %}
+                {% assign href = field_content | strip %}
+                {% if href != "" and href != "false" and href != "null" and href != "undefined" %}
+                  {% comment %}Determine label and icon based on field name{% endcomment %}
+                  {% assign label = field_name | capitalize %}
+                  {% assign icon = 'link' %}
+                  {% if field_name == 'pdf' %}
+                    {% assign label = 'PDF' %}
+                    {% assign icon = 'file-pdf' %}
+                  {% elsif field_name == 'url' or field_name == 'website' %}
+                    {% assign label = 'Website' %}
+                    {% assign icon = 'globe' %}
+                  {% elsif field_name == 'slides' %}
+                    {% assign label = 'Slides' %}
+                    {% assign icon = 'file-powerpoint' %}
+                  {% elsif field_name == 'agenda' %}
+                    {% assign label = 'Agenda' %}
+                    {% assign icon = 'file-lines' %}
+                  {% elsif field_name == 'video' or field_name == 'youtube' %}
+                    {% assign label = 'Video' %}
+                    {% assign icon = 'circle-play' %}
+                  {% elsif field_name == 'code' %}
+                    {% assign label = 'Code' %}
+                    {% assign icon = 'code' %}
+                  {% elsif field_name == 'dataset' %}
+                    {% assign label = 'Dataset' %}
+                    {% assign icon = 'database' %}
+                  {% elsif field_name == 'supp' or field_name == 'supplementary' %}
+                    {% assign label = 'Supplementary' %}
+                    {% assign icon = 'paperclip' %}
+                  {% elsif field_name == 'blog' %}
+                    {% assign label = 'Blog' %}
+                    {% assign icon = 'blog' %}
+                  {% elsif field_name == 'poster' %}
+                    {% assign label = 'Poster' %}
+                    {% assign icon = 'chart-bar' %}
+                  {% elsif field_name == 'html' %}
+                    {% assign label = 'HTML' %}
+                    {% assign icon = 'globe' %}
+                  {% elsif field_name == 'doi' %}
+                    {% assign label = 'DOI' %}
+                    {% assign icon = 'search' %}
+                    {% unless href contains '://' %}
+                      {% assign href = 'https://doi.org/' | append: href %}
+                    {% endunless %}
+                  {% elsif field_name == 'arxiv' %}
+                    {% assign label = 'arXiv' %}
+                    {% assign icon = 'book' %}
+                    {% unless href contains '://' %}
+                      {% assign href = 'http://arxiv.org/abs/' | append: href %}
+                    {% endunless %}
+                  {% endif %}
+                  {% comment %}Handle PDF, slides, and agenda fields - construct URL if not already a full URL{% endcomment %}
+                  {% if field_name == 'pdf' or field_name == 'slides' or field_name == 'agenda' %}
+                    {% unless href contains '://' or href contains '/assets/' %}
+                      {% assign href = '/assets/pdf/' | append: href %}
+                    {% endunless %}
+                  {% endif %}
+                  {% capture links %}{{ links }}<a class="btn btn-sm z-depth-0" href="{{ href }}" target="_blank" rel="noopener" title="{{ label }}"><i class="fa-solid fa-{{ icon }}"></i></a>{% endcapture %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      
+      <!-- Fallback: check main entry fields for any missing buttons -->
+      {% assign candidates = 
+        "pdf:PDF|url:Website|slides:Slides|agenda:Agenda|video:Video|youtube:YouTube|code:Code|dataset:Dataset|supp:Supplementary|blog:Blog|poster:Poster|website:Website|html:HTML|doi:DOI|arxiv:arXiv" | split: "|" %}
+
+      {% for pair in candidates %}
+        {% assign kv = pair | split: ":" %}
+        {% assign key = kv[0] %}
+        {% assign label = kv[1] %}
+        
+        {% assign key_ends_with_url = key | slice: -4, 4 %}
+        {% unless key_ends_with_url == '_url' %}
+          {% assign val = entry[key] | to_s | strip %}
+          {% assign val_url = entry[key | append: '_url'] | to_s | strip %}
+
+          {%- comment -%}
+          Prefer the *_url field if present and looks like a URL or absolute path.
+          Otherwise, if the plain value looks like a URL, use that.
+          Special case: PDF, slides, and agenda fields may contain just filenames (not URLs),
+          which will be converted to full URLs in the URL construction block (lines 616-620).
+          Never append '_url' to a value.
+          {%- endcomment -%}
+          {% assign url = '' %}
+          {% assign val_url_starts_with_slash = val_url | slice: 0, 1 %}
+          {% assign val_starts_with_slash = val | slice: 0, 1 %}
+          {% if val_url != '' and (val_url contains '://' or val_url_starts_with_slash == '/' ) %}
+            {% assign url = val_url %}
+          {% elsif val != '' and (val contains '://' or val_starts_with_slash == '/' ) %}
+            {% assign url = val %}
+          {% elsif val != '' and (key == 'pdf' or key == 'slides' or key == 'agenda') %}
+            {% comment %}PDF, slides, and agenda fields often contain just filenames that will be converted to full URLs in the URL construction block below{% endcomment %}
+            {% assign url = val %}
+          {% endif %}
+
+          {% if url != '' %}
+            {% comment %}Check if we already have a button for this field from annote or block parsing{% endcomment %}
+            {% assign already_has_button = false %}
+            {% if annote_text contains '[' and annote_text contains key %}
+              {% assign already_has_button = true %}
+            {% endif %}
+            {% comment %}Also check if we already have a video button from block parsing system{% endcomment %}
+            {% if key == 'video' or key == 'youtube' %}
+              {% if has_video %}
+                {% assign already_has_button = true %}
+              {% endif %}
+            {% endif %}
+            {% unless already_has_button %}
+              {% comment %}Handle special URL formatting for DOI and arXiv{% endcomment %}
+              {% if key == 'doi' %}
+                {% unless url contains '://' %}
+                  {% assign url = 'https://doi.org/' | append: url %}
+                {% endunless %}
+              {% elsif key == 'arxiv' %}
+                {% unless url contains '://' %}
+                  {% assign url = 'http://arxiv.org/abs/' | append: url %}
+                {% endunless %}
+              {% endif %}
+              {% comment %}Handle PDF, slides, and agenda fields - construct URL if not already a full URL{% endcomment %}
+              {% if key == 'pdf' or key == 'slides' or key == 'agenda' %}
+                {% unless url contains '://' or url contains '/assets/' %}
+                  {% assign url = '/assets/pdf/' | append: url %}
+                {% endunless %}
+              {% endif %}
+              {% comment %}Handle special cases for website field{% endcomment %}
+              {% if key == 'website' %}
+                {% if url contains 'youtube' %}
+                  {% if url contains 'playlist' or url contains 'list=' %}
+                    {% assign label = 'YouTube Playlist' %}
+                    {% assign icon = 'up-right-from-square' %}
+                  {% else %}
+                    {% assign label = 'Video Replay' %}
+                    {% assign icon = 'play' %}
+                  {% endif %}
+                {% elsif url contains 'vimeo' or url contains 'dailymotion' or url contains 'twitch' or url contains 'video' %}
+                  {% assign label = 'Video' %}
+                  {% assign icon = 'play' %}
+                {% elsif url contains 'amazon' %}
+                  {% assign label = 'Amazon' %}
+                  {% assign icon = 'cart-shopping' %}
+                {% elsif url contains 'prezi' %}
+                  {% assign label = 'Prezi' %}
+                  {% assign icon = 'file-powerpoint' %}
+                {% elsif url contains 'miro' %}
+                  {% assign label = 'Miro' %}
+                  {% assign icon = 'file-powerpoint' %}
+                {% else %}
+                  {% assign icon = 'globe' %}
+                {% endif %}
+              {% else %}
+                {% if key == 'pdf' %}
+                  {% assign icon = 'file-pdf' %}
+                {% elsif key == 'url' %}
+                  {% assign icon = 'globe' %}
+                {% elsif key == 'slides' %}
+                  {% assign icon = 'file-powerpoint' %}
+                {% elsif key == 'agenda' %}
+                  {% assign icon = 'file-lines' %}
+                {% elsif key == 'video' or key == 'youtube' %}
+                  {% assign icon = 'circle-play' %}
+                {% elsif key == 'code' %}
+                  {% assign icon = 'code' %}
+                {% elsif key == 'dataset' %}
+                  {% assign icon = 'database' %}
+                {% elsif key == 'supp' %}
+                  {% assign icon = 'paperclip' %}
+                {% elsif key == 'blog' %}
+                  {% assign icon = 'blog' %}
+                {% elsif key == 'poster' %}
+                  {% assign icon = 'chart-bar' %}
+                {% elsif key == 'html' %}
+                  {% assign icon = 'globe' %}
+                {% elsif key == 'doi' %}
+                  {% assign icon = 'search' %}
+                {% elsif key == 'arxiv' %}
+                  {% assign icon = 'book' %}
+                {% elsif key == 'bibtex' %}
+                  {% assign icon = 'quote-left' %}
+                {% else %}
+                  {% assign icon = 'link' %}
+                {% endif %}
+              {% endif %}
+              <a class="btn btn-sm z-depth-0" href="{{ url }}" target="_blank" rel="noopener" title="{{ label }}">
+                <i class="fa-solid fa-{{ icon }}"></i>
+              </a>
+            {% endunless %}
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+
+      {% if links != "" %}
+        <div class="btn-group">{{ links }}</div>
+      {% endif %}
+      
+      <!-- Parse annote field for structured content (Zotero Notes export standard) -->
+      {% assign combined_notes = '' %}
+      {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
+      {% if has_annote > 0 %}
+        {% assign combined_notes = entry.annote | strip %}
+      {% endif %}
+      
+      <!-- URL encode problematic characters in notes -->
+      {% if combined_notes != '' %}
+        {% assign combined_notes = combined_notes | replace: 'http[', 'http%5B' %}
+        {% assign combined_notes = combined_notes | replace: 'https[', 'https%5B' %}
+      {% endif %}
+      
+      <!-- Extract structured blocks -->
+      {% assign block_abstract = '' %}
+      {% assign block_video = '' %}
+      {% assign block_speakers = '' %}
+      {% assign block_quotes = '' %}
+      {% comment %}block_role will be initialized in role extraction section below{% endcomment %}
+      
+      {% if combined_notes contains '[abstract]' %}
+        {% assign abstract_section = combined_notes | split: '[abstract]' | last | split: '[' | first | strip %}
+        {% if abstract_section != '' %}
+          {% assign block_abstract = abstract_section %}
+        {% endif %}
+      {% endif %}
+      
+      {% if combined_notes contains '[video]' %}
+        {% assign video_section = combined_notes | split: '[video]' | last | split: '[' | first | strip %}
+        {% if video_section != '' %}
+          {% assign block_video = video_section %}
+        {% endif %}
+      {% endif %}
+      
+      {% if combined_notes contains '[speakers]' %}
+        {% assign speakers_section = combined_notes | split: '[speakers]' | last | split: '[' | first | strip %}
+        {% if speakers_section != '' %}
+          {% assign block_speakers = speakers_section %}
+        {% endif %}
+      {% endif %}
+      
+      {% if combined_notes contains '[quotes]' %}
+        {% assign quotes_section = combined_notes | split: '[quotes]' | last | split: '[' | first | strip %}
+        {% if quotes_section != '' %}
+          {% assign block_quotes = quotes_section %}
+        {% endif %}
+      {% endif %}
+      
+      <!-- Check for abstract in abstract field OR block_abstract -->
+      {% assign has_abstract_field = entry.abstract | to_s | strip | size | plus: 0 %}
+      {% assign has_block_abstract = block_abstract | to_s | strip | size | plus: 0 %}
+      {% assign has_abstract = false %}
+      {% if has_abstract_field > 0 %}
+        {% assign has_abstract = true %}
+      {% elsif has_block_abstract > 0 %}
+        {% assign has_abstract = true %}
+      {% endif %}
+      {% if has_abstract %}
+        <a class="abstract btn btn-sm z-depth-0" role="button" title="View abstract">
+          <i class="fa-solid fa-file-lines"></i>
+        </a>
+      {% endif %}
+      
+      <!-- Check for video in block_video (structured format from [video] section) OR legacy video field -->
+      {% assign has_block_video = block_video | to_s | strip | size | plus: 0 %}
+      {% assign has_video_field = entry.video | to_s | strip | size | plus: 0 %}
+      {% assign has_video = false %}
+      {% assign video_url = '' %}
+      {% if has_block_video > 0 %}
+        {% assign has_video = true %}
+        {% comment %}Extract first URL from video block{% endcomment %}
+        {% assign video_with_br = block_video | newline_to_br %}
+        {% assign video_lines = video_with_br | split: '<br />' %}
+        {% for line in video_lines %}
+          {% assign clean_line = line | strip %}
+          {% if clean_line != '' and (clean_line contains 'http' or clean_line contains 'www.') %}
+            {% assign video_url = clean_line %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% elsif has_video_field > 0 %}
+        {% assign has_video = true %}
+        {% assign video_url = entry.video %}
+      {% endif %}
+      {% if has_video %}
+        {% if video_url != '' %}
+          <a class="video btn btn-sm z-depth-0" href="{{ video_url }}" target="_blank" rel="noopener" title="View video">
+            <i class="fa-solid fa-circle-play"></i>
+          </a>
+        {% else %}
+          <a class="video btn btn-sm z-depth-0" role="button" title="View video">
+            <i class="fa-solid fa-circle-play"></i>
+          </a>
+        {% endif %}
+      {% endif %}
+      
+      <!-- Check for speakers in block_speakers -->
+      {% assign has_block_speakers = block_speakers | to_s | strip | size | plus: 0 %}
+      {% assign has_speakers = false %}
+      {% if has_block_speakers > 0 %}
+        {% assign has_speakers = true %}
+      {% endif %}
+      {% if has_speakers %}
+        <a class="btn btn-sm z-depth-0 speakers" role="button" title="View speakers">
+          <i class="fa-solid fa-users"></i>
+        </a>
+      {% endif %}
+      {% comment %}Robust file parsing (triple and double format){% endcomment %}
+      {% assign document_count = 0 %}
+      {% assign photo_count = 0 %}
+      {% assign figure_count = 0 %}
+      
+      {% comment %}Collect main link file paths to exclude from document count{% endcomment %}
+      {% comment %}Use pipe-separated string for compatibility with Liquid{% endcomment %}
+      {% assign main_link_paths = '' %}
+      {% assign has_pdf = entry.pdf | to_s | strip | size | plus: 0 %}
+      {% if has_pdf > 0 and entry.pdf != '' and entry.pdf != 'null' and entry.pdf != 'undefined' %}
+        {% assign pdf_path = entry.pdf | strip %}
+        {% if main_link_paths == '' %}
+          {% assign main_link_paths = pdf_path %}
+        {% else %}
+          {% assign main_link_paths = main_link_paths | append: '|' | append: pdf_path %}
+        {% endif %}
+      {% endif %}
+      {% assign has_slides = entry.slides | to_s | strip | size | plus: 0 %}
+      {% if has_slides > 0 and entry.slides != '' and entry.slides != 'null' and entry.slides != 'undefined' %}
+        {% assign slides_path = entry.slides | strip %}
+        {% if main_link_paths == '' %}
+          {% assign main_link_paths = slides_path %}
+        {% else %}
+          {% assign main_link_paths = main_link_paths | append: '|' | append: slides_path %}
+        {% endif %}
+      {% endif %}
+      {% assign has_agenda = entry.agenda | to_s | strip | size | plus: 0 %}
+      {% if has_agenda > 0 and entry.agenda != '' and entry.agenda != 'null' and entry.agenda != 'undefined' %}
+        {% assign agenda_path = entry.agenda | strip %}
+        {% if main_link_paths == '' %}
+          {% assign main_link_paths = agenda_path %}
+        {% else %}
+          {% assign main_link_paths = main_link_paths | append: '|' | append: agenda_path %}
+        {% endif %}
+      {% endif %}
+      
+      {% if entry.file %}
+        {% assign file_parts = entry.file | split: ';' %}
+        
+        {% for part in file_parts %}
+          {% assign clean_part = part | strip %}
+          {% if clean_part contains ':' %}
+            {% comment %}Split by first colon to separate title from path:mime{% endcomment %}
+            {% assign first_colon = clean_part | split: ':' | first %}
+            {% assign after_first_colon = clean_part | remove_first: first_colon | remove_first: ':' %}
+            
+            {% assign file_title = first_colon | strip %}
+            {% assign file_path_and_mime = after_first_colon | strip %}
+            
+            {% comment %}Split path:mime by colon{% endcomment %}
+            {% if file_path_and_mime contains ':' %}
+              {% assign path_mime_split = file_path_and_mime | split: ':' %}
+              {% assign file_path = path_mime_split[0] | strip %}
+              {% assign file_mime = path_mime_split[1] | strip %}
+            {% else %}
+              {% assign file_path = file_path_and_mime %}
+              {% assign file_mime = '' %}
+            {% endif %}
+            
+            {% comment %}Infer MIME type from file extension if not provided{% endcomment %}
+            {% if file_mime == '' %}
+              {% assign file_ext = file_path | split: '.' | last | downcase %}
+              {% if file_ext == 'pdf' %}
+                {% assign file_mime = 'application/pdf' %}
+              {% elsif file_ext == 'jpg' or file_ext == 'jpeg' %}
+                {% assign file_mime = 'image/jpeg' %}
+              {% elsif file_ext == 'png' %}
+                {% assign file_mime = 'image/png' %}
+              {% elsif file_ext == 'webp' %}
+                {% assign file_mime = 'image/webp' %}
+              {% elsif file_ext == 'doc' or file_ext == 'docx' %}
+                {% assign file_mime = 'application/msword' %}
+              {% elsif file_ext == 'txt' %}
+                {% assign file_mime = 'text/plain' %}
+              {% endif %}
+            {% endif %}
+            
+            {% assign file_title_lower = file_title | downcase %}
+            
+            {% comment %}Skip thumbnails{% endcomment %}
+            {% unless file_title_lower contains 'thumbnail' %}
+              {% comment %}Count documents - but exclude files already shown as main links{% endcomment %}
+              {% if file_mime contains 'pdf' or file_mime contains 'document' or file_mime contains 'text' or file_path contains '.pdf' %}
+                {% comment %}Check if this file is already shown as a main link{% endcomment %}
+                {% assign is_main_link = false %}
+                {% if main_link_paths != '' %}
+                  {% assign main_paths_array = main_link_paths | split: '|' %}
+                  {% for main_path in main_paths_array %}
+                    {% comment %}Normalize paths for comparison - extract basename from both{% endcomment %}
+                    {% assign main_path_normalized = main_path | split: '/' | last | split: '\\' | last %}
+                    {% assign file_path_normalized = file_path | split: '/' | last | split: '\\' | last %}
+                    {% if main_path_normalized == file_path_normalized %}
+                      {% assign is_main_link = true %}
+                      {% break %}
+                    {% endif %}
+                    {% comment %}Also check if paths match directly (for full paths){% endcomment %}
+                    {% if file_path == main_path or file_path contains main_path or main_path contains file_path %}
+                      {% assign is_main_link = true %}
+                      {% break %}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+                {% unless is_main_link %}
+                  {% assign document_count = document_count | plus: 1 %}
+                {% endunless %}
+              {% endif %}
+              
+              {% comment %}Count photos{% endcomment %}
+              {% if file_mime contains 'image' or file_path contains '.jpg' or file_path contains '.jpeg' or file_path contains '.png' or file_path contains '.webp' %}
+                {% if file_title_lower contains 'figure' %}
+                  {% assign figure_count = figure_count | plus: 1 %}
+                {% elsif file_title_lower contains 'photo' %}
+                  {% assign photo_count = photo_count | plus: 1 %}
+                {% else %}
+                  {% assign photo_count = photo_count | plus: 1 %}
+                {% endif %}
+              {% endif %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      
+      {% comment %}Render buttons based on content{% endcomment %}
+      {% if document_count > 0 %}
+        <a class="documents btn btn-sm z-depth-0" role="button" title="View documents">
+          <i class="fa-solid fa-file-lines"></i>
+        </a>
+      {% endif %}
+      
+      {% if photo_count > 0 %}
+        <a class="photos btn btn-sm z-depth-0" role="button" title="View photos">
+          <i class="fa-solid fa-camera"></i>
+        </a>
+      {% endif %}
+      
+      {% if figure_count > 0 %}
+        <a class="figures btn btn-sm z-depth-0" role="button" title="View figures">
+          <i class="fa-solid fa-chart-bar"></i>
+        </a>
+      {% endif %}
+      
+      
+      <!-- Speakers from block_speakers and/or speaker images -->
+      {% if has_speakers %}
+        {% assign has_speakers_text = false %}
+        {% assign has_speakers_image = false %}
+        {% assign speakers_image_path = '' %}
+        
+        <!-- Check for speakers in block_speakers -->
+        {% assign has_block_speakers = block_speakers | to_s | strip | size | plus: 0 %}
+        {% if has_block_speakers > 0 %}
+          {% assign speaker_lines = block_speakers | split: '\n' %}
+          {% for line in speaker_lines %}
+            {% assign clean_line = line | strip %}
+            {% if clean_line != '' %}
+              {% assign has_speakers_text = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        
+        <!-- Check for speaker images in file field -->
+        {% assign has_file = entry.file | to_s | strip | size | plus: 0 %}
+        {% if has_file > 0 %}
+          {% assign file_parts = entry.file | split: ';' %}
+          {% for part in file_parts %}
+            {% assign clean_part = part | strip %}
+            {% if clean_part contains ':' %}
+              {% assign file_parts_split = clean_part | split: ':' %}
+              {% if file_parts_split.size >= 3 %}
+                {% assign file_title = file_parts_split[0] %}
+                {% assign file_path = file_parts_split[1] %}
+                {% assign file_type = file_parts_split[2] %}
+                {% assign file_title_lower = file_title | downcase %}
+                {% if file_title_lower contains 'speaker' and file_type contains 'image' %}
+                  {% assign has_speakers_image = true %}
+                  {% assign speakers_image_path = file_path | prepend: '/assets/' | relative_url %}
+                  {% break %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        
+        <!-- Display speakers section if either text or image exists -->
+        {% if has_speakers_text or has_speakers_image %}
+          <div class="speakers hidden">
+              <div class="speakers-label">Speakers:</div>
+              
+              <!-- Show speaker image first if it exists -->
+              {% if has_speakers_image %}
+                <div class="speakers-image">
+                  <img src="{{ speakers_image_path }}" 
+                       alt="Speakers" 
+                       class="speakers-image-content"
+                       onclick="openImageModal(this.src, this.alt)">
+                </div>
+              {% endif %}
+              
+              <!-- Show speaker text list if it exists -->
+              {% if has_speakers_text %}
+                <ul class="speakers-list">
+                  {% assign speakers_text = block_speakers | default: entry.speakers | to_s | strip %}
+                  {% if speakers_text != '' %}
+                    {%- comment -%} Convert newlines to <br /> tags, then split on them to get individual lines {%- endcomment -%}
+                    {% assign speakers_with_br = speakers_text | newline_to_br %}
+                    {% assign speakers_lines = speakers_with_br | split: '<br />' %}
+                    {% for s in speakers_lines %}
+                      {% assign s_clean = s | strip %}
+                      {% if s_clean != '' %}
+                        <li>{{ s_clean }}</li>
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+                </ul>
+              {% else %}
+                <!-- Show speakers even if has_speakers_text is false -->
+                {% if has_block_speakers > 0 %}
+                  <ul class="speakers-list">
+                    {% assign speakers_text = block_speakers | default: entry.speakers | to_s | strip %}
+                    {% if speakers_text != '' %}
+                      {%- comment -%} Convert newlines to <br /> tags, then split on them to get individual lines {%- endcomment -%}
+                      {% assign speakers_with_br = speakers_text | newline_to_br %}
+                      {% assign speakers_lines = speakers_with_br | split: '<br />' %}
+                      {% for s in speakers_lines %}
+                        {% assign s_clean = s | strip %}
+                        {% if s_clean != '' %}
+                          <li>{{ s_clean }}</li>
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                  </ul>
+                {% endif %}
+              {% endif %}
+          </div>
+        {% endif %}
+      {% endif %}
+      
+      <!-- Abstract from abstract field OR block_abstract -->
+      {% if has_abstract %}
+        <div class="abstract hidden">
+          <div class="abstract-label">Abstract:</div>
+          <div class="abstract-content">
+            {% assign has_abstract_field = entry.abstract | to_s | strip | size | plus: 0 %}
+            {% if has_abstract_field > 0 %}
+              {% if entry.abstract contains ' • ' %}
+                {% assign abstract_lines = entry.abstract | split: '\n' %}
+                <div style="white-space: pre-wrap;">
+                  {% for line in abstract_lines %}
+                    {% assign clean_line = line | strip %}
+                    {% if clean_line contains ' • ' %}
+                      {% if forloop.first or previous_line_was_bullet == false %}<ul>{% endif %}
+                      {% assign bullet_parts = clean_line | split: ' • ' %}
+                      {% if bullet_parts.size > 1 %}<li>{{ bullet_parts[1] | strip }}</li>{% else %}<li>{{ clean_line | remove_first: ' • ' | strip }}</li>{% endif %}
+                      {% assign previous_line_was_bullet = true %}
+                      {% if forloop.last %}</ul>{% endif %}
+                    {% else %}
+                      {% if previous_line_was_bullet == true %}</ul>{% endif %}
+                      {% if clean_line != '' %}<p>{{ clean_line }}</p>{% endif %}
+                      {% assign previous_line_was_bullet = false %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              {% else %}
+                <p style="white-space: pre-wrap;">{{ entry.abstract }}</p>
+              {% endif %}
+            {% else %}
+              {% assign has_block_abstract = block_abstract | to_s | strip | size | plus: 0 %}
+              {% if has_block_abstract > 0 %}
+                {% if block_abstract contains ' • ' %}
+                  {% assign abstract_with_br = block_abstract | newline_to_br %}
+                  {% assign abstract_lines = abstract_with_br | split: '<br />' %}
+                  <div style="white-space: pre-wrap;">
+                    {% for line in abstract_lines %}
+                      {% assign clean_line = line | strip %}
+                      {% if clean_line contains ' • ' %}
+                        {% if forloop.first or previous_line_was_bullet == false %}<ul>{% endif %}
+                        {% assign bullet_parts = clean_line | split: ' • ' %}
+                        {% if bullet_parts.size > 1 %}<li>{{ bullet_parts[1] | strip }}</li>{% else %}<li>{{ clean_line | remove_first: ' • ' | strip }}</li>{% endif %}
+                        {% assign previous_line_was_bullet = true %}
+                        {% if forloop.last %}</ul>{% endif %}
+                      {% else %}
+                        {% if previous_line_was_bullet == true %}</ul>{% endif %}
+                        {% if clean_line != '' %}<p>{{ clean_line }}</p>{% endif %}
+                        {% assign previous_line_was_bullet = false %}
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                {% else %}
+                  <p style="white-space: pre-wrap;">{{ block_abstract }}</p>
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      
+      <!-- Video from video field OR block_video -->
+      {% if has_video %}
+        <div class="video hidden">
+          <div class="video-label">Video:</div>
+          <div class="video-embed">
+            {% assign has_video_field = entry.video | to_s | strip | size | plus: 0 %}
+            {% if has_video_field > 0 %}
+              {% if entry.video contains 'youtube' or entry.video contains 'youtu.be' %}
+                <p><a href="{{ entry.video }}" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-play"></i> {{ entry.video }}
+                </a></p>
+              {% else %}
+                <p><a href="{{ entry.video }}" target="_blank" rel="noopener">{{ entry.video }}</a></p>
+              {% endif %}
+            {% else %}
+              {% assign has_block_video = block_video | to_s | strip | size | plus: 0 %}
+              {% if has_block_video > 0 %}
+                {% assign video_with_br = block_video | newline_to_br %}
+                {% assign video_lines = video_with_br | split: '<br />' %}
+                {% for line in video_lines %}
+                  {% assign clean_line = line | strip %}
+                  {% if clean_line != '' %}
+                    {% if clean_line contains 'youtube' or clean_line contains 'youtu.be' %}
+                      <p><a href="{{ clean_line }}" target="_blank" rel="noopener">
+                        <i class="fa-solid fa-play"></i> {{ clean_line }}
+                      </a></p>
+                    {% else %}
+                      <p><a href="{{ clean_line }}" target="_blank" rel="noopener">{{ clean_line }}</a></p>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      
+      <!-- Audio from annote field (Zotero Notes export standard) -->
+      {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
+      {% if has_annote > 0 %}
+        {% assign annote_text = entry.annote | strip %}
+        {% if annote_text contains '[audio]' %}
+          {% assign audio_section = annote_text | split: '[audio]' | last | split: '[' | first | strip %}
+          {% assign audio_lines = audio_section | newline_to_br | split: '<br />' %}
+          {% assign has_audio_content = false %}
+          {% for line in audio_lines %}
+            {% assign clean_line = line | strip %}
+            {% if clean_line != '' %}
+              {% assign has_audio_content = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+          {% if has_audio_content %}
+            <div class="audio hidden">
+              <div class="audio-label">Audio:</div>
+              <div class="audio-embed">
+                {% assign audio_section = annote_text | split: '[audio]' | last | split: '[' | first | strip %}
+                {% assign audio_lines = audio_section | newline_to_br | split: '<br />' %}
+                {% for line in audio_lines %}
+                  {% assign clean_line = line | strip %}
+                  {% if clean_line != '' %}
+                    <div class="audio-item" style="margin: 1rem 0;">
+                      {% include audio.liquid path=clean_line controls=true %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+      
+      <!-- Photos from file field -->
+      {% if photo_count > 0 %}
+        <div class="photos hidden">
+          <div class="photos-label">Photos:</div>
+          <div class="gallery-grid photos-grid">
+            {% assign photo_index = 0 %}
+            
+            {% if entry.file %}
+              {% assign file_parts = entry.file | split: ';' %}
+              {% for part in file_parts %}
+                {% assign clean_part = part | strip %}
+                {% if clean_part contains ':' %}
+                  {% comment %}Use same robust parsing as document counting{% endcomment %}
+                  {% assign first_colon = clean_part | split: ':' | first %}
+                  {% assign after_first_colon = clean_part | remove_first: first_colon | remove_first: ':' %}
+                  
+                  {% assign file_title = first_colon | strip %}
+                  {% assign file_path_and_mime = after_first_colon | strip %}
+                  
+                  {% comment %}Split path:mime by colon{% endcomment %}
+                  {% if file_path_and_mime contains ':' %}
+                    {% assign path_mime_split = file_path_and_mime | split: ':' %}
+                    {% assign file_path = path_mime_split[0] | strip %}
+                    {% assign file_mime = path_mime_split[1] | strip %}
+                  {% else %}
+                    {% assign file_path = file_path_and_mime %}
+                    {% assign file_mime = '' %}
+                  {% endif %}
+                  
+                  {% comment %}Infer MIME type from file extension if not provided{% endcomment %}
+                  {% if file_mime == '' %}
+                    {% assign file_ext = file_path | split: '.' | last | downcase %}
+                    {% if file_ext == 'pdf' %}
+                      {% assign file_mime = 'application/pdf' %}
+                    {% elsif file_ext == 'jpg' or file_ext == 'jpeg' %}
+                      {% assign file_mime = 'image/jpeg' %}
+                    {% elsif file_ext == 'png' %}
+                      {% assign file_mime = 'image/png' %}
+                    {% elsif file_ext == 'webp' %}
+                      {% assign file_mime = 'image/webp' %}
+                    {% elsif file_ext == 'doc' or file_ext == 'docx' %}
+                      {% assign file_mime = 'application/msword' %}
+                    {% elsif file_ext == 'txt' %}
+                      {% assign file_mime = 'text/plain' %}
+                    {% endif %}
+                  {% endif %}
+                  
+                  {% assign file_title_lower = file_title | downcase %}
+                  
+                  {% comment %}Only render images, skip thumbnails, banners, logos{% endcomment %}
+                  {% unless file_title_lower contains 'thumbnail' or file_title_lower contains 'banner' or file_title_lower contains 'logo' %}
+                    {% if file_mime contains 'image' or file_path contains '.jpg' or file_path contains '.jpeg' or file_path contains '.png' or file_path contains '.webp' %}
+                      {% comment %}Only render photos (not figures){% endcomment %}
+                      {% unless file_title_lower contains 'figure' %}
+                        {% if file_path | slice: 0, 1 == '/' %}
+                          {% assign photo_url = file_path | relative_url %}
+                        {% else %}
+                          {% assign photo_url = file_path | prepend: '/assets/' | relative_url %}
+                        {% endif %}
+                        <img src="{{ photo_url }}" alt="{{ file_title }}" class="gallery-image photo-thumbnail" data-gallery-type="photos" data-gallery-index="{{ photo_index }}" onclick="openGalleryModal(this)">
+                        {% assign photo_index = photo_index | plus: 1 %}
+                      {% endunless %}
+                    {% endif %}
+                  {% endunless %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+            
+            {% if entry.photos %}
+              {% assign photos_list = entry.photos | split: '\n' %}
+              {% for photo in photos_list %}
+                {% assign clean_photo = photo | strip %}
+                {% if clean_photo != '' %}
+                  {% assign photo_lower = clean_photo | downcase %}
+                  {% unless photo_lower contains 'thumbnail' %}
+                    {% assign photo_url = clean_photo | prepend: '/assets/img/publications/' | relative_url %}
+                    <img src="{{ photo_url }}" alt="Photo" class="gallery-image photo-thumbnail" data-gallery-type="photos" data-gallery-index="{{ photo_index }}" onclick="openGalleryModal(this)">
+                    {% assign photo_index = photo_index | plus: 1 %}
+                  {% endunless %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      
+      <!-- Additional links from extra field and note field -->
+      {% assign has_extra = entry.extra | to_s | strip | size | plus: 0 %}
+      {% if has_extra > 0 %}
+        {% assign extra_text = entry.extra | strip %}
+        {% if extra_text contains 'link:' %}
+          {% assign extra_lines = extra_text | split: '\n' %}
+          {% for line in extra_lines %}
+            {% assign clean_line = line | strip %}
+            {% if clean_line contains 'link:' %}
+              {% assign link_parts = clean_line | split: 'link:' %}
+              {% if link_parts.size > 1 %}
+                {% assign link_url = link_parts[1] | strip %}
+                {% if link_url != '' %}
+                  <div class="additional-links">
+                    <a href="{{ link_url }}" class="btn btn-sm z-depth-0" role="button" title="Additional Link" target="_blank" rel="noopener">
+                      <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                  </div>
+                {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endif %}
+      
+      <!-- Additional links from annote field [links] section (Zotero Notes export standard) -->
+      {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
+      {% if has_annote > 0 %}
+        {% assign annote_text = entry.annote | strip %}
+        {% if annote_text contains '[links]' %}
+          {% assign links_section = annote_text | split: '[links]' | last | split: '[' | first | strip %}
+          {% assign links_with_br = links_section | newline_to_br %}
+          {% assign link_lines = links_with_br | split: '<br />' %}
+          {% for line in link_lines %}
+            {% assign clean_line = line | strip %}
+            {% if clean_line != '' %}
+              <div class="additional-links">
+                <a href="{{ clean_line }}" class="btn btn-sm z-depth-0" role="button" title="Additional Link" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endif %}
+      
+      <!-- Check for quotes in block_quotes -->
+      {% assign has_block_quotes = block_quotes | to_s | strip | size | plus: 0 %}
+      {% assign has_quotes = false %}
+      {% if has_block_quotes > 0 %}
+        {% assign has_quotes = true %}
+      {% endif %}
+      {% if has_quotes %}
+        <a class="quotes btn btn-sm z-depth-0" role="button" title="View quotes">
+          <i class="fa-solid fa-quote-left"></i>
+        </a>
+      {% endif %}
+      
+      <!-- Quotes from block_quotes -->
+      {% if has_quotes %}
+        <div class="quotes hidden">
+          <div class="quotes-label">Key Quotes:</div>
+          <ul class="quotes-list">
+            {% assign quotes_text = block_quotes | to_s | strip %}
+            {% if quotes_text != '' %}
+              {%- comment -%} Convert newlines to <br /> tags, then split on them to get individual lines {%- endcomment -%}
+              {% assign quotes_with_br = quotes_text | newline_to_br %}
+              {% assign quotes_lines = quotes_with_br | split: '<br />' %}
+              {% for q in quotes_lines %}
+                {% assign q_clean = q | strip %}
+                {% if q_clean != '' %}
+                  <li>{{ q_clean }}</li>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </ul>
+        </div>
+      {% endif %}
+      
+      <!-- Audio from annote field (Zotero Notes export standard) -->
+      {% assign audio_content_for_button = '' %}
+      {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
+      {% if has_annote > 0 %}
+        {% assign annote_text = entry.annote | strip %}
+        {% if annote_text contains '[audio]' %}
+          {% assign audio_content_for_button = annote_text | split: '[audio]' | last | split: '[' | first | strip %}
+        {% endif %}
+      {% endif %}
+      
+      {% if audio_content_for_button != '' %}
+        {% assign audio_lines = audio_content_for_button | newline_to_br | split: '<br />' %}
+        {% assign has_audio_content = false %}
+        {% for line in audio_lines %}
+          {% assign clean_line = line | strip %}
+          {% if clean_line != '' %}
+            {% assign has_audio_content = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if has_audio_content %}
+          <a class="audio btn btn-sm z-depth-0" role="button" title="View audio">
+            <i class="fa-solid fa-volume-high"></i>
+          </a>
+        {% endif %}
+      {% endif %}
+      
+      
+    </div>
+    
+    <!-- Language Tags (separate from role tags) -->
+    {% assign language_tags = '' | split: ',' %}
+    
+    <!-- Check for language from annote field [language] section (Zotero Notes export standard) -->
+    {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
+    {% if has_annote > 0 %}
+      {% assign annote_text = entry.annote | strip %}
+      {% if annote_text contains '[language]' %}
+        {% assign language_section = annote_text | split: '[language]' | last | split: '[' | first | strip %}
+        {% assign language_lines = language_section | newline_to_br | split: '<br />' %}
+        {% for line in language_lines %}
+          {% assign clean_line = line | strip %}
+          {% if clean_line != '' %}
+            {% assign language = clean_line | replace: '@@', '@' | downcase %}
+            {% if language == 'french' %}
+              {% assign language_tags = language_tags | push: '🇫🇷 French' %}
+            {% elsif language == 'spanish' %}
+              {% assign language_tags = language_tags | push: '🇪🇸 Spanish' %}
+            {% elsif language == 'chinese' %}
+              {% assign language_tags = language_tags | push: '🇨🇳 Chinese' %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+    
+      
+      {% if language_tags.size > 0 %}
+        <div class="all-tags">
+          {% for tag in language_tags %}
+            <a href="#{{ tag | remove: '🇫🇷 ' | remove: '🇪🇸 ' | remove: '🇨🇳 ' | downcase }}" class="tag" style="text-decoration: none; color: inherit;">{{ tag }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    
+    {% if site.enable_publication_badges %}
+      {% assign entry_has_altmetric_badge = false %}
+      {% assign has_altmetric = entry.altmetric | to_s | strip | size | plus: 0 %}
+      {% if has_altmetric > 0 and entry.altmetric != 'false' %}
+        {% assign entry_has_altmetric_badge = true %}
+      {% endif %}
+
+      {% assign entry_has_dimensions_badge = false %}
+      {% assign has_dimensions = entry.dimensions | to_s | strip | size | plus: 0 %}
+      {% if has_dimensions > 0 and entry.dimensions != 'false' %}
+        {% assign entry_has_dimensions_badge = true %}
+      {% endif %}
+
+      {% assign entry_has_google_scholar_badge = false %}
+      {% assign has_google_scholar_id = entry.google_scholar_id | to_s | strip | size | plus: 0 %}
+      {% if has_google_scholar_id > 0 %}
+        {% assign entry_has_google_scholar_badge = true %}
+      {% endif %}
+
+      {% assign entry_has_inspirehep_badge = false %}
+      {% assign has_inspirehep_id = entry.inspirehep_id | to_s | strip | size | plus: 0 %}
+      {% if has_inspirehep_id > 0 %}
+        {% assign entry_has_inspirehep_badge = true %}
+      {% endif %}
+      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge or entry_has_inspirehep_badge %}
+        <div class="badges">
+          {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
+            <span
+              class="altmetric-embed"
+              data-badge-type="2"
+              data-badge-popover="right"
+              {% if entry.altmetric != blank and entry.altmetric != 'true' %}
+                data-altmetric-id="{{ entry.altmetric }}"
+              {% elsif entry.arxiv %}
+                data-arxiv-id="{{ entry.arxiv }}"
+              {% elsif entry.eprint %}
+                data-arxiv-id="{{ entry.eprint }}"
+              {% elsif entry.doi %}
+                data-doi="{{ entry.doi }}"
+              {% elsif entry.pmid %}
+                data-pmid="{{ entry.pmid }}"
+              {% elsif entry.isbn %}
+                data-isbn="{{ entry.isbn }}"
+              {% endif %}
+            ></span>
+          {% endif %}
+          {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
+            <span
+              class="__dimensions_badge_embed__"
+              {% if entry.dimensions != blank and entry.dimensions != 'true' %}
+                data-id="{{ entry.dimensions }}"
+              {% elsif entry.doi %}
+                data-doi="{{ entry.doi }}"
+              {% else %}
+                data-pmid="{{ entry.pmid }}"
+              {% endif %}
+              data-style="small_rectangle"
+              data-legend="hover-right"
+              data-hide-empty="true"
+              data-hide-legend="true"
+              data-hide-empty-citations="true"
+              data-hide-empty-recent-citations="true"
+              data-hide-empty-field-citation-ratio="true"
+              data-hide-empty-relative-citation-ratio="true"
+              style="margin-bottom: 3px;"
+            ></span>
+          {% endif %}
+          {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
+            <a
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
+              aria-label="Google Scholar link"
+              role="button"
+            >
+              <img
+                src="https://img.shields.io/badge/scholar-citations-4285F4?logo=googlescholar&labelColor=beige"
+                alt="Google Scholar citations"
+              >
+            </a>
+          {% endif %}
+          {% if site.enable_publication_badges.inspirehep and entry_has_inspirehep_badge %}
+            <a
+              href="https://inspirehep.net/literature/{{ entry.inspirehep_id }}"
+              aria-label="Inspirehep link"
+              role="button"
+            >
+              <img
+                src="https://img.shields.io/badge/inspire-citations-001628?logo=inspire&logoColor=001628&labelColor=beige"
+                alt="InspireHEP citations"
+              >
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endif %}
+
+    {% assign has_award = entry.award | to_s | strip | size | plus: 0 %}
+    {% if has_award > 0 %}
+      <!-- Hidden Award block -->
+      <div class="award hidden d-print-inline">
+        <p>{{ entry.award | markdownify }}</p>
+      </div>
+    {% endif %}
+
+    {% comment %}All content now has dedicated buttons - removed "More info" collapsible section entirely{% endcomment %}
+
+    {% assign has_bibtex_show = entry.bibtex_show | to_s | strip | size | plus: 0 %}
+    {% if has_bibtex_show > 0 %}
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <pre><code class="language-bibtex">{{- entry.bibtex | hideCustomBibtex -}}</code></pre>
+      </div>
+    {% endif %}
+
+
+  </div>
+</div>

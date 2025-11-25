@@ -1,33 +1,48 @@
 ---
-abstract: ''
+abstract: 'Gjerde, K., Boteler, B., Durussel, C., Rochette, J., Unger, S., Wright‚
+  G., ‘Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National
+  Jurisdiction: Options for Underpinning a Strong Global BBNJ Agreement through Regional
+  and Sectoral Governance’, STRONG High Seas Project, 2018.'
 authors:
-- Divya Sampath
-bibtex_key: sampathConservationSustainableUse2015a
+- K. Gjerde
+- Kristina Gjerde
+- Ben Boteler
+- Carole Durussel
+- Julien Rochette
+- Sebastian Unger
+- Glen Wright
+- Wright‚ G.
+- Glen Wright
+- K. Gjerde
+bibtex_key: GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a
 categories:
 - other
-date: '2015-01-01'
-description: Conservation and Sustainable use of Marine biodiversity in areas beyond
-  National Jurisdiction
-doi: https://doi.org/10.2139/ssrn.3597317
-entry_type: Other
+date: '2018-01-01'
+description: 'Gjerde, K., Boteler, B., Durussel, C., Rochette, J., Unger, S., Wright‚
+  G., ‘Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National
+  Jurisdiction: Options for Underpinning a S...'
+doi: https://doi.org/10.2312/iass.2018.015
+entry_type: Report
+institution: STRONG High Seas
 layout: library-item
-pdf: Sampath - 2015 - Conservation and Sustainable use of Marine biodiversity in areas
-  beyond National Jurisdiction.pdf
+pdf: Gjerde et al. - 2018 - Conservación y Uso Sostenible de la Biodiversidad .pdf
 tags: []
-title: Conservation and Sustainable use of Marine biodiversity in areas beyond National
-  Jurisdiction
-url: https://www.ssrn.com/abstract=3597317
-venue: SSRN Electronic Journal
-year: '2015'
+title: 'Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National
+  Jurisdiction: Options for Underpinning a Strong Global BBNJ Agreement through Regional
+  and Sectoral Governance'
+url: www.prog-ocean.org/our-work/strong-high-seas/
+venue: STRONG High Seas
+year: '2018'
 ---
 
 ## Publication Details
 
-**Authors:** Divya Sampath
-**Venue:** SSRN Electronic Journal
+**Authors:** K. Gjerde, Kristina Gjerde, Ben Boteler, Carole Durussel, Julien Rochette, Sebastian Unger, Glen Wright, Wright‚ G., Glen Wright, K. Gjerde
+**Venue:** STRONG High Seas
+**Institution:** STRONG High Seas
 
 ## Links and Resources
 
-- [Original URL](https://www.ssrn.com/abstract=3597317)
-- [DOI](https://doi.org/10.2139/ssrn.3597317)
-- [PDF](Sampath - 2015 - Conservation and Sustainable use of Marine biodiversity in areas beyond National Jurisdiction.pdf)
+- [Original URL](www.prog-ocean.org/our-work/strong-high-seas/)
+- [DOI](https://doi.org/10.2312/iass.2018.015)
+- [PDF](Gjerde et al. - 2018 - Conservación y Uso Sostenible de la Biodiversidad .pdf)

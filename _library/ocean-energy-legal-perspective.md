@@ -12,6 +12,7 @@ layout: library-item
 number: '1'
 pages: 26--32
 pdf: Wright - 2013 - Ocean Energy a Legal Perspective.pdf
+preview: thumbnail
 tags: []
 title: 'Ocean Energy: A Legal Perspective'
 venue: Journal of Ocean Technology

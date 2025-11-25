@@ -15,6 +15,7 @@ layout: library-item
 pages: 765--796
 pdf: Wright, Rochette - Regional Management of Areas beyond National Jurisdiction
   in the Western Indian Ocean State of Play and Possible Ways.pdf
+preview: thumbnail
 tags: []
 title: 'Regional Management of Areas beyond National Jurisdiction in the Western Indian
   Ocean: State of Play and Possible Ways Forward'

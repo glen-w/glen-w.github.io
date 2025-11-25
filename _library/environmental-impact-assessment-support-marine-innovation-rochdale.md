@@ -35,6 +35,7 @@ entry_type: Book chapter
 layout: library-item
 pages: 189--212
 pdf: EU Environmental and Planning Law_1stproof_08 Wright.pdf
+preview: thumbnail
 publisher: Intersentia
 tags: []
 title: 'Environmental Impact Assessment to Support Marine Innovation: The ‘Rochdale

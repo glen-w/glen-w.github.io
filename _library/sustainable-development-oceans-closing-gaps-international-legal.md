@@ -24,6 +24,7 @@ description: The world’s oceans are critical providers of ecosystem services a
 entry_type: Book chapter
 layout: library-item
 pdf: Wright et al. - 2015 - Sustainable development of the oceans Closing the.pdf
+preview: thumbnail
 publisher: Springer
 tags:
 - marine protected areas

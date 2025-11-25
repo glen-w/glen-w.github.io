@@ -26,6 +26,7 @@ entry_type: Journal article
 layout: library-item
 pages: '103976'
 pdf: MCS Marine Policy Paper (1).pdf
+preview: thumbnail
 tags: []
 title: 'Strengthening monitoring, control and surveillance of human activities in
   marine areas beyond national jurisdiction: Challenges and opportunities for an international

@@ -13,6 +13,7 @@ entry_type: Journal article
 layout: library-item
 pages: 23--30
 pdf: 2014-Strengthening_the_role_of_science_in_marine_governance_through_environmental_impact_assessment_a_case_study_of_the_.pdf
+preview: thumbnail
 tags: []
 title: 'Strengthening the role of science in marine governance through environmental
   impact assessment: a case study of the marine renewable energy industry'

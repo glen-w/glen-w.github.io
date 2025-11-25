@@ -31,6 +31,7 @@ entry_type: Journal article
 layout: library-item
 pages: 134--148
 pdf: Wright et al. - 2015 - Advancing marine biodiversity protection through r.pdf
+preview: thumbnail
 tags: []
 title: 'Advancing marine biodiversity protection through regional fisheries management:
   A review of bottom fisheries closures in areas beyond national jurisdiction'
