@@ -4107,11 +4107,6 @@ ninja.data = [{
           description: "Bottom Fisheries Closures in Areas Beyond National Jurisdiction",
           section: "Library",handler: () => {
               window.location.href = "/library/bottom-fisheries-closures-in-areas-beyond-national-jurisdiction/";
-            },},{id: "library-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
-          title: 'Conservation and Sustainable use of Marine biodiversity in areas beyond National Jurisdiction',
-          description: "Conservation and Sustainable use of Marine biodiversity in areas beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/conservation-sustainable-use-marine-biodiversity-areas-beyond-national/";
             },},{id: "library-developing-area-based-management-tools-in-areas-beyond-national-jurisdiction-possible-options-for-the-western-indian-ocean",
           title: 'Developing area-based management tools in areas beyond national jurisdiction: possible options for the...',
           description: "Developing area-based management tools in areas beyond national jurisdiction: possible options for t...",
@@ -5457,6 +5452,11 @@ ninja.data = [{
           description: "Gjerde, K., Boteler, B., Durussel, C., Rochette, J., Unger, S., Wright‚ G., ‘Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction: Options for Underpinning a S...",
           section: "Library",handler: () => {
               window.location.href = "/library/conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction-options-for-underpinning-a-strong-global-bbnj-agreement-through-regional-and-sectoral-governance/";
+            },},{id: "library-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction-options-for-underpinning-a-strong-global-bbnj-agreement-through-regional-and-sectoral-governance",
+          title: 'Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction: Options...',
+          description: "Gjerde, K., Boteler, B., Durussel, C., Rochette, J., Unger, S., Wright‚ G., ‘Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction: Options for Underpinning a S...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/conservation-sustainable-use-marine-biodiversity-areas-beyond-national/";
             },},{id: "library-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction-options-for-underpinning-a-strong-global-bbnj-agreement-through-regional-and-sectoral-governance",
           title: 'Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction: Options...',
           description: "Gjerde, K., Boteler, B., Durussel, C., Rochette, J., Unger, S., Wright‚ G., ‘Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction: Options for Underpinning a S...",
