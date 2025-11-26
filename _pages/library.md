@@ -73,7 +73,7 @@ nav_order: 10
 
 <!-- Selected Publications Container -->
 <div id="selectedPublicationsContainer" class="selected-publications-container">
-  <h2>Selected Publications</h2>
+  <h2>selected publications</h2>
   {% include selected_papers.liquid %}
 </div>
 

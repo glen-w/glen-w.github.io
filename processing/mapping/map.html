@@ -3,400 +3,323 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference Locations Map</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Locations Map</title>
     
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin=""/>
-    
-    <!-- Font Awesome for icons -->
+    <!-- Font Awesome for home icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
             margin: 0;
             padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-color: #f8f9fa;
-        }
-        
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        .header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-            font-weight: 300;
-        }
-        
-        .header p {
-            margin: 0.5rem 0 0 0;
-            opacity: 0.9;
-            font-size: 1.1rem;
-        }
-        
-        .map-container {
-            height: calc(100vh - 200px);
-            margin: 2rem;
-            border-radius: 10px;
+            height: 100vh;
+            width: 100vw;
             overflow: hidden;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
         
         #map {
-            height: 100%;
-            width: 100%;
+            height: 100vh;
+            width: 100vw;
         }
         
-        .stats {
-            background: white;
-            padding: 1rem 2rem;
-            margin: 0 2rem 2rem 2rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        /* Home icon styling */
+        .home-icon {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
             display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        
-        .stat-item {
-            text-align: center;
-            margin: 0.5rem;
-        }
-        
-        .stat-number {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #667eea;
-        }
-        
-        .stat-label {
-            color: #666;
-            font-size: 0.9rem;
-        }
-        
-        .loading {
-            text-align: center;
-            padding: 2rem;
-            color: #666;
-        }
-        
-        .error {
-            background: #fee;
-            color: #c33;
-            padding: 1rem;
-            margin: 1rem 2rem;
-            border-radius: 5px;
-            border-left: 4px solid #c33;
-        }
-        
-        /* Custom popup styles */
-        .leaflet-popup-content-wrapper {
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-        
-        .popup-content {
-            min-width: 250px;
-        }
-        
-        .popup-title {
-            font-size: 1.1rem;
-            font-weight: bold;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            text-decoration: none;
             color: #333;
-            margin-bottom: 0.5rem;
-            line-height: 1.3;
         }
         
-        .popup-details {
-            margin: 0.5rem 0;
+        .home-icon:hover {
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transform: scale(1.1);
+            color: #007bff;
         }
         
-        .popup-detail {
-            margin: 0.3rem 0;
-            font-size: 0.9rem;
-            color: #666;
+        .home-icon i {
+            font-size: 20px;
         }
         
-        .popup-detail i {
-            width: 16px;
-            color: #667eea;
-        }
-        
-        .popup-link {
-            display: inline-block;
-            background: #667eea;
+        /* Marker cluster styling */
+        .marker-cluster {
+            background-color: rgba(102, 187, 106, 0.7);
+            border: 2px solid rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
             color: white;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
-            font-size: 0.9rem;
-            margin-top: 0.5rem;
-            transition: background 0.3s;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            width: 40px;
+            font-weight: bold;
+            font-size: 14px;
         }
         
-        .popup-link:hover {
-            background: #5a6fd8;
+        .marker-cluster-medium {
+            background-color: rgba(102, 187, 106, 0.7);
             color: white;
-            text-decoration: none;
         }
         
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2rem;
-            }
-            
-            .map-container {
-                margin: 1rem;
-                height: calc(100vh - 150px);
-            }
-            
-            .stats {
-                margin: 0 1rem 1rem 1rem;
-                flex-direction: column;
-            }
+        .marker-cluster-large {
+            background-color: rgba(102, 187, 106, 0.7);
+            color: white;
+        }
+        
+        .cluster-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        /* Custom marker styling */
+        .custom-marker {
+            background: transparent;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1><i class="fas fa-map-marker-alt"></i> Conference Locations</h1>
-        <p>Interactive map of conferences and events from your research</p>
-    </div>
+    <!-- Home icon link -->
+    <a href="/" class="home-icon" title="Return to home">
+        <i class="fas fa-home"></i>
+    </a>
     
-    <div class="stats" id="stats" style="display: none;">
-        <div class="stat-item">
-            <div class="stat-number" id="total-conferences">0</div>
-            <div class="stat-label">Total Conferences</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number" id="mapped-locations">0</div>
-            <div class="stat-label">Mapped Locations</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number" id="countries">0</div>
-            <div class="stat-label">Countries</div>
-        </div>
-    </div>
-    
-    <div class="loading" id="loading">
-        <i class="fas fa-spinner fa-spin"></i> Loading conference data...
-    </div>
-    
-    <div class="error" id="error" style="display: none;">
-        <i class="fas fa-exclamation-triangle"></i> <span id="error-message"></span>
-    </div>
-    
-    <div class="map-container" id="map-container" style="display: none;">
-        <div id="map"></div>
-    </div>
-
-    <!-- Leaflet JavaScript -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
+    <!-- Map container -->
+    <div id="map"></div>
     
     <script>
-        class ConferenceMap {
-            constructor() {
-                this.map = null;
-                this.conferences = [];
-                this.markers = [];
-                this.countries = new Set();
-            }
-            
-            async init() {
-                try {
-                    await this.loadConferenceData();
-                    this.createMap();
-                    this.addMarkers();
-                    this.updateStats();
-                    this.showMap();
-                } catch (error) {
-                    this.showError('Failed to load conference data: ' + error.message);
-                }
-            }
-            
-            async loadConferenceData() {
-                try {
-                    const response = await fetch('assets/mapping/location_coordinates.json');
-                    if (!response.ok) {
-                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-                    }
-                    const data = await response.json();
-                    this.conferences = data.locations || [];
-                } catch (error) {
-                    console.error('Error loading conference data:', error);
-                    throw error;
-                }
-            }
-            
-            createMap() {
-                // Initialize map centered on Europe (good for the current data)
-                this.map = L.map('map').setView([50.0, 10.0], 4);
-                
-                // Add OpenStreetMap tiles
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                    maxZoom: 18
-                }).addTo(this.map);
-            }
-            
-            addMarkers() {
-                const geocodedConferences = this.conferences.filter(conf => conf.geocoded);
-                
-                geocodedConferences.forEach(conf => {
-                    const coords = conf.coordinates;
-                    const marker = L.marker([coords.lat, coords.lng])
-                        .addTo(this.map);
-                    
-                    // Create popup content
-                    const popupContent = this.createPopupContent(conf);
-                    marker.bindPopup(popupContent);
-                    
-                    this.markers.push(marker);
-                    
-                    // Track countries for stats
-                    this.extractCountry(conf.address);
+        // Global variables
+        let libraryMap = null;
+        let mapInitialized = false;
+        
+        // Helper function to escape HTML
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        // Create colored marker icons (will be created after Leaflet loads)
+        let blueIcon = null;
+        let redIcon = null;
+        
+        function createMarkerIcon(color) {
+            // Create a colored div icon for markers
+            const size = 25;
+            const html = `<div style="background-color: ${color}; width: ${size}px; height: ${size}px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 3px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`;
+            return L.divIcon({
+                html: html,
+                className: 'custom-marker',
+                iconSize: [size, size],
+                iconAnchor: [size/2, size]
+            });
+        }
+        
+        // Load location data from both sources
+        function loadLocationData() {
+            // Load papers.bib locations
+            const papersPromise = fetch('/assets/mapping/location_coordinates.json')
+                .then(response => response.json())
+                .then(data => {
+                    const locations = data.locations || [];
+                    return locations
+                        .filter(loc => loc.geocoded === true)
+                        .map(loc => ({ ...loc, source: 'papers' }));
+                })
+                .catch(error => {
+                    console.error('Error loading papers.bib location data:', error);
+                    return [];
                 });
+            
+            // Load KMZ locations
+            const kmzPromise = fetch('/assets/mapping/kmz_locations.json')
+                .then(response => response.json())
+                .then(data => {
+                    const locations = data.locations || [];
+                    return locations
+                        .filter(loc => loc.geocoded === true)
+                        .map(loc => ({ ...loc, source: loc.source || 'kmz' }));
+                })
+                .catch(error => {
+                    console.error('Error loading KMZ location data:', error);
+                    return [];
+                });
+            
+            // Combine both sources
+            return Promise.all([papersPromise, kmzPromise])
+                .then(([papersLocations, kmzLocations]) => {
+                    return [...papersLocations, ...kmzLocations];
+                });
+        }
+        
+        // Initialize map dependencies
+        function initializeLibraryMap() {
+            // Load Leaflet CSS and JS dynamically
+            if (!document.querySelector('link[href*="leaflet"]')) {
+                const leafletCSS = document.createElement('link');
+                leafletCSS.rel = 'stylesheet';
+                leafletCSS.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+                leafletCSS.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+                leafletCSS.crossOrigin = 'anonymous';
+                document.head.appendChild(leafletCSS);
                 
-                // Fit map to show all markers
-                if (this.markers.length > 0) {
-                    const group = new L.featureGroup(this.markers);
-                    this.map.fitBounds(group.getBounds().pad(0.1));
-                }
-            }
-            
-            createPopupContent(conf) {
-                const date = this.formatDate(conf.year, conf.month);
-                // Use custom Zotero tag if available, otherwise fall back to entry_type
-                const eventType = conf.tag || this.formatEventType(conf.entry_type);
+                // Load MarkerCluster CSS
+                const clusterCSS = document.createElement('link');
+                clusterCSS.rel = 'stylesheet';
+                clusterCSS.href = 'https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css';
+                clusterCSS.crossOrigin = 'anonymous';
+                document.head.appendChild(clusterCSS);
                 
-                return `
-                    <div class="popup-content">
-                        <div class="popup-title">${this.escapeHtml(conf.title)}</div>
-                        <div class="popup-details">
-                            <div class="popup-detail">
-                                <i class="fas fa-calendar"></i> ${date}
-                            </div>
-                            <div class="popup-detail">
-                                <i class="fas fa-tag"></i> ${this.escapeHtml(eventType)}
-                            </div>
-                            <div class="popup-detail">
-                                <i class="fas fa-map-marker-alt"></i> ${this.escapeHtml(conf.address)}
-                            </div>
-                        </div>
-                        <a href="/library/?action=jump#${conf.bibtex_key}" class="popup-link">
-                            <i class="fas fa-external-link-alt"></i> View Details
-                        </a>
-                    </div>
-                `;
+                const clusterDefaultCSS = document.createElement('link');
+                clusterDefaultCSS.rel = 'stylesheet';
+                clusterDefaultCSS.href = 'https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css';
+                clusterDefaultCSS.crossOrigin = 'anonymous';
+                document.head.appendChild(clusterDefaultCSS);
             }
             
-            generateLibraryUrl(conf) {
-                // Generate the library page URL based on the title slug
-                const title = conf.title || 'untitled';
-                const titleSlug = this.slugify(title, 50);
-                return `${titleSlug}/`;
-            }
-            
-            slugify(text, maxLength = 50) {
-                // Enhanced slugify function with accent handling similar to Python slugify
-                return text
-                    .toLowerCase()
-                    .normalize('NFD') // Decompose accented characters
-                    .replace(/[\u0300-\u036f]/g, '') // Remove accent marks
-                    .replace(/[^\w\s-]/g, '') // Remove special characters
-                    .replace(/\s+/g, '-') // Replace spaces with hyphens
-                    .replace(/-+/g, '-') // Replace multiple hyphens with single
-                    .replace(/^-|-$/g, '') // Remove leading/trailing hyphens
-                    .substring(0, maxLength); // Truncate to max length
-            }
-            
-            formatDate(year, month) {
-                if (!year) return 'Date unknown';
-                
-                const monthNames = {
-                    'jan': 'January', 'feb': 'February', 'mar': 'March', 'apr': 'April',
-                    'may': 'May', 'jun': 'June', 'jul': 'July', 'aug': 'August',
-                    'sep': 'September', 'oct': 'October', 'nov': 'November', 'dec': 'December'
+            if (!window.L) {
+                const leafletJS = document.createElement('script');
+                leafletJS.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+                leafletJS.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+                leafletJS.crossOrigin = 'anonymous';
+                leafletJS.onload = function() {
+                    loadMarkerCluster();
                 };
-                
-                const monthName = month ? monthNames[month.toLowerCase()] : '';
-                return monthName ? `${monthName} ${year}` : year;
-            }
-            
-            formatEventType(type) {
-                const typeMap = {
-                    'conference': 'Conference',
-                    'roundtable': 'Roundtable',
-                    'workshop': 'Workshop',
-                    'misc': 'Event'
-                };
-                return typeMap[type.toLowerCase()] || type;
-            }
-            
-            extractCountry(address) {
-                // Simple country extraction - could be improved
-                const countryPatterns = {
-                    'France': /france/i,
-                    'Germany': /germany/i,
-                    'United States': /united states|usa|us/i,
-                    'United Kingdom': /united kingdom|uk|britain/i,
-                    'Canada': /canada/i,
-                    'Australia': /australia/i,
-                    'Japan': /japan/i,
-                    'China': /china/i,
-                    'India': /india/i,
-                    'Brazil': /brazil/i
-                };
-                
-                for (const [country, pattern] of Object.entries(countryPatterns)) {
-                    if (pattern.test(address)) {
-                        this.countries.add(country);
-                        break;
-                    }
-                }
-            }
-            
-            updateStats() {
-                const geocodedCount = this.conferences.filter(conf => conf.geocoded).length;
-                const totalCount = this.conferences.length;
-                
-                document.getElementById('total-conferences').textContent = totalCount;
-                document.getElementById('mapped-locations').textContent = geocodedCount;
-                document.getElementById('countries').textContent = this.countries.size;
-            }
-            
-            showMap() {
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('map-container').style.display = 'block';
-                document.getElementById('stats').style.display = 'flex';
-            }
-            
-            showError(message) {
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('error-message').textContent = message;
-                document.getElementById('error').style.display = 'block';
-            }
-            
-            escapeHtml(text) {
-                const div = document.createElement('div');
-                div.textContent = text;
-                return div.innerHTML;
+                document.head.appendChild(leafletJS);
+            } else {
+                loadMarkerCluster();
             }
         }
         
-        // Initialize the map when the page loads
-        document.addEventListener('DOMContentLoaded', () => {
-            const conferenceMap = new ConferenceMap();
-            conferenceMap.init();
+        function loadMarkerCluster() {
+            if (!window.L.markerClusterGroup) {
+                const clusterJS = document.createElement('script');
+                clusterJS.src = 'https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js';
+                clusterJS.crossOrigin = 'anonymous';
+                clusterJS.onload = function() {
+                    createLibraryMap();
+                };
+                document.head.appendChild(clusterJS);
+            } else {
+                createLibraryMap();
+            }
+        }
+        
+        function createLibraryMap() {
+            // Create colored marker icons (now that Leaflet is loaded)
+            blueIcon = createMarkerIcon('#3388ff');
+            redIcon = createMarkerIcon('#ff3333');
+            
+            // Initialize map
+            libraryMap = L.map('map').setView([50.0, 10.0], 4);
+            
+            // Add OpenStreetMap tiles
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 18
+            }).addTo(libraryMap);
+            
+            // Create marker cluster group
+            const markers = L.markerClusterGroup({
+                chunkedLoading: true,
+                spiderfyOnMaxZoom: true,
+                showCoverageOnHover: false,
+                zoomToBoundsOnClick: true,
+                maxClusterRadius: 50,
+                iconCreateFunction: function(cluster) {
+                    const count = cluster.getChildCount();
+                    let size = 'small';
+                    if (count > 10) size = 'large';
+                    else if (count > 5) size = 'medium';
+                    
+                    return L.divIcon({
+                        html: '<div class="cluster-icon cluster-' + size + '">' + count + '</div>',
+                        className: 'marker-cluster marker-cluster-' + size,
+                        iconSize: L.point(40, 40),
+                        iconAnchor: L.point(20, 20)
+                    });
+                }
+            });
+            
+            // Add cluster group to map
+            libraryMap.addLayer(markers);
+            
+            // Load and display location data
+            loadLocationData()
+                .then(locations => {
+                    console.log(`Loaded ${locations.length} total locations`);
+                    const kmzCount = locations.filter(loc => loc.source === 'kmz').length;
+                    const papersCount = locations.filter(loc => loc.source === 'papers').length;
+                    console.log(`  - ${papersCount} from papers.bib (blue)`);
+                    console.log(`  - ${kmzCount} from KMZ (red)`);
+                    
+                    locations.forEach(loc => {
+                        const coords = loc.coordinates;
+                        
+                        // Choose icon based on source (default to blue if icons not ready)
+                        const icon = (loc.source === 'kmz' && redIcon) ? redIcon : (blueIcon || undefined);
+                        
+                        // Create marker with appropriate icon
+                        const marker = L.marker([coords.lat, coords.lng], { icon: icon });
+                        
+                        // Create popup content
+                        let popupContent = '';
+                        if (loc.source === 'kmz') {
+                            // KMZ locations: just show name
+                            popupContent = `<div style="padding: 5px;"><strong>${escapeHtml(loc.name || 'Unnamed Location')}</strong></div>`;
+                        } else {
+                            // Papers.bib locations: show title and address
+                            const title = loc.title || 'Untitled';
+                            const address = loc.address || 'Unknown location';
+                            popupContent = `<div style="padding: 5px;"><strong>${escapeHtml(title)}</strong><br>${escapeHtml(address)}</div>`;
+                        }
+                        
+                        marker.bindPopup(popupContent);
+                        
+                        // Add marker to cluster group
+                        markers.addLayer(marker);
+                    });
+                    
+                    // Fit map to show all markers
+                    if (locations.length > 0) {
+                        libraryMap.fitBounds(markers.getBounds().pad(0.1));
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading location data:', error);
+                });
+            
+            mapInitialized = true;
+        }
+        
+        // Initialize map when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeLibraryMap();
         });
     </script>
 </body>

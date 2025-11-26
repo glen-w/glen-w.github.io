@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2025-11-25 10:09:40",
+    "generated_at": "2025-11-25 16:10:20",
     "total_locations": 66,
     "successfully_geocoded": 59,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
-    "refresh_mode": true,
+    "refresh_mode": false,
     "cache_only_mode": false
   },
   "locations": [

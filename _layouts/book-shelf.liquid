@@ -6,44 +6,84 @@ layout: page
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
-    {% for item in collection reversed %}
-      {% assign current_year = item.date | date: '%Y' %}
-      {% if current_year != year %}
-        {% unless forloop.first %}
-          </ul>
+    
+    {% comment %} Define status order: read, skimmed, stalled, queued, abandoned {% endcomment %}
+    {% assign status_order = "read,re-read,skimmed,stalled,queued,abandoned,uncategorized" | split: "," %}
+    {% assign valid_statuses = 'read,queued,stalled,skimmed,abandoned,re-read' | split: ',' %}
+    
+    {% for current_status in status_order %}
+      {% comment %} Get books with this status {% endcomment %}
+      {% assign status_books = "" | split: "" %}
+      
+      {% for item in collection %}
+        {% assign item_status = item.status | downcase | strip | default: "uncategorized" %}
+        {% unless valid_statuses contains item_status %}
+          {% assign item_status = "uncategorized" %}
         {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
-          <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
-        </h1>
-        <ul>
-          {% assign year = current_year %}
-      {% endif %}
-
-      <figure class="cover">
-        <a class="cover-link" href="{{ item.url | relative_url }}">
-          {% if item.cover %}
-            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
-          {% elsif item.olid %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
-          {% elsif item.isbn %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
-          {% endif %}
-          {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
-            {% assign status = item.status | downcase | strip %}
-            {% if statuses contains status %}
-              <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
-            {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+        
+        {% if item_status == current_status %}
+          {% comment %} Extract surname (last word of author) for sorting {% endcomment %}
+          {% assign author_parts = item.author | split: " " %}
+          {% assign surname = author_parts | last %}
+          {% comment %} Store book with computed surname {% endcomment %}
+          {% assign status_books = status_books | push: item %}
+        {% endif %}
+      {% endfor %}
+      
+      {% comment %} Sort books by author (alphabetically) {% endcomment %}
+      {% assign sorted_books = status_books | sort: "author" %}
+      
+      {% comment %} Secondary sort by surname - collect and re-sort {% endcomment %}
+      {% assign books_with_surname = "" | split: "" %}
+      {% for book in sorted_books %}
+        {% assign author_parts = book.author | split: " " %}
+        {% assign surname = author_parts | last | downcase %}
+        {% comment %} Build sortable key: surname + title for consistency {% endcomment %}
+        {% capture book_entry %}{{ surname }}|||{{ book.title }}{% endcapture %}
+        {% assign books_with_surname = books_with_surname | push: book_entry %}
+      {% endfor %}
+      {% assign sorted_keys = books_with_surname | sort %}
+      
+      {% if sorted_books.size > 0 %}
+        {% comment %} Display status heading {% endcomment %}
+        {% assign status_display = current_status | capitalize %}
+        {% if current_status == "re-read" %}
+          {% assign status_display = "Re-read" %}
+        {% endif %}
+        <h2 id="status-{{ current_status }}">{{ status_display }}</h2>
+        <ul class="book-grid">
+        
+        {% comment %} Display books sorted by surname {% endcomment %}
+        {% for sort_key in sorted_keys %}
+          {% assign key_parts = sort_key | split: "|||" %}
+          {% assign target_title = key_parts[1] %}
+          
+          {% for item in sorted_books %}
+            {% if item.title == target_title %}
+              <figure class="cover">
+                <a class="cover-link" href="{{ item.url | relative_url }}">
+                  {% if item.cover %}
+                    <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+                  {% elsif item.olid %}
+                    <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
+                  {% elsif item.isbn %}
+                    <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
+                  {% else %}
+                    <div class="no-cover" style="height:200px; width:130px; display:flex; align-items:center; justify-content:center; background:#f0f0f0; border:1px solid #ddd; padding:10px; text-align:center; font-size:0.9em;">
+                      <span>{{ item.title }}</span>
+                    </div>
+                  {% endif %}
+                  <figcaption class="{{ current_status }}">{{ current_status | upcase }}</figcaption>
+                </a>
+              </figure>
+              {% break %}
             {% endif %}
-          {% else %}
-            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-          {% endif %}
-        </a>
-      </figure>
-      {% if forloop.last %}
+          {% endfor %}
+        {% endfor %}
+        
         </ul>
       {% endif %}
     {% endfor %}
+    
   {% endif %}
 {% endif %}

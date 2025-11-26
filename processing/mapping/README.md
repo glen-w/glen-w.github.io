@@ -9,10 +9,11 @@ This system extracts locations from your `papers.bib` file, geocodes them using 
 - **Intelligent Caching**: Avoids redundant API calls by caching geocoded locations
 - **Test Mode**: `--test` flag processes only the 5 most recent locations for quick testing
 - **Geocoding**: Uses OpenStreetMap Nominatim API (free, no API key required)
-- **Interactive Map**: Built with Leaflet.js showing locations
-- **Rich Popups**: Display title, event type, date, location, and link to library page
+- **Interactive Map**: Built with Leaflet.js showing locations with marker clustering
+- **Full-Page Display**: Standalone full-screen map (100vh/100vw) for immersive viewing
+- **Pins-Only View**: Clean map display with location pins only (no popups)
+- **Home Navigation**: Small home icon in top corner to return to home page
 - **Responsive Design**: Works on desktop and mobile devices
-- **Statistics**: Shows total locations, mapped locations, and countries
 
 ## Files
 
@@ -79,14 +80,13 @@ The system now includes intelligent caching that:
 
 ### 2. View the Map
 
-Open `map.html` in a web browser. The map will automatically load the location data and display:
-- Pins for each geocoded location
-- Popups with location details
-- Statistics about the data
+Open `assets/mapping/map.html` in a web browser or navigate to `/map.html` on your site. The map will automatically:
+- Load location data from `location_coordinates.json`
+- Display pins for each geocoded location with marker clustering
+- Fit the map bounds to show all locations
+- Provide a home icon in the top-left corner to return to the home page
 
-### 3. Integration with Library Page
-
-The popup links use anchor format `#BibTeXKey` (e.g., `#HowProtectOur2024`) that can be linked to your library page sections.
+The map is a standalone full-page HTML file that displays locations visited, sourced from your `papers.bib` file. It uses the same map implementation as the library page but in a full-screen format with pins only (no popups).
 
 ## Data Format
 
@@ -154,16 +154,19 @@ if entry_type.lower() in ['conference', 'roundtable', 'workshop', 'misc', 'your_
 
 ### Styling the Map
 
-Modify the CSS in `map.html` to customize colors, fonts, and layout.
+Modify the CSS in `map.html` to customize colors, fonts, and layout. The map uses the same clustering styles as the library page for consistency.
 
-### Popup Content
+## Roadmap
 
-Edit the `createPopupContent()` method in `map.html` to change what information is displayed in the popups.
+### Multiple Data Sources
+The map is currently structured to support future multiple data sources beyond `papers.bib`. The `loadLocationData()` function can be extended to:
+- Merge location data from multiple JSON files
+- Support different data formats that will be normalized during loading
+- Allow filtering by data source
 
-## Future Enhancements
-
-- Add clustering for many nearby conferences
-- Include conference abstracts in popups
-- Add filtering by year, type, or country
-- Export map as image or PDF
-- Integration with Jekyll site generation
+### Future Enhancements
+- **Filtering Capabilities**: Add filtering by year, event type, or country
+- **Optional Popup Toggle**: Add ability to enable/disable popups for detailed information
+- **Export Functionality**: Export map as image or PDF
+- **Additional Data Sources**: Support for other location data sources (travel logs, personal visits, etc.)
+- **Interactive Features**: Time-based filtering, heat maps, or route visualization

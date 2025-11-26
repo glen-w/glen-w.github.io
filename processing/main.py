@@ -53,8 +53,10 @@ def main():
     # Post-processing options
     parser.add_argument('--clean-file-field', action='store_true',
                        help='Clean file field from processed files after processing')
-    parser.add_argument('--remove-file-field', action='store_true',
-                       help='Remove file field entirely from processed entries')
+    parser.add_argument('--remove-file-field', action='store_true', default=True,
+                       help='Remove file field entirely from processed entries (default: True, use --keep-file-field to disable)')
+    parser.add_argument('--keep-file-field', action='store_true',
+                       help='Keep file field in processed entries (overrides default removal)')
     parser.add_argument('--remove-fields', nargs='+',
                        help='Remove specific fields from all entries after processing')
     
@@ -99,7 +101,9 @@ def main():
         return 1
     
     # Run post-processing cleanup
-    if args.clean_file_field or args.remove_file_field or args.remove_fields:
+    # Note: remove_file_field defaults to True unless --keep-file-field is specified
+    should_remove_file_field = args.remove_file_field and not args.keep_file_field
+    if args.clean_file_field or should_remove_file_field or args.remove_fields:
         success = run_post_processing(config, args)
         if not success:
             return 1
@@ -184,7 +188,8 @@ def run_post_processing(config: Configuration, args) -> bool:
             if not success:
                 return False
         
-        if args.remove_file_field:
+        # Remove file field by default unless --keep-file-field is specified
+        if args.remove_file_field and not args.keep_file_field:
             success = processor.remove_file_field_entirely(output_file)
             if not success:
                 return False

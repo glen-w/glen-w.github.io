@@ -48,7 +48,7 @@ layout: default
     {% if page.selected_papers %}
       <div id="selectedPublicationsContainer">
         <h2>
-          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+          <a href="{{ '/library/' | relative_url }}" style="color: inherit">selected publications</a>
         </h2>
         {% include selected_papers_home.liquid %}
       </div>
@@ -73,6 +73,10 @@ layout: default
 <style>
 #selectedPublicationsContainer {
   margin: 2rem 0;
+}
+
+#selectedPublicationsContainer h2 {
+  font-size: 1.25rem;
 }
 
 /* Home page selected publications styling */

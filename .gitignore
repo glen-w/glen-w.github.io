@@ -12,4 +12,12 @@ node_modules/
 vendor
 .idea
 backups/
+archive/
 templates/
+
+# Zotero exports (contain local file paths)
+_bibliography/Exported Items.bib
+_bibliography/Exported Items_backup_*.bib
+
+# Test directory for development maps
+_test/

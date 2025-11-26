@@ -7,7 +7,6 @@ Main processor that coordinates all paper processing operations.
 import os
 import re
 import shutil
-import time
 import sys
 from typing import Dict, List, Optional
 
@@ -61,9 +60,6 @@ class PaperProcessor:
         
         print(f"📚 Processing {source_file}...")
         
-        # Create backup of the original BibTeX file
-        self._create_backup(source_file)
-        
         # Clean up existing files if regenerate mode
         if regenerate:
             self._cleanup_existing_files()
@@ -93,15 +89,6 @@ class PaperProcessor:
                             force_refetch_metadata, rename_urls, rename_only, update_pdf_metadata)
         
         print(f"\n✅ Processing completed successfully!")
-    
-    def _create_backup(self, source_file: str) -> None:
-        """Create backup of the source BibTeX file."""
-        backup_file = source_file.replace('.bib', f'_backup_{int(time.time())}.bib')
-        try:
-            shutil.copy2(source_file, backup_file)
-            print(f"  💾 Created backup: {backup_file}")
-        except Exception as e:
-            print(f"  ⚠️  Warning: Could not create backup: {e}")
     
     def _cleanup_existing_files(self) -> None:
         """Clean up existing files if regenerate mode is enabled."""

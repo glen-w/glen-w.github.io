@@ -1,0 +1,3348 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-25 17:00:11",
+    "total_locations": 371,
+    "source_file": "processing/My Places.kmz"
+  },
+  "locations": [
+    {
+      "name": "Arlington",
+      "coordinates": {
+        "lat": 38.86107880713616,
+        "lng": -77.10803841195414
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Aberdeen",
+      "coordinates": {
+        "lat": 57.14749589888084,
+        "lng": -2.095393625241957
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Aberystwyth",
+      "coordinates": {
+        "lat": 52.4143949229389,
+        "lng": -4.083569278172692
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Abu Dhabi",
+      "coordinates": {
+        "lat": 24.45564361965748,
+        "lng": 54.38413703426679
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Achuapa",
+      "coordinates": {
+        "lat": 13.05432795475707,
+        "lng": -86.59069839512672
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Acropolis",
+      "coordinates": {
+        "lat": 37.97134387459714,
+        "lng": 23.72667260049898
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Akureyri",
+      "coordinates": {
+        "lat": 65.68386800196716,
+        "lng": -18.11046000030226
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Al Ain",
+      "coordinates": {
+        "lat": 24.22512064440744,
+        "lng": 55.7445593762731
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Alajuela",
+      "coordinates": {
+        "lat": 10.01644046617236,
+        "lng": -84.22126045359072
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Alamo",
+      "coordinates": {
+        "lat": 26.18341574344036,
+        "lng": -98.12254114290967
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Alexandria",
+      "coordinates": {
+        "lat": 31.21329693129874,
+        "lng": 29.94410944329735
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Amarillo",
+      "coordinates": {
+        "lat": 35.22198751072153,
+        "lng": -101.8312913452288
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Amphitheatre",
+      "coordinates": {
+        "lat": 43.83480905909393,
+        "lng": 4.359606068244471
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Amsterdam",
+      "coordinates": {
+        "lat": 52.37427844001218,
+        "lng": 4.893359594852996
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Andorra la Vella",
+      "coordinates": {
+        "lat": 42.50729072228121,
+        "lng": 1.521835530414788
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Appledore",
+      "coordinates": {
+        "lat": 51.05416599999999,
+        "lng": -4.191029999999983
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Arc de Triomphe",
+      "coordinates": {
+        "lat": 44.14217239977557,
+        "lng": 4.804721599844815
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Athens",
+      "coordinates": {
+        "lat": 37.97918149205649,
+        "lng": 23.71664471402672
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Austin",
+      "coordinates": {
+        "lat": 30.26668223538929,
+        "lng": -97.74312011568972
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bakewell",
+      "coordinates": {
+        "lat": 53.21287274515477,
+        "lng": -1.675736171208585
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Ballston",
+      "coordinates": {
+        "lat": 38.88010583507411,
+        "lng": -77.11368828473942
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bangalow",
+      "coordinates": {
+        "lat": -28.68635450278741,
+        "lng": 153.5247858743882
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bargara",
+      "coordinates": {
+        "lat": -24.81493603629541,
+        "lng": 152.4629859928375
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bath",
+      "coordinates": {
+        "lat": 51.38145891917372,
+        "lng": -2.357262175424683
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bauska",
+      "coordinates": {
+        "lat": 56.40420613075595,
+        "lng": 24.19379699539021
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Beerwah",
+      "coordinates": {
+        "lat": -26.85704290961783,
+        "lng": 152.9571620344059
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Beijing",
+      "coordinates": {
+        "lat": 39.9046022434669,
+        "lng": 116.408133479172
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Belgenny Farm",
+      "coordinates": {
+        "lat": -34.05481600092046,
+        "lng": 150.7006039990442
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bellingen",
+      "coordinates": {
+        "lat": -30.45260702203826,
+        "lng": 152.8981938839305
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bewdley",
+      "coordinates": {
+        "lat": 52.37520385065286,
+        "lng": -2.31625420288117
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bibliotheca Alexandrina",
+      "coordinates": {
+        "lat": 31.20900781224708,
+        "lng": 29.90945475865701
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Big Banana",
+      "coordinates": {
+        "lat": -30.27456580977313,
+        "lng": 153.1337635984981
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Big Prawn, Ballina",
+      "coordinates": {
+        "lat": -28.86382932563886,
+        "lng": 153.531565437684
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bimbadgen Estate",
+      "coordinates": {
+        "lat": -32.74460364202998,
+        "lng": 151.315500933052
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Birmingham",
+      "coordinates": {
+        "lat": 52.482961,
+        "lng": -1.893591999999973
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Blackpool",
+      "coordinates": {
+        "lat": 53.81405041294429,
+        "lng": -3.053583893302715
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bluetongue Cafe",
+      "coordinates": {
+        "lat": -32.72804732041413,
+        "lng": 151.2594098417956
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bondi",
+      "coordinates": {
+        "lat": -33.89127595942092,
+        "lng": 151.2762984913836
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Boomerang Beach",
+      "coordinates": {
+        "lat": -32.33709948466677,
+        "lng": 152.5453125233203
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Brighton",
+      "coordinates": {
+        "lat": 50.81948128527029,
+        "lng": -0.1364343208162433
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Brighton Beach, Melbourne",
+      "coordinates": {
+        "lat": -37.91914622936358,
+        "lng": 144.9871853546328
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Brisbane",
+      "coordinates": {
+        "lat": -27.46758000000001,
+        "lng": 153.027892
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bristol",
+      "coordinates": {
+        "lat": 51.45528289391503,
+        "lng": -2.59180639155232
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bronte",
+      "coordinates": {
+        "lat": -33.90406271079504,
+        "lng": 151.2684449714195
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Brownsville",
+      "coordinates": {
+        "lat": 25.90025423585304,
+        "lng": -97.49689299023984
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bundaberg",
+      "coordinates": {
+        "lat": -24.86610901780526,
+        "lng": 152.3488469858423
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Buxton",
+      "coordinates": {
+        "lat": 53.25893181183138,
+        "lng": -1.913011565032564
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Byron Bay",
+      "coordinates": {
+        "lat": -28.64338700036481,
+        "lng": 153.6122239977002
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Béziers",
+      "coordinates": {
+        "lat": 43.34423299471671,
+        "lng": 3.215794998860981
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cadillac Ranch",
+      "coordinates": {
+        "lat": 35.18723052798567,
+        "lng": -101.9870002916579
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cairo",
+      "coordinates": {
+        "lat": 30.06428633331048,
+        "lng": 31.24971959991953
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cairo Citadel",
+      "coordinates": {
+        "lat": 30.02960704741957,
+        "lng": 31.26060619633316
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Caloundra",
+      "coordinates": {
+        "lat": -26.80463652669872,
+        "lng": 153.1303491466076
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cameron House",
+      "coordinates": {
+        "lat": 56.01315192860341,
+        "lng": -4.606829522448351
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Carcassonne",
+      "coordinates": {
+        "lat": 43.21237034890122,
+        "lng": 2.353662983667353
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cardiff",
+      "coordinates": {
+        "lat": 51.48126024364931,
+        "lng": -3.180296646718548
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Castle Hill",
+      "coordinates": {
+        "lat": -33.74752288859676,
+        "lng": 151.0106040834866
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Catacombs of Kom el Shoqafa",
+      "coordinates": {
+        "lat": 31.17842263122419,
+        "lng": 29.89315363609276
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Notre-Dame-de-la-Rouvière",
+      "coordinates": {
+        "lat": 44.04814253147203,
+        "lng": 3.701036805689901
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Puech Sigal",
+      "coordinates": {
+        "lat": 44.05710677637705,
+        "lng": 3.71162643071707
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Col de l'Homme Mort",
+      "coordinates": {
+        "lat": 44.08527900057131,
+        "lng": 3.726845002614949
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mas Gilbert",
+      "coordinates": {
+        "lat": 44.06599032609547,
+        "lng": 3.696093265330651
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Chester",
+      "coordinates": {
+        "lat": 53.19145759890922,
+        "lng": -2.895007103225528
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cholsey",
+      "coordinates": {
+        "lat": 51.57511400592816,
+        "lng": -1.153309365194422
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cigu Township",
+      "coordinates": {
+        "lat": 23.11961241216127,
+        "lng": 120.1013762078637
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cirque de Navacelles",
+      "coordinates": {
+        "lat": 43.89058299951544,
+        "lng": 3.510036000526953
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Compton",
+      "coordinates": {
+        "lat": 33.89473470512735,
+        "lng": -118.2191506324819
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Coney Island",
+      "coordinates": {
+        "lat": 40.57329570174347,
+        "lng": -73.97864817742497
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Conroe",
+      "coordinates": {
+        "lat": 30.31069523153673,
+        "lng": -95.4562615991247
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Conwy",
+      "coordinates": {
+        "lat": 53.2810338092913,
+        "lng": -3.828790176459153
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Coomba",
+      "coordinates": {
+        "lat": -32.24010050062306,
+        "lng": 152.471947098341
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Copan Ruinas",
+      "coordinates": {
+        "lat": 14.83823982972071,
+        "lng": -89.15616451167514
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Copenhagen",
+      "coordinates": {
+        "lat": 55.67629375096081,
+        "lng": 12.56811650096002
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cottage Point",
+      "coordinates": {
+        "lat": -33.61595012643283,
+        "lng": 151.206576851646
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Coventry",
+      "coordinates": {
+        "lat": 52.40583750782042,
+        "lng": -1.512661058902132
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Dark Point Sand Dunes",
+      "coordinates": {
+        "lat": -32.49260671690374,
+        "lng": 152.3956511057677
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Death Row",
+      "coordinates": {
+        "lat": 30.88954230057319,
+        "lng": -95.48533382970456
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Dimmuborgir",
+      "coordinates": {
+        "lat": 65.586039,
+        "lng": -16.91431
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Djúpivogur",
+      "coordinates": {
+        "lat": 64.65660703714285,
+        "lng": -14.29827976054877
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Donna",
+      "coordinates": {
+        "lat": 26.16965468898779,
+        "lng": -98.05152931342454
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Dover",
+      "coordinates": {
+        "lat": 51.12937246692962,
+        "lng": 1.310297293742373
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Drayton Manor",
+      "coordinates": {
+        "lat": 52.61129309739062,
+        "lng": -1.715947199282463
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Dreaming Dragon",
+      "coordinates": {
+        "lat": 25.0237388756633,
+        "lng": 121.5225799767505
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Dubai",
+      "coordinates": {
+        "lat": 25.25000000000001,
+        "lng": 55.30000000000001
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Dublin",
+      "coordinates": {
+        "lat": 53.344104,
+        "lng": -6.267493999999996
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Dudley",
+      "coordinates": {
+        "lat": 52.50867160553266,
+        "lng": -2.087335376894179
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "E.41st",
+      "coordinates": {
+        "lat": 30.2984812367969,
+        "lng": -97.72078590352713
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Easternmost point",
+      "coordinates": {
+        "lat": -28.63628470088374,
+        "lng": 153.6380467503878
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Edinburg",
+      "coordinates": {
+        "lat": 26.30188428846241,
+        "lng": -98.16240310655509
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Edinburgh",
+      "coordinates": {
+        "lat": 55.95017280531317,
+        "lng": -3.187576463455586
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "El Paso",
+      "coordinates": {
+        "lat": 31.75862711829411,
+        "lng": -106.4869129517743
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Ensérune",
+      "coordinates": {
+        "lat": 43.31772056880578,
+        "lng": 3.12186484553413
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Ephesus",
+      "coordinates": {
+        "lat": 37.94083117609744,
+        "lng": 27.34236631964658
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Esteli",
+      "coordinates": {
+        "lat": 13.08949852186433,
+        "lng": -86.35553957985556
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Eweleaze Farm",
+      "coordinates": {
+        "lat": 50.6382925635762,
+        "lng": -2.40334940842324
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Eyjafjallajökull",
+      "coordinates": {
+        "lat": 63.6740674224335,
+        "lng": -19.62571769439424
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Fleetwood",
+      "coordinates": {
+        "lat": 53.92400984939244,
+        "lng": -3.008655425653752
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Former British Consulate at Takao",
+      "coordinates": {
+        "lat": 22.61884266347377,
+        "lng": 120.2668739085285
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Fortuna",
+      "coordinates": {
+        "lat": 10.46564905916283,
+        "lng": -84.64543427596321
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Four Corners",
+      "coordinates": {
+        "lat": 36.99336183537047,
+        "lng": -109.0409141385446
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Freehills",
+      "coordinates": {
+        "lat": -33.8687537102242,
+        "lng": 151.2092641657356
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Fuerteventura",
+      "coordinates": {
+        "lat": 28.35874400000001,
+        "lng": -14.05367599999999
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Glasgow",
+      "coordinates": {
+        "lat": 55.86522194780431,
+        "lng": -4.256236152988269
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Glasshouse Mountains",
+      "coordinates": {
+        "lat": -26.93174450053801,
+        "lng": 152.8947545990716
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Gosport",
+      "coordinates": {
+        "lat": 50.79229269113641,
+        "lng": -1.128912733617892
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Granada",
+      "coordinates": {
+        "lat": 11.92752101502548,
+        "lng": -85.95738219991367
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Gullfoss",
+      "coordinates": {
+        "lat": 64.3224120950049,
+        "lng": -20.13875723820225
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Gympie",
+      "coordinates": {
+        "lat": -26.18935206645203,
+        "lng": 152.6602720354855
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Harlingen",
+      "coordinates": {
+        "lat": 26.190631,
+        "lng": -97.696103
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Haverfordwest",
+      "coordinates": {
+        "lat": 51.8009049846867,
+        "lng": -4.971582549406276
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Hawks Nest",
+      "coordinates": {
+        "lat": -32.6780904521617,
+        "lng": 152.184960722036
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "HEB",
+      "coordinates": {
+        "lat": 30.30045449433516,
+        "lng": -97.71987234322565
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "HMNB Clyde",
+      "coordinates": {
+        "lat": 56.05650029819929,
+        "lng": -4.817292504135645
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Holiday Inn",
+      "coordinates": {
+        "lat": 32.51256626820962,
+        "lng": -93.74382162000943
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Hoover Dam",
+      "coordinates": {
+        "lat": 36.01625002235114,
+        "lng": -114.737200098891
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Houston",
+      "coordinates": {
+        "lat": 29.76326853694174,
+        "lng": -95.36328464061211
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "HueHue",
+      "coordinates": {
+        "lat": 15.32212056712165,
+        "lng": -91.46993268053083
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Hunter Valley",
+      "coordinates": {
+        "lat": -32.6728373405042,
+        "lng": 150.9540373061265
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Husavik",
+      "coordinates": {
+        "lat": 66.0475864457347,
+        "lng": -17.34351390643554
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Isle of Wight",
+      "coordinates": {
+        "lat": 50.67023698147241,
+        "lng": -1.290747098579959
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Izmir",
+      "coordinates": {
+        "lat": 38.41885000000001,
+        "lng": 27.12872
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Jebel Hafeet",
+      "coordinates": {
+        "lat": 24.05868445110033,
+        "lng": 55.77803310693918
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Jinotega",
+      "coordinates": {
+        "lat": 13.09164997497115,
+        "lng": -86.0012140865394
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "John C. Stennis Space Center",
+      "coordinates": {
+        "lat": 30.36955535521935,
+        "lng": -89.6160540377876
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Kaohsiung",
+      "coordinates": {
+        "lat": 22.61277786845606,
+        "lng": 120.324289205737
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Kiama",
+      "coordinates": {
+        "lat": -34.67216346978051,
+        "lng": 150.8616004671325
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Krak des Chevaliers",
+      "coordinates": {
+        "lat": 34.75677452094304,
+        "lng": 36.29473762791241
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Kusadasi",
+      "coordinates": {
+        "lat": 37.85782707180168,
+        "lng": 27.25918940541907
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "La Couvertoirade",
+      "coordinates": {
+        "lat": 43.9129429963114,
+        "lng": 3.316609992980668
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "La Entrada",
+      "coordinates": {
+        "lat": 15.05818784839659,
+        "lng": -88.75420988792095
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Laguna Apanas",
+      "coordinates": {
+        "lat": 13.15442603898715,
+        "lng": -85.98354570330464
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Laguna de Apoyo",
+      "coordinates": {
+        "lat": 11.91991514475839,
+        "lng": -86.03634891367005
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lake Atitlan",
+      "coordinates": {
+        "lat": 14.69950581223579,
+        "lng": -91.187559457507
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lake Havasu City",
+      "coordinates": {
+        "lat": 34.48328006330719,
+        "lng": -114.32259140683
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lake Travis",
+      "coordinates": {
+        "lat": 30.41786708576862,
+        "lng": -97.90760749584626
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lancaster",
+      "coordinates": {
+        "lat": 40.0379643348519,
+        "lng": -76.3053885626567
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Las Vegas",
+      "coordinates": {
+        "lat": 36.11464600000001,
+        "lng": -115.172816
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Le Puy-en-Velay",
+      "coordinates": {
+        "lat": 45.04276810581418,
+        "lng": 3.882940502706587
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Le Vigan",
+      "coordinates": {
+        "lat": 43.99292700164485,
+        "lng": 3.606321998680402
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lebanon",
+      "coordinates": {
+        "lat": 40.34092475838831,
+        "lng": -76.41134991543088
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Leeds",
+      "coordinates": {
+        "lat": 53.79965767351882,
+        "lng": -1.549057473326974
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Leiden",
+      "coordinates": {
+        "lat": 52.16110360806159,
+        "lng": 4.490424804235627
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lennox Head",
+      "coordinates": {
+        "lat": -28.7957150007764,
+        "lng": 153.5939009982821
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lenton Boulevard",
+      "coordinates": {
+        "lat": 52.94885413257653,
+        "lng": -1.174580222602971
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Leon",
+      "coordinates": {
+        "lat": 12.43486457067642,
+        "lng": -86.88177321620714
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Liberty Bell",
+      "coordinates": {
+        "lat": 39.94969053920544,
+        "lng": -75.15026600418656
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lighthouse at Alexandria",
+      "coordinates": {
+        "lat": 31.21367265544354,
+        "lng": 29.88554612089449
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Limassol",
+      "coordinates": {
+        "lat": 34.683405,
+        "lng": 33.04216200000001
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lindos",
+      "coordinates": {
+        "lat": 36.09031577955356,
+        "lng": 28.08571480622145
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lismore",
+      "coordinates": {
+        "lat": -28.81272494661259,
+        "lng": 153.2787209952467
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Llandudno",
+      "coordinates": {
+        "lat": 53.32651946392699,
+        "lng": -3.834413055346934
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Llangollen",
+      "coordinates": {
+        "lat": 52.97038469810771,
+        "lng": -3.17031574719987
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Loch Lomond",
+      "coordinates": {
+        "lat": 56.08278018349979,
+        "lng": -4.599460548735642
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "London",
+      "coordinates": {
+        "lat": 51.49760825113362,
+        "lng": -0.1250643637780269
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Long Beach",
+      "coordinates": {
+        "lat": 33.76685661894674,
+        "lng": -118.188817575224
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Los Angeles",
+      "coordinates": {
+        "lat": 34.04237565290232,
+        "lng": -118.3461894236872
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Los Chiles",
+      "coordinates": {
+        "lat": 11.0308630731101,
+        "lng": -84.71527799027794
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Louisiana Boardwalk",
+      "coordinates": {
+        "lat": 32.51997445053123,
+        "lng": -93.74160255245552
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Luis",
+      "coordinates": {
+        "lat": 40.69385000000001,
+        "lng": -73.90618800000001
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lyndon City Line Diner",
+      "coordinates": {
+        "lat": 40.06888563359253,
+        "lng": -76.33137781623142
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mad Dog's",
+      "coordinates": {
+        "lat": 35.19056200000001,
+        "lng": -114.0343149999999
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Maison Carrée",
+      "coordinates": {
+        "lat": 43.83819037578036,
+        "lng": 4.356115985075744
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Malaga",
+      "coordinates": {
+        "lat": 36.71964599322664,
+        "lng": -4.420018892562075
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Malmo",
+      "coordinates": {
+        "lat": 55.60333094594687,
+        "lng": 13.00130270462619
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mancarron",
+      "coordinates": {
+        "lat": 11.17889790591545,
+        "lng": -85.02915197113404
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Manuel Antonio",
+      "coordinates": {
+        "lat": 9.409218117061362,
+        "lng": -84.15527710708466
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Masaya",
+      "coordinates": {
+        "lat": 11.97618545790717,
+        "lng": -86.09547923478756
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Matagalpa",
+      "coordinates": {
+        "lat": 12.92704681316165,
+        "lng": -85.91747990663595
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Matamoros",
+      "coordinates": {
+        "lat": 25.8920655439706,
+        "lng": -97.50051634557373
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "McAllen",
+      "coordinates": {
+        "lat": 26.20263455255667,
+        "lng": -98.22917784461129
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Melbourne",
+      "coordinates": {
+        "lat": -37.81318700096651,
+        "lng": 144.9629800387913
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Melstaður",
+      "coordinates": {
+        "lat": 65.31203113042018,
+        "lng": -20.90561337952812
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mercedes",
+      "coordinates": {
+        "lat": 26.15006227204693,
+        "lng": -97.91309822221636
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mojo's Pool Bar",
+      "coordinates": {
+        "lat": 32.5146589797731,
+        "lng": -93.74665354574383
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Monastery of St. George",
+      "coordinates": {
+        "lat": 34.76722349317644,
+        "lng": 36.26805811672444
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Monument Valley",
+      "coordinates": {
+        "lat": 36.84328978847098,
+        "lng": -110.2293001916916
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mosque of Muhammad Ali",
+      "coordinates": {
+        "lat": 30.02863481164282,
+        "lng": 31.25986971239059
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mount Tamborine",
+      "coordinates": {
+        "lat": -27.9724794519951,
+        "lng": 153.2016616596063
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mt Bonnell",
+      "coordinates": {
+        "lat": 30.32453199028112,
+        "lng": -97.7739313395805
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mudgee",
+      "coordinates": {
+        "lat": -32.59052189895917,
+        "lng": 149.5887617049401
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Museum of Egyptian Antiquities",
+      "coordinates": {
+        "lat": 30.04445100121378,
+        "lng": 31.23527499864748
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mývatn Nature Baths",
+      "coordinates": {
+        "lat": 65.630966,
+        "lng": -16.848006
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "New Orleans",
+      "coordinates": {
+        "lat": 29.96472887225019,
+        "lng": -90.0706036273464
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "New York",
+      "coordinates": {
+        "lat": 40.71390659473733,
+        "lng": -74.00634457675413
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Newgrange",
+      "coordinates": {
+        "lat": 53.69459340721575,
+        "lng": -6.475332283291145
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Newquay",
+      "coordinates": {
+        "lat": 50.41282925189399,
+        "lng": -5.083062011124301
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Noble Savage Tavern",
+      "coordinates": {
+        "lat": 32.512897,
+        "lng": -93.749003
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Noosa",
+      "coordinates": {
+        "lat": -26.3964897359276,
+        "lng": 153.0896473581998
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Nottingham",
+      "coordinates": {
+        "lat": 52.955108,
+        "lng": -1.149309999999983
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Nottingham Uni Law School",
+      "coordinates": {
+        "lat": 52.93807199950759,
+        "lng": -1.198604507587702
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Nîmes",
+      "coordinates": {
+        "lat": 43.8366990027233,
+        "lng": 4.360053995772379
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Oasis",
+      "coordinates": {
+        "lat": 30.40513637270235,
+        "lng": -97.87265062006244
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Oklahoma",
+      "coordinates": {
+        "lat": 35.46755988665097,
+        "lng": -97.51642751213919
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Ometepe",
+      "coordinates": {
+        "lat": 11.49350152600501,
+        "lng": -85.56378277362191
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Omodos",
+      "coordinates": {
+        "lat": 34.84820450922581,
+        "lng": 32.8091214735931
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Orkney Islands",
+      "coordinates": {
+        "lat": 58.98905208299861,
+        "lng": -3.048137667909146
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Osmington",
+      "coordinates": {
+        "lat": 50.64454956121623,
+        "lng": -2.391163255134377
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Oxford",
+      "coordinates": {
+        "lat": 51.75227734157633,
+        "lng": -1.255825069073521
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Padre Island",
+      "coordinates": {
+        "lat": 27.40608104696098,
+        "lng": -97.30853671271811
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Pagoda",
+      "coordinates": {
+        "lat": 24.18014127849211,
+        "lng": 121.4959515790173
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Panajachel",
+      "coordinates": {
+        "lat": 14.73880071784668,
+        "lng": -91.15731462045666
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Paphos",
+      "coordinates": {
+        "lat": 34.78126224431414,
+        "lng": 32.4308324198912
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Paris",
+      "coordinates": {
+        "lat": 48.85672384934398,
+        "lng": 2.351138782044731
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Pharr",
+      "coordinates": {
+        "lat": 26.19393969479615,
+        "lng": -98.1831845393556
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Philadelphia",
+      "coordinates": {
+        "lat": 39.9530472365242,
+        "lng": -75.16606921928744
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Picayune",
+      "coordinates": {
+        "lat": 30.5254690952522,
+        "lng": -89.67950822028428
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Pilsrundale",
+      "coordinates": {
+        "lat": 56.41346750642025,
+        "lng": 24.0249344154488
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Port Isaac",
+      "coordinates": {
+        "lat": 50.5939135436857,
+        "lng": -4.82991061748304
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Port Said",
+      "coordinates": {
+        "lat": 31.25649982477296,
+        "lng": 32.29150942684458
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Power station",
+      "coordinates": {
+        "lat": 40.00871931188092,
+        "lng": 52.92840036726133
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Portsmouth",
+      "coordinates": {
+        "lat": 50.79872728577612,
+        "lng": -1.090707322373019
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Pyramids",
+      "coordinates": {
+        "lat": 29.97676646478015,
+        "lng": 31.13069987850255
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Queen Victoria Market",
+      "coordinates": {
+        "lat": -37.80635900058184,
+        "lng": 144.9564239994616
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Resolute Beach",
+      "coordinates": {
+        "lat": -33.58476705074337,
+        "lng": 151.3068858236225
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Reykjavik",
+      "coordinates": {
+        "lat": 64.13533799587972,
+        "lng": -21.89520998008379
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Rhodes",
+      "coordinates": {
+        "lat": 36.44342893035923,
+        "lng": 28.22655734252535
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Rhyl",
+      "coordinates": {
+        "lat": 53.31944704150575,
+        "lng": -3.488782473523674
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Riga",
+      "coordinates": {
+        "lat": 56.94526744388844,
+        "lng": 24.10527170193022
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Rivas",
+      "coordinates": {
+        "lat": 11.43870301072129,
+        "lng": -85.82933412105204
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Rocksprings",
+      "coordinates": {
+        "lat": 30.01576501038601,
+        "lng": -100.2053579330548
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sam Houston Statue",
+      "coordinates": {
+        "lat": 30.66124912715969,
+        "lng": -95.51072151257563
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "San Antonio",
+      "coordinates": {
+        "lat": 29.42412201585908,
+        "lng": -98.49362568556768
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "San Carlos",
+      "coordinates": {
+        "lat": 11.11988620216705,
+        "lng": -84.77557571700073
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "San Fernando",
+      "coordinates": {
+        "lat": 11.18000836817101,
+        "lng": -84.97985124753052
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "San Francisco",
+      "coordinates": {
+        "lat": 37.77492982761071,
+        "lng": -122.4194152369332
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "San Juan",
+      "coordinates": {
+        "lat": 26.18869730243361,
+        "lng": -98.15536413855673
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "San Juan del Sur",
+      "coordinates": {
+        "lat": 11.25597348971149,
+        "lng": -85.87352097508246
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "San Pedro",
+      "coordinates": {
+        "lat": 14.69405989216817,
+        "lng": -91.27145284886852
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "San Pedro Sula",
+      "coordinates": {
+        "lat": 15.50365857636895,
+        "lng": -88.00468059540404
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "San Ramon",
+      "coordinates": {
+        "lat": 12.92298849350332,
+        "lng": -85.83949528586643
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sandia Peak",
+      "coordinates": {
+        "lat": 35.1908775290524,
+        "lng": -106.4800174235275
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Santa Fe",
+      "coordinates": {
+        "lat": 35.68697487941202,
+        "lng": -105.9377980429345
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sanxia",
+      "coordinates": {
+        "lat": 24.93376200000001,
+        "lng": 121.370038
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Scott's Head",
+      "coordinates": {
+        "lat": -30.746664887391,
+        "lng": 152.9927241572697
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Scunthorpe",
+      "coordinates": {
+        "lat": 53.57912325135043,
+        "lng": -0.6544191300389735
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Seal Rocks",
+      "coordinates": {
+        "lat": -32.4356206694389,
+        "lng": 152.5318245411773
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Seljaland",
+      "coordinates": {
+        "lat": 63.61614034682848,
+        "lng": -19.9916633747624
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sheffield",
+      "coordinates": {
+        "lat": 53.3830536023599,
+        "lng": -1.464767703733443
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sheikh Zayed Mosque",
+      "coordinates": {
+        "lat": 24.4122846698881,
+        "lng": 54.47502630263975
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Shiner",
+      "coordinates": {
+        "lat": 29.42913000679674,
+        "lng": -97.17054203506756
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Shreveport",
+      "coordinates": {
+        "lat": 32.51051174302375,
+        "lng": -93.74875579109536
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Shreveport Regional Airport",
+      "coordinates": {
+        "lat": 32.45247898930002,
+        "lng": -93.82758488922978
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Shrewsbury",
+      "coordinates": {
+        "lat": 52.70817380000001,
+        "lng": -2.754321100000006
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Skjálfandi Bay",
+      "coordinates": {
+        "lat": 66.0724293384378,
+        "lng": -17.45557300215551
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Skogar",
+      "coordinates": {
+        "lat": 63.52959745980801,
+        "lng": -19.50336164431902
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Skógafoss",
+      "coordinates": {
+        "lat": 63.530118,
+        "lng": -19.513092
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Somoto",
+      "coordinates": {
+        "lat": 13.48115114161351,
+        "lng": -86.58345551687341
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sphinx",
+      "coordinates": {
+        "lat": 29.97536982790333,
+        "lng": 31.13748383302633
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Springwood",
+      "coordinates": {
+        "lat": -33.69850610553185,
+        "lng": 150.5641509372407
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Spyro Gyros",
+      "coordinates": {
+        "lat": 40.04244348241643,
+        "lng": -76.30622463133817
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Square One Coffee",
+      "coordinates": {
+        "lat": 40.04114938966265,
+        "lng": -76.30392570677996
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "St Albans",
+      "coordinates": {
+        "lat": -33.29299486201793,
+        "lng": 150.9716430745548
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "St. Kilda",
+      "coordinates": {
+        "lat": -37.86804200325774,
+        "lng": 144.9767400015761
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Storey Grange Cottage",
+      "coordinates": {
+        "lat": -33.72106605167731,
+        "lng": 150.5802450789957
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Stourbridge",
+      "coordinates": {
+        "lat": 52.45418211740505,
+        "lng": -2.154056290388253
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Stourport",
+      "coordinates": {
+        "lat": 52.34179817431173,
+        "lng": -2.276199873962703
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Stóra-Dímon (Devil's Rock)",
+      "coordinates": {
+        "lat": 63.666667,
+        "lng": -19.95
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sunny Beach",
+      "coordinates": {
+        "lat": 42.68732225241103,
+        "lng": 27.70762199837974
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Swansea",
+      "coordinates": {
+        "lat": 51.62037826871405,
+        "lng": -3.946429218785885
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sydney",
+      "coordinates": {
+        "lat": -33.86713881435939,
+        "lng": 151.2071134846695
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Taipei",
+      "coordinates": {
+        "lat": 25.091075,
+        "lng": 121.559834
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Taipei 101",
+      "coordinates": {
+        "lat": 25.03349535534587,
+        "lng": 121.5641018254619
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Tamarama",
+      "coordinates": {
+        "lat": -33.89748503691535,
+        "lng": 151.2717341574533
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Tapachula",
+      "coordinates": {
+        "lat": 14.90730758284081,
+        "lng": -92.26185805542072
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Taroko Gorge",
+      "coordinates": {
+        "lat": 24.15378780446296,
+        "lng": 121.6235012498562
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Tea Gardens",
+      "coordinates": {
+        "lat": -32.66951044871017,
+        "lng": 152.1663371334655
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Telford",
+      "coordinates": {
+        "lat": 52.6777217871337,
+        "lng": -2.449260603254283
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Tempe",
+      "coordinates": {
+        "lat": 33.41479129954681,
+        "lng": -111.9093612699265
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Texas Capitol",
+      "coordinates": {
+        "lat": 30.27458089899627,
+        "lng": -97.7402693470076
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "The Solentiname Islands",
+      "coordinates": {
+        "lat": 11.17341341334516,
+        "lng": -85.00360932087956
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Three Sisters",
+      "coordinates": {
+        "lat": -33.73567199976189,
+        "lng": 150.3147479993484
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Théâtre antique d'Orange",
+      "coordinates": {
+        "lat": 44.13590309940403,
+        "lng": 4.808811701088587
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Tianxiang",
+      "coordinates": {
+        "lat": 24.18250888232556,
+        "lng": 121.4945373286936
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Tikal",
+      "coordinates": {
+        "lat": 17.22204185555842,
+        "lng": -89.62367133089806
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Todos Santos",
+      "coordinates": {
+        "lat": 15.83097255414429,
+        "lng": -91.14342825211943
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Troodos",
+      "coordinates": {
+        "lat": 34.92309895913489,
+        "lng": 32.88106415713091
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "UNSW",
+      "coordinates": {
+        "lat": -33.91707383401243,
+        "lng": 151.22777774285
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "UT Tower",
+      "coordinates": {
+        "lat": 30.2858019496016,
+        "lng": -97.73943661379086
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Uvita",
+      "coordinates": {
+        "lat": 9.154456507313052,
+        "lng": -83.74231201160417
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Volcan Arenal",
+      "coordinates": {
+        "lat": 10.46348822611142,
+        "lng": -84.70353072248469
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Volcan Concepcion",
+      "coordinates": {
+        "lat": 11.53169134275954,
+        "lng": -85.61922891462343
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Volcan Maderas",
+      "coordinates": {
+        "lat": 11.44720423939043,
+        "lng": -85.50781300656547
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Waco",
+      "coordinates": {
+        "lat": 31.54820347396217,
+        "lng": -97.14704628315002
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Washington DC",
+      "coordinates": {
+        "lat": 38.89426072794537,
+        "lng": -77.03897800728365
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Wes-Mer Drive-In",
+      "coordinates": {
+        "lat": 26.149648214415,
+        "lng": -97.94409508225606
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Weslaco",
+      "coordinates": {
+        "lat": 26.1594540425188,
+        "lng": -97.99038509409655
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "West Head Point",
+      "coordinates": {
+        "lat": -33.57881620356866,
+        "lng": 151.3093548098693
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Westward Ho",
+      "coordinates": {
+        "lat": 51.039995,
+        "lng": -4.237653000000012
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Weymouth",
+      "coordinates": {
+        "lat": 50.6082250150644,
+        "lng": -2.453490999158514
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Wisemans Ferry",
+      "coordinates": {
+        "lat": -33.38003865616417,
+        "lng": 150.9883596536511
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Wolverhampton",
+      "coordinates": {
+        "lat": 52.58569605079212,
+        "lng": -2.129203275410303
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Wooden Shoe Books",
+      "coordinates": {
+        "lat": 39.94215039218415,
+        "lng": -75.15420728932261
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Woodstock",
+      "coordinates": {
+        "lat": 42.04092487181733,
+        "lng": -74.11819706522024
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Xela",
+      "coordinates": {
+        "lat": 14.83615736316449,
+        "lng": -91.52194490126237
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Yangmingshan National Park",
+      "coordinates": {
+        "lat": 25.16356847106573,
+        "lng": 121.5446352229385
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Yehliu",
+      "coordinates": {
+        "lat": 25.20388569634779,
+        "lng": 121.689339743055
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Soymonov Bay",
+      "coordinates": {
+        "lat": 40.01519009047861,
+        "lng": 52.90836153664729
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Oil refinery",
+      "coordinates": {
+        "lat": 40.02947228249247,
+        "lng": 52.94416337021664
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Hotel Arzuw",
+      "coordinates": {
+        "lat": 39.95565058801318,
+        "lng": 52.84921621025816
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Ashgabat",
+      "coordinates": {
+        "lat": 37.93200309558208,
+        "lng": 58.36659047205916
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Brno",
+      "coordinates": {
+        "lat": 49.19506020762777,
+        "lng": 16.6068371201902
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Anticafé",
+      "coordinates": {
+        "lat": 41.88454200055497,
+        "lng": 12.51025000061537
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "FAO",
+      "coordinates": {
+        "lat": 41.88298900073128,
+        "lng": 12.48896500025754
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Vatican City",
+      "coordinates": {
+        "lat": 41.902916001615,
+        "lng": 12.45338901597286
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Rome",
+      "coordinates": {
+        "lat": 41.90278349846297,
+        "lng": 12.49636548676117
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Vienna",
+      "coordinates": {
+        "lat": 48.20817433928604,
+        "lng": 16.37381885915547
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Berline",
+      "coordinates": {
+        "lat": 52.49380532030275,
+        "lng": 13.45529191379603
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Greifswald",
+      "coordinates": {
+        "lat": 54.08654631415332,
+        "lng": 13.39234140486366
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Frankfurt",
+      "coordinates": {
+        "lat": 50.1109220973616,
+        "lng": 8.682126706127693
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Eschborn",
+      "coordinates": {
+        "lat": 50.14674690806265,
+        "lng": 8.561455502070272
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cologne",
+      "coordinates": {
+        "lat": 50.93752914159543,
+        "lng": 6.960282420094583
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bonn",
+      "coordinates": {
+        "lat": 50.73742999431668,
+        "lng": 7.098206796022703
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bruges",
+      "coordinates": {
+        "lat": 51.20934818906195,
+        "lng": 3.224699603538739
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Brussels",
+      "coordinates": {
+        "lat": 50.85034630064905,
+        "lng": 4.351721099320582
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Beekse Bergen (Best Kept Secret)",
+      "coordinates": {
+        "lat": 51.51945473808004,
+        "lng": 5.116499807782424
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Alton Towers",
+      "coordinates": {
+        "lat": 52.98743660013162,
+        "lng": -1.886451200052216
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Chatsworth House",
+      "coordinates": {
+        "lat": 53.22754325766637,
+        "lng": -1.611427509310255
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bourges",
+      "coordinates": {
+        "lat": 47.08101200142691,
+        "lng": 2.398781999989885
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Dijon",
+      "coordinates": {
+        "lat": 47.32204290674755,
+        "lng": 5.041479999993523
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Mûr-de-Bretagne",
+      "coordinates": {
+        "lat": 48.20170566814745,
+        "lng": -2.987594611751171
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Shetland",
+      "coordinates": {
+        "lat": 60.50745072423302,
+        "lng": -1.281379287656631
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Chantilly",
+      "coordinates": {
+        "lat": 49.19316000186309,
+        "lng": 2.468738901440635
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Nantes",
+      "coordinates": {
+        "lat": 47.2183709942984,
+        "lng": -1.55362100181949
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "St Malo",
+      "coordinates": {
+        "lat": 48.64933548490169,
+        "lng": -2.025673487414404
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "La Rance",
+      "coordinates": {
+        "lat": 48.61807575612317,
+        "lng": -2.023841719061465
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lac de Guerlédan",
+      "coordinates": {
+        "lat": 48.20416700004194,
+        "lng": -3.049999999975767
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Versailles",
+      "coordinates": {
+        "lat": 48.80140946546,
+        "lng": 2.130126033509974
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Maisons-Laffitte",
+      "coordinates": {
+        "lat": 48.94754471780841,
+        "lng": 2.142365267348172
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Fontainebleau",
+      "coordinates": {
+        "lat": 48.40467598672218,
+        "lng": 2.701619985116774
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Shanghai",
+      "coordinates": {
+        "lat": 31.23041585378703,
+        "lng": 121.4737009544428
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Singapore",
+      "coordinates": {
+        "lat": 1.35209391865047,
+        "lng": 103.8198552400531
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sungei Buloh Wetland Reserve",
+      "coordinates": {
+        "lat": 1.44670426458012,
+        "lng": 103.7301334547781
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Kuala Lumpur",
+      "coordinates": {
+        "lat": 3.13779610654806,
+        "lng": 101.6875946632391
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Adelaide",
+      "coordinates": {
+        "lat": -34.92839326863341,
+        "lng": 138.6009282592122
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Port Vila",
+      "coordinates": {
+        "lat": -17.73325120011935,
+        "lng": 168.3273244998833
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Hideaway Island",
+      "coordinates": {
+        "lat": -17.69696356296341,
+        "lng": 168.2632472053928
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Canberra",
+      "coordinates": {
+        "lat": -35.28093886259672,
+        "lng": 149.1300086139487
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Kioloa",
+      "coordinates": {
+        "lat": -35.54502216992233,
+        "lng": 150.3790096981104
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Ubud",
+      "coordinates": {
+        "lat": -8.50780750067734,
+        "lng": 115.2643794006523
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Nusa Lembongan",
+      "coordinates": {
+        "lat": -8.678582811550891,
+        "lng": 115.455585801009
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sliema",
+      "coordinates": {
+        "lat": 35.91098486348825,
+        "lng": 14.50322109746199
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Valetta",
+      "coordinates": {
+        "lat": 35.89894047967329,
+        "lng": 14.51452201421364
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Zurich",
+      "coordinates": {
+        "lat": 47.37688661093723,
+        "lng": 8.541694004574367
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Stockholm",
+      "coordinates": {
+        "lat": 59.32932219013188,
+        "lng": 18.0685758365847
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Barcelona",
+      "coordinates": {
+        "lat": 41.38506388032845,
+        "lng": 2.173403501670983
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Figueres",
+      "coordinates": {
+        "lat": 42.2654986480884,
+        "lng": 2.958097464215452
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Girona",
+      "coordinates": {
+        "lat": 41.97940050842091,
+        "lng": 2.821426401548626
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Tarragona",
+      "coordinates": {
+        "lat": 41.1188982825602,
+        "lng": 1.244494310825868
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bilbao",
+      "coordinates": {
+        "lat": 43.26301259939218,
+        "lng": -2.934985206067514
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Santander",
+      "coordinates": {
+        "lat": 43.4623057033606,
+        "lng": -3.809980281974798
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "La Vega",
+      "coordinates": {
+        "lat": 43.15842330220681,
+        "lng": -3.78274929934219
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Porto",
+      "coordinates": {
+        "lat": 41.1579437931806,
+        "lng": -8.629105298570058
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lisbon",
+      "coordinates": {
+        "lat": 38.72225242531499,
+        "lng": -9.139336658147819
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Beau Vallon",
+      "coordinates": {
+        "lat": -4.621096687925131,
+        "lng": 55.42778005099277
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Cascais",
+      "coordinates": {
+        "lat": 38.69675734518859,
+        "lng": -9.420740872470544
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Tamarindo",
+      "coordinates": {
+        "lat": 10.2990610034201,
+        "lng": -85.84135315755984
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bogota",
+      "coordinates": {
+        "lat": 4.710989718810752,
+        "lng": -74.07209279123983
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Rio de Janeiro",
+      "coordinates": {
+        "lat": -22.90684745805763,
+        "lng": -43.17290027139231
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Petrolia",
+      "coordinates": {
+        "lat": 40.32532877802425,
+        "lng": -124.2861602413697
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Lost Coast",
+      "coordinates": {
+        "lat": 40.43553904774946,
+        "lng": -124.4024914053697
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Quogue",
+      "coordinates": {
+        "lat": 40.82284455278214,
+        "lng": -72.60713936730092
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Angkor Wat",
+      "coordinates": {
+        "lat": 13.41246807014838,
+        "lng": 103.8669859899261
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Phnom Penh",
+      "coordinates": {
+        "lat": 11.54493197095434,
+        "lng": 104.8921344683287
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Krong Kampot",
+      "coordinates": {
+        "lat": 10.59298118657435,
+        "lng": 104.164591592282
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Sihanoukville",
+      "coordinates": {
+        "lat": 10.62530157383269,
+        "lng": 103.5233965269018
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Bangkok",
+      "coordinates": {
+        "lat": 13.75635335894381,
+        "lng": 100.5018518147661
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Ko Tao",
+      "coordinates": {
+        "lat": 10.09561138065026,
+        "lng": 99.8403961154189
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Amstardam Bar",
+      "coordinates": {
+        "lat": 9.724720166070576,
+        "lng": 99.9788303526192
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Ko Phangan",
+      "coordinates": {
+        "lat": 9.754719207558677,
+        "lng": 100.0218260554167
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Worth Farm (Glastonbury)",
+      "coordinates": {
+        "lat": 51.15908086887728,
+        "lng": -2.583460102546468
+      },
+      "geocoded": true,
+      "source": "kmz"
+    },
+    {
+      "name": "Antananarivo",
+      "coordinates": {
+        "lat": -18.87919023323006,
+        "lng": 47.50790553748121
+      },
+      "geocoded": true,
+      "source": "kmz"
+    }
+  ]
+}
