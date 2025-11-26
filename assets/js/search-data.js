@@ -44,14 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "dropdown-ambient-findability",
-              title: "ambient findability",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/findability/";
-              },
-            },{id: "dropdown-bookshelf",
+        },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
               section: "Dropdown",
@@ -86,40 +79,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://glen.trilium.cc/share/pieces_of_paper";
               },
-            },{id: "dropdown-pinboard",
-              title: "pinboard",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://glen.trilium.cc/share/pinboard";
-              },
-            },{id: "dropdown-roadmap",
-              title: "roadmap",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/roadmap/";
-              },
             },{id: "dropdown-sitemap",
               title: "sitemap",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/sitemap/";
-              },
-            },{id: "dropdown-thinking-out-loud",
-              title: "thinking out loud",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/thinking/";
-              },
-            },{id: "dropdown-test",
-              title: "test",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
               },
             },{id: "nav-cv",
           title: "cv",
@@ -1481,11 +1446,496 @@ ninja.data = [{
             window.location.href = "/blog/2012/Reforming-the-NEM_-Discussions-at-the-First-Australian-Energy-Efficiency-Summer-Study/";
           
         },
-      },{id: "books-ambient-findability-what-we-find-changes-who-we-become",
+      },{id: "books-1q84",
+          title: '1Q84',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/1q84/";
+            },},{id: "books-21-lessons-for-the-21st-century",
+          title: '21 Lessons for the 21st Century',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/21-lessons-for-the-21st-century/";
+            },},{id: "books-a-conversation-at-the-end-of-the-world",
+          title: 'A Conversation at the End of the World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a-conversation-at-the-end-of-the-world/";
+            },},{id: "books-a-field-guide-to-getting-lost",
+          title: 'A Field Guide to Getting Lost',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a-field-guide-to-getting-lost/";
+            },},{id: "books-a-general-theory-of-love",
+          title: 'A General Theory of Love',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a-general-theory-of-love/";
+            },},{id: "books-academia-obscura",
+          title: 'Academia Obscura',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/academia-obscura/";
+            },},{id: "books-adult-children-of-alcoholics",
+          title: 'Adult Children of Alcoholics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/adult-children-of-alcoholics/";
+            },},{id: "books-after-dark",
+          title: 'After Dark',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/after-dark/";
+            },},{id: "books-ambient-findability-what-we-find-changes-who-we-become",
           title: 'Ambient Findability: What We Find Changes Who We Become',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/ambient_findability/";
+            },},{id: "books-atlas-obscura-an-explorer-39-s-guide-to-the-world-39-s-hidden-wonders",
+          title: 'Atlas Obscura: An Explorer&amp;#39;s Guide to the World&amp;#39;s Hidden Wonders',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/atlas-obscura-an-explorers-guide-to-the-worlds-hidden-wonders/";
+            },},{id: "books-being-ecological",
+          title: 'Being Ecological',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/being-ecological/";
+            },},{id: "books-being-mortal-medicine-and-what-matters-in-the-end",
+          title: 'Being Mortal: Medicine and What Matters in the End',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/being-mortal-medicine-and-what-matters-in-the-end/";
+            },},{id: "books-beyond-addiction-how-science-and-kindness-help-people-change",
+          title: 'Beyond Addiction: How Science and Kindness Help People Change',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/beyond-addiction-how-science-and-kindness-help-people-change/";
+            },},{id: "books-bird-by-bird-some-instructions-on-writing-and-life",
+          title: 'Bird by Bird: Some Instructions on Writing and Life',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/bird-by-bird-some-instructions-on-writing-and-life/";
+            },},{id: "books-brave-new-world",
+          title: 'Brave New World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/brave-new-world/";
+            },},{id: "books-calypso",
+          title: 'Calypso',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/calypso/";
+            },},{id: "books-catch-22",
+          title: 'Catch-22',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/catch-22/";
+            },},{id: "books-che-the-diaries-of-ernesto-che-guevara",
+          title: 'Che: The Diaries of Ernesto Che Guevara',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/che-the-diaries-of-ernesto-che-guevara/";
+            },},{id: "books-collapse-how-societies-choose-to-fail-or-succeed",
+          title: 'Collapse: How Societies Choose to Fail or Succeed',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/collapse-how-societies-choose-to-fail-or-succeed/";
+            },},{id: "books-darwin-portrait-of-a-genius",
+          title: 'Darwin: Portrait of a Genius',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/darwin-portrait-of-a-genius/";
+            },},{id: "books-delta-of-venus",
+          title: 'Delta of Venus',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/delta-of-venus/";
+            },},{id: "books-flights",
+          title: 'Flights',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/flights/";
+            },},{id: "books-from-dusk-39-til-dawn-an-insider-39-s-view-of-the-growth-of-the-animal-liberation-movement",
+          title: 'From Dusk &amp;#39;Til Dawn: An Insider&amp;#39;s View of the Growth of the Animal...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/from-dusk-til-dawn-an-insiders-view-of-the-growth-of-the-animal-liberation-movement/";
+            },},{id: "books-guns-germs-and-steel-the-fates-of-human-societies",
+          title: 'Guns, Germs, and Steel: The Fates of Human Societies',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/guns-germs-and-steel-the-fates-of-human-societies/";
+            },},{id: "books-heat-how-we-can-stop-the-planet-burning",
+          title: 'Heat: How We Can Stop the Planet Burning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/heat-how-we-can-stop-the-planet-burning/";
+            },},{id: "books-homo-deus-a-history-of-tomorrow",
+          title: 'Homo Deus: A History of Tomorrow',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/homo-deus-a-history-of-tomorrow/";
+            },},{id: "books-how-to-change-your-mind-what-the-new-science-of-psychedelics-teaches-us-about-consciousness-dying-addiction-depression-and-transcendence",
+          title: 'How to Change Your Mind: What the New Science of Psychedelics Teaches Us...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how-to-change-your-mind-what-the-new-science-of-psychedelics-teaches-us-about-consciousness-dying-ad/";
+            },},{id: "books-how-to-travel-with-a-salmon-and-other-essays",
+          title: 'How to Travel with a Salmon and Other Essays',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how-to-travel-with-a-salmon-and-other-essays/";
+            },},{id: "books-human-universe",
+          title: 'Human Universe',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/human-universe/";
+            },},{id: "books-i-burn-paris",
+          title: 'I Burn Paris',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/i-burn-paris/";
+            },},{id: "books-in-praise-of-idleness-and-other-essays",
+          title: 'In Praise of Idleness and Other Essays',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/in-praise-of-idleness-and-other-essays/";
+            },},{id: "books-incognito-the-secret-lives-of-the-brain",
+          title: 'Incognito: The Secret Lives of the Brain',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/incognito-the-secret-lives-of-the-brain/";
+            },},{id: "books-lincoln-in-the-bardo",
+          title: 'Lincoln in the Bardo',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/lincoln-in-the-bardo/";
+            },},{id: "books-logicomix-an-epic-search-for-truth",
+          title: 'Logicomix: An Epic Search for Truth',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/logicomix-an-epic-search-for-truth/";
+            },},{id: "books-maphead-charting-the-wide-weird-world-of-geography-wonks",
+          title: 'Maphead: Charting the Wide, Weird World of Geography Wonks',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/maphead-charting-the-wide-weird-world-of-geography-wonks/";
+            },},{id: "books-meditations",
+          title: 'Meditations',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/meditations/";
+            },},{id: "books-meltdown-iceland-how-the-global-financial-crisis-bankupted-an-entire-country",
+          title: 'Meltdown Iceland: How The Global Financial Crisis Bankupted An Entire Country',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/meltdown-iceland-how-the-global-financial-crisis-bankupted-an-entire-country/";
+            },},{id: "books-memoirs-of-a-polar-bear",
+          title: 'Memoirs of a Polar Bear',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/memoirs-of-a-polar-bear/";
+            },},{id: "books-men-at-arms",
+          title: 'Men at Arms',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/men-at-arms/";
+            },},{id: "books-monkeyluv-and-other-essays-on-our-lives-as-animals",
+          title: 'Monkeyluv: And Other Essays on Our Lives as Animals',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/monkeyluv-and-other-essays-on-our-lives-as-animals/";
+            },},{id: "books-more-than-two-a-practical-guide-to-ethical-polyamory",
+          title: 'More Than Two: A Practical Guide to Ethical Polyamory',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/more-than-two-a-practical-guide-to-ethical-polyamory/";
+            },},{id: "books-murder-in-samarkand-a-british-ambassador-39-s-controversial-defiance-of-tyranny-in-the-war-on-terror",
+          title: 'Murder in Samarkand: A British Ambassador&amp;#39;s Controversial Defiance of Tyranny in the War...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/murder-in-samarkand-a-british-ambassadors-controversial-defiance-of-tyranny-in-the-war-on-terror/";
+            },},{id: "books-night-falls-fast-understanding-suicide",
+          title: 'Night Falls Fast: Understanding Suicide',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/night-falls-fast-understanding-suicide/";
+            },},{id: "books-no-logo",
+          title: 'No Logo',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/no-logo/";
+            },},{id: "books-norwegian-wood",
+          title: 'Norwegian Wood',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/norwegian-wood/";
+            },},{id: "books-on-writing-well-the-classic-guide-to-writing-nonfiction",
+          title: 'On Writing Well: The Classic Guide to Writing Nonfiction',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/on-writing-well-the-classic-guide-to-writing-nonfiction/";
+            },},{id: "books-opening-up-a-guide-to-creating-and-sustaining-open-relationships",
+          title: 'Opening Up: A Guide to Creating and Sustaining Open Relationships',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/opening-up-a-guide-to-creating-and-sustaining-open-relationships/";
+            },},{id: "books-orkneyinga-saga-the-history-of-the-earls-of-orkney",
+          title: 'Orkneyinga Saga: The History of the Earls of Orkney',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/orkneyinga-saga-the-history-of-the-earls-of-orkney/";
+            },},{id: "books-pais-bajo-mi-piel-el",
+          title: 'PAIS BAJO MI PIEL, EL',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/pais-bajo-mi-piel-el/";
+            },},{id: "books-philosophy-of-law-a-very-short-introduction",
+          title: 'Philosophy of Law: A Very Short Introduction',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/philosophy-of-law-a-very-short-introduction/";
+            },},{id: "books-poems-1962-2012",
+          title: 'Poems 1962-2012',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/poems-1962-2012/";
+            },},{id: "books-psycho-logical",
+          title: 'Psycho-logical',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/psycho-logical/";
+            },},{id: "books-rendering-in-pen-and-ink-the-classic-book-on-pen-and-ink-techniques-for-artists-illustrators-architects-and-designers",
+          title: 'Rendering in Pen and Ink: The Classic Book on Pen and Ink Techniques...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/rendering-in-pen-and-ink-the-classic-book-on-pen-and-ink-techniques-for-artists-illustrators-archite/";
+            },},{id: "books-salt-a-world-history",
+          title: 'Salt: A World History',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/salt-a-world-history/";
+            },},{id: "books-sapiens-a-brief-history-of-humankind",
+          title: 'Sapiens: A Brief History of Humankind',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sapiens-a-brief-history-of-humankind/";
+            },},{id: "books-science-sex-and-sacred-cows-spoofs-on-science-from-the-worm-runner-39-s-digest",
+          title: 'Science, sex, and sacred cows;: Spoofs on science from the Worm runner&amp;#39;s digest...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/science-sex-and-sacred-cows-spoofs-on-science-from-the-worm-runners-digest/";
+            },},{id: "books-selected-cronicas",
+          title: 'Selected Cronicas',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/selected-cronicas/";
+            },},{id: "books-seneca-39-s-letters-from-a-stoic",
+          title: 'Seneca&amp;#39;s Letters from a Stoic',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/senecas-letters-from-a-stoic/";
+            },},{id: "books-sex-from-scratch-making-your-own-relationship-rules",
+          title: 'Sex From Scratch: Making Your Own Relationship Rules',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sex-from-scratch-making-your-own-relationship-rules/";
+            },},{id: "books-siddhartha",
+          title: 'Siddhartha',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/siddhartha/";
+            },},{id: "books-six-easy-pieces-essentials-of-physics-by-its-most-brilliant-teacher",
+          title: 'Six Easy Pieces: Essentials of Physics By Its Most Brilliant Teacher',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/six-easy-pieces-essentials-of-physics-by-its-most-brilliant-teacher/";
+            },},{id: "books-snow-crash",
+          title: 'Snow Crash',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/snow-crash/";
+            },},{id: "books-steal-like-an-artist-10-things-nobody-told-you-about-being-creative",
+          title: 'Steal Like an Artist: 10 Things Nobody Told You About Being Creative',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/steal-like-an-artist-10-things-nobody-told-you-about-being-creative/";
+            },},{id: "books-still-life-with-woodpecker",
+          title: 'Still Life with Woodpecker',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/still-life-with-woodpecker/";
+            },},{id: "books-stories-and-prose-poems",
+          title: 'Stories and Prose Poems',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/stories-and-prose-poems/";
+            },},{id: "books-stress-analysis-of-a-strapless-evening-gown",
+          title: 'Stress Analysis of a Strapless Evening Gown',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/stress-analysis-of-a-strapless-evening-gown/";
+            },},{id: "books-sum-forty-tales-from-the-afterlives",
+          title: 'Sum: Forty Tales from the Afterlives',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sum-forty-tales-from-the-afterlives/";
+            },},{id: "books-talking-to-strangers-what-we-should-know-about-the-people-we-don-39-t-know",
+          title: 'Talking to Strangers: What We Should Know about the People We Don&amp;#39;t Know...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/talking-to-strangers-what-we-should-know-about-the-people-we-dont-know/";
+            },},{id: "books-tenth-of-december",
+          title: 'Tenth of December',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/tenth-of-december/";
+            },},{id: "books-the-4-hour-body-an-uncommon-guide-to-rapid-fat-loss-incredible-sex-and-becoming-superhuman",
+          title: 'The 4-Hour Body: An Uncommon Guide to Rapid Fat-Loss, Incredible Sex, and Becoming...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-4-hour-body-an-uncommon-guide-to-rapid-fat-loss-incredible-sex-and-becoming-superhuman/";
+            },},{id: "books-the-alchemist",
+          title: 'The Alchemist',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-alchemist/";
+            },},{id: "books-the-argonauts",
+          title: 'The Argonauts',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-argonauts/";
+            },},{id: "books-the-art-and-zen-of-motorcycle-maintenance",
+          title: 'The Art and Zen of Motorcycle Maintenance',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-art-and-zen-of-motorcycle-maintenance/";
+            },},{id: "books-the-bell-jar",
+          title: 'The Bell Jar',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-bell-jar/";
+            },},{id: "books-the-birthday-of-the-world-and-other-stories",
+          title: 'The Birthday of the World and Other Stories',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-birthday-of-the-world-and-other-stories/";
+            },},{id: "books-the-body-artist",
+          title: 'The Body Artist',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-body-artist/";
+            },},{id: "books-the-bottom-billion-why-the-poorest-countries-are-failing-and-what-can-be-done-about-it",
+          title: 'The Bottom Billion: Why the Poorest Countries Are Failing and What Can Be...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-bottom-billion-why-the-poorest-countries-are-failing-and-what-can-be-done-about-it/";
+            },},{id: "books-the-box-how-the-shipping-container-made-the-world-smaller-and-the-world-economy-bigger",
+          title: 'The Box: How the Shipping Container Made the World Smaller and the World...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-box-how-the-shipping-container-made-the-world-smaller-and-the-world-economy-bigger/";
+            },},{id: "books-the-brief-and-frightening-reign-of-phil",
+          title: 'The Brief and Frightening Reign of Phil',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-brief-and-frightening-reign-of-phil/";
+            },},{id: "books-the-chairs-are-where-the-people-go-how-to-live-work-and-play-in-the-city",
+          title: 'The Chairs Are Where the People Go: How to Live, Work, and Play...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-chairs-are-where-the-people-go-how-to-live-work-and-play-in-the-city/";
+            },},{id: "books-the-comprehensive-enfp-survival-guide",
+          title: 'The Comprehensive ENFP Survival Guide',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-comprehensive-enfp-survival-guide/";
+            },},{id: "books-the-ethical-slut-a-guide-to-infinite-sexual-possibilities",
+          title: 'The Ethical Slut: A Guide to Infinite Sexual Possibilities',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-ethical-slut-a-guide-to-infinite-sexual-possibilities/";
+            },},{id: "books-the-future-earth-a-radical-vision-for-what-39-s-possible-in-the-age-of-warming",
+          title: 'The Future Earth: A Radical Vision for What&amp;#39;s Possible in the Age of...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-future-earth-a-radical-vision-for-whats-possible-in-the-age-of-warming/";
+            },},{id: "books-the-future-eaters-an-ecological-history-of-the-australasian-lands-and-people",
+          title: 'The Future Eaters: An Ecological History of the Australasian Lands and People',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-future-eaters-an-ecological-history-of-the-australasian-lands-and-people/";
+            },},{id: "books-the-groves-of-academe",
+          title: 'The Groves of Academe',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-groves-of-academe/";
+            },},{id: "books-the-ocean-of-life-the-fate-of-man-and-the-sea",
+          title: 'The Ocean of Life: The Fate of Man and the Sea',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-ocean-of-life-the-fate-of-man-and-the-sea/";
+            },},{id: "books-the-overstory",
+          title: 'The Overstory',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-overstory/";
+            },},{id: "books-the-principles-of-uncertainty",
+          title: 'The Principles of Uncertainty',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-principles-of-uncertainty/";
+            },},{id: "books-the-selfish-gene",
+          title: 'The Selfish Gene',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-selfish-gene/";
+            },},{id: "books-the-serendipity-foundation",
+          title: 'The Serendipity Foundation',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-serendipity-foundation/";
+            },},{id: "books-the-tipping-point-how-little-things-can-make-a-big-difference",
+          title: 'The Tipping Point: How Little Things Can Make a Big Difference',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-tipping-point-how-little-things-can-make-a-big-difference/";
+            },},{id: "books-thinking-basketball",
+          title: 'Thinking Basketball',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/thinking-basketball/";
+            },},{id: "books-this-changes-everything-capitalism-vs-the-climate",
+          title: 'This Changes Everything: Capitalism vs. The Climate',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/this-changes-everything-capitalism-vs-the-climate/";
+            },},{id: "books-this-other-eden",
+          title: 'This Other Eden',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/this-other-eden/";
+            },},{id: "books-utopia-for-realists",
+          title: 'Utopia for Realists',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/utopia-for-realists/";
+            },},{id: "books-why-we-sleep-unlocking-the-power-of-sleep-and-dreams",
+          title: 'Why We Sleep: Unlocking the Power of Sleep and Dreams',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/why-we-sleep-unlocking-the-power-of-sleep-and-dreams/";
+            },},{id: "books-wild-law",
+          title: 'Wild Law',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wild-law/";
+            },},{id: "books-wild-ones-a-sometimes-dismaying-weirdly-reassuring-story-about-looking-at-people-looking-at-animals-in-america",
+          title: 'Wild Ones: A Sometimes Dismaying, Weirdly Reassuring Story About Looking at People Looking...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wild-ones-a-sometimes-dismaying-weirdly-reassuring-story-about-looking-at-people-looking-at-animals-/";
             },},{id: "creative-ancient-landscape",
           title: 'ancient landscape',
           description: "",
