@@ -6,4 +6,6 @@ permalink: /failures/
 nav_order: 60
 ---
 
-{% include failures.liquid %}
+# catalogue of failures
+
+- I applied for a job at the Secretariat of the United Nations Convention on Biological Diversity.

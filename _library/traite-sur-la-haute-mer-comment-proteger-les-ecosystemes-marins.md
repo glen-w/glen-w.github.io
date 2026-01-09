@@ -9,7 +9,6 @@ description: 'Traité sur la haute mer: comment protéger les écosystèmes mari
 entry_type: Radio
 layout: library-item
 location: Paris, France
-preview: thumbnail
 tags: []
 title: 'Traité sur la haute mer: comment protéger les écosystèmes marins ?'
 venue: France24

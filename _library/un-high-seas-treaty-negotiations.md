@@ -9,7 +9,6 @@ description: UN High Seas treaty negotiations
 entry_type: Radio
 layout: library-item
 location: New York, NY, USA
-preview: thumbnail
 tags: []
 title: UN High Seas treaty negotiations
 venue: BBC World Service

@@ -2,63 +2,69 @@ $(document).ready(function () {
   // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the abstract section
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
   });
   $("a.award").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".abstract.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".abstract.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the award section
     $(this).parent().parent().find(".award.hidden").toggleClass("open");
   });
   $("a.bibtex").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the bibtex section
     $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
   });
   $("a.quotes").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the quotes section
     $(this).parent().parent().find(".quotes.hidden").toggleClass("open");
   });
   $("a.speakers").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the speakers section
     $(this).parent().parent().find(".speakers.hidden").toggleClass("open");
   });
   $("a.video").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the video section
     $(this).parent().parent().find(".video.hidden").toggleClass("open");
   });
   $("a.audio").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the audio section
     $(this).parent().parent().find(".audio.hidden").toggleClass("open");
   });
   $("a.figures").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .photos.hidden.open, .documents.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .photos.hidden.open, .documents.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the figures section
     $(this).parent().parent().find(".figures.hidden").toggleClass("open");
   });
   $("a.photos").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .documents.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .documents.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the photos section
     $(this).parent().parent().find(".photos.hidden").toggleClass("open");
   });
   $("a.documents").click(function () {
     // Close all other sections in this item
-    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open").removeClass("open");
+    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .gallery.hidden.open").removeClass("open");
     // Toggle the documents section
     $(this).parent().parent().find(".documents.hidden").toggleClass("open");
+  });
+  $("a.gallery").click(function () {
+    // Close all other sections in this item
+    $(this).parent().parent().find(".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .video.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open").removeClass("open");
+    // Toggle the gallery section
+    $(this).parent().parent().find(".gallery.hidden").toggleClass("open");
   });
   $("a").removeClass("waves-effect waves-light");
 
@@ -113,10 +119,10 @@ function openImageModal(src, alt, galleryImages = null, currentIndex = 0) {
     modal.innerHTML = `
       <div class="image-modal-content">
         <span class="image-modal-close">&times;</span>
-        <div class="image-modal-nav image-modal-prev" style="display: none;">
+        <div class="image-modal-nav nav-arrow image-modal-prev" style="display: none;">
           <i class="fas fa-chevron-left"></i>
         </div>
-        <div class="image-modal-nav image-modal-next" style="display: none;">
+        <div class="image-modal-nav nav-arrow image-modal-next" style="display: none;">
           <i class="fas fa-chevron-right"></i>
         </div>
         <img class="image-modal-img" src="" alt="">

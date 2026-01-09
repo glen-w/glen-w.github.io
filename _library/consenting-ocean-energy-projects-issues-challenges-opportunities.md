@@ -12,7 +12,6 @@ entry_type: Book chapter
 layout: library-item
 pdf: O'Hagan and Wright - 2017 - Consenting ocean energy projects Issues, challenges
   and opportunities.pdf
-preview: thumbnail
 publisher: Earthscan
 tags: []
 title: 'Consenting ocean energy projects: Issues, challenges and opportunities'

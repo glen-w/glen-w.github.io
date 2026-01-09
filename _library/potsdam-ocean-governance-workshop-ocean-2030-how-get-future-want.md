@@ -9,19 +9,19 @@ description: 'Potsdam Ocean Governance Workshop: The Ocean in 2030 – How to ge
   the future we want?'
 entry_type: Workshop
 gallery:
-- _MG_8855
-- _MG_9036
-- _MG_9051
-- _MG_9162
-- _MG_9377
-- _MG_9426
-- _MG_9428
-- _MG_9438_1
-- Potsdam-Ocean-Governance-Workshop-2-1024x660
+- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_figure_01
+- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_01
+- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_02
+- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_03
+- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_04
+- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_05
+- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_06
+- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_07
+- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_08
 layout: library-item
 location: Potsdam, Germany
 pdf: POGW2017_agenda_171205.pdf
-preview: _MG_8855
+preview: potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_figure_01
 tags: []
 title: 'Potsdam Ocean Governance Workshop: The Ocean in 2030 – How to get to the future
   we want?'

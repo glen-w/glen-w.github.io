@@ -10,7 +10,7 @@ entry_type: Workshop
 layout: library-item
 location: Royal Society of Edinburgh
 pdf: RSE - event schedule 13 Jan 2020.pdf
-preview: BBNJ - RSE picture
+preview: towards_package_marine_biodiversity_beyond_national_jurisdiction_photo_01
 tags: []
 title: 'Towards a Package: Marine Biodiversity Beyond National Jurisdiction'
 venue: ''

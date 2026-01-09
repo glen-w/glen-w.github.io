@@ -23,6 +23,13 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        <!-- Social -->
+        {% if page.social %}
+          <div class="social profile-social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+            <div class="contact-note">{{ site.contact_note }}</div>
+          </div>
+        {% endif %}
       </div>
     {% endif %}
 
@@ -54,15 +61,6 @@ layout: default
       </div>
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
@@ -87,4 +85,92 @@ layout: default
 .publications-home h2.bibliography {
   display: none;
 }
+
+/* Profile social icons styling */
+.profile-social {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.profile-social .contact-icons {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.profile-social .contact-icons a {
+  display: inline-block;
+}
+
+.profile-social .contact-icons a i::before {
+  font-size: 1.5rem;
+}
+
+.profile-social .contact-icons a img {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0;
+}
+
+.profile-social .contact-icons a svg {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0;
+}
+
+.profile-social .contact-icons a svg image {
+  width: 2rem;
+  height: 2rem;
+}
+
+.profile-social .contact-note {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Read More Toggle Styles - Progressive Enhancement */
+/* Content is visible by default (works without JavaScript) */
+/* Only hide when JavaScript is enabled */
+.js-enabled .read-more-content.read-more-collapsed {
+  display: none;
+}
+
+.js-enabled .read-more-content.read-more-expanded {
+  display: block;
+}
+
+/* Read More Toggle Button */
+.read-more-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  text-decoration: underline;
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+.read-more-toggle:hover,
+.read-more-toggle:focus {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.read-more-toggle:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Smooth transition for content */
+.read-more-content {
+  transition: opacity 0.3s ease;
+}
 </style>
+
+<!-- Read More Toggle Script -->
+<script src="{{ '/assets/js/read-more.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>

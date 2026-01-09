@@ -1,0 +1,31 @@
+---
+abstract: ''
+authors:
+- Glen Wright
+- Julien Rochette
+bibtex_key: wrightRegionalOceanGovernance2019
+categories:
+- other
+date: '2019-01-01'
+description: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons
+  Learnt and Ways Forward'
+entry_type: Report
+institution: STRONG High Seas
+layout: library-item
+pdf: STRONG-HS_Lessons-Learnt-Report.pdf
+tags: []
+title: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt
+  and Ways Forward'
+venue: STRONG High Seas
+year: '2019'
+---
+
+## Publication Details
+
+**Authors:** Glen Wright, Julien Rochette
+**Venue:** STRONG High Seas
+**Institution:** STRONG High Seas
+
+## Links and Resources
+
+- [PDF](STRONG-HS_Lessons-Learnt-Report.pdf)

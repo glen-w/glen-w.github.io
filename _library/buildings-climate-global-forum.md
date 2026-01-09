@@ -47,7 +47,6 @@ entry_type: Conference
 layout: library-item
 location: Palais des Congrès, Paris, France
 pdf: 0103_FMBC_Programme_veng.pdf
-preview: thumbnail
 tags: []
 title: Buildings and Climate Global Forum
 url: https://www.ecologie.gouv.fr/rendez-vous/forum-mondial-batiments-climat/english-version

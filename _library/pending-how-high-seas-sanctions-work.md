@@ -14,7 +14,6 @@ description: 'A new global treaty on the high seas will enable the creation of s
 entry_type: Newspaper
 layout: library-item
 pdf: Much still pending on how high seas sanctions will work.pdf
-preview: thumbnail
 tags:
 - quoted
 title: Much still pending on how high seas sanctions will work

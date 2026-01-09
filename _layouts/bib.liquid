@@ -922,6 +922,20 @@
         {% endfor %}
       {% endif %}
       
+      {% comment %}Count photos from entry.photos field{% endcomment %}
+      {% if entry.photos %}
+        {% assign photos_list = entry.photos | split: '\n' %}
+        {% for photo in photos_list %}
+          {% assign clean_photo = photo | strip %}
+          {% if clean_photo != '' %}
+            {% assign photo_lower = clean_photo | downcase %}
+            {% unless photo_lower contains 'thumbnail' %}
+              {% assign photo_count = photo_count | plus: 1 %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      
       {% comment %}Render buttons based on content{% endcomment %}
       {% if document_count > 0 %}
         <a class="documents btn btn-sm z-depth-0" role="button" title="View documents">
@@ -1247,6 +1261,182 @@
                     {% assign photo_url = clean_photo | prepend: '/assets/img/publications/' | relative_url %}
                     <img src="{{ photo_url }}" alt="Photo" class="gallery-image photo-thumbnail" data-gallery-type="photos" data-gallery-index="{{ photo_index }}" onclick="openGalleryModal(this)">
                     {% assign photo_index = photo_index | plus: 1 %}
+                  {% endunless %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      
+      <!-- Documents from file field -->
+      {% if document_count > 0 %}
+        <div class="documents hidden">
+          <div class="documents-label">Documents:</div>
+          <ul class="documents-list">
+            {% if entry.file %}
+              {% assign file_parts = entry.file | split: ';' %}
+              {% for part in file_parts %}
+                {% assign clean_part = part | strip %}
+                {% if clean_part contains ':' %}
+                  {% comment %}Use same robust parsing as document counting{% endcomment %}
+                  {% assign first_colon = clean_part | split: ':' | first %}
+                  {% assign after_first_colon = clean_part | remove_first: first_colon | remove_first: ':' %}
+                  
+                  {% assign file_title = first_colon | strip %}
+                  {% assign file_path_and_mime = after_first_colon | strip %}
+                  
+                  {% comment %}Split path:mime by colon{% endcomment %}
+                  {% if file_path_and_mime contains ':' %}
+                    {% assign path_mime_split = file_path_and_mime | split: ':' %}
+                    {% assign file_path = path_mime_split[0] | strip %}
+                    {% assign file_mime = path_mime_split[1] | strip %}
+                  {% else %}
+                    {% assign file_path = file_path_and_mime %}
+                    {% assign file_mime = '' %}
+                  {% endif %}
+                  
+                  {% comment %}Infer MIME type from file extension if not provided{% endcomment %}
+                  {% if file_mime == '' %}
+                    {% assign file_ext = file_path | split: '.' | last | downcase %}
+                    {% if file_ext == 'pdf' %}
+                      {% assign file_mime = 'application/pdf' %}
+                    {% elsif file_ext == 'jpg' or file_ext == 'jpeg' %}
+                      {% assign file_mime = 'image/jpeg' %}
+                    {% elsif file_ext == 'png' %}
+                      {% assign file_mime = 'image/png' %}
+                    {% elsif file_ext == 'webp' %}
+                      {% assign file_mime = 'image/webp' %}
+                    {% elsif file_ext == 'doc' or file_ext == 'docx' %}
+                      {% assign file_mime = 'application/msword' %}
+                    {% elsif file_ext == 'txt' %}
+                      {% assign file_mime = 'text/plain' %}
+                    {% endif %}
+                  {% endif %}
+                  
+                  {% assign file_title_lower = file_title | downcase %}
+                  
+                  {% comment %}Skip thumbnails{% endcomment %}
+                  {% unless file_title_lower contains 'thumbnail' %}
+                    {% comment %}Only render documents - but exclude files already shown as main links{% endcomment %}
+                    {% if file_mime contains 'pdf' or file_mime contains 'document' or file_mime contains 'text' or file_path contains '.pdf' %}
+                      {% comment %}Check if this file is already shown as a main link{% endcomment %}
+                      {% assign is_main_link = false %}
+                      {% if main_link_paths != '' %}
+                        {% assign main_paths_array = main_link_paths | split: '|' %}
+                        {% for main_path in main_paths_array %}
+                          {% comment %}Normalize paths for comparison - extract basename from both{% endcomment %}
+                          {% assign main_path_normalized = main_path | split: '/' | last | split: '\\' | last %}
+                          {% assign file_path_normalized = file_path | split: '/' | last | split: '\\' | last %}
+                          {% if main_path_normalized == file_path_normalized %}
+                            {% assign is_main_link = true %}
+                            {% break %}
+                          {% endif %}
+                          {% comment %}Also check if paths match directly (for full paths){% endcomment %}
+                          {% if file_path == main_path or file_path contains main_path or main_path contains file_path %}
+                            {% assign is_main_link = true %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                      {% unless is_main_link %}
+                        {% comment %}Determine icon based on file type{% endcomment %}
+                        {% assign file_ext = file_path | split: '.' | last | downcase %}
+                        {% if file_ext == 'pdf' %}
+                          {% assign file_icon = 'fa-file-pdf' %}
+                        {% elsif file_ext == 'doc' or file_ext == 'docx' %}
+                          {% assign file_icon = 'fa-file-word' %}
+                        {% elsif file_ext == 'txt' %}
+                          {% assign file_icon = 'fa-file-lines' %}
+                        {% else %}
+                          {% assign file_icon = 'fa-file' %}
+                        {% endif %}
+                        
+                        {% comment %}Build document URL{% endcomment %}
+                        {% if file_path | slice: 0, 1 == '/' %}
+                          {% assign doc_url = file_path | relative_url %}
+                        {% else %}
+                          {% assign doc_url = file_path | prepend: '/assets/' | relative_url %}
+                        {% endif %}
+                        
+                        <li>
+                          <a href="{{ doc_url }}" target="_blank" rel="noopener" class="document-link">
+                            <i class="fa-solid {{ file_icon }}"></i> {{ file_title }}
+                          </a>
+                        </li>
+                      {% endunless %}
+                    {% endif %}
+                  {% endunless %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </ul>
+        </div>
+      {% endif %}
+      
+      <!-- Figures from file field -->
+      {% if figure_count > 0 %}
+        <div class="figures hidden">
+          <div class="figures-label">Figures:</div>
+          <div class="gallery-grid figures-grid">
+            {% assign figure_index = 0 %}
+            
+            {% if entry.file %}
+              {% assign file_parts = entry.file | split: ';' %}
+              {% for part in file_parts %}
+                {% assign clean_part = part | strip %}
+                {% if clean_part contains ':' %}
+                  {% comment %}Use same robust parsing as document counting{% endcomment %}
+                  {% assign first_colon = clean_part | split: ':' | first %}
+                  {% assign after_first_colon = clean_part | remove_first: first_colon | remove_first: ':' %}
+                  
+                  {% assign file_title = first_colon | strip %}
+                  {% assign file_path_and_mime = after_first_colon | strip %}
+                  
+                  {% comment %}Split path:mime by colon{% endcomment %}
+                  {% if file_path_and_mime contains ':' %}
+                    {% assign path_mime_split = file_path_and_mime | split: ':' %}
+                    {% assign file_path = path_mime_split[0] | strip %}
+                    {% assign file_mime = path_mime_split[1] | strip %}
+                  {% else %}
+                    {% assign file_path = file_path_and_mime %}
+                    {% assign file_mime = '' %}
+                  {% endif %}
+                  
+                  {% comment %}Infer MIME type from file extension if not provided{% endcomment %}
+                  {% if file_mime == '' %}
+                    {% assign file_ext = file_path | split: '.' | last | downcase %}
+                    {% if file_ext == 'pdf' %}
+                      {% assign file_mime = 'application/pdf' %}
+                    {% elsif file_ext == 'jpg' or file_ext == 'jpeg' %}
+                      {% assign file_mime = 'image/jpeg' %}
+                    {% elsif file_ext == 'png' %}
+                      {% assign file_mime = 'image/png' %}
+                    {% elsif file_ext == 'webp' %}
+                      {% assign file_mime = 'image/webp' %}
+                    {% elsif file_ext == 'doc' or file_ext == 'docx' %}
+                      {% assign file_mime = 'application/msword' %}
+                    {% elsif file_ext == 'txt' %}
+                      {% assign file_mime = 'text/plain' %}
+                    {% endif %}
+                  {% endif %}
+                  
+                  {% assign file_title_lower = file_title | downcase %}
+                  
+                  {% comment %}Only render images, skip thumbnails, banners, logos{% endcomment %}
+                  {% unless file_title_lower contains 'thumbnail' or file_title_lower contains 'banner' or file_title_lower contains 'logo' %}
+                    {% if file_mime contains 'image' or file_path contains '.jpg' or file_path contains '.jpeg' or file_path contains '.png' or file_path contains '.webp' %}
+                      {% comment %}Only render figures{% endcomment %}
+                      {% if file_title_lower contains 'figure' %}
+                        {% if file_path | slice: 0, 1 == '/' %}
+                          {% assign figure_url = file_path | relative_url %}
+                        {% else %}
+                          {% assign figure_url = file_path | prepend: '/assets/' | relative_url %}
+                        {% endif %}
+                        <img src="{{ figure_url }}" alt="{{ file_title }}" class="gallery-image figure-thumbnail" data-gallery-type="figures" data-gallery-index="{{ figure_index }}" onclick="openGalleryModal(this)">
+                        {% assign figure_index = figure_index | plus: 1 %}
+                      {% endif %}
+                    {% endif %}
                   {% endunless %}
                 {% endif %}
               {% endfor %}

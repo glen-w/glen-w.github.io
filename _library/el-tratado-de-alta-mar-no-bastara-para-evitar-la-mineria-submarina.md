@@ -12,7 +12,6 @@ description: El experto en política internacional Glen Wright aclara que el Tra
 entry_type: Newspaper
 layout: library-item
 pdf: El Tratado de alta mar no bastará para evitar la minería submarina.pdf
-preview: thumbnail
 tags:
 - spanish
 title: El Tratado de alta mar no bastará para evitar la minería submarina

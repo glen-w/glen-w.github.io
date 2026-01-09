@@ -10,7 +10,6 @@ entry_type: Conference
 layout: library-item
 location: Sciences Po, Paris, France
 pdf: agenda.pdf
-preview: thumbnail
 tags: []
 title: How to Protect Our Ocean
 venue: ''

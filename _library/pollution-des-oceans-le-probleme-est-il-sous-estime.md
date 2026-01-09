@@ -9,7 +9,6 @@ description: 'Pollution des océans: le problème est-il sous-estimé ?'
 entry_type: Radio
 layout: library-item
 location: Paris, France
-preview: thumbnail
 tags: []
 title: 'Pollution des océans: le problème est-il sous-estimé ?'
 venue: Radio France International

@@ -9,11 +9,8 @@ This includes entry types, role tags, and language tags.
 import os
 import yaml
 from typing import List, Dict, Any
-import sys
 
-# Add processing directory to path for imports
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from core.tag_extractor import TagExtractor
+from processing.core.tag_extractor import TagExtractor
 
 
 class DynamicFiltersGenerator:
@@ -41,6 +38,11 @@ class DynamicFiltersGenerator:
         role_tags = set()
         language_tags = set()
         
+        # Initialize counters for each filter type
+        entry_type_counts = {}
+        role_tag_counts = {}
+        language_tag_counts = {}
+        
         # Process the entries that were passed to this method
         # These entries have already been loaded and parsed by the calling code
         print("Processing entries for dynamic filters...")
@@ -51,16 +53,20 @@ class DynamicFiltersGenerator:
             entry_type = self.tag_extractor.extract_type(entry)
             if entry_type:
                 entry_types.add(entry_type)
+                # Count entries for this type (exact match - "Book" won't count "Book Chapter")
+                entry_type_counts[entry_type] = entry_type_counts.get(entry_type, 0) + 1
             
             # Extract ALL roles using unified extractor
             roles = self.tag_extractor.extract_roles(entry)
             for role in roles:
                 role_tags.add(role)  # Already lowercased by extractor
+                role_tag_counts[role] = role_tag_counts.get(role, 0) + 1
             
             # Extract ALL languages using unified extractor
             languages = self.tag_extractor.extract_languages(entry)
             for language in languages:
                 language_tags.add(language)  # Already lowercased and validated by extractor
+                language_tag_counts[language] = language_tag_counts.get(language, 0) + 1
         
         # All entry types are now dynamically discovered from the actual bibliography entries
         # This includes both standard BibTeX types and custom types from ignore tags
@@ -71,11 +77,14 @@ class DynamicFiltersGenerator:
         language_tags_list = sorted(list(language_tags))
         
         
-        # Create the data structure
+        # Create the data structure with counts
         filter_data = {
             'entry_types': display_entry_types,
+            'entry_type_counts': entry_type_counts,
             'role_tags': role_tags_list,
-            'language_tags': language_tags_list
+            'role_tag_counts': role_tag_counts,
+            'language_tags': language_tags_list,
+            'language_tag_counts': language_tag_counts
         }
         
         # Write to YAML file
@@ -87,6 +96,7 @@ class DynamicFiltersGenerator:
             yaml.dump(filter_data, f, default_flow_style=False, sort_keys=False)
         
         print(f"Generated dynamic filters: {len(display_entry_types)} entry types, {len(role_tags_list)} role tags, {len(language_tags_list)} language tags")
+        print(f"Counts calculated: {sum(entry_type_counts.values())} total entries, {sum(role_tag_counts.values())} role assignments, {sum(language_tag_counts.values())} language assignments")
         print(f"Saved to: {output_file}")
     
     def _load_entries_from_file(self) -> List[Dict[str, Any]]:
@@ -189,13 +199,9 @@ class DynamicFiltersGenerator:
 def main():
     """Main entry point for standalone execution."""
     import argparse
-    import sys
     from pathlib import Path
     
-    # Add the processing directory to the Python path
-    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    
-    from library.bib_parser import BibParser
+    from .bib_parser import BibParser
     import bibtexparser
     from bibtexparser.bparser import BibTexParser
     from bibtexparser.customization import convert_to_unicode

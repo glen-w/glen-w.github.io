@@ -11,7 +11,6 @@ description: Un rendez-vous historique pour protéger la haute mer des convoitis
 entry_type: Blog
 layout: library-item
 pdf: Rochette and Wright - Un rendez-vous historique pour protéger la haute m.pdf
-preview: thumbnail
 tags: []
 title: Un rendez-vous historique pour protéger la haute mer des convoitises
 venue: The Conversation

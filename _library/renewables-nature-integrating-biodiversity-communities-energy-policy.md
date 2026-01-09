@@ -21,7 +21,6 @@ description: "How can renewable energy accelerate the energy transition while al
   \ event hosted by The Nature Conservancy (TNC) and REN21..."
 entry_type: Webinar
 layout: library-item
-preview: thumbnail
 tags: []
 title: 'Renewables for Nature: Integrating Biodiversity & Communities in Energy Policy'
 venue: ''

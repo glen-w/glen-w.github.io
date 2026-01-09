@@ -13,7 +13,6 @@ description: Elle n’appartient à personne et échappe à toute réglementatio
   statut juridique de cette vaste étendue d’eau pour ...
 entry_type: Newspaper
 layout: library-item
-preview: thumbnail
 tags:
 - interview
 title: La haute mer à l’épreuve de la diplomatie

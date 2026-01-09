@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-{% assign year = page.date | date: '%Y' %}
-{% assign tags = page.tags | join: '' %}
-{% assign categories = page.categories | join: '' %}
 
 {% if page._styles %}
   <!-- Page/Post style -->
@@ -13,291 +10,436 @@ layout: default
 {% endif %}
 
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    
-    <!-- Entry type and basic metadata -->
-    <p class="post-meta">
-      {% if page.entry_type %}
-        <i class="fa-solid fa-file-lines fa-sm"></i> 
-        <a href="/library/?filter={{ page.entry_type | url_encode }}" class="badge badge-light" style="text-decoration: none; color: inherit; cursor: pointer; display: inline-block; padding: 0.25rem 0.5rem; border-radius: 0.25rem; background-color: #f8f9fa; border: 1px solid #dee2e6;">{{ page.entry_type }}</a>
-      {% endif %}
-      {% if page.year %}
-        &nbsp;&middot;&nbsp; <i class="fa-solid fa-calendar fa-sm"></i> {{ page.year }}
-      {% endif %}
-      {% if page.venue %}
-        &nbsp;&middot;&nbsp; <i class="fa-solid fa-building fa-sm"></i> {{ page.venue }}
-      {% endif %}
-      {% if page.location %}
-        &nbsp;&middot;&nbsp; <i class="fa-solid fa-location-dot fa-sm"></i> {{ page.location }}
-      {% endif %}
-    </p>
-    
-    <!-- Role tags (from tags field) -->
-    {% if page.tags and page.tags.size > 0 %}
-      <p class="post-meta">
-        <i class="fa-solid fa-user-tag fa-sm"></i>
-        {% for tag in page.tags %}
-          <a href="/library/?filter={{ tag | url_encode }}" class="tag" style="text-decoration: none; color: inherit; cursor: pointer; display: inline-block; padding: 0.25rem 0.5rem; margin-right: 0.5rem; border-radius: 0.25rem; background-color: #f8f9fa; border: 1px dashed #6c757d;">{{ tag }}</a>
-        {% endfor %}
-      </p>
-    {% endif %}
-
-    <!-- Authors -->
-    {% if page.authors and page.authors.size > 0 %}
-      <p class="post-meta">
-        <i class="fa-solid fa-user fa-sm"></i> 
-        {% for author in page.authors %}
-          {{ author }}{% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      </p>
-    {% endif %}
-
-    <!-- Description -->
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
-    {% endif %}
-
-    <!-- Categories (tags are now shown as role badges above) -->
-    {% if categories != '' %}
-      <p class="post-tags">
-        {% if year %}
-          <a href="{{ year | prepend: '/library/' | relative_url }}"> 
-            <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} 
-          </a>
-        {% endif %}
-        {% if categories != '' %}
-          {% if year %}&nbsp;&middot;&nbsp;{% endif %}
-          {% for category in page.categories %}
-            <a href="{{ category | slugify | prepend: '/library/category/' | relative_url }}"> 
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
-            </a>
-            {% unless forloop.last %}
-              &nbsp;
-            {% endunless %}
-          {% endfor %}
-        {% endif %}
-      </p>
-    {% elsif year %}
-      <p class="post-tags">
-        <a href="{{ year | prepend: '/library/' | relative_url }}"> 
-          <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} 
-        </a>
-      </p>
-    {% endif %}
-
-    <!-- Action buttons for PDFs, links, etc. -->
-    {% if page.pdf or page.url or page.doi or page.slides or page.agenda %}
-      <div class="library-actions">
-        {% if page.pdf %}
-          <a href="{{ page.pdf | prepend: '/assets/pdf/' | relative_url }}" 
-             class="btn btn-primary btn-sm" 
-             target="_blank">
-            <i class="fa-solid fa-file-pdf fa-sm"></i> View PDF
-          </a>
-        {% endif %}
-        {% if page.slides %}
-          <a href="{{ page.slides | prepend: '/assets/pdf/' | relative_url }}" 
-             class="btn btn-outline-primary btn-sm" 
-             target="_blank">
-            <i class="fa-solid fa-file-powerpoint fa-sm"></i> Slides
-          </a>
-        {% endif %}
-        {% if page.agenda %}
-          <a href="{{ page.agenda | prepend: '/assets/pdf/' | relative_url }}" 
-             class="btn btn-outline-primary btn-sm" 
-             target="_blank">
-            <i class="fa-solid fa-file-lines fa-sm"></i> Agenda
-          </a>
-        {% endif %}
-        {% if page.url %}
-          <a href="{{ page.url }}" 
-             class="btn btn-outline-primary btn-sm" 
-             target="_blank">
-            <i class="fa-solid fa-external-link fa-sm"></i> External Link
-          </a>
-        {% endif %}
-        {% if page.doi %}
-          <a href="https://doi.org/{{ page.doi }}" 
-             class="btn btn-outline-secondary btn-sm" 
-             target="_blank">
-            <i class="fa-solid fa-link fa-sm"></i> DOI
-          </a>
-        {% endif %}
+  <header class="post-header library-header-band">
+    <div class="library-header-content">
+      <div class="library-header-main">
+        <h1 class="post-title">{{ page.title }}</h1>
+        
+        <!-- Consolidated metadata line -->
+        <p class="post-meta library-metadata-line">
+          {% assign needs_separator = false %}
+          
+          {% if page.year %}
+            <i class="fa-solid fa-calendar fa-sm"></i> {{ page.year }}
+            {% assign needs_separator = true %}
+          {% endif %}
+          
+          {% if page.location %}
+            {% if needs_separator %} · {% endif %}
+            <i class="fa-solid fa-location-dot fa-sm"></i> {{ page.location }}
+            {% assign needs_separator = true %}
+          {% endif %}
+          
+          {% if page.authors and page.authors.size > 0 %}
+            {% if needs_separator %} · {% endif %}
+            <i class="fa-solid fa-user fa-sm"></i> 
+            {% for author in page.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+            {% assign needs_separator = true %}
+          {% endif %}
+          
+          {% if page.tags and page.tags.size > 0 %}
+            {% if needs_separator %} · {% endif %}
+            <i class="fa-solid fa-user-tag fa-sm"></i> 
+            {% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+          {% elsif page.entry_type %}
+            {% if needs_separator %} · {% endif %}
+            <i class="fa-solid fa-file-lines fa-sm"></i> {{ page.entry_type }}
+          {% endif %}
+        </p>
       </div>
-    {% endif %}
-
-    <!-- Preview image if available - moved to header for higher placement -->
-    {% if page.preview %}
-      <figure class="library-preview library-preview-header">
-        {% assign preview_filename = page.preview | split: '/' | last %}
-        {% assign preview_path_preview = preview_filename | prepend: '/assets/img/publication_preview/' | relative_url %}
-        {% assign preview_path_publications = preview_filename | prepend: '/assets/img/publications/' | relative_url %}
-        <img src="{{ preview_path_preview }}" 
-             alt="{{ page.title }} preview" 
-             class="img-fluid"
-             onerror="this.onerror=null; this.src='{{ preview_path_publications }}'; this.onerror=null;">
-        <figcaption>
-          Preview of <em>{{ page.title }}</em>
-        </figcaption>
-      </figure>
-    {% endif %}
-
-    <hr>
+      
+      <!-- Preview/Thumbnail image in secondary column -->
+      {% assign has_preview = page.preview | to_s | strip | size | plus: 0 %}
+      {% if has_preview > 0 %}
+        <div class="library-header-preview">
+          {% if page.preview contains '://' %}
+            <img class="img-fluid library-thumbnail" src="{{ page.preview }}" alt="{{ page.title }} thumbnail">
+          {% else %}
+            {% assign entry_path = page.preview | prepend: '/assets/img/publication_preview/' %}
+            {%
+              include figure.liquid
+              loading="eager"
+              path=entry_path
+              sizes = "200px"
+              class="img-fluid library-thumbnail"
+              zoomable=true
+              avoid_scaling=true
+              alt=page.preview
+            %}
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
   </header>
 
-  <!-- Return to library link -->
-  <div class="library-return-link" style="margin-bottom: 2rem;">
-    <a href="/library/?action=jump#{{ page.bibtex_key }}" class="btn btn-outline-secondary btn-sm">
-      <i class="fas fa-arrow-left"></i> Return to Library
-    </a>
-  </div>
+  <!-- Primary actions: PDF and external URL only -->
+  {% if page.pdf or page.url or page.zip_archive %}
+    <div class="library-actions">
+      {% if page.pdf %}
+        <a href="{{ page.pdf | prepend: '/assets/pdf/' | relative_url }}" 
+           class="btn btn-sm z-depth-0" 
+           target="_blank">
+          <i class="fa-solid fa-file-pdf"></i> View PDF
+        </a>
+      {% endif %}
+      {% if page.zip_archive %}
+        <a href="{{ page.zip_archive | prepend: '/assets/zips/' | relative_url }}" 
+           class="btn btn-sm z-depth-0" 
+           download>
+          <i class="fa-solid fa-file-zipper"></i> Download all{% if page.zip_file_count and page.zip_file_size_mb %} ({{ page.zip_file_count }} files, {{ page.zip_file_size_mb }} MB){% endif %}
+        </a>
+      {% endif %}
+      {% if page.url %}
+        <a href="{{ page.url }}" 
+           class="btn btn-sm z-depth-0" 
+           target="_blank">
+          <i class="fa-solid fa-external-link"></i> External Link
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
 
   <article class="post-content">
+    <!-- Abstract - always display if available -->
+    {% if page.abstract %}
+      <div class="library-abstract">
+        <h2>Abstract</h2>
+        <div class="abstract-content">
+          {% if page.abstract contains ' • ' %}
+            {% assign abstract_lines = page.abstract | split: '\n' %}
+            <div style="white-space: pre-wrap;">
+              {% assign in_list = false %}
+              {% for line in abstract_lines %}
+                {% assign clean_line = line | strip %}
+                {% if clean_line contains ' • ' %}
+                  {% unless in_list %}<ul>{% assign in_list = true %}{% endunless %}
+                  {% assign bullet_text = clean_line | split: ' • ' | last | strip %}
+                  <li>{{ bullet_text }}</li>
+                {% else %}
+                  {% if in_list %}</ul>{% assign in_list = false %}{% endif %}
+                  {% if clean_line != '' %}<p>{{ clean_line }}</p>{% endif %}
+                {% endif %}
+              {% endfor %}
+              {% if in_list %}</ul>{% endif %}
+            </div>
+          {% else %}
+            <p style="white-space: pre-wrap;">{{ page.abstract }}</p>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+    
+    <!-- Speakers -->
+    {% if page.speakers %}
+      <div class="library-speakers">
+        <h2>Speakers</h2>
+        <ul class="speakers-list">
+          {% assign speakers_text = page.speakers | to_s | strip %}
+          {% if speakers_text != '' %}
+            {% assign speakers_with_br = speakers_text | newline_to_br %}
+            {% assign speakers_lines = speakers_with_br | split: '<br />' %}
+            {% for s in speakers_lines %}
+              {% assign s_clean = s | strip %}
+              {% if s_clean != '' %}
+                <li>{{ s_clean }}</li>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+    {% endif %}
+    
+    <!-- Quotes -->
+    {% if page.quotes %}
+      <div class="library-quotes">
+        <h2>Key Quotes</h2>
+        <ul class="quotes-list">
+          {% assign quotes_text = page.quotes | to_s | strip %}
+          {% if quotes_text != '' %}
+            {% assign quotes_with_br = quotes_text | newline_to_br %}
+            {% assign quotes_lines = quotes_with_br | split: '<br />' %}
+            {% for q in quotes_lines %}
+              {% assign q_clean = q | strip %}
+              {% if q_clean != '' %}
+                <li>{{ q_clean }}</li>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+    {% endif %}
 
     <!-- Main content -->
     <div id="markdown-content">
       {{ content }}
     </div>
     
-    <!-- Clean up redundant content with JavaScript -->
+    <!-- Extract and format Documents/Resources section -->
     <script>
     (function() {
-      // Wait for content to be rendered
       setTimeout(function() {
         const contentDiv = document.getElementById('markdown-content');
         if (!contentDiv) return;
         
-        // 1. Hide Abstract section if it's the same as description
-        const description = document.querySelector('.post-description');
-        const abstractHeading = contentDiv.querySelector('h2');
-        if (abstractHeading && abstractHeading.textContent.trim() === 'Abstract') {
-          const abstractSection = abstractHeading.nextElementSibling;
-          if (abstractSection && description) {
-            const abstractText = abstractSection.textContent.trim();
-            const descriptionText = description.textContent.trim();
-            // Check if abstract is same as description (allowing for truncation)
-            if (descriptionText && abstractText.startsWith(descriptionText.substring(0, Math.min(100, descriptionText.length)))) {
-              abstractHeading.style.display = 'none';
-              abstractSection.style.display = 'none';
-            }
+        const additionalDocs = [];
+        
+        // Helper: Get icon for file extension
+        function getFileIcon(ext) {
+          const icons = {
+            'pdf': 'file-pdf', 'doc': 'file-word', 'docx': 'file-word',
+            'xls': 'file-excel', 'xlsx': 'file-excel',
+            'ppt': 'file-powerpoint', 'pptx': 'file-powerpoint',
+            'zip': 'file-zipper', 'rar': 'file-zipper'
+          };
+          return icons[ext] || 'file';
+        }
+        
+        // Extract links from "Links and Resources" section
+        const linksHeading = Array.from(contentDiv.querySelectorAll('h2'))
+          .find(h => h.textContent.trim() === 'Links and Resources');
+        if (linksHeading) {
+          const linksSection = linksHeading.nextElementSibling;
+          if (linksSection) {
+            linksSection.querySelectorAll('a').forEach(function(link) {
+              const href = link.getAttribute('href') || '';
+              const text = link.textContent.trim();
+              const isImage = /\.(jpg|jpeg|png|gif|webp|svg)$/i.test(href);
+              const isMainPdf = text.toLowerCase().includes('pdf') && 
+                (href.includes('/assets/pdf/') || href.endsWith('.pdf'));
+              const isExternalUrl = href.startsWith('http') && !href.includes('/assets/');
+              
+              if (!isImage && !isMainPdf && !isExternalUrl) {
+                additionalDocs.push({ href: href, text: text });
+              }
+            });
+            linksHeading.style.display = 'none';
+            linksSection.style.display = 'none';
           }
         }
         
-        // 2. Hide Publication Details if it only contains Year/Location (already in header)
-        const pubDetailsHeadings = contentDiv.querySelectorAll('h2');
-        pubDetailsHeadings.forEach(function(heading) {
-          if (heading.textContent.trim() === 'Publication Details') {
-            const detailsSection = heading.nextElementSibling;
-            if (detailsSection) {
-              const detailsText = detailsSection.textContent || '';
-              // Check if it only contains Year and/or Location
-              const hasYear = detailsText.includes('**Year:**');
-              const hasLocation = detailsText.includes('**Location:**');
-              const hasOnlyBasicInfo = (hasYear || hasLocation) && 
-                !detailsText.includes('**Authors:**') &&
-                !detailsText.includes('**Venue:**') &&
-                !detailsText.includes('**Publisher:**') &&
-                !detailsText.includes('**Volume:**') &&
-                !detailsText.includes('**Number:**') &&
-                !detailsText.includes('**Pages:**') &&
-                !detailsText.includes('**Institution:**');
-              
-              if (hasOnlyBasicInfo) {
-                heading.style.display = 'none';
-                detailsSection.style.display = 'none';
-              }
-            }
-          }
-        });
+        // Add front matter resources
+        {% if page.slides %}
+          additionalDocs.push({ 
+            href: '{{ page.slides | prepend: "/assets/pdf/" | relative_url }}', 
+            text: 'Slides', icon: 'file-powerpoint' });
+        {% endif %}
+        {% if page.agenda %}
+          additionalDocs.push({ 
+            href: '{{ page.agenda | prepend: "/assets/pdf/" | relative_url }}', 
+            text: 'Agenda', icon: 'file-lines' });
+        {% endif %}
+        {% if page.doi %}
+          additionalDocs.push({ 
+            href: 'https://doi.org/{{ page.doi }}', 
+            text: 'DOI', icon: 'link' });
+        {% endif %}
         
-        // 3. Fix Links and Resources - remove image file links
-        const linksHeadings = contentDiv.querySelectorAll('h2');
-        linksHeadings.forEach(function(heading) {
-          if (heading.textContent.trim() === 'Links and Resources') {
-            const linksSection = heading.nextElementSibling;
-            if (linksSection) {
-              const links = linksSection.querySelectorAll('a');
-              links.forEach(function(link) {
-                const href = link.getAttribute('href') || '';
-                // Remove links to image files
-                if (href.match(/\.(jpg|jpeg|png|gif|webp|svg)$/i)) {
-                  link.parentElement.remove();
-                }
-              });
-              
-              // If no links remain, hide the section
-              if (linksSection.querySelectorAll('a').length === 0) {
-                heading.style.display = 'none';
-                linksSection.style.display = 'none';
-              }
-            }
-          }
-        });
+        // Process file field documents
+        {% if page.file %}
+          {% assign file_parts = page.file | split: ';' %}
+          {% for part in file_parts %}
+            {% assign clean_part = part | strip %}
+            {% if clean_part contains ':' %}
+              {% assign file_parts_split = clean_part | split: ':' %}
+              {% if file_parts_split.size >= 2 %}
+                {% assign file_title = file_parts_split[0] | strip %}
+                {% assign file_path = file_parts_split[1] | strip %}
+                {% assign file_title_lower = file_title | downcase %}
+                {% unless file_title_lower contains 'speaker' or file_title_lower contains 'thumbnail' or file_title_lower contains 'preview' %}
+                  {% assign file_ext = file_path | split: '.' | last | downcase %}
+                  {% assign doc_icon = 'file' %}
+                  {% if file_ext == 'pdf' %}
+                    {% assign doc_icon = 'file-pdf' %}
+                  {% elsif file_ext == 'doc' or file_ext == 'docx' %}
+                    {% assign doc_icon = 'file-word' %}
+                  {% elsif file_ext == 'xls' or file_ext == 'xlsx' %}
+                    {% assign doc_icon = 'file-excel' %}
+                  {% elsif file_ext == 'ppt' or file_ext == 'pptx' %}
+                    {% assign doc_icon = 'file-powerpoint' %}
+                  {% elsif file_ext == 'zip' or file_ext == 'rar' %}
+                    {% assign doc_icon = 'file-zipper' %}
+                  {% endif %}
+                  {% assign file_url = file_path | prepend: '/assets/' | relative_url %}
+                  {% assign file_title_escaped = file_title | replace: "'", "\\'" %}
+                  additionalDocs.push({ 
+                    href: '{{ file_url }}', 
+                    text: '{{ file_title_escaped }}',
+                    icon: '{{ doc_icon }}'
+                  });
+                {% endunless %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
         
-        // 4. Hide Keywords section (tags already shown in header)
-        const keywordsHeadings = contentDiv.querySelectorAll('h2');
-        keywordsHeadings.forEach(function(heading) {
-          if (heading.textContent.trim() === 'Keywords') {
+        // Create Documents/Resources section if needed
+        if (additionalDocs.length > 0) {
+          const resourcesSection = document.createElement('div');
+          resourcesSection.className = 'library-resources';
+          
+          const heading = document.createElement('h2');
+          heading.textContent = 'Documents / Resources';
+          resourcesSection.appendChild(heading);
+          
+          const list = document.createElement('ul');
+          list.className = 'library-resources-list';
+          
+          additionalDocs.forEach(function(doc) {
+            const item = document.createElement('li');
+            const link = document.createElement('a');
+            link.href = doc.href;
+            link.target = '_blank';
+            link.rel = 'noopener';
+            
+            const icon = document.createElement('i');
+            icon.className = 'fa-solid fa-' + (doc.icon || 'file');
+            link.appendChild(icon);
+            link.appendChild(document.createTextNode(' ' + doc.text));
+            item.appendChild(link);
+            list.appendChild(item);
+          });
+          
+          resourcesSection.appendChild(list);
+          
+          // Insert after abstract/speakers/quotes sections
+          const insertAfter = document.querySelector('.library-quotes') || 
+                             document.querySelector('.library-speakers') || 
+                             document.querySelector('.library-abstract');
+          if (insertAfter) {
+            insertAfter.parentNode.insertBefore(resourcesSection, insertAfter.nextSibling);
+          } else {
+            contentDiv.parentNode.insertBefore(resourcesSection, contentDiv);
+          }
+        }
+        
+        // Hide redundant sections
+        ['Abstract', 'Publication Details', 'Keywords'].forEach(function(sectionName) {
+          const heading = Array.from(contentDiv.querySelectorAll('h2'))
+            .find(h => h.textContent.trim() === sectionName);
+          if (heading) {
             heading.style.display = 'none';
-            const keywordsSection = heading.nextElementSibling;
-            if (keywordsSection) {
-              keywordsSection.style.display = 'none';
-            }
+            const section = heading.nextElementSibling;
+            if (section) section.style.display = 'none';
           }
         });
         
-        // 5. Improve Notes section formatting
-        const notesHeadings = contentDiv.querySelectorAll('h2');
-        notesHeadings.forEach(function(heading) {
-          if (heading.textContent.trim() === 'Notes') {
-            const notesSection = heading.nextElementSibling;
-            if (notesSection) {
-              const notesText = notesSection.textContent || '';
-              // Format quotes and links in notes
-              const lines = notesText.split('\n');
-              const formattedLines = lines.map(function(line) {
-                line = line.trim();
-                if (line.startsWith('quote:')) {
-                  return '<blockquote>' + line.substring(6).trim() + '</blockquote>';
-                } else if (line.startsWith('link:')) {
-                  const url = line.substring(5).trim();
-                  return '<p><a href="' + url + '" target="_blank" rel="noopener">' + url + '</a></p>';
-                }
-                return line ? '<p>' + line + '</p>' : '';
-              });
-              
-              if (formattedLines.some(function(l) { return l.includes('<blockquote>') || l.includes('<a href'); })) {
-                notesSection.innerHTML = formattedLines.join('');
-              }
-            }
+        // Filter out thumbnail images from markdown content and make remaining images clickable
+        const contentImages = contentDiv.querySelectorAll('img');
+        const contentImageList = [];
+        
+        contentImages.forEach(function(img) {
+          const src = img.src || '';
+          const alt = img.alt || '';
+          const imgName = src.toLowerCase();
+          
+          // Hide images named "thumbnail"
+          if (imgName.includes('thumbnail')) {
+            img.style.display = 'none';
+            return;
           }
+          
+          // Collect non-thumbnail images for gallery
+          contentImageList.push(img);
+          
+          // Make image clickable
+          img.style.cursor = 'pointer';
+          img.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            // Collect all content images for gallery context
+            const galleryImagesList = [];
+            contentImageList.forEach(function(galleryImg) {
+              galleryImagesList.push({
+                src: galleryImg.src,
+                alt: galleryImg.alt || '{{ page.title }}'
+              });
+            });
+            
+            // Find current index
+            const currentIndex = contentImageList.indexOf(img);
+            
+            // Open modal with gallery context
+            if (typeof openImageModal === 'function') {
+              openImageModal(img.src, img.alt || '{{ page.title }}', galleryImagesList, currentIndex);
+            } else {
+              console.error('openImageModal function not found. Make sure common.js is loaded.');
+            }
+          });
         });
       }, 100);
     })();
     </script>
 
     <!-- Image gallery if available -->
-    {% if page.gallery and page.gallery.size > 1 %}
-      <div class="library-gallery">
-        <h3>Gallery</h3>
-        <div class="row">
-          {% for image in page.gallery %}
-            {% assign image_lower = image | downcase %}
-            {% unless image_lower contains 'thumbnail' %}
-              <div class="col-md-4 col-sm-6 mb-3">
-                <a href="{{ image | prepend: '/assets/img/publications/' | relative_url }}" 
-                   data-lightbox="gallery" 
-                   data-title="{{ page.title }}">
-                  <img src="{{ image | prepend: '/assets/img/publications/' | relative_url }}" 
-                       alt="{{ page.title }} image {{ forloop.index }}" 
-                       class="img-fluid rounded">
-                </a>
-              </div>
-            {% endunless %}
-          {% endfor %}
+    {% if page.gallery %}
+      {% assign gallery_count = 0 %}
+      {% for image in page.gallery %}
+        {% assign image_lower = image | downcase %}
+        {% unless image_lower contains 'thumbnail' %}
+          {% assign gallery_count = gallery_count | plus: 1 %}
+        {% endunless %}
+      {% endfor %}
+      {% if gallery_count > 0 %}
+        <div class="library-gallery">
+          <h3>Gallery</h3>
+          <div class="row library-gallery-grid">
+            {% assign gallery_index = 0 %}
+            {% for image in page.gallery %}
+              {% assign image_lower = image | downcase %}
+              {% unless image_lower contains 'thumbnail' %}
+                {% comment %}Extract filename, handling both path and filename-only formats{% endcomment %}
+                {% assign gallery_filename = image | split: '/' | last %}
+                {% comment %}Try common image extensions if no extension present{% endcomment %}
+                {% unless gallery_filename contains '.' %}
+                  {% assign gallery_filename = gallery_filename | append: '.jpg' %}
+                {% endunless %}
+                {% assign gallery_url = gallery_filename | prepend: '/assets/img/publications/' | relative_url %}
+                <div class="col-md-4 col-sm-6 mb-3">
+                  <img src="{{ gallery_url }}" 
+                       alt="{{ page.title }} image {{ gallery_index | plus: 1 }}" 
+                       class="img-fluid rounded library-gallery-image"
+                       data-gallery-type="library-gallery"
+                       data-gallery-index="{{ gallery_index }}"
+                       style="cursor: pointer;"
+                       onerror="this.onerror=null; this.src=this.src.replace('.jpg', '.jpeg'); this.onerror=function(){this.src=this.src.replace('.jpeg', '.png'); this.onerror=function(){this.style.display='none';};};">
+                </div>
+                {% assign gallery_index = gallery_index | plus: 1 %}
+              {% endunless %}
+            {% endfor %}
+          </div>
         </div>
-      </div>
+        <script>
+        (function() {
+          // Initialize gallery modal functionality
+          const galleryImages = document.querySelectorAll('.library-gallery-image');
+          if (galleryImages.length > 0) {
+            galleryImages.forEach(function(img, index) {
+              img.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                // Collect all images in the gallery
+                const galleryImagesList = [];
+                galleryImages.forEach(function(galleryImg) {
+                  galleryImagesList.push({
+                    src: galleryImg.src,
+                    alt: galleryImg.alt || '{{ page.title }}'
+                  });
+                });
+                
+                // Open modal with gallery context
+                if (typeof openImageModal === 'function') {
+                  openImageModal(img.src, img.alt || '{{ page.title }}', galleryImagesList, index);
+                } else {
+                  console.error('openImageModal function not found. Make sure common.js is loaded.');
+                }
+              });
+            });
+          }
+        })();
+        </script>
+      {% endif %}
     {% endif %}
   </article>
 
@@ -305,57 +447,198 @@ layout: default
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
   {% endif %}
+
+  <!-- Return to library link at bottom -->
+  <div class="library-return-footer">
+    <a href="/library/?action=jump#{{ page.bibtex_key }}">
+      <i class="fas fa-arrow-left"></i> Return to library
+    </a>
+  </div>
 </div>
 
 <style>
-  /* Library-specific styles that extend existing classes */
+  /* Library header band - two-column layout */
+  .library-header-band {
+    margin-bottom: 2rem;
+  }
+  
+  .library-header-content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2rem;
+    align-items: start;
+  }
+  
+  .library-header-main {
+    min-width: 0; /* Allow text to shrink */
+  }
+  
+  .library-header-preview {
+    flex-shrink: 0;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .library-header-preview img,
+  .library-thumbnail {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 0.375rem;
+    object-fit: cover;
+  }
+  
+  /* Consolidated metadata line - plain text, no badges */
+  .library-metadata-line {
+    margin-top: 0.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+  
+  .library-metadata-line i {
+    margin-right: 0.25rem;
+    opacity: 0.7;
+  }
+  
+  /* Primary actions */
   .library-actions {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
   }
   
   .library-actions .btn {
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0;
   }
   
-  .library-preview {
-    float: right;
-    margin: 0 0 1rem 1rem;
-    max-width: 300px;
-  }
-  
-  .library-preview-header {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .library-preview img {
-    width: 100%;
-    height: auto;
-    border-radius: 0.375rem;
-  }
-  
-  .library-preview figcaption {
-    font-size: 0.875rem;
-    color: var(--global-text-color-light);
-    text-align: center;
-    margin-top: 0.5rem;
-  }
-  
+  /* Abstract section */
   .library-abstract {
-    background-color: var(--global-bg-color);
-    border-left: 4px solid var(--global-theme-color);
-    padding: 1rem;
-    margin: 1.5rem 0;
-    border-radius: 0 0.375rem 0.375rem 0;
+    margin: 2rem 0;
   }
   
-  .library-abstract h3 {
-    margin-top: 0;
+  .library-abstract h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--global-text-color);
+  }
+  
+  .library-abstract .abstract-content {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--global-text-color);
+  }
+  
+  .library-abstract .abstract-content ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .library-abstract .abstract-content li {
     margin-bottom: 0.5rem;
+  }
+  
+  /* Speakers section */
+  .library-speakers {
+    margin: 2rem 0;
+  }
+  
+  .library-speakers h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--global-text-color);
+  }
+  
+  .library-speakers .speakers-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .library-speakers .speakers-list li {
+    position: relative;
+    padding-left: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .library-speakers .speakers-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
     color: var(--global-theme-color);
   }
   
+  /* Quotes section */
+  .library-quotes {
+    margin: 2rem 0;
+  }
+  
+  .library-quotes h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--global-text-color);
+  }
+  
+  .library-quotes .quotes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .library-quotes .quotes-list li {
+    position: relative;
+    padding-left: 1.2em;
+    margin-bottom: 0.5em;
+    font-style: italic;
+  }
+  
+  .library-quotes .quotes-list li::before {
+    content: """;
+    position: absolute;
+    left: 0;
+    color: var(--global-theme-color);
+    font-size: 1.2em;
+  }
+  
+  /* Documents/Resources section */
+  .library-resources {
+    margin: 2rem 0;
+  }
+  
+  .library-resources h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--global-text-color);
+  }
+  
+  .library-resources-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .library-resources-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .library-resources-list a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--global-text-color);
+    transition: color 0.2s;
+  }
+  
+  .library-resources-list a:hover {
+    color: var(--global-theme-color);
+  }
+  
+  .library-resources-list i {
+    opacity: 0.7;
+  }
+  
+  /* Gallery */
   .library-gallery {
     margin-top: 2rem;
   }
@@ -373,19 +656,47 @@ layout: default
     transform: scale(1.05);
   }
   
+  /* Footer return link */
+  .library-return-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--global-divider-color);
+    text-align: center;
+  }
+  
+  .library-return-footer a {
+    color: var(--global-text-color-light);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+  
+  .library-return-footer a:hover {
+    color: var(--global-theme-color);
+  }
+  
+  .library-return-footer i {
+    margin-right: 0.5rem;
+  }
+  
   /* Responsive adjustments */
   @media screen and (max-width: 768px) {
-    .library-preview {
-      float: none;
-      margin: 0 0 1rem 0;
+    .library-header-content {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .library-header-preview {
       max-width: 100%;
+      justify-self: center;
+    }
+    
+    .library-actions {
+      flex-direction: column;
     }
     
     .library-actions .btn {
-      display: block;
       width: 100%;
-      margin-right: 0;
-      margin-bottom: 0.5rem;
     }
   }
   
@@ -395,10 +706,8 @@ layout: default
       display: none;
     }
     
-    .library-preview {
-      float: none;
-      margin: 0 0 1rem 0;
-      max-width: 200px;
+    .library-return-footer {
+      display: none;
     }
   }
 </style>

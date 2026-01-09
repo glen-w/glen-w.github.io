@@ -1,0 +1,139 @@
+# Series-level metadata for creative works
+# Define layout preferences, display names, priority, and show options for each series here
+# Options: 'flipbook', 'carousel', 'masonry', 'grid' (default)
+# Priority: lower numbers = higher priority (displayed first)
+# Show: 'true' (display normally), 'false' (hidden), 'more' (under Show more link)
+
+# Collage series
+belles_parentheses:
+  name: belles parentheses
+  layout: grid
+  priority: 60
+  show: more
+
+esc:
+  name: esc
+  layout: grid
+  priority: 75
+  show: more
+
+flamingos:
+  name: flamingos
+  layout: grid
+  priority: 70
+  show: more
+
+generally_uncanny:
+  name: generally uncanny
+  layout: grid
+  priority: 10
+  show: true
+
+good_news:
+  name: good news
+  layout: grid
+  priority: 40
+  show: true
+
+individuals_suffer:
+  name: individuals suffer
+  layout: grid
+  priority: 50
+  show: more
+
+intense_spaces:
+  name: intense spaces
+  layout: flipbook
+  priority: 35
+  show: true
+
+juvenile_turtles:
+  name: juvenile turtles
+  layout: flipbook
+  priority: 1
+  show: true
+
+misc:
+  name: misc
+  layout: thumbnails
+  priority: 100
+  show: more
+
+musicbook:
+  name: musicbook
+  layout: grid
+  priority: 20
+  show: true
+
+one_pretends:
+  name: one pretends
+  layout: grid
+  priority: 30
+  show: true
+
+pasted_pictures_i:
+  name: pasted pictures I
+  layout: grid
+  priority: 90
+  show: true
+
+pasted_pictures_ii:
+  name: pasted pictures II
+  layout: grid
+  priority: 95
+  show: true
+
+pasted_poetry:
+  name: pasted poetry
+  layout: grid
+  priority: 50
+  show: true
+
+snide_remarks:
+  name: snide remarks
+  layout: grid
+  priority: 65
+  show: true
+
+tiny_collage:
+  name: tiny collage
+  layout: thumbnails
+  priority: 45
+  show: true
+
+what_end:
+  name: what end?
+  layout: grid
+  priority: 50
+  show: true
+
+i_needed_colour:
+  name: i needed colour
+  layout: flipbook
+  priority: 30
+  show: true
+
+offcuts:
+  name: offcuts
+  layout: thumbnails
+  priority: 100
+  show: true
+
+# Poem length categories
+short:
+  name: short
+  layout: grid
+  priority: 10
+  show: true
+
+medium:
+  name: medium
+  layout: grid
+  priority: 20
+  show: true
+
+long:
+  name: long
+  layout: grid
+  priority: 30
+  show: true

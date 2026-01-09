@@ -31,7 +31,6 @@ layout: library-item
 pages: '104059'
 pdf: Harden-Davies et al. - 2020 - Rights of Nature Perspectives for Global Ocean
   St.pdf
-preview: thumbnail
 tags: []
 title: 'Rights of Nature: Perspectives for Global Ocean Stewardship'
 url: https://www.sciencedirect.com/science/article/pii/S0308597X20303365

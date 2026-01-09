@@ -13,7 +13,6 @@ description: Un traité international devrait mieux protéger la haute mer, de p
   en plus touchée par l’activité humaine. Mais le processus reste encore long.
 entry_type: Oped
 layout: library-item
-preview: thumbnail
 tags: []
 title: Vers une protection de la haute mer
 url: https://www.alternatives-economiques.fr/vers-une-protection-de-haute-mer/00086327

@@ -10,9 +10,19 @@ categories:
 date: 2015-June-01
 description: What role for the Nairobi Convention in the high seas?
 entry_type: Side event
+gallery:
+- what_role_nairobi_convention_high_seas_figure_01
+- what_role_nairobi_convention_high_seas_figure_02
+- what_role_nairobi_convention_high_seas_figure_03
+- what_role_nairobi_convention_high_seas_photo_01
+- what_role_nairobi_convention_high_seas_photo_02
+- what_role_nairobi_convention_high_seas_photo_03
+- what_role_nairobi_convention_high_seas_photo_04
+- what_role_nairobi_convention_high_seas_photo_05
 layout: library-item
 location: Mahé, Seychelles
 pdf: Side-event, ABNJ.pdf
+preview: what_role_nairobi_convention_high_seas_figure_01
 publisher: IDDRI, FFEM, IUCN
 tags: []
 title: What role for the Nairobi Convention in the high seas?

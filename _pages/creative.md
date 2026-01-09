@@ -10,6 +10,10 @@ display_categories: [collage,poems]
 # Optional: toggle these
 enable_project_categories: true
 horizontal: false
+
+# Enable flipbook/carousel layouts
+images:
+  slider: true
 ---
 
 
@@ -22,53 +26,303 @@ horizontal: false
     </a>
     {% assign categorized_projects = site.creative | where: "category", category %}
     
-    <!-- Separate projects with series from those without -->
-    {% assign projects_with_series = categorized_projects | where_exp: "item", "item.series != nil and item.series != ''" %}
-    {% assign projects_without_series = categorized_projects | where_exp: "item", "item.series == nil or item.series == ''" %}
-    
-    <!-- Group projects by series and sort series alphabetically -->
-    {% assign grouped_by_series = projects_with_series | group_by: "series" | sort: "name" %}
-    
-    <!-- Display projects grouped by series -->
-    {% for series_group in grouped_by_series %}
-      <h3 class="series">{{ series_group.name }}</h3>
-      {% assign series_projects = series_group.items | sort: "importance" %}
-      {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2">
-        {% for project in series_projects %}
-          {% include projects_creative_horizontal.liquid %}
+    <!-- Collect all unique series from paths with metadata -->
+    {% assign all_series_keys = '' | split: '' %}
+    {% for item in categorized_projects %}
+      {% assign path_parts = item.path | split: '/' %}
+      {% if path_parts.size >= 3 %}
+        {% assign series_key = path_parts[2] %}
+        {% assign found = false %}
+        {% for existing_key in all_series_keys %}
+          {% if existing_key == series_key %}
+            {% assign found = true %}
+          {% endif %}
         {% endfor %}
-        </div>
-      </div>
-      {% else %}
-      <div class="row row-cols-1 row-cols-md-3">
-        {% for project in series_projects %}
-          {% include projects_creative.liquid %}
-        {% endfor %}
-      </div>
+        {% unless found %}
+          {% assign all_series_keys = all_series_keys | push: series_key %}
+        {% endunless %}
       {% endif %}
     {% endfor %}
     
-    <!-- Display projects without series under "misc." -->
-    {% if projects_without_series.size > 0 %}
-      <h3 class="series">misc.</h3>
-      {% assign misc_projects = projects_without_series | sort: "importance" %}
-      {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2">
-        {% for project in misc_projects %}
-          {% include projects_creative_horizontal.liquid %}
-        {% endfor %}
-        </div>
-      </div>
-      {% else %}
-      <div class="row row-cols-1 row-cols-md-3">
-        {% for project in misc_projects %}
-          {% include projects_creative.liquid %}
-        {% endfor %}
-      </div>
+    <!-- Separate series by show status and get priorities -->
+    {% assign series_show_true = '' | split: '' %}
+    {% assign series_show_more = '' | split: '' %}
+    {% assign series_priorities = '' | split: '' %}
+    
+    {% for series_key in all_series_keys %}
+      {% assign series_show = 'true' %}
+      {% assign series_priority = 999 %}
+      {% if site.data.series and site.data.series[series_key] %}
+        {% if site.data.series[series_key].show %}
+          {% comment %} Convert to string to handle both boolean true and string 'true' {% endcomment %}
+          {% assign series_show_raw = site.data.series[series_key].show %}
+          {% if series_show_raw == true %}
+            {% assign series_show = 'true' %}
+          {% elsif series_show_raw == false %}
+            {% assign series_show = 'false' %}
+          {% else %}
+            {% assign series_show = series_show_raw | downcase %}
+          {% endif %}
+        {% endif %}
+        {% if site.data.series[series_key].priority %}
+          {% assign series_priority = site.data.series[series_key].priority %}
+        {% endif %}
       {% endif %}
+      
+      {% if series_show == 'true' %}
+        {% assign series_show_true = series_show_true | push: series_key %}
+        {% assign priority_pair = series_priority | append: '|' | append: series_key %}
+        {% assign series_priorities = series_priorities | push: priority_pair %}
+      {% elsif series_show == 'more' %}
+        {% assign series_show_more = series_show_more | push: series_key %}
+      {% endif %}
+    {% endfor %}
+    
+    <!-- Sort series by priority (lower numbers first), then alphabetically -->
+    {% assign sorted_series_keys = '' | split: '' %}
+    {% assign processed_series = '' | split: '' %}
+    
+    <!-- First, process series with priorities (sorted by priority value) -->
+    {% assign max_iterations = series_priorities.size %}
+    {% for i in (1..max_iterations) %}
+      {% assign lowest_priority = 9999 %}
+      {% assign lowest_series = '' %}
+      {% assign lowest_pair = '' %}
+      
+      {% for priority_pair in series_priorities %}
+        {% assign pair_parts = priority_pair | split: '|' %}
+        {% assign pair_priority = pair_parts[0] | plus: 0 %}
+        {% assign pair_key = pair_parts[1] %}
+        {% assign already_processed = false %}
+        {% for processed in processed_series %}
+          {% if processed == pair_key %}
+            {% assign already_processed = true %}
+          {% endif %}
+        {% endfor %}
+        
+        {% unless already_processed %}
+          {% if pair_priority < lowest_priority %}
+            {% assign lowest_priority = pair_priority %}
+            {% assign lowest_series = pair_key %}
+            {% assign lowest_pair = priority_pair %}
+          {% elsif pair_priority == lowest_priority %}
+            {% if lowest_series == '' or pair_key < lowest_series %}
+              {% assign lowest_series = pair_key %}
+              {% assign lowest_pair = priority_pair %}
+            {% endif %}
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+      
+      {% if lowest_series != '' %}
+        {% assign sorted_series_keys = sorted_series_keys | push: lowest_series %}
+        {% assign processed_series = processed_series | push: lowest_series %}
+      {% endif %}
+    {% endfor %}
+    
+    <!-- Display projects grouped by series (show: true, sorted by priority) -->
+    {% for series_key in sorted_series_keys %}
+      {% assign series_projects = '' | split: '' %}
+      {% for item in categorized_projects %}
+        {% assign path_parts = item.path | split: '/' %}
+        {% if path_parts.size >= 3 and path_parts[2] == series_key %}
+          {% assign series_projects = series_projects | push: item %}
+        {% endif %}
+      {% endfor %}
+      {% assign series_projects = series_projects | sort: "importance" %}
+      
+      {% if series_projects.size > 0 %}
+        {% comment %} Get display name from series.yml, fallback to folder name with underscores replaced {% endcomment %}
+        {% assign series_display_name = series_key | replace: '_', ' ' %}
+        {% if site.data.series and site.data.series[series_key] and site.data.series[series_key].name %}
+          {% assign series_display_name = site.data.series[series_key].name %}
+        {% endif %}
+        
+        {% comment %} Check if this series has a custom layout defined {% endcomment %}
+        {% assign series_layout = null %}
+        {% if site.data.series and site.data.series[series_key] %}
+          {% assign series_layout = site.data.series[series_key].layout %}
+        {% endif %}
+        
+        {% comment %} Wrap each series in an isolated section to prevent layout interference {% endcomment %}
+        <section class="series-section" data-series-key="{{ series_key }}" data-series-layout="{{ series_layout | default: 'grid' }}">
+          <h3 class="series">{{ series_display_name }}</h3>
+        
+          {% if series_layout == 'flipbook' %}
+             {% include flipbook.liquid series_projects=series_projects series_name=series_display_name %}
+           {% elsif series_layout == 'carousel' %}
+             {% include carousel.liquid series_projects=series_projects series_name=series_display_name %}
+           {% elsif series_layout == 'masonry' %}
+             {% include masonry.liquid series_projects=series_projects series_name=series_display_name %}
+           {% elsif series_layout == 'thumbnails' %}
+             {% include thumbnails.liquid series_projects=series_projects series_name=series_display_name %}
+           {% else %}
+        {% comment %} Default card grid layout - show first 6, then toggle for rest {% endcomment %}
+        {% assign total_projects = series_projects.size %}
+        {% assign initial_count = 6 %}
+        {% if total_projects > initial_count %}
+          {% comment %} Split into visible and hidden items {% endcomment %}
+          {% if page.horizontal %}
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 series-grid-visible">
+            {% for project in series_projects limit: initial_count %}
+              {% include projects_creative_horizontal.liquid %}
+            {% endfor %}
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 series-grid-hidden" style="display: none;">
+            {% for project in series_projects offset: initial_count %}
+              {% include projects_creative_horizontal.liquid %}
+            {% endfor %}
+            </div>
+            <div class="series-more-toggle-container">
+              <button class="series-more-toggle" type="button" data-series-key="{{ series_key }}" aria-expanded="false">
+                See more from this series
+              </button>
+            </div>
+          </div>
+          {% else %}
+          <div class="row row-cols-1 row-cols-md-3 series-grid-visible">
+            {% for project in series_projects limit: initial_count %}
+              {% include projects_creative.liquid %}
+            {% endfor %}
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 series-grid-hidden" style="display: none;">
+            {% for project in series_projects offset: initial_count %}
+              {% include projects_creative.liquid %}
+            {% endfor %}
+          </div>
+          <div class="series-more-toggle-container">
+            <button class="series-more-toggle" type="button" data-series-key="{{ series_key }}" aria-expanded="false">
+              See more from this series
+            </button>
+          </div>
+          {% endif %}
+        {% else %}
+          {% comment %} Show all items if 6 or fewer {% endcomment %}
+          {% if page.horizontal %}
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+            {% for project in series_projects %}
+              {% include projects_creative_horizontal.liquid %}
+            {% endfor %}
+            </div>
+          </div>
+          {% else %}
+          <div class="row row-cols-1 row-cols-md-3">
+            {% for project in series_projects %}
+              {% include projects_creative.liquid %}
+            {% endfor %}
+          </div>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+        </section>
+      {% endif %}
+    {% endfor %}
+    
+    <!-- Display series with show: more under "Show more" section -->
+    {% if series_show_more.size > 0 %}
+      {% assign sorted_more_series = series_show_more | sort %}
+      <div data-read-more="Show more" data-read-less="Show less">
+        {% for series_key in sorted_more_series %}
+          {% assign series_projects = '' | split: '' %}
+          {% for item in categorized_projects %}
+            {% assign path_parts = item.path | split: '/' %}
+            {% if path_parts.size >= 3 and path_parts[2] == series_key %}
+              {% assign series_projects = series_projects | push: item %}
+            {% endif %}
+          {% endfor %}
+          {% assign series_projects = series_projects | sort: "importance" %}
+          
+          {% if series_projects.size > 0 %}
+            {% comment %} Get display name from series.yml, fallback to folder name with underscores replaced {% endcomment %}
+            {% assign series_display_name = series_key | replace: '_', ' ' %}
+            {% if site.data.series and site.data.series[series_key] and site.data.series[series_key].name %}
+              {% assign series_display_name = site.data.series[series_key].name %}
+            {% endif %}
+            
+            {% comment %} Check if this series has a custom layout defined {% endcomment %}
+            {% assign series_layout = null %}
+            {% if site.data.series and site.data.series[series_key] %}
+              {% assign series_layout = site.data.series[series_key].layout %}
+            {% endif %}
+            
+            {% comment %} Wrap each series in an isolated section to prevent layout interference {% endcomment %}
+            <section class="series-section" data-series-key="{{ series_key }}" data-series-layout="{{ series_layout | default: 'grid' }}">
+              <h3 class="series">{{ series_display_name }}</h3>
+          
+          {% if series_layout == 'flipbook' %}
+            {% include flipbook.liquid series_projects=series_projects series_name=series_display_name %}
+          {% elsif series_layout == 'carousel' %}
+            {% include carousel.liquid series_projects=series_projects series_name=series_display_name %}
+          {% elsif series_layout == 'masonry' %}
+            {% include masonry.liquid series_projects=series_projects series_name=series_display_name %}
+          {% elsif series_layout == 'thumbnails' %}
+            {% include thumbnails.liquid series_projects=series_projects series_name=series_display_name %}
+          {% else %}
+            {% comment %} Default card grid layout - show first 6, then toggle for rest {% endcomment %}
+            {% assign total_projects = series_projects.size %}
+            {% assign initial_count = 6 %}
+            {% if total_projects > initial_count %}
+              {% comment %} Split into visible and hidden items {% endcomment %}
+              {% if page.horizontal %}
+              <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 series-grid-visible">
+                {% for project in series_projects limit: initial_count %}
+                  {% include projects_creative_horizontal.liquid %}
+                {% endfor %}
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 series-grid-hidden" style="display: none;">
+                {% for project in series_projects offset: initial_count %}
+                  {% include projects_creative_horizontal.liquid %}
+                {% endfor %}
+                </div>
+                <div class="series-more-toggle-container">
+                  <button class="series-more-toggle" type="button" data-series-key="{{ series_key }}" aria-expanded="false">
+                    See more from this series
+                  </button>
+                </div>
+              </div>
+              {% else %}
+              <div class="row row-cols-1 row-cols-md-3 series-grid-visible">
+                {% for project in series_projects limit: initial_count %}
+                  {% include projects_creative.liquid %}
+                {% endfor %}
+              </div>
+              <div class="row row-cols-1 row-cols-md-3 series-grid-hidden" style="display: none;">
+                {% for project in series_projects offset: initial_count %}
+                  {% include projects_creative.liquid %}
+                {% endfor %}
+              </div>
+              <div class="series-more-toggle-container">
+                <button class="series-more-toggle" type="button" data-series-key="{{ series_key }}" aria-expanded="false">
+                  See more from this series
+                </button>
+              </div>
+              {% endif %}
+            {% else %}
+              {% comment %} Show all items if 6 or fewer {% endcomment %}
+              {% if page.horizontal %}
+              <div class="container">
+                <div class="row row-cols-1 row-cols-md-2">
+                {% for project in series_projects %}
+                  {% include projects_creative_horizontal.liquid %}
+                {% endfor %}
+                </div>
+              </div>
+              {% else %}
+              <div class="row row-cols-1 row-cols-md-3">
+                {% for project in series_projects %}
+                  {% include projects_creative.liquid %}
+                {% endfor %}
+              </div>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+            </section>
+          {% endif %}
+        {% endfor %}
+      </div>
     {% endif %}
     
     {% endfor %}
@@ -197,10 +451,97 @@ window.addEventListener('load', function() {
       }
     });
   });
+  
+  // Series grid "See more" toggle functionality
+  const seriesMoreToggles = document.querySelectorAll('.series-more-toggle');
+  
+  seriesMoreToggles.forEach(function(toggle) {
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const seriesKey = toggle.getAttribute('data-series-key');
+      const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+      const seriesSection = toggle.closest('.series-section');
+      
+      if (!seriesSection) return;
+      
+      const hiddenGrid = seriesSection.querySelector('.series-grid-hidden');
+      const visibleGrid = seriesSection.querySelector('.series-grid-visible');
+      
+      if (!hiddenGrid) return;
+      
+      if (isExpanded) {
+        // Collapse - hide additional items
+        hiddenGrid.style.display = 'none';
+        toggle.textContent = 'See more from this series';
+        toggle.setAttribute('aria-expanded', 'false');
+      } else {
+        // Expand - show additional items
+        hiddenGrid.style.display = '';
+        toggle.textContent = 'See less from this series';
+        toggle.setAttribute('aria-expanded', 'true');
+        
+        // Smooth scroll to show the newly revealed content
+        setTimeout(function() {
+          hiddenGrid.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 100);
+      }
+    });
+    
+    // Support keyboard navigation
+    toggle.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggle.click();
+      }
+    });
+  });
 });
 </script>
 
 <style>
+/* Series grid toggle styles */
+.series-grid-hidden {
+  margin-top: 1rem;
+}
+
+.series-more-toggle-container {
+  text-align: center;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+}
+
+.series-more-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  text-decoration: underline;
+  transition: opacity 0.3s ease;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.series-more-toggle:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.series-more-toggle:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  text-decoration: none;
+}
+
+.series-more-toggle[aria-expanded="true"]::after {
+  content: " (show less)";
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
 .creative-image-wrapper {
   position: relative;
 }
@@ -268,26 +609,6 @@ window.addEventListener('load', function() {
   text-decoration: none;
 }
 
-.image-modal-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #f1f1f1;
-  font-size: 30px;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 16px;
-  user-select: none;
-  z-index: 10000;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.image-modal-nav:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 .image-modal-prev {
   left: 20px;
 }
@@ -304,11 +625,6 @@ window.addEventListener('load', function() {
 }
 
 @media (max-width: 768px) {
-  .image-modal-nav {
-    font-size: 20px;
-    padding: 12px;
-  }
-  
   .image-modal-prev {
     left: 10px;
   }
@@ -323,4 +639,214 @@ window.addEventListener('load', function() {
     font-size: 30px;
   }
 }
+
+/* Thumbnails layout styles */
+.thumbnails-container {
+  margin: 1.5rem 0;
+}
+
+.thumbnails-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+}
+
+@media (min-width: 576px) {
+  .thumbnails-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .thumbnails-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.25rem;
+  }
+}
+
+.thumbnail-item {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.thumbnail-wrapper {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.thumbnail-image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.thumbnail-image-container:hover {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+
+.thumbnail-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 </style>
+
+{% comment %} Load flipbook, carousel, masonry, and poetry scripts/styles if needed {% endcomment %}
+{% assign has_flipbook = false %}
+{% assign has_carousel = false %}
+{% assign has_masonry = false %}
+{% assign has_poems = false %}
+{% if site.data.series %}
+  {% for category in page.display_categories %}
+    {% assign categorized_projects = site.creative | where: "category", category %}
+    {% assign all_series_keys = '' | split: '' %}
+    {% for item in categorized_projects %}
+      {% assign path_parts = item.path | split: '/' %}
+      {% if path_parts.size >= 3 %}
+        {% assign series_key = path_parts[2] %}
+        {% assign found = false %}
+        {% for existing_key in all_series_keys %}
+          {% if existing_key == series_key %}
+            {% assign found = true %}
+          {% endif %}
+        {% endfor %}
+        {% unless found %}
+          {% assign all_series_keys = all_series_keys | push: series_key %}
+        {% endunless %}
+      {% endif %}
+      {% if item.category == 'poems' %}
+        {% assign has_poems = true %}
+      {% endif %}
+    {% endfor %}
+    {% for series_key in all_series_keys %}
+      {% if site.data.series[series_key] %}
+        {% if site.data.series[series_key].layout == 'flipbook' %}
+          {% assign has_flipbook = true %}
+        {% elsif site.data.series[series_key].layout == 'carousel' %}
+          {% assign has_carousel = true %}
+        {% elsif site.data.series[series_key].layout == 'masonry' %}
+          {% assign has_masonry = true %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+{% if has_flipbook %}
+  <!-- jQuery is already loaded in scripts.liquid -->
+  <!-- Turn.js for flipbook (requires jQuery) -->
+  {% assign version_placeholder = '{{version}}' %}
+  <script
+    defer
+    src="{{ site.third_party_libraries.turnjs.url.js | replace: version_placeholder, site.third_party_libraries.turnjs.version }}"
+    integrity="{{ site.third_party_libraries.turnjs.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/sandbox/flipbook.js' | relative_url }}" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ '/sandbox/flipbook.css' | relative_url }}">
+{% endif %}
+
+{% if has_carousel %}
+  <!-- Carousel scripts already loaded via page.images.slider -->
+  <script defer src="{{ '/sandbox/carousel.js' | relative_url }}" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ '/sandbox/carousel.css' | relative_url }}">
+{% endif %}
+
+{% if has_masonry %}
+  <!-- Masonry layout (Masonry.js and imagesLoaded already loaded via enable_masonry) -->
+  <script defer src="{{ '/sandbox/masonry-layout.js' | relative_url }}" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ '/sandbox/masonry-layout.css' | relative_url }}">
+{% endif %}
+
+{% if has_poems %}
+  <!-- Poetry typewriter modal -->
+  <script defer src="{{ '/sandbox/poetry-typewriter.js' | relative_url }}" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ '/sandbox/poetry-typewriter.css' | relative_url }}">
+{% endif %}
+
+{% comment %} Read More Toggle functionality for show: more series {% endcomment %}
+{% comment %} Check if any series has show: more {% endcomment %}
+{% assign has_show_more = false %}
+{% if site.data.series %}
+  {% for category in page.display_categories %}
+    {% assign categorized_projects = site.creative | where: "category", category %}
+    {% assign all_series_keys = '' | split: '' %}
+    {% for item in categorized_projects %}
+      {% assign path_parts = item.path | split: '/' %}
+      {% if path_parts.size >= 3 %}
+        {% assign series_key = path_parts[2] %}
+        {% assign found = false %}
+        {% for existing_key in all_series_keys %}
+          {% if existing_key == series_key %}
+            {% assign found = true %}
+          {% endif %}
+        {% endfor %}
+        {% unless found %}
+          {% assign all_series_keys = all_series_keys | push: series_key %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+    {% for series_key in all_series_keys %}
+      {% if site.data.series[series_key] and site.data.series[series_key].show %}
+        {% assign series_show_raw = site.data.series[series_key].show %}
+        {% if series_show_raw != true and series_show_raw != false %}
+          {% assign series_show_check = series_show_raw | downcase %}
+          {% if series_show_check == 'more' %}
+            {% assign has_show_more = true %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+{% if has_show_more %}
+<style>
+/* Read More Toggle Styles */
+.js-enabled .read-more-content.read-more-collapsed {
+  display: none;
+}
+
+.js-enabled .read-more-content.read-more-expanded {
+  display: block;
+}
+
+.read-more-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  text-decoration: underline;
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+.read-more-toggle:hover,
+.read-more-toggle:focus {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.read-more-toggle:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.read-more-content {
+  transition: opacity 0.3s ease;
+}
+</style>
+
+<script src="{{ '/assets/js/read-more.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}

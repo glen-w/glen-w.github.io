@@ -1,0 +1,40 @@
+---
+abstract: ''
+authors: []
+bibtex_key: FirstSessionPreparatory28
+categories:
+- other
+date: 2016-April-01
+description: First Session of the Preparatory Committee Established by the UN General
+  Assembly Resolution 69/292 ...
+entry_type: Negotiation
+gallery:
+- first_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_figure_01
+- first_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_figure_02
+- first_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_figure_03
+- first_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_figure_04
+- first_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_figure_05
+- first_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_photo_01
+- first_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_photo_02
+layout: library-item
+location: United Nations, New York City, NY, USA
+pdf: Final_List_of_Participants_BBNJ.pdf
+preview: first_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_figure_01
+tags: []
+title: First Session of the Preparatory Committee Established by the UN General Assembly
+  Resolution 69/292 “Development of an International Legally Binding Instrument under
+  the United Nations Convention on the Law of the Sea on the Conservation and Sustainable
+  Use of Marine Biological Diversity of Areas Beyond National Jurisdiction”
+url: https://www.un.org/Depts/los/biodiversity/prepcom.htm
+venue: ''
+year: '2016'
+---
+
+## Publication Details
+
+**Location:** United Nations, New York City, NY, USA
+
+## Links and Resources
+
+- [Original URL](https://www.un.org/Depts/los/biodiversity/prepcom.htm)
+- [PDF](Final_List_of_Participants_BBNJ.pdf)

@@ -10,7 +10,6 @@ entry_type: Conference
 layout: library-item
 location: Brussels, Belgium
 pdf: Conference_report_Ocean_Action.pdf
-preview: thumbnail
 publisher: Seas at Risk
 tags: []
 title: Ocean Action

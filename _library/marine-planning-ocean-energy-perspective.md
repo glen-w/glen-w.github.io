@@ -11,7 +11,6 @@ description: 'Marine planning: an ocean energy perspective'
 entry_type: Book chapter
 layout: library-item
 pdf: Johnson and Wright - 2017 - Marine planning an ocean energy perspective.pdf
-preview: thumbnail
 publisher: Earthscan
 tags: []
 title: 'Marine planning: an ocean energy perspective'

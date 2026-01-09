@@ -21,24 +21,23 @@ import yaml
 from slugify import slugify
 import re
 
-# Add the processing directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from library.bib_parser import BibParser
-from library.content_generator import ContentGenerator
-from library.dynamic_filters import DynamicFiltersGenerator
+from processing.library.bib_parser import BibParser
+from processing.library.content_generator import ContentGenerator
+from processing.library.dynamic_filters import DynamicFiltersGenerator
 
 
 class LibraryPageGenerator:
     """Main class for generating library pages from BibTeX files."""
     
-    def __init__(self, bib_file=None, output_dir=None, test_mode=False):
+    def __init__(self, bib_file=None, output_dir=None, test_mode=False, skip_dynamic_filters=False, regenerate=False):
         """Initialize the generator.
         
         Args:
             bib_file (str): Path to the BibTeX file
             output_dir (str): Output directory for generated pages
             test_mode (bool): If True, only process 5 latest items with location
+            skip_dynamic_filters (bool): If True, skip dynamic filters generation
+            regenerate (bool): If True, delete existing markdown files before generating
         """
         # Get the project root directory (two levels up from this script)
         project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -46,6 +45,8 @@ class LibraryPageGenerator:
         self.bib_file = bib_file or os.path.join(project_root, "_bibliography", "papers.bib")
         self.output_dir = output_dir or os.path.join(project_root, "_library")
         self.test_mode = test_mode
+        self.skip_dynamic_filters = skip_dynamic_filters
+        self.regenerate = regenerate
         
         # Initialize components
         self.bib_parser = BibParser()
@@ -112,12 +113,16 @@ class LibraryPageGenerator:
     
     def generate_filename(self, entry):
         """Generate filename for the markdown page using proper accent handling."""
-        from core.text_processor import TextProcessor
-        from config import Configuration
+        from processing.core.text_processor import TextProcessor
+        from processing.config import Configuration
         
         # Use the same text processing logic as PDF generation
         config = Configuration()
         text_processor = TextProcessor(config)
+        
+        # Extract author prefix
+        author = entry.get('author', '')
+        author_prefix = text_processor.extract_author_names_for_filename(author)
         
         title = entry.get('title', 'untitled')
         if not title or title.strip() == '':
@@ -127,10 +132,13 @@ class LibraryPageGenerator:
         condensed_title = text_processor.remove_filler_words(title)
         
         # Use the new slugify method with proper accent handling
-        clean_title = text_processor.slugify_title(condensed_title, max_length=70)
+        clean_title = text_processor.slugify_title(condensed_title, max_length=200)
         
-        # Generate filename
-        filename = f"{clean_title}.md"
+        # Generate filename with author prefix if available
+        if author_prefix:
+            filename = f"{author_prefix}_{clean_title}.md"
+        else:
+            filename = f"{clean_title}.md"
         
         return filename
     
@@ -151,13 +159,44 @@ class LibraryPageGenerator:
         
         return filepath
     
+    def cleanup_existing_files(self):
+        """Clean up existing markdown files in output directory if regenerate mode is enabled."""
+        if not self.regenerate:
+            return
+        
+        print("🧹 Regenerate mode: Cleaning up existing library markdown files...")
+        
+        if not os.path.exists(self.output_dir):
+            return
+        
+        deleted_count = 0
+        for filename in os.listdir(self.output_dir):
+            if filename.endswith('.md'):
+                file_path = os.path.join(self.output_dir, filename)
+                try:
+                    os.remove(file_path)
+                    deleted_count += 1
+                    print(f"  🗑️  Deleted: {filename}")
+                except Exception as e:
+                    print(f"  ⚠️  Could not delete {filename}: {e}")
+        
+        if deleted_count > 0:
+            print(f"  ✅ Cleaned up {deleted_count} existing markdown files")
+        else:
+            print("  ℹ️  No existing markdown files to clean up")
+    
     def run(self):
         """Run the generation process."""
         print("Starting library page generation...")
         print(f"Mode: {'TEST' if self.test_mode else 'FULL'}")
+        if self.regenerate:
+            print("Regenerate mode: Will delete existing files before generating")
         print(f"BibTeX file: {self.bib_file}")
         print(f"Output directory: {self.output_dir}")
         print("-" * 50)
+        
+        # Clean up existing files if regenerate mode is enabled
+        self.cleanup_existing_files()
         
         # Load bibliography
         entries = self.load_bibliography()
@@ -181,10 +220,11 @@ class LibraryPageGenerator:
                 print(f"Error generating page for {entry.get('title', 'Unknown')}: {e}")
                 continue
         
-        # Generate dynamic filters
-        project_root = os.path.dirname(os.path.dirname(self.output_dir))
-        filters_generator = DynamicFiltersGenerator(project_root)
-        filters_generator.generate_filters(entries)
+        # Generate dynamic filters (unless skipped)
+        if not self.skip_dynamic_filters:
+            project_root = os.path.dirname(os.path.dirname(self.output_dir))
+            filters_generator = DynamicFiltersGenerator(project_root)
+            filters_generator.generate_filters(entries)
         
         print("-" * 50)
         print(f"Generation complete! Created {len(generated_files)} pages.")
@@ -226,13 +266,20 @@ Examples:
         help='Output directory for generated pages (default: _library)'
     )
     
+    parser.add_argument(
+        '--regenerate',
+        action='store_true',
+        help='Regenerate all files, deleting existing markdown files first'
+    )
+    
     args = parser.parse_args()
     
     # Create generator and run
     generator = LibraryPageGenerator(
         bib_file=args.bib_file,
         output_dir=args.output_dir,
-        test_mode=args.test
+        test_mode=args.test,
+        regenerate=args.regenerate
     )
     
     generator.run()

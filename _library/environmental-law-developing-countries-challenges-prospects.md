@@ -10,7 +10,7 @@ entry_type: Training
 layout: library-item
 location: Port Vila, Vanuatu
 pdf: brochure-for-environmental-law-in-developing-countries-2011.pdf
-preview: Picture 219a
+preview: environmental_law_developing_countries_challenges_prospects_figure_01
 tags: []
 title: 'Environmental Law in Developing Countries: Challenges and Prospects'
 venue: University of the South Pacific

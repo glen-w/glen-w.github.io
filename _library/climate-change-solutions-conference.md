@@ -9,7 +9,6 @@ description: Climate Change Solutions Conference
 entry_type: Conference
 layout: library-item
 pdf: Climate Change Solutions Conference.pdf
-preview: thumbnail
 tags: []
 title: Climate Change Solutions Conference
 venue: ''

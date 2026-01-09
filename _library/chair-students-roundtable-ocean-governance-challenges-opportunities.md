@@ -15,7 +15,7 @@ layout: library-item
 location: Sciences Po, Paris, France
 pdf: 'Discussion Highlights_ Chair and Students’ Roundtable #3 – European Chair for
   Sustainable Development and Climate Transition.pdf'
-preview: Roundtable3-2
+preview: chair_students_roundtable_ocean_governance_challenges_opportunities_figure_01
 tags: []
 title: 'Chair and Students’ Roundtable: Ocean Governance Challenges and Opportunities'
 url: https://webserver07.reims.sciences-po.fr/psia/chair-sustainable-development/2022/03/04/discussion-highlights-chair-and-students-roundtable-3-2/

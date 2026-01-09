@@ -217,7 +217,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 27%;
 
     .address {
       p {
@@ -705,23 +705,65 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
-  h2.category {
-    color: rgba(0, 0, 0, 0.55);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
-
   h3.series {
     font-size: 1rem;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.55);
     margin-top: 1.5rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
     padding-right: 1rem;
     text-align: right;
+    /* Ensure proper spacing between series sections */
+  }
+
+  /* Isolate each series section to prevent layout interference */
+  .series-section {
+    position: relative;
+    width: 100%;
+    clear: both;
+    display: block;
+    /* Isolate from parent grid/flex contexts */
+    isolation: isolate;
+    /* Prevent grid layout from affecting flipbook/carousel/masonry */
+    overflow: visible;
+    margin-bottom: 2rem;
+    
+    /* Ensure flipbook sections are fully isolated */
+    &[data-series-layout="flipbook"],
+    &[data-series-layout="carousel"],
+    &[data-series-layout="masonry"] {
+      contain: layout style;
+      /* Clear any float context */
+      clear: both;
+    }
+  }
+}
+
+// Shared category styling for projects and services
+h2.category {
+  color: rgba(0, 0, 0, 0.55);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+// Services
+
+.services {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      h2.category {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  figure img {
+    border-radius: 8px;
   }
 }
 
@@ -967,7 +1009,8 @@ footer.sticky-bottom {
         .filter-tags {
           display: flex;
           flex-wrap: wrap;
-          gap: 1rem;
+          gap: 0.3rem;
+          row-gap: 0.3rem;
           
           .badge, .tag {
             cursor: pointer;
@@ -1131,6 +1174,40 @@ footer.sticky-bottom {
       border-color: var(--global-text-color);
       padding: 1rem;
     }
+    
+    .documents-label {
+      font-weight: bold;
+      margin-bottom: 0.75rem;
+      color: var(--global-text-color);
+    }
+    
+    .documents-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .documents-list li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .document-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      color: var(--global-text-color);
+      transition: color 0.2s;
+      
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+      
+      i {
+        opacity: 0.7;
+      }
+    }
   }
 }
 
@@ -1231,6 +1308,10 @@ html.transition *:after {
         color: var(--global-theme-color);
       }
     }
+  }
+
+  ul li {
+    margin-bottom: 0.75rem;
   }
 }
 
@@ -1757,8 +1838,11 @@ figure.cover {
 
 // Dark theme overrides for H2 and H3 headings
 html[data-theme="dark"] {
+  h2.category {
+    color: #9a9a9a;
+  }
+
   .projects {
-    h2.category,
     h3.series {
       color: #9a9a9a;
     }

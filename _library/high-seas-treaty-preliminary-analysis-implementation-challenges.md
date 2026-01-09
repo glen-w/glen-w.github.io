@@ -9,7 +9,6 @@ description: 'High Seas Treaty: preliminary analysis and implementation challeng
 entry_type: Webinar
 layout: library-item
 pdf: agenda.pdf
-preview: thumbnail
 tags: []
 title: 'High Seas Treaty: preliminary analysis and implementation challenges'
 venue: ''

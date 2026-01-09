@@ -7,14 +7,10 @@ import tempfile
 import os
 import shutil
 from pathlib import Path
-import sys
 
-# Add the parent directory to Python path for imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-
-from generate_library_pages import LibraryPageGenerator
-from bib_parser import BibParser
-from content_generator import ContentGenerator
+from processing.library.generator import LibraryPageGenerator
+from processing.library.bib_parser import BibParser
+from processing.library.content_generator import ContentGenerator
 
 
 @pytest.fixture

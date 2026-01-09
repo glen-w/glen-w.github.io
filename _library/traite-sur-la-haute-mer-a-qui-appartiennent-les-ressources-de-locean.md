@@ -15,7 +15,6 @@ description: Les États membres de l’ONU reprennent les négociations d’un t
   L’un des principaux points de bloca...
 entry_type: Newspaper
 layout: library-item
-preview: thumbnail
 tags:
 - french
 title: 'Traité sur la haute mer : à qui appartiennent les ressources de l’océan ?'

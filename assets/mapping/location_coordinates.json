@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2025-11-25 16:10:20",
-    "total_locations": 66,
-    "successfully_geocoded": 59,
+    "generated_at": "2025-12-20 19:11:02",
+    "total_locations": 60,
+    "successfully_geocoded": 60,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
-    "refresh_mode": false,
+    "refresh_mode": true,
     "cache_only_mode": false
   },
   "locations": [
@@ -38,6 +38,20 @@
       "geocoded": true
     },
     {
+      "bibtex_key": "FourteenthSessionIRENA2024",
+      "title": "Fourteenth Session of the IRENA Assembly, Part II",
+      "address": "Abu Dhabi, United Arab Emirates",
+      "year": "2024",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": 24.4538352,
+        "lng": 54.3774014
+      },
+      "geocoded": true
+    },
+    {
       "bibtex_key": "NonuseMeasuresInternational2023",
       "title": "Non-use Measures in International Law",
       "address": "Utrecht, Netherlands",
@@ -52,6 +66,20 @@
       "geocoded": true
     },
     {
+      "bibtex_key": "1stPart28th2023",
+      "title": "1st Part of the 28th Annual Session of the International Seabed Authority (ISA)",
+      "address": "Kingston, Jamaica",
+      "year": "2023",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": 17.9712148,
+        "lng": -76.7928128
+      },
+      "geocoded": true
+    },
+    {
       "bibtex_key": "AreasNationalJurisdiction2022",
       "title": "Areas Beyond National Jurisdiction",
       "address": "Ashgabat, Turkmenistan",
@@ -62,6 +90,20 @@
       "coordinates": {
         "lat": 37.9378322,
         "lng": 58.2359467
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "OceansArchives05",
+      "title": "Oceans as Archives",
+      "address": "University of Amsterdam",
+      "year": "2022",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": 52.3681334,
+        "lng": 4.8898042
       },
       "geocoded": true
     },
@@ -124,13 +166,16 @@
     {
       "bibtex_key": "StrategicWorkshopInclusive2019",
       "title": "Strategic workshop: towards an inclusive blue economy",
-      "address": "Cumberland Lodge, Windsor Great Park, SL4 2HP, UK",
+      "address": "Windsor Great Park, SL4 2HP, UK",
       "year": "2019",
       "month": "",
       "entry_type": "inproceedings",
       "tag": "Workshop",
-      "coordinates": null,
-      "geocoded": false
+      "coordinates": {
+        "lat": 51.4422822,
+        "lng": -0.6281895
+      },
+      "geocoded": true
     },
     {
       "bibtex_key": "HighSeasHow2019",
@@ -175,16 +220,16 @@
       "geocoded": true
     },
     {
-      "bibtex_key": "StrategicWorkshopInclusive2019",
-      "title": "Strategic workshop: towards an inclusive blue economy",
-      "address": "Windsor Great Park, SL4 2HP, UK",
-      "year": "2019",
+      "bibtex_key": "TechnologicalToolsMonitoring2018",
+      "title": "Technological tools for Monitoring, Control and Surveillance in Marine Areas Beyond National Jurisdiction",
+      "address": "Sciences Po, Paris, France",
+      "year": "2018",
       "month": "",
       "entry_type": "inproceedings",
       "tag": "Workshop",
       "coordinates": {
-        "lat": 51.4422822,
-        "lng": -0.6281895
+        "lat": 48.8538978,
+        "lng": 2.3290212
       },
       "geocoded": true
     },
@@ -203,20 +248,6 @@
       "geocoded": true
     },
     {
-      "bibtex_key": "TechnologicalToolsMonitoring2018",
-      "title": "Technological tools for Monitoring, Control and Surveillance in Marine Areas Beyond National Jurisdiction",
-      "address": "Sciences Po, Paris, France",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Workshop",
-      "coordinates": {
-        "lat": 48.8538978,
-        "lng": 2.3290212
-      },
-      "geocoded": true
-    },
-    {
       "bibtex_key": "wrightAreabasedManagementTools2018",
       "title": "Area-based management tools",
       "address": "New York City, NY, USA",
@@ -227,31 +258,6 @@
       "coordinates": {
         "lat": 40.7127281,
         "lng": -74.0060152
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "wrightRoleTechnologyMonitoring2018",
-      "title": "Role of technology and Monitoring, Control and Surveillance in Marine Conservation and Management",
-      "address": "UN Headquarters, New York City, NY, USA",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Side Event",
-      "coordinates": null,
-      "geocoded": false
-    },
-    {
-      "bibtex_key": "OpportunitiesStrengtheningOcean2018",
-      "title": "Opportunities for Strengthening Ocean Governance in the Southeast Pacific",
-      "address": "Cali, Colombia",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Workshop",
-      "coordinates": {
-        "lat": 3.4108435,
-        "lng": -76.5812127
       },
       "geocoded": true
     },
@@ -270,131 +276,6 @@
       "geocoded": true
     },
     {
-      "bibtex_key": "wrightMarinePlanningHigh2018",
-      "title": "Marine Planning on the High Seas",
-      "address": "Nausicaá, Boulogne sur Mer, France",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Conference",
-      "coordinates": {
-        "lat": 50.7302561,
-        "lng": 1.5938399
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "CapacityBuildingWorkshop2018",
-      "title": "Capacity Building Workshop: UN Biodiversity Beyond National Jurisdiction (BBNJ) Negotiations",
-      "address": "307 West 38th Street Studio 1418, 10018 New York, NY, USA",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Training",
-      "coordinates": null,
-      "geocoded": false
-    },
-    {
-      "bibtex_key": "OpportunitiesStrengtheningOcean2018",
-      "title": "Opportunities for Strengthening Ocean Governance in the Southeast Pacific",
-      "address": "Hotel Dann Carlton, Cali, Colombia",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Workshop",
-      "coordinates": null,
-      "geocoded": false
-    },
-    {
-      "bibtex_key": "CapacityBuildingWorkshop2018",
-      "title": "Capacity Building Workshop: UN Biodiversity Beyond National Jurisdiction (BBNJ) Negotiations",
-      "address": "307 West 38th Street, 10018 New York, NY, USA",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Training",
-      "coordinates": {
-        "lat": 40.7550216,
-        "lng": -73.9920584
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "OpportunitiesStrengtheningOcean2018",
-      "title": "Opportunities for Strengthening Ocean Governance in the Southeast Pacific",
-      "address": "Hotel Dann Carlton Cali, Cali, Colombia",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Workshop",
-      "coordinates": null,
-      "geocoded": false
-    },
-    {
-      "bibtex_key": "SecondMeetingSustainable2018",
-      "title": "Second Meeting of the Sustainable Ocean Initiative Global Dialogue with Regional Seras Organizations and Regional Fisheries Bodies on Accelerating Progress Towards the Aichi Biodiversity Targets and Sustainable Development Goals",
-      "address": "The Westin Chosun Seoul Hotel, Seoul, South Korea",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Workshop",
-      "coordinates": null,
-      "geocoded": false
-    },
-    {
-      "bibtex_key": "ExploringWorldHeritage2018",
-      "title": "Exploring the World Heritage Convention for High Seas Conservation",
-      "address": "Monte Carlo, Monaco",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Workshop",
-      "coordinates": {
-        "lat": 43.7402961,
-        "lng": 7.426559
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "wrightGobernanzaRegionalZonas2018",
-      "title": "Gobernanza regional en las zonas fuera de la jurisdiccion nacional: Que aprendimos y como avanzar",
-      "address": "Guayacquil, Ecuador",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Workshop",
-      "coordinates": null,
-      "geocoded": false
-    },
-    {
-      "bibtex_key": "MakingReformHappen2018",
-      "title": "Making reform happen for sustainable fisheries",
-      "address": "OECD, Paris, France",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Conference",
-      "coordinates": {
-        "lat": 48.8616738,
-        "lng": 2.2692357
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "wrightRoleTechnologyMonitoring2018",
-      "title": "Role of technology and Monitoring, Control and Surveillance in Marine Conservation and Management",
-      "address": "United Nations Headquarters, New York City, NY, USA",
-      "year": "2018",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Side Event",
-      "coordinates": {
-        "lat": 40.7496292,
-        "lng": -73.96739
-      },
-      "geocoded": true
-    },
-    {
       "bibtex_key": "CapacityBuildingWorkshop2018",
       "title": "Capacity Building Workshop: UN Biodiversity Beyond National Jurisdiction (BBNJ) Negotiations",
       "address": "307 West 38th Street, New York, NY, USA",
@@ -405,6 +286,34 @@
       "coordinates": {
         "lat": 40.7550216,
         "lng": -73.9920584
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "OpportunitiesStrengtheningOcean2018",
+      "title": "Opportunities for Strengthening Ocean Governance in the Southeast Pacific",
+      "address": "Cali, Colombia",
+      "year": "2018",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Workshop",
+      "coordinates": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightMarinePlanningHigh2018",
+      "title": "Marine Planning on the High Seas",
+      "address": "Nausicaá, Boulogne sur Mer, France",
+      "year": "2018",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": 50.7302561,
+        "lng": 1.5938399
       },
       "geocoded": true
     },
@@ -423,6 +332,34 @@
       "geocoded": true
     },
     {
+      "bibtex_key": "ExploringWorldHeritage2018",
+      "title": "Exploring the World Heritage Convention for High Seas Conservation",
+      "address": "Monte Carlo, Monaco",
+      "year": "2018",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Workshop",
+      "coordinates": {
+        "lat": 43.7402961,
+        "lng": 7.426559
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "MakingReformHappen2018",
+      "title": "Making reform happen for sustainable fisheries",
+      "address": "OECD, Paris, France",
+      "year": "2018",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": 48.8616738,
+        "lng": 2.2692357
+      },
+      "geocoded": true
+    },
+    {
       "bibtex_key": "wrightPartneringSustainableOcean2017",
       "title": "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing SDG14",
       "address": "Hong Kong",
@@ -431,8 +368,22 @@
       "entry_type": "inproceedings",
       "tag": "Conference",
       "coordinates": {
-        "lat": 22.350627,
-        "lng": 114.1849161
+        "lat": 22.2792968,
+        "lng": 114.1628907
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "iucnBiodiversityNationalJurisdictions2017",
+      "title": "Biodiversity Beyond National Jurisdictions: Area-based Management Tools, including Marine Protected Areas",
+      "address": "Gland, Switzerland",
+      "year": "2017",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Workshop",
+      "coordinates": {
+        "lat": 46.4239425,
+        "lng": 6.2655115
       },
       "geocoded": true
     },
@@ -465,34 +416,6 @@
       "geocoded": true
     },
     {
-      "bibtex_key": "iucnBiodiversityNationalJurisdictions2017",
-      "title": "Biodiversity Beyond National Jurisdictions: Area-based Management Tools, including Marine Protected Areas",
-      "address": "Gland, Switzerland",
-      "year": "2017",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Workshop",
-      "coordinates": {
-        "lat": 46.4239425,
-        "lng": 6.2655115
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "wrightEnvironmentalImpactAssessment2016b",
-      "title": "Environmental Impact Assessment and Overarching Provisions",
-      "address": "United Nations, New York City, NY, USA",
-      "year": "2016",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Side Event",
-      "coordinates": {
-        "lat": 40.7502142,
-        "lng": -73.9672718
-      },
-      "geocoded": true
-    },
-    {
       "bibtex_key": "HighSeasTreaty2016",
       "title": "UN High Seas treaty negotiations",
       "address": "New York, NY, USA",
@@ -507,15 +430,16 @@
       "geocoded": true
     },
     {
-      "bibtex_key": "wrightEnvironmentalImpactAssessment2016",
+      "bibtex_key": "wrightEnvironmentalImpactAssessment2016c",
       "title": "Environmental Impact Assessment: Developing options for ABNJ",
-      "address": "Costa Rica",
+      "address": "Guanacaste, Costa Rica",
       "year": "2016",
       "month": "",
-      "entry_type": "misc",
+      "entry_type": "inproceedings",
+      "tag": "Workshop",
       "coordinates": {
-        "lat": 10.2735633,
-        "lng": -84.0739102
+        "lat": 10.3788441,
+        "lng": -85.4338287
       },
       "geocoded": true
     },
@@ -548,16 +472,16 @@
       "geocoded": true
     },
     {
-      "bibtex_key": "wrightEnvironmentalImpactAssessment2016c",
-      "title": "Environmental Impact Assessment: Developing options for ABNJ",
-      "address": "Guanacaste, Costa Rica",
+      "bibtex_key": "CommOcean2ndInternational2016",
+      "title": "CommOcean: 2nd International Marine Science Communication Conference",
+      "address": "Bruges, Belgium",
       "year": "2016",
       "month": "",
       "entry_type": "inproceedings",
-      "tag": "Workshop",
+      "tag": "Conference",
       "coordinates": {
-        "lat": 10.3788441,
-        "lng": -85.4338287
+        "lat": 51.2085526,
+        "lng": 3.226772
       },
       "geocoded": true
     },
@@ -646,6 +570,34 @@
       "geocoded": true
     },
     {
+      "bibtex_key": "EuropeanResearchAgenda2015",
+      "title": "Towards a European Research Agenda for Ocean Governance: An Expert Workshop",
+      "address": "Avenue de Cortenbergh 12, 1040 Brussels, Belgium",
+      "year": "2015",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Workshop",
+      "coordinates": {
+        "lat": 50.8431935,
+        "lng": 4.3853454
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "EighthMeetingAd2014",
+      "title": "Eighth meeting of the Ad Hoc Open-ended Informal Working Group to study issues relating to the conservation and sustainable use of marine biological diversity beyond areas of national jurisdiction",
+      "address": "United Nations, New York City, NY, USA",
+      "year": "2014",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Negotiation",
+      "coordinates": {
+        "lat": 40.7502142,
+        "lng": -73.9672718
+      },
+      "geocoded": true
+    },
+    {
       "bibtex_key": "wrightMarineSpatialPlanning2014",
       "title": "Marine Spatial Planning in Areas Beyond National Jurisdiction: developing a research agenda",
       "address": "Paris, France",
@@ -654,22 +606,8 @@
       "entry_type": "misc",
       "tag": "Workshop",
       "coordinates": {
-        "lat": 48.8534951,
-        "lng": 2.3483915
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "Rochette2014c",
-      "title": "Governing the “High Seas” - Linking global governance and regional implementation",
-      "address": "Potsdam, Germany",
-      "year": "2014",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Report",
-      "coordinates": {
-        "lat": 52.4009309,
-        "lng": 13.0591397
+        "lat": 48.8588897,
+        "lng": 2.320041
       },
       "geocoded": true
     },
@@ -688,6 +626,20 @@
       "geocoded": true
     },
     {
+      "bibtex_key": "Rochette2014c",
+      "title": "Governing the “High Seas” - Linking global governance and regional implementation",
+      "address": "Potsdam, Germany",
+      "year": "2014",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Report",
+      "coordinates": {
+        "lat": 52.4009309,
+        "lng": 13.0591397
+      },
+      "geocoded": true
+    },
+    {
       "bibtex_key": "wrightNewInternationalInstrument2014",
       "title": "Towards a new international instrument on the conservation and sustainable use of marine biodiversity in ABNJ",
       "address": "Malta",
@@ -696,22 +648,8 @@
       "entry_type": "inproceedings",
       "tag": "Training",
       "coordinates": {
-        "lat": 35.8885993,
-        "lng": 14.4476911
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "wrightNewInternationalAgreement2014",
-      "title": "Towards a New International Agreement on High Seas Biodiversity",
-      "address": "Sydney, Australia",
-      "year": "2014",
-      "month": "",
-      "entry_type": "misc",
-      "tag": "Workshop",
-      "coordinates": {
-        "lat": -33.8698439,
-        "lng": 151.2082848
+        "lat": 35.9311442,
+        "lng": 14.3951627
       },
       "geocoded": true
     },
@@ -726,6 +664,20 @@
       "coordinates": {
         "lat": 42.2507678,
         "lng": -7.0260508
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightNewInternationalAgreement2014",
+      "title": "Towards a New International Agreement on High Seas Biodiversity",
+      "address": "Sydney, Australia",
+      "year": "2014",
+      "month": "",
+      "entry_type": "misc",
+      "tag": "Workshop",
+      "coordinates": {
+        "lat": -33.8698439,
+        "lng": 151.2082848
       },
       "geocoded": true
     },
@@ -772,6 +724,20 @@
       "geocoded": true
     },
     {
+      "bibtex_key": "InternationalAssociationImpact2012",
+      "title": "International Association for Impact Assessment Annual Conference",
+      "address": "Lisbon, Portugal",
+      "year": "2012",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": 38.7077507,
+        "lng": -9.1365919
+      },
+      "geocoded": true
+    },
+    {
       "bibtex_key": "wrightWildLaw2012",
       "title": "Wild Law",
       "address": "Canberra, Australia",
@@ -814,16 +780,16 @@
       "geocoded": true
     },
     {
-      "bibtex_key": "InternationalAssociationImpact2012",
-      "title": "International Association for Impact Assessment Annual Conference",
-      "address": "Lisbon, Portugal",
+      "bibtex_key": "AustralianNationalUniversity2012",
+      "title": "Australian National University student delegation to Rio+20",
+      "address": "Rio de Janeiro, Brasil",
       "year": "2012",
       "month": "",
       "entry_type": "inproceedings",
       "tag": "Conference",
       "coordinates": {
-        "lat": 38.7077507,
-        "lng": -9.1365919
+        "lat": -22.9110137,
+        "lng": -43.2093727
       },
       "geocoded": true
     },
@@ -838,20 +804,6 @@
       "coordinates": {
         "lat": -22.9796815,
         "lng": -43.2331377
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "AustralianNationalUniversity2012",
-      "title": "Australian National University student delegation to Rio+20",
-      "address": "Rio de Janeiro, Brasil",
-      "year": "2012",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Conference",
-      "coordinates": {
-        "lat": -22.9110137,
-        "lng": -43.2093727
       },
       "geocoded": true
     },
@@ -880,20 +832,6 @@
       "coordinates": {
         "lat": -17.7414972,
         "lng": 168.3150163
-      },
-      "geocoded": true
-    },
-    {
-      "bibtex_key": "ModelUnitedNations2010",
-      "title": "Model United Nations",
-      "address": "Taipei, Taiwan",
-      "year": "2010",
-      "month": "",
-      "entry_type": "inproceedings",
-      "tag": "Conference",
-      "coordinates": {
-        "lat": 25.0375198,
-        "lng": 121.5636796
       },
       "geocoded": true
     },

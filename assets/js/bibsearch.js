@@ -51,9 +51,20 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const updateInputField = () => {
+    // Check if this is a jump action - if so, don't use hash for search
+    const urlParams = new URLSearchParams(window.location.search);
+    const action = urlParams.get('action');
+    
+    // If action=jump, skip hash-based search (hash is for scrolling, not searching)
+    if (action === 'jump') {
+      return;
+    }
+    
     const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
-    document.getElementById("bibsearch").value = hashValue;
-    filterItems(hashValue);
+    if (hashValue) {
+      document.getElementById("bibsearch").value = hashValue;
+      filterItems(hashValue);
+    }
   };
 
   // Sensitive search. Only start searching if there's been no input for 300 ms

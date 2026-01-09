@@ -30,7 +30,10 @@ nav_order: 10
     <div class="filter-group-title">type</div>
     <div class="filter-tags">
       {% for entry_type in site.data.dynamic_filters.entry_types %}
-        <a href="#" onclick="filterByTag('{{ entry_type }}'); return false;" class="badge badge-light">{{ entry_type }}</a>
+        {% assign count = site.data.dynamic_filters.entry_type_counts[entry_type] | default: 0 %}
+        {% if count > 0 %}
+          <a href="#" onclick="filterByTag('{{ entry_type }}'); return false;" class="badge badge-light">{{ entry_type }} ({{ count }})</a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -40,7 +43,10 @@ nav_order: 10
     <div class="filter-group-title">role</div>
     <div class="filter-tags">
       {% for role_tag in site.data.dynamic_filters.role_tags %}
-        <a href="#" onclick="filterByTag('{{ role_tag }}'); return false;" class="tag">{{ role_tag }}</a>
+        {% assign count = site.data.dynamic_filters.role_tag_counts[role_tag] | default: 0 %}
+        {% if count > 0 %}
+          <a href="#" onclick="filterByTag('{{ role_tag }}'); return false;" class="tag">{{ role_tag }} ({{ count }})</a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -50,7 +56,10 @@ nav_order: 10
     <div class="filter-group-title">language</div>
     <div class="filter-tags">
       {% for language_tag in site.data.dynamic_filters.language_tags %}
-        <a href="#" onclick="filterByTag('{{ language_tag }}'); return false;" class="tag">{{ language_tag }}</a>
+        {% assign count = site.data.dynamic_filters.language_tag_counts[language_tag] | default: 0 %}
+        {% if count > 0 %}
+          <a href="#" onclick="filterByTag('{{ language_tag }}'); return false;" class="tag">{{ language_tag }} ({{ count }})</a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -161,12 +170,6 @@ nav_order: 10
   margin-bottom: 1rem;
 }
 
-/* Increased spacing for all filter tags */
-.filter-group .filter-tags {
-  gap: 1rem;
-  row-gap: 2.5rem;
-}
-
 .filter-group.role-tags-filters {
   margin-bottom: 1rem;
 }
@@ -183,14 +186,19 @@ nav_order: 10
 }
 
 /* Additional styling for filter badges and tags to match bibliography behavior */
+.library-filters .filter-tags {
+  gap: 0 !important; /* Disable gap, using margin instead for more reliable spacing */
+  row-gap: 0 !important;
+}
+
 .library-filters .filter-tags .badge,
 .library-filters .filter-tags .tag {
   cursor: pointer;
   user-select: none;
   text-decoration: none;
   color: inherit;
-  margin-right: 0 !important; /* Override bibliography margin to use gap instead */
-  margin-bottom: 0 !important; /* Override bibliography margin to use gap instead */
+  margin-right: 0.3rem !important; /* Horizontal spacing between tags */
+  margin-bottom: 0.3rem !important; /* Vertical spacing between rows */
   padding: 0.2rem 0.35rem; /* Smaller padding for filter badges */
   font-size: 0.8rem;
   
@@ -391,10 +399,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
   
-  // Initialize filter counts on page load with a delay to ensure bibliography is rendered
-  setTimeout(() => {
-    updateFilterCounts();
-  }, 200);
+  // Filter counts are now pre-calculated during build time and displayed in the template
+  // No need to calculate counts dynamically on page load
   
   // Check on page load for active filters/search and hide selected publications if needed
   // Reuse searchInput variable declared on line 358
@@ -569,73 +575,50 @@ function clearActiveTags() {
   });
 }
 
-function updateFilterCounts() {
-  // Count items for each filter category
-  const filterButtons = document.querySelectorAll('.library-filters .filter-tags a.badge, .library-filters .filter-tags a.tag');
-  
-  filterButtons.forEach(button => {
-    const filterText = button.textContent.replace(/\s*\(\d+\)\s*$/, ''); // Remove existing count
-    const count = countItemsForFilter(filterText);
-    
-    if (count > 0) {
-      button.textContent = `${filterText} (${count})`;
-      button.style.display = 'inline-flex';
-    } else {
-      button.style.display = 'none';
-    }
-  });
-  
-  // Also update the total item count display
-  updateItemCount();
-}
-
-function countItemsForFilter(filterText) {
-  // Get all bibliography items (unfiltered)
-  const allItems = document.querySelectorAll('.publications ol.bibliography li');
-  let count = 0;
-  
-  // Debug: log the filter text and total items
-  console.log(`Counting items for filter: "${filterText}", total items: ${allItems.length}`);
-  
-  allItems.forEach((item, index) => {
-    // Skip group headers - they typically don't have the full bibliography structure
-    const hasTitle = item.querySelector('.title');
-    const hasAuthor = item.querySelector('.author');
-    const hasLinks = item.querySelector('.links');
-    const isGroupHeader = !hasTitle && !hasAuthor && !hasLinks;
-    
-    if (isGroupHeader) {
-      console.log(`Skipping group header item ${index}`);
-      return;
-    }
-    
-    // Temporarily make sure item is visible for counting (remove unloaded class and inline styles)
-    const originalDisplay = item.style.display;
-    const hadUnloadedClass = item.classList.contains('unloaded');
-    item.style.display = '';
-    item.classList.remove('unloaded');
-    
-    // Check if this item matches the filter
-    const matches = itemMatchesFilter(item, filterText);
-    if (matches) {
-      count++;
-      console.log(`Item ${index} matches filter "${filterText}":`, item.textContent.substring(0, 100));
-    }
-    
-    // Restore original display state
-    item.style.display = originalDisplay;
-    if (hadUnloadedClass) {
-      item.classList.add('unloaded');
-    }
-  });
-  
-  console.log(`Filter "${filterText}" count: ${count}`);
-  return count;
-}
+// Filter counts are now pre-calculated during build time in the paper processing script
+// and displayed directly in the Jekyll template. No JavaScript counting needed.
 
 function itemMatchesFilter(item, filterText) {
   const itemText = item.textContent.toLowerCase();
   const filterLower = filterText.toLowerCase();
+  
+  // CRITICAL: For single-word filters that are part of compound terms, check badges first
+  // This prevents "book" from matching items with "Book Chapter" or "Book Section" badges
+  const compoundTermFilters = {
+    'book': ['book chapter', 'book section'],
+    'conference': ['conference paper'],
+    'thesis': ['phd thesis', 'master\'s thesis']
+  };
+  
+  if (compoundTermFilters[filterLower]) {
+    // Check badges for compound terms
+    const itemTypeBadges = item.querySelectorAll('.item-type-and-roles .badge');
+    if (itemTypeBadges.length > 0) {
+      const hasCompoundBadge = Array.from(itemTypeBadges).some(badge => {
+        const badgeText = badge.textContent.toLowerCase().trim();
+        return compoundTermFilters[filterLower].some(term => badgeText === term);
+      });
+      
+      if (hasCompoundBadge) {
+        // Item has a compound term badge (e.g., "Book Chapter"), so it should NOT match the simple filter (e.g., "book")
+        if (filterLower === 'book') {
+          const badgeTexts = Array.from(itemTypeBadges).map(b => b.textContent.trim());
+          console.log(`  ✗ Early rejection: Item has compound badge [${badgeTexts.join(', ')}] - cannot match "${filterLower}"`);
+        }
+        return false;
+      }
+    }
+    
+    // Also check item text for compound terms (for items without badges)
+    const hasCompoundTermInText = compoundTermFilters[filterLower].some(term => itemText.includes(term));
+    if (hasCompoundTermInText) {
+      if (filterLower === 'book') {
+        const foundTerm = compoundTermFilters[filterLower].find(term => itemText.includes(term));
+        console.log(`  ✗ Early rejection: Item text contains compound term "${foundTerm}" - cannot match "${filterLower}"`);
+      }
+      return false;
+    }
+  }
   
   // First, check if this is a role tag filter by looking for role tags in the item
   // FIXED: Use correct CSS selector .item-type-and-roles instead of .item-type
@@ -672,19 +655,28 @@ function itemMatchesFilter(item, filterText) {
   // CRITICAL: If item has a badge, ONLY match on that badge - never match on title text
   // This ensures "Conference" filter doesn't match items with "conference" in title but "Journal Article" badge
   if (itemTypeBadges.length > 0) {
+    const badgeTexts = Array.from(itemTypeBadges).map(b => b.textContent.trim());
     const hasItemTypeBadge = Array.from(itemTypeBadges).some(badge => {
       const badgeText = badge.textContent.toLowerCase().trim();
       // Use case-insensitive exact match - this ensures "Conference" doesn't match "Conference Paper"
-      return badgeText === filterLower;
+      const matches = badgeText === filterLower;
+      if (filterLower === 'book') {
+        console.log(`  Badge check: "${badgeText}" === "${filterLower}" ? ${matches}`);
+      }
+      return matches;
     });
     
     if (hasItemTypeBadge) {
-      console.log(`Item type badge "${filterLower}" found in item`);
+      if (filterLower === 'book') {
+        console.log(`  ✓ Matched by badge: [${badgeTexts.join(', ')}]`);
+      }
       return true;
     } else {
       // Item has a badge but it doesn't match - return false immediately
       // Do NOT check title text or patterns - badges are the source of truth
-      console.log(`Item has badge but doesn't match "${filterLower}" - returning false`);
+      if (filterLower === 'book') {
+        console.log(`  ✗ Badge mismatch: [${badgeTexts.join(', ')}] !== "${filterLower}" - returning false`);
+      }
       return false;
     }
   }
@@ -724,15 +716,50 @@ function itemMatchesFilter(item, filterText) {
   // Only use pattern matching if no badge was found
   // This prevents double-counting and ensures badges are the source of truth
   if (patterns[filterLower]) {
-    const patternMatches = patterns[filterLower].some(pattern => {
-      const matches = itemText.includes(pattern);
-      if (matches) {
-        console.log(`Pattern "${pattern}" matched in item text (no badge found)`);
+    // For single-word filters that could be part of compound terms (like "book" in "book chapter"),
+    // check for compound terms BEFORE pattern matching to avoid false positives
+    const compoundTerms = {
+      'book': ['book chapter', 'book section'],
+      'conference': ['conference paper'],
+      'thesis': ['phd thesis', 'master\'s thesis']
+    };
+    
+    // If this filter has compound terms, check if item contains any of them
+    if (compoundTerms[filterLower]) {
+      const hasCompoundTerm = compoundTerms[filterLower].some(term => itemText.includes(term));
+      if (hasCompoundTerm) {
+        // Item contains a compound term, so don't match the single word pattern
+        // Return false immediately - don't continue to fallback matching
+        const foundTerm = compoundTerms[filterLower].find(term => itemText.includes(term));
+        if (filterLower === 'book') {
+          console.log(`  ✗ Pattern match skipped - item contains compound term: "${foundTerm}"`);
+        }
+        return false;
+      } else {
+        // No compound term found, proceed with pattern matching
+        const patternMatches = patterns[filterLower].some(pattern => {
+          const matches = itemText.includes(pattern);
+          if (matches) {
+            console.log(`Pattern "${pattern}" matched in item text (no badge found)`);
+          }
+          return matches;
+        });
+        if (patternMatches) {
+          return true;
+        }
       }
-      return matches;
-    });
-    if (patternMatches) {
-      return true;
+    } else {
+      // No compound terms to worry about, proceed with normal pattern matching
+      const patternMatches = patterns[filterLower].some(pattern => {
+        const matches = itemText.includes(pattern);
+        if (matches) {
+          console.log(`Pattern "${pattern}" matched in item text (no badge found)`);
+        }
+        return matches;
+      });
+      if (patternMatches) {
+        return true;
+      }
     }
   }
   
@@ -779,38 +806,44 @@ function updateItemCount() {
   const countText = document.getElementById('itemCountText');
   
   if (countDisplay && countText) {
-    // Count visible bibliography items (not hidden by unloaded class or inline styles)
-    // Exclude group headers by filtering out items that don't have the expected bibliography structure
-    const allItems = document.querySelectorAll('.publications ol.bibliography li');
+    // Get the count from the active filter button (which contains pre-calculated count from YAML)
+    const activeButton = document.querySelector('.library-filters .filter-tags a.badge.active, .library-filters .filter-tags a.tag.active');
+    
+    if (activeButton) {
+      // Extract count from button text (e.g., "Book (2)" -> 2)
+      const buttonText = activeButton.textContent.trim();
+      const countMatch = buttonText.match(/\((\d+)\)/);
+      
+      if (countMatch) {
+        const count = parseInt(countMatch[1], 10);
+        countText.textContent = `showing ${count} item${count !== 1 ? 's' : ''}`;
+        countDisplay.classList.add('show');
+        countDisplay.style.display = 'block';
+        return;
+      }
+    }
+    
+    // Fallback: if no active filter, count visible items (for search queries)
     const visibleItems = document.querySelectorAll('.publications ol.bibliography li:not(.unloaded):not([style*="display: none"])');
     
     // Filter out group headers - they typically don't have the full bibliography structure
     const actualItems = Array.from(visibleItems).filter(item => {
-      // Group headers typically don't have title, author, or other bibliography elements
       const hasTitle = item.querySelector('.title');
       const hasAuthor = item.querySelector('.author');
       const hasLinks = item.querySelector('.links');
-      
-      // If it has at least one of these elements, it's a real bibliography item
       return hasTitle || hasAuthor || hasLinks;
     });
     
     const count = actualItems.length;
     
-    console.log(`Updating item count: ${count} actual items out of ${allItems.length} total items (${visibleItems.length} visible)`);
-    
-    // Debug: log all items to see what's being counted
-    console.log('All bibliography items:');
-    allItems.forEach((item, index) => {
-      const isGroupHeader = !item.querySelector('.title') && !item.querySelector('.author') && !item.querySelector('.links');
-      console.log(`Item ${index} (${isGroupHeader ? 'GROUP HEADER' : 'BIBLIOGRAPHY ITEM'}):`, item.textContent.substring(0, 100));
-    });
-    
-    countText.textContent = `showing ${count} item${count !== 1 ? 's' : ''}`;
-    countDisplay.classList.add('show');
-    countDisplay.style.display = 'block';
+    if (count > 0) {
+      countText.textContent = `showing ${count} item${count !== 1 ? 's' : ''}`;
+      countDisplay.classList.add('show');
+      countDisplay.style.display = 'block';
+    } else {
+      hideItemCount();
+    }
   }
-  
 }
 
 

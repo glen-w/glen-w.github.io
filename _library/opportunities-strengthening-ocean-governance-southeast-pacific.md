@@ -8,13 +8,13 @@ date: 2018-June-01
 description: Opportunities for Strengthening Ocean Governance in the Southeast Pacific
 entry_type: Workshop
 gallery:
-- All-participants
-- IMG_0478
-- Sandor-Mulsow-ISA-Sebastian-Rodriguez-SPRFMO-Shane-Griffiths-IATTC-Glen-Wright-IDDRI-left-to-right
+- opportunities_strengthening_ocean_governance_southeast_pacific_photo_01
+- opportunities_strengthening_ocean_governance_southeast_pacific_photo_02
+- opportunities_strengthening_ocean_governance_southeast_pacific_photo_03
 layout: library-item
 location: Cali, Colombia
 pdf: Workshop-Summary-Cali_English.pdf
-preview: All-participants
+preview: opportunities_strengthening_ocean_governance_southeast_pacific_photo_01
 tags: []
 title: Opportunities for Strengthening Ocean Governance in the Southeast Pacific
 venue: ''

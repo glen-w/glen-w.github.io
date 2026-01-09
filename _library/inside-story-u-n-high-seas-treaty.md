@@ -10,7 +10,6 @@ description: The Inside Story of the U.N. High Seas Treaty
 entry_type: Newspaper
 layout: library-item
 pdf: Marlow - The Inside Story of the U.N. High Seas Treaty.pdf
-preview: thumbnail
 tags: []
 title: The Inside Story of the U.N. High Seas Treaty
 url: https://www.newyorker.com/news/daily-comment/the-inside-story-of-the-un-high-seas-treaty

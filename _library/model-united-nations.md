@@ -8,14 +8,14 @@ date: 2010-March-01
 description: Model United Nations
 entry_type: Conference
 gallery:
-- 24826_10150154359050484_696620483_11651117_4564583_n
-- DSCF7072
-- DSCF7091
-- DSCF7206
-- thumbnail
+- model_united_nations_figure_01
+- model_united_nations_photo_01
+- model_united_nations_photo_02
+- model_united_nations_photo_03
+- model_united_nations_photo_04
 layout: library-item
 location: Taipei International Convention Center, Taipei, Taiwan
-preview: 24826_10150154359050484_696620483_11651117_4564583_n
+preview: model_united_nations_figure_01
 tags:
 - delegate
 title: Model United Nations

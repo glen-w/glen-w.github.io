@@ -321,12 +321,56 @@ class BibParser:
         """Extract image files from entry."""
         images = []
         
+        # Invalid image names to filter out
+        invalid_names = {'pdf', 'thumbnail', 'thumb', 'preview', 'image', 'photo', 'figure'}
+        
+        def is_valid_image_name(img_name: str) -> bool:
+            """Check if an image name is valid."""
+            if not img_name or not img_name.strip():
+                return False
+            
+            img_lower = img_name.lower().strip()
+            
+            # Filter out invalid generic names
+            if img_lower in invalid_names:
+                return False
+            
+            # Must contain at least one character that's not just generic text
+            # Valid image names typically have alphanumeric characters, underscores, hyphens
+            # and should not be just generic words
+            if len(img_lower) < 3:
+                return False
+            
+            return True
+        
+        def clean_image_filename(filename: str) -> str:
+            """Clean and normalize image filename by removing extension."""
+            if not filename:
+                return ''
+            
+            # Remove file extension if present (layout template adds paths)
+            # Common image extensions
+            extensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg']
+            filename_lower = filename.lower()
+            for ext in extensions:
+                if filename_lower.endswith(ext):
+                    # Remove extension
+                    return filename[:-len(ext)]
+            
+            return filename.strip()
+        
         # Direct image fields
         if entry.get('preview'):
-            images.append(entry['preview'])
+            preview = clean_image_filename(entry['preview'])
+            if is_valid_image_name(preview):
+                images.append(preview)
+        
         if entry.get('photos'):
             photos = entry['photos'].split(',')
-            images.extend([photo.strip() for photo in photos if photo.strip()])
+            for photo in photos:
+                photo = clean_image_filename(photo.strip())
+                if is_valid_image_name(photo):
+                    images.append(photo)
         
         # Extract from file field
         file_field = entry.get('file', '')
@@ -337,9 +381,19 @@ class BibParser:
                 if any(ext in part.lower() for ext in ['.jpg', '.jpeg', '.png', '.gif', '.webp']):
                     # Extract filename from path
                     filename = part.split(':')[0] if ':' in part else part
-                    images.append(filename)
+                    filename = clean_image_filename(filename)
+                    if is_valid_image_name(filename):
+                        images.append(filename)
         
-        return [img for img in images if img]
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_images = []
+        for img in images:
+            if img and img not in seen:
+                seen.add(img)
+                unique_images.append(img)
+        
+        return unique_images
     
     def get_abstract(self, entry: Dict[str, Any]) -> str:
         """Get abstract from entry."""

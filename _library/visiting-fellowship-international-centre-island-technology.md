@@ -8,11 +8,11 @@ date: 2013-July-01
 description: 'Visiting Fellowship: International Centre for Island Technology'
 entry_type: Fellowship
 gallery:
-- IMG_2872
-- thumbnail
+- visiting_fellowship_international_centre_island_technology_photo_01
+- visiting_fellowship_international_centre_island_technology_photo_02
 layout: library-item
 location: Orkney, Scotland
-preview: IMG_2872
+preview: visiting_fellowship_international_centre_island_technology_photo_01
 tags: []
 title: 'Visiting Fellowship: International Centre for Island Technology'
 venue: Herriot Watt University

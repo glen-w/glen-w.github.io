@@ -5,15 +5,13 @@ Generates markdown content and front matter for library pages.
 """
 
 import yaml
-import sys
 import os
 from datetime import datetime
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
-# Add the processing directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from library.bib_parser import BibParser
+from processing.library.bib_parser import BibParser
+from processing.core.text_processor import TextProcessor
+from processing.config import Configuration
 
 
 class ContentGenerator:
@@ -22,6 +20,8 @@ class ContentGenerator:
     def __init__(self):
         """Initialize the content generator."""
         self.bib_parser = BibParser()
+        self.config = Configuration()
+        self.text_processor = TextProcessor(self.config)
     
     def generate_front_matter(self, entry: Dict[str, Any]) -> str:
         """Generate YAML front matter for the page."""
@@ -65,7 +65,9 @@ class ContentGenerator:
         
         # Extract links and media
         links = self.bib_parser.extract_links(entry)
-        images = self.bib_parser.extract_images(entry)
+        
+        # Find processed images (transformed filenames) instead of original ones
+        processed_images = self._find_processed_images(entry)
         
         # Build front matter
         front_matter = {
@@ -90,10 +92,28 @@ class ContentGenerator:
             front_matter['doi'] = links['doi']
         if links.get('pdf'):
             front_matter['pdf'] = links['pdf']
-        if images:
-            front_matter['preview'] = images[0]
-            if len(images) > 1:
-                front_matter['gallery'] = images
+        
+        # Priority: Use generated thumbnail filename if it exists, otherwise use processed images
+        # Check for existing generated thumbnail first (most reliable)
+        thumbnail_filename = self._check_for_existing_thumbnail(entry)
+        if thumbnail_filename:
+            front_matter['preview'] = thumbnail_filename
+            # Add gallery from processed images if available
+            if processed_images:
+                front_matter['gallery'] = processed_images
+        elif processed_images:
+            # Use first processed image as preview
+            front_matter['preview'] = processed_images[0]
+            if len(processed_images) > 1:
+                front_matter['gallery'] = processed_images
+        
+        # Add zip_archive field and metadata if present in BibTeX entry
+        if entry.get('zip_archive'):
+            front_matter['zip_archive'] = entry['zip_archive']
+            if entry.get('zip_file_count'):
+                front_matter['zip_file_count'] = entry['zip_file_count']
+            if entry.get('zip_file_size_mb'):
+                front_matter['zip_file_size_mb'] = entry['zip_file_size_mb']
         
         # Add location if available
         if entry.get('address'):
@@ -158,6 +178,100 @@ class ContentGenerator:
                     break
         
         return categories if categories else ['other']
+    
+    def _check_for_existing_thumbnail(self, entry: Dict[str, Any]) -> Optional[str]:
+        """Check if a thumbnail exists for this entry's PDF.
+        
+        Args:
+            entry: The BibTeX entry dictionary
+            
+        Returns:
+            The thumbnail filename (without path) if found, None otherwise
+        """
+        citation_key = entry.get('ID', '')
+        if not citation_key:
+            return None
+        
+        # Generate the expected thumbnail filename
+        try:
+            thumbnail_filename = self.text_processor.generate_filename(
+                citation_key, 
+                entry, 
+                'jpeg',
+                check_directory=self.config.PREVIEW_DIR
+            )
+            
+            if thumbnail_filename:
+                # Check if the file actually exists
+                thumbnail_path = os.path.join(self.config.PREVIEW_DIR, thumbnail_filename)
+                if os.path.exists(thumbnail_path):
+                    # Return filename without extension (layout adds paths)
+                    return thumbnail_filename.replace('.jpeg', '').replace('.jpg', '')
+        except Exception:
+            # If anything goes wrong, just return None
+            pass
+        
+        return None
+    
+    def _find_processed_images(self, entry: Dict[str, Any]) -> List[str]:
+        """Find processed image filenames for this entry.
+        
+        Looks for images in the publications directory that match the entry's
+        transformed filename pattern (based on author, year, and title).
+        
+        Args:
+            entry: The BibTeX entry dictionary
+            
+        Returns:
+            List of processed image filenames (without extensions) found
+        """
+        if not os.path.exists(self.config.IMAGES_DIR):
+            return []
+        
+        # Generate base filename pattern (same logic as file_manager.process_images_for_entry)
+        author_filename = self.text_processor.extract_author_names_for_filename(entry.get('author', ''))
+        title = entry.get('title', '')
+        condensed_title = self.text_processor.remove_filler_words(title)
+        clean_filename = self.text_processor.slugify_title(condensed_title, max_length=190, separator='_')
+        year = entry.get('year', '')
+        
+        # Create base filename
+        if author_filename and year:
+            base_filename = f"{author_filename}_{year}_{clean_filename}"
+        elif author_filename:
+            base_filename = f"{author_filename}_{clean_filename}"
+        else:
+            base_filename = clean_filename
+        
+        # Clean up base filename
+        base_filename = self.text_processor.clean_filename(base_filename).lower()
+        
+        # Find all files in publications directory that match the pattern
+        processed_images = []
+        image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp']
+        
+        try:
+            for filename in os.listdir(self.config.IMAGES_DIR):
+                filename_lower = filename.lower()
+                # Check if filename starts with base pattern and contains _photo_ or _figure_
+                if filename_lower.startswith(base_filename) and ('_photo_' in filename_lower or '_figure_' in filename_lower):
+                    # Check if it's an image file
+                    if any(filename_lower.endswith(ext) for ext in image_extensions):
+                        # Return filename without extension (consistent with preview field format)
+                        # Template will add extension back
+                        for ext in image_extensions:
+                            if filename_lower.endswith(ext):
+                                processed_images.append(filename[:-len(ext)])
+                                break
+            
+            # Sort to ensure consistent order (photos before figures, then by number)
+            processed_images.sort()
+            
+        except Exception:
+            # If anything goes wrong, return empty list
+            pass
+        
+        return processed_images
     
     def generate_content(self, entry: Dict[str, Any]) -> str:
         """Generate the main content for the library page."""
