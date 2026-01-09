@@ -14,6 +14,9 @@ children:
   - title: code
     permalink: /code/
 
+  - title: jingle
+    permalink: /jingle/
+
   - title: map
     permalink: /map.html
 
