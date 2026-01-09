@@ -1,0 +1,32 @@
+{% comment %}
+  Masonry layout include for displaying series as a Pinterest-style staggered grid
+  Accepts: series_projects (sorted array of items), series_name (string)
+  
+  Uses Masonry.js library for staggered grid layout
+  Ideal for series with highly variable image sizes
+{% endcomment %}
+
+{% assign series_id = series_name | slugify %}
+
+<div class="masonry-container" data-series-id="{{ series_id }}" data-series-name="{{ series_name }}">
+  <div class="masonry-grid" id="masonry-{{ series_id }}">
+    {% for item in series_projects %}
+      {% if item.img %}
+        <div class="masonry-item" data-image-index="{{ forloop.index0 }}">
+          <div class="masonry-item-content">
+            {% include figure.liquid 
+              loading="lazy" 
+              path=item.img 
+              class="img-fluid masonry-image" 
+              alt=item.title
+            %}
+            {% if item.title %}
+              <div class="masonry-item-title">{{ item.title }}</div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+

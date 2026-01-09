@@ -1,0 +1,122 @@
+{% comment %}
+  Flipbook include for displaying series as a book with page turns
+  Accepts: series_projects (sorted array of items), series_name (string)
+  
+  Uses Turn.js library for page flip animations
+  Each page displays a single image
+{% endcomment %}
+
+{% assign series_id = series_name | slugify %}
+
+{% comment %} Numerically sort series_projects by importance 
+     Jekyll's sort filter does string sorting, so we need numeric sorting.
+     We'll use JavaScript as the primary method, but also prepare data here.
+{% endcomment %}
+{% assign sorted_projects = series_projects %}
+
+<div class="flipbook-container" data-series-id="{{ series_id }}" data-series-name="{{ series_name }}">
+  <div id="flipbook-{{ series_id }}" class="flipbook">
+    {% comment %} Create one page per image, ordered by importance {% endcomment %}
+    {% for item in sorted_projects %}
+      {% if item.img %}
+        <div class="flipbook-page" data-page-type="single" data-image-index="{{ forloop.index0 }}" data-importance="{{ item.importance | default: 9999 }}">
+          <div class="flipbook-page-content">
+            {% if forloop.first %}
+              {% assign loading_attr = "eager" %}
+            {% else %}
+              {% assign loading_attr = "lazy" %}
+            {% endif %}
+            {% include figure.liquid 
+              loading=loading_attr
+              path=item.img 
+              class="img-fluid flipbook-image" 
+              alt=item.title
+            %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+  {% comment %} Navigation arrows {% endcomment %}
+  <div class="flipbook-nav">
+    <button class="flipbook-nav-btn nav-arrow flipbook-prev" aria-label="Previous page">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <button class="flipbook-nav-btn nav-arrow flipbook-next" aria-label="Next page">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>
+  
+  {% comment %} Page indicator {% endcomment %}
+  <div class="flipbook-page-indicator">
+    <span class="flipbook-current-page">1</span> / <span class="flipbook-total-pages"></span>
+  </div>
+</div>
+
+{% comment %} DEBUG: Summary {% endcomment %}
+<!-- DEBUG: Total pages generated: {{ sorted_projects.size }} -->
+<script>
+// #region agent log
+(function() {
+  // Sort pages by numeric importance before any other initialization
+  function sortPagesByImportance() {
+    const container = document.querySelector('[data-series-id="{{ series_id }}"]');
+    if (!container) return;
+    
+    const flipbook = container.querySelector('.flipbook');
+    if (!flipbook) return;
+    
+    const pages = Array.from(flipbook.querySelectorAll('.flipbook-page'));
+    if (pages.length === 0) return;
+    
+    // Sort by numeric importance (lower numbers = higher priority)
+    pages.sort((a, b) => {
+      const importanceA = parseInt(a.getAttribute('data-importance') || '9999', 10);
+      const importanceB = parseInt(b.getAttribute('data-importance') || '9999', 10);
+      return importanceA - importanceB;
+    });
+    
+    // Reorder pages in DOM
+    pages.forEach(page => flipbook.appendChild(page));
+  }
+  
+  // Run sorting as soon as DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', sortPagesByImportance);
+  } else {
+    sortPagesByImportance();
+  }
+  
+  // Also run after a short delay to ensure it happens before Turn.js initializes
+  setTimeout(sortPagesByImportance, 100);
+  
+  const container = document.querySelector('[data-series-id="{{ series_id }}"]');
+  if (!container) return;
+  
+  const pages = container.querySelectorAll('.flipbook-page');
+  const images = container.querySelectorAll('.flipbook-page img');
+  const debugData = {
+    location: 'flipbook.liquid:debug',
+    message: 'Flipbook HTML structure check',
+    data: {
+      seriesId: '{{ series_id }}',
+      pagesCount: pages.length,
+      imagesCount: images.length,
+      imageSources: Array.from(images).map(img => img.src || 'NO SRC')
+    },
+    timestamp: Date.now(),
+    sessionId: 'debug-session',
+    runId: 'run1',
+    hypothesisId: 'A'
+  };
+  
+  fetch('http://127.0.0.1:7242/ingest/0dedbb0d-968d-4d41-95ef-f9c65a7029fa', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(debugData)
+  }).catch(() => {});
+})();
+// #endregion
+</script>
+

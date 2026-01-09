@@ -1,0 +1,29 @@
+{% comment %}
+  Thumbnails layout include for displaying series as a compact grid of small thumbnails
+  Accepts: series_projects (sorted array of items), series_name (string)
+  
+  Shows small thumbnails only in a consistent grid, no title text, with click opening image modal
+{% endcomment %}
+
+{% assign series_id = series_name | slugify %}
+
+<div class="thumbnails-container" data-series-id="{{ series_id }}" data-series-name="{{ series_name }}">
+  <div class="thumbnails-grid" id="thumbnails-{{ series_id }}">
+    {% for item in series_projects %}
+      {% if item.img %}
+        <div class="thumbnail-item" data-image-index="{{ forloop.index0 }}">
+          <div class="thumbnail-wrapper creative-image-wrapper" data-gallery-group="{{ series_id }}-thumbnails">
+            <div class="thumbnail-image-container">
+              {% include figure.liquid 
+                loading="lazy" 
+                path=item.img 
+                class="img-fluid thumbnail-image creative-gallery-image" 
+                alt=item.title
+              %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

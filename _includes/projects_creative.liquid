@@ -14,6 +14,7 @@
         </div>
       </div>
     {% endif %}
+    {% unless project.category == 'collage' %}
     <div class="card-body">
       <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
         <h2 class="card-title">{{ project.title }}</h2>
@@ -35,6 +36,7 @@
         {% endif %}
       </div>
     </div>
+    {% endunless %}
   </div>
 </div>
 

@@ -1,0 +1,15 @@
+<div class="mb-4">
+  <a href="{% if service.redirect %}{{ service.redirect }}{% else %}{{ service.url | relative_url }}{% endif %}" class="text-decoration-none">
+    <h2 class="category">{{ service.title }}</h2>
+  </a>
+  <div class="row">
+    {% if service.img %}
+      <div class="col-md-3">
+        {% include figure.liquid loading="eager" path=service.img sizes="(min-width: 768px) 200px, 50vw" alt="service thumbnail" %}
+      </div>
+    {% endif %}
+    <div class="{% if service.img %}col-md-9{% else %}col-md-12{% endif %}">
+      <p>{{ service.description }}</p>
+    </div>
+  </div>
+</div>
