@@ -22,8 +22,10 @@ _bibliography/Exported Items_backup_*.bib
 # Test directory for development maps
 _test/
 
-# Sandbox for experimental HTML pages
-sandbox/
+# Sandbox for experimental HTML pages - ignore test HTML files but allow production JS/CSS
+sandbox/*.html
+sandbox/*.scss
+sandbox/*.css.map
 _bibliography/Exported Items.bib
 docs/ARCHIVE_AND_RENAME_SUMMARY.md
 docs/CREATIVE_WORKFLOW.md

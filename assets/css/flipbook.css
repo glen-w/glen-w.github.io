@@ -1,0 +1,300 @@
+/* Series section isolation */
+.series-section {
+  position: relative;
+  width: 100%;
+  clear: both;
+  /* Isolate each series section from grid layouts */
+  isolation: isolate;
+  /* Clear any float or grid context */
+  display: block;
+  overflow: visible;
+}
+
+.series-section[data-series-layout="flipbook"] {
+  /* Flipbook sections need extra isolation */
+  contain: layout style;
+}
+
+.flipbook-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  margin-bottom: 3rem;
+  padding: 1rem 4rem;
+  /* Ensure proper spacing and isolation */
+  isolation: isolate;
+  /* Clear any grid or flex context */
+  display: block;
+  clear: both;
+  /* Prevent grid layout interference */
+  float: none;
+}
+
+.flipbook {
+  width: 100%;
+  height: 80vh; /* Use viewport height to allow full screen usage */
+  min-height: 600px; /* Minimum height for smaller screens */
+  max-height: 80vh; /* Prevent it from being too tall */
+  margin: 0 auto;
+  position: relative;
+  /* Ensure Turn.js pages are properly stacked */
+  transform-style: preserve-3d;
+  /* Prevent grid layout interference */
+  display: block;
+  clear: both;
+  /* Isolate from parent grid contexts */
+  isolation: isolate;
+  /* Hide pages until Turn.js initializes */
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Hide all pages initially - Turn.js will show them */
+.flipbook:not(.turnjs-initialized):not(.turnjs-initializing) .flipbook-page {
+  display: none;
+  visibility: hidden;
+}
+
+/* During initialization, keep pages hidden */
+.flipbook.turnjs-initializing .flipbook-page {
+  visibility: hidden;
+}
+
+/* Once Turn.js is initialized, it manages page visibility */
+.flipbook.turnjs-initialized .flipbook-page {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Fallback: Ensure first page is visible when initialized */
+.flipbook.turnjs-initialized .flipbook-page:first-child {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Override any Turn.js styles that might hide pages - more specific selectors */
+.flipbook.turnjs-initialized .flipbook-page {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Force first page to be visible */
+.flipbook.turnjs-initialized .flipbook-page:first-child {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+}
+
+/* Ensure images inside pages are visible */
+.flipbook.turnjs-initialized .flipbook-page img {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.flipbook .flipbook-page {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+  /* Turn.js will manage positioning and visibility */
+  /* Enable 3D transforms for page flipping */
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+.flipbook .flipbook-page .flipbook-page-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+/* Ensure figure and picture elements use full available height/width */
+.flipbook .flipbook-page .flipbook-page-content figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.flipbook .flipbook-page .flipbook-page-content figure picture {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flipbook .flipbook-page .flipbook-page-content .flipbook-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  /* Ensure portrait images can use full height */
+  object-position: center;
+}
+.flipbook .flipbook-page .flipbook-page-content .flipbook-image:hover {
+  opacity: 0.9;
+}
+.flipbook .flipbook-page.spread-page .flipbook-page-content {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.flipbook .flipbook-page.spread-page .flipbook-page-content .flipbook-page-left,
+.flipbook .flipbook-page.spread-page .flipbook-page-content .flipbook-page-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.flipbook .flipbook-page.spread-page .flipbook-page-content .flipbook-page-left .flipbook-image,
+.flipbook .flipbook-page.spread-page .flipbook-page-content .flipbook-page-right .flipbook-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.flipbook .flipbook-page.spread-page .flipbook-page-content .flipbook-blank {
+  background: #f5f5f5;
+}
+.flipbook .flipbook-page.cover-page .flipbook-page-content {
+  padding: 2rem;
+}
+.flipbook .flipbook-page.cover-page .flipbook-page-content .flipbook-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  /* Prioritize height fitting for portrait images */
+  object-position: center;
+}
+
+.flipbook-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  z-index: 100;
+  /* Position arrows outside the flipbook image area */
+}
+
+.flipbook-nav-btn {
+  pointer-events: all;
+  /* Use shared nav-arrow styles - defined in main.scss */
+  /* If main.scss is not loaded, fallback styles are below */
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flipbook-nav-btn:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+.flipbook-nav-btn:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.flipbook-nav-btn i {
+  display: block;
+}
+
+.flipbook-prev {
+  left: 0;
+  margin-left: 0;
+}
+
+.flipbook-next {
+  right: 0;
+  margin-right: 0;
+}
+
+.flipbook-page-indicator {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+  .flipbook-container {
+    max-width: 100%;
+    padding: 0.75rem 3.5rem;
+  }
+  .flipbook {
+    height: 75vh;
+    min-height: 500px;
+    max-height: 75vh;
+  }
+  .flipbook-nav-btn {
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 768px) {
+  .flipbook-container {
+    padding: 0.5rem 3rem;
+  }
+  .flipbook {
+    height: 70vh;
+    min-height: 400px;
+    max-height: 70vh;
+  }
+  .flipbook .flipbook-page .flipbook-page-content {
+    padding: 0.5rem;
+  }
+  .flipbook .flipbook-page.spread-page .flipbook-page-content .flipbook-page-left,
+  .flipbook .flipbook-page.spread-page .flipbook-page-content .flipbook-page-right {
+    padding: 0.5rem;
+  }
+  .flipbook-nav-btn {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 480px) {
+  .flipbook-container {
+    padding: 0.5rem 2.5rem;
+  }
+  .flipbook {
+    height: 65vh;
+    min-height: 350px;
+    max-height: 65vh;
+  }
+  .flipbook-nav-btn {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.75rem;
+  }
+}
+
+/*# sourceMappingURL=flipbook.css.map */
