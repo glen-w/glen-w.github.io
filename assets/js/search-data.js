@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "nav-creative",
           title: "creative",
           description: "",
@@ -93,14 +86,142 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/sitemap/";
               },
-            },{id: "nav-cv",
+            },{id: "nav-services",
+          title: "services",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/services/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-quick-website-update",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2018-12-08-This-is-the-last-academic-conference-that-I-will-ever-go-to/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2017-04-25-This-Study-is-Subject-to-Certain-Limitations_-Overly-Honest-Academic-Caveats/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2016-07-12-Campus-Chaos-as-Pokemon-Go-Goes-Viral/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2015-07-22-7-Academic-Struggles-Predicted-by-Late-19th-and-Early-20th-Century-Autobiographies/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2015-07-17-The-Blooper-Reel/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2015-04-04-Academic-Easter-Eggs/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2015-02-14-An-Academic-Guide-to-Love-&amp;-Romance-Happy-Valentine&-039;s-Day!/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2015-01-10-10-Brilliantly-Banal-Books-to-Bore-Your-Bookshelf/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2014-10-31-Trick-or-Treat/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2014-09-13-Every-Type-of-Email-College-Faculty-Send-to-Anyone/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2014-08-01-Top-8-AlternateScienceMetrics/";
+          
+        },
+      },{id: "post-a-quick-website-update",
         
           title: "a quick website update",
         
@@ -109,17 +230,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/a-quick-website-update/";
-          
-        },
-      },{id: "post-this-is-the-last-academic-conference-that-i-will-ever-go-to",
-        
-          title: "This is the last academic conference that I will ever go to",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2018/This-is-the-last-academic-conference-that-I-will-ever-go-to/";
           
         },
       },{id: "post-the-fourth-annual-academics-with-cats-awards-2017-winners",
@@ -230,17 +340,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2017/Doodling-for-Academics/";
-          
-        },
-      },{id: "post-this-study-is-subject-to-certain-limitations-overly-honest-academic-caveats",
-        
-          title: "This Study is Subject to Certain Limitations: Overly Honest Academic Caveats",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2017/This-Study-is-Subject-to-Certain-Limitations_-Overly-Honest-Academic-Caveats/";
           
         },
       },{id: "post-these-awesome-science-march-signs-prove-scientists-have-a-sense-of-humour",
@@ -373,17 +472,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2016/25-PhD-Feels-All-Doctoral-Students-Have/";
-          
-        },
-      },{id: "post-campus-chaos-as-pokemon-go-goes-viral",
-        
-          title: "Campus Chaos as Pokemon Go Goes Viral",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2016/Campus-Chaos-as-Pokemon-Go-Goes-Viral/";
           
         },
       },{id: "post-historic-un-talks-could-save-the-high-seas",
@@ -540,28 +628,6 @@ ninja.data = [{
             window.location.href = "/blog/2015/Male,-Mad-and-Muddleheaded!-The-portrayal-of-academics-in-kids-books/";
           
         },
-      },{id: "post-7-academic-struggles-predicted-by-late-19th-and-early-20th-century-autobiographies",
-        
-          title: "7 Academic Struggles Predicted by Late 19th and Early 20th Century Autobiographies",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/7-Academic-Struggles-Predicted-by-Late-19th-and-Early-20th-Century-Autobiographies/";
-          
-        },
-      },{id: "post-the-blooper-reel",
-        
-          title: "The Blooper Reel",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/The-Blooper-Reel/";
-          
-        },
       },{id: "post-academia-survival-of-the-bitterest",
         
           title: "Academia: Survival of the Bitterest?",
@@ -650,17 +716,6 @@ ninja.data = [{
             window.location.href = "/blog/2015/Why-does-it-always-rain-on-me_-Academics-forecast-their-day/";
           
         },
-      },{id: "post-academic-easter-eggs",
-        
-          title: "Academic Easter Eggs",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/Academic-Easter-Eggs/";
-          
-        },
       },{id: "post-cars-on-campus-rooftops-and-r2d2-observatories-6-awesome-college-pranks",
         
           title: "Cars on Campus Rooftops and R2D2 Observatories: 6 awesome college pranks",
@@ -692,17 +747,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/11-things-I-learned-about-academia-by-analysing-14-million-RateMyProfessor-reviews/";
-          
-        },
-      },{id: "post-an-academic-guide-to-love-amp-romance-happy-valentine-39-s-day",
-        
-          title: "An Academic Guide to Love &amp; Romance - Happy Valentine&#39;s Day!",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/An-Academic-Guide-to-Love-&amp;-Romance-Happy-Valentine&-039;s-Day!/";
           
         },
       },{id: "post-after-almost-10-years-progress-towards-new-agreement-on-high-seas",
@@ -747,17 +791,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/A-Day-in-the-Life-of-an-Academic-(with-cats)/";
-          
-        },
-      },{id: "post-10-brilliantly-banal-books-to-bore-your-bookshelf",
-        
-          title: "10 Brilliantly Banal Books to Bore Your Bookshelf",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/10-Brilliantly-Banal-Books-to-Bore-Your-Bookshelf/";
           
         },
       },{id: "post-merry-christmas-and-an-academic-new-year",
@@ -837,17 +870,6 @@ ninja.data = [{
             window.location.href = "/blog/2014/Toilet-Humour/";
           
         },
-      },{id: "post-trick-or-treat",
-        
-          title: "Trick or Treat?",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2014/Trick-or-Treat/";
-          
-        },
       },{id: "post-10-comic-chemicals-presented-by-chemistry-cat",
         
           title: "10 Comic Chemicals, presented by Chemistry Cat",
@@ -890,17 +912,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2014/Proof-that-academia-is-teeming-with-humour,-wit-and-general-oddness/";
-          
-        },
-      },{id: "post-every-type-of-email-college-faculty-send-to-anyone",
-        
-          title: "Every Type of Email College Faculty Send to Anyone",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2014/Every-Type-of-Email-College-Faculty-Send-to-Anyone/";
           
         },
       },{id: "post-food-glorious-food",
@@ -1057,15 +1068,15 @@ ninja.data = [{
             window.location.href = "/blog/2014/Bored-or-High_-4_-urinal-dynamics/";
           
         },
-      },{id: "post-top-8-alternatesciencemetrics",
+      },{id: "post-monday-morning-meme",
         
-          title: "Top 8 #AlternateScienceMetrics",
+          title: "Monday Morning Meme",
         
         description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2014/Top-8-AlternateScienceMetrics/";
+            window.location.href = "/blog/2014/Monday-Morning-Meme/";
           
         },
       },{id: "post-bored-or-high-2-walking-on-water",
@@ -1088,17 +1099,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2014/Bored-or-High_-1_-string-theory/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2014/";
           
         },
       },{id: "post-monday-morning-meme-3",
@@ -4220,14 +4220,9 @@ ninja.data = [{
               window.location.href = "/projects/crossword/";
             },},{id: "projects-folk-directory",
           title: 'Folk Directory',
-          description: "an other project with a background image and giscus comments",
+          description: "A user-maintained listing of UK folk clubs and sessions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/folk_directory/";
-            },},{id: "projects-the-big-rethink",
-          title: 'The Big Rethink',
-          description: "a projec with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/gsr_rethink/";
             },},{id: "projects-hoops",
           title: 'Hoops',
           description: "An Uncommon Field Guide to the Game of Basketball",
@@ -4238,11 +4233,26 @@ ninja.data = [{
           description: "A splash of uplifting ocean stuff, lovingly curated by young ocean leaders",
           section: "Projects",handler: () => {
               window.location.href = "/projects/little_blue_letter/";
+            },},{id: "projects-marine-policy-amp-ocean-governance",
+          title: 'Marine Policy &amp;amp; Ocean Governance',
+          description: "A master&#39;s course exploring the political, legal and institutional frameworks governing the ocean.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/marine-policy-ocean-governance/";
             },},{id: "projects-marine-regions-forum",
           title: 'Marine Regions Forum',
           description: "All-in-one audio transcription &amp; analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/marine_regions_forum/";
+            },},{id: "projects-post-employment",
+          title: 'Post-employment',
+          description: "I want my last job to be my last job",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/post_employment/";
+            },},{id: "projects-ren21-knowledge-amp-data-rethink",
+          title: 'REN21 Knowledge &amp;amp; Data Rethink',
+          description: "Overhauling REN21&#39;s renewable energy reporting, data infrastructure and production processes",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ren21_rethink/";
             },},{id: "projects-renewables-global-status-report",
           title: 'Renewables Global Status Report',
           description: "REN21&#39;s flagship report spotlighting the developments and trends shaping the future of renewables.",
@@ -4268,21 +4278,51 @@ ninja.data = [{
           description: "Building an online homespace",
           section: "Projects",handler: () => {
               window.location.href = "/projects/website/";
-            },},{id: "teaching-anthropocene-book-club",
-          title: 'Anthropocene Book Club',
-          description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean. Students examine global and regional governance regimes, with case studies on biodiversity, fisheries, and emerging issues like deep sea mining and ocean energy.",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/anthropocene-book-club/";
-            },},{id: "teaching-biodiversity-values-amp-policies",
-          title: 'Biodiversity Values &amp;amp; Policies',
-          description: "This interdisciplinary course explores how biodiversity is valued and governed, and how science, economics and politics shape environmental decisions. Students engage with real-world debates and learn to critically assess international policies, funding mechanisms, and biodiversity offsets.",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/biodiversity/";
+            },},{id: "services-applied-ai-amp-workflow-design",
+          title: 'Applied AI &amp;amp; Workflow Design',
+          description: "Help NGOs, research groups, and small teams make practical, ethical use of AI and lightweight digital tools in their everyday work.",
+          section: "Services",handler: () => {
+              window.location.href = "/services/applied-ai-workflow-design/";
+            },},{id: "services-coaching-amp-career-support",
+          title: 'Coaching &amp;amp; Career Support',
+          description: "One-to-one coaching for students, early-career professionals, and mid-career practitioners working in oceans, energy, climate, and adjacent fields.",
+          section: "Services",handler: () => {
+              window.location.href = "/services/coaching-career-support/";
+            },},{id: "services-copyediting-amp-proofing",
+          title: 'Copyediting &amp;amp; Proofing',
+          description: "Copyediting and proofing services for reports, academic articles, policy briefs, funding proposals, and other written outputs.",
+          section: "Services",handler: () => {
+              window.location.href = "/services/copyediting-proofing/";
+            },},{id: "services-energy-transition-amp-renewables",
+          title: 'Energy Transition &amp;amp; Renewables',
+          description: "Support for organisations working on renewable energy and energy systems to interpret global trends and apply them to their specific context.",
+          section: "Services",handler: () => {
+              window.location.href = "/services/energy-transition-renewables/";
+            },},{id: "services-ocean-amp-marine-policy",
+          title: 'Ocean &amp;amp; Marine Policy',
+          description: "Strategic advice on international ocean governance, with a particular focus on the high seas, seabed mining, and regional cooperation.",
+          section: "Services",handler: () => {
+              window.location.href = "/services/ocean-marine-policy/";
+            },},{id: "services-orientation-sessions",
+          title: 'Orientation Sessions',
+          description: "Design and facilitation of workshops, retreats, and learning journeys for teams working on oceans, energy, and climate.",
+          section: "Services",handler: () => {
+              window.location.href = "/services/orientation-sessions/";
+            },},{id: "services-workshops-facilitation-amp-learning-design",
+          title: 'Workshops, Facilitation &amp;amp; Learning Design',
+          description: "Design and facilitation of workshops, retreats, and learning journeys for teams working on oceans, energy, and climate.",
+          section: "Services",handler: () => {
+              window.location.href = "/services/workshops-facilitation-learning/";
             },},{id: "teaching-marine-policy-amp-ocean-governance",
           title: 'Marine Policy &amp;amp; Ocean Governance',
           description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean. Students examine global and regional governance regimes, with case studies on biodiversity, fisheries, and emerging issues like deep sea mining and ocean energy.",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/marine-policy/";
+            },},{id: "teaching-anthropocene-book-club",
+          title: 'Anthropocene Book Club',
+          description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean. Students examine global and regional governance regimes, with case studies on biodiversity, fisheries, and emerging issues like deep sea mining and ocean energy.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/anthropocene-book-club/";
             },},{
         id: 'social-email',
         title: 'email',
