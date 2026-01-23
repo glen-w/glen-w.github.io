@@ -3,7 +3,7 @@ layout: post
 title: "Co-authoring: Now with 60% more croquet!"
 date: 2014-07-22
 description:
-tags: ["Alice in Wonderland", "co-authors", "croquet", "funny", "publishing", "tenure"]
+tags: ["Alice in Wonderland", "co-authors", "croquet", "funny", "publishing", "tenure", "AcademiaObscura"]
 categories: ["Academic Humour", "Publish/Perish"]
 ---
 

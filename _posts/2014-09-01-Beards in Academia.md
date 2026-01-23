@@ -3,7 +3,7 @@ layout: post
 title: "Beards in Academia"
 date: 2014-09-01
 description:
-tags: ["beards", "chicks", "Darwin", "funny", "pathogens", "skirts", "UV"]
+tags: ["beards", "chicks", "Darwin", "funny", "pathogens", "skirts", "UV", "AcademiaObscura"]
 categories: ["Academic Humour", "Crazy Research"]
 ---
 

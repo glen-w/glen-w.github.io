@@ -3,7 +3,7 @@ layout: post
 title: "10 Offbeat University Buildings"
 date: 2014-08-20
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

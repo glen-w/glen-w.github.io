@@ -3,8 +3,7 @@ layout: post
 title: "Top 8 #AlternateScienceMetrics"
 date: 2014-08-01
 description:
-tags:
-  [
+tags: ["[", "AcademiaObscura"]
     "Adam Sandler",
     "Bechdal Test",
     "clickbait",

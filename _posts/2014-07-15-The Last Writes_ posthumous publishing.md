@@ -3,7 +3,7 @@ layout: post
 title: "The Last Writes: posthumous publishing"
 date: 2014-07-15
 description:
-tags: ["chemistry", "death", "Nobel Prize", "publishing", "puns"]
+tags: ["chemistry", "death", "Nobel Prize", "publishing", "puns", "AcademiaObscura"]
 categories: ["Publications"]
 ---
 

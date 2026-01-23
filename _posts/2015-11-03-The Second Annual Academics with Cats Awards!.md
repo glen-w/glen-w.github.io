@@ -3,7 +3,7 @@ layout: post
 title: "The Second Annual Academics with Cats Awards!"
 date: 2015-11-03
 description:
-tags: ["academics with cats", "animals", "book", "cats", "prizes"]
+tags: ["academics with cats", "animals", "book", "cats", "prizes", "AcademiaObscura"]
 categories: ["Misc."]
 ---
 

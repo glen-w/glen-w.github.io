@@ -3,7 +3,7 @@ layout: post
 title: "Food, Glorious Food!"
 date: 2014-09-01
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

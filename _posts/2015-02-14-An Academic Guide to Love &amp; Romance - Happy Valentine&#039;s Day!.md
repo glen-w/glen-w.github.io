@@ -3,8 +3,7 @@ layout: post
 title: "An Academic Guide to Love & Romance - Happy Valentine's Day!"
 date: 2015-02-14
 description:
-tags:
-  [
+tags: ["[", "AcademiaObscura"]
     "academic publishing",
     "hashtags",
     "heart",

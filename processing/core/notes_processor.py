@@ -9,7 +9,7 @@ to BibTeX entries for use in the library display system.
 
 import re
 from typing import Dict, List, Optional, Tuple
-from .tag_extractor import TagExtractor
+from processing.core.tag_extractor import TagExtractor
 
 
 class NotesProcessor:

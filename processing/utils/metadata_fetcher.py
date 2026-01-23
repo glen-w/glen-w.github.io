@@ -7,14 +7,10 @@ Handles all external API calls for metadata enrichment.
 import json
 import os
 import requests
-import sys
 from typing import Dict, Optional
 
-# Add the processing directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from config import Configuration
-from core.text_processor import TextProcessor
+from processing.config import Configuration
+from processing.core.text_processor import TextProcessor
 
 
 class MetadataFetcher:

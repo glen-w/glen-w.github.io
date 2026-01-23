@@ -3,7 +3,7 @@ layout: post
 title: "Fun and Laughter in the Lab"
 date: 2015-05-01
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academic Humour", "Adjuncts (guest posts)", "Misc."]
 ---
 

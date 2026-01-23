@@ -3,7 +3,7 @@ layout: post
 title: "Finish that PhD in 12 Simple Steps!"
 date: 2014-08-19
 description:
-tags: ["advice", "deadline", "listicles", "PhD", "Storify", "writing"]
+tags: ["advice", "deadline", "listicles", "PhD", "Storify", "writing", "AcademiaObscura"]
 categories: ["Surprisingly Helpful"]
 ---
 

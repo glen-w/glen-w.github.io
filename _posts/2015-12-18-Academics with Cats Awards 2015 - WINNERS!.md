@@ -3,7 +3,7 @@ layout: post
 title: "Academics with Cats Awards 2015 - WINNERS!"
 date: 2015-12-18
 description:
-tags: ["cats"]
+tags: ["cats", "AcademiaObscura"]
 categories: ["Misc."]
 ---
 

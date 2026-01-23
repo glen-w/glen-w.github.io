@@ -3,7 +3,7 @@ layout: post
 title: "Monday Morning Meme (1)"
 date: 2014-07-14
 description: "A humorous academic meme about the Monday morning experience in academia"
-tags: ["academic advisor", "memes"]
+tags: ["academic advisor", "memes", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Bored or High? #3: Panda death"
 date: 2014-08-07
 description:
-tags: ["cartoons", "China", "diagrams", "funny", "morbid", "Paleobiology", "pandas"]
+tags: ["cartoons", "China", "diagrams", "funny", "morbid", "Paleobiology", "pandas", "AcademiaObscura"]
 categories: ["Academic Humour", "Bored or High?"]
 ---
 

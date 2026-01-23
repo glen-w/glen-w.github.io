@@ -3,7 +3,7 @@ layout: post
 title: "Beards in Academia, Part II: More Popular than Ever? Beards and Masculinity in History"
 date: 2014-10-12
 description:
-tags: ["beards", "celebrity", "history", "monarchy", "paintings"]
+tags: ["beards", "celebrity", "history", "monarchy", "paintings", "AcademiaObscura"]
 categories: ["Academic Humour", "Adjuncts (guest posts)", "Crazy Research"]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Footnotes"
 date: 2014-08-07
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

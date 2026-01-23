@@ -3,7 +3,7 @@ layout: post
 title: "Is This the Worst Academic Journal Ever?"
 date: 2015-06-29
 description:
-tags: ["#HeadDesk", "fake journals", "journals", "open access", "scams"]
+tags: ["#HeadDesk", "fake journals", "journals", "open access", "scams", "AcademiaObscura"]
 categories: ["Academic Humour", "Journals", "Publish/Perish"]
 ---
 

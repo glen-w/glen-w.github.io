@@ -3,8 +3,7 @@ layout: post
 title: "Academic Easter Eggs"
 date: 2015-04-04
 description:
-tags:
-  [
+tags: ["[", "AcademiaObscura"]
     "asshole",
     "cats",
     "Chinese",

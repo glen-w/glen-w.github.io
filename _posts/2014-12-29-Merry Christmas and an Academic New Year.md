@@ -3,7 +3,7 @@ layout: post
 title: "Merry Christmas and an Academic New Year"
 date: 2014-12-29
 description:
-tags: ["baking", "Christmas", "doctors", "economics", "entheogens", "Lebkuchen", "parasites", "reindeer", "Rudolph", "Santa", "spices"]
+tags: ["baking", "Christmas", "doctors", "economics", "entheogens", "Lebkuchen", "parasites", "reindeer", "Rudolph", "Santa", "spices", "AcademiaObscura"]
 categories: ["Academic Humour", "Guardian Blog", "Misc."]
 ---
 

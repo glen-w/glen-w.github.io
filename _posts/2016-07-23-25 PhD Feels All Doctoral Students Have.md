@@ -3,7 +3,7 @@ layout: post
 title: "25 PhD Feels All Doctoral Students Have"
 date: 2016-07-23
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Coming soon!"
 date: 2014-07-28
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

@@ -3,25 +3,7 @@ layout: post
 title: "Proof that academia is teeming with humour, wit… and general oddness"
 date: 2014-10-03
 description:
-tags:
-  [
-    "Andre Geim",
-    "banana skin",
-    "defecation",
-    "dogs",
-    "fancy dress",
-    "friction",
-    "Ig Nobel",
-    "insults",
-    "magnetic fields",
-    "Marc Abraham",
-    "nosebleeds",
-    "polar bears",
-    "pork",
-    "reindeer",
-    "seals",
-    "twitter",
-  ]
+tags: ["Andre Geim", "banana skin", "defecation", "dogs", "fancy dress", "friction", "Ig Nobel", "insults", "magnetic fields", "Marc Abraham", "nosebleeds", "polar bears", "pork", "reindeer", "seals", "twitter", "AcademiaObscura"]
 categories: ["Academic Humour", "Crazy Research", "Guardian Blog"]
 ---
 

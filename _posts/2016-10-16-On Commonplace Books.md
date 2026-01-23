@@ -3,7 +3,7 @@ layout: post
 title: "On Commonplace Books"
 date: 2016-10-16
 description:
-tags: ["commonplace books", "digitisations", "evernote"]
+tags: ["commonplace books", "digitisations", "evernote", "AcademiaObscura"]
 categories: ["Adjuncts (guest posts)"]
 ---
 

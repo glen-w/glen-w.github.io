@@ -3,7 +3,7 @@ layout: post
 title: "Toilet Humour"
 date: 2014-11-11
 description:
-tags: ["frogs", "infections", "maths", "shit", "toilets", "urinal"]
+tags: ["frogs", "infections", "maths", "shit", "toilets", "urinal", "AcademiaObscura"]
 categories: ["Academic Humour", "Publications"]
 ---
 

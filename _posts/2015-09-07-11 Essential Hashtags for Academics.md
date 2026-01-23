@@ -3,7 +3,7 @@ layout: post
 title: "11 Essential Hashtags for Academics"
 date: 2015-09-07
 description:
-tags: ["beer", "cats", "hashtags", "PhD", "twitter"]
+tags: ["beer", "cats", "hashtags", "PhD", "twitter", "AcademiaObscura"]
 categories: ["Surprisingly Helpful"]
 ---
 

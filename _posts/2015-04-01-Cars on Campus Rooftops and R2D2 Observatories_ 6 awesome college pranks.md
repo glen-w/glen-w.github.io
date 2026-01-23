@@ -3,7 +3,7 @@ layout: post
 title: "Cars on Campus Rooftops and R2D2 Observatories: 6 awesome college pranks"
 date: 2015-04-01
 description:
-tags: ["animals", "Caltech", "cars", "college", "flamingos", "football", "Goose Girl", "Harvard", "MIT", "pranks", "sports", "Wisconsin", "Yale"]
+tags: ["animals", "Caltech", "cars", "college", "flamingos", "football", "Goose Girl", "Harvard", "MIT", "pranks", "sports", "Wisconsin", "Yale", "AcademiaObscura"]
 categories: ["Academic Humour", "Guardian Blog"]
 ---
 

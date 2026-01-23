@@ -3,7 +3,7 @@ layout: post
 title: "Doodling for Academics"
 date: 2017-07-28
 description:
-tags: ["books", "coloring", "doodling", "fun", "relaxing"]
+tags: ["books", "coloring", "doodling", "fun", "relaxing", "AcademiaObscura"]
 categories: ["Academic Humour", "Adjuncts (guest posts)", "Publications", "Surprisingly Helpful"]
 ---
 

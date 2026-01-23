@@ -3,7 +3,7 @@ layout: post
 title: "5 Out of this World Star Wars Papers"
 date: 2015-12-18
 description:
-tags: ["Darth Vader", "Death Star", "funny", "masculinity", "psychopathology", "sci-fi", "Star Wars", "toys"]
+tags: ["Darth Vader", "Death Star", "funny", "masculinity", "psychopathology", "sci-fi", "Star Wars", "toys", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

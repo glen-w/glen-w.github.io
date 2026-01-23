@@ -6,15 +6,12 @@ Handles all BibTeX parsing, manipulation, and entry processing.
 
 import os
 import re
-import sys
 from typing import Dict, List, Tuple, Optional
 
-# Add the processing directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from config import Configuration
-from core.text_processor import TextProcessor
-from core.notes_processor import NotesProcessor
+from processing.config import Configuration
+from processing.utils.file_field_parser import FileFieldParser
+from processing.core.text_processor import TextProcessor
+from processing.core.notes_processor import NotesProcessor
 
 
 class BibTeXProcessor:
@@ -25,6 +22,7 @@ class BibTeXProcessor:
         self.config = config or Configuration()
         self.text_processor = text_processor or TextProcessor(config)
         self.notes_processor = NotesProcessor()
+        self.file_field_parser = FileFieldParser()
     
     def parse_bibtex_entry(self, content: str) -> Tuple[Optional[str], Dict[str, str]]:
         """Parse a single BibTeX entry and return the citation key and fields."""
@@ -527,260 +525,35 @@ class BibTeXProcessor:
     
     def extract_file_paths(self, file_field: str) -> List[str]:
         """Extract file paths from a BibTeX file field."""
-        if not file_field:
-            return []
-        
-        paths = []
-        # Split by semicolon and process each part
-        for part in file_field.split(';'):
-            part = part.strip()
-            if not part:  # Skip empty parts
-                continue
-                
-            # Handle different formats: Description:path:mime or path:mime or just path
-            if ':' in part:
-                # Split by colon and take the middle part (path)
-                parts = part.split(':')
-                if len(parts) >= 2:
-                    # Take the second part (index 1) as the path
-                    path_part = parts[1].strip()
-                    if path_part and self._is_valid_path(path_part):
-                        paths.append(path_part)
-                elif len(parts) == 1:
-                    # Single part, might be just a path
-                    if self._is_valid_path(parts[0]):
-                        paths.append(parts[0].strip())
-            else:
-                # No colons, might be just a path
-                if self._is_valid_path(part):
-                    paths.append(part)
-        
-        return paths
+        return self.file_field_parser.extract_file_paths(file_field)
     
     def extract_thumbnail_files(self, file_field: str) -> List[str]:
         """Extract thumbnail file paths from a BibTeX file field."""
-        if not file_field:
-            return []
-        
-        thumbnail_paths = []
-        # Split by semicolon and process each part
-        for part in file_field.split(';'):
-            part = part.strip()
-            if not part:  # Skip empty parts
-                continue
-                
-            # Handle different formats: Description:path:mime or path:mime or just path
-            if ':' in part:
-                # Split by colon and check if it's a thumbnail file
-                parts = part.split(':')
-                if len(parts) >= 2:
-                    # Check if the description contains "thumbnail" (case insensitive)
-                    description = parts[0].strip().lower()
-                    if 'thumbnail' in description:
-                        path_part = parts[1].strip()
-                        if path_part and self._is_valid_path(path_part):
-                            thumbnail_paths.append(path_part)
-            else:
-                # Check if the filename itself contains "thumbnail"
-                if 'thumbnail' in part.lower() and self._is_valid_path(part):
-                    thumbnail_paths.append(part.strip())
-        
-        return thumbnail_paths
+        return self.file_field_parser.extract_thumbnails(file_field)
     
     def extract_pdf_files(self, file_field: str) -> List[str]:
         """Extract PDF file paths from a BibTeX file field."""
-        if not file_field:
-            return []
-        
-        pdf_paths = []
-        # Split by semicolon and process each part
-        for part in file_field.split(';'):
-            part = part.strip()
-            if not part:  # Skip empty parts
-                continue
-                
-            # Handle different formats: Description:path:mime or path:mime or just path
-            if ':' in part:
-                # Split by colon and check if it's a PDF file
-                parts = part.split(':')
-                if len(parts) >= 2:
-                    # Check if the MIME type indicates PDF
-                    mime_type = parts[-1].strip().lower()
-                    if 'application/pdf' in mime_type:
-                        path_part = parts[1].strip()
-                        if path_part and self._is_valid_path(path_part):
-                            pdf_paths.append(path_part)
-            else:
-                # Check if the filename ends with .pdf
-                if part.lower().endswith('.pdf') and self._is_valid_path(part):
-                    pdf_paths.append(part.strip())
-        
-        return pdf_paths
+        return self.file_field_parser.extract_pdfs(file_field)
     
     def extract_image_files(self, file_field: str) -> List[str]:
         """Extract image file paths from a BibTeX file field, excluding thumbnail files."""
-        if not file_field:
-            return []
-        
-        image_paths = []
-        # Split by semicolon and process each part
-        for part in file_field.split(';'):
-            part = part.strip()
-            if not part:  # Skip empty parts
-                continue
-            
-            # Check if this is a thumbnail file (description contains 'thumbnail' or filename contains 'thumbnail')
-            is_thumbnail = False
-            if ':' in part:
-                # Format: description:path:mime
-                parts = part.split(':')
-                if len(parts) >= 2:
-                    description = parts[0].strip().lower()
-                    if 'thumbnail' in description:
-                        is_thumbnail = True
-            else:
-                # Format: path or filename
-                if 'thumbnail' in part.lower():
-                    is_thumbnail = True
-            
-            # Skip thumbnail files - they should be processed separately
-            if is_thumbnail:
-                continue
-                
-            # Handle different formats: Description:path:mime or path:mime or just path
-            if ':' in part:
-                # Split by colon and check if it's an image file
-                parts = part.split(':')
-                if len(parts) >= 2:
-                    # Check if the MIME type indicates an image
-                    mime_type = parts[-1].strip().lower()
-                    if any(img_type in mime_type for img_type in ['image/jpeg', 'image/jpg', 'image/png', 'image/gif']):
-                        path_part = parts[1].strip()
-                        if path_part and self._is_valid_path(path_part):
-                            image_paths.append(path_part)
-            else:
-                # Check if the filename has an image extension
-                if any(part.lower().endswith(ext) for ext in ['.jpg', '.jpeg', '.png', '.gif']) and self._is_valid_path(part):
-                    image_paths.append(part.strip())
-        
-        return image_paths
+        return self.file_field_parser.extract_images(file_field, exclude_thumbnails=True)
     
     def extract_agenda_pdfs(self, file_field: str) -> List[str]:
         """Extract PDF files with 'agenda' in the filename."""
-        if not file_field:
-            return []
-        
-        agenda_paths = []
-        # Split by semicolon and process each part
-        for part in file_field.split(';'):
-            part = part.strip()
-            if not part:  # Skip empty parts
-                continue
-                
-            # Handle different formats: Description:path:mime or path:mime or just path
-            if ':' in part:
-                # Split by colon and check if it's an agenda PDF
-                parts = part.split(':')
-                if len(parts) >= 2:
-                    # Check if the description contains "agenda" and MIME type indicates PDF
-                    description = parts[0].strip().lower()
-                    mime_type = parts[-1].strip().lower()
-                    if 'agenda' in description and 'application/pdf' in mime_type:
-                        path_part = parts[1].strip()
-                        if path_part and self._is_valid_path(path_part):
-                            agenda_paths.append(path_part)
-            else:
-                # Check if the filename contains "agenda" and ends with .pdf
-                if 'agenda' in part.lower() and part.lower().endswith('.pdf') and self._is_valid_path(part):
-                    agenda_paths.append(part.strip())
-        
-        return agenda_paths
+        return self.file_field_parser.extract_agenda_pdfs(file_field)
     
     def extract_audio_files(self, file_field: str) -> List[str]:
         """Extract audio file paths from a BibTeX file field."""
-        if not file_field:
-            return []
-        
-        audio_paths = []
-        # Split by semicolon and process each part
-        for part in file_field.split(';'):
-            part = part.strip()
-            if not part:  # Skip empty parts
-                continue
-                
-            # Handle different formats: Description:path:mime or path:mime or just path
-            if ':' in part:
-                # Split by colon and check if it's an audio file
-                parts = part.split(':')
-                if len(parts) >= 2:
-                    # Check if the MIME type indicates audio
-                    mime_type = parts[-1].strip().lower()
-                    if any(audio_type in mime_type for audio_type in ['audio/mpeg', 'audio/mp3', 'audio/wav', 'audio/ogg', 'audio/mp4', 'audio/aac']):
-                        path_part = parts[1].strip()
-                        if path_part and self._is_valid_path(path_part):
-                            audio_paths.append(path_part)
-            else:
-                # Check if the filename has an audio extension
-                if any(part.lower().endswith(ext) for ext in ['.mp3', '.wav', '.ogg', '.m4a', '.aac']) and self._is_valid_path(part):
-                    audio_paths.append(part.strip())
-        
-        return audio_paths
+        return self.file_field_parser.extract_audio(file_field)
     
     def extract_slides_pdfs(self, file_field: str) -> List[str]:
         """Extract PDF files with 'slides' in filename or description."""
-        if not file_field:
-            return []
-        
-        slides_paths = []
-        # Split by semicolon and process each part
-        for part in file_field.split(';'):
-            part = part.strip()
-            if not part:  # Skip empty parts
-                continue
-                
-            # Handle different formats: Description:path:mime or path:mime or just path
-            if ':' in part:
-                # Split by colon and check if it's a slides PDF
-                parts = part.split(':')
-                if len(parts) >= 2:
-                    # Check if the description contains "slides" and MIME type indicates PDF
-                    description = parts[0].strip().lower()
-                    mime_type = parts[-1].strip().lower()
-                    if 'slides' in description and 'application/pdf' in mime_type:
-                        path_part = parts[1].strip()
-                        if path_part and self._is_valid_path(path_part):
-                            slides_paths.append(path_part)
-            else:
-                # Check if the filename contains "slides" and ends with .pdf
-                if 'slides' in part.lower() and part.lower().endswith('.pdf') and self._is_valid_path(part):
-                    slides_paths.append(part.strip())
-        
-        return slides_paths
+        return self.file_field_parser.extract_slides_pdfs(file_field)
     
     def extract_most_recent_pdf(self, file_field: str) -> Optional[str]:
         """Extract the most recent PDF file based on modification time."""
-        if not file_field:
-            return None
-        
-        pdf_files = self.extract_pdf_files(file_field)
-        if not pdf_files:
-            return None
-        
-        # Find the most recently modified PDF
-        most_recent = None
-        most_recent_time = 0
-        
-        for pdf_path in pdf_files:
-            try:
-                if os.path.exists(pdf_path):
-                    mod_time = os.path.getmtime(pdf_path)
-                    if mod_time > most_recent_time:
-                        most_recent_time = mod_time
-                        most_recent = pdf_path
-            except (OSError, FileNotFoundError):
-                continue
-        
-        return most_recent
+        return self.file_field_parser.extract_most_recent_pdf(file_field)
     
     def get_thumbnail_priority_files(self, file_field: str) -> List[Dict[str, str]]:
         """Get files for thumbnail generation in priority order.
@@ -788,41 +561,7 @@ class BibTeXProcessor:
         Returns list of dicts with 'path', 'type', and 'priority' keys.
         Priority: 1=thumbnail file, 2=slides PDF, 3=agenda PDF, 4=most recent PDF
         """
-        if not file_field:
-            return []
-        
-        priority_files = []
-        
-        # Priority 1: Thumbnail files (SVG, PNG, etc.)
-        thumbnail_paths = self.extract_thumbnail_files(file_field)
-        for path in thumbnail_paths:
-            if os.path.exists(path):
-                file_ext = os.path.splitext(path)[1].lower()
-                if file_ext == '.svg':
-                    priority_files.append({'path': path, 'type': 'svg', 'priority': 1})
-                elif file_ext in ['.png', '.jpg', '.jpeg']:
-                    priority_files.append({'path': path, 'type': 'image', 'priority': 1})
-        
-        # Priority 2: Slides PDFs
-        slides_paths = self.extract_slides_pdfs(file_field)
-        for path in slides_paths:
-            if os.path.exists(path):
-                priority_files.append({'path': path, 'type': 'pdf', 'priority': 2})
-        
-        # Priority 3: Agenda PDFs
-        agenda_paths = self.extract_agenda_pdfs(file_field)
-        for path in agenda_paths:
-            if os.path.exists(path):
-                priority_files.append({'path': path, 'type': 'pdf', 'priority': 3})
-        
-        # Priority 4: Most recent PDF
-        most_recent_pdf = self.extract_most_recent_pdf(file_field)
-        if most_recent_pdf and most_recent_pdf not in [f['path'] for f in priority_files]:
-            priority_files.append({'path': most_recent_pdf, 'type': 'pdf', 'priority': 4})
-        
-        # Sort by priority (lower number = higher priority)
-        priority_files.sort(key=lambda x: x['priority'])
-        return priority_files
+        return self.file_field_parser.get_thumbnail_priority_files(file_field)
     
     def _is_valid_path(self, path: str) -> bool:
         """Check if a string looks like a valid file path."""

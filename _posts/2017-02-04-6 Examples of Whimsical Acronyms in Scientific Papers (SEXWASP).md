@@ -3,7 +3,7 @@ layout: post
 title: "6 Examples of Whimsical Acronyms in Scientific Papers (SEXWASP)"
 date: 2017-02-04
 description:
-tags: ["acronyms", "funny", "listicles", "posts", "SEXWASP", "writing"]
+tags: ["acronyms", "funny", "listicles", "posts", "SEXWASP", "writing", "AcademiaObscura"]
 categories: ["Academic Humour", "Publications", "Publish/Perish"]
 ---
 

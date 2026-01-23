@@ -9,7 +9,8 @@ import shutil
 import subprocess
 from pathlib import Path
 from typing import List, Dict, Optional
-from config import Configuration
+
+from processing.config import Configuration
 
 
 class FileManager:
@@ -189,14 +190,14 @@ class FileManager:
             # Ignore permission errors when cleaning up
             pass
     
-    def process_images_for_entry(self, citation_key: str, fields: Dict[str, str], output_dir: str, force: bool = False) -> Dict[str, List[str]]:
+    def process_images_for_entry(self, citation_key: str, fields: Dict[str, str], output_dir: str, force: bool = False, regenerate: bool = False, verbose: bool = False) -> Dict[str, List[str]]:
         """Process images for a BibTeX entry, copying and renaming them."""
         if 'file' not in fields or not fields['file']:
             return {}
         
-        # Parse file field to find images
+        # Parse file field to find images, keeping track of both entry and path
         file_entries = fields['file'].split(';')
-        images = []
+        image_data = []  # List of (file_entry, file_path) tuples
         
         for file_entry in file_entries:
             if any(f'image/{ext}' in file_entry for ext in ['jpeg', 'jpg', 'png', 'gif']):
@@ -205,9 +206,9 @@ class FileManager:
                 if len(parts) >= 2:
                     file_path = parts[1].strip()
                     if os.path.exists(file_path):
-                        images.append(file_path)
+                        image_data.append((file_entry.strip(), file_path))
         
-        if not images:
+        if not image_data:
             return {}
         
         # Generate base filename components
@@ -217,7 +218,8 @@ class FileManager:
         author_filename = text_processor.extract_author_names_for_filename(fields.get('author', ''))
         title = fields.get('title', '')
         condensed_title = text_processor.remove_filler_words(title)
-        clean_filename = text_processor.clean_title_for_filename(condensed_title)
+        # Use slugify_title with underscores for filenames (consistent with PDF filename conventions)
+        clean_filename = text_processor.slugify_title(condensed_title, max_length=190, separator='_')
         year = fields.get('year', '')
         
         # Create base filename
@@ -231,23 +233,30 @@ class FileManager:
         # Clean up base filename
         base_filename = text_processor.clean_filename(base_filename)
         
+        # Initialize image classifier
+        # Enable image content analysis when regenerating (slower but more accurate)
+        from utils.image_classifier import ImageClassifier
+        enable_analysis = regenerate or self.config.ENABLE_IMAGE_CONTENT_ANALYSIS
+        classifier_verbose = verbose or self.config.IMAGE_CLASSIFICATION_VERBOSE
+        classifier = ImageClassifier(enable_image_analysis=enable_analysis, verbose=classifier_verbose)
+        
         # Process each image
         processed_images = {}
         figure_count = 1
         photo_count = 1
         
-        for image_path in images:
+        for file_entry, image_path in image_data:
             original_filename = os.path.basename(image_path)
             file_extension = os.path.splitext(original_filename)[1].lower()
             
-            # Determine if it's a figure or photo based on filename
-            if original_filename.lower().startswith('figure'):
-                image_type = 'figure'
+            # Use classifier to determine if it's a figure or photo
+            image_type = classifier.classify_image(file_entry, image_path)
+            
+            # Generate new filename based on classification
+            if image_type == 'figure':
                 new_filename = f"{base_filename}_figure_{figure_count:02d}{file_extension}".lower()
                 figure_count += 1
-            else:
-                # All other images are treated as photos
-                image_type = 'photo'
+            else:  # 'photo'
                 new_filename = f"{base_filename}_photo_{photo_count:02d}{file_extension}".lower()
                 photo_count += 1
             
@@ -260,6 +269,8 @@ class FileManager:
                 if image_type not in processed_images:
                     processed_images[image_type] = []
                 processed_images[image_type].append(new_filename)
+                if verbose:
+                    print(f"  📸 Classified and processed {image_type}: {new_filename}")
         
         return processed_images
     

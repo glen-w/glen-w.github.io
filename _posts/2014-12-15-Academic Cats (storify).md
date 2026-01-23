@@ -3,7 +3,7 @@ layout: post
 title: "Academic Cats (storify)"
 date: 2014-12-15
 description:
-tags: ["cats", "dogs", "gerbils", "parrots", "rabbits", "rats"]
+tags: ["cats", "dogs", "gerbils", "parrots", "rabbits", "rats", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

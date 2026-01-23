@@ -3,7 +3,7 @@ layout: post
 title: "I’ll Put the Kettle On: the academic's guide to making the perfect cuppa"
 date: 2014-10-17
 description:
-tags: ["balsamic vinegar", "chemistry", "coffee", "equations", "France", "milk", "office", "physics", "tea", "teaspoons"]
+tags: ["balsamic vinegar", "chemistry", "coffee", "equations", "France", "milk", "office", "physics", "tea", "teaspoons", "AcademiaObscura"]
 categories: ["Academic Humour", "Crazy Research", "Guardian Blog"]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "A New Academic Year Begins... Bring on the Ig Nobels!"
 date: 2015-09-28
 description:
-tags: ["chickens", "dinosaurs", "eggs", "Huh?", "Ig Nobels", "kissing", "linguistics", "Oxford Comma", "penguins", "punctuation", "twitter"]
+tags: ["chickens", "dinosaurs", "eggs", "Huh?", "Ig Nobels", "kissing", "linguistics", "Oxford Comma", "penguins", "punctuation", "twitter", "AcademiaObscura"]
 categories: ["Academic Humour", "Crazy Research", "Misc."]
 ---
 

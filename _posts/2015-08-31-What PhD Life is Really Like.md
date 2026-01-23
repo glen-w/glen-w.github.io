@@ -3,7 +3,7 @@ layout: post
 title: "What PhD Life is Really Like"
 date: 2015-08-31
 description:
-tags: ["corrections", "Council Tax", "dentist", "endnote", "mendeley", "PhD", "students", "undergrads", "zotero"]
+tags: ["corrections", "Council Tax", "dentist", "endnote", "mendeley", "PhD", "students", "undergrads", "zotero", "AcademiaObscura"]
 categories: ["Academic Humour", "Adjuncts (guest posts)"]
 ---
 

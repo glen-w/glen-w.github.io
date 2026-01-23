@@ -3,7 +3,7 @@ layout: post
 title: "6 Phrases that Should be Banned"
 date: 2016-10-16
 description:
-tags: ["feminism", "historians", "listicles", "writing"]
+tags: ["feminism", "historians", "listicles", "writing", "AcademiaObscura"]
 categories: ["Academic Humour", "Adjuncts (guest posts)", "Surprisingly Helpful"]
 ---
 

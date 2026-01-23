@@ -20,11 +20,8 @@ import requests
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime
-import sys
 
-# Add parent directory to path to import TagExtractor
-sys.path.insert(0, str(Path(__file__).parent.parent))
-from core.tag_extractor import TagExtractor
+from processing.core.tag_extractor import TagExtractor
 
 
 class MappingProcessor:
@@ -393,36 +390,19 @@ class MappingProcessor:
         This replicates the filename generation logic from the library generator
         to ensure URLs match the actual generated pages.
         """
-        # Get date components
-        year = entry.get('year', '2025')
-        month = entry.get('month', '01')
-        day = '01'  # Default day
+        # Import TextProcessor for consistent filename generation
+        from core.text_processor import TextProcessor
+        from config import Configuration
         
-        # Convert month name to number if needed
-        month_names = {
-            'jan': '01', 'january': '01',
-            'feb': '02', 'february': '02',
-            'mar': '03', 'march': '03',
-            'apr': '04', 'april': '04',
-            'may': '05',
-            'jun': '06', 'june': '06',
-            'jul': '07', 'july': '07',
-            'aug': '08', 'august': '08',
-            'sep': '09', 'september': '09',
-            'oct': '10', 'october': '10',
-            'nov': '11', 'november': '11',
-            'dec': '12', 'december': '12'
-        }
+        # Use the same text processing logic as library generator
+        config = Configuration()
+        text_processor = TextProcessor(config)
         
-        if month.lower() in month_names:
-            month = month_names[month.lower()]
-        elif len(month) == 1:
-            month = month.zfill(2)
+        # Extract author prefix
+        author = entry.get('author', '')
+        author_prefix = text_processor.extract_author_names_for_filename(author)
         
-        # Create date prefix (YYMMDD)
-        date_prefix = f"{year[-2:]}{month}{day}"
-        
-        # Create title slug
+        # Get title
         title = entry.get('title', 'untitled')
         if not title or title.strip() == '':
             title = 'untitled'
@@ -430,30 +410,39 @@ class MappingProcessor:
         # Remove common prefixes and clean up
         title = re.sub(r'^["\']', '', title)
         title = re.sub(r'["\']$', '', title)
-        title_slug = self._slugify(title, max_length=50)
         
-        # Generate filename and URL
-        filename = f"{date_prefix}_{title_slug}"
+        # First remove filler words to make title more concise
+        condensed_title = text_processor.remove_filler_words(title)
+        
+        # Use the slugify method with proper accent handling and word boundaries
+        title_slug = text_processor.slugify_title(condensed_title, max_length=200)
+        
+        # Generate filename and URL with author prefix if available
+        if author_prefix:
+            filename = f"{author_prefix}_{title_slug}"
+        else:
+            filename = f"{title_slug}"
         return f"/library/{filename}/"
     
-    def _slugify(self, text: str, max_length: int = 50) -> str:
-        """Create URL-friendly slug from text with proper accent handling."""
-        try:
-            from slugify import slugify
-            return slugify(
-                text,
-                max_length=max_length,
-                word_boundary=True,
-                save_order=True,
-                separator='-',
-                lowercase=True
-            )
-        except ImportError:
-            # Fallback if slugify is not available
-            return re.sub(r'[^\w\s-]', '', text.lower()) \
-                   .replace(' ', '-') \
-                   .replace('--', '-') \
-                   .strip('-')[:max_length]
+    def _slugify(self, text: str, max_length: int = 200) -> str:
+        """Create URL-friendly slug from text with proper accent handling.
+        
+        Note: This method is kept for backward compatibility, but generate_library_url()
+        now uses TextProcessor for consistency. This method should be updated to use
+        TextProcessor or removed if no longer needed.
+        """
+        # Import TextProcessor for consistent processing
+        from core.text_processor import TextProcessor
+        from config import Configuration
+        
+        config = Configuration()
+        text_processor = TextProcessor(config)
+        
+        # Remove filler words first
+        condensed_text = text_processor.remove_filler_words(text)
+        
+        # Use TextProcessor's slugify method for consistency
+        return text_processor.slugify_title(condensed_text, max_length=max_length)
 
 
 def main():

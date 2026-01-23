@@ -5,14 +5,10 @@ Handles proper formatting of BibTeX entries with multi-line fields.
 """
 
 import re
-import sys
 import os
 from typing import Dict, List
 
-# Add the processing directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from core.text_processor import TextProcessor
+from processing.core.text_processor import TextProcessor
 
 
 class BibTeXFormatter:

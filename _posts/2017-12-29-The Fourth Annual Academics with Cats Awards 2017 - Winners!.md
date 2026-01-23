@@ -3,7 +3,7 @@ layout: post
 title: "The Fourth Annual Academics with Cats Awards 2017 - Winners!"
 date: 2017-12-29
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

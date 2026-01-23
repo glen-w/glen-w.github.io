@@ -5,15 +5,11 @@ Handles all text cleaning, normalization, and processing operations.
 """
 
 import re
-import sys
 import os
 import string
 from typing import Dict, List, Optional
 
-# Add the processing directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from config import Configuration
+from processing.config import Configuration
 
 # Import slugify for proper accent handling
 try:
@@ -101,14 +97,22 @@ class TextProcessor:
         title = re.sub(r'_+', '_', title)
         title = re.sub(r'^_|_$', '', title)
         
-        # Apply length limit
-        if len(title) > self.config.MAX_TITLE_LENGTH:
-            title = self.truncate_at_word_boundary(title, self.config.MAX_TITLE_LENGTH)
+        # Don't truncate here - let generate_filename() handle truncation with proper limits
+        # This allows more substantive words in the filename
         
         return title
     
-    def slugify_title(self, title: str, max_length: int = 50) -> str:
-        """Create URL-friendly slug from title with proper accent handling."""
+    def slugify_title(self, title: str, max_length: int = 200, separator: str = '-') -> str:
+        """Create URL-friendly slug from title with proper accent handling.
+        
+        Args:
+            title: The title to slugify
+            max_length: Maximum length of the resulting slug
+            separator: Character to use as word separator (default: '-' for URLs, use '_' for filenames)
+        
+        Returns:
+            A URL-friendly slug with proper accent handling
+        """
         if not title:
             return ""
         
@@ -116,13 +120,17 @@ class TextProcessor:
         title = re.sub(r'\\[a-zA-Z]+', '', title)
         title = self.clean_nested_braces(title)
         
+        # Handle apostrophes: remove them to merge words (e.g., "flag's" -> "flags")
+        # This handles both straight apostrophes (') and curly apostrophes (')
+        title = re.sub(r"['']", '', title)
+        
         # Use python-slugify for proper accent handling
         slug = slugify(
             title,
             max_length=max_length,
             word_boundary=True,
             save_order=True,
-            separator='-',
+            separator=separator,
             lowercase=True
         )
         
@@ -163,16 +171,32 @@ class TextProcessor:
         return ' '.join(filtered_words)
     
     def extract_author_names_for_filename(self, author: str) -> str:
-        """Extract author names for use in filenames based on whether Glen Wright is first author."""
+        """Extract author names for use in filenames based on whether Glen Wright is first author.
+        
+        Returns:
+            - "glen_wright" if Glen Wright is the first (and only) author
+            - "glen_wright_etal" if Glen Wright is first author with co-authors
+            - "" if any other person is first author (no author name included)
+            - "" if no author is provided
+        """
         if not author:
             return ""
+        
+        # Clean nested braces first
+        author = self.clean_nested_braces(author)
         
         # Split by 'and' to get individual authors
         authors = [a.strip() for a in author.split(' and ')]
         
+        if not authors:
+            return ""
+        
+        # Get first author
+        first_author = authors[0]
+        first_author_lower = first_author.lower()
+        
         # Check if Glen Wright is the first author
-        first_author = authors[0].lower()
-        is_glen_wright_first = 'wright' in first_author and 'glen' in first_author
+        is_glen_wright_first = 'wright' in first_author_lower and 'glen' in first_author_lower
         
         if is_glen_wright_first:
             if len(authors) == 1:
@@ -180,6 +204,7 @@ class TextProcessor:
             else:
                 return "glen_wright_etal"
         else:
+            # Don't include author name if first author is not Glen Wright
             return ""
     
     def extract_journal_or_publisher_for_filename(self, fields: Dict[str, str]) -> str:
@@ -223,21 +248,30 @@ class TextProcessor:
         
         return filename.lower()
     
-    def truncate_at_word_boundary(self, text: str, max_length: int) -> str:
-        """Truncate text at word boundary to avoid cutting words in half."""
+    def truncate_at_word_boundary(self, text: str, max_length: int, separator: str = '_') -> str:
+        """Truncate text at word boundary to avoid cutting words in half.
+        
+        Args:
+            text: The text to truncate
+            max_length: Maximum length before truncation
+            separator: Character used to separate words (default: '_' for filenames, use '-' for URLs)
+        
+        Returns:
+            Truncated text ending at a word boundary
+        """
         if not text or len(text) <= max_length:
             return text
         
-        # Find the last underscore before the max_length
+        # Find the last separator before the max_length
         truncated = text[:max_length]
-        last_underscore = truncated.rfind('_')
+        last_separator = truncated.rfind(separator)
         
-        # If we found an underscore and it's not at the very beginning
-        if last_underscore > 0:
-            # Truncate at the last complete word (before the underscore)
-            return text[:last_underscore]
+        # If we found a separator and it's not at the very beginning
+        if last_separator > 0:
+            # Truncate at the last complete word (before the separator)
+            return text[:last_separator]
         else:
-            # If no underscore found, just truncate at max_length
+            # If no separator found, just truncate at max_length
             return text[:max_length]
     
     def truncate_filename_at_word_boundary(self, filename: str, max_length: int) -> str:
@@ -356,7 +390,8 @@ class TextProcessor:
         
         # Apply type-specific cleaning
         if field_type == 'filename':
-            cleaned = self.clean_title_for_filename(cleaned)
+            # Use slugify_title with underscores for filenames (consistent with filename conventions)
+            cleaned = self.slugify_title(cleaned, max_length=200, separator='_')
         elif field_type == 'bibtex':
             cleaned = self.clean_title_for_bibtex(cleaned)
         elif field_type == 'general':
@@ -403,23 +438,27 @@ class TextProcessor:
             # Clean and format components
             # First remove filler words to make title more concise
             condensed_title = self.remove_filler_words(title)
-            clean_title = self.clean_title_for_filename(condensed_title)
-            clean_author = self.clean_author_for_filename(author)
+            # Use slugify_title with underscores for filenames (consistent with filename conventions)
+            clean_title = self.slugify_title(condensed_title, max_length=190, separator='_')
+            # Use extract_author_names_for_filename to only include Glen Wright's name
+            author_prefix = self.extract_author_names_for_filename(author)
             
             # Generate filename components
             filename_parts = []
             
-            # Add author (first author only) - omit if no author
-            if clean_author:
-                filename_parts.append(clean_author)
+            # Add author prefix (only if Glen Wright is first author) - omit otherwise
+            if author_prefix:
+                filename_parts.append(author_prefix)
             
             # Add year - omit if no year
             if year:
                 filename_parts.append(year)
             
-            # Add title (truncated to 130 characters at word boundary)
-            if len(clean_title) > 130:
-                clean_title = self.truncate_at_word_boundary(clean_title, 130)
+            # Title is already truncated by slugify_title, but ensure it fits if needed
+            # 190 leaves room for author prefix (~12 chars) and year (~5 chars) in the full filename
+            # Total filename will be close to 200 characters
+            if len(clean_title) > 190:
+                clean_title = self.truncate_at_word_boundary(clean_title, 190, separator='_')
             filename_parts.append(clean_title)
             
             # Note: Journal title is intentionally excluded from filename

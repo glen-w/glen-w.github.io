@@ -3,8 +3,8 @@ layout: page
 title: STRONG High Seas
 description: Strengthening Regional Ocean Governance
 img: /assets/img/projects/thumbs/strong_high_seas_logo.png
-importance: 2
-category: past work
+importance: 
+category: archive
 ---
 
 <div align="center">

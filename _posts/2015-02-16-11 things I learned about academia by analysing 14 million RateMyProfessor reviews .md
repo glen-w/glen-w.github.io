@@ -3,7 +3,7 @@ layout: post
 title: "11 things I learned about academia by analysing 14 million RateMyProfessor reviews "
 date: 2015-02-16
 description:
-tags: ["alcohol", "clickbait", "dental hygiene", "elbow patches", "gender", "hair", "listicles", "RateMyProfessor", "weird"]
+tags: ["alcohol", "clickbait", "dental hygiene", "elbow patches", "gender", "hair", "listicles", "RateMyProfessor", "weird", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

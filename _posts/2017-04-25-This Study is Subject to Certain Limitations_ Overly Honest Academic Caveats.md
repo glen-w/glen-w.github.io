@@ -3,8 +3,7 @@ layout: post
 title: "This Study is Subject to Certain Limitations: Overly Honest Academic Caveats"
 date: 2017-04-25
 description:
-tags:
-categories: ["Academic Humour", "Parody", "Publish/Perish"]
+tags: ["categories: ["Academic Humour", "Parody", "Publish/Perish"]", "AcademiaObscura"]
 ---
 
 _Alison Edwards is an independent researcher, translator, editor, writer, and lover of tennis, infrastructure, and collared shirts done all the way up. This post originally appeared on her blog The Rogue Linguist. Follow Alison on twitter [@rogue_linguist](https://twitter.com/rogue_linguist)_

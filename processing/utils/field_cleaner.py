@@ -6,7 +6,8 @@ Handles cleaning and removal of processed fields from BibTeX entries.
 
 import re
 from typing import Dict, List, Optional, Tuple
-from config import Configuration
+
+from processing.config import Configuration
 
 
 class FieldCleaner:

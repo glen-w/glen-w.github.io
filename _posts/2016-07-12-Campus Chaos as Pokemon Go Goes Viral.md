@@ -3,8 +3,7 @@ layout: post
 title: "Campus Chaos as Pokemon Go Goes Viral"
 date: 2016-07-12
 description:
-tags:
-categories: ["Academic Humour", "Parody"]
+tags: ["categories: ["Academic Humour", "Parody"]", "AcademiaObscura"]
 ---
 
 ![Credit: [Burdie](https://drawception.com/player/343613/burdie/)](../assets/img/posts/160712_Campus_Chaos_as_Pokemon_Go_Goes_Viral_02.png)

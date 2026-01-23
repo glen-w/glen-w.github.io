@@ -3,7 +3,7 @@ layout: post
 title: "Amazing Acknowledgements in Academic Papers"
 date: 2014-07-28
 description:
-tags: ["acknowledgements", "FunAcknowledgements", "funny", "unacknowledgements"]
+tags: ["acknowledgements", "FunAcknowledgements", "funny", "unacknowledgements", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

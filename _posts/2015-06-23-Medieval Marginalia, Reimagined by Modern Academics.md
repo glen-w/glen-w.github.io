@@ -3,7 +3,7 @@ layout: post
 title: "Medieval Marginalia, Reimagined by Modern Academics"
 date: 2015-06-23
 description:
-tags: ["listicles", "marginalia"]
+tags: ["listicles", "marginalia", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

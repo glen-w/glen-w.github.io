@@ -3,7 +3,7 @@ layout: post
 title: "Why does it always rain on me? Academics forecast their day"
 date: 2015-04-27
 description:
-tags: ["funny", "hashtags", "twitter", "weather"]
+tags: ["funny", "hashtags", "twitter", "weather", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

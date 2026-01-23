@@ -3,7 +3,7 @@ layout: post
 title: "This Post is Intentionally Left Blank"
 date: 2014-11-16
 description:
-tags: ["blank", "funny", "maths", "publishers"]
+tags: ["blank", "funny", "maths", "publishers", "AcademiaObscura"]
 categories: ["Academic Humour", "Crazy Research", "Journals", "Publications", "Publish/Perish"]
 ---
 

@@ -3,8 +3,8 @@ layout: page
 title: TranscriptX
 description: All-in-one audio transcription & analysis
 img: /assets/img/projects/thumbs/transcriptx_logo.png
-importance: 2
-category: side quests
+importance: 5
+category: ongoing
 ---
 
 <div align="center">

@@ -3,7 +3,7 @@ layout: post
 title: "Academics with BEER!"
 date: 2015-07-10
 description:
-tags: ["#AcademicsWithBeer", "#AcaDowntime", "beer", "hashtags", "twitter"]
+tags: ["#AcademicsWithBeer", "#AcaDowntime", "beer", "hashtags", "twitter", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

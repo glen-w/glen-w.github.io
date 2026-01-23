@@ -22,6 +22,7 @@ class Configuration:
     PREVIEW_DIR = "../assets/img/publication_preview"
     IMAGES_DIR = "../assets/img/publications"
     AUDIO_DIR = "../assets/audio"
+    ZIP_DIR = "../assets/zips"
     
     # File extensions
     PDF_EXTENSIONS = ['.pdf']
@@ -102,6 +103,10 @@ class Configuration:
     PDF_METADATA_BACKUP_DIR = "../backups/pdf_metadata"
     PDF_METADATA_BACKUP_RETENTION_DAYS = 30
     
+    # Image classification settings
+    ENABLE_IMAGE_CONTENT_ANALYSIS = False  # Enable PIL-based image analysis (slower but more accurate)
+    IMAGE_CLASSIFICATION_VERBOSE = False  # Print classification details during processing
+    
     # Error messages
     ERROR_MESSAGES = {
         'file_not_found': "❌ Error: Source file {} not found!",
@@ -125,7 +130,7 @@ class Configuration:
     @classmethod
     def ensure_directories_exist(cls) -> None:
         """Ensure all required directories exist."""
-        directories = [cls.PDF_DIR, cls.PREVIEW_DIR, cls.IMAGES_DIR, cls.AUDIO_DIR]
+        directories = [cls.PDF_DIR, cls.PREVIEW_DIR, cls.IMAGES_DIR, cls.AUDIO_DIR, cls.ZIP_DIR]
         for directory in directories:
             os.makedirs(directory, exist_ok=True)
     

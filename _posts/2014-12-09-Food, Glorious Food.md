@@ -3,7 +3,7 @@ layout: post
 title: "Food, Glorious Food"
 date: 2014-12-09
 description:
-tags: ["appetite", "cake", "cheese", "crisps", "fish", "food", "fungi", "olive oil", "popcorn", "ramen noodles", "salami", "seafood", "soup"]
+tags: ["appetite", "cake", "cheese", "crisps", "fish", "food", "fungi", "olive oil", "popcorn", "ramen noodles", "salami", "seafood", "soup", "AcademiaObscura"]
 categories: ["Academic Humour", "Crazy Research"]
 ---
 

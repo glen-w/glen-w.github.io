@@ -3,7 +3,7 @@ layout: post
 title: "The Workaholic and Academia: in defense of #AcaDowntime"
 date: 2015-07-31
 description:
-tags: ["#AcaDowntime", "family", "feminism", "mental health", "privilege", "self-care", "work-life balance", "workaholism"]
+tags: ["#AcaDowntime", "family", "feminism", "mental health", "privilege", "self-care", "work-life balance", "workaholism", "AcademiaObscura"]
 categories: ["Adjuncts (guest posts)", "Surprisingly Helpful"]
 ---
 

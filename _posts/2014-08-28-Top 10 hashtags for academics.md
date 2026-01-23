@@ -3,7 +3,7 @@ layout: post
 title: "Top 10 hashtags for academics"
 date: 2014-08-28
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

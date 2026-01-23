@@ -11,19 +11,35 @@ The script now uses enhanced validation by default for robust error detection an
 automatic fixing of common BibTeX issues during processing.
 """
 
+#!/usr/bin/env python3
+"""
+Main script to process papers from Zotero export with modular architecture.
+This version uses separate modules for different processing steps with enhanced validation.
+
+IMPORTANT: NEVER edit _bibliography/papers.bib directly! This file gets overwritten
+on every new Zotero export. All fixes must be made to this script and its modules
+to ensure they are applied during processing.
+
+The script now uses enhanced validation by default for robust error detection and
+automatic fixing of common BibTeX issues during processing.
+"""
+
 import argparse
-import sys
 import os
+import sys
 
-# Add the processing directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Add parent directory to path so we can import processing as a package
+# This allows main.py to be run directly from the processing directory
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if parent_dir not in sys.path:
+    sys.path.insert(0, parent_dir)
 
-from config import Configuration
-from core.paper_processor import PaperProcessor
-from core.post_processor import PostProcessor
-from validation.simple_validator import SimpleValidator
-from validation.enhanced_validator import EnhancedValidator
-from utils.field_remover import remove_fields_from_bibtex
+from processing.config import Configuration
+from processing.core.paper_processor import PaperProcessor
+from processing.core.post_processor import PostProcessor
+from processing.validation.simple_validator import SimpleValidator
+from processing.validation.enhanced_validator import EnhancedValidator
+from processing.utils.field_remover import remove_fields_from_bibtex
 
 
 def main():
@@ -42,9 +58,9 @@ def main():
     parser.add_argument('--verbose', '-v', action='store_true',
                        help='Enable verbose output for detailed processing information')
     parser.add_argument('--test', action='store_true',
-                       help='Test mode: process only first 5 entries for quick testing')
-    parser.add_argument('--test-count', type=int, default=5,
-                       help='Number of entries to process in test mode (default: 5)')
+                       help='Test mode: process only first 15 entries for quick testing')
+    parser.add_argument('--test-count', type=int, default=15,
+                       help='Number of entries to process in test mode (default: 15)')
     parser.add_argument('--update-pdf-metadata', action='store_true',
                        help='Update PDF metadata with BibTeX information (default: False, opt-in feature)')
     parser.add_argument('--no-pdf-metadata', action='store_true',
@@ -76,7 +92,7 @@ def main():
     parser.add_argument('--remove-only', action='store_true',
                        help='Only remove specified fields, skip main processing')
     parser.add_argument('--library-items', action='store_true',
-                       help='Only generate library items, skip main processing')
+                       help='Only generate individual library item pages, skip main processing and dynamic filters')
     parser.add_argument('--dynamic-filters', action='store_true',
                        help='Only generate dynamic filters, skip main processing')
     
@@ -281,10 +297,10 @@ def run_removal_only(args) -> int:
 
 
 def run_library_items_only(args) -> int:
-    """Run only library items generation."""
+    """Run only library items generation (without dynamic filters)."""
     print("📖 Starting library items generation...")
     
-    success = run_library_generation(args)
+    success = run_library_generation(args, skip_dynamic_filters=True)
     if not success:
         print("❌ Library items generation failed")
         return 1
@@ -293,20 +309,22 @@ def run_library_items_only(args) -> int:
     return 0
 
 
-def run_library_generation(args) -> bool:
+def run_library_generation(args, skip_dynamic_filters=False) -> bool:
     """Run library page generation."""
     print("\n📖 Starting library page generation...")
     
     try:
         # Import the library generator
-        from library.generator import LibraryPageGenerator
+        from processing.library.generator import LibraryPageGenerator
         
-        # Create generator with same test mode as process_papers
+        # Create generator with same test mode and regenerate flag as process_papers
         bib_file = args.bibtex_file or '../_bibliography/papers.bib'
         generator = LibraryPageGenerator(
             bib_file=bib_file,
             output_dir='../_library',
-            test_mode=args.test
+            test_mode=args.test,
+            skip_dynamic_filters=skip_dynamic_filters,
+            regenerate=args.regenerate
         )
         
         # Run the generation
@@ -324,8 +342,8 @@ def run_dynamic_filters_generation(args) -> bool:
     
     try:
         # Import the dynamic filters generator
-        from library.dynamic_filters import DynamicFiltersGenerator
-        from library.bib_parser import BibParser
+        from processing.library.dynamic_filters import DynamicFiltersGenerator
+        from processing.library.bib_parser import BibParser
         import bibtexparser
         from bibtexparser.bparser import BibTexParser
         from bibtexparser.customization import convert_to_unicode
@@ -369,8 +387,8 @@ def run_dynamic_filters_only(args) -> bool:
     
     try:
         # Import the dynamic filters generator
-        from library.dynamic_filters import DynamicFiltersGenerator
-        from library.bib_parser import BibParser
+        from processing.library.dynamic_filters import DynamicFiltersGenerator
+        from processing.library.bib_parser import BibParser
         import bibtexparser
         from bibtexparser.bparser import BibTexParser
         from bibtexparser.customization import convert_to_unicode
@@ -430,7 +448,7 @@ def run_mapping_generation(args) -> bool:
     
     try:
         # Import the mapping processor
-        from mapping.processor import MappingProcessor
+        from processing.mapping.processor import MappingProcessor
         
         # Create processor with same test mode as process_papers
         # If regenerate mode is enabled, also refresh the geocoding cache

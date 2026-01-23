@@ -3,8 +3,7 @@ layout: post
 title: "Trick or Treat?"
 date: 2014-10-31
 description:
-tags:
-  [
+tags: ["[", "AcademiaObscura"]
     "apocolypse",
     "bats",
     "Fugu",

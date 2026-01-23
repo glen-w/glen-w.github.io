@@ -3,7 +3,7 @@ layout: post
 title: "11 Terrible Video Game Screenshots that Perfectly Capture Academic Life"
 date: 2015-12-10
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

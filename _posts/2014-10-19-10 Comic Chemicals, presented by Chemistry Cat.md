@@ -3,7 +3,7 @@ layout: post
 title: "10 Comic Chemicals, presented by Chemistry Cat"
 date: 2014-10-19
 description:
-tags: ["Apollo", "cat", "chemistry", "geology", "minerals", "Neil Armstrong", "puns", "rude"]
+tags: ["Apollo", "cat", "chemistry", "geology", "minerals", "Neil Armstrong", "puns", "rude", "AcademiaObscura"]
 categories: ["Academic Humour", "Crazy Research"]
 ---
 

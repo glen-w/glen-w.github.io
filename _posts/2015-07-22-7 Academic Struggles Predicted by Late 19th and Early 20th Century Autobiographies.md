@@ -3,8 +3,7 @@ layout: post
 title: "7 Academic Struggles Predicted by Late 19th and Early 20th Century Autobiographies"
 date: 2015-07-22
 description:
-tags:
-categories: ["Academic Humour", "Adjuncts (guest posts)"]
+tags: ["categories: ["Academic Humour", "Adjuncts (guest posts)"]", "AcademiaObscura"]
 ---
 
 _[![avatar_cee947a27aed_64](../assets/img/posts/150722_7_Academic_Struggles_Predicted_by_Late_19th_and_Ea_04.png)](../assets/img/posts/150722_7_Academic_Struggles_Predicted_by_Late_19th_and_Ea_04.png)By Alice Violett. Alice is doing a PhD at the University of Essex on the public perceptions and personal experiences of only children in Britain between 1850 and 1950, and blogs at Alice in Academia. Alice likes reading, music, and cats.  You can follow Alice on Twitter [@pokesqueak](https://twitter.com/pokesqueak)._

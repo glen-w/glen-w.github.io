@@ -3,7 +3,7 @@ layout: post
 title: "A Day in the Life of an Academic (with cats)"
 date: 2015-01-10
 description:
-tags: ["cats", "listicles"]
+tags: ["cats", "listicles", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

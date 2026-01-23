@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 40
-display_categories: [current work, side quests, aspirational, past work]
+display_categories: [ongoing, archive?, aspirations, archive]
 horizontal: false
 ---
 

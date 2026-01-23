@@ -3,7 +3,7 @@ layout: post
 title: "5 Super Specific Academic Journals"
 date: 2014-08-11
 description:
-tags: ["creationism", "journals", "listicles", "near-death", "negative results", "potatoes", "reindeer"]
+tags: ["creationism", "journals", "listicles", "near-death", "negative results", "potatoes", "reindeer", "AcademiaObscura"]
 categories: ["Journals", "Publications"]
 ---
 

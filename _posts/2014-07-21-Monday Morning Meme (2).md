@@ -3,7 +3,7 @@ layout: post
 title: "Monday Morning Meme (2)"
 date: 2014-07-21
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

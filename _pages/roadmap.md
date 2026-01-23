@@ -26,6 +26,22 @@ render_with_liquid: false #turned off so as to not break on render
 - [ ] **Create backup and versioning system** for processed files
 - [ ] **Test end-to-end workflow** with sample publications
 
+#### Multilingual PDF Filenames & Library Display (Future Enhancement)
+
+**Current State**: When a single bibliographic entry has multiple PDFs (e.g., different language versions), the system appends sequential suffixes (`_a`, `_b`, `_c`) to the base English filename to avoid collisions.
+
+**Planned Enhancement**: Improve handling of multilingual publications:
+- [ ] **Language-aware filename generation** - Generate filenames using the actual language of each PDF (e.g., Spanish title for Spanish version, French title for French version)
+- [ ] **Enhanced library page rendering** - Better visual delineation of language variants on the library page (e.g., language badges, grouped display, language selector)
+- [ ] **Language detection** - Automatically detect PDF language from metadata or content
+- [ ] **Consistent language tagging** - Add language tags to BibTeX entries for multilingual publications
+- [ ] **Improved user experience** - Make it clear when multiple language versions are available and allow easy switching between them
+
+**Use Cases**:
+- Publications with Spanish, French, and English versions should have filenames reflecting their actual language
+- Library page should clearly show when multiple language versions exist
+- Users should be able to easily identify and access their preferred language version
+
 #### Zotero Presentations Cleanup
 
 - [ ] **Review and categorize** all presentation entries in Zotero

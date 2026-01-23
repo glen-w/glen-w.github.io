@@ -3,7 +3,7 @@ layout: post
 title: "Academic Nursery Rhymes"
 date: 2015-07-08
 description:
-tags: ["hashtags", "nursery rhymes", "twitter"]
+tags: ["hashtags", "nursery rhymes", "twitter", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

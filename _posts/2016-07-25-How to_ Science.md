@@ -3,7 +3,7 @@ layout: post
 title: "How to: Science"
 date: 2016-07-25
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

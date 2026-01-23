@@ -3,7 +3,7 @@ layout: post
 title: "Academics with Cats Awards 2016 - The Shortlist"
 date: 2016-12-15
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

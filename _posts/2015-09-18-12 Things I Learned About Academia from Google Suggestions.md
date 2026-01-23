@@ -3,7 +3,7 @@ layout: post
 title: "12 Things I Learned About Academia from Google Suggestions"
 date: 2015-09-18
 description:
-tags: ["funny", "google", "internet", "stereotypes", "suggestions"]
+tags: ["funny", "google", "internet", "stereotypes", "suggestions", "AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

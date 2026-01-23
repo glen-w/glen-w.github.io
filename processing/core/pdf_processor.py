@@ -5,17 +5,13 @@ Handles all PDF-related operations including metadata updates and thumbnail gene
 """
 
 import os
-import sys
 import shutil
 import tempfile
 import time
 from typing import Dict, Optional
 
-# Add the processing directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from config import Configuration
-from core.text_processor import TextProcessor
+from processing.config import Configuration
+from processing.core.text_processor import TextProcessor
 
 
 class PDFProcessor:
@@ -155,9 +151,9 @@ class PDFProcessor:
                 PdfReadError = Exception
                 PdfWriteError = Exception
             
-            # Read the PDF
+            # Read the PDF in lenient mode to handle minor corruption
             try:
-                reader = PyPDF2.PdfReader(pdf_path)
+                reader = PyPDF2.PdfReader(pdf_path, strict=False)
             except PdfReadError as e:
                 print(f"  ❌ PDF read error: {e}")
                 return False
@@ -167,13 +163,29 @@ class PDFProcessor:
             
             writer = PyPDF2.PdfWriter()
             
-            # Copy all pages
-            try:
-                for page in reader.pages:
+            # Copy all pages with individual error handling
+            pages_copied = 0
+            total_pages = len(reader.pages)
+            failed_pages = []
+            
+            for i, page in enumerate(reader.pages):
+                try:
                     writer.add_page(page)
-            except Exception as e:
-                print(f"  ❌ Error copying PDF pages: {e}")
+                    pages_copied += 1
+                except Exception as page_error:
+                    failed_pages.append(i + 1)  # Page numbers are 1-indexed for user display
+                    if len(failed_pages) <= 3:  # Only show first 3 failed pages to avoid spam
+                        print(f"  ⚠️  Warning: Could not copy page {i+1}: {page_error}")
+                    elif len(failed_pages) == 4:
+                        print(f"  ⚠️  Warning: Additional pages failed to copy...")
+            
+            # Check if we successfully copied any pages
+            if pages_copied == 0:
+                print(f"  ❌ Error: Could not copy any pages from PDF (total pages: {total_pages})")
                 return False
+            elif pages_copied < total_pages:
+                print(f"  ⚠️  Warning: Only copied {pages_copied} of {total_pages} pages (failed pages: {', '.join(map(str, failed_pages))})")
+                # Continue with metadata update even if some pages failed
             
             # Validate and prepare metadata
             validated_metadata = self._validate_metadata_values(metadata)

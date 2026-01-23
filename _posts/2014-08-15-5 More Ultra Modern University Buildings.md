@@ -3,7 +3,7 @@ layout: post
 title: "5 More Ultra Modern University Buildings"
 date: 2014-08-15
 description:
-tags:
+tags: ["AcademiaObscura"]
 categories: ["Academia Obscura"]
 ---
 

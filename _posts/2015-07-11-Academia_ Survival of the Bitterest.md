@@ -3,7 +3,7 @@ layout: post
 title: "Academia: Survival of the Bitterest?"
 date: 2015-07-11
 description:
-tags: ["#AcaDowntime", "dance", "metaphor", "papers", "publishing", "work-life balance"]
+tags: ["#AcaDowntime", "dance", "metaphor", "papers", "publishing", "work-life balance", "AcademiaObscura"]
 categories: ["Adjuncts (guest posts)", "Surprisingly Helpful"]
 ---
 

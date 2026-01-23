@@ -6,16 +6,12 @@ Handles post-processing cleanup and field removal after main processing is compl
 
 import os
 import re
-import sys
 from typing import Dict, List, Optional
 
-# Add the processing directory to the Python path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from config import Configuration
-from utils.field_cleaner import FieldCleaner
-from core.bibtex_processor import BibTeXProcessor
-from core.bibtex_formatter import BibTeXFormatter
+from processing.config import Configuration
+from processing.utils.field_cleaner import FieldCleaner
+from processing.core.bibtex_processor import BibTeXProcessor
+from processing.core.bibtex_formatter import BibTeXFormatter
 
 
 class PostProcessor:
