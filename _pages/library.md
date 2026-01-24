@@ -197,20 +197,22 @@ nav_order: 10
   user-select: none;
   text-decoration: none;
   color: inherit;
+  background-color: #f8f9fa !important;
   margin-right: 0.3rem !important; /* Horizontal spacing between tags */
   margin-bottom: 0.3rem !important; /* Vertical spacing between rows */
   padding: 0.2rem 0.35rem; /* Smaller padding for filter badges */
   font-size: 0.8rem;
-  
+
   &:hover {
     text-decoration: none;
     color: inherit;
+    background-color: #dee2e6 !important;
   }
-  
+
   &:visited {
     color: inherit;
   }
-  
+
   &.active {
     background-color: var(--global-theme-color) !important;
     color: var(--global-card-bg-color) !important;
@@ -636,11 +638,8 @@ function itemMatchesFilter(item, filterText) {
   // Check for language tags
   const languageTags = item.querySelectorAll('.all-tags .tag');
   const hasLanguageTag = Array.from(languageTags).some(tag => {
-    // Language tags are displayed with emoji (e.g., "🇫🇷 French"), so use includes()
     const tagText = tag.textContent.toLowerCase().trim();
-    // Remove emoji and check if filter text matches
-    const tagWithoutEmoji = tagText.replace(/🇫🇷|🇪🇸|🇨🇳/g, '').trim();
-    return tagWithoutEmoji === filterLower || tagText.includes(filterLower);
+    return tagText === filterLower || tagText.includes(filterLower);
   });
   
   if (hasLanguageTag) {
