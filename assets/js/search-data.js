@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-library",
-          title: "library",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/library/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "",
           section: "Navigation",
@@ -29,6 +22,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/creative/";
+          },
+        },{id: "nav-library",
+          title: "library",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/library/";
           },
         },{id: "nav-blog",
           title: "blog",
@@ -86,14 +86,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/sitemap/";
               },
-            },{id: "nav-services",
-          title: "services",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/services/";
-          },
-        },{id: "nav-cv",
+            },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
@@ -4208,6 +4201,11 @@ ninja.data = [{
           description: "Les représentants des 68 États ayant à ce jour ratifié le traité sur la préservation et l’utilisation durable de la biodiversité en haute mer se sont réunis le 23 septembre 2025 à New York, en marge d...",
           section: "Library",handler: () => {
               window.location.href = "/library/a-new-york-une-ceremonie-acte-lentree-en-vigueur-debut-2026-du-traite-sur-la-biodiversite-en-haute-mer/";
+            },},{id: "library-le-traité-sur-la-protection-de-la-biodiversité-en-haute-mer-entre-en-vigueur",
+          title: 'Le traité sur la protection de la biodiversité en haute mer entre en...',
+          description: "Le traité sur la protection de la biodiversité en haute mer entre en vigueur",
+          section: "Library",handler: () => {
+              window.location.href = "/library/le-traite-sur-la-protection-de-la-biodiversite-en-haute-mer-entre-en-vigueur/";
             },},{id: "projects-academia-obscura",
           title: 'Academia Obscura',
           description: "The hidden silly side of higher education",
@@ -4240,7 +4238,7 @@ ninja.data = [{
               window.location.href = "/projects/marine-policy-ocean-governance/";
             },},{id: "projects-marine-regions-forum",
           title: 'Marine Regions Forum',
-          description: "All-in-one audio transcription &amp; analysis",
+          description: "Achieving a Healthy Ocean – Regional Ocean Governance Beyond 2020",
           section: "Projects",handler: () => {
               window.location.href = "/projects/marine_regions_forum/";
             },},{id: "projects-post-employment",
@@ -4255,7 +4253,7 @@ ninja.data = [{
               window.location.href = "/projects/ren21_rethink/";
             },},{id: "projects-renewables-global-status-report",
           title: 'Renewables Global Status Report',
-          description: "REN21&#39;s flagship report spotlighting the developments and trends shaping the future of renewables.",
+          description: "The world’s leading annual assessment of renewable energy progress",
           section: "Projects",handler: () => {
               window.location.href = "/projects/renewables_global_status_report/";
             },},{id: "projects-renweb",
@@ -4265,12 +4263,12 @@ ninja.data = [{
               window.location.href = "/projects/renweb/";
             },},{id: "projects-strong-high-seas",
           title: 'STRONG High Seas',
-          description: "Strengthening Regional Ocean Governance",
+          description: "Strengthening Regional Ocean Governance for Areas Beyond National Jurisdiction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/strong_high_seas/";
             },},{id: "projects-transcriptx",
           title: 'TranscriptX',
-          description: "All-in-one audio transcription &amp; analysis",
+          description: "A place to think with transcripts",
           section: "Projects",handler: () => {
               window.location.href = "/projects/transcriptx/";
             },},{id: "projects-website",
@@ -4365,30 +4363,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://scholar.google.com/citations?user=QHaIr0sAAAAJ", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
