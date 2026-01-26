@@ -11,6 +11,9 @@ description: The third Chair and Students’ Roundtable was held on February 24.
   was a virtual event. The topic was “Ocean Governance Challenges and Opportunities”.
   We were delighted to welcome Glen Wright (PSIA ...
 entry_type: Webinar
+gallery:
+- chair_students_roundtable_ocean_governance_challenges_opportunities_figure_01
+- chair_students_roundtable_ocean_governance_challenges_opportunities_photo_01
 layout: library-item
 location: Sciences Po, Paris, France
 pdf: 'Discussion Highlights_ Chair and Students’ Roundtable #3 – European Chair for

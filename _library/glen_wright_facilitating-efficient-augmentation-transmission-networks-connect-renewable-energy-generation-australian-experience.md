@@ -13,6 +13,7 @@ layout: library-item
 number: '44'
 pages: 79--91
 pdf: 2012-Facilitating_efficient_augmentation_of_transmission_networks_to_connect_renewable_energy_generation_the_Australian_.pdf
+publisher: Elsevier
 tags: []
 title: 'Facilitating efficient augmentation of transmission networks to connect renewable
   energy generation: the Australian experience'
@@ -27,6 +28,7 @@ year: '2012'
 **Venue:** Energy Policy
 **Number:** 44
 **Pages:** 79--91
+**Publisher:** Elsevier
 
 ## Links and Resources
 
@@ -35,5 +37,4 @@ year: '2012'
 
 ## Notes
 
-Publisher: Elsevier
 ISBN: 0406007306

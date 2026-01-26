@@ -10,6 +10,9 @@ date: 2015-October-01
 description: Regional Ocean Governance  Conservation and Sustainable Use of Marine
   Biodiversity
 entry_type: Workshop
+gallery:
+- regional_ocean_governance_conservation_sustainable_use_marine_biodiversity_figure_01
+- regional_ocean_governance_conservation_sustainable_use_marine_biodiversity_photo_01
 layout: library-item
 pdf: Doc 2.Information Note for participants - english version.pdf
 preview: regional_ocean_governance_conservation_sustainable_use_marine_biodiversity_figure_01

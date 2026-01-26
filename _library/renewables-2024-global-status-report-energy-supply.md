@@ -16,7 +16,7 @@ date: '2024-01-01'
 description: "Global investment in and deployment of renewables reached an all-time\
   \ high in 2023, despite high interest rates and higher costs of raw materials. \n\
   \nGlobally, renewable energy supplied 30% of electric..."
-entry_type: Other
+entry_type: Report
 institution: REN21
 layout: library-item
 pdf: GSR2024_Supply.pdf

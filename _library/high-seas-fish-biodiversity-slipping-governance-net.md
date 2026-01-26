@@ -24,6 +24,7 @@ layout: library-item
 number: '9'
 pages: 1273--1276
 pdf: Crespo et al. - 2019 - High-seas fish biodiversity is slipping through th.pdf
+publisher: Nature Publishing Group
 tags: []
 title: High-seas fish biodiversity is slipping through the governance net
 url: https://www.nature.com/articles/s41559-019-0981-4
@@ -39,13 +40,10 @@ year: '2019'
 **Volume:** 3
 **Number:** 9
 **Pages:** 1273--1276
+**Publisher:** Nature Publishing Group
 
 ## Links and Resources
 
 - [Original URL](https://www.nature.com/articles/s41559-019-0981-4)
 - [DOI](https://doi.org/10.1038/s41559-019-0981-4)
 - [PDF](Crespo et al. - 2019 - High-seas fish biodiversity is slipping through th.pdf)
-
-## Notes
-
-Publisher: Nature Publishing Group

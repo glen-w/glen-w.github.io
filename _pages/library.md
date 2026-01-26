@@ -4,7 +4,7 @@ permalink: /library/
 title: library
 description:
 nav: true
-nav_order: 10
+nav_order: 30
 ---
 
 <!-- _pages/library.md -->
@@ -197,7 +197,8 @@ nav_order: 10
   user-select: none;
   text-decoration: none;
   color: inherit;
-  background-color: #f8f9fa !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
   margin-right: 0.3rem !important; /* Horizontal spacing between tags */
   margin-bottom: 0.3rem !important; /* Vertical spacing between rows */
   padding: 0.2rem 0.35rem; /* Smaller padding for filter badges */
@@ -206,7 +207,7 @@ nav_order: 10
   &:hover {
     text-decoration: none;
     color: inherit;
-    background-color: #dee2e6 !important;
+    background-color: transparent !important;
   }
 
   &:visited {
@@ -214,8 +215,8 @@ nav_order: 10
   }
 
   &.active {
-    background-color: var(--global-theme-color) !important;
-    color: var(--global-card-bg-color) !important;
+    background-color: transparent !important;
+    color: var(--global-theme-color) !important;
     border-color: var(--global-theme-color) !important;
   }
 }

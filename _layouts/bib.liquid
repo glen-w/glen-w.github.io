@@ -1569,11 +1569,11 @@
           {% if clean_line != '' %}
             {% assign language = clean_line | replace: '@@', '@' | downcase %}
             {% if language == 'french' %}
-              {% assign language_tags = language_tags | push: '🇫🇷 French' %}
+              {% assign language_tags = language_tags | push: 'French' %}
             {% elsif language == 'spanish' %}
-              {% assign language_tags = language_tags | push: '🇪🇸 Spanish' %}
+              {% assign language_tags = language_tags | push: 'Spanish' %}
             {% elsif language == 'chinese' %}
-              {% assign language_tags = language_tags | push: '🇨🇳 Chinese' %}
+              {% assign language_tags = language_tags | push: 'Chinese' %}
             {% endif %}
           {% endif %}
         {% endfor %}
@@ -1584,7 +1584,7 @@
       {% if language_tags.size > 0 %}
         <div class="all-tags">
           {% for tag in language_tags %}
-            <a href="#{{ tag | remove: '🇫🇷 ' | remove: '🇪🇸 ' | remove: '🇨🇳 ' | downcase }}" class="tag" style="text-decoration: none; color: inherit;">{{ tag }}</a>
+            <a href="#{{ tag | downcase }}" class="tag" style="text-decoration: none; color: inherit;">{{ tag }}</a>
           {% endfor %}
         </div>
       {% endif %}

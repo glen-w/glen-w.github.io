@@ -4,7 +4,7 @@ layout: page
 permalink: /creative/
 description:
 nav: true
-nav_order: 60
+nav_order: 20
 display_categories: [collage,poems]
 
 # Optional: toggle these
@@ -750,26 +750,26 @@ window.addEventListener('load', function() {
     integrity="{{ site.third_party_libraries.turnjs.integrity.js }}"
     crossorigin="anonymous"
   ></script>
-  <script defer src="{{ '/sandbox/flipbook.js' | relative_url }}" type="text/javascript"></script>
-  <link rel="stylesheet" href="{{ '/sandbox/flipbook.css' | relative_url }}">
+  <script defer src="{{ '/assets/js/flipbook.js' | relative_url }}" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/flipbook.css' | relative_url }}">
 {% endif %}
 
 {% if has_carousel %}
   <!-- Carousel scripts already loaded via page.images.slider -->
-  <script defer src="{{ '/sandbox/carousel.js' | relative_url }}" type="text/javascript"></script>
-  <link rel="stylesheet" href="{{ '/sandbox/carousel.css' | relative_url }}">
+  <script defer src="{{ '/assets/js/carousel.js' | relative_url }}" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/carousel.css' | relative_url }}">
 {% endif %}
 
 {% if has_masonry %}
   <!-- Masonry layout (Masonry.js and imagesLoaded already loaded via enable_masonry) -->
-  <script defer src="{{ '/sandbox/masonry-layout.js' | relative_url }}" type="text/javascript"></script>
-  <link rel="stylesheet" href="{{ '/sandbox/masonry-layout.css' | relative_url }}">
+  <script defer src="{{ '/assets/js/masonry-layout.js' | relative_url }}" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/masonry-layout.css' | relative_url }}">
 {% endif %}
 
 {% if has_poems %}
   <!-- Poetry typewriter modal -->
-  <script defer src="{{ '/sandbox/poetry-typewriter.js' | relative_url }}" type="text/javascript"></script>
-  <link rel="stylesheet" href="{{ '/sandbox/poetry-typewriter.css' | relative_url }}">
+  <script defer src="{{ '/assets/js/poetry-typewriter.js' | relative_url }}" type="text/javascript"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/poetry-typewriter.css' | relative_url }}">
 {% endif %}
 
 {% comment %} Read More Toggle functionality for show: more series {% endcomment %}

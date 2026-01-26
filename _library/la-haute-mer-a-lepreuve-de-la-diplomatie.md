@@ -29,7 +29,3 @@ year: '2019'
 ## Links and Resources
 
 - [Original URL](https://www.humanite.fr/societe/mers-et-oceans/oceans-la-haute-mer-a-lepreuve-de-la-diplomatie)
-
-## Notes
-
-Section: Société

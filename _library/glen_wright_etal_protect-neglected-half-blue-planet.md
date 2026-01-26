@@ -22,6 +22,7 @@ entry_type: Oped
 layout: library-item
 number: '7691'
 pdf: Wright et al. - 2018 - Protect the neglected half of our blue planet.pdf
+publisher: Nature Publishing Group
 tags: []
 title: Protect the neglected half of our blue planet
 url: https://www.nature.com/articles/d41586-018-01594-1
@@ -36,13 +37,10 @@ year: '2018'
 **Venue:** Nature
 **Volume:** 554
 **Number:** 7691
+**Publisher:** Nature Publishing Group
 
 ## Links and Resources
 
 - [Original URL](https://www.nature.com/articles/d41586-018-01594-1)
 - [DOI](https://doi.org/10.1038/d41586-018-01594-1)
 - [PDF](Wright et al. - 2018 - Protect the neglected half of our blue planet.pdf)
-
-## Notes
-
-Publisher: Nature Publishing Group

@@ -9,6 +9,9 @@ date: 2015-February-01
 description: Workshop on Linking Global and Regional Levels in the Management of Marine
   Areas Beyond National Jur...
 entry_type: Workshop
+gallery:
+- workshop_linking_global_regional_levels_management_marine_areas_beyond_national_jurisdiction_figure_01
+- workshop_linking_global_regional_levels_management_marine_areas_beyond_national_jurisdiction_photo_01
 layout: library-item
 location: Rome, Italy
 pdf: abnj-workshop-list-of-participants-final.pdf

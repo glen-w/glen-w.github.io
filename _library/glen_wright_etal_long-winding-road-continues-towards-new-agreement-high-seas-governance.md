@@ -56,5 +56,4 @@ year: '2016'
 
 ## Notes
 
-Publisher: IDDRI
 Place: Paris

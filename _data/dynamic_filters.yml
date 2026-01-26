@@ -20,7 +20,7 @@ entry_types:
 - Workshop
 entry_type_counts:
   Journal Article: 35
-  Newspaper: 26
+  Newspaper: 27
   Conference: 41
   Report: 59
   Report Section: 6
@@ -58,13 +58,13 @@ role_tag_counts:
   facilitator: 24
   organiser: 31
   participant: 25
-  interview: 22
-  quoted: 16
+  interview: 23
+  quoted: 17
   attendee: 16
   delegate: 17
 language_tags:
 - french
 - spanish
 language_tag_counts:
-  french: 22
+  french: 23
   spanish: 4

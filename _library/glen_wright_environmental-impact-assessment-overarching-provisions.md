@@ -12,6 +12,7 @@ gallery:
 - glen_wright_2016_environmental_impact_assessment_overarching_provisions_figure_01
 - glen_wright_2016_environmental_impact_assessment_overarching_provisions_photo_01
 - glen_wright_2016_environmental_impact_assessment_overarching_provisions_photo_02
+- glen_wright_2016_environmental_impact_assessment_overarching_provisions_photo_03
 layout: library-item
 location: United Nations, New York City, NY, USA
 pdf: High seas fisheries (Side event, PrepCom2) - slides.compressed.pdf

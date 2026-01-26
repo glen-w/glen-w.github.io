@@ -19,6 +19,9 @@ gallery:
 - what_role_nairobi_convention_high_seas_photo_03
 - what_role_nairobi_convention_high_seas_photo_04
 - what_role_nairobi_convention_high_seas_photo_05
+- what_role_nairobi_convention_high_seas_photo_06
+- what_role_nairobi_convention_high_seas_photo_07
+- what_role_nairobi_convention_high_seas_photo_08
 layout: library-item
 location: Mahé, Seychelles
 pdf: Side-event, ABNJ.pdf

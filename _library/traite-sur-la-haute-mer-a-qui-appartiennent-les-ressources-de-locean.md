@@ -31,7 +31,3 @@ year: '2023'
 ## Links and Resources
 
 - [Original URL](https://www.la-croix.com/Economie/Traite-haute-mer-appartiennent-ressources-locean-2023-02-20-1201255960)
-
-## Notes
-
-Section: Économie
