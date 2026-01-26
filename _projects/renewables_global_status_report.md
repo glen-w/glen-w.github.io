@@ -2,12 +2,12 @@
 layout: page
 title: Renewables Global Status Report
 description: The world’s leading annual assessment of renewable energy progress
-img: /assets/img/projects/thumbs/renewables_global_status_report.png
+img: /assets/img/projects/thumbs/ren21_renewables_global_status_report.png
 importance:
 category: archive
 ---
 <div align="center">
-  <img src="/assets/img/projects/thumbs/renewables_global_status_report.png"
+  <img src="/assets/img/projects/thumbs/ren21_renewables_global_status_report.png"
        alt="Cover image: Renewables Global Status Report"
        width="200"/>
 </div>

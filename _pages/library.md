@@ -221,6 +221,23 @@ nav_order: 30
   }
 }
 
+/* Restore light grey background for badge-light type filters */
+.library-filters .filter-tags .badge.badge-light {
+  background-color: #f8f9fa !important;
+  color: #495057 !important;
+  border: 1px solid #dee2e6 !important;
+  
+  &:hover {
+    background-color: #e9ecef !important;
+  }
+  
+  &.active {
+    background-color: #e9ecef !important;
+    color: var(--global-theme-color) !important;
+    border-color: var(--global-theme-color) !important;
+  }
+}
+
 /* Marker cluster styling */
 .marker-cluster {
   background-color: rgba(102, 187, 106, 0.7);
