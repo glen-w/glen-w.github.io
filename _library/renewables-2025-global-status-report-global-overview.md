@@ -41,7 +41,7 @@ date: '2025-01-01'
 description: In 2024, global renewable energy growth was primarily driven by the power
   sector, where capacity expanded by 741 gigawatts (GW), the largest annual increase
   ever recorded. Solar photovoltaics (PV) led...
-entry_type: Other
+entry_type: Report
 institution: REN21
 layout: library-item
 pdf: 25-1395_GO_2025_Full_Report_14opt.pdf

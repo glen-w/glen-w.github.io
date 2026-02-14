@@ -1,0 +1,71 @@
+_site
+.bundle
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.DS_store
+.ruby-version
+.tweet-cache
+Gemfile.lock
+assets/libs/
+node_modules/
+vendor
+.idea
+backups/
+archive/
+templates/
+
+# Zotero exports (contain local file paths)
+_bibliography/Exported Items.bib
+_bibliography/Exported Items_backup_*.bib
+exported items.bib
+
+# Test directory for development maps
+_test/
+
+# Sandbox for experimental HTML pages - ignore test HTML files but allow production JS/CSS
+sandbox/*.html
+sandbox/*.scss
+sandbox/*.css.map
+_bibliography/Exported Items.bib
+docs/ARCHIVE_AND_RENAME_SUMMARY.md
+docs/CREATIVE_WORKFLOW.md
+docs/ENHANCED_PAPERS_FEATURES.md
+docs/FIXES_APPLIED_SUMMARY.md
+docs/MEDIA_MERGE_README.md
+docs/SELECTED_PUBLICATIONS_PLAN.md
+docs/VALIDATION_SUMMARY.md
+docs/processing/README_papers_processing.md
+docs/processing/README_process_papers.md
+.gitignore
+scripts/analyze_citations.py
+scripts/generate_series_pages.py
+scripts/import_collage_images.py
+scripts/validate_creative.py
+scripts/__pycache__/generate_series_pages.cpython-310.pyc
+scripts/__pycache__/import_collage_images.cpython-310.pyc
+scripts/__pycache__/validate_creative.cpython-310.pyc
+processing/validation/__init__.py
+processing/validation/__pycache__/__init__.cpython-310.pyc
+processing/utils/__init__.py
+processing/utils/field_cleaner.py
+processing/utils/file_field_manager.py
+processing/utils/file_field_parser.py
+processing/utils/file_manager.py
+processing/utils/image_classifier.py
+processing/utils/metadata_fetcher.py
+processing/utils/__pycache__/__init__.cpython-310.pyc
+processing/utils/__pycache__/field_cleaner.cpython-310.pyc
+processing/utils/__pycache__/file_field_manager.cpython-310.pyc
+processing/utils/__pycache__/file_field_parser.cpython-310.pyc
+processing/utils/__pycache__/file_manager.cpython-310.pyc
+processing/utils/__pycache__/image_classifier.cpython-310.pyc
+processing/utils/__pycache__/metadata_fetcher.cpython-310.pyc
+processing/mapping/photos_processor.py
+processing/mapping/processor.py
+processing/CODE_QUALITY_ASSESSMENT_UPDATE.md
+processing/CODE_QUALITY_ASSESSMENT.md
+processing/main.py
+processing/config.py
+processing/__init__.py
+mapping.csv

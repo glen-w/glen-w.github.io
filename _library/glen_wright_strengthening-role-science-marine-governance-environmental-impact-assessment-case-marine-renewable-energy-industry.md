@@ -13,6 +13,7 @@ entry_type: Journal article
 layout: library-item
 pages: 23--30
 pdf: 2014-Strengthening_the_role_of_science_in_marine_governance_through_environmental_impact_assessment_a_case_study_of_the_.pdf
+publisher: Elsevier Ltd
 tags: []
 title: 'Strengthening the role of science in marine governance through environmental
   impact assessment: a case study of the marine renewable energy industry'
@@ -28,13 +29,10 @@ year: '2014'
 **Venue:** Ocean & Coastal Management
 **Volume:** 99
 **Pages:** 23--30
+**Publisher:** Elsevier Ltd
 
 ## Links and Resources
 
 - [Original URL](http://linkinghub.elsevier.com/retrieve/pii/S0964569114002099)
 - [DOI](https://doi.org/10.1016/j.ocecoaman.2014.07.004)
 - [PDF](2014-Strengthening_the_role_of_science_in_marine_governance_through_environmental_impact_assessment_a_case_study_of_the_.pdf)
-
-## Notes
-
-Publisher: Elsevier Ltd

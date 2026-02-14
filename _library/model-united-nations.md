@@ -13,6 +13,7 @@ gallery:
 - model_united_nations_photo_02
 - model_united_nations_photo_03
 - model_united_nations_photo_04
+- model_united_nations_photo_05
 layout: library-item
 location: Taipei International Convention Center, Taipei, Taiwan
 preview: model_united_nations_figure_01

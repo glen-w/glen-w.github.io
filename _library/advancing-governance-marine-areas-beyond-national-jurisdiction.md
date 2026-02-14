@@ -18,20 +18,16 @@ pdf: 1758GSDR 2015 Advance Unedited Version.pdf
 publisher: United Nations
 tags: []
 title: Advancing governance of marine areas beyond national jurisdiction
-venue: Global Sustainable Development Report
+venue: Brief for GSDR
 year: '2015'
 ---
 
 ## Publication Details
 
 **Authors:** Julien Rochette, Glen Wright, Lucien Chabason, Sebastian Unger, Jeff Ardron, Katherine Houghton
-**Venue:** Global Sustainable Development Report
+**Venue:** Brief for GSDR
 **Publisher:** United Nations
 
 ## Links and Resources
 
 - [PDF](1758GSDR 2015 Advance Unedited Version.pdf)
-
-## Notes
-
-Publication Title: Brief for GSDR

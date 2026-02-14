@@ -56,7 +56,7 @@ pagination:
   </div>
 {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site.posts | where: "featured", "true" | where_exp: "post", "post.title != blank and post.title != ''" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -108,6 +108,7 @@ pagination:
   {% endif %}
 
 {% for post in postlist %}
+{% if post.title and post.title != blank and post.title != "" %}
 {% if post.external_source == blank %}
 {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
 {% else %}
@@ -181,7 +182,7 @@ pagination:
         </div>
       {% endif %}
     </li>
-
+{% endif %}
 {% endfor %}
 
 </ul>

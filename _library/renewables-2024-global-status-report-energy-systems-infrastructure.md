@@ -17,7 +17,7 @@ date: '2024-01-01'
 description: This module explores the status and recent trends of some of the building
   blocks of the energy system, as well as technology advancements that are enabling
   the integration of higher shares of variable...
-entry_type: Other
+entry_type: Report
 institution: REN21
 layout: library-item
 pdf: gsr2024_SYSTEMS_module.pdf
