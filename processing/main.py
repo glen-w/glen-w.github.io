@@ -55,6 +55,8 @@ def main():
                        help='Delete all existing PDFs and thumbnails, then regenerate everything')
     parser.add_argument('--force', action='store_true',
                        help='Force reprocessing of entries even if they already have tags')
+    parser.add_argument('--incremental', action='store_true',
+                       help='Skip entries whose output files already exist; merge new export items into existing papers.bib and only write new/changed files')
     parser.add_argument('--verbose', '-v', action='store_true',
                        help='Enable verbose output for detailed processing information')
     parser.add_argument('--test', action='store_true',
@@ -171,6 +173,7 @@ def run_main_processing(config: Configuration, args) -> bool:
             source_bibtex_file=args.bibtex_file,
             regenerate=args.regenerate,
             force=args.force,
+            incremental=args.incremental,
             update_metadata=True,
             thumbnail_size=args.thumbnail_size,
             test_mode=args.test,
@@ -324,7 +327,8 @@ def run_library_generation(args, skip_dynamic_filters=False) -> bool:
             output_dir='../_library',
             test_mode=args.test,
             skip_dynamic_filters=skip_dynamic_filters,
-            regenerate=args.regenerate
+            regenerate=args.regenerate,
+            incremental=args.incremental
         )
         
         # Run the generation

@@ -1,14 +1,28 @@
 {
   "metadata": {
-    "generated_at": "2026-02-14 12:07:52",
-    "total_locations": 60,
-    "successfully_geocoded": 60,
+    "generated_at": "2026-02-15 15:33:01",
+    "total_locations": 61,
+    "successfully_geocoded": 61,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
     "refresh_mode": false,
     "cache_only_mode": false
   },
   "locations": [
+    {
+      "bibtex_key": "ForoSocialMas2026",
+      "title": "Foro Social Mas Alla del Crecimiento",
+      "address": "Universidad Autónoma de Madrid, Madrid, Spain",
+      "year": "2026",
+      "month": "",
+      "entry_type": "misc",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": 40.5453765,
+        "lng": -3.6949578
+      },
+      "geocoded": true
+    },
     {
       "bibtex_key": "GlobalAllianceBuildings2025",
       "title": "Global Alliance for Buildings and Construction (GlobalABC) General Assembly",

@@ -46,7 +46,7 @@ class TagExtractor:
     }
     
     # Valid language tags
-    VALID_LANGUAGES = {'french', 'spanish', 'chinese'}
+    VALID_LANGUAGES = {'french', 'spanish', 'chinese', 'catalan'}
     
     def __init__(self, preserve_case: bool = False):
         """

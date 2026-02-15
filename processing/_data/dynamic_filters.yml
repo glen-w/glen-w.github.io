@@ -8,7 +8,6 @@ entry_types:
 - Negotiation
 - Newspaper
 - Oped
-- Other
 - Poster
 - Radio
 - Report
@@ -21,19 +20,18 @@ entry_types:
 entry_type_counts:
   Journal Article: 35
   Newspaper: 27
-  Conference: 41
+  Conference: 42
   Report: 60
   Report Section: 6
   Book Chapter: 6
   Oped: 2
   Blog: 24
-  Webinar: 15
-  Other: 2
-  Workshop: 56
+  Webinar: 16
+  Workshop: 57
   Training: 16
   Submission: 27
   Poster: 3
-  Side Event: 11
+  Side Event: 12
   Book: 2
   Fellowship: 1
   Radio: 3
@@ -58,10 +56,10 @@ role_tag_counts:
   co-author: 67
   facilitator: 24
   organiser: 31
-  participant: 26
+  participant: 27
   interview: 23
   quoted: 17
-  attendee: 16
+  attendee: 17
   delegate: 17
   presenter: 1
 language_tags:
@@ -69,4 +67,4 @@ language_tags:
 - spanish
 language_tag_counts:
   french: 23
-  spanish: 4
+  spanish: 5

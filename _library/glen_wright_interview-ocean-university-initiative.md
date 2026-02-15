@@ -7,7 +7,7 @@ categories:
 - other
 date: 2019-September-01
 description: Interview with Ocean University Initiative
-entry_type: Other
+entry_type: Workshop
 layout: library-item
 tags:
 - interview

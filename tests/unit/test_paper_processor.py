@@ -138,10 +138,10 @@ class TestPaperProcessor:
         mock_entry.process_entry.return_value = True
         
         processor._process_entries(
-            content="@article{test2023, title = {Test}}",
             working_file="test.bib",
             regenerate=False,
             force=False,
+            incremental=False,
             update_metadata=True,
             thumbnail_size='600x',
             test_mode=True,
@@ -150,7 +150,8 @@ class TestPaperProcessor:
             force_refetch_metadata=False,
             rename_urls=True,
             rename_only=False,
-            update_pdf_metadata=False
+            update_pdf_metadata=False,
+            content="@article{test2023, title = {Test}}",
         )
         
         mock_entry.process_entry.assert_called_once()
@@ -215,3 +216,31 @@ class TestPaperProcessor:
         
         # Should return original content unchanged
         assert result == entry_content
+
+    def test_incremental_write_preserves_skipped_block_exactly(self, processor):
+        """Incremental: entry with _skipped and _original_content (weird spacing) is emitted exact bytes."""
+        raw_block = "@article{key99,\n  title = {  Spaced  },\n  preview = {x.jpg}\n}\n"
+        entries = [
+            {
+                'citation_key': 'key99',
+                'fields': {'title': 'Spaced', 'preview': 'x.jpg'},
+                'content': '@article{key99, title = {Spaced}}',
+                '_skipped': True,
+                '_original_content': raw_block.rstrip(),
+            }
+        ]
+        with patch('builtins.open', new_callable=mock_open) as mopen:
+            processor._write_updated_bibtex_from_entries(entries, "out.bib", rename_urls=False, incremental=True)
+        written = mopen().write.call_args[0][0]
+        assert raw_block.rstrip() in written
+        assert written.endswith('\n')
+        assert written.strip() == raw_block.rstrip()
+
+    def test_merge_keeps_processed_fields_from_existing(self, processor):
+        """Merge: export lacks preview, existing has preview -> merged entry has preview from existing."""
+        export_content = "@article{key1,\n\ttitle = {New Title}\n}\n"
+        working_content = "@article{key1,\n\ttitle = {Old},\n\tpreview = {existing_preview.jpg}\n}\n"
+        merged = processor._merge_export_with_existing(export_content, working_content)
+        assert len(merged) == 1
+        assert merged[0]['fields'].get('preview') == 'existing_preview.jpg'
+        assert merged[0]['_original_content'].rstrip() == working_content.rstrip()

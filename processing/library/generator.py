@@ -29,15 +29,16 @@ from processing.library.dynamic_filters import DynamicFiltersGenerator
 class LibraryPageGenerator:
     """Main class for generating library pages from BibTeX files."""
     
-    def __init__(self, bib_file=None, output_dir=None, test_mode=False, skip_dynamic_filters=False, regenerate=False):
+    def __init__(self, bib_file=None, output_dir=None, test_mode=False, skip_dynamic_filters=False, regenerate=False, incremental=False):
         """Initialize the generator.
-        
+
         Args:
             bib_file (str): Path to the BibTeX file
             output_dir (str): Output directory for generated pages
             test_mode (bool): If True, only process 5 latest items with location
             skip_dynamic_filters (bool): If True, skip dynamic filters generation
             regenerate (bool): If True, delete existing markdown files before generating
+            incremental (bool): If True, skip writing a page when the output file already exists
         """
         # Get the project root directory (two levels up from this script)
         project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -47,6 +48,7 @@ class LibraryPageGenerator:
         self.test_mode = test_mode
         self.skip_dynamic_filters = skip_dynamic_filters
         self.regenerate = regenerate
+        self.incremental = incremental
         
         # Initialize components
         self.bib_parser = BibParser()
@@ -143,21 +145,24 @@ class LibraryPageGenerator:
         return filename
     
     def generate_page(self, entry):
-        """Generate a single library page."""
+        """Generate a single library page. Returns (filepath, skipped). skipped is True when incremental and file already exists."""
         filename = self.generate_filename(entry)
         filepath = os.path.join(self.output_dir, filename)
-        
+
+        if self.incremental and os.path.exists(filepath):
+            return (filepath, True)
+
         # Generate content
         front_matter = self.content_generator.generate_front_matter(entry)
         content = self.content_generator.generate_content(entry)
-        
+
         # Write the file
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(front_matter)
             f.write('\n\n')
             f.write(content)
-        
-        return filepath
+
+        return (filepath, False)
     
     def cleanup_existing_files(self):
         """Clean up existing markdown files in output directory if regenerate mode is enabled."""
@@ -210,24 +215,32 @@ class LibraryPageGenerator:
         
         # Generate pages
         generated_files = []
+        skipped_files = []
         for i, entry in enumerate(entries, 1):
             try:
-                filepath = self.generate_page(entry)
-                generated_files.append(filepath)
+                filepath, skipped = self.generate_page(entry)
                 title = entry.get('title', 'Untitled')
-                print(f"[{i}/{len(entries)}] Generated: {os.path.basename(filepath)} - {title}")
+                if skipped:
+                    skipped_files.append(filepath)
+                    print(f"[{i}/{len(entries)}] Skipped: {os.path.basename(filepath)} - {title}")
+                else:
+                    generated_files.append(filepath)
+                    print(f"[{i}/{len(entries)}] Generated: {os.path.basename(filepath)} - {title}")
             except Exception as e:
                 print(f"Error generating page for {entry.get('title', 'Unknown')}: {e}")
                 continue
-        
+
         # Generate dynamic filters (unless skipped)
         if not self.skip_dynamic_filters:
             project_root = os.path.dirname(os.path.dirname(self.output_dir))
             filters_generator = DynamicFiltersGenerator(project_root)
             filters_generator.generate_filters(entries)
-        
+
         print("-" * 50)
-        print(f"Generation complete! Created {len(generated_files)} pages.")
+        if self.incremental and skipped_files:
+            print(f"Generation complete! Created {len(generated_files)} pages, skipped {len(skipped_files)} (already exist).")
+        else:
+            print(f"Generation complete! Created {len(generated_files)} pages.")
         
         if self.test_mode:
             print("\nTest mode summary:")
@@ -272,6 +285,12 @@ Examples:
         help='Regenerate all files, deleting existing markdown files first'
     )
     
+    parser.add_argument(
+        '--incremental',
+        action='store_true',
+        help='Skip generating a page when the output file already exists'
+    )
+    
     args = parser.parse_args()
     
     # Create generator and run
@@ -279,7 +298,9 @@ Examples:
         bib_file=args.bib_file,
         output_dir=args.output_dir,
         test_mode=args.test,
-        regenerate=args.regenerate
+        skip_dynamic_filters=False,
+        regenerate=args.regenerate,
+        incremental=args.incremental
     )
     
     generator.run()

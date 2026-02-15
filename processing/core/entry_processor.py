@@ -6,6 +6,8 @@ Handles processing of individual BibTeX entries including file processing,
 thumbnail generation, and metadata updates.
 """
 
+import os
+from pathlib import Path
 from typing import Dict, List, Optional
 
 from processing.config import Configuration
@@ -35,28 +37,55 @@ class EntryProcessor:
         self.file_field_manager = file_field_manager
         self.file_field_parser = file_field_manager.parser
     
-    def is_entry_processed(self, fields: Dict) -> bool:
-        """Check if entry already has required tags."""
-        # Check if basic processing is complete
-        has_basic_processing = 'preview' in fields and ('pdf' in fields or 'slides' in fields)
-        
-        # If basic processing is complete, check if image processing is also complete
-        if has_basic_processing:
-            # Check if there are still images in the file field that need processing
-            file_field = fields.get('file', '')
-            has_unprocessed_images = any(f':image/{ext}' in file_field for ext in ['jpeg', 'jpg', 'png', 'gif'])
-            
-            # If there are unprocessed images, we need to reprocess
-            if has_unprocessed_images:
+    def _output_files_exist(self, fields: Dict) -> bool:
+        """Check that all pipeline output files referenced in fields exist on disk. Used in incremental mode."""
+        field_to_dir = [
+            ('preview', self.config.PREVIEW_DIR),
+            ('pdf', self.config.PDF_DIR),
+            ('slides', self.config.PDF_DIR),
+            ('agenda', self.config.PDF_DIR),
+            ('zip_archive', self.config.ZIP_DIR),
+        ]
+        for fname, dir_path in field_to_dir:
+            val = fields.get(fname, '').strip()
+            if not val:
+                continue
+            if '://' in val or val.startswith('http'):
+                continue
+            base = os.path.basename(val.strip().lstrip('/').replace('\\', '/'))
+            if not base:
+                continue
+            if not os.path.exists(os.path.join(dir_path, base)):
                 return False
-            
-            # Check if images were processed but file field wasn't updated
-            # Images are now handled through the file field with descriptive filenames
-            # No need to check for separate photos/figures fields
-        
-        return has_basic_processing
-    
-    def process_entry(self, entry: Dict, regenerate: bool, force: bool,
+        for bundle in ('figures', 'photos'):
+            val = fields.get(bundle, '').strip()
+            if not val:
+                continue
+            for part in val.split(','):
+                fn = part.strip().lstrip('/').replace('\\', '/')
+                fn = os.path.basename(fn) if fn else ''
+                if not fn or '://' in fn:
+                    continue
+                if not os.path.exists(os.path.join(self.config.IMAGES_DIR, fn)):
+                    return False
+        return True
+
+    def is_entry_processed(self, fields: Dict, incremental: bool = False) -> bool:
+        """Check if entry already has required tags. When incremental=True, also require referenced output files exist on disk."""
+        has_preview = 'preview' in fields and fields.get('preview', '').strip()
+        has_doc = bool(fields.get('pdf', '').strip() or fields.get('slides', '').strip() or fields.get('agenda', '').strip())
+        has_basic_processing = has_preview and has_doc
+        if not has_basic_processing:
+            return False
+        file_field = fields.get('file', '')
+        has_unprocessed_images = any(f':image/{ext}' in file_field for ext in ['jpeg', 'jpg', 'png', 'gif'])
+        if has_unprocessed_images:
+            return False
+        if incremental:
+            return self._output_files_exist(fields)
+        return True
+
+    def process_entry(self, entry: Dict, regenerate: bool, force: bool, incremental: bool,
                      update_metadata: bool, thumbnail_size: str, verbose: bool,
                      force_refetch_metadata: bool, rename_only: bool,
                      update_pdf_metadata: bool = False) -> bool:
@@ -84,14 +113,16 @@ class EntryProcessor:
             return False
         
         print(f"\n📄 Processing: {citation_key}")
-        
+
         # Skip if already processed (unless force mode)
-        if not force and self.is_entry_processed(fields):
+        if not force and self.is_entry_processed(fields, incremental=incremental):
+            if incremental and entry.get('_original_content'):
+                entry['_skipped'] = True
             print(f"  ⏭️  Already processed, skipping")
             return True
         
         # Process files and generate thumbnails
-        if not self.process_entry_files(citation_key, fields, regenerate, force,
+        if not self.process_entry_files(citation_key, fields, regenerate, force, incremental,
                                        thumbnail_size, verbose, update_pdf_metadata):
             return False
         
@@ -102,7 +133,7 @@ class EntryProcessor:
         return True
     
     def process_entry_files(self, citation_key: str, fields: Dict, regenerate: bool,
-                           force: bool, thumbnail_size: str, verbose: bool,
+                           force: bool, incremental: bool, thumbnail_size: str, verbose: bool,
                            update_pdf_metadata: bool = False) -> bool:
         """
         Process files for an entry (PDFs, images, thumbnails).
@@ -172,7 +203,7 @@ class EntryProcessor:
         # Only create zip if there are files to archive (pdf/slides and/or images)
         has_files = (pdf_success and ('pdf' in fields or 'slides' in fields)) or image_success or audio_success
         if has_files:
-            zip_metadata = self.zip_archive_generator.create_archive(citation_key, fields)
+            zip_metadata = self.zip_archive_generator.create_archive(citation_key, fields, skip_if_exists=incremental)
             if zip_metadata:
                 # Add zip filename and metadata to fields
                 fields['zip_archive'] = zip_metadata['filename']

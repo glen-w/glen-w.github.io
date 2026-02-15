@@ -24,33 +24,49 @@ class ZipArchiveGenerator:
         # Ensure zip directory exists
         os.makedirs(self.config.ZIP_DIR, exist_ok=True)
     
-    def create_archive(self, citation_key: str, fields: Dict) -> Optional[Dict[str, Any]]:
+    def create_archive(self, citation_key: str, fields: Dict, skip_if_exists: bool = False) -> Optional[Dict[str, Any]]:
         """
         Create a zip archive containing all processed files for an entry.
-        
+
         Args:
             citation_key: The BibTeX citation key
             fields: Dictionary of BibTeX fields containing processed file references
-            
+            skip_if_exists: If True and zip already exists, return existing metadata without overwriting (incremental mode)
+
         Returns:
-            Dictionary with 'filename', 'file_count', and 'file_size_mb' if archive was created, None otherwise
+            Dictionary with 'filename', 'file_count', and 'file_size_mb' if archive was created or already existed, None otherwise
         """
-        # Collect all files organized by folder
-        file_map = self._collect_files(fields)
-        
-        # Check if there are any files to archive
-        total_files = sum(len(files) for files in file_map.values())
-        if total_files == 0:
-            return None
-        
-        # Generate zip filename
-        zip_filename = self._get_zip_filename(citation_key, fields)
+        # In incremental mode, prefer existing zip_archive filename so we never remake an existing zip
+        zip_filename = None
+        if skip_if_exists and fields.get('zip_archive'):
+            existing_name = (fields.get('zip_archive') or '').strip()
+            if existing_name and not existing_name.startswith(('http', '/')):
+                existing_name = os.path.basename(existing_name.replace('\\', '/'))
+                existing_path = os.path.join(self.config.ZIP_DIR, existing_name)
+                if os.path.exists(existing_path) and os.path.getsize(existing_path) > 0:
+                    zip_filename = existing_name
+        if not zip_filename:
+            zip_filename = self._get_zip_filename(citation_key, fields)
         if not zip_filename:
             print(f"  ⚠️  Could not generate zip filename for {citation_key}")
             return None
-        
         zip_path = os.path.join(self.config.ZIP_DIR, zip_filename)
-        
+
+        if skip_if_exists and os.path.exists(zip_path) and os.path.getsize(zip_path) > 0:
+            try:
+                with zipfile.ZipFile(zip_path, 'r') as zipf:
+                    file_count = sum(1 for n in zipf.namelist() if not n.endswith('/'))
+                file_size_mb = self._format_file_size(os.path.getsize(zip_path))
+                return {'filename': zip_filename, 'file_count': file_count, 'file_size_mb': file_size_mb}
+            except Exception:
+                pass
+
+        # Collect all files organized by folder
+        file_map = self._collect_files(fields)
+        total_files = sum(len(files) for files in file_map.values())
+        if total_files == 0:
+            return None
+
         # Create zip archive
         try:
             with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:

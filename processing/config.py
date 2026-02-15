@@ -9,20 +9,36 @@ from pathlib import Path
 from typing import Dict, List
 
 
+def _project_root() -> Path:
+    """Project root (repo root): directory containing processing/ and assets/. Resolved from this file so paths do not depend on cwd."""
+    return Path(__file__).resolve().parent.parent
+
+
 class Configuration:
-    """Centralized configuration for the paper processing system."""
-    
-    # File paths and directories
-    SOURCE_BIBTEX_FILE = "../_bibliography/Exported Items.bib"
-    WORKING_BIBTEX_FILE = "../_bibliography/papers.bib"
-    CACHE_FILE = "../_metadata_cache.json"
-    
+    """Centralized configuration for the paper processing system.
+    Paths are resolved relative to the project root (config file location) so they do not depend on current working directory.
+    """
+    _root = _project_root()
+
+    # File paths and directories (absolute, so no phantom folders outside repo when run from different cwd)
+    SOURCE_BIBTEX_FILE = str(_root / "_bibliography" / "Exported Items.bib")
+    WORKING_BIBTEX_FILE = str(_root / "_bibliography" / "papers.bib")
+    CACHE_FILE = str(_root / "_metadata_cache.json")
+
+    # Fields safe to merge from existing in incremental mode (pipeline outputs / derived metadata only).
+    # Do not include normal bibliographic fields (title, author, date, etc.); export always wins for those.
+    PIPELINE_OUTPUT_FIELDS = (
+        'preview', 'pdf', 'slides', 'agenda',
+        'zip_archive', 'zip_file_count', 'zip_file_size_mb',
+        'figures', 'photos',
+    )
+
     # Output directories
-    PDF_DIR = "../assets/pdf"
-    PREVIEW_DIR = "../assets/img/publication_preview"
-    IMAGES_DIR = "../assets/img/publications"
-    AUDIO_DIR = "../assets/audio"
-    ZIP_DIR = "../assets/zips"
+    PDF_DIR = str(_root / "assets" / "pdf")
+    PREVIEW_DIR = str(_root / "assets" / "img" / "publication_preview")
+    IMAGES_DIR = str(_root / "assets" / "img" / "publications")
+    AUDIO_DIR = str(_root / "assets" / "audio")
+    ZIP_DIR = str(_root / "assets" / "zips")
     
     # File extensions
     PDF_EXTENSIONS = ['.pdf']

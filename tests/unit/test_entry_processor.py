@@ -116,7 +116,23 @@ class TestEntryProcessor:
         result = entry_processor.is_entry_processed(fields)
         
         assert result is False
-    
+
+    @patch('os.path.exists')
+    def test_is_entry_processed_incremental_false_when_preview_file_missing(self, mock_exists, entry_processor):
+        """When incremental=True, is_entry_processed returns False if referenced preview file does not exist."""
+        mock_exists.return_value = False
+        fields = {'preview': 'foo.jpg', 'pdf': 'file.pdf'}
+        result = entry_processor.is_entry_processed(fields, incremental=True)
+        assert result is False
+
+    @patch('os.path.exists')
+    def test_is_entry_processed_incremental_true_when_files_exist(self, mock_exists, entry_processor):
+        """When incremental=True and all referenced files exist on disk, is_entry_processed returns True."""
+        mock_exists.return_value = True
+        fields = {'preview': 'foo.jpg', 'pdf': 'file.pdf'}
+        result = entry_processor.is_entry_processed(fields, incremental=True)
+        assert result is True
+
     @patch.object(EntryProcessor, 'process_entry_files')
     def test_process_entry_success(self, mock_process_files, entry_processor):
         """Test processing a single entry successfully."""
@@ -127,7 +143,7 @@ class TestEntryProcessor:
         }
         
         result = entry_processor.process_entry(
-            entry, regenerate=False, force=False, update_metadata=True,
+            entry, regenerate=False, force=False, incremental=False, update_metadata=True,
             thumbnail_size='600x', verbose=False, force_refetch_metadata=False,
             rename_only=False, update_pdf_metadata=False
         )
@@ -145,7 +161,7 @@ class TestEntryProcessor:
         }
         
         result = entry_processor.process_entry(
-            entry, regenerate=False, force=False, update_metadata=True,
+            entry, regenerate=False, force=False, incremental=False, update_metadata=True,
             thumbnail_size='600x', verbose=False, force_refetch_metadata=False,
             rename_only=False, update_pdf_metadata=False
         )
@@ -159,7 +175,7 @@ class TestEntryProcessor:
         }
         
         result = entry_processor.process_entry(
-            entry, regenerate=False, force=False, update_metadata=True,
+            entry, regenerate=False, force=False, incremental=False, update_metadata=True,
             thumbnail_size='600x', verbose=False, force_refetch_metadata=False,
             rename_only=False, update_pdf_metadata=False
         )
@@ -175,7 +191,7 @@ class TestEntryProcessor:
         fields = {'title': 'Test'}
         
         result = entry_processor.process_entry_files(
-            'test2023', fields, regenerate=False, force=False,
+            'test2023', fields, regenerate=False, force=False, incremental=False,
             thumbnail_size='600x', verbose=False, update_pdf_metadata=False
         )
         
@@ -202,7 +218,7 @@ class TestEntryProcessor:
         fields = {'file': 'PDF:/path/to/file.pdf:application/pdf'}
         
         result = entry_processor.process_entry_files(
-            'test2023', fields, regenerate=False, force=False,
+            'test2023', fields, regenerate=False, force=False, incremental=False,
             thumbnail_size='600x', verbose=False, update_pdf_metadata=False
         )
         

@@ -7,7 +7,8 @@ Main processor that coordinates all paper processing operations.
 import os
 import re
 import shutil
-from typing import Dict, List, Optional
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
 
 from processing.config import Configuration
 from processing.core.bibtex_processor import BibTeXProcessor
@@ -62,47 +63,85 @@ class PaperProcessor:
             print(f"❌ Missing dependency: {e}")
             return False
     
-    def process_papers(self, source_bibtex_file: str = None, regenerate: bool = False, 
-                      force: bool = False, update_metadata: bool = True, 
-                      thumbnail_size: str = '600x', test_mode: bool = False, 
-                      test_count: int = 5, verbose: bool = False, 
+    def process_papers(self, source_bibtex_file: str = None, regenerate: bool = False,
+                      force: bool = False, incremental: bool = False, update_metadata: bool = True,
+                      thumbnail_size: str = '600x', test_mode: bool = False,
+                      test_count: int = 5, verbose: bool = False,
                       force_refetch_metadata: bool = False, rename_urls: bool = True,
                       rename_only: bool = False, update_pdf_metadata: bool = False) -> None:
         """Main function to process papers from Zotero export."""
         source_file = source_bibtex_file or self.config.SOURCE_BIBTEX_FILE
         working_file = self.config.WORKING_BIBTEX_FILE
-        
+
         print(f"📚 Processing {source_file}...")
-        
+
         # Enable image content analysis when regenerating
         if regenerate:
             self.config.ENABLE_IMAGE_CONTENT_ANALYSIS = True
             self._cleanup_existing_files()
-        
-        # Copy source to working file
-        if not self._copy_source_to_working(source_file, working_file):
-            return
-        
-        # Read and parse the BibTeX file
-        content = self._read_bibtex_file(working_file)
-        if not content:
-            return
-        
-        # First clean malformed entries and remove curly braces from text fields
-        content = self.bibtex_processor.clean_malformed_entries(content)
-        
-        # Process Zotero notes to extract information into BibTeX fields
-        content = self.bibtex_processor.process_notes_from_zotero(content)
-        
-        # Write the updated content back to the working file
-        with open(working_file, 'w', encoding='utf-8') as f:
-            f.write(content)
-        
-        # Process entries
-        self._process_entries(content, working_file, regenerate, force, update_metadata, 
-                            thumbnail_size, test_mode, test_count, verbose, 
-                            force_refetch_metadata, rename_urls, rename_only, update_pdf_metadata)
-        
+
+        if incremental and os.path.exists(working_file):
+            # Incremental: merge export with existing papers.bib; do not overwrite working file yet
+            source_content = self._read_bibtex_file(source_file)
+            if not source_content:
+                return
+            working_content = self._read_bibtex_file(working_file)
+            if not working_content:
+                return
+            # Clean/notes on export content only (new entries get same cleaning as today)
+            cleaned_export = self.bibtex_processor.clean_malformed_entries(source_content)
+            cleaned_export = self.bibtex_processor.process_notes_from_zotero(cleaned_export)
+            entries = self._merge_export_with_existing(cleaned_export, working_content)
+            if test_mode:
+                entries = entries[:test_count]
+                print(f"  🧪 Test mode: Processing only {len(entries)} entries")
+            stats = self._process_entries(
+                entries=entries,
+                working_file=working_file,
+                regenerate=regenerate,
+                force=force,
+                incremental=incremental,
+                update_metadata=update_metadata,
+                thumbnail_size=thumbnail_size,
+                test_mode=test_mode,
+                test_count=test_count,
+                verbose=verbose,
+                force_refetch_metadata=force_refetch_metadata,
+                rename_urls=rename_urls,
+                rename_only=rename_only,
+                update_pdf_metadata=update_pdf_metadata,
+            )
+            self._write_updated_bibtex_from_entries(entries, working_file, rename_urls, incremental=True)
+            if stats is not None:
+                self._print_incremental_summary(stats, len(entries))
+        else:
+            # Non-incremental or first run (no papers.bib): copy source to working, then process as before
+            if not self._copy_source_to_working(source_file, working_file):
+                return
+            content = self._read_bibtex_file(working_file)
+            if not content:
+                return
+            content = self.bibtex_processor.clean_malformed_entries(content)
+            content = self.bibtex_processor.process_notes_from_zotero(content)
+            with open(working_file, 'w', encoding='utf-8') as f:
+                f.write(content)
+            self._process_entries(
+                working_file=working_file,
+                regenerate=regenerate,
+                force=force,
+                incremental=False,
+                update_metadata=update_metadata,
+                thumbnail_size=thumbnail_size,
+                test_mode=test_mode,
+                test_count=test_count,
+                verbose=verbose,
+                force_refetch_metadata=force_refetch_metadata,
+                rename_urls=rename_urls,
+                rename_only=rename_only,
+                update_pdf_metadata=update_pdf_metadata,
+                content=content,
+            )
+
         print(f"\n✅ Processing completed successfully!")
     
     def _cleanup_existing_files(self) -> None:
@@ -207,33 +246,92 @@ class PaperProcessor:
         except Exception as e:
             print(f"  ❌ Error reading {file_path}: {e}")
             return None
-    
-    def _process_entries(self, content: str, working_file: str, regenerate: bool, 
-                        force: bool, update_metadata: bool, thumbnail_size: str, 
-                        test_mode: bool, test_count: int, verbose: bool, 
-                        force_refetch_metadata: bool, rename_urls: bool, 
-                        rename_only: bool, update_pdf_metadata: bool = False) -> None:
-        """Process all BibTeX entries."""
-        # Parse entries
-        entries = self.bibtex_processor.parse_bibtex_entries(content)
-        
-        if test_mode:
-            entries = entries[:test_count]
-            print(f"  🧪 Test mode: Processing only {len(entries)} entries")
-        
+
+    def _merge_export_with_existing(self, source_content: str, working_content: str) -> List[Dict]:
+        """Merge export content with existing papers.bib; export is source of truth, preserve pipeline output fields from existing."""
+        existing_list = self.bibtex_processor.parse_bibtex_entries(working_content)
+        existing_by_key = {e['citation_key']: e for e in existing_list}
+        export_entries = self.bibtex_processor.parse_bibtex_entries(source_content)
+        pipeline_fields = getattr(self.config, 'PIPELINE_OUTPUT_FIELDS', ())
+
+        merged = []
+        for export_entry in export_entries:
+            key = export_entry.get('citation_key', '')
+            fields = dict(export_entry.get('fields', {}))
+            content = export_entry.get('content', '')
+            if key in existing_by_key:
+                existing = existing_by_key[key]
+                for fname in pipeline_fields:
+                    if fname in existing.get('fields', {}) and existing['fields'][fname]:
+                        fields[fname] = existing['fields'][fname]
+                merged.append({
+                    'citation_key': key,
+                    'fields': fields,
+                    'content': content,
+                    '_original_content': existing['content'].rstrip(),
+                })
+            else:
+                merged.append({
+                    'citation_key': key,
+                    'fields': fields,
+                    'content': content,
+                })
+        return merged
+
+    def _process_entries(self, working_file: str, regenerate: bool, force: bool,
+                        incremental: bool, update_metadata: bool, thumbnail_size: str,
+                        test_mode: bool, test_count: int, verbose: bool,
+                        force_refetch_metadata: bool, rename_urls: bool,
+                        rename_only: bool, update_pdf_metadata: bool = False,
+                        content: Optional[str] = None, entries: Optional[List[Dict]] = None) -> Optional[Dict]:
+        """Process all BibTeX entries. Pass either content (parse and optionally slice) or pre-built entries (e.g. merged)."""
+        if entries is None:
+            if content is None:
+                return None
+            entries = self.bibtex_processor.parse_bibtex_entries(content)
+            if test_mode:
+                entries = entries[:test_count]
+                print(f"  🧪 Test mode: Processing only {len(entries)} entries")
+
         processed_count = 0
+        skipped_count = 0
+        skipped_but_missing_count = 0
+        merged_hits = sum(1 for e in entries if e.get('_original_content'))
+
         for entry in entries:
-            if self.entry_processor.process_entry(entry, regenerate, force, update_metadata,
-                                                 thumbnail_size, verbose, force_refetch_metadata,
-                                                 rename_only, update_pdf_metadata):
-                processed_count += 1
-        
-        print(f"  📊 Processed {processed_count} entries")
-        
-        # Write updated content back to file using the modified entries
-        self._write_updated_bibtex_from_entries(entries, working_file, rename_urls)
-    
-    
+            ok = self.entry_processor.process_entry(
+                entry, regenerate, force, incremental, update_metadata,
+                thumbnail_size, verbose, force_refetch_metadata,
+                rename_only, update_pdf_metadata,
+            )
+            if ok:
+                if entry.get('_skipped'):
+                    skipped_count += 1
+                else:
+                    processed_count += 1
+                    if entry.get('_original_content'):
+                        skipped_but_missing_count += 1
+
+        print(f"  📊 Processed {processed_count} entries" + (f", skipped {skipped_count}" if incremental else ""))
+
+        if not incremental:
+            self._write_updated_bibtex_from_entries(entries, working_file, rename_urls, incremental=False)
+            return None
+        return {
+            'total_in_export': len(entries),
+            'merged_existing_hits': merged_hits,
+            'processed_count': processed_count,
+            'skipped_count': skipped_count,
+            'skipped_but_missing_files': skipped_but_missing_count,
+        }
+
+    def _print_incremental_summary(self, stats: Dict, total_entries: int) -> None:
+        """Print run summary in incremental mode."""
+        print(f"\n  📋 Incremental summary: {stats['total_in_export']} in export, "
+              f"{stats['merged_existing_hits']} merged from existing, "
+              f"{stats['processed_count']} processed, {stats['skipped_count']} skipped"
+              + (f", {stats['skipped_but_missing_files']} reprocessed (missing files)" if stats['skipped_but_missing_files'] else ""))
+
     def _clean_file_field_in_content(self, content: str, fields: Dict) -> str:
         """Clean the file field in the content to remove processed files."""
         # Find the file field in the content
@@ -286,45 +384,50 @@ class PaperProcessor:
         except Exception as e:
             print(f"  ❌ Error writing {working_file}: {e}")
     
-    def _write_updated_bibtex_from_entries(self, entries: List[Dict], working_file: str, rename_urls: bool = True) -> None:
+    def _write_updated_bibtex_from_entries(self, entries: List[Dict], working_file: str, rename_urls: bool = True, incremental: bool = False) -> None:
         """Write updated BibTeX content back to file using modified entries."""
         try:
-            # Rebuild the content with updated entries
+            if incremental:
+                blocks = []
+                for entry in entries:
+                    if entry.get('_skipped') and entry.get('_original_content'):
+                        blocks.append(entry['_original_content'].rstrip())
+                    else:
+                        updated = self._update_entry_content(entry['content'], entry['fields'])
+                        if rename_urls:
+                            updated, url_count = self.bibtex_processor.rename_url_fields(updated)
+                            if url_count > 0 and len(blocks) == 0:
+                                print(f"  🔄 Renamed {url_count} URL field(s) in updated blocks")
+                        blocks.append(updated.rstrip())
+                final_content = '\n\n'.join(blocks) + '\n'
+                with open(working_file, 'w', encoding='utf-8') as f:
+                    f.write(final_content)
+                print(f"  ✅ Updated {working_file}")
+                return
+            # Non-incremental: rebuild all entries, global rename_urls, then format
             updated_content = []
             for entry in entries:
                 citation_key = entry['citation_key']
                 fields = entry['fields']
                 entry_content = entry['content']
-                
-                # Update the entry content with new fields
                 updated_entry = self._update_entry_content(entry_content, fields)
                 updated_content.append(updated_entry)
-            
-            # Join all entries
             final_content = '\n\n'.join(updated_content)
-            
-            # Rename URL fields if requested
             if rename_urls:
                 final_content, url_count = self.bibtex_processor.rename_url_fields(final_content)
                 if url_count > 0:
                     print(f"  🔄 Renamed {url_count} URL fields to website fields")
-            
-            # Apply BibTeX formatting to clean up internal braces and formatting
             try:
-                # Parse entries and format them properly
                 formatted_entries = []
                 for entry_content in final_content.split('\n\n'):
                     if entry_content.strip():
                         formatted_entry = self.formatter.format_entry_from_content(entry_content)
                         formatted_entries.append(formatted_entry)
-                
-                # Join formatted entries
                 final_content = '\n\n'.join(formatted_entries)
             except Exception as e:
                 print(f"  ⚠️  Warning: Could not apply formatting: {e}")
-            
             with open(working_file, 'w', encoding='utf-8') as f:
-                f.write(final_content)
+                f.write(final_content + '\n')
             print(f"  ✅ Updated {working_file}")
         except Exception as e:
             print(f"  ❌ Error writing {working_file}: {e}")
