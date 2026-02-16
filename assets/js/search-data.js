@@ -2526,6 +2526,11 @@ ninja.data = [{
           description: "Student Protest on Campus",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-student-protest-campus/";
+            },},{id: "library-fossil-fools-day",
+          title: 'Fossil Fools Day',
+          description: "Fossil Fools Day",
+          section: "Library",handler: () => {
+              window.location.href = "/library/fossil-fools-day/";
             },},{id: "library-carbon-offsets-and-consumer-protection",
           title: 'Carbon Offsets and Consumer Protection',
           description: "Carbon Offsets and Consumer Protection",
@@ -4191,6 +4196,11 @@ ninja.data = [{
           description: "Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 2023), GlobalABC has been highly active, strengthening its role as a community and a collaborative force for a zero-emission, resilie...",
           section: "Library",handler: () => {
               window.location.href = "/library/global-alliance-buildings-construction-globalabc-general-assembly/";
+            },},{id: "library-governing-marine-spaces-in-the-context-of-the-energy-transitions-challenges-and-cooperation",
+          title: 'Governing marine spaces in the context of the energy transitions: challenges and cooperation...',
+          description: "Governing marine spaces in the context of the energy transitions: challenges and cooperation",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-governing-marine-spaces-context-energy-transitions-challenges-cooperation/";
             },},{id: "library-renewables-for-nature-integrating-biodiversity-amp-communities-in-energy-policy",
           title: 'Renewables for Nature: Integrating Biodiversity &amp;amp; Communities in Energy Policy',
           description: "How can renewable energy accelerate the energy transition while also delivering tangible benefits for nature and communities? This joint online event hosted by The Nature Conservancy (TNC) and REN21...",
@@ -4201,11 +4211,26 @@ ninja.data = [{
           description: "Les représentants des 68 États ayant à ce jour ratifié le traité sur la préservation et l’utilisation durable de la biodiversité en haute mer se sont réunis le 23 septembre 2025 à New York, en marge d...",
           section: "Library",handler: () => {
               window.location.href = "/library/a-new-york-une-ceremonie-acte-lentree-en-vigueur-debut-2026-du-traite-sur-la-biodiversite-en-haute-mer/";
+            },},{id: "library-renewables-in-energy-supply-ocean-power",
+          title: 'Renewables in Energy Supply: Ocean Power',
+          description: "Renewables in Energy Supply: Ocean Power",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-renewables-energy-supply-ocean-power/";
             },},{id: "library-le-traité-sur-la-protection-de-la-biodiversité-en-haute-mer-entre-en-vigueur",
           title: 'Le traité sur la protection de la biodiversité en haute mer entre en...',
           description: "Le traité sur la protection de la biodiversité en haute mer entre en vigueur",
           section: "Library",handler: () => {
               window.location.href = "/library/le-traite-sur-la-protection-de-la-biodiversite-en-haute-mer-entre-en-vigueur/";
+            },},{id: "library-foro-social-más-allá-del-crecimiento",
+          title: 'Foro Social Más Allá del Crecimiento',
+          description: "Un espacio de encuentro para construir democráticamente las bases de una transición ecosocial justa que cuestione el capitalismo verde y proponga alternativas más allá del crecimiento basadas en el de...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/foro-social-mas-alla-del-crecimiento/";
+            },},{id: "library-presentació-la-guerra-por-la-energía-d-alberto-garzón",
+          title: 'Presentació: La guerra por la energía, d´Alberto Garzón',
+          description: "En La guerra por la energía, el exministro Alberto Garzón recorre la historia de la humanidad desde los cazadores-recolectores de la prehistoria hasta el capitalismo del siglo XXI, pasando por el colo...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/presentacio-la-guerra-por-la-energia-d-alberto-garzon/";
             },},{id: "projects-academia-obscura",
           title: 'Academia Obscura',
           description: "The hidden silly side of higher education",
