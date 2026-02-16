@@ -18,9 +18,9 @@ entry_types:
 - Webinar
 - Workshop
 entry_type_counts:
-  Journal Article: 35
+  Journal Article: 34
+  Conference: 43
   Newspaper: 27
-  Conference: 42
   Report: 60
   Report Section: 6
   Book Chapter: 6
@@ -51,8 +51,8 @@ role_tags:
 - speaker
 role_tag_counts:
   lead author: 27
-  author: 76
-  speaker: 81
+  speaker: 82
+  author: 75
   co-author: 67
   facilitator: 24
   organiser: 31
