@@ -27,7 +27,6 @@ _test/
 sandbox/*.html
 sandbox/*.scss
 sandbox/*.css.map
-_bibliography/Exported Items.bib
 docs/ARCHIVE_AND_RENAME_SUMMARY.md
 docs/CREATIVE_WORKFLOW.md
 docs/ENHANCED_PAPERS_FEATURES.md
