@@ -12,6 +12,8 @@ entry_type: Workshop
 gallery:
 - glen_wright_2016_negotiations_new_agreement_conservation_sustainable_use_marine_biodiversity_abnj_figure_01
 - glen_wright_2016_negotiations_new_agreement_conservation_sustainable_use_marine_biodiversity_abnj_figure_02
+- glen_wright_2016_negotiations_new_agreement_conservation_sustainable_use_marine_biodiversity_abnj_photo_01
+- glen_wright_2016_negotiations_new_agreement_conservation_sustainable_use_marine_biodiversity_abnj_photo_02
 layout: library-item
 location: Mahé, Seychelles
 pdf: Wright - 2016 - Negotiations for a new agreement on the conservation and sustainable

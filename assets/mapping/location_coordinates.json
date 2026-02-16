@@ -5,7 +5,7 @@
     "successfully_geocoded": 61,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
-    "refresh_mode": true,
+    "refresh_mode": false,
     "cache_only_mode": false
   },
   "locations": [

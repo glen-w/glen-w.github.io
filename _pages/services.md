@@ -3,7 +3,7 @@ layout: services
 title: services
 permalink: /services/
 description:
-nav: true
+nav: false # temporarily hidden from navbar
 nav_order: 75
 ---
 

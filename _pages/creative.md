@@ -4,7 +4,7 @@ layout: page
 permalink: /creative/
 description:
 nav: true
-nav_order: 60
+nav_order: 20
 display_categories: [collage,poems]
 
 # Optional: toggle these

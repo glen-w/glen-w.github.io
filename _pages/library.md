@@ -4,7 +4,7 @@ permalink: /library/
 title: library
 description:
 nav: true
-nav_order: 10
+nav_order: 30
 ---
 
 <!-- _pages/library.md -->
@@ -216,6 +216,23 @@ nav_order: 10
 
   &.active {
     background-color: transparent !important;
+    color: var(--global-theme-color) !important;
+    border-color: var(--global-theme-color) !important;
+  }
+}
+
+/* Restore light grey background for badge-light type filters */
+.library-filters .filter-tags .badge.badge-light {
+  background-color: #f8f9fa !important;
+  color: #495057 !important;
+  border: 1px solid #dee2e6 !important;
+  
+  &:hover {
+    background-color: #e9ecef !important;
+  }
+  
+  &.active {
+    background-color: #e9ecef !important;
     color: var(--global-theme-color) !important;
     border-color: var(--global-theme-color) !important;
   }

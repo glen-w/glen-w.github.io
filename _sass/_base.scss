@@ -38,6 +38,7 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration: underline dotted;
 
   &:hover {
     color: var(--global-theme-color);
@@ -46,6 +47,17 @@ table.table a {
 
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
+  }
+}
+
+// Remove underlines from navigation, site title, and heading links
+.navbar-brand,
+.nav-link,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: none !important;
   }
 }
 
@@ -1723,7 +1735,7 @@ ninja-keys::part(ninja-input-wrapper) {
 
 // highlight-search-term
 ::highlight(search) {
-  background-color: var(--global-theme-color);
+  background-color: #f8f9fa;
   color: var(--global-text-color);
 }
 
