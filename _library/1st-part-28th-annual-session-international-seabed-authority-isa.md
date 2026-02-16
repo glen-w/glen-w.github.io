@@ -14,8 +14,6 @@ gallery:
 - 1st_part_28th_annual_session_international_seabed_authority_isa_photo_02
 - 1st_part_28th_annual_session_international_seabed_authority_isa_photo_03
 - 1st_part_28th_annual_session_international_seabed_authority_isa_photo_04
-- 1st_part_28th_annual_session_international_seabed_authority_isa_photo_04
-- 1st_part_28th_annual_session_international_seabed_authority_isa_photo_05
 layout: library-item
 location: Kingston, Jamaica
 pdf: enb25251e.pdf

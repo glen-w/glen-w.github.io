@@ -18,7 +18,6 @@ gallery:
 - potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_06
 - potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_07
 - potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_08
-- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_09
 layout: library-item
 location: Potsdam, Germany
 pdf: POGW2017_agenda_171205.pdf

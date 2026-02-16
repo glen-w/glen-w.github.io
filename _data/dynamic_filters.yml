@@ -8,7 +8,6 @@ entry_types:
 - Negotiation
 - Newspaper
 - Oped
-- Other
 - Poster
 - Radio
 - Report
@@ -19,16 +18,15 @@ entry_types:
 - Webinar
 - Workshop
 entry_type_counts:
-  Journal Article: 34
-  Conference: 43
+  Journal Article: 35
   Newspaper: 27
+  Conference: 42
   Report: 60
   Report Section: 6
   Book Chapter: 6
   Oped: 2
   Blog: 24
-  Webinar: 15
-  Other: 1
+  Webinar: 16
   Workshop: 57
   Training: 16
   Submission: 27
@@ -53,8 +51,8 @@ role_tags:
 - speaker
 role_tag_counts:
   lead author: 27
-  speaker: 82
-  author: 75
+  author: 76
+  speaker: 81
   co-author: 67
   facilitator: 24
   organiser: 31

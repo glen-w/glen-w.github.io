@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-02-15 15:33:01",
+    "generated_at": "2026-02-16 14:19:28",
     "total_locations": 61,
     "successfully_geocoded": 61,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
-    "refresh_mode": false,
+    "refresh_mode": true,
     "cache_only_mode": false
   },
   "locations": [
@@ -200,8 +200,8 @@
       "entry_type": "inproceedings",
       "tag": "Workshop",
       "coordinates": {
-        "lat": 51.4993857,
-        "lng": -0.1247241
+        "lat": 51.5320856,
+        "lng": -0.4801431
       },
       "geocoded": true
     },
@@ -256,8 +256,8 @@
       "entry_type": "inproceedings",
       "tag": "Workshop",
       "coordinates": {
-        "lat": -2.2895167,
-        "lng": -80.0983887
+        "lat": -2.1900572,
+        "lng": -79.8868669
       },
       "geocoded": true
     },
@@ -312,8 +312,8 @@
       "entry_type": "inproceedings",
       "tag": "Workshop",
       "coordinates": {
-        "lat": 3.4108435,
-        "lng": -76.5812127
+        "lat": 3.4519988,
+        "lng": -76.5325259
       },
       "geocoded": true
     },
@@ -634,8 +634,8 @@
       "entry_type": "inproceedings",
       "tag": "Conference",
       "coordinates": {
-        "lat": 50.8465573,
-        "lng": 4.351697
+        "lat": 50.8467372,
+        "lng": 4.352493
       },
       "geocoded": true
     },
@@ -718,8 +718,8 @@
       "entry_type": "inproceedings",
       "tag": "Fellowship",
       "coordinates": {
-        "lat": 58.9418231,
-        "lng": -3.1296944
+        "lat": 58.8520573,
+        "lng": -3.2869398
       },
       "geocoded": true
     },
@@ -788,8 +788,8 @@
       "entry_type": "inproceedings",
       "tag": "Conference",
       "coordinates": {
-        "lat": 58.9418231,
-        "lng": -3.1296944
+        "lat": 58.8520573,
+        "lng": -3.2869398
       },
       "geocoded": true
     },

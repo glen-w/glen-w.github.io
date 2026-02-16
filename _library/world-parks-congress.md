@@ -11,7 +11,6 @@ entry_type: Conference
 gallery:
 - world_parks_congress_figure_01
 - world_parks_congress_photo_01
-- world_parks_congress_photo_02
 layout: library-item
 pdf: IUCN - 2014 - World Parks Congress.pdf
 preview: world_parks_congress_figure_01

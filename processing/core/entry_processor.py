@@ -201,14 +201,20 @@ class EntryProcessor:
         
         # Create zip archive if entry has been successfully processed
         # Only create zip if there are files to archive (pdf/slides and/or images)
+        # Zip is only created when there are more than 3 attached PDFs/images/audio etc.
         has_files = (pdf_success and ('pdf' in fields or 'slides' in fields)) or image_success or audio_success
         if has_files:
-            zip_metadata = self.zip_archive_generator.create_archive(citation_key, fields, skip_if_exists=incremental)
+            zip_metadata = self.zip_archive_generator.create_archive(citation_key, fields, skip_if_exists=not regenerate)
             if zip_metadata:
                 # Add zip filename and metadata to fields
                 fields['zip_archive'] = zip_metadata['filename']
                 fields['zip_file_count'] = zip_metadata['file_count']
                 fields['zip_file_size_mb'] = zip_metadata['file_size_mb']
+            else:
+                # No zip created (e.g. <= 3 attachments); clear any existing zip fields
+                fields.pop('zip_archive', None)
+                fields.pop('zip_file_count', None)
+                fields.pop('zip_file_size_mb', None)
         
         return pdf_success and agenda_success and slides_success and image_success and audio_success and thumbnail_success
     

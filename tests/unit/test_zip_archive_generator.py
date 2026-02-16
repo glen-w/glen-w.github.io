@@ -177,41 +177,48 @@ Some notes here"""
         audio_files = zip_generator._extract_audio_from_annote(None)
         assert len(audio_files) == 0
     
-    def test_create_archive_with_pdf_only(self, zip_generator, sample_pdf_file, temp_config):
-        """Test creating zip archive with only PDF."""
+    def test_create_archive_with_pdf_only_returns_none_when_at_most_three_files(self, zip_generator, sample_pdf_file, temp_config):
+        """Test that no zip is created when there are 3 or fewer attachments (e.g. single PDF)."""
         fields = {
             'pdf': sample_pdf_file,
             'title': 'Test Paper',
             'author': 'Wright, G.',
             'year': '2023'
         }
-        
         zip_metadata = zip_generator.create_archive('test2023', fields)
-        
+        assert zip_metadata is None
+
+    def test_create_archive_created_when_more_than_three_files(self, zip_generator, sample_pdf_file, temp_config):
+        """Test that zip is created when there are more than 3 attached PDFs/images."""
+        # 4 files: main PDF + agenda + slides + 1 photo
+        agenda_path = os.path.join(temp_config.PDF_DIR, 'test_agenda.pdf')
+        slides_path = os.path.join(temp_config.PDF_DIR, 'test_slides.pdf')
+        photo_path = os.path.join(temp_config.IMAGES_DIR, 'extra_photo.jpg')
+        for p in [agenda_path, slides_path]:
+            with open(p, 'wb') as f:
+                f.write(b'fake pdf')
+        with open(photo_path, 'wb') as f:
+            f.write(b'fake jpeg')
+        fields = {
+            'pdf': sample_pdf_file,
+            'agenda': 'test_agenda.pdf',
+            'slides': 'test_slides.pdf',
+            'photos': 'extra_photo.jpg',
+            'title': 'Test Paper',
+            'author': 'Wright, G.',
+            'year': '2023'
+        }
+        zip_metadata = zip_generator.create_archive('test2023', fields)
         assert zip_metadata is not None
-        assert isinstance(zip_metadata, dict)
-        assert 'filename' in zip_metadata
-        assert 'file_count' in zip_metadata
-        assert 'file_size_mb' in zip_metadata
-        
-        zip_filename = zip_metadata['filename']
-        assert zip_filename.endswith('.zip')
-        
-        # Verify zip file exists
-        zip_path = os.path.join(temp_config.ZIP_DIR, zip_filename)
+        assert zip_metadata['file_count'] == 4
+        zip_path = os.path.join(temp_config.ZIP_DIR, zip_metadata['filename'])
         assert os.path.exists(zip_path)
-        assert os.path.getsize(zip_path) > 0
-        
-        # Verify zip contents
         with zipfile.ZipFile(zip_path, 'r') as zipf:
             namelist = zipf.namelist()
             assert sample_pdf_file in namelist
-            assert len(namelist) == 1
-        
-        # Verify metadata
-        assert zip_metadata['file_count'] == 1
-        assert isinstance(zip_metadata['file_size_mb'], str)
-        assert float(zip_metadata['file_size_mb']) > 0
+            assert 'documents/test_agenda.pdf' in namelist
+            assert 'documents/test_slides.pdf' in namelist
+            assert 'photos/extra_photo.jpg' in namelist
     
     def test_create_archive_with_all_file_types(self, zip_generator, sample_pdf_file, 
                                                 sample_image_files, sample_audio_file, temp_config):
@@ -266,9 +273,9 @@ Some notes here"""
             assert f'audio/{sample_audio_file}' in namelist
         
         # Verify metadata
-        assert zip_metadata['file_count'] == 7  # 1 PDF + 2 documents + 2 photos + 2 figures + 1 audio
+        assert zip_metadata['file_count'] == 8  # 1 PDF + 2 documents + 2 photos + 2 figures + 1 audio
         assert isinstance(zip_metadata['file_size_mb'], str)
-        assert float(zip_metadata['file_size_mb']) > 0
+        assert float(zip_metadata['file_size_mb']) >= 0  # tiny fake files may round to 0.0 MB
     
     def test_create_archive_with_missing_files(self, zip_generator, temp_config):
         """Test creating zip archive when some files are missing."""

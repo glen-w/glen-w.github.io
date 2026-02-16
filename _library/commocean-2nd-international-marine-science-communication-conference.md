@@ -11,8 +11,6 @@ gallery:
 - commocean_2nd_international_marine_science_communication_conference_figure_01
 - commocean_2nd_international_marine_science_communication_conference_figure_02
 - commocean_2nd_international_marine_science_communication_conference_photo_01
-- commocean_2nd_international_marine_science_communication_conference_photo_02
-- commocean_2nd_international_marine_science_communication_conference_photo_03
 layout: library-item
 location: Bruges, Belgium
 pdf: DETAILED PROGRAMME 2016.pdf

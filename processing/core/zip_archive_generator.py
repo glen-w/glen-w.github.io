@@ -31,7 +31,7 @@ class ZipArchiveGenerator:
         Args:
             citation_key: The BibTeX citation key
             fields: Dictionary of BibTeX fields containing processed file references
-            skip_if_exists: If True and zip already exists, return existing metadata without overwriting (incremental mode)
+            skip_if_exists: If True and zip already exists, return existing metadata without overwriting (default: skip when zip exists unless regenerate)
 
         Returns:
             Dictionary with 'filename', 'file_count', and 'file_size_mb' if archive was created or already existed, None otherwise
@@ -65,6 +65,9 @@ class ZipArchiveGenerator:
         file_map = self._collect_files(fields)
         total_files = sum(len(files) for files in file_map.values())
         if total_files == 0:
+            return None
+        # Only create zip when there are more than 3 attached PDFs/images/audio etc.
+        if total_files <= 3:
             return None
 
         # Create zip archive

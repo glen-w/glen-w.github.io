@@ -10,7 +10,6 @@ entry_type: Workshop
 gallery:
 - ocean_governance_covid_19_building_resilience_marine_regions_figure_01
 - ocean_governance_covid_19_building_resilience_marine_regions_photo_01
-- ocean_governance_covid_19_building_resilience_marine_regions_photo_02
 layout: library-item
 pdf: 20201207_draft Agenda_MRF workshop on regional responses to COVID 19_prt.pdf
 preview: ocean_governance_covid_19_building_resilience_marine_regions_figure_01
