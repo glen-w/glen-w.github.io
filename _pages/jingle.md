@@ -14,7 +14,7 @@ permalink: /jingle/
 </div>
 
 <audio id="jingle-audio" preload="auto">
-  <source src="{{ '/assets/audio/nyt_crossword_jingle.mp3' | relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/jingle.mp3' | relative_url }}" type="audio/mpeg">
 </audio>
 
 <script>
