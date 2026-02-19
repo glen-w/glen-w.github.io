@@ -19,7 +19,7 @@ entry_types:
 - Workshop
 entry_type_counts:
   Journal Article: 34
-  Conference: 43
+  Conference: 42
   Newspaper: 27
   Report: 60
   Report Section: 6
@@ -27,11 +27,11 @@ entry_type_counts:
   Oped: 2
   Blog: 24
   Webinar: 16
-  Workshop: 57
+  Workshop: 58
   Training: 16
   Submission: 27
   Poster: 3
-  Side Event: 12
+  Side Event: 11
   Book: 2
   Fellowship: 1
   Radio: 3
@@ -59,7 +59,7 @@ role_tag_counts:
   participant: 27
   interview: 23
   quoted: 17
-  attendee: 17
+  attendee: 16
   delegate: 17
   presenter: 1
 language_tags:
