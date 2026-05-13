@@ -3,7 +3,7 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 60
+nav_order: 70
 cv_pdf: glen_wright_cv.pdf
 description:
 toc:

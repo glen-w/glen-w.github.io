@@ -3,8 +3,8 @@ layout: services
 title: services
 permalink: /services/
 description:
-nav: false # temporarily hidden from navbar
-nav_order: 75
+nav: true
+nav_order: 60
 ---
 
 <!-- pages/services.md -->

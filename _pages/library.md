@@ -4,7 +4,7 @@ permalink: /library/
 title: library
 description:
 nav: true
-nav_order: 30
+nav_order: 10
 ---
 
 <!-- _pages/library.md -->

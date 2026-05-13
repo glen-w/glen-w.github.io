@@ -26,7 +26,7 @@ latest_posts:
 
 Hello hello 👋🏻 
 
-I'm Glen, a neuro-wobbly yet surprisingly competent human currently transitioning to a post-salary life setup. This work-in-progress website is a sort of online studio space where I gather my bits and bobs into a semi-organised [body of work](/library/) and show-and-tell my [silly scribblings](/blog/) and [side-projects](/projects/).
+I'm Glen, an independent researcher, writer, facilitator and workshopper with expertise in oceans and energy. This work-in-progress website is an attempt to gather all my my bits & bobs into a semi-organised [body of work](/library/) and share my [side-projects](/projects/), [scribblings](/blog/) and [cut-and-paste creations](/creative/).
 
 Please get in touch, ask me anything, tell me a secret, [offer me money in exchange for my labour](/services/), or just say hi :)
 

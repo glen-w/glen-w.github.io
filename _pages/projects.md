@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description:
 nav: true
-nav_order: 10
+nav_order: 20
 display_categories: [ongoing, archive?, aspirations, archive]
 horizontal: false
 ---
