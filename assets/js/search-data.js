@@ -9,12 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-library",
+          title: "library",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/library/";
+          },
+        },{id: "nav-projects",
           title: "projects",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
           },
         },{id: "nav-creative",
           title: "creative",
@@ -22,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/creative/";
-          },
-        },{id: "nav-library",
-          title: "library",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/library/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -79,7 +86,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/sitemap/";
               },
-            },{id: "nav-cv",
+            },{id: "nav-services",
+          title: "services",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/services/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
