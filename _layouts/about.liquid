@@ -141,27 +141,44 @@ layout: default
   display: block;
 }
 
-/* Read More Toggle Button */
+/* Read More Toggle Button (match in-body link style: theme color, dotted underline) */
 .read-more-toggle {
   background: none;
   border: none;
-  color: inherit;
+  color: var(--global-theme-color);
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
   padding: 0;
-  text-decoration: underline;
+  text-decoration: underline dotted;
   margin: 1rem 0;
   display: inline-block;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.read-more-toggle:hover,
-.read-more-toggle:focus {
-  text-decoration: none;
-  opacity: 0.8;
+/* Same as `a:hover` in _base.scss */
+.read-more-toggle:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
 }
 
-.read-more-toggle:focus {
+/* When focused but not hovered (e.g. keyboard tab), keep dotted like default links */
+.read-more-toggle:focus:not(:hover) {
+  text-decoration: underline dotted;
+}
+
+.read-more-toggle:active {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.read-more-toggle:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.read-more-toggle:focus-visible {
+  color: var(--global-theme-color);
+  text-decoration: underline dotted;
   outline: 2px solid currentColor;
   outline-offset: 2px;
 }

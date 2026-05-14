@@ -44,6 +44,14 @@
       // Insert button before the container
       container.parentNode.insertBefore(button, container);
 
+      // Primary mouse/touch: do not move focus to the button (avoids :focus/:focus-visible
+      // leaving a solid underline after click). Tab + keyboard still focuses normally.
+      button.addEventListener('mousedown', function(e) {
+        if (e.button === 0) {
+          e.preventDefault();
+        }
+      });
+
       // Track expanded state
       let isExpanded = false;
 
