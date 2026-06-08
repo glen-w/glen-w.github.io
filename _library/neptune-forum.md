@@ -6,7 +6,7 @@ categories:
 - other
 date: 2026-June-01
 description: Neptune Forum
-entry_type: Other
+entry_type: Conference
 layout: library-item
 location: Jardin des Plantes, Paris
 tags: []

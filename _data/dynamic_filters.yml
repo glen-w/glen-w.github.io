@@ -3,7 +3,6 @@ entry_types:
 - Book
 - Book Chapter
 - Conference
-- Conference Paper
 - Fellowship
 - Journal Article
 - Negotiation
@@ -22,7 +21,7 @@ entry_types:
 entry_type_counts:
   Journal Article: 38
   Newspaper: 27
-  Conference: 41
+  Conference: 44
   Report: 60
   Report Section: 6
   Book Chapter: 6
@@ -39,7 +38,6 @@ entry_type_counts:
   Radio: 3
   Negotiation: 13
   Other: 1
-  Conference Paper: 3
 role_tags:
 - attendee
 - author

@@ -6,7 +6,7 @@ categories:
 - other
 date: 2026-June-01
 description: 'Reimagining Paris: Sufficiency in Practice'
-entry_type: Other
+entry_type: Conference
 layout: library-item
 location: Académie du Climat, Paris, France
 tags: []

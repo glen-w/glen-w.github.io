@@ -6,7 +6,7 @@ categories:
 - other
 date: 2026-June-01
 description: 'Sufficiency: The Backbone of EU Strategic Autonomy'
-entry_type: Other
+entry_type: Conference
 layout: library-item
 tags: []
 title: 'Sufficiency: The Backbone of EU Strategic Autonomy'
