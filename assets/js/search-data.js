@@ -3128,6 +3128,11 @@ ninja.data = [{
           description: "Workshop on Linking Global and Regional Levels in the Management of Marine Areas Beyond National Jur...",
           section: "Library",handler: () => {
               window.location.href = "/library/workshop-linking-global-regional-levels-management-marine-areas-beyond-national-jurisdiction/";
+            },},{id: "library-climate-clubs-overcoming-free-riding-in-international-climate-policy",
+          title: 'Climate Clubs: Overcoming Free-Riding in International Climate Policy',
+          description: "Notwithstanding great progress in scientific and economic understanding of climate change, it has proven difficult to forge international agreements because of free-riding, as seen in the defunct Kyot...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/climate-clubs-overcoming-free-riding-international-climate-policy/";
             },},{id: "library-top-five-university-pranks-to-watch-out-for-on-april-fools-39-day",
           title: 'Top five university pranks to watch out for on April Fools&amp;#39; day',
           description: "Hoisted cars, fake students and remodeled buildings – practical jokes have a long history on university campuses. Here are some of the most notorious",
@@ -3508,6 +3513,11 @@ ninja.data = [{
           description: "The Southeast Atlantic and Southeast Pacific regions are both characterised by their high biological productivity, supported by important oceanic currents. Recognising the need to ensure conservation ...",
           section: "Library",handler: () => {
               window.location.href = "/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/";
+            },},{id: "library-collective-action-in-an-asymmetric-world",
+          title: 'Collective action in an asymmetric world',
+          description: "A central authority possessing tax and expenditure responsibilities can readily provide an efficient level of a public good. Absent a central authority, voluntary arrangements must replace coercive on...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/collective-action-asymmetric-world/";
             },},{id: "library-protect-the-neglected-half-of-our-blue-planet",
           title: 'Protect the neglected half of our blue planet',
           description: "At the close of 2017, 14 million UK viewers tuned into the acclaimed second series of David Attenborough’s Blue Planet, making it the year’s most-watched television show. It brought the wonders of the...",
@@ -4198,6 +4208,11 @@ ninja.data = [{
           description: "In 2024, global renewable energy growth was primarily driven by the power sector, where capacity expanded by 741 gigawatts (GW), the largest annual increase ever recorded. Solar photovoltaics (PV) led...",
           section: "Library",handler: () => {
               window.location.href = "/library/renewables-2025-global-status-report-global-overview/";
+            },},{id: "library-climate-club-financial-toolkit-economic-de-risking-and-financing-instruments-for-industry-decarbonisation",
+          title: 'Climate Club Financial Toolkit: Economic, De‑risking and Financing Instruments for Industry Decarbonisation',
+          description: "The toolkit provides an overview of 28 economic, de-risking and financing instruments that can be used for financing industry decarbonisation, both in emerging markets and developing economies (EMDEs)...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/climate-club-financial-toolkit-economic-de-risking-financing-instruments-industry-decarbonisation/";
             },},{id: "library-global-alliance-for-buildings-and-construction-globalabc-general-assembly",
           title: 'Global Alliance for Buildings and Construction (GlobalABC) General Assembly',
           description: "Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 2023), GlobalABC has been highly active, strengthening its role as a community and a collaborative force for a zero-emission, resilie...",
@@ -4238,6 +4253,31 @@ ninja.data = [{
           description: "En La guerra por la energía, el exministro Alberto Garzón recorre la historia de la humanidad desde los cazadores-recolectores de la prehistoria hasta el capitalismo del siglo XXI, pasando por el colo...",
           section: "Library",handler: () => {
               window.location.href = "/library/presentacio-la-guerra-por-la-energia-d-alberto-garzon/";
+            },},{id: "library-hidden-biodiversity-costs-of-a-deep-sea-mining-moratorium",
+          title: 'Hidden biodiversity costs of a deep-sea mining moratorium',
+          description: "Calls to ban deep-sea mining aim to protect poorly known ocean ecosystems, but a global modelling study shows that a moratorium could intensify nickel extraction in some of the Earth’s most biodiverse...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/hidden-biodiversity-costs-deep-sea-mining-moratorium/";
+            },},{id: "library-neptune-forum",
+          title: 'Neptune Forum',
+          description: "Neptune Forum",
+          section: "Library",handler: () => {
+              window.location.href = "/library/neptune-forum/";
+            },},{id: "library-reimagining-paris-sufficiency-in-practice",
+          title: 'Reimagining Paris: Sufficiency in Practice',
+          description: "Reimagining Paris: Sufficiency in Practice",
+          section: "Library",handler: () => {
+              window.location.href = "/library/reimagining-paris-sufficiency-practice/";
+            },},{id: "library-sufficiency-the-backbone-of-eu-strategic-autonomy",
+          title: 'Sufficiency: The Backbone of EU Strategic Autonomy',
+          description: "Sufficiency: The Backbone of EU Strategic Autonomy",
+          section: "Library",handler: () => {
+              window.location.href = "/library/sufficiency-backbone-eu-strategic-autonomy/";
+            },},{id: "library-writing-workshop-from-policy-brief-to-publishable-paper",
+          title: 'Writing Workshop: From Policy Brief to Publishable Paper',
+          description: "Writing Workshop: From Policy Brief to Publishable Paper",
+          section: "Library",handler: () => {
+              window.location.href = "/library/writing-workshop-policy-brief-publishable/";
             },},{id: "projects-academia-obscura",
           title: 'Academia Obscura',
           description: "The hidden silly side of higher education",
