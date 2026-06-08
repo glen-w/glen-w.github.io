@@ -17,7 +17,7 @@ abstract: 'Despite a notable decline in the prices of fossil fuels and other ene
   power purchase agreements reaching a record 46 gigawatts (GW)'
 authors:
 - 'REN21 '
-bibtex_key: ren21Renewables2024Global2024b
+bibtex_key: ren21Renewables2024Global2024a
 categories:
 - other
 date: '2024-01-01'

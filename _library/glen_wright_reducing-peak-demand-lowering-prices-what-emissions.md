@@ -4,7 +4,7 @@ abstract: The past year has seen several processes to reduce the price of electr
   reducing use at peak times to reduce the…
 authors:
 - Glen Wright
-bibtex_key: wrightReducingPeakDemand2013
+bibtex_key: wrightReducingPeakDemand2013a
 categories:
 - other
 date: 2013-January-01

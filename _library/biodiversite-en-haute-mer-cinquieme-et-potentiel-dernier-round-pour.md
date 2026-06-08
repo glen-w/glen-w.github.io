@@ -3,7 +3,7 @@ abstract: La 5e et potentielle dernière session de négociations sur le futur t
   international sur la conservation et l’utilisation durable de la biodiversité...
 authors:
 - Émilie Legendre
-bibtex_key: legendreBiodiversiteHauteMer2022
+bibtex_key: legendreBiodiversiteHauteMer2022b
 categories:
 - other
 date: 2022-August-01

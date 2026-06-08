@@ -3,11 +3,13 @@ entry_types:
 - Book
 - Book Chapter
 - Conference
+- Conference Paper
 - Fellowship
 - Journal Article
 - Negotiation
 - Newspaper
 - Oped
+- Other
 - Poster
 - Radio
 - Report
@@ -18,24 +20,26 @@ entry_types:
 - Webinar
 - Workshop
 entry_type_counts:
-  Journal Article: 34
-  Conference: 42
+  Journal Article: 38
   Newspaper: 27
+  Conference: 41
   Report: 60
   Report Section: 6
   Book Chapter: 6
   Oped: 2
   Blog: 24
   Webinar: 16
-  Workshop: 58
+  Workshop: 60
   Training: 16
   Submission: 27
   Poster: 3
-  Side Event: 11
+  Side Event: 10
   Book: 2
   Fellowship: 1
   Radio: 3
   Negotiation: 13
+  Other: 1
+  Conference Paper: 3
 role_tags:
 - attendee
 - author
@@ -44,24 +48,24 @@ role_tags:
 - facilitator
 - interview
 - lead author
+- moderator
 - organiser
 - participant
-- presenter
 - quoted
 - speaker
 role_tag_counts:
   lead author: 27
+  author: 76
   speaker: 82
-  author: 75
   co-author: 67
-  facilitator: 24
+  facilitator: 25
   organiser: 31
   participant: 27
   interview: 23
   quoted: 17
-  attendee: 16
+  attendee: 18
   delegate: 17
-  presenter: 1
+  moderator: 1
 language_tags:
 - french
 - spanish

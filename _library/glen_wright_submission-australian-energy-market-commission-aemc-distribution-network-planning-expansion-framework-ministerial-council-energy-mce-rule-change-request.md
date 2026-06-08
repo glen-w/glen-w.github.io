@@ -2,7 +2,7 @@
 abstract: ''
 authors:
 - Glen Wright
-bibtex_key: wrightSubmissionAustralianEnergy2011
+bibtex_key: wrightSubmissionAustralianEnergy2011d
 categories:
 - other
 date: 2011-November-01

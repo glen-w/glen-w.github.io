@@ -3,7 +3,7 @@ abstract: ''
 authors:
 - Mark Byrne
 - Glen Wright
-bibtex_key: byrneSubmissionAustralianEnergy2013a
+bibtex_key: byrneSubmissionAustralianEnergy2013b
 categories:
 - other
 date: 2013-January-01

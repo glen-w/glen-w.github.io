@@ -2,7 +2,7 @@
 abstract: ''
 authors:
 - Glen Wright
-bibtex_key: wrightEnvironmentalImpactAssessment2016c
+bibtex_key: wrightEnvironmentalImpactAssessment2016
 categories:
 - other
 date: 2016-February-01

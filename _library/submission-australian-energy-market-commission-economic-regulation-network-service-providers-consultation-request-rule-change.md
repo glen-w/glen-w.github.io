@@ -1,7 +1,7 @@
 ---
 abstract: ''
 authors: []
-bibtex_key: wrightSubmissionAustralianEnergy2011c
+bibtex_key: wrightSubmissionAustralianEnergy2011
 categories:
 - other
 date: 2011-December-01

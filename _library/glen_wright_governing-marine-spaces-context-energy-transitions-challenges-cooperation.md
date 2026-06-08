@@ -8,7 +8,7 @@ categories:
 date: 2025-June-01
 description: 'Governing marine spaces in the context of the energy transitions: challenges
   and cooperation'
-entry_type: Side event
+entry_type: Workshop
 layout: library-item
 pdf: UNOC energy transitions side event.pdf
 tags: []

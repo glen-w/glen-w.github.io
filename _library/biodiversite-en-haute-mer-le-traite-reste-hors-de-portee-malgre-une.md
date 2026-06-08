@@ -3,7 +3,7 @@ abstract: 'Ce que les observateurs pressentaient début mars s’est vérifié: 
   la quatrième session de négociations sur le futur traité international sur...'
 authors:
 - Émilie Legendre
-bibtex_key: legendreBiodiversiteHauteMer2022b
+bibtex_key: legendreBiodiversiteHauteMer2022
 categories:
 - other
 date: 2022-March-01

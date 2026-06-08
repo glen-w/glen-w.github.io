@@ -14,7 +14,7 @@ authors:
 - Klaudija Cremers
 - Glen Wright
 - Julien Rochette
-bibtex_key: cremersStrengtheningMonitoringControl2020
+bibtex_key: cremersStrengtheningMonitoringControl2020a
 categories:
 - other
 date: '2020-01-01'

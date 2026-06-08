@@ -11,7 +11,7 @@ date: 2026-February-01
 description: Un espacio de encuentro para construir democráticamente las bases de
   una transición ecosocial justa que cuestione el capitalismo verde y proponga alternativas
   más allá del crecimiento basadas en el de...
-entry_type: Conference
+entry_type: Workshop
 layout: library-item
 location: Universidad Autónoma de Madrid, Madrid, Spain
 tags: []

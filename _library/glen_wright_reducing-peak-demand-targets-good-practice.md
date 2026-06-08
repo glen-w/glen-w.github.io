@@ -4,7 +4,7 @@ abstract: Better managing peak demand, the primary culprit behind recent rapid p
   Market (NEM). To deal with peak demand…
 authors:
 - Glen Wright
-bibtex_key: wrightReducingPeakDemand2013a
+bibtex_key: wrightReducingPeakDemand2013
 categories:
 - other
 date: 2013-February-01

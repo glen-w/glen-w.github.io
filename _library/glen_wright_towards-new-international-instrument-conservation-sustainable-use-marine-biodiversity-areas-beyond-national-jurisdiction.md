@@ -2,7 +2,7 @@
 abstract: ''
 authors:
 - Glen Wright
-bibtex_key: wrightNewInternationalInstrument2014a
+bibtex_key: wrightNewInternationalInstrument2014
 categories:
 - other
 date: 2014-November-01

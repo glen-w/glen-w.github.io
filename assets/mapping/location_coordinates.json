@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-19 17:23:40",
-    "total_locations": 61,
-    "successfully_geocoded": 61,
+    "generated_at": "2026-06-08 11:02:34",
+    "total_locations": 63,
+    "successfully_geocoded": 63,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
     "refresh_mode": false,
@@ -20,6 +20,34 @@
       "coordinates": {
         "lat": 40.5453765,
         "lng": -3.6949578
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "zotero-item-51271",
+      "title": "Reimagining Paris: Sufficiency in Practice",
+      "address": "Académie du Climat, Paris, France",
+      "year": "2026",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 48.8561484,
+        "lng": 2.3557819
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "zotero-item-51274",
+      "title": "Neptune Forum",
+      "address": "Jardin des Plantes, Paris",
+      "year": "2026",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference Paper",
+      "coordinates": {
+        "lat": 48.844036,
+        "lng": 2.3597321
       },
       "geocoded": true
     },
