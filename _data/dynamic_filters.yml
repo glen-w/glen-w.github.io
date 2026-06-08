@@ -8,7 +8,6 @@ entry_types:
 - Negotiation
 - Newspaper
 - Oped
-- Other
 - Poster
 - Radio
 - Report
@@ -37,7 +36,6 @@ entry_type_counts:
   Fellowship: 1
   Radio: 3
   Negotiation: 13
-  Other: 1
 role_tags:
 - attendee
 - author
