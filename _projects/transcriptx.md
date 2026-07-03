@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TranscriptX
-description: A place to think with transcripts
+description: A local-first transcript analysis toolkit
 img: /assets/img/projects/thumbs/transcriptx_logo.png
 importance: 5
 category: ongoing
@@ -11,17 +11,22 @@ category: ongoing
   <img src="/assets/img/projects/thumbs/transcriptx_logo.png" alt="TranscriptX Logo" width="200"/>
 </div>
 
-TranscriptX is an exploratory analysis toolkit for working with conversations when you don’t yet know what will matter.
+TranscriptX is a **local-first transcript analysis toolkit**. It treats transcripts as canonical data and runs deterministic, reproducible analysis pipelines on your machine.
 
-Sometimes that means fast, visual sense-making — running a meeting, interview, workshop, or chat through a range of analytical lenses to surface patterns, dynamics, and signals.  
-Other times it means slower, longitudinal work: following speakers, language, tone, or themes across many transcripts over time, and returning to old material as your questions evolve.
+TranscriptX does not perform audio transcription — you bring your own transcript files from external tools (WhisperX, AssemblyAI, Deepgram, Otter, manual export, and others). The focus is on **analysis**: modular pipelines, structured outputs, and a space in which interpretation can develop without locking you into a single theory of language or meaning.
 
-TranscriptX is designed to support both modes.
+---
 
-At its core, TranscriptX treats transcripts as **canonical data**. Analyses run through a reproducible pipeline, outputs are traceable, and results can be revisited or recombined later. The infrastructure exists so you can experiment freely — not to lock you into a single theory of language, conversation, or meaning.
+## Why TranscriptX
 
-The goal isn’t to automate interpretation.  
-It’s to create a reliable space in which interpretation can develop — quickly when you need a snapshot, and slowly when you want to understand change.
+Most transcript tools are either cloud SaaS (Otter, Fireflies), transcription tools (Whisper, AssemblyAI), or research libraries with limited UX. TranscriptX sits in a different space:
+
+- **Analyze transcripts locally** — your data stays on your machine
+- **Run modular analysis pipelines** — apply the lenses you need, when you need them
+- **Produce reproducible outputs** — traceable, structured, and revisit-able
+- **Support both personal workflows and academic research**
+
+The goal isn't to automate interpretation. It's to create a reliable space in which interpretation can develop — quickly when you need a snapshot, and slowly when you want to understand change.
 
 ---
 
@@ -36,62 +41,39 @@ TranscriptX is useful when you find yourself asking things like:
 - *How does tone shift over time, or across sessions?*
 - *What changes when the same people meet again and again?*
 
-It’s designed for researchers, facilitators, analysts, organisers, and anyone working seriously with spoken language — especially when intuition alone isn’t enough, but full automation would be misleading.
+It's designed for researchers, facilitators, analysts, organisers, and anyone working seriously with spoken language — especially when intuition alone isn't enough, but full automation would be misleading.
 
 ---
 
-## Core analysis capabilities
+## How it works
 
-TranscriptX brings together a wide range of analytical modules that can be combined, rerun, or selectively applied depending on your needs.
+TranscriptX has two layers:
 
-### 🧠 Language & meaning
-- **Sentiment analysis** and sentiment change over time  
-- **Emotion detection**, including emotional flow across a conversation  
-- **Topic modeling** to surface recurring themes  
-- **Semantic similarity & repetition**, from simple echoes to deeper paraphrase  
-- **Named entity recognition**, including people, organisations, and places  
-- **Entity framing**, linking entities to sentiment and context  
+- **Engine** — pipeline and analysis modules
+- **GUI** — Streamlit web interface
 
-### 🗣️ Speakers & interaction
-- **Multi-speaker analysis** with diarized transcripts  
-- **Speaker profiling** and cross-session tracking  
-- **Turn-taking and interaction networks**  
-- **Interruptions, overlaps, and response patterns**  
-- **Dialogue acts** (questions, agreements, disagreements, etc.)  
-- **Conversational loops** and circular discussions  
+**Entry points:**
 
-### 🎭 Dynamics over time
-- **Emotional dynamics** and emotional contagion  
-- **Momentum and stall detection**  
-- **Pauses, silences, and timing patterns**  
-- **Moments worth revisiting** — ranked segments across analyses  
-- **Temporal dynamics**, showing how metrics evolve across a conversation  
+- **Web app (primary)** — the `transcriptx` console script starts the Streamlit app
+- **Python API (secondary)** — typed workflows for automation and notebooks (`AnalysisRequest` + `run_analysis`)
 
-### 📝 Language quality
-- **Understandability and readability metrics**  
-- **Verbal tics and filler detection**  
-- **Simplified transcripts** for summaries or text-to-speech  
+A typical workflow is: raw transcript → managed import → analysis. Managed import admits files (WhisperX JSON, SRT, VTT, and others) into a canonical storage format; analysis modules then run against that canonical data.
 
-### 🌍 Spatial & contextual signals
-- **Geographic entity extraction and mapping**  
-- **Cross-conversation comparison and grouping**  
-- **Longitudinal analysis across transcript sets**
+TranscriptX runs in **file-first mode** out of the box. Groups, corrections, speaker mapping, and search/discovery are backed by files and sidecars.
 
 ---
 
-## How TranscriptX works (conceptually)
+## What TranscriptX does today
 
-TranscriptX is modular and deliberately open-ended.
+- Modular, dependency-aware analysis pipeline
+- Speaker and interaction analysis
+- Sentiment, emotion, NER, topics, similarity
+- Structured, traceable outputs (JSON, CSV, visualisations)
+- Voice prosody dashboards (per-speaker profiles, timelines, comparisons)
+- Voice charts: pause/turn-delivery and rhythm indices (audio-gated)
+- **Groups** — analyze multiple transcripts as a single unit (DB-backed, experimental)
 
-- You can run many analyses at once for a broad overview  
-- Or apply a small number of lenses very precisely  
-- You can revisit old transcripts with new questions  
-- You can compare across sessions, speakers, or time periods  
-
-Nothing is overwritten. Outputs are indexed and traceable.  
-You can explore without losing provenance or reproducibility.
-
-The system doesn’t assume a single “correct” reading of a conversation — it’s designed to support **interpretive work**, not replace it.
+Each analysis run writes structured artifacts under an outputs directory: per-run folders, manifests, and module subdirectories. Nothing is overwritten; outputs are indexed and traceable.
 
 ---
 
@@ -99,36 +81,42 @@ The system doesn’t assume a single “correct” reading of a conversation —
 
 TranscriptX produces outputs meant to be *read*, *browsed*, and *thought with*:
 
-- Clear visualisations (timelines, charts, networks, word clouds)  
-- Human-readable summaries and highlights  
-- Structured data (JSON, CSV) for deeper analysis or reuse  
-- Speaker-level and conversation-level views  
-- Group-level analysis across multiple transcripts  
+- Clear visualisations (timelines, charts, networks, word clouds)
+- Human-readable summaries and highlights
+- Structured data (JSON, CSV) for deeper analysis or reuse
+- Speaker-level and conversation-level views
+- Group-level analysis across multiple transcripts
 
-A web interface makes it easy to explore results interactively, while a CLI supports scripted and repeatable workflows.
-
----
-
-## Why TranscriptX exists
-
-Many tools treat transcripts as disposable intermediates — something to summarise once and move on from.
-
-TranscriptX takes the opposite view.
-
-Conversations are often where:
-- decisions emerge,
-- tensions surface,
-- power is exercised,
-- meaning is negotiated,
-- and change becomes visible.
-
-TranscriptX exists to make those dynamics **legible**, without pretending they’re simple.
+The web interface makes it easy to explore results interactively; the Python API supports scripted and repeatable workflows.
 
 ---
 
-## Status
+## Getting started
 
-TranscriptX is an active, evolving project.  
-It’s already used for research, facilitation, and long-form analysis, and continues to grow as new analytical questions emerge.
+**Docker (recommended):** No local Python required. Build the image and run the web app — then open http://localhost:8501.
 
-If you’re curious, want to collaborate, or have a use case in mind, feel free to get in touch.
+**Local install:** Python 3.10+. Core: `pip install transcriptx`. Full optional stack: `pip install transcriptx[full]`.
+
+Configuration precedence: environment variables → run/draft override → project config → defaults.
+
+---
+
+## Product direction
+
+TranscriptX is evolving toward a **personal audio analysis companion**. Long-term goals include analyzing personal recordings, voice note workflows, conversational analytics, and integration with local AI models. Tools like Plaud, Granola, and Otter address similar spaces, but TranscriptX is **local-first and modular** — your data stays on your machine, and the pipeline is yours to extend.
+
+---
+
+## Status & roadmap
+
+**Current stage:** transcript analysis toolkit (beta).
+
+Next phases:
+
+1. Improved UX and stability
+2. Richer analysis modules
+3. Personal audio analysis workflows
+4. Integration with local LLMs (Ollama)
+5. Optional remote compute workflows (e.g. Colab)
+
+TranscriptX is an active, evolving project. If you're curious, want to collaborate, or have a use case in mind, feel free to get in touch.
