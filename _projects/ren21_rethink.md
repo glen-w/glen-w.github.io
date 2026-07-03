@@ -5,5 +5,6 @@ description: Overhauling REN21's renewable energy reporting, data infrastructure
 img: assets/img/projects/thumbs/ren21_icon.jpg
 importance: 
 category: archive
+hidden: true
 giscus_comments: false
 ---

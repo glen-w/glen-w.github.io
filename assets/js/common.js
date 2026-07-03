@@ -107,6 +107,31 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
+
+  // Open external links in a new tab
+  $("a[href]").each(function () {
+    const href = $(this).attr("href");
+    if (
+      !href ||
+      href.startsWith("#") ||
+      href.startsWith("mailto:") ||
+      href.startsWith("tel:") ||
+      href.startsWith("javascript:")
+    ) {
+      return;
+    }
+    if ($(this).attr("target")) {
+      return;
+    }
+    try {
+      const url = new URL(href, window.location.origin);
+      if (url.origin !== window.location.origin) {
+        $(this).attr("target", "_blank");
+      }
+    } catch (e) {
+      // skip invalid URLs
+    }
+  });
 });
 
 // Image modal functionality

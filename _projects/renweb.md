@@ -5,6 +5,7 @@ description: A comprehensive platform for REN21's renewable energy and policy da
 img: /assets/img/projects/thumbs/ren21_icon.jpg
 importance: 
 category: archive
+hidden: true
 related_publications: false
 ---
 

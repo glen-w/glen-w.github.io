@@ -179,6 +179,9 @@
   ></script>
 {% endif %}
 
+<!-- Read More (no-op unless [data-read-more] elements exist) -->
+<script src="{{ '/assets/js/read-more.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+
 <!-- Load Common JS -->
 <script src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>
 <script defer src="{{ '/assets/js/common.js' | relative_url | bust_file_cache }}"></script>

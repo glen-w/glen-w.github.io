@@ -1,0 +1,51 @@
+// Read More Toggle — progressive enhancement (content visible without JS)
+.js-enabled .read-more-content.read-more-collapsed {
+  display: none;
+}
+
+.js-enabled .read-more-content.read-more-expanded {
+  display: block;
+}
+
+.read-more-toggle {
+  background: none;
+  border: none;
+  color: var(--global-theme-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  text-decoration: underline dotted;
+  margin: 1rem 0;
+  display: inline-block;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.read-more-toggle:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.read-more-toggle:focus:not(:hover) {
+  text-decoration: underline dotted;
+}
+
+.read-more-toggle:active {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.read-more-toggle:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.read-more-toggle:focus-visible {
+  color: var(--global-theme-color);
+  text-decoration: underline dotted;
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.read-more-content {
+  transition: opacity 0.3s ease;
+}
