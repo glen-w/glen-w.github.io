@@ -4305,7 +4305,7 @@ ninja.data = [{
               window.location.href = "/projects/little_blue_letter/";
             },},{id: "projects-marine-policy-amp-ocean-governance",
           title: 'Marine Policy &amp;amp; Ocean Governance',
-          description: "A master&#39;s course exploring the political, legal and institutional frameworks governing the ocean.",
+          description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean. Students examine global, regional and national approaches to ocean governance, with case studies on biodiversity, fisheries, deep sea mining, marine spatial planning, ocean-climate linkages and emerging debates such as rights of nature and the blue economy.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/marine-policy-ocean-governance/";
             },},{id: "projects-marine-regions-forum",
@@ -4333,6 +4333,11 @@ ninja.data = [{
           description: "A comprehensive platform for REN21&#39;s renewable energy and policy data",
           section: "Projects",handler: () => {
               window.location.href = "/projects/renweb/";
+            },},{id: "projects-rollup",
+          title: 'rollup',
+          description: "Your newsletters, rolled up into one readable weekly briefing.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rollup/";
             },},{id: "projects-strong-high-seas",
           title: 'STRONG High Seas',
           description: "Strengthening Regional Ocean Governance for Areas Beyond National Jurisdiction",
@@ -4383,16 +4388,6 @@ ninja.data = [{
           description: "Design and facilitation of workshops, retreats, and learning journeys for teams working on oceans, energy, and climate.",
           section: "Services",handler: () => {
               window.location.href = "/services/workshops-facilitation-learning/";
-            },},{id: "teaching-marine-policy-amp-ocean-governance",
-          title: 'Marine Policy &amp;amp; Ocean Governance',
-          description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean. Students examine global and regional governance regimes, with case studies on biodiversity, fisheries, and emerging issues like deep sea mining and ocean energy.",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/marine-policy/";
-            },},{id: "teaching-anthropocene-book-club",
-          title: 'Anthropocene Book Club',
-          description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean. Students examine global and regional governance regimes, with case studies on biodiversity, fisheries, and emerging issues like deep sea mining and ocean energy.",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/anthropocene-book-club/";
             },},{
         id: 'social-email',
         title: 'email',
