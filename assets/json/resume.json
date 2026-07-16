@@ -1,18 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Glen Wright",
-    "label": "Senior Energy Analyst & Knowledge/Data Lead",
-    "email": "glen.w.wright@gmail.com",
-    "phone": "+33 6 43 66 96 80",
-    "url": "https://www.glenwright.earth",
-    "summary": "Experienced energy analyst with a strong record delivering rigorous, policy-relevant analysis at the international level. At REN21, I lead data-driven research, visualisation and writing for the Renewables Global Status Report, modernise data infrastructure and processes, and coordinate international contributors to produce trusted global knowledge products. I combine quantitative analysis, qualitative research and strategic communication to translate complex energy trends into actionable insights. Alongside technical expertise, I bring leadership in shaping strategy and workplans, mentoring colleagues, and strengthening collaboration across teams and stakeholders; I engage directly with policymakers and partners to ensure relevance and impact.",
-    "location": {
-      "city": "Paris",
-      "region": "Île-de-France",
-      "countryCode": "FR"
-    },
-    "citizenship": ["France", "United Kingdom"],
+    "summary": "Independent researcher and consultant with 15 years of experience delivering policy-relevant research and strategic advice on ocean governance and energy policy. I combine qualitative and quantitative analysis, data visualisation and clear communication to translate complex evidence into practical insights for policymakers, international organisations, think tanks and civil-society partners. My experience includes leading major international research programmes, producing flagship knowledge products, coordinating multidisciplinary contributor networks and advising intergovernmental processes.",
     "profiles": [
       {
         "network": "Twitter",
@@ -28,20 +17,6 @@
   },
   "work": [
     {
-      "name": "REN21 – Renewable Energy Policy Network for the 21st Century",
-      "position": "Knowledge & Data Lead (Senior Analyst)",
-      "url": "https://www.ren21.net",
-      "startDate": "2023-07-01",
-      "summary": "Lead analysis and content for the Renewables Global Status Report (GSR) and related outputs; modernise data and workflow systems; coordinate international contributors; mentor staff; represent REN21 in global fora.",
-      "highlights": [
-        "Delivered high-quality data analysis, visualisations and writing for GSR.",
-        "Overhauled data infrastructure (taxonomy, pipelines, online policy-database access) to improve accessibility and reuse.",
-        "Introduced agile, collaborative workflows and tooling; strengthened cross-team coordination.",
-        "Strengthened REN21’s partnerships and visibility with policymakers, industry and civil society.",
-        "Deepened coverage across technologies, supply, demand sectors (buildings, industry), supply chains, sustainability and policy."
-      ]
-    },
-    {
       "name": "Sciences Po (Paris School of International Affairs – PSIA)",
       "position": "Professor (Adjunct) – Ocean Governance & Marine Policy (Master’s)",
       "url": "https://www.sciencespo.fr/psia/",
@@ -50,6 +25,21 @@
       "highlights": [
         "Keep course aligned with emerging policy and regulatory developments.",
         "Supervise student research and develop engaging course delivery."
+      ]
+    },
+    {
+      "name": "REN21 – Renewable Energy Policy Network for the 21st Century",
+      "position": "Knowledge & Data Lead",
+      "url": "https://www.ren21.net",
+      "startDate": "2023-06-01",
+      "endDate": "2026-04-17",
+      "summary": "Led analysis and content development for the Renewables Global Status Report (GSR) and related outputs; modernised data and workflow systems; coordinated international contributors; mentored staff; and represented REN21 in global fora.",
+      "highlights": [
+        "Delivered high-quality data analysis, visualisations and writing for GSR.",
+        "Overhauled data infrastructure (taxonomy, pipelines, online policy-database access) to improve accessibility and reuse.",
+        "Introduced agile, collaborative workflows and tooling; strengthened cross-team coordination.",
+        "Strengthened REN21’s partnerships and visibility with policymakers, industry and civil society.",
+        "Deepened coverage across technologies, supply, demand sectors (buildings, industry), supply chains, sustainability and policy."
       ]
     },
     {
@@ -157,12 +147,36 @@
       "date": "2025-10-01",
       "summary": "Mandatory initial CSE (Comité Social et Économique) training on health, safety and working conditions."
     },
-    { "name": "Ocean Literacy", "issuer": "IOC-UNESCO", "date": "2016-06-01" },
-    { "name": "Introduction to Marine Biology", "issuer": "University of Exeter", "date": "2016-01-01" },
-    { "name": "Contemporary Issues in Oceans Governance", "issuer": "Online course", "date": "2014-01-01" },
-    { "name": "TEFL – Teaching English as a Foreign Language", "issuer": "Teach International", "date": "2012-01-01" },
-    { "name": "AQA Introduction to Counselling", "issuer": "New College Nottingham", "date": "2008-01-01" },
-    { "name": "CACDP British Sign Language Level 1", "issuer": "Wordsley College", "date": "1998-01-01" }
+    {
+      "name": "Ocean Literacy",
+      "issuer": "IOC-UNESCO",
+      "date": "2016-06-01"
+    },
+    {
+      "name": "Introduction to Marine Biology",
+      "issuer": "University of Exeter",
+      "date": "2016-01-01"
+    },
+    {
+      "name": "Contemporary Issues in Oceans Governance",
+      "issuer": "Online course",
+      "date": "2014-01-01"
+    },
+    {
+      "name": "TEFL – Teaching English as a Foreign Language",
+      "issuer": "Teach International",
+      "date": "2012-01-01"
+    },
+    {
+      "name": "AQA Introduction to Counselling",
+      "issuer": "New College Nottingham",
+      "date": "2008-01-01"
+    },
+    {
+      "name": "CACDP British Sign Language Level 1",
+      "issuer": "Wordsley College",
+      "date": "1998-01-01"
+    }
   ],
   "awards": [
     {
@@ -194,47 +208,122 @@
     {
       "name": "Data & Analysis",
       "level": "Advanced",
-      "keywords": ["Excel", "Google Sheets (QUERY/AppScript)", "SQL", "ETL", "Data modelling", "Quality assurance"]
+      "keywords": [
+        "Excel",
+        "Google Sheets (QUERY/AppScript)",
+        "SQL",
+        "ETL",
+        "Data modelling",
+        "Quality assurance"
+      ]
     },
     {
       "name": "Visualisation",
       "level": "Advanced",
-      "keywords": ["Flourish", "Tableau", "Interactive dashboards", "Storytelling", "Information design"]
+      "keywords": [
+        "Flourish",
+        "Tableau",
+        "Interactive dashboards",
+        "Storytelling",
+        "Information design"
+      ]
     },
     {
       "name": "Knowledge & Collaboration",
       "level": "Advanced",
-      "keywords": ["Notion", "Slack", "Trello", "Miro", "Zotero", "Mendeley", "Taxonomies", "Documentation"]
+      "keywords": [
+        "Notion",
+        "Slack",
+        "Trello",
+        "Miro",
+        "Zotero",
+        "Mendeley",
+        "Taxonomies",
+        "Documentation"
+      ]
     },
     {
       "name": "Web & Automation",
       "level": "Proficient",
-      "keywords": ["WordPress", "HTML", "CSS", "PHP", "Automation (IFTTT/Zapier/Power Automate)", "AI-assisted coding (Cursor/Claude)"]
+      "keywords": [
+        "WordPress",
+        "HTML",
+        "CSS",
+        "PHP",
+        "Automation (IFTTT/Zapier/Power Automate)",
+        "AI-assisted coding (Cursor/Claude)"
+      ]
     },
     {
       "name": "Programming",
       "level": "Intermediate",
-      "keywords": ["Python (basic)", "JavaScript (basic)"]
+      "keywords": [
+        "Python (basic)",
+        "JavaScript (basic)"
+      ]
     },
     {
       "name": "Communication",
       "level": "Advanced",
-      "keywords": ["Policy briefs", "Reports", "Workshops", "Public speaking", "Media (EN/FR)"]
+      "keywords": [
+        "Policy briefs",
+        "Reports",
+        "Workshops",
+        "Public speaking",
+        "Media (EN/FR)"
+      ]
     }
   ],
   "languages": [
-    { "language": "English", "fluency": "Native speaker" },
-    { "language": "French", "fluency": "Full professional proficiency (C1–C2)" },
-    { "language": "Spanish", "fluency": "Professional working proficiency (B2)" },
-    { "language": "Mandarin", "fluency": "Basic proficiency" }
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Full professional proficiency (C1–C2)"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Professional working proficiency (B2)"
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "Basic proficiency"
+    }
   ],
   "volunteer": [
-    { "organization": "NSW Greens", "position": "Volunteer", "startDate": "2011-04-01" },
-    { "organization": "Amnesty International", "position": "Volunteer", "startDate": "2010-07-01", "endDate": "2010-08-31" },
-    { "organization": "Nottingham University Vegetarian & Vegan Society", "position": "Founder & President", "startDate": "2007-01-01" },
-    { "organization": "Nottingham Student Peace Movement", "position": "General Secretary", "startDate": "2007-01-01" },
-    { "organization": "The Activist Legal Project", "position": "Researcher", "startDate": "2007-01-01" },
-    { "organization": "FolkDirectory.co.uk", "position": "Founder & Webmaster", "startDate": "2005-01-01" }
+    {
+      "organization": "NSW Greens",
+      "position": "Volunteer",
+      "startDate": "2011-04-01"
+    },
+    {
+      "organization": "Amnesty International",
+      "position": "Volunteer",
+      "startDate": "2010-07-01",
+      "endDate": "2010-08-31"
+    },
+    {
+      "organization": "Nottingham University Vegetarian & Vegan Society",
+      "position": "Founder & President",
+      "startDate": "2007-01-01"
+    },
+    {
+      "organization": "Nottingham Student Peace Movement",
+      "position": "General Secretary",
+      "startDate": "2007-01-01"
+    },
+    {
+      "organization": "The Activist Legal Project",
+      "position": "Researcher",
+      "startDate": "2007-01-01"
+    },
+    {
+      "organization": "FolkDirectory.co.uk",
+      "position": "Founder & Webmaster",
+      "startDate": "2005-01-01"
+    }
   ],
   "publications": [
     {
@@ -279,15 +368,30 @@
   "interests": [
     {
       "name": "Energy Policy & Data",
-      "keywords": ["Renewables", "Energy systems", "Data analysis", "Policy research"]
+      "keywords": [
+        "Renewables",
+        "Energy systems",
+        "Data analysis",
+        "Policy research"
+      ]
     },
     {
       "name": "Ocean Governance",
-      "keywords": ["Marine policy", "High seas", "Biodiversity", "Regional cooperation"]
+      "keywords": [
+        "Marine policy",
+        "High seas",
+        "Biodiversity",
+        "Regional cooperation"
+      ]
     },
     {
       "name": "Digital Knowledge Tools",
-      "keywords": ["Open data", "Automation", "Interactive visualisation", "Information design"]
+      "keywords": [
+        "Open data",
+        "Automation",
+        "Interactive visualisation",
+        "Information design"
+      ]
     }
   ],
   "workEthic": [

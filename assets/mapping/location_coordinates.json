@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-06-08 12:30:14",
-    "total_locations": 63,
-    "successfully_geocoded": 63,
+    "generated_at": "2026-07-16 18:33:37",
+    "total_locations": 64,
+    "successfully_geocoded": 64,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
     "refresh_mode": false,
@@ -48,6 +48,20 @@
       "coordinates": {
         "lat": 48.844036,
         "lng": 2.3597321
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "zotero-item-51307",
+      "title": "European Society for Ecological Economics 16th annual conference",
+      "address": "Ghent University; Ghent, Belgium",
+      "year": "2026",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": 51.0078485,
+        "lng": 3.7108831
       },
       "geocoded": true
     },
