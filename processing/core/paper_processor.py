@@ -464,26 +464,30 @@ class PaperProcessor:
                 # Add new annote field (will be added to new_fields below)
                 pass
         
-        # Add new fields that don't already exist and have valid values
+        # Persist pipeline output fields (must match Configuration.PIPELINE_OUTPUT_FIELDS + annote).
+        # Without this, photos/figures/zip_* are lost every run → entries reprocess and zips proliferate (_a, _b, ...).
+        persistable_fields = (
+            'preview', 'pdf', 'slides', 'agenda', 'annote',
+            'photos', 'figures',
+            'zip_archive', 'zip_file_count', 'zip_file_size_mb',
+        )
         new_fields = []
         for field_name, field_value in fields.items():
-            if field_name in ['preview', 'pdf', 'slides', 'agenda', 'annote']:
-                # Skip empty or None values
-                if not field_value or field_value.strip() == '':
-                    continue
-                
-                # Preview field should always be added if it exists
-                # It represents the thumbnail/preview image regardless of source
-                
-                # Check if field already exists in the content
-                if f"{field_name} =" not in before_brace:
-                    # Handle field values that already contain curly braces
-                    if field_value.startswith('{') and field_value.endswith('}'):
-                        # Field value already has braces, use as-is
-                        new_fields.append(f"\t{field_name} = {field_value}")
-                    else:
-                        # Field value needs braces, add them
-                        new_fields.append(f"\t{field_name} = {{{field_value}}}")
+            if field_name not in persistable_fields:
+                continue
+            # Skip empty or None values
+            if not field_value or (isinstance(field_value, str) and field_value.strip() == ''):
+                continue
+
+            # Check if field already exists in the content
+            if f"{field_name} =" not in before_brace:
+                # Handle field values that already contain curly braces
+                if isinstance(field_value, str) and field_value.startswith('{') and field_value.endswith('}'):
+                    # Field value already has braces, use as-is
+                    new_fields.append(f"\t{field_name} = {field_value}")
+                else:
+                    # Field value needs braces, add them
+                    new_fields.append(f"\t{field_name} = {{{field_value}}}")
         
         # Combine everything
         if new_fields:

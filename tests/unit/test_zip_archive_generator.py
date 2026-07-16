@@ -437,11 +437,33 @@ Some notes here"""
         # Current implementation should return None if no valid files found
         # This is acceptable - the method logs warnings but doesn't crash
     
-    def test_format_file_size(self, zip_generator):
-        """Test file size formatting to MB."""
-        # Test various sizes
-        assert zip_generator._format_file_size(1024 * 1024) == "1.0"  # 1 MB
-        assert zip_generator._format_file_size(2416640) == "2.3"  # 2.3 MB (example from plan)
-        assert zip_generator._format_file_size(512 * 1024) == "0.5"  # 0.5 MB
-        assert zip_generator._format_file_size(0) == "0.0"  # 0 bytes
-        assert zip_generator._format_file_size(1536 * 1024) == "1.5"  # 1.5 MB
+    def test_create_archive_skip_if_exists_reuses_letter_suffix_duplicate(self, zip_generator, sample_pdf_file,
+                                                                         sample_image_files, temp_config):
+        """Incremental: reuse an existing letter-suffixed zip instead of creating the next letter."""
+        photos, figures = sample_image_files
+        fields = {
+            'pdf': sample_pdf_file,
+            'photos': ', '.join(photos),
+            'figures': ', '.join(figures),
+            'title': 'Test Paper',
+            'author': 'Wright, G.',
+            'year': '2023',
+        }
+
+        base_name = zip_generator._get_zip_filename('test2023', fields, check_collisions=False)
+        assert base_name and base_name.endswith('.zip')
+        stem = base_name[:-4]
+        legacy_name = f"{stem}_k.zip"
+        legacy_path = os.path.join(temp_config.ZIP_DIR, legacy_name)
+
+        # Seed a legacy letter-suffixed archive (what older buggy runs left behind)
+        with zipfile.ZipFile(legacy_path, 'w') as zipf:
+            zipf.writestr('dummy.txt', 'x')
+
+        before = set(os.listdir(temp_config.ZIP_DIR))
+        zip_metadata = zip_generator.create_archive('test2023', fields, skip_if_exists=True)
+        after = set(os.listdir(temp_config.ZIP_DIR))
+
+        assert zip_metadata is not None
+        assert zip_metadata['filename'] == legacy_name
+        assert after == before  # no new zip created

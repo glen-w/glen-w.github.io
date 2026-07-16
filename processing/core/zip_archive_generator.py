@@ -36,8 +36,15 @@ class ZipArchiveGenerator:
         Returns:
             Dictionary with 'filename', 'file_count', and 'file_size_mb' if archive was created or already existed, None otherwise
         """
-        # In incremental mode, prefer existing zip_archive filename so we never remake an existing zip
+        # Prefer a stable base name (no letter suffixes). Letter suffixes were meant for
+        # multi-PDF collisions within one entry; for zips they only create duplicates across runs.
+        base_filename = self._get_zip_filename(citation_key, fields, check_collisions=False)
+        if not base_filename:
+            print(f"  ⚠️  Could not generate zip filename for {citation_key}")
+            return None
+
         zip_filename = None
+        # 1) Explicit zip_archive field if the file still exists
         if skip_if_exists and fields.get('zip_archive'):
             existing_name = (fields.get('zip_archive') or '').strip()
             if existing_name and not existing_name.startswith(('http', '/')):
@@ -45,11 +52,11 @@ class ZipArchiveGenerator:
                 existing_path = os.path.join(self.config.ZIP_DIR, existing_name)
                 if os.path.exists(existing_path) and os.path.getsize(existing_path) > 0:
                     zip_filename = existing_name
+        # 2) Any on-disk zip for this base (base.zip or leftover base_a.zip …)
+        if skip_if_exists and not zip_filename:
+            zip_filename = self._find_existing_zip_for_base(base_filename)
         if not zip_filename:
-            zip_filename = self._get_zip_filename(citation_key, fields)
-        if not zip_filename:
-            print(f"  ⚠️  Could not generate zip filename for {citation_key}")
-            return None
+            zip_filename = base_filename
         zip_path = os.path.join(self.config.ZIP_DIR, zip_filename)
 
         if skip_if_exists and os.path.exists(zip_path) and os.path.getsize(zip_path) > 0:
@@ -60,6 +67,9 @@ class ZipArchiveGenerator:
                 return {'filename': zip_filename, 'file_count': file_count, 'file_size_mb': file_size_mb}
             except Exception:
                 pass
+        # When (re)creating, always write the stable base name so we don't keep inventing _a/_b/…
+        zip_filename = base_filename
+        zip_path = os.path.join(self.config.ZIP_DIR, zip_filename)
 
         # Collect all files organized by folder
         file_map = self._collect_files(fields)
@@ -265,20 +275,60 @@ class ZipArchiveGenerator:
         
         return audio_files
     
-    def _get_zip_filename(self, citation_key: str, fields: Dict) -> Optional[str]:
+    def _find_existing_zip_for_base(self, base_filename: str) -> Optional[str]:
+        """
+        Find an existing zip for this base name (exact match, or leftover letter-suffixed duplicates).
+
+        Prefers the unsuffixed base name, then the earliest letter suffix (_a before _l).
+        """
+        if not base_filename:
+            return None
+        zip_dir = self.config.ZIP_DIR
+        if not os.path.isdir(zip_dir):
+            return None
+
+        stem = base_filename[:-4] if base_filename.endswith('.zip') else base_filename
+        exact_path = os.path.join(zip_dir, f"{stem}.zip")
+        if os.path.exists(exact_path) and os.path.getsize(exact_path) > 0:
+            return f"{stem}.zip"
+
+        matches = []
+        prefix = f"{stem}_"
+        for name in os.listdir(zip_dir):
+            if not name.endswith('.zip'):
+                continue
+            if name == f"{stem}.zip":
+                continue
+            # Match only single-letter suffixes like stem_a.zip (legacy duplicates)
+            if name.startswith(prefix) and len(name) == len(prefix) + 1 + 4:
+                letter = name[len(prefix):-4]
+                if len(letter) == 1 and letter.isalpha():
+                    path = os.path.join(zip_dir, name)
+                    if os.path.getsize(path) > 0:
+                        matches.append(name)
+        if not matches:
+            return None
+        matches.sort()
+        return matches[0]
+
+    def _get_zip_filename(self, citation_key: str, fields: Dict, check_collisions: bool = False) -> Optional[str]:
         """
         Generate zip filename using same naming convention as other files.
-        
+
         Args:
             citation_key: The BibTeX citation key
             fields: Dictionary of BibTeX fields
-            
+            check_collisions: If True, append letter suffixes when the base name already
+                exists on disk. Default False — zips are one-per-entry and should reuse
+                a stable base name (letter suffixes previously caused runaway duplicates).
+
         Returns:
             Zip filename with .zip extension, or None if generation fails
         """
         # Use the same filename generation logic as PDFs
         filename = self.text_processor.generate_filename(
-            citation_key, fields, 'zip', check_directory=self.config.ZIP_DIR
+            citation_key, fields, 'zip',
+            check_directory=self.config.ZIP_DIR if check_collisions else None,
         )
         
         if filename:

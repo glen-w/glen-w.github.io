@@ -196,6 +196,25 @@ class TestPaperProcessor:
         
         assert 'pdf = {test.pdf}' in result
         assert 'preview = {preview.jpg}' in result
+
+    def test_update_entry_content_persists_photos_and_zip_fields(self, processor):
+        """Pipeline fields like photos/zip_archive must be written or incremental runs rebuild zips forever."""
+        entry_content = "@article{test2023,\n\ttitle = {Test}\n}"
+        fields = {
+            'photos': 'photo_01.jpg, photo_02.jpg',
+            'figures': 'fig_01.png',
+            'zip_archive': 'test_2023.zip',
+            'zip_file_count': '5',
+            'zip_file_size_mb': '2.3',
+        }
+
+        result = processor._update_entry_content(entry_content, fields)
+
+        assert 'photos = {photo_01.jpg, photo_02.jpg}' in result
+        assert 'figures = {fig_01.png}' in result
+        assert 'zip_archive = {test_2023.zip}' in result
+        assert 'zip_file_count = {5}' in result
+        assert 'zip_file_size_mb = {2.3}' in result
     
     def test_update_entry_content_updates_annote(self, processor):
         """Test that _update_entry_content updates annote field."""
