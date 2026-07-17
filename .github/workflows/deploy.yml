@@ -98,11 +98,13 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Add .nojekyll 📭
+        run: touch _site/.nojekyll
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
-          # Preserve previously published zip archives (excluded from Jekyll build to keep deploys under size limits)
-          clean-exclude: |
-            assets/zips/**
+          # Drop legacy zip archives from gh-pages; they blow past Pages artifact size limits.
+          # Library "download all" links will 404 until zips are hosted elsewhere.
+

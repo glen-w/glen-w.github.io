@@ -202,6 +202,7 @@ exclude:
   - backups/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
+  - CHANGELOG.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
@@ -216,12 +217,18 @@ exclude:
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
+  - ROADMAP.md
+  - PURGE.md
   - readme_preview/
   - vendor
   - "*.py"
   - tests/
-  - assets/zips/ # large archives; keep on gh-pages via deploy clean-exclude
+  - assets/zips/ # too large for GitHub Pages; host elsewhere if downloads are needed
   - processing/ # pipeline source, not site content
+  - pytest.ini
+  - requirements.txt
+  - requirements-test.txt
+  - requirements_pdf_metadata.txt
 keep_files:
   - CNAME
   - .nojekyll
