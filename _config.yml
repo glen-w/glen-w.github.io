@@ -220,6 +220,8 @@ exclude:
   - vendor
   - "*.py"
   - tests/
+  - assets/zips/ # large archives; keep on gh-pages via deploy clean-exclude
+  - processing/ # pipeline source, not site content
 keep_files:
   - CNAME
   - .nojekyll

@@ -103,3 +103,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          # Preserve previously published zip archives (excluded from Jekyll build to keep deploys under size limits)
+          clean-exclude: |
+            assets/zips/**
