@@ -1,7 +1,0 @@
-# Core dependencies for process_papers.py
-PyPDF2>=3.0.0
-requests>=2.25.0
-
-# Optional dependencies
-# ImageMagick - install system-wide for thumbnail generation
-# https://imagemagick.org/script/download.php
