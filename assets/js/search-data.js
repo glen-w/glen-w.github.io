@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "nav-creative",
           title: "creative",
           description: "",
@@ -86,14 +79,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/sitemap/";
               },
-            },{id: "nav-services",
-          title: "services",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/services/";
-          },
-        },{id: "nav-cv",
+            },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
@@ -4228,6 +4214,11 @@ ninja.data = [{
           description: "How can renewable energy accelerate the energy transition while also delivering tangible benefits for nature and communities? This joint online event hosted by The Nature Conservancy (TNC) and REN21...",
           section: "Library",handler: () => {
               window.location.href = "/library/renewables-nature-integrating-biodiversity-communities-energy-policy/";
+            },},{id: "library-esee2026-european-society-for-ecological-economics",
+          title: 'ESEE2026 - European Society for Ecological Economics',
+          description: "European Society for Ecological Economics",
+          section: "Library",handler: () => {
+              window.location.href = "/library/esee2026-european-society-ecological-economics/";
             },},{id: "library-à-new-york-une-cérémonie-acte-l-entrée-en-vigueur-début-2026-du-traité-sur-la-biodiversité-en-haute-mer",
           title: 'À New York, une cérémonie acte l’entrée en vigueur début 2026 du traité...',
           description: "Les représentants des 68 États ayant à ce jour ratifié le traité sur la préservation et l’utilisation durable de la biodiversité en haute mer se sont réunis le 23 septembre 2025 à New York, en marge d...",
@@ -4278,6 +4269,16 @@ ninja.data = [{
           description: "Writing Workshop: From Policy Brief to Publishable Paper",
           section: "Library",handler: () => {
               window.location.href = "/library/writing-workshop-policy-brief-publishable/";
+            },},{id: "library-european-society-for-ecological-economics-16th-annual-conference",
+          title: 'European Society for Ecological Economics 16th annual conference',
+          description: "European Society for Ecological Economics 16th annual conference",
+          section: "Library",handler: () => {
+              window.location.href = "/library/european-society-ecological-economics-16th-annual-conference/";
+            },},{id: "library-renewables-based-economy-tracker-2026-how-renewables-are-transforming-economies-and-societies",
+          title: 'Renewables-Based Economy Tracker 2026: How Renewables are Transforming Economies and Societies',
+          description: "Renewables-Based Economy Tracker 2026: How Renewables are Transforming Economies and Societies",
+          section: "Library",handler: () => {
+              window.location.href = "/library/renewables-based-economy-tracker-2026-how-renewables-transforming-economies-societies/";
             },},{id: "projects-academia-obscura",
           title: 'Academia Obscura',
           description: "The hidden silly side of higher education",
@@ -4345,7 +4346,7 @@ ninja.data = [{
               window.location.href = "/projects/strong_high_seas/";
             },},{id: "projects-transcriptx",
           title: 'TranscriptX',
-          description: "A place to think with transcripts",
+          description: "A local-first transcript analysis toolkit",
           section: "Projects",handler: () => {
               window.location.href = "/projects/transcriptx/";
             },},{id: "projects-website",
