@@ -86,128 +86,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2018-12-08-This-is-the-last-academic-conference-that-I-will-ever-go-to/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2017-04-25-This-Study-is-Subject-to-Certain-Limitations_-Overly-Honest-Academic-Caveats/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2016-07-12-Campus-Chaos-as-Pokemon-Go-Goes-Viral/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2015-07-22-7-Academic-Struggles-Predicted-by-Late-19th-and-Early-20th-Century-Autobiographies/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2015-07-17-The-Blooper-Reel/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2015-04-04-Academic-Easter-Eggs/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2015-02-14-An-Academic-Guide-to-Love-&amp;-Romance-Happy-Valentine&-039;s-Day!/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2015-01-10-10-Brilliantly-Banal-Books-to-Bore-Your-Bookshelf/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2014-10-31-Trick-or-Treat/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2014-09-13-Every-Type-of-Email-College-Faculty-Send-to-Anyone/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2014-08-01-Top-8-AlternateScienceMetrics/";
-          
-        },
-      },{id: "post-a-quick-website-update",
+        },{id: "post-a-quick-website-update",
         
           title: "a quick website update",
         
@@ -216,6 +95,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/a-quick-website-update/";
+          
+        },
+      },{id: "post-this-is-the-last-academic-conference-that-i-will-ever-go-to",
+        
+          title: "This is the last academic conference that I will ever go to",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2018/This-is-the-last-academic-conference-that-I-will-ever-go-to/";
           
         },
       },{id: "post-the-fourth-annual-academics-with-cats-awards-2017-winners",
@@ -326,6 +216,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2017/Doodling-for-Academics/";
+          
+        },
+      },{id: "post-this-study-is-subject-to-certain-limitations-overly-honest-academic-caveats",
+        
+          title: "This Study is Subject to Certain Limitations: Overly Honest Academic Caveats",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/This-Study-is-Subject-to-Certain-Limitations_-Overly-Honest-Academic-Caveats/";
           
         },
       },{id: "post-these-awesome-science-march-signs-prove-scientists-have-a-sense-of-humour",
@@ -458,6 +359,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2016/25-PhD-Feels-All-Doctoral-Students-Have/";
+          
+        },
+      },{id: "post-campus-chaos-as-pokemon-go-goes-viral",
+        
+          title: "Campus Chaos as Pokemon Go Goes Viral",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/Campus-Chaos-as-Pokemon-Go-Goes-Viral/";
           
         },
       },{id: "post-historic-un-talks-could-save-the-high-seas",
@@ -614,6 +526,28 @@ ninja.data = [{
             window.location.href = "/blog/2015/Male,-Mad-and-Muddleheaded!-The-portrayal-of-academics-in-kids-books/";
           
         },
+      },{id: "post-7-academic-struggles-predicted-by-late-19th-and-early-20th-century-autobiographies",
+        
+          title: "7 Academic Struggles Predicted by Late 19th and Early 20th Century Autobiographies",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/7-Academic-Struggles-Predicted-by-Late-19th-and-Early-20th-Century-Autobiographies/";
+          
+        },
+      },{id: "post-the-blooper-reel",
+        
+          title: "The Blooper Reel",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/The-Blooper-Reel/";
+          
+        },
       },{id: "post-academia-survival-of-the-bitterest",
         
           title: "Academia: Survival of the Bitterest?",
@@ -702,6 +636,17 @@ ninja.data = [{
             window.location.href = "/blog/2015/Why-does-it-always-rain-on-me_-Academics-forecast-their-day/";
           
         },
+      },{id: "post-academic-easter-eggs",
+        
+          title: "Academic Easter Eggs",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Academic-Easter-Eggs/";
+          
+        },
       },{id: "post-cars-on-campus-rooftops-and-r2d2-observatories-6-awesome-college-pranks",
         
           title: "Cars on Campus Rooftops and R2D2 Observatories: 6 awesome college pranks",
@@ -733,6 +678,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/11-things-I-learned-about-academia-by-analysing-14-million-RateMyProfessor-reviews/";
+          
+        },
+      },{id: "post-an-academic-guide-to-love-amp-romance-happy-valentine-39-s-day",
+        
+          title: "An Academic Guide to Love &amp; Romance - Happy Valentine&#39;s Day!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/An-Academic-Guide-to-Love-&amp;-Romance-Happy-Valentine&-039;s-Day!/";
           
         },
       },{id: "post-after-almost-10-years-progress-towards-new-agreement-on-high-seas",
@@ -777,6 +733,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/A-Day-in-the-Life-of-an-Academic-(with-cats)/";
+          
+        },
+      },{id: "post-10-brilliantly-banal-books-to-bore-your-bookshelf",
+        
+          title: "10 Brilliantly Banal Books to Bore Your Bookshelf",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/10-Brilliantly-Banal-Books-to-Bore-Your-Bookshelf/";
           
         },
       },{id: "post-merry-christmas-and-an-academic-new-year",
@@ -856,6 +823,17 @@ ninja.data = [{
             window.location.href = "/blog/2014/Toilet-Humour/";
           
         },
+      },{id: "post-trick-or-treat",
+        
+          title: "Trick or Treat?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Trick-or-Treat/";
+          
+        },
       },{id: "post-10-comic-chemicals-presented-by-chemistry-cat",
         
           title: "10 Comic Chemicals, presented by Chemistry Cat",
@@ -898,6 +876,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2014/Proof-that-academia-is-teeming-with-humour,-wit-and-general-oddness/";
+          
+        },
+      },{id: "post-every-type-of-email-college-faculty-send-to-anyone",
+        
+          title: "Every Type of Email College Faculty Send to Anyone",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Every-Type-of-Email-College-Faculty-Send-to-Anyone/";
           
         },
       },{id: "post-food-glorious-food",
@@ -1052,6 +1041,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2014/Bored-or-High_-4_-urinal-dynamics/";
+          
+        },
+      },{id: "post-top-8-alternatesciencemetrics",
+        
+          title: "Top 8 #AlternateScienceMetrics",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Top-8-AlternateScienceMetrics/";
           
         },
       },{id: "post-monday-morning-meme",
