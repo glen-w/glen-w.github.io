@@ -3,18 +3,7 @@ layout: post
 title: "Top 8 #AlternateScienceMetrics"
 date: 2014-08-01
 description:
-tags: ["[", "AcademiaObscura"]
-    "Adam Sandler",
-    "Bechdal Test",
-    "clickbait",
-    "hashtags",
-    "impact factor",
-    "K-Index",
-    "Kanye West",
-    "Kim Kardashian",
-    "Richard Dawkins",
-    "social media",
-  ]
+tags: ["AcademiaObscura", "Adam Sandler", "Bechdal Test", "clickbait", "hashtags", "impact factor", "K-Index", "Kanye West", "Kim Kardashian", "Richard Dawkins", "social media"]
 categories: ["Academia Obscura"]
 ---
 

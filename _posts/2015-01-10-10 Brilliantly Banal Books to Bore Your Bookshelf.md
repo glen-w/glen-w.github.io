@@ -3,7 +3,8 @@ layout: post
 title: "10 Brilliantly Banal Books to Bore Your Bookshelf"
 date: 2015-01-10
 description:
-tags: ["categories: ["Academic Humour", "Publications"]", "AcademiaObscura"]
+tags: ["AcademiaObscura"]
+categories: ["Academic Humour", "Publications"]
 ---
 
 **Soap Bubbles: Their Colors and Forces Which Mold Them**

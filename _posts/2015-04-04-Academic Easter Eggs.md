@@ -3,23 +3,7 @@ layout: post
 title: "Academic Easter Eggs"
 date: 2015-04-04
 description:
-tags: ["[", "AcademiaObscura"]
-    "asshole",
-    "cats",
-    "Chinese",
-    "crack rocks",
-    "dirty old man",
-    "dogs",
-    "easter",
-    "easter eggs",
-    "Gadaffi",
-    "hamsters",
-    "Italian",
-    "papers",
-    "rickrolling",
-    "sonic",
-    "unacknowledgements",
-  ]
+tags: ["AcademiaObscura", "asshole", "cats", "Chinese", "crack rocks", "dirty old man", "dogs", "easter", "easter eggs", "Gadaffi", "hamsters", "Italian", "papers", "rickrolling", "sonic", "unacknowledgements"]
 categories: ["Academia Obscura"]
 ---
 

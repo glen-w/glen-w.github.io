@@ -3,22 +3,7 @@ layout: post
 title: "An Academic Guide to Love & Romance - Happy Valentine's Day!"
 date: 2015-02-14
 description:
-tags: ["[", "AcademiaObscura"]
-    "academic publishing",
-    "hashtags",
-    "heart",
-    "loneliness",
-    "love",
-    "neuroscience",
-    "orgasm",
-    "Rate My Professor",
-    "science",
-    "sex",
-    "sexology",
-    "socks",
-    "twitter",
-    "Valentine's",
-  ]
+tags: ["AcademiaObscura", "academic publishing", "hashtags", "heart", "loneliness", "love", "neuroscience", "orgasm", "Rate My Professor", "science", "sex", "sexology", "socks", "twitter", "Valentine's"]
 categories: ["Academic Humour", "Guardian Blog"]
 ---
 

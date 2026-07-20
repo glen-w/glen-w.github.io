@@ -3,7 +3,8 @@ layout: post
 title: "This is the last academic conference that I will ever go to"
 date: 2018-12-08
 description:
-tags: ["categories: ["Adjuncts (guest posts)"]", "AcademiaObscura"]
+tags: ["AcademiaObscura"]
+categories: ["Adjuncts (guest posts)"]
 ---
 
 _[Dr. Hannah C. Gunderman](https://hannahcgunderman.github.io/personal-site/) is a Research Associate in human geography at The University of Tennessee, Knoxville. This piece was originally performed at an open mic poetry event. _

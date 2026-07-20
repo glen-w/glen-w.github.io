@@ -1,6 +1,8 @@
 ---
 layout: page
 title: ⦿
+slug: dropdown
+permalink: /dropdown/
 nav: true
 nav_order: 50
 dropdown: true

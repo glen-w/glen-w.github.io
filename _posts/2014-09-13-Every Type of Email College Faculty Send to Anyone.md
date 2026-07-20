@@ -3,7 +3,8 @@ layout: post
 title: "Every Type of Email College Faculty Send to Anyone"
 date: 2014-09-13
 description:
-tags: ["categories: ["Academic Humour", "Adjuncts (guest posts)"]", "AcademiaObscura"]
+tags: ["AcademiaObscura"]
+categories: ["Academic Humour", "Adjuncts (guest posts)"]
 ---
 
 _This post originally appeared over at The Tattooed Professors blog. Follow him on twitter [@TheTattooedProf](https://twitter.com/TheTattooedProf)._
