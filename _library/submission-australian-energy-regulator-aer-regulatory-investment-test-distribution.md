@@ -1,30 +1,32 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Submission to the Australian Energy Regulator (AER): Regulatory Investment
+  Test - Distribution'
+date: '2013-02-01'
+entry_type: Submission
+year: '2013'
+bibtex_key: byrneSubmissionAustralianEnergy2013a
+is_event: false
+description: 'Submission to the Australian Energy Regulator (AER): Regulatory Investment
+  Test - Distribution'
+categories:
+- other
 authors:
 - Mark Byrne
 - Glen Wright
-bibtex_key: byrneSubmissionAustralianEnergy2013a
-categories:
-- other
-date: 2013-February-01
-description: 'Submission to the Australian Energy Regulator (AER): Regulatory Investment
-  Test - Distribution'
-entry_type: Submission
-layout: library-item
-pdf: Wright and Centre - 2013 - TOTAL ENVIRONMENT CENTRE INC.pdf
 publisher: Total Environment Centre
-tags: []
-title: 'Submission to the Australian Energy Regulator (AER): Regulatory Investment
-  Test - Distribution'
-venue: ''
-year: '2013'
+role: co-author
+preview: 2013_submission_australian_energy_regulator_aer_regulatory_investment_test_distribution
+pdf: 2013_submission_australian_energy_regulator_aer_regulatory_investment_test_distribution.pdf
+resources:
+- kind: pdf
+  title: 'Submission to the Australian Energy Regulator (AER): Regulatory Investment
+    Test - Distribution'
+  label: View primary document
+  url: /assets/pdf/2013_submission_australian_energy_regulator_aer_regulatory_investment_test_distribution.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Mark Byrne, Glen Wright
-**Publisher:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](Wright and Centre - 2013 - TOTAL ENVIRONMENT CENTRE INC.pdf)

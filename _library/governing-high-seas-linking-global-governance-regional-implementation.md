@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: Governing the “High Seas” - Linking global governance and regional implementation
+date: '2014-01-01'
+entry_type: Report
+year: '2014'
+bibtex_key: Rochette2014c
+is_event: false
+description: Marine areas beyond national jurisdiction (ABJN), often referred to as
+  the “High Seas1”, represent around half of the Planet’s surface and host a significant
+  portion of its biodiversity.
+standfirst: Marine areas beyond national jurisdiction (ABJN), often referred to as
+  the “High Seas1”, represent around half of the Planet’s surface and host a significant
+  portion of its biodiversity.
 abstract: Marine areas beyond national jurisdiction (ABJN), often referred to as the
   “High Seas1”, represent around half of the Planet’s surface and host a significant
   portion of its biodiversity. Despite their global importance, there are significant
@@ -20,35 +33,26 @@ abstract: Marine areas beyond national jurisdiction (ABJN), often referred to as
   (i.e. Regional Seas programmes, Regional Fisheries Management Organisations and
   other regional mechanisms such as Large Marine Ecosystems) and consider options
   for filling governance gaps.
+categories:
+- other
 authors:
 - Julien Rochette
 - Sebastian Unger
 - Glen Wright
-bibtex_key: Rochette2014c
-categories:
-- other
-date: '2014-01-01'
-description: Marine areas beyond national jurisdiction (ABJN), often referred to as
-  the “High Seas1”, represent around half of the Planet’s surface and host a significant
-  portion of its biodiversity. Despite their...
-entry_type: Report
-layout: library-item
-location: Potsdam, Germany
-pages: 1--14
-pdf: Rochette et al. - 2014 - Governing the “ High Seas ” - Linking global gover.pdf
-tags: []
-title: Governing the “High Seas” - Linking global governance and regional implementation
 venue: Potsdam Ocean Governance Workshop
-year: '2014'
+location: Potsdam, Germany
+role: co-author
+preview: 2014_governing_high_seas_linking_global_governance_regional_implementation
+pdf: 2014_governing_high_seas_linking_global_governance_regional_implementation.pdf
+pages: 1--14
+resources:
+- kind: pdf
+  title: Governing the “High Seas” - Linking global governance and regional implementation
+  label: View report PDF
+  url: /assets/pdf/2014_governing_high_seas_linking_global_governance_regional_implementation.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Julien Rochette, Sebastian Unger, Glen Wright
-**Venue:** Potsdam Ocean Governance Workshop
-**Location:** Potsdam, Germany
-**Pages:** 1--14
-
-## Links and Resources
-
-- [PDF](Rochette et al. - 2014 - Governing the “ High Seas ” - Linking global gover.pdf)

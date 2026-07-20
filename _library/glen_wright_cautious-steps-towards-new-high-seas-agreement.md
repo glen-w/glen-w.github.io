@@ -1,4 +1,19 @@
 ---
+layout: library-item
+title: Cautious steps towards a new high seas agreement
+date: '2016-09-01'
+entry_type: Blog
+year: '2016'
+bibtex_key: wrightCautiousStepsNew2016
+is_event: false
+description: Seeking to fill the gaps in the international legal framework for ocean
+  governance, States gathered at the UN headquarters in New York (26 August-9 September)
+  to discuss elements of an agreement on the conservation and sustainable use of biodiversity
+  in areas beyond national…
+standfirst: Seeking to fill the gaps in the international legal framework for ocean
+  governance, States gathered at the UN headquarters in New York (26 August-9 September)
+  to discuss elements of an agreement on the conservation and sustainable use of biodiversity
+  in areas beyond national…
 abstract: Seeking to fill the gaps in the international legal framework for ocean
   governance, States gathered at the UN headquarters in New York (26 August-9 September)
   to discuss elements of an agreement on the conservation and sustainable use of biodiversity
@@ -10,31 +25,30 @@ abstract: Seeking to fill the gaps in the international legal framework for ocea
   States and stakeholders. The international community is at a critical juncture,
   with the Preparatory Committee (PrepCom) holding the future governance of the global
   ocean in its hands.
-authors:
-- Glen Wright
-bibtex_key: wrightCautiousStepsNew2016
 categories:
 - other
-date: 2016-September-01
-description: Seeking to fill the gaps in the international legal framework for ocean
-  governance, States gathered at the UN headquarters in New York (26 August-9 September)
-  to discuss elements of an agreement on th...
-entry_type: Blog
-layout: library-item
-pdf: Cautious steps towards a new high seas agreement .pdf
-tags: []
-title: Cautious steps towards a new high seas agreement
-url: https://www.iddri.org/en/publications-and-events/blog-post/cautious-steps-towards-new-high-seas-agreement
+authors:
+- Glen Wright
 venue: IDDRI
-year: '2016'
+role: author
+preview: glen_wright_2016_cautious_steps_towards_new_high_seas_agreement
+pdf: glen_wright_2016_cautious_steps_towards_new_high_seas_agreement.pdf
+url: https://www.iddri.org/en/publications-and-events/blog-post/cautious-steps-towards-new-high-seas-agreement
+resources:
+- kind: pdf
+  title: Cautious steps towards a new high seas agreement
+  label: View primary document
+  url: /assets/pdf/glen_wright_2016_cautious_steps_towards_new_high_seas_agreement.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit IDDRI publication page
+  label: Visit IDDRI publication page
+  url: https://www.iddri.org/en/publications-and-events/blog-post/cautious-steps-towards-new-high-seas-agreement
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** IDDRI
-
-## Links and Resources
-
-- [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/cautious-steps-towards-new-high-seas-agreement)
-- [PDF](Cautious steps towards a new high seas agreement .pdf)

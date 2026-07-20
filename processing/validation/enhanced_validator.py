@@ -8,7 +8,7 @@ import os
 import re
 from typing import Dict, List, Tuple, Optional
 from pathlib import Path
-from config import Configuration
+from processing.config import Configuration
 
 
 class EnhancedValidator:
@@ -77,16 +77,26 @@ class EnhancedValidator:
             return self.validation_results
         
         # Parse entries
-        from core.bibtex_processor import BibTeXProcessor
+        from processing.core.bibtex_processor import BibTeXProcessor
         processor = BibTeXProcessor(self.config)
         entries = processor.parse_bibtex_entries(content)
-        
+
         self.validation_results['total_entries'] = len(entries)
-        
+
+        # Non-empty file that parses to zero entries is a hard failure
+        if content.strip() and len(entries) == 0:
+            msg = "Failed to parse any BibTeX entries from non-empty file"
+            self.validation_results['errors'].append(msg)
+            self.validation_results['issues_by_type']['malformed_entries'].append(msg)
+            self.validation_results['failed_entries'] = 1
+            self.validation_results['all_passed'] = False
+            self._print_enhanced_validation_summary()
+            return self.validation_results
+
         # Validate each entry
         for entry in entries:
             self._validate_single_entry_enhanced(entry)
-        
+
         # Add all_passed key
         self.validation_results['all_passed'] = self.validation_results['failed_entries'] == 0
         

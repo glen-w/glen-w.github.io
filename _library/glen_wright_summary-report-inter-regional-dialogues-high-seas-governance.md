@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: 'Summary report: Inter-regional Dialogues on High Seas Governance'
+date: '2022-01-01'
+entry_type: Report
+year: '2022'
+bibtex_key: wrightSummaryReportInterregional2022
+is_event: false
+description: Member States at the United Nations (UN) are currently negotiating a
+  new treaty for the conservation and sustainable use of high seas biodiversity in
+  areas beyond national jurisdiction (ABNJ).
+standfirst: Member States at the United Nations (UN) are currently negotiating a new
+  treaty for the conservation and sustainable use of high seas biodiversity in areas
+  beyond national jurisdiction (ABNJ).
 abstract: "Member States at the United Nations (UN) are currently negotiating a new\
   \ treaty for the conservation and sustainable use of high seas biodiversity in areas\
   \ beyond national jurisdiction (ABNJ). While in-person negotiations at the intergovernmental\
@@ -8,31 +21,23 @@ abstract: "Member States at the United Nations (UN) are currently negotiating a 
   \ these exchanges, the STRONG High Seas project and regional partners convened four\
   \ inter-regional expert meetings, connecting colleagues across continents to share\
   \ experiences and discuss high seas governance issues."
-authors:
-- Glen Wright
-bibtex_key: wrightSummaryReportInterregional2022
 categories:
 - other
-date: '2022-01-01'
-description: Member States at the United Nations (UN) are currently negotiating a
-  new treaty for the conservation and sustainable use of high seas biodiversity in
-  areas beyond national jurisdiction (ABNJ). While i...
-entry_type: Report
-institution: STRONG High Seas
-layout: library-item
-pdf: STRONG-inter-regional-dialogues-summary-report.pdf
-tags: []
-title: 'Summary report: Inter-regional Dialogues on High Seas Governance'
+authors:
+- Glen Wright
 venue: STRONG High Seas
-year: '2022'
+institution: STRONG High Seas
+role: author
+preview: glen_wright_2022_summary_report_inter_regional_dialogues_high_seas_governance
+pdf: glen_wright_2022_summary_report_inter_regional_dialogues_high_seas_governance.pdf
+resources:
+- kind: pdf
+  title: 'Summary report: Inter-regional Dialogues on High Seas Governance'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_2022_summary_report_inter_regional_dialogues_high_seas_governance.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** STRONG High Seas
-**Institution:** STRONG High Seas
-
-## Links and Resources
-
-- [PDF](STRONG-inter-regional-dialogues-summary-report.pdf)

@@ -1,4 +1,19 @@
 ---
+layout: library-item
+title: 'Marine Renewable Energy: Community, Consultation and Planning (Summary of
+  the International network for Social Studies of Marine Energy (ISSMER) online seminar
+  series, November 2014 - January 2015)'
+date: '2015-01-01'
+entry_type: Report
+year: '2015'
+bibtex_key: glenwrightMarineRenewableEnergy2015
+is_event: false
+description: The MRE industry is at a crucial moment. Devices are now moving from
+  engineering drawings to full-scale prototypes, and the first commercial scale wave
+  and tide energy farms have been announced and are being planned.
+standfirst: The MRE industry is at a crucial moment. Devices are now moving from engineering
+  drawings to full-scale prototypes, and the first commercial scale wave and tide
+  energy farms have been announced and are being planned.
 abstract: The MRE industry is at a crucial moment. Devices are now moving from engineering
   drawings to full-scale prototypes, and the first commercial scale wave and tide
   energy farms have been announced and are being planned. Around the world countries
@@ -10,33 +25,25 @@ abstract: The MRE industry is at a crucial moment. Devices are now moving from e
   other users of the sea, with policy-makers, amongst MRE companies, and between governments.
   ISSMER aims to support collaboration with these diverse communities, and to coordinate
   international research activities in the social studies of MRE.
-authors:
-- Glen Wright
-bibtex_key: glenwrightMarineRenewableEnergy2015
 categories:
 - other
-date: '2015-01-01'
-description: The MRE industry is at a crucial moment. Devices are now moving from
-  engineering drawings to full-scale prototypes, and the first commercial scale wave
-  and tide energy farms have been announced and ar...
-entry_type: Report
-institution: ISSMER
-layout: library-item
-pdf: ISSMER Notes.pdf
-tags: []
-title: 'Marine Renewable Energy: Community, Consultation and Planning (Summary of
-  the International network for Social Studies of Marine Energy (ISSMER) online seminar
-  series, November 2014 - January 2015)'
+authors:
+- Glen Wright
 venue: ISSMER
-year: '2015'
+institution: ISSMER
+role: author
+preview: glen_wright_2015_marine_renewable_energy_community_consultation_planning_summary_international_network_social_studies_marine_energy_issmer_online_seminar_series_november_2014_january_2015
+pdf: glen_wright_2015_marine_renewable_energy_community_consultation_planning_summary_international_network_social_studies_marine_energy_issmer_online_seminar_series_november_2014_january_2015.pdf
+resources:
+- kind: pdf
+  title: 'Marine Renewable Energy: Community, Consultation and Planning (Summary of
+    the International network for Social Studies of Marine Energy (ISSMER) online
+    seminar series, November 2014 - January 2015)'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_2015_marine_renewable_energy_community_consultation_planning_summary_international_network_social_studies_marine_energy_issmer_online_seminar_series_november_2014_january_2015.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** ISSMER
-**Institution:** ISSMER
-
-## Links and Resources
-
-- [PDF](ISSMER Notes.pdf)

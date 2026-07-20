@@ -1,30 +1,32 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Submission to the Australian Energy Market Commission (AEMC): Draft regulatory
+  investment test for disctribution and application guidelines (RIT-D)'
+date: '2013-07-01'
+entry_type: Submission
+year: '2013'
+bibtex_key: byrneSubmissionAustralianEnergy2013
+is_event: false
+description: 'Submission to the Australian Energy Market Commission (AEMC): Draft
+  regulatory investment test for disctribution and application guidelines (RIT-D)'
+categories:
+- other
 authors:
 - Mark Byrne
 - Glen Wright
-bibtex_key: byrneSubmissionAustralianEnergy2013
-categories:
-- other
-date: 2013-July-01
-description: 'Submission to the Australian Energy Market Commission (AEMC): Draft
-  regulatory investment test for d...'
-entry_type: Submission
-layout: library-item
-pdf: TEC sub AEMC RIT-D July 2013.pdf
 publisher: Total Environment Centre
-tags: []
-title: 'Submission to the Australian Energy Market Commission (AEMC): Draft regulatory
-  investment test for disctribution and application guidelines (RIT-D)'
-venue: ''
-year: '2013'
+role: co-author
+preview: 2013_submission_australian_energy_market_commission_aemc_draft_regulatory_investment_test_disctribution_application_guidelines_rit_d
+pdf: 2013_submission_australian_energy_market_commission_aemc_draft_regulatory_investment_test_disctribution_application_guidelines_rit_d.pdf
+resources:
+- kind: pdf
+  title: 'Submission to the Australian Energy Market Commission (AEMC): Draft regulatory
+    investment test for disctribution and application guidelines (RIT-D)'
+  label: View primary document
+  url: /assets/pdf/2013_submission_australian_energy_market_commission_aemc_draft_regulatory_investment_test_disctribution_application_guidelines_rit_d.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Mark Byrne, Glen Wright
-**Publisher:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](TEC sub AEMC RIT-D July 2013.pdf)

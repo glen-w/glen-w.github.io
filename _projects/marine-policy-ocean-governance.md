@@ -372,7 +372,7 @@ Applied teamwork complements lectures and readings, giving students hands-on exp
 
 ---
 
-<div data-read-more="Testimonials >>" data-read-less="<< Hide testimonials" markdown="1">
+## Testimonials
 
 > *This was one of my favourite classes of my time at Sciences Po. It was so engaging and your passion and expertise just made this such an enriching experience! I loved how interactive it was and the guest speakers were all such interesting people with such diverse research interests and I learned so much!*
 
@@ -383,5 +383,3 @@ Applied teamwork complements lectures and readings, giving students hands-on exp
 > *This was my favourite class of the year. It had a lot of technical content, allowing us to have a holistic view of the mechanisms and the key topics and challenges of ocean governance. The class was also very engaging […] with insights on career guidance in ocean governance which is super helpful in a master’s degree.*
 
 > *I appreciated how approachable and knowledgeable the professor was. I also appreciated that he went beyond just the course content and provided tips on how to write a good academic paper and what software we could use to make this easier.*
-
-</div>

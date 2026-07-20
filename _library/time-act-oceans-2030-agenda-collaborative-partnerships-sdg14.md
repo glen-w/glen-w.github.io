@@ -1,26 +1,27 @@
 ---
-abstract: ''
-authors: []
-bibtex_key: TimeActOceans2016
-categories:
-- other
-date: 2016-September-01
-description: 'Time to act for oceans in the 2030 Agenda: collaborative partnerships
-  for SDG14'
-entry_type: Side event
 layout: library-item
-pdf: Ocean SDG14 WCC event 3 September invite.pdf
-tags: []
 title: 'Time to act for oceans in the 2030 Agenda: collaborative partnerships for
   SDG14'
-venue: IUCN World Conservation Congress
+date: '2016-09-01'
+entry_type: Side event
 year: '2016'
+bibtex_key: TimeActOceans2016
+is_event: true
+description: 'Time to act for oceans in the 2030 Agenda: collaborative partnerships
+  for SDG14'
+categories:
+- other
+venue: IUCN World Conservation Congress
+role: organiser
+preview: 2016_time_act_oceans_2030_agenda_collaborative_partnerships_sdg14
+agenda: 2016_time_act_oceans_2030_agenda_collaborative_partnerships_sdg14_agenda.pdf
+resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2016_time_act_oceans_2030_agenda_collaborative_partnerships_sdg14_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 ---
 
-## Publication Details
-
-**Venue:** IUCN World Conservation Congress
-
-## Links and Resources
-
-- [PDF](Ocean SDG14 WCC event 3 September invite.pdf)

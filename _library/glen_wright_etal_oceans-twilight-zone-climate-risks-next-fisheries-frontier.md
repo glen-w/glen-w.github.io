@@ -1,7 +1,18 @@
 ---
+layout: library-item
+title: 'The Ocean''s "twilight zone": climate risks at the next fisheries frontier'
+date: '2020-11-01'
+entry_type: Blog
+year: '2020'
+bibtex_key: wrightglenOceansTwilightZone2020
+is_event: false
+description: We have known since the 1970s that the Ocean's vast mesopelagic, or "twilight",
+  zone could contain huge quantities of fish.
+standfirst: We have known since the 1970s that the Ocean's vast mesopelagic, or "twilight",
+  zone could contain huge quantities of fish.
 abstract: We have known since the 1970s that the Ocean's vast mesopelagic, or "twilight",
   zone could contain huge quantities of fish. Technological advancements now make
-  exploitation possible and interest is growing—not to provide food, but to be processed
+  exploitation possible and interest is growing-not to provide food, but to be processed
   into aquaculture feed and nutritional supplements. Yet these fish play a key role
   in the global carbon cycle and marine food webs, so there are considerable risks
   inherent in developing commercial fisheries. Scientific knowledge is currently insufficient
@@ -9,34 +20,33 @@ abstract: We have known since the 1970s that the Ocean's vast mesopelagic, or "t
   to regulate a fishery of such global significance. This blog post introduces the
   mesopelagic zone and explores some potential avenues for strengthening the international
   governance framework.
+categories:
+- other
 authors:
 - Glen Wright
 - Kristina Gjerde
 - Aria Finkelstein
 - Duncan Currie
-bibtex_key: wrightglenOceansTwilightZone2020
-categories:
-- other
-date: 2020-November-01
-description: We have known since the 1970s that the Ocean's vast mesopelagic, or "twilight",
-  zone could contain huge quantities of fish. Technological advancements now make
-  exploitation possible and interest is gr...
-entry_type: Blog
-layout: library-item
-pdf: Wright, Glen et al. - 2020 - The Ocean's twilight zone climate risks at the .pdf
-tags: []
-title: 'The Ocean''s "twilight zone": climate risks at the next fisheries frontier'
-url: https://www.iddri.org/en/publications-and-events/blog-post/oceans-twilight-zone-climate-risks-next-fisheries-frontier
 venue: IDDRI
-year: '2020'
+role: lead author
+preview: glen_wright_etal_2020_oceans_twilight_zone_climate_risks_next_fisheries_frontier
+pdf: glen_wright_etal_2020_oceans_twilight_zone_climate_risks_next_fisheries_frontier.pdf
+url: https://www.iddri.org/en/publications-and-events/blog-post/oceans-twilight-zone-climate-risks-next-fisheries-frontier
+resources:
+- kind: pdf
+  title: 'The Ocean''s "twilight zone": climate risks at the next fisheries frontier'
+  label: View primary document
+  url: /assets/pdf/glen_wright_etal_2020_oceans_twilight_zone_climate_risks_next_fisheries_frontier.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit IDDRI publication page
+  label: Visit IDDRI publication page
+  url: https://www.iddri.org/en/publications-and-events/blog-post/oceans-twilight-zone-climate-risks-next-fisheries-frontier
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright, Kristina Gjerde, Aria Finkelstein, Duncan Currie
-**Venue:** IDDRI
-
-## Links and Resources
-
-- [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/oceans-twilight-zone-climate-risks-next-fisheries-frontier)
-- [PDF](Wright, Glen et al. - 2020 - The Ocean's twilight zone climate risks at the .pdf)

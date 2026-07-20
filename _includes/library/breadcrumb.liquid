@@ -1,0 +1,17 @@
+{% comment %}
+  Breadcrumb: Library / Entry type
+{% endcomment %}
+<nav class="library-breadcrumb" aria-label="Breadcrumb">
+  <ol class="library-breadcrumb-list">
+    <li>
+      <a href="{{ '/library/' | relative_url }}">Library</a>
+    </li>
+    {% assign entry_type_text = page.entry_type | default: '' | strip %}
+    {% if entry_type_text != '' %}
+      <li aria-hidden="true" class="library-breadcrumb-sep">/</li>
+      <li>
+        <span>{{ entry_type_text }}</span>
+      </li>
+    {% endif %}
+  </ol>
+</nav>

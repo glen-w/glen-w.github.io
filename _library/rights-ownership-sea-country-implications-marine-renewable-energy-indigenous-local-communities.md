@@ -1,4 +1,18 @@
 ---
+layout: library-item
+title: 'Rights and ownership in sea country: implications of marine renewable energy
+  for indigenous and local communities'
+date: '2015-02-01'
+entry_type: Journal article
+year: '2015'
+bibtex_key: kerrRightsOwnershipSea2015
+is_event: false
+description: The adoption of UN Convention of the Law of the Sea in 1982 created optimism
+  for indigenous peoples and marginalised coastal communities that they may (re)gain
+  control of, or improve access to, marine resources.
+standfirst: The adoption of UN Convention of the Law of the Sea in 1982 created optimism
+  for indigenous peoples and marginalised coastal communities that they may (re)gain
+  control of, or improve access to, marine resources.
 abstract: 'The adoption of UN Convention of the Law of the Sea in 1982 created optimism
   for indigenous peoples and marginalised coastal communities that they may (re)gain
   control of, or improve access to, marine resources. However concerns were also raised
@@ -12,42 +26,37 @@ abstract: 'The adoption of UN Convention of the Law of the Sea in 1982 created o
   access to natural resources by indigenous and marginalised coastal communities.
   As yet there is little evidence of this tension being adequately addressed by emerging
   institutional frameworks for managing marine resources.'
+categories:
+- other
 authors:
 - Sandy Kerr
 - John Colton
 - Kate Johnson
 - Glen Wright
-bibtex_key: kerrRightsOwnershipSea2015
-categories:
-- other
-date: 2015-February-01
-description: The adoption of UN Convention of the Law of the Sea in 1982 created optimism
-  for indigenous peoples and marginalised coastal communities that they may (re)gain
-  control of, or improve access to, marine...
-doi: https://doi.org/10.1016/j.marpol.2014.11.002
-entry_type: Journal article
-layout: library-item
-pages: 108--115
-pdf: Kerr et al. - 2015 - Rights and ownership in sea country implications of marine
-  renewable energy for indigenous and loca.pdf
-tags: []
-title: 'Rights and ownership in sea country: implications of marine renewable energy
-  for indigenous and local communities'
-url: https://linkinghub.elsevier.com/retrieve/pii/S0308597X14002942
 venue: Marine Policy
+role: co-author
+preview: 2015_rights_ownership_sea_country_implications_marine_renewable_energy_indigenous_local_communities
+pdf: 2015_rights_ownership_sea_country_implications_marine_renewable_energy_indigenous_local_communities.pdf
+url: https://linkinghub.elsevier.com/retrieve/pii/S0308597X14002942
+doi: https://doi.org/10.1016/j.marpol.2014.11.002
+pages: 108--115
 volume: '52'
-year: '2015'
+resources:
+- kind: pdf
+  title: 'Rights and ownership in sea country: implications of marine renewable energy
+    for indigenous and local communities'
+  label: View primary document
+  url: /assets/pdf/2015_rights_ownership_sea_country_implications_marine_renewable_energy_indigenous_local_communities.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit Marine Policy publication page
+  label: Visit Marine Policy publication page
+  url: https://linkinghub.elsevier.com/retrieve/pii/S0308597X14002942
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Sandy Kerr, John Colton, Kate Johnson, Glen Wright
-**Venue:** Marine Policy
-**Volume:** 52
-**Pages:** 108--115
-
-## Links and Resources
-
-- [Original URL](https://linkinghub.elsevier.com/retrieve/pii/S0308597X14002942)
-- [DOI](https://doi.org/10.1016/j.marpol.2014.11.002)
-- [PDF](Kerr et al. - 2015 - Rights and ownership in sea country implications of marine renewable energy for indigenous and loca.pdf)

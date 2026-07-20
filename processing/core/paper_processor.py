@@ -389,16 +389,20 @@ class PaperProcessor:
         try:
             if incremental:
                 blocks = []
+                url_renames = 0
                 for entry in entries:
+                    # Skipped entries keep their exact original block (idempotent incremental).
                     if entry.get('_skipped') and entry.get('_original_content'):
-                        blocks.append(entry['_original_content'].rstrip())
+                        updated = entry['_original_content']
                     else:
+                        # Rebuild from export content and re-apply pipeline output fields.
                         updated = self._update_entry_content(entry['content'], entry['fields'])
                         if rename_urls:
                             updated, url_count = self.bibtex_processor.rename_url_fields(updated)
-                            if url_count > 0 and len(blocks) == 0:
-                                print(f"  🔄 Renamed {url_count} URL field(s) in updated blocks")
-                        blocks.append(updated.rstrip())
+                            url_renames += url_count
+                    blocks.append(updated.rstrip())
+                if url_renames > 0:
+                    print(f"  🔄 Renamed {url_renames} URL field(s) in updated blocks")
                 final_content = '\n\n'.join(blocks) + '\n'
                 with open(working_file, 'w', encoding='utf-8') as f:
                     f.write(final_content)
@@ -432,12 +436,31 @@ class PaperProcessor:
         except Exception as e:
             print(f"  ❌ Error writing {working_file}: {e}")
     
+    def _find_entry_closing_brace(self, entry_content: str) -> int:
+        """Return index of the entry-level closing brace, or -1 if missing/unbalanced.
+
+        Walks braces starting at the opening `{` after `@type{key` so field-value
+        braces are not mistaken for the entry terminator.
+        """
+        brace_start = entry_content.find('{')
+        if brace_start == -1:
+            return -1
+        depth = 0
+        for i in range(brace_start, len(entry_content)):
+            ch = entry_content[i]
+            if ch == '{':
+                depth += 1
+            elif ch == '}':
+                depth -= 1
+                if depth == 0:
+                    return i
+        return -1
+
     def _update_entry_content(self, entry_content: str, fields: Dict) -> str:
         """Update an entry's content with new fields."""
-        # Find the end of the entry (before the closing brace)
-        last_brace = entry_content.rfind('}')
+        last_brace = self._find_entry_closing_brace(entry_content)
         if last_brace == -1:
-            # No closing brace found, return original content unchanged
+            # No entry-level closing brace found, return original content unchanged
             return entry_content
         
         # Extract the part before the closing brace

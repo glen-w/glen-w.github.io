@@ -1,32 +1,33 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
-bibtex_key: wrightClimateRegulationIf2013
-categories:
-- other
-date: '2013-01-01'
-description: 'Climate Regulation as if the Planet Mattered: the Earth Jurisprudence
-  Approach to Climate Change'
-entry_type: Journal article
 layout: library-item
-pages: 33--57
-pdf: Earth Jurisprudence & Climate Change.pdf
-tags: []
 title: 'Climate Regulation as if the Planet Mattered: the Earth Jurisprudence Approach
   to Climate Change'
-venue: Environment and Earth Law Journal
-volume: '3'
+date: '2013-01-01'
+entry_type: Journal article
 year: '2013'
+bibtex_key: wrightClimateRegulationIf2013
+is_event: false
+description: 'Climate Regulation as if the Planet Mattered: the Earth Jurisprudence
+  Approach to Climate Change'
+categories:
+- other
+authors:
+- Glen Wright
+venue: Environment and Earth Law Journal
+role: author
+preview: glen_wright_2013_climate_regulation_as_if_planet_mattered_earth_jurisprudence_approach_climate_change
+pdf: glen_wright_2013_climate_regulation_as_if_planet_mattered_earth_jurisprudence_approach_climate_change.pdf
+pages: 33--57
+volume: '3'
+resources:
+- kind: pdf
+  title: 'Climate Regulation as if the Planet Mattered: the Earth Jurisprudence Approach
+    to Climate Change'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2013_climate_regulation_as_if_planet_mattered_earth_jurisprudence_approach_climate_change.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Environment and Earth Law Journal
-**Volume:** 3
-**Pages:** 33--57
-
-## Links and Resources
-
-- [PDF](Earth Jurisprudence & Climate Change.pdf)

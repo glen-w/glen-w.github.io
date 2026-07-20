@@ -99,12 +99,14 @@ class TestPDFProcessor:
         assert metadata['author'] == 'Test Author'
         assert 'subject' in metadata or 'journal' in metadata
     
+    @patch('processing.core.pdf_processor.PDFProcessor.validate_pdf')
     @patch('processing.core.pdf_processor.PDFProcessor._check_file_writable')
     @patch('processing.core.pdf_processor.PDFProcessor._atomic_write_pdf')
     @patch('PyPDF2.PdfReader')
     @patch('PyPDF2.PdfWriter')
-    def test_update_pdf_metadata_success(self, mock_writer, mock_reader, mock_write, mock_writable, pdf_processor):
+    def test_update_pdf_metadata_success(self, mock_writer, mock_reader, mock_write, mock_writable, mock_validate, pdf_processor):
         """Test updating PDF metadata successfully."""
+        mock_validate.return_value = True
         mock_writable.return_value = True
         mock_write.return_value = True
         
@@ -112,6 +114,7 @@ class TestPDFProcessor:
         mock_pdf = MagicMock()
         mock_reader.return_value = mock_pdf
         mock_pdf.metadata = {}
+        mock_pdf.pages = [MagicMock()]
         
         metadata = {'title': 'Test Title', 'author': 'Test Author'}
         result = pdf_processor.update_pdf_metadata("/path/to/file.pdf", metadata, backup=False)

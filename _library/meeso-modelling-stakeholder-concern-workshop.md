@@ -1,20 +1,25 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: MEESO Modelling & stakeholder concern workshop
+date: '2022-06-01'
+entry_type: Workshop
+year: '2022'
 bibtex_key: MEESOModellingStakeholder2022
+is_event: true
+description: MEESO Modelling & stakeholder concern workshop
 categories:
 - other
-date: 2022-June-01
-description: MEESO Modelling & stakeholder concern workshop
-entry_type: Workshop
-layout: library-item
-pdf: Workshop modelling and SH concerns.pdf
-tags: []
-title: MEESO Modelling & stakeholder concern workshop
-venue: ''
-year: '2022'
+role: participant
+preview: 2022_meeso_modelling_stakeholder_concern_workshop
+pdf: 2022_meeso_modelling_stakeholder_concern_workshop.pdf
+resources:
+- kind: pdf
+  title: MEESO Modelling & stakeholder concern workshop
+  label: View primary document
+  url: /assets/pdf/2022_meeso_modelling_stakeholder_concern_workshop.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Links and Resources
-
-- [PDF](Workshop modelling and SH concerns.pdf)

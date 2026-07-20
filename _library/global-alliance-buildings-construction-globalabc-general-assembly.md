@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: Global Alliance for Buildings and Construction (GlobalABC) General Assembly
+date: '2025-04-01'
+entry_type: Conference
+year: '2025'
+bibtex_key: GlobalAllianceBuildings2025
+is_event: true
+description: Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 2023),
+  GlobalABC has been highly active, strengthening its role as a community and a collaborative
+  force for a zero-emission, resilient buildings and construction sector.
+standfirst: Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 2023),
+  GlobalABC has been highly active, strengthening its role as a community and a collaborative
+  force for a zero-emission, resilient buildings and construction sector.
 abstract: "Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 2023),\
   \ GlobalABC has been highly active, strengthening its role as a community and a\
   \ collaborative force for a zero-emission, resilient buildings and construction\
@@ -25,35 +38,36 @@ abstract: "Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 20
   \ for collaboration with the ICBC. Furthermore, the Assembly will facilitate an\
   \ exchange of knowledge and best practices among the members, and support capacity-building\
   \ through bespoke training sessions, which will be organised during the Assembly."
-authors: []
-bibtex_key: GlobalAllianceBuildings2025
 categories:
 - other
-date: 2025-April-01
-description: Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 2023),
-  GlobalABC has been highly active, strengthening its role as a community and a collaborative
-  force for a zero-emission, resilie...
-entry_type: Conference
+location: Dresden, Germany
+role: attendee
+preview: 2025_global_alliance_buildings_construction_globalabc_general_assembly
 gallery:
 - global_alliance_buildings_construction_globalabc_general_assembly_figure_01
 - global_alliance_buildings_construction_globalabc_general_assembly_figure_02
 - global_alliance_buildings_construction_globalabc_general_assembly_photo_01
 - global_alliance_buildings_construction_globalabc_general_assembly_photo_02
 - global_alliance_buildings_construction_globalabc_general_assembly_photo_03
-layout: library-item
-location: Dresden, Germany
-preview: global_alliance_buildings_construction_globalabc_general_assembly_figure_01
-tags: []
-title: Global Alliance for Buildings and Construction (GlobalABC) General Assembly
 url: https://globalabc.org/events/globalabc-annual-assembly-2025
-venue: ''
-year: '2025'
+zip_archive: 2025_global_alliance_buildings_construction_globalabc_general_assembly_a.zip
+zip_file_count: '3'
+zip_file_size_mb: '0.8'
+resources:
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/2025_global_alliance_buildings_construction_globalabc_general_assembly_a.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 3 files · 0.8 MB
+- kind: landing
+  title: Visit event website
+  label: Visit event website
+  url: https://globalabc.org/events/globalabc-annual-assembly-2025
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Location:** Dresden, Germany
-
-## Links and Resources
-
-- [Original URL](https://globalabc.org/events/globalabc-annual-assembly-2025)

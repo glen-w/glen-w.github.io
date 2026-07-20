@@ -7,7 +7,7 @@ Provides focused validation without tight coupling to processing logic.
 import os
 import re
 from typing import Dict, List, Optional
-from config import Configuration
+from processing.config import Configuration
 
 
 class SimpleValidator:

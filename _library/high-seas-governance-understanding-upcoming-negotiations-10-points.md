@@ -1,36 +1,47 @@
 ---
+layout: library-item
+title: 'High seas governance: Understanding the upcoming negotiations in 10 points'
+date: '2017-12-01'
+entry_type: Blog
+year: '2017'
+bibtex_key: rochetteHighSeasGovernance2017
+is_event: false
+description: The United Nations General Assembly just launched a new initiative to
+  address the increasing number of threats to marine areas beyond national jurisdiction
+  (ABNJ).
+standfirst: The United Nations General Assembly just launched a new initiative to
+  address the increasing number of threats to marine areas beyond national jurisdiction
+  (ABNJ).
 abstract: The United Nations General Assembly just launched a new initiative to address
   the increasing number of threats to marine areas beyond national jurisdiction (ABNJ).
   Negotiations will commence in 2018 to draw up an international legally binding instrument
   for the conservation and sustainable use of marine biodiversity in these areas,
   which cover nearly half of the Earth’s surface.
+categories:
+- other
 authors:
 - Julien Rochette
 - Glen Wright
-bibtex_key: rochetteHighSeasGovernance2017
-categories:
-- other
-date: 2017-December-01
-description: The United Nations General Assembly just launched a new initiative to
-  address the increasing number of threats to marine areas beyond national jurisdiction
-  (ABNJ). Negotiations will commence in 2018 t...
-entry_type: Blog
-layout: library-item
-pdf: Wright - 2016 - Negotiations for a new agreement on the conservation and sustainable
-  use of marine biodiversity in A.pdf
-tags: []
-title: 'High seas governance: Understanding the upcoming negotiations in 10 points'
-url: https://www.iddri.org/en/publications-and-events/blog-post/high-seas-governance-understanding-upcoming-negotiations-10
 venue: IDDRI
-year: '2017'
+role: co-author
+preview: 2017_high_seas_governance_understanding_upcoming_negotiations_10_points
+pdf: 2017_high_seas_governance_understanding_upcoming_negotiations_10_points.pdf
+url: https://www.iddri.org/en/publications-and-events/blog-post/high-seas-governance-understanding-upcoming-negotiations-10
+resources:
+- kind: pdf
+  title: 'High seas governance: Understanding the upcoming negotiations in 10 points'
+  label: View primary document
+  url: /assets/pdf/2017_high_seas_governance_understanding_upcoming_negotiations_10_points.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit IDDRI publication page
+  label: Visit IDDRI publication page
+  url: https://www.iddri.org/en/publications-and-events/blog-post/high-seas-governance-understanding-upcoming-negotiations-10
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Julien Rochette, Glen Wright
-**Venue:** IDDRI
-
-## Links and Resources
-
-- [Original URL](https://www.iddri.org/en/publications-and-events/blog-post/high-seas-governance-understanding-upcoming-negotiations-10)
-- [PDF](Wright - 2016 - Negotiations for a new agreement on the conservation and sustainable use of marine biodiversity in A.pdf)

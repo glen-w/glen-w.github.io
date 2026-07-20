@@ -1,4 +1,18 @@
 ---
+layout: library-item
+title: Technological tools for Monitoring, Control and Surveillance in Marine Areas
+  Beyond National Jurisdiction
+date: '2018-07-01'
+entry_type: Workshop
+year: '2018'
+bibtex_key: TechnologicalToolsMonitoring2018
+is_event: true
+description: Monitoring Control and Surveillance (MCS) will be crucial to ensuring
+  compliance with management measures developed under a future international agreement
+  on Areas Beyond National Jurisdiction (ABNJ).
+standfirst: Monitoring Control and Surveillance (MCS) will be crucial to ensuring
+  compliance with management measures developed under a future international agreement
+  on Areas Beyond National Jurisdiction (ABNJ).
 abstract: Monitoring Control and Surveillance (MCS) will be crucial to ensuring compliance
   with management measures developed under a future international agreement on Areas
   Beyond National Jurisdiction (ABNJ). Tools for MCS have been drastically extended
@@ -13,31 +27,30 @@ abstract: Monitoring Control and Surveillance (MCS) will be crucial to ensuring 
   and governance mechanisms for the design and implementation of the available technologies.
   Any future successful options will need to be co-created with stakeholder to ensure
   appropriate design and early buy-in amongst different sectors.
-authors: []
-bibtex_key: TechnologicalToolsMonitoring2018
 categories:
 - other
-date: 2018-July-01
-description: Monitoring Control and Surveillance (MCS) will be crucial to ensuring
-  compliance with management measures developed under a future international agreement
-  on Areas Beyond National Jurisdiction (ABNJ)....
-entry_type: Workshop
-layout: library-item
 location: Sciences Po, Paris, France
-pdf: MCS-Workshop-I-summary-final.pdf
 publisher: STRONG High Seas
-tags: []
-title: Technological tools for Monitoring, Control and Surveillance in Marine Areas
-  Beyond National Jurisdiction
-venue: ''
-year: '2018'
+role: organiser
+speakers:
+- Charles Kilgour, Ocean Mind
+- Peter Horn, Pew Charitable Trusts
+- Peter Thompson, Argos Froyanes
+- Stephanie Winnard, RSPB
+- Adriana Fabra, Tuna Compliance Network
+- Kim Stobberup, FAO
+- João Neves, NEAFC
+preview: 2018_technological_tools_monitoring_control_surveillance_marine_areas_beyond_national_jurisdiction
+pdf: 2018_technological_tools_monitoring_control_surveillance_marine_areas_beyond_national_jurisdiction.pdf
+resources:
+- kind: pdf
+  title: Technological tools for Monitoring, Control and Surveillance in Marine Areas
+    Beyond National Jurisdiction
+  label: View primary document
+  url: /assets/pdf/2018_technological_tools_monitoring_control_surveillance_marine_areas_beyond_national_jurisdiction.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Location:** Sciences Po, Paris, France
-**Publisher:** STRONG High Seas
-
-## Links and Resources
-
-- [PDF](MCS-Workshop-I-summary-final.pdf)

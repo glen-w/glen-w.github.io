@@ -313,15 +313,21 @@ def run_library_items_only(args) -> int:
 
 
 def run_library_generation(args, skip_dynamic_filters=False) -> bool:
-    """Run library page generation."""
+    """Run library page generation from processed papers.bib.
+
+    Always reads the working bibliography (pipeline output), not the Zotero
+    export. The export is only an input to PaperProcessor.
+    """
     print("\n📖 Starting library page generation...")
     
     try:
         # Import the library generator
         from processing.library.generator import LibraryPageGenerator
         
-        # Create generator with same test mode and regenerate flag as process_papers
-        bib_file = args.bibtex_file or '../_bibliography/papers.bib'
+        # Library pages must be generated from processed papers.bib (preview/pdf/
+        # agenda/slides paths, renamed website fields, etc.), never from the raw
+        # Zotero export passed via --bibtex-file.
+        bib_file = '../_bibliography/papers.bib'
         generator = LibraryPageGenerator(
             bib_file=bib_file,
             output_dir='../_library',

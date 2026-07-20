@@ -118,8 +118,11 @@ class NotesProcessor:
         for line in lines:
             line = line.strip()
             if line:
-                # Escape @ symbols to prevent BibTeX parsing conflicts
+                # Escape @ for BibTeX, but do not re-escape already-escaped @@
+                placeholder = '\x00AT\x00'
+                line = line.replace('@@', placeholder)
                 line = line.replace('@', '@@')
+                line = line.replace(placeholder, '@@')
                 structured_lines.append(line)
         
         return '\n'.join(structured_lines)
@@ -172,8 +175,13 @@ class NotesProcessor:
         
         return entry
     
+    @staticmethod
+    def _strip_trailing_url_punctuation(url: str) -> str:
+        """Remove trailing punctuation commonly stuck to URLs in prose."""
+        return url.rstrip('.,);')
+
     def _extract_video_links(self, notes: str) -> List[str]:
-        """Extract video links from notes."""
+        """Extract video links from notes (any http(s) URL in the [video] section)."""
         if not notes or '[video]' not in notes:
             return []
         
@@ -182,8 +190,8 @@ class NotesProcessor:
         
         video_links = []
         for line in video_lines:
-            clean_line = line.strip()
-            if clean_line and ('youtube' in clean_line or 'youtu.be' in clean_line):
+            clean_line = self._strip_trailing_url_punctuation(line.strip())
+            if clean_line and re.match(r'https?://', clean_line, re.IGNORECASE):
                 video_links.append(clean_line)
         
         return video_links
@@ -193,15 +201,21 @@ class NotesProcessor:
         if not notes:
             return []
         
+        video_links = set(self._extract_video_links(notes))
+        
         # Find all URLs in the notes
         url_pattern = r'https?://[^\s]+'
         all_urls = re.findall(url_pattern, notes)
         
-        # Filter out video URLs
+        # Filter out video URLs (including those listed under [video])
         other_links = []
         for url in all_urls:
-            if 'youtube' not in url and 'youtu.be' not in url:
-                other_links.append(url)
+            clean_url = self._strip_trailing_url_punctuation(url)
+            if clean_url in video_links:
+                continue
+            if 'youtube' in clean_url or 'youtu.be' in clean_url:
+                continue
+            other_links.append(clean_url)
         
         return other_links
     

@@ -1,31 +1,39 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
-bibtex_key: wrightHistoryOceanPower2020
-categories:
-- other
-date: '2020-01-01'
-description: The History of Ocean Power
-entry_type: Report section
 layout: library-item
-pdf: gsr2020_ocean_sidebar.pdf
-publisher: REN21
+title: The History of Ocean Power
+date: '2020-01-01'
+entry_type: Report section
+year: '2020'
+bibtex_key: wrightHistoryOceanPower2020
+is_event: false
+description: The History of Ocean Power
 tags:
 - featured
-title: The History of Ocean Power
-url: https://www.ren21.net/reports/global-status-report/
+categories:
+- other
+authors:
+- Glen Wright
 venue: REN21, Renewables 2020 Global Status Report
-year: '2020'
+publisher: REN21
+role: author
+preview: glen_wright_2020_history_ocean_power
+pdf: glen_wright_2020_history_ocean_power.pdf
+url: https://www.ren21.net/reports/global-status-report/
+resources:
+- kind: pdf
+  title: The History of Ocean Power
+  label: View primary document
+  url: /assets/pdf/glen_wright_2020_history_ocean_power.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit REN21, Renewables 2020 Global Status Report publication page
+  label: Visit REN21, Renewables 2020 Global Status Report publication page
+  url: https://www.ren21.net/reports/global-status-report/
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** REN21, Renewables 2020 Global Status Report
-**Publisher:** REN21
-
-## Links and Resources
-
-- [Original URL](https://www.ren21.net/reports/global-status-report/)
-- [PDF](gsr2020_ocean_sidebar.pdf)

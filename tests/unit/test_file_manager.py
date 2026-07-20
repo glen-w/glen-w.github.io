@@ -39,8 +39,9 @@ class TestFileManager:
         assert result is True
         mock_copy.assert_called_once_with("/source/file.pdf", "/dest/file.pdf")
     
+    @patch('os.makedirs')
     @patch('os.path.exists')
-    def test_copy_file_already_exists(self, mock_exists, file_manager):
+    def test_copy_file_already_exists(self, mock_exists, mock_makedirs, file_manager):
         """Test copying file when destination already exists."""
         mock_exists.return_value = True
         
@@ -59,10 +60,11 @@ class TestFileManager:
         
         assert result is False
     
+    @patch('os.makedirs')
     @patch('subprocess.run')
     @patch('os.path.exists')
     @patch('os.path.getsize')
-    def test_generate_pdf_thumbnail_success(self, mock_getsize, mock_exists, mock_run, file_manager):
+    def test_generate_pdf_thumbnail_success(self, mock_getsize, mock_exists, mock_run, mock_makedirs, file_manager):
         """Test generating PDF thumbnail successfully."""
         mock_exists.return_value = True
         mock_getsize.return_value = 5000  # Larger than MIN_THUMBNAIL_SIZE
@@ -73,10 +75,11 @@ class TestFileManager:
         assert result is True
         mock_run.assert_called_once()
     
+    @patch('os.makedirs')
     @patch('subprocess.run')
     @patch('os.path.exists')
     @patch('os.path.getsize')
-    def test_generate_pdf_thumbnail_too_small(self, mock_getsize, mock_exists, mock_run, file_manager):
+    def test_generate_pdf_thumbnail_too_small(self, mock_getsize, mock_exists, mock_run, mock_makedirs, file_manager):
         """Test generating PDF thumbnail when result is too small."""
         mock_exists.return_value = True
         mock_getsize.return_value = 100  # Smaller than MIN_THUMBNAIL_SIZE
@@ -86,8 +89,9 @@ class TestFileManager:
         
         assert result is False
     
+    @patch('os.makedirs')
     @patch('subprocess.run')
-    def test_generate_pdf_thumbnail_fallback(self, mock_run, file_manager):
+    def test_generate_pdf_thumbnail_fallback(self, mock_run, mock_makedirs, file_manager):
         """Test PDF thumbnail generation with fallback to legacy convert command."""
         # First call fails (magick not found), second succeeds (convert works)
         mock_run.side_effect = [
@@ -102,10 +106,11 @@ class TestFileManager:
         assert result is True
         assert mock_run.call_count == 2  # Should try both commands
     
+    @patch('os.makedirs')
     @patch('subprocess.run')
     @patch('os.path.exists')
     @patch('os.path.getsize')
-    def test_generate_svg_thumbnail_success(self, mock_getsize, mock_exists, mock_run, file_manager):
+    def test_generate_svg_thumbnail_success(self, mock_getsize, mock_exists, mock_run, mock_makedirs, file_manager):
         """Test generating SVG thumbnail successfully."""
         mock_exists.return_value = True
         mock_getsize.return_value = 5000

@@ -1,27 +1,28 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: Demand management targets for networks in the National Electricity Market
+date: '2012-01-01'
+entry_type: Report
+year: '2012'
 bibtex_key: wrightDemandManagementTargets2012
+is_event: false
+description: Demand management targets for networks in the National Electricity Market
 categories:
 - other
-date: '2012-01-01'
-description: Demand management targets for networks in the National Electricity Market
-entry_type: Report
-layout: library-item
-pdf: Wright and Centre - 2012 - TOTAL ENVIRONMENT CENTRE INC.pdf
+authors:
+- Glen Wright
 publisher: Total Environment Centre
-tags: []
-title: Demand management targets for networks in the National Electricity Market
-venue: ''
-year: '2012'
+role: author
+preview: glen_wright_2012_demand_management_targets_networks_national_electricity_market
+pdf: glen_wright_2012_demand_management_targets_networks_national_electricity_market.pdf
+resources:
+- kind: pdf
+  title: Demand management targets for networks in the National Electricity Market
+  label: View report PDF
+  url: /assets/pdf/glen_wright_2012_demand_management_targets_networks_national_electricity_market.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Publisher:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](Wright and Centre - 2012 - TOTAL ENVIRONMENT CENTRE INC.pdf)

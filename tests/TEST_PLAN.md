@@ -1,245 +1,118 @@
-# Paper Processing Test Suite
+# Paper Processing & Library Rendering Test Suite
 
 ## Overview
 
-This comprehensive test suite provides robust testing for the paper processing workflow, with a focus on BibTeX syntax validation as it's mission-critical for the system.
+Comprehensive pytest suite for the paper processing pipeline and the library
+content rendering system (BibTeX → markdown front matter → Liquid layouts).
 
 ## Test Structure
 
 ```
 tests/
-├── conftest.py                    # Global pytest configuration and fixtures
-├── run_tests.py                   # Test runner script
-├── TEST_PLAN.md                   # This file
-├── unit/                          # Unit tests for individual components
-│   ├── test_bibtex_processor.py   # BibTeXProcessor class tests
-│   ├── test_enhanced_validator.py # EnhancedValidator class tests
-│   ├── test_text_processor.py     # TextProcessor class tests
-│   └── test_bibtex_syntax_validation.py # Critical BibTeX syntax tests
-├── integration/                   # Integration tests for workflows
-│   └── test_end_to_end_processing.py # Complete workflow tests
-├── performance/                   # Performance tests for large files
-│   └── test_large_file_processing.py # Large file processing tests
-└── fixtures/                      # Test data and fixtures
+├── conftest.py                         # Shared fixtures (bib, library, processors)
+├── run_tests.py                        # Test runner script
+├── TEST_PLAN.md                        # This file
+├── unit/                               # Paper-processing component tests
+│   ├── test_bibtex_processor.py
+│   ├── test_bibtex_roundtrip.py        # Reqs 40–65
+│   ├── test_bibtex_syntax_validation.py
+│   ├── test_bibtex_formatter.py
+│   ├── test_cli_safety.py              # Reqs 80–99 subset
+│   ├── test_enhanced_validator.py
+│   ├── test_entry_processor.py
+│   ├── test_field_cleaner.py
+│   ├── test_file_*.py
+│   ├── test_notes_processor.py         # Reqs 66–79
+│   ├── test_paper_processor.py
+│   ├── test_pdf_processor.py
+│   ├── test_tag_extractor.py
+│   ├── test_text_processor.py
+│   └── test_zip_archive_generator.py
+├── rendering/                          # Liquid / static HTML contracts (req 100)
+│   └── test_header_actions.py
+├── fixtures/rendering/                 # Static HTML action/header variants
+├── library/                            # Library / content-rendering tests
+│   ├── test_bib_parser.py
+│   ├── test_content_generator.py
+│   ├── test_dynamic_filters.py
+│   ├── test_field_fidelity.py
+│   └── test_generator.py
+├── golden/ / corpus/                   # Exemplars + invariants
+├── integration/
+│   ├── test_end_to_end_processing.py
+│   └── test_library_pipeline.py        # Full BibTeX → pages → filters
+└── performance/
+    └── test_large_file_processing.py
 ```
 
-## Test Categories
+## Markers
 
-### 1. Unit Tests (`tests/unit/`)
-
-**Purpose**: Test individual components in isolation
-
-**Key Test Files**:
-- `test_bibtex_processor.py`: Tests all BibTeXProcessor methods
-- `test_enhanced_validator.py`: Tests all validation checks
-- `test_text_processor.py`: Tests text cleaning functionality
-- `test_bibtex_syntax_validation.py`: **CRITICAL** - Tests BibTeX syntax validation
-
-**Coverage**:
-- BibTeX parsing and manipulation
-- Entry cleaning and malformed entry handling
-- Tag addition and modification
-- File path extraction and validation
-- Text cleaning and brace handling
-- Validation error detection
-- Citation key cleaning
-
-### 2. Integration Tests (`tests/integration/`)
-
-**Purpose**: Test complete workflows and component interactions
-
-**Key Test Files**:
-- `test_end_to_end_processing.py`: Complete processing pipeline tests
-
-**Coverage**:
-- End-to-end processing workflow
-- Processing with validation
-- Processing with post-processing cleanup
-- Error handling during processing
-- Malformed input handling
-
-### 3. Performance Tests (`tests/performance/`)
-
-**Purpose**: Test performance with large files and many entries
-
-**Key Test Files**:
-- `test_large_file_processing.py`: Large file processing tests
-
-**Coverage**:
-- Large file parsing performance
-- Large file validation performance
-- Memory usage with large files
-- Concurrent processing performance
-- Error detection in large files
-
-## Critical Test Areas
-
-### BibTeX Syntax Validation (Mission Critical)
-
-The BibTeX syntax validation is the most critical part of the system. Tests cover:
-
-1. **Basic Syntax Validation**
-   - Valid and invalid entry structures
-   - Balanced braces
-   - Proper comma usage
-   - Citation key validation
-
-2. **Nested Braces Handling**
-   - Complex nested structures
-   - LaTeX commands in braces
-   - Multiple levels of nesting
-
-3. **Special Characters and Edge Cases**
-   - Unicode characters
-   - Special symbols (@#$%^&*())
-   - URLs and DOIs
-   - Long content handling
-
-4. **Malformed Entry Cleaning**
-   - Missing commas
-   - Extra commas
-   - Incomplete entries
-   - Mixed issues
-
-5. **Validation Error Detection**
-   - Trailing commas
-   - Double commas
-   - Internal braces
-   - Uncleared file tags
-   - Unused thumbnail tags
-   - Unrenamed files
-   - BibTeX syntax issues
-   - Unmatched braces
-   - Malformed entries
+| Marker | Meaning |
+|--------|---------|
+| `unit` | Isolated component tests |
+| `integration` | Multi-component workflows |
+| `library` | Library page generation / filters |
+| `rendering` | Front-matter / Liquid contract tests |
+| `bibtex_syntax` | BibTeX syntax validation |
+| `performance` / `slow` | Heavy / timing-sensitive tests |
 
 ## Running Tests
 
-### Using the Test Runner
-
 ```bash
-# Run all fast tests (default)
-python tests/run_tests.py
+# All fast tests
+pytest tests/ -m "not slow"
 
-# Run specific test categories
-python tests/run_tests.py --unit
-python tests/run_tests.py --integration
-python tests/run_tests.py --performance
-python tests/run_tests.py --bibtex-syntax
+# Library + rendering only
+pytest tests/ -m library
 
-# Run all tests including slow performance tests
-python tests/run_tests.py --all
+# Paper processing unit tests
+pytest tests/unit/ -m unit
 
-# Run fast tests (exclude slow performance tests)
+# With coverage
+pytest tests/ --cov=processing --cov-report=html -m "not slow"
+
+# Via runner
 python tests/run_tests.py --fast
-
-# Run with coverage
-python tests/run_tests.py --coverage
-
-# Run linting checks
-python tests/run_tests.py --lint
-
-# Run CI test suite
-python tests/run_tests.py --ci
 ```
 
-### Using pytest directly
+## Library / Content Rendering Coverage
 
-```bash
-# Run all tests
-pytest tests/ -v
+- **BibParser**: titles, authors, types, dates, venues, keywords, links, images, abstracts
+- **ContentGenerator**: YAML front matter, standfirst/description, event detection, resources (local PDF verification, dedupe, zip metadata), categories, preview/gallery, notes body
+- **LibraryPageGenerator**: load/filter/filename/page write, incremental skip, regenerate cleanup
+- **DynamicFiltersGenerator**: entry types / roles / languages YAML with exact counts
+- **TagExtractor / NotesProcessor**: annote `[type]`/`[role]`/`[language]`/`[selected]` shared with processing
+- **Liquid contract**: every generated page has `layout`, `title`, `date`, `entry_type`, `year`, `bibtex_key`, `is_event`; resources schema when present
 
-# Run unit tests only
-pytest tests/unit/ -v
+## Critical Paper-Processing Areas
 
-# Run integration tests only
-pytest tests/integration/ -v
+BibTeX syntax validation remains mission-critical — see `test_bibtex_syntax_validation.py`.
+Additional coverage: formatter, field cleaner, notes processor, tag extractor, entry/paper/PDF processors, zip archives.
 
-# Run performance tests only
-pytest tests/performance/ -v -m performance
+## Requirement → test matrix (1–100)
 
-# Run BibTeX syntax tests only
-pytest tests/unit/test_bibtex_syntax_validation.py -v
+| Req # | Theme | Primary tests |
+|------:|-------|---------------|
+| 1–9 | Golden e2e / 1:1 bib↔page / regen | `tests/golden/test_how_protect_ocean.py`, `tests/corpus/test_zero_diff.py`, `tests/corpus/test_invariants.py` |
+| 10 | Page-deletion policy | `tests/library/test_generator.py`, `tests/corpus/test_invariants.py` |
+| 11–18 | YAML + Jekyll + assets | `tests/library/test_content_generator.py`, `tests/library/test_generator.py`, `tests/integration/test_library_pipeline.py` |
+| 19–20 | No Zotero paths / stale agenda | `tests/corpus/test_invariants.py`, `tests/library/test_field_fidelity.py` |
+| 21–33 | Field fidelity (media, speakers, role, quotes, website) | `tests/library/test_field_fidelity.py` |
+| 34–39 | Abstracts / empty keys / selected | `tests/library/test_field_fidelity.py`, `tests/unit/test_tag_extractor.py`, `tests/unit/test_notes_processor.py` |
+| 40–65 | BibTeX parse/format round-trip | `tests/unit/test_bibtex_roundtrip.py`, `tests/unit/test_bibtex_formatter.py`, `tests/unit/test_bibtex_syntax_validation.py` |
+| 66–79 | Notes / tags / video / audio / @@ escape | `tests/unit/test_notes_processor.py`, `tests/unit/test_tag_extractor.py`, `tests/unit/test_bibtex_processor.py` |
+| 80–99 | Incremental / force / regenerate / CLI safety | `tests/unit/test_cli_safety.py`, `tests/unit/test_entry_processor.py`, `tests/unit/test_paper_processor.py`, `tests/integration/test_end_to_end_processing.py` |
+| 100 | Header / action a11y snapshots | `tests/rendering/test_header_actions.py`, fixtures in `tests/fixtures/rendering/` |
 
-# Run fast tests (exclude slow)
-pytest tests/ -v -m "not slow"
+### Markers used by new coverage
 
-# Run with coverage
-pytest tests/ --cov=processing --cov-report=html
-```
-
-## Test Markers
-
-- `@pytest.mark.unit`: Unit tests
-- `@pytest.mark.integration`: Integration tests
-- `@pytest.mark.performance`: Performance tests
-- `@pytest.mark.bibtex_syntax`: BibTeX syntax validation tests
-- `@pytest.mark.slow`: Slow-running tests
-- `@pytest.mark.requires_bibtexparser`: Tests requiring bibtexparser library
-
-## Fixtures
-
-The test suite provides comprehensive fixtures in `conftest.py`:
-
-- `config`: Test configuration instance
-- `temp_dir`: Temporary directory for testing
-- `temp_bibtex_file`: Temporary BibTeX file
-- `sample_bibtex_content`: Sample valid BibTeX content
-- `complex_bibtex_content`: Complex BibTeX with edge cases
-- `malformed_bibtex_content`: Malformed BibTeX for error testing
-- `zotero_export_content`: Zotero export format content
-- `mock_file_system`: Mock file system structure
-- `sample_pdf_metadata`: Sample PDF metadata
-- `sample_image_metadata`: Sample image metadata
-
-## Performance Benchmarks
-
-The performance tests establish benchmarks for:
-
-- **Parsing**: 1000 entries in < 10 seconds
-- **Validation**: 500 entries in < 15 seconds
-- **Cleaning**: 1000+ entries in < 5 seconds
-- **Memory**: < 100MB additional for 2000 entries
-- **Concurrent**: 5x speedup with parallel processing
-
-## Continuous Integration
-
-The test suite is designed for CI/CD with:
-
-- Fast test execution for quick feedback
-- Comprehensive coverage reporting
-- Linting checks
-- Performance regression detection
-- Error handling validation
-
-## Test Data
-
-Test data is generated programmatically to ensure:
-
-- Consistent test results
-- Edge case coverage
-- Large file simulation
-- Error scenario testing
-- Performance benchmarking
-
-## Maintenance
-
-The test suite should be updated when:
-
-- New features are added to the processing workflow
-- BibTeX syntax requirements change
-- Performance requirements change
-- New error conditions are discovered
-- Dependencies are updated
+- `unit`, `bibtex_syntax` — round-trip / notes / CLI safety
+- `library`, `rendering` — Liquid contracts + HTML fixtures
 
 ## Dependencies
 
-Required packages for testing:
-- `pytest`
-- `pytest-cov` (for coverage)
-- `psutil` (for performance tests)
-- `bibtexparser` (optional, for advanced validation)
-
-Install with:
 ```bash
-pip install pytest pytest-cov psutil bibtexparser
+pip install -r requirements-test.txt
+# or
+pip install -r tests/requirements-test.txt
 ```

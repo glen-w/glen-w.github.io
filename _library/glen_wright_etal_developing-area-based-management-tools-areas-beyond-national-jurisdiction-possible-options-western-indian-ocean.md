@@ -1,32 +1,33 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Developing area-based management tools in areas beyond national jurisdiction:
+  possible options for the Western Indian Ocean'
+date: '2015-01-01'
+entry_type: Report
+year: '2015'
+bibtex_key: Wright2015n
+is_event: false
+description: 'Developing area-based management tools in areas beyond national jurisdiction:
+  possible options for the Western Indian Ocean'
+categories:
+- other
 authors:
 - Glen Wright
 - Julien Rochette
-- Glen Wright
-bibtex_key: Wright2015n
-categories:
-- other
-date: '2015-01-01'
-description: 'Developing area-based management tools in areas beyond national jurisdiction:
-  possible options for t...'
-entry_type: Report
-institution: IDDRI
-layout: library-item
-pdf: Wright et al. - 2015 - Developing area-based management tools in areas be.PDF
-tags: []
-title: 'Developing area-based management tools in areas beyond national jurisdiction:
-  possible options for the Western Indian Ocean'
 venue: IDDRI
-year: '2015'
+institution: IDDRI
+role: co-author
+preview: glen_wright_etal_2015_developing_area_based_management_tools_areas_beyond_national_jurisdiction_possible_options_western_indian_ocean
+pdf: glen_wright_etal_2015_developing_area_based_management_tools_areas_beyond_national_jurisdiction_possible_options_western_indian_ocean.pdf
+resources:
+- kind: pdf
+  title: 'Developing area-based management tools in areas beyond national jurisdiction:
+    possible options for the Western Indian Ocean'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2015_developing_area_based_management_tools_areas_beyond_national_jurisdiction_possible_options_western_indian_ocean.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright, Julien Rochette, Glen Wright
-**Venue:** IDDRI
-**Institution:** IDDRI
-
-## Links and Resources
-
-- [PDF](Wright et al. - 2015 - Developing area-based management tools in areas be.PDF)

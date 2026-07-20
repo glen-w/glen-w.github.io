@@ -1,0 +1,12 @@
+{% comment %}
+  Fallback thumbnail card when no preview image exists.
+{% endcomment %}
+{% assign fallback_type = page.entry_type | default: 'Item' | strip %}
+{% assign fallback_year = page.year | default: '' | strip %}
+<div class="library-fallback-thumbnail" role="img" aria-label="{{ page.title }}{% if fallback_year != '' %}, {{ fallback_year }}{% endif %}{% if fallback_type != '' %}, {{ fallback_type }}{% endif %}">
+  <div class="library-fallback-type">{{ fallback_type }}</div>
+  <div class="library-fallback-title">{{ page.title }}</div>
+  {% if fallback_year != '' %}
+    <div class="library-fallback-year">{{ fallback_year }}</div>
+  {% endif %}
+</div>

@@ -1,28 +1,31 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
-bibtex_key: Wright2012e
-categories:
-- other
-date: '2012-01-01'
-description: 'The National Electricity Market and the Environment: Are we heading
-  in the right direction?'
-entry_type: Journal article
 layout: library-item
-pdf: 2012-The_National_Electricity_Market_and_the_Environment_Are_we_heading_in_the_right_direction.pdf
-tags: []
 title: 'The National Electricity Market and the Environment: Are we heading in the
   right direction?'
-venue: National Environmental Law Review
+date: '2012-01-01'
+entry_type: Journal article
 year: '2012'
+bibtex_key: Wright2012e
+is_event: false
+description: 'The National Electricity Market and the Environment: Are we heading
+  in the right direction?'
+categories:
+- other
+authors:
+- Glen Wright
+venue: National Environmental Law Review
+role: author
+preview: glen_wright_2012_national_electricity_market_environment_heading_right_direction
+pdf: glen_wright_2012_national_electricity_market_environment_heading_right_direction_a.pdf
+resources:
+- kind: pdf
+  title: 'The National Electricity Market and the Environment: Are we heading in the
+    right direction?'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2012_national_electricity_market_environment_heading_right_direction_a.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** National Environmental Law Review
-
-## Links and Resources
-
-- [PDF](2012-The_National_Electricity_Market_and_the_Environment_Are_we_heading_in_the_right_direction.pdf)

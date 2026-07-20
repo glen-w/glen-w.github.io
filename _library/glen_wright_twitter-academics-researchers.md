@@ -1,26 +1,28 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
-bibtex_key: wrightTwitterAcademicsResearchers2013
-categories:
-- other
-date: '2013-01-01'
-description: Twitter for Academics & Researchers
-entry_type: Training
 layout: library-item
+title: Twitter for Academics & Researchers
+date: '2013-01-01'
+entry_type: Training
+year: '2013'
+bibtex_key: wrightTwitterAcademicsResearchers2013
+is_event: false
+description: Twitter for Academics & Researchers
 tags:
 - brown bag
-title: Twitter for Academics & Researchers
+categories:
+- other
+authors:
+- Glen Wright
+role: speaker
+preview: glen_wright_2013_twitter_academics_researchers
 url: https://prezi.com/9zyvkzuijvdo/twitter-for-academics-researchers/?present=1
-venue: ''
-year: '2013'
+resources:
+- kind: landing
+  title: Visit publication page
+  label: Visit publication page
+  url: https://prezi.com/9zyvkzuijvdo/twitter-for-academics-researchers/?present=1
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-
-## Links and Resources
-
-- [Original URL](https://prezi.com/9zyvkzuijvdo/twitter-for-academics-researchers/?present=1)

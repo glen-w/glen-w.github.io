@@ -1,28 +1,30 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
-bibtex_key: wrightMarineEnergyDesigning2012
-categories:
-- other
-date: '2012-01-01'
-description: 'Marine Energy: Designing a Regulatory Framework for an Abundant Renewable
-  Energy Resource (Poster)'
-entry_type: Poster
 layout: library-item
-pdf: Glen Wright, Marine Energy poster.pdf
-tags: []
 title: 'Marine Energy: Designing a Regulatory Framework for an Abundant Renewable
   Energy Resource (Poster)'
-venue: ANU School of Law Doctoral Showcase
+date: '2012-01-01'
+entry_type: Poster
 year: '2012'
+bibtex_key: wrightMarineEnergyDesigning2012
+is_event: false
+description: 'Marine Energy: Designing a Regulatory Framework for an Abundant Renewable
+  Energy Resource (Poster)'
+categories:
+- other
+authors:
+- Glen Wright
+venue: ANU School of Law Doctoral Showcase
+preview: glen_wright_2012_marine_energy_designing_regulatory_framework_abundant_renewable_energy_resource_poster
+pdf: glen_wright_2012_marine_energy_designing_regulatory_framework_abundant_renewable_energy_resource_poster.pdf
+resources:
+- kind: pdf
+  title: 'Marine Energy: Designing a Regulatory Framework for an Abundant Renewable
+    Energy Resource (Poster)'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2012_marine_energy_designing_regulatory_framework_abundant_renewable_energy_resource_poster.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** ANU School of Law Doctoral Showcase
-
-## Links and Resources
-
-- [PDF](Glen Wright, Marine Energy poster.pdf)

@@ -1,20 +1,24 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: High Seas Treaty Dialogues
+date: '2022-05-01'
+entry_type: Workshop
+year: '2022'
 bibtex_key: HighSeasTreaty2022
+is_event: true
+description: High Seas Treaty Dialogues
 categories:
 - other
-date: '2022-05-01'
-description: High Seas Treaty Dialogues
-entry_type: Workshop
-layout: library-item
-pdf: AGENDA_MAY 2022 INFORMAL INTERSESSIONAL BBNJ HIGH SEAS TREATY DIALOGUES.pdf
-tags: []
-title: High Seas Treaty Dialogues
-venue: ''
-year: '2022'
+role: participant
+preview: 2022_high_seas_treaty_dialogues
+agenda: 2022_high_seas_treaty_dialogues_agenda.pdf
+resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2022_high_seas_treaty_dialogues_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 ---
 
-## Links and Resources
-
-- [PDF](AGENDA_MAY 2022 INFORMAL INTERSESSIONAL BBNJ HIGH SEAS TREATY DIALOGUES.pdf)

@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: 'Designing Climate Law: A Comparative Analysis of the US and EU'
+date: '2010-01-01'
+entry_type: Journal article
+year: '2010'
+bibtex_key: Wright2010a
+is_event: false
+description: As evidence of anthropogenic climate change mounts there is a growing
+  concern with, and a pressing need for, legal regimes to curtail the problem. This
+  concern culminated in the recent climate change conference in Copenhagen.
+standfirst: As evidence of anthropogenic climate change mounts there is a growing
+  concern with, and a pressing need for, legal regimes to curtail the problem. This
+  concern culminated in the recent climate change conference in Copenhagen.
 abstract: As evidence of anthropogenic climate change mounts there is a growing concern
   with, and a pressing need for, legal regimes to curtail the problem. This concern
   culminated in the recent climate change conference in Copenhagen. The US and the
@@ -11,29 +24,33 @@ abstract: As evidence of anthropogenic climate change mounts there is a growing 
   reduction and intangible benefits that have arisen. Some ‘best practice’ principles
   for the design of climate change law will be discerned, suggesting ways in which
   future climate change law can be more effective.
-authors:
-- Glen Wright
-bibtex_key: Wright2010a
 categories:
 - other
-date: '2010-01-01'
-description: As evidence of anthropogenic climate change mounts there is a growing
-  concern with, and a pressing need for, legal regimes to curtail the problem. This
-  concern culminated in the recent climate change ...
-entry_type: Journal article
-layout: library-item
-pdf: 2010-Designing_Climate_Law_A_Comparative_Analysis_of_the_US_and_EU.pdf
-tags: []
-title: 'Designing Climate Law: A Comparative Analysis of the US and EU'
+authors:
+- Glen Wright
 venue: Cork Online Law Review
-year: '2010'
+role: author
+preview: glen_wright_2010_designing_climate_law_comparative_analysis_us_eu
+pdf: glen_wright_2010_designing_climate_law_comparative_analysis_us_eu.pdf
+zip_archive: glen_wright_2010_designing_climate_law_comparative_analysis_us_eu_a.zip
+zip_file_count: '1'
+zip_file_size_mb: '0.5'
+resources:
+- kind: pdf
+  title: 'Designing Climate Law: A Comparative Analysis of the US and EU'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2010_designing_climate_law_comparative_analysis_us_eu.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/glen_wright_2010_designing_climate_law_comparative_analysis_us_eu_a.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 1 files · 0.5 MB
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Cork Online Law Review
-
-## Links and Resources
-
-- [PDF](2010-Designing_Climate_Law_A_Comparative_Analysis_of_the_US_and_EU.pdf)

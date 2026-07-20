@@ -1,28 +1,29 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: 'Cilmate Change: International Law & Negotiations'
+date: '2023-12-01'
+entry_type: Training
+year: '2023'
 bibtex_key: wrightCilmateChangeInternational2023
+is_event: false
+description: 'Cilmate Change: International Law & Negotiations'
 categories:
 - other
-date: 2023-December-01
-description: 'Cilmate Change: International Law & Negotiations'
-entry_type: Training
-layout: library-item
-location: Sciences Po, Paris, France
-pdf: _.pdf
-tags: []
-title: 'Cilmate Change: International Law & Negotiations'
+authors:
+- Glen Wright
 venue: Energy Transition masters
-year: '2023'
+location: Sciences Po, Paris, France
+role: speaker
+preview: glen_wright_2023_cilmate_change_international_law_negotiations
+pdf: glen_wright_2023_cilmate_change_international_law_negotiations.pdf
+resources:
+- kind: pdf
+  title: 'Cilmate Change: International Law & Negotiations'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2023_cilmate_change_international_law_negotiations.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Energy Transition masters
-**Location:** Sciences Po, Paris, France
-
-## Links and Resources
-
-- [PDF](_.pdf)

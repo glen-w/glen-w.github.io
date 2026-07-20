@@ -1,0 +1,150 @@
+{% comment %}
+  Two-column hero: breadcrumb, title, metadata, standfirst, actions + thumbnail.
+{% endcomment %}
+
+{% assign preview_text = page.preview | default: '' | to_s | strip %}
+{% assign has_preview = preview_text | size | plus: 0 %}
+
+{% comment %}Resolve preview filename to a real image URL (front matter may omit extension).{% endcomment %}
+{% assign preview_src = '' %}
+{% if has_preview > 0 %}
+  {% if preview_text contains '://' %}
+    {% assign preview_src = preview_text %}
+  {% else %}
+    {% assign preview_file = preview_text | split: '/' | last %}
+    {% unless preview_file contains '.' %}
+      {% assign preview_file = preview_file | append: '.jpeg' %}
+    {% endunless %}
+    {% assign preview_src = preview_file | prepend: '/assets/img/publication_preview/' | relative_url %}
+  {% endif %}
+{% endif %}
+
+{% assign thumb_href = '' %}
+{% if page.resources %}
+  {% for resource in page.resources %}
+    {% if resource.primary and resource.local %}
+      {% assign thumb_href = resource.url %}
+    {% endif %}
+  {% endfor %}
+  {% if thumb_href == '' %}
+    {% for resource in page.resources %}
+      {% if resource.kind == 'landing' %}
+        {% assign thumb_href = resource.url %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
+
+{% assign thumb_is_external = false %}
+{% if thumb_href contains '://' %}
+  {% assign thumb_is_external = true %}
+{% elsif thumb_href != '' %}
+  {% assign thumb_href = thumb_href | relative_url %}
+{% endif %}
+
+<header class="post-header library-header-band">
+  <div class="library-header-content">
+    <div class="library-header-main">
+      {% include library/breadcrumb.liquid %}
+
+      <h1 class="post-title library-item-title">{{ page.title }}</h1>
+
+      <p class="post-meta library-metadata-line">
+        {% assign needs_separator = false %}
+
+        {% assign year_text = page.year | default: '' | strip %}
+        {% if year_text != '' %}
+          <span class="library-meta-item">
+            <i class="fa-solid fa-calendar fa-sm" aria-hidden="true"></i>
+            <span>{{ year_text }}</span>
+          </span>
+          {% assign needs_separator = true %}
+        {% endif %}
+
+        {% assign location_text = page.location | default: '' | strip %}
+        {% if location_text != '' %}
+          {% if needs_separator %}<span class="library-meta-sep" aria-hidden="true"> · </span>{% endif %}
+          <span class="library-meta-item">
+            <i class="fa-solid fa-location-dot fa-sm" aria-hidden="true"></i>
+            <span>{{ location_text }}</span>
+          </span>
+          {% assign needs_separator = true %}
+        {% endif %}
+
+        {% assign institution_text = page.institution | default: page.venue | default: '' | strip %}
+        {% if page.authors and page.authors.size > 0 %}
+          {% if needs_separator %}<span class="library-meta-sep" aria-hidden="true"> · </span>{% endif %}
+          <span class="library-meta-item">
+            <i class="fa-solid fa-user fa-sm" aria-hidden="true"></i>
+            <span>{% for author in page.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+          </span>
+          {% assign needs_separator = true %}
+        {% elsif institution_text != '' %}
+          {% if needs_separator %}<span class="library-meta-sep" aria-hidden="true"> · </span>{% endif %}
+          <span class="library-meta-item">
+            <i class="fa-solid fa-building fa-sm" aria-hidden="true"></i>
+            <span>{{ institution_text }}</span>
+          </span>
+          {% assign needs_separator = true %}
+        {% endif %}
+
+        {% assign entry_type_text = page.entry_type | default: '' | strip %}
+        {% if entry_type_text != '' %}
+          {% if needs_separator %}<span class="library-meta-sep" aria-hidden="true"> · </span>{% endif %}
+          <span class="library-meta-item">
+            <i class="fa-solid fa-file-lines fa-sm" aria-hidden="true"></i>
+            <span>{{ entry_type_text }}</span>
+          </span>
+          {% assign needs_separator = true %}
+        {% endif %}
+
+        {% assign role_text = page.role | default: '' | strip %}
+        {% if role_text != '' %}
+          {% if needs_separator %}<span class="library-meta-sep" aria-hidden="true"> · </span>{% endif %}
+          <span class="library-meta-item">
+            <i class="fa-solid fa-user-tag fa-sm" aria-hidden="true"></i>
+            <span>{{ role_text | capitalize }}</span>
+          </span>
+        {% endif %}
+      </p>
+
+      {% assign standfirst_text = page.standfirst | default: '' | strip %}
+      {% if standfirst_text != '' %}
+        <p class="library-standfirst">{{ standfirst_text }}</p>
+      {% endif %}
+
+      {% include library/actions.liquid %}
+    </div>
+
+    <div class="library-header-preview">
+      {% capture thumbnail_inner %}
+        {% if preview_src != '' %}
+          <img
+            class="img-fluid library-thumbnail"
+            src="{{ preview_src }}"
+            alt="Cover image for {{ page.title }}"
+            width="300"
+            height="400"
+            loading="eager"
+            onerror="this.onerror=null; var s=this.src; if(s.indexOf('.jpeg')>-1){this.src=s.replace('.jpeg','.jpg');}else if(s.indexOf('.jpg')>-1){this.src=s.replace('.jpg','.png');}else{this.style.display='none';}"
+          >
+        {% else %}
+          {% include library/fallback_thumbnail.liquid %}
+        {% endif %}
+      {% endcapture %}
+
+      {% if thumb_href != '' %}
+        <a
+          href="{{ thumb_href }}"
+          class="library-thumbnail-link"
+          {% if thumb_is_external or thumb_href contains '/assets/pdf/' %}target="_blank" rel="noopener noreferrer"{% endif %}
+        >
+          {{ thumbnail_inner }}
+          <span class="visually-hidden">Open primary document for {{ page.title }}</span>
+        </a>
+      {% else %}
+        {{ thumbnail_inner }}
+      {% endif %}
+    </div>
+  </div>
+</header>

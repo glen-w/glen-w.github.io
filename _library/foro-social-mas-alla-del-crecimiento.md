@@ -1,30 +1,36 @@
 ---
-abstract: Un espacio de encuentro para construir democráticamente las bases de una
-  transición ecosocial justa que cuestione el capitalismo verde y proponga alternativas
-  más allá del crecimiento basadas en el decrecimiento y la economía del bienestar,
-  para superar el modelo económico actual en vías de colapso.
-authors: []
+layout: library-item
+title: Foro Social Mas Alla del Crecimiento
+date: '2026-02-01'
+entry_type: Workshop
+year: '2026'
 bibtex_key: ForoSocialMas2026
+is_event: true
+description: Un espacio de encuentro para construir democraticamente las bases de
+  una transicion ecosocial justa que cuestione el capitalismo verde y proponga alternativas
+  mas alla del crecimiento basadas en el decrecimiento y la economia del bienestar,
+  para superar el modelo economico…
+standfirst: Un espacio de encuentro para construir democraticamente las bases de una
+  transicion ecosocial justa que cuestione el capitalismo verde y proponga alternativas
+  mas alla del crecimiento basadas en el decrecimiento y la economia del bienestar,
+  para superar el modelo economico…
+abstract: Un espacio de encuentro para construir democraticamente las bases de una
+  transicion ecosocial justa que cuestione el capitalismo verde y proponga alternativas
+  mas alla del crecimiento basadas en el decrecimiento y la economia del bienestar,
+  para superar el modelo economico actual en vias de colapso.
 categories:
 - other
-date: 2026-February-01
-description: Un espacio de encuentro para construir democráticamente las bases de
-  una transición ecosocial justa que cuestione el capitalismo verde y proponga alternativas
-  más allá del crecimiento basadas en el de...
-entry_type: Workshop
-layout: library-item
 location: Universidad Autónoma de Madrid, Madrid, Spain
-tags: []
-title: Foro Social Más Allá del Crecimiento
+role: participant
+preview: 2026_foro_social_mas_alla_del_crecimiento
 url: https://beyondgrowth.es/foro-social-2026/
-venue: ''
-year: '2026'
+resources:
+- kind: landing
+  title: Visit event website
+  label: Visit event website
+  url: https://beyondgrowth.es/foro-social-2026/
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Location:** Universidad Autónoma de Madrid, Madrid, Spain
-
-## Links and Resources
-
-- [Original URL](https://beyondgrowth.es/foro-social-2026/)

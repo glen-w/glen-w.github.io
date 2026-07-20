@@ -1,28 +1,29 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Sumbission to Department of Industry: Energy White Paper'
+date: '2014-02-01'
+entry_type: Submission
+year: '2014'
+bibtex_key: byrneSumbissionDepartmentIndustry2014
+is_event: false
+description: 'Sumbission to Department of Industry: Energy White Paper'
+categories:
+- other
 authors:
 - Mark Byrne
 - Glen Wright
-bibtex_key: byrneSumbissionDepartmentIndustry2014
-categories:
-- other
-date: 2014-February-01
-description: 'Sumbission to Department of Industry: Energy White Paper'
-entry_type: Submission
-layout: library-item
-pdf: TEC EWP sub 6 Feb final.pdf
 publisher: Total Environment Centre
-tags: []
-title: 'Sumbission to Department of Industry: Energy White Paper'
-venue: ''
-year: '2014'
+role: co-author
+preview: 2014_sumbission_department_industry_energy_white
+pdf: 2014_sumbission_department_industry_energy_white.pdf
+resources:
+- kind: pdf
+  title: 'Sumbission to Department of Industry: Energy White Paper'
+  label: View primary document
+  url: /assets/pdf/2014_sumbission_department_industry_energy_white.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Mark Byrne, Glen Wright
-**Publisher:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](TEC EWP sub 6 Feb final.pdf)

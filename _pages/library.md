@@ -70,7 +70,7 @@ nav_order: 10
       <i class="fas fa-map-marker-alt"></i> view map
     </a>
     <a href="#" onclick="toggleSelectedPublications(); return false;" class="view-map-link" id="selectedToggleBtn">
-      <i class="fas fa-eye-slash"></i> hide selected publications
+      <i class="fas fa-eye"></i> show selected publications
     </a>
   </div>
 </div>
@@ -80,8 +80,8 @@ nav_order: 10
   <div id="libraryMap" class="library-map"></div>
 </div>
 
-<!-- Selected Publications Container -->
-<div id="selectedPublicationsContainer" class="selected-publications-container">
+<!-- Selected Publications Container (initially hidden) -->
+<div id="selectedPublicationsContainer" class="selected-publications-container" style="display: none;">
   <h2>selected publications</h2>
   {% include selected_papers.liquid %}
 </div>
@@ -404,8 +404,6 @@ document.addEventListener('DOMContentLoaded', function() {
           hideItemCount();
           clearActiveTags();
           isBadgeFiltering = false;
-          // Show selected publications when search is cleared
-          showSelectedPublications();
         }
       }, 100);
     });
@@ -562,9 +560,6 @@ function clearFilters() {
     searchInput.dispatchEvent(new Event('input', { bubbles: true }));
     // Remove active state from all tags
     clearActiveTags();
-    
-    // Show selected publications when filters are cleared
-    showSelectedPublications();
     
     // Hide item count after a delay to ensure clearing has taken effect
     setTimeout(() => {

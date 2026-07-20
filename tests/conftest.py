@@ -239,6 +239,162 @@ def mock_bibtexparser():
 
 
 # Pytest configuration
+@pytest.fixture
+def sample_library_entry() -> Dict[str, Any]:
+    """Rich sample entry for library page / front-matter generation."""
+    return {
+        'ID': 'wright2023ocean',
+        'ENTRYTYPE': 'article',
+        'type': 'article',
+        'title': '{Ocean} Governance Beyond National Jurisdiction',
+        'author': 'Wright, Glen and Doe, Jane',
+        'journal': 'Marine Policy',
+        'year': '2023',
+        'month': 'jun',
+        'abstract': (
+            'This paper examines governance frameworks for marine biodiversity '
+            'in areas beyond national jurisdiction.\n\n'
+            'It proposes options for a strong global agreement.'
+        ),
+        'keywords': 'ocean, governance, biodiversity, marine',
+        'doi': '10.1000/mp.2023.001',
+        'url': 'https://example.com/ocean-governance',
+        'pdf': 'wright_2023_ocean_governance.pdf',
+        'institution': 'IDDRI',
+        'address': 'Paris, France',
+        'annote': '[role]\nauthor\n[speakers]\nAlice Expert\n[quotes]\nOcean governance matters',
+    }
+
+
+@pytest.fixture
+def sample_event_entry() -> Dict[str, Any]:
+    """Sample event-like bibliography entry."""
+    return {
+        'ID': 'webinar2024bbnj',
+        'ENTRYTYPE': 'misc',
+        'type': 'misc',
+        'title': 'BBNJ Treaty Implementation Webinar',
+        'author': 'Wright, Glen',
+        'year': '2024',
+        'month': 'mar',
+        'keywords': 'webinar, ocean, bbnj',
+        'url': 'https://example.com/webinar',
+        'video': 'https://youtube.com/watch?v=abc123',
+        'annote': '[type]\nwebinar\n[role]\nmoderator\nspeaker\n[language]\nfrench',
+        'abstract': 'A webinar on implementing the high seas biodiversity treaty.',
+        'address': 'Online',
+    }
+
+
+@pytest.fixture
+def sample_library_bib_content() -> str:
+    """Multi-entry BibTeX string for library generation tests."""
+    return """
+@article{wright2023ocean,
+    title = {Ocean Governance Beyond National Jurisdiction},
+    author = {Wright, Glen and Doe, Jane},
+    journal = {Marine Policy},
+    year = {2023},
+    month = {jun},
+    abstract = {This paper examines governance frameworks for marine biodiversity.},
+    keywords = {ocean, governance, biodiversity},
+    doi = {10.1000/mp.2023.001},
+    url = {https://example.com/ocean-governance},
+    pdf = {wright_2023_ocean_governance.pdf}
+}
+
+@misc{webinar2024bbnj,
+    title = {BBNJ Treaty Implementation Webinar},
+    author = {Wright, Glen},
+    year = {2024},
+    month = {mar},
+    keywords = {webinar, ocean, bbnj},
+    url = {https://example.com/webinar},
+    annote = {[type]
+webinar
+[role]
+moderator
+[language]
+french}
+}
+
+@techreport{report2022energy,
+    title = {Renewable Energy Policy Brief},
+    author = {Smith, Alice},
+    institution = {Test Institute},
+    year = {2022},
+    month = {apr},
+    abstract = {A technical report on renewable energy policy.},
+    keywords = {energy, policy, report}
+}
+
+@inproceedings{conf2021marine,
+    title = {Marine Spatial Planning Challenges},
+    author = {Brown, Bob},
+    booktitle = {International Ocean Conference},
+    year = {2021},
+    month = {sep},
+    address = {Lisbon, Portugal},
+    keywords = {marine, conference}
+}
+
+@misc{blog2020notes,
+    title = {Notes from the Field},
+    author = {Davis, Emma},
+    year = {2020},
+    month = {dec},
+    note = {See https://example.com/field-notes for more.},
+    keywords = {blog, example}
+}
+"""
+
+
+@pytest.fixture
+def library_project_root(temp_dir) -> Path:
+    """Temporary project root with assets dirs for library rendering tests."""
+    for rel in (
+        '_bibliography',
+        '_library',
+        '_data',
+        'assets/pdf',
+        'assets/img/publication_preview',
+        'assets/img/publications',
+        'assets/zips',
+        'assets/audio',
+    ):
+        (temp_dir / rel).mkdir(parents=True, exist_ok=True)
+    return temp_dir
+
+
+@pytest.fixture
+def library_bib_file(library_project_root, sample_library_bib_content) -> Path:
+    """Write sample library BibTeX into a temp project root."""
+    bib = library_project_root / '_bibliography' / 'papers.bib'
+    bib.write_text(sample_library_bib_content, encoding='utf-8')
+    return bib
+
+
+@pytest.fixture
+def bib_parser():
+    """BibParser instance."""
+    from processing.library.bib_parser import BibParser
+    return BibParser()
+
+
+@pytest.fixture
+def content_generator():
+    """ContentGenerator instance."""
+    from processing.library.content_generator import ContentGenerator
+    return ContentGenerator()
+
+
+@pytest.fixture
+def tag_extractor():
+    """TagExtractor instance."""
+    from processing.core.tag_extractor import TagExtractor
+    return TagExtractor()
+
+
 def pytest_configure(config):
     """Configure pytest with custom markers."""
     config.addinivalue_line(
@@ -254,6 +410,21 @@ def pytest_configure(config):
         "markers", "bibtex_syntax: mark test as BibTeX syntax validation test"
     )
     config.addinivalue_line(
+        "markers", "library: mark test as a library/content rendering test"
+    )
+    config.addinivalue_line(
+        "markers", "rendering: mark test as a content rendering / front-matter test"
+    )
+    config.addinivalue_line(
+        "markers", "golden: mark test as a golden / exemplar end-to-end fixture"
+    )
+    config.addinivalue_line(
+        "markers", "corpus: mark test as a corpus-level invariant or zero-diff test"
+    )
+    config.addinivalue_line(
+        "markers", "jekyll: mark test as a Jekyll build / site contract test"
+    )
+    config.addinivalue_line(
         "markers", "slow: mark test as slow running"
     )
     config.addinivalue_line(
@@ -264,14 +435,17 @@ def pytest_configure(config):
 def pytest_collection_modifyitems(config, items):
     """Modify test collection to add markers based on file location."""
     for item in items:
-        # Add markers based on file location
-        if "unit" in str(item.fspath):
+        path = str(item.fspath)
+        if "/library/" in path or "\\library\\" in path:
+            item.add_marker(pytest.mark.library)
+        if "unit" in path:
             item.add_marker(pytest.mark.unit)
-        elif "integration" in str(item.fspath):
+        elif "integration" in path:
             item.add_marker(pytest.mark.integration)
-        elif "performance" in str(item.fspath):
+        elif "performance" in path:
             item.add_marker(pytest.mark.performance)
-        
-        # Add bibtex_syntax marker for syntax validation tests
-        if "syntax" in str(item.fspath) or "bibtex" in str(item.fspath):
+
+        if "syntax" in path or "bibtex" in path:
             item.add_marker(pytest.mark.bibtex_syntax)
+        if "content_generator" in path or "rendering" in path:
+            item.add_marker(pytest.mark.rendering)

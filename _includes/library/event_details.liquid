@@ -1,0 +1,98 @@
+{% comment %}
+  Event details panel — presentation only; gated by page.is_event.
+  Order: Date, Venue/location, Role, Speakers, Recording
+{% endcomment %}
+{% if page.is_event %}
+  {% assign has_date = page.date | to_s | strip | size | plus: 0 %}
+  {% assign has_year = page.year | to_s | strip | size | plus: 0 %}
+  {% assign location_text = page.location | default: '' | strip %}
+  {% assign venue_text = page.venue | default: '' | strip %}
+  {% assign role_text = page.role | default: '' | strip %}
+  {% assign speakers_count = page.speakers | size | default: 0 %}
+
+  {% assign recording_url = '' %}
+  {% if page.resources %}
+    {% for resource in page.resources %}
+      {% if resource.kind == 'video' %}
+        {% assign recording_url = resource.url %}
+        {% assign recording_label = resource.label %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% assign show_venue = false %}
+  {% if location_text != '' %}
+    {% assign show_venue = true %}
+  {% elsif venue_text != '' %}
+    {% assign show_venue = true %}
+  {% endif %}
+
+  {% if has_date > 0 or has_year > 0 or show_venue or role_text != '' or speakers_count > 0 or recording_url != '' %}
+    <section class="library-event-details" aria-labelledby="library-event-heading">
+      <h2 id="library-event-heading">Event details</h2>
+      <dl class="library-event-dl">
+        {% if has_date > 0 or has_year > 0 %}
+          <div class="library-event-row">
+            <dt>Date</dt>
+            <dd>
+              {% if page.date %}
+                {{ page.date | date: '%d %B %Y' }}
+              {% else %}
+                {{ page.year }}
+              {% endif %}
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if show_venue %}
+          <div class="library-event-row">
+            <dt>Venue</dt>
+            <dd>
+              {% if location_text != '' %}
+                {{ location_text }}
+              {% else %}
+                {{ venue_text }}
+              {% endif %}
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if role_text != '' %}
+          <div class="library-event-row">
+            <dt>Role</dt>
+            <dd>{{ role_text | capitalize }}</dd>
+          </div>
+        {% endif %}
+
+        {% if speakers_count > 0 %}
+          <div class="library-event-row">
+            <dt>Speakers</dt>
+            <dd>
+              <ul class="library-event-speakers">
+                {% for speaker in page.speakers %}
+                  {% assign speaker_text = speaker | strip %}
+                  {% if speaker_text != '' %}
+                    <li>{{ speaker_text }}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </dd>
+          </div>
+        {% endif %}
+
+        {% if recording_url != '' %}
+          <div class="library-event-row">
+            <dt>Recording</dt>
+            <dd>
+              <a href="{{ recording_url }}" target="_blank" rel="noopener noreferrer">
+                {{ recording_label | default: 'Watch recording' }}
+                <span aria-hidden="true">↗</span>
+                <span class="visually-hidden"> (opens in a new tab)</span>
+              </a>
+            </dd>
+          </div>
+        {% endif %}
+      </dl>
+    </section>
+  {% endif %}
+{% endif %}

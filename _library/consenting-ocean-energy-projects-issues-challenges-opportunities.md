@@ -1,30 +1,41 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Consenting ocean energy projects: Issues, challenges and opportunities'
+date: '2017-01-01'
+entry_type: Book chapter
+year: '2017'
+bibtex_key: Johnson2017
+is_event: false
+description: 'Consenting ocean energy projects: Issues, challenges and opportunities'
+categories:
+- other
 authors:
 - Anne-Marie O'Hagan
 - Glen Wright
-bibtex_key: Johnson2017
-categories:
-- other
-date: '2017-01-01'
-description: 'Consenting ocean energy projects: Issues, challenges and opportunities'
-entry_type: Book chapter
-layout: library-item
-pdf: O'Hagan and Wright - 2017 - Consenting ocean energy projects Issues, challenges
-  and opportunities.pdf
-publisher: Earthscan
-tags: []
-title: 'Consenting ocean energy projects: Issues, challenges and opportunities'
 venue: 'Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies'
-year: '2017'
+publisher: Earthscan
+role: co-author
+preview: 2017_marine_planning_ocean_energy_perspective
+pdf: 2017_consenting_ocean_energy_projects_issues_challenges_opportunities.pdf
+zip_archive: 2017_marine_planning_ocean_energy_perspective_a.zip
+zip_file_count: '1'
+zip_file_size_mb: '0.4'
+resources:
+- kind: pdf
+  title: 'Consenting ocean energy projects: Issues, challenges and opportunities'
+  label: View primary document
+  url: /assets/pdf/2017_consenting_ocean_energy_projects_issues_challenges_opportunities.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/2017_marine_planning_ocean_energy_perspective_a.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 1 files · 0.4 MB
 ---
 
-## Publication Details
-
-**Authors:** Anne-Marie O'Hagan, Glen Wright
-**Venue:** Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies
-**Publisher:** Earthscan
-
-## Links and Resources
-
-- [PDF](O'Hagan and Wright - 2017 - Consenting ocean energy projects Issues, challenges and opportunities.pdf)

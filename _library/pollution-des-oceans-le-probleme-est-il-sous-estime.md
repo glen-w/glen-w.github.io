@@ -1,21 +1,29 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: 'Pollution des oceans: le probleme est-il sous-estime ?'
+date: '2018-06-01'
+entry_type: Radio
+year: '2018'
 bibtex_key: PollutionOceansProbleme2018
+is_event: false
+description: 'Pollution des oceans: le probleme est-il sous-estime ?'
 categories:
 - other
-date: 2018-June-01
-description: 'Pollution des océans: le problème est-il sous-estimé ?'
-entry_type: Radio
-layout: library-item
-location: Paris, France
-tags: []
-title: 'Pollution des océans: le problème est-il sous-estimé ?'
 venue: Radio France International
-year: '2018'
+location: Paris, France
+role: interview
+preview: 2018_pollution_des_oceans_le_probleme_est_il_sous_estime
+zip_archive: 2018_pollution_des_oceans_le_probleme_est_il_sous_estime_a.zip
+zip_file_count: '1'
+zip_file_size_mb: '8.8'
+resources:
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/2018_pollution_des_oceans_le_probleme_est_il_sous_estime_a.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 1 files · 8.8 MB
 ---
 
-## Publication Details
-
-**Venue:** Radio France International
-**Location:** Paris, France

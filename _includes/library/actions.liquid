@@ -1,0 +1,79 @@
+{% comment %}
+  Primary / secondary actions from page.resources only.
+{% endcomment %}
+{% assign resources_count = page.resources | size | default: 0 %}
+{% if resources_count > 0 %}
+  {% assign primary_resource = nil %}
+  {% for resource in page.resources %}
+    {% if resource.primary %}
+      {% assign primary_resource = resource %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign has_secondary = false %}
+  {% for resource in page.resources %}
+    {% if resource.kind == 'landing' or resource.kind == 'video' %}
+      {% assign skip = false %}
+      {% if primary_resource and resource.url == primary_resource.url %}
+        {% assign skip = true %}
+      {% endif %}
+      {% unless skip %}
+        {% assign has_secondary = true %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  {% if primary_resource or has_secondary %}
+    <div class="library-actions" role="group" aria-label="Document actions">
+      {% if primary_resource %}
+        {% assign primary_href = primary_resource.url %}
+        {% unless primary_href contains '://' %}
+          {% assign primary_href = primary_resource.url | relative_url %}
+        {% endunless %}
+        <a
+          href="{{ primary_href }}"
+          class="library-btn library-btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {% if primary_resource.format == 'PDF' %}
+            <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+          {% else %}
+            <i class="fa-solid fa-file" aria-hidden="true"></i>
+          {% endif %}
+          <span>{{ primary_resource.label }}</span>
+          <span class="visually-hidden">(opens in a new tab)</span>
+        </a>
+      {% endif %}
+
+      {% for resource in page.resources %}
+        {% if resource.kind == 'video' or resource.kind == 'landing' %}
+          {% assign skip = false %}
+          {% if primary_resource and resource.url == primary_resource.url %}
+            {% assign skip = true %}
+          {% endif %}
+          {% unless skip %}
+            {% assign secondary_href = resource.url %}
+            {% unless secondary_href contains '://' %}
+              {% assign secondary_href = resource.url | relative_url %}
+            {% endunless %}
+            <a
+              href="{{ secondary_href }}"
+              class="library-btn library-btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {% if resource.kind == 'video' %}
+                <i class="fa-solid fa-play" aria-hidden="true"></i>
+              {% else %}
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              {% endif %}
+              <span>{{ resource.label }}{% if resource.external %} <span aria-hidden="true">↗</span>{% endif %}</span>
+              <span class="visually-hidden"> (opens in a new tab)</span>
+            </a>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endif %}

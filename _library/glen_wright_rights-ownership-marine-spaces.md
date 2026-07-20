@@ -1,26 +1,28 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: Rights and Ownership in Marine Spaces
+date: '2014-11-01'
+entry_type: Webinar
+year: '2014'
 bibtex_key: wrightRightsOwnershipMarine2014
+is_event: true
+description: Rights and Ownership in Marine Spaces
 categories:
 - other
-date: 2014-November-01
-description: Rights and Ownership in Marine Spaces
-entry_type: Webinar
-layout: library-item
-pdf: Issmer-seminar-glen-wright.pdf
-tags: []
-title: Rights and Ownership in Marine Spaces
+authors:
+- Glen Wright
 venue: International network for Social Studies of Marine Energy (ISSMER) Seminar
-year: '2014'
+role: speaker
+preview: glen_wright_2014_rights_ownership_marine_spaces
+pdf: glen_wright_2014_rights_ownership_marine_spaces.pdf
+resources:
+- kind: pdf
+  title: Rights and Ownership in Marine Spaces
+  label: View primary document
+  url: /assets/pdf/glen_wright_2014_rights_ownership_marine_spaces.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** International network for Social Studies of Marine Energy (ISSMER) Seminar
-
-## Links and Resources
-
-- [PDF](Issmer-seminar-glen-wright.pdf)

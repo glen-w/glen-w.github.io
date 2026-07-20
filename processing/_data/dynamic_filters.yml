@@ -21,7 +21,7 @@ entry_type_counts:
   Journal Article: 37
   Newspaper: 27
   Conference: 45
-  Report: 61
+  Report: 62
   Report Section: 6
   Book Chapter: 6
   Oped: 2
@@ -32,7 +32,7 @@ entry_type_counts:
   Submission: 27
   Poster: 3
   Side Event: 10
-  Book: 2
+  Book: 3
   Fellowship: 1
   Radio: 3
   Negotiation: 13
@@ -50,15 +50,15 @@ role_tags:
 - quoted
 - speaker
 role_tag_counts:
-  lead author: 27
+  lead author: 28
   author: 76
   speaker: 82
   co-author: 68
   facilitator: 25
   organiser: 31
   participant: 27
-  interview: 23
-  quoted: 17
+  interview: 24
+  quoted: 18
   attendee: 19
   delegate: 17
   moderator: 1

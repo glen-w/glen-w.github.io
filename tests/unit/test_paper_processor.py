@@ -39,19 +39,23 @@ class TestPaperProcessor:
     
     def test_check_dependencies_all_present(self, processor):
         """Test check_dependencies when all dependencies are available."""
-        with patch('processing.core.paper_processor.PyPDF2'), \
-             patch('processing.core.paper_processor.bibtexparser'), \
-             patch('processing.core.paper_processor.requests'), \
-             patch('processing.core.paper_processor.PIL'):
+        real_import = __import__
+
+        def fake_import(name, *args, **kwargs):
+            if name in ('PyPDF2', 'bibtexparser', 'requests', 'PIL'):
+                return MagicMock()
+            return real_import(name, *args, **kwargs)
+
+        with patch('builtins.__import__', side_effect=fake_import):
             result = processor.check_dependencies()
             assert result is True
-    
+
     def test_check_dependencies_missing(self, processor):
         """Test check_dependencies when dependencies are missing."""
         with patch('builtins.__import__', side_effect=ImportError("No module named 'PyPDF2'")):
             result = processor.check_dependencies()
             assert result is False
-    
+
     @patch('shutil.copy2')
     def test_copy_source_to_working_success(self, mock_copy, processor):
         """Test copying source file to working file."""
@@ -93,14 +97,17 @@ class TestPaperProcessor:
         """Test cleanup of existing files in regenerate mode."""
         mock_exists.return_value = True
         mock_listdir.side_effect = [
-            ['file1.pdf', 'file2.pdf'],  # PDF_DIR
-            ['thumb1.jpg', 'thumb2.jpg']  # PREVIEW_DIR
+            ['file1.pdf', 'file2.pdf'],       # PDF_DIR
+            ['thumb1.jpg', 'thumb2.jpg'],     # PREVIEW_DIR
+            ['a.zip'],                        # ZIP_DIR
+            ['img.jpg'],                      # IMAGES_DIR
+            ['clip.mp3'],                     # AUDIO_DIR
         ]
         
         processor._cleanup_existing_files()
         
-        assert mock_remove.call_count == 4  # 2 PDFs + 2 thumbnails
-    
+        assert mock_remove.call_count == 7  # 2 PDFs + 2 thumbs + 1 zip + 1 image + 1 audio
+
     @patch.object(PaperProcessor, '_read_bibtex_file')
     @patch.object(PaperProcessor, '_process_entries')
     @patch('builtins.open', new_callable=mock_open)
@@ -128,49 +135,48 @@ class TestPaperProcessor:
         
         # Should return early without processing
     
-    @patch.object(PaperProcessor, 'entry_processor')
-    @patch.object(PaperProcessor, 'bibtex_processor')
-    def test_process_entries_delegates_to_entry_processor(self, mock_bibtex, mock_entry, processor):
+    def test_process_entries_delegates_to_entry_processor(self, processor):
         """Test that _process_entries delegates to entry_processor."""
-        mock_bibtex.parse_bibtex_entries.return_value = [
-            {'citation_key': 'test2023', 'fields': {'title': 'Test'}, 'content': '@article{test2023, title = {Test}}'}
-        ]
-        mock_entry.process_entry.return_value = True
-        
-        processor._process_entries(
-            working_file="test.bib",
-            regenerate=False,
-            force=False,
-            incremental=False,
-            update_metadata=True,
-            thumbnail_size='600x',
-            test_mode=True,
-            test_count=1,
-            verbose=False,
-            force_refetch_metadata=False,
-            rename_urls=True,
-            rename_only=False,
-            update_pdf_metadata=False,
-            content="@article{test2023, title = {Test}}",
-        )
-        
-        mock_entry.process_entry.assert_called_once()
+        with patch.object(processor, 'bibtex_processor') as mock_bibtex, \
+             patch.object(processor, 'entry_processor') as mock_entry:
+            mock_bibtex.parse_bibtex_entries.return_value = [
+                {'citation_key': 'test2023', 'fields': {'title': 'Test'}, 'content': '@article{test2023, title = {Test}}'}
+            ]
+            mock_bibtex.clean_malformed_entries.side_effect = lambda c: c
+            mock_bibtex.process_notes_from_zotero.side_effect = lambda c: c
+            mock_entry.process_entry.return_value = True
+            
+            processor._process_entries(
+                working_file="test.bib",
+                regenerate=False,
+                force=False,
+                incremental=False,
+                update_metadata=True,
+                thumbnail_size='600x',
+                test_mode=True,
+                test_count=1,
+                verbose=False,
+                force_refetch_metadata=False,
+                rename_urls=True,
+                rename_only=False,
+                update_pdf_metadata=False,
+                content="@article{test2023, title = {Test}}",
+            )
+            
+            mock_entry.process_entry.assert_called_once()
     
-    @patch.object(PaperProcessor, 'file_field_manager')
-    def test_clean_file_field_in_content(self, mock_manager, processor):
+    def test_clean_file_field_in_content(self, processor):
         """Test cleaning file field in BibTeX content."""
-        mock_manager.replace_with_processed.return_value = "PDF:/assets/pdf/file.pdf:application/pdf"
-        
-        content = "@article{test, file = {PDF:/old/path.pdf:application/pdf}, title = {Test}}"
-        result = processor._clean_file_field_in_content(content, {'pdf': 'file.pdf'})
-        
-        assert "PDF:/assets/pdf/file.pdf:application/pdf" in result
-        mock_manager.replace_with_processed.assert_called_once()
+        with patch.object(processor, 'file_field_manager') as mock_manager:
+            mock_manager.replace_with_processed.return_value = "PDF:/assets/pdf/file.pdf:application/pdf"
+            
+            content = "@article{test, file = {PDF:/old/path.pdf:application/pdf}, title = {Test}}"
+            result = processor._clean_file_field_in_content(content, {'pdf': 'file.pdf'})
+            
+            assert "PDF:/assets/pdf/file.pdf:application/pdf" in result
+            mock_manager.replace_with_processed.assert_called_once()
     
-    @patch.object(PaperProcessor, 'bibtex_processor')
-    @patch.object(PaperProcessor, 'formatter')
-    @patch('builtins.open', new_callable=mock_open)
-    def test_write_updated_bibtex_from_entries(self, mock_file, mock_formatter, mock_bibtex, processor):
+    def test_write_updated_bibtex_from_entries(self, processor):
         """Test writing updated BibTeX from entries."""
         entries = [
             {
@@ -179,13 +185,16 @@ class TestPaperProcessor:
                 'content': '@article{test2023, title = {Test}}'
             }
         ]
-        mock_bibtex.rename_url_fields.return_value = ("@article{test2023, title = {Test}}", 0)
-        mock_formatter.format_entry_from_content.return_value = "@article{test2023, title = {Test}}"
-        
-        processor._write_updated_bibtex_from_entries(entries, "test.bib", rename_urls=True)
-        
-        mock_file.assert_called()
-        mock_bibtex.rename_url_fields.assert_called_once()
+        with patch.object(processor, 'bibtex_processor') as mock_bibtex, \
+             patch.object(processor, 'formatter') as mock_formatter, \
+             patch('builtins.open', new_callable=mock_open) as mock_file:
+            mock_bibtex.rename_url_fields.return_value = ("@article{test2023, title = {Test}}", 0)
+            mock_formatter.format_entry_from_content.return_value = "@article{test2023, title = {Test}}"
+            
+            processor._write_updated_bibtex_from_entries(entries, "test.bib", rename_urls=True)
+            
+            mock_file.assert_called()
+            mock_bibtex.rename_url_fields.assert_called_once()
     
     def test_update_entry_content_adds_new_fields(self, processor):
         """Test that _update_entry_content adds new fields."""

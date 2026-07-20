@@ -1,4 +1,20 @@
 ---
+layout: library-item
+title: Options for Strengthening Monitoring, Control and Surveillance of Human Activities
+  in the Southeast Pacific Region
+date: '2020-01-01'
+entry_type: Report
+year: '2020'
+bibtex_key: cremersOptionsStrengtheningMonitoring2020
+is_event: false
+description: 'This report provides an overview of a range of ongoing initiatives to
+  improve governance of ABNJ at the regional level, including: novel modalities, such
+  as the “Collective Arrange- ment for the North-East Atlantic”, whereby the OSPAR
+  Commission and the North East Atlantic…'
+standfirst: 'This report provides an overview of a range of ongoing initiatives to
+  improve governance of ABNJ at the regional level, including: novel modalities, such
+  as the “Collective Arrange- ment for the North-East Atlantic”, whereby the OSPAR
+  Commission and the North East Atlantic…'
 abstract: 'This report provides an overview of a range of ongoing initiatives to improve
   governance of ABNJ at the regional level, including: novel modalities, such as the
   “Collective Arrange- ment for the North-East Atlantic”, whereby the OSPAR Commission
@@ -16,38 +32,35 @@ abstract: 'This report provides an overview of a range of ongoing initiatives to
   to drive the process and garner support for improved management; and the importance
   of developing a dynamic science-policy interface that can provide policy-relevant
   scientific information to decision makers and stakeholders.'
+categories:
+- other
 authors:
 - Klaudija Cremers
 - Glen Wright
 - Julien Rochette
-bibtex_key: cremersOptionsStrengtheningMonitoring2020
-categories:
-- other
-date: '2020-01-01'
-description: 'This report provides an overview of a range of ongoing initiatives to
-  improve governance of ABNJ at the regional level, including: novel modalities, such
-  as the “Collective Arrange- ment for the North...'
-entry_type: Report
-institution: STRONG High Seas
-layout: library-item
-pages: '46'
-pdf: STRONG-HS-MCS-CPPS-Report-1.pdf
-tags: []
-title: Options for Strengthening Monitoring, Control and Surveillance of Human Activities
-  in the Southeast Pacific Region
-url: https://www.iddri.org/en/publications-and-events/report/regional-ocean-governance-areas-beyond-national-jurisdiction-lessons
 venue: STRONG High Seas
-year: '2020'
+institution: STRONG High Seas
+role: co-author
+preview: 2020_options_strengthening_monitoring_control_surveillance_human_activities_southeast_pacific_region
+pdf: 2020_options_strengthening_monitoring_control_surveillance_human_activities_southeast_pacific_region_a.pdf
+url: https://www.iddri.org/en/publications-and-events/report/regional-ocean-governance-areas-beyond-national-jurisdiction-lessons
+pages: '46'
+resources:
+- kind: pdf
+  title: Options for Strengthening Monitoring, Control and Surveillance of Human Activities
+    in the Southeast Pacific Region
+  label: View report PDF
+  url: /assets/pdf/2020_options_strengthening_monitoring_control_surveillance_human_activities_southeast_pacific_region_a.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit STRONG High Seas publication page
+  label: Visit STRONG High Seas publication page
+  url: https://www.iddri.org/en/publications-and-events/report/regional-ocean-governance-areas-beyond-national-jurisdiction-lessons
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Klaudija Cremers, Glen Wright, Julien Rochette
-**Venue:** STRONG High Seas
-**Pages:** 46
-**Institution:** STRONG High Seas
-
-## Links and Resources
-
-- [Original URL](https://www.iddri.org/en/publications-and-events/report/regional-ocean-governance-areas-beyond-national-jurisdiction-lessons)
-- [PDF](STRONG-HS-MCS-CPPS-Report-1.pdf)

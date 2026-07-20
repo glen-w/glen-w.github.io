@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: Achieving the Sustainable Development Goal for the Oceans
+date: '2017-01-01'
+entry_type: Report
+year: '2017'
+bibtex_key: Unger2017a
+is_event: false
+description: The United Nations 2030 Agenda for Sustainable Development and its comprehensive
+  set of 17 interlinking Sustainable Development Goals (SDGs) offer a unique opportunity
+  to advance ocean sustainability.
+standfirst: The United Nations 2030 Agenda for Sustainable Development and its comprehensive
+  set of 17 interlinking Sustainable Development Goals (SDGs) offer a unique opportunity
+  to advance ocean sustainability.
 abstract: 'The United Nations 2030 Agenda for Sustainable Development and its comprehensive
   set of 17 interlinking Sustainable Development Goals (SDGs) offer a unique opportunity
   to advance ocean sustainability. The development of a robust implementation framework
@@ -12,42 +25,39 @@ abstract: 'The United Nations 2030 Agenda for Sustainable Development and its co
   in global ambition, the global community should now agree on concrete steps to develop
   coherent regional and international implementation frameworks for achieving oceans
   sustainability. To advance these efforts, this policy brief offers three key recommendations:'
+categories:
+- other
 authors:
 - Sebastian Unger
-- Alexander Müller
+- Alexander Muller
 - Julien Rochette
 - Stefanie Schmidt
 - Janna Shackeroff
 - Glen Wright
-bibtex_key: Unger2017a
-categories:
-- other
-date: '2017-01-01'
-description: The United Nations 2030 Agenda for Sustainable Development and its comprehensive
-  set of 17 interlinking Sustainable Development Goals (SDGs) offer a unique opportunity
-  to advance ocean sustainability....
-entry_type: Report
+venue: IASS
 institution: IASS
-layout: library-item
-pages: 1--12
-pdf: Unger et al. - Achieving the Sustainable Development Goal for the Oceans - 2017
-  - IASS Policy Brief 1.pdf
-tags: []
-title: Achieving the Sustainable Development Goal for the Oceans
+role: co-author
+preview: 2017_achieving_sustainable_development_goal_oceans
+pdf: 2017_achieving_sustainable_development_goal_oceans.pdf
 url: 'http://publications.iass-potsdam.de/pubman/item/escidoc:2041892:3&title=eSciDoc
   PubMan: Achieving the Sustainable Development Goal for the Oceans'
-venue: IASS
-year: '2017'
+pages: 1--12
+resources:
+- kind: pdf
+  title: Achieving the Sustainable Development Goal for the Oceans
+  label: View report PDF
+  url: /assets/pdf/2017_achieving_sustainable_development_goal_oceans.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit IASS publication page
+  label: Visit IASS publication page
+  url: 'http://publications.iass-potsdam.de/pubman/item/escidoc:2041892:3&title=eSciDoc
+    PubMan: Achieving the Sustainable Development Goal for the Oceans'
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Sebastian Unger, Alexander Müller, Julien Rochette, Stefanie Schmidt, Janna Shackeroff, Glen Wright
-**Venue:** IASS
-**Pages:** 1--12
-**Institution:** IASS
-
-## Links and Resources
-
-- [Original URL](http://publications.iass-potsdam.de/pubman/item/escidoc:2041892:3&title=eSciDoc PubMan: Achieving the Sustainable Development Goal for the Oceans)
-- [PDF](Unger et al. - Achieving the Sustainable Development Goal for the Oceans - 2017 - IASS Policy Brief 1.pdf)

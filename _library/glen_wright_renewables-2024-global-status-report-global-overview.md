@@ -1,4 +1,16 @@
 ---
+layout: library-item
+title: Renewables 2024 Global Status Report, Global Overview
+date: '2024-04-01'
+entry_type: Webinar
+year: '2024'
+bibtex_key: wrightRenewables2024Global2024
+is_event: true
+description: Policy responses to geopolitical developments and global commitments
+  accelerated the deployment and use of renewable energy in 2023, especially in the
+  power sector.
+standfirst: Policy responses to geopolitical developments and global commitments accelerated
+  the deployment and use of renewable energy in 2023, especially in the power sector.
 abstract: "Policy responses to geopolitical developments and global commitments accelerated\
   \ the deployment and use of renewable energy in 2023, especially in the power sector.\
   \ \n\nThe historic decision at the 2023 United Nations Climate Change Conference\
@@ -11,28 +23,21 @@ abstract: "Policy responses to geopolitical developments and global commitments 
   \ energy projects are significantly more expensive in developing countries and large\
   \ bottlenecks persist in permitting, infrastructure and connecting renewables to\
   \ grids."
-authors:
-- Glen Wright
-bibtex_key: wrightRenewables2024Global2024
 categories:
 - other
-date: 2024-April-01
-description: "Policy responses to geopolitical developments and global commitments\
-  \ accelerated the deployment and use of renewable energy in 2023, especially in\
-  \ the power sector. \n\nThe historic decision at the 2023..."
-entry_type: Webinar
-layout: library-item
-pdf: GSR2024_GO_presentation.pdf
-tags: []
-title: Renewables 2024 Global Status Report, Global Overview
-venue: ''
-year: '2024'
+authors:
+- Glen Wright
+role: speaker
+preview: glen_wright_2024_renewables_2024_global_status_report_global_overview
+pdf: glen_wright_2024_renewables_2024_global_status_report_global_overview.pdf
+resources:
+- kind: pdf
+  title: Renewables 2024 Global Status Report, Global Overview
+  label: View primary document
+  url: /assets/pdf/glen_wright_2024_renewables_2024_global_status_report_global_overview.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-
-## Links and Resources
-
-- [PDF](GSR2024_GO_presentation.pdf)

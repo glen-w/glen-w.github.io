@@ -1,0 +1,69 @@
+{% comment %}
+  Existing gallery rendering extracted unchanged; same page.gallery data contract.
+{% endcomment %}
+{% if page.gallery %}
+  {% assign gallery_count = 0 %}
+  {% for image in page.gallery %}
+    {% assign image_lower = image | downcase %}
+    {% unless image_lower contains 'thumbnail' %}
+      {% assign gallery_count = gallery_count | plus: 1 %}
+    {% endunless %}
+  {% endfor %}
+  {% if gallery_count > 0 %}
+    <div class="library-gallery">
+      <h2>Gallery</h2>
+      <div class="row library-gallery-grid">
+        {% assign gallery_index = 0 %}
+        {% for image in page.gallery %}
+          {% assign image_lower = image | downcase %}
+          {% unless image_lower contains 'thumbnail' %}
+            {% comment %}Extract filename, handling both path and filename-only formats{% endcomment %}
+            {% assign gallery_filename = image | split: '/' | last %}
+            {% comment %}Try common image extensions if no extension present{% endcomment %}
+            {% unless gallery_filename contains '.' %}
+              {% assign gallery_filename = gallery_filename | append: '.jpg' %}
+            {% endunless %}
+            {% assign gallery_url = gallery_filename | prepend: '/assets/img/publications/' | relative_url %}
+            <div class="col-md-4 col-sm-6 mb-3">
+              <img src="{{ gallery_url }}"
+                   alt="{{ page.title }} image {{ gallery_index | plus: 1 }}"
+                   class="img-fluid rounded library-gallery-image"
+                   data-gallery-type="library-gallery"
+                   data-gallery-index="{{ gallery_index }}"
+                   style="cursor: pointer;"
+                   onerror="this.onerror=null; this.src=this.src.replace('.jpg', '.jpeg'); this.onerror=function(){this.src=this.src.replace('.jpeg', '.png'); this.onerror=function(){this.style.display='none';};};">
+            </div>
+            {% assign gallery_index = gallery_index | plus: 1 %}
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+    <script>
+    (function() {
+      const galleryImages = document.querySelectorAll('.library-gallery-image');
+      if (galleryImages.length > 0) {
+        galleryImages.forEach(function(img, index) {
+          img.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const galleryImagesList = [];
+            galleryImages.forEach(function(galleryImg) {
+              galleryImagesList.push({
+                src: galleryImg.src,
+                alt: galleryImg.alt || '{{ page.title | escape }}'
+              });
+            });
+
+            if (typeof openImageModal === 'function') {
+              openImageModal(img.src, img.alt || '{{ page.title | escape }}', galleryImagesList, index);
+            } else {
+              console.error('openImageModal function not found. Make sure common.js is loaded.');
+            }
+          });
+        });
+      }
+    })();
+    </script>
+  {% endif %}
+{% endif %}

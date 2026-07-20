@@ -1,27 +1,26 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: High seas governance and fisheries management
+date: '2018-05-01'
+entry_type: Workshop
+year: '2018'
 bibtex_key: HighSeasGovernance2018
+is_event: true
+description: High seas governance and fisheries management
 categories:
 - other
-date: '2018-05-01'
-description: High seas governance and fisheries management
-entry_type: Workshop
-layout: library-item
 location: Paris, France
-pdf: agenda_participants_final.pdf
 publisher: IDDRI
-tags: []
-title: High seas governance and fisheries management
-venue: ''
-year: '2018'
+role: organiser
+preview: 2018_high_seas_governance_fisheries_management
+agenda: 2018_high_seas_governance_fisheries_management_agenda.pdf
+resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2018_high_seas_governance_fisheries_management_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 ---
 
-## Publication Details
-
-**Location:** Paris, France
-**Publisher:** IDDRI
-
-## Links and Resources
-
-- [PDF](agenda_participants_final.pdf)

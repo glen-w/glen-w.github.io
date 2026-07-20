@@ -182,67 +182,68 @@ class TestEntryProcessor:
         
         assert result is False
     
-    @patch.object(EntryProcessor, 'bibtex_processor')
-    @patch.object(EntryProcessor, '_process_pdfs')
-    @patch.object(EntryProcessor, '_process_images')
-    @patch.object(EntryProcessor, '_process_thumbnails_with_priority')
-    def test_process_entry_files_no_file_field(self, mock_thumbnails, mock_images, mock_pdfs, mock_bibtex, entry_processor):
+    def test_process_entry_files_no_file_field(self, entry_processor):
         """Test process_entry_files when no file field exists."""
         fields = {'title': 'Test'}
         
-        result = entry_processor.process_entry_files(
-            'test2023', fields, regenerate=False, force=False, incremental=False,
-            thumbnail_size='600x', verbose=False, update_pdf_metadata=False
-        )
-        
-        assert result is True
-        mock_pdfs.assert_not_called()
+        with patch.object(entry_processor, '_process_pdfs') as mock_pdfs:
+            result = entry_processor.process_entry_files(
+                'test2023', fields, regenerate=False, force=False, incremental=False,
+                thumbnail_size='600x', verbose=False, update_pdf_metadata=False
+            )
+            
+            assert result is True
+            mock_pdfs.assert_not_called()
     
-    @patch.object(EntryProcessor, 'bibtex_processor')
-    @patch.object(EntryProcessor, '_process_pdfs')
-    @patch.object(EntryProcessor, '_process_images')
-    @patch.object(EntryProcessor, '_process_thumbnails_with_priority')
-    @patch.object(EntryProcessor, 'file_field_manager')
-    def test_process_entry_files_success(self, mock_manager, mock_thumbnails, mock_images, mock_pdfs, mock_bibtex, entry_processor):
+    def test_process_entry_files_success(self, entry_processor):
         """Test process_entry_files successfully."""
-        mock_bibtex.extract_pdf_files.return_value = ['/path/to/file.pdf']
-        mock_bibtex.extract_image_files.return_value = []
-        mock_bibtex.extract_agenda_pdfs.return_value = []
-        mock_bibtex.extract_slides_pdfs.return_value = []
-        mock_bibtex.extract_audio_files.return_value = []
-        mock_pdfs.return_value = True
-        mock_images.return_value = True
-        mock_thumbnails.return_value = True
-        mock_manager.replace_with_processed.return_value = "PDF:/assets/pdf/file.pdf:application/pdf"
-        
-        fields = {'file': 'PDF:/path/to/file.pdf:application/pdf'}
-        
-        result = entry_processor.process_entry_files(
-            'test2023', fields, regenerate=False, force=False, incremental=False,
-            thumbnail_size='600x', verbose=False, update_pdf_metadata=False
-        )
-        
-        assert result is True
-        mock_pdfs.assert_called_once()
+        with patch.object(entry_processor, 'bibtex_processor') as mock_bibtex, \
+             patch.object(entry_processor, '_process_pdfs') as mock_pdfs, \
+             patch.object(entry_processor, '_process_agenda_pdfs', return_value=True), \
+             patch.object(entry_processor, '_process_slides_pdfs', return_value=True), \
+             patch.object(entry_processor, '_process_images') as mock_images, \
+             patch.object(entry_processor, '_process_audio_files', return_value=True), \
+             patch.object(entry_processor, '_process_thumbnails_with_priority') as mock_thumbnails, \
+             patch.object(entry_processor, 'file_field_manager') as mock_manager, \
+             patch.object(entry_processor, 'zip_archive_generator') as mock_zip:
+            mock_bibtex.extract_pdf_files.return_value = ['/path/to/file.pdf']
+            mock_bibtex.extract_image_files.return_value = []
+            mock_bibtex.extract_agenda_pdfs.return_value = []
+            mock_bibtex.extract_slides_pdfs.return_value = []
+            mock_bibtex.extract_audio_files.return_value = []
+            mock_pdfs.return_value = True
+            mock_images.return_value = True
+            mock_thumbnails.return_value = True
+            mock_manager.replace_with_processed.return_value = "PDF:/assets/pdf/file.pdf:application/pdf"
+            mock_zip.create_archive.return_value = None
+            
+            fields = {'file': 'PDF:/path/to/file.pdf:application/pdf'}
+            
+            result = entry_processor.process_entry_files(
+                'test2023', fields, regenerate=False, force=False, incremental=False,
+                thumbnail_size='600x', verbose=False, update_pdf_metadata=False
+            )
+            
+            assert result is True
+            mock_pdfs.assert_called_once()
     
-    @patch('os.path.exists')
-    @patch.object(EntryProcessor, 'file_manager')
-    @patch.object(EntryProcessor, 'text_processor')
-    def test_process_single_pdf_success(self, mock_text, mock_file, mock_exists, entry_processor):
+    def test_process_single_pdf_success(self, entry_processor):
         """Test processing a single PDF file."""
-        mock_exists.return_value = True
-        mock_text.generate_filename.return_value = 'test.pdf'
-        mock_file.copy_file.return_value = True
-        
-        fields = {}
-        result = entry_processor._process_single_pdf(
-            'test2023', fields, '/path/to/file.pdf',
-            regenerate=False, force=False, verbose=False,
-            update_pdf_metadata=False, session_filenames=set()
-        )
-        
-        assert result is True
-        assert fields['pdf'] == 'test.pdf'
+        with patch('os.path.exists', return_value=True), \
+             patch.object(entry_processor, 'file_manager') as mock_file, \
+             patch.object(entry_processor, 'text_processor') as mock_text:
+            mock_text.generate_filename.return_value = 'test.pdf'
+            mock_file.copy_file.return_value = True
+            
+            fields = {}
+            result = entry_processor._process_single_pdf(
+                'test2023', fields, '/path/to/file.pdf',
+                regenerate=False, force=False, verbose=False,
+                update_pdf_metadata=False, session_filenames=set()
+            )
+            
+            assert result is True
+            assert fields['pdf'] == 'test.pdf'
     
     @patch('os.path.exists')
     def test_process_single_pdf_not_found(self, mock_exists, entry_processor):
@@ -258,21 +259,21 @@ class TestEntryProcessor:
         
         assert result is False
     
-    @patch.object(EntryProcessor, 'file_manager')
-    def test_process_images_success(self, mock_file, entry_processor):
+    def test_process_images_success(self, entry_processor):
         """Test processing images successfully."""
-        mock_file.process_images_for_entry.return_value = {
-            'photo': ['photo1.jpg', 'photo2.jpg']
-        }
-        
-        fields = {}
-        result = entry_processor._process_images(
-            'test2023', fields, ['/path/to/image1.jpg', '/path/to/image2.jpg'],
-            regenerate=False, force=False, verbose=False
-        )
-        
-        assert result is True
-        assert fields['photos'] == 'photo1.jpg, photo2.jpg'
+        with patch.object(entry_processor, 'file_manager') as mock_file:
+            mock_file.process_images_for_entry.return_value = {
+                'photo': ['photo1.jpg', 'photo2.jpg']
+            }
+            
+            fields = {}
+            result = entry_processor._process_images(
+                'test2023', fields, ['/path/to/image1.jpg', '/path/to/image2.jpg'],
+                regenerate=False, force=False, verbose=False
+            )
+            
+            assert result is True
+            assert fields['photos'] == 'photo1.jpg, photo2.jpg'
     
     def test_process_images_no_paths(self, entry_processor):
         """Test processing images when no paths provided."""
@@ -284,41 +285,44 @@ class TestEntryProcessor:
         
         assert result is True
     
-    @patch.object(EntryProcessor, 'bibtex_processor')
-    @patch.object(EntryProcessor, '_process_single_thumbnail_file')
-    def test_process_thumbnails_with_priority(self, mock_single, mock_bibtex, entry_processor):
+    def test_process_thumbnails_with_priority(self, entry_processor):
         """Test processing thumbnails with priority logic."""
-        mock_bibtex.get_thumbnail_priority_files.return_value = [
-            {'path': '/path/to/thumb.svg', 'type': 'svg', 'priority': 1}
-        ]
-        mock_single.return_value = True
-        
-        fields = {'file': 'thumbnail:/path/to/thumb.svg:image/svg+xml'}
-        result = entry_processor._process_thumbnails_with_priority(
-            'test2023', fields, regenerate=False, force=False,
-            thumbnail_size='600x', verbose=False
-        )
-        
-        assert result is True
-        mock_single.assert_called_once()
+        with patch.object(entry_processor, 'bibtex_processor') as mock_bibtex, \
+             patch.object(entry_processor, '_process_single_thumbnail_file') as mock_single:
+            mock_bibtex.get_thumbnail_priority_files.return_value = [
+                {'path': '/path/to/thumb.svg', 'type': 'svg', 'priority': 1}
+            ]
+            mock_single.return_value = True
+            
+            fields = {'file': 'thumbnail:/path/to/thumb.svg:image/svg+xml'}
+            result = entry_processor._process_thumbnails_with_priority(
+                'test2023', fields, regenerate=False, force=False,
+                thumbnail_size='600x', verbose=False
+            )
+            
+            assert result is True
+            mock_single.assert_called_once()
     
-    @patch.object(EntryProcessor, 'file_manager')
-    @patch.object(EntryProcessor, 'text_processor')
-    @patch('os.path.exists')
-    def test_process_single_thumbnail_file_pdf(self, mock_exists, mock_text, mock_file, entry_processor):
+    def test_process_single_thumbnail_file_pdf(self, entry_processor):
         """Test processing single thumbnail file from PDF."""
-        mock_exists.return_value = True
-        mock_text.generate_filename.return_value = 'preview.jpg'
-        mock_file.generate_pdf_thumbnail.return_value = True
-        
-        fields = {}
-        result = entry_processor._process_single_thumbnail_file(
-            'test2023', fields, '/path/to/file.pdf', 'pdf',
-            regenerate=False, force=False, thumbnail_size='600x', verbose=False
-        )
-        
-        assert result is True
-        assert fields['preview'] == 'preview.jpg'
+        with patch('os.path.exists', return_value=False) as mock_exists, \
+             patch.object(entry_processor, 'file_manager') as mock_file, \
+             patch.object(entry_processor, 'text_processor') as mock_text:
+            # Source exists; preview path does not (so we generate)
+            def exists_side_effect(path):
+                return path == '/path/to/file.pdf'
+            mock_exists.side_effect = exists_side_effect
+            mock_text.generate_filename.return_value = 'preview.jpg'
+            mock_file.generate_pdf_thumbnail.return_value = True
+            
+            fields = {'pdf': 'file.pdf'}
+            result = entry_processor._process_single_thumbnail_file(
+                'test2023', fields, '/path/to/file.pdf', 'pdf',
+                regenerate=False, force=False, thumbnail_size='600x', verbose=False
+            )
+            
+            assert result is True
+            assert fields['preview'] == 'preview.jpg'
     
     def test_should_add_preview_field(self, entry_processor):
         """Test should_add_preview_field method."""

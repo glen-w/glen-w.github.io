@@ -8,7 +8,7 @@ import os
 import re
 from typing import Dict, List, Tuple, Optional
 from pathlib import Path
-from config import Configuration
+from processing.config import Configuration
 
 
 class ValidationChecker:

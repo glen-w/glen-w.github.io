@@ -1,28 +1,29 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: 'Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals'
+date: '2013-05-01'
+entry_type: Journal article
+year: '2013'
 bibtex_key: wrightBookReviewAnimal2013
+is_event: false
+description: 'Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals'
 categories:
 - other
-date: '2013-05-01'
-description: 'Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals'
-entry_type: Journal article
-layout: library-item
-number: '9'
-pdf: Book_Review_Animal_Harm_Perspectives_on_Why_People_Harm_and_Kill_Animals.pdf
-tags: []
-title: 'Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals'
+authors:
+- Glen Wright
 venue: Green Criminology Monthly
-year: '2013'
+role: author
+preview: glen_wright_2013_book_review_animal_harm_perspectives_why_people_harm_kill_animals
+pdf: glen_wright_2013_book_review_animal_harm_perspectives_why_people_harm_kill_animals.pdf
+number: '9'
+resources:
+- kind: pdf
+  title: 'Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2013_book_review_animal_harm_perspectives_why_people_harm_kill_animals.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Green Criminology Monthly
-**Number:** 9
-
-## Links and Resources
-
-- [PDF](Book_Review_Animal_Harm_Perspectives_on_Why_People_Harm_and_Kill_Animals.pdf)

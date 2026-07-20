@@ -1,25 +1,25 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: Neptune Forum
+date: '2026-06-01'
+entry_type: Conference
+year: '2026'
 bibtex_key: zotero-item-51274
+is_event: true
+description: Neptune Forum
 categories:
 - other
-date: 2026-June-01
-description: Neptune Forum
-entry_type: Conference
-layout: library-item
 location: Jardin des Plantes, Paris
-tags: []
-title: Neptune Forum
+role: attendee
+preview: 2026_neptune_forum
 url: https://mission-neptune.com/en/the-forum
-venue: ''
-year: '2026'
+resources:
+- kind: landing
+  title: Visit event website
+  label: Visit event website
+  url: https://mission-neptune.com/en/the-forum
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Location:** Jardin des Plantes, Paris
-
-## Links and Resources
-
-- [Original URL](https://mission-neptune.com/en/the-forum)

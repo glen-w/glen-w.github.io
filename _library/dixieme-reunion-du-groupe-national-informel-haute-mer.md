@@ -1,28 +1,27 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: Dixieme reunion du Groupe national informel haute mer
+date: '2017-06-01'
+entry_type: Workshop
+year: '2017'
 bibtex_key: DixiemeReunionGroupe2017
+is_event: true
+description: Dixieme reunion du Groupe national informel haute mer
 categories:
 - other
-date: 2017-June-01
-description: Dixième réunion du Groupe national informel haute mer
-entry_type: Workshop
-layout: library-item
 location: Paris, France
-pdf: IDDRI et al. - 2017 - Dixième réunion du Groupe national informel haute mer.pdf
-publisher: IDDRI, Agence française pour la biodiversité, Institut océanographique
+publisher: IDDRI, Agence francaise pour la biodiversite, Institut oceanographique
   de Paris
-tags: []
-title: Dixième réunion du Groupe national informel haute mer
-venue: ''
-year: '2017'
+role: organiser
+preview: 2017_dixieme_reunion_du_groupe_national_informel_haute_mer
+agenda: 2017_dixieme_reunion_du_groupe_national_informel_haute_mer_agenda.pdf
+resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2017_dixieme_reunion_du_groupe_national_informel_haute_mer_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 ---
 
-## Publication Details
-
-**Location:** Paris, France
-**Publisher:** IDDRI, Agence française pour la biodiversité, Institut océanographique de Paris
-
-## Links and Resources
-
-- [PDF](IDDRI et al. - 2017 - Dixième réunion du Groupe national informel haute mer.pdf)

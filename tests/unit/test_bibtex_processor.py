@@ -363,19 +363,18 @@ class TestBibTeXProcessor:
         assert "\\\\%" not in fixed
     
     def test_process_ignore_tags(self, bibtex_processor):
-        """Test processing ignore tags in keywords."""
+        """Ignore-tag rewriting is not a BibTeXProcessor method; tags use add_tag_to_entry."""
         content = """@article{test2023,
             title = {Test Title},
             author = {Test Author},
             year = {2023},
             keywords = {test, ignore:book, other}
         }"""
-        
-        processed = bibtex_processor.process_ignore_tags(content)
-        
-        assert "@book{test2023" in processed
-        assert "ignore:book" not in processed
-        assert "keywords = {test, other}" in processed
+        assert not hasattr(bibtex_processor, 'process_ignore_tags')
+        updated = bibtex_processor.add_tag_to_entry(content, 'test2023', 'preview', 'x.jpg')
+        assert 'preview = {x.jpg}' in updated
+        assert 'title = {Test Title}' in updated
+        assert 'keywords = {test, ignore:book, other}' in updated
     
     def test_fix_duplicated_entry_types(self, bibtex_processor):
         """Test fixing duplicated entry types."""

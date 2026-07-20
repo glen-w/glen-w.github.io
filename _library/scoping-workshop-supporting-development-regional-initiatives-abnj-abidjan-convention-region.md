@@ -1,4 +1,20 @@
 ---
+layout: library-item
+title: 'Scoping Workshop: Supporting the development of regional initiatives for ABNJ
+  in the Abidjan Convention Region'
+date: '2015-06-01'
+entry_type: Workshop
+year: '2015'
+bibtex_key: ScopingWorkshopSupporting2015
+is_event: true
+description: 1. The Convention for Cooperation in the Protection, Management and Development
+  of the Marine and Coastal Environment of the Atlantic Coast of the West, Central
+  and Southern Africa Region (Abidjan Convention) decided at the eleventh meeting
+  of its Conference of the Parties (COP)…
+standfirst: 1. The Convention for Cooperation in the Protection, Management and Development
+  of the Marine and Coastal Environment of the Atlantic Coast of the West, Central
+  and Southern Africa Region (Abidjan Convention) decided at the eleventh meeting
+  of its Conference of the Parties (COP)…
 abstract: '1. The Convention for Cooperation in the Protection, Management and Development
   of the Marine and Coastal Environment of the Atlantic Coast of the West, Central
   and Southern Africa Region (Abidjan Convention) decided at the eleventh meeting
@@ -22,32 +38,22 @@ abstract: '1. The Convention for Cooperation in the Protection, Management and D
   Atlantic, Mediterranean, the Southern Ocean and Sargasso Sea regions in particular);
   iii. to elaborate draft terms of reference (ToR) for the Working Group, as well
   as its draft programme of work, for consideration by the Abidjan Convention Parties.'
-authors: []
-bibtex_key: ScopingWorkshopSupporting2015
 categories:
 - other
-date: 2015-June-01
-description: 1. The Convention for Cooperation in the Protection, Management and Development
-  of the Marine and Coastal Environment of the Atlantic Coast of the West, Central
-  and Southern Africa Region (Abidjan Con...
-entry_type: Workshop
-layout: library-item
 location: Mahé, Seychelles
-pdf: 2015 - Scoping Workshop Supporting the development of regional initiatives for
-  ABNJ in the Abidjan Convent.pdf
 publisher: IDDRI, UNEP, IASS, Government of Sweden
-tags: []
-title: 'Scoping Workshop: Supporting the development of regional initiatives for ABNJ
-  in the Abidjan Convention Region'
-venue: ''
-year: '2015'
+role: organiser
+preview: 2015_scoping_workshop_supporting_development_regional_initiatives_abnj_abidjan_convention_region
+pdf: 2015_scoping_workshop_supporting_development_regional_initiatives_abnj_abidjan_convention_region.pdf
+resources:
+- kind: pdf
+  title: 'Scoping Workshop: Supporting the development of regional initiatives for
+    ABNJ in the Abidjan Convention Region'
+  label: View primary document
+  url: /assets/pdf/2015_scoping_workshop_supporting_development_regional_initiatives_abnj_abidjan_convention_region.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Location:** Mahé, Seychelles
-**Publisher:** IDDRI, UNEP, IASS, Government of Sweden
-
-## Links and Resources
-
-- [PDF](2015 - Scoping Workshop Supporting the development of regional initiatives for ABNJ in the Abidjan Convent.pdf)

@@ -1,33 +1,31 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: Towards an Effective High Seas Treaty - Building on and Strengthening Regional
+  Ocean Governance
+date: '2019-03-01'
+entry_type: Workshop
+year: '2019'
 bibtex_key: EffectiveHighSeas2019a
-categories:
-- other
-date: 2019-March-01
+is_event: true
 description: Towards an Effective High Seas Treaty - Building on and Strengthening
   Regional Ocean Governance
-entry_type: Workshop
+categories:
+- other
+location: United Nations, New York City, NY, USA
+publisher: STRONG High Seas
+role: organiser
+preview: 2019_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance
 gallery:
 - towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance_photo_01
 - towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance_photo_02
-layout: library-item
-location: United Nations, New York City, NY, USA
-pdf: STRONG High Seas, IGC2 side event (agenda).pdf
-preview: towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance_photo_01
-publisher: STRONG High Seas
-tags: []
-title: Towards an Effective High Seas Treaty - Building on and Strengthening Regional
-  Ocean Governance
-venue: ''
-year: '2019'
+agenda: 2019_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance_agenda.pdf
+resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2019_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 ---
 
-## Publication Details
-
-**Location:** United Nations, New York City, NY, USA
-**Publisher:** STRONG High Seas
-
-## Links and Resources
-
-- [PDF](STRONG High Seas, IGC2 side event (agenda).pdf)

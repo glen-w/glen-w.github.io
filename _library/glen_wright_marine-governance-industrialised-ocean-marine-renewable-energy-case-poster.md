@@ -1,30 +1,31 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
-bibtex_key: wrightMarineGovernanceIndustrialised2014
-categories:
-- other
-date: '2014-01-01'
-description: Marine Governance in an Industrialised Ocean A Marine Renewable Energy
-  case study (poster)
-entry_type: Poster
 layout: library-item
-location: La Vega, Spain
-pdf: INORE poster.pdf
-tags: []
 title: Marine Governance in an Industrialised Ocean A Marine Renewable Energy case
   study (poster)
-venue: International Network on Offshore Renewable Energy (INORE) Symposium
+date: '2014-01-01'
+entry_type: Poster
 year: '2014'
+bibtex_key: wrightMarineGovernanceIndustrialised2014
+is_event: false
+description: Marine Governance in an Industrialised Ocean A Marine Renewable Energy
+  case study (poster)
+categories:
+- other
+authors:
+- Glen Wright
+venue: International Network on Offshore Renewable Energy (INORE) Symposium
+location: La Vega, Spain
+preview: glen_wright_2014_marine_governance_industrialised_ocean_marine_renewable_energy_case_poster
+pdf: glen_wright_2014_marine_governance_industrialised_ocean_marine_renewable_energy_case_poster.pdf
+resources:
+- kind: pdf
+  title: Marine Governance in an Industrialised Ocean A Marine Renewable Energy case
+    study (poster)
+  label: View primary document
+  url: /assets/pdf/glen_wright_2014_marine_governance_industrialised_ocean_marine_renewable_energy_case_poster.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** International Network on Offshore Renewable Energy (INORE) Symposium
-**Location:** La Vega, Spain
-
-## Links and Resources
-
-- [PDF](INORE poster.pdf)

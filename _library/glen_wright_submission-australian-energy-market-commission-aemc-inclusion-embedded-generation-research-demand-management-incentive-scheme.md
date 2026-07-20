@@ -1,29 +1,31 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
-bibtex_key: wrightSubmissionAustralianEnergy2011c
-categories:
-- other
-date: 2011-November-01
-description: Submission to the Australian Energy Market Commission (AEMC):Inclusion
-  of Embedded Generation Resear...
-entry_type: Submission
 layout: library-item
-pdf: Street - Total Environment Centre Submission to the AEMC.PDF
-publisher: Total Environment Centre
-tags: []
 title: Submission to the Australian Energy Market Commission (AEMC):Inclusion of Embedded
   Generation Research into the Demand Management Incentive Scheme
-venue: ''
+date: '2011-11-01'
+entry_type: Submission
 year: '2011'
+bibtex_key: wrightSubmissionAustralianEnergy2011c
+is_event: false
+description: Submission to the Australian Energy Market Commission (AEMC):Inclusion
+  of Embedded Generation Research into the Demand Management Incentive Scheme
+categories:
+- other
+authors:
+- Glen Wright
+publisher: Total Environment Centre
+role: author
+preview: glen_wright_2011_submission_australian_energy_market_commission_aemc_inclusion_embedded_generation_research_demand_management_incentive_scheme
+pdf: glen_wright_2011_submission_australian_energy_market_commission_aemc_inclusion_embedded_generation_research_demand_management_incentive_scheme.pdf
+resources:
+- kind: pdf
+  title: Submission to the Australian Energy Market Commission (AEMC):Inclusion of
+    Embedded Generation Research into the Demand Management Incentive Scheme
+  label: View primary document
+  url: /assets/pdf/glen_wright_2011_submission_australian_energy_market_commission_aemc_inclusion_embedded_generation_research_demand_management_incentive_scheme.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Publisher:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](Street - Total Environment Centre Submission to the AEMC.PDF)

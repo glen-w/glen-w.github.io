@@ -1,27 +1,29 @@
 ---
-abstract: ''
+layout: library-item
+title: Strengthening the international regulation of offshore oil and gas activities
+date: '2015-01-01'
+entry_type: Report section
+year: '2015'
+bibtex_key: Rochette2015a
+is_event: false
+description: Strengthening the international regulation of offshore oil and gas activities
+categories:
+- other
 authors:
 - Julien Rochette
 - Glen Wright
-bibtex_key: Rochette2015a
-categories:
-- other
-date: '2015-01-01'
-description: Strengthening the international regulation of offshore oil and gas activities
-entry_type: Report section
-layout: library-item
-pdf: 1758GSDR 2015 Advance Unedited Version.pdf
-tags: []
-title: Strengthening the international regulation of offshore oil and gas activities
 venue: Global Sustainable Development Report
-year: '2015'
+role: co-author
+preview: 2015_strengthening_international_regulation_offshore_oil_gas_activities
+pdf: 2015_strengthening_international_regulation_offshore_oil_gas_activities_a.pdf
+resources:
+- kind: pdf
+  title: Strengthening the international regulation of offshore oil and gas activities
+  label: View primary document
+  url: /assets/pdf/2015_strengthening_international_regulation_offshore_oil_gas_activities_a.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Julien Rochette, Glen Wright
-**Venue:** Global Sustainable Development Report
-
-## Links and Resources
-
-- [PDF](1758GSDR 2015 Advance Unedited Version.pdf)

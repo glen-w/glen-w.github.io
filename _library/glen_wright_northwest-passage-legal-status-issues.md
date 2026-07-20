@@ -1,27 +1,27 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: 'The Northwest Passage: Legal status and issues'
+date: '2015-12-01'
+entry_type: Training
+year: '2015'
 bibtex_key: wrightNorthwestPassageLegal2015
+is_event: false
+description: 'The Northwest Passage: Legal status and issues'
 categories:
 - other
-date: 2015-December-01
-description: 'The Northwest Passage: Legal status and issues'
-entry_type: Training
-layout: library-item
+authors:
+- Glen Wright
 location: Malta
-tags: []
-title: 'The Northwest Passage: Legal status and issues'
+role: speaker
+preview: glen_wright_2015_northwest_passage_legal_status_issues
 url: https://prezi.com/rnirypd_1pyz/the-northwest-passage/?present=1
-venue: ''
-year: '2015'
+resources:
+- kind: landing
+  title: Visit publication page
+  label: Visit publication page
+  url: https://prezi.com/rnirypd_1pyz/the-northwest-passage/?present=1
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Location:** Malta
-
-## Links and Resources
-
-- [Original URL](https://prezi.com/rnirypd_1pyz/the-northwest-passage/?present=1)

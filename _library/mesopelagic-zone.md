@@ -1,27 +1,35 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: The Mesopelagic Zone
+date: '2020-10-01'
+entry_type: Webinar
+year: '2020'
 bibtex_key: MesopelagicZone2020
+is_event: true
+description: The Mesopelagic Zone
 categories:
 - other
-date: 2020-October-01
-description: The Mesopelagic Zone
-entry_type: Webinar
-layout: library-item
-pdf: 'BBNJ webinar #4 invitation 2020-10-05 - EIA_AS.pdf'
-publisher: IUCN
-tags: []
-title: The Mesopelagic Zone
 venue: 'The High Seas Treaty: Integrating Climate Change into Environmental Impact
   Assessments'
-year: '2020'
+publisher: IUCN
+role: speaker
+preview: 2020_mesopelagic_zone
+agenda: 2020_mesopelagic_zone_agenda.pdf
+slides: 2020_mesopelagic_zone_slides.pdf
+resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2020_mesopelagic_zone_agenda.pdf
+  format: PDF
+  local: true
+  external: false
+- kind: slides
+  title: Presentation slides
+  label: View presentation
+  url: /assets/pdf/2020_mesopelagic_zone_slides.pdf
+  format: PDF
+  local: true
+  external: false
 ---
 
-## Publication Details
-
-**Venue:** The High Seas Treaty: Integrating Climate Change into Environmental Impact Assessments
-**Publisher:** IUCN
-
-## Links and Resources
-
-- [PDF](BBNJ webinar #4 invitation 2020-10-05 - EIA_AS.pdf)

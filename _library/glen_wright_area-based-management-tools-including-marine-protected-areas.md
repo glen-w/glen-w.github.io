@@ -1,29 +1,29 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: Area-based Management Tools (Including Marine Protected Areas)
+date: '2020-10-01'
+entry_type: Training
+year: '2020'
 bibtex_key: wrightAreabasedManagementTools2020
+is_event: false
+description: Area-based Management Tools (Including Marine Protected Areas)
 categories:
 - other
-date: 2020-October-01
-description: Area-based Management Tools (Including Marine Protected Areas)
-entry_type: Training
-layout: library-item
-pdf: 2021 CPD Course_final report.pdf
-publisher: International Ocean Institute
-tags: []
-title: Area-based Management Tools (Including Marine Protected Areas)
+authors:
+- Glen Wright
 venue: 'Continuing Professional Development Courses in Ocean Governance: New Developments
   and Emerging Issues in Ocean Governance'
-year: '2020'
+publisher: International Ocean Institute
+role: speaker
+preview: glen_wright_2020_area_based_management_tools_including_marine_protected_areas
+agenda: glen_wright_2020_area_based_management_tools_including_marine_protected_areas_agenda.pdf
+resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/glen_wright_2020_area_based_management_tools_including_marine_protected_areas_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Continuing Professional Development Courses in Ocean Governance: New Developments and Emerging Issues in Ocean Governance
-**Publisher:** International Ocean Institute
-
-## Links and Resources
-
-- [PDF](2021 CPD Course_final report.pdf)

@@ -1,31 +1,31 @@
 ---
-abstract: ''
+layout: library-item
+title: Marine energy
+date: '2011-01-01'
+entry_type: Journal article
+year: '2011'
+bibtex_key: Wright2011a
+is_event: false
+description: Marine energy
+categories:
+- other
 authors:
 - Glen Wright
 - David Leary
-bibtex_key: Wright2011a
-categories:
-- other
-date: '2011-01-01'
-description: Marine energy
-entry_type: Journal article
-layout: library-item
-number: August
-pages: 227--230
-pdf: 2011-Marine_energy.pdf
-tags: []
-title: Marine energy
 venue: New Zealand Law Journal
-year: '2011'
+role: lead author
+preview: glen_wright_etal_2011_marine_energy
+pdf: glen_wright_etal_2011_marine_energy.pdf
+pages: 227--230
+number: August
+resources:
+- kind: pdf
+  title: Marine energy
+  label: View primary document
+  url: /assets/pdf/glen_wright_etal_2011_marine_energy.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright, David Leary
-**Venue:** New Zealand Law Journal
-**Number:** August
-**Pages:** 227--230
-
-## Links and Resources
-
-- [PDF](2011-Marine_energy.pdf)

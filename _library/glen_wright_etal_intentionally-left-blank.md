@@ -1,37 +1,36 @@
 ---
-abstract: ''
+layout: library-item
+title: This Study is Intentionally Left Blank
+date: '2015-01-01'
+entry_type: Journal article
+year: '2015'
+bibtex_key: Wright2015j
+is_event: false
+description: This Study is Intentionally Left Blank
+categories:
+- other
 authors:
 - Glen Wright
 - F.X. Coudert
 - Martin Bentley
 - Graham Steel
 - Sylvain Deville
-bibtex_key: Wright2015j
-categories:
-- other
-date: '2015-01-01'
-description: This Study is Intentionally Left Blank
-entry_type: Journal article
-layout: library-item
-number: '2'
-pdf: 2015-This_Study_is_Intentionally_Left_Blank.pdf
-tags: []
-title: This Study is Intentionally Left Blank
 venue: Annals of Improbable Research
+role: lead author
+preview: glen_wright_etal_2015_intentionally_left_blank
+pdf: glen_wright_etal_2015_intentionally_left_blank.pdf
 volume: '21'
-year: '2015'
+number: '2'
+resources:
+- kind: pdf
+  title: This Study is Intentionally Left Blank
+  label: View primary document
+  url: /assets/pdf/glen_wright_etal_2015_intentionally_left_blank.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
-
-## Publication Details
-
-**Authors:** Glen Wright, F.X. Coudert, Martin Bentley, Graham Steel, Sylvain Deville
-**Venue:** Annals of Improbable Research
-**Volume:** 21
-**Number:** 2
-
-## Links and Resources
-
-- [PDF](2015-This_Study_is_Intentionally_Left_Blank.pdf)
 
 ## Notes
 

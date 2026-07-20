@@ -1,12 +1,18 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: Exploring the World Heritage Convention for High Seas Conservation
+date: '2018-12-01'
+entry_type: Workshop
+year: '2018'
 bibtex_key: ExploringWorldHeritage2018
+is_event: true
+description: Exploring the World Heritage Convention for High Seas Conservation
 categories:
 - other
-date: 2018-December-01
-description: Exploring the World Heritage Convention for High Seas Conservation
-entry_type: Workshop
+location: Monte Carlo, Monaco
+publisher: UNESCO
+role: participant
+preview: 2018_exploring_world_heritage_convention_high_seas_conservation
 gallery:
 - exploring_world_heritage_convention_high_seas_conservation_figure_01
 - exploring_world_heritage_convention_high_seas_conservation_figure_02
@@ -14,22 +20,25 @@ gallery:
 - exploring_world_heritage_convention_high_seas_conservation_photo_01
 - exploring_world_heritage_convention_high_seas_conservation_photo_02
 - exploring_world_heritage_convention_high_seas_conservation_photo_03
-layout: library-item
-location: Monte Carlo, Monaco
-pdf: Agenda.pdf
-preview: exploring_world_heritage_convention_high_seas_conservation_figure_01
-publisher: UNESCO
-tags: []
-title: Exploring the World Heritage Convention for High Seas Conservation
-venue: ''
-year: '2018'
+agenda: 2018_exploring_world_heritage_convention_high_seas_conservation_agenda.pdf
+zip_archive: 2018_exploring_world_heritage_convention_high_seas_conservation.zip
+zip_file_count: '4'
+zip_file_size_mb: '3.4'
+resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2018_exploring_world_heritage_convention_high_seas_conservation_agenda.pdf
+  format: PDF
+  local: true
+  external: false
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/2018_exploring_world_heritage_convention_high_seas_conservation.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 4 files · 3.4 MB
 ---
 
-## Publication Details
-
-**Location:** Monte Carlo, Monaco
-**Publisher:** UNESCO
-
-## Links and Resources
-
-- [PDF](Agenda.pdf)

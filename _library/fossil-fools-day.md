@@ -1,17 +1,17 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: Fossil Fools Day
+date: '2007-04-01'
+entry_type: Side event
+year: '2007'
 bibtex_key: FossilFoolsDay2007
+is_event: true
+description: Fossil Fools Day
 categories:
 - other
-date: 2007-April-01
-description: Fossil Fools Day
-entry_type: Side event
-layout: library-item
+role: participant
 preview: fossil_fools_day_photo_01
-tags: []
-title: Fossil Fools Day
-venue: ''
-year: '2007'
+gallery:
+- fossil_fools_day_photo_01
 ---
 

@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: Historic UN talks could save the high seas
+date: '2016-08-01'
+entry_type: Journal article
+year: '2016'
+bibtex_key: wrightHistoricTalksCould2016
+is_event: false
+description: Since the adoption of the United Nations (UN) Convention on the Law of
+  the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction
+  (ABNJ)1 have developed exponentially.
+standfirst: Since the adoption of the United Nations (UN) Convention on the Law of
+  the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction
+  (ABNJ)1 have developed exponentially.
 abstract: Since the adoption of the United Nations (UN) Convention on the Law of the
   Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction (ABNJ)1
   have developed exponentially. Existing activities such as shipping and fishing have
@@ -17,34 +30,32 @@ abstract: Since the adoption of the United Nations (UN) Convention on the Law of
   and 2017 in order to prepare substantive recommendations on elements of a draft
   text.6 The PrepCom is to report to the UNGA, which will then decide by September
   2018 on the convening and starting date of an intergovernmental conference.
+categories:
+- other
 authors:
 - Glen Wright
 - Julien Rochette
-bibtex_key: wrightHistoricTalksCould2016
-categories:
-- other
-date: 2016-August-01
-description: Since the adoption of the United Nations (UN) Convention on the Law of
-  the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction
-  (ABNJ)1 have developed exponentially. Existing a...
-entry_type: Journal article
-layout: library-item
-pages: 164--167
-pdf: Historic UN talks could save the high seas  IDDRI.pdf
-tags: []
-title: Historic UN talks could save the high seas
-url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
 venue: Australian Environment Review
-year: '2016'
+role: lead author
+preview: glen_wright_etal_2016_historic_un_talks_save_high_seas
+pdf: glen_wright_etal_2016_historic_un_talks_save_high_seas.pdf
+url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
+pages: 164--167
+resources:
+- kind: pdf
+  title: Historic UN talks could save the high seas
+  label: View primary document
+  url: /assets/pdf/glen_wright_etal_2016_historic_un_talks_save_high_seas.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit Australian Environment Review publication page
+  label: Visit Australian Environment Review publication page
+  url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright, Julien Rochette
-**Venue:** Australian Environment Review
-**Pages:** 164--167
-
-## Links and Resources
-
-- [Original URL](https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas)
-- [PDF](Historic UN talks could save the high seas  IDDRI.pdf)

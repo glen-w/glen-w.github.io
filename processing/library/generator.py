@@ -232,7 +232,8 @@ class LibraryPageGenerator:
 
         # Generate dynamic filters (unless skipped)
         if not self.skip_dynamic_filters:
-            project_root = os.path.dirname(os.path.dirname(self.output_dir))
+            # output_dir is <project>/_library — parent is the project root
+            project_root = os.path.dirname(os.path.abspath(self.output_dir))
             filters_generator = DynamicFiltersGenerator(project_root)
             filters_generator.generate_filters(entries)
 

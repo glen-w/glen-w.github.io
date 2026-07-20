@@ -924,7 +924,7 @@
       
       {% comment %}Count photos from entry.photos field{% endcomment %}
       {% if entry.photos %}
-        {% assign photos_list = entry.photos | split: '\n' %}
+        {% assign photos_list = entry.photos | split: ',' %}
         {% for photo in photos_list %}
           {% assign clean_photo = photo | strip %}
           {% if clean_photo != '' %}
@@ -1252,7 +1252,7 @@
             {% endif %}
             
             {% if entry.photos %}
-              {% assign photos_list = entry.photos | split: '\n' %}
+              {% assign photos_list = entry.photos | split: ',' %}
               {% for photo in photos_list %}
                 {% assign clean_photo = photo | strip %}
                 {% if clean_photo != '' %}

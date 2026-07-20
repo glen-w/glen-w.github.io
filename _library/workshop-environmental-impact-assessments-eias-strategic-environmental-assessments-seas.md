@@ -1,27 +1,37 @@
 ---
-abstract: ''
-authors: []
-bibtex_key: WorkshopEnvironmentalImpact2020
-categories:
-- other
-date: 2020-January-01
-description: Workshop on Environmental Impact Assessments (EIAs) and Strategic Environmental
-  Assessments (SEAs)
-entry_type: Workshop
 layout: library-item
-location: Brussels, Belgium
-pdf: 2020-01-28-BBNJ-workshop-programme_enpdf.pdf
-tags: []
 title: Workshop on Environmental Impact Assessments (EIAs) and Strategic Environmental
   Assessments (SEAs)
-venue: ''
+date: '2020-01-01'
+entry_type: Workshop
 year: '2020'
+bibtex_key: WorkshopEnvironmentalImpact2020
+is_event: true
+description: Workshop on Environmental Impact Assessments (EIAs) and Strategic Environmental
+  Assessments (SEAs)
+categories:
+- other
+location: Brussels, Belgium
+role: participant
+preview: 2020_workshop_environmental_impact_assessments_eias_strategic_environmental_assessments_seas
+pdf: 2020_workshop_environmental_impact_assessments_eias_strategic_environmental_assessments_seas.pdf
+agenda: 2020_workshop_environmental_impact_assessments_eias_strategic_environmental_assessments_seas_a_agenda.pdf
+resources:
+- kind: pdf
+  title: Workshop on Environmental Impact Assessments (EIAs) and Strategic Environmental
+    Assessments (SEAs)
+  label: View primary document
+  url: /assets/pdf/2020_workshop_environmental_impact_assessments_eias_strategic_environmental_assessments_seas.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2020_workshop_environmental_impact_assessments_eias_strategic_environmental_assessments_seas_a_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 ---
 
-## Publication Details
-
-**Location:** Brussels, Belgium
-
-## Links and Resources
-
-- [PDF](2020-01-28-BBNJ-workshop-programme_enpdf.pdf)

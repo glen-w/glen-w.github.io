@@ -1,4 +1,16 @@
 ---
+layout: library-item
+title: Strengthening Monitoring, Control and Surveillance in Areas Beyond National
+  Jurisdiction
+date: '2020-01-01'
+entry_type: Report
+year: '2020'
+bibtex_key: cremersStrengtheningMonitoringControl2020a
+is_event: false
+description: Monitoring, control and surveillance (MCS) is critical for the success
+  of marine conservation and management, but effective MCS remains challenging.
+standfirst: Monitoring, control and surveillance (MCS) is critical for the success
+  of marine conservation and management, but effective MCS remains challenging.
 abstract: Monitoring, control and surveillance (MCS) is critical for the success of
   marine conservation and management, but effective MCS remains challenging. This
   is especially true for the deep and distant waters of marine areas beyond national
@@ -10,36 +22,27 @@ abstract: Monitoring, control and surveillance (MCS) is critical for the success
   some of the challenges to effective MCS. The report provides some suggested pathways
   for strengthening MCS in ABNJ, as well as three concrete proposals for provisions
   that could be included in the future international instrument.
+categories:
+- other
 authors:
 - Klaudija Cremers
 - Glen Wright
 - Julien Rochette
-bibtex_key: cremersStrengtheningMonitoringControl2020a
-categories:
-- other
-date: '2020-01-01'
-description: Monitoring, control and surveillance (MCS) is critical for the success
-  of marine conservation and management, but effective MCS remains challenging. This
-  is especially true for the deep and distant wa...
-entry_type: Report
-institution: STRONG High Seas
-layout: library-item
-pages: '46'
-pdf: Cremers-K.-et-al-Fortalecer-el-MCS-en-ABNJ.pdf
-tags: []
-title: Strengthening Monitoring, Control and Surveillance in Areas Beyond National
-  Jurisdiction
 venue: STRONG High Seas
-year: '2020'
+institution: STRONG High Seas
+role: co-author
+preview: 2020_strengthening_monitoring_control_surveillance_areas_beyond_national_jurisdiction
+pdf: 2020_strengthening_monitoring_control_surveillance_areas_beyond_national_jurisdiction_b.pdf
+pages: '46'
+resources:
+- kind: pdf
+  title: Strengthening Monitoring, Control and Surveillance in Areas Beyond National
+    Jurisdiction
+  label: View report PDF
+  url: /assets/pdf/2020_strengthening_monitoring_control_surveillance_areas_beyond_national_jurisdiction_b.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Klaudija Cremers, Glen Wright, Julien Rochette
-**Venue:** STRONG High Seas
-**Pages:** 46
-**Institution:** STRONG High Seas
-
-## Links and Resources
-
-- [PDF](Cremers-K.-et-al-Fortalecer-el-MCS-en-ABNJ.pdf)

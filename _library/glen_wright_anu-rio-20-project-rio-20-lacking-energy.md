@@ -1,26 +1,27 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy'
+date: '2012-06-01'
+entry_type: Blog
+year: '2012'
 bibtex_key: wrightANURio+20Project2012
+is_event: false
+description: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy'
 categories:
 - other
-date: 2012-June-01
-description: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy'
-entry_type: Blog
-layout: library-item
-tags: []
-title: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy'
-url: http://anurio20.blogspot.com/2012/06/rio20-lacking-on-energy.html
+authors:
+- Glen Wright
 venue: The ANU Rio+20 Project
-year: '2012'
+role: author
+preview: glen_wright_2012_anu_rio_20_project_rio_20_lacking_energy
+url: http://anurio20.blogspot.com/2012/06/rio20-lacking-on-energy.html
+resources:
+- kind: landing
+  title: Visit The ANU Rio+20 Project publication page
+  label: Visit The ANU Rio+20 Project publication page
+  url: http://anurio20.blogspot.com/2012/06/rio20-lacking-on-energy.html
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** The ANU Rio+20 Project
-
-## Links and Resources
-
-- [Original URL](http://anurio20.blogspot.com/2012/06/rio20-lacking-on-energy.html)

@@ -1,34 +1,33 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Ocean energy: key legal issues and challenges'
+date: '2015-01-01'
+entry_type: Report
+year: '2015'
+bibtex_key: wrightOceanEnergyKey2015
+is_event: false
+description: 'Ocean energy: key legal issues and challenges'
+categories:
+- other
 authors:
 - Glen Wright
 - Anne Marie O’Hagan
 - Jiska de Groot
-bibtex_key: wrightOceanEnergyKey2015
-categories:
-- other
-date: '2015-01-01'
-description: 'Ocean energy: key legal issues and challenges'
-entry_type: Report
-institution: IDDRI
-layout: library-item
-number: '4'
-pages: '4'
-pdf: Wright et al. - Ocean energy key legal issues and challenges.pdf
-tags: []
-title: 'Ocean energy: key legal issues and challenges'
 venue: IDDRI
-year: '2015'
+institution: IDDRI
+role: lead author
+preview: glen_wright_etal_2015_ocean_energy_key_legal_issues_challenges
+pdf: glen_wright_etal_2015_ocean_energy_key_legal_issues_challenges.pdf
+pages: '4'
+number: '4'
+resources:
+- kind: pdf
+  title: 'Ocean energy: key legal issues and challenges'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2015_ocean_energy_key_legal_issues_challenges.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright, Anne Marie O’Hagan, Jiska de Groot
-**Venue:** IDDRI
-**Number:** 4
-**Pages:** 4
-**Institution:** IDDRI
-
-## Links and Resources
-
-- [PDF](Wright et al. - Ocean energy key legal issues and challenges.pdf)

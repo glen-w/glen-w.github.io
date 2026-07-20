@@ -1,31 +1,33 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Unwired: Options for Increasing Network Demand Management in the National
+  Electricity Market'
+date: '2012-08-01'
+entry_type: Report
+year: '2012'
+bibtex_key: wrightUnwiredOptionsIncreasing2012
+is_event: false
+description: 'Unwired: Options for Increasing Network Demand Management in the National
+  Electricity Market'
+categories:
+- other
 authors:
 - Glen Wright
 - Mark Byrne
-bibtex_key: wrightUnwiredOptionsIncreasing2012
-categories:
-- other
-date: 2012-August-01
-description: 'Unwired: Options for Increasing Network Demand Management in the National
-  Electricity Market'
-entry_type: Report
-institution: Total Environment Centre
-layout: library-item
-pdf: Demand Management Discussion Paper.pdf
-tags: []
-title: 'Unwired: Options for Increasing Network Demand Management in the National
-  Electricity Market'
 venue: Total Environment Centre
-year: '2012'
+institution: Total Environment Centre
+role: lead author
+preview: glen_wright_etal_2012_unwired_options_increasing_network_demand_management_national_electricity_market
+pdf: glen_wright_etal_2012_unwired_options_increasing_network_demand_management_national_electricity_market.pdf
+resources:
+- kind: pdf
+  title: 'Unwired: Options for Increasing Network Demand Management in the National
+    Electricity Market'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2012_unwired_options_increasing_network_demand_management_national_electricity_market.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright, Mark Byrne
-**Venue:** Total Environment Centre
-**Institution:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](Demand Management Discussion Paper.pdf)

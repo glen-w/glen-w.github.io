@@ -1,30 +1,32 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
-bibtex_key: wrightEnvironmentalImplicationsIncreasing2012
-categories:
-- other
-date: 2012-November-01
-description: Environmental implications of increasing demand management in the National
-  Electricity Market
-entry_type: Report
-institution: Total Environment Centre
 layout: library-item
-pdf: TEC DM enviro discussion paper.pdf
-tags: []
 title: Environmental implications of increasing demand management in the National
   Electricity Market
-venue: Total Environment Centre
+date: '2012-11-01'
+entry_type: Report
 year: '2012'
+bibtex_key: wrightEnvironmentalImplicationsIncreasing2012
+is_event: false
+description: Environmental implications of increasing demand management in the National
+  Electricity Market
+categories:
+- other
+authors:
+- Glen Wright
+venue: Total Environment Centre
+institution: Total Environment Centre
+role: author
+preview: glen_wright_2012_environmental_implications_increasing_demand_management_national_electricity_market
+pdf: glen_wright_2012_environmental_implications_increasing_demand_management_national_electricity_market.pdf
+resources:
+- kind: pdf
+  title: Environmental implications of increasing demand management in the National
+    Electricity Market
+  label: View report PDF
+  url: /assets/pdf/glen_wright_2012_environmental_implications_increasing_demand_management_national_electricity_market.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Total Environment Centre
-**Institution:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](TEC DM enviro discussion paper.pdf)

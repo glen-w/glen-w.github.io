@@ -1,12 +1,17 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: Our Ocean
+date: '2017-10-01'
+entry_type: Conference
+year: '2017'
 bibtex_key: OurOcean2017
+is_event: true
+description: Our Ocean
 categories:
 - other
-date: 2017-October-01
-description: Our Ocean
-entry_type: Conference
+location: Valletta, Malta
+role: attendee
+preview: 2017_ocean
 gallery:
 - ocean_figure_01
 - ocean_figure_02
@@ -23,20 +28,34 @@ gallery:
 - ocean_photo_06
 - ocean_photo_07
 - ocean_photo_08
-layout: library-item
-location: Valletta, Malta
-pdf: ooc-2017-agenda_en.pdf
-preview: ocean_figure_01
-tags: []
-title: Our Ocean
-venue: ''
-year: '2017'
+pdf: 2017_ocean.pdf
+agenda: 2017_ocean_a_agenda.pdf
+zip_archive: 2017_ocean.zip
+zip_file_count: '10'
+zip_file_size_mb: '16.5'
+resources:
+- kind: pdf
+  title: Our Ocean
+  label: View primary document
+  url: /assets/pdf/2017_ocean.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2017_ocean_a_agenda.pdf
+  format: PDF
+  local: true
+  external: false
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/2017_ocean.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 10 files · 16.5 MB
 ---
 
-## Publication Details
-
-**Location:** Valletta, Malta
-
-## Links and Resources
-
-- [PDF](ooc-2017-agenda_en.pdf)

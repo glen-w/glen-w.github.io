@@ -1,4 +1,18 @@
 ---
+layout: library-item
+title: 'Marine governance in an industrialised ocean: A case study of the emerging
+  marine renewable energy industry'
+date: '2015-01-01'
+entry_type: Journal article
+year: '2015'
+bibtex_key: Wright2015b
+is_event: false
+description: The world's oceans are currently undergoing an unprecedented period of
+  industrialisation, made possible by advances in technology and driven by our growing
+  need for food, energy and resources.
+standfirst: The world's oceans are currently undergoing an unprecedented period of
+  industrialisation, made possible by advances in technology and driven by our growing
+  need for food, energy and resources.
 abstract: The world's oceans are currently undergoing an unprecedented period of industrialisation,
   made possible by advances in technology and driven by our growing need for food,
   energy and resources. This is placing the oceans are under intense pressure, and
@@ -11,23 +25,6 @@ abstract: The world's oceans are currently undergoing an unprecedented period of
   and explore some of the key challenges. The paper concludes that the challenges
   are likely to be extensive and argues for development of a comprehensive legal research
   agenda to advance both MRE technologies and marine governance frameworks.
-authors:
-- Glen Wright
-bibtex_key: Wright2015b
-categories:
-- other
-- energy-policy
-- ocean-governance
-- marine-policy
-date: '2015-01-01'
-description: The world's oceans are currently undergoing an unprecedented period of
-  industrialisation, made possible by advances in technology and driven by our growing
-  need for food, energy and resources. This is...
-doi: https://doi.org/10.1016/j.marpol.2014.10.021
-entry_type: Journal article
-layout: library-item
-pages: 77--84
-pdf: 2015-Marine_governance_in_an_industrialised_ocean_A_case_study_of_the_emerging_marine_renewable_energy_industry.pdf
 tags:
 - wave energy
 - ocean energy
@@ -35,23 +32,48 @@ tags:
 - marine governance
 - marine spatial planning (msp)
 - featured
-title: 'Marine governance in an industrialised ocean: A case study of the emerging
-  marine renewable energy industry'
-url: https://www.sciencedirect.com/science/article/pii/S0308597X14002838
+categories:
+- other
+- energy-policy
+- ocean-governance
+- marine-policy
+authors:
+- Glen Wright
 venue: Marine Policy
+role: author
+preview: glen_wright_2015_marine_governance_industrialised_ocean_case_emerging_marine_renewable_energy_industry
+pdf: glen_wright_2015_marine_governance_industrialised_ocean_case_emerging_marine_renewable_energy_industry.pdf
+url: https://www.sciencedirect.com/science/article/pii/S0308597X14002838
+doi: https://doi.org/10.1016/j.marpol.2014.10.021
+zip_archive: glen_wright_2015_marine_governance_industrialised_ocean_case_emerging_marine_renewable_energy_industry_a.zip
+zip_file_count: '1'
+zip_file_size_mb: '0.2'
+pages: 77--84
 volume: '52'
-year: '2015'
+resources:
+- kind: pdf
+  title: 'Marine governance in an industrialised ocean: A case study of the emerging
+    marine renewable energy industry'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2015_marine_governance_industrialised_ocean_case_emerging_marine_renewable_energy_industry.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/glen_wright_2015_marine_governance_industrialised_ocean_case_emerging_marine_renewable_energy_industry_a.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 1 files · 0.2 MB
+- kind: landing
+  title: Visit Marine Policy publication page
+  label: Visit Marine Policy publication page
+  url: https://www.sciencedirect.com/science/article/pii/S0308597X14002838
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Marine Policy
-**Volume:** 52
-**Pages:** 77--84
-
-## Links and Resources
-
-- [Original URL](https://www.sciencedirect.com/science/article/pii/S0308597X14002838)
-- [DOI](https://doi.org/10.1016/j.marpol.2014.10.021)
-- [PDF](2015-Marine_governance_in_an_industrialised_ocean_A_case_study_of_the_emerging_marine_renewable_energy_industry.pdf)

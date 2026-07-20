@@ -1,26 +1,28 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: Tackling peak power demands
+date: '2013-03-01'
+entry_type: Newspaper
+year: '2013'
 bibtex_key: wrightTacklingPeakPower2013
+is_event: false
+description: Tackling peak power demands
 categories:
 - other
-date: 2013-March-01
-description: Tackling peak power demands
-entry_type: Newspaper
-layout: library-item
-pdf: Tackling peak power demands, WME.pdf
-tags: []
-title: Tackling peak power demands
+authors:
+- Glen Wright
 venue: Waste Management and Energy Magazine
-year: '2013'
+role: author
+preview: glen_wright_2013_tackling_peak_power_demands
+pdf: glen_wright_2013_tackling_peak_power_demands.pdf
+resources:
+- kind: pdf
+  title: Tackling peak power demands
+  label: View primary document
+  url: /assets/pdf/glen_wright_2013_tackling_peak_power_demands.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Waste Management and Energy Magazine
-
-## Links and Resources
-
-- [PDF](Tackling peak power demands, WME.pdf)

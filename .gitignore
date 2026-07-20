@@ -15,6 +15,34 @@ backups/
 archive/
 templates/
 
+# Python / pytest
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+*.cover
+coverage.xml
+pytest-report.html
+test_report.html
+.hypothesis/
+.cache/
+
 # Zotero exports (contain local file paths)
 _bibliography/Exported Items.bib
 _bibliography/Exported Items_backup_*.bib
@@ -41,11 +69,7 @@ scripts/analyze_citations.py
 scripts/generate_series_pages.py
 scripts/import_collage_images.py
 scripts/validate_creative.py
-scripts/__pycache__/generate_series_pages.cpython-310.pyc
-scripts/__pycache__/import_collage_images.cpython-310.pyc
-scripts/__pycache__/validate_creative.cpython-310.pyc
 processing/validation/__init__.py
-processing/validation/__pycache__/__init__.cpython-310.pyc
 processing/utils/__init__.py
 processing/utils/field_cleaner.py
 processing/utils/file_field_manager.py
@@ -53,13 +77,6 @@ processing/utils/file_field_parser.py
 processing/utils/file_manager.py
 processing/utils/image_classifier.py
 processing/utils/metadata_fetcher.py
-processing/utils/__pycache__/__init__.cpython-310.pyc
-processing/utils/__pycache__/field_cleaner.cpython-310.pyc
-processing/utils/__pycache__/file_field_manager.cpython-310.pyc
-processing/utils/__pycache__/file_field_parser.cpython-310.pyc
-processing/utils/__pycache__/file_manager.cpython-310.pyc
-processing/utils/__pycache__/image_classifier.cpython-310.pyc
-processing/utils/__pycache__/metadata_fetcher.cpython-310.pyc
 processing/mapping/photos_processor.py
 processing/mapping/processor.py
 processing/CODE_QUALITY_ASSESSMENT_UPDATE.md

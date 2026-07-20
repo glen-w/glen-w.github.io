@@ -1,36 +1,57 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: Second Meeting of the Sustainable Ocean Initiative Global Dialogue with Regional
+  Seras Organizations and Regional Fisheries Bodies on Accelerating Progress Towards
+  the Aichi Biodiversity Targets and Sustainable Development Goals
+date: '2018-04-01'
+entry_type: Workshop
+year: '2018'
 bibtex_key: SecondMeetingSustainable2018
+is_event: true
+description: Second Meeting of the Sustainable Ocean Initiative Global Dialogue with
+  Regional Seras Organizations and Regional Fisheries Bodies on Accelerating Progress
+  Towards the Aichi Biodiversity Targets and Sustainable Development Goals
 categories:
 - other
-date: 2018-April-01
-description: Second Meeting of the Sustainable Ocean Initiative Global Dialogue with
-  Regional Seras Organizations...
-entry_type: Workshop
+location: Seoul, South Korea
+publisher: Convention on Biological Diversity
+role: participant
+preview: 2018_second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable
 gallery:
 - second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable_figure_01
 - second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable_photo_01
 - second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable_photo_02
 - second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable_photo_03
-layout: library-item
-location: Seoul, South Korea
-pdf: Meeting Programme-2nd SOI Global Dialogue (4 April)-updated.pdf
-preview: second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable_figure_01
-publisher: Convention on Biological Diversity
-tags: []
-title: Second Meeting of the Sustainable Ocean Initiative Global Dialogue with Regional
-  Seras Organizations and Regional Fisheries Bodies on Accelerating Progress Towards
-  the Aichi Biodiversity Targets and Sustainable Development Goals
-venue: ''
-year: '2018'
+pdf: 2018_second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable.pdf
+agenda: 2018_second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable_a_agenda.pdf
+zip_archive: 2018_second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable.zip
+zip_file_count: '5'
+zip_file_size_mb: '15.0'
+resources:
+- kind: pdf
+  title: Second Meeting of the Sustainable Ocean Initiative Global Dialogue with Regional
+    Seras Organizations and Regional Fisheries Bodies on Accelerating Progress Towards
+    the Aichi Biodiversity Targets and Sustainable Development Goals
+  label: View primary document
+  url: /assets/pdf/2018_second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2018_second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable_a_agenda.pdf
+  format: PDF
+  local: true
+  external: false
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/2018_second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 5 files · 15.0 MB
 ---
 
-## Publication Details
-
-**Location:** Seoul, South Korea
-**Publisher:** Convention on Biological Diversity
-
-## Links and Resources
-
-- [PDF](Meeting Programme-2nd SOI Global Dialogue (4 April)-updated.pdf)

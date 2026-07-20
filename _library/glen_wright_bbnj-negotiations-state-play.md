@@ -1,30 +1,30 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: 'BBNJ Negotiations: State of play'
+date: '2018-09-01'
+entry_type: Training
+year: '2018'
 bibtex_key: wrightBBNJNegotiationsState2018
+is_event: false
+description: 'BBNJ Negotiations: State of play'
 categories:
 - other
-date: 2018-September-01
-description: 'BBNJ Negotiations: State of play'
-entry_type: Training
-layout: library-item
-location: New York, NY, USA
-pdf: Wright - BBNJ Negotiations State of play.pdf
-publisher: STRONG High Seas
-tags: []
-title: 'BBNJ Negotiations: State of play'
+authors:
+- Glen Wright
 venue: BBNJ Training for UN Negotiations
-year: '2018'
+location: New York, NY, USA
+publisher: STRONG High Seas
+role: speaker
+preview: glen_wright_2018_bbnj_negotiations_state_play
+pdf: glen_wright_2018_bbnj_negotiations_state_play.pdf
+resources:
+- kind: pdf
+  title: 'BBNJ Negotiations: State of play'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2018_bbnj_negotiations_state_play.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** BBNJ Training for UN Negotiations
-**Location:** New York, NY, USA
-**Publisher:** STRONG High Seas
-
-## Links and Resources
-
-- [PDF](Wright - BBNJ Negotiations State of play.pdf)

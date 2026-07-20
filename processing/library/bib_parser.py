@@ -219,25 +219,32 @@ class BibParser:
         """Extract various links from entry."""
         links = {}
         
-        # Direct URL fields
-        if entry.get('url'):
-            links['url'] = entry['url']
+        # Direct URL fields (pipeline renames url → website)
+        url_value = entry.get('url') or entry.get('website')
+        if url_value:
+            links['url'] = str(url_value).strip()
         if entry.get('doi'):
-            links['doi'] = f"https://doi.org/{entry['doi']}"
+            doi = str(entry['doi']).strip()
+            if doi.startswith('http'):
+                links['doi'] = doi
+            else:
+                links['doi'] = f"https://doi.org/{doi}"
         if entry.get('arxiv'):
             links['arxiv'] = f"https://arxiv.org/abs/{entry['arxiv']}"
         
         # PDF and media files
         if entry.get('pdf'):
-            links['pdf'] = entry['pdf']
+            links['pdf'] = str(entry['pdf']).strip()
         if entry.get('preview'):
-            links['preview'] = entry['preview']
+            links['preview'] = str(entry['preview']).strip()
         if entry.get('video'):
-            links['video'] = entry['video']
+            links['video'] = str(entry['video']).strip()
         if entry.get('slides'):
-            links['slides'] = entry['slides']
+            links['slides'] = str(entry['slides']).strip()
+        if entry.get('agenda'):
+            links['agenda'] = str(entry['agenda']).strip()
         if entry.get('poster'):
-            links['poster'] = entry['poster']
+            links['poster'] = str(entry['poster']).strip()
         
         # Extract PDF from file field if pdf field is not already set
         if not links.get('pdf') and entry.get('file'):

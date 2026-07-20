@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: The Standard of Reasonable Care and Skill Expected of an Accountant
+date: '2010-01-01'
+entry_type: Journal article
+year: '2010'
+bibtex_key: wrightStandardReasonableCare2010
+is_event: false
+description: The case concerns the standard of reasonable care and skill expected
+  of an accountant, and the tests for causation, contributory negligence, and concurrent
+  wrongdoing.
+standfirst: The case concerns the standard of reasonable care and skill expected of
+  an accountant, and the tests for causation, contributory negligence, and concurrent
+  wrongdoing.
 abstract: The case concerns the standard of reasonable care and skill expected of
   an accountant, and the tests for causation, contributory negligence, and concurrent
   wrongdoing. The accountant in this case advised a company to advance money to another
@@ -16,31 +29,23 @@ abstract: The case concerns the standard of reasonable care and skill expected o
   not pleaded. It was also held that there is no requirement under the Wrongs Act
   1958 section 24AH that there must be a causal relationship between the loss caused
   by one wrongdoer and the loss caused by the other.
-authors:
-- Glen Wright
-bibtex_key: wrightStandardReasonableCare2010
 categories:
 - other
-date: '2010-01-01'
-description: The case concerns the standard of reasonable care and skill expected
-  of an accountant, and the tests for causation, contributory negligence, and concurrent
-  wrongdoing. The accountant in this case advi...
-entry_type: Journal article
-layout: library-item
-number: '159'
-pdf: The Standard of Reasonable Care and Skill Expected of an Accountant.pdf
-tags: []
-title: The Standard of Reasonable Care and Skill Expected of an Accountant
+authors:
+- Glen Wright
 venue: Global Corporate Law Bulletin
-year: '2010'
+role: author
+preview: glen_wright_2010_standard_reasonable_care_skill_expected_accountant
+pdf: glen_wright_2010_standard_reasonable_care_skill_expected_accountant.pdf
+number: '159'
+resources:
+- kind: pdf
+  title: The Standard of Reasonable Care and Skill Expected of an Accountant
+  label: View primary document
+  url: /assets/pdf/glen_wright_2010_standard_reasonable_care_skill_expected_accountant.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Global Corporate Law Bulletin
-**Number:** 159
-
-## Links and Resources
-
-- [PDF](The Standard of Reasonable Care and Skill Expected of an Accountant.pdf)

@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: 'Climate Clubs: Overcoming Free-Riding in International Climate Policy'
+date: '2015-04-01'
+entry_type: Journal article
+year: '2015'
+bibtex_key: nordhausClimateClubsOvercoming2015
+is_event: false
+description: Notwithstanding great progress in scientific and economic understanding
+  of climate change, it has proven difficult to forge international agreements because
+  of free-riding, as seen in the defunct Kyoto Protocol.
+standfirst: Notwithstanding great progress in scientific and economic understanding
+  of climate change, it has proven difficult to forge international agreements because
+  of free-riding, as seen in the defunct Kyoto Protocol.
 abstract: Notwithstanding great progress in scientific and economic understanding
   of climate change, it has proven difficult to forge international agreements because
   of free-riding, as seen in the defunct Kyoto Protocol. This study examines the club
@@ -7,40 +20,33 @@ abstract: Notwithstanding great progress in scientific and economic understandin
   stable coalitions other than those with minimal abatement. By contrast, a regime
   with small trade penalties on non-participants, a Climate Club, can induce a large
   stable coalition with high levels of abatement. (JEL Q54, Q58, K32, K33)
-authors:
-- William Nordhaus
-bibtex_key: nordhausClimateClubsOvercoming2015
 categories:
 - other
-date: 2015-April-01
-description: Notwithstanding great progress in scientific and economic understanding
-  of climate change, it has proven difficult to forge international agreements because
-  of free-riding, as seen in the defunct Kyot...
-doi: https://doi.org/10.1257/aer.15000001
-entry_type: Other
-layout: library-item
-number: '4'
-pages: 1339--1370
-pdf: Nordhaus - 2015 - Climate Clubs Overcoming Free-Riding in International Climate
-  Policy.pdf
-tags: []
-title: 'Climate Clubs: Overcoming Free-Riding in International Climate Policy'
-url: https://www.aeaweb.org/articles?id=10.1257/aer.15000001
+authors:
+- William Nordhaus
 venue: American Economic Review
+preview: 2015_climate_clubs_overcoming_free_riding_international_climate_policy
+pdf: 2015_climate_clubs_overcoming_free_riding_international_climate_policy.pdf
+url: https://www.aeaweb.org/articles?id=10.1257/aer.15000001
+doi: https://doi.org/10.1257/aer.15000001
+pages: 1339--1370
 volume: '105'
-year: '2015'
+number: '4'
+resources:
+- kind: pdf
+  title: 'Climate Clubs: Overcoming Free-Riding in International Climate Policy'
+  label: View primary document
+  url: /assets/pdf/2015_climate_clubs_overcoming_free_riding_international_climate_policy.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit American Economic Review publication page
+  label: Visit American Economic Review publication page
+  url: https://www.aeaweb.org/articles?id=10.1257/aer.15000001
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** William Nordhaus
-**Venue:** American Economic Review
-**Volume:** 105
-**Number:** 4
-**Pages:** 1339--1370
-
-## Links and Resources
-
-- [Original URL](https://www.aeaweb.org/articles?id=10.1257/aer.15000001)
-- [DOI](https://doi.org/10.1257/aer.15000001)
-- [PDF](Nordhaus - 2015 - Climate Clubs Overcoming Free-Riding in International Climate Policy.pdf)

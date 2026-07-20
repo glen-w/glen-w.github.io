@@ -1,33 +1,33 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Combatting marine plastic litter: state of play and perspectives'
+date: '2020-01-01'
+entry_type: Report
+year: '2020'
+bibtex_key: rochetteCombattingMarinePlastic2020
+is_event: false
+description: 'Combatting marine plastic litter: state of play and perspectives'
+categories:
+- other
 authors:
 - Julien Rochette
 - Romain Schumm
 - Glen Wright
 - Klaudija Cremers
-bibtex_key: rochetteCombattingMarinePlastic2020
-categories:
-- other
-date: '2020-01-01'
-description: 'Combatting marine plastic litter: state of play and perspectives'
-entry_type: Report
-institution: IDDRI
-layout: library-item
-number: '3'
-pdf: Rochette et al. - Combatting marine plastic litter state of play an.pdf
-tags: []
-title: 'Combatting marine plastic litter: state of play and perspectives'
 venue: IDDRI
-year: '2020'
+institution: IDDRI
+role: co-author
+preview: 2020_combatting_marine_plastic_litter_state_play_perspectives
+pdf: 2020_combatting_marine_plastic_litter_state_play_perspectives.pdf
+number: '3'
+resources:
+- kind: pdf
+  title: 'Combatting marine plastic litter: state of play and perspectives'
+  label: View report PDF
+  url: /assets/pdf/2020_combatting_marine_plastic_litter_state_play_perspectives.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Julien Rochette, Romain Schumm, Glen Wright, Klaudija Cremers
-**Venue:** IDDRI
-**Number:** 3
-**Institution:** IDDRI
-
-## Links and Resources
-
-- [PDF](Rochette et al. - Combatting marine plastic litter state of play an.pdf)

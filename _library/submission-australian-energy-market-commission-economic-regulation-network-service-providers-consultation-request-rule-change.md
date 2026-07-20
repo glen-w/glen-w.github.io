@@ -1,27 +1,29 @@
 ---
-abstract: ''
-authors: []
-bibtex_key: wrightSubmissionAustralianEnergy2011
-categories:
-- other
-date: 2011-December-01
-description: 'Submission to the Australian Energy Market Commission: Economic Regulation
-  of Network Service Provid...'
-entry_type: Submission
 layout: library-item
-pdf: Economic Regulation of NSPs.pdf
-publisher: Total Environment Centre
-tags: []
 title: 'Submission to the Australian Energy Market Commission: Economic Regulation
   of Network Service Providers (Consultation on Request for a Rule Change)'
-venue: ''
+date: '2011-12-01'
+entry_type: Submission
 year: '2011'
+bibtex_key: wrightSubmissionAustralianEnergy2011
+is_event: false
+description: 'Submission to the Australian Energy Market Commission: Economic Regulation
+  of Network Service Providers (Consultation on Request for a Rule Change)'
+categories:
+- other
+publisher: Total Environment Centre
+role: author
+preview: 2011_submission_australian_energy_market_commission_economic_regulation_network_service_providers_consultation_request_rule_change
+pdf: 2011_submission_australian_energy_market_commission_economic_regulation_network_service_providers_consultation_request_rule_change.pdf
+resources:
+- kind: pdf
+  title: 'Submission to the Australian Energy Market Commission: Economic Regulation
+    of Network Service Providers (Consultation on Request for a Rule Change)'
+  label: View primary document
+  url: /assets/pdf/2011_submission_australian_energy_market_commission_economic_regulation_network_service_providers_consultation_request_rule_change.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Publisher:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](Economic Regulation of NSPs.pdf)

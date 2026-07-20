@@ -1,13 +1,21 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study issues
+  relating to the conservation and sustainable use of marine biological diversity
+  beyond areas of national jurisdiction
+date: '2015-01-01'
+entry_type: Negotiation
+year: '2015'
 bibtex_key: NinthMeetingAd2015
+is_event: false
+description: Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study
+  issues relating to the conservation and sustainable use of marine biological diversity
+  beyond areas of national jurisdiction
 categories:
 - other
-date: 2015-January-01
-description: Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study
-  issues relating to the conser...
-entry_type: Negotiation
+location: United Nations, New York City, NY, USA
+role: delegate
+preview: 2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction
 gallery:
 - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_01
 - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_01
@@ -18,24 +26,36 @@ gallery:
 - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_06
 - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_06
 - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_07
-layout: library-item
-location: United Nations, New York City, NY, USA
-pdf: n1504182.pdf
-preview: ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_01
-tags: []
-title: Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study issues
-  relating to the conservation and sustainable use of marine biological diversity
-  beyond areas of national jurisdiction
+pdf: 2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_b.pdf
 url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
-venue: ''
-year: '2015'
+zip_archive: 2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
+zip_file_count: '8'
+zip_file_size_mb: '10.8'
+resources:
+- kind: pdf
+  title: Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study issues
+    relating to the conservation and sustainable use of marine biological diversity
+    beyond areas of national jurisdiction
+  label: View primary document
+  url: /assets/pdf/2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_b.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 8 files · 10.8 MB
+- kind: landing
+  title: Visit publication page
+  label: Visit publication page
+  url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Location:** United Nations, New York City, NY, USA
-
-## Links and Resources
-
-- [Original URL](https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm)
-- [PDF](n1504182.pdf)

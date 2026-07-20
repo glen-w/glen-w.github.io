@@ -1,28 +1,29 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: 'The Energy Challenge: Renewables at Rio+20'
+date: '2012-01-01'
+entry_type: Poster
+year: '2012'
 bibtex_key: wrightEnergyChallengeRenewables2012
+is_event: false
+description: 'The Energy Challenge: Renewables at Rio+20'
 categories:
 - other
-date: '2012-01-01'
-description: 'The Energy Challenge: Renewables at Rio+20'
-entry_type: Poster
-layout: library-item
-location: Canberra, Australia
-pdf: Glen Wright, Rio+20 energy poster.pdf
-tags: []
-title: 'The Energy Challenge: Renewables at Rio+20'
+authors:
+- Glen Wright
 venue: Rio+20 Workshop
-year: '2012'
+location: Canberra, Australia
+role: author
+preview: glen_wright_2012_energy_challenge_renewables_rio_20
+pdf: glen_wright_2012_energy_challenge_renewables_rio_20.pdf
+resources:
+- kind: pdf
+  title: 'The Energy Challenge: Renewables at Rio+20'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2012_energy_challenge_renewables_rio_20.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Rio+20 Workshop
-**Location:** Canberra, Australia
-
-## Links and Resources
-
-- [PDF](Glen Wright, Rio+20 energy poster.pdf)

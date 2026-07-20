@@ -1,32 +1,33 @@
 ---
-abstract: ''
-authors:
-- STRONG High Seas
-bibtex_key: stronghighseasHighlevelExpertMeeting2019
-categories:
-- other
-date: 2019-March-01
-description: 'High-level expert meeting: Towards an Effective High Seas Treaty: Building
-  on and Strengthening Regi...'
-entry_type: Workshop
-institution: STRONG High Seas
 layout: library-item
-location: New York, USA
-pdf: 2019_High-level-expert-meeting_New-York_summary.pdf
-tags: []
 title: 'High-level expert meeting: Towards an Effective High Seas Treaty: Building
   on and Strengthening Regional Ocean Governance'
-venue: STRONG High Seas
+date: '2019-03-01'
+entry_type: Workshop
 year: '2019'
+bibtex_key: stronghighseasHighlevelExpertMeeting2019
+is_event: true
+description: 'High-level expert meeting: Towards an Effective High Seas Treaty: Building
+  on and Strengthening Regional Ocean Governance'
+categories:
+- other
+authors:
+- STRONG High Seas
+venue: STRONG High Seas
+location: New York, USA
+institution: STRONG High Seas
+role: organiser
+preview: 2019_high_level_expert_meeting_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance
+pdf: 2019_high_level_expert_meeting_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance.pdf
+resources:
+- kind: pdf
+  title: 'High-level expert meeting: Towards an Effective High Seas Treaty: Building
+    on and Strengthening Regional Ocean Governance'
+  label: View primary document
+  url: /assets/pdf/2019_high_level_expert_meeting_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** STRONG High Seas
-**Venue:** STRONG High Seas
-**Location:** New York, USA
-**Institution:** STRONG High Seas
-
-## Links and Resources
-
-- [PDF](2019_High-level-expert-meeting_New-York_summary.pdf)

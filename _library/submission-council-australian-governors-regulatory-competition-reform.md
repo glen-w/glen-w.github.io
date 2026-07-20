@@ -1,30 +1,32 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Submission to Council of Australian Governors: Regulatory and Competition
+  Reform'
+date: '2012-01-01'
+entry_type: Submission
+year: '2012'
+bibtex_key: byrneSubmissionCouncilAustralian2012
+is_event: false
+description: 'Submission to Council of Australian Governors: Regulatory and Competition
+  Reform'
+categories:
+- other
 authors:
 - Mark Byrne
 - Glen Wright
-bibtex_key: byrneSubmissionCouncilAustralian2012
-categories:
-- other
-date: '2012-01-01'
-description: 'Submission to Council of Australian Governors: Regulatory and Competition
-  Reform'
-entry_type: Submission
-layout: library-item
-pdf: Wright and Centre - TOTAL ENVIRONMENT CENTRE INC.pdf
 publisher: Total Environment Centre
-tags: []
-title: 'Submission to Council of Australian Governors: Regulatory and Competition
-  Reform'
-venue: ''
-year: '2012'
+role: co-author
+preview: 2012_submission_council_australian_governors_regulatory_competition_reform
+pdf: 2012_submission_council_australian_governors_regulatory_competition_reform.pdf
+resources:
+- kind: pdf
+  title: 'Submission to Council of Australian Governors: Regulatory and Competition
+    Reform'
+  label: View primary document
+  url: /assets/pdf/2012_submission_council_australian_governors_regulatory_competition_reform.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Mark Byrne, Glen Wright
-**Publisher:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](Wright and Centre - TOTAL ENVIRONMENT CENTRE INC.pdf)

@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: A new chapter for the high seas? Historic decision to negotiate an international
+  legally binding instrument on the conservation and sustainable use of marine biodiversity
+  in areas beyond national jurisdiction
+date: '2015-01-01'
+entry_type: Report
+year: '2015'
+bibtex_key: Rochette2015
+is_event: false
+description: Marine areas beyond national jurisdiction (ABNJ) represent around half
+  of the Planet’s surface and a significant amount of its biodiversity.
+standfirst: Marine areas beyond national jurisdiction (ABNJ) represent around half
+  of the Planet’s surface and a significant amount of its biodiversity.
 abstract: Marine areas beyond national jurisdiction (ABNJ) represent around half of
   the Planet’s surface and a significant amount of its biodiversity. In recent years,
   the international community has become increasingly aware of the growing and expanding
@@ -21,43 +34,33 @@ abstract: Marine areas beyond national jurisdiction (ABNJ) represent around half
   of agreeing to open negotiations for a new international legally binding instrument
   under UNCLOS. This paper presents the discussions leading up to the decisive third
   mee
+categories:
+- other
 authors:
 - Julien Rochette
 - Glen Wright
 - Kristina Gjerde
 - Thomas Greiber
 - Sebastian Unger
-- Aurélie Spadone
-bibtex_key: Rochette2015
-categories:
-- other
-date: '2015-01-01'
-description: Marine areas beyond national jurisdiction (ABNJ) represent around half
-  of the Planet’s surface and a significant amount of its biodiversity. In recent
-  years, the international community has become inc...
-entry_type: Report
-institution: IDDRI
-layout: library-item
-pages: '4'
-pdf: 2015-A_new_chapter_for_the_high_seas_Historic_decision_to_negotiate_an_international_legally_binding_instrument_on_the_c.pdf
-tags: []
-title: A new chapter for the high seas? Historic decision to negotiate an international
-  legally binding instrument on the conservation and sustainable use of marine biodiversity
-  in areas beyond national jurisdiction
+- Aurelie Spadone
 venue: IDDRI
-year: '2015'
+institution: IDDRI
+role: co-author
+preview: 2015_new_chapter_high_seas_historic_decision_negotiate_international_legally_binding_instrument_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction
+pdf: 2015_new_chapter_high_seas_historic_decision_negotiate_international_legally_binding_instrument_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
+pages: '4'
+resources:
+- kind: pdf
+  title: A new chapter for the high seas? Historic decision to negotiate an international
+    legally binding instrument on the conservation and sustainable use of marine biodiversity
+    in areas beyond national jurisdiction
+  label: View report PDF
+  url: /assets/pdf/2015_new_chapter_high_seas_historic_decision_negotiate_international_legally_binding_instrument_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
-
-## Publication Details
-
-**Authors:** Julien Rochette, Glen Wright, Kristina Gjerde, Thomas Greiber, Sebastian Unger, Aurélie Spadone
-**Venue:** IDDRI
-**Pages:** 4
-**Institution:** IDDRI
-
-## Links and Resources
-
-- [PDF](2015-A_new_chapter_for_the_high_seas_Historic_decision_to_negotiate_an_international_legally_binding_instrument_on_the_c.pdf)
 
 ## Notes
 

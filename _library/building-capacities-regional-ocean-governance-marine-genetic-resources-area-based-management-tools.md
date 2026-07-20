@@ -1,29 +1,28 @@
 ---
-abstract: ''
-authors: []
-bibtex_key: BuildingCapacitiesRegional2019
-categories:
-- other
-date: 2019-August-01
-description: 'Building Capacities for Regional Ocean Governance: Marine Genetic Resources
-  and Area-based Managemen...'
-entry_type: Training
 layout: library-item
-location: New York City, NY, USA
-pdf: Invitation_STRONG Workshop_IGC3 copie.pdf
-publisher: STRONG High Seas
-tags: []
 title: 'Building Capacities for Regional Ocean Governance: Marine Genetic Resources
   and Area-based Management Tools'
-venue: ''
+date: '2019-08-01'
+entry_type: Training
 year: '2019'
+bibtex_key: BuildingCapacitiesRegional2019
+is_event: false
+description: 'Building Capacities for Regional Ocean Governance: Marine Genetic Resources
+  and Area-based Management Tools'
+categories:
+- other
+location: New York City, NY, USA
+publisher: STRONG High Seas
+role: facilitator
+preview: 2019_building_capacities_regional_ocean_governance_marine_genetic_resources_area_based_management_tools
+agenda: 2019_building_capacities_regional_ocean_governance_marine_genetic_resources_area_based_management_tools_agenda.pdf
+resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2019_building_capacities_regional_ocean_governance_marine_genetic_resources_area_based_management_tools_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 ---
 
-## Publication Details
-
-**Location:** New York City, NY, USA
-**Publisher:** STRONG High Seas
-
-## Links and Resources
-
-- [PDF](Invitation_STRONG Workshop_IGC3 copie.pdf)

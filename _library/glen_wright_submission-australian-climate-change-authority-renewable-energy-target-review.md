@@ -1,27 +1,30 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
-bibtex_key: wrightSubmissionAustralianClimate2012
-categories:
-- other
-date: 2012-August-01
-description: 'Submission to the Australian Climate Change Authority: Renewable Energy
-  Target review'
-entry_type: Submission
 layout: library-item
-pdf: Submission to the CCA, RET Review.pdf
-tags: []
 title: 'Submission to the Australian Climate Change Authority: Renewable Energy Target
   review'
-venue: ''
+date: '2012-08-01'
+entry_type: Submission
 year: '2012'
+bibtex_key: wrightSubmissionAustralianClimate2012
+is_event: false
+description: 'Submission to the Australian Climate Change Authority: Renewable Energy
+  Target review'
+categories:
+- other
+authors:
+- Glen Wright
+role: author
+preview: glen_wright_2012_submission_australian_climate_change_authority_renewable_energy_target_review
+pdf: glen_wright_2012_submission_australian_climate_change_authority_renewable_energy_target_review.pdf
+resources:
+- kind: pdf
+  title: 'Submission to the Australian Climate Change Authority: Renewable Energy
+    Target review'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2012_submission_australian_climate_change_authority_renewable_energy_target_review.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-
-## Links and Resources
-
-- [PDF](Submission to the CCA, RET Review.pdf)

@@ -1,4 +1,20 @@
 ---
+layout: library-item
+title: Options for Strengthening Monitoring, Control and Surveillance of Human Activities
+  in the Southeast Atlantic Region
+date: '2021-01-01'
+entry_type: Report
+year: '2021'
+bibtex_key: cremersOptionsStrengtheningMonitoring2021
+is_event: false
+description: Effective monitoring, control and surveillance (MCS) of human activities
+  is critical for the conservation and sustainable use of the ocean. This is particularly
+  important in the Southeast Atlantic, where highly productive waters foster strong
+  fishing pressure.
+standfirst: Effective monitoring, control and surveillance (MCS) of human activities
+  is critical for the conservation and sustainable use of the ocean. This is particularly
+  important in the Southeast Atlantic, where highly productive waters foster strong
+  fishing pressure.
 abstract: "Effective monitoring, control and surveillance (MCS) of human activities\
   \ is critical for the conservation and sustainable use of the ocean. This is particularly\
   \ important in the Southeast Atlantic, where highly productive waters foster strong\
@@ -20,36 +36,29 @@ abstract: "Effective monitoring, control and surveillance (MCS) of human activit
   \ and sharing of data, enhanced cooperation and coordination, the harmonization\
   \ of legislation and deterrent sanctions, investing in capacity-building and through\
   \ more involvement in global and regional processes."
+tags:
+- featured
+categories:
+- other
 authors:
 - Klaudija Cremers
 - Morgane Bouvet
 - Glen Wright
 - Julien Rochette
-bibtex_key: cremersOptionsStrengtheningMonitoring2021
-categories:
-- other
-date: '2021-01-01'
-description: Effective monitoring, control and surveillance (MCS) of human activities
-  is critical for the conservation and sustainable use of the ocean. This is particularly
-  important in the Southeast Atlantic, wh...
-entry_type: Report
-institution: STRONG High Seas
-layout: library-item
-pdf: Options pour le renforcement du suivi, contrôle et.pdf
-tags:
-- featured
-title: Options for Strengthening Monitoring, Control and Surveillance of Human Activities
-  in the Southeast Atlantic Region
 venue: STRONG High Seas
-year: '2021'
+institution: STRONG High Seas
+role: co-author
+preview: 2021_options_strengthening_monitoring_control_surveillance_human_activities_southeast_atlantic_region
+pdf: 2021_options_strengthening_monitoring_control_surveillance_human_activities_southeast_atlantic_region_a.pdf
+resources:
+- kind: pdf
+  title: Options for Strengthening Monitoring, Control and Surveillance of Human Activities
+    in the Southeast Atlantic Region
+  label: View report PDF
+  url: /assets/pdf/2021_options_strengthening_monitoring_control_surveillance_human_activities_southeast_atlantic_region_a.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Klaudija Cremers, Morgane Bouvet, Glen Wright, Julien Rochette
-**Venue:** STRONG High Seas
-**Institution:** STRONG High Seas
-
-## Links and Resources
-
-- [PDF](Options pour le renforcement du suivi, contrôle et.pdf)

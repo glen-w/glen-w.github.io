@@ -1,0 +1,97 @@
+{% comment %}
+  Materials / downloads from page.resources.
+  PDF-like items use the page preview thumbnail when available; one action per item.
+{% endcomment %}
+{% assign resources = page.resources %}
+{% assign resources_count = resources | size | default: 0 %}
+{% assign materials_count = 0 %}
+
+{% if resources_count > 0 %}
+  {% for resource in resources %}
+    {% if resource.local or resource.kind == 'pdf' or resource.kind == 'agenda' or resource.kind == 'slides' or resource.kind == 'poster' or resource.kind == 'zip' %}
+      {% assign materials_count = materials_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign preview_text = page.preview | default: '' | to_s | strip %}
+{% assign has_preview = preview_text | size | plus: 0 %}
+{% assign materials_preview_src = '' %}
+{% if has_preview > 0 %}
+  {% if preview_text contains '://' %}
+    {% assign materials_preview_src = preview_text %}
+  {% else %}
+    {% assign preview_file = preview_text | split: '/' | last %}
+    {% unless preview_file contains '.' %}
+      {% assign preview_file = preview_file | append: '.jpeg' %}
+    {% endunless %}
+    {% assign materials_preview_src = preview_file | prepend: '/assets/img/publication_preview/' | relative_url %}
+  {% endif %}
+{% endif %}
+
+{% if materials_count > 0 %}
+  <section class="library-materials" aria-labelledby="library-materials-heading">
+    <h2 id="library-materials-heading">Materials</h2>
+    <ul class="library-materials-list">
+      {% for resource in resources %}
+        {% if resource.local or resource.kind == 'pdf' or resource.kind == 'agenda' or resource.kind == 'slides' or resource.kind == 'poster' or resource.kind == 'zip' %}
+          {% assign item_href = resource.url %}
+          {% unless item_href contains '://' %}
+            {% assign item_href = resource.url | relative_url %}
+          {% endunless %}
+
+          {% assign show_thumb = false %}
+          {% if materials_preview_src != '' and resource.kind != 'zip' %}
+            {% assign show_thumb = true %}
+          {% endif %}
+
+          <li class="library-materials-item">
+            {% if show_thumb %}
+              <a
+                href="{{ item_href }}"
+                class="library-materials-thumb-link"
+                {% if resource.local or item_href contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}
+              >
+                <img
+                  class="library-materials-thumb"
+                  src="{{ materials_preview_src }}"
+                  alt=""
+                  width="72"
+                  height="96"
+                  loading="lazy"
+                  onerror="this.onerror=null; var s=this.src; if(s.indexOf('.jpeg')>-1){this.src=s.replace('.jpeg','.jpg');}else if(s.indexOf('.jpg')>-1){this.src=s.replace('.jpg','.png');}else{this.closest('.library-materials-thumb-link').style.display='none'; var b=this.closest('.library-materials-item').querySelector('.library-materials-badge-fallback'); if(b){b.hidden=false;}}"
+                >
+                <span class="visually-hidden">Open {{ resource.title }}</span>
+              </a>
+              <div class="library-materials-badge library-materials-badge-fallback" aria-hidden="true" hidden>{{ resource.format }}</div>
+            {% else %}
+              <div class="library-materials-badge" aria-hidden="true">{{ resource.format }}</div>
+            {% endif %}
+
+            <div class="library-materials-body">
+              <div class="library-materials-title">{{ resource.title }}</div>
+              <div class="library-materials-meta">
+                {% if resource.subtitle %}
+                  {{ resource.subtitle }}
+                {% else %}
+                  {{ resource.format }}{% if resource.kind == 'agenda' %} · Agenda{% elsif resource.kind == 'slides' %} · Slides{% elsif resource.kind == 'poster' %} · Poster{% elsif resource.primary %} · Primary document{% endif %}
+                {% endif %}
+              </div>
+              <div class="library-materials-links">
+                {% if resource.kind == 'zip' or resource.local %}
+                  <a href="{{ item_href }}" class="library-materials-link" download>
+                    Download<span class="visually-hidden"> {{ resource.title }}</span>
+                  </a>
+                {% else %}
+                  <a href="{{ item_href }}" class="library-materials-link" target="_blank" rel="noopener noreferrer">
+                    Open<span class="visually-hidden"> {{ resource.title }} (opens in a new tab)</span>
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

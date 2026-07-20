@@ -1,4 +1,18 @@
 ---
+layout: library-item
+title: 'The long and winding road continues: Towards a new agreement on high seas
+  governance'
+date: '2016-01-01'
+entry_type: Report
+year: '2016'
+bibtex_key: Wright2016f
+is_event: false
+description: In 2015, States agreed to launch negotiations for the elaboration of
+  an international legally binding instrument dedicated to the conservation and sustainable
+  use of the marine biological diversity of areas beyond national jurisdiction (ABNJ).
+standfirst: In 2015, States agreed to launch negotiations for the elaboration of an
+  international legally binding instrument dedicated to the conservation and sustainable
+  use of the marine biological diversity of areas beyond national jurisdiction (ABNJ).
 abstract: 'In 2015, States agreed to launch negotiations for the elaboration of an
   international legally binding instrument dedicated to the conservation and sustainable
   use of the marine biological diversity of areas beyond national jurisdiction (ABNJ).
@@ -16,43 +30,38 @@ abstract: 'In 2015, States agreed to launch negotiations for the elaboration of 
   appropriate institu­tional structure and the negotiation of an agreement that does
   not under­mine the mandates of existing organisations, especially fisheries manage­ment
   bodies.'
+categories:
+- other
 authors:
 - Glen Wright
 - Julien Rochette
 - Elisabeth Druel
 - Kristina M Gjerde
-bibtex_key: Wright2016f
-categories:
-- other
-date: '2016-01-01'
-description: In 2015, States agreed to launch negotiations for the elaboration of
-  an international legally binding instrument dedicated to the conservation and sustainable
-  use of the marine biological diversity of...
-entry_type: Report
-institution: IDDRI
-layout: library-item
-number: '1'
-pdf: Wright et al. - The long and winding road continues Towards a new agreement on
-  high seas governance - 2016 - IDDRI Study 2.pdf
-tags: []
-title: 'The long and winding road continues: Towards a new agreement on high seas
-  governance'
-url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-continues-towards-new-agreement-high-seas
 venue: IDDRI
-year: '2016'
+institution: IDDRI
+role: lead author
+preview: glen_wright_etal_2016_long_winding_road_continues_towards_new_agreement_high_seas_governance
+pdf: glen_wright_etal_2016_long_winding_road_continues_towards_new_agreement_high_seas_governance.pdf
+url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-continues-towards-new-agreement-high-seas
+number: '1'
+resources:
+- kind: pdf
+  title: 'The long and winding road continues: Towards a new agreement on high seas
+    governance'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2016_long_winding_road_continues_towards_new_agreement_high_seas_governance.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit IDDRI publication page
+  label: Visit IDDRI publication page
+  url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-continues-towards-new-agreement-high-seas
+  format: Web
+  local: false
+  external: true
 ---
-
-## Publication Details
-
-**Authors:** Glen Wright, Julien Rochette, Elisabeth Druel, Kristina M Gjerde
-**Venue:** IDDRI
-**Number:** 1
-**Institution:** IDDRI
-
-## Links and Resources
-
-- [Original URL](https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-continues-towards-new-agreement-high-seas)
-- [PDF](Wright et al. - The long and winding road continues Towards a new agreement on high seas governance - 2016 - IDDRI Study 2.pdf)
 
 ## Notes
 

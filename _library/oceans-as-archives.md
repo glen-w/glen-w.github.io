@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: Oceans as Archives
+date: '2022-07-01'
+entry_type: Conference
+year: '2022'
+bibtex_key: OceansArchives05
+is_event: true
+description: The Oceans as Archives conference contributes to the growing field of
+  critical ocean studies, while intervening in the erasures and occlusions performed
+  in scripting the field as a new terrain of inquiry.
+standfirst: The Oceans as Archives conference contributes to the growing field of
+  critical ocean studies, while intervening in the erasures and occlusions performed
+  in scripting the field as a new terrain of inquiry.
 abstract: The Oceans as Archives conference contributes to the growing field of critical
   ocean studies, while intervening in the erasures and occlusions performed in scripting
   the field as a new terrain of inquiry. This three-day interdisciplinary conference
@@ -10,28 +23,19 @@ abstract: The Oceans as Archives conference contributes to the growing field of 
   theory, and decolonial and anticolonial critique. There will be panel discussions,
   film screenings, poetry readings, performances, visual art, workshops, and conference
   papers.
-authors: []
-bibtex_key: OceansArchives05
 categories:
 - other
-date: 2022-July-01
-description: The Oceans as Archives conference contributes to the growing field of
-  critical ocean studies, while intervening in the erasures and occlusions performed
-  in scripting the field as a new terrain of inqu...
-entry_type: Conference
-layout: library-item
 location: University of Amsterdam
-tags: []
-title: Oceans as Archives
+role: attendee
+preview: 2022_oceans_as_archives
 url: https://www.nica-institute.com/event-conference-oceans-as-archives/
-venue: ''
-year: '2022'
+resources:
+- kind: landing
+  title: Visit event website
+  label: Visit event website
+  url: https://www.nica-institute.com/event-conference-oceans-as-archives/
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Location:** University of Amsterdam
-
-## Links and Resources
-
-- [Original URL](https://www.nica-institute.com/event-conference-oceans-as-archives/)

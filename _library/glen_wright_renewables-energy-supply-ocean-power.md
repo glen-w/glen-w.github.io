@@ -1,28 +1,29 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: 'Renewables in Energy Supply: Ocean Power'
+date: '2025-09-01'
+entry_type: Report
+year: '2025'
 bibtex_key: wrightRenewablesEnergySupply2025
+is_event: false
+description: 'Renewables in Energy Supply: Ocean Power'
 categories:
 - other
-date: 2025-September-01
-description: 'Renewables in Energy Supply: Ocean Power'
-entry_type: Report
-institution: REN21
-layout: library-item
-pdf: GSR_2025_Factsheet_Supply_Ocean-Power.pdf
-tags: []
-title: 'Renewables in Energy Supply: Ocean Power'
+authors:
+- Glen Wright
 venue: REN21
-year: '2025'
+institution: REN21
+role: author
+preview: glen_wright_2025_renewables_energy_supply_ocean_power
+pdf: glen_wright_2025_renewables_energy_supply_ocean_power.pdf
+resources:
+- kind: pdf
+  title: 'Renewables in Energy Supply: Ocean Power'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_2025_renewables_energy_supply_ocean_power.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** REN21
-**Institution:** REN21
-
-## Links and Resources
-
-- [PDF](GSR_2025_Factsheet_Supply_Ocean-Power.pdf)

@@ -1,4 +1,20 @@
 ---
+layout: library-item
+title: 'The Scores at Half Time: An update on the international discussions on the
+  governance of marine biodiversity in areas beyond national jurisdiction'
+date: '2014-01-01'
+entry_type: Report
+year: '2014'
+bibtex_key: Wright2014
+is_event: false
+description: Marine areas beyond national jurisdiction (ABNJ) represent around half
+  of the Planet’s surface and a significant amount of its biodiversity. Over the past
+  decades, the international community has become increasingly cognisant of the growing
+  threats to ABNJ.
+standfirst: Marine areas beyond national jurisdiction (ABNJ) represent around half
+  of the Planet’s surface and a significant amount of its biodiversity. Over the past
+  decades, the international community has become increasingly cognisant of the growing
+  threats to ABNJ.
 abstract: Marine areas beyond national jurisdiction (ABNJ) represent around half of
   the Planet’s surface and a significant amount of its biodiversity. Over the past
   decades, the international community has become increasingly cognisant of the growing
@@ -19,41 +35,31 @@ abstract: Marine areas beyond national jurisdiction (ABNJ) represent around half
   place, in April 1-4 and June 16-19, 2014. This paper highlights the remaining challenges
   on the “long and winding road” towards the conservation and sustainable use of marine
   biodiversity in ABNJ.
+categories:
+- other
 authors:
 - Glen Wright
 - Julien Rochette
 - Sebastian Unger
 - Kristina Gjerde
 - Jeff Ardron
-bibtex_key: Wright2014
-categories:
-- other
-date: '2014-01-01'
-description: Marine areas beyond national jurisdiction (ABNJ) represent around half
-  of the Planet’s surface and a significant amount of its biodiversity. Over the past
-  decades, the international community has beco...
-entry_type: Report
-institution: IDDRI
-layout: library-item
-pages: '4'
-pdf: 2014-The_Scores_at_Half_Time_An_update_on_the_international_discussions_on_the_governance_of_marine_biodiversity_in_area.pdf
-tags: []
-title: 'The Scores at Half Time: An update on the international discussions on the
-  governance of marine biodiversity in areas beyond national jurisdiction'
 venue: IDDRI
-year: '2014'
+institution: IDDRI
+role: co-author
+preview: glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction
+pdf: glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
+pages: '4'
+resources:
+- kind: pdf
+  title: 'The Scores at Half Time: An update on the international discussions on the
+    governance of marine biodiversity in areas beyond national jurisdiction'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
-
-## Publication Details
-
-**Authors:** Glen Wright, Julien Rochette, Sebastian Unger, Kristina Gjerde, Jeff Ardron
-**Venue:** IDDRI
-**Pages:** 4
-**Institution:** IDDRI
-
-## Links and Resources
-
-- [PDF](2014-The_Scores_at_Half_Time_An_update_on_the_international_discussions_on_the_governance_of_marine_biodiversity_in_area.pdf)
 
 ## Notes
 

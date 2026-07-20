@@ -1,26 +1,27 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: Rio+20, The End of the Road
+date: '2012-06-01'
+entry_type: Blog
+year: '2012'
 bibtex_key: wrightRio+20EndRoad2012
+is_event: false
+description: Rio+20, The End of the Road
 categories:
 - other
-date: 2012-June-01
-description: Rio+20, The End of the Road
-entry_type: Blog
-layout: library-item
-tags: []
-title: Rio+20, The End of the Road
-url: http://anurio20.blogspot.com/2012/06/rio20-end-of-road.html
+authors:
+- Glen Wright
 venue: The ANU Rio+20 Project
-year: '2012'
+role: author
+preview: glen_wright_2012_rio_20_end_road
+url: http://anurio20.blogspot.com/2012/06/rio20-end-of-road.html
+resources:
+- kind: landing
+  title: Visit The ANU Rio+20 Project publication page
+  label: Visit The ANU Rio+20 Project publication page
+  url: http://anurio20.blogspot.com/2012/06/rio20-end-of-road.html
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** The ANU Rio+20 Project
-
-## Links and Resources
-
-- [Original URL](http://anurio20.blogspot.com/2012/06/rio20-end-of-road.html)

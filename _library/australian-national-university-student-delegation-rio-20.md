@@ -1,12 +1,17 @@
 ---
-abstract: ''
-authors: []
+layout: library-item
+title: Australian National University student delegation to Rio+20
+date: '2012-01-01'
+entry_type: Conference
+year: '2012'
 bibtex_key: AustralianNationalUniversity2012
+is_event: true
+description: Australian National University student delegation to Rio+20
 categories:
 - other
-date: '2012-01-01'
-description: Australian National University student delegation to Rio+20
-entry_type: Conference
+location: Rio de Janeiro, Brasil
+role: delegate
+preview: 2012_australian_national_university_student_delegation_rio_20
 gallery:
 - australian_national_university_student_delegation_rio_20_figure_01
 - australian_national_university_student_delegation_rio_20_figure_02
@@ -22,20 +27,26 @@ gallery:
 - australian_national_university_student_delegation_rio_20_photo_05
 - australian_national_university_student_delegation_rio_20_photo_06
 - australian_national_university_student_delegation_rio_20_photo_07
-layout: library-item
-location: Rio de Janeiro, Brasil
-pdf: Glen Wright Rio accreditation letter.pdf
-preview: australian_national_university_student_delegation_rio_20_figure_01
-tags: []
-title: Australian National University student delegation to Rio+20
-venue: ''
-year: '2012'
+pdf: 2012_australian_national_university_student_delegation_rio_20.pdf
+zip_archive: 2012_australian_national_university_student_delegation_rio_20.zip
+zip_file_count: '8'
+zip_file_size_mb: '34.2'
+resources:
+- kind: pdf
+  title: Australian National University student delegation to Rio+20
+  label: View primary document
+  url: /assets/pdf/2012_australian_national_university_student_delegation_rio_20.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/2012_australian_national_university_student_delegation_rio_20.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 8 files · 34.2 MB
 ---
 
-## Publication Details
-
-**Location:** Rio de Janeiro, Brasil
-
-## Links and Resources
-
-- [PDF](Glen Wright Rio accreditation letter.pdf)

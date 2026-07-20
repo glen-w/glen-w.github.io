@@ -1,4 +1,17 @@
 ---
+layout: library-item
+title: 'High seas fisheries: what role for a new international instrument?'
+date: '2016-01-01'
+entry_type: Report
+year: '2016'
+bibtex_key: Wright2016b
+is_event: false
+description: States are currently discussing the development of a new international
+  legally binding instrument (ILBI) on the conservation and sustainable use of marine
+  biological diversity of areas beyond national jurisdiction (ABNJ).
+standfirst: States are currently discussing the development of a new international
+  legally binding instrument (ILBI) on the conservation and sustainable use of marine
+  biological diversity of areas beyond national jurisdiction (ABNJ).
 abstract: States are currently discussing the development of a new international legally
   binding instrument (ILBI) on the conservation and sustainable use of marine biological
   diversity of areas beyond national jurisdiction (ABNJ). It is widely acknowledged
@@ -14,6 +27,8 @@ abstract: States are currently discussing the development of a new international
   to advancing an integrated approach to ocean governance. An ILBI could improve integration
   and place complementary obligations on States, as well as provide over- arching
   principles to improve coherence of the global system of ocean governance.
+categories:
+- other
 authors:
 - Glen Wright
 - Julien Rochette
@@ -22,33 +37,28 @@ authors:
 - Carole Durussel
 - Kristina Gjerde
 - Sebastian Unger
-bibtex_key: Wright2016b
-categories:
-- other
-date: '2016-01-01'
-description: States are currently discussing the development of a new international
-  legally binding instrument (ILBI) on the conservation and sustainable use of marine
-  biological diversity of areas beyond national...
-entry_type: Report
-institution: IDDRI
-layout: library-item
-pages: '20'
-pdf: 2016-High_seas_fisheries_what_role_for_a_new_international_instrument.pdf
-tags: []
-title: 'High seas fisheries: what role for a new international instrument?'
-url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
 venue: IDDRI
-year: '2016'
+institution: IDDRI
+role: lead author
+preview: glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument
+pdf: glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf
+url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
+pages: '20'
+resources:
+- kind: pdf
+  title: 'High seas fisheries: what role for a new international instrument?'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit IDDRI publication page
+  label: Visit IDDRI publication page
+  url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
+  format: Web
+  local: false
+  external: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright, Julien Rochette, Lucie Blom, Duncan Currie, Carole Durussel, Kristina Gjerde, Sebastian Unger
-**Venue:** IDDRI
-**Pages:** 20
-**Institution:** IDDRI
-
-## Links and Resources
-
-- [Original URL](https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument)
-- [PDF](2016-High_seas_fisheries_what_role_for_a_new_international_instrument.pdf)

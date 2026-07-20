@@ -1,36 +1,37 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Ensuring Effective Implementation of a High Seas Biodiversity Treaty: Lessons
+  Learned and Options for an Implementation and Compliance Committee'
+date: '2022-01-01'
+entry_type: Report
+year: '2022'
+bibtex_key: bouvetEnsuringEffectiveImplementation2022a
+is_event: false
+description: 'Ensuring Effective Implementation of a High Seas Biodiversity Treaty:
+  Lessons Learned and Options for an Implementation and Compliance Committee'
+categories:
+- other
 authors:
 - Morgane Bouvet
 - Glen Wright
 - Daniel Kechelriess
 - Klaudija Cremers
 - Julien Rochette
-bibtex_key: bouvetEnsuringEffectiveImplementation2022a
-categories:
-- other
-date: '2022-01-01'
-description: 'Ensuring Effective Implementation of a High Seas Biodiversity Treaty:
-  Lessons Learned and Options fo...'
-entry_type: Report
-institution: STRONG High Seas
-layout: library-item
-pages: '22'
-pdf: STRONG-High-Seas-compliance-report_EN.pdf
-tags: []
-title: 'Ensuring Effective Implementation of a High Seas Biodiversity Treaty: Lessons
-  Learned and Options for an Implementation and Compliance Committee'
 venue: STRONG High Seas
-year: '2022'
+institution: STRONG High Seas
+role: co-author
+preview: 2022_ensuring_effective_implementation_high_seas_biodiversity_treaty_lessons_learned_options_implementation_compliance_committee
+pdf: 2022_ensuring_effective_implementation_high_seas_biodiversity_treaty_lessons_learned_options_implementation_compliance_committee_b.pdf
+pages: '22'
+resources:
+- kind: pdf
+  title: 'Ensuring Effective Implementation of a High Seas Biodiversity Treaty: Lessons
+    Learned and Options for an Implementation and Compliance Committee'
+  label: View report PDF
+  url: /assets/pdf/2022_ensuring_effective_implementation_high_seas_biodiversity_treaty_lessons_learned_options_implementation_compliance_committee_b.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Morgane Bouvet, Glen Wright, Daniel Kechelriess, Klaudija Cremers, Julien Rochette
-**Venue:** STRONG High Seas
-**Pages:** 22
-**Institution:** STRONG High Seas
-
-## Links and Resources
-
-- [PDF](STRONG-High-Seas-compliance-report_EN.pdf)

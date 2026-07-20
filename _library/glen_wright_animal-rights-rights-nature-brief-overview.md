@@ -1,28 +1,29 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: Animal Rights and the Rights of Nature, a brief overview
+date: '2012-10-01'
+entry_type: Report
+year: '2012'
 bibtex_key: wrightAnimalRightsRights2012
+is_event: false
+description: Animal Rights and the Rights of Nature, a brief overview
 categories:
 - other
-date: 2012-October-01
-description: Animal Rights and the Rights of Nature, a brief overview
-entry_type: Report
-layout: library-item
-location: Southern Cross University
-pdf: Animal Rights and the Rights of Nature, a brief overview.pdf
-tags: []
-title: Animal Rights and the Rights of Nature, a brief overview
+authors:
+- Glen Wright
 venue: Animal Rights and the Rights of Nature
-year: '2012'
+location: Southern Cross University
+role: author
+preview: glen_wright_2012_animal_rights_rights_nature_brief_overview
+pdf: glen_wright_2012_animal_rights_rights_nature_brief_overview.pdf
+resources:
+- kind: pdf
+  title: Animal Rights and the Rights of Nature, a brief overview
+  label: View report PDF
+  url: /assets/pdf/glen_wright_2012_animal_rights_rights_nature_brief_overview.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Animal Rights and the Rights of Nature
-**Location:** Southern Cross University
-
-## Links and Resources
-
-- [PDF](Animal Rights and the Rights of Nature, a brief overview.pdf)

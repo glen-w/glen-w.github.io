@@ -1,30 +1,30 @@
 ---
-abstract: ''
-authors:
-- Glen Wright
+layout: library-item
+title: Reforming the National Electricity Objective
+date: '2013-01-01'
+entry_type: Report
+year: '2013'
 bibtex_key: Wright2013a
+is_event: false
+description: Reforming the National Electricity Objective
 categories:
 - other
-date: '2013-01-01'
-description: Reforming the National Electricity Objective
-entry_type: Report
-institution: Total Environment Centre
-layout: library-item
-pages: 89--97
-pdf: Wright - 2013 - Reforming the National Electricity Objective.pdf
-tags: []
-title: Reforming the National Electricity Objective
+authors:
+- Glen Wright
 venue: Total Environment Centre
-year: '2013'
+institution: Total Environment Centre
+role: author
+preview: glen_wright_2013_reforming_national_electricity_objective
+pdf: glen_wright_2013_reforming_national_electricity_objective.pdf
+pages: 89--97
+resources:
+- kind: pdf
+  title: Reforming the National Electricity Objective
+  label: View report PDF
+  url: /assets/pdf/glen_wright_2013_reforming_national_electricity_objective.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Glen Wright
-**Venue:** Total Environment Centre
-**Pages:** 89--97
-**Institution:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](Wright - 2013 - Reforming the National Electricity Objective.pdf)

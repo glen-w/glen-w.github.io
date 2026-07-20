@@ -327,42 +327,141 @@
   ],
   "publications": [
     {
-      "name": "REN21 Renewables 2025 Global Status Report",
+      "name": "Renewables-Based Economy Tracker 2026: How Renewables are Transforming Economies and Societies",
       "publisher": "REN21",
-      "releaseDate": "2025-06-01",
-      "summary": "Lead analysis/production contributor for the flagship annual report on global renewable energy."
+      "releaseDate": "2026-07-01",
+      "summary": "REN21’s inaugural tracker assessing how renewable energy is reshaping economies and societies beyond power-sector metrics.",
+      "url": "https://rbe.ren21.net/tracker"
     },
     {
-      "name": "REN21 Renewable Energy and Sustainability Report",
+      "name": "Renewables 2025 Global Status Report: Global Overview",
       "publisher": "REN21",
-      "releaseDate": "2014-06-01",
-      "summary": "Co-authored/edited contribution on sustainability aspects of renewable energy."
+      "releaseDate": "2025-01-01",
+      "summary": "Lead analysis and production contributor to REN21’s flagship annual report; covers a record 741 GW of new renewable power capacity in 2024."
     },
     {
-      "name": "The Long and Winding Road: Negotiating a treaty for marine biodiversity in ABNJ",
+      "name": "Renewable Energy and Sustainability Report",
+      "publisher": "REN21",
+      "releaseDate": "2023-01-01",
+      "summary": "Contributing author/editor examining environmental and social sustainability trade-offs of renewable energy deployment."
+    },
+    {
+      "name": "Getting Beyond Yes: Fast-tracking Implementation of the United Nations Agreement for Marine Biodiversity Beyond National Jurisdiction",
+      "publisher": "npj Ocean Sustainability",
+      "releaseDate": "2022-01-01",
+      "summary": "Co-authored roadmap for rapid, effective, and equitable BBNJ implementation—entry into force, institutions, and early action priorities."
+    },
+    {
+      "name": "Digging deep: critical questions remain in the rush to regulate seabed mining",
       "publisher": "IDDRI",
-      "releaseDate": "2018-10-01",
-      "url": "https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty",
-      "summary": "Widely used guide to UN high-seas treaty negotiations."
+      "releaseDate": "2022-01-01",
+      "summary": "IDDRI brief scrutinising the International Seabed Authority’s rush toward deep-sea mining rules for the common heritage of humankind."
+    },
+    {
+      "name": "Rights of Nature: Perspectives for Global Ocean Stewardship",
+      "publisher": "Marine Policy",
+      "releaseDate": "2020-12-01",
+      "url": "https://doi.org/10.1016/j.marpol.2020.104059",
+      "summary": "Explores whether Rights of Nature recognition—so far limited to national waters—could strengthen stewardship under the BBNJ agreement."
+    },
+    {
+      "name": "Fishing in the Twilight Zone: Illuminating governance challenges at the next fisheries frontier",
+      "publisher": "IDDRI",
+      "releaseDate": "2020-01-01",
+      "summary": "Flags governance gaps as commercial interest grows in mesopelagic fisheries, a vast and poorly regulated ocean layer."
+    },
+    {
+      "name": "High-seas fish biodiversity is slipping through the governance net",
+      "publisher": "Nature Ecology & Evolution",
+      "releaseDate": "2019-09-01",
+      "url": "https://doi.org/10.1038/s41559-019-0981-4",
+      "summary": "Warns that unless fish biodiversity is fully covered in the BBNJ treaty, thousands of species will remain outside fragmented ocean rules."
+    },
+    {
+      "name": "High Hopes for the High Seas: beyond the package deal towards an ambitious treaty",
+      "publisher": "IDDRI",
+      "releaseDate": "2019-01-01",
+      "summary": "Argues the BBNJ package deal on MGRs, MPAs, EIAs and capacity-building must go beyond minimum consensus to deliver real protection."
+    },
+    {
+      "name": "Achieving a Healthy Ocean - Regional Ocean Governance Beyond 2020 (Marine Regions Forum 2019 Conference Report)",
+      "publisher": "Marine Regions Forum / IASS",
+      "releaseDate": "2019-01-01",
+      "summary": "Official report synthesising the inaugural Marine Regions Forum on strengthening regional ocean governance after 2020."
     },
     {
       "name": "Protect the neglected half of our blue planet",
       "publisher": "Nature",
       "releaseDate": "2018-02-01",
       "url": "https://www.nature.com/articles/d41586-018-01594-1",
-      "summary": "Commentary advocating improved protection of the high seas."
+      "summary": "Nature commentary calling for a legally binding high seas treaty covering the two-thirds of the ocean beyond national control."
     },
     {
-      "name": "Marine Spatial Planning in Areas Beyond National Jurisdiction",
+      "name": "The Long and Winding Road: negotiating a treaty for the conservation and sustainable use of marine biodiversity in areas beyond national jurisdiction",
+      "publisher": "IDDRI",
+      "releaseDate": "2018-01-01",
+      "url": "https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty",
+      "summary": "Go-to briefing on the history, politics and open issues in the UN high seas biodiversity negotiations; widely used by negotiators."
+    },
+    {
+      "name": "Academia Obscura: The Hidden Silly Side of Higher Education",
+      "publisher": "Penguin Random House (Unbound)",
+      "releaseDate": "2018-01-01",
+      "summary": "Crowdfunded popular book cataloguing the quirks and absurdities of academic culture."
+    },
+    {
+      "name": "Risky Business: Enterprise Liability, Corporate Groups and Torts",
+      "publisher": "Journal of European Tort Law",
+      "releaseDate": "2017-01-01",
+      "url": "https://doi.org/10.1515/jetl-2017-0003",
+      "summary": "Legal analysis of whether enterprise liability can better allocate tort responsibility across corporate groups."
+    },
+    {
+      "name": "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing SDG14",
+      "publisher": "Partnership for Regional Ocean Governance",
+      "releaseDate": "2017-01-01",
+      "url": "https://doi.org/10.2312/iass.2017.011",
+      "summary": "Assesses how regional ocean institutions and partnerships can deliver SDG14 and advance ecosystem-based management."
+    },
+    {
+      "name": "Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies",
+      "publisher": "Earthscan",
+      "releaseDate": "2017-01-01",
+      "summary": "Edited Earthscan volume on the legal and policy barriers to commercialising wave and tidal stream energy."
+    },
+    {
+      "name": "Establishing a legal research agenda for ocean energy",
       "publisher": "Marine Policy",
-      "releaseDate": "2019-01-01",
-      "summary": "Peer-reviewed article on MSP in ABNJ."
+      "releaseDate": "2016-01-01",
+      "url": "https://doi.org/10.1016/j.marpol.2015.09.030",
+      "summary": "Proposes priority legal research questions for ocean energy, complementing the ISSMER social-science agenda."
     },
     {
-      "name": "Protecting Earth’s last conservation frontier",
-      "publisher": "Aquatic Conservation and Freshwater Ecosystems",
-      "releaseDate": "2016-01-01",
-      "summary": "Priorities for MPAs beyond national boundaries."
+      "name": "Rights and ownership in sea country: implications of marine renewable energy for indigenous and local communities",
+      "publisher": "Marine Policy",
+      "releaseDate": "2015-02-01",
+      "url": "https://doi.org/10.1016/j.marpol.2014.11.002",
+      "summary": "Examines how large-scale marine renewables may enclose coastal seas and affect indigenous and local marine rights."
+    },
+    {
+      "name": "Marine governance in an industrialised ocean: A case study of the emerging marine renewable energy industry",
+      "publisher": "Marine Policy",
+      "releaseDate": "2015-01-01",
+      "url": "https://doi.org/10.1016/j.marpol.2014.10.021",
+      "summary": "Uses marine renewables to test whether existing marine governance can cope with accelerating ocean industrialisation."
+    },
+    {
+      "name": "Unwired: Options for Increasing Network Demand Management in the National Electricity Market",
+      "publisher": "Total Environment Centre",
+      "releaseDate": "2012-08-01",
+      "summary": "Policy options to scale demand-side management as an alternative to network expansion in Australia’s National Electricity Market."
+    },
+    {
+      "name": "Conceptualising and combating transnational environmental crime",
+      "publisher": "Trends in Organized Crime",
+      "releaseDate": "2011-01-01",
+      "url": "https://doi.org/10.1007/s12117-011-9130-4",
+      "summary": "Argues transnational environmental crime needs its own theoretical framing and policing responses, distinct from conventional organised crime."
     }
   ],
   "interests": [

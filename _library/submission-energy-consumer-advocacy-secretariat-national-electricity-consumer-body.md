@@ -1,30 +1,32 @@
 ---
-abstract: ''
+layout: library-item
+title: 'Submission to Energy Consumer Advocacy Secretariat: A National Electricity
+  Consumer Body'
+date: '2013-01-01'
+entry_type: Submission
+year: '2013'
+bibtex_key: byrneSubmissionEnergyConsumer2013
+is_event: false
+description: 'Submission to Energy Consumer Advocacy Secretariat: A National Electricity
+  Consumer Body'
+categories:
+- other
 authors:
 - Mark Byrne
 - Glen Wright
-bibtex_key: byrneSubmissionEnergyConsumer2013
-categories:
-- other
-date: '2013-01-01'
-description: 'Submission to Energy Consumer Advocacy Secretariat: A National Electricity
-  Consumer Body'
-entry_type: Submission
-layout: library-item
-pdf: Wright and Centre - 2013 - TOTAL ENVIRONMENT CENTRE INC.pdf
 publisher: Total Environment Centre
-tags: []
-title: 'Submission to Energy Consumer Advocacy Secretariat: A National Electricity
-  Consumer Body'
-venue: ''
-year: '2013'
+role: co-author
+preview: 2013_submission_energy_consumer_advocacy_secretariat_national_electricity_consumer_body
+pdf: 2013_submission_energy_consumer_advocacy_secretariat_national_electricity_consumer_body.pdf
+resources:
+- kind: pdf
+  title: 'Submission to Energy Consumer Advocacy Secretariat: A National Electricity
+    Consumer Body'
+  label: View primary document
+  url: /assets/pdf/2013_submission_energy_consumer_advocacy_secretariat_national_electricity_consumer_body.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
-## Publication Details
-
-**Authors:** Mark Byrne, Glen Wright
-**Publisher:** Total Environment Centre
-
-## Links and Resources
-
-- [PDF](Wright and Centre - 2013 - TOTAL ENVIRONMENT CENTRE INC.pdf)
