@@ -47,6 +47,7 @@ class FileManager:
         """Generate a thumbnail image of the first page of a PDF using ImageMagick."""
         if size is None:
             size = self.config.DEFAULT_THUMBNAIL_SIZE
+        size = self._normalize_thumbnail_geometry(size)
         
         try:
             # Create output directory if it doesn't exist
@@ -59,6 +60,7 @@ class FileManager:
                 f'{pdf_path}[0]',
                 '-background', 'white',
                 '-alpha', 'remove',
+                '-strip',
                 '-resize', size,
                 '-quality', self.config.THUMBNAIL_QUALITY,
                 output_path
@@ -94,6 +96,7 @@ class FileManager:
                 f'{pdf_path}[0]',
                 '-background', 'white',
                 '-alpha', 'remove',
+                '-strip',
                 '-resize', size,
                 '-quality', self.config.THUMBNAIL_QUALITY,
                 output_path
@@ -117,6 +120,7 @@ class FileManager:
         """Generate a thumbnail image from an SVG file using ImageMagick."""
         if size is None:
             size = self.config.DEFAULT_THUMBNAIL_SIZE
+        size = self._normalize_thumbnail_geometry(size)
         
         try:
             # Create output directory if it doesn't exist
@@ -126,8 +130,9 @@ class FileManager:
             cmd = [
                 'magick', 
                 '-background', 'white',
-                '-density', '300',  # High DPI for crisp SVG rendering
+                '-density', '150',
                 svg_path,
+                '-strip',
                 '-resize', size,
                 '-quality', self.config.THUMBNAIL_QUALITY,
                 output_path
@@ -160,8 +165,9 @@ class FileManager:
             fallback_cmd = [
                 'convert',
                 '-background', 'white',
-                '-density', '300',
+                '-density', '150',
                 svg_path,
+                '-strip',
                 '-resize', size,
                 '-quality', self.config.THUMBNAIL_QUALITY,
                 output_path
@@ -178,6 +184,67 @@ class FileManager:
                 
         except Exception as e:
             print(f"  ❌ Fallback SVG thumbnail generation failed: {e}")
+            self._cleanup_file(output_path)
+            return False
+
+    @staticmethod
+    def _normalize_thumbnail_geometry(size: str) -> str:
+        """Append '>' so ImageMagick only shrinks images larger than the target width."""
+        if not size:
+            return size
+        if size.endswith(('>', '<', '!', '^')):
+            return size
+        return f'{size}>'
+
+    def optimize_preview_image(self, source_path: str, output_path: str, size: str = None) -> bool:
+        """Resize/compress an image into a library preview thumbnail.
+
+        Used for Zotero thumbnail attachments and other image sources so reprocessing
+        does not reintroduce multi-megabyte preview files.
+        """
+        if size is None:
+            size = self.config.DEFAULT_THUMBNAIL_SIZE
+        size = self._normalize_thumbnail_geometry(size)
+
+        try:
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+            cmd = [
+                'magick',
+                source_path,
+                '-auto-orient',
+                '-strip',
+                '-resize', size,
+                '-quality', self.config.THUMBNAIL_QUALITY,
+                output_path,
+            ]
+            result = subprocess.run(cmd, capture_output=True, text=True)
+
+            if result.returncode != 0:
+                print("  🔄 Trying fallback with legacy convert command for preview image...")
+                fallback_cmd = [
+                    'convert',
+                    source_path,
+                    '-auto-orient',
+                    '-strip',
+                    '-resize', size,
+                    '-quality', self.config.THUMBNAIL_QUALITY,
+                    output_path,
+                ]
+                result = subprocess.run(fallback_cmd, capture_output=True, text=True)
+
+            if result.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > self.config.MIN_THUMBNAIL_SIZE:
+                print(f"  ✅ Optimized preview thumbnail: {os.path.basename(output_path)}")
+                return True
+
+            print(f"  ❌ Failed to optimize preview image: {os.path.basename(source_path)}")
+            if result.stderr:
+                print(f"     {result.stderr.strip()}")
+            self._cleanup_file(output_path)
+            return False
+
+        except Exception as e:
+            print(f"  ❌ Error optimizing preview image: {e}")
             self._cleanup_file(output_path)
             return False
 
@@ -371,21 +438,13 @@ class FileManager:
         
         return files
     
-    def copy_thumbnail_file(self, source_path: str, destination_path: str, force: bool = False) -> bool:
-        """Copy a thumbnail file from source to destination."""
+    def copy_thumbnail_file(self, source_path: str, destination_path: str, force: bool = False, size: str = None) -> bool:
+        """Write a resized/compressed preview thumbnail from an image source."""
         try:
-            # Create destination directory if it doesn't exist
-            os.makedirs(os.path.dirname(destination_path), exist_ok=True)
-            
-            # Copy the file if it doesn't exist or if forced
-            if not os.path.exists(destination_path) or force:
-                shutil.copy2(source_path, destination_path)
-                print(f"  ✅ Copied thumbnail: {os.path.basename(source_path)} -> {os.path.basename(destination_path)}")
-                return True
-            else:
+            if os.path.exists(destination_path) and not force:
                 print(f"  ⏭️  Thumbnail already exists: {os.path.basename(destination_path)}")
                 return True
-                
+            return self.optimize_preview_image(source_path, destination_path, size)
         except Exception as e:
             print(f"  ❌ Error copying thumbnail {source_path}: {e}")
             return False

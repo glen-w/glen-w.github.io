@@ -537,7 +537,7 @@ class EntryProcessor:
         if file_type == 'svg':
             success = self.file_manager.generate_svg_thumbnail(file_path, preview_path, thumbnail_size)
         elif file_type == 'image':
-            success = self._copy_image_as_thumbnail(file_path, preview_path)
+            success = self._copy_image_as_thumbnail(file_path, preview_path, thumbnail_size)
         elif file_type == 'pdf':
             success = self.file_manager.generate_pdf_thumbnail(file_path, preview_path, thumbnail_size)
         
@@ -549,20 +549,9 @@ class EntryProcessor:
         
         return False
     
-    def _copy_image_as_thumbnail(self, source_path: str, dest_path: str) -> bool:
-        """Copy an image file to the thumbnail directory."""
-        import os
-        import shutil
-        
-        try:
-            # Create output directory if it doesn't exist
-            os.makedirs(os.path.dirname(dest_path), exist_ok=True)
-            shutil.copy2(source_path, dest_path)
-            print(f"  ✅ Copied image thumbnail: {os.path.basename(dest_path)}")
-            return True
-        except Exception as e:
-            print(f"  ❌ Error copying image thumbnail: {e}")
-            return False
+    def _copy_image_as_thumbnail(self, source_path: str, dest_path: str, thumbnail_size: str = None) -> bool:
+        """Resize/compress an image into the preview thumbnail directory."""
+        return self.file_manager.optimize_preview_image(source_path, dest_path, thumbnail_size)
     
     def _should_add_preview_field(self, fields: Dict) -> bool:
         """Check if a preview field should be added based on available content."""

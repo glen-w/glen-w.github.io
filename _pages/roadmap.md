@@ -20,11 +20,12 @@ render_with_liquid: false #turned off so as to not break on render
 
 #### Processing Script Finalization
 
-- [ ] **Complete PDF processing automation** for new publications
-- [ ] **Implement automatic thumbnail generation** for publication previews
-- [ ] **Add metadata extraction** from PDFs (title, authors, abstract)
-- [ ] **Create backup and versioning system** for processed files
-- [ ] **Test end-to-end workflow** with sample publications
+- [x] **Complete PDF processing automation** for new publications - `PaperProcessor` / `EntryProcessor` copy, rename, and link PDFs from Zotero exports
+- [x] **Implement automatic thumbnail generation** for publication previews - ImageMagick first-page thumbnails via `FileManager.generate_pdf_thumbnail`
+- [x] **Preview thumbnail sizing/quality** - Pipeline writes max-480px, quality-82 JPEGs (matches library lazy-load assets; image attachments are resized, not raw-copied)
+- [x] **Add metadata extraction** (title, authors, abstract) - Enrichment via Crossref/Semantic Scholar APIs; optional write-back into PDF metadata fields
+- [x] **Create backup and versioning system** for processed files - Timestamped BibTeX + PDF metadata backups under `backups/`
+- [x] **Test end-to-end workflow** with sample publications - Integration tests + `--test` / `--test-count` CLI modes
 
 #### Multilingual PDF Filenames & Library Display (Future Enhancement)
 
@@ -80,6 +81,25 @@ render_with_liquid: false #turned off so as to not break on render
 - Filter by "Conference" (entry type) + "facilitator" (role) to find conferences where user facilitated
 - Filter by "Workshop" (entry type) + "organiser" (role) to find workshops user organized
 - Combine any entry type with role or language tags for precise filtering
+
+#### Library Page Performance
+
+**Current State**: `/library/` ships a ~4.6MB HTML document with every bibliography entry fully rendered. Preview lazy-loading and thumbnail compression are in place; remaining cost is markup weight and non-critical third-party work on first load.
+
+**Planned Enhancement** — reduce initial HTML and defer non-critical work:
+
+##### Cut HTML weight
+- [ ] **Paginate or "load more"** — render by year or N entries per chunk instead of the full `{% bibliography %}` dump
+- [ ] **Virtual scrolling** — only mount visible bibliography rows in the DOM
+- [ ] **Slim list template** — keep abstracts, bibtex, galleries, and badge markup off the index; load on item page or on expand via fetch
+- [ ] **Default to selected publications** — use the existing selected view as the initial list; reveal full catalogue on demand
+- [ ] **Optional JSON index + client render** — light browse/filter payload; full detail stays on `/library/:name/`
+
+##### Defer non-critical JS / third parties
+- [ ] **Defer Altmetric (and similar) badge embeds** until near-viewport or first interaction
+- [ ] **Keep Leaflet / map code off the critical path** until "view map" is clicked (lazy-load script + init)
+- [ ] **Move large inline library page scripts** out of the HTML document into deferred external JS
+- [ ] **Audit third-party requests** on `/library/` first load and gate any that are not needed for browse/filter
 
 ### Implementation Timeline
 
@@ -690,7 +710,8 @@ document.addEventListener("DOMContentLoaded", () => {
 - **Lazy Loading**: Load tag data only when needed
 - **Debounced Search**: Prevent excessive API calls
 - **Caching**: Cache parsed tag data in localStorage
-- **Virtual Scrolling**: For large publication lists
+- **Virtual Scrolling**: For large publication lists (see Library → Library Page Performance)
+- **HTML weight / deferred third parties**: Paginate or slim the bibliography index; defer Altmetric, map, and inline scripts (see Library → Library Page Performance)
 
 #### 6.2 Monitoring
 

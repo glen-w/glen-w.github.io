@@ -122,6 +122,34 @@ class TestFileManager:
         mock_run.assert_called_once()
     
     @patch('os.makedirs')
+    @patch('subprocess.run')
+    @patch('os.path.exists')
+    @patch('os.path.getsize')
+    def test_optimize_preview_image_success(self, mock_getsize, mock_exists, mock_run, mock_makedirs, file_manager):
+        """Test optimizing a source image into a compressed preview thumbnail."""
+        mock_exists.return_value = True
+        mock_getsize.return_value = 5000
+        mock_run.return_value = MagicMock(returncode=0, stderr='')
+
+        result = file_manager.optimize_preview_image("/path/to/source.jpg", "/path/to/thumb.jpg")
+
+        assert result is True
+        mock_run.assert_called_once()
+        cmd = mock_run.call_args[0][0]
+        assert cmd[0] == 'magick'
+        assert '-resize' in cmd
+        assert '-quality' in cmd
+        assert '-strip' in cmd
+        resize_idx = cmd.index('-resize')
+        assert cmd[resize_idx + 1].endswith('>')
+
+    def test_normalize_thumbnail_geometry(self, file_manager):
+        """Test ImageMagick geometry normalization for shrink-only resize."""
+        assert file_manager._normalize_thumbnail_geometry('480x') == '480x>'
+        assert file_manager._normalize_thumbnail_geometry('480x>') == '480x>'
+        assert file_manager._normalize_thumbnail_geometry('200x200!') == '200x200!'
+    
+    @patch('os.makedirs')
     def test_ensure_directories_exist(self, mock_makedirs, file_manager):
         """Test ensuring directories exist."""
         file_manager.ensure_directories_exist()

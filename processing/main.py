@@ -47,8 +47,8 @@ def main():
     parser = argparse.ArgumentParser(description='Process papers.bib with modular approach')
     
     # Processing options
-    parser.add_argument('--thumbnail-size', default='600x', 
-                       help='Thumbnail size in format WIDTHxHEIGHT or WIDTHx for auto height (default: 600x)')
+    parser.add_argument('--thumbnail-size', default=Configuration.DEFAULT_THUMBNAIL_SIZE, 
+                       help=f'Thumbnail size in ImageMagick geometry (default: {Configuration.DEFAULT_THUMBNAIL_SIZE})')
     parser.add_argument('--bibtex-file', default='../_bibliography/Exported Items.bib',
                        help='Path to source BibTeX file from Zotero (default: ../_bibliography/Exported Items.bib)')
     parser.add_argument('--regenerate', action='store_true',

@@ -65,13 +65,14 @@ class PaperProcessor:
     
     def process_papers(self, source_bibtex_file: str = None, regenerate: bool = False,
                       force: bool = False, incremental: bool = False, update_metadata: bool = True,
-                      thumbnail_size: str = '600x', test_mode: bool = False,
+                      thumbnail_size: str = None, test_mode: bool = False,
                       test_count: int = 5, verbose: bool = False,
                       force_refetch_metadata: bool = False, rename_urls: bool = True,
                       rename_only: bool = False, update_pdf_metadata: bool = False) -> None:
         """Main function to process papers from Zotero export."""
         source_file = source_bibtex_file or self.config.SOURCE_BIBTEX_FILE
         working_file = self.config.WORKING_BIBTEX_FILE
+        thumbnail_size = thumbnail_size or self.config.DEFAULT_THUMBNAIL_SIZE
 
         print(f"📚 Processing {source_file}...")
 

@@ -51,10 +51,11 @@ class Configuration:
     API_TIMEOUT = 10
     API_RETRY_ATTEMPTS = 3
     
-    # Thumbnail settings
-    DEFAULT_THUMBNAIL_SIZE = "600x"
-    THUMBNAIL_DENSITY = "300"
-    THUMBNAIL_QUALITY = "95"
+    # Thumbnail settings (list display is ~200px; 480px covers 2x retina)
+    # Geometry uses '>' so ImageMagick only shrinks oversized sources.
+    DEFAULT_THUMBNAIL_SIZE = "480x>"
+    THUMBNAIL_DENSITY = "150"
+    THUMBNAIL_QUALITY = "82"
     MIN_THUMBNAIL_SIZE = 1000  # bytes
     
     # Text processing

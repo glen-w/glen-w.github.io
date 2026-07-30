@@ -29,17 +29,16 @@
       {% assign has_preview = entry.preview | to_s | strip | size | plus: 0 %}
       {% if has_preview > 0 %}
         {% if entry.preview contains '://' %}
-          <img class="preview rounded" src="{{ entry.preview }}">
+          <img class="preview rounded" src="{{ entry.preview }}" loading="lazy" decoding="async">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
             include figure.liquid
-            loading="eager"
+            loading="lazy"
             path=entry_path
             sizes = "200px"
             class="preview rounded"
             zoomable=true
-            avoid_scaling=true
             alt=entry.preview
           %}
         {% endif %}
