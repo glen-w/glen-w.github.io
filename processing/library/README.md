@@ -45,6 +45,17 @@ python generate_library_pages.py --output-dir _custom_library
 - `--test`: Test mode - only process 5 most recent entries
 - `--bib-file PATH`: Path to BibTeX file (default: _bibliography/papers.bib)
 - `--output-dir PATH`: Output directory for generated pages (default: _library)
+- `--catalog-only`: Write `assets/json/library.json` and `library-details.json` without regenerating markdown pages
+
+### Index catalog JSON
+
+A full library run (or `--catalog-only`) writes:
+
+- `assets/json/library.json` — list fields for `/library/` (title, year, type, roles, authors, venue, pdf/url/doi, one 480px thumb)
+- `assets/json/library-details.json` — abstracts, speakers, photos; fetched on first card expand
+- `_data/library_selected.yml` — noscript selected list
+
+`/library/` is a JS-rendered catalogue on purpose. Crawlable pages remain `/library/:name/`. Count/type/role/lang drift vs the bib and `dynamic_filters.yml` fails the generator (`CatalogParityError`). Tests live in `tests/library/test_catalog.py`.
 
 ## Features
 

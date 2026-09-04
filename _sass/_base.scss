@@ -928,7 +928,8 @@ h2.category {
       }
 
       .links {
-        a.btn {
+        a.btn,
+        button.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -936,6 +937,8 @@ h2.category {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          background: transparent;
+          cursor: pointer;
 
           &:hover {
             color: var(--global-theme-color);

@@ -3,7 +3,7 @@
 The library/content rendering tests live in the unified suite under `tests/`:
 
 ```
-tests/library/                 # BibParser, ContentGenerator, Generator, DynamicFilters
+tests/library/                 # BibParser, ContentGenerator, Generator, DynamicFilters, catalog JSON
 tests/integration/test_library_pipeline.py
 tests/unit/test_tag_extractor.py
 tests/unit/test_notes_processor.py

@@ -22,6 +22,7 @@ from slugify import slugify
 import re
 
 from processing.library.bib_parser import BibParser
+from processing.library.catalog import CatalogGenerator, CatalogParityError
 from processing.library.content_generator import ContentGenerator
 from processing.library.dynamic_filters import DynamicFiltersGenerator
 
@@ -29,7 +30,7 @@ from processing.library.dynamic_filters import DynamicFiltersGenerator
 class LibraryPageGenerator:
     """Main class for generating library pages from BibTeX files."""
     
-    def __init__(self, bib_file=None, output_dir=None, test_mode=False, skip_dynamic_filters=False, regenerate=False, incremental=False):
+    def __init__(self, bib_file=None, output_dir=None, test_mode=False, skip_dynamic_filters=False, regenerate=False, incremental=False, catalog_only=False, skip_catalog=False):
         """Initialize the generator.
 
         Args:
@@ -49,6 +50,8 @@ class LibraryPageGenerator:
         self.skip_dynamic_filters = skip_dynamic_filters
         self.regenerate = regenerate
         self.incremental = incremental
+        self.catalog_only = catalog_only
+        self.skip_catalog = skip_catalog
         
         # Initialize components
         self.bib_parser = BibParser()
@@ -212,33 +215,41 @@ class LibraryPageGenerator:
         if not entries:
             print("No entries to process")
             return
-        
-        # Generate pages
+
         generated_files = []
         skipped_files = []
-        for i, entry in enumerate(entries, 1):
-            try:
-                filepath, skipped = self.generate_page(entry)
-                title = entry.get('title', 'Untitled')
-                if skipped:
-                    skipped_files.append(filepath)
-                    print(f"[{i}/{len(entries)}] Skipped: {os.path.basename(filepath)} - {title}")
-                else:
-                    generated_files.append(filepath)
-                    print(f"[{i}/{len(entries)}] Generated: {os.path.basename(filepath)} - {title}")
-            except Exception as e:
-                print(f"Error generating page for {entry.get('title', 'Unknown')}: {e}")
-                continue
+        if not self.catalog_only:
+            for i, entry in enumerate(entries, 1):
+                try:
+                    filepath, skipped = self.generate_page(entry)
+                    title = entry.get('title', 'Untitled')
+                    if skipped:
+                        skipped_files.append(filepath)
+                        print(f"[{i}/{len(entries)}] Skipped: {os.path.basename(filepath)} - {title}")
+                    else:
+                        generated_files.append(filepath)
+                        print(f"[{i}/{len(entries)}] Generated: {os.path.basename(filepath)} - {title}")
+                except Exception as e:
+                    print(f"Error generating page for {entry.get('title', 'Unknown')}: {e}")
+                    continue
 
-        # Generate dynamic filters (unless skipped)
-        if not self.skip_dynamic_filters:
-            # output_dir is <project>/_library — parent is the project root
-            project_root = os.path.dirname(os.path.abspath(self.output_dir))
+        project_root = os.path.dirname(os.path.abspath(self.output_dir))
+
+        if not self.skip_dynamic_filters and not self.catalog_only:
             filters_generator = DynamicFiltersGenerator(project_root)
             filters_generator.generate_filters(entries)
 
+        if not self.skip_catalog and not self.test_mode:
+            try:
+                CatalogGenerator(project_root, library_dir=self.output_dir).generate(entries)
+            except CatalogParityError as exc:
+                print(f"Catalog parity failed: {exc}")
+                raise
+
         print("-" * 50)
-        if self.incremental and skipped_files:
+        if self.catalog_only:
+            print("Catalog generation complete.")
+        elif self.incremental and skipped_files:
             print(f"Generation complete! Created {len(generated_files)} pages, skipped {len(skipped_files)} (already exist).")
         else:
             print(f"Generation complete! Created {len(generated_files)} pages.")
@@ -291,6 +302,12 @@ Examples:
         action='store_true',
         help='Skip generating a page when the output file already exists'
     )
+
+    parser.add_argument(
+        '--catalog-only',
+        action='store_true',
+        help='Write library.json / library-details.json without regenerating markdown pages'
+    )
     
     args = parser.parse_args()
     
@@ -301,10 +318,14 @@ Examples:
         test_mode=args.test,
         skip_dynamic_filters=False,
         regenerate=args.regenerate,
-        incremental=args.incremental
+        incremental=args.incremental,
+        catalog_only=args.catalog_only,
     )
-    
-    generator.run()
+
+    try:
+        generator.run()
+    except CatalogParityError:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

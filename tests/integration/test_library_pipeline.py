@@ -4,6 +4,7 @@ Integration tests for the full library generation + content rendering pipeline:
 BibTeX → pages → dynamic filters → front-matter contracts for Liquid layouts.
 """
 
+import json
 import os
 from pathlib import Path
 from unittest.mock import patch
@@ -47,6 +48,11 @@ class TestLibraryPipelineEndToEnd:
         assert filters_path.exists()
         filters = yaml.safe_load(filters_path.read_text(encoding='utf-8'))
         assert len(filters['entry_types']) >= 1
+
+        catalog_path = library_project_root / 'assets' / 'json' / 'library.json'
+        assert catalog_path.exists()
+        catalog = json.loads(catalog_path.read_text(encoding='utf-8'))
+        assert len(catalog['items']) == len(md_files)
 
     def test_test_mode_limits_to_five(
         self, library_bib_file, library_project_root

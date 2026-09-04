@@ -84,22 +84,22 @@ render_with_liquid: false #turned off so as to not break on render
 
 #### Library Page Performance
 
-**Current State**: `/library/` ships a ~4.6MB HTML document with every bibliography entry fully rendered. Preview lazy-loading and thumbnail compression are in place; remaining cost is markup weight and non-critical third-party work on first load.
+**Current State**: `/library/` is a JS-rendered catalogue from `assets/json/library.json` (~40 KB gzip). Abstracts/galleries live in `library-details.json` and load on expand. Crawlable pages remain `/library/:name/`. Homepage selected papers still use Scholar `{% bibliography %}`.
 
-**Planned Enhancement** — reduce initial HTML and defer non-critical work:
+**Follow-ups** — only if measurement says so:
 
-##### Cut HTML weight
-- [ ] **Paginate or "load more"** — render by year or N entries per chunk instead of the full `{% bibliography %}` dump
-- [ ] **Virtual scrolling** — only mount visible bibliography rows in the DOM
-- [ ] **Slim list template** — keep abstracts, bibtex, galleries, and badge markup off the index; load on item page or on expand via fetch
-- [ ] **Default to selected publications** — use the existing selected view as the initial list; reveal full catalogue on demand
-- [ ] **Optional JSON index + client render** — light browse/filter payload; full detail stays on `/library/:name/`
+##### Cut remaining cost
+- [ ] **Paginate or "load more"** — not needed while the JSON list stays small
+- [ ] **Virtual scrolling** — measure first; skipped this pass
+- [x] **Slim list template** — abstracts, galleries, and badges are off the index
+- [ ] **Default to selected publications** — selected is a filter of one list, not the default view
+- [x] **JSON index + client render** — list JSON + one details JSON; filters stay client-side
 
 ##### Defer non-critical JS / third parties
-- [ ] **Defer Altmetric (and similar) badge embeds** until near-viewport or first interaction
-- [ ] **Keep Leaflet / map code off the critical path** until "view map" is clicked (lazy-load script + init)
-- [ ] **Move large inline library page scripts** out of the HTML document into deferred external JS
-- [ ] **Audit third-party requests** on `/library/` first load and gate any that are not needed for browse/filter
+- [x] **Altmetric / Dimensions / Scholar badges** — not on list cards (still on `/library/:name/`)
+- [x] **Keep Leaflet / map code off the critical path** until "view map" is clicked
+- [x] **Move large inline library page scripts** into deferred `assets/js/library.js`
+- [ ] **Audit remaining third-party requests** on `/library/` first load
 
 ### Implementation Timeline
 

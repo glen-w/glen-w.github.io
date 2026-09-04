@@ -1,0 +1,106 @@
+{
+  "Wright2011a": {
+    "item": {
+      "id": "Wright2011a",
+      "title": "Marine energy",
+      "year": 2011,
+      "type": "Journal Article",
+      "roles": ["lead author"],
+      "authors": "Glen Wright and David Leary",
+      "venue": "New Zealand Law Journal",
+      "thumb": "/assets/img/publication_preview/glen_wright_etal_2011_marine_energy-480.webp",
+      "pdf": "/assets/pdf/glen_wright_etal_2011_marine_energy.pdf"
+    },
+    "detail": {}
+  },
+  "Wright2016a": {
+    "item": {
+      "id": "Wright2016a",
+      "title": "Establishing a legal research agenda for ocean energy",
+      "year": 2016,
+      "type": "Journal Article",
+      "roles": ["lead author"],
+      "authors": "Glen Wright, Anne Marie, O Hagan et al.",
+      "venue": "Marine Policy",
+      "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy-480.webp",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0308597X1500281X",
+      "doi": "https://doi.org/10.1016/j.marpol.2015.09.030",
+      "selected": true,
+      "flags": ["abs"]
+    },
+    "detail": {
+      "has_abstract": true
+    }
+  },
+  "Rochette2015b": {
+    "item": {
+      "id": "Rochette2015b",
+      "title": "Advancing governance of marine areas beyond national jurisdiction",
+      "year": 2015,
+      "type": "Report Section",
+      "roles": ["co-author"],
+      "authors": "Julien Rochette, Glen Wright, Lucien Chabason et al.",
+      "venue": "Brief for GSDR",
+      "thumb": "/assets/img/publication_preview/2015_advancing_governance_marine_areas_beyond_national_jurisdiction-480.webp",
+      "pdf": "/assets/pdf/2015_advancing_governance_marine_areas_beyond_national_jurisdiction_a.pdf"
+    },
+    "detail": {}
+  },
+  "HighSeasTreaty2023": {
+    "item": {
+      "id": "HighSeasTreaty2023",
+      "title": "High Seas Treaty: preliminary analysis and implementation challenges",
+      "year": 2023,
+      "type": "Webinar",
+      "roles": ["facilitator", "speaker"],
+      "thumb": "/assets/img/publication_preview/2023_high_seas_treaty_preliminary_analysis_implementation_challenges-480.webp",
+      "video": "https://www.youtube.com/watch?v=BmQHtQYfhQg",
+      "flags": ["video", "speakers"]
+    },
+    "detail": {
+      "speakers": [
+        "Arne Langlet (University of Vienna)",
+        "Kristina Gjerde (IUCN)",
+        "Glen Wright (IDDRI)",
+        "Harriet Harden-Davies, Vanessa Ferreira Lopes\u00a0and Júlia Shutz Veiga (Ocean Voices)"
+      ]
+    }
+  },
+  "rochetteVersProtectionHaute2018": {
+    "item": {
+      "id": "rochetteVersProtectionHaute2018",
+      "title": "Vers une protection de la haute mer",
+      "year": 2018,
+      "type": "Oped",
+      "roles": ["co-author"],
+      "langs": ["french"],
+      "authors": "Julien Rochette, Isabel Seeger, and Glen Wright",
+      "venue": "Alternatives Economiques",
+      "thumb": "/assets/img/publication_preview/2018_vers_une_protection_de_la_haute_mer-480.webp",
+      "url": "https://www.alternatives-economiques.fr/vers-une-protection-de-haute-mer/00086327",
+      "flags": ["abs"]
+    },
+    "detail": {
+      "has_abstract": true
+    }
+  },
+  "FossilFoolsDay2007": {
+    "item": {
+      "id": "FossilFoolsDay2007",
+      "title": "Fossil Fools Day",
+      "year": 2007,
+      "type": "Side Event",
+      "roles": ["participant"],
+      "flags": ["photos"],
+      "info": "/library/fossil-fools-day/"
+    },
+    "detail": {
+      "photos": [
+        {
+          "src": "/assets/img/publications/fossil_fools_day_photo_01.jpeg",
+          "alt": "Photo"
+        }
+      ]
+    }
+  }
+}

@@ -96,6 +96,7 @@ Additional coverage: formatter, field cleaner, notes processor, tag extractor, e
 | 1–9 | Golden e2e / 1:1 bib↔page / regen | `tests/golden/test_how_protect_ocean.py`, `tests/corpus/test_zero_diff.py`, `tests/corpus/test_invariants.py` |
 | 10 | Page-deletion policy | `tests/library/test_generator.py`, `tests/corpus/test_invariants.py` |
 | 11–18 | YAML + Jekyll + assets | `tests/library/test_content_generator.py`, `tests/library/test_generator.py`, `tests/integration/test_library_pipeline.py` |
+| catalog | `/library/` JSON list + details + selected YAML | `tests/library/test_catalog.py`, `tests/library/test_homepage_infra.py` |
 | 19–20 | No Zotero paths / stale agenda | `tests/corpus/test_invariants.py`, `tests/library/test_field_fidelity.py` |
 | 21–33 | Field fidelity (media, speakers, role, quotes, website) | `tests/library/test_field_fidelity.py` |
 | 34–39 | Abstracts / empty keys / selected | `tests/library/test_field_fidelity.py`, `tests/unit/test_tag_extractor.py`, `tests/unit/test_notes_processor.py` |

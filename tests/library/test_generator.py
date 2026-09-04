@@ -3,6 +3,7 @@
 Unit and workflow tests for LibraryPageGenerator.
 """
 
+import json
 import os
 from pathlib import Path
 from unittest.mock import patch
@@ -206,3 +207,20 @@ class TestLoadBibliography:
         )
         with pytest.raises(SystemExit):
             gen.load_bibliography()
+
+    def test_catalog_only_writes_json_not_pages(
+        self, library_bib_file, library_project_root
+    ):
+        out = library_project_root / '_library'
+        gen = LibraryPageGenerator(
+            bib_file=str(library_bib_file),
+            output_dir=str(out),
+            catalog_only=True,
+            skip_dynamic_filters=True,
+        )
+        gen.run()
+        assert list(out.glob('*.md')) == []
+        catalog_path = library_project_root / 'assets' / 'json' / 'library.json'
+        catalog = json.loads(catalog_path.read_text(encoding='utf-8'))
+        assert catalog['v'] == 1
+        assert catalog['items']

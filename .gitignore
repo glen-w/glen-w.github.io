@@ -11,6 +11,8 @@ assets/libs/
 node_modules/
 vendor
 .idea
+# Cursor slash commands (local)
+.cursor/commands/
 backups/
 archive/
 templates/
