@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+description: Glen Wright is a researcher, writer, and facilitator working on oceans, energy, and climate.
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
