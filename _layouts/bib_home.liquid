@@ -29,17 +29,18 @@
       {% assign has_preview = entry.preview | to_s | strip | size | plus: 0 %}
       {% if has_preview > 0 %}
         {% if entry.preview contains '://' %}
-          <img class="preview rounded" src="{{ entry.preview }}" loading="lazy" decoding="async">
+          <img class="preview rounded" src="{{ entry.preview }}" loading="lazy" decoding="async" alt="{{ entry.title }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {% assign preview_webp = entry_path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | append: '-480.webp' | relative_url %}
           {%
             include figure.liquid
             loading="lazy"
             path=entry_path
-            sizes = "200px"
+            sizes="200px"
             class="preview rounded"
-            zoomable=true
-            alt=entry.preview
+            alt=entry.title
+            url=preview_webp
           %}
         {% endif %}
       {% endif %}
@@ -467,7 +468,7 @@
         {% endfor %}
       {% endunless %}
       {% if library_page_exists %}
-        <a href="{{ library_page_url }}" class="btn btn-sm z-depth-0" role="button" title="View Details">
+        <a href="{{ library_page_url }}" class="btn btn-sm z-depth-0" role="button" title="View Details" aria-label="View Details">
           <i class="fa-solid fa-circle-info"></i>
         </a>
       {% endif %}
@@ -552,7 +553,7 @@
                       {% assign href = '/assets/pdf/' | append: href %}
                     {% endunless %}
                   {% endif %}
-                  {% capture links %}{{ links }}<a class="btn btn-sm z-depth-0" href="{{ href }}" target="_blank" rel="noopener" title="{{ label }}"><i class="fa-solid fa-{{ icon }}"></i></a>{% endcapture %}
+                  {% capture links %}{{ links }}<a class="btn btn-sm z-depth-0" href="{{ href }}" target="_blank" rel="noopener" title="{{ label }}" aria-label="{{ label }}"><i class="fa-solid fa-{{ icon }}"></i></a>{% endcapture %}
                 {% endif %}
               {% endif %}
             {% endif %}
@@ -680,7 +681,7 @@
                   {% assign icon = 'link' %}
                 {% endif %}
               {% endif %}
-              <a class="btn btn-sm z-depth-0" href="{{ url }}" target="_blank" rel="noopener" title="{{ label }}">
+              <a class="btn btn-sm z-depth-0" href="{{ url }}" target="_blank" rel="noopener" title="{{ label }}" aria-label="{{ label }}">
                 <i class="fa-solid fa-{{ icon }}"></i>
               </a>
             {% endunless %}
@@ -749,11 +750,7 @@
       {% elsif has_block_abstract > 0 %}
         {% assign has_abstract = true %}
       {% endif %}
-      {% if has_abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button" title="View abstract">
-          <i class="fa-solid fa-file-lines"></i>
-        </a>
-      {% endif %}
+      {% comment %}Abstract is available via details/summary below; no JS toggle button.{% endcomment %}
       
       <!-- Check for video in block_video (structured format from [video] section) OR legacy video field -->
       {% assign has_block_video = block_video | to_s | strip | size | plus: 0 %}
@@ -1053,8 +1050,8 @@
       
       <!-- Abstract from abstract field OR block_abstract -->
       {% if has_abstract %}
-        <div class="abstract hidden">
-          <div class="abstract-label">Abstract:</div>
+        <details class="abstract-details">
+          <summary>Abstract</summary>
           <div class="abstract-content">
             {% assign has_abstract_field = entry.abstract | to_s | strip | size | plus: 0 %}
             {% if has_abstract_field > 0 %}
@@ -1107,7 +1104,7 @@
               {% endif %}
             {% endif %}
           </div>
-        </div>
+        </details>
       {% endif %}
       
       <!-- Video from video field OR block_video -->

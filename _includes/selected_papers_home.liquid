@@ -1,17 +1,7 @@
 <div class="publications publications-home">
-  {% bibliography --query @*[selected=true] --template bib_home --sort_by year,month --order descending %}
+  {% homepage_bibliography %}
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p class="publications-home-cta">
+  <a href="{{ '/library/' | relative_url }}">All publications in the library</a>
+</p>
