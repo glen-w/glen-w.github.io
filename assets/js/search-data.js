@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-creative",
           title: "creative",
           description: "",
@@ -4412,7 +4419,7 @@ ninja.data = [{
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Glen-Wright# your profile on ResearchGate/", "_blank");
+          window.open("https://www.researchgate.net/profile/Glen-Wright/", "_blank");
         },
       },{
         id: 'social-scholar',

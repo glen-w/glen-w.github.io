@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://glen-w.github.io/sitemap.xml
+Sitemap: https://glenwright.earth/sitemap.xml
