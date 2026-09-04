@@ -9,6 +9,8 @@
  *   --personality-hover-ms    hover/underline duration
  *   --personality-vt-ms       view-transition duration
  *   --personality-accent      sea-glass wink (focus, underline draw)
+ *   --personality-wash-opacity hero portrait radial wash (0 = off)
+ *   --personality-hairline-width / --personality-hairline-inset section titles
  *
  * Dropped after visual review (kept as a note, not code):
  *   now-chip (“currently / latest scribbling”) — quiet idea, little in practice
@@ -23,6 +25,9 @@
   --personality-hover-ms: 220ms;
   --personality-vt-ms: 250ms;
   --personality-accent: #3d5f5c;
+  --personality-wash-opacity: 0.08;
+  --personality-hairline-width: 2px;
+  --personality-hairline-inset: 0.65rem;
 }
 
 html[data-theme="dark"] {
@@ -32,6 +37,64 @@ html[data-theme="dark"] {
 html[data-personality="off"] {
   --personality-reveal-y: 0px;
   --personality-lift: 0px;
+  --personality-wash-opacity: 0;
+}
+
+// ---------------------------------------------------------------------------
+// Pop patch — section hairlines + homepage portrait wash (static, no layout shift)
+// ---------------------------------------------------------------------------
+
+.post > article > h2,
+#selectedPublicationsContainer h2,
+.header-bar > h1 {
+  border-left: var(--personality-hairline-width) solid var(--personality-accent);
+  padding-left: var(--personality-hairline-inset);
+}
+
+.header-bar > h1 {
+  display: inline-block;
+}
+
+.post > article > .profile {
+  position: relative;
+  isolation: isolate;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: min(100%, 11rem);
+    aspect-ratio: 1;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+    background: radial-gradient(
+      circle at center,
+      color-mix(in srgb, var(--personality-accent) calc(var(--personality-wash-opacity) * 100%), transparent) 0%,
+      transparent 68%
+    );
+  }
+
+  figure,
+  .profile-social {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+html[data-personality="off"] {
+  .post > article > h2,
+  #selectedPublicationsContainer h2,
+  .header-bar > h1 {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .post > article > .profile::before {
+    display: none;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -126,8 +189,8 @@ article a:not(.btn):not(.nav-link):not(.badge):not(.tag):not(.read-more-toggle) 
 
 .publications .links a.btn,
 .publications .links button.btn {
-  min-height: 2.25rem;
-  min-width: 2.25rem;
+  min-height: 1.85rem;
+  min-width: 1.85rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;

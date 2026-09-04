@@ -126,19 +126,19 @@ class TestHomepageChrome:
         assert 'prof_pic-800.webp' in about or "-800.webp" in about
 
     def test_blog_in_nav_and_overflow_labeled(self):
-        assert _front_matter(BLOG).get('nav') is True
+        assert _front_matter(BLOG).get('nav') is False
         dropdown = _front_matter(DROPDOWN)
         assert dropdown.get('title') == '⦿'
         children = dropdown.get('children') or []
         child_titles = [c.get('title') for c in children if isinstance(c, dict)]
         assert 'code' not in child_titles
         assert 'services' not in child_titles
+        assert 'blog' not in child_titles
         services = _front_matter(PROJECT_ROOT / '_pages' / 'services.md')
         code = _front_matter(PROJECT_ROOT / '_pages' / 'repositories.md')
         assert services.get('nav') is False
         assert code.get('nav') is True
-        assert code.get('nav_order') < _front_matter(CREATIVE).get('nav_order')
-        assert _front_matter(CREATIVE).get('nav_order') < _front_matter(BLOG).get('nav_order') < dropdown.get('nav_order')
+        assert code.get('nav_order') < _front_matter(CREATIVE).get('nav_order') < dropdown.get('nav_order')
 
     def test_footer_utility_links(self):
         footer = FOOTER.read_text(encoding='utf-8')

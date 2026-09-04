@@ -303,6 +303,11 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Keep the ⦿ expander as a bullet only — hide Bootstrap's caret.
+.navbar .dropdown-toggle::after {
+  display: none !important;
+}
+
 .navbar.navbar-light {
   a {
     &:hover {
@@ -608,10 +613,12 @@ footer.sticky-bottom {
 
 // Repositories
 
-@media (min-width: 768px) {
-  .repo {
-    max-width: 50%;
-  }
+.repositories {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1.5rem;
+  max-width: 40rem;
 }
 
 // Blog

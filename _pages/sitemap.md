@@ -13,7 +13,6 @@ A short index of this site. Search engines can also use the [XML sitemap]({{ '/s
 - [home]({{ '/' | relative_url }})
 - [library]({{ '/library/' | relative_url }})
 - [projects]({{ '/projects/' | relative_url }})
-- [blog]({{ '/blog/' | relative_url }})
 - [creative]({{ '/creative/' | relative_url }})
 - [cv]({{ '/cv/' | relative_url }})
 

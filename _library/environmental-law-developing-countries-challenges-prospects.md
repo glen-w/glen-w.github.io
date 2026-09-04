@@ -15,7 +15,6 @@ role: attendee
 preview: 2011_environmental_law_developing_countries_challenges_prospects
 gallery:
 - environmental_law_developing_countries_challenges_prospects_figure_01
-- environmental_law_developing_countries_challenges_prospects_photo_01
 pdf: 2011_environmental_law_developing_countries_challenges_prospects_a.pdf
 zip_archive: 2011_environmental_law_developing_countries_challenges_prospects_a.zip
 zip_file_count: '2'

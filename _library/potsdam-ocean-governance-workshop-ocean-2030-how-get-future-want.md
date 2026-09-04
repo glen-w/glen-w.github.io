@@ -24,7 +24,6 @@ gallery:
 - potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_06
 - potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_07
 - potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_08
-- potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_09
 pdf: 2017_potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_c.pdf
 agenda: 2017_potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_d_agenda.pdf
 url: https://www.prog-ocean.org/blog/2017/12/14/4th-potsdam-ocean-governance-workshop/

@@ -16,7 +16,6 @@ preview: 2014_world_parks_congress
 gallery:
 - world_parks_congress_figure_01
 - world_parks_congress_photo_01
-- world_parks_congress_photo_02
 pdf: 2014_world_parks_congress.pdf
 zip_archive: 2014_world_parks_congress_a.zip
 zip_file_count: '3'

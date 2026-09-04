@@ -48,6 +48,31 @@ def _entry(**kwargs):
 
 @pytest.mark.library
 @pytest.mark.unit
+class TestJekyllPageSlug:
+    def test_underscores_become_hyphens(self):
+        stem = "glen_wright_denmark-how-long-term-policy"
+        assert CatalogGenerator.jekyll_page_slug(stem) == (
+            "glen-wright-denmark-how-long-term-policy"
+        )
+
+    def test_hyphen_only_slug_is_unchanged(self):
+        assert CatalogGenerator.jekyll_page_slug("fossil-fools-day") == "fossil-fools-day"
+
+    def test_library_index_uses_jekyll_slug(self, tmp_path):
+        library_dir = tmp_path / "custom_library"
+        library_dir.mkdir()
+        (library_dir / "glen_wright_example-title.md").write_text(
+            "---\nbibtex_key: ExampleKey\n---\n",
+            encoding="utf-8",
+        )
+        gen = CatalogGenerator(str(tmp_path), library_dir=str(library_dir))
+        page = gen._get_library_index()["ExampleKey"]
+        assert page["slug"] == "glen-wright-example-title"
+        assert page["info"] == "/library/glen-wright-example-title/"
+
+
+@pytest.mark.library
+@pytest.mark.unit
 class TestAuthorShortForm:
     def test_omits_solo_author(self):
         authors = [{"first": "Glen", "last": "Wright", "full": "Wright, Glen"}]

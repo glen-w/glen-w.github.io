@@ -27,7 +27,7 @@ latest_posts:
 
 Hello 👋🏻 
 
-I'm Glen, a researcher, writer, facilitator and workshopper with expertise in oceans and energy. This work-in-progress website is an attempt to gather all my bits & bobs into a semi-organised [body of work](/library/) and share my [side-projects](/projects/), [scribblings](/blog/) and [cut-and-paste creations](/creative/).
+I'm Glen, a researcher, writer, facilitator and workshopper with expertise in oceans and energy. This work-in-progress website is an attempt to gather all my bits & bobs into a semi-organised [body of work](/library/) and share my [side-projects](/projects/) and [cut-and-paste creations](/creative/).
 
 Please [get in touch](mailto:glen.w.wright@gmail.com), ask me anything, tell me a secret, offer me money in exchange for my labour, or just say hi :)
 

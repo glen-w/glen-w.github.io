@@ -1,0 +1,10 @@
+{% assign gh_user = site.data.socials.github_username %}
+{% if gh_user %}
+<section
+  class="github-contributions"
+  data-github-contributions
+  data-username="{{ gh_user }}"
+  hidden
+></section>
+<script defer src="{{ '/assets/js/github-contributions.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}

@@ -64,7 +64,7 @@ medium_zoom: true
         {% for language_tag in site.data.dynamic_filters.language_tags %}
           {% assign count = site.data.dynamic_filters.language_tag_counts[language_tag] | default: 0 %}
           {% if count > 0 %}
-            <button type="button" class="tag" data-filter="{{ language_tag }}" data-kind="lang" aria-pressed="false">{{ language_tag }} ({{ count }})</button>
+            <button type="button" class="tag" data-filter="{{ language_tag }}" data-kind="lang" aria-pressed="false">{{ language_tag | capitalize }} ({{ count }})</button>
           {% endif %}
         {% endfor %}
       </div>

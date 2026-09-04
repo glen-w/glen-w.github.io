@@ -1,50 +1,47 @@
-{% assign repo_url = include.repository | split: '/' %}
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
+{% if include.repository.repo %}
+  {% assign repo_full = include.repository.repo %}
 {% else %}
-  {% assign show_owner = true %}
+  {% assign repo_full = include.repository %}
 {% endif %}
 
-{% assign lang = site.lang | split: '-' | first %}
-
-{% case lang %}
-  {% when 'pt' %}
-    {% assign lang = site.lang %}
-
-  {% when 'zh' %}
-    {% assign lang_last = site.lang | split: '-' | last %}
-    {% case lang_last %}
-      {% when 'cn', 'sg', 'my', 'hans' %}
-        {% assign lang = 'cn' %}
-      {% when 'tw', 'hk', 'mo', 'hant' %}
-        {% assign lang = 'zh-tw' %}
-    {% endcase %}
-
-    {% comment %} Add a new language using when... if needed {% endcomment %}
-    {% comment %} If you still encounter language-display issues, check the available locale codes in github-readme-stats (different from ISO-639 standard used in your website) {% endcomment %}
-    {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
-{% endcase %}
-
-{% if site.data.repositories.repo_description_lines_max %}
-  {% assign max_lines = site.data.repositories.repo_description_lines_max %}
-{% else %}
-  {% assign max_lines = 2 %}
+{% assign repo_img = include.repository.img %}
+{% assign repo_name = include.repository.name %}
+{% assign repo_description = include.repository.description %}
+{% assign repo_page = include.repository.url %}
+{% assign repo_page_label = include.repository.url_label %}
+{% assign repo_parts = repo_full | split: '/' %}
+{% unless repo_name %}
+  {% assign repo_name = repo_parts.last %}
+{% endunless %}
+{% unless repo_page_label %}
+  {% assign repo_page_label = "Site" %}
+{% endunless %}
+{% assign repo_github = "https://github.com/" | append: repo_full %}
+{% if repo_page and repo_page != "" %}
+  {% unless repo_page contains "://" %}
+    {% assign repo_page = repo_page | relative_url %}
+  {% endunless %}
 {% endif %}
 
-<div class="repo p-2 text-center">
-  <a class="repo-card" href="https://github.com/{{ include.repository }}">
-    <img
-      class="only-light w-100 repo-pin"
-      alt=""
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}&cache_seconds=1800"
-      onerror="this.remove()"
-    >
-    <img
-      class="only-dark w-100 repo-pin"
-      alt=""
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}&cache_seconds=1800"
-      onerror="this.remove()"
-    >
-    <span class="repo-fallback">{% if show_owner %}{{ include.repository }}{% else %}{{ repo_url[1] }}{% endif %}</span>
-  </a>
-</div>
+<article class="repo-card">
+  <div class="repo-heading">
+    {% if repo_img %}
+      <img class="repo-logo" src="{{ repo_img | relative_url }}" alt="">
+    {% else %}
+      <i class="fa-brands fa-github repo-logo-icon" aria-hidden="true"></i>
+    {% endif %}
+    <div class="repo-body">
+      <h2 class="repo-name">{{ repo_name }}</h2>
+      {% if repo_description %}
+        <p class="repo-description">{{ repo_description }}</p>
+      {% endif %}
+      <p class="repo-links">
+        <a href="{{ repo_github }}">GitHub</a>
+        {% if repo_page and repo_page != "" %}
+          <span class="repo-links-sep" aria-hidden="true">·</span>
+          <a href="{{ repo_page }}">{{ repo_page_label }}</a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</article>

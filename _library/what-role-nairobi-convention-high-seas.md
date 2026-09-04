@@ -29,9 +29,6 @@ gallery:
 - what_role_nairobi_convention_high_seas_photo_03
 - what_role_nairobi_convention_high_seas_photo_04
 - what_role_nairobi_convention_high_seas_photo_05
-- what_role_nairobi_convention_high_seas_photo_06
-- what_role_nairobi_convention_high_seas_photo_07
-- what_role_nairobi_convention_high_seas_photo_08
 pdf: 2015_what_role_nairobi_convention_high_seas.pdf
 zip_archive: 2015_what_role_nairobi_convention_high_seas.zip
 zip_file_count: '9'

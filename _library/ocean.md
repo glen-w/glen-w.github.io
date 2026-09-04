@@ -19,15 +19,10 @@ gallery:
 - ocean_figure_04
 - ocean_governance_covid_19_building_resilience_marine_regions_figure_01
 - ocean_governance_covid_19_building_resilience_marine_regions_photo_01
-- ocean_governance_covid_19_building_resilience_marine_regions_photo_02
 - ocean_photo_01
 - ocean_photo_02
 - ocean_photo_03
 - ocean_photo_04
-- ocean_photo_05
-- ocean_photo_06
-- ocean_photo_07
-- ocean_photo_08
 pdf: 2017_ocean.pdf
 agenda: 2017_ocean_a_agenda.pdf
 zip_archive: 2017_ocean.zip

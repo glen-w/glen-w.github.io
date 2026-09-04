@@ -31,6 +31,11 @@ class CatalogParityError(Exception):
 class CatalogGenerator:
     """Generate list + details JSON (and a noscript selected YAML) from bib entries."""
 
+    @staticmethod
+    def jekyll_page_slug(filename_stem: str) -> str:
+        """Match Jekyll collection permalink ``/library/:name/`` from a markdown basename."""
+        return filename_stem.replace("_", "-")
+
     def __init__(self, project_root: str, library_dir: Optional[str] = None):
         self.project_root = project_root
         self.library_dir = library_dir or os.path.join(project_root, "_library")
@@ -398,10 +403,16 @@ class CatalogGenerator:
             key = self._strip(data.get("bibtex_key"))
             if not key:
                 continue
-            slug = name[:-3]
+            permalink = self._strip(data.get("permalink"))
+            if permalink:
+                info = permalink if permalink.endswith("/") else f"{permalink}/"
+                slug = info.removeprefix("/library/").rstrip("/")
+            else:
+                slug = self.jekyll_page_slug(name[:-3])
+                info = f"/library/{slug}/"
             index[key] = {
                 "slug": slug,
-                "info": f"/library/{slug}/",
+                "info": info,
                 "preview": data.get("preview"),
                 "pdf": data.get("pdf"),
                 "title": data.get("title"),

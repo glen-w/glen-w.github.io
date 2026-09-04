@@ -385,6 +385,46 @@ class TestPreviewAndGallery:
         assert 'img_figure_2' in fm['gallery']
         assert all('thumbnail' not in g.lower() for g in fm['gallery'])
 
+    def test_dedupe_images_by_content_keeps_first_stem(self, tmp_path):
+        same_bytes = b'same-image-bytes'
+        figure = tmp_path / 'entry_figure_01.jpg'
+        photo = tmp_path / 'entry_photo_02.jpg'
+        unique = tmp_path / 'entry_photo_03.jpg'
+        figure.write_bytes(same_bytes)
+        photo.write_bytes(same_bytes)
+        unique.write_bytes(b'different-image')
+
+        result = ContentGenerator._dedupe_images_by_content([
+            ('entry_figure_01', str(figure)),
+            ('entry_photo_02', str(photo)),
+            ('entry_photo_03', str(unique)),
+        ])
+        assert result == ['entry_figure_01', 'entry_photo_03']
+
+    def test_find_processed_images_dedupes_figure_photo_duplicates(
+        self, content_generator, tmp_path
+    ):
+        same_bytes = b'duplicate-content'
+        base = 'global_alliance_buildings_construction_globalabc_general_assembly'
+        (tmp_path / f'{base}_figure_01.jpg').write_bytes(b'unique-1')
+        (tmp_path / f'{base}_figure_02.jpg').write_bytes(same_bytes)
+        (tmp_path / f'{base}_photo_02.jpg').write_bytes(same_bytes)
+        (tmp_path / f'{base}_photo_03.jpg').write_bytes(b'unique-2')
+
+        entry = {
+            'title': 'Global Alliance for Buildings and Construction (GlobalABC) General Assembly',
+            'author': '',
+            'year': '2025',
+        }
+        with patch.object(content_generator.config, 'IMAGES_DIR', str(tmp_path)):
+            result = content_generator._find_processed_images(entry)
+
+        assert result == [
+            f'{base}_figure_01',
+            f'{base}_figure_02',
+            f'{base}_photo_03',
+        ]
+
     def test_hero_preview_src_appends_jpeg_when_extension_missing(
         self, content_generator
     ):

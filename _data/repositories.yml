@@ -1,10 +1,17 @@
-github_users:
-  - glen-w
-
-repo_description_lines_max: 2
-
 github_repos:
-  - glen-w/glen-w.github.io
-  - glen-w/transcribe
-  - glen-w/TranscriptX
-  - glen-w/rollup
+  - repo: glen-w/glen-w.github.io
+    description: Personal website
+    url: /
+    url_label: Website
+  - repo: glen-w/transcribe
+    description: Local-first handwritten notebook OCR using Ollama vision models
+  - repo: glen-w/TranscriptX
+    img: /assets/img/projects/thumbs/transcriptx_logo.png
+    description: A local-first transcript analysis toolkit.
+    url: https://glen-w.github.io/TranscriptX/
+    url_label: Site
+  - repo: glen-w/rollup
+    img: /assets/img/projects/thumbs/rollup.png
+    description: Local, read-only tool that reads Thunderbird mbox newsletters and generates weekly Markdown/HTML digests with optional Ollama summarisation.
+    url: /projects/rollup/
+    url_label: Project page

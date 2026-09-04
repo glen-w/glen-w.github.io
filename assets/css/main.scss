@@ -268,11 +268,11 @@ $max-content-width: {{ site.max_width }};
 
 // Additional bibliography styles
 .links .btn i {
-  font-size: 1.35em; /* 35% bigger than default (reduced by 10%) */
+  font-size: 1em;
 }
 
 .links .btn {
-  padding: 0.5rem 0.75rem; /* Increase button padding for better clickability */
+  padding: 0.35rem 0.55rem;
   margin-right: 0.25rem; /* Add small margin between buttons */
 }
 
@@ -314,24 +314,208 @@ $max-content-width: {{ site.max_width }};
 
 .all-tags {
   margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Match language tags to type/role tag size and capitalization */
+.publications .all-tags .tag,
+.publications .all-tags .tag:link,
+.publications .all-tags .tag:visited,
+.publications .all-tags .tag:hover,
+.publications .all-tags .tag:active,
+.publications .all-tags .tag:focus {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  vertical-align: middle;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  color: #495057 !important;
+  background-color: transparent !important;
+  border: 1px dashed #6c757d !important;
+  border-radius: 0.25rem;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.publications .all-tags .tag:hover,
+.publications .all-tags .tag:focus-visible {
+  background-color: #dee2e6 !important;
+  border-color: var(--global-theme-color) !important;
+  color: #495057 !important;
 }
 
 .repo-card {
-  display: block;
+  color: inherit;
+}
+
+.repo-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.repo-logo {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-top: 0.15rem;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.repo-logo-icon {
+  width: 1.75rem;
+  margin-top: 0.1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.repo-body {
+  min-width: 0;
+}
+
+.repo-name {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.repo-description {
+  margin: 0.3rem 0 0;
+  color: var(--global-text-color-light);
+  line-height: 1.45;
+}
+
+.repo-links {
+  margin: 0.45rem 0 0;
+  font-size: 0.9rem;
+}
+
+.repo-links a {
   color: inherit;
   text-decoration: none;
 }
 
-.repo-card:hover,
-.repo-card:focus-visible {
+.repo-links a:hover,
+.repo-links a:focus-visible {
   color: var(--global-theme-color);
+}
+
+.repo-links-sep {
+  margin: 0 0.35rem;
+  opacity: 0.55;
+}
+
+.github-contributions {
+  margin: 0 0 2.25rem;
+}
+
+.github-contributions-total {
+  margin: 0 0 0.65rem;
+  font-size: 0.95rem;
+}
+
+.github-contributions-total a {
+  color: inherit;
+  font-weight: 600;
   text-decoration: none;
 }
 
-.repo-fallback {
+.github-contributions-total a:hover,
+.github-contributions-total a:focus-visible {
+  color: var(--global-theme-color);
+}
+
+.github-contributions-scroll {
+  overflow-x: auto;
+  padding-bottom: 0.35rem;
+}
+
+.github-contributions-graph {
+  --cell: 11px;
+  display: grid;
+  grid-template-columns: 28px repeat(var(--weeks, 53), var(--cell));
+  grid-template-rows: 16px repeat(7, var(--cell));
+  gap: 3px;
+  width: max-content;
+  font-size: 0.7rem;
+  line-height: 1;
+  color: var(--global-text-color-light);
+}
+
+.github-contributions-month {
+  align-self: end;
+  white-space: nowrap;
+}
+
+.github-contributions-weekday {
+  align-self: center;
+  justify-self: end;
+  padding-right: 0.2rem;
+}
+
+.github-contributions-day {
   display: block;
-  margin-top: 0.4rem;
-  font-weight: 500;
+  width: var(--cell, 11px);
+  height: var(--cell, 11px);
+  border-radius: 2px;
+  background: var(--gh-contrib-0);
+}
+
+.github-contributions-day-1 {
+  background: var(--gh-contrib-1);
+}
+
+.github-contributions-day-2 {
+  background: var(--gh-contrib-2);
+}
+
+.github-contributions-day-3 {
+  background: var(--gh-contrib-3);
+}
+
+.github-contributions-day-4 {
+  background: var(--gh-contrib-4);
+}
+
+.github-contributions-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.55rem;
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+}
+
+.github-contributions-help {
+  color: inherit;
+  text-decoration: none;
+}
+
+.github-contributions-help:hover,
+.github-contributions-help:focus-visible {
+  color: var(--global-theme-color);
+}
+
+.github-contributions-legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: auto;
+}
+
+.github-contributions-legend .github-contributions-day {
+  flex-shrink: 0;
 }
 
 /* Library bibliography: keep tag pills transparent in rest; type badges fill on hover like tags */
@@ -370,6 +554,8 @@ $max-content-width: {{ site.max_width }};
 .library-filters .filter-tags .badge:focus-visible,
 .publications .item-type-and-roles .tag:hover,
 .publications .item-type-and-roles .tag:focus-visible,
+.publications .all-tags .tag:hover,
+.publications .all-tags .tag:focus-visible,
 .library-filters .filter-tags .tag:hover,
 .library-filters .filter-tags .tag:focus-visible {
   background-color: #dee2e6 !important;
@@ -413,21 +599,14 @@ $max-content-width: {{ site.max_width }};
   outline: none;
 }
 
-/* Ensure language tags in all-tags always have correct styling */
+/* Language tags in all-tags: size/case handled above under .publications .all-tags */
 .all-tags .tag,
 .all-tags .tag:link,
 .all-tags .tag:visited,
 .all-tags .tag:hover,
 .all-tags .tag:active,
 .all-tags .tag:focus {
-  background-color: #f8f9fa !important;
-  color: #495057 !important;
   text-decoration: none !important;
-}
-
-.all-tags .tag:hover {
-  background-color: #dee2e6 !important;
-  color: #495057 !important;
 }
 
 /* Smooth scrolling for anchor links */

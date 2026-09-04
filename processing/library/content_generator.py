@@ -4,6 +4,7 @@ Content Generator
 Generates markdown content and front matter for library pages.
 """
 
+import hashlib
 import html
 import os
 import re
@@ -152,7 +153,7 @@ class ContentGenerator:
 
         if processed_images:
             gallery = [img for img in processed_images if img and 'thumbnail' not in img.lower()]
-            self._set_list(front_matter, 'gallery', gallery)
+            self._set_list(front_matter, 'gallery', self._dedupe_list(gallery))
 
         # Legacy top-level fields for index / compatibility
         for key in ('pdf', 'agenda', 'slides', 'poster', 'video', 'url', 'doi'):
@@ -715,7 +716,7 @@ class ContentGenerator:
 
         base_filename = self.text_processor.clean_filename(base_filename).lower()
 
-        processed_images = []
+        candidates = []
         image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp']
 
         try:
@@ -724,17 +725,42 @@ class ContentGenerator:
                 if filename_lower.startswith(base_filename) and (
                     '_photo_' in filename_lower or '_figure_' in filename_lower
                 ):
-                    if any(filename_lower.endswith(ext) for ext in image_extensions):
-                        for ext in image_extensions:
-                            if filename_lower.endswith(ext):
-                                processed_images.append(filename[:-len(ext)])
-                                break
+                    for ext in image_extensions:
+                        if filename_lower.endswith(ext):
+                            candidates.append((
+                                filename[:-len(ext)],
+                                os.path.join(self.config.IMAGES_DIR, filename),
+                            ))
+                            break
 
-            processed_images.sort()
+            candidates.sort(key=lambda item: item[0])
         except Exception:
-            pass
+            return []
 
-        return processed_images
+        return self._dedupe_images_by_content(candidates)
+
+    @staticmethod
+    def _dedupe_images_by_content(candidates: List[Tuple[str, str]]) -> List[str]:
+        """Keep the first stem for each unique file hash (and each unique stem)."""
+        unique = []
+        seen_stems = set()
+        seen_hashes = set()
+        for stem, path in candidates:
+            stem_key = stem.lower()
+            if stem_key in seen_stems:
+                continue
+            seen_stems.add(stem_key)
+            try:
+                with open(path, 'rb') as handle:
+                    digest = hashlib.md5(handle.read()).hexdigest()
+            except OSError:
+                unique.append(stem)
+                continue
+            if digest in seen_hashes:
+                continue
+            seen_hashes.add(digest)
+            unique.append(stem)
+        return unique
 
     def generate_content(self, entry: Dict[str, Any]) -> str:
         """Generate the main content for the library page.

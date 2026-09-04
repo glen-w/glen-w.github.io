@@ -2,8 +2,9 @@
   Existing gallery rendering extracted unchanged; same page.gallery data contract.
 {% endcomment %}
 {% if page.gallery %}
+  {% assign unique_gallery = page.gallery | uniq %}
   {% assign gallery_count = 0 %}
-  {% for image in page.gallery %}
+  {% for image in unique_gallery %}
     {% assign image_lower = image | downcase %}
     {% unless image_lower contains 'thumbnail' %}
       {% assign gallery_count = gallery_count | plus: 1 %}
@@ -14,7 +15,7 @@
       <h2>Gallery</h2>
       <div class="row library-gallery-grid">
         {% assign gallery_index = 0 %}
-        {% for image in page.gallery %}
+        {% for image in unique_gallery %}
           {% assign image_lower = image | downcase %}
           {% unless image_lower contains 'thumbnail' %}
             {% comment %}Extract filename, handling both path and filename-only formats{% endcomment %}

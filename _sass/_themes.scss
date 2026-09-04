@@ -43,6 +43,12 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  --gh-contrib-0: #ebedf0;
+  --gh-contrib-1: #9be9a8;
+  --gh-contrib-2: #40c463;
+  --gh-contrib-3: #30a14e;
+  --gh-contrib-4: #216e39;
+
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
@@ -113,6 +119,12 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+
+  --gh-contrib-0: #161b22;
+  --gh-contrib-1: #0e4429;
+  --gh-contrib-2: #006d32;
+  --gh-contrib-3: #26a641;
+  --gh-contrib-4: #39d353;
 
   .only-light {
     display: none;

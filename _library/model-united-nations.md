@@ -20,7 +20,6 @@ gallery:
 - model_united_nations_photo_02
 - model_united_nations_photo_03
 - model_united_nations_photo_04
-- model_united_nations_photo_05
 zip_archive: 2010_model_united_nations.zip
 zip_file_count: '5'
 zip_file_size_mb: '9.0'
