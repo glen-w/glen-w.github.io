@@ -2,6 +2,21 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -100%;
+  z-index: 10000;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-text-color);
+
+  &:focus {
+    top: 0.5rem;
+  }
+}
+
 // Typography
 
 p,
@@ -288,11 +303,6 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Remove dropdown arrow from navbar dropdowns
-.navbar .dropdown-toggle::after {
-  display: none !important;
-}
-
 .navbar.navbar-light {
   a {
     &:hover {
@@ -397,6 +407,39 @@ ul.task-list input[type="checkbox"] {
 
   .bottom-bar {
     transform: rotate(0);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    opacity: 1;
+    background-color: var(--global-bg-color);
+  }
+
+  .navbar-collapse {
+    background-color: var(--global-bg-color);
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem 1rem;
+    border: 1px solid var(--global-divider-color);
+  }
+
+  .navbar-nav .nav-item .nav-link,
+  .navbar .dropdown-item {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .navbar .dropdown-menu {
+    padding: 0;
+    border: 0;
+    background-color: var(--global-bg-color);
+  }
+
+  .navbar .dropdown-item + .dropdown-item {
+    margin-top: 0.15rem;
   }
 }
 
@@ -518,6 +561,16 @@ footer.sticky-bottom {
 
   .container {
     text-align: center;
+  }
+}
+
+.footer-links {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+
+  a {
+    margin: 0 0.15rem;
   }
 }
 

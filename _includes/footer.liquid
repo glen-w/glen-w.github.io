@@ -9,6 +9,15 @@
   {% if site.last_updated %}
     Last updated: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}
+  <nav class="footer-links" aria-label="Utility">
+    <a href="{{ '/library/' | relative_url }}">library</a>
+    <span aria-hidden="true">·</span>
+    <a href="{{ '/projects/' | relative_url }}">projects</a>
+    <span aria-hidden="true">·</span>
+    <a href="{{ '/cv/' | relative_url }}">cv</a>
+    <span aria-hidden="true">·</span>
+    <a href="mailto:{{ site.data.socials.email }}">email</a>
+  </nav>
 {% endcapture %}
 
 {% if site.footer_fixed %}

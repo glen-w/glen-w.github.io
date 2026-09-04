@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ⦿
+title: more
 slug: dropdown
 permalink: /dropdown/
 nav: true
