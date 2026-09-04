@@ -172,6 +172,26 @@ class TestCatalogBuild:
         assert item["roles"] == ["co-author"]
         assert item["langs"] == ["french"]
 
+    def test_extra_links_dedupe_against_typed_urls(self, generator):
+        """Annote [link] that matches website/url/doi/pdf must not become a second icon."""
+        site = "https://example.org/event/"
+        other = "https://example.org/writeup"
+        entry = _entry(
+            website=site,
+            doi="10.1000/test",
+            pdf="example.pdf",
+            annote=(
+                "[type]\nconference\n[role]\nattendee\n"
+                f"[link]\n{site}\nhttps://doi.org/10.1000/test\n"
+                "/assets/pdf/example.pdf\n"
+                f"{other}\n"
+                f"{site.rstrip('/')}"  # trailing-slash variant of same site
+            ),
+        )
+        item, _detail = generator.build_item(entry)
+        assert item["url"] == site
+        assert item["links"] == [other]
+
     def test_selected_from_bib_field(self, generator):
         item, _detail = generator.build_item(_entry(selected="true"))
         assert item["selected"] is True

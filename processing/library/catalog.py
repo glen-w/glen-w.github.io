@@ -108,6 +108,9 @@ class CatalogGenerator:
         extra_links = self._annote_lines(entry, "[links]") or self._annote_lines(
             entry, "[link]"
         )
+        extra_links = self._dedupe_extra_links(
+            extra_links, url=url, doi=doi, pdf=pdf, video=video, slides=slides, agenda=agenda
+        )
         award = self._strip(entry.get("award") or entry.get("award_name"))
 
         flags: List[str] = []
@@ -532,6 +535,40 @@ class CatalogGenerator:
             return None
         text = str(value).strip()
         return text or None
+
+    @staticmethod
+    def _normalize_url_key(url: str) -> str:
+        return ContentGenerator._normalize_url_key(url)
+
+    def _dedupe_extra_links(
+        self,
+        extra_links: List[str],
+        *,
+        url: Optional[str] = None,
+        doi: Optional[str] = None,
+        pdf: Optional[str] = None,
+        video: Optional[str] = None,
+        slides: Optional[str] = None,
+        agenda: Optional[str] = None,
+    ) -> List[str]:
+        """Drop annote links that already appear as typed catalog URL fields."""
+        if not extra_links:
+            return []
+        typed = {
+            self._normalize_url_key(value)
+            for value in (url, doi, pdf, video, slides, agenda)
+            if value
+        }
+        typed.discard("")
+        seen: set[str] = set()
+        kept: List[str] = []
+        for href in extra_links:
+            key = self._normalize_url_key(href)
+            if not key or key in typed or key in seen:
+                continue
+            seen.add(key)
+            kept.append(href.strip())
+        return kept
 
     @staticmethod
     def _http_url(value: Optional[str]) -> Optional[str]:
