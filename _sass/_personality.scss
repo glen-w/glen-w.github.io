@@ -9,8 +9,10 @@
  *   --personality-hover-ms    hover/underline duration
  *   --personality-vt-ms       view-transition duration
  *   --personality-accent      sea-glass wink (focus, underline draw)
- *   --personality-wash-opacity hero portrait radial wash (0 = off)
+ *   --personality-wash-opacity hero portrait radial wash (0 = off; default ~0.13)
  *   --personality-hairline-width / --personality-hairline-inset section titles
+ *   wash disc size: min(100%, 13.5rem) on .profile::before
+ *   mobile portrait: .profile width 58% / max-width 11rem under 576px
  *
  * Dropped after visual review (kept as a note, not code):
  *   now-chip (“currently / latest scribbling”) — quiet idea, little in practice
@@ -25,7 +27,7 @@
   --personality-hover-ms: 220ms;
   --personality-vt-ms: 250ms;
   --personality-accent: #3d5f5c;
-  --personality-wash-opacity: 0.08;
+  --personality-wash-opacity: 0.13;
   --personality-hairline-width: 2px;
   --personality-hairline-inset: 0.65rem;
 }
@@ -64,7 +66,7 @@ html[data-personality="off"] {
     position: absolute;
     top: 0;
     left: 50%;
-    width: min(100%, 11rem);
+    width: min(100%, 13.5rem);
     aspect-ratio: 1;
     transform: translateX(-50%);
     border-radius: 50%;
@@ -81,6 +83,14 @@ html[data-personality="off"] {
   .profile-social {
     position: relative;
     z-index: 1;
+  }
+}
+
+// Narrow viewports: slightly smaller circular portrait so bio appears earlier.
+@media (max-width: 576px) {
+  .post > article > .profile {
+    width: 58%;
+    max-width: 11rem;
   }
 }
 

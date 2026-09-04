@@ -258,6 +258,7 @@
       els.status = empty;
       updateCount(0);
       els.results.setAttribute("aria-busy", "false");
+      notifyProgressBar();
       return;
     }
 
@@ -288,6 +289,23 @@
     els.status = null;
     els.results.setAttribute("aria-busy", "false");
     updateCount(matches.length);
+    notifyProgressBar();
+    watchResultImages();
+  }
+
+  function notifyProgressBar() {
+    if (typeof window.refreshProgressBar === "function") {
+      window.refreshProgressBar();
+    }
+  }
+
+  function watchResultImages() {
+    if (!els.results) return;
+    els.results.querySelectorAll("img").forEach((img) => {
+      if (img.complete) return;
+      img.addEventListener("load", notifyProgressBar, { once: true });
+      img.addEventListener("error", notifyProgressBar, { once: true });
+    });
   }
 
   function renderCard(item) {
