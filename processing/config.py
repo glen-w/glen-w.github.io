@@ -51,9 +51,12 @@ class Configuration:
     API_TIMEOUT = 10
     API_RETRY_ATTEMPTS = 3
     
-    # Thumbnail settings (list display is ~200px; 480px covers 2x retina)
+    # Thumbnail settings: fit inside a 3:4 canvas (list and detail frames).
     # Geometry uses '>' so ImageMagick only shrinks oversized sources.
-    DEFAULT_THUMBNAIL_SIZE = "480x>"
+    DEFAULT_THUMBNAIL_SIZE = "480x640>"
+    PREVIEW_CANVAS = "480x640"
+    PREVIEW_PAD_FALLBACK = "#f0f0f0"
+    PREVIEW_PAD_DARK = "#1a1a1a"
     THUMBNAIL_DENSITY = "150"
     THUMBNAIL_QUALITY = "82"
     MIN_THUMBNAIL_SIZE = 1000  # bytes

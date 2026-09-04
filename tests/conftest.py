@@ -146,7 +146,7 @@ def test_config_dict() -> Dict[str, Any]:
         'PHOTOS_DIR': 'assets/photos',
         'FIGURES_DIR': 'assets/figures',
         'TEXT_FIELDS_TO_CLEAN': ['title', 'shorttitle', 'booktitle', 'journal', 'publisher'],
-        'THUMBNAIL_SIZE': '480x>',
+        'THUMBNAIL_SIZE': '480x640>',
         'TEST_MODE': True
     }
 

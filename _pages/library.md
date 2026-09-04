@@ -246,9 +246,14 @@ medium_zoom: true
 
 .publications img.preview {
   width: 80px;
-  height: 80px;
-  object-fit: cover;
+  height: 107px;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  box-sizing: border-box;
+  background: var(--global-bg-color, #f5f5f5);
+  border: 1px solid var(--global-divider-color, #dee2e6);
 }
 
 .publications .item-type-and-roles button,

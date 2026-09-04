@@ -302,7 +302,7 @@
       img.className = "preview rounded";
       img.src = item.thumb;
       img.width = 80;
-      img.height = 80;
+      img.height = 107;
       img.loading = "lazy";
       img.decoding = "async";
       img.alt = "";

@@ -97,6 +97,8 @@ def main():
                        help='Only generate individual library item pages, skip main processing and dynamic filters')
     parser.add_argument('--dynamic-filters', action='store_true',
                        help='Only generate dynamic filters, skip main processing')
+    parser.add_argument('--normalize-previews', action='store_true',
+                       help='Fit existing publication_preview JPEGs to the 3:4 canvas without regenerating PDFs')
     
     args = parser.parse_args()
     
@@ -104,6 +106,8 @@ def main():
     config = Configuration()
     
     # Handle utility-only modes
+    if args.normalize_previews:
+        return run_normalize_previews(config, args)
     if args.clean_only:
         return run_cleanup_only(config, args)
     elif args.remove_only:
@@ -258,6 +262,23 @@ def run_validation(config: Configuration, args) -> bool:
     except Exception as e:
         print(f"❌ Validation failed: {e}")
         return False
+
+
+def run_normalize_previews(config: Configuration, args) -> int:
+    """Fit existing preview JPEGs to the canonical 3:4 canvas without touching PDFs."""
+    from processing.utils.file_manager import FileManager
+
+    print("🖼️  Normalizing existing library preview images...")
+    file_manager = FileManager(config)
+    stats = file_manager.normalize_preview_directory(
+        size=args.thumbnail_size,
+        verbose=args.verbose,
+    )
+    if stats['failed']:
+        print(f"❌ Preview normalize finished with {stats['failed']} failure(s)")
+        return 1
+    print("\n✅ Preview normalize completed successfully!")
+    return 0
 
 
 def run_cleanup_only(config: Configuration, args) -> int:

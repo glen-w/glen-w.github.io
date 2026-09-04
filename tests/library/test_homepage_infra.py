@@ -210,6 +210,20 @@ class TestLibraryIndexShell:
         assert '.publications .item-type-and-roles .badge:hover' in main_scss
         assert 'border-color: var(--global-theme-color) !important' in main_scss
 
+    def test_library_thumbs_use_contain_not_cover(self):
+        library = LIBRARY.read_text(encoding='utf-8')
+        scss = (PROJECT_ROOT / '_sass' / '_library-item.scss').read_text(encoding='utf-8')
+        js = (PROJECT_ROOT / 'assets' / 'js' / 'library.js').read_text(encoding='utf-8')
+        preview_block = library.split('.publications img.preview {', 1)[1].split('}', 1)[0]
+        assert 'object-fit: contain' in preview_block
+        assert 'object-fit: cover' not in preview_block
+        assert 'aspect-ratio: 3 / 4' in preview_block
+        assert 'img.height = 107' in js
+        assert '.library-thumbnail' in scss
+        assert 'object-fit: contain' in scss
+        assert 'object-fit: cover' not in scss
+        assert '.library-materials-thumb' in scss
+
     def test_library_js_jump_retries_and_exact_type_match(self):
         src = (PROJECT_ROOT / 'assets' / 'js' / 'library.js').read_text(encoding='utf-8')
         assert 'jumpToHash({ retry: true })' in src

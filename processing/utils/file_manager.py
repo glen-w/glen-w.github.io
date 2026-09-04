@@ -5,8 +5,10 @@ Handles all file operations including copying, directory creation, and file mana
 """
 
 import os
+import re
 import shutil
 import subprocess
+import tempfile
 from pathlib import Path
 from typing import List, Dict, Optional
 
@@ -45,43 +47,27 @@ class FileManager:
     
     def generate_pdf_thumbnail(self, pdf_path: str, output_path: str, size: str = None) -> bool:
         """Generate a thumbnail image of the first page of a PDF using ImageMagick."""
-        if size is None:
-            size = self.config.DEFAULT_THUMBNAIL_SIZE
-        size = self._normalize_thumbnail_geometry(size)
-        
+        size = self._normalize_thumbnail_geometry(size or self.config.DEFAULT_THUMBNAIL_SIZE)
+
         try:
-            # Create output directory if it doesn't exist
-            os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            
-            # Use modern ImageMagick 7 'magick' command
-            cmd = [
-                'magick', 
+            os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
+            prefix = [
                 '-density', self.config.THUMBNAIL_DENSITY,
                 f'{pdf_path}[0]',
                 '-background', 'white',
                 '-alpha', 'remove',
                 '-strip',
-                '-resize', size,
-                '-quality', self.config.THUMBNAIL_QUALITY,
-                output_path
             ]
-            
-            result = subprocess.run(cmd, capture_output=True, text=True)
-            
-            if result.returncode == 0:
-                # Verify the generated file is not empty or corrupted
-                if os.path.exists(output_path) and os.path.getsize(output_path) > self.config.MIN_THUMBNAIL_SIZE:
-                    print(f"  ✅ Generated thumbnail: {os.path.basename(output_path)}")
-                    return True
-                else:
-                    print(f"  ❌ Generated thumbnail is too small or corrupted")
-                    self._cleanup_file(output_path)
-                    return False
-            else:
-                # Try fallback with legacy convert command
-                print("  🔄 Trying fallback with legacy convert command...")
-                return self._generate_thumbnail_fallback(pdf_path, output_path, size)
-                
+            suffix = self._preview_fit_args(size, 'white') + [
+                '-quality', self.config.THUMBNAIL_QUALITY,
+                output_path,
+            ]
+            if self._run_magick(['magick'] + prefix + suffix, output_path):
+                print(f"  ✅ Generated thumbnail: {os.path.basename(output_path)}")
+                return True
+            print("  🔄 Trying fallback with legacy convert command...")
+            return self._generate_thumbnail_fallback(pdf_path, output_path, size)
+
         except Exception as e:
             print(f"  ❌ Error generating thumbnail: {e}")
             self._cleanup_file(output_path)
@@ -97,20 +83,18 @@ class FileManager:
                 '-background', 'white',
                 '-alpha', 'remove',
                 '-strip',
-                '-resize', size,
+            ] + self._preview_fit_args(size, 'white') + [
                 '-quality', self.config.THUMBNAIL_QUALITY,
-                output_path
+                output_path,
             ]
-            
-            fallback_result = subprocess.run(fallback_cmd, capture_output=True, text=True)
-            if fallback_result.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > self.config.MIN_THUMBNAIL_SIZE:
+
+            if self._run_magick(fallback_cmd, output_path):
                 print(f"  ✅ Generated thumbnail with fallback: {os.path.basename(output_path)}")
                 return True
-            else:
-                print(f"  ❌ Fallback also failed")
-                self._cleanup_file(output_path)
-                return False
-                
+            print(f"  ❌ Fallback also failed")
+            self._cleanup_file(output_path)
+            return False
+
         except Exception as e:
             print(f"  ❌ Fallback thumbnail generation failed: {e}")
             self._cleanup_file(output_path)
@@ -118,42 +102,26 @@ class FileManager:
     
     def generate_svg_thumbnail(self, svg_path: str, output_path: str, size: str = None) -> bool:
         """Generate a thumbnail image from an SVG file using ImageMagick."""
-        if size is None:
-            size = self.config.DEFAULT_THUMBNAIL_SIZE
-        size = self._normalize_thumbnail_geometry(size)
-        
+        size = self._normalize_thumbnail_geometry(size or self.config.DEFAULT_THUMBNAIL_SIZE)
+
         try:
-            # Create output directory if it doesn't exist
-            os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            
-            # Use modern ImageMagick 7 'magick' command to convert SVG to JPEG
-            cmd = [
-                'magick', 
+            os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
+            prefix = [
                 '-background', 'white',
                 '-density', '150',
                 svg_path,
                 '-strip',
-                '-resize', size,
-                '-quality', self.config.THUMBNAIL_QUALITY,
-                output_path
             ]
-            
-            result = subprocess.run(cmd, capture_output=True, text=True)
-            
-            if result.returncode == 0:
-                # Verify the generated file is not empty or corrupted
-                if os.path.exists(output_path) and os.path.getsize(output_path) > self.config.MIN_THUMBNAIL_SIZE:
-                    print(f"  ✅ Generated SVG thumbnail: {os.path.basename(output_path)}")
-                    return True
-                else:
-                    print(f"  ❌ Generated SVG thumbnail is too small or corrupted")
-                    self._cleanup_file(output_path)
-                    return False
-            else:
-                # Try fallback with legacy convert command
-                print("  🔄 Trying fallback with legacy convert command for SVG...")
-                return self._generate_svg_thumbnail_fallback(svg_path, output_path, size)
-                
+            suffix = self._preview_fit_args(size, 'white') + [
+                '-quality', self.config.THUMBNAIL_QUALITY,
+                output_path,
+            ]
+            if self._run_magick(['magick'] + prefix + suffix, output_path):
+                print(f"  ✅ Generated SVG thumbnail: {os.path.basename(output_path)}")
+                return True
+            print("  🔄 Trying fallback with legacy convert command for SVG...")
+            return self._generate_svg_thumbnail_fallback(svg_path, output_path, size)
+
         except Exception as e:
             print(f"  ❌ Error generating SVG thumbnail: {e}")
             self._cleanup_file(output_path)
@@ -168,20 +136,18 @@ class FileManager:
                 '-density', '150',
                 svg_path,
                 '-strip',
-                '-resize', size,
+            ] + self._preview_fit_args(size, 'white') + [
                 '-quality', self.config.THUMBNAIL_QUALITY,
-                output_path
+                output_path,
             ]
-            
-            fallback_result = subprocess.run(fallback_cmd, capture_output=True, text=True)
-            if fallback_result.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > self.config.MIN_THUMBNAIL_SIZE:
+
+            if self._run_magick(fallback_cmd, output_path):
                 print(f"  ✅ Generated SVG thumbnail with fallback: {os.path.basename(output_path)}")
                 return True
-            else:
-                print(f"  ❌ SVG fallback also failed")
-                self._cleanup_file(output_path)
-                return False
-                
+            print(f"  ❌ SVG fallback also failed")
+            self._cleanup_file(output_path)
+            return False
+
         except Exception as e:
             print(f"  ❌ Fallback SVG thumbnail generation failed: {e}")
             self._cleanup_file(output_path)
@@ -189,57 +155,150 @@ class FileManager:
 
     @staticmethod
     def _normalize_thumbnail_geometry(size: str) -> str:
-        """Append '>' so ImageMagick only shrinks images larger than the target width."""
+        """Append '>' so ImageMagick only shrinks images larger than the target box."""
         if not size:
             return size
         if size.endswith(('>', '<', '!', '^')):
             return size
         return f'{size}>'
 
+    def _canvas_from_size(self, size: str) -> str:
+        """WxH canvas for -extent; prefer the resize box, else PREVIEW_CANVAS."""
+        raw = (size or '').rstrip('><!^')
+        if re.fullmatch(r'\d+x\d+', raw):
+            return raw
+        return getattr(self.config, 'PREVIEW_CANVAS', '480x640')
+
+    def _preview_fit_args(self, size: str, background: str) -> List[str]:
+        """Fit inside the canvas, then pad so every preview is the same 3:4 frame."""
+        return [
+            '-resize', size,
+            '-gravity', 'center',
+            '-background', background,
+            '-extent', self._canvas_from_size(size),
+        ]
+
+    def _flatten_alpha_args(self, background: str) -> List[str]:
+        """Drop transparency onto a solid fill so logos do not sample as black."""
+        return ['-background', background, '-alpha', 'remove', '-alpha', 'off']
+
+    def _has_alpha(self, source_path: str) -> bool:
+        """True when the source has a usable alpha channel (transparent logos)."""
+        try:
+            result = subprocess.run(
+                ['magick', 'identify', '-quiet', '-format', '%A', source_path],
+                capture_output=True,
+                text=True,
+                timeout=10,
+            )
+            return (result.stdout or '').strip().lower() in {'true', 'blend'}
+        except Exception:
+            return False
+
+    def _flatten_stddev(self, source_path: str, background: str) -> float:
+        """How much detail remains after flattening onto a solid background."""
+        try:
+            result = subprocess.run(
+                [
+                    'magick',
+                    source_path,
+                    '-resize', '64x64>',
+                    '-background', background,
+                    '-alpha', 'remove',
+                    '-format', '%[fx:standard_deviation]',
+                    'info:',
+                ],
+                capture_output=True,
+                text=True,
+                timeout=15,
+            )
+            return float((result.stdout or '').strip())
+        except (TypeError, ValueError, subprocess.SubprocessError):
+            return 0.0
+
+    def _hex_luminance(self, hex_color: str) -> float:
+        digits = hex_color.lstrip('#')
+        if not re.fullmatch(r'[0-9A-Fa-f]{6}', digits):
+            return 1.0
+        r = int(digits[0:2], 16)
+        g = int(digits[2:4], 16)
+        b = int(digits[4:6], 16)
+        return (0.299 * r + 0.587 * g + 0.114 * b) / 255.0
+
+    def _sample_pad_color(self, source_path: str) -> str:
+        """Choose a mat that keeps the artwork visible, then match photos."""
+        fallback_light = getattr(self.config, 'PREVIEW_PAD_FALLBACK', '#f0f0f0')
+        fallback_dark = getattr(self.config, 'PREVIEW_PAD_DARK', '#1a1a1a')
+        if self._has_alpha(source_path):
+            white_sd = self._flatten_stddev(source_path, 'white')
+            black_sd = self._flatten_stddev(source_path, 'black')
+            if black_sd > white_sd * 1.2:
+                return fallback_dark
+            if white_sd > black_sd * 1.2:
+                return fallback_light
+
+        try:
+            result = subprocess.run(
+                [
+                    'magick',
+                    source_path,
+                    *self._flatten_alpha_args('white'),
+                    '-resize', '1x1!',
+                    '-format', '%[hex:u.p{0,0}]',
+                    'info:',
+                ],
+                capture_output=True,
+                text=True,
+                timeout=15,
+            )
+            hex_color = (result.stdout or '').strip().lstrip('#')
+            if result.returncode == 0 and re.fullmatch(r'[0-9A-Fa-f]{6,8}', hex_color):
+                sampled = f'#{hex_color[:6]}'
+                if self._hex_luminance(sampled) < 0.22:
+                    return fallback_light
+                return sampled
+        except Exception:
+            pass
+        return fallback_light
+
+    def _run_magick(self, cmd: List[str], output_path: str) -> bool:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > self.config.MIN_THUMBNAIL_SIZE:
+            return True
+        if result.stderr and result.returncode != 0:
+            print(f"     {result.stderr.strip()}")
+        return False
+
     def optimize_preview_image(self, source_path: str, output_path: str, size: str = None) -> bool:
         """Resize/compress an image into a library preview thumbnail.
 
         Used for Zotero thumbnail attachments and other image sources so reprocessing
-        does not reintroduce multi-megabyte preview files.
+        does not reintroduce multi-megabyte preview files. Fits the source inside the
+        canonical 3:4 canvas and pads with a sampled fill.
         """
-        if size is None:
-            size = self.config.DEFAULT_THUMBNAIL_SIZE
-        size = self._normalize_thumbnail_geometry(size)
+        size = self._normalize_thumbnail_geometry(size or self.config.DEFAULT_THUMBNAIL_SIZE)
+        pad = self._sample_pad_color(source_path)
 
         try:
-            os.makedirs(os.path.dirname(output_path), exist_ok=True)
-
-            cmd = [
-                'magick',
+            os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
+            body = [
                 source_path,
                 '-auto-orient',
                 '-strip',
-                '-resize', size,
+            ] + self._flatten_alpha_args(pad) + self._preview_fit_args(size, pad) + [
                 '-quality', self.config.THUMBNAIL_QUALITY,
                 output_path,
             ]
-            result = subprocess.run(cmd, capture_output=True, text=True)
+            if self._run_magick(['magick'] + body, output_path):
+                print(f"  ✅ Optimized preview thumbnail: {os.path.basename(output_path)}")
+                return True
 
-            if result.returncode != 0:
-                print("  🔄 Trying fallback with legacy convert command for preview image...")
-                fallback_cmd = [
-                    'convert',
-                    source_path,
-                    '-auto-orient',
-                    '-strip',
-                    '-resize', size,
-                    '-quality', self.config.THUMBNAIL_QUALITY,
-                    output_path,
-                ]
-                result = subprocess.run(fallback_cmd, capture_output=True, text=True)
-
-            if result.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > self.config.MIN_THUMBNAIL_SIZE:
+            print("  🔄 Trying fallback with legacy convert command for preview image...")
+            if self._run_magick(['convert'] + body, output_path):
                 print(f"  ✅ Optimized preview thumbnail: {os.path.basename(output_path)}")
                 return True
 
             print(f"  ❌ Failed to optimize preview image: {os.path.basename(source_path)}")
-            if result.stderr:
-                print(f"     {result.stderr.strip()}")
             self._cleanup_file(output_path)
             return False
 
@@ -247,6 +306,73 @@ class FileManager:
             print(f"  ❌ Error optimizing preview image: {e}")
             self._cleanup_file(output_path)
             return False
+
+    def normalize_preview_image(self, path: str, size: str = None) -> bool:
+        """Fit an existing preview JPEG onto the canonical 3:4 canvas in place."""
+        if not os.path.exists(path):
+            print(f"  ❌ Preview not found: {path}")
+            return False
+
+        size = self._normalize_thumbnail_geometry(size or self.config.DEFAULT_THUMBNAIL_SIZE)
+        pad = self._sample_pad_color(path)
+        directory = os.path.dirname(path) or '.'
+        fd, tmp_path = tempfile.mkstemp(suffix='.jpeg', dir=directory)
+        os.close(fd)
+        try:
+            cmd = [
+                'magick',
+                path,
+                '-auto-orient',
+                '-strip',
+            ] + self._flatten_alpha_args(pad) + self._preview_fit_args(size, pad) + [
+                '-quality', self.config.THUMBNAIL_QUALITY,
+                tmp_path,
+            ]
+            if self._run_magick(cmd, tmp_path):
+                os.replace(tmp_path, path)
+                print(f"  ✅ Normalized preview: {os.path.basename(path)}")
+                return True
+            print("  🔄 Trying fallback with legacy convert command for normalize...")
+            fallback = ['convert'] + cmd[1:]
+            if self._run_magick(fallback, tmp_path):
+                os.replace(tmp_path, path)
+                print(f"  ✅ Normalized preview: {os.path.basename(path)}")
+                return True
+            print(f"  ❌ Failed to normalize preview: {os.path.basename(path)}")
+            return False
+        except Exception as e:
+            print(f"  ❌ Error normalizing preview {path}: {e}")
+            return False
+        finally:
+            self._cleanup_file(tmp_path)
+
+    def normalize_preview_directory(self, directory: str = None, size: str = None, verbose: bool = False) -> Dict[str, int]:
+        """Rewrite every JPEG in the preview directory onto the 3:4 canvas."""
+        directory = directory or self.config.PREVIEW_DIR
+        stats = {'normalized': 0, 'skipped': 0, 'failed': 0}
+        if not os.path.isdir(directory):
+            print(f"❌ Preview directory not found: {directory}")
+            return stats
+
+        extensions = tuple(self.config.PREVIEW_EXTENSIONS)
+        names = sorted(
+            name for name in os.listdir(directory)
+            if name.lower().endswith(extensions) and os.path.isfile(os.path.join(directory, name))
+        )
+        print(f"🖼️  Normalizing {len(names)} preview image(s) in {directory}")
+        for name in names:
+            path = os.path.join(directory, name)
+            if self.normalize_preview_image(path, size):
+                stats['normalized'] += 1
+            else:
+                stats['failed'] += 1
+                if verbose:
+                    print(f"  ⚠️  Skipped/failed: {name}")
+        print(
+            f"  ✅ Preview normalize complete: {stats['normalized']} updated, "
+            f"{stats['failed']} failed"
+        )
+        return stats
 
     def _cleanup_file(self, file_path: str) -> None:
         """Clean up a file if it exists."""

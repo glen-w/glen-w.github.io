@@ -277,3 +277,10 @@ class TestCliFailureStatuses:
         assert results['all_passed'] is False
         assert results['failed_entries'] >= 1
         assert any('Failed to parse' in e for e in results['errors'])
+
+    def test_normalize_previews_flag_is_utility_only(self):
+        main_src = Path(__file__).resolve().parents[2] / 'processing' / 'main.py'
+        src = main_src.read_text(encoding='utf-8')
+        assert "--normalize-previews" in src
+        assert "run_normalize_previews" in src
+        assert "normalize_preview_directory" in src
