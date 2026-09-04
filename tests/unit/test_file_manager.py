@@ -140,7 +140,13 @@ class TestFileManager:
         """Test optimizing a source image into a compressed preview thumbnail."""
         mock_exists.return_value = True
         mock_getsize.return_value = 5000
-        mock_run.return_value = MagicMock(returncode=0, stderr='', stdout='aabbcc')
+        # identify size (landscape) → alpha check → 1x1 sample → magick write
+        mock_run.side_effect = [
+            MagicMock(returncode=0, stdout='800 200', stderr=''),
+            MagicMock(returncode=0, stdout='False\n', stderr=''),
+            MagicMock(returncode=0, stdout='aabbcc', stderr=''),
+            MagicMock(returncode=0, stdout='', stderr=''),
+        ]
 
         result = file_manager.optimize_preview_image("/path/to/source.jpg", "/path/to/thumb.jpg")
 
@@ -181,6 +187,19 @@ class TestFileManager:
             ]
             assert file_manager._sample_pad_color('/path/to/photo.jpg') == '#aabbcc'
 
+    def test_resolve_pad_color_skips_sample_for_portrait(self, file_manager):
+        with patch.object(file_manager, '_identify_size', return_value=(400, 600)):
+            with patch.object(file_manager, '_has_alpha', return_value=False):
+                with patch.object(file_manager, '_sample_pad_color') as mock_sample:
+                    assert file_manager._resolve_pad_color('/cover.jpg') == '#f0f0f0'
+                    mock_sample.assert_not_called()
+
+    def test_resolve_pad_color_samples_for_landscape(self, file_manager):
+        with patch.object(file_manager, '_identify_size', return_value=(800, 200)):
+            with patch.object(file_manager, '_sample_pad_color', return_value='#aabbcc') as mock_sample:
+                assert file_manager._resolve_pad_color('/banner.jpg') == '#aabbcc'
+                mock_sample.assert_called_once()
+
     def test_normalize_thumbnail_geometry(self, file_manager):
         """Test ImageMagick geometry normalization for shrink-only resize."""
         assert file_manager._normalize_thumbnail_geometry('480x') == '480x>'
@@ -214,7 +233,13 @@ class TestFileManager:
     def test_normalize_preview_image(self, mock_getsize, mock_exists, mock_run, mock_mkstemp, mock_close, mock_replace, mock_remove, file_manager):
         mock_exists.return_value = True
         mock_getsize.return_value = 5000
-        mock_run.return_value = MagicMock(returncode=0, stdout='112233', stderr='')
+        # trimmed content (landscape banner) → alpha → sample → magick write
+        mock_run.side_effect = [
+            MagicMock(returncode=0, stdout='800 200', stderr=''),
+            MagicMock(returncode=0, stdout='False\n', stderr=''),
+            MagicMock(returncode=0, stdout='aabbcc', stderr=''),
+            MagicMock(returncode=0, stdout='', stderr=''),
+        ]
 
         result = file_manager.normalize_preview_image('/assets/img/publication_preview/example.jpeg')
 
@@ -223,9 +248,11 @@ class TestFileManager:
         cmds = [call.args[0] for call in mock_run.call_args_list]
         cmd = next(c for c in cmds if '-extent' in c)
         assert cmd[0] == 'magick'
+        assert '-trim' in cmd
         assert '-gravity' in cmd
         assert cmd[cmd.index('-extent') + 1] == '480x640'
         assert cmd[cmd.index('-resize') + 1].endswith('>')
+        assert cmd[cmd.index('-background') + 1] == '#aabbcc'
 
     @patch.object(FileManager, 'normalize_preview_image', return_value=True)
     @patch('os.path.isfile', return_value=True)
@@ -275,6 +302,29 @@ class TestFileManager:
             capture_output=True, text=True, check=True,
         ).stdout.strip()
         assert geometry == '480x640'
+        # Landscape keeps a coloured mat: corner should match the banner red family
+        corner = subprocess.run(
+            [MAGICK, str(dest), '-format', '%[hex:u.p{0,0}]', 'info:'],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip().lstrip('#').upper()
+        assert corner.startswith('C0')
+
+    @pytest.mark.skipif(MAGICK is None, reason='ImageMagick magick not on PATH')
+    def test_optimize_preview_uses_neutral_pad_for_portrait(self, file_manager, tmp_path):
+        source = tmp_path / 'cover.png'
+        dest = tmp_path / 'preview.jpeg'
+        subprocess.run([MAGICK, '-size', '400x600', 'xc:#2a8f9e', str(source)], check=True)
+        assert file_manager.optimize_preview_image(str(source), str(dest)) is True
+        geometry = subprocess.run(
+            [MAGICK, 'identify', '-format', '%wx%h', str(dest)],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        assert geometry == '480x640'
+        corner = subprocess.run(
+            [MAGICK, str(dest), '-format', '%[hex:u.p{0,0}]', 'info:'],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip().lstrip('#').upper()
+        assert corner[:6] == 'F0F0F0'
 
     @pytest.mark.skipif(MAGICK is None, reason='ImageMagick magick not on PATH')
     def test_normalize_preview_pads_existing_jpeg_in_place(self, file_manager, tmp_path):
@@ -286,6 +336,25 @@ class TestFileManager:
             capture_output=True, text=True, check=True,
         ).stdout.strip()
         assert geometry == '480x640'
+
+    @pytest.mark.skipif(MAGICK is None, reason='ImageMagick magick not on PATH')
+    def test_normalize_preview_strips_coloured_side_pad_on_portrait(self, file_manager, tmp_path):
+        path = tmp_path / 'portrait-padded.jpeg'
+        # Simulate a portrait cover already letterboxed with a teal side mat
+        subprocess.run(
+            [
+                MAGICK, '-size', '480x640', 'xc:#2a8f9e',
+                '-fill', '#102030', '-draw', 'rectangle 40,0 439,639',
+                str(path),
+            ],
+            check=True,
+        )
+        assert file_manager.normalize_preview_image(str(path)) is True
+        corner = subprocess.run(
+            [MAGICK, str(path), '-colorspace', 'sRGB', '-format', '%[hex:u.p{0,0}]', 'info:'],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip().lstrip('#').upper()
+        assert corner[:6] == 'F0F0F0'
 
     @pytest.mark.skipif(MAGICK is None, reason='ImageMagick magick not on PATH')
     def test_generate_pdf_thumbnail_fits_canvas(self, file_manager, tmp_path):

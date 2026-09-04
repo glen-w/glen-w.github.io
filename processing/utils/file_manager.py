@@ -225,17 +225,63 @@ class FileManager:
         b = int(digits[4:6], 16)
         return (0.299 * r + 0.587 * g + 0.114 * b) / 255.0
 
+    def _identify_size(self, source_path: str) -> Optional[tuple]:
+        """Return (width, height) or None when identify fails."""
+        try:
+            result = subprocess.run(
+                ['magick', 'identify', '-quiet', '-format', '%w %h', source_path],
+                capture_output=True,
+                text=True,
+                timeout=10,
+            )
+            parts = (result.stdout or '').strip().split()
+            if result.returncode == 0 and len(parts) == 2:
+                return int(parts[0]), int(parts[1])
+        except (TypeError, ValueError, subprocess.SubprocessError):
+            pass
+        return None
+
+    def _trimmed_size(self, source_path: str) -> Optional[tuple]:
+        """Content size after trimming letterbox/pillarbox (for already-padded previews)."""
+        try:
+            result = subprocess.run(
+                [
+                    'magick',
+                    source_path,
+                    '-colorspace', 'sRGB',
+                    '-fuzz', '2%',
+                    '-trim',
+                    '+repage',
+                    '-format', '%w %h',
+                    'info:',
+                ],
+                capture_output=True,
+                text=True,
+                timeout=15,
+            )
+            parts = (result.stdout or '').strip().split()
+            if result.returncode == 0 and len(parts) == 2:
+                return int(parts[0]), int(parts[1])
+        except (TypeError, ValueError, subprocess.SubprocessError):
+            pass
+        return None
+
+    def _content_is_portrait(self, source_path: str, *, assume_padded: bool = False) -> bool:
+        """True when the artwork is taller than wide (thin side mats look odd on 3:4)."""
+        size = self._trimmed_size(source_path) if assume_padded else self._identify_size(source_path)
+        if not size:
+            size = self._identify_size(source_path)
+        if not size:
+            return False
+        width, height = size
+        return height > width
+
     def _sample_pad_color(self, source_path: str) -> str:
         """Choose a mat that keeps the artwork visible, then match photos."""
         fallback_light = getattr(self.config, 'PREVIEW_PAD_FALLBACK', '#f0f0f0')
-        fallback_dark = getattr(self.config, 'PREVIEW_PAD_DARK', '#1a1a1a')
         if self._has_alpha(source_path):
-            white_sd = self._flatten_stddev(source_path, 'white')
-            black_sd = self._flatten_stddev(source_path, 'black')
-            if black_sd > white_sd * 1.2:
-                return fallback_dark
-            if white_sd > black_sd * 1.2:
-                return fallback_light
+            # Transparent logos: pick light/dark for contrast, never a photo sample.
+            return self._neutral_pad_color(source_path, skip_alpha_check=True)
 
         try:
             result = subprocess.run(
@@ -261,6 +307,25 @@ class FileManager:
             pass
         return fallback_light
 
+    def _neutral_pad_color(self, source_path: str, *, skip_alpha_check: bool = False) -> str:
+        """Page-matching mat for portrait covers; keep logo contrast when alpha is present."""
+        fallback_light = getattr(self.config, 'PREVIEW_PAD_FALLBACK', '#f0f0f0')
+        fallback_dark = getattr(self.config, 'PREVIEW_PAD_DARK', '#1a1a1a')
+        if skip_alpha_check or self._has_alpha(source_path):
+            white_sd = self._flatten_stddev(source_path, 'white')
+            black_sd = self._flatten_stddev(source_path, 'black')
+            if black_sd > white_sd * 1.2:
+                return fallback_dark
+            if white_sd > black_sd * 1.2:
+                return fallback_light
+        return fallback_light
+
+    def _resolve_pad_color(self, source_path: str, *, assume_padded: bool = False) -> str:
+        """Landscape keeps a sampled colour mat; portrait uses a neutral pad (no side shards)."""
+        if self._content_is_portrait(source_path, assume_padded=assume_padded):
+            return self._neutral_pad_color(source_path)
+        return self._sample_pad_color(source_path)
+
     def _run_magick(self, cmd: List[str], output_path: str) -> bool:
         result = subprocess.run(cmd, capture_output=True, text=True)
         if result.returncode == 0 and os.path.exists(output_path) and os.path.getsize(output_path) > self.config.MIN_THUMBNAIL_SIZE:
@@ -274,15 +339,17 @@ class FileManager:
 
         Used for Zotero thumbnail attachments and other image sources so reprocessing
         does not reintroduce multi-megabyte preview files. Fits the source inside the
-        canonical 3:4 canvas and pads with a sampled fill.
+        canonical 3:4 canvas and pads with a sampled fill (landscape) or neutral mat
+        (portrait, where a coloured side shard looks odd).
         """
         size = self._normalize_thumbnail_geometry(size or self.config.DEFAULT_THUMBNAIL_SIZE)
-        pad = self._sample_pad_color(source_path)
+        pad = self._resolve_pad_color(source_path)
 
         try:
             os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
             body = [
                 source_path,
+                '-colorspace', 'sRGB',
                 '-auto-orient',
                 '-strip',
             ] + self._flatten_alpha_args(pad) + self._preview_fit_args(size, pad) + [
@@ -308,13 +375,17 @@ class FileManager:
             return False
 
     def normalize_preview_image(self, path: str, size: str = None) -> bool:
-        """Fit an existing preview JPEG onto the canonical 3:4 canvas in place."""
+        """Fit an existing preview JPEG onto the canonical 3:4 canvas in place.
+
+        Trims any previous letterbox first so portrait items can drop a coloured side
+        mat without the old shards remaining in the pixels.
+        """
         if not os.path.exists(path):
             print(f"  ❌ Preview not found: {path}")
             return False
 
         size = self._normalize_thumbnail_geometry(size or self.config.DEFAULT_THUMBNAIL_SIZE)
-        pad = self._sample_pad_color(path)
+        pad = self._resolve_pad_color(path, assume_padded=True)
         directory = os.path.dirname(path) or '.'
         fd, tmp_path = tempfile.mkstemp(suffix='.jpeg', dir=directory)
         os.close(fd)
@@ -322,8 +393,12 @@ class FileManager:
             cmd = [
                 'magick',
                 path,
+                '-colorspace', 'sRGB',
                 '-auto-orient',
                 '-strip',
+                '-fuzz', '2%',
+                '-trim',
+                '+repage',
             ] + self._flatten_alpha_args(pad) + self._preview_fit_args(size, pad) + [
                 '-quality', self.config.THUMBNAIL_QUALITY,
                 tmp_path,

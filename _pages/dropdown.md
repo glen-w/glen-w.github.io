@@ -10,17 +10,11 @@ children:
   - title: bookshelf
     permalink: /books/
 
-  - title: catalogue of failures
-    permalink: /failures/
-
   - title: jingle
     permalink: /jingle/
 
   - title: map
     permalink: /map.html
-
-  - title: pieces of paper
-    permalink: https://glen.trilium.cc/share/pieces_of_paper
 
   - title: sitemap
     permalink: /sitemap/

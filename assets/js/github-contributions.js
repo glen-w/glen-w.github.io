@@ -1,6 +1,14 @@
 (() => {
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const WEEKDAY_LABELS = ["", "Mon", "", "Wed", "", "Fri", ""];
+  // Keep full class names as literals so PurgeCSS can see them in JS content.
+  const DAY_LEVEL_CLASSES = [
+    "github-contributions-day-0",
+    "github-contributions-day-1",
+    "github-contributions-day-2",
+    "github-contributions-day-3",
+    "github-contributions-day-4",
+  ];
   const API = "https://github-contributions-api.jogruber.de/v4";
 
   document.addEventListener("DOMContentLoaded", init);
@@ -73,7 +81,7 @@
       week.forEach((day, dayIndex) => {
         const cell = document.createElement("span");
         const level = Math.max(0, Math.min(4, Number(day.level) || 0));
-        cell.className = `github-contributions-day github-contributions-day-${level}`;
+        cell.className = `github-contributions-day ${DAY_LEVEL_CLASSES[level]}`;
         cell.title = contributionTitle(day);
         cell.style.gridColumn = String(weekIndex + 2);
         cell.style.gridRow = String(dayIndex + 2);
@@ -99,7 +107,7 @@
     legend.append(document.createTextNode("Less"));
     for (let level = 0; level <= 4; level += 1) {
       const swatch = document.createElement("span");
-      swatch.className = `github-contributions-day github-contributions-day-${level}`;
+      swatch.className = `github-contributions-day ${DAY_LEVEL_CLASSES[level]}`;
       legend.append(swatch);
     }
     legend.append(document.createTextNode("More"));

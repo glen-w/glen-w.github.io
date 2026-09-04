@@ -55,7 +55,7 @@ A full library run (or `--catalog-only`) writes:
 - `assets/json/library-details.json` — abstracts, speakers, photos; fetched on first card expand
 - `_data/library_selected.yml` — noscript selected list
 
-Preview JPEGs in `assets/img/publication_preview/` are fitted to a canonical 3:4 canvas (`480x640`) during paper processing so list and detail views can `object-fit: contain` without cropping. To refit existing previews without wiping PDFs:
+Preview JPEGs in `assets/img/publication_preview/` are fitted to a canonical 3:4 canvas (`480x640`) during paper processing so list and detail views can `object-fit: contain` without cropping. Landscape sources keep a sampled colour mat; portrait sources use a neutral pad so thin side shards do not appear. To refit existing previews without wiping PDFs:
 
 ```bash
 python processing/main.py --normalize-previews

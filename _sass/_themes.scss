@@ -43,11 +43,12 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
-  --gh-contrib-0: #ebedf0;
-  --gh-contrib-1: #9be9a8;
-  --gh-contrib-2: #40c463;
-  --gh-contrib-3: #30a14e;
-  --gh-contrib-4: #216e39;
+  // Earth-tone scale from the site palette (soft clay → espresso bark)
+  --gh-contrib-0: #{$grey-color-light};
+  --gh-contrib-1: #{$green-color-lime};
+  --gh-contrib-2: #{color.mix($grey-color, $green-color-lime, 55%)};
+  --gh-contrib-3: #{$grey-color};
+  --gh-contrib-4: #{$green-color-dark};
 
   #light-toggle-system {
     padding-left: 10px;
@@ -120,11 +121,12 @@ html[data-theme="dark"] {
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
-  --gh-contrib-0: #161b22;
-  --gh-contrib-1: #0e4429;
-  --gh-contrib-2: #006d32;
-  --gh-contrib-3: #26a641;
-  --gh-contrib-4: #39d353;
+  // Earth-tone scale for dark mode (midnight soil → earth dust)
+  --gh-contrib-0: #{color.adjust($grey-color-dark, $lightness: -4%)};
+  --gh-contrib-1: #{$blue-color-dark};
+  --gh-contrib-2: #{$green-color-dark};
+  --gh-contrib-3: #{$grey-color};
+  --gh-contrib-4: #{$cyan-color};
 
   .only-light {
     display: none;
