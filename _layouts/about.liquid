@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="post">
   <article>
+    <h1 class="about-identity">Glen Wright</h1>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -13,11 +14,10 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.81}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% assign profile_webp = profile_image_path | remove: '.jpg' | remove: '.jpeg' | append: '-800.webp' | relative_url %}
+          {% capture sizes %}(min-width: 576px) 160px, 40vw{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Portrait of Glen Wright" url=profile_webp
           %}
         {% endif %}
         {% if page.profile.more_info %}
@@ -77,9 +77,24 @@ layout: default
   font-size: 1.25rem;
 }
 
+.about-identity {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
 /* Home page selected publications styling */
 .publications-home ol.bibliography li {
   margin-bottom: 1.25rem;
+}
+
+.publications-home .links a.btn {
+  padding: 0.45rem 0.85rem;
+  min-height: 2.25rem;
+  min-width: 2.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .publications-home h2.bibliography {
@@ -128,5 +143,24 @@ layout: default
 .profile-social .contact-note {
   margin-top: 0.5rem;
   font-size: 0.875rem;
+}
+
+.publications-home-cta {
+  margin-top: 0.5rem;
+}
+
+.publications-home details.abstract-details {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.publications-home details.abstract-details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.publications-home details.abstract-details[open] {
+  border: 1px dashed var(--global-text-color);
+  padding: 0.75rem 1rem;
 }
 </style>

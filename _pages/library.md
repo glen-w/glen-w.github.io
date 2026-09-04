@@ -5,6 +5,7 @@ title: library
 description:
 nav: true
 nav_order: 10
+medium_zoom: true
 ---
 
 <!-- _pages/library.md -->

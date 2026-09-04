@@ -14,6 +14,8 @@ horizontal: false
 # Enable flipbook/carousel layouts
 images:
   slider: true
+masonry: true
+medium_zoom: true
 ---
 
 
