@@ -1,6 +1,6 @@
 ---
 layout: page
-title: more
+title: ⦿
 slug: dropdown
 permalink: /dropdown/
 nav: true
@@ -12,9 +12,6 @@ children:
 
   - title: catalogue of failures
     permalink: /failures/
-
-  - title: code
-    permalink: /code/
 
   - title: jingle
     permalink: /jingle/

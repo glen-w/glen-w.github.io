@@ -995,25 +995,34 @@ h2.category {
         
         .badge {
           color: #495057 !important;
-          background-color: #f8f9fa !important;
+          background-color: transparent !important;
           border: 1px solid #dee2e6 !important;
           border-radius: 0.25rem;
           padding: 0.35rem 0.5rem !important; // Slightly taller than tags
+          transition: background-color 0.2s ease, border-color 0.2s ease;
           
-          &:hover {
-            background-color: #e9ecef !important;
+          &:hover,
+          &:focus,
+          &:focus-visible {
+            background-color: #dee2e6 !important;
             border-color: var(--global-theme-color) !important;
           }
         }
         
-        // Override Bootstrap badge-light specifically with higher specificity
-        .item-type-and-roles .badge.badge-light,
-        .publications .badge.badge-light,
         .badge.badge-light {
           color: #495057 !important;
-          background-color: #f8f9fa !important;
+          background-color: transparent !important;
           border: 1px solid #dee2e6 !important;
-          padding: 0.35rem 0.5rem !important; // Slightly taller than tags
+          padding: 0.35rem 0.5rem !important;
+          transition: background-color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .badge.badge-light:hover,
+        .badge.badge-light:focus,
+        .badge.badge-light:focus-visible {
+          color: #495057 !important;
+          background-color: #dee2e6 !important;
+          border-color: var(--global-theme-color) !important;
         }
         
         .tag {
@@ -1082,17 +1091,23 @@ h2.category {
           
           .badge, .tag {
             cursor: pointer;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
           }
           
-          // Override Bootstrap badge-light for filter badges with higher specificity
-          .library-filters .badge.badge-light,
-          .filter-tags .badge.badge-light,
           .badge.badge-light {
             color: #495057 !important;
-            background-color: #f8f9fa !important;
+            background-color: transparent !important;
             border: 1px solid #dee2e6 !important;
             padding: 0.2rem 0.35rem !important;
             font-size: 0.8rem !important;
+          }
+
+          .badge.badge-light:hover,
+          .badge.badge-light:focus,
+          .badge.badge-light:focus-visible {
+            color: #495057 !important;
+            background-color: #dee2e6 !important;
+            border-color: var(--global-theme-color) !important;
           }
         }
         

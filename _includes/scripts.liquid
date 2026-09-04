@@ -181,6 +181,9 @@
 
 <!-- Read More (no-op unless [data-read-more] elements exist) -->
 <script src="{{ '/assets/js/read-more.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% if site.personality.enabled != false %}
+  <script defer src="{{ '/assets/js/personality.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
 
 <!-- Load Common JS -->
 <script src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>

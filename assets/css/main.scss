@@ -11,6 +11,7 @@ $max-content-width: {{ site.max_width }};
   "themes",
   "layout",
   "base",
+  "personality",
   "library-item",
   "read-more",
   "distill",
@@ -315,13 +316,29 @@ $max-content-width: {{ site.max_width }};
   margin-top: 0.5rem;
 }
 
-/* Library bibliography: keep all tag/badge pills transparent in every state */
+.repo-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.repo-card:hover,
+.repo-card:focus-visible {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.repo-fallback {
+  display: block;
+  margin-top: 0.4rem;
+  font-weight: 500;
+}
+
+/* Library bibliography: keep tag pills transparent in rest; type badges fill on hover like tags */
 .publications .item-type-and-roles .badge,
 .publications .item-type-and-roles .badge:link,
 .publications .item-type-and-roles .badge:visited,
-.publications .item-type-and-roles .badge:hover,
 .publications .item-type-and-roles .badge:active,
-.publications .item-type-and-roles .badge:focus,
 .publications .item-type-and-roles .tag,
 .publications .item-type-and-roles .tag:link,
 .publications .item-type-and-roles .tag:visited,
@@ -335,6 +352,29 @@ $max-content-width: {{ site.max_width }};
 .publications .all-tags .tag:active,
 .publications .all-tags .tag:focus {
   background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.publications .item-type-and-roles .badge,
+.publications .item-type-and-roles .tag,
+.library-filters .filter-tags .badge,
+.library-filters .filter-tags .tag {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.publications .item-type-and-roles .badge:hover,
+.publications .item-type-and-roles .badge:focus,
+.publications .item-type-and-roles .badge:focus-visible,
+.library-filters .filter-tags .badge:hover,
+.library-filters .filter-tags .badge:focus,
+.library-filters .filter-tags .badge:focus-visible,
+.publications .item-type-and-roles .tag:hover,
+.publications .item-type-and-roles .tag:focus-visible,
+.library-filters .filter-tags .tag:hover,
+.library-filters .filter-tags .tag:focus-visible {
+  background-color: #dee2e6 !important;
+  border-color: var(--global-theme-color) !important;
+  color: #495057 !important;
   box-shadow: none !important;
 }
 

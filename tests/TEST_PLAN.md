@@ -27,7 +27,8 @@ tests/
 │   ├── test_pdf_processor.py
 │   ├── test_tag_extractor.py
 │   ├── test_text_processor.py
-│   └── test_zip_archive_generator.py
+│   ├── test_zip_archive_generator.py
+│   └── test_personality_pack.py        # Personality CSS/JS contracts (no chip/parallax)
 ├── rendering/                          # Liquid / static HTML contracts (req 100)
 │   └── test_header_actions.py
 ├── fixtures/rendering/                 # Static HTML action/header variants

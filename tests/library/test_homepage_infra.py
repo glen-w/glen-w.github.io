@@ -127,7 +127,18 @@ class TestHomepageChrome:
 
     def test_blog_in_nav_and_overflow_labeled(self):
         assert _front_matter(BLOG).get('nav') is True
-        assert _front_matter(DROPDOWN).get('title') == 'more'
+        dropdown = _front_matter(DROPDOWN)
+        assert dropdown.get('title') == '⦿'
+        children = dropdown.get('children') or []
+        child_titles = [c.get('title') for c in children if isinstance(c, dict)]
+        assert 'code' not in child_titles
+        assert 'services' not in child_titles
+        services = _front_matter(PROJECT_ROOT / '_pages' / 'services.md')
+        code = _front_matter(PROJECT_ROOT / '_pages' / 'repositories.md')
+        assert services.get('nav') is False
+        assert code.get('nav') is True
+        assert code.get('nav_order') < _front_matter(CREATIVE).get('nav_order')
+        assert _front_matter(CREATIVE).get('nav_order') < _front_matter(BLOG).get('nav_order') < dropdown.get('nav_order')
 
     def test_footer_utility_links(self):
         footer = FOOTER.read_text(encoding='utf-8')
@@ -190,6 +201,14 @@ class TestLibraryIndexShell:
         assert 'site.data.library_selected' in src
         assert 'id="libraryApp"' in src
         assert 'aria-live="polite"' in src
+
+    def test_type_badge_hover_matches_tag_fill(self):
+        src = LIBRARY.read_text(encoding='utf-8')
+        main_scss = (PROJECT_ROOT / 'assets' / 'css' / 'main.scss').read_text(encoding='utf-8')
+        assert '.library-filters .filter-tags .badge.badge-light:hover' in src
+        assert 'border-color: var(--global-theme-color)' in src
+        assert '.publications .item-type-and-roles .badge:hover' in main_scss
+        assert 'border-color: var(--global-theme-color) !important' in main_scss
 
     def test_library_js_jump_retries_and_exact_type_match(self):
         src = (PROJECT_ROOT / 'assets' / 'js' / 'library.js').read_text(encoding='utf-8')

@@ -3,8 +3,8 @@ layout: page
 permalink: /code/
 title: code
 description:
-nav: false
-nav_order: 65
+nav: true
+nav_order: 35
 ---
 
 {% if site.data.repositories.github_users %}
