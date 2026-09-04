@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-blog",
-          title: "blog",
+        },{id: "nav-code",
+          title: "code",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/code/";
           },
         },{id: "nav-creative",
           title: "creative",
@@ -36,6 +36,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/creative/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -50,13 +57,6 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/failures/";
-              },
-            },{id: "dropdown-code",
-              title: "code",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/code/";
               },
             },{id: "dropdown-jingle",
               title: "jingle",
