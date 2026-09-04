@@ -44,13 +44,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "dropdown-catalogue-of-failures",
-              title: "catalogue of failures",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/failures/";
-              },
             },{id: "dropdown-jingle",
               title: "jingle",
               description: "",
@@ -64,13 +57,6 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/map.html";
-              },
-            },{id: "dropdown-pieces-of-paper",
-              title: "pieces of paper",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://glen.trilium.cc/share/pieces_of_paper";
               },
             },{id: "dropdown-sitemap",
               title: "sitemap",
