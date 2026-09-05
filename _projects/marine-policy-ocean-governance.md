@@ -2,7 +2,7 @@
 title: "Marine Policy & Ocean Governance"
 layout: page
 description: >
-  A graduate seminar exploring the political, legal and institutional frameworks governing the ocean. Students examine global, regional and national approaches to ocean governance, with case studies on biodiversity, fisheries, deep sea mining, marine spatial planning, ocean-climate linkages and emerging debates such as rights of nature and the blue economy.
+  A graduate seminar exploring the political, legal and institutional frameworks governing the ocean.
 img: /assets/img/projects/thumbs/sciencespo.png
 importance: 3
 category: ongoing
