@@ -2510,11 +2510,6 @@ ninja.data = [{
           description: "Fossil Fools Day",
           section: "Library",handler: () => {
               window.location.href = "/library/fossil-fools-day/";
-            },},{id: "library-carbon-offsets-and-consumer-protection",
-          title: 'Carbon Offsets and Consumer Protection',
-          description: "Carbon Offsets and Consumer Protection",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-carbon-offsets-consumer-protection/";
             },},{id: "library-designing-climate-law-a-comparative-analysis-of-the-us-and-eu",
           title: 'Designing Climate Law: A Comparative Analysis of the US and EU',
           description: "As evidence of anthropogenic climate change mounts there is a growing concern with, and a pressing need for, legal regimes to curtail the problem. This concern culminated in the recent climate change conference in Copenhagen.",
@@ -2570,11 +2565,6 @@ ninja.data = [{
           description: "Marine Energy in Australia and New Zealand: Regulatory Barriers and Policy Measures",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-marine-energy-australia-new-zealand-regulatory-barriers-policy-measures/";
-            },},{id: "library-a-tidal-power-project",
-          title: 'A Tidal Power Project',
-          description: "A Tidal Power Project",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-tidal-power-project/";
             },},{id: "library-environmental-law-in-developing-countries-challenges-and-prospects",
           title: 'Environmental Law in Developing Countries: Challenges and Prospects',
           description: "Environmental Law in Developing Countries: Challenges and Prospects",
