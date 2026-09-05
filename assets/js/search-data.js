@@ -4272,7 +4272,7 @@ ninja.data = [{
               window.location.href = "/projects/little_blue_letter/";
             },},{id: "projects-marine-policy-amp-ocean-governance",
           title: 'Marine Policy &amp;amp; Ocean Governance',
-          description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean. Students examine global, regional and national approaches to ocean governance, with case studies on biodiversity, fisheries, deep sea mining, marine spatial planning, ocean-climate linkages and emerging debates such as rights of nature and the blue economy.",
+          description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/marine-policy-ocean-governance/";
             },},{id: "projects-marine-regions-forum",
