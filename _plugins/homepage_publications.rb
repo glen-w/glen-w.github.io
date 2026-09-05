@@ -1,11 +1,8 @@
 # frozen_string_literal: true
 
 require 'bibtex'
-require 'digest'
 
-# Picks homepage publications: N newest selected entries, plus random
-# remaining selected entries up to a max. The random draw is seeded by
-# the build date so a given day is stable across CI runs.
+# Picks homepage publications: the N newest selected entries (by year, month).
 module HomepagePublications
   MONTHS = {
     'jan' => 1, 'january' => 1,
@@ -56,11 +53,8 @@ end
 
 Jekyll::Hooks.register :site, :pre_render do |site|
   config = site.config['homepage_publications'] || {}
-  max = Integer(config['max'] || 8)
-  must_show = Integer(config['must_show'] || 4)
-  max = 8 if max <= 0
-  must_show = 4 if must_show <= 0
-  must_show = max if must_show > max
+  max = Integer(config['max'] || 10)
+  max = 10 if max <= 0
 
   path = HomepagePublications.bib_path(site)
   unless File.exist?(path)
@@ -80,16 +74,7 @@ Jekyll::Hooks.register :site, :pre_render do |site|
   end
   selected.uniq! { |entry| entry.key.to_s }
 
-  newest = selected.take(must_show)
-  remainder = selected.drop(must_show)
-  random_count = [max - must_show, remainder.size].min
-
-  seed = site.time.strftime('%Y-%m-%d')
-  seed_int = Digest::SHA256.hexdigest(seed)[0, 16].to_i(16)
-  rng = Random.new(seed_int)
-  random_picks = remainder.shuffle(random: rng).take(random_count)
-
-  keys = (newest + random_picks).map { |entry| entry.key.to_s }
+  keys = selected.take(max).map { |entry| entry.key.to_s }
   site.data['homepage_publication_keys'] = keys
   site.data['homepage_publication_query'] = HomepagePublications.query_for(keys)
 end

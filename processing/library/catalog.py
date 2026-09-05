@@ -42,7 +42,7 @@ class CatalogGenerator:
         self.bib_parser = BibParser()
         self.content_generator = ContentGenerator()
         self.tag_extractor = TagExtractor()
-        self._library_index: Optional[Dict[str, Dict[str, Any]]] = None
+        self._library_index: Optional[Dict[str, List[Dict[str, Any]]]] = None
 
     def generate(
         self,
@@ -169,7 +169,7 @@ class CatalogGenerator:
         if flags:
             item["flags"] = flags
 
-        info = self._info_url(entry_id)
+        info = self._info_url(entry_id, title)
         if info:
             item["info"] = info
 
@@ -317,7 +317,7 @@ class CatalogGenerator:
         if library_index:
             pdf_mismatches = []
             for item in items:
-                page = library_index.get(item["id"])
+                page = self._resolve_library_page(item["id"], item.get("title") or "")
                 if not page:
                     continue
                 catalog_pdf = os.path.basename(item.get("pdf") or "")
@@ -378,14 +378,15 @@ class CatalogGenerator:
         print(f"  {details_path}")
         print(f"  {selected_path}")
 
-    def _get_library_index(self) -> Dict[str, Dict[str, Any]]:
+    def _get_library_index(self) -> Dict[str, List[Dict[str, Any]]]:
+        """Map bibtex_key → list of library pages (collisions keep every page)."""
         if self._library_index is not None:
             return self._library_index
-        index: Dict[str, Dict[str, Any]] = {}
+        index: Dict[str, List[Dict[str, Any]]] = {}
         if not os.path.isdir(self.library_dir):
             self._library_index = index
             return index
-        for name in os.listdir(self.library_dir):
+        for name in sorted(os.listdir(self.library_dir)):
             if not name.endswith(".md"):
                 continue
             path = os.path.join(self.library_dir, name)
@@ -413,18 +414,59 @@ class CatalogGenerator:
             else:
                 slug = self.jekyll_page_slug(name[:-3])
                 info = f"/library/{slug}/"
-            index[key] = {
+            page = {
                 "slug": slug,
                 "info": info,
                 "preview": data.get("preview"),
                 "pdf": data.get("pdf"),
                 "title": data.get("title"),
+                "file": name,
             }
+            index.setdefault(key, []).append(page)
         self._library_index = index
         return index
 
-    def _info_url(self, entry_id: str) -> Optional[str]:
-        page = self._get_library_index().get(entry_id)
+    @staticmethod
+    def _normalize_title(title: Any) -> str:
+        text = str(title or "")
+        text = re.sub(r"[{}\\]", "", text)
+        text = re.sub(r"\s+", " ", text).strip().lower()
+        # Curly/smart quotes → plain for Hart’s vs Hart's
+        return (
+            text.replace("’", "'")
+            .replace("‘", "'")
+            .replace("“", '"')
+            .replace("”", '"')
+        )
+
+    def _resolve_library_page(
+        self, entry_id: str, title: str = ""
+    ) -> Optional[Dict[str, Any]]:
+        pages = self._get_library_index().get(entry_id) or []
+        if not pages:
+            return None
+        if len(pages) == 1:
+            return pages[0]
+
+        want = self._normalize_title(title)
+        if want:
+            for page in pages:
+                if self._normalize_title(page.get("title")) == want:
+                    return page
+            for page in pages:
+                page_title = self._normalize_title(page.get("title"))
+                if want in page_title or page_title in want:
+                    return page
+
+        print(
+            f"  ⚠️  Ambiguous library pages for {entry_id} "
+            f"({len(pages)} files) — info link may be wrong; "
+            f"fix duplicate bibtex_key or orphan pages"
+        )
+        return pages[0]
+
+    def _info_url(self, entry_id: str, title: str = "") -> Optional[str]:
+        page = self._resolve_library_page(entry_id, title)
         if page:
             return page["info"]
         return None

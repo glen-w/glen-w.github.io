@@ -6,7 +6,7 @@ Helper functions for parsing and processing BibTeX entries.
 
 import re
 from datetime import datetime
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional, Any, Tuple
 
 
 class BibParser:
@@ -15,7 +15,93 @@ class BibParser:
     def __init__(self):
         """Initialize the parser."""
         pass
-    
+
+    @staticmethod
+    def citation_key(entry: Dict[str, Any]) -> str:
+        """Return the citation key from a bibtexparser or pipeline entry dict."""
+        return str(
+            entry.get('ID')
+            or entry.get('citation_key')
+            or entry.get('id')
+            or ''
+        ).strip()
+
+    @staticmethod
+    def normalized_title(entry: Dict[str, Any]) -> str:
+        """Lowercased title for duplicate detection (braces/whitespace ignored)."""
+        fields = entry.get('fields') if isinstance(entry.get('fields'), dict) else entry
+        title = str(fields.get('title') or '')
+        title = re.sub(r'[{}]', '', title)
+        title = re.sub(r'\s+', ' ', title).strip().lower()
+        return title
+
+    @staticmethod
+    def _entry_richness(entry: Dict[str, Any]) -> int:
+        """Count non-empty fields (prefer the more complete duplicate)."""
+        skip = {'ID', 'ENTRYTYPE', 'citation_key', 'content', '_original_content', '_skipped'}
+        fields = entry.get('fields') if isinstance(entry.get('fields'), dict) else entry
+        return sum(
+            1
+            for key, value in fields.items()
+            if key not in skip and str(value or '').strip()
+        )
+
+    @classmethod
+    def dedupe_entries_by_key(
+        cls,
+        entries: List[Dict[str, Any]],
+        *,
+        warn: bool = True,
+    ) -> List[Dict[str, Any]]:
+        """Drop true duplicates (same citation key + same title).
+
+        Zotero exports sometimes paste the same entry twice. Same key with a
+        *different* title is a citation-key collision — keep both and warn so
+        the user can fix the export; do not silently drop a distinct paper.
+        """
+        best_index: Dict[Tuple[str, str], int] = {}
+        dup_counts: Dict[Tuple[str, str], int] = {}
+        key_titles: Dict[str, set] = {}
+        result: List[Dict[str, Any]] = []
+
+        for entry in entries:
+            key = cls.citation_key(entry)
+            title = cls.normalized_title(entry)
+            if not key:
+                result.append(entry)
+                continue
+
+            key_titles.setdefault(key, set()).add(title or f'__empty_{len(result)}')
+            fingerprint = (key, title)
+            dup_counts[fingerprint] = dup_counts.get(fingerprint, 0) + 1
+
+            if fingerprint not in best_index:
+                best_index[fingerprint] = len(result)
+                result.append(entry)
+                continue
+
+            idx = best_index[fingerprint]
+            if cls._entry_richness(entry) > cls._entry_richness(result[idx]):
+                result[idx] = entry
+
+        if warn:
+            for (key, title), count in sorted(dup_counts.items()):
+                if count > 1:
+                    label = title[:60] + ('…' if len(title) > 60 else '')
+                    print(
+                        f"  ⚠️  Duplicate entry {key} ({count} copies"
+                        f"{f', “{label}”' if label else ''}) — keeping one"
+                    )
+            for key, titles in sorted(key_titles.items()):
+                if len(titles) > 1:
+                    print(
+                        f"  ⚠️  Citation key collision {key}: "
+                        f"{len(titles)} different titles — keeping all; "
+                        f"fix keys in Zotero"
+                    )
+
+        return result
+
     def clean_title(self, title: str) -> str:
         """Clean and format a title."""
         if not title:

@@ -283,6 +283,49 @@ class TestBibParserImages:
 
 @pytest.mark.library
 @pytest.mark.unit
+class TestBibParserDedupeByKey:
+    def test_dedupe_keeps_richer_true_duplicate(self, bib_parser, capsys):
+        entries = [
+            {'ID': 'Wright2011', 'title': 'Marine Energy', 'year': '2011'},
+            {
+                'ID': 'Wright2011',
+                'title': 'Marine Energy',
+                'author': 'Wright, Glen',
+                'year': '2011',
+                'booktitle': 'All-Energy Australia',
+                'pdf': 'a.pdf',
+            },
+            {'ID': 'Other', 'title': 'Unique'},
+        ]
+        result = bib_parser.dedupe_entries_by_key(entries)
+        assert [e['ID'] for e in result] == ['Wright2011', 'Other']
+        assert result[0]['pdf'] == 'a.pdf'
+        assert 'Duplicate entry Wright2011' in capsys.readouterr().out
+
+    def test_dedupe_keeps_key_collision_with_different_titles(self, bib_parser, capsys):
+        entries = [
+            {'ID': 'Wright2014', 'title': 'Regulating marine renewable energy'},
+            {'ID': 'Wright2014', 'title': 'The Scores at Half Time'},
+        ]
+        result = bib_parser.dedupe_entries_by_key(entries)
+        assert len(result) == 2
+        out = capsys.readouterr().out
+        assert 'Citation key collision Wright2014' in out
+
+    def test_dedupe_preserves_order_and_skips_empty_keys(self, bib_parser):
+        entries = [
+            {'ID': 'A', 'title': 'First'},
+            {'title': 'No key'},
+            {'ID': 'B', 'title': 'Second'},
+            {'ID': 'A', 'title': 'First'},
+        ]
+        result = bib_parser.dedupe_entries_by_key(entries, warn=False)
+        assert [e.get('ID') for e in result] == ['A', None, 'B']
+        assert result[0]['title'] == 'First'
+
+
+@pytest.mark.library
+@pytest.mark.unit
 class TestBibParserAbstractDescription:
     def test_get_abstract_normalizes_spaces_keeps_newlines(self, bib_parser):
         abstract = bib_parser.get_abstract({

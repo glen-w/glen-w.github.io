@@ -48,6 +48,7 @@ test_report.html
 # Zotero exports (contain local file paths)
 _bibliography/Exported Items.bib
 _bibliography/Exported Items_backup_*.bib
+_bibliography/papers.deduped.bib
 exported items.bib
 
 # Test directory for development maps

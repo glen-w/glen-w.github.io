@@ -81,8 +81,16 @@ class LibraryPageGenerator:
                 parser.customization = safe_convert_to_unicode
                 bib_database = bibtexparser.load(bibtex_file, parser=parser)
             
-            print(f"Loaded {len(bib_database.entries)} entries from {self.bib_file}")
-            return bib_database.entries
+            raw = bib_database.entries
+            entries = self.bib_parser.dedupe_entries_by_key(raw)
+            if len(entries) < len(raw):
+                print(
+                    f"Loaded {len(raw)} entries from {self.bib_file} "
+                    f"({len(raw) - len(entries)} duplicate key(s) dropped)"
+                )
+            else:
+                print(f"Loaded {len(entries)} entries from {self.bib_file}")
+            return entries
             
         except FileNotFoundError:
             print(f"Error: BibTeX file not found: {self.bib_file}")

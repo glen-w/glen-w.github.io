@@ -2932,7 +2932,7 @@
       "venue": "Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies",
       "thumb": "/assets/img/publication_preview/2017_marine_planning_ocean_energy_perspective-480.webp",
       "pdf": "/assets/pdf/2017_consenting_ocean_energy_projects_issues_challenges_opportunities.pdf",
-      "info": "/library/marine-planning-ocean-energy-perspective/"
+      "info": "/library/consenting-ocean-energy-projects-issues-challenges-opportunities/"
     },
     {
       "id": "DixiemeReunionGroupe2017",
@@ -4616,7 +4616,7 @@
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction-480.webp",
       "pdf": "/assets/pdf/glen_wright_2014_regulating_marine_renewable_energy_development_preliminary_assessment_uk_permitting_processes.pdf",
       "doi": "https://doi.org/10.3723/ut.32.000",
-      "info": "/library/glen-wright-etal-scores-half-time-update-international-discussions-governance-marine-biodiversity-areas-beyond-national-jurisdiction/"
+      "info": "/library/glen-wright-regulating-marine-renewable-energy-development-preliminary-assessment-uk-permitting-processes/"
     },
     {
       "id": "ren21Renewables2014Global2014",
@@ -5291,7 +5291,7 @@
       "venue": "EcoGeneration",
       "thumb": "/assets/img/publication_preview/glen_wright_2012_recent_global_developments_marine_renewable_energy-480.webp",
       "url": "http://ecogeneration.com.au/news/recent_global_developments_in_marine_renewable_energy/078276/",
-      "info": "/library/glen-wright-ngos-western-hegemony-causes-concern-ideas-change/"
+      "info": "/library/glen-wright-recent-global-developments-marine-renewable-energy/"
     },
     {
       "id": "wrightRio+20EndRoad2012",
@@ -5697,21 +5697,7 @@
       "venue": "All-Energy Australia",
       "thumb": "/assets/img/publication_preview/glen_wright_2011_marine_energy_australia_new_zealand_regulatory_barriers_policy_measures-480.webp",
       "pdf": "/assets/pdf/glen_wright_2011_marine_energy_australia_new_zealand_regulatory_barriers_policy_measures.pdf",
-      "info": "/library/glen-wright-tidal-power-project/"
-    },
-    {
-      "id": "Wright2011",
-      "title": "Marine Energy in Australia and New Zealand: Regulatory Barriers and Policy Measures",
-      "year": 2011,
-      "type": "Conference",
-      "month": 1,
-      "roles": [
-        "speaker"
-      ],
-      "venue": "All-Energy Australia",
-      "thumb": "/assets/img/publication_preview/glen_wright_2011_marine_energy_australia_new_zealand_regulatory_barriers_policy_measures-480.webp",
-      "pdf": "/assets/pdf/glen_wright_2011_marine_energy_australia_new_zealand_regulatory_barriers_policy_measures.pdf",
-      "info": "/library/glen-wright-tidal-power-project/"
+      "info": "/library/glen-wright-marine-energy-australia-new-zealand-regulatory-barriers-policy-measures/"
     },
     {
       "id": "wrightMarineRenewableEnergy2011",
@@ -5878,23 +5864,7 @@
       "flags": [
         "abs"
       ],
-      "info": "/library/glen-wright-carbon-offsets-consumer-protection/"
-    },
-    {
-      "id": "Wright2010",
-      "title": "Hart’s Concept of Law: Positivist Legal Theory or Sociology?",
-      "year": 2010,
-      "type": "Journal Article",
-      "month": 1,
-      "roles": [
-        "author"
-      ],
-      "thumb": "/assets/img/publication_preview/glen_wright_2010_harts_concept_law_positivist_legal_theory_sociology-480.webp",
-      "pdf": "/assets/pdf/glen_wright_2010_harts_concept_law_positivist_legal_theory_sociology.pdf",
-      "flags": [
-        "abs"
-      ],
-      "info": "/library/glen-wright-carbon-offsets-consumer-protection/"
+      "info": "/library/glen-wright-harts-concept-law-positivist-legal-theory-sociology/"
     },
     {
       "id": "ModelUnitedNations2010",

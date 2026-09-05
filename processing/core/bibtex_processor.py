@@ -140,8 +140,62 @@ class BibTeXProcessor:
                     'fields': fields,
                     'content': block
                 })
-        
-        return entries
+
+        return self._dedupe_true_duplicate_entries(entries)
+
+    def _dedupe_true_duplicate_entries(self, entries: List[Dict]) -> List[Dict]:
+        """Drop same-key + same-title copies; warn on key collisions with different titles."""
+        best_index: Dict[Tuple[str, str], int] = {}
+        dup_counts: Dict[Tuple[str, str], int] = {}
+        key_titles: Dict[str, set] = {}
+        result: List[Dict] = []
+
+        def title_of(entry: Dict) -> str:
+            fields = entry.get('fields') or {}
+            title = str(fields.get('title') or '')
+            title = re.sub(r'[{}]', '', title)
+            return re.sub(r'\s+', ' ', title).strip().lower()
+
+        def richness(entry: Dict) -> int:
+            fields = entry.get('fields') or {}
+            return sum(1 for value in fields.values() if str(value or '').strip())
+
+        for entry in entries:
+            key = str(entry.get('citation_key') or '').strip()
+            title = title_of(entry)
+            if not key:
+                result.append(entry)
+                continue
+
+            key_titles.setdefault(key, set()).add(title or f'__empty_{len(result)}')
+            fingerprint = (key, title)
+            dup_counts[fingerprint] = dup_counts.get(fingerprint, 0) + 1
+
+            if fingerprint not in best_index:
+                best_index[fingerprint] = len(result)
+                result.append(entry)
+                continue
+
+            idx = best_index[fingerprint]
+            if richness(entry) > richness(result[idx]):
+                result[idx] = entry
+
+        for (key, title), count in sorted(dup_counts.items()):
+            if count > 1:
+                label = title[:60] + ('…' if len(title) > 60 else '')
+                print(
+                    f"  ⚠️  Duplicate entry {key} ({count} copies"
+                    f"{f', “{label}”' if label else ''}) — keeping one"
+                )
+        for key, titles in sorted(key_titles.items()):
+            if len(titles) > 1:
+                print(
+                    f"  ⚠️  Citation key collision {key}: "
+                    f"{len(titles)} different titles — keeping all; "
+                    f"fix keys in Zotero"
+                )
+
+        return result
     
     def find_entry_bounds(self, content: str, citation_key: str) -> Tuple[int, int]:
         """Find the start and end positions of a BibTeX entry."""

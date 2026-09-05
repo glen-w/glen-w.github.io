@@ -370,10 +370,9 @@ more_authors_animation_delay: 10 # more authors are revealed on click using anim
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 enable_publication_thumbnails: true
 
-# Homepage featured publications: N newest selected, plus random remainder
+# Homepage featured publications: N newest selected
 homepage_publications:
-  max: 8
-  must_show: 4
+  max: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes

@@ -197,6 +197,46 @@ class TestLoadBibliography:
         assert 'wright2023ocean' in ids
         assert 'webinar2024bbnj' in ids
 
+    def test_load_bibliography_dedupes_duplicate_keys(
+        self, library_project_root, tmp_path
+    ):
+        bib = tmp_path / 'dupes.bib'
+        bib.write_text(
+            """@inproceedings{Wright2011,
+  title = {Marine Energy},
+  year = {2011}
+}
+
+@inproceedings{Wright2011,
+  title = {Marine Energy},
+  year = {2011},
+  pdf = {x.pdf}
+}
+
+@article{Wright2014,
+  title = {Paper One},
+  year = {2014}
+}
+
+@techreport{Wright2014,
+  title = {Paper Two},
+  year = {2014}
+}
+""",
+            encoding='utf-8',
+        )
+        gen = LibraryPageGenerator(
+            bib_file=str(bib),
+            output_dir=str(library_project_root / '_library'),
+            skip_dynamic_filters=True,
+        )
+        entries = gen.load_bibliography()
+        assert len(entries) == 3
+        wright2011 = [e for e in entries if e['ID'] == 'Wright2011']
+        assert len(wright2011) == 1
+        assert wright2011[0].get('pdf') == 'x.pdf'
+        assert sum(1 for e in entries if e['ID'] == 'Wright2014') == 2
+
     def test_load_bibliography_missing_file_exits(
         self, library_project_root
     ):

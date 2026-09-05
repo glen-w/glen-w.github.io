@@ -66,9 +66,29 @@ class TestJekyllPageSlug:
             encoding="utf-8",
         )
         gen = CatalogGenerator(str(tmp_path), library_dir=str(library_dir))
-        page = gen._get_library_index()["ExampleKey"]
+        pages = gen._get_library_index()["ExampleKey"]
+        assert len(pages) == 1
+        page = pages[0]
         assert page["slug"] == "glen-wright-example-title"
         assert page["info"] == "/library/glen-wright-example-title/"
+
+    def test_info_url_matches_title_when_key_collides(self, tmp_path):
+        library_dir = tmp_path / "_library"
+        library_dir.mkdir()
+        (library_dir / "glen_wright_carbon-offsets-consumer-protection.md").write_text(
+            "---\nbibtex_key: Wright2010\ntitle: Carbon Offsets and Consumer Protection\n---\n",
+            encoding="utf-8",
+        )
+        (library_dir / "glen_wright_harts-concept-law.md").write_text(
+            "---\nbibtex_key: Wright2010\ntitle: \"Hart's Concept of Law: Positivist Legal Theory or Sociology?\"\n---\n",
+            encoding="utf-8",
+        )
+        gen = CatalogGenerator(str(tmp_path), library_dir=str(library_dir))
+        info = gen._info_url(
+            "Wright2010",
+            "Hart’s Concept of Law: Positivist Legal Theory or Sociology?",
+        )
+        assert info == "/library/glen-wright-harts-concept-law/"
 
 
 @pytest.mark.library

@@ -4,8 +4,6 @@ Contract tests for homepage / chrome infra (canonical, socials, script gating,
 featured publications). Static file assertions — no Jekyll, no network.
 """
 
-import hashlib
-import random
 import re
 from pathlib import Path
 
@@ -156,35 +154,39 @@ class TestHomepagePublications:
         include = SELECTED.read_text(encoding='utf-8')
         config = yaml.safe_load(CONFIG.read_text(encoding='utf-8'))
         hp = config.get('homepage_publications') or {}
-        assert hp.get('max') == 8
-        assert hp.get('must_show') == 4
+        assert hp.get('max') == 10
+        assert 'must_show' not in hp
         assert 'homepage_bibliography' in include
         assert '/library/' in include
-        assert 'SHA256' in plugin
-        assert 'must_show' in plugin
+        assert 'shuffle' not in plugin
+        assert 'must_show' not in plugin
+        assert 'selected.take(max)' in plugin
+
+    def test_bib_dedupe_plugin_wired(self):
+        dedupe = (PROJECT_ROOT / '_plugins' / 'dedupe_bibliography.rb').read_text(
+            encoding='utf-8'
+        )
+        gitignore = (PROJECT_ROOT / '.gitignore').read_text(encoding='utf-8')
+        assert 'dedupe_content' in dedupe
+        assert 'papers.deduped.bib' in dedupe
+        assert 'duplicate entry' in dedupe
+        assert 'citation key collision' in dedupe
+        assert 'papers.deduped.bib' in gitignore
+
 
     def test_abstracts_use_details(self):
         bib_home = BIB_HOME.read_text(encoding='utf-8')
         assert '<details class="abstract-details">' in bib_home
         assert '<summary>Abstract</summary>' in bib_home
 
-    def test_selected_pool_supports_eight_four_mix(self):
+    def test_selected_pool_supports_ten_newest(self):
         entries = _selected_entries(PAPERS.read_text(encoding='utf-8'))
         unique = {key: year for key, year in entries}
-        assert len(unique) >= 8
-        newest = sorted(unique.items(), key=lambda item: (-item[1], item[0]))[:4]
+        assert len(unique) >= 10
+        newest = sorted(unique.items(), key=lambda item: (-item[1], item[0]))[:10]
         years = [year for _, year in newest]
         assert years[0] >= years[-1]
         assert years[0] >= 2022
-
-    def test_date_seed_is_stable(self):
-        """Same YYYY-MM-DD hex seed always draws the same remainder sample."""
-        remainder = ['a', 'b', 'c', 'd', 'e']
-        seed = '2026-09-04'
-        seed_int = int(hashlib.sha256(seed.encode()).hexdigest()[:16], 16)
-        first = random.Random(seed_int).sample(remainder, k=4)
-        second = random.Random(seed_int).sample(remainder, k=4)
-        assert first == second
 
 
 @pytest.mark.library

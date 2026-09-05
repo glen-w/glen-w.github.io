@@ -88,6 +88,45 @@ class TestBibTeXProcessor:
         assert entries[1]["citation_key"] == "test2023b"
         assert entries[0]["fields"]["title"] == "First Title"
         assert entries[1]["fields"]["title"] == "Second Title"
+
+    def test_parse_bibtex_entries_dedupes_duplicate_keys(self, bibtex_processor, capsys):
+        """Zotero true duplicates (same key + title) collapse; richer wins."""
+        content = """@article{dupKey,
+            title = {Same Title},
+            year = {2011}
+        }
+
+        @inproceedings{dupKey,
+            title = {Same Title},
+            author = {Wright, Glen},
+            year = {2011},
+            booktitle = {All-Energy Australia},
+            pdf = {rich.pdf}
+        }"""
+
+        entries = bibtex_processor.parse_bibtex_entries(content)
+
+        assert len(entries) == 1
+        assert entries[0]["citation_key"] == "dupKey"
+        assert entries[0]["fields"]["pdf"] == "rich.pdf"
+        assert "Duplicate entry dupKey" in capsys.readouterr().out
+
+    def test_parse_bibtex_entries_keeps_key_collisions(self, bibtex_processor, capsys):
+        """Same key, different titles are collisions — keep both and warn."""
+        content = """@article{dupKey,
+            title = {First Paper},
+            year = {2014}
+        }
+
+        @techreport{dupKey,
+            title = {Second Paper},
+            year = {2014}
+        }"""
+
+        entries = bibtex_processor.parse_bibtex_entries(content)
+
+        assert len(entries) == 2
+        assert "Citation key collision dupKey" in capsys.readouterr().out
     
     def test_find_entry_bounds(self, bibtex_processor):
         """Test finding entry bounds in content."""
