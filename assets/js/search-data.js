@@ -4280,6 +4280,11 @@ ninja.data = [{
           description: "Achieving a Healthy Ocean – Regional Ocean Governance Beyond 2020",
           section: "Projects",handler: () => {
               window.location.href = "/projects/marine_regions_forum/";
+            },},{id: "projects-paperful",
+          title: 'paperful',
+          description: "Fill the gaps in your Zotero library.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/paperful/";
             },},{id: "projects-post-employment",
           title: 'Post-employment',
           description: "I want my last job to be my last job",
