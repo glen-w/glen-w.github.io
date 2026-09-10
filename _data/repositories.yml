@@ -1,17 +1,28 @@
 github_repos:
-  - repo: glen-w/glen-w.github.io
-    description: Personal website
-    url: /
-    url_label: Website
-  - repo: glen-w/transcribe
-    description: Local-first handwritten notebook OCR using Ollama vision models
+  - repo: glen-w/Paperful
+    img: /assets/img/projects/thumbs/paperful.png
+    description: Fill the gaps in your Zotero library. Fetch missing PDFs into a folder tree that mirrors your collections, then attach them back.
+    url: https://glenwright.earth/Paperful/
+    url_label: Site
+  - repo: glen-w/BBNJ-CHM-proto
+    description: Prototype Clearing-House Mechanism for the UN Agreement on Marine Biological Diversity of Areas beyond National Jurisdiction (BBNJ)
   - repo: glen-w/TranscriptX
     img: /assets/img/projects/thumbs/transcriptx_logo.png
     description: A local-first transcript analysis toolkit.
-    url: https://glen-w.github.io/TranscriptX/
+    url: https://glenwright.earth/TranscriptX/
+    url_label: Site
+  - repo: glen-w/transcribe
+    description: Local-first handwritten notebook OCR using Ollama vision models
+    url: https://glenwright.earth/transcribe/
     url_label: Site
   - repo: glen-w/rollup
     img: /assets/img/projects/thumbs/rollup.png
     description: Local, read-only tool that reads Thunderbird mbox newsletters and generates weekly Markdown/HTML digests with optional Ollama summarisation.
     url: /projects/rollup/
     url_label: Project page
+  - repo: glen-w/BBNJ
+    description: Scan and notes on open-source projects related to the BBNJ Agreement (High Seas Treaty)
+  - repo: glen-w/glen-w.github.io
+    description: Personal website
+    url: /
+    url_label: Website
