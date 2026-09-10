@@ -1,6 +1,6 @@
 github_repos:
   - repo: glen-w/Paperful
-    img: /assets/img/projects/thumbs/paperful.png
+    img: /assets/img/projects/thumbs/paperful_icon.png
     description: Fill the gaps in your Zotero library. Fetch missing PDFs into a folder tree that mirrors your collections, then attach them back.
     url: https://glenwright.earth/Paperful/
     url_label: Site

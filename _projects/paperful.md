@@ -2,13 +2,13 @@
 layout: page
 title: paperful
 description: Fill the gaps in your Zotero library.
-img: /assets/img/projects/thumbs/paperful.png
+img: /assets/img/projects/thumbs/paperful_icon.png
 importance: 5
 category: ongoing
 ---
 
 <div align="center">
-  <img src="/assets/img/projects/thumbs/paperful.png" alt="paperful logo" width="240"/>
+  <img src="/assets/img/projects/thumbs/paperful_icon.png" alt="paperful logo" width="240"/>
 </div>
 
 **paperful** fills the gaps in your Zotero library. It fetches the PDFs your items are missing, keeps them in a folder tree that mirrors your collections, and attaches them back.
