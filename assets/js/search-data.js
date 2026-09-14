@@ -4257,7 +4257,7 @@ ninja.data = [{
               window.location.href = "/projects/crossword/";
             },},{id: "projects-folk-directory",
           title: 'Folk Directory',
-          description: "A user-maintained listing of UK folk clubs and sessions.",
+          description: "A directory of UK folk clubs, sessions, and festivals.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/folk_directory/";
             },},{id: "projects-hoops",
