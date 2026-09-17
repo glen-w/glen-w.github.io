@@ -195,6 +195,15 @@
   <!-- Removed Pseudocode -->
 {% endif %}
 
+
+{% if site.enable_umami %}
+  <script
+    defer
+    src="{{ site.umami_src }}"
+    data-website-id="{{ site.umami_website_id }}"
+  ></script>
+{% endif %}
+
 {% if site.enable_google_analytics %}
   <!-- Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->

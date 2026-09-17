@@ -73,7 +73,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: G-6G964F5185 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-6G964F5185 # retired 2026-09-17 — history still in GA property for export
+umami_website_id: 591578b7-7945-4429-88b4-c1ea8bf39f9e
+umami_src: https://analytics.glenwright.earth/script.js
 #cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 #pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 #openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -420,7 +422,8 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: true # enables google analytics
+enable_google_analytics: false # disabled 2026-09-17 — Umami instead
+enable_umami: true # self-hosted Umami on analytics.glenwright.earth
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
