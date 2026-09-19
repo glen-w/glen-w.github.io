@@ -3210,6 +3210,11 @@ ninja.data = [{
           description: "Get a crossword published by the New York Times",
           section: "Projects",handler: () => {
               window.location.href = "/projects/crossword/";
+            },},{id: "projects-data-dumps",
+          title: 'data dumps',
+          description: "Ingest your own GDPR and app exports into DuckDB, then explore them locally.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/data_dumps/";
             },},{id: "projects-folk-directory",
           title: 'Folk Directory',
           description: "A directory of UK folk clubs, sessions, and festivals.",
