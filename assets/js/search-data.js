@@ -83,6 +83,281 @@ ninja.data = [{
             window.location.href = "/blog/2025/a-quick-website-update/";
           
         },
+      },{id: "post-this-is-the-last-academic-conference-that-i-will-ever-go-to",
+        
+          title: "This is the last academic conference that I will ever go to",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2018/This-is-the-last-academic-conference-that-I-will-ever-go-to/";
+          
+        },
+      },{id: "post-the-fourth-annual-academics-with-cats-awards-2017-winners",
+        
+          title: "The Fourth Annual Academics with Cats Awards 2017 - Winners!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/The-Fourth-Annual-Academics-with-Cats-Awards-2017-Winners!/";
+          
+        },
+      },{id: "post-13-great-gifts-for-academics",
+        
+          title: "13 Great Gifts for Academics",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/13-Great-Gifts-for-Academics/";
+          
+        },
+      },{id: "post-the-fourth-annual-academics-with-cats-awards",
+        
+          title: "The Fourth Annual Academics with Cats Awards",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/The-Fourth-Annual-Academics-with-Cats-Awards/";
+          
+        },
+      },{id: "post-academia-obscura-book-out-now",
+        
+          title: "Academia Obscura book - out now!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/Academia-Obscura-book-out-now!/";
+          
+        },
+      },{id: "post-404-buffalo-not-found",
+        
+          title: "404 - Buffalo not found",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/404-Buffalo-not-found/";
+          
+        },
+      },{id: "post-52-books-you-might-not-like",
+        
+          title: "52 Books You Might Not Like",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/52-Books-You-Might-Not-Like/";
+          
+        },
+      },{id: "post-oops",
+        
+          title: "Oops!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/Oops!/";
+          
+        },
+      },{id: "post-the-story-behind-a-moving-academic-acknowledgement",
+        
+          title: "The Story Behind a Moving Academic Acknowledgement",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/The-Story-Behind-a-Moving-Academic-Acknowledgement/";
+          
+        },
+      },{id: "post-you-must-be-very-intelligent-the-phd-delusion",
+        
+          title: "You Must Be Very Intelligent - The PhD Delusion",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/You-Must-Be-Very-Intelligent-The-PhD-Delusion/";
+          
+        },
+      },{id: "post-doodling-for-academics",
+        
+          title: "Doodling for Academics",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/Doodling-for-Academics/";
+          
+        },
+      },{id: "post-this-study-is-subject-to-certain-limitations-overly-honest-academic-caveats",
+        
+          title: "This Study is Subject to Certain Limitations: Overly Honest Academic Caveats",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/This-Study-is-Subject-to-Certain-Limitations_-Overly-Honest-Academic-Caveats/";
+          
+        },
+      },{id: "post-these-awesome-science-march-signs-prove-scientists-have-a-sense-of-humour",
+        
+          title: "These Awesome Science March Signs Prove Scientists have a Sense of Humour",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/These-Awesome-Science-March-Signs-Prove-Scientists-have-a-Sense-of-Humour/";
+          
+        },
+      },{id: "post-how-broken-is-academia-and-how-can-we-fix-it",
+        
+          title: "How ‘broken’ is academia, and how can we fix it?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/How-broken-is-academia,-and-how-can-we-fix-it/";
+          
+        },
+      },{id: "post-6-examples-of-whimsical-acronyms-in-scientific-papers-sexwasp",
+        
+          title: "6 Examples of Whimsical Acronyms in Scientific Papers (SEXWASP)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/6-Examples-of-Whimsical-Acronyms-in-Scientific-Papers-(SEXWASP)/";
+          
+        },
+      },{id: "post-the-third-annual-academics-with-cats-awards-2016-winners",
+        
+          title: "The Third Annual Academics with Cats Awards 2016 - Winners!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/The-Third-Annual-Academics-with-Cats-Awards-2016-Winners!/";
+          
+        },
+      },{id: "post-academics-with-cats-awards-2016-the-shortlist",
+        
+          title: "Academics with Cats Awards 2016 - The Shortlist",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/Academics-with-Cats-Awards-2016-The-Shortlist/";
+          
+        },
+      },{id: "post-the-third-annual-academics-with-cats-awards",
+        
+          title: "The Third Annual Academics with Cats Awards!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/The-Third-Annual-Academics-with-Cats-Awards!/";
+          
+        },
+      },{id: "post-on-commonplace-books",
+        
+          title: "On Commonplace Books",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/On-Commonplace-Books/";
+          
+        },
+      },{id: "post-6-phrases-that-should-be-banned",
+        
+          title: "6 Phrases that Should be Banned",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/6-Phrases-that-Should-be-Banned/";
+          
+        },
+      },{id: "post-sample-cover-letter-for-journal-manuscript-resubmissions",
+        
+          title: "Sample Cover Letter for Journal Manuscript Resubmissions",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/Sample-Cover-Letter-for-Journal-Manuscript-Resubmissions/";
+          
+        },
+      },{id: "post-shit-i-learned-during-my-phd",
+        
+          title: "Shit I learned during my PhD",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/Shit-I-learned-during-my-PhD/";
+          
+        },
+      },{id: "post-how-to-science",
+        
+          title: "How to: Science",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/How-to_-Science/";
+          
+        },
+      },{id: "post-25-phd-feels-all-doctoral-students-have",
+        
+          title: "25 PhD Feels All Doctoral Students Have",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/25-PhD-Feels-All-Doctoral-Students-Have/";
+          
+        },
+      },{id: "post-campus-chaos-as-pokemon-go-goes-viral",
+        
+          title: "Campus Chaos as Pokemon Go Goes Viral",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2016/Campus-Chaos-as-Pokemon-Go-Goes-Viral/";
+          
+        },
       },{id: "post-historic-un-talks-could-save-the-high-seas",
         
           title: "Historic UN talks could save the high seas",
@@ -92,6 +367,226 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2016/Historic-UN-talks-could-save-the-high-seas/";
+          
+        },
+      },{id: "post-academics-with-cats-awards-2015-winners",
+        
+          title: "Academics with Cats Awards 2015 - WINNERS!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Academics-with-Cats-Awards-2015-WINNERS!/";
+          
+        },
+      },{id: "post-5-out-of-this-world-star-wars-papers",
+        
+          title: "5 Out of this World Star Wars Papers",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/5-Out-of-this-World-Star-Wars-Papers/";
+          
+        },
+      },{id: "post-11-terrible-video-game-screenshots-that-perfectly-capture-academic-life",
+        
+          title: "11 Terrible Video Game Screenshots that Perfectly Capture Academic Life",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/11-Terrible-Video-Game-Screenshots-that-Perfectly-Capture-Academic-Life/";
+          
+        },
+      },{id: "post-the-second-annual-academics-with-cats-awards",
+        
+          title: "The Second Annual Academics with Cats Awards!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/The-Second-Annual-Academics-with-Cats-Awards!/";
+          
+        },
+      },{id: "post-still-not-significant",
+        
+          title: "Still. Not. Significant.",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Still.-Not.-Significant/";
+          
+        },
+      },{id: "post-a-new-academic-year-begins-bring-on-the-ig-nobels",
+        
+          title: "A New Academic Year Begins... Bring on the Ig Nobels!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/A-New-Academic-Year-Begins/.-Bring-on-the-Ig-Nobels!/";
+          
+        },
+      },{id: "post-12-things-i-learned-about-academia-from-google-suggestions",
+        
+          title: "12 Things I Learned About Academia from Google Suggestions",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/12-Things-I-Learned-About-Academia-from-Google-Suggestions/";
+          
+        },
+      },{id: "post-10-quite-useful-tools-for-academics",
+        
+          title: "10 Quite Useful Tools for Academics",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/10-Quite-Useful-Tools-for-Academics/";
+          
+        },
+      },{id: "post-11-essential-hashtags-for-academics",
+        
+          title: "11 Essential Hashtags for Academics",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/11-Essential-Hashtags-for-Academics/";
+          
+        },
+      },{id: "post-what-phd-life-is-really-like",
+        
+          title: "What PhD Life is Really Like",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/What-PhD-Life-is-Really-Like/";
+          
+        },
+      },{id: "post-the-workaholic-and-academia-in-defense-of-acadowntime",
+        
+          title: "The Workaholic and Academia: in defense of #AcaDowntime",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/The-Workaholic-and-Academia_-in-defense-of-AcaDowntime/";
+          
+        },
+      },{id: "post-the-portrayal-of-academics-in-kids-books-a-chat-with-melissa-terras",
+        
+          title: "The Portrayal of Academics in Kids Books - a chat with Melissa Terras...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/The-Portrayal-of-Academics-in-Kids-Books-a-chat-with-Melissa-Terras/";
+          
+        },
+      },{id: "post-male-mad-and-muddleheaded-the-portrayal-of-academics-in-kids-books",
+        
+          title: "Male, Mad and Muddleheaded! The portrayal of academics in kids books",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Male,-Mad-and-Muddleheaded!-The-portrayal-of-academics-in-kids-books/";
+          
+        },
+      },{id: "post-7-academic-struggles-predicted-by-late-19th-and-early-20th-century-autobiographies",
+        
+          title: "7 Academic Struggles Predicted by Late 19th and Early 20th Century Autobiographies",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/7-Academic-Struggles-Predicted-by-Late-19th-and-Early-20th-Century-Autobiographies/";
+          
+        },
+      },{id: "post-the-blooper-reel",
+        
+          title: "The Blooper Reel",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/The-Blooper-Reel/";
+          
+        },
+      },{id: "post-academia-survival-of-the-bitterest",
+        
+          title: "Academia: Survival of the Bitterest?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Academia_-Survival-of-the-Bitterest/";
+          
+        },
+      },{id: "post-academics-with-beer",
+        
+          title: "Academics with BEER!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Academics-with-BEER!/";
+          
+        },
+      },{id: "post-academic-nursery-rhymes",
+        
+          title: "Academic Nursery Rhymes",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Academic-Nursery-Rhymes/";
+          
+        },
+      },{id: "post-is-this-the-worst-academic-journal-ever",
+        
+          title: "Is This the Worst Academic Journal Ever?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Is-This-the-Worst-Academic-Journal-Ever/";
+          
+        },
+      },{id: "post-medieval-marginalia-reimagined-by-modern-academics",
+        
+          title: "Medieval Marginalia, Reimagined by Modern Academics",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Medieval-Marginalia,-Reimagined-by-Modern-Academics/";
           
         },
       },{id: "post-ocean-energy-key-legal-issues-and-challenges",
@@ -105,6 +600,83 @@ ninja.data = [{
             window.location.href = "/blog/2015/Ocean-Energy_-key-legal-issues-and-challenges/";
           
         },
+      },{id: "post-fun-and-laughter-in-the-lab",
+        
+          title: "Fun and Laughter in the Lab",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Fun-and-Laughter-in-the-Lab/";
+          
+        },
+      },{id: "post-why-does-it-always-rain-on-me-academics-forecast-their-day",
+        
+          title: "Why does it always rain on me? Academics forecast their day",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Why-does-it-always-rain-on-me_-Academics-forecast-their-day/";
+          
+        },
+      },{id: "post-academic-easter-eggs",
+        
+          title: "Academic Easter Eggs",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Academic-Easter-Eggs/";
+          
+        },
+      },{id: "post-cars-on-campus-rooftops-and-r2d2-observatories-6-awesome-college-pranks",
+        
+          title: "Cars on Campus Rooftops and R2D2 Observatories: 6 awesome college pranks",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Cars-on-Campus-Rooftops-and-R2D2-Observatories_-6-awesome-college-pranks/";
+          
+        },
+      },{id: "post-the-phd-path-less-travelled-share-your-story",
+        
+          title: "The PhD Path Less Travelled: share your story!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/The-PhD-Path-Less-Travelled_-share-your-story!/";
+          
+        },
+      },{id: "post-11-things-i-learned-about-academia-by-analysing-14-million-ratemyprofessor-reviews",
+        
+          title: "11 things I learned about academia by analysing 14 million RateMyProfessor reviews ",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/11-things-I-learned-about-academia-by-analysing-14-million-RateMyProfessor-reviews/";
+          
+        },
+      },{id: "post-an-academic-guide-to-love-amp-romance-happy-valentine-39-s-day",
+        
+          title: "An Academic Guide to Love &amp; Romance - Happy Valentine&#39;s Day!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/An-Academic-Guide-to-Love-&amp;-Romance-Happy-Valentine&-039;s-Day!/";
+          
+        },
       },{id: "post-after-almost-10-years-progress-towards-new-agreement-on-high-seas",
         
           title: "After almost 10 years, progress towards new agreement on high seas",
@@ -114,6 +686,479 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/After-almost-10-years,-progress-towards-new-agreement-on-high-seas/";
+          
+        },
+      },{id: "post-academics-with-cats-awards-cats-with-computers",
+        
+          title: "Academics with Cats Awards: Cats with Computers",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Academics-with-Cats-Awards_-Cats-with-Computers/";
+          
+        },
+      },{id: "post-academics-with-cats-awards-the-results-are-in",
+        
+          title: "Academics with Cats Awards: the results are in!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/Academics-with-Cats-Awards_-the-results-are-in!/";
+          
+        },
+      },{id: "post-a-day-in-the-life-of-an-academic-with-cats",
+        
+          title: "A Day in the Life of an Academic (with cats)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/A-Day-in-the-Life-of-an-Academic-(with-cats)/";
+          
+        },
+      },{id: "post-10-brilliantly-banal-books-to-bore-your-bookshelf",
+        
+          title: "10 Brilliantly Banal Books to Bore Your Bookshelf",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/10-Brilliantly-Banal-Books-to-Bore-Your-Bookshelf/";
+          
+        },
+      },{id: "post-merry-christmas-and-an-academic-new-year",
+        
+          title: "Merry Christmas and an Academic New Year",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Merry-Christmas-and-an-Academic-New-Year/";
+          
+        },
+      },{id: "post-what-do-academics-do-explained-with-cats",
+        
+          title: "What do Academics Do? (explained with cats)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/What-do-Academics-Do_-(explained-with-cats)/";
+          
+        },
+      },{id: "post-academic-cats-storify",
+        
+          title: "Academic Cats (storify)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Academic-Cats-(storify)/";
+          
+        },
+      },{id: "post-food-glorious-food",
+        
+          title: "Food, Glorious Food",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Food,-Glorious-Food/";
+          
+        },
+      },{id: "post-the-first-annual-academics-in-hats-awards",
+        
+          title: "The First Annual Academics In Hats Awards",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/The-First-Annual-Academics-In-Hats-Awards/";
+          
+        },
+      },{id: "post-this-post-is-intentionally-left-blank",
+        
+          title: "This Post is Intentionally Left Blank",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/This-Post-is-Intentionally-Left-Blank/";
+          
+        },
+      },{id: "post-toilet-humour",
+        
+          title: "Toilet Humour",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Toilet-Humour/";
+          
+        },
+      },{id: "post-trick-or-treat",
+        
+          title: "Trick or Treat?",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Trick-or-Treat/";
+          
+        },
+      },{id: "post-10-comic-chemicals-presented-by-chemistry-cat",
+        
+          title: "10 Comic Chemicals, presented by Chemistry Cat",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/10-Comic-Chemicals,-presented-by-Chemistry-Cat/";
+          
+        },
+      },{id: "post-i-ll-put-the-kettle-on-the-academic-39-s-guide-to-making-the-perfect-cuppa",
+        
+          title: "I’ll Put the Kettle On: the academic&#39;s guide to making the perfect cuppa...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/I-ll-Put-the-Kettle-On_-the-academic&-039;s-guide-to-making-the-perfect-cuppa/";
+          
+        },
+      },{id: "post-beards-in-academia-part-ii-more-popular-than-ever-beards-and-masculinity-in-history",
+        
+          title: "Beards in Academia, Part II: More Popular than Ever? Beards and Masculinity in...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Beards-in-Academia,-Part-II_-More-Popular-than-Ever_-Beards-and-Masculinity-in-History/";
+          
+        },
+      },{id: "post-proof-that-academia-is-teeming-with-humour-wit-and-general-oddness",
+        
+          title: "Proof that academia is teeming with humour, wit… and general oddness",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Proof-that-academia-is-teeming-with-humour,-wit-and-general-oddness/";
+          
+        },
+      },{id: "post-every-type-of-email-college-faculty-send-to-anyone",
+        
+          title: "Every Type of Email College Faculty Send to Anyone",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Every-Type-of-Email-College-Faculty-Send-to-Anyone/";
+          
+        },
+      },{id: "post-food-glorious-food",
+        
+          title: "Food, Glorious Food!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Food,-Glorious-Food!/";
+          
+        },
+      },{id: "post-beards-in-academia",
+        
+          title: "Beards in Academia",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Beards-in-Academia/";
+          
+        },
+      },{id: "post-top-10-hashtags-for-academics",
+        
+          title: "Top 10 hashtags for academics",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Top-10-hashtags-for-academics/";
+          
+        },
+      },{id: "post-10-offbeat-university-buildings",
+        
+          title: "10 Offbeat University Buildings",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/10-Offbeat-University-Buildings/";
+          
+        },
+      },{id: "post-finish-that-phd-in-12-simple-steps",
+        
+          title: "Finish that PhD in 12 Simple Steps!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Finish-that-PhD-in-12-Simple-Steps!/";
+          
+        },
+      },{id: "post-quirky-university-architecture",
+        
+          title: "Quirky University Architecture",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Quirky-University-Architecture/";
+          
+        },
+      },{id: "post-5-more-ultra-modern-university-buildings",
+        
+          title: "5 More Ultra Modern University Buildings",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/5-More-Ultra-Modern-University-Buildings/";
+          
+        },
+      },{id: "post-5-super-specific-academic-journals",
+        
+          title: "5 Super Specific Academic Journals",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/5-Super-Specific-Academic-Journals/";
+          
+        },
+      },{id: "post-penguins",
+        
+          title: "Penguins",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Penguins/";
+          
+        },
+      },{id: "post-footnotes",
+        
+          title: "Footnotes",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Footnotes/";
+          
+        },
+      },{id: "post-bored-or-high-3-panda-death",
+        
+          title: "Bored or High? #3: Panda death",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Bored-or-High_-3_-Panda-death/";
+          
+        },
+      },{id: "post-top-10-honest-job-ads",
+        
+          title: "Top 10 Honest Job Ads",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Top-10-Honest-Job-Ads/";
+          
+        },
+      },{id: "post-monday-morning-meme-4",
+        
+          title: "Monday Morning Meme (4)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Monday-Morning-Meme-(4)/";
+          
+        },
+      },{id: "post-bored-or-high-4-urinal-dynamics",
+        
+          title: "Bored or High? #4: urinal dynamics",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Bored-or-High_-4_-urinal-dynamics/";
+          
+        },
+      },{id: "post-top-8-alternatesciencemetrics",
+        
+          title: "Top 8 #AlternateScienceMetrics",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Top-8-AlternateScienceMetrics/";
+          
+        },
+      },{id: "post-monday-morning-meme",
+        
+          title: "Monday Morning Meme",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Monday-Morning-Meme/";
+          
+        },
+      },{id: "post-bored-or-high-2-walking-on-water",
+        
+          title: "Bored or High? #2: walking on water",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Bored-or-High_-2_-walking-on-water/";
+          
+        },
+      },{id: "post-bored-or-high-1-string-theory",
+        
+          title: "Bored or High? #1: string theory",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Bored-or-High_-1_-string-theory/";
+          
+        },
+      },{id: "post-monday-morning-meme-3",
+        
+          title: "Monday Morning Meme (3)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Monday-Morning-Meme-(3)/";
+          
+        },
+      },{id: "post-coming-soon",
+        
+          title: "Coming soon!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Coming-soon!/";
+          
+        },
+      },{id: "post-amazing-acknowledgements-in-academic-papers",
+        
+          title: "Amazing Acknowledgements in Academic Papers",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Amazing-Acknowledgements-in-Academic-Papers/";
+          
+        },
+      },{id: "post-co-authoring-now-with-60-more-croquet",
+        
+          title: "Co-authoring: Now with 60% more croquet!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Co-authoring_-Now-with-60-more-croquet!/";
+          
+        },
+      },{id: "post-monday-morning-meme-2",
+        
+          title: "Monday Morning Meme (2)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Monday-Morning-Meme-(2)/";
+          
+        },
+      },{id: "post-who-39-s-a-clever-boy-animals-in-academia",
+        
+          title: "Who&#39;s a clever boy? Animals in academia",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/&quot;Who&-039;s-a-clever-boy_&quot;-Animals-in-academia/";
+          
+        },
+      },{id: "post-the-last-writes-posthumous-publishing",
+        
+          title: "The Last Writes: posthumous publishing",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/The-Last-Writes_-posthumous-publishing/";
+          
+        },
+      },{id: "post-monday-morning-meme-1",
+        
+          title: "Monday Morning Meme (1)",
+        
+        description: "A humorous academic meme about the Monday morning experience in academia",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2014/Monday-Morning-Meme-(1)/";
           
         },
       },{id: "post-an-update-from-the-bbnj-working-group",
