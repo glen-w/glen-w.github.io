@@ -22,6 +22,7 @@ github_repos:
     url_label: Project page
   - repo: glen-w/data_dumps
     name: data dumps
+    img: /assets/img/projects/thumbs/data_dumps.png
     description: Ingest your own GDPR and app exports into DuckDB, then explore them in a local Marimo dashboard. Not a hosted service.
     url: https://glenwright.earth/data_dumps/
     url_label: Site
