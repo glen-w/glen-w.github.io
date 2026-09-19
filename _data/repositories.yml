@@ -20,6 +20,11 @@ github_repos:
     description: Local, read-only tool that reads Thunderbird mbox newsletters and generates weekly Markdown/HTML digests with optional Ollama summarisation.
     url: /projects/rollup/
     url_label: Project page
+  - repo: glen-w/data_dumps
+    name: data dumps
+    description: Ingest your own GDPR and app exports into DuckDB, then explore them in a local Marimo dashboard. Not a hosted service.
+    url: https://glenwright.earth/data_dumps/
+    url_label: Site
   - repo: glen-w/BBNJ
     description: Scan and notes on open-source projects related to the BBNJ Agreement (High Seas Treaty)
   - repo: glen-w/glen-w.github.io
