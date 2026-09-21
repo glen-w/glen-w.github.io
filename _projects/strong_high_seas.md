@@ -5,6 +5,7 @@ description: Strengthening Regional Ocean Governance for Areas Beyond National J
 img: /assets/img/projects/thumbs/strong_high_seas_logo.png
 importance:
 category: archive
+website: https://www.prog-ocean.org/our-work/strong-high-seas/
 ---
 
 <div align="center">
@@ -12,6 +13,10 @@ category: archive
        alt="Logo: Strengthening Regional Ocean Governance for the High Seas (STRONG High Seas)"
        width="200"/>
 </div>
+
+Half the planet is ocean beyond national jurisdiction, governed in pieces, while a new agreement was being negotiated. Regions had a stake and not always a seat.
+
+STRONG High Seas was a five-year attempt to strengthen that regional work, coordinated by IASS, from 2017 to 2022. I worked on it. The project is finished. I still use it as a reference for high seas and regional ocean governance.
 
 ---
 

@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 20
-display_categories: [ongoing, "archive?", aspirations, archive]
+display_categories: [ongoing, aspirations, archive]
 horizontal: false
 ---
 
@@ -14,11 +14,13 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
+  {% unless category == "ongoing" %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
+  {% endunless %}
   {% assign categorized_projects = site.projects | where: "category", category | where_exp: "project", "project.hidden != true" %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% assign sorted_projects = categorized_projects | sort_natural: "title" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -41,7 +43,7 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | where_exp: "project", "project.hidden != true" | sort: "importance" %}
+{% assign sorted_projects = site.projects | where_exp: "project", "project.hidden != true" | sort_natural: "title" %}
 
   <!-- Generate cards for each project -->
 

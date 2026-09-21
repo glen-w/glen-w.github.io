@@ -254,9 +254,36 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.project-card-links {
+  display: flex;
+  gap: 0.85rem;
+  align-items: center;
+
+  a {
+    color: inherit;
+    font-size: 1.15rem;
+    line-height: 1;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.post-header .project-card-links {
+  margin: 0 0 2rem;
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+
+  &.project-pitch {
+    font-size: 1.2rem;
+    line-height: 1.45;
+    margin-bottom: 1rem;
+  }
 
   a {
     color: inherit;
@@ -750,7 +777,28 @@ footer.sticky-bottom {
   }
 
   .card {
+    position: relative;
     overflow: hidden;
+
+    .project-card-link {
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+
+      &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+      }
+    }
+
+    .project-card-links {
+      position: relative;
+      z-index: 2;
+      padding: 0 1.25rem 1rem;
+    }
 
     img {
       width: 100%;

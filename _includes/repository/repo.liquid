@@ -10,13 +10,20 @@
 {% assign repo_page = include.repository.url %}
 {% assign repo_page_label = include.repository.url_label %}
 {% assign repo_parts = repo_full | split: '/' %}
-{% unless repo_name %}
-  {% assign repo_name = repo_parts.last %}
-{% endunless %}
 {% unless repo_page_label %}
   {% assign repo_page_label = "Site" %}
 {% endunless %}
 {% assign repo_github = "https://github.com/" | append: repo_full %}
+{% assign matched_project = site.projects | where: "github", repo_github | first %}
+{% if matched_project.title %}
+  {% assign repo_name = matched_project.title %}
+{% endif %}
+{% unless repo_name %}
+  {% assign repo_name = repo_parts.last %}
+{% endunless %}
+{% if matched_project.description %}
+  {% assign repo_description = matched_project.description %}
+{% endif %}
 {% if repo_page and repo_page != "" %}
   {% unless repo_page contains "://" %}
     {% assign repo_page = repo_page | relative_url %}

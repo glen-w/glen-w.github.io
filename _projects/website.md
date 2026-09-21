@@ -1,6 +1,6 @@
 ---
 layout: page
-title: website
+title: Website
 description: Building an online homespace
 img: /assets/img/projects/thumbs/website.png
 importance: 2

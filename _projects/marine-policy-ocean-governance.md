@@ -71,6 +71,12 @@ _styles: |
     margin-bottom: 1.25rem;
   }
 ---
+Ocean governance is a stack of law, politics, and institutions that students rarely meet as a single story. The interesting work is how global rules land in regions and countries, and who actually sits in those rooms.
+
+This seminar was my way of teaching that stack at Sciences Po: principles, then practice, with people who do the work as guests.
+
+The outline, readings, and running order are below. A student note is at the end.
+
 ## Indicative course outline
 
 ### Introduction & foundations

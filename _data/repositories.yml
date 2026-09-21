@@ -1,38 +1,55 @@
 github_repos:
   - repo: glen-w/Paperful
+    name: Paperful
     img: /assets/img/projects/thumbs/paperful_icon.png
     description: Fill the gaps in your Zotero library. Fetch missing PDFs into a folder tree that mirrors your collections, then attach them back.
     url: https://glenwright.earth/Paperful/
     url_label: Site
   - repo: glen-w/BBNJ-CHM-proto
+    name: BBNJ CHM Prototype
+    img: /assets/img/projects/thumbs/bbnj_chm.png
     description: Prototype Clearing-House Mechanism for the UN Agreement on Marine Biological Diversity of Areas beyond National Jurisdiction (BBNJ)
+    url: /projects/bbnj-chm-proto/
+    url_label: Project page
   - repo: glen-w/TranscriptX
+    name: TranscriptX
     img: /assets/img/projects/thumbs/transcriptx_logo.png
     description: A local-first transcript analysis toolkit.
     url: https://glenwright.earth/TranscriptX/
     url_label: Site
   - repo: glen-w/transcribe
+    name: Transcribe
     description: Local-first handwritten notebook OCR using Ollama vision models
     url: https://glenwright.earth/transcribe/
     url_label: Site
   - repo: glen-w/rollup
+    name: Rollup
     img: /assets/img/projects/thumbs/rollup.png
     description: Local, read-only tool that reads Thunderbird mbox newsletters and generates weekly Markdown/HTML digests with optional Ollama summarisation.
     url: /projects/rollup/
     url_label: Project page
   - repo: glen-w/data_dumps
-    name: data dumps
+    name: Data Dumps
     img: /assets/img/projects/thumbs/data_dumps.png
     description: Ingest your own GDPR and app exports into DuckDB, then explore them in a local Marimo dashboard. Not a hosted service.
     url: https://glenwright.earth/data_dumps/
     url_label: Site
+  - repo: glen-w/IEA-Renweb
+    name: IEA-Renweb
+    img: /assets/img/projects/thumbs/iea_renweb.png
+    description: Tools for turning an IEA World Energy Balances extract into renewable energy statistics. The balances are not included.
+    url: https://glenwright.earth/IEA-Renweb/
+    url_label: Site
   - repo: glen-w/BBNJ
+    name: BBNJ
     description: Scan and notes on open-source projects related to the BBNJ Agreement (High Seas Treaty)
   - repo: glen-w/glen-w.github.io
+    name: Website
     description: Personal website
     url: /
     url_label: Website
   - repo: glen-w/cursor-commands
+    name: Cursor Commands
     description: Reusable Cursor slash commands for backup, tests, and a local pre-release check.
     url: /projects/cursor-commands/
     url_label: Project page

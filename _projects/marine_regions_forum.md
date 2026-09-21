@@ -13,6 +13,10 @@ category: archive
        width="200"/>
 </div>
 
+Global ocean commitments only happen if regions can act, and regions did not have an informal room of their own.
+
+The Marine Regions Forum was that room. I worked on it, including the meeting in Berlin in autumn 2019. The conference report and key messages are in the library.
+
 ---
 
 ## Overview

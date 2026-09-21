@@ -1,12 +1,16 @@
 ---
 layout: page
-title: cursor-commands
+title: Cursor Commands
 description: Reusable Cursor slash commands for backup, tests, and a local pre-release check.
 importance: 3
 category: ongoing
 github: https://github.com/glen-w/cursor-commands
 ---
 
-I kept rewriting the same Cursor prompts in every repo: zip a code backup, run the fast tests, format, and write a local pre-release note. These files are the generic versions. A product keeps its own filled copy under `.cursor/commands/`, gitignored, because that copy names ports, fixtures, and probe paths.
+I kept rewriting the same prompts in every repository: make a code backup, run the fast tests, format, and write a local note before a release. The useful part was the habit, not the wording I invented each time.
 
-Open the repository in Cursor and run `/instantiate` against the product checkout, or copy `commands/*.md` (not the files whose names start with `_`) and replace every `__TOKEN__` from a project card. Skip the Streamlit and Docker commands when the product has neither.
+These are the generic versions, as plain prompts you copy into a product and fill in once. The filled copy stays on that machine, because it names ports, fixtures, and how to probe that product. This repository is the templates, not an application.
+
+A product keeps its own copy. Commands that would tag, push, prune images, or touch another project's port stay off. Docker and interface restarts are there only when the product uses them.
+
+I am using the set across my own checkouts, and keeping the public templates generic enough that a new repository can start from them without inheriting someone else's paths.
