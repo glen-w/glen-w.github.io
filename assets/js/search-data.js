@@ -4250,21 +4250,31 @@ ninja.data = [{
           description: "The hidden silly side of higher education",
           section: "Projects",handler: () => {
               window.location.href = "/projects/academia_obscura/";
+            },},{id: "projects-bbnj-chm-prototype",
+          title: 'BBNJ CHM Prototype',
+          description: "A working desk for the BBNJ Clearing-House Mechanism — submit, review, publish, notify, audit.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bbnj-chm-proto/";
             },},{id: "projects-crossword",
-          title: 'crossword',
+          title: 'Crossword',
           description: "Get a crossword published by the New York Times",
           section: "Projects",handler: () => {
               window.location.href = "/projects/crossword/";
             },},{id: "projects-cursor-commands",
-          title: 'cursor-commands',
+          title: 'Cursor Commands',
           description: "Reusable Cursor slash commands for backup, tests, and a local pre-release check.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cursor-commands/";
             },},{id: "projects-data-dumps",
-          title: 'data dumps',
+          title: 'Data Dumps',
           description: "Ingest your own GDPR and app exports into DuckDB, then explore them locally.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/data_dumps/";
+            },},{id: "projects-dossier",
+          title: 'Dossier',
+          description: "Local-first evidence locker and ask-the-corpus RAG for professional work.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dossier/";
             },},{id: "projects-folk-directory",
           title: 'Folk Directory',
           description: "A directory of UK folk clubs, sessions, and festivals.",
@@ -4275,6 +4285,11 @@ ninja.data = [{
           description: "An Uncommon Field Guide to the Game of Basketball",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hoops/";
+            },},{id: "projects-iea-renweb",
+          title: 'IEA-Renweb',
+          description: "Turn an IEA World Energy Balances extract into renewable energy statistics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/iea-renweb/";
             },},{id: "projects-little-blue-letter",
           title: 'Little Blue Letter',
           description: "A splash of uplifting ocean stuff, lovingly curated by young ocean leaders",
@@ -4291,12 +4306,12 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/marine_regions_forum/";
             },},{id: "projects-paperful",
-          title: 'paperful',
+          title: 'Paperful',
           description: "Fill the gaps in your Zotero library.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/paperful/";
             },},{id: "projects-post-employment",
-          title: 'Post-employment',
+          title: 'Post-Employment',
           description: "I want my last job to be my last job",
           section: "Projects",handler: () => {
               window.location.href = "/projects/post_employment/";
@@ -4316,7 +4331,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/renweb/";
             },},{id: "projects-rollup",
-          title: 'rollup',
+          title: 'Rollup',
           description: "Your newsletters, rolled up into one readable weekly briefing.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/rollup/";
@@ -4325,13 +4340,18 @@ ninja.data = [{
           description: "Strengthening Regional Ocean Governance for Areas Beyond National Jurisdiction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/strong_high_seas/";
+            },},{id: "projects-transcribe",
+          title: 'Transcribe',
+          description: "Handwritten notebooks to text you keep, on your machine.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/transcribe/";
             },},{id: "projects-transcriptx",
           title: 'TranscriptX',
           description: "A local-first transcript analysis toolkit",
           section: "Projects",handler: () => {
               window.location.href = "/projects/transcriptx/";
             },},{id: "projects-website",
-          title: 'website',
+          title: 'Website',
           description: "Building an online homespace",
           section: "Projects",handler: () => {
               window.location.href = "/projects/website/";
