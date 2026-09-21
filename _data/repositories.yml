@@ -1,7 +1,4 @@
 github_repos:
-  - repo: glen-w/BBNJ
-    name: BBNJ
-    description: Due-diligence notes and scorecard on open-source projects related to the BBNJ Agreement (High Seas Treaty).
   - repo: glen-w/BBNJ-CHM-proto
     name: BBNJ CHM Prototype
     img: /assets/img/projects/thumbs/bbnj_chm.png
@@ -38,16 +35,17 @@ github_repos:
     description: Read-only Thunderbird mbox to a weekly Markdown/HTML newsletter digest on your machine. Optional local summarisation.
     url: /projects/rollup/
     url_label: Project page
+  - repo: glen-w/transcribe
+    name: Transcribe
+    img: /assets/img/projects/thumbs/transcribe_logo.png
+    description: Local handwritten notebook OCR with a vision model. Correct beside the scan; pages stay on the machine.
+    url: https://glenwright.earth/transcribe/
+    url_label: Site
   - repo: glen-w/TranscriptX
     name: TranscriptX
     img: /assets/img/projects/thumbs/transcriptx_logo.png
     description: Local-first analysis of existing transcripts — speakers, themes, tension. Does not transcribe audio.
     url: https://glenwright.earth/TranscriptX/
-    url_label: Site
-  - repo: glen-w/transcribe
-    name: Transcribe
-    description: Local handwritten notebook OCR with a vision model. Correct beside the scan; pages stay on the machine.
-    url: https://glenwright.earth/transcribe/
     url_label: Site
   - repo: glen-w/glen-w.github.io
     name: Website

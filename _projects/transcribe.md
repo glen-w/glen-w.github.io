@@ -2,12 +2,17 @@
 layout: page
 title: Transcribe
 description: Handwritten notebooks to text you keep, on your machine.
+img: /assets/img/projects/thumbs/transcribe_logo.png
 importance: 5
 category: ongoing
 github: https://github.com/glen-w/transcribe
 website: https://glenwright.earth/transcribe/
 docs: https://glenwright.earth/transcribe/guide/user_guide.html
 ---
+
+<div align="center">
+  <img src="/assets/img/projects/thumbs/transcribe_logo.png" alt="Transcribe logo" width="200"/>
+</div>
 
 I have years of notebooks as photographs. Phone OCR is fine for a form. Sending a whole notebook to a cloud service is not how I want to keep a diary.
 
