@@ -1,4 +1,4 @@
-{% if project.github or project.website or project.docs %}
+{% if project.github or project.website or project.docs or project.shop %}
   <div class="project-card-links">
     {% if project.github %}
       <a href="{{ project.github }}" data-toggle="tooltip" title="Code repository" aria-label="Code repository">
@@ -19,6 +19,11 @@
     {% if project.docs %}
       <a href="{{ project.docs }}" data-toggle="tooltip" title="Documentation" aria-label="Documentation">
         <i class="fa-solid fa-book" aria-hidden="true"></i>
+      </a>
+    {% endif %}
+    {% if project.shop %}
+      <a href="{{ project.shop }}" data-toggle="tooltip" title="Buy" aria-label="Buy">
+        <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
       </a>
     {% endif %}
   </div>

@@ -2,9 +2,14 @@
 layout: page
 title: Dossier
 description: Local-first evidence locker and ask-the-corpus RAG for professional work.
+img: /assets/img/projects/thumbs/dossier_logo.png
 importance: 9
 category: ongoing
 ---
+
+<div align="center">
+  <img src="/assets/img/projects/thumbs/dossier_logo.png" alt="Dossier logo" width="200"/>
+</div>
 
 CVs and letters often need work that does not match an old job title. The evidence is on disk — mail, dumps, PDFs — and I cannot reconstruct it from a single document.
 
