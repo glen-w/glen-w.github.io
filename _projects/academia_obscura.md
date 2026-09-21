@@ -3,8 +3,9 @@ layout: page
 title: Academia Obscura
 description: The hidden silly side of higher education
 img: /assets/img/projects/thumbs/academia_obscura_cover.jpg
-importance: 
+importance:
 category: ongoing
+github: https://github.com/glen-w/academia_obscura
 ---
 
 Universities present as tidy. Behind the polished language is a human, often accidental, comedy: hyper-specific doctorates, baffling studies, rituals nobody meant to invent.

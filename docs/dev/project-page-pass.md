@@ -18,7 +18,7 @@ Set `title` in Title Case. That string is the card heading, the project-page hea
 
 Put one sentence in `description`.
 
-That sentence is the card text, the project-page header, and the `/code/` blurb when a repository’s GitHub URL matches `github`. `_includes/repository/repo.liquid` does the match. Repositories with no project page keep the text in `_data/repositories.yml`.
+That sentence is the card text and the project-page header. `/code/` has its own blurbs in `_data/repositories.yml` — see [`code-page-pass.md`](code-page-pass.md). When a repository’s GitHub URL matches `github`, `_includes/repository/repo.liquid` still uses this project’s `title` as the `/code/` heading.
 
 The body does not open by restating the sentence.
 
@@ -57,4 +57,4 @@ On `/projects/`:
 - Each icon opens its own URL.
 - Folk Directory stays on this site when you click the card. The globe leaves.
 
-Open one thin page and one software page. The header pitch matches the card, and the first paragraph does not repeat it. On `/code/`, a repository that has a project page uses that project’s `description`.
+Open one thin page and one software page. The header pitch matches the card, and the first paragraph does not repeat it. On `/code/`, a repository that has a project page uses that project’s `title` for the heading; the blurb comes from `_data/repositories.yml`.

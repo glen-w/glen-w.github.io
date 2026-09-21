@@ -5,6 +5,7 @@ description: A directory of UK folk clubs, sessions, and festivals.
 img: /assets/img/projects/thumbs/folk_directory_logo.png
 importance: 1
 category: ongoing
+github: https://github.com/glen-w/folk-directory
 website: https://folkdirectory.co.uk
 ---
 

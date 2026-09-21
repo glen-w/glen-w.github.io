@@ -1,32 +1,18 @@
 github_repos:
-  - repo: glen-w/Paperful
-    name: Paperful
-    img: /assets/img/projects/thumbs/paperful_icon.png
-    description: Fill the gaps in your Zotero library. Fetch missing PDFs into a folder tree that mirrors your collections, then attach them back.
-    url: https://glenwright.earth/Paperful/
-    url_label: Site
+  - repo: glen-w/BBNJ
+    name: BBNJ
+    description: Due-diligence notes and scorecard on open-source projects related to the BBNJ Agreement (High Seas Treaty).
   - repo: glen-w/BBNJ-CHM-proto
     name: BBNJ CHM Prototype
     img: /assets/img/projects/thumbs/bbnj_chm.png
-    description: Prototype Clearing-House Mechanism for the UN Agreement on Marine Biological Diversity of Areas beyond National Jurisdiction (BBNJ)
+    description: Local prototype of a BBNJ Clearing-House desk — submit, review, publish, notify, audit. Not the official system.
     url: /projects/bbnj-chm-proto/
     url_label: Project page
-  - repo: glen-w/TranscriptX
-    name: TranscriptX
-    img: /assets/img/projects/thumbs/transcriptx_logo.png
-    description: A local-first transcript analysis toolkit.
-    url: https://glenwright.earth/TranscriptX/
-    url_label: Site
-  - repo: glen-w/transcribe
-    name: Transcribe
-    description: Local-first handwritten notebook OCR using Ollama vision models
-    url: https://glenwright.earth/transcribe/
-    url_label: Site
-  - repo: glen-w/rollup
-    name: Rollup
-    img: /assets/img/projects/thumbs/rollup.png
-    description: Local, read-only tool that reads Thunderbird mbox newsletters and generates weekly Markdown/HTML digests with optional Ollama summarisation.
-    url: /projects/rollup/
+  - repo: glen-w/cursor-commands
+    name: Cursor Commands
+    img: /assets/img/projects/thumbs/cursor_commands.png
+    description: Copy-in Cursor slash-command templates for backup, tests, and a local pre-release check. Fill per product; keep filled copies local.
+    url: /projects/cursor-commands/
     url_label: Project page
   - repo: glen-w/data_dumps
     name: Data Dumps
@@ -37,19 +23,35 @@ github_repos:
   - repo: glen-w/IEA-Renweb
     name: IEA-Renweb
     img: /assets/img/projects/thumbs/iea_renweb.png
-    description: Tools for turning an IEA World Energy Balances extract into renewable energy statistics. The balances are not included.
+    description: Library and CLI to turn an IEA World Energy Balances extract into renewable energy statistics. The balances are not included.
     url: https://glenwright.earth/IEA-Renweb/
     url_label: Site
-  - repo: glen-w/BBNJ
-    name: BBNJ
-    description: Scan and notes on open-source projects related to the BBNJ Agreement (High Seas Treaty)
+  - repo: glen-w/Paperful
+    name: Paperful
+    img: /assets/img/projects/thumbs/paperful_icon.png
+    description: Find missing PDFs for a Zotero library on your machine, put them in a collection-shaped folder tree, and attach them back.
+    url: https://glenwright.earth/Paperful/
+    url_label: Site
+  - repo: glen-w/rollup
+    name: Rollup
+    img: /assets/img/projects/thumbs/rollup.png
+    description: Read-only Thunderbird mbox to a weekly Markdown/HTML newsletter digest on your machine. Optional local summarisation.
+    url: /projects/rollup/
+    url_label: Project page
+  - repo: glen-w/TranscriptX
+    name: TranscriptX
+    img: /assets/img/projects/thumbs/transcriptx_logo.png
+    description: Local-first analysis of existing transcripts — speakers, themes, tension. Does not transcribe audio.
+    url: https://glenwright.earth/TranscriptX/
+    url_label: Site
+  - repo: glen-w/transcribe
+    name: Transcribe
+    description: Local handwritten notebook OCR with a vision model. Correct beside the scan; pages stay on the machine.
+    url: https://glenwright.earth/transcribe/
+    url_label: Site
   - repo: glen-w/glen-w.github.io
     name: Website
-    description: Personal website
+    img: /assets/img/projects/thumbs/website.png
+    description: Source for this site — Jekyll (al-folio fork) for glenwright.earth.
     url: /
     url_label: Website
-  - repo: glen-w/cursor-commands
-    name: Cursor Commands
-    description: Reusable Cursor slash commands for backup, tests, and a local pre-release check.
-    url: /projects/cursor-commands/
-    url_label: Project page

@@ -21,9 +21,6 @@
 {% unless repo_name %}
   {% assign repo_name = repo_parts.last %}
 {% endunless %}
-{% if matched_project.description %}
-  {% assign repo_description = matched_project.description %}
-{% endif %}
 {% if repo_page and repo_page != "" %}
   {% unless repo_page contains "://" %}
     {% assign repo_page = repo_page | relative_url %}

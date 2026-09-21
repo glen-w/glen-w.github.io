@@ -5,6 +5,7 @@ description: An Uncommon Field Guide to the Game of Basketball
 img: /assets/img/projects/thumbs/hoops_cover.png
 importance: 4
 category: ongoing
+github: https://github.com/glen-w/hoops
 ---
 
 <div align="center">
