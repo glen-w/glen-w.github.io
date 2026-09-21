@@ -29,6 +29,7 @@ Set these only for real URLs, and only when the URLs differ:
 - `github` — repository
 - `website` — live site or product site
 - `docs` — documentation
+- `shop` — buy link (cart/trolley icon)
 
 Do not set `redirect`. The card goes to the project page. The same icons sit under the pitch on the project page. `_includes/project_card_links.liquid` renders them.
 

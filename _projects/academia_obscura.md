@@ -10,10 +10,12 @@ website: https://academiaobscura.com
 shop: https://www.amazon.com/Academia-Obscura-Hidden-Higher-Education/dp/1783526947
 ---
 
-Universities present as tidy. Behind the polished language is a human, often accidental, comedy: hyper-specific doctorates, baffling studies, rituals nobody meant to invent.
+<div align="center">
+  <img src="/assets/img/projects/thumbs/academia_obscura_cover.jpg" alt="Book cover for Academia Obscura: The Hidden Silly Side of Higher Education" width="240"/>
+</div>
 
-Academia Obscura collects that without sneering at scholarship. It started as a blog and became a book: a love letter to curiosity taken too far.
+If you think the groves of academe are all stuffiness, elbow patches and greying old men… think again. Academia Obscura is an irreverent glimpse inside the ivory tower, exposing the eccentric and slightly unhinged world of university life.
 
-The book came out with Unbound in 2018. You can [find it here](https://www.amazon.com/Academia-Obscura-Hidden-Higher-Education/dp/1783526947). The older posts are still [on this site](https://glenwright.earth/blog/tag/academiaobscura).
+A cabinet of academic curiosities: odd papers, obscure rituals, and the moments where higher education gently collapses under its own weight. Take a trip through the spectrum of academic oddities and unearth the Easter eggs buried in peer reviewed papers, the weird and wonderful world of scholarly social media, and rats in underpants.
 
-The book is out. The habit of noticing the silly side of the serious work has not gone away.
+Born as a blog in 2014, later a book with Unbound, still a love letter to curiosity taken too far. Silly, not stupid.
