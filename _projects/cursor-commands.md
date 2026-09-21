@@ -2,10 +2,15 @@
 layout: page
 title: Cursor Commands
 description: Reusable Cursor slash commands for backup, tests, and a local pre-release check.
+img: /assets/img/projects/thumbs/cursor_commands.png
 importance: 3
 category: ongoing
 github: https://github.com/glen-w/cursor-commands
 ---
+
+<div align="center">
+  <img src="/assets/img/projects/thumbs/cursor_commands.png" alt="Cursor logo" width="160"/>
+</div>
 
 I kept rewriting the same prompts in every repository: make a code backup, run the fast tests, format, and write a local note before a release. The useful part was the habit, not the wording I invented each time.
 
