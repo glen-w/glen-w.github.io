@@ -4,11 +4,11 @@ Repeat this when you add a public repository or refresh `/code/`. The reader is 
 
 ## 1. Inventory
 
-List public repositories under the GitHub user that are natively software: tools, libraries, prototypes, developer templates, or code-facing notes. Skip content sites, book sidecars, and other projects whose home belongs on `/projects/` (e.g. Folk Directory, Hoops, Academia Obscura). For each candidate, note whether it already appears in `_data/repositories.yml`. Skip private repos.
+List public repositories under the GitHub user that are natively software: tools, libraries, prototypes, or developer templates. Skip content sites, book sidecars, note bundles, and other projects whose home belongs on `/projects/` (e.g. Folk Directory, Hoops, Academia Obscura, the BBNJ landscape notes). Keep real prototypes such as BBNJ CHM Prototype. For each candidate, note whether it already appears in `_data/repositories.yml`. Skip private repos.
 
 ## 2. Entry
 
-Add or update the entry in `_data/repositories.yml`. Keep the file roughly alphabetical by `name` so the data stays readable; Liquid also sorts by `name` on the page.
+Add or update the entry in `_data/repositories.yml`. Keep the file in ascending alphabetical order by `name`. Liquid also sorts ascending by `name` on the page (`sort_natural`).
 
 Required:
 
@@ -18,7 +18,7 @@ Required:
 
 Optional, only for real URLs and assets:
 
-- `img` — thumb under `assets/img/projects/thumbs/`
+- `img` — thumb under `assets/img/projects/thumbs/`, copied from the product repo’s own logo (e.g. `assets/logo.png`, `website/images/logo.png`). Do not invent a mark that does not live in that repository.
 - `url` — live site, docs, or project page
 - `url_label` — `Site`, `Docs`, `Project page`, or `Website`
 
