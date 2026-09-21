@@ -32,3 +32,7 @@ github_repos:
     description: Personal website
     url: /
     url_label: Website
+  - repo: glen-w/cursor-commands
+    description: Reusable Cursor slash commands for backup, tests, and a local pre-release check.
+    url: /projects/cursor-commands/
+    url_label: Project page
