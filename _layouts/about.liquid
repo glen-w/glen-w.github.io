@@ -16,9 +16,7 @@ layout: default
           {% endif %}
           {% assign profile_webp = profile_image_path | remove: '.jpg' | remove: '.jpeg' | append: '-800.webp' | relative_url %}
           {% capture sizes %}(min-width: 576px) 160px, 40vw{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Portrait of Glen Wright" url=profile_webp
-          %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Portrait of Glen Wright" url=profile_webp %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -69,98 +67,98 @@ layout: default
 
 <!-- Selected Publications Styles -->
 <style>
-#selectedPublicationsContainer {
-  margin: 2rem 0;
-}
+  #selectedPublicationsContainer {
+    margin: 2rem 0;
+  }
 
-#selectedPublicationsContainer h2 {
-  font-size: 1.25rem;
-}
+  #selectedPublicationsContainer h2 {
+    font-size: 1.25rem;
+  }
 
-.about-identity {
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
+  .about-identity {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
 
-/* Home page selected publications styling */
-.publications-home ol.bibliography li {
-  margin-bottom: 1.25rem;
-}
+  /* Home page selected publications styling */
+  .publications-home ol.bibliography li {
+    margin-bottom: 1.25rem;
+  }
 
-.publications-home .links a.btn {
-  padding: 0.45rem 0.85rem;
-  min-height: 2.25rem;
-  min-width: 2.25rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
+  .publications-home .links a.btn {
+    padding: 0.45rem 0.85rem;
+    min-height: 2.25rem;
+    min-width: 2.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.publications-home h2.bibliography {
-  display: none;
-}
+  .publications-home h2.bibliography {
+    display: none;
+  }
 
-/* Profile social icons styling */
-.profile-social {
-  margin-top: 1rem;
-  text-align: center;
-}
+  /* Profile social icons styling */
+  .profile-social {
+    margin-top: 1rem;
+    text-align: center;
+  }
 
-.profile-social .contact-icons {
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
+  .profile-social .contact-icons {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
 
-.profile-social .contact-icons a {
-  display: inline-block;
-}
+  .profile-social .contact-icons a {
+    display: inline-block;
+  }
 
-.profile-social .contact-icons a i::before {
-  font-size: 1.5rem;
-}
+  .profile-social .contact-icons a i::before {
+    font-size: 1.5rem;
+  }
 
-.profile-social .contact-icons a img {
-  width: 2rem;
-  height: 2rem;
-  margin-bottom: 0;
-}
+  .profile-social .contact-icons a img {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0;
+  }
 
-.profile-social .contact-icons a svg {
-  width: 2rem;
-  height: 2rem;
-  margin-bottom: 0;
-}
+  .profile-social .contact-icons a svg {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0;
+  }
 
-.profile-social .contact-icons a svg image {
-  width: 2rem;
-  height: 2rem;
-}
+  .profile-social .contact-icons a svg image {
+    width: 2rem;
+    height: 2rem;
+  }
 
-.profile-social .contact-note {
-  margin-top: 0.5rem;
-  font-size: 0.875rem;
-}
+  .profile-social .contact-note {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+  }
 
-.publications-home-cta {
-  margin-top: 0.5rem;
-}
+  .publications-home-cta {
+    margin-top: 0.5rem;
+  }
 
-.publications-home details.abstract-details {
-  margin-top: 0.5rem;
-  font-size: 0.875rem;
-}
+  .publications-home details.abstract-details {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+  }
 
-.publications-home details.abstract-details summary {
-  cursor: pointer;
-  font-weight: 600;
-}
+  .publications-home details.abstract-details summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
 
-.publications-home details.abstract-details[open] {
-  border: 1px dashed var(--global-text-color);
-  padding: 0.75rem 1rem;
-}
+  .publications-home details.abstract-details[open] {
+    border: 1px dashed var(--global-text-color);
+    padding: 0.75rem 1rem;
+  }
 </style>

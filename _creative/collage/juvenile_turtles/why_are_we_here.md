@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/why_are_we_here.jpg
 description:
 category: collage
 importance: 6
-
 ---
 
 {% if page.img %}

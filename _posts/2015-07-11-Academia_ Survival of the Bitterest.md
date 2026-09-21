@@ -7,7 +7,9 @@ tags: ["#AcaDowntime", "dance", "metaphor", "papers", "publishing", "work-life b
 categories: ["Adjuncts (guest posts)", "Surprisingly Helpful"]
 ---
 
-_[![t4_-1069229323](../assets/img/posts/150711_Academia_Survival_of_the_Bitterest_03.jpeg)](../assets/img/posts/150711_Academia_Survival_of_the_Bitterest_02.jpeg)Jan Klimas is a scientist, artist, thinker and writer who's interested in communicating with the public and using art to blend boundaries between the two disciplines. Check out his blog, and follow him on twitter [@janklimas](https://twitter.com/janklimas)._
+[![t4_-1069229323](../assets/img/posts/150711_Academia_Survival_of_the_Bitterest_03.jpeg)](../assets/img/posts/150711_Academia_Survival_of_the_Bitterest_02.jpeg)
+
+Jan Klimas is a scientist, artist, thinker and writer who's interested in communicating with the public and using art to blend boundaries between the two disciplines. Check out his blog, and follow him on twitter [@janklimas](https://twitter.com/janklimas).
 
 > In dance, I call it Survival of the Bitterest. The choreographers who stick around are often the ones most comfortable feeling bitter and resentful. My artistic mentors were brilliant artists. But I do not want to live the lives they led.
 

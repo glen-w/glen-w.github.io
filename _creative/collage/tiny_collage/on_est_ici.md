@@ -5,7 +5,6 @@ img: assets/img/collage/tiny_collage/on_est_ici.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

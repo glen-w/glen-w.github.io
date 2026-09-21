@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 {% if page._styles %}
   <style type="text/css">
     {{ page._styles }}
@@ -46,12 +45,20 @@ layout: default
               {% for line in body_lines %}
                 {% assign clean_line = line | strip %}
                 {% if clean_line contains ' • ' %}
-                  {% unless in_list %}<ul>{% assign in_list = true %}{% endunless %}
+                  {% unless in_list %}
+                    <ul>
+                      {% assign in_list = true -%}
+                  {%- endunless %}
                   {% assign bullet_text = clean_line | split: ' • ' | last | strip %}
                   <li>{{ bullet_text }}</li>
                 {% else %}
-                  {% if in_list %}</ul>{% assign in_list = false %}{% endif %}
-                  {% if clean_line != '' %}<p>{{ clean_line }}</p>{% endif %}
+                  {% if in_list %}
+                    </ul>
+                    {% assign in_list = false -%}
+                  {%- endif %}
+                  {% if clean_line != '' %}
+                    <p>{{ clean_line }}</p>
+                  {% endif %}
                 {% endif %}
               {% endfor %}
               {% if in_list %}</ul>{% endif %}
@@ -114,53 +121,53 @@ layout: default
     </div>
 
     <script>
-    (function() {
-      setTimeout(function() {
-        const contentDiv = document.getElementById('markdown-content');
-        if (!contentDiv) return;
+      (function() {
+        setTimeout(function() {
+          const contentDiv = document.getElementById('markdown-content');
+          if (!contentDiv) return;
 
-        // Hide leftover redundant markdown sections if any remain
-        ['Abstract', 'Publication Details', 'Keywords', 'Links and Resources'].forEach(function(sectionName) {
-          const heading = Array.from(contentDiv.querySelectorAll('h2'))
-            .find(h => h.textContent.trim() === sectionName);
-          if (heading) {
-            heading.style.display = 'none';
-            let el = heading.nextElementSibling;
-            while (el && el.tagName !== 'H2') {
-              el.style.display = 'none';
-              el = el.nextElementSibling;
-            }
-          }
-        });
-
-        if (!contentDiv.textContent.trim()) {
-          contentDiv.style.display = 'none';
-        }
-
-        const contentImages = contentDiv.querySelectorAll('img');
-        const contentImageList = [];
-        contentImages.forEach(function(img) {
-          const src = (img.src || '').toLowerCase();
-          if (src.includes('thumbnail')) {
-            img.style.display = 'none';
-            return;
-          }
-          contentImageList.push(img);
-          img.style.cursor = 'pointer';
-          img.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            const galleryImagesList = contentImageList.map(function(galleryImg) {
-              return { src: galleryImg.src, alt: galleryImg.alt || {{ page.title | jsonify }} };
-            });
-            const currentIndex = contentImageList.indexOf(img);
-            if (typeof openImageModal === 'function') {
-              openImageModal(img.src, img.alt || {{ page.title | jsonify }}, galleryImagesList, currentIndex);
+          // Hide leftover redundant markdown sections if any remain
+          ['Abstract', 'Publication Details', 'Keywords', 'Links and Resources'].forEach(function(sectionName) {
+            const heading = Array.from(contentDiv.querySelectorAll('h2'))
+              .find(h => h.textContent.trim() === sectionName);
+            if (heading) {
+              heading.style.display = 'none';
+              let el = heading.nextElementSibling;
+              while (el && el.tagName !== 'H2') {
+                el.style.display = 'none';
+                el = el.nextElementSibling;
+              }
             }
           });
-        });
-      }, 50);
-    })();
+
+          if (!contentDiv.textContent.trim()) {
+            contentDiv.style.display = 'none';
+          }
+
+          const contentImages = contentDiv.querySelectorAll('img');
+          const contentImageList = [];
+          contentImages.forEach(function(img) {
+            const src = (img.src || '').toLowerCase();
+            if (src.includes('thumbnail')) {
+              img.style.display = 'none';
+              return;
+            }
+            contentImageList.push(img);
+            img.style.cursor = 'pointer';
+            img.addEventListener('click', function(e) {
+              e.preventDefault();
+              e.stopPropagation();
+              const galleryImagesList = contentImageList.map(function(galleryImg) {
+                return { src: galleryImg.src, alt: galleryImg.alt || {{ page.title | jsonify }} };
+              });
+              const currentIndex = contentImageList.indexOf(img);
+              if (typeof openImageModal === 'function') {
+                openImageModal(img.src, img.alt || {{ page.title | jsonify }}, galleryImagesList, currentIndex);
+              }
+            });
+          });
+        }, 50);
+      })();
     </script>
 
     {% include library/gallery.liquid %}
@@ -171,8 +178,6 @@ layout: default
   {% endif %}
 
   <div class="library-return-footer">
-    <a href="{{ '/library/' | relative_url }}?action=jump#{{ page.bibtex_key }}">
-      ← Back to library
-    </a>
+    <a href="{{ '/library/' | relative_url }}?action=jump#{{ page.bibtex_key }}"> ← Back to library </a>
   </div>
 </div>

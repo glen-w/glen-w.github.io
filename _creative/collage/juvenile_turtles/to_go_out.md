@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/to_go_out.jpg
 description:
 category: collage
 importance: 22
-
 ---
 
 {% if page.img %}

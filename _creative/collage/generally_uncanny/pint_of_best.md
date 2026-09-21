@@ -5,7 +5,6 @@ img: assets/img/collage/generally_uncanny/pint_of_best.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

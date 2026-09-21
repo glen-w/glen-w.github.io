@@ -18,13 +18,3 @@ nav_order: 60
     {% endfor %}
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-

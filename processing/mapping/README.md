@@ -34,6 +34,7 @@ python3 main.py
 ```
 
 It will automatically:
+
 - Parse `papers.bib` for entries with address data
 - Check cache first to avoid redundant API calls
 - Geocode only new/uncached locations
@@ -44,27 +45,32 @@ It will automatically:
 You can also run the mapping processor standalone:
 
 **Full Mode (all locations):**
+
 ```bash
 cd processing/mapping
 python3 processor.py
 ```
 
 **Test Mode (5 most recent locations):**
+
 ```bash
 python3 processor.py --test
 ```
 
 **Cache-only Mode (only process uncached locations):**
+
 ```bash
 python3 processor.py --cache-only
 ```
 
 **Refresh Mode (force refresh all cached locations):**
+
 ```bash
 python3 processor.py --refresh
 ```
 
 **Custom options:**
+
 ```bash
 python3 processor.py --test --bib-file /path/to/your/papers.bib --output-dir custom_output
 ```
@@ -72,6 +78,7 @@ python3 processor.py --test --bib-file /path/to/your/papers.bib --output-dir cus
 ## Caching
 
 The system now includes intelligent caching that:
+
 - Loads existing geocoded locations from `location_coordinates.json`
 - Only makes API calls for new/uncached locations
 - Merges new results with existing cache
@@ -81,6 +88,7 @@ The system now includes intelligent caching that:
 ### 2. View the Map
 
 Open `assets/mapping/map.html` in a web browser or navigate to `/map.html` on your site. The map will automatically:
+
 - Load location data from `location_coordinates.json`
 - Display pins for each geocoded location with marker clustering
 - Fit the map bounds to show all locations
@@ -121,8 +129,9 @@ The `location_coordinates.json` file contains:
 ## Supported BibTeX Entry Types
 
 The script looks for these entry types with `address` fields:
+
 - `@conference`
-- `@roundtable` 
+- `@roundtable`
 - `@workshop`
 - `@misc` (if it has address data)
 
@@ -159,12 +168,15 @@ Modify the CSS in `map.html` to customize colors, fonts, and layout. The map use
 ## Roadmap
 
 ### Multiple Data Sources
+
 The map is currently structured to support future multiple data sources beyond `papers.bib`. The `loadLocationData()` function can be extended to:
+
 - Merge location data from multiple JSON files
 - Support different data formats that will be normalized during loading
 - Allow filtering by data source
 
 ### Future Enhancements
+
 - **Filtering Capabilities**: Add filtering by year, event type, or country
 - **Optional Popup Toggle**: Add ability to enable/disable popups for detailed information
 - **Export Functionality**: Export map as image or PDF

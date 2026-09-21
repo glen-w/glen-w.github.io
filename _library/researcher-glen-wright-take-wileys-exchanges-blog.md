@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: Researcher Glen Wright to take over Wiley’s Exchanges Blog
-date: '2015-05-01'
+date: "2015-05-01"
 entry_type: Blog
-year: '2015'
+year: "2015"
 bibtex_key: ResearcherGlenWright2015
 is_event: false
 description: Hoboken, NJ - May 7, 2015 - John Wiley & Sons, Inc., is pleased to welcome
@@ -28,18 +28,17 @@ abstract: Hoboken, NJ - May 7, 2015 - John Wiley & Sons, Inc., is pleased to wel
   the creation of academic research. As guest editor, Mr. Wright will lead a discussion
   on the
 categories:
-- other
+  - other
 venue: Wiley
 role: interview
 preview: 2015_researcher_glen_wright_take_wileys_exchanges_blog
 url: https://johnwiley2020news.q4web.com/press-releases/press-release-details/2015/Researcher-Glen-Wright-to-take-over-Wileys-Exchanges-Blog-0f3e3e7e5/default.aspx
 resources:
-- kind: landing
-  title: Visit Wiley publication page
-  label: Visit Wiley publication page
-  url: https://johnwiley2020news.q4web.com/press-releases/press-release-details/2015/Researcher-Glen-Wright-to-take-over-Wileys-Exchanges-Blog-0f3e3e7e5/default.aspx
-  format: Web
-  local: false
-  external: true
+  - kind: landing
+    title: Visit Wiley publication page
+    label: Visit Wiley publication page
+    url: https://johnwiley2020news.q4web.com/press-releases/press-release-details/2015/Researcher-Glen-Wright-to-take-over-Wileys-Exchanges-Blog-0f3e3e7e5/default.aspx
+    format: Web
+    local: false
+    external: true
 ---
-

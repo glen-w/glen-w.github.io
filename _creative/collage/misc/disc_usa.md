@@ -5,7 +5,6 @@ img: assets/img/collage/misc/disc_usa.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

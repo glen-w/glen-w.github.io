@@ -5,7 +5,6 @@ img: assets/img/collage/what_end/what_is_the_point.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

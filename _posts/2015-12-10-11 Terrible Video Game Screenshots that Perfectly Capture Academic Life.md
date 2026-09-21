@@ -37,9 +37,9 @@ categories: ["Academia Obscura"]
 
 ## [![382501](../assets/img/posts/151210_11_Terrible_Video_Game_Screenshots_that_Perfectly__11.jpg)](../assets/img/posts/151210_11_Terrible_Video_Game_Screenshots_that_Perfectly__03.jpg)
 
-## 8. When you see yet another all male panel[
+## 8. When you see yet another all male panel
 
-](../assets/img/posts/151210_11_Terrible_Video_Game_Screenshots_that_Perfectly**03.jpg)[![382503](../assets/img/posts/151210_11_Terrible_Video_Game_Screenshots_that_Perfectly**05.png)](../assets/img/posts/151210_11_Terrible_Video_Game_Screenshots_that_Perfectly\_\_14.png)
+[![382503](../assets/img/posts/151210_11_Terrible_Video_Game_Screenshots_that_Perfectly__05.png)](../assets/img/posts/151210_11_Terrible_Video_Game_Screenshots_that_Perfectly__14.png)
 
 ## 9. Shut up and write sessions
 

@@ -17,7 +17,7 @@ Hashtags are a great way to follow specific discussions, and a number have becom
     - UK/Europe: Wednesday nights, 7.30pm-8.30pm GMT (hosted by Nasima herself)
     - Australia: usually the first Wednesday each month, 7pm-8pm Sydney time (hosted by Inger Mewburn - [@thesiswhisperer](https://twitter.com/thesiswhisperer))
 
-_More: There is a satisfyingly geeky analysis of the #PhDchat community [here](https://www.academia.edu/8100605/_The_Structure_and_Characteristics_of_PhDChat_an_Emergent_Online_Social_Network_)._
+_More: There is a satisfyingly geeky analysis of the #PhDchat community [here](https://www.academia.edu/8100605/_The_Structure_and_Characteristics_of_PhDChat_an_Emergent_Online_Social_Network_).\_
 
 **2. [#ECRchat](https://twitter.com/hashtag/ecrchat)/[#AdjunctChat](https://twitter.com/hashtag/adjunctchat)**
 As above, but specifically for 'Early Career Researchers' (ECR) and adjuncts.

@@ -5,7 +5,6 @@ img: assets/img/collage/individuals_suffer/individuals_suffer.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

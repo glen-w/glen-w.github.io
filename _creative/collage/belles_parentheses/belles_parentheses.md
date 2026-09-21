@@ -5,7 +5,6 @@ img: assets/img/collage/belles_parentheses/belles_parentheses.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

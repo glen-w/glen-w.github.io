@@ -5,8 +5,6 @@ img: assets/img/collage/juvenile_turtles/attempting_to_survive.jpg
 description:
 category: collage
 importance: 23
-
-
 ---
 
 {% if page.img %}

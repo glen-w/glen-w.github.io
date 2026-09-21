@@ -1,11 +1,13 @@
 # Book CSV to Markdown Generator - Final Implementation Plan
 
 ## Overview
+
 Generate book markdown files from CSV spreadsheet (`_books/books.csv`) with Open Library API integration for ISBNs, covers, genres, and publication year. Update book layouts to support all CSV statuses including the new "half-read" status.
 
 ## CSV Structure
 
 The CSV has exactly 4 columns (in order):
+
 - `title` - Book title
 - `author` - Book author
 - `status` - Reading status (read, reread, paused, abandoned, half-read, queued)
@@ -14,6 +16,7 @@ The CSV has exactly 4 columns (in order):
 ## Status Mapping
 
 CSV Status → Valid Status:
+
 - `read` → `finished`
 - `reread` → `reread`
 - `paused` → `paused`
@@ -27,6 +30,7 @@ CSV Status → Valid Status:
 ### 1. Update Book Layout Files
 
 #### 1.1 Update `_layouts/book-shelf.liquid`
+
 - **File**: `_layouts/book-shelf.liquid`
 - **Line**: 32
 - **Change**: Add `half-read` to valid statuses list
@@ -34,11 +38,13 @@ CSV Status → Valid Status:
 - **To**: `'abandoned,finished,half-read,interested,paused,queued,reading,reread'`
 
 #### 1.2 Update `_sass/_base.scss`
+
 - **File**: `_sass/_base.scss`
 - **Location**: After line 1748 (after `figcaption.reread` style)
 - **Add**: CSS styling for `figcaption.half-read` status
 - **Color**: `#f0ad4e` (amber) to indicate partial completion
 - **Code**:
+
 ```scss
 figcaption.half-read {
   font-family: monospace;
@@ -51,6 +57,7 @@ figcaption.half-read {
 ### 2. Create Book Processing Script
 
 #### 2.1 Create `processing/books/__init__.py`
+
 - Empty file to make `books` a Python package
 
 #### 2.2 Create `processing/books/generate_books.py`
@@ -58,6 +65,7 @@ figcaption.half-read {
 **Script Structure:**
 
 **Imports:**
+
 ```python
 import csv
 import json
@@ -71,6 +79,7 @@ import requests
 ```
 
 **Configuration Constants:**
+
 ```python
 BOOKS_DIR = Path(__file__).parent.parent / "_books"
 CACHE_FILE = Path(__file__).parent.parent / "_books_cache.json"
@@ -106,18 +115,21 @@ STATUS_MAPPING = {'read': 'finished'}
 **Helper Functions:**
 
 - `normalize_status(status)`:
+
   - Map CSV statuses to valid statuses
   - `read` → `finished`
   - `half-read` → `half-read`
   - Others pass through if in VALID_STATUSES, else return `uncategorized`
 
 - `slugify_title(title)`:
+
   - Convert title to filename-friendly slug
   - Remove special characters, replace spaces with hyphens
   - Limit to 100 characters
   - Return lowercase slug
 
 - `generate_book_markdown(book_data, metadata=None)`:
+
   - Generate YAML front matter and markdown content
   - Front matter fields:
     - `layout: book-review`
@@ -140,6 +152,7 @@ STATUS_MAPPING = {'read': 'finished'}
   - Return list of book dictionaries
 
 **Main Function:**
+
 - Argument parser:
   - Required: `spreadsheet` (CSV file path)
   - Optional: `--skip-api` (skip API calls, use only CSV data)
@@ -160,12 +173,14 @@ STATUS_MAPPING = {'read': 'finished'}
 ### 3. Field Mapping
 
 **From CSV to Front Matter:**
+
 - `title` → `title` (quoted string in YAML)
 - `author` → `author`
 - `status` → `status` (normalized: read→finished, half-read→half-read)
 - `rating` → `stars` (decimal number, only if provided and not empty)
 
 **From API to Front Matter:**
+
 - `first_publish_year` → `released`
 - `subject` array → `tags` (YAML array format)
 - `isbn` → `isbn`
@@ -197,14 +212,17 @@ STATUS_MAPPING = {'read': 'finished'}
 ### 6. Files to Create/Modify
 
 **New Files:**
+
 - `processing/books/__init__.py`
 - `processing/books/generate_books.py`
 
 **Modified Files:**
+
 - `_layouts/book-shelf.liquid` (line 32: update statuses list)
 - `_sass/_base.scss` (after line 1748: add half-read CSS)
 
 **Generated Files:**
+
 - `_books/{slugified-title}.md` (one per book from CSV)
 - `_books_cache.json` (API response cache)
 
@@ -243,4 +261,3 @@ python processing/books/generate_books.py _books/books.csv --skip-api
 # Overwrite existing files
 python processing/books/generate_books.py _books/books.csv --force
 ```
-

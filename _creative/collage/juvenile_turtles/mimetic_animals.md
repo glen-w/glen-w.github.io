@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/mimetic_animals.jpg
 description:
 category: collage
 importance: 3
-
 ---
 
 {% if page.img %}

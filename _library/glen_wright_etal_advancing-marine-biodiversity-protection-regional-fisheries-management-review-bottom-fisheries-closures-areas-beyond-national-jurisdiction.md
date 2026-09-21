@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: 'Advancing marine biodiversity protection through regional fisheries management:
-  A review of bottom fisheries closures in areas beyond national jurisdiction'
-date: '2015-01-01'
+title: "Advancing marine biodiversity protection through regional fisheries management:
+  A review of bottom fisheries closures in areas beyond national jurisdiction"
+date: "2015-01-01"
 entry_type: Journal article
-year: '2015'
+year: "2015"
 bibtex_key: Wright2015c
 is_event: false
 description: Fishing is a significant threat to marine biodiversity in areas beyond
@@ -26,40 +26,39 @@ abstract: Fishing is a significant threat to marine biodiversity in areas beyond
   though RFMO/As will need to fully utilise their powers and follow best practice
   before authorising bottom fishing to proceed in ABNJ.
 categories:
-- other
+  - other
 authors:
-- Glen Wright
-- Jeff Ardron
-- Kristina Gjerde
-- Duncan Currie
-- Julien Rochette
+  - Glen Wright
+  - Jeff Ardron
+  - Kristina Gjerde
+  - Duncan Currie
+  - Julien Rochette
 venue: Marine Policy
 role: lead author
 preview: glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction
 pdf: glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction.pdf
 doi: https://doi.org/10.1016/j.marpol.2015.06.030
 zip_archive: glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '3.3'
+zip_file_count: "1"
+zip_file_size_mb: "3.3"
 pages: 134--148
-volume: '61'
+volume: "61"
 resources:
-- kind: pdf
-  title: 'Advancing marine biodiversity protection through regional fisheries management:
-    A review of bottom fisheries closures in areas beyond national jurisdiction'
-  label: View primary document
-  url: /assets/pdf/glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 3.3 MB
+  - kind: pdf
+    title: "Advancing marine biodiversity protection through regional fisheries management:
+      A review of bottom fisheries closures in areas beyond national jurisdiction"
+    label: View primary document
+    url: /assets/pdf/glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: zip
+    title: Download all files
+    label: Download all files
+    url: /assets/zips/glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction_a.zip
+    format: ZIP
+    local: true
+    external: false
+    subtitle: 1 files · 3.3 MB
 ---
-

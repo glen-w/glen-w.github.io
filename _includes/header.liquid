@@ -56,7 +56,9 @@
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    {% if p.title == '⦿' %}aria-label="more"{% endif %}
+                    {% if p.title == '⦿' %}
+                      aria-label="more"
+                    {% endif %}
                   >
                     <span class="nav-label">{{- p.title -}}</span>
                     {% if page.title == p.title or has_active_child %}

@@ -5,7 +5,6 @@ img: assets/img/collage/intense_spaces/we_shall_not_cease.jpg
 description:
 category: collage
 importance: 4
-
 ---
 
 {% if page.img %}

@@ -5,7 +5,6 @@ img: assets/img/collage/pasted_pictures_ii/hillside.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: Oceans as Archives
-date: '2022-07-01'
+date: "2022-07-01"
 entry_type: Conference
-year: '2022'
+year: "2022"
 bibtex_key: OceansArchives05
 is_event: true
 description: The Oceans as Archives conference contributes to the growing field of
@@ -24,18 +24,17 @@ abstract: The Oceans as Archives conference contributes to the growing field of 
   film screenings, poetry readings, performances, visual art, workshops, and conference
   papers.
 categories:
-- other
+  - other
 location: University of Amsterdam
 role: attendee
 preview: 2022_oceans_as_archives
 url: https://www.nica-institute.com/event-conference-oceans-as-archives/
 resources:
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://www.nica-institute.com/event-conference-oceans-as-archives/
-  format: Web
-  local: false
-  external: true
+  - kind: landing
+    title: Visit event website
+    label: Visit event website
+    url: https://www.nica-institute.com/event-conference-oceans-as-archives/
+    format: Web
+    local: false
+    external: true
 ---
-

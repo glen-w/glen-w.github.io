@@ -3,7 +3,24 @@ layout: post
 title: "Trick or Treat?"
 date: 2014-10-31
 description:
-tags: ["AcademiaObscura", "apocolypse", "bats", "Fugu", "garlic", "leeches", "maths", "pigs", "pumpkin", "smells", "spectrometry", "staplers", "vampires", "voodoo", "zomnies"]
+tags:
+  [
+    "AcademiaObscura",
+    "apocolypse",
+    "bats",
+    "Fugu",
+    "garlic",
+    "leeches",
+    "maths",
+    "pigs",
+    "pumpkin",
+    "smells",
+    "spectrometry",
+    "staplers",
+    "vampires",
+    "voodoo",
+    "zomnies",
+  ]
 categories: ["Academic Humour", "Guardian Blog", "Misc."]
 ---
 

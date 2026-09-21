@@ -117,10 +117,7 @@
       "startDate": "2011-01-01",
       "endDate": "2019-01-01",
       "summary": "Doctoral-level research on legal/policy frameworks for marine renewable energy in the UK wave & tidal sector; interviews with industry/regulators; resulted in publications and a book.",
-      "courses": [
-        "Visiting Fellow, International Centre for Island Technology (Orkney)",
-        "University delegation to Rio+20"
-      ]
+      "courses": ["Visiting Fellow, International Centre for Island Technology (Orkney)", "University delegation to Rio+20"]
     },
     {
       "institution": "University of New South Wales",
@@ -208,70 +205,32 @@
     {
       "name": "Data & Analysis",
       "level": "Advanced",
-      "keywords": [
-        "Excel",
-        "Google Sheets (QUERY/AppScript)",
-        "SQL",
-        "ETL",
-        "Data modelling",
-        "Quality assurance"
-      ]
+      "keywords": ["Excel", "Google Sheets (QUERY/AppScript)", "SQL", "ETL", "Data modelling", "Quality assurance"]
     },
     {
       "name": "Visualisation",
       "level": "Advanced",
-      "keywords": [
-        "Flourish",
-        "Tableau",
-        "Interactive dashboards",
-        "Storytelling",
-        "Information design"
-      ]
+      "keywords": ["Flourish", "Tableau", "Interactive dashboards", "Storytelling", "Information design"]
     },
     {
       "name": "Knowledge & Collaboration",
       "level": "Advanced",
-      "keywords": [
-        "Notion",
-        "Slack",
-        "Trello",
-        "Miro",
-        "Zotero",
-        "Mendeley",
-        "Taxonomies",
-        "Documentation"
-      ]
+      "keywords": ["Notion", "Slack", "Trello", "Miro", "Zotero", "Mendeley", "Taxonomies", "Documentation"]
     },
     {
       "name": "Web & Automation",
       "level": "Proficient",
-      "keywords": [
-        "WordPress",
-        "HTML",
-        "CSS",
-        "PHP",
-        "Automation (IFTTT/Zapier/Power Automate)",
-        "AI-assisted coding (Cursor/Claude)"
-      ]
+      "keywords": ["WordPress", "HTML", "CSS", "PHP", "Automation (IFTTT/Zapier/Power Automate)", "AI-assisted coding (Cursor/Claude)"]
     },
     {
       "name": "Programming",
       "level": "Intermediate",
-      "keywords": [
-        "Python (basic)",
-        "JavaScript (basic)"
-      ]
+      "keywords": ["Python (basic)", "JavaScript (basic)"]
     },
     {
       "name": "Communication",
       "level": "Advanced",
-      "keywords": [
-        "Policy briefs",
-        "Reports",
-        "Workshops",
-        "Public speaking",
-        "Media (EN/FR)"
-      ]
+      "keywords": ["Policy briefs", "Reports", "Workshops", "Public speaking", "Media (EN/FR)"]
     }
   ],
   "languages": [
@@ -467,30 +426,15 @@
   "interests": [
     {
       "name": "Energy Policy & Data",
-      "keywords": [
-        "Renewables",
-        "Energy systems",
-        "Data analysis",
-        "Policy research"
-      ]
+      "keywords": ["Renewables", "Energy systems", "Data analysis", "Policy research"]
     },
     {
       "name": "Ocean Governance",
-      "keywords": [
-        "Marine policy",
-        "High seas",
-        "Biodiversity",
-        "Regional cooperation"
-      ]
+      "keywords": ["Marine policy", "High seas", "Biodiversity", "Regional cooperation"]
     },
     {
       "name": "Digital Knowledge Tools",
-      "keywords": [
-        "Open data",
-        "Automation",
-        "Interactive visualisation",
-        "Information design"
-      ]
+      "keywords": ["Open data", "Automation", "Interactive visualisation", "Information design"]
     }
   ],
   "workEthic": [

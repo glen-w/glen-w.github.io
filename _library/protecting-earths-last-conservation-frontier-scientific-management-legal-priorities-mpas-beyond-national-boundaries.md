@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: 'Protecting Earth''s last conservation frontier: scientific, management and
-  legal priorities for MPAs beyond national boundaries'
-date: '2016-01-01'
+title: "Protecting Earth's last conservation frontier: scientific, management and
+  legal priorities for MPAs beyond national boundaries"
+date: "2016-01-01"
 entry_type: Journal article
-year: '2016'
+year: "2016"
 bibtex_key: Gjerde2016
 is_event: false
 description: 1. Marine areas beyond national jurisdiction (ABNJ) comprise most of
@@ -37,58 +37,57 @@ abstract: 1. Marine areas beyond national jurisdiction (ABNJ) comprise most of E
   frontier using currently available mechanisms and powers consistent with international
   law.
 categories:
-- other
+  - other
 authors:
-- Kristina M. Gjerde
-- Lora L. Nordtvedt Reeve
-- Harriet Harden-Davies
-- Jeff Ardron
-- Ryan Dolan
-- Carole Durussel
-- Sylvia Earle
-- Jorge A. Jimenez
-- Peggy Kalas
-- Dan Laffoley
-- Nilufer Oral
-- Richard Page
-- Marta Chantal Ribeiro
-- Julien Rochette
-- Aurelie Spadone
-- Torsten Thiele
-- Hannah L. Thomas
-- Daniel Wagner
-- Robin Warner
-- Aulani Wilhelm
-- Glen Wright
-- Lora L Nordtvedt
-- San Jose
-- Costa Rica
-venue: 'Aquatic Conservation: Marine and Freshwater Ecosystems'
+  - Kristina M. Gjerde
+  - Lora L. Nordtvedt Reeve
+  - Harriet Harden-Davies
+  - Jeff Ardron
+  - Ryan Dolan
+  - Carole Durussel
+  - Sylvia Earle
+  - Jorge A. Jimenez
+  - Peggy Kalas
+  - Dan Laffoley
+  - Nilufer Oral
+  - Richard Page
+  - Marta Chantal Ribeiro
+  - Julien Rochette
+  - Aurelie Spadone
+  - Torsten Thiele
+  - Hannah L. Thomas
+  - Daniel Wagner
+  - Robin Warner
+  - Aulani Wilhelm
+  - Glen Wright
+  - Lora L Nordtvedt
+  - San Jose
+  - Costa Rica
+venue: "Aquatic Conservation: Marine and Freshwater Ecosystems"
 role: co-author
 preview: 2016_protecting_earths_last_conservation_frontier_scientific_management_legal_priorities_mpas_beyond_national_boundaries
 pdf: 2016_protecting_earths_last_conservation_frontier_scientific_management_legal_priorities_mpas_beyond_national_boundaries.pdf
 url: http://doi.wiley.com/10.1002/aqc.2646
 doi: https://doi.org/10.1002/aqc.2646
 pages: 45--60
-volume: '26'
+volume: "26"
 resources:
-- kind: pdf
-  title: 'Protecting Earth''s last conservation frontier: scientific, management and
-    legal priorities for MPAs beyond national boundaries'
-  label: View primary document
-  url: /assets/pdf/2016_protecting_earths_last_conservation_frontier_scientific_management_legal_priorities_mpas_beyond_national_boundaries.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: 'Visit Aquatic Conservation: Marine and Freshwater Ecosystems publication
-    page'
-  label: 'Visit Aquatic Conservation: Marine and Freshwater Ecosystems publication
-    page'
-  url: http://doi.wiley.com/10.1002/aqc.2646
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: "Protecting Earth's last conservation frontier: scientific, management and
+      legal priorities for MPAs beyond national boundaries"
+    label: View primary document
+    url: /assets/pdf/2016_protecting_earths_last_conservation_frontier_scientific_management_legal_priorities_mpas_beyond_national_boundaries.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: "Visit Aquatic Conservation: Marine and Freshwater Ecosystems publication
+      page"
+    label: "Visit Aquatic Conservation: Marine and Freshwater Ecosystems publication
+      page"
+    url: http://doi.wiley.com/10.1002/aqc.2646
+    format: Web
+    local: false
+    external: true
 ---
-

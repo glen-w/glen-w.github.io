@@ -11,18 +11,18 @@
 {% assign repo_page_label = include.repository.url_label %}
 {% assign repo_parts = repo_full | split: '/' %}
 {% unless repo_page_label %}
-  {% assign repo_page_label = "Site" %}
+  {% assign repo_page_label = 'Site' %}
 {% endunless %}
-{% assign repo_github = "https://github.com/" | append: repo_full %}
-{% assign matched_project = site.projects | where: "github", repo_github | first %}
+{% assign repo_github = 'https://github.com/' | append: repo_full %}
+{% assign matched_project = site.projects | where: 'github', repo_github | first %}
 {% if matched_project.title %}
   {% assign repo_name = matched_project.title %}
 {% endif %}
 {% unless repo_name %}
   {% assign repo_name = repo_parts.last %}
 {% endunless %}
-{% if repo_page and repo_page != "" %}
-  {% unless repo_page contains "://" %}
+{% if repo_page and repo_page != '' %}
+  {% unless repo_page contains '://' %}
     {% assign repo_page = repo_page | relative_url %}
   {% endunless %}
 {% endif %}
@@ -41,7 +41,7 @@
       {% endif %}
       <p class="repo-links">
         <a href="{{ repo_github }}">GitHub</a>
-        {% if repo_page and repo_page != "" %}
+        {% if repo_page and repo_page != '' %}
           <span class="repo-links-sep" aria-hidden="true">·</span>
           <a href="{{ repo_page }}">{{ repo_page_label }}</a>
         {% endif %}

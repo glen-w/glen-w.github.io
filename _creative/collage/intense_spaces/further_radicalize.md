@@ -5,7 +5,6 @@ img: assets/img/collage/intense_spaces/further_radicalize.jpg
 description:
 category: collage
 importance: 6
-
 ---
 
 {% if page.img %}

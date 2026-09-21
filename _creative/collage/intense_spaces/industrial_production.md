@@ -5,7 +5,6 @@ img: assets/img/collage/intense_spaces/industrial_production.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

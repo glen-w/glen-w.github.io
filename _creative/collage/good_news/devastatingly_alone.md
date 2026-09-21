@@ -5,7 +5,6 @@ img: assets/img/collage/good_news/devastatingly_alone.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

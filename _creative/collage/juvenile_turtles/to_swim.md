@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/to_swim.jpg
 description:
 category: collage
 importance: 8
-
 ---
 
 {% if page.img %}

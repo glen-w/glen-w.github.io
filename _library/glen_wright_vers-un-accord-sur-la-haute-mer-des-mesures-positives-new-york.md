@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: 'Vers un accord sur la haute mer : des mesures positives a New York'
-date: '2016-04-01'
+title: "Vers un accord sur la haute mer : des mesures positives a New York"
+date: "2016-04-01"
 entry_type: Blog
-year: '2016'
+year: "2016"
 bibtex_key: wrightVersAccordHaute2016
 is_event: false
 description: Alors que nous sommes a un moment decisif pour l'avenir de l'ocean, plus
@@ -26,29 +26,28 @@ abstract: Alors que nous sommes a un moment decisif pour l'avenir de l'ocean, pl
   mais les progres scientifiques et technologiques realises ouvrent desormais un champ
   de possibilites et representent de nouvelles menaces pour les ecosystemes marins.
 categories:
-- other
+  - other
 authors:
-- Glen Wright
+  - Glen Wright
 venue: IDDRI
 role: author
 preview: glen_wright_2016_vers_un_accord_sur_la_haute_mer_des_mesures_positives_new_york
 pdf: glen_wright_2016_vers_un_accord_sur_la_haute_mer_des_mesures_positives_new_york.pdf
 url: https://www.iddri.org/fr/publications-et-evenements/billet-de-blog/vers-un-accord-sur-la-haute-mer-des-mesures-positives-new
 resources:
-- kind: pdf
-  title: 'Vers un accord sur la haute mer : des mesures positives a New York'
-  label: View primary document
-  url: /assets/pdf/glen_wright_2016_vers_un_accord_sur_la_haute_mer_des_mesures_positives_new_york.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/fr/publications-et-evenements/billet-de-blog/vers-un-accord-sur-la-haute-mer-des-mesures-positives-new
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: "Vers un accord sur la haute mer : des mesures positives a New York"
+    label: View primary document
+    url: /assets/pdf/glen_wright_2016_vers_un_accord_sur_la_haute_mer_des_mesures_positives_new_york.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: Visit IDDRI publication page
+    label: Visit IDDRI publication page
+    url: https://www.iddri.org/fr/publications-et-evenements/billet-de-blog/vers-un-accord-sur-la-haute-mer-des-mesures-positives-new
+    format: Web
+    local: false
+    external: true
 ---
-

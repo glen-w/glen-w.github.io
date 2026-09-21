@@ -13,6 +13,7 @@ Public repositories. Some are local-first tools you run yourself; some are sites
 
 {% if site.data.repositories.github_repos %}
 {% assign sorted_repos = site.data.repositories.github_repos | sort_natural: "name" %}
+
 <div class="repositories">
   {% for repo in sorted_repos %}
     {% include repository/repo.liquid repository=repo %}

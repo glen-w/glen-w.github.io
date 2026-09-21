@@ -5,7 +5,6 @@ img: assets/img/collage/pasted_pictures_i/fight.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

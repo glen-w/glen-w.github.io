@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/tasting_board.jpg
 description:
 category: collage
 importance: 22
-
 ---
 
 {% if page.img %}

@@ -20,14 +20,14 @@ The export is the **only** Zotero touchpoint. Everything after that is local Pyt
 
 ### 1.2 Pipeline stages (`processing/main.py`)
 
-| Stage | Module(s) | Role |
-|-------|-----------|------|
-| Bib ingest + media | `PaperProcessor` → `EntryProcessor` | Copy/merge export → `papers.bib`; clean BibTeX; parse Notes tags; copy PDFs/images/audio from absolute Zotero `file` paths; thumbnails; zip archives |
-| Cleanup | `PostProcessor` | Strip `file` (and optional other fields) from working bib |
-| Validate | `EnhancedValidator` / `SimpleValidator` | Syntax, unrenamed Zotero filenames, path hygiene |
-| Filters | `DynamicFiltersGenerator` | `_data/dynamic_filters.yml` from `[type]` / `[role]` / `[language]` |
-| Library pages | `LibraryPageGenerator` | One markdown page per eligible entry under `_library/` |
-| Mapping | `MappingProcessor` | Locations / map assets from bib |
+| Stage              | Module(s)                               | Role                                                                                                                                                 |
+| ------------------ | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bib ingest + media | `PaperProcessor` → `EntryProcessor`     | Copy/merge export → `papers.bib`; clean BibTeX; parse Notes tags; copy PDFs/images/audio from absolute Zotero `file` paths; thumbnails; zip archives |
+| Cleanup            | `PostProcessor`                         | Strip `file` (and optional other fields) from working bib                                                                                            |
+| Validate           | `EnhancedValidator` / `SimpleValidator` | Syntax, unrenamed Zotero filenames, path hygiene                                                                                                     |
+| Filters            | `DynamicFiltersGenerator`               | `_data/dynamic_filters.yml` from `[type]` / `[role]` / `[language]`                                                                                  |
+| Library pages      | `LibraryPageGenerator`                  | One markdown page per eligible entry under `_library/`                                                                                               |
+| Mapping            | `MappingProcessor`                      | Locations / map assets from bib                                                                                                                      |
 
 Rough size of the hot path: **~8.6k LOC** across `processing/core`, `processing/utils`, and `processing/library` (excluding books/mapping extras).
 
@@ -68,15 +68,15 @@ Enrichment APIs already in use (Crossref / Semantic Scholar via `MetadataFetcher
 
 ### 2.2 Pain points (why automation is attractive)
 
-| Pain | Evidence |
-|------|----------|
-| Manual export is the bottleneck | Operator must open Zotero, export, overwrite `Exported Items.bib`, then run Python |
-| Machine-local absolute paths | `file = {…:/Users/89298/Documents/papers/storage/…}` — broken on another machine/CI without the same Zotero data dir |
-| Dual bib files | Source (`Exported Items.bib`) vs working (`papers.bib`) is easy to confuse; library gen must read working only |
-| cwd-sensitive CLI defaults | `main.py` still defaults to `../_bibliography/...` while `Configuration` uses absolute project-root paths |
-| Duplicate module docstring | `main.py` repeats the same module docstring twice |
-| Dead metadata hook | `_update_entry_metadata` stub means Crossref/S2 path may be unused in the main loop |
-| Complexity concentrated in string BibTeX | Custom parsers + field rewrite (`_update_entry_content`) are fragile vs structured JSON |
+| Pain                                     | Evidence                                                                                                             |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Manual export is the bottleneck          | Operator must open Zotero, export, overwrite `Exported Items.bib`, then run Python                                   |
+| Machine-local absolute paths             | `file = {…:/Users/89298/Documents/papers/storage/…}` — broken on another machine/CI without the same Zotero data dir |
+| Dual bib files                           | Source (`Exported Items.bib`) vs working (`papers.bib`) is easy to confuse; library gen must read working only       |
+| cwd-sensitive CLI defaults               | `main.py` still defaults to `../_bibliography/...` while `Configuration` uses absolute project-root paths            |
+| Duplicate module docstring               | `main.py` repeats the same module docstring twice                                                                    |
+| Dead metadata hook                       | `_update_entry_metadata` stub means Crossref/S2 path may be unused in the main loop                                  |
+| Complexity concentrated in string BibTeX | Custom parsers + field rewrite (`_update_entry_content`) are fragile vs structured JSON                              |
 
 ### 2.3 Architecture diagram (current)
 
@@ -109,12 +109,12 @@ The **replaceable** piece is only the left edge (Zotero → bib+paths). The righ
 
 ### 3.1 Options compared
 
-| Approach | What it automates | Attachment access | Notes / tags | Citation keys | Fit with current code |
-|----------|-------------------|-------------------|--------------|---------------|------------------------|
-| **A. Better BibTeX auto-export** | Watch/write `.bib` on change | Same local `file` paths as today | Same `annote` as today | BBT keys (stable if configured) | **Drop-in** — no Python API code |
-| **B. Zotero 7 local API** (`pyzotero`, `local=True`) | Fetch items/children/versions without manual export | Local filesystem paths (or download via local API) | Child `note` items (HTML) — need adapter → `annote` DSL | Item keys ≠ BibTeX keys unless mapped | **Best API fit** for this repo’s local-path design |
-| **C. Zotero Web API** (`pyzotero` cloud) | Sync from anywhere / CI | `GET …/items/{key}/file` download (needs file storage + quota) | Same note children | Same key issue | Good for CI/remote; worse for linked files / offline |
-| **D. Full rewrite to CSL-JSON / Zotero JSON** | End-to-end structured pipeline | Explicit attachment objects | Structured fields / extra | Own ID scheme | Highest payoff long-term; **large** rewrite of parsers + library gen |
+| Approach                                             | What it automates                                   | Attachment access                                              | Notes / tags                                            | Citation keys                         | Fit with current code                                                |
+| ---------------------------------------------------- | --------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------- | -------------------------------------------------------------------- |
+| **A. Better BibTeX auto-export**                     | Watch/write `.bib` on change                        | Same local `file` paths as today                               | Same `annote` as today                                  | BBT keys (stable if configured)       | **Drop-in** — no Python API code                                     |
+| **B. Zotero 7 local API** (`pyzotero`, `local=True`) | Fetch items/children/versions without manual export | Local filesystem paths (or download via local API)             | Child `note` items (HTML) — need adapter → `annote` DSL | Item keys ≠ BibTeX keys unless mapped | **Best API fit** for this repo’s local-path design                   |
+| **C. Zotero Web API** (`pyzotero` cloud)             | Sync from anywhere / CI                             | `GET …/items/{key}/file` download (needs file storage + quota) | Same note children                                      | Same key issue                        | Good for CI/remote; worse for linked files / offline                 |
+| **D. Full rewrite to CSL-JSON / Zotero JSON**        | End-to-end structured pipeline                      | Explicit attachment objects                                    | Structured fields / extra                               | Own ID scheme                         | Highest payoff long-term; **large** rewrite of parsers + library gen |
 
 ### 3.2 What the Web/Local APIs can provide
 
@@ -174,7 +174,7 @@ SourceAttachment:
 
 Then either:
 
-- **Compatibility mode:** render `file` + `annote` BibTeX and call existing `PaperProcessor.process_papers(source_bibtex_file=…)`, or  
+- **Compatibility mode:** render `file` + `annote` BibTeX and call existing `PaperProcessor.process_papers(source_bibtex_file=…)`, or
 - **Direct mode:** feed merged entry dicts into `_process_entries` / `EntryProcessor` after a thin attachment→path materializer.
 
 Keep validation + library + filters unchanged until the adapter is proven on a `--test` subset.
@@ -183,27 +183,27 @@ Keep validation + library + filters unchanged until the adapter is proven on a `
 
 ## 5. Risks and mitigations
 
-| Risk | Mitigation |
-|------|------------|
+| Risk                                                | Mitigation                                                                                              |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | Citekey drift breaks `_library` / incremental merge | Require BBT citation keys or persist mapping `zoteroKey → citation_key`; golden tests for key stability |
-| Notes HTML vs plain `annote` | Strip tags; round-trip tests with fixtures that include `[type]`/`[role]` |
-| Missing linked files on CI | Document “local only” for full media; CI runs metadata-only or fixture-based tests |
-| Rate limits / storage quota (web) | Prefer local API; cache file md5; incremental `since` |
-| Dual sources (manual export + API) diverging | Single configured source; deprecate manual export once adapter is default |
-| Accidental commit of API keys | Env vars + `.gitignore`; never write keys into `_bibliography` |
+| Notes HTML vs plain `annote`                        | Strip tags; round-trip tests with fixtures that include `[type]`/`[role]`                               |
+| Missing linked files on CI                          | Document “local only” for full media; CI runs metadata-only or fixture-based tests                      |
+| Rate limits / storage quota (web)                   | Prefer local API; cache file md5; incremental `since`                                                   |
+| Dual sources (manual export + API) diverging        | Single configured source; deprecate manual export once adapter is default                               |
+| Accidental commit of API keys                       | Env vars + `.gitignore`; never write keys into `_bibliography`                                          |
 
 ---
 
 ## 6. Suggested implementation phases
 
-| Phase | Deliverable | Effort (order of magnitude) |
-|-------|-------------|------------------------------|
-| 0 | Document current export settings (collection, Notes included, file paths) + BBT auto-export trial | Hours |
-| 1 | `zotero fetch` CLI: local API → `Exported Items.bib` (or temp bib) + smoke `--test` | Small |
-| 2 | Wire `--from-zotero` into `main.py`; store last library version; incremental fetch | Small–medium |
-| 3 | Attachment materializer (download/cache) so paths are not machine-specific | Medium |
-| 4 | Refactor `EntryProcessor` off BibTeX `file` strings onto attachment objects | Medium–large |
-| 5 | Optional Web API profile for remote sync | Medium |
+| Phase | Deliverable                                                                                       | Effort (order of magnitude) |
+| ----- | ------------------------------------------------------------------------------------------------- | --------------------------- |
+| 0     | Document current export settings (collection, Notes included, file paths) + BBT auto-export trial | Hours                       |
+| 1     | `zotero fetch` CLI: local API → `Exported Items.bib` (or temp bib) + smoke `--test`               | Small                       |
+| 2     | Wire `--from-zotero` into `main.py`; store last library version; incremental fetch                | Small–medium                |
+| 3     | Attachment materializer (download/cache) so paths are not machine-specific                        | Medium                      |
+| 4     | Refactor `EntryProcessor` off BibTeX `file` strings onto attachment objects                       | Medium–large                |
+| 5     | Optional Web API profile for remote sync                                                          | Medium                      |
 
 Success criteria for Phase 1–2: byte-comparable or semantically equal `papers.bib` + media for a golden multi-entry fixture vs current manual export path.
 
@@ -231,11 +231,11 @@ The scriptset is **complex for good reasons**: Zotero’s BibTeX export is lossy
 
 ## References (in-repo)
 
-- `processing/main.py` — orchestration  
-- `processing/config.py` — paths, pipeline output fields, Crossref/S2 URLs  
-- `processing/core/paper_processor.py` — export merge + writeback  
-- `processing/core/entry_processor.py` — attachment processing  
-- `processing/core/bibtex_processor.py` — notes + snapshot filter  
-- `processing/core/notes_processor.py`, `tag_extractor.py` — Notes DSL  
-- `processing/ZOTERO_INTEGRATION.md` — operator tag format  
+- `processing/main.py` — orchestration
+- `processing/config.py` — paths, pipeline output fields, Crossref/S2 URLs
+- `processing/core/paper_processor.py` — export merge + writeback
+- `processing/core/entry_processor.py` — attachment processing
+- `processing/core/bibtex_processor.py` — notes + snapshot filter
+- `processing/core/notes_processor.py`, `tag_extractor.py` — Notes DSL
+- `processing/ZOTERO_INTEGRATION.md` — operator tag format
 - `_pages/roadmap.md` — historical “Zotero postprocessing” goals (partially superseded by current pipeline)

@@ -7,7 +7,9 @@ tags: ["children", "digitisation", "kids books", "libraries", "side projects"]
 categories: ["Crazy Research"]
 ---
 
-_[_](../assets/img/posts/150724_Male_Mad_and_Muddleheaded_The_portrayal_of_academi_02.jpg)Melissa Terras is Director of the Centre for Digital Humanities and a Professor of Digital Humanities at University College London (UCL). **She is also an expert on the portrayal of academics in kids’ books, having meticulously analysed over 200 titles. **You can check out the project here, and follow Melissa on twitter [@melissaterras](https://twitter.com/melissaterras). \*_Check out the interview with Melissa here._
+![Melissa Terras](../assets/img/posts/150724_Male_Mad_and_Muddleheaded_The_portrayal_of_academi_02.jpg)
+
+Melissa Terras is Director of the Centre for Digital Humanities and a Professor of Digital Humanities at University College London (UCL). **She is also an expert on the portrayal of academics in kids’ books, having meticulously analysed over 200 titles.** You can check out the project here, and follow Melissa on twitter [@melissaterras](https://twitter.com/melissaterras).
 
 Like many academics, I love books. Like many book-loving parents, I’m keen to share that love with my young children. Two years ago, I chanced upon two different professors in children’s books, in quick succession. Wouldn’t it be a fun project, I thought, to see how academics, and universities, appear in children’s illustrated books? This would function both as an excuse to buy more books (we do live in a golden age of second hand books, cheaply delivered to your front door) and to explain to my kids – now five and a half, and twins of three – what Mummy Actually Does.
 

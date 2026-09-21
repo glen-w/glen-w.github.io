@@ -5,7 +5,6 @@ img: assets/img/collage/snide_remarks/before_it_is_all_over.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

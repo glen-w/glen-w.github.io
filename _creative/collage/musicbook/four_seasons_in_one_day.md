@@ -5,7 +5,6 @@ img: assets/img/collage/musicbook/four_seasons_in_one_day.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

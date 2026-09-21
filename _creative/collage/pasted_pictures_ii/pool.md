@@ -5,7 +5,6 @@ img: assets/img/collage/pasted_pictures_ii/pool.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

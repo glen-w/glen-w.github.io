@@ -5,7 +5,6 @@ img: assets/img/collage/belles_parentheses/ignorance_is_bliss.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

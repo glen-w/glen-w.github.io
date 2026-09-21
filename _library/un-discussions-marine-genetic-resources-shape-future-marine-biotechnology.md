@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: UN discussions on marine genetic resources shape the future of marine biotechnology
-date: '2020-04-01'
+date: "2020-04-01"
 entry_type: Blog
-year: '2020'
+year: "2020"
 bibtex_key: cremersDiscussionsMarineGenetic2020
 is_event: false
 description: The first recorded medicinal use of marine species dates from almost
@@ -18,30 +18,29 @@ abstract: The first recorded medicinal use of marine species dates from almost 3
   are racing to discover the medicines of the future, while States are negotiating
   a cooperative framework.
 categories:
-- other
+  - other
 authors:
-- Klaudija Cremers
-- Glen Wright
+  - Klaudija Cremers
+  - Glen Wright
 venue: IDDRI
 role: co-author
 preview: 2020_un_discussions_marine_genetic_resources_shape_future_marine_biotechnology
 pdf: 2020_un_discussions_marine_genetic_resources_shape_future_marine_biotechnology.pdf
 url: https://www.iddri.org/en/publications-and-events/blog-post/un-discussions-marine-genetic-resources-shape-future-marine
 resources:
-- kind: pdf
-  title: UN discussions on marine genetic resources shape the future of marine biotechnology
-  label: View primary document
-  url: /assets/pdf/2020_un_discussions_marine_genetic_resources_shape_future_marine_biotechnology.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/blog-post/un-discussions-marine-genetic-resources-shape-future-marine
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: UN discussions on marine genetic resources shape the future of marine biotechnology
+    label: View primary document
+    url: /assets/pdf/2020_un_discussions_marine_genetic_resources_shape_future_marine_biotechnology.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: Visit IDDRI publication page
+    label: Visit IDDRI publication page
+    url: https://www.iddri.org/en/publications-and-events/blog-post/un-discussions-marine-genetic-resources-shape-future-marine
+    format: Web
+    local: false
+    external: true
 ---
-

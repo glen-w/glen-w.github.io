@@ -78,6 +78,7 @@ medium_zoom: true
         <i class="fas fa-eye" aria-hidden="true"></i> show selected publications
       </button>
     </div>
+
   </div>
 
   <div id="libraryMapContainer" class="library-map-container" style="display: none;">

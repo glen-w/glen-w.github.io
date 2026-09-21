@@ -5,7 +5,6 @@ img: assets/img/collage/what_end/climate_apocalypse_for_kids.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

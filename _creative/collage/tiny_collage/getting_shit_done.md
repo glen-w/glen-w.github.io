@@ -5,7 +5,6 @@ img: assets/img/collage/tiny_collage/getting_shit_done.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

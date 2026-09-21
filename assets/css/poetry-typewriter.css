@@ -60,9 +60,12 @@
   justify-content: center;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.9);
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
 }
-.poetry-modal-close:hover, .poetry-modal-close:focus {
+.poetry-modal-close:hover,
+.poetry-modal-close:focus {
   background: rgb(255, 255, 255);
   transform: scale(1.1);
   color: #000;
@@ -110,10 +113,12 @@
 }
 
 @keyframes blink {
-  0%, 50% {
+  0%,
+  50% {
     opacity: 1;
   }
-  51%, 100% {
+  51%,
+  100% {
     opacity: 0;
   }
 }
@@ -136,7 +141,9 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.9rem;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;

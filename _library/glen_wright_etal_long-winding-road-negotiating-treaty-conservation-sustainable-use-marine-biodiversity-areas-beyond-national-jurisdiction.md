@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: 'The Long and Winding Road: negotiating a treaty for the conservation and sustainable
-  use of marine biodiversity in areas beyond national jurisdiction'
-date: '2018-01-01'
+title: "The Long and Winding Road: negotiating a treaty for the conservation and sustainable
+  use of marine biodiversity in areas beyond national jurisdiction"
+date: "2018-01-01"
 entry_type: Report
-year: '2018'
+year: "2018"
 bibtex_key: Wright2018c
 is_event: false
 description: Marine areas beyond national jurisdiction (ABNJ) cover nearly half of
@@ -25,36 +25,36 @@ abstract: Marine areas beyond national jurisdiction (ABNJ) cover nearly half of 
   and the challenges that lie ahead. The Long and Winding Road provides a guide to
   the discussions for both experienced participants and newcomers to the process.
 categories:
-- other
+  - other
 authors:
-- Glen Wright
-- Julien Rochette
-- Kristina Gjerde
-- Isabel Seeger
+  - Glen Wright
+  - Julien Rochette
+  - Kristina Gjerde
+  - Isabel Seeger
 venue: IDDRI
 institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2018_long_winding_road_negotiating_treaty_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction
 pdf: glen_wright_etal_2018_long_winding_road_negotiating_treaty_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
 url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty
-pages: '82'
+pages: "82"
 resources:
-- kind: pdf
-  title: 'The Long and Winding Road: negotiating a treaty for the conservation and
-    sustainable use of marine biodiversity in areas beyond national jurisdiction'
-  label: View report PDF
-  url: /assets/pdf/glen_wright_etal_2018_long_winding_road_negotiating_treaty_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: "The Long and Winding Road: negotiating a treaty for the conservation and
+      sustainable use of marine biodiversity in areas beyond national jurisdiction"
+    label: View report PDF
+    url: /assets/pdf/glen_wright_etal_2018_long_winding_road_negotiating_treaty_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: Visit IDDRI publication page
+    label: Visit IDDRI publication page
+    url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty
+    format: Web
+    local: false
+    external: true
 ---
 
 ## Notes

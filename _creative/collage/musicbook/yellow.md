@@ -5,7 +5,6 @@ img: assets/img/collage/musicbook/yellow.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

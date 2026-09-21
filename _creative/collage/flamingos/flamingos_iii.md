@@ -5,7 +5,6 @@ img: assets/img/collage/flamingos/flamingos_iii.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

@@ -5,7 +5,6 @@ img: assets/img/collage/musicbook/half_the_world_i.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

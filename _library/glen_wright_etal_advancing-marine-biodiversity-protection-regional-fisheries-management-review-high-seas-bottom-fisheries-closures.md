@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: 'Advancing marine biodiversity protection through regional fisheries management:
-  a review of high seas bottom fisheries closures'
-date: '2014-01-01'
+title: "Advancing marine biodiversity protection through regional fisheries management:
+  a review of high seas bottom fisheries closures"
+date: "2014-01-01"
 entry_type: Report
-year: '2014'
+year: "2014"
 bibtex_key: Wright2014b
 is_event: false
 description: Ocean regions that do not fall under the jurisdiction of any State, areas
@@ -13,7 +13,7 @@ description: Ocean regions that do not fall under the jurisdiction of any State,
 standfirst: Ocean regions that do not fall under the jurisdiction of any State, areas
   beyond national jurisdiction (ABNJ or the “high seas”), 1 represent almost half
   of the planet’s surface and a significant portion of its biodiversity.
-abstract: 'Ocean regions that do not fall under the jurisdiction of any State, areas
+abstract: "Ocean regions that do not fall under the jurisdiction of any State, areas
   beyond national jurisdiction (ABNJ or the “high seas”), 1 represent almost half
   of the planet’s surface and a significant portion of its biodiversity. The high
   seas are increasingly under threat from human activities, including seabed mining,
@@ -30,29 +30,28 @@ abstract: 'Ocean regions that do not fall under the jurisdiction of any State, a
   RFMO performance in the Atlantic, Pacific, Southern and Indian oceans. Section 4
   considers the role RFMOs in biodiversity conservation in light of their performance
   in relation to HSBFCs, and highlights some pathways for strengthening their role.
-  Section 6 concludes by summarising the issues at stake and the possible ways forward.'
+  Section 6 concludes by summarising the issues at stake and the possible ways forward."
 categories:
-- other
+  - other
 authors:
-- Glen Wright
-- Jeff Ardron
-- Kristina Gjerde
-- Julien Rochette
+  - Glen Wright
+  - Jeff Ardron
+  - Kristina Gjerde
+  - Julien Rochette
 venue: IDDRI
 institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures
 pdf: glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures.pdf
-pages: '28'
+pages: "28"
 resources:
-- kind: pdf
-  title: 'Advancing marine biodiversity protection through regional fisheries management:
-    a review of high seas bottom fisheries closures'
-  label: View report PDF
-  url: /assets/pdf/glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
+  - kind: pdf
+    title: "Advancing marine biodiversity protection through regional fisheries management:
+      a review of high seas bottom fisheries closures"
+    label: View report PDF
+    url: /assets/pdf/glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
 ---
-

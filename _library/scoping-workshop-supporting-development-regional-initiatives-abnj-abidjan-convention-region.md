@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: 'Scoping Workshop: Supporting the development of regional initiatives for ABNJ
-  in the Abidjan Convention Region'
-date: '2015-06-01'
+title: "Scoping Workshop: Supporting the development of regional initiatives for ABNJ
+  in the Abidjan Convention Region"
+date: "2015-06-01"
 entry_type: Workshop
-year: '2015'
+year: "2015"
 bibtex_key: ScopingWorkshopSupporting2015
 is_event: true
 description: 1. The Convention for Cooperation in the Protection, Management and Development
@@ -15,7 +15,7 @@ standfirst: 1. The Convention for Cooperation in the Protection, Management and 
   of the Marine and Coastal Environment of the Atlantic Coast of the West, Central
   and Southern Africa Region (Abidjan Convention) decided at the eleventh meeting
   of its Conference of the Parties (COP)…
-abstract: '1. The Convention for Cooperation in the Protection, Management and Development
+abstract: "1. The Convention for Cooperation in the Protection, Management and Development
   of the Marine and Coastal Environment of the Atlantic Coast of the West, Central
   and Southern Africa Region (Abidjan Convention) decided at the eleventh meeting
   of its Conference of the Parties (COP) (Cape Town, South Africa, 17-21 March 2014)
@@ -37,23 +37,22 @@ abstract: '1. The Convention for Cooperation in the Protection, Management and D
   ii. to inform participants on existing regional initiatives in ABNJ (in the North-East
   Atlantic, Mediterranean, the Southern Ocean and Sargasso Sea regions in particular);
   iii. to elaborate draft terms of reference (ToR) for the Working Group, as well
-  as its draft programme of work, for consideration by the Abidjan Convention Parties.'
+  as its draft programme of work, for consideration by the Abidjan Convention Parties."
 categories:
-- other
+  - other
 location: Mahé, Seychelles
 publisher: IDDRI, UNEP, IASS, Government of Sweden
 role: organiser
 preview: 2015_scoping_workshop_supporting_development_regional_initiatives_abnj_abidjan_convention_region
 pdf: 2015_scoping_workshop_supporting_development_regional_initiatives_abnj_abidjan_convention_region.pdf
 resources:
-- kind: pdf
-  title: 'Scoping Workshop: Supporting the development of regional initiatives for
-    ABNJ in the Abidjan Convention Region'
-  label: View primary document
-  url: /assets/pdf/2015_scoping_workshop_supporting_development_regional_initiatives_abnj_abidjan_convention_region.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
+  - kind: pdf
+    title: "Scoping Workshop: Supporting the development of regional initiatives for
+      ABNJ in the Abidjan Convention Region"
+    label: View primary document
+    url: /assets/pdf/2015_scoping_workshop_supporting_development_regional_initiatives_abnj_abidjan_convention_region.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
 ---
-

@@ -107,4 +107,3 @@ jobs:
           folder: _site
           # Drop legacy zip archives from gh-pages; they blow past Pages artifact size limits.
           # Library "download all" links will 404 until zips are hosted elsewhere.
-

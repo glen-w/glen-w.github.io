@@ -5,7 +5,7 @@ permalink: /creative/
 description:
 nav: true
 nav_order: 40
-display_categories: [collage,poems]
+display_categories: [collage, poems]
 
 # Optional: toggle these
 enable_project_categories: true
@@ -17,7 +17,6 @@ images:
 masonry: true
 medium_zoom: true
 ---
-
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
@@ -349,10 +348,8 @@ medium_zoom: true
   {% endif %}
 </div>
 
-
-
-
 {% comment %}
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0" >
         {% include figure.liquid loading="eager" path="assets/img/collage/with_or_without_you.jpg" class="img-fluid rounded z-depth-1"  zoomable=true %}
@@ -707,45 +704,48 @@ window.addEventListener('load', function() {
 {% assign has_masonry = false %}
 {% assign has_poems = false %}
 {% if site.data.series %}
-  {% for category in page.display_categories %}
-    {% assign categorized_projects = site.creative | where: "category", category %}
-    {% assign all_series_keys = '' | split: '' %}
-    {% for item in categorized_projects %}
-      {% assign path_parts = item.path | split: '/' %}
-      {% if path_parts.size >= 3 %}
-        {% assign series_key = path_parts[2] %}
-        {% assign found = false %}
-        {% for existing_key in all_series_keys %}
-          {% if existing_key == series_key %}
-            {% assign found = true %}
-          {% endif %}
-        {% endfor %}
-        {% unless found %}
-          {% assign all_series_keys = all_series_keys | push: series_key %}
-        {% endunless %}
-      {% endif %}
-      {% if item.category == 'poems' %}
-        {% assign has_poems = true %}
-      {% endif %}
-    {% endfor %}
-    {% for series_key in all_series_keys %}
-      {% if site.data.series[series_key] %}
-        {% if site.data.series[series_key].layout == 'flipbook' %}
-          {% assign has_flipbook = true %}
-        {% elsif site.data.series[series_key].layout == 'carousel' %}
-          {% assign has_carousel = true %}
-        {% elsif site.data.series[series_key].layout == 'masonry' %}
-          {% assign has_masonry = true %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
+{% for category in page.display_categories %}
+{% assign categorized_projects = site.creative | where: "category", category %}
+{% assign all_series_keys = '' | split: '' %}
+{% for item in categorized_projects %}
+{% assign path_parts = item.path | split: '/' %}
+{% if path_parts.size >= 3 %}
+{% assign series_key = path_parts[2] %}
+{% assign found = false %}
+{% for existing_key in all_series_keys %}
+{% if existing_key == series_key %}
+{% assign found = true %}
+{% endif %}
+{% endfor %}
+{% unless found %}
+{% assign all_series_keys = all_series_keys | push: series_key %}
+{% endunless %}
+{% endif %}
+{% if item.category == 'poems' %}
+{% assign has_poems = true %}
+{% endif %}
+{% endfor %}
+{% for series_key in all_series_keys %}
+{% if site.data.series[series_key] %}
+{% if site.data.series[series_key].layout == 'flipbook' %}
+{% assign has_flipbook = true %}
+{% elsif site.data.series[series_key].layout == 'carousel' %}
+{% assign has_carousel = true %}
+{% elsif site.data.series[series_key].layout == 'masonry' %}
+{% assign has_masonry = true %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %}
 {% endif %}
 
 {% if has_flipbook %}
+
   <!-- jQuery is already loaded in scripts.liquid -->
   <!-- Turn.js for flipbook (requires jQuery) -->
-  {% assign version_placeholder = '{{version}}' %}
+
+{% assign version_placeholder = '{{version}}' %}
+
   <script
     defer
     src="{{ site.third_party_libraries.turnjs.url.js | replace: version_placeholder, site.third_party_libraries.turnjs.version }}"
@@ -757,20 +757,22 @@ window.addEventListener('load', function() {
 {% endif %}
 
 {% if has_carousel %}
+
   <!-- Carousel scripts already loaded via page.images.slider -->
   <script defer src="{{ '/assets/js/carousel.js' | relative_url }}" type="text/javascript"></script>
   <link rel="stylesheet" href="{{ '/assets/css/carousel.css' | relative_url }}">
 {% endif %}
 
 {% if has_masonry %}
+
   <!-- Masonry layout (Masonry.js and imagesLoaded already loaded via enable_masonry) -->
   <script defer src="{{ '/assets/js/masonry-layout.js' | relative_url }}" type="text/javascript"></script>
   <link rel="stylesheet" href="{{ '/assets/css/masonry-layout.css' | relative_url }}">
 {% endif %}
 
 {% if has_poems %}
+
   <!-- Poetry typewriter modal -->
   <script defer src="{{ '/assets/js/poetry-typewriter.js' | relative_url }}" type="text/javascript"></script>
   <link rel="stylesheet" href="{{ '/assets/css/poetry-typewriter.css' | relative_url }}">
 {% endif %}
-

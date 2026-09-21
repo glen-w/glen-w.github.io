@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: 'Climate Clubs: Overcoming Free-Riding in International Climate Policy'
-date: '2015-04-01'
+title: "Climate Clubs: Overcoming Free-Riding in International Climate Policy"
+date: "2015-04-01"
 entry_type: Journal article
-year: '2015'
+year: "2015"
 bibtex_key: nordhausClimateClubsOvercoming2015
 is_event: false
 description: Notwithstanding great progress in scientific and economic understanding
@@ -21,32 +21,31 @@ abstract: Notwithstanding great progress in scientific and economic understandin
   with small trade penalties on non-participants, a Climate Club, can induce a large
   stable coalition with high levels of abatement. (JEL Q54, Q58, K32, K33)
 categories:
-- other
+  - other
 authors:
-- William Nordhaus
+  - William Nordhaus
 venue: American Economic Review
 preview: 2015_climate_clubs_overcoming_free_riding_international_climate_policy
 pdf: 2015_climate_clubs_overcoming_free_riding_international_climate_policy.pdf
 url: https://www.aeaweb.org/articles?id=10.1257/aer.15000001
 doi: https://doi.org/10.1257/aer.15000001
 pages: 1339--1370
-volume: '105'
-number: '4'
+volume: "105"
+number: "4"
 resources:
-- kind: pdf
-  title: 'Climate Clubs: Overcoming Free-Riding in International Climate Policy'
-  label: View primary document
-  url: /assets/pdf/2015_climate_clubs_overcoming_free_riding_international_climate_policy.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: Visit American Economic Review publication page
-  label: Visit American Economic Review publication page
-  url: https://www.aeaweb.org/articles?id=10.1257/aer.15000001
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: "Climate Clubs: Overcoming Free-Riding in International Climate Policy"
+    label: View primary document
+    url: /assets/pdf/2015_climate_clubs_overcoming_free_riding_international_climate_policy.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: Visit American Economic Review publication page
+    label: Visit American Economic Review publication page
+    url: https://www.aeaweb.org/articles?id=10.1257/aer.15000001
+    format: Web
+    local: false
+    external: true
 ---
-

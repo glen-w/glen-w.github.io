@@ -5,7 +5,6 @@ img: assets/img/collage/good_news/normal_oligarchs.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

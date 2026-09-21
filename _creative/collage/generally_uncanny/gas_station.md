@@ -5,7 +5,6 @@ img: assets/img/collage/generally_uncanny/gas_station.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

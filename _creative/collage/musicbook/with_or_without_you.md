@@ -5,7 +5,6 @@ img: assets/img/collage/musicbook/with_or_without_you.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

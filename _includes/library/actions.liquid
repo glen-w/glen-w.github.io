@@ -3,7 +3,7 @@
 {% endcomment %}
 {% assign resources_count = page.resources | size | default: 0 %}
 {% if resources_count > 0 %}
-  {% assign primary_resource = nil %}
+  {% assign primary_resource = null %}
   {% for resource in page.resources %}
     {% if resource.primary %}
       {% assign primary_resource = resource %}
@@ -68,7 +68,12 @@
               {% else %}
                 <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
               {% endif %}
-              <span>{{ resource.label }}{% if resource.external %} <span aria-hidden="true">↗</span>{% endif %}</span>
+              <span>
+                {{- resource.label -}}
+                {%- if resource.external %}
+                  <span aria-hidden="true">↗</span>
+                {%- endif -%}
+              </span>
               <span class="visually-hidden"> (opens in a new tab)</span>
             </a>
           {% endunless %}

@@ -5,7 +5,6 @@ img: assets/img/collage/snide_remarks/schrodingers_bullshitter.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

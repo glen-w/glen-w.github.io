@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/therefore_i_am.jpg
 description:
 category: collage
 importance: 22
-
 ---
 
 {% if page.img %}

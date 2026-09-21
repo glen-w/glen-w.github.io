@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/around_the_corner.jpg
 description:
 category: collage
 importance: 22
-
 ---
 
 {% if page.img %}

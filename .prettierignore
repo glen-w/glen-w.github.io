@@ -10,3 +10,23 @@ _posts/2015-10-20-math.md
 _sass/font-awesome/*.scss
 _sass/tabler-icons/*.scss
 _scripts/*
+
+# Generated / vendor / local build artifacts
+_site/**
+node_modules/**
+vendor/**
+.bundle/**
+.jekyll-cache/**
+sandbox/**
+**/__pycache__/**
+**/*conflicted copy*
+assets/json/library.json
+assets/json/library-details.json
+assets/mapping/*.json
+processing/mapping/location_coordinates.json
+package-lock.json
+
+# Underscores in asset filenames get mangled by markdown prettier ( _ → * / ** )
+_posts/2015-07-11-Academia_ Survival of the Bitterest.md
+_posts/2015-07-24-Male, Mad and Muddleheaded! The portrayal of academics in kids books.md
+_posts/2015-12-10-11 Terrible Video Game Screenshots that Perfectly Capture Academic Life.md

@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/leather_shoes.jpg
 description:
 category: collage
 importance: 10
-
 ---
 
 {% if page.img %}

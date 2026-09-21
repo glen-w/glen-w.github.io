@@ -30,7 +30,9 @@
   max-height: 400px;
   object-fit: contain;
   cursor: pointer;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
   border-radius: 4px;
 }
 .carousel-slide .carousel-slide-content .carousel-image:hover {
@@ -46,7 +48,9 @@
   height: 40px;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
 }
 .carousel-button-next:hover,
 .carousel-button-prev:hover {
@@ -71,7 +75,9 @@
   height: 10px;
   background: #666;
   opacity: 0.5;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 .carousel-pagination .swiper-pagination-bullet:hover {
   opacity: 0.8;

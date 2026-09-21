@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: 'Summary report: Inter-regional Dialogues on High Seas Governance'
-date: '2022-01-01'
+title: "Summary report: Inter-regional Dialogues on High Seas Governance"
+date: "2022-01-01"
 entry_type: Report
-year: '2022'
+year: "2022"
 bibtex_key: wrightSummaryReportInterregional2022
 is_event: false
 description: Member States at the United Nations (UN) are currently negotiating a
@@ -22,22 +22,21 @@ abstract: "Member States at the United Nations (UN) are currently negotiating a 
   \ inter-regional expert meetings, connecting colleagues across continents to share\
   \ experiences and discuss high seas governance issues."
 categories:
-- other
+  - other
 authors:
-- Glen Wright
+  - Glen Wright
 venue: STRONG High Seas
 institution: STRONG High Seas
 role: author
 preview: glen_wright_2022_summary_report_inter_regional_dialogues_high_seas_governance
 pdf: glen_wright_2022_summary_report_inter_regional_dialogues_high_seas_governance.pdf
 resources:
-- kind: pdf
-  title: 'Summary report: Inter-regional Dialogues on High Seas Governance'
-  label: View report PDF
-  url: /assets/pdf/glen_wright_2022_summary_report_inter_regional_dialogues_high_seas_governance.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
+  - kind: pdf
+    title: "Summary report: Inter-regional Dialogues on High Seas Governance"
+    label: View report PDF
+    url: /assets/pdf/glen_wright_2022_summary_report_inter_regional_dialogues_high_seas_governance.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
 ---
-

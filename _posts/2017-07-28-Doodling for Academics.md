@@ -22,11 +22,11 @@ As soon as copies became available, my department chair held a coloring party. W
 
 I loved the book so much I asked the publisher if I could post a few free pages for fellow academic doodlers to print out and colour in. Three free doodles are provided below, and you can [click here](https://www.amazon.com/gp/product/022646704X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=022646704X&linkCode=as2&tag=cademiabscura-20&linkId=6daee6b2ebb0771df5dfa3e69b83a40c) to get your hands on the full book, which contains 40 of these wonderfully silly and snarky illustrations.)
 
-![[JPEG](..../assets/img/posts/170728_Doodling_for_Academics_07.jpg) | [PDF](..../assets/img/posts/170728_Doodling_for_Academics_09.pdf)](../assets/img/posts/170728_Doodling_for_Academics_05.jpg)
+![[JPEG](../assets/img/posts/170728_Doodling_for_Academics_07.jpg) | [PDF](../assets/img/posts/170728_Doodling_for_Academics_09.pdf)](../assets/img/posts/170728_Doodling_for_Academics_05.jpg)
 
-![[JPEG](..../assets/img/posts/170728_Doodling_for_Academics_06.jpg) | [PDF](..../assets/img/posts/170728_Doodling_for_Academics_04.pdf)](../assets/img/posts/170728_Doodling_for_Academics_03.jpg)
+![[JPEG](../assets/img/posts/170728_Doodling_for_Academics_06.jpg) | [PDF](../assets/img/posts/170728_Doodling_for_Academics_04.pdf)](../assets/img/posts/170728_Doodling_for_Academics_03.jpg)
 
-![[JPEG](..../assets/img/posts/170728_Doodling_for_Academics_01.jpg) | [PDF](..../assets/img/posts/170728_Doodling_for_Academics_02.pdf)](../assets/img/posts/170728_Doodling_for_Academics_08.jpg)
+![[JPEG](../assets/img/posts/170728_Doodling_for_Academics_01.jpg) | [PDF](../assets/img/posts/170728_Doodling_for_Academics_02.pdf)](../assets/img/posts/170728_Doodling_for_Academics_08.jpg)
 
 &amp;lt;br /&amp;gt;&lt;br /&gt;<br /><br />
 

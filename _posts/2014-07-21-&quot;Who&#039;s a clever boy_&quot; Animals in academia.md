@@ -2,9 +2,9 @@
 layout: post
 title: "Who's a clever boy? Animals in academia"
 date: 2014-07-21
-description: 
-tags: ['animals', 'cats', 'cute', 'dogs', 'funny', "AcademiaObscura"]
-categories: ['Academia Obscura']
+description:
+tags: ["animals", "cats", "cute", "dogs", "funny", "AcademiaObscura"]
+categories: ["Academia Obscura"]
 ---
 
 Animals are all over academia, from the long suffering lab rats to [levitating frogs](https://www.youtube.com/watch?v=bOtT0gB-FLE). But one wouldn't expect our furry and feathered friends to be appearing as authors on published peer-reviewed papers. Take, for example, this fascinating paper entitled 'Detection of earth rotation with a diamagnetically levitating gyroscope'. All looks quite normal, until you see that the second author is H.A.M.S. ter Tisha. I.e. A hamster named Tisha. Author one, Dr. Geim, is the only academic to win both an Ig Nobel Prize and a real Nobel Prize, and author two is his pet hamster. No explanation has been advanced for this, but Dr. Geim, responsible for the aforementioned levitating frogs, is clearly quite a character.

@@ -3,57 +3,56 @@ layout: library-item
 title: Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study issues
   relating to the conservation and sustainable use of marine biological diversity
   beyond areas of national jurisdiction
-date: '2015-01-01'
+date: "2015-01-01"
 entry_type: Negotiation
-year: '2015'
+year: "2015"
 bibtex_key: NinthMeetingAd2015
 is_event: false
 description: Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study
   issues relating to the conservation and sustainable use of marine biological diversity
   beyond areas of national jurisdiction
 categories:
-- other
+  - other
 location: United Nations, New York City, NY, USA
 role: delegate
 preview: 2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction
 gallery:
-- ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_01
-- ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_01
-- ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_02
-- ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_03
-- ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_04
-- ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_05
-- ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_07
+  - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_01
+  - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_01
+  - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_02
+  - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_03
+  - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_04
+  - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_05
+  - ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_07
 pdf: 2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_b.pdf
 url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
 zip_archive: 2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
-zip_file_count: '8'
-zip_file_size_mb: '10.8'
+zip_file_count: "8"
+zip_file_size_mb: "10.8"
 resources:
-- kind: pdf
-  title: Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study issues
-    relating to the conservation and sustainable use of marine biological diversity
-    beyond areas of national jurisdiction
-  label: View primary document
-  url: /assets/pdf/2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_b.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 8 files · 10.8 MB
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study issues
+      relating to the conservation and sustainable use of marine biological diversity
+      beyond areas of national jurisdiction
+    label: View primary document
+    url: /assets/pdf/2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_b.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: zip
+    title: Download all files
+    label: Download all files
+    url: /assets/zips/2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
+    format: ZIP
+    local: true
+    external: false
+    subtitle: 8 files · 10.8 MB
+  - kind: landing
+    title: Visit publication page
+    label: Visit publication page
+    url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
+    format: Web
+    local: false
+    external: true
 ---
-

@@ -97,7 +97,8 @@
 
     const help = document.createElement("a");
     help.className = "github-contributions-help";
-    help.href = "https://docs.github.com/account-and-profile/getting-started-with-your-github-profile/why-are-my-contributions-not-showing-on-my-profile";
+    help.href =
+      "https://docs.github.com/account-and-profile/getting-started-with-your-github-profile/why-are-my-contributions-not-showing-on-my-profile";
     help.textContent = "Learn how we count contributions";
     footer.append(help);
 

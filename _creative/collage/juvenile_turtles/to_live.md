@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/to_live.jpg
 description:
 category: collage
 importance: 7
-
 ---
 
 {% if page.img %}

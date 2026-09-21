@@ -1,7 +1,7 @@
 {% comment %}
   Carousel include for displaying series as a horizontal scrolling carousel
   Accepts: series_projects (sorted array of items), series_name (string)
-  
+
   Uses Swiper library for carousel functionality
 {% endcomment %}
 
@@ -13,23 +13,23 @@
       {% for item in series_projects %}
         <div class="swiper-slide carousel-slide" data-image-index="{{ forloop.index0 }}">
           <div class="carousel-slide-content">
-            {% include figure.liquid 
-              loading="lazy" 
-              path=item.img 
-              class="img-fluid carousel-image" 
+            {%
+              include figure.liquid
+              loading="lazy"
+              path=item.img
+              class="img-fluid carousel-image"
               alt=item.title
             %}
           </div>
         </div>
       {% endfor %}
     </div>
-    
+
     {% comment %} Navigation arrows {% endcomment %}
     <div class="swiper-button-next carousel-button-next"></div>
     <div class="swiper-button-prev carousel-button-prev"></div>
-    
+
     {% comment %} Pagination dots {% endcomment %}
     <div class="swiper-pagination carousel-pagination"></div>
   </div>
 </div>
-

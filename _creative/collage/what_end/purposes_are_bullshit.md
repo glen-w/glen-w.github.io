@@ -5,7 +5,6 @@ img: assets/img/collage/what_end/purposes_are_bullshit.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

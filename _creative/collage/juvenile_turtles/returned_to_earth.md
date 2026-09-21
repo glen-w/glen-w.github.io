@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/returned_to_earth.jpg
 description:
 category: collage
 importance: 24
-
 ---
 
 {% if page.img %}

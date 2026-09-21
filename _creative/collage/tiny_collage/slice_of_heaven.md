@@ -5,7 +5,6 @@ img: assets/img/collage/tiny_collage/slice_of_heaven.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

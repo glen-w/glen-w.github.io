@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/are_we_alone.jpg
 description:
 category: collage
 importance: 4
-
 ---
 
 {% if page.img %}

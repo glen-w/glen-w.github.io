@@ -34,7 +34,7 @@ Many of these tools require an initial time investment and/or steep learning cu
 **1. Citation manager**
 If I could give only one piece of advice for those starting out in academia, it would be this: **\*use a citation manager**!\* I use Mendeley, and get along reasonably well with it, but I recommend [fiddling around with a few](https://en.wikipedia.org/wiki/Comparison_of_reference_management_software) before settling (try Zotero, Papers, Endonte). Ultimately, the particular platform matters much less than the absolute necessity of integrating some sort of citation management software into your workflow. It may seem like a chore at first,[1. Does footnoting ever not seem like a chore?] but you'll be glad you put the effort in.
 
-**[![scrivener-logo](../assets/img/posts/150914_10_Quite_Useful_Tools_for_Academics_03.png)](https://www.literatureandlatte.com/scrivener.php)**\*\*****2. Scrivener\*\*
+**[![scrivener-logo](../assets/img/posts/150914_10_Quite_Useful_Tools_for_Academics_03.png)](https://www.literatureandlatte.com/scrivener.php)**\*\*\*\*\*\*2. Scrivener\*\*
 Whereas Word and its ilk are digital extensions of the typewriters of old, [Scrivener](https://www.literatureandlatte.com/scrivener.php) is a word processor built from the ground up to redefine the way we write on computers. Scrivener is at once simple and versatile, and flexible enough to complement the way you think and work when writing, whatever your style. I put snippets of writing onto virtual note cards and organise them by theme. The cards are easily edited and reorganised by dragging and dropping, while the powerful export function turns it all into a formatted and ready-to-go doc file.
 
 - _Read: 5 Reasons I Switched to Scrivener for all my Writing_

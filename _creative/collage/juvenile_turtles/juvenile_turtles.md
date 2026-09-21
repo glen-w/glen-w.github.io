@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/juvenile_turtles.jpg
 description:
 category: collage
 importance: 1
-
 ---
 
 {% if page.img %}

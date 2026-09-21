@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/pretty_airplane.jpg
 description:
 category: collage
 importance: 5
-
 ---
 
 {% if page.img %}

@@ -5,7 +5,6 @@ img: assets/img/collage/what_end/what_happened.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

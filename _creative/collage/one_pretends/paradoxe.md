@@ -5,7 +5,6 @@ img: assets/img/collage/one_pretends/paradoxe.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

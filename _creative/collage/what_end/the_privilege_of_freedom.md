@@ -5,7 +5,6 @@ img: assets/img/collage/what_end/the_privilege_of_freedom.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

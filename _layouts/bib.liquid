@@ -50,10 +50,10 @@
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
-    
+
     <!-- Item Type -->
     {% assign item_type = '' %}
-    
+
     <!-- Check for type from annote field [type] section (Zotero Notes export standard) -->
     {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
     {% if has_annote > 0 %}
@@ -70,10 +70,10 @@
         {% endfor %}
       {% endif %}
     {% endif %}
-    
+
     <!-- If no type from structured annote, fallback to BibTeX @type tag -->
     {% if item_type == '' %}
-        {% case entry.ENTRYTYPE %}
+      {% case entry.ENTRYTYPE %}
         {% when 'article' %}
           {% assign item_type = 'Journal Article' %}
         {% when 'inproceedings' %}
@@ -112,7 +112,7 @@
           {% assign item_type = 'Manual' %}
         {% when 'patent' %}
           {% assign item_type = 'Patent' %}
-        <!-- Custom entry types from ignore tags - specific multiword types -->
+          <!-- Custom entry types from ignore tags - specific multiword types -->
         {% when 'newsarticle' %}
           {% assign item_type = 'newspaper' %}
         {% when 'guestlecture' %}
@@ -183,7 +183,7 @@
           {% assign item_type = entry.ENTRYTYPE | capitalize %}
       {% endcase %}
     {% endif %}
-    
+
     <!-- Extract role from annote field [role] section (Zotero Notes export standard) -->
     {% comment %}Extract role ONLY from [role] sections in annote field - NEVER from keywords or note{% endcomment %}
     {% comment %}Custom tags come only from annote field (Zotero Notes export standard){% endcomment %}
@@ -199,21 +199,21 @@
         {% endif %}
       {% endif %}
     {% endif %}
-      
-    
+
     <!-- Extract and format roles (regardless of whether item_type exists) -->
     {% assign has_roles = false %}
     {% assign roles = '' | split: ',' %}
-    {% assign roles = roles | shift %} <!-- Remove the empty string from split -->
-    
+    {% assign roles = roles | shift %}
+    <!-- Remove the empty string from split -->
+
     {% comment %}Check for roles in block_role (structured format from [role] section){% endcomment %}
-    {% if block_role != "" %}
+    {% if block_role != '' %}
       {%- comment -%} Normalize newlines: handle Windows (\r\n), Mac (\r), and Unix (\n) line endings {%- endcomment -%}
       {%- comment -%} Liquid replace doesn't work with escape sequences, so we split directly on newlines {%- endcomment -%}
       {% assign role_lines = block_role | newline_to_br | split: '<br />' %}
       {% for line in role_lines %}
         {% assign clean_line = line | strip %}
-        {% if clean_line != "" %}
+        {% if clean_line != '' %}
           {% comment %}Normalize role to lowercase, then capitalize for display{% endcomment %}
           {% assign role_lower = clean_line | downcase | strip %}
           {% comment %}Handle multi-word roles like "co-author" -> "Co-Author"{% endcomment %}
@@ -235,22 +235,38 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-    
+
     <!-- Display type badge and role tags -->
     {% if item_type != '' or has_roles %}
       <div class="item-type-and-roles">
         {% if item_type != '' %}
-          <a href="#" onclick="filterByTag('{{ item_type }}'); return false;" class="badge badge-light" style="text-decoration: none; color: inherit; cursor: pointer;">{{ item_type }}</a>
+          <a
+            href="#"
+            onclick="filterByTag('{{ item_type }}'); return false;"
+            class="badge badge-light"
+            style="text-decoration: none; color: inherit; cursor: pointer;"
+          >
+            {{- item_type -}}
+          </a>
         {% endif %}
         {% if has_roles %}
           {% for role in roles %}
             {% assign clean_role = role | strip %}
-            {% if clean_role != "" %}<a href="#" onclick="filterByTag('{{ clean_role }}'); return false;" class="tag" style="text-decoration: none; color: inherit; cursor: pointer;">{{ clean_role }}</a>{% endif %}
+            {% if clean_role != '' -%}
+              <a
+                href="#"
+                onclick="filterByTag('{{ clean_role }}'); return false;"
+                class="tag"
+                style="text-decoration: none; color: inherit; cursor: pointer;"
+              >
+                {{- clean_role -}}
+              </a>
+            {%- endif %}
           {% endfor %}
         {% endif %}
       </div>
     {% endif %}
-    
+
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
@@ -288,7 +304,7 @@
     {% endif %}
     {% comment %}Hook include removed due to file_exists tag incompatibility{% endcomment %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% if entrytype_text != "" %}
+    {% if entrytype_text != '' %}
       <div class="periodical">
         {{ entrytype | strip }}
       </div>
@@ -298,7 +314,14 @@
       {% assign annote_text = entry.annote | strip %}
       <div class="periodical">
         {% comment %}Check if this is structured notes format{% endcomment %}
-        {% if annote_text contains '[audio]' or annote_text contains '[links]' or annote_text contains '[quotes]' or annote_text contains '[role]' or annote_text contains '[speakers]' or annote_text contains '[type]' or annote_text contains '[video]' %}
+        {% if annote_text contains '[audio]'
+          or annote_text contains '[links]'
+          or annote_text contains '[quotes]'
+          or annote_text contains '[role]'
+          or annote_text contains '[speakers]'
+          or annote_text contains '[type]'
+          or annote_text contains '[video]'
+        %}
           {% comment %}This is structured notes - only display the first part (before any [tag]){% endcomment %}
           {% assign structured_parts = annote_text | split: '[' %}
           {% assign first_part = structured_parts[0] | strip %}
@@ -339,108 +362,108 @@
         {% endif %}
       </div>
     {% endif %}
-    
+
     <!-- Author (only show if multiple authors) -->
     {% assign author_array_size = entry.author_array | size %}
     {% if author_array_size > 1 %}
-    <div class="author">
-      {% assign author_array_size = entry.author_array | size %}
+      <div class="author">
+        {% assign author_array_size = entry.author_array | size %}
 
-      {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
-        {% assign author_array_limit = site.max_author_limit %}
-      {% endif %}
-
-      {%- for author in entry.author_array limit: author_array_limit -%}
-        {% assign author_is_self = false %}
-        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
-        {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        {% if site.scholar.last_name contains author_last_name %}
-          {% if site.scholar.first_name contains author.first %}
-            {% assign author_is_self = true %}
-          {% endif %}
-        {%- endif -%}
-        {% assign coauthor_url = null %}
-        {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
-        {% if site.data.coauthors[clean_last_name] %}
-          {%- for coauthor in site.data.coauthors[clean_last_name] -%}
-            {% if coauthor.firstname contains author.first %}
-              {%- assign coauthor_url = coauthor.url -%}
-              {% break %}
-            {%- endif -%}
-          {% endfor %}
-        {%- endif -%}
-
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false -%}
-            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
-          {%- endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
+        {% assign author_array_limit = author_array_size %}
+        {% if site.max_author_limit and author_array_size > site.max_author_limit %}
+          {% assign author_array_limit = site.max_author_limit %}
         {% endif %}
-        {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
-        {%- else -%}
-          {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
+
+        {%- for author in entry.author_array limit: author_array_limit -%}
+          {% assign author_is_self = false %}
+          {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+          {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+          {% if site.scholar.last_name contains author_last_name %}
+            {% if site.scholar.first_name contains author.first %}
+              {% assign author_is_self = true %}
+            {% endif %}
+          {%- endif -%}
+          {% assign coauthor_url = null %}
+          {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
+          {% if site.data.coauthors[clean_last_name] %}
+            {%- for coauthor in site.data.coauthors[clean_last_name] -%}
+              {% if coauthor.firstname contains author.first %}
+                {%- assign coauthor_url = coauthor.url -%}
+                {% break %}
+              {%- endif -%}
+            {% endfor %}
+          {%- endif -%}
+
+          {%- if forloop.length > 1 -%}
+            {% if forloop.first == false -%}
+              {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
+            {%- endif %}
+            {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
+          {% endif %}
+          {%- if author_is_self -%}
+            <em>
               {{- author.first }}
               {{ author_last_html -}}
-            </a>
+            </em>
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
-          {% endif %}
-        {%- endif -%}
-      {% endfor %}
-      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
+            {%- if coauthor_url -%}
+              <a href="{{ coauthor_url }}">
+                {{- author.first }}
+                {{ author_last_html -}}
+              </a>
+            {%- else -%}
+              {{- author.first }}
+              {{ author_last_html -}}
+            {% endif %}
+          {%- endif -%}
+        {% endfor %}
+        {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
-      {%- assign more_authors_hide = more_authors | append: ' more author' -%}
-      {% if more_authors > 0 %}
-        {%- if more_authors > 1 -%}
-          {% assign more_authors_hide = more_authors_hide | append: 's' %}
-        {%- endif -%}
-        {% assign more_authors_show = '' %}
-        {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
-          {% unless forloop.last %}
-            {% assign more_authors_show = more_authors_show | append: ', ' %}
-          {% endunless %}
-        {%- endfor -%}
-        {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        , and
-        <span
-          class="more-authors"
-          title="click to view {{ more_authors_hide }}"
-          onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '{{ site.more_authors_animation_delay }}');
-          "
-        >
-          {{- more_authors_hide -}}
-        </span>
-      {% endif %}
-      {% assign has_annotation = entry.annotation | to_s | strip | size | plus: 0 %}
-      {% if has_annotation > 0 %}
-        <i
-          class="fa-solid fa-circle-info ml-1"
-          data-toggle="popover"
-          data-placement="top"
-          data-html="true"
-          data-content="{{ entry.annotation | escape }}"
-        >
-        </i>
-      {% endif %}
-    </div>
+        {%- assign more_authors_hide = more_authors | append: ' more author' -%}
+        {% if more_authors > 0 %}
+          {%- if more_authors > 1 -%}
+            {% assign more_authors_hide = more_authors_hide | append: 's' %}
+          {%- endif -%}
+          {% assign more_authors_show = '' %}
+          {%- for author in entry.author_array offset: author_array_limit -%}
+            {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+            {% unless forloop.last %}
+              {% assign more_authors_show = more_authors_show | append: ', ' %}
+            {% endunless %}
+          {%- endfor -%}
+          {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+          , and
+          <span
+            class="more-authors"
+            title="click to view {{ more_authors_hide }}"
+            onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.html(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '{{ site.more_authors_animation_delay }}');
+            "
+          >
+            {{- more_authors_hide -}}
+          </span>
+        {% endif %}
+        {% assign has_annotation = entry.annotation | to_s | strip | size | plus: 0 %}
+        {% if has_annotation > 0 %}
+          <i
+            class="fa-solid fa-circle-info ml-1"
+            data-toggle="popover"
+            data-placement="top"
+            data-html="true"
+            data-content="{{ entry.annotation | escape }}"
+          >
+          </i>
+        {% endif %}
+      </div>
     {% endif %}
 
     <!-- Links/Buttons -->
@@ -476,10 +499,10 @@
           <i class="fa-solid fa-trophy"></i>
         </a>
       {% endif %}
-      
+
       <!-- Dynamic button generation from annote field square brackets first, then fallback to entry fields -->
-      {% assign links = "" %}
-      
+      {% assign links = '' %}
+
       <!-- First, check annote field for square bracket definitions -->
       {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
       {% if has_annote > 0 %}
@@ -496,7 +519,7 @@
               {% if field_content != '' %}
                 {% comment %}Generate button for this field{% endcomment %}
                 {% assign href = field_content | strip %}
-                {% if href != "" and href != "false" and href != "null" and href != "undefined" %}
+                {% if href != '' and href != 'false' and href != 'null' and href != 'undefined' %}
                   {% comment %}Determine label and icon based on field name{% endcomment %}
                   {% assign label = field_name | capitalize %}
                   {% assign icon = 'link' %}
@@ -559,27 +582,28 @@
           {% endif %}
         {% endfor %}
       {% endif %}
-      
+
       <!-- Fallback: check main entry fields for any missing buttons -->
-      {% assign candidates = 
-        "pdf:PDF|url:Website|slides:Slides|agenda:Agenda|video:Video|youtube:YouTube|code:Code|dataset:Dataset|supp:Supplementary|blog:Blog|poster:Poster|website:Website|html:HTML|doi:DOI|arxiv:arXiv" | split: "|" %}
+      {% assign candidates = 'pdf:PDF|url:Website|slides:Slides|agenda:Agenda|video:Video|youtube:YouTube|code:Code|dataset:Dataset|supp:Supplementary|blog:Blog|poster:Poster|website:Website|html:HTML|doi:DOI|arxiv:arXiv'
+        | split: '|'
+      %}
 
       {% for pair in candidates %}
-        {% assign kv = pair | split: ":" %}
+        {% assign kv = pair | split: ':' %}
         {% assign key = kv[0] %}
         {% assign label = kv[1] %}
-        
+
         {% assign key_ends_with_url = key | slice: -4, 4 %}
         {% unless key_ends_with_url == '_url' %}
           {% assign val = entry[key] | to_s | strip %}
           {% assign val_url = entry[key | append: '_url'] | to_s | strip %}
 
           {%- comment -%}
-          Prefer the *_url field if present and looks like a URL or absolute path.
-          Otherwise, if the plain value looks like a URL, use that.
-          Special case: PDF, slides, and agenda fields may contain just filenames (not URLs),
-          which will be converted to full URLs in the URL construction block (lines 616-620).
-          Never append '_url' to a value.
+            Prefer the *_url field if present and looks like a URL or absolute path.
+            Otherwise, if the plain value looks like a URL, use that.
+            Special case: PDF, slides, and agenda fields may contain just filenames (not URLs),
+            which will be converted to full URLs in the URL construction block (lines 616-620).
+            Never append '_url' to a value.
           {%- endcomment -%}
           {% assign url = '' %}
           {% assign val_url_starts_with_slash = val_url | slice: 0, 1 %}
@@ -688,58 +712,58 @@
         {% endunless %}
       {% endfor %}
 
-      {% if links != "" %}
+      {% if links != '' %}
         <div class="btn-group">{{ links }}</div>
       {% endif %}
-      
+
       <!-- Parse annote field for structured content (Zotero Notes export standard) -->
       {% assign combined_notes = '' %}
       {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
       {% if has_annote > 0 %}
         {% assign combined_notes = entry.annote | strip %}
       {% endif %}
-      
+
       <!-- URL encode problematic characters in notes -->
       {% if combined_notes != '' %}
         {% assign combined_notes = combined_notes | replace: 'http[', 'http%5B' %}
         {% assign combined_notes = combined_notes | replace: 'https[', 'https%5B' %}
       {% endif %}
-      
+
       <!-- Extract structured blocks -->
       {% assign block_abstract = '' %}
       {% assign block_video = '' %}
       {% assign block_speakers = '' %}
       {% assign block_quotes = '' %}
       {% comment %}block_role will be initialized in role extraction section below{% endcomment %}
-      
+
       {% if combined_notes contains '[abstract]' %}
         {% assign abstract_section = combined_notes | split: '[abstract]' | last | split: '[' | first | strip %}
         {% if abstract_section != '' %}
           {% assign block_abstract = abstract_section %}
         {% endif %}
       {% endif %}
-      
+
       {% if combined_notes contains '[video]' %}
         {% assign video_section = combined_notes | split: '[video]' | last | split: '[' | first | strip %}
         {% if video_section != '' %}
           {% assign block_video = video_section %}
         {% endif %}
       {% endif %}
-      
+
       {% if combined_notes contains '[speakers]' %}
         {% assign speakers_section = combined_notes | split: '[speakers]' | last | split: '[' | first | strip %}
         {% if speakers_section != '' %}
           {% assign block_speakers = speakers_section %}
         {% endif %}
       {% endif %}
-      
+
       {% if combined_notes contains '[quotes]' %}
         {% assign quotes_section = combined_notes | split: '[quotes]' | last | split: '[' | first | strip %}
         {% if quotes_section != '' %}
           {% assign block_quotes = quotes_section %}
         {% endif %}
       {% endif %}
-      
+
       <!-- Check for abstract in abstract field OR block_abstract -->
       {% assign has_abstract_field = entry.abstract | to_s | strip | size | plus: 0 %}
       {% assign has_block_abstract = block_abstract | to_s | strip | size | plus: 0 %}
@@ -754,7 +778,7 @@
           <i class="fa-solid fa-file-lines"></i>
         </a>
       {% endif %}
-      
+
       <!-- Check for video in block_video (structured format from [video] section) OR legacy video field -->
       {% assign has_block_video = block_video | to_s | strip | size | plus: 0 %}
       {% assign has_video_field = entry.video | to_s | strip | size | plus: 0 %}
@@ -787,7 +811,7 @@
           </a>
         {% endif %}
       {% endif %}
-      
+
       <!-- Check for speakers in block_speakers -->
       {% assign has_block_speakers = block_speakers | to_s | strip | size | plus: 0 %}
       {% assign has_speakers = false %}
@@ -803,7 +827,7 @@
       {% assign document_count = 0 %}
       {% assign photo_count = 0 %}
       {% assign figure_count = 0 %}
-      
+
       {% comment %}Collect main link file paths to exclude from document count{% endcomment %}
       {% comment %}Use pipe-separated string for compatibility with Liquid{% endcomment %}
       {% assign main_link_paths = '' %}
@@ -834,20 +858,20 @@
           {% assign main_link_paths = main_link_paths | append: '|' | append: agenda_path %}
         {% endif %}
       {% endif %}
-      
+
       {% if entry.file %}
         {% assign file_parts = entry.file | split: ';' %}
-        
+
         {% for part in file_parts %}
           {% assign clean_part = part | strip %}
           {% if clean_part contains ':' %}
             {% comment %}Split by first colon to separate title from path:mime{% endcomment %}
             {% assign first_colon = clean_part | split: ':' | first %}
             {% assign after_first_colon = clean_part | remove_first: first_colon | remove_first: ':' %}
-            
+
             {% assign file_title = first_colon | strip %}
             {% assign file_path_and_mime = after_first_colon | strip %}
-            
+
             {% comment %}Split path:mime by colon{% endcomment %}
             {% if file_path_and_mime contains ':' %}
               {% assign path_mime_split = file_path_and_mime | split: ':' %}
@@ -857,7 +881,7 @@
               {% assign file_path = file_path_and_mime %}
               {% assign file_mime = '' %}
             {% endif %}
-            
+
             {% comment %}Infer MIME type from file extension if not provided{% endcomment %}
             {% if file_mime == '' %}
               {% assign file_ext = file_path | split: '.' | last | downcase %}
@@ -875,9 +899,9 @@
                 {% assign file_mime = 'text/plain' %}
               {% endif %}
             {% endif %}
-            
+
             {% assign file_title_lower = file_title | downcase %}
-            
+
             {% comment %}Skip thumbnails{% endcomment %}
             {% unless file_title_lower contains 'thumbnail' %}
               {% comment %}Count documents - but exclude files already shown as main links{% endcomment %}
@@ -905,9 +929,14 @@
                   {% assign document_count = document_count | plus: 1 %}
                 {% endunless %}
               {% endif %}
-              
+
               {% comment %}Count photos{% endcomment %}
-              {% if file_mime contains 'image' or file_path contains '.jpg' or file_path contains '.jpeg' or file_path contains '.png' or file_path contains '.webp' %}
+              {% if file_mime contains 'image'
+                or file_path contains '.jpg'
+                or file_path contains '.jpeg'
+                or file_path contains '.png'
+                or file_path contains '.webp'
+              %}
                 {% if file_title_lower contains 'figure' %}
                   {% assign figure_count = figure_count | plus: 1 %}
                 {% elsif file_title_lower contains 'photo' %}
@@ -920,7 +949,7 @@
           {% endif %}
         {% endfor %}
       {% endif %}
-      
+
       {% comment %}Count photos from entry.photos field{% endcomment %}
       {% if entry.photos %}
         {% assign photos_list = entry.photos | split: ',' %}
@@ -934,33 +963,32 @@
           {% endif %}
         {% endfor %}
       {% endif %}
-      
+
       {% comment %}Render buttons based on content{% endcomment %}
       {% if document_count > 0 %}
         <a class="documents btn btn-sm z-depth-0" role="button" title="View documents">
           <i class="fa-solid fa-file-lines"></i>
         </a>
       {% endif %}
-      
+
       {% if photo_count > 0 %}
         <a class="photos btn btn-sm z-depth-0" role="button" title="View photos">
           <i class="fa-solid fa-camera"></i>
         </a>
       {% endif %}
-      
+
       {% if figure_count > 0 %}
         <a class="figures btn btn-sm z-depth-0" role="button" title="View figures">
           <i class="fa-solid fa-chart-bar"></i>
         </a>
       {% endif %}
-      
-      
+
       <!-- Speakers from block_speakers and/or speaker images -->
       {% if has_speakers %}
         {% assign has_speakers_text = false %}
         {% assign has_speakers_image = false %}
         {% assign speakers_image_path = '' %}
-        
+
         <!-- Check for speakers in block_speakers -->
         {% assign has_block_speakers = block_speakers | to_s | strip | size | plus: 0 %}
         {% if has_block_speakers > 0 %}
@@ -973,7 +1001,7 @@
             {% endif %}
           {% endfor %}
         {% endif %}
-        
+
         <!-- Check for speaker images in file field -->
         {% assign has_file = entry.file | to_s | strip | size | plus: 0 %}
         {% if has_file > 0 %}
@@ -996,24 +1024,43 @@
             {% endif %}
           {% endfor %}
         {% endif %}
-        
+
         <!-- Display speakers section if either text or image exists -->
         {% if has_speakers_text or has_speakers_image %}
           <div class="speakers hidden">
-              <div class="speakers-label">Speakers:</div>
-              
-              <!-- Show speaker image first if it exists -->
-              {% if has_speakers_image %}
-                <div class="speakers-image">
-                  <img src="{{ speakers_image_path }}" 
-                       alt="Speakers" 
-                       class="speakers-image-content"
-                       onclick="openImageModal(this.src, this.alt)">
-                </div>
-              {% endif %}
-              
-              <!-- Show speaker text list if it exists -->
-              {% if has_speakers_text %}
+            <div class="speakers-label">Speakers:</div>
+
+            <!-- Show speaker image first if it exists -->
+            {% if has_speakers_image %}
+              <div class="speakers-image">
+                <img
+                  src="{{ speakers_image_path }}"
+                  alt="Speakers"
+                  class="speakers-image-content"
+                  onclick="openImageModal(this.src, this.alt)"
+                >
+              </div>
+            {% endif %}
+
+            <!-- Show speaker text list if it exists -->
+            {% if has_speakers_text %}
+              <ul class="speakers-list">
+                {% assign speakers_text = block_speakers | default: entry.speakers | to_s | strip %}
+                {% if speakers_text != '' %}
+                  {%- comment -%} Convert newlines to <br /> tags, then split on them to get individual lines {%- endcomment -%}
+                  {% assign speakers_with_br = speakers_text | newline_to_br %}
+                  {% assign speakers_lines = speakers_with_br | split: '<br />' %}
+                  {% for s in speakers_lines %}
+                    {% assign s_clean = s | strip %}
+                    {% if s_clean != '' %}
+                      <li>{{ s_clean }}</li>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              </ul>
+            {% else %}
+              <!-- Show speakers even if has_speakers_text is false -->
+              {% if has_block_speakers > 0 %}
                 <ul class="speakers-list">
                   {% assign speakers_text = block_speakers | default: entry.speakers | to_s | strip %}
                   {% if speakers_text != '' %}
@@ -1028,29 +1075,12 @@
                     {% endfor %}
                   {% endif %}
                 </ul>
-              {% else %}
-                <!-- Show speakers even if has_speakers_text is false -->
-                {% if has_block_speakers > 0 %}
-                  <ul class="speakers-list">
-                    {% assign speakers_text = block_speakers | default: entry.speakers | to_s | strip %}
-                    {% if speakers_text != '' %}
-                      {%- comment -%} Convert newlines to <br /> tags, then split on them to get individual lines {%- endcomment -%}
-                      {% assign speakers_with_br = speakers_text | newline_to_br %}
-                      {% assign speakers_lines = speakers_with_br | split: '<br />' %}
-                      {% for s in speakers_lines %}
-                        {% assign s_clean = s | strip %}
-                        {% if s_clean != '' %}
-                          <li>{{ s_clean }}</li>
-                        {% endif %}
-                      {% endfor %}
-                    {% endif %}
-                  </ul>
-                {% endif %}
               {% endif %}
+            {% endif %}
           </div>
         {% endif %}
       {% endif %}
-      
+
       <!-- Abstract from abstract field OR block_abstract -->
       {% if has_abstract %}
         <div class="abstract hidden">
@@ -1066,12 +1096,18 @@
                     {% if clean_line contains ' • ' %}
                       {% if forloop.first or previous_line_was_bullet == false %}<ul>{% endif %}
                       {% assign bullet_parts = clean_line | split: ' • ' %}
-                      {% if bullet_parts.size > 1 %}<li>{{ bullet_parts[1] | strip }}</li>{% else %}<li>{{ clean_line | remove_first: ' • ' | strip }}</li>{% endif %}
+                      {% if bullet_parts.size > 1 %}
+                        <li>{{ bullet_parts[1] | strip }}</li>
+                      {% else %}
+                        <li>{{ clean_line | remove_first: ' • ' | strip }}</li>
+                      {% endif %}
                       {% assign previous_line_was_bullet = true %}
                       {% if forloop.last %}</ul>{% endif %}
                     {% else %}
                       {% if previous_line_was_bullet == true %}</ul>{% endif %}
-                      {% if clean_line != '' %}<p>{{ clean_line }}</p>{% endif %}
+                      {% if clean_line != '' %}
+                        <p>{{ clean_line }}</p>
+                      {% endif %}
                       {% assign previous_line_was_bullet = false %}
                     {% endif %}
                   {% endfor %}
@@ -1091,12 +1127,18 @@
                       {% if clean_line contains ' • ' %}
                         {% if forloop.first or previous_line_was_bullet == false %}<ul>{% endif %}
                         {% assign bullet_parts = clean_line | split: ' • ' %}
-                        {% if bullet_parts.size > 1 %}<li>{{ bullet_parts[1] | strip }}</li>{% else %}<li>{{ clean_line | remove_first: ' • ' | strip }}</li>{% endif %}
+                        {% if bullet_parts.size > 1 %}
+                          <li>{{ bullet_parts[1] | strip }}</li>
+                        {% else %}
+                          <li>{{ clean_line | remove_first: ' • ' | strip }}</li>
+                        {% endif %}
                         {% assign previous_line_was_bullet = true %}
                         {% if forloop.last %}</ul>{% endif %}
                       {% else %}
                         {% if previous_line_was_bullet == true %}</ul>{% endif %}
-                        {% if clean_line != '' %}<p>{{ clean_line }}</p>{% endif %}
+                        {% if clean_line != '' %}
+                          <p>{{ clean_line }}</p>
+                        {% endif %}
                         {% assign previous_line_was_bullet = false %}
                       {% endif %}
                     {% endfor %}
@@ -1109,7 +1151,7 @@
           </div>
         </div>
       {% endif %}
-      
+
       <!-- Video from video field OR block_video -->
       {% if has_video %}
         <div class="video hidden">
@@ -1118,11 +1160,13 @@
             {% assign has_video_field = entry.video | to_s | strip | size | plus: 0 %}
             {% if has_video_field > 0 %}
               {% if entry.video contains 'youtube' or entry.video contains 'youtu.be' %}
-                <p><a href="{{ entry.video }}" target="_blank" rel="noopener">
-                  <i class="fa-solid fa-play"></i> {{ entry.video }}
-                </a></p>
+                <p>
+                  <a href="{{ entry.video }}" target="_blank" rel="noopener"> <i class="fa-solid fa-play"></i> {{ entry.video }} </a>
+                </p>
               {% else %}
-                <p><a href="{{ entry.video }}" target="_blank" rel="noopener">{{ entry.video }}</a></p>
+                <p>
+                  <a href="{{ entry.video }}" target="_blank" rel="noopener">{{ entry.video }}</a>
+                </p>
               {% endif %}
             {% else %}
               {% assign has_block_video = block_video | to_s | strip | size | plus: 0 %}
@@ -1133,11 +1177,13 @@
                   {% assign clean_line = line | strip %}
                   {% if clean_line != '' %}
                     {% if clean_line contains 'youtube' or clean_line contains 'youtu.be' %}
-                      <p><a href="{{ clean_line }}" target="_blank" rel="noopener">
-                        <i class="fa-solid fa-play"></i> {{ clean_line }}
-                      </a></p>
+                      <p>
+                        <a href="{{ clean_line }}" target="_blank" rel="noopener"> <i class="fa-solid fa-play"></i> {{ clean_line }} </a>
+                      </p>
                     {% else %}
-                      <p><a href="{{ clean_line }}" target="_blank" rel="noopener">{{ clean_line }}</a></p>
+                      <p>
+                        <a href="{{ clean_line }}" target="_blank" rel="noopener">{{ clean_line }}</a>
+                      </p>
                     {% endif %}
                   {% endif %}
                 {% endfor %}
@@ -1146,7 +1192,7 @@
           </div>
         </div>
       {% endif %}
-      
+
       <!-- Audio from annote field (Zotero Notes export standard) -->
       {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
       {% if has_annote > 0 %}
@@ -1181,14 +1227,14 @@
           {% endif %}
         {% endif %}
       {% endif %}
-      
+
       <!-- Photos from file field -->
       {% if photo_count > 0 %}
         <div class="photos hidden">
           <div class="photos-label">Photos:</div>
           <div class="gallery-grid photos-grid">
             {% assign photo_index = 0 %}
-            
+
             {% if entry.file %}
               {% assign file_parts = entry.file | split: ';' %}
               {% for part in file_parts %}
@@ -1197,10 +1243,10 @@
                   {% comment %}Use same robust parsing as document counting{% endcomment %}
                   {% assign first_colon = clean_part | split: ':' | first %}
                   {% assign after_first_colon = clean_part | remove_first: first_colon | remove_first: ':' %}
-                  
+
                   {% assign file_title = first_colon | strip %}
                   {% assign file_path_and_mime = after_first_colon | strip %}
-                  
+
                   {% comment %}Split path:mime by colon{% endcomment %}
                   {% if file_path_and_mime contains ':' %}
                     {% assign path_mime_split = file_path_and_mime | split: ':' %}
@@ -1210,7 +1256,7 @@
                     {% assign file_path = file_path_and_mime %}
                     {% assign file_mime = '' %}
                   {% endif %}
-                  
+
                   {% comment %}Infer MIME type from file extension if not provided{% endcomment %}
                   {% if file_mime == '' %}
                     {% assign file_ext = file_path | split: '.' | last | downcase %}
@@ -1228,12 +1274,17 @@
                       {% assign file_mime = 'text/plain' %}
                     {% endif %}
                   {% endif %}
-                  
+
                   {% assign file_title_lower = file_title | downcase %}
-                  
+
                   {% comment %}Only render images, skip thumbnails, banners, logos{% endcomment %}
                   {% unless file_title_lower contains 'thumbnail' or file_title_lower contains 'banner' or file_title_lower contains 'logo' %}
-                    {% if file_mime contains 'image' or file_path contains '.jpg' or file_path contains '.jpeg' or file_path contains '.png' or file_path contains '.webp' %}
+                    {% if file_mime contains 'image'
+                      or file_path contains '.jpg'
+                      or file_path contains '.jpeg'
+                      or file_path contains '.png'
+                      or file_path contains '.webp'
+                    %}
                       {% comment %}Only render photos (not figures){% endcomment %}
                       {% unless file_title_lower contains 'figure' %}
                         {% if file_path | slice: 0, 1 == '/' %}
@@ -1241,7 +1292,14 @@
                         {% else %}
                           {% assign photo_url = file_path | prepend: '/assets/' | relative_url %}
                         {% endif %}
-                        <img src="{{ photo_url }}" alt="{{ file_title }}" class="gallery-image photo-thumbnail" data-gallery-type="photos" data-gallery-index="{{ photo_index }}" onclick="openGalleryModal(this)">
+                        <img
+                          src="{{ photo_url }}"
+                          alt="{{ file_title }}"
+                          class="gallery-image photo-thumbnail"
+                          data-gallery-type="photos"
+                          data-gallery-index="{{ photo_index }}"
+                          onclick="openGalleryModal(this)"
+                        >
                         {% assign photo_index = photo_index | plus: 1 %}
                       {% endunless %}
                     {% endif %}
@@ -1249,7 +1307,7 @@
                 {% endif %}
               {% endfor %}
             {% endif %}
-            
+
             {% if entry.photos %}
               {% assign photos_list = entry.photos | split: ',' %}
               {% for photo in photos_list %}
@@ -1258,7 +1316,14 @@
                   {% assign photo_lower = clean_photo | downcase %}
                   {% unless photo_lower contains 'thumbnail' %}
                     {% assign photo_url = clean_photo | prepend: '/assets/img/publications/' | relative_url %}
-                    <img src="{{ photo_url }}" alt="Photo" class="gallery-image photo-thumbnail" data-gallery-type="photos" data-gallery-index="{{ photo_index }}" onclick="openGalleryModal(this)">
+                    <img
+                      src="{{ photo_url }}"
+                      alt="Photo"
+                      class="gallery-image photo-thumbnail"
+                      data-gallery-type="photos"
+                      data-gallery-index="{{ photo_index }}"
+                      onclick="openGalleryModal(this)"
+                    >
                     {% assign photo_index = photo_index | plus: 1 %}
                   {% endunless %}
                 {% endif %}
@@ -1267,7 +1332,7 @@
           </div>
         </div>
       {% endif %}
-      
+
       <!-- Documents from file field -->
       {% if document_count > 0 %}
         <div class="documents hidden">
@@ -1281,10 +1346,10 @@
                   {% comment %}Use same robust parsing as document counting{% endcomment %}
                   {% assign first_colon = clean_part | split: ':' | first %}
                   {% assign after_first_colon = clean_part | remove_first: first_colon | remove_first: ':' %}
-                  
+
                   {% assign file_title = first_colon | strip %}
                   {% assign file_path_and_mime = after_first_colon | strip %}
-                  
+
                   {% comment %}Split path:mime by colon{% endcomment %}
                   {% if file_path_and_mime contains ':' %}
                     {% assign path_mime_split = file_path_and_mime | split: ':' %}
@@ -1294,7 +1359,7 @@
                     {% assign file_path = file_path_and_mime %}
                     {% assign file_mime = '' %}
                   {% endif %}
-                  
+
                   {% comment %}Infer MIME type from file extension if not provided{% endcomment %}
                   {% if file_mime == '' %}
                     {% assign file_ext = file_path | split: '.' | last | downcase %}
@@ -1312,9 +1377,9 @@
                       {% assign file_mime = 'text/plain' %}
                     {% endif %}
                   {% endif %}
-                  
+
                   {% assign file_title_lower = file_title | downcase %}
-                  
+
                   {% comment %}Skip thumbnails{% endcomment %}
                   {% unless file_title_lower contains 'thumbnail' %}
                     {% comment %}Only render documents - but exclude files already shown as main links{% endcomment %}
@@ -1350,14 +1415,14 @@
                         {% else %}
                           {% assign file_icon = 'fa-file' %}
                         {% endif %}
-                        
+
                         {% comment %}Build document URL{% endcomment %}
                         {% if file_path | slice: 0, 1 == '/' %}
                           {% assign doc_url = file_path | relative_url %}
                         {% else %}
                           {% assign doc_url = file_path | prepend: '/assets/' | relative_url %}
                         {% endif %}
-                        
+
                         <li>
                           <a href="{{ doc_url }}" target="_blank" rel="noopener" class="document-link">
                             <i class="fa-solid {{ file_icon }}"></i> {{ file_title }}
@@ -1372,14 +1437,14 @@
           </ul>
         </div>
       {% endif %}
-      
+
       <!-- Figures from file field -->
       {% if figure_count > 0 %}
         <div class="figures hidden">
           <div class="figures-label">Figures:</div>
           <div class="gallery-grid figures-grid">
             {% assign figure_index = 0 %}
-            
+
             {% if entry.file %}
               {% assign file_parts = entry.file | split: ';' %}
               {% for part in file_parts %}
@@ -1388,10 +1453,10 @@
                   {% comment %}Use same robust parsing as document counting{% endcomment %}
                   {% assign first_colon = clean_part | split: ':' | first %}
                   {% assign after_first_colon = clean_part | remove_first: first_colon | remove_first: ':' %}
-                  
+
                   {% assign file_title = first_colon | strip %}
                   {% assign file_path_and_mime = after_first_colon | strip %}
-                  
+
                   {% comment %}Split path:mime by colon{% endcomment %}
                   {% if file_path_and_mime contains ':' %}
                     {% assign path_mime_split = file_path_and_mime | split: ':' %}
@@ -1401,7 +1466,7 @@
                     {% assign file_path = file_path_and_mime %}
                     {% assign file_mime = '' %}
                   {% endif %}
-                  
+
                   {% comment %}Infer MIME type from file extension if not provided{% endcomment %}
                   {% if file_mime == '' %}
                     {% assign file_ext = file_path | split: '.' | last | downcase %}
@@ -1419,12 +1484,17 @@
                       {% assign file_mime = 'text/plain' %}
                     {% endif %}
                   {% endif %}
-                  
+
                   {% assign file_title_lower = file_title | downcase %}
-                  
+
                   {% comment %}Only render images, skip thumbnails, banners, logos{% endcomment %}
                   {% unless file_title_lower contains 'thumbnail' or file_title_lower contains 'banner' or file_title_lower contains 'logo' %}
-                    {% if file_mime contains 'image' or file_path contains '.jpg' or file_path contains '.jpeg' or file_path contains '.png' or file_path contains '.webp' %}
+                    {% if file_mime contains 'image'
+                      or file_path contains '.jpg'
+                      or file_path contains '.jpeg'
+                      or file_path contains '.png'
+                      or file_path contains '.webp'
+                    %}
                       {% comment %}Only render figures{% endcomment %}
                       {% if file_title_lower contains 'figure' %}
                         {% if file_path | slice: 0, 1 == '/' %}
@@ -1432,7 +1502,14 @@
                         {% else %}
                           {% assign figure_url = file_path | prepend: '/assets/' | relative_url %}
                         {% endif %}
-                        <img src="{{ figure_url }}" alt="{{ file_title }}" class="gallery-image figure-thumbnail" data-gallery-type="figures" data-gallery-index="{{ figure_index }}" onclick="openGalleryModal(this)">
+                        <img
+                          src="{{ figure_url }}"
+                          alt="{{ file_title }}"
+                          class="gallery-image figure-thumbnail"
+                          data-gallery-type="figures"
+                          data-gallery-index="{{ figure_index }}"
+                          onclick="openGalleryModal(this)"
+                        >
                         {% assign figure_index = figure_index | plus: 1 %}
                       {% endif %}
                     {% endif %}
@@ -1443,7 +1520,7 @@
           </div>
         </div>
       {% endif %}
-      
+
       <!-- Additional links from extra field and note field -->
       {% assign has_extra = entry.extra | to_s | strip | size | plus: 0 %}
       {% if has_extra > 0 %}
@@ -1468,7 +1545,7 @@
           {% endfor %}
         {% endif %}
       {% endif %}
-      
+
       <!-- Additional links from annote field [links] section (Zotero Notes export standard) -->
       {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
       {% if has_annote > 0 %}
@@ -1489,7 +1566,7 @@
           {% endfor %}
         {% endif %}
       {% endif %}
-      
+
       <!-- Check for quotes in block_quotes -->
       {% assign has_block_quotes = block_quotes | to_s | strip | size | plus: 0 %}
       {% assign has_quotes = false %}
@@ -1501,7 +1578,7 @@
           <i class="fa-solid fa-quote-left"></i>
         </a>
       {% endif %}
-      
+
       <!-- Quotes from block_quotes -->
       {% if has_quotes %}
         <div class="quotes hidden">
@@ -1522,7 +1599,7 @@
           </ul>
         </div>
       {% endif %}
-      
+
       <!-- Audio from annote field (Zotero Notes export standard) -->
       {% assign audio_content_for_button = '' %}
       {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
@@ -1532,7 +1609,7 @@
           {% assign audio_content_for_button = annote_text | split: '[audio]' | last | split: '[' | first | strip %}
         {% endif %}
       {% endif %}
-      
+
       {% if audio_content_for_button != '' %}
         {% assign audio_lines = audio_content_for_button | newline_to_br | split: '<br />' %}
         {% assign has_audio_content = false %}
@@ -1549,13 +1626,11 @@
           </a>
         {% endif %}
       {% endif %}
-      
-      
     </div>
-    
+
     <!-- Language Tags (separate from role tags) -->
     {% assign language_tags = '' | split: ',' %}
-    
+
     <!-- Check for language from annote field [language] section (Zotero Notes export standard) -->
     {% assign has_annote = entry.annote | to_s | strip | size | plus: 0 %}
     {% if has_annote > 0 %}
@@ -1578,16 +1653,15 @@
         {% endfor %}
       {% endif %}
     {% endif %}
-    
-      
-      {% if language_tags.size > 0 %}
-        <div class="all-tags">
-          {% for tag in language_tags %}
-            <a href="#{{ tag | downcase }}" class="tag" style="text-decoration: none; color: inherit;">{{ tag }}</a>
-          {% endfor %}
-        </div>
-      {% endif %}
-    
+
+    {% if language_tags.size > 0 %}
+      <div class="all-tags">
+        {% for tag in language_tags %}
+          <a href="#{{ tag | downcase }}" class="tag" style="text-decoration: none; color: inherit;">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% assign has_altmetric = entry.altmetric | to_s | strip | size | plus: 0 %}
@@ -1700,7 +1774,5 @@
         <pre><code class="language-bibtex">{{- entry.bibtex | hideCustomBibtex -}}</code></pre>
       </div>
     {% endif %}
-
-
   </div>
 </div>

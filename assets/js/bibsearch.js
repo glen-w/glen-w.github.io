@@ -53,13 +53,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const updateInputField = () => {
     // Check if this is a jump action - if so, don't use hash for search
     const urlParams = new URLSearchParams(window.location.search);
-    const action = urlParams.get('action');
-    
+    const action = urlParams.get("action");
+
     // If action=jump, skip hash-based search (hash is for scrolling, not searching)
-    if (action === 'jump') {
+    if (action === "jump") {
       return;
     }
-    
+
     const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
     if (hashValue) {
       document.getElementById("bibsearch").value = hashValue;

@@ -5,7 +5,6 @@ img: assets/img/collage/intense_spaces/ancient_landscape.jpg
 description:
 category: collage
 importance: 3
-
 ---
 
 {% if page.img %}

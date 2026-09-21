@@ -5,7 +5,6 @@ img: assets/img/collage/good_news/the_void.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

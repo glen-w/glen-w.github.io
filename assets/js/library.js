@@ -143,9 +143,7 @@
   }
 
   function kindForFilter(value) {
-    const chip = [...document.querySelectorAll(".library-filters [data-filter]")].find(
-      (el) => el.dataset.filter === value
-    );
+    const chip = [...document.querySelectorAll(".library-filters [data-filter]")].find((el) => el.dataset.filter === value);
     return chip ? chip.dataset.kind : "text";
   }
 
@@ -229,15 +227,7 @@
       return (item.langs || []).includes(state.value.toLowerCase());
     }
 
-    const haystack = [
-      item.title,
-      item.authors,
-      item.venue,
-      item.year,
-      item.type,
-      ...(item.roles || []),
-      ...(item.langs || []),
-    ]
+    const haystack = [item.title, item.authors, item.venue, item.year, item.type, ...(item.roles || []), ...(item.langs || [])]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
@@ -646,9 +636,7 @@
   function toggleMap() {
     const mapContainer = document.getElementById("libraryMapContainer");
     if (!mapContainer || !els.mapBtn) return;
-    const isHidden =
-      mapContainer.style.display === "none" ||
-      window.getComputedStyle(mapContainer).display === "none";
+    const isHidden = mapContainer.style.display === "none" || window.getComputedStyle(mapContainer).display === "none";
     if (isHidden) {
       mapContainer.style.display = "block";
       els.mapBtn.innerHTML = '<i class="fas fa-map-marker-alt" aria-hidden="true"></i> hide map';
@@ -676,8 +664,7 @@
 
       const clusterDefaultCSS = document.createElement("link");
       clusterDefaultCSS.rel = "stylesheet";
-      clusterDefaultCSS.href =
-        "https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css";
+      clusterDefaultCSS.href = "https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css";
       clusterDefaultCSS.crossOrigin = "anonymous";
       document.head.appendChild(clusterDefaultCSS);
     }
@@ -697,8 +684,7 @@
   function loadMarkerCluster() {
     if (!window.L.markerClusterGroup) {
       const clusterJS = document.createElement("script");
-      clusterJS.src =
-        "https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js";
+      clusterJS.src = "https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js";
       clusterJS.crossOrigin = "anonymous";
       clusterJS.onload = createLibraryMap;
       document.head.appendChild(clusterJS);
@@ -710,8 +696,7 @@
   function createLibraryMap() {
     libraryMap = window.L.map("libraryMap").setView([50.0, 10.0], 4);
     window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution:
-        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 18,
     }).addTo(libraryMap);
 

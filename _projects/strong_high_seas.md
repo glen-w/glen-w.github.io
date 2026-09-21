@@ -52,12 +52,14 @@ Work focused in particular on the **Southeast Pacific** and **Southeast Atlantic
 
 - **Direct policy impact**  
   STRONG High Seas contributed expert input to:
+
   - National BBNJ inter-ministerial dialogues (e.g. Peru, 2020)
   - Conferences of the Parties (COPs) of the Abidjan Convention
   - Development of African Union positions on BBNJ
 
 - **Regional stakeholder platforms**  
   Co-development of dedicated ABNJ stakeholder platforms:
+
   - Southeast Pacific: [abnj-pacifico.org](https://abnj-pacifico.org)
   - Southeast Atlantic: [highseas-abidjanconvention.org](https://highseas-abidjanconvention.org)
 
@@ -70,8 +72,8 @@ Work focused in particular on the **Southeast Pacific** and **Southeast Atlantic
 
 Areas beyond national jurisdiction are increasingly affected by:
 
-- Fishing and other extractive activities  
-- Shipping and pollution  
+- Fishing and other extractive activities
+- Shipping and pollution
 - Climate-driven changes (warming, acidification, deoxygenation)
 
 Because ABNJ ecosystems are **ecologically connected** to coastal waters, impacts in the high seas directly affect coastal communities and national economies. Existing governance arrangements remain fragmented, with limited coordination across sectoral and regional bodies.
@@ -95,10 +97,12 @@ Completed
 Institute for Advanced Sustainability Studies (IASS) e.V.
 
 **Political partners**
+
 - Permanent Commission for the South Pacific (CPPS)
 - Secretariat of the Abidjan Convention (Côte d’Ivoire)
 
 **Implementing partners**
+
 - BirdLife International (UK)
 - IDDRI – Institute for Sustainable Development and International Relations (France)
 - International Ocean Institute – Southern Africa

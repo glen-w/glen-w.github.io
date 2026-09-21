@@ -52,8 +52,7 @@ As usual, the academic twittersphere did not disappoint! A hundred or so tweets 
 > Conference forming on Hawaii's big island. Outlook good for PI's mood. 100% chance of email delays. [#AcademicForecast](https://twitter.com/hashtag/AcademicForecast?src=hash) — Andrew Davis (@weemadandrew) [April 27, 2015](https://twitter.com/weemadandrew/status/592690807142019074)
 
 > Heavy showers of rain after the manuscript is rejected; freezing rain till resubmission
-> [#AcademicForecast](https://twitter.com/hashtag/AcademicForecast?src=hash)
-> [@AcademiaObscura](https://twitter.com/AcademiaObscura)
+> [#AcademicForecast](https://twitter.com/hashtag/AcademicForecast?src=hash) > [@AcademiaObscura](https://twitter.com/AcademiaObscura)
 
 — blue_and_black (@blue_and_black1) [April 27, 2015](https://twitter.com/blue_and_black1/status/592797791325396993)
 

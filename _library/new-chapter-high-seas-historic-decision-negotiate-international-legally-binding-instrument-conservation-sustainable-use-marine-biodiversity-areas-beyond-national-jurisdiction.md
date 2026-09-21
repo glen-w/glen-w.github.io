@@ -3,9 +3,9 @@ layout: library-item
 title: A new chapter for the high seas? Historic decision to negotiate an international
   legally binding instrument on the conservation and sustainable use of marine biodiversity
   in areas beyond national jurisdiction
-date: '2015-01-01'
+date: "2015-01-01"
 entry_type: Report
-year: '2015'
+year: "2015"
 bibtex_key: Rochette2015
 is_event: false
 description: Marine areas beyond national jurisdiction (ABNJ) represent around half
@@ -35,31 +35,31 @@ abstract: Marine areas beyond national jurisdiction (ABNJ) represent around half
   under UNCLOS. This paper presents the discussions leading up to the decisive third
   mee
 categories:
-- other
+  - other
 authors:
-- Julien Rochette
-- Glen Wright
-- Kristina Gjerde
-- Thomas Greiber
-- Sebastian Unger
-- Aurelie Spadone
+  - Julien Rochette
+  - Glen Wright
+  - Kristina Gjerde
+  - Thomas Greiber
+  - Sebastian Unger
+  - Aurelie Spadone
 venue: IDDRI
 institution: IDDRI
 role: co-author
 preview: 2015_new_chapter_high_seas_historic_decision_negotiate_international_legally_binding_instrument_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction
 pdf: 2015_new_chapter_high_seas_historic_decision_negotiate_international_legally_binding_instrument_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
-pages: '4'
+pages: "4"
 resources:
-- kind: pdf
-  title: A new chapter for the high seas? Historic decision to negotiate an international
-    legally binding instrument on the conservation and sustainable use of marine biodiversity
-    in areas beyond national jurisdiction
-  label: View report PDF
-  url: /assets/pdf/2015_new_chapter_high_seas_historic_decision_negotiate_international_legally_binding_instrument_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
+  - kind: pdf
+    title: A new chapter for the high seas? Historic decision to negotiate an international
+      legally binding instrument on the conservation and sustainable use of marine biodiversity
+      in areas beyond national jurisdiction
+    label: View report PDF
+    url: /assets/pdf/2015_new_chapter_high_seas_historic_decision_negotiate_international_legally_binding_instrument_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
 ---
 
 ## Notes

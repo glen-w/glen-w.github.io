@@ -8,7 +8,13 @@
 
 {% if resources_count > 0 %}
   {% for resource in resources %}
-    {% if resource.local or resource.kind == 'pdf' or resource.kind == 'agenda' or resource.kind == 'slides' or resource.kind == 'poster' or resource.kind == 'zip' %}
+    {% if resource.local
+      or resource.kind == 'pdf'
+      or resource.kind == 'agenda'
+      or resource.kind == 'slides'
+      or resource.kind == 'poster'
+      or resource.kind == 'zip'
+    %}
       {% assign materials_count = materials_count | plus: 1 %}
     {% endif %}
   {% endfor %}
@@ -34,7 +40,13 @@
     <h2 id="library-materials-heading">Materials</h2>
     <ul class="library-materials-list">
       {% for resource in resources %}
-        {% if resource.local or resource.kind == 'pdf' or resource.kind == 'agenda' or resource.kind == 'slides' or resource.kind == 'poster' or resource.kind == 'zip' %}
+        {% if resource.local
+          or resource.kind == 'pdf'
+          or resource.kind == 'agenda'
+          or resource.kind == 'slides'
+          or resource.kind == 'poster'
+          or resource.kind == 'zip'
+        %}
           {% assign item_href = resource.url %}
           {% unless item_href contains '://' %}
             {% assign item_href = resource.url | relative_url %}
@@ -50,7 +62,9 @@
               <a
                 href="{{ item_href }}"
                 class="library-materials-thumb-link"
-                {% if resource.local or item_href contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}
+                {% if resource.local or item_href contains '://' %}
+                  target="_blank" rel="noopener noreferrer"
+                {% endif %}
               >
                 <img
                   class="library-materials-thumb"
@@ -74,7 +88,16 @@
                 {% if resource.subtitle %}
                   {{ resource.subtitle }}
                 {% else %}
-                  {{ resource.format }}{% if resource.kind == 'agenda' %} · Agenda{% elsif resource.kind == 'slides' %} · Slides{% elsif resource.kind == 'poster' %} · Poster{% elsif resource.primary %} · Primary document{% endif %}
+                  {{ resource.format -}}
+                  {%- if resource.kind == 'agenda' %}
+                    · Agenda
+                  {%- elsif resource.kind == 'slides' %}
+                    · Slides
+                  {%- elsif resource.kind == 'poster' %}
+                    · Poster
+                  {%- elsif resource.primary %}
+                    · Primary document
+                  {%- endif %}
                 {% endif %}
               </div>
               <div class="library-materials-links">

@@ -129,7 +129,10 @@ html[data-personality="off"] {
 // Scoped to content so nav, buttons, and headings are untouched.
 // ---------------------------------------------------------------------------
 
-.post a:not(.btn):not(.nav-link):not(.navbar-brand):not(.badge):not(.tag):not(.dropdown-item):not(.clear-filters-link):not(.view-map-link):not(.read-more-toggle),
+.post
+  a:not(.btn):not(.nav-link):not(.navbar-brand):not(.badge):not(.tag):not(.dropdown-item):not(.clear-filters-link):not(.view-map-link):not(
+    .read-more-toggle
+  ),
 article a:not(.btn):not(.nav-link):not(.badge):not(.tag):not(.read-more-toggle) {
   text-decoration: underline dotted;
   text-decoration-color: var(--global-theme-color);

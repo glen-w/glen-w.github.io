@@ -3,7 +3,7 @@ layout: page
 title: RENWEB
 description: A comprehensive platform for REN21's renewable energy and policy data
 img: /assets/img/projects/thumbs/ren21_icon.jpg
-importance: 
+importance:
 category: archive
 hidden: true
 related_publications: false

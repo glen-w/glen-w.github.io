@@ -41,6 +41,7 @@ Specifies the type/category of the entry. Can be any value, but common types inc
 **Format**: Single line after `[type]` marker
 
 **Example**:
+
 ```
 [type]
 Webinar
@@ -53,6 +54,7 @@ Webinar
 Specifies the author's role(s) in the work. Multiple roles can be specified, one per line.
 
 **Valid Roles**:
+
 - attendee
 - co-author
 - contributor
@@ -74,6 +76,7 @@ Specifies the author's role(s) in the work. Multiple roles can be specified, one
 **Format**: One role per line after `[role]` marker
 
 **Example**:
+
 ```
 [role]
 moderator
@@ -93,6 +96,7 @@ Specifies the language(s) of the work. Currently supports:
 **Format**: One language per line after `[language]` marker
 
 **Example**:
+
 ```
 [language]
 french
@@ -131,15 +135,18 @@ This is the abstract text...
 ## Processing Flow
 
 1. **Zotero Export**: Export bibliography from Zotero as BibTeX
+
    - The Notes field becomes the `annote` field in BibTeX
    - Tags are preserved exactly as entered
 
 2. **Processing**: Run `processing/main.py`
+
    - Tags are extracted from `annote`/`note` fields
    - Tags are also added to `keywords` field for backward compatibility
    - All roles and languages are extracted (not just first)
 
 3. **Filter Generation**: Dynamic filters are generated
+
    - Entry types, roles, and languages are collected
    - `_data/dynamic_filters.yml` is generated
 
@@ -171,6 +178,7 @@ This is the abstract text...
 ### 4. Validation
 
 The system validates:
+
 - Entry types: Any value accepted
 - Roles: Only recognized roles are used (others ignored)
 - Languages: Only french, spanish, chinese are recognized
@@ -209,6 +217,7 @@ If you have existing entries with tags in the `keywords` field:
 ### Tag Extraction
 
 Tags are extracted using the unified `TagExtractor` class:
+
 - Location: `processing/core/tag_extractor.py`
 - Used by: `notes_processor.py`, `dynamic_filters.py`
 - Format: Preserves Zotero format exactly
@@ -222,6 +231,7 @@ Tags are extracted using the unified `TagExtractor` class:
 ### Storage
 
 Tags are stored in two places:
+
 1. **Notes/Annote Fields**: Primary source (preserves Zotero format)
 2. **Keywords Field**: Secondary source (for backward compatibility)
 
@@ -230,12 +240,14 @@ The system prioritizes notes/annote fields over keywords field.
 ## Examples
 
 ### Journal Article
+
 ```
 [type]
 Journal Article
 ```
 
 ### Conference Paper with Role
+
 ```
 [type]
 Conference Paper
@@ -245,6 +257,7 @@ presenter
 ```
 
 ### Multilingual Work
+
 ```
 [type]
 Report
@@ -255,6 +268,7 @@ spanish
 ```
 
 ### Webinar with Multiple Roles
+
 ```
 [type]
 Webinar
@@ -270,5 +284,3 @@ Speaker 2
 [video]
 https://www.youtube.com/watch?v=example
 ```
-
-

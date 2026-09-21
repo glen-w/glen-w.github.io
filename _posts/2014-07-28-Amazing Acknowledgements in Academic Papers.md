@@ -17,10 +17,9 @@ Perhaps the boldest of all comes from a group of French researchers, who "do not
 
 ![Don't sleep in late.](../assets/img/posts/140728_Amazing_Acknowledgements_in_Academic_Papers_05.jpg)
 
-Academics are not generally an aggressive bunch, and many of these hidden acknowledgments are a little more light-hearted. One Kara Miller at Oxford is called out for [sleeping in late](www.sciencedirect.com/science/article/pii/S136466131200246X), selfishly leaving a couple of the authors bored. Biyu J., a Chinese researcher based in the US thanked:
+Academics are not generally an aggressive bunch, and many of these hidden acknowledgments are a little more light-hearted. One Kara Miller at Oxford is called out for [sleeping in late](https://www.sciencedirect.com/science/article/pii/S136466131200246X), selfishly leaving a couple of the authors bored. Biyu J., a Chinese researcher based in the US thanked:
 
-> _the U.S. Immigration Service under the Bush administration, whose visa background security check forced her to spend two months (followi[
-> ](../assets/img/posts/140728_Amazing_Acknowledgements_in_Academic_Papers_06.jpg)ng an international conference) in a third country, free of routine obligations—it was during this time that the hypothesis presented herein was initially conjectured._
+> _the U.S. Immigration Service under the Bush administration, whose visa background security check forced her to spend two months (followi[ > ](../assets/img/posts/140728_Amazing_Acknowledgements_in_Academic_Papers_06.jpg)ng an international conference) in a third country, free of routine obligations—it was during this time that the hypothesis presented herein was initially conjectured._
 
 ![Tut tut Ministry of University and Research](../assets/img/posts/140728_Amazing_Acknowledgements_in_Academic_Papers_04.jpg)
 

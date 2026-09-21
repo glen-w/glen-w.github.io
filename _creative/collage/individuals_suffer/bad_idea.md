@@ -5,7 +5,6 @@ img: assets/img/collage/individuals_suffer/bad_idea.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

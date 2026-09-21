@@ -5,7 +5,6 @@ img: assets/img/collage/esc/return.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

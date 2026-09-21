@@ -5,7 +5,6 @@ img: assets/img/collage/intense_spaces/dead_people_dont_move.jpg
 description:
 category: collage
 importance: 5
-
 ---
 
 {% if page.img %}

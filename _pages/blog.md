@@ -182,6 +182,7 @@ pagination:
         </div>
       {% endif %}
     </li>
+
 {% endif %}
 {% endfor %}
 

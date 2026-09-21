@@ -5,7 +5,6 @@ img: assets/img/collage/intense_spaces/intense_spaces.jpg
 description:
 category: collage
 importance: 1
-
 ---
 
 {% if page.img %}

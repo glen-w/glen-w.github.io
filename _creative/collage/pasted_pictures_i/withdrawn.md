@@ -5,7 +5,6 @@ img: assets/img/collage/pasted_pictures_i/withdrawn.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

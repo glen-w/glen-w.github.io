@@ -5,7 +5,6 @@ img: assets/img/collage/one_pretends/death_is_inevitable.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

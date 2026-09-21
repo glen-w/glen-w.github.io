@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: Historic UN talks could save the high seas
-date: '2016-08-01'
+date: "2016-08-01"
 entry_type: Journal article
-year: '2016'
+year: "2016"
 bibtex_key: wrightHistoricTalksCould2016
 is_event: false
 description: Since the adoption of the United Nations (UN) Convention on the Law of
@@ -31,10 +31,10 @@ abstract: Since the adoption of the United Nations (UN) Convention on the Law of
   text.6 The PrepCom is to report to the UNGA, which will then decide by September
   2018 on the convening and starting date of an intergovernmental conference.
 categories:
-- other
+  - other
 authors:
-- Glen Wright
-- Julien Rochette
+  - Glen Wright
+  - Julien Rochette
 venue: Australian Environment Review
 role: lead author
 preview: glen_wright_etal_2016_historic_un_talks_save_high_seas
@@ -42,20 +42,19 @@ pdf: glen_wright_etal_2016_historic_un_talks_save_high_seas.pdf
 url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
 pages: 164--167
 resources:
-- kind: pdf
-  title: Historic UN talks could save the high seas
-  label: View primary document
-  url: /assets/pdf/glen_wright_etal_2016_historic_un_talks_save_high_seas.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: Visit Australian Environment Review publication page
-  label: Visit Australian Environment Review publication page
-  url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: Historic UN talks could save the high seas
+    label: View primary document
+    url: /assets/pdf/glen_wright_etal_2016_historic_un_talks_save_high_seas.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: Visit Australian Environment Review publication page
+    label: Visit Australian Environment Review publication page
+    url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
+    format: Web
+    local: false
+    external: true
 ---
-

@@ -32,6 +32,7 @@ render_with_liquid: false #turned off so as to not break on render
 **Current State**: When a single bibliographic entry has multiple PDFs (e.g., different language versions), the system appends sequential suffixes (`_a`, `_b`, `_c`) to the base English filename to avoid collisions.
 
 **Planned Enhancement**: Improve handling of multilingual publications:
+
 - [ ] **Language-aware filename generation** - Generate filenames using the actual language of each PDF (e.g., Spanish title for Spanish version, French title for French version)
 - [ ] **Enhanced library page rendering** - Better visual delineation of language variants on the library page (e.g., language badges, grouped display, language selector)
 - [ ] **Language detection** - Automatically detect PDF language from metadata or content
@@ -39,6 +40,7 @@ render_with_liquid: false #turned off so as to not break on render
 - [ ] **Improved user experience** - Make it clear when multiple language versions are available and allow easy switching between them
 
 **Use Cases**:
+
 - Publications with Spanish, French, and English versions should have filenames reflecting their actual language
 - Library page should clearly show when multiple language versions exist
 - Users should be able to easily identify and access their preferred language version
@@ -70,6 +72,7 @@ render_with_liquid: false #turned off so as to not break on render
 **Current State**: Library page filters are non-cumulative - only one filter can be active at a time. Users cannot combine filters (e.g., "Conferences where I've facilitated" or "Workshops I've organized").
 
 **Planned Enhancement**: Refactor the filter engine to support cumulative/multi-select filtering:
+
 - [ ] **Refactor filter state management** - Track multiple active filters across categories (entry types, roles, languages)
 - [ ] **Implement toggle behavior** - Allow users to activate/deactivate multiple filters simultaneously
 - [ ] **Update filtering logic** - Apply AND logic so items must match all active filters
@@ -78,6 +81,7 @@ render_with_liquid: false #turned off so as to not break on render
 - [ ] **Maintain backward compatibility** - Ensure single-filter behavior still works correctly
 
 **Use Cases**:
+
 - Filter by "Conference" (entry type) + "facilitator" (role) to find conferences where user facilitated
 - Filter by "Workshop" (entry type) + "organiser" (role) to find workshops user organized
 - Combine any entry type with role or language tags for precise filtering
@@ -89,6 +93,7 @@ render_with_liquid: false #turned off so as to not break on render
 **Follow-ups** — only if measurement says so:
 
 ##### Cut remaining cost
+
 - [ ] **Paginate or "load more"** — not needed while the JSON list stays small
 - [ ] **Virtual scrolling** — measure first; skipped this pass
 - [x] **Slim list template** — abstracts, galleries, and badges are off the index
@@ -96,6 +101,7 @@ render_with_liquid: false #turned off so as to not break on render
 - [x] **JSON index + client render** — list JSON + one details JSON; filters stay client-side
 
 ##### Defer non-critical JS / third parties
+
 - [x] **Altmetric / Dimensions / Scholar badges** — not on list cards (still on `/library/:name/`)
 - [x] **Keep Leaflet / map code off the critical path** until "view map" is clicked
 - [x] **Move large inline library page scripts** into deferred `assets/js/library.js`

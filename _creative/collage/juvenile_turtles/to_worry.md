@@ -5,7 +5,6 @@ img: assets/img/collage/juvenile_turtles/to_worry.jpg
 description:
 category: collage
 importance: 9
-
 ---
 
 {% if page.img %}

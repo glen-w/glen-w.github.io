@@ -5,7 +5,6 @@ img: assets/img/collage/generally_uncanny/in_the_context.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

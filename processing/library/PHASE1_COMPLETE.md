@@ -3,6 +3,7 @@
 ## What's Been Implemented
 
 ### ✅ Folder Structure Created
+
 ```
 _library/                          # Generated markdown pages
 processing/library/                # Python generation scripts
@@ -24,18 +25,21 @@ assets/
 ```
 
 ### ✅ Core Python Scripts
+
 - **`generate_library_pages.py`**: Main script with `--test` flag functionality
 - **`bib_parser.py`**: Comprehensive BibTeX parsing utilities
 - **`content_generator.py`**: Markdown content and front matter generation
 - **`test_generator.py`**: Test suite for validation
 
 ### ✅ Jekyll Integration
+
 - **`library-item.liquid`**: Complete Jekyll layout with styling
 - Responsive design for mobile and desktop
 - Print-friendly styles
 - Clean, professional appearance
 
 ### ✅ Test Mode Functionality
+
 - Finds 5 most recent entries by year in `papers.bib`
 - Successfully processes and generates markdown pages
 - Validates file creation and content structure
@@ -43,6 +47,7 @@ assets/
 ## Generated Sample Pages
 
 ### Test Results
+
 ```
 Test mode: Processing 5 most recent entries
 - Renewables 2025 Global Status Report: Global Overview (2025) - techreport
@@ -59,7 +64,9 @@ Test mode: Processing 5 most recent entries
 ```
 
 ### Page Structure
+
 Each generated page includes:
+
 - **YAML Front Matter**: Complete metadata including title, date, authors, tags, etc.
 - **Abstract Section**: Full abstract from BibTeX entry
 - **Publication Details**: Authors, venue, year, location, etc.
@@ -70,21 +77,25 @@ Each generated page includes:
 ## How to Use
 
 ### 1. Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 2. Test the Setup
+
 ```bash
 python test_generator.py
 ```
 
 ### 3. Generate Pages (Test Mode)
+
 ```bash
 python generate_library_pages.py --test
 ```
 
 ### 4. Generate All Pages
+
 ```bash
 python generate_library_pages.py
 ```
@@ -92,12 +103,15 @@ python generate_library_pages.py
 ## Next Steps (Phase 2)
 
 ### Immediate Next Steps
+
 1. **Add Jekyll Collection Configuration**
+
    - Update `_config.yml` to include library collection
    - Add navigation menu item
    - Test Jekyll build process
 
 2. **Enhance Content Generation**
+
    - Improve author formatting
    - Add better venue detection
    - Enhance keyword categorization
@@ -108,6 +122,7 @@ python generate_library_pages.py
    - Add print styles
 
 ### Future Phases
+
 - **Phase 3**: PDF embedding and image galleries
 - **Phase 4**: Social sharing and posting features
 - **Phase 5**: Search, filtering, and automation
@@ -116,12 +131,14 @@ python generate_library_pages.py
 ## Files Ready for Next Phase
 
 ### JavaScript Placeholders
+
 - `assets/js/library/sharing.js` - Ready for share panel
 - `assets/js/library/pdf-viewer.js` - Ready for PDF embedding
 - `assets/js/library/gallery.js` - Ready for image gallery
 - `assets/js/library/social-posting.js` - Ready for social posting
 
 ### CSS Placeholders
+
 - `assets/css/library/library-pages.scss` - Ready for main styles
 - `assets/css/library/sharing.scss` - Ready for share panel styles
 - `assets/css/library/pdf-viewer.scss` - Ready for PDF viewer styles
@@ -141,17 +158,20 @@ python generate_library_pages.py
 ## Technical Notes
 
 ### Dependencies
+
 - `bibtexparser` - BibTeX parsing
 - `python-dateutil` - Date handling
 - `python-slugify` - URL-friendly slugs
 - `PyYAML` - YAML front matter generation
 
 ### File Naming Convention
+
 - Format: `YYMMDD_title-slug.md`
 - Example: `250401_global-alliance-for-buildings-and-construction-glo.md`
 - Follows user's preferred naming convention
 
 ### Error Handling
+
 - Graceful handling of missing fields
 - Fallback values for required metadata
 - Comprehensive error messages
@@ -160,6 +180,7 @@ python generate_library_pages.py
 ## Ready for Production
 
 The basic scaffolding is complete and ready for use. The system can:
+
 1. Parse BibTeX files accurately
 2. Generate well-structured markdown pages
 3. Create proper Jekyll layouts

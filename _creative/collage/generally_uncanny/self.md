@@ -5,7 +5,6 @@ img: assets/img/collage/generally_uncanny/self.jpg
 description:
 category: collage
 importance: 2
-
 ---
 
 {% if page.img %}

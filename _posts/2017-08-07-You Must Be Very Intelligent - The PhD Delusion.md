@@ -23,7 +23,7 @@ I nonetheless saw stuff that was dramatically dark, barking mad and hilariously 
 
     It was an education. And it taught me to be wary of education.
 
-Karin kindly agreed to share a couple of chapters, including the all-important [Chapter One](..../assets/img/posts/170807_You_Must_Be_Very_Intelligent_-_The_PhD_Delusion_01.pdf), and [Chapter 35](..../assets/img/posts/170807_You_Must_Be_Very_Intelligent_-_The_PhD_Delusion_03.pdf) (look out for the surprisingly saucy illustration of academic ''collaboration"!).
+Karin kindly agreed to share a couple of chapters, including the all-important [Chapter One](../assets/img/posts/170807_You_Must_Be_Very_Intelligent_-_The_PhD_Delusion_01.pdf), and [Chapter 35](../assets/img/posts/170807_You_Must_Be_Very_Intelligent_-_The_PhD_Delusion_03.pdf) (look out for the surprisingly saucy illustration of academic ''collaboration"!).
 
 **Karin Bodewits** has a PhD in Biology from the University of Edinburgh. In 2012, she co-founded the company NaturalScience.Careers. She published her first book, a career guide for female natural scientists, in 2015, and just won the Science Slam in Munich. She writes short stories, career columns and opinion pieces for magazines like Chemistry World and Naturejobs.
 
