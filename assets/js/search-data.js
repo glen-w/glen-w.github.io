@@ -4255,6 +4255,11 @@ ninja.data = [{
           description: "Get a crossword published by the New York Times",
           section: "Projects",handler: () => {
               window.location.href = "/projects/crossword/";
+            },},{id: "projects-cursor-commands",
+          title: 'cursor-commands',
+          description: "Reusable Cursor slash commands for backup, tests, and a local pre-release check.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cursor-commands/";
             },},{id: "projects-data-dumps",
           title: 'data dumps',
           description: "Ingest your own GDPR and app exports into DuckDB, then explore them locally.",
