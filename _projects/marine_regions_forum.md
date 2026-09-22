@@ -5,6 +5,7 @@ description: Achieving a Healthy Ocean – Regional Ocean Governance Beyond 2020
 img: /assets/img/projects/thumbs/marine_regions_forum_logo.png
 importance:
 category: archive
+website: https://www.prog-ocean.org/marine-regions-forum/
 ---
 
 <div align="center">

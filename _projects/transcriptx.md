@@ -7,6 +7,7 @@ importance: 5
 category: ongoing
 github: https://github.com/glen-w/TranscriptX
 website: https://glenwright.earth/TranscriptX/
+docs: https://glenwright.earth/TranscriptX/guide/
 ---
 
 <div align="center">

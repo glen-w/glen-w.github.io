@@ -18,6 +18,7 @@ vendor/**
 .bundle/**
 .jekyll-cache/**
 sandbox/**
+assessments/**
 **/__pycache__/**
 **/*conflicted copy*
 assets/json/library.json

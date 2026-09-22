@@ -6,6 +6,7 @@ img: /assets/img/projects/thumbs/rollup.png
 importance: 6
 category: ongoing
 github: https://github.com/glen-w/rollup
+docs: https://glenwright.earth/rollup/guide/
 ---
 
 <div align="center">

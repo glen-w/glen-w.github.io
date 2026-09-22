@@ -7,6 +7,7 @@ importance: 5
 category: ongoing
 github: https://github.com/glen-w/Paperful
 website: https://glenwright.earth/Paperful/
+docs: https://glenwright.earth/Paperful/guide/
 ---
 
 <div align="center">

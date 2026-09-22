@@ -5,7 +5,6 @@ description: The hidden silly side of higher education
 img: /assets/img/projects/thumbs/academia_obscura_cover.jpg
 importance:
 category: ongoing
-github: https://github.com/glen-w/academia_obscura
 website: https://academiaobscura.com
 shop: https://www.amazon.com/Academia-Obscura-Hidden-Higher-Education/dp/1783526947
 ---

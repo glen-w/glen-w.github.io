@@ -13,6 +13,9 @@ vendor
 .idea
 # Cursor slash commands (local)
 .cursor/commands/
+
+# Local fork assessment (linked from Untangle; not site content)
+assessments/
 backups/
 archive/
 templates/
