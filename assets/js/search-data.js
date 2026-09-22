@@ -5273,6 +5273,11 @@ ninja.data = [{
           description: "Achieving a Healthy Ocean – Regional Ocean Governance Beyond 2020",
           section: "Projects",handler: () => {
               window.location.href = "/projects/marine_regions_forum/";
+            },},{id: "projects-ocean-webinars",
+          title: 'Ocean webinars',
+          description: "A collaborative spreadsheet listing of ocean webinars to watch at your leisure",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ocean_webinars/";
             },},{id: "projects-paperful",
           title: 'Paperful',
           description: "Fill the gaps in your Zotero library.",
@@ -5308,6 +5313,16 @@ ninja.data = [{
           description: "Strengthening Regional Ocean Governance for Areas Beyond National Jurisdiction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/strong_high_seas/";
+            },},{id: "projects-tiny-bunnyscape",
+          title: 'tiny_bunnyscape',
+          description: "A tiny bunnyscape to brighten your day",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tiny_bunnyscape/";
+            },},{id: "projects-tiny-seascape",
+          title: 'tiny seascape',
+          description: "A little splash of the big blue, every couple of hours",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tiny_seascape/";
             },},{id: "projects-transcribe",
           title: 'Transcribe',
           description: "Handwritten notebooks to text you keep, on your machine.",
