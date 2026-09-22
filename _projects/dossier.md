@@ -6,6 +6,7 @@ img: /assets/img/projects/thumbs/dossier_logo.png
 wordmark: true
 importance: 9
 category: ongoing
+github: https://github.com/glen-w/Dossier
 ---
 
 <div align="center">
@@ -18,4 +19,4 @@ Dossier is a private locker for that. It mints claim cards with citations, and a
 
 Sources are ones I turn on. Built-in phrase lists drop obvious noise. I add or turn phrases off from the workbench, without editing code. Local models are the default. How hard they try is one switch: light, balanced, or high. Cloud is a choice with a warning. Work mail does not leave the machine by default.
 
-The same commands run in the terminal or in a loopback workbench on this machine. It is still private.
+The same commands run in the terminal or in a loopback workbench on this machine. The code is on [GitHub](https://github.com/glen-w/Dossier). Records stay on the machine that runs it.

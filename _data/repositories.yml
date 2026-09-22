@@ -11,6 +11,12 @@ github_repos:
     description: Copy-in Cursor slash-command templates for backup, tests, and a local pre-release check. Fill per product; keep filled copies local.
     url: /projects/cursor-commands/
     url_label: Project page
+  - repo: glen-w/Dossier
+    name: Dossier
+    img: /assets/img/projects/thumbs/dossier_logo.png
+    description: Local-first locker for professional evidence. Records become cited claim cards, or the claim is refused.
+    url: /projects/dossier/
+    url_label: Project page
   - repo: glen-w/data_dumps
     name: Data Dumps
     img: /assets/img/projects/thumbs/data_dumps.png
