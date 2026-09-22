@@ -5,6 +5,7 @@ description: A splash of uplifting ocean stuff, lovingly curated by young ocean 
 img: /assets/img/projects/thumbs/little_blue_letter_logo.png
 importance:
 category: ongoing
+website: https://glenwright.earth/little-blue-letter/
 ---
 
 <div align="center">
