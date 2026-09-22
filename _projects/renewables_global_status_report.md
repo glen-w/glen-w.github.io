@@ -10,8 +10,8 @@ website: https://www.ren21.net/reports/global-status-report/
 
 <div align="center">
   <img src="/assets/img/projects/thumbs/ren21_renewables_global_status_report.png"
-       alt="Covers of the Renewables Global Status Report, 2020, 2021, and 2022"
-       width="560"/>
+       alt="Cover of the Renewables 2025 Global Status Report, Global Overview"
+       width="520"/>
 </div>
 
 Renewable energy progress was scattered across datasets, countries, and sectors. There was no single annual picture that people in very different places had actually built together.
