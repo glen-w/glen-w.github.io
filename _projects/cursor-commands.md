@@ -5,6 +5,7 @@ description: Reusable Cursor slash commands for backup, tests, and a local pre-r
 img: /assets/img/projects/thumbs/cursor_commands.png
 importance: 3
 category: ongoing
+hidden: true
 github: https://github.com/glen-w/cursor-commands
 ---
 
