@@ -196,10 +196,14 @@
 {% endif %}
 
 {% if site.enable_umami %}
+  {% assign umami_id = page.umami_website_id | default: site.umami_website_id %}
+  {% if page.categories contains "Little Blue Letter" %}
+    {% assign umami_id = "81f9fc36-a66c-405b-9543-ef9b9fb08c70" %}
+  {% endif %}
   <script
     defer
     src="{{ site.umami_src }}"
-    data-website-id="{{ site.umami_website_id }}"
+    data-website-id="{{ umami_id }}"
   ></script>
 {% endif %}
 

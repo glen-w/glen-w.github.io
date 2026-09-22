@@ -5,6 +5,7 @@ permalink: /little-blue-letter/
 description: A splash of uplifting ocean stuff, lovingly curated by young ocean leaders & shipped straight to your inbox every Friday.
 nav: false
 nav_order: 46
+umami_website_id: 81f9fc36-a66c-405b-9543-ef9b9fb08c70
 _styles: |
   .lbl-home { text-align: center; }
   .lbl-home img { width: 220px; height: auto; }
