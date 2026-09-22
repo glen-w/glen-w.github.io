@@ -8,9 +8,42 @@ layout: default
   </style>
 {% endif %}
 
+{% assign page_body = content %}
+{% assign project_logo = '' %}
+{% if page.collection == 'projects' %}
+  {% comment %}
+    The opening centered image is the project logo. Hoist it above the title.
+    wordmark: true means that image already contains the name.
+  {% endcomment %}
+  {% assign trimmed = content | strip %}
+  {% assign logo_parts = trimmed | split: '</div>' %}
+  {% assign logo_head = logo_parts | first | strip %}
+  {% assign logo_prefix = logo_head | slice: 0, 20 %}
+  {% if logo_prefix == '<div align="center">' %}
+    {% capture project_logo %}
+      <div class="project-logo"{% if page.wordmark %} aria-hidden="true"{% endif %}>
+        {{ logo_head | remove: '<div align="center">' }}
+      </div>
+    {% endcapture %}
+    {% assign page_body = '' %}
+    {% for part in logo_parts %}
+      {% unless forloop.first %}
+        {% assign page_body = page_body | append: part %}
+        {% unless forloop.last %}
+          {% assign page_body = page_body | append: '</div>' %}
+        {% endunless %}
+      {% endunless %}
+    {% endfor %}
+    {% assign page_body = page_body | strip %}
+  {% endif %}
+{% endif %}
+
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    {% if project_logo != '' %}
+      {{ project_logo }}
+    {% endif %}
+    <h1 class="post-title{% if page.wordmark and project_logo != '' %} sr-only{% endif %}">{{ page.title }}</h1>
     <p class="post-description{% if page.collection == 'projects' %} project-pitch{% endif %}">{{ page.description }}</p>
     {% if page.collection == 'projects' %}
       {% assign project = page %}
@@ -18,8 +51,8 @@ layout: default
     {% endif %}
   </header>
 
-  <article>
-    {{ content }}
+  <article{% if page.collection == 'projects' %} class="project-page"{% endif %}>
+    {{ page_body }}
   </article>
 
   {% if page.related_publications %}

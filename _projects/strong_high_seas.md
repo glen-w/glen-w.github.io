@@ -3,6 +3,7 @@ layout: page
 title: STRONG High Seas
 description: Strengthening Regional Ocean Governance for Areas Beyond National Jurisdiction
 img: /assets/img/projects/thumbs/strong_high_seas_logo.png
+wordmark: true
 importance:
 category: archive
 website: https://www.prog-ocean.org/our-work/strong-high-seas/

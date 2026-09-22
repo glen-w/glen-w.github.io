@@ -3,6 +3,7 @@ layout: page
 title: Rollup
 description: Your newsletters, rolled up into one readable weekly briefing.
 img: /assets/img/projects/thumbs/rollup.png
+wordmark: true
 importance: 6
 category: ongoing
 github: https://github.com/glen-w/rollup

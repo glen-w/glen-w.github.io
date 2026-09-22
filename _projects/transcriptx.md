@@ -3,6 +3,7 @@ layout: page
 title: TranscriptX
 description: A local-first transcript analysis toolkit
 img: /assets/img/projects/thumbs/transcriptx_logo.png
+wordmark: true
 importance: 5
 category: ongoing
 github: https://github.com/glen-w/TranscriptX

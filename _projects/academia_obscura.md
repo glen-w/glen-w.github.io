@@ -3,6 +3,7 @@ layout: page
 title: Academia Obscura
 description: The hidden silly side of higher education
 img: /assets/img/projects/thumbs/academia_obscura_cover.jpg
+wordmark: true
 importance:
 category: ongoing
 website: https://academiaobscura.com

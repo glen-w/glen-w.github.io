@@ -3,6 +3,7 @@ layout: page
 title: tiny seascape
 description: A little splash of the big blue, every couple of hours
 img: /assets/img/projects/thumbs/tiny_seascape.png
+wordmark: true
 importance:
 category: archive
 website: https://x.com/tiny_seascape

@@ -3,6 +3,7 @@ layout: page
 title: Dossier
 description: Local-first evidence locker and ask-the-corpus RAG for professional work.
 img: /assets/img/projects/thumbs/dossier_logo.png
+wordmark: true
 importance: 9
 category: ongoing
 ---
