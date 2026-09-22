@@ -51,10 +51,44 @@
   {% endunless %}
 {% endif %}
 
+{% assign is_library_item = false %}
+{% if page.layout == 'library-item' %}
+  {% assign is_library_item = true %}
+{% endif %}
+
+{% comment %}Normalize DOI for citation meta / JSON-LD{% endcomment %}
+{% assign citation_doi = '' %}
+{% if page.doi %}
+  {% assign citation_doi = page.doi | strip %}
+  {% if citation_doi contains 'doi.org/' %}
+    {% assign citation_doi = citation_doi | split: 'doi.org/' | last %}
+  {% endif %}
+{% endif %}
+
+{% if is_library_item and citation_doi != '' %}
+  <!-- Highwire / Google Scholar citation meta -->
+  <meta name="citation_title" content="{{ page.title | strip_html | escape }}">
+  <meta name="citation_author" content="{{ author_name }}">
+  {% if page.year %}
+    <meta name="citation_publication_date" content="{{ page.year }}">
+    <meta name="citation_date" content="{{ page.year }}">
+  {% endif %}
+  <meta name="citation_doi" content="{{ citation_doi }}">
+  <meta name="dc.identifier" content="doi:{{ citation_doi }}">
+  <meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}">
+  {% if page.pdf %}
+    {% assign citation_pdf = page.pdf %}
+    {% unless citation_pdf contains '://' %}
+      {% assign citation_pdf = citation_pdf | prepend: '/assets/pdf/' | absolute_url %}
+    {% endunless %}
+    <meta name="citation_pdf_url" content="{{ citation_pdf }}">
+  {% endif %}
+{% endif %}
+
 {% if site.serve_og_meta %}
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
-  <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
+  <meta property="og:type" content="{% if is_blog_post %}article{% elsif is_library_item %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -77,168 +111,74 @@
 {% endif %}
 
 {% if site.serve_schema_org %}
-  <!-- Schema.org -->
-  {% comment %} Social links generator for "sameAs schema" {% endcomment %}
+  {% comment %}
+    Person sameAs allowlist (locked until Semantic Scholar is cleaned and glenwright.net is 301'd):
+    ORCID + Google Scholar + canonical site URL only. Footer icons may still show other profiles.
+  {% endcomment %}
   {% assign sameaslinks = '' | split: ',' %}
-  {% for social in site.data.socials %}
-    {% case social[0] %}
-      {% when 'acm_id' %}
-        {% capture link %}https://dl.acm.org/profile/{{ social[1] }}/{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'blogger_url' %}
-        {% capture link %}{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'bluesky_url' %}
-        {% capture link %}{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'dblp_url' %}
-        {% capture link %}{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'discord_id' %}
-        {% capture link %}https://discord.com/users/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'email' %}
-        {% comment %}
-          {% capture link %}mailto:{{ social[1] | encode_email }}{% endcapture %}
-          {% assign sameaslinks = sameaslinks | push: link %}
-        {% endcomment %}
-      {% when 'facebook_id' %}
-        {% capture link %}https://facebook.com/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'flickr_id' %}
-        {% capture link %}https://www.flickr.com/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'github_username' %}
-        {% capture link %}https://github.com/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'gitlab_username' %}
-        {% capture link %}https://gitlab.com/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'hal_id' %}
-        {% capture link %}https://cv.hal.science/{{ social[1] }}/{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'ieee_id' %}
-        {% capture link %}https://ieeexplore.ieee.org/author/{{ social[1] }}/{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'inspirehep_id' %}
-        {% capture link %}https://inspirehep.net/authors/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'instagram_id' %}
-        {% capture link %}https://instagram.com/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'kaggle_id' %}
-        {% capture link %}https://www.kaggle.com/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'keybase_username' %}
-        {% capture link %}https://keybase.io/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'lastfm_id' %}
-        {% capture link %}https://www.last.fm/user/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'lattes_id' %}
-        {% capture link %}http://lattes.cnpq.br/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'leetcode_id' %}
-        {% capture link %}https://leetcode.com/u/{{ social[1] }}/{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'linkedin_username' %}
-        {% capture link %}https://www.linkedin.com/in/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'mastodon_username' %}
-        {% capture link %}https://{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'medium_username' %}
-        {% capture link %}https://medium.com/@{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'orcid_id' %}
-        {% capture link %}https://orcid.org/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'osf_id' %}
-        {% capture link %}https://osf.io/{{ social[1] }}/{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'pinterest_id' %}
-        {% capture link %}https://www.pinterest.com/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'publons_id' %}
-        {% capture link %}https://publons.com/a/{{ social[1] }}/{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'quora_username' %}
-        {% capture link %}https://www.quora.com/profile/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'research_gate_profile' %}
-        {% capture link %}https://www.researchgate.net/profile/{{ social[1] }}/{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'rss_icon' %}
-        {% comment %}
-          {% capture link %}{{ site.baseurl }}/feed.xml{% endcapture %}
-          {% assign sameaslinks = sameaslinks | push: link %}
-        {% endcomment %}
-      {% when 'scholar_userid' %}
-        {% capture link %}https://scholar.google.com/citations?user={{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'scopus_id' %}
-        {% capture link %}https://www.scopus.com/authid/detail.uri?authorId={{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'semanticscholar_id' %}
-        {% capture link %}https://www.semanticscholar.org/author/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'spotify_id' %}
-        {% capture link %}https://open.spotify.com/user/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'stackoverflow_id' %}
-        {% capture link %}https://stackoverflow.com/users/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'strava_userid' %}
-        {% capture link %}https://www.strava.com/athletes/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'telegram_username' %}
-        {% capture link %}https://telegram.me/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'unsplash_id' %}
-        {% capture link %}https://unsplash.com/@{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'whatsapp_number' %}
-        {% capture link %}https://wa.me/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'wikidata_id' %}
-        {% capture link %}https://www.wikidata.org/wiki/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'wikipedia_id' %}
-        {% capture link %}https://wikipedia.org/wiki/User:{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'work_url' %}
-        {% capture link %}{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'x_username' %}
-        {% capture link %}https://twitter.com/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'youtube_id' %}
-        {% capture link %}https://youtube.com/@{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% when 'zotero_username' %}
-        {% capture link %}https://www.zotero.org/{{ social[1] }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% else %}
-        {% assign sameaslinks = sameaslinks | push: social[1].url %}
-    {% endcase %}
-  {% endfor %}
+  {% assign site_home = site.url | append: site.baseurl %}
+  {% if site_home == blank or site_home == '' %}
+    {% assign site_home = 'https://glenwright.earth' %}
+  {% endif %}
+  {% assign sameaslinks = sameaslinks | push: site_home %}
+  {% if site.data.socials.orcid_id %}
+    {% capture orcid_link %}https://orcid.org/{{ site.data.socials.orcid_id }}{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: orcid_link %}
+  {% endif %}
+  {% if site.data.socials.scholar_userid %}
+    {% capture scholar_link %}https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: scholar_link %}
+  {% endif %}
 
   <script type="application/ld+json">
     {
-        "author":
-        {
-            "@type": "Person",
-            "name": "{{ author_name }}"
-        },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": {{ author_name | jsonify }},
+      "url": {{ site_home | jsonify }},
+      "sameAs": {{ sameaslinks | jsonify }}
     }
   </script>
+
+  {% if is_blog_post %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": {% if page.title %}{{ page.title | jsonify }}{% else %}{{ site.title | jsonify }}{% endif %},
+        "description": {% if page.description %}{{ page.description | jsonify }}{% else %}{{ site.description | jsonify }}{% endif %},
+        "url": {{ page.url | prepend: site.baseurl | prepend: site.url | jsonify }},
+        "author": {
+          "@type": "Person",
+          "name": {{ author_name | jsonify }},
+          "url": {{ site_home | jsonify }}
+        }
+      }
+    </script>
+  {% endif %}
+
+  {% if is_library_item and citation_doi != '' %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "headline": {{ page.title | jsonify }},
+        "name": {{ page.title | jsonify }},
+        "author": {
+          "@type": "Person",
+          "name": {{ author_name | jsonify }},
+          "url": {{ site_home | jsonify }}
+        },
+        {% if page.year %}
+        "datePublished": {{ page.year | append: '' | jsonify }},
+        {% endif %}
+        "identifier": {{ citation_doi | prepend: 'https://doi.org/' | jsonify }},
+        "url": {{ page.url | absolute_url | jsonify }},
+        "sameAs": [{{ citation_doi | prepend: 'https://doi.org/' | jsonify }}]
+        {% if page.description %},
+        "description": {{ page.description | jsonify }}
+        {% endif %}
+      }
+    </script>
+  {% endif %}
 {% endif %}

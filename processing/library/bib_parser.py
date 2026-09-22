@@ -303,18 +303,26 @@ class BibParser:
     
     def extract_links(self, entry: Dict[str, Any]) -> Dict[str, str]:
         """Extract various links from entry."""
+        from processing.core.bibtex_processor import BibTeXProcessor
+
         links = {}
-        
+        citation_key = self.citation_key(entry)
+        # Align with core processing: fill known DOIs / prefer doi.org over PII
+        processor = BibTeXProcessor()
+        processor.apply_doi_hygiene(citation_key, entry)
+
         # Direct URL fields (pipeline renames url → website)
         url_value = entry.get('url') or entry.get('website')
-        if url_value:
-            links['url'] = str(url_value).strip()
-        if entry.get('doi'):
-            doi = str(entry['doi']).strip()
-            if doi.startswith('http'):
-                links['doi'] = doi
-            else:
-                links['doi'] = f"https://doi.org/{doi}"
+        raw_url = str(url_value).strip() if url_value else None
+        doi_href = BibTeXProcessor.doi_url(entry.get('doi'))
+        if doi_href:
+            links['doi'] = doi_href
+        if raw_url and doi_href and BibTeXProcessor.is_publisher_pii_url(raw_url):
+            links['url'] = doi_href
+        elif raw_url:
+            links['url'] = raw_url
+        elif doi_href:
+            links['url'] = doi_href
         if entry.get('arxiv'):
             links['arxiv'] = f"https://arxiv.org/abs/{entry['arxiv']}"
         

@@ -2,15 +2,19 @@
 layout: page
 title: Dossier
 description: Local-first evidence locker and ask-the-corpus RAG for professional work.
-img: /assets/img/projects/thumbs/dossier_logo.png
+img: /assets/img/projects/thumbs/dossier_logo_on_light.png
+img_dark: /assets/img/projects/thumbs/dossier_logo.png
 wordmark: true
 importance: 9
 category: ongoing
 github: https://github.com/glen-w/Dossier
+website: https://glenwright.earth/Dossier/
+docs: https://glenwright.earth/Dossier/guide/
 ---
 
 <div align="center">
-  <img src="/assets/img/projects/thumbs/dossier_logo.png" alt="Dossier logo" width="200"/>
+  <img class="only-light" src="/assets/img/projects/thumbs/dossier_logo_on_light.png" alt="Dossier logo" width="200"/>
+  <img class="only-dark" src="/assets/img/projects/thumbs/dossier_logo.png" alt="" width="200"/>
 </div>
 
 CVs and letters often need work that does not match an old job title. The evidence is on disk — mail, dumps, PDFs — and I cannot reconstruct it from a single document.

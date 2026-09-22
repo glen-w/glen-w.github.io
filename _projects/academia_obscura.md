@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Academia Obscura
-description: The hidden silly side of higher education
+description: Academia Obscura — the hidden silly side of higher education. Blog, book (Unbound), and ongoing cabinet of academic curiosities by Glen Wright.
 img: /assets/img/projects/thumbs/academia_obscura_cover.jpg
 wordmark: true
 importance:

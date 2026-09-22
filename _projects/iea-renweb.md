@@ -6,6 +6,7 @@ img: /assets/img/projects/thumbs/iea_renweb.png
 importance: 2
 category: archive
 github: https://github.com/glen-w/IEA-Renweb
+website: https://glenwright.earth/IEA-Renweb/
 docs: https://github.com/glen-w/IEA-Renweb/blob/main/docs/METHODOLOGY.md
 ---
 

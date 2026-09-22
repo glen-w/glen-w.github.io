@@ -1,7 +1,11 @@
-{% if project.github or project.website or project.docs or project.shop %}
+{% assign card_github = include.github | default: project.github %}
+{% assign card_website = include.website | default: project.website %}
+{% assign card_docs = include.docs | default: project.docs %}
+{% assign card_shop = include.shop | default: project.shop %}
+{% if card_github or card_website or card_docs or card_shop %}
   <div class="project-card-links">
-    {% if project.github %}
-      <a href="{{ project.github }}" data-toggle="tooltip" title="Code repository" aria-label="Code repository">
+    {% if card_github %}
+      <a href="{{ card_github }}" data-toggle="tooltip" title="Code repository" aria-label="Code repository">
         <i class="fa-brands fa-github" aria-hidden="true"></i>
       </a>
       {% if project.github_stars %}
@@ -11,18 +15,18 @@
         </span>
       {% endif %}
     {% endif %}
-    {% if project.website %}
-      <a href="{{ project.website }}" data-toggle="tooltip" title="Website" aria-label="Website">
+    {% if card_website %}
+      <a href="{{ card_website }}" data-toggle="tooltip" title="Website" aria-label="Website">
         <i class="fa-solid fa-globe" aria-hidden="true"></i>
       </a>
     {% endif %}
-    {% if project.docs %}
-      <a href="{{ project.docs }}" data-toggle="tooltip" title="Documentation" aria-label="Documentation">
+    {% if card_docs %}
+      <a href="{{ card_docs }}" data-toggle="tooltip" title="Documentation" aria-label="Documentation">
         <i class="fa-solid fa-book" aria-hidden="true"></i>
       </a>
     {% endif %}
-    {% if project.shop %}
-      <a href="{{ project.shop }}" data-toggle="tooltip" title="Buy" aria-label="Buy">
+    {% if card_shop %}
+      <a href="{{ card_shop }}" data-toggle="tooltip" title="Buy" aria-label="Buy">
         <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
       </a>
     {% endif %}

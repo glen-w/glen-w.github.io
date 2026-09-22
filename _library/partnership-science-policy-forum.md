@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: The Partnership on Science to Policy Forum
-date: "2016-10-01"
+date: '2016-01-01'
 entry_type: Workshop
-year: "2016"
+year: '2016'
 bibtex_key: PartnershipSciencePolicy2016
 is_event: true
 description: The meeting on the Partnership on Science to Policy Forum was organized
@@ -26,26 +26,27 @@ abstract: The meeting on the Partnership on Science to Policy Forum was organize
   senior experts, regional partners and non-governmental organizations from Comoros,
   Kenya, Madagascar, Mauritius, Mozambique, Seychelles, South Africa and Tanzania.
 categories:
-  - other
+- other
 publisher: United Nations, Nairobi Convention
 role: attendee
 preview: 2016_partnership_science_policy_forum
 pdf: 2016_partnership_science_policy_forum.pdf
 url: https://nairobiconvention.org/clearinghouse/sites/default/files/Report%20of%20the%20Science%20to%20Policy%20Forum%2011-12Oct2016_Final.pdf
 resources:
-  - kind: pdf
-    title: The Partnership on Science to Policy Forum
-    label: View primary document
-    url: /assets/pdf/2016_partnership_science_policy_forum.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: landing
-    title: Visit event website
-    label: Visit event website
-    url: https://nairobiconvention.org/clearinghouse/sites/default/files/Report%20of%20the%20Science%20to%20Policy%20Forum%2011-12Oct2016_Final.pdf
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: The Partnership on Science to Policy Forum
+  label: View primary document
+  url: /assets/pdf/2016_partnership_science_policy_forum.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit event website
+  label: Visit event website
+  url: https://nairobiconvention.org/clearinghouse/sites/default/files/Report%20of%20the%20Science%20to%20Policy%20Forum%2011-12Oct2016_Final.pdf
+  format: Web
+  local: false
+  external: true
 ---
+

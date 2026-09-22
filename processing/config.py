@@ -116,6 +116,12 @@ class Configuration:
     
     # Featured keywords
     FEATURED_KEYWORD = 'featured'
+
+    # Known DOIs missing from some Zotero exports (citation key → bare DOI).
+    # Applied every process run so library landings stay correct without hand-editing papers.bib.
+    DOI_FILLS = {
+        'gjerdeGettingYesFasttracking2022': '10.1038/s44183-022-00006-2',
+    }
     
     # PDF metadata
     PDF_PRODUCER = "RENWeB"

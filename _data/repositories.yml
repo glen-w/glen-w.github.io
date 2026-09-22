@@ -1,10 +1,4 @@
 github_repos:
-  - repo: glen-w/BBNJ-CHM-proto
-    name: BBNJ CHM Prototype
-    img: /assets/img/projects/thumbs/bbnj_chm.png
-    description: Local prototype of a BBNJ Clearing-House desk — submit, review, publish, notify, audit. Not the official system.
-    url: /projects/bbnj-chm-proto/
-    url_label: Project page
   - repo: glen-w/cursor-commands
     name: Cursor Commands
     img: /assets/img/projects/thumbs/cursor_commands.png
@@ -15,47 +9,27 @@ github_repos:
     name: Dossier
     img: /assets/img/projects/thumbs/dossier_logo.png
     description: Local-first locker for professional evidence. Records become cited claim cards, or the claim is refused.
-    url: /projects/dossier/
-    url_label: Project page
   - repo: glen-w/data_dumps
     name: Data Dumps
     img: /assets/img/projects/thumbs/data_dumps.png
     description: Ingest your own GDPR and app exports into DuckDB, then explore them in a local Marimo dashboard. Not a hosted service.
-    url: https://glenwright.earth/data_dumps/
-    url_label: Site
   - repo: glen-w/IEA-Renweb
     name: IEA-Renweb
     img: /assets/img/projects/thumbs/iea_renweb.png
     description: Library and CLI to turn an IEA World Energy Balances extract into renewable energy statistics. The balances are not included.
-    url: https://glenwright.earth/IEA-Renweb/
-    url_label: Site
   - repo: glen-w/Paperful
     name: Paperful
     img: /assets/img/projects/thumbs/paperful_icon.png
     description: Find missing PDFs for a Zotero library on your machine, put them in a collection-shaped folder tree, and attach them back.
-    url: https://glenwright.earth/Paperful/
-    url_label: Site
   - repo: glen-w/rollup
     name: Rollup
     img: /assets/img/projects/thumbs/rollup.png
     description: Read-only Thunderbird mbox to a weekly Markdown/HTML newsletter digest on your machine. Optional local summarisation.
-    url: /projects/rollup/
-    url_label: Project page
   - repo: glen-w/transcribe
     name: Transcribe
     img: /assets/img/projects/thumbs/transcribe_logo.png
     description: Local handwritten notebook OCR with a vision model. Correct beside the scan; pages stay on the machine.
-    url: https://glenwright.earth/transcribe/
-    url_label: Site
   - repo: glen-w/TranscriptX
     name: TranscriptX
     img: /assets/img/projects/thumbs/transcriptx_logo.png
     description: Local-first analysis of existing transcripts — speakers, themes, tension. Does not transcribe audio.
-    url: https://glenwright.earth/TranscriptX/
-    url_label: Site
-  - repo: glen-w/glen-w.github.io
-    name: Website
-    img: /assets/img/projects/thumbs/website.png
-    description: Source for this site — Jekyll (al-folio fork) for glenwright.earth.
-    url: /
-    url_label: Website

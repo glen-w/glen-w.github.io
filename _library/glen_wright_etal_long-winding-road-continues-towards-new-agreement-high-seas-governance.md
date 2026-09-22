@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: "The long and winding road continues: Towards a new agreement on high seas
-  governance"
-date: "2016-01-01"
+title: 'The long and winding road continues: Towards a new agreement on high seas
+  governance'
+date: '2016-01-01'
 entry_type: Report
-year: "2016"
+year: '2016'
 bibtex_key: Wright2016f
 is_event: false
 description: In 2015, States agreed to launch negotiations for the elaboration of
@@ -31,36 +31,36 @@ abstract: 'In 2015, States agreed to launch negotiations for the elaboration of 
   not under­mine the mandates of existing organisations, especially fisheries manage­ment
   bodies.'
 categories:
-  - other
+- other
 authors:
-  - Glen Wright
-  - Julien Rochette
-  - Elisabeth Druel
-  - Kristina M Gjerde
+- Glen Wright
+- Julien Rochette
+- Elisabeth Druel
+- Kristina M Gjerde
 venue: IDDRI
 institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2016_long_winding_road_continues_towards_new_agreement_high_seas_governance
 pdf: glen_wright_etal_2016_long_winding_road_continues_towards_new_agreement_high_seas_governance.pdf
 url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-continues-towards-new-agreement-high-seas
-number: "1"
+number: '1'
 resources:
-  - kind: pdf
-    title: "The long and winding road continues: Towards a new agreement on high seas
-      governance"
-    label: View report PDF
-    url: /assets/pdf/glen_wright_etal_2016_long_winding_road_continues_towards_new_agreement_high_seas_governance.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: landing
-    title: Visit IDDRI publication page
-    label: Visit IDDRI publication page
-    url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-continues-towards-new-agreement-high-seas
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: 'The long and winding road continues: Towards a new agreement on high seas
+    governance'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2016_long_winding_road_continues_towards_new_agreement_high_seas_governance.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit IDDRI publication page
+  label: Visit IDDRI publication page
+  url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-continues-towards-new-agreement-high-seas
+  format: Web
+  local: false
+  external: true
 ---
 
 ## Notes

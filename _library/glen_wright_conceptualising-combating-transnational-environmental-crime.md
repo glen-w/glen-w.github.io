@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: Conceptualising and combating transnational environmental crime
-date: "2011-01-01"
+date: '2011-01-01'
 entry_type: Journal article
-year: "2011"
+year: '2011'
 bibtex_key: Wright2011b
 is_event: false
 description: To date, transnational environmental crime has been poorly attended to
@@ -29,9 +29,9 @@ abstract: To date, transnational environmental crime has been poorly attended to
   countermeasures, it is concluded, requires a significant change in policy at every
   level.
 categories:
-  - other
+- other
 authors:
-  - Glen Wright
+- Glen Wright
 venue: Trends in Organized Crime
 role: author
 preview: glen_wright_2011_conceptualising_combating_transnational_environmental_crime
@@ -39,33 +39,41 @@ pdf: glen_wright_2011_conceptualising_combating_transnational_environmental_crim
 url: https://link.springer.com/article/10.1007/s12117-011-9130-4
 doi: https://doi.org/10.1007/s12117-011-9130-4
 zip_archive: glen_wright_2011_conceptualising_combating_transnational_environmental_crime_a.zip
-zip_file_count: "1"
-zip_file_size_mb: "0.1"
+zip_file_count: '1'
+zip_file_size_mb: '0.1'
 pages: 332--346
-volume: "14"
-number: "4"
+volume: '14'
+number: '4'
 resources:
-  - kind: pdf
-    title: Conceptualising and combating transnational environmental crime
-    label: View primary document
-    url: /assets/pdf/glen_wright_2011_conceptualising_combating_transnational_environmental_crime.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: zip
-    title: Download all files
-    label: Download all files
-    url: /assets/zips/glen_wright_2011_conceptualising_combating_transnational_environmental_crime_a.zip
-    format: ZIP
-    local: true
-    external: false
-    subtitle: 1 files · 0.1 MB
-  - kind: landing
-    title: Visit Trends in Organized Crime publication page
-    label: Visit Trends in Organized Crime publication page
-    url: https://link.springer.com/article/10.1007/s12117-011-9130-4
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: Conceptualising and combating transnational environmental crime
+  label: View primary document
+  url: /assets/pdf/glen_wright_2011_conceptualising_combating_transnational_environmental_crime.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/glen_wright_2011_conceptualising_combating_transnational_environmental_crime_a.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 1 files · 0.1 MB
+- kind: landing
+  title: Visit Trends in Organized Crime publication page
+  label: Visit Trends in Organized Crime publication page
+  url: https://link.springer.com/article/10.1007/s12117-011-9130-4
+  format: Web
+  local: false
+  external: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.1007/s12117-011-9130-4
+  format: Web
+  local: false
+  external: true
 ---
+

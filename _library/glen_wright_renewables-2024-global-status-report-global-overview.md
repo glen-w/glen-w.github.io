@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: Renewables 2024 Global Status Report, Global Overview
-date: "2024-04-01"
+date: '2024-01-01'
 entry_type: Webinar
-year: "2024"
+year: '2024'
 bibtex_key: wrightRenewables2024Global2024
 is_event: true
 description: Policy responses to geopolitical developments and global commitments
@@ -24,19 +24,20 @@ abstract: "Policy responses to geopolitical developments and global commitments 
   \ bottlenecks persist in permitting, infrastructure and connecting renewables to\
   \ grids."
 categories:
-  - other
+- other
 authors:
-  - Glen Wright
+- Glen Wright
 role: speaker
 preview: glen_wright_2024_renewables_2024_global_status_report_global_overview
 pdf: glen_wright_2024_renewables_2024_global_status_report_global_overview.pdf
 resources:
-  - kind: pdf
-    title: Renewables 2024 Global Status Report, Global Overview
-    label: View primary document
-    url: /assets/pdf/glen_wright_2024_renewables_2024_global_status_report_global_overview.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
+- kind: pdf
+  title: Renewables 2024 Global Status Report, Global Overview
+  label: View primary document
+  url: /assets/pdf/glen_wright_2024_renewables_2024_global_status_report_global_overview.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
+

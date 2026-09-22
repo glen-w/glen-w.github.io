@@ -6,6 +6,7 @@ permalink: /dropdown/
 nav: true
 nav_order: 50
 dropdown: true
+sitemap: false
 children:
   - title: bookshelf
     permalink: /books/

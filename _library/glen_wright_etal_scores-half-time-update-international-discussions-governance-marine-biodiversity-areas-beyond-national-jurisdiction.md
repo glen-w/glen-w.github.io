@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: "The Scores at Half Time: An update on the international discussions on the
-  governance of marine biodiversity in areas beyond national jurisdiction"
-date: "2014-01-01"
+title: 'The Scores at Half Time: An update on the international discussions on the
+  governance of marine biodiversity in areas beyond national jurisdiction'
+date: '2014-01-01'
 entry_type: Report
-year: "2014"
+year: '2014'
 bibtex_key: Wright2014
 is_event: false
 description: Marine areas beyond national jurisdiction (ABNJ) represent around half
@@ -36,29 +36,29 @@ abstract: Marine areas beyond national jurisdiction (ABNJ) represent around half
   on the “long and winding road” towards the conservation and sustainable use of marine
   biodiversity in ABNJ.
 categories:
-  - other
+- other
 authors:
-  - Glen Wright
-  - Julien Rochette
-  - Sebastian Unger
-  - Kristina Gjerde
-  - Jeff Ardron
+- Glen Wright
+- Julien Rochette
+- Sebastian Unger
+- Kristina Gjerde
+- Jeff Ardron
 venue: IDDRI
 institution: IDDRI
 role: co-author
 preview: glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction
 pdf: glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
-pages: "4"
+pages: '4'
 resources:
-  - kind: pdf
-    title: "The Scores at Half Time: An update on the international discussions on the
-      governance of marine biodiversity in areas beyond national jurisdiction"
-    label: View report PDF
-    url: /assets/pdf/glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
+- kind: pdf
+  title: 'The Scores at Half Time: An update on the international discussions on the
+    governance of marine biodiversity in areas beyond national jurisdiction'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
 
 ## Notes

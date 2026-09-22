@@ -111,6 +111,8 @@ class EntryProcessor:
         
         if not citation_key or not fields:
             return False
+
+        self.bibtex_processor.apply_doi_hygiene(citation_key, fields)
         
         print(f"\n📄 Processing: {citation_key}")
 

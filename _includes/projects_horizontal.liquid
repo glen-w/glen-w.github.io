@@ -5,7 +5,12 @@
         {% if project.img %}
           <div class="col-md-6">
             <div class="project-thumb-frame project-thumb-frame--horizontal">
-              {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img project-thumb-img" %}
+              {% if project.img_dark %}
+                <img class="card-img project-thumb-img only-light" src="{{ project.img | relative_url }}" alt="{{ project.title }} logo" />
+                <img class="card-img project-thumb-img only-dark" src="{{ project.img_dark | relative_url }}" alt="" />
+              {% else %}
+                {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img project-thumb-img" %}
+              {% endif %}
             </div>
           </div>
         {% endif %}

@@ -2,7 +2,7 @@
 layout: page
 permalink: /library/
 title: library
-description:
+description: Publications on BBNJ, ocean governance, marine renewable energy, and the energy transition — journal articles, reports, and related work by Glen Wright.
 nav: true
 nav_order: 10
 medium_zoom: true

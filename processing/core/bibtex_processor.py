@@ -576,6 +576,105 @@ class BibTeXProcessor:
             modified_content = re.sub(r'\burldate\s*=\s*\{', 'website_date = {', modified_content)
         
         return modified_content, url_count
+
+    @staticmethod
+    def normalize_doi(value: Optional[str]) -> Optional[str]:
+        """Return a bare DOI (no URL prefix), or None."""
+        if not value:
+            return None
+        text = str(value).strip()
+        if not text:
+            return None
+        text = re.sub(r'^https?://(?:dx\.)?doi\.org/', '', text, flags=re.IGNORECASE)
+        text = text.strip().rstrip('/')
+        return text or None
+
+    @classmethod
+    def doi_url(cls, value: Optional[str]) -> Optional[str]:
+        bare = cls.normalize_doi(value)
+        return f'https://doi.org/{bare}' if bare else None
+
+    @staticmethod
+    def is_publisher_pii_url(url: Optional[str]) -> bool:
+        """True for ScienceDirect / Elsevier linkinghub HTML that should lose to doi.org."""
+        if not url:
+            return False
+        return bool(
+            re.search(
+                r'(?:sciencedirect\.com|linkinghub\.elsevier\.com|api\.elsevier\.com)',
+                str(url),
+                re.IGNORECASE,
+            )
+        )
+
+    def apply_doi_hygiene(self, citation_key: str, fields: Dict[str, str]) -> bool:
+        """Fill known DOIs and prefer doi.org over publisher PII website URLs.
+
+        Mutates ``fields``. Returns True when anything changed.
+        """
+        changed = False
+        key = (citation_key or '').strip()
+        fill = self.config.DOI_FILLS.get(key)
+        if fill and not self.normalize_doi(fields.get('doi')):
+            fields['doi'] = fill
+            changed = True
+            print(f"  🔗 DOI fill: {key} → {fill}")
+
+        doi_href = self.doi_url(fields.get('doi'))
+        if not doi_href:
+            return changed
+
+        for field_name in ('website', 'url'):
+            current = fields.get(field_name)
+            if current and self.is_publisher_pii_url(current):
+                fields[field_name] = doi_href
+                changed = True
+                print(f"  🔗 Prefer DOI over PII ({field_name}): {key}")
+        return changed
+
+    def inject_doi_hygiene_into_content(
+        self, content: str, citation_key: str, fields: Dict[str, str]
+    ) -> str:
+        """Apply DOI hygiene to fields and reflect doi/website in the BibTeX block."""
+        self.apply_doi_hygiene(citation_key, fields)
+        bare = self.normalize_doi(fields.get('doi'))
+        if bare:
+            if re.search(r'(?im)^\s*doi\s*=', content):
+                content = re.sub(
+                    r'(?im)^(\s*doi\s*=\s*)\{[^}]*\}',
+                    rf'\1{{{bare}}}',
+                    content,
+                    count=1,
+                )
+            else:
+                content = re.sub(
+                    r'\n\}\s*$',
+                    f',\n\tdoi = {{{bare}}}\n}}',
+                    content.rstrip() + '\n',
+                    count=1,
+                )
+
+        doi_href = self.doi_url(bare)
+        if doi_href:
+            for field_name in ('website', 'url'):
+                current = fields.get(field_name)
+                if not current:
+                    continue
+                # fields may already be rewritten to doi.org by apply_doi_hygiene;
+                # also rewrite leftover PII still present only in the content block.
+                pattern = rf'(?im)^(\s*{field_name}\s*=\s*)\{{([^}}]*)\}}'
+                match = re.search(pattern, content)
+                if not match:
+                    continue
+                existing = match.group(2)
+                if self.is_publisher_pii_url(existing) or (
+                    self.is_publisher_pii_url(current) is False
+                    and existing != current
+                    and current == doi_href
+                ):
+                    content = re.sub(pattern, rf'\1{{{doi_href}}}', content, count=1)
+                    fields[field_name] = doi_href
+        return content
     
     def extract_file_paths(self, file_field: str) -> List[str]:
         """Extract file paths from a BibTeX file field."""

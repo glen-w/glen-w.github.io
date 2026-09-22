@@ -79,6 +79,8 @@ layout: default
 
     {% include library/materials.liquid %}
 
+    {% include library/cite_as.liquid %}
+
     {% comment %}Contribution / quotes{% endcomment %}
     {% assign quotes_count = page.quotes | size | default: 0 %}
     {% assign role_text = page.role | default: '' | strip %}

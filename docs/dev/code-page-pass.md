@@ -19,8 +19,10 @@ Required:
 Optional, only for real URLs and assets:
 
 - `img` — thumb under `assets/img/projects/thumbs/`, copied from the product repo’s own logo (e.g. `assets/logo.png`, `website/images/logo.png`). Do not invent a mark that does not live in that repository.
-- `url` — live site, docs, or project page
-- `url_label` — `Site`, `Docs`, `Project page`, or `Website`
+- `url` — project page, only when the matching project has neither `website` nor `docs`
+- `url_label` — label for that fallback, usually `Project page`
+
+Site and docs icons come from the matching project (`website`, `docs`), not from this file.
 
 ## 3. Pitch
 
@@ -34,7 +36,7 @@ Do not reuse the project-page `description`. That pitch is for `/projects/`. YAM
 
 ## 4. Links
 
-Every card always links to GitHub. Add a second link when there is a useful door that is not the repo itself. Prefer the live site or docs over the project page when both exist.
+Every card always links to GitHub. Also show the live site and the docs when the matching project has `website` or `docs`. Use `url` only when neither exists.
 
 If the matching project page should show a GitHub icon, set `github` on that project to `https://github.com/owner/name`.
 
@@ -52,6 +54,6 @@ On `/code/`:
 
 - Cards are alphabetical by display name.
 - Each blurb reads as a clone/run pitch, not a personal project pitch.
-- GitHub opens the repository; the second link opens its own URL.
+- GitHub opens the repository. The site and docs icons open their own URLs. A project-page link appears only when those two are absent.
 - A repository with a project `github` match uses that project’s `title` as the heading.
 - `/projects/` pitches are unchanged.

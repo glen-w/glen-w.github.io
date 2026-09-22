@@ -3,6 +3,10 @@
     <a class="project-card-link" href="{{ project.url | relative_url }}">
       {% if project.img %}
         <div class="project-thumb-frame">
+          {% if project.img_dark %}
+            <img class="card-img-top project-thumb-img only-light" src="{{ project.img | relative_url }}" alt="{{ project.title }} logo" />
+            <img class="card-img-top project-thumb-img only-dark" src="{{ project.img_dark | relative_url }}" alt="" />
+          {% else %}
           {%
             include figure.liquid
             loading="eager"
@@ -11,6 +15,7 @@
             alt="project thumbnail"
             class="card-img-top project-thumb-img"
           %}
+          {% endif %}
         </div>
       {% endif %}
       <div class="card-body">

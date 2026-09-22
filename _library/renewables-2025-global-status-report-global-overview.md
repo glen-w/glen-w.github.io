@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: "Renewables 2025 Global Status Report: Global Overview"
-date: "2025-01-01"
+title: 'Renewables 2025 Global Status Report: Global Overview'
+date: '2025-01-01'
 entry_type: Report
-year: "2025"
+year: '2025'
 bibtex_key: ren21Renewables2025Global2025
 is_event: false
 description: In 2024, global renewable energy growth was primarily driven by the power
@@ -46,11 +46,11 @@ abstract: "In 2024, global renewable energy growth was primarily driven by the p
   \ of intersecting crises, renewables support sustainable economic development, public\
   \ health and energy security."
 tags:
-  - featured
+- featured
 categories:
-  - other
+- other
 authors:
-  - REN21
+- REN21
 venue: REN21
 institution: REN21
 role: co-author
@@ -58,19 +58,20 @@ preview: 2025_renewables_2025_global_status_report_global_overview
 pdf: 2025_renewables_2025_global_status_report_global_overview.pdf
 url: https://www.ren21.net/gsr-2025/
 resources:
-  - kind: pdf
-    title: "Renewables 2025 Global Status Report: Global Overview"
-    label: View report PDF
-    url: /assets/pdf/2025_renewables_2025_global_status_report_global_overview.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: landing
-    title: Visit REN21 publication page
-    label: Visit REN21 publication page
-    url: https://www.ren21.net/gsr-2025/
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: 'Renewables 2025 Global Status Report: Global Overview'
+  label: View report PDF
+  url: /assets/pdf/2025_renewables_2025_global_status_report_global_overview.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit REN21 publication page
+  label: Visit REN21 publication page
+  url: https://www.ren21.net/gsr-2025/
+  format: Web
+  local: false
+  external: true
 ---
+

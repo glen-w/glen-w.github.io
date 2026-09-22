@@ -356,12 +356,13 @@ class CatalogGenerator:
             }
             if item.get("pdf"):
                 row["pdf"] = item["pdf"]
-            if item.get("url"):
-                row["url"] = item["url"]
+            # Prefer owned library landing for noscript / crawl equity
+            if item.get("info"):
+                row["url"] = item["info"]
             elif item.get("doi"):
                 row["url"] = item["doi"]
-            elif item.get("info"):
-                row["url"] = item["info"]
+            elif item.get("url"):
+                row["url"] = item["url"]
             selected.append(row)
 
         data_dir = os.path.join(self.project_root, "_data")

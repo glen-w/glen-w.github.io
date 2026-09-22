@@ -1,0 +1,43 @@
+{% comment %}
+  Cite-as block for library items with a DOI (findability P2).
+{% endcomment %}
+{% assign cite_doi = page.doi | default: '' | strip %}
+{% if cite_doi != '' %}
+  {% if cite_doi contains 'doi.org/' %}
+    {% assign cite_doi_bare = cite_doi | split: 'doi.org/' | last %}
+    {% assign cite_doi_url = cite_doi %}
+  {% else %}
+    {% assign cite_doi_bare = cite_doi %}
+    {% assign cite_doi_url = cite_doi | prepend: 'https://doi.org/' %}
+  {% endif %}
+  {% assign cite_authors = page.authors | join: ', ' %}
+  {% if cite_authors == blank %}
+    {% assign cite_authors = 'Wright, Glen' %}
+  {% endif %}
+  {% assign cite_key = page.bibtex_key | default: 'wright' %}
+  <section class="library-cite-as" aria-labelledby="library-cite-heading">
+    <h2 id="library-cite-heading">Cite</h2>
+    <p class="library-cite-text">
+      {{ cite_authors }}
+      {% if page.year %}({{ page.year }}).{% endif %}
+      <em>{{ page.title }}</em>.
+      {% if page.venue %}{{ page.venue }}.{% elsif page.publisher %}{{ page.publisher }}.{% endif %}
+      <a href="{{ cite_doi_url }}" rel="noopener noreferrer">{{ cite_doi_url }}</a>
+    </p>
+    <details class="library-cite-bibtex">
+      <summary>BibTeX</summary>
+      <pre><code>@article{ {{- cite_key -}},
+  title  = { {{- page.title -}} },
+  author = { {{- cite_authors -}} },
+  {%- if page.year %}
+  year   = { {{- page.year -}} },
+  {%- endif %}
+  {%- if page.venue %}
+  journal = { {{- page.venue -}} },
+  {%- endif %}
+  doi    = { {{- cite_doi_bare -}} },
+  url    = { {{- page.url | absolute_url -}} }
+}</code></pre>
+    </details>
+  </section>
+{% endif %}

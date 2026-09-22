@@ -3,55 +3,56 @@ layout: library-item
 title: Eighth meeting of the Ad Hoc Open-ended Informal Working Group to study issues
   relating to the conservation and sustainable use of marine biological diversity
   beyond areas of national jurisdiction
-date: "2014-06-01"
+date: '2014-01-01'
 entry_type: Negotiation
-year: "2014"
+year: '2014'
 bibtex_key: EighthMeetingAd2014
 is_event: false
 description: Eighth meeting of the Ad Hoc Open-ended Informal Working Group to study
   issues relating to the conservation and sustainable use of marine biological diversity
   beyond areas of national jurisdiction
 categories:
-  - other
+- other
 location: United Nations, New York City, NY, USA
 role: delegate
 preview: 2014_eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction
 gallery:
-  - eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_01
-  - eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_02
-  - eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_03
-  - eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_04
-  - eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_05
-  - eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_06
+- eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_01
+- eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_02
+- eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_03
+- eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_04
+- eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_figure_05
+- eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_06
 pdf: 2014_eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_b.pdf
 url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
 zip_archive: 2014_eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
-zip_file_count: "7"
-zip_file_size_mb: "29.6"
+zip_file_count: '7'
+zip_file_size_mb: '29.6'
 resources:
-  - kind: pdf
-    title: Eighth meeting of the Ad Hoc Open-ended Informal Working Group to study issues
-      relating to the conservation and sustainable use of marine biological diversity
-      beyond areas of national jurisdiction
-    label: View primary document
-    url: /assets/pdf/2014_eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_b.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: zip
-    title: Download all files
-    label: Download all files
-    url: /assets/zips/2014_eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
-    format: ZIP
-    local: true
-    external: false
-    subtitle: 7 files · 29.6 MB
-  - kind: landing
-    title: Visit publication page
-    label: Visit publication page
-    url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: Eighth meeting of the Ad Hoc Open-ended Informal Working Group to study issues
+    relating to the conservation and sustainable use of marine biological diversity
+    beyond areas of national jurisdiction
+  label: View primary document
+  url: /assets/pdf/2014_eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_b.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: zip
+  title: Download all files
+  label: Download all files
+  url: /assets/zips/2014_eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
+  format: ZIP
+  local: true
+  external: false
+  subtitle: 7 files · 29.6 MB
+- kind: landing
+  title: Visit publication page
+  label: Visit publication page
+  url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
+  format: Web
+  local: false
+  external: true
 ---
+

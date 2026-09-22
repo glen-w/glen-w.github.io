@@ -293,12 +293,24 @@ class ContentGenerator:
             })
 
         landing = self._strip_str(links.get('url'))
+        doi = self._strip_str(links.get('doi'))
         if landing:
+            is_doi_landing = bool(doi and landing.rstrip('/').lower() == doi.rstrip('/').lower())
             candidates.append({
                 'kind': 'landing',
-                'title': self._landing_title(institution, is_event),
-                'label': self._landing_label(institution, is_event),
+                'title': 'DOI' if is_doi_landing else self._landing_title(institution, is_event),
+                'label': 'View DOI' if is_doi_landing else self._landing_label(institution, is_event),
                 'url': landing,
+                'format': 'Web',
+                'local': False,
+                'external': True,
+            })
+        if doi and (not landing or landing.rstrip('/').lower() != doi.rstrip('/').lower()):
+            candidates.append({
+                'kind': 'landing',
+                'title': 'DOI',
+                'label': 'View DOI',
+                'url': doi,
                 'format': 'Web',
                 'local': False,
                 'external': True,

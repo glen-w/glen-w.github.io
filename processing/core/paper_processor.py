@@ -401,6 +401,9 @@ class PaperProcessor:
                         if rename_urls:
                             updated, url_count = self.bibtex_processor.rename_url_fields(updated)
                             url_renames += url_count
+                    updated = self.bibtex_processor.inject_doi_hygiene_into_content(
+                        updated, entry.get('citation_key', ''), entry.get('fields') or {}
+                    )
                     blocks.append(updated.rstrip())
                 if url_renames > 0:
                     print(f"  🔄 Renamed {url_renames} URL field(s) in updated blocks")
@@ -416,6 +419,9 @@ class PaperProcessor:
                 fields = entry['fields']
                 entry_content = entry['content']
                 updated_entry = self._update_entry_content(entry_content, fields)
+                updated_entry = self.bibtex_processor.inject_doi_hygiene_into_content(
+                    updated_entry, citation_key, fields
+                )
                 updated_content.append(updated_entry)
             final_content = '\n\n'.join(updated_content)
             if rename_urls:

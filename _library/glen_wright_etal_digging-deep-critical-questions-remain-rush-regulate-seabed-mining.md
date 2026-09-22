@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: "Digging deep: critical questions remain in the rush to regulate seabed mining"
-date: "2022-01-01"
+title: 'Digging deep: critical questions remain in the rush to regulate seabed mining'
+date: '2022-01-01'
 entry_type: Report
-year: "2022"
+year: '2022'
 bibtex_key: wrightDiggingDeepCritical2022
 is_event: false
 description: The 1982 United Nations Convention on the Law of the Sea (UNCLOS) defines
@@ -12,7 +12,7 @@ description: The 1982 United Nations Convention on the Law of the Sea (UNCLOS) d
 standfirst: The 1982 United Nations Convention on the Law of the Sea (UNCLOS) defines
   areas of maritime jurisdiction and sets out the rights and obligations of States,
   thus serving as a “Constitution for the ocean”.
-abstract: "The 1982 United Nations Convention on the Law of the Sea (UNCLOS) defines
+abstract: 'The 1982 United Nations Convention on the Law of the Sea (UNCLOS) defines
   areas of maritime jurisdiction and sets out the rights and obligations of States,
   thus serving as a “Constitution for the ocean”. Whereas Coastal States have exclusive
   rights to harvest minerals within their national jurisdiction, mineral resources
@@ -32,26 +32,27 @@ abstract: "The 1982 United Nations Convention on the Law of the Sea (UNCLOS) def
   States and stakeholders to understand the legal framework and the current state
   of play, with a particular focus on the two-year rule. It outlines possible pathways
   to averting deadlock and instituting a precautionary pause on the development of
-  mining activities."
+  mining activities.'
 categories:
-  - other
+- other
 authors:
-  - Glen Wright
-  - Klaudija Cremers
-  - Julien Rochette
+- Glen Wright
+- Klaudija Cremers
+- Julien Rochette
 venue: IDDRI
 institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2022_digging_deep_critical_questions_remain_rush_regulate_seabed_mining
 pdf: glen_wright_etal_2022_digging_deep_critical_questions_remain_rush_regulate_seabed_mining.pdf
-pages: "8"
+pages: '8'
 resources:
-  - kind: pdf
-    title: "Digging deep: critical questions remain in the rush to regulate seabed mining"
-    label: View report PDF
-    url: /assets/pdf/glen_wright_etal_2022_digging_deep_critical_questions_remain_rush_regulate_seabed_mining.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
+- kind: pdf
+  title: 'Digging deep: critical questions remain in the rush to regulate seabed mining'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2022_digging_deep_critical_questions_remain_rush_regulate_seabed_mining.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
+

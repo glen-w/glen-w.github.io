@@ -289,6 +289,22 @@ ul.task-list input[type="checkbox"] {
     height: auto;
     max-width: 100%;
   }
+
+  img.only-light,
+  img.only-dark {
+    display: inline-block;
+  }
+}
+
+html[data-theme="dark"] .project-logo img.only-light,
+html:not([data-theme="dark"]) .project-logo img.only-dark,
+html[data-theme="dark"] .projects .card .project-thumb-frame img.only-light,
+html:not([data-theme="dark"]) .projects .card .project-thumb-frame img.only-dark {
+  display: none;
+}
+
+html[data-theme="dark"] .project-logo img.only-dark {
+  display: inline-block;
 }
 
 .post-description {

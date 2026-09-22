@@ -8,7 +8,7 @@ importance: 5
 category: ongoing
 github: https://github.com/glen-w/transcribe
 website: https://glenwright.earth/transcribe/
-docs: https://glenwright.earth/transcribe/guide/user_guide.html
+docs: https://glenwright.earth/transcribe/guide/
 ---
 
 <div align="center">

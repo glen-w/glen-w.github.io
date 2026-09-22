@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: "Dealing with the risk of licensing marine renewables: The role and experience
-  of regulators"
-date: "2015-05-01"
+title: 'Dealing with the risk of licensing marine renewables: The role and experience
+  of regulators'
+date: '2015-01-01'
 entry_type: Workshop
-year: "2015"
+year: '2015'
 bibtex_key: DealingRiskLicensing2015
 is_event: true
 description: The RiCORE project aims at designing ways to accelerate and streamline
@@ -32,18 +32,19 @@ abstract: "The RiCORE project aims at designing ways to accelerate and streamlin
   \ management approach, using the Survey Deploy and Monitor (SDM) policy developed\
   \ in Scotland as an example."
 categories:
-  - other
+- other
 venue: RiCORE Project (Risk-based Consenting for Offshore Renewables) Workshop 2
 location: Paris, France
 role: participant
 preview: 2015_dealing_risk_licensing_marine_renewables_role_experience_regulators
 agenda: 2015_dealing_risk_licensing_marine_renewables_role_experience_regulators_agenda.pdf
 resources:
-  - kind: agenda
-    title: Conference agenda
-    label: View conference programme
-    url: /assets/pdf/2015_dealing_risk_licensing_marine_renewables_role_experience_regulators_agenda.pdf
-    format: PDF
-    local: true
-    external: false
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2015_dealing_risk_licensing_marine_renewables_role_experience_regulators_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 ---
+

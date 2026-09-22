@@ -2,9 +2,9 @@
 layout: library-item
 title: Technological tools for Monitoring, Control and Surveillance in Marine Areas
   Beyond National Jurisdiction
-date: "2018-07-01"
+date: '2018-01-01'
 entry_type: Workshop
-year: "2018"
+year: '2018'
 bibtex_key: TechnologicalToolsMonitoring2018
 is_event: true
 description: Monitoring Control and Surveillance (MCS) will be crucial to ensuring
@@ -28,28 +28,29 @@ abstract: Monitoring Control and Surveillance (MCS) will be crucial to ensuring 
   Any future successful options will need to be co-created with stakeholder to ensure
   appropriate design and early buy-in amongst different sectors.
 categories:
-  - other
+- other
 location: Sciences Po, Paris, France
 publisher: STRONG High Seas
 role: organiser
 speakers:
-  - Charles Kilgour, Ocean Mind
-  - Peter Horn, Pew Charitable Trusts
-  - Peter Thompson, Argos Froyanes
-  - Stephanie Winnard, RSPB
-  - Adriana Fabra, Tuna Compliance Network
-  - Kim Stobberup, FAO
-  - João Neves, NEAFC
+- Charles Kilgour, Ocean Mind
+- Peter Horn, Pew Charitable Trusts
+- Peter Thompson, Argos Froyanes
+- Stephanie Winnard, RSPB
+- Adriana Fabra, Tuna Compliance Network
+- Kim Stobberup, FAO
+- João Neves, NEAFC
 preview: 2018_technological_tools_monitoring_control_surveillance_marine_areas_beyond_national_jurisdiction
 pdf: 2018_technological_tools_monitoring_control_surveillance_marine_areas_beyond_national_jurisdiction.pdf
 resources:
-  - kind: pdf
-    title: Technological tools for Monitoring, Control and Surveillance in Marine Areas
-      Beyond National Jurisdiction
-    label: View primary document
-    url: /assets/pdf/2018_technological_tools_monitoring_control_surveillance_marine_areas_beyond_national_jurisdiction.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
+- kind: pdf
+  title: Technological tools for Monitoring, Control and Surveillance in Marine Areas
+    Beyond National Jurisdiction
+  label: View primary document
+  url: /assets/pdf/2018_technological_tools_monitoring_control_surveillance_marine_areas_beyond_national_jurisdiction.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
+
