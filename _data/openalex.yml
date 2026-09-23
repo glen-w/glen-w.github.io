@@ -1,0 +1,18 @@
+# Citation-network build config.
+# Refresh with:
+#   export OPENALEX_API_KEY=...   # never commit the key
+#   PYTHONPATH=. python processing/library/citations.py
+#
+# Optional: --seed author for the full OpenAlex author footprint.
+
+author_id: A5030178171
+orcid: 0000-0002-9162-9618
+mailto: glen.w.wright@gmail.com
+
+# library = DOIs from library.json (default); author = all OpenAlex works for author_id
+seed: library
+
+# Keep authors with at least this many citation links either way in the committed graph.
+min_links: 1
+# Cap people in the graph (ranked by total citation links).
+max_people: 200

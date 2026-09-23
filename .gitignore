@@ -41,6 +41,9 @@ build/
 .venv/
 venv/
 env/
+.env
+.env.*
+!.env.example
 *.cover
 coverage.xml
 pytest-report.html
@@ -94,3 +97,4 @@ processing/main.py
 processing/config.py
 processing/__init__.py
 mapping.csv
+docs/dev/seo-findability-plan.md

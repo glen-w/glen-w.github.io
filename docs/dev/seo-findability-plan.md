@@ -48,7 +48,7 @@ This file is the **on-site** implementation checklist only. Do not merge login-g
 
 - [x] CV publications → `/library/` first, DOI secondary (`assets/json/resume.json` + resume publications include).
 - [x] Outbound cite hygiene: prefer doi.org over PII/linkinghub (`BibTeXProcessor.apply_doi_hygiene`).
-- [ ] Remove catalogue contaminant Nordhaus AER “Climate Clubs” — Glen removes manually in Zotero/export.
+- [x] Remove catalogue contaminant Nordhaus AER “Climate Clubs” — Glen removes manually in Zotero/export.
 - [x] Sitemap: books collection default `sitemap: false`; Academia Obscura book `sitemap: true`; `/dropdown/` `sitemap: false`.
 - [x] Project URL aliases: hyphen → underscore redirects for academia-obscura, little-blue-letter, strong-high-seas.
 - [x] Footer / chrome: ResearchGate commented out of `socials.yml` until bios match truth.

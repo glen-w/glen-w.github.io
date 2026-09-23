@@ -29,6 +29,12 @@ medium_zoom: true
     <a href="/library/" id="clearFiltersLink" class="clear-filters-link">
       <i class="fas fa-times" aria-hidden="true"></i> Clear filters
     </a>
+    <a href="{{ '/collaborators/' | relative_url }}" class="view-map-link">
+      <i class="fas fa-project-diagram" aria-hidden="true"></i> Co-author map
+    </a>
+    <a href="{{ '/citations/' | relative_url }}" class="view-map-link">
+      <i class="fas fa-exchange-alt" aria-hidden="true"></i> Citation map
+    </a>
   </div>
 
   <div class="library-filters">
@@ -139,6 +145,10 @@ medium_zoom: true
 .search-actions {
   margin: 1rem 0;
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
 }
 
 .library-search {

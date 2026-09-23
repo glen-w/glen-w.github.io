@@ -67,11 +67,11 @@ class TestSeoContracts:
 
     def test_researchgate_is_slug_not_url(self):
         socials = SOCIALS.read_text(encoding='utf-8')
-        match = re.search(r'^research_gate_profile:\s*(\S+)', socials, re.M)
-        assert match, 'research_gate_profile missing'
-        value = match.group(1)
-        assert not value.startswith('http'), value
-        assert value == 'Glen-Wright'
+        active = re.search(r'^research_gate_profile:\s*(\S+)', socials, re.M)
+        assert active is None, active.group(1) if active else ''
+        commented = re.search(r'^# research_gate_profile:\s*(\S+)', socials, re.M)
+        assert commented, 'research_gate_profile comment missing'
+        assert commented.group(1) == 'Glen-Wright'
 
     def test_sitemap_page_exists(self):
         fm = _front_matter(SITEMAP)

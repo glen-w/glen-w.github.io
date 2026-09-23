@@ -59,7 +59,26 @@ A full library run (or `--catalog-only`) writes:
 
 - `assets/json/library.json` — list fields for `/library/` (title, year, type, roles, authors, venue, pdf/url/doi, one 480px thumb)
 - `assets/json/library-details.json` — abstracts, speakers, photos; fetched on first card expand
+- `assets/json/coauthors.json` — collaboration graph for `/collaborators/` (people, edges, works)
+- `assets/json/citations.json` — citation network for `/citations/` (OpenAlex, cached Scholar citers, Semantic Scholar)
 - `_data/library_selected.yml` — noscript selected list
+- `_data/collaborators.yml` — frequent collaborators (2+ shared works) for the noscript list
+- `_data/citers.yml` — frequent citers (2+ papers citing Glen) for `/citations/`
+- `_data/coauthor_aliases.yml` — optional forced name merges for the co-author graph
+- `_data/openalex.yml` — citation-network build config (`author_id`, `seed`, caps)
+
+Refresh the citation graph (needs network; use an API key — never commit it):
+
+```bash
+export OPENALEX_API_KEY=...   # from openalex.org/settings/api
+# optional, raises the Semantic Scholar rate limit:
+export SEMANTIC_SCHOLAR_API_KEY=...
+PYTHONPATH=. python processing/library/citations.py
+# optional full author footprint:
+PYTHONPATH=. python processing/library/citations.py --seed author
+```
+
+The run re-merges `.cache/scholar/normalized.json` when that cache exists (no new SerpApi searches) and adds Semantic Scholar citation and reference edges for library DOIs. `--no-scholar` and `--no-s2` skip those layers. `--s2-only` repeats the Semantic Scholar merge onto the current `citations.json`. Duplicate works that share a DOI, or a near-identical title and year, are collapsed.
 
 Preview JPEGs in `assets/img/publication_preview/` are fitted to a canonical 3:4 canvas (`480x640`) during paper processing so list and detail views can `object-fit: contain` without cropping. Landscape sources keep a sampled colour mat; portrait sources use a neutral pad so thin side shards do not appear. To refit existing previews without wiping PDFs:
 

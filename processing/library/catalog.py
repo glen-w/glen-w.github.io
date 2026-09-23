@@ -13,6 +13,7 @@ import yaml
 
 from processing.core.tag_extractor import TagExtractor
 from processing.library.bib_parser import BibParser
+from processing.library.coauthors import build_coauthor_graph, write_coauthor_artifacts
 from processing.library.content_generator import ContentGenerator
 
 MAX_AUTHOR_LIMIT = 3
@@ -67,7 +68,7 @@ class CatalogGenerator:
         if check_parity:
             self.assert_parity(catalog, entries)
 
-        self._write_artifacts(catalog, details)
+        self._write_artifacts(catalog, details, entries)
         return catalog, details
 
     def build_item(
@@ -333,7 +334,12 @@ class CatalogGenerator:
         if errors:
             raise CatalogParityError("; ".join(errors))
 
-    def _write_artifacts(self, catalog: Dict[str, Any], details: Dict[str, Any]) -> None:
+    def _write_artifacts(
+        self,
+        catalog: Dict[str, Any],
+        details: Dict[str, Any],
+        entries: Optional[List[Dict[str, Any]]] = None,
+    ) -> None:
         json_dir = os.path.join(self.project_root, "assets", "json")
         os.makedirs(json_dir, exist_ok=True)
         catalog_path = os.path.join(json_dir, "library.json")
@@ -371,13 +377,24 @@ class CatalogGenerator:
         with open(selected_path, "w", encoding="utf-8") as handle:
             yaml.dump(selected, handle, default_flow_style=False, allow_unicode=True, sort_keys=False)
 
+        graph = build_coauthor_graph(
+            entries or [],
+            catalog.get("items") or [],
+            project_root=self.project_root,
+            bib_parser=self.bib_parser,
+        )
+        graph_path, collaborators_path = write_coauthor_artifacts(self.project_root, graph)
+
         print(
             f"Wrote library catalog: {len(catalog['items'])} items, "
-            f"{len(details)} details, {len(selected)} selected"
+            f"{len(details)} details, {len(selected)} selected, "
+            f"{len(graph.get('people') or [])} coauthors"
         )
         print(f"  {catalog_path}")
         print(f"  {details_path}")
         print(f"  {selected_path}")
+        print(f"  {graph_path}")
+        print(f"  {collaborators_path}")
 
     def _get_library_index(self) -> Dict[str, List[Dict[str, Any]]]:
         """Map bibtex_key → list of library pages (collisions keep every page)."""

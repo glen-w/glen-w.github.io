@@ -250,6 +250,8 @@ class TestCatalogBuild:
         catalog_path = library_project_root / "assets" / "json" / "library.json"
         details_path = library_project_root / "assets" / "json" / "library-details.json"
         selected_path = library_project_root / "_data" / "library_selected.yml"
+        coauthors_path = library_project_root / "assets" / "json" / "coauthors.json"
+        collaborators_path = library_project_root / "_data" / "collaborators.yml"
         dumped = json.loads(catalog_path.read_text(encoding="utf-8"))
         assert dumped["items"][0]["id"] == "One"
         assert details_path.is_file()
@@ -257,6 +259,12 @@ class TestCatalogBuild:
         assert len(selected) == 1
         assert selected[0]["id"] == "One"
         assert isinstance(details, dict)
+        assert coauthors_path.is_file()
+        assert collaborators_path.is_file()
+        coauthors = json.loads(coauthors_path.read_text(encoding="utf-8"))
+        assert "people" in coauthors
+        assert "edges" in coauthors
+        assert "works" in coauthors
 
     def test_parity_fails_on_count_drift(self, generator):
         catalog = {"v": 1, "items": [{"id": "OnlyOne", "title": "x", "year": 1, "type": "Blog"}]}

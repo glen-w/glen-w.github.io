@@ -189,6 +189,9 @@ class TestPaperProcessor:
              patch.object(processor, 'formatter') as mock_formatter, \
              patch('builtins.open', new_callable=mock_open) as mock_file:
             mock_bibtex.rename_url_fields.return_value = ("@article{test2023, title = {Test}}", 0)
+            mock_bibtex.inject_doi_hygiene_into_content.side_effect = (
+                lambda content, _key, _fields=None: content
+            )
             mock_formatter.format_entry_from_content.return_value = "@article{test2023, title = {Test}}"
             
             processor._write_updated_bibtex_from_entries(entries, "test.bib", rename_urls=True)

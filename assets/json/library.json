@@ -89,6 +89,7 @@
         "attendee"
       ],
       "thumb": "/assets/img/publication_preview/2026_neptune_forum-480.webp",
+      "pdf": "/assets/pdf/2026_neptune_forum.pdf",
       "url": "https://mission-neptune.com/en/the-forum",
       "flags": [
         "abs"
@@ -205,6 +206,7 @@
         "attendee"
       ],
       "thumb": "/assets/img/publication_preview/2025_global_alliance_buildings_construction_globalabc_general_assembly-480.webp",
+      "pdf": "/assets/pdf/2025_global_alliance_buildings_construction_globalabc_general_assembly.pdf",
       "url": "https://globalabc.org/events/globalabc-annual-assembly-2025",
       "links": [
         "https://globalabc.org/news/radical-collaboration-resilient-built-environment-highlights-2025-globalabc-assembly-dresden"
@@ -3461,6 +3463,7 @@
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_historic_un_talks_save_high_seas-480.webp",
       "pdf": "/assets/pdf/glen_wright_etal_2016_historic_un_talks_save_high_seas.pdf",
       "url": "https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas",
+      "doi": "https://doi.org/10.64628/aak.jt4fdq3p3",
       "flags": [
         "abs"
       ],
@@ -3582,6 +3585,8 @@
       "venue": "Marine Policy",
       "thumb": "/assets/img/publication_preview/glen_wright_2016_regulating_wave_tidal_energy_industry_perspective_scottish_marine_governance_framework-480.webp",
       "pdf": "/assets/pdf/glen_wright_2016_regulating_wave_tidal_energy_industry_perspective_scottish_marine_governance_framework.pdf",
+      "url": "https://doi.org/10.1016/j.marpol.2015.12.014",
+      "doi": "https://doi.org/10.1016/j.marpol.2015.12.014",
       "info": "/library/glen-wright-regulating-wave-tidal-energy-industry-perspective-scottish-marine-governance-framework/"
     },
     {
@@ -4272,6 +4277,7 @@
       ],
       "venue": "The Guardian",
       "thumb": "/assets/img/publication_preview/glen_wright_2014_guide_ref_shameless_academic-480.webp",
+      "pdf": "/assets/pdf/glen_wright_2014_guide_ref_shameless_academic.pdf",
       "url": "https://www.theguardian.com/higher-education-network/2014/dec/12/research-excellence-framework-success-academic",
       "flags": [
         "abs"
@@ -4289,6 +4295,7 @@
       ],
       "venue": "The Guardian",
       "thumb": "/assets/img/publication_preview/glen_wright_2014_academia_food_stale_snacks_strange_research-480.webp",
+      "pdf": "/assets/pdf/glen_wright_2014_academia_food_stale_snacks_strange_research.pdf",
       "url": "https://www.theguardian.com/higher-education-network/2014/nov/28/academia-and-food-stale-snacks-and-strange-research",
       "flags": [
         "abs"
@@ -4361,6 +4368,7 @@
       ],
       "venue": "The Guardian",
       "thumb": "/assets/img/publication_preview/glen_wright_2014_halloween_special_spooky_research_cold_depths_academia-480.webp",
+      "pdf": "/assets/pdf/glen_wright_2014_halloween_special_spooky_research_cold_depths_academia.pdf",
       "url": "https://www.theguardian.com/higher-education-network/blog/2014/oct/31/-sp-halloween-special-spooky-research-from-the-cold-depths-of-academia",
       "flags": [
         "abs"
@@ -5139,6 +5147,8 @@
       "venue": "Development in Practice",
       "thumb": "/assets/img/publication_preview/glen_wright_2012_recent_global_developments_marine_renewable_energy-480.webp",
       "pdf": "/assets/pdf/glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change.pdf",
+      "url": "https://doi.org/10.1080/09614524.2012.634230",
+      "doi": "https://doi.org/10.1080/09614524.2012.634230",
       "flags": [
         "abs"
       ],

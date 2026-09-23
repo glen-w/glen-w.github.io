@@ -1,0 +1,8 @@
+# Optional co-author name merges for the collaborators graph.
+# Leave empty unless two distinct spellings need a forced canonical name.
+#
+# - name: Julien Rochette
+#   aliases:
+#     - J. Rochette
+#     - Rochette, J.
+[]

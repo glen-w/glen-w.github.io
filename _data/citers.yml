@@ -1,0 +1,394 @@
+- name: Kristina Maria Gjerde
+  count: 30
+- name: Daniel C. Dunn
+  count: 21
+- name: Julien Rochette
+  count: 21
+- name: Harriet Harden‐Davies
+  count: 18
+- name: Cassandra M. Brooks
+  count: 16
+- name: Alice B. M. Vadrot
+  count: 15
+- name: Joanna Mossop
+  count: 15
+- name: J Wang
+  count: 14
+- name: David Edward Johnson
+  count: 13
+- name: Robert Blasiak
+  count: 11
+- name: U. Rashid Sumaila
+  count: 11
+- name: Alex David Rogers
+  count: 10
+- name: Diva J. Amon
+  count: 10
+- name: Guillermo Ortuño Crespo
+  count: 10
+- name: Ina Tessnow-von Wysocki
+  count: 10
+- name: Nathan James Bennett
+  count: 10
+- name: Carissa J. Klein
+  count: 9
+- name: Lisa M. Campbell
+  count: 9
+- name: Patrick N. Halpin
+  count: 9
+- name: Y Liu
+  count: 9
+- name: Andrew B. Gill
+  count: 8
+- name: Arne Langlet
+  count: 8
+- name: Ashley Alun Rowden
+  count: 8
+- name: B Boteler
+  count: 8
+- name: Catarina Frazão Santos
+  count: 8
+- name: Christopher R. S. Barrio Froján
+  count: 8
+- name: Colette C. C. Wabnitz
+  count: 8
+- name: Elizabeth Mendenhall
+  count: 8
+- name: Fran Humphries
+  count: 8
+- name: Helena Calado
+  count: 8
+- name: Laura Maureen Pereira
+  count: 8
+- name: Leslie Roberson
+  count: 8
+- name: Lisa Ann Levin
+  count: 8
+- name: Sarah Louise Lothian
+  count: 8
+- name: W Flannery
+  count: 8
+- name: A Eitan
+  count: 7
+- name: Bianca Haas
+  count: 7
+- name: C Blanchard
+  count: 7
+- name: C Durussel
+  count: 7
+- name: D. Dunn
+  count: 7
+- name: David O. Obura
+  count: 7
+- name: Duncan Currie
+  count: 7
+- name: Elizabeth Havice
+  count: 7
+- name: EM De Santo
+  count: 7
+- name: H. Harden‐Davies
+  count: 7
+- name: Jean‐Baptiste Jouffray
+  count: 7
+- name: Klaudija Cremers
+  count: 7
+- name: L Wang
+  count: 7
+- name: MC Freeman
+  count: 7
+- name: Paul Dunshirn
+  count: 7
+- name: Rachel Gjelsvik Tiller
+  count: 7
+- name: Sandy Kerr
+  count: 7
+- name: Santiago Salvador
+  count: 7
+- name: Sebastián Villasante
+  count: 7
+- name: Tundi S. Agardy
+  count: 7
+- name: Z Zhang
+  count: 7
+- name: Andrés Miguel Cisneros-Montemayor
+  count: 6
+- name: Anne Marie O’Hagan
+  count: 6
+- name: C Trivedi
+  count: 6
+- name: Daniel Wagner
+  count: 6
+- name: E Nyman
+  count: 6
+- name: Emily S. Nocito
+  count: 6
+- name: I MacGill
+  count: 6
+- name: J Blythe
+  count: 6
+- name: Julie M. Ayling
+  count: 6
+- name: K Johnson
+  count: 6
+- name: Kahlil Hassanali
+  count: 6
+- name: Malcolm R. Clark
+  count: 6
+- name: Marjo Vierros
+  count: 6
+- name: Nichola A. Clark
+  count: 6
+- name: Sebastian Unger
+  count: 6
+- name: SP Weir
+  count: 6
+- name: Y Wang
+  count: 6
+- name: A. Rogers
+  count: 5
+- name: A. Rowden
+  count: 5
+- name: B Neumann
+  count: 5
+- name: DT Cotfas
+  count: 5
+- name: Edward H. Allison
+  count: 5
+- name: Francisco Javier Sanz Larruga
+  count: 5
+- name: Gabrielle Carmine
+  count: 5
+- name: Henrik Österblom
+  count: 5
+- name: J Zhang
+  count: 5
+- name: Joachim Claudet
+  count: 5
+- name: Krystel Wanneau
+  count: 5
+- name: LD Acton
+  count: 5
+- name: Lisa M. Wedding
+  count: 5
+- name: Luís Gimeno
+  count: 5
+- name: MA Quirapas-Franco
+  count: 5
+- name: Marcus Haward
+  count: 5
+- name: MS Karim
+  count: 5
+- name: Nicholas J. Bax
+  count: 5
+- name: Noella J. Gray
+  count: 5
+- name: PA Cotfas
+  count: 5
+- name: R Myers
+  count: 5
+- name: S Li
+  count: 5
+- name: Telmo Morato
+  count: 5
+- name: U. Sumaila
+  count: 5
+- name: W Chen
+  count: 5
+- name: W. Cheung
+  count: 5
+- name: William W. L. Cheung
+  count: 5
+- name: X Zhang
+  count: 5
+- name: Z Wang
+  count: 5
+- name: AE Copping
+  count: 4
+- name: Alexander Mawyer
+  count: 4
+- name: Amanda Talita Lombard
+  count: 4
+- name: AR Baco
+  count: 4
+- name: Aysha Fleming
+  count: 4
+- name: Azucena Castro
+  count: 4
+- name: B Harvey
+  count: 4
+- name: Bethan C. O’Leary
+  count: 4
+- name: Brooke Anne Williams
+  count: 4
+- name: C Li
+  count: 4
+- name: C Liu
+  count: 4
+- name: C Wang
+  count: 4
+- name: C. Barrio Froján
+  count: 4
+- name: Callum M. Roberts
+  count: 4
+- name: Cymie R. Payne
+  count: 4
+- name: D Diz
+  count: 4
+- name: DS Schoeman
+  count: 4
+- name: E Jones
+  count: 4
+- name: Elliott Lee Hazen
+  count: 4
+- name: Emily C. Melvin
+  count: 4
+- name: Fabrice Stephenson
+  count: 4
+- name: G. Crespo
+  count: 4
+- name: GT Pecl
+  count: 4
+- name: I Brito-Morales
+  count: 4
+- name: J García-Sanabria
+  count: 4
+- name: J Riesz
+  count: 4
+- name: J. Rochette
+  count: 4
+- name: James E. M. Watson
+  count: 4
+- name: Jason D. Everett
+  count: 4
+- name: Jeffrey McGee
+  count: 4
+- name: Jon Day
+  count: 4
+- name: Kerry L. Howell
+  count: 4
+- name: L Catalán
+  count: 4
+- name: L. Campbell
+  count: 4
+- name: Lance E. Morgan
+  count: 4
+- name: Larry B. Crowder
+  count: 4
+- name: LR Gonçalves
+  count: 4
+- name: LR Virto
+  count: 4
+- name: M Andriamahefazafy
+  count: 4
+- name: M Araiz
+  count: 4
+- name: M Neshat
+  count: 4
+- name: Mariana Caldeira
+  count: 4
+- name: Mark Andrew Hindell
+  count: 4
+- name: Marta Chantal Ribeiro
+  count: 4
+- name: Matthew Gianni
+  count: 4
+- name: MJ Cervantes
+  count: 4
+- name: Natalie C. Ban
+  count: 4
+- name: P. Halpin
+  count: 4
+- name: Pascal Z. Thoya
+  count: 4
+- name: R Mahon
+  count: 4
+- name: R Sioshansi
+  count: 4
+- name: RM Martínez Vázquez
+  count: 4
+- name: Rolf Adriaan Groeneveld
+  count: 4
+- name: S Darling
+  count: 4
+- name: Simon Jude
+  count: 4
+- name: Siv Rebekka Runhovde
+  count: 4
+- name: SNR Birchenough
+  count: 4
+- name: T Kankaanranta
+  count: 4
+- name: T Wilberforce
+  count: 4
+- name: Therezah Achieng
+  count: 4
+- name: Torsten Thiele
+  count: 4
+- name: TR Davies
+  count: 4
+- name: Trevor Hopper
+  count: 4
+- name: Y Zhou
+  count: 4
+- name: Z Li
+  count: 4
+- name: Ana Beatriz Dutel Hilário
+  count: 3
+- name: Ari S. Friedlaender
+  count: 3
+- name: Aurélie Spadone
+  count: 3
+- name: Bianca S. Santos
+  count: 3
+- name: Crow White
+  count: 3
+- name: David M. Bailey
+  count: 3
+- name: Jeff Ardron
+  count: 3
+- name: John N. Kittinger
+  count: 3
+- name: Kirsten F. Thompson
+  count: 3
+- name: Kirsty McQuaid
+  count: 3
+- name: Malin L. Pinsky
+  count: 3
+- name: Martin J. Attrill
+  count: 3
+- name: Reg A. Watson
+  count: 3
+- name: Ruth Fletcher
+  count: 3
+- name: Siddharth Shekhar Yadav
+  count: 3
+- name: Tammy E. Davies
+  count: 3
+- name: Vicky W. Y. Lam
+  count: 3
+- name: Yoshitaka Ota
+  count: 3
+- name: Andrew Merrie
+  count: 2
+- name: Craig R. Smith
+  count: 2
+- name: D. Obura
+  count: 2
+- name: Dan Laffoley
+  count: 2
+- name: Derek P. Tittensor
+  count: 2
+- name: Douglas J. McCauley
+  count: 2
+- name: Erik Jaap Molenaar
+  count: 2
+- name: Giuseppe Notarbartolo di Sciara
+  count: 2
+- name: Jesse Cleary
+  count: 2
+- name: L. Crowder
+  count: 2
+- name: L. Levin
+  count: 2
+- name: Laura L. Watts
+  count: 2
