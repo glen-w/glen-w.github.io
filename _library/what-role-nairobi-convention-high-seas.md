@@ -7,8 +7,17 @@ year: '2015'
 bibtex_key: rochetteWhatRoleNairobi2015
 is_event: true
 description: What role for the Nairobi Convention in the high seas?
+tags:
+- bbnj
+- abmt / mpas
+- not undermine
+- ifb
+- author:glen wright
+- oa:open
+- regional governance
 categories:
 - other
+- governance
 authors:
 - Julien Rochette
 - Glen Wright
@@ -30,6 +39,7 @@ gallery:
 - what_role_nairobi_convention_high_seas_photo_04
 - what_role_nairobi_convention_high_seas_photo_05
 pdf: 2015_what_role_nairobi_convention_high_seas.pdf
+url: https://glenwright.earth/library/what-role-nairobi-convention-high-seas/
 zip_archive: 2015_what_role_nairobi_convention_high_seas.zip
 zip_file_count: '9'
 zip_file_size_mb: '15.0'
@@ -50,5 +60,16 @@ resources:
   local: true
   external: false
   subtitle: 9 files · 15.0 MB
+- kind: landing
+  title: Visit 8th Conference of Parties to the Nairobi Convention for the Protection,
+    Management and Development of the Marine and Coastal Environment of the Western
+    Indian Ocean Region publication page
+  label: Visit 8th Conference of Parties to the Nairobi Convention for the Protection,
+    Management and Development of the Marine and Coastal Environment of the Western
+    Indian Ocean Region publication page
+  url: https://glenwright.earth/library/what-role-nairobi-convention-high-seas/
+  format: Web
+  local: false
+  external: true
 ---
 

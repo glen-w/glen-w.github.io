@@ -63,6 +63,7 @@
         (Array.isArray(graph.works) ? graph.works : []).map((work) => [work.id, work])
       );
       renderGraph();
+      clearPanel();
     } catch (error) {
       console.error("Citation graph failed to load", error);
       setStatus("Could not load the citation map. Run the citations build script.");
@@ -149,9 +150,14 @@
       .attr("fill", "#b5651d");
 
     const maxCount = d3.max(people, (d) => personScore(d) || 1) || 1;
-    const radius = d3.scaleSqrt().domain([1, maxCount]).range([6, 22]);
+    const radius = d3.scaleSqrt().domain([1, maxCount]).range([5, 18]);
     const maxEdge = d3.max(edges, (d) => d.count || 1) || 1;
-    const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1.2, 4.5]);
+    const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1, 3.5]);
+    const crowded = people.length > 35;
+    const edgeOpacity = (d) => {
+      if (d.direction === "co_cite") return crowded ? 0.2 : 0.4;
+      return crowded ? 0.28 : 0.55;
+    };
 
     const nodes = people.map((person) => {
       const node = { ...person };
@@ -172,6 +178,18 @@
       .filter((edge) => edge.source && edge.target)
       .sort((a, b) => (a.direction === "co_cite" ? 0 : 1) - (b.direction === "co_cite" ? 0 : 1));
 
+    const labelCap = people.length > 60 ? 8 : people.length > 35 ? 12 : people.length > 20 ? 16 : 24;
+    const labeledIds = new Set(
+      nodes
+        .filter((d) => !d.self)
+        .sort((a, b) => personScore(b) - personScore(a))
+        .slice(0, labelCap)
+        .map((d) => d.id)
+    );
+    nodes.forEach((d) => {
+      if (d.self) labeledIds.add(d.id);
+    });
+
     const g = els.svg.append("g").attr("class", "citations-zoom");
     const zoom = d3
       .zoom()
@@ -189,7 +207,7 @@
         if (d.direction === "co_cite") return "#8d99a6";
         return d.direction === "cites_me" ? "#2a6f97" : "#b5651d";
       })
-      .attr("stroke-opacity", (d) => (d.direction === "co_cite" ? 0.45 : 0.65))
+      .attr("stroke-opacity", edgeOpacity)
       .attr("stroke-width", (d) => (d.direction === "co_cite" ? 1 : thickness(d.count || 1)))
       .attr("marker-end", (d) => {
         if (d.direction === "co_cite") return null;
@@ -231,7 +249,9 @@
       .on("click", (event, d) => {
         event.stopPropagation();
         showPerson(d);
-      });
+      })
+      .on("mouseenter", (event, d) => setFocus(d.id))
+      .on("mouseleave", () => setFocus(null));
 
     node
       .append("circle")
@@ -252,18 +272,45 @@
           `${d.name} · cites me ${d.citedMe || 0} · I cite ${d.citedByMe || 0}`
       );
 
-    node
-      .filter((d) => d.self || personScore(d) >= 3)
+    const labels = node
       .append("text")
+      .attr("class", "network-node-label")
       .text((d) => d.name.split(" ").slice(-1)[0])
-      .attr("y", (d) => radius(personScore(d) || 1) + 12)
+      .attr("y", (d) => radius(personScore(d) || 1) + 11)
       .attr("text-anchor", "middle")
-      .attr("font-size", "11px")
-      .attr("fill", "var(--global-text-color)");
+      .attr("font-size", "10px")
+      .attr("fill", "var(--global-text-color)")
+      .attr("stroke", "var(--global-bg-color)")
+      .attr("stroke-width", 3)
+      .attr("paint-order", "stroke")
+      .attr("pointer-events", "none")
+      .style("opacity", (d) => (labeledIds.has(d.id) ? 1 : 0));
+
+    function setFocus(focusId) {
+      if (!focusId) {
+        node.style("opacity", 1);
+        link.attr("stroke-opacity", edgeOpacity);
+        labels.style("opacity", (d) => (labeledIds.has(d.id) ? 1 : 0));
+        return;
+      }
+      const connected = new Set([focusId]);
+      links.forEach((edge) => {
+        if (edge.source.id === focusId || edge.target.id === focusId) {
+          connected.add(edge.source.id);
+          connected.add(edge.target.id);
+        }
+      });
+      node.style("opacity", (d) => (connected.has(d.id) ? 1 : 0.12));
+      link.attr("stroke-opacity", (d) =>
+        d.source.id === focusId || d.target.id === focusId ? 0.9 : 0.04
+      );
+      labels.style("opacity", (d) => (connected.has(d.id) ? 1 : 0));
+    }
 
     els.svg.on("click", () => clearPanel());
 
     if (state.simulation) state.simulation.stop();
+    const charge = crowded ? -220 : -160;
     state.simulation = d3
       .forceSimulation(nodes)
       .force(
@@ -272,13 +319,13 @@
           .forceLink(links)
           .id((d) => d.id)
           .distance((d) =>
-            d.direction === "co_cite" ? 130 : 50 + 70 / Math.sqrt(d.count || 1)
+            d.direction === "co_cite" ? 150 : 55 + 85 / Math.sqrt(d.count || 1)
           )
-          .strength((d) => (d.direction === "co_cite" ? 0.04 : 0.35))
+          .strength((d) => (d.direction === "co_cite" ? 0.04 : 0.3))
       )
-      .force("charge", d3.forceManyBody().strength(-160))
+      .force("charge", d3.forceManyBody().strength(charge))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius((d) => radius(personScore(d) || 1) + 4));
+      .force("collision", d3.forceCollide().radius((d) => radius(personScore(d) || 1) + 6));
 
     const selfNode = nodes.find((d) => d.self);
     if (selfNode) {
@@ -394,8 +441,32 @@
   }
 
   function clearPanel() {
-    els.panel.innerHTML =
-      '<p class="citations-panel-empty">Click a person or an arrow to see the papers behind the link.</p>';
+    els.panel.innerHTML = `
+      <div class="network-legend">
+        <p class="citations-panel-empty">Click a person or an arrow to see the papers behind the link.</p>
+        <h4 class="network-legend-title">Key</h4>
+        <ul class="network-legend-list">
+          <li>
+            <span class="network-legend-swatch network-legend-swatch--self" aria-hidden="true"></span>
+            Highlighted node is Glen
+          </li>
+          <li>
+            <span class="network-legend-swatch network-legend-swatch--cites-me" aria-hidden="true"></span>
+            Blue = cites Glen
+          </li>
+          <li>
+            <span class="network-legend-swatch network-legend-swatch--i-cite" aria-hidden="true"></span>
+            Orange = Glen cites them
+          </li>
+          <li>
+            <span class="network-legend-swatch network-legend-swatch--both" aria-hidden="true"></span>
+            Grey = both directions (or co-authors on a citing paper)
+          </li>
+          <li>Larger nodes and thicker arrows = more papers</li>
+          <li>Hover a node to label neighbours and highlight links; zoom to explore</li>
+        </ul>
+      </div>
+    `;
   }
 
   function escapeHtml(value) {

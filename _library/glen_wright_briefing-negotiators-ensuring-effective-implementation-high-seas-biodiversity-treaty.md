@@ -9,6 +9,12 @@ bibtex_key: wrightBriefingNegotiatorsEnsuring2022
 is_event: false
 description: 'Briefing for negotiators: Ensuring Effective Implementation of a High
   Seas Biodiversity Treaty'
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

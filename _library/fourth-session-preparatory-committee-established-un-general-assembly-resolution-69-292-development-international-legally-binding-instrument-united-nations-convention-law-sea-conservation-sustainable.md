@@ -20,9 +20,6 @@ role: delegate
 preview: 2017_fourth_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation
 pdf: 2017_fourth_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_b.pdf
 url: https://www.un.org/Depts/los/biodiversity/prepcom.htm
-zip_archive: 2017_fourth_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.5'
 resources:
 - kind: pdf
   title: Fourth Session of the Preparatory Committee Established by the UN General
@@ -35,14 +32,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2017_fourth_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.5 MB
 - kind: landing
   title: Visit publication page
   label: Visit publication page

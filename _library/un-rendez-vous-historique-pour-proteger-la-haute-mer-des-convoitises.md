@@ -16,9 +16,6 @@ venue: The Conversation
 role: co-author
 preview: 2016_un_rendez_vous_historique_pour_proteger_la_haute_mer_des_convoitises
 pdf: 2016_un_rendez_vous_historique_pour_proteger_la_haute_mer_des_convoitises.pdf
-zip_archive: 2016_un_rendez_vous_historique_pour_proteger_la_haute_mer_des_convoitises_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '2.1'
 resources:
 - kind: pdf
   title: Un rendez-vous historique pour proteger la haute mer des convoitises
@@ -28,13 +25,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2016_un_rendez_vous_historique_pour_proteger_la_haute_mer_des_convoitises_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 2.1 MB
 ---
 

@@ -20,9 +20,6 @@ role: delegate
 preview: 2022_fourth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond
 pdf: 2022_fourth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond_b.pdf
 url: https://www.un.org/bbnj/content/fourth-substantive-session
-zip_archive: 2022_fourth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.4'
 resources:
 - kind: pdf
   title: Fourth session of the Intergovernmental conference on an international legally
@@ -35,14 +32,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2022_fourth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.4 MB
 - kind: landing
   title: Visit publication page
   label: Visit publication page

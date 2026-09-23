@@ -9,6 +9,13 @@ bibtex_key: Iucn2018c
 is_event: false
 description: 'Laying the Foundations for Management of a Seamount Beyond National
   Jurisdiction: A case study of the Walters Shoal in the South West Indian Ocean'
+tags:
+- bbnj
+- abmt / mpas
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

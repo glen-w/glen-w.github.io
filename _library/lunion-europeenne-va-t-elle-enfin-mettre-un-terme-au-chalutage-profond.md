@@ -25,9 +25,6 @@ role: co-author
 preview: 2016_lunion_europeenne_va_t_elle_enfin_mettre_un_terme_au_chalutage_profond
 pdf: 2016_lunion_europeenne_va_t_elle_enfin_mettre_un_terme_au_chalutage_profond.pdf
 url: http://theconversation.com/lunion-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond-58469
-zip_archive: 2016_lunion_europeenne_va_t_elle_enfin_mettre_un_terme_au_chalutage_profond_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '1.6'
 resources:
 - kind: pdf
   title: L’Union europeenne va-t-elle enfin mettre un terme au chalutage profond ?
@@ -37,14 +34,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2016_lunion_europeenne_va_t_elle_enfin_mettre_un_terme_au_chalutage_profond_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 1.6 MB
 - kind: landing
   title: Visit The Conversation publication page
   label: Visit The Conversation publication page

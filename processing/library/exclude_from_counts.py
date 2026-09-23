@@ -1,7 +1,8 @@
 """User-defined library items excluded from filter counts.
 
-Items still appear in the catalogue; they are omitted from type/role/language
-counts on /library/. The list lives at ``_data/library_exclude_from_counts.yml``
+Items still appear in the unfiltered catalogue and text search; they are omitted
+from type/role/language chip counts and from those facet result lists on
+/library/. The list lives at ``_data/library_exclude_from_counts.yml``
 (gitignored). Each entry may be a BibTeX key or a title (case-insensitive).
 """
 

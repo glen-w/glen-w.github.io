@@ -21,9 +21,6 @@ gallery:
 - training_programme_sustainable_development_governance_caspian_sea_photo_01
 - training_programme_sustainable_development_governance_caspian_sea_photo_02
 agenda: 2016_training_programme_sustainable_development_governance_caspian_sea_agenda.pdf
-zip_archive: 2016_training_programme_sustainable_development_governance_caspian_sea_a.zip
-zip_file_count: '3'
-zip_file_size_mb: '6.6'
 resources:
 - kind: agenda
   title: Conference agenda
@@ -32,13 +29,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2016_training_programme_sustainable_development_governance_caspian_sea_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 3 files · 6.6 MB
 ---
 

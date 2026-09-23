@@ -19,8 +19,17 @@ authors:
 venue: The Guardian
 role: author
 preview: glen_wright_2014_academia_food_stale_snacks_strange_research
+pdf: glen_wright_2014_academia_food_stale_snacks_strange_research.pdf
 url: https://www.theguardian.com/higher-education-network/2014/nov/28/academia-and-food-stale-snacks-and-strange-research
 resources:
+- kind: pdf
+  title: 'Academia and food: stale snacks and strange research'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2014_academia_food_stale_snacks_strange_research.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 - kind: landing
   title: Visit The Guardian publication page
   label: Visit The Guardian publication page

@@ -33,8 +33,17 @@ abstract: Marine areas beyond national jurisdiction (ABJN), often referred to as
   (i.e. Regional Seas programmes, Regional Fisheries Management Organisations and
   other regional mechanisms such as Large Marine Ecosystems) and consider options
   for filling governance gaps.
+tags:
+- bbnj
+- abmt / mpas
+- not undermine
+- ifb
+- author:glen wright
+- oa:open
+- regional governance
 categories:
 - other
+- governance
 authors:
 - Julien Rochette
 - Sebastian Unger
@@ -44,6 +53,7 @@ location: Potsdam, Germany
 role: co-author
 preview: 2014_governing_high_seas_linking_global_governance_regional_implementation
 pdf: 2014_governing_high_seas_linking_global_governance_regional_implementation.pdf
+url: https://glenwright.earth/library/governing-high-seas-linking-global-governance-regional-implementation/
 pages: 1--14
 resources:
 - kind: pdf
@@ -54,5 +64,12 @@ resources:
   local: true
   external: false
   primary: true
+- kind: landing
+  title: Visit Potsdam Ocean Governance Workshop publication page
+  label: Visit Potsdam Ocean Governance Workshop publication page
+  url: https://glenwright.earth/library/governing-high-seas-linking-global-governance-regional-implementation/
+  format: Web
+  local: false
+  external: true
 ---
 

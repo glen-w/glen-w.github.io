@@ -14,6 +14,7 @@ categories:
 authors:
 - Glen Wright
 venue: ANU School of Law Doctoral Showcase
+role: author
 preview: glen_wright_2012_marine_energy_designing_regulatory_framework_abundant_renewable_energy_resource_poster
 pdf: glen_wright_2012_marine_energy_designing_regulatory_framework_abundant_renewable_energy_resource_poster.pdf
 resources:

@@ -158,8 +158,7 @@ class TestFileManager:
         assert '-strip' in cmd
         assert '-gravity' in cmd
         resize_idx = cmd.index('-resize')
-        assert cmd[resize_idx + 1].endswith('>')
-        assert '640' in cmd[resize_idx + 1]
+        assert cmd[resize_idx + 1] == '480x640'
         assert cmd[cmd.index('-extent') + 1] == '480x640'
         assert cmd[cmd.index('-background') + 1] == '#aabbcc'
 
@@ -201,9 +200,10 @@ class TestFileManager:
                 mock_sample.assert_called_once()
 
     def test_normalize_thumbnail_geometry(self, file_manager):
-        """Test ImageMagick geometry normalization for shrink-only resize."""
-        assert file_manager._normalize_thumbnail_geometry('480x') == '480x>'
+        """Bare WxH is preserved so small sources may upscale to fill the canvas."""
+        assert file_manager._normalize_thumbnail_geometry('480x') == '480x'
         assert file_manager._normalize_thumbnail_geometry('480x>') == '480x>'
+        assert file_manager._normalize_thumbnail_geometry('480x640') == '480x640'
         assert file_manager._normalize_thumbnail_geometry('480x640>') == '480x640>'
         assert file_manager._normalize_thumbnail_geometry('200x200!') == '200x200!'
 
@@ -213,14 +213,14 @@ class TestFileManager:
         assert file_manager._canvas_from_size('480x>') == file_manager.config.PREVIEW_CANVAS
 
     def test_preview_fit_args(self, file_manager):
-        args = file_manager._preview_fit_args('480x640>', 'white')
-        assert args[args.index('-resize') + 1] == '480x640>'
+        args = file_manager._preview_fit_args('480x640', 'white')
+        assert args[args.index('-resize') + 1] == '480x640'
         assert args[args.index('-gravity') + 1] == 'center'
         assert args[args.index('-background') + 1] == 'white'
         assert args[args.index('-extent') + 1] == '480x640'
 
     def test_default_thumbnail_size_is_three_by_four(self, file_manager):
-        assert file_manager.config.DEFAULT_THUMBNAIL_SIZE == '480x640>'
+        assert file_manager.config.DEFAULT_THUMBNAIL_SIZE == '480x640'
         assert file_manager.config.PREVIEW_CANVAS == '480x640'
 
     @patch('os.remove')
@@ -251,7 +251,7 @@ class TestFileManager:
         assert '-trim' in cmd
         assert '-gravity' in cmd
         assert cmd[cmd.index('-extent') + 1] == '480x640'
-        assert cmd[cmd.index('-resize') + 1].endswith('>')
+        assert cmd[cmd.index('-resize') + 1] == '480x640'
         assert cmd[cmd.index('-background') + 1] == '#aabbcc'
 
     @patch.object(FileManager, 'normalize_preview_image', return_value=True)

@@ -18,8 +18,16 @@ authors:
 location: Paris, France
 role: speaker
 preview: glen_wright_2014_marine_spatial_planning_areas_beyond_national_jurisdiction_developing_research_agenda
+agenda: glen_wright_2014_marine_spatial_planning_areas_beyond_national_jurisdiction_developing_research_agenda_agenda.pdf
 url: https://prezi.com/428z2rbqi05u/marine-spatial-planning-in-areas-beyond-national-jurisdiction/?present=1
 resources:
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/glen_wright_2014_marine_spatial_planning_areas_beyond_national_jurisdiction_developing_research_agenda_agenda.pdf
+  format: PDF
+  local: true
+  external: false
 - kind: landing
   title: Visit event website
   label: Visit event website

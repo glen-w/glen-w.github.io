@@ -38,6 +38,8 @@ abstract: 'An awe-inspiring and panoramic investigation into the hidden world of
   and reveals critical links between the deep sea and life on land. The Dark Frontier
   expands our understanding of biological possibilities - and our responsibilities
   - on Earth and beyond.'
+tags:
+- eia / sea
 categories:
 - other
 authors:

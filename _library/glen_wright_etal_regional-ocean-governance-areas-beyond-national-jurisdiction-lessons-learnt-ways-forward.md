@@ -9,6 +9,12 @@ bibtex_key: wrightRegionalOceanGovernance2019
 is_event: false
 description: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons
   Learnt and Ways Forward'
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

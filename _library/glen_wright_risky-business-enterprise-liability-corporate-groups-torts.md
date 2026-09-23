@@ -17,9 +17,6 @@ preview: glen_wright_2017_risky_business_enterprise_liability_corporate_groups_t
 pdf: glen_wright_2017_risky_business_enterprise_liability_corporate_groups_torts.pdf
 url: https://doi.org/10.1515/jetl-2017-0003
 doi: https://doi.org/10.1515/jetl-2017-0003
-zip_archive: glen_wright_2017_risky_business_enterprise_liability_corporate_groups_torts_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.2'
 pages: 54--77
 volume: '8'
 number: '1'
@@ -32,14 +29,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2017_risky_business_enterprise_liability_corporate_groups_torts_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.2 MB
 - kind: landing
   title: DOI
   label: View DOI

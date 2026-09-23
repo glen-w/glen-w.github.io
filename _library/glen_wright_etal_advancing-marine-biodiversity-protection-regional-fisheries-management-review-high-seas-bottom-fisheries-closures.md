@@ -31,6 +31,17 @@ abstract: 'Ocean regions that do not fall under the jurisdiction of any State, a
   considers the role RFMOs in biodiversity conservation in light of their performance
   in relation to HSBFCs, and highlights some pathways for strengthening their role.
   Section 6 concludes by summarising the issues at stake and the possible ways forward.'
+tags:
+- fisheries
+- bbnj
+- rfmo
+- not undermine
+- cited-by:glen-strong-high-seas
+- ifb
+- oa:unknown
+- source:glen-7pubs-refs
+- type:grey
+- author:glen wright
 categories:
 - other
 authors:
@@ -43,6 +54,7 @@ institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures
 pdf: glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures.pdf
+url: https://glenwright.earth/library/glen-wright-etal-advancing-marine-biodiversity-protection-regional-fisheries-management-review-high-seas-bottom-fisheries-closures/
 pages: '28'
 resources:
 - kind: pdf
@@ -54,5 +66,12 @@ resources:
   local: true
   external: false
   primary: true
+- kind: landing
+  title: Visit IDDRI publication page
+  label: Visit IDDRI publication page
+  url: https://glenwright.earth/library/glen-wright-etal-advancing-marine-biodiversity-protection-regional-fisheries-management-review-high-seas-bottom-fisheries-closures/
+  format: Web
+  local: false
+  external: true
 ---
 

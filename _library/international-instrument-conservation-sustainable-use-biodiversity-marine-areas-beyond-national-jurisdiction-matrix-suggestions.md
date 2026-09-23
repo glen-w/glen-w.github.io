@@ -9,6 +9,12 @@ bibtex_key: InternationalInstrumentConservation2015
 is_event: false
 description: 'An International Instrument on Conservation and Sustainable Use of Biodiversity
   in Marine Areas beyond National Jurisdiction: Matrix of Suggestions'
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 venue: IUCN

@@ -21,6 +21,15 @@ abstract: This report highlights the relevance of regional ocean governance (ROG
   of SDG14. The report also highlights some of the key contributions that regional
   approaches can make to some of the overarching challenges of the 2030 Agenda, including
   capacity development, institutional transformation, and sustainable financing.
+tags:
+- bbnj
+- not undermine
+- cited-by:glen-strong-high-seas
+- ifb
+- oa:unknown
+- source:glen-7pubs-refs
+- type:grey
+- author:glen wright
 categories:
 - other
 authors:

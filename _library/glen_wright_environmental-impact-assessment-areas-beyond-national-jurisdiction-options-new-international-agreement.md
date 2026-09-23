@@ -9,6 +9,13 @@ bibtex_key: Wright2017n
 is_event: false
 description: 'Environmental Impact Assessment in Areas beyond National Jurisdiction:
   Options for a New International Agreement'
+tags:
+- eia
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

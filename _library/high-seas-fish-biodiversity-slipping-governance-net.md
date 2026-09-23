@@ -15,6 +15,14 @@ abstract: States at the United Nations have begun negotiating a new treaty to st
   Failure to ensure the full scope of fish biodiversity is covered could result in
   thousands of species continuing to slip through the cracks of a fragmented global
   ocean governance framework.
+tags:
+- fisheries
+- bbnj
+- rfmo
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:
@@ -31,9 +39,6 @@ preview: 2019_high_seas_fish_biodiversity_slipping_governance_net
 pdf: 2019_high_seas_fish_biodiversity_slipping_governance_net.pdf
 url: https://www.nature.com/articles/s41559-019-0981-4
 doi: https://doi.org/10.1038/s41559-019-0981-4
-zip_archive: 2019_high_seas_fish_biodiversity_slipping_governance_net_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.6'
 pages: 1273--1276
 volume: '3'
 number: '9'
@@ -46,14 +51,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2019_high_seas_fish_biodiversity_slipping_governance_net_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.6 MB
 - kind: landing
   title: Visit Nature Ecology & Evolution publication page
   label: Visit Nature Ecology & Evolution publication page

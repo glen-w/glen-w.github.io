@@ -1,10 +1,12 @@
 {% comment %}
   Materials / downloads from page.resources.
   PDF-like items use the page preview thumbnail when available; one action per item.
+  "Download all" zip is omitted when there is only one downloadable attachment.
 {% endcomment %}
 {% assign resources = page.resources %}
 {% assign resources_count = resources | size | default: 0 %}
 {% assign materials_count = 0 %}
+{% assign non_zip_count = 0 %}
 
 {% if resources_count > 0 %}
   {% for resource in resources %}
@@ -15,9 +17,19 @@
       or resource.kind == 'poster'
       or resource.kind == 'zip'
     %}
-      {% assign materials_count = materials_count | plus: 1 %}
+      {% unless resource.kind == 'zip' %}
+        {% assign non_zip_count = non_zip_count | plus: 1 %}
+        {% assign materials_count = materials_count | plus: 1 %}
+      {% endunless %}
     {% endif %}
   {% endfor %}
+  {% if non_zip_count > 1 %}
+    {% for resource in resources %}
+      {% if resource.kind == 'zip' %}
+        {% assign materials_count = materials_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endif %}
 
 {% assign preview_text = page.preview | default: '' | to_s | strip %}
@@ -40,13 +52,21 @@
     <h2 id="library-materials-heading">Materials</h2>
     <ul class="library-materials-list">
       {% for resource in resources %}
-        {% if resource.local
+        {% assign include_material = false %}
+        {% if resource.kind == 'zip' %}
+          {% if non_zip_count > 1 %}
+            {% assign include_material = true %}
+          {% endif %}
+        {% elsif resource.local
           or resource.kind == 'pdf'
           or resource.kind == 'agenda'
           or resource.kind == 'slides'
           or resource.kind == 'poster'
-          or resource.kind == 'zip'
         %}
+          {% assign include_material = true %}
+        {% endif %}
+
+        {% if include_material %}
           {% assign item_href = resource.url %}
           {% unless item_href contains '://' %}
             {% assign item_href = resource.url | relative_url %}

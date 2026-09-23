@@ -63,6 +63,9 @@ class ZipArchiveGenerator:
             try:
                 with zipfile.ZipFile(zip_path, 'r') as zipf:
                     file_count = sum(1 for n in zipf.namelist() if not n.endswith('/'))
+                # Legacy zips may predate the >3 threshold; do not keep advertising them.
+                if file_count <= 3:
+                    return None
                 file_size_mb = self._format_file_size(os.path.getsize(zip_path))
                 return {'filename': zip_filename, 'file_count': file_count, 'file_size_mb': file_size_mb}
             except Exception:

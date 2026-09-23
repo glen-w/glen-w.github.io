@@ -1,0 +1,30 @@
+---
+description: Public site UI — show, don't tell; no internal/docs copy for visitors
+alwaysApply: true
+---
+
+# Public-facing copy
+
+This repo is a **public website**. Visitor-facing UI must show, not tell.
+
+## Do not
+
+- Add explanatory subheads, helper paragraphs, or captions that document how a feature works, where data comes from (Twenty, Zotero, pipelines), or threshold rules ("at least two…", "when known").
+- Expose internal system names, sync sources, or processing details in Liquid/HTML/JS UI copy.
+- Write docs-style blurbs next to interactive lists, filters, or icons.
+
+## Do
+
+- Prefer clear labels and self-evident UI (icons, links, counts) over prose that explains the machinery.
+- Put thresholds, data sources, and pipeline notes in `processing/` READMEs, code comments, or agent docs — not in the rendered page.
+
+## Example
+
+```html
+<!-- ❌ BAD: visitor-facing docs -->
+<summary>Frequent collaborators</summary>
+<p>People with at least two shared works. ORCID icons come from Twenty when known.</p>
+
+<!-- ✅ GOOD: label only; icons speak for themselves -->
+<summary>Frequent collaborators</summary>
+```

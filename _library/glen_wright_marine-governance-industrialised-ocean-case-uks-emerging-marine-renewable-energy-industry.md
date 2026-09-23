@@ -20,9 +20,6 @@ gallery:
 - glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_photo_01
 - glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_photo_02
 pdf: glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry.pdf
-zip_archive: glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_a.zip
-zip_file_count: '3'
-zip_file_size_mb: '8.5'
 resources:
 - kind: pdf
   title: 'Marine Governance in an Industrialised Ocean: a case study of the UK''s
@@ -33,13 +30,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 3 files · 8.5 MB
 ---
 

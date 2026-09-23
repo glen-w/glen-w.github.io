@@ -9,6 +9,11 @@ bibtex_key: wrightMarineGeneticResources2012
 is_event: false
 description: 'Marine Genetic Resources in Areas Beyond National Jurisdiction: an annotated
   bibliography'
+tags:
+- bbnj
+- oa:unknown
+- author:glen wright
+- mgr / abs
 categories:
 - other
 authors:

@@ -9,6 +9,14 @@ bibtex_key: wrightSeaChangeNegotiating2016
 is_event: false
 description: 'Sea change: Negotiating a new agreement on the conservation and sustainable
   use of marine biodiversity in areas beyond national jurisdiction'
+tags:
+- eia
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- type:grey
+- author:glen wright
 categories:
 - other
 authors:

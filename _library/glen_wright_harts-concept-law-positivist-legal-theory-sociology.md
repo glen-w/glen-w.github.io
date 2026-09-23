@@ -4,7 +4,7 @@ title: 'Hart’s Concept of Law: Positivist Legal Theory or Sociology?'
 date: '2010-01-01'
 entry_type: Journal article
 year: '2010'
-bibtex_key: Wright2010
+bibtex_key: Wright2010b
 is_event: false
 description: This paper will consider the extent to which HLA Hart can be said to
   have turned the positivist tradition of legal thought from positivism to a sociology

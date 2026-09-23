@@ -18,9 +18,6 @@ preview: glen_wright_2018_marine_planning_high_seas
 gallery:
 - glen_wright_2018_marine_planning_high_seas_photo_01
 pdf: glen_wright_2018_marine_planning_high_seas.pdf
-zip_archive: glen_wright_2018_marine_planning_high_seas_a.zip
-zip_file_count: '2'
-zip_file_size_mb: '8.8'
 resources:
 - kind: pdf
   title: Marine Planning on the High Seas
@@ -30,13 +27,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2018_marine_planning_high_seas_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 2 files · 8.8 MB
 ---
 

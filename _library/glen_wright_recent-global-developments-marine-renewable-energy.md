@@ -4,7 +4,7 @@ title: Recent global developments in marine renewable energy
 date: '2012-01-01'
 entry_type: Newspaper
 year: '2012'
-bibtex_key: Wright2012c
+bibtex_key: Wright2012b
 is_event: false
 description: Recent global developments in marine renewable energy
 categories:

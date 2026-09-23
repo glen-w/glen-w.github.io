@@ -52,8 +52,9 @@ class Configuration:
     API_RETRY_ATTEMPTS = 3
     
     # Thumbnail settings: fit inside a 3:4 canvas (list and detail frames).
-    # Geometry uses '>' so ImageMagick only shrinks oversized sources.
-    DEFAULT_THUMBNAIL_SIZE = "480x640>"
+    # No '>' suffix: small sources (Zotero thumbs, logos) are scaled up so they
+    # fill the frame instead of sitting as postage stamps on a large mat.
+    DEFAULT_THUMBNAIL_SIZE = "480x640"
     PREVIEW_CANVAS = "480x640"
     PREVIEW_PAD_FALLBACK = "#f0f0f0"
     PREVIEW_PAD_DARK = "#1a1a1a"

@@ -155,12 +155,14 @@ class FileManager:
 
     @staticmethod
     def _normalize_thumbnail_geometry(size: str) -> str:
-        """Append '>' so ImageMagick only shrinks images larger than the target box."""
-        if not size:
-            return size
-        if size.endswith(('>', '<', '!', '^')):
-            return size
-        return f'{size}>'
+        """Normalize ImageMagick geometry for preview fitting.
+
+        Bare ``WxH`` is kept as-is so undersized sources (common Zotero
+        thumbnails) scale up to fill the canvas rather than remaining
+        postage-stamp sized on a large mat. Explicit flags (`>`, `<`, `!`, `^`)
+        are also left alone when callers pass them.
+        """
+        return size
 
     def _canvas_from_size(self, size: str) -> str:
         """WxH canvas for -extent; prefer the resize box, else PREVIEW_CANVAS."""

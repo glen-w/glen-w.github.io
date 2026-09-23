@@ -49,9 +49,6 @@ speakers:
 preview: glen_wright_2020_marine_plastic_pollution_state_play_perspectives
 slides: glen_wright_2020_marine_plastic_pollution_state_play_perspectives_slides.pdf
 video: https://youtu.be/04yAhVDb4hY
-zip_archive: glen_wright_2020_marine_plastic_pollution_state_play_perspectives_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '1.2'
 resources:
 - kind: slides
   title: Presentation slides
@@ -60,14 +57,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2020_marine_plastic_pollution_state_play_perspectives_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 1.2 MB
 - kind: video
   title: Event recording
   label: Watch recording

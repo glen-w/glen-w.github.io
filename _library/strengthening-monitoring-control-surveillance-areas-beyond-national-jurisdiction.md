@@ -22,6 +22,14 @@ abstract: Monitoring, control and surveillance (MCS) is critical for the success
   some of the challenges to effective MCS. The report provides some suggested pathways
   for strengthening MCS in ABNJ, as well as three concrete proposals for provisions
   that could be included in the future international instrument.
+tags:
+- fisheries
+- bbnj
+- rfmo
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

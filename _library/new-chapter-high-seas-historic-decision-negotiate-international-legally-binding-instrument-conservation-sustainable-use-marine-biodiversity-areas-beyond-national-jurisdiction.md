@@ -34,6 +34,13 @@ abstract: Marine areas beyond national jurisdiction (ABNJ) represent around half
   of agreeing to open negotiations for a new international legally binding instrument
   under UNCLOS. This paper presents the discussions leading up to the decisive third
   mee
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
+- eia / sea
 categories:
 - other
 authors:

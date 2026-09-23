@@ -60,9 +60,6 @@ pdf: 2024_buildings_climate_global_forum_a.pdf
 agenda: 2024_buildings_climate_global_forum_b_agenda.pdf
 video: https://www.youtube.com/playlist?list=PL-_BDHp9SAKLrn_IwwsosgMnRMOPDEdRu
 url: https://www.ecologie.gouv.fr/rendez-vous/forum-mondial-batiments-climat/english-version
-zip_archive: 2024_buildings_climate_global_forum_a.zip
-zip_file_count: '2'
-zip_file_size_mb: '3.4'
 resources:
 - kind: pdf
   title: Buildings and Climate Global Forum
@@ -79,14 +76,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2024_buildings_climate_global_forum_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 2 files · 3.4 MB
 - kind: video
   title: Event recording
   label: Watch recording

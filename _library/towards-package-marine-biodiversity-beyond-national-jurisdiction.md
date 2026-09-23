@@ -15,9 +15,6 @@ preview: 2020_towards_package_marine_biodiversity_beyond_national_jurisdiction
 gallery:
 - towards_package_marine_biodiversity_beyond_national_jurisdiction_photo_01
 agenda: 2020_towards_package_marine_biodiversity_beyond_national_jurisdiction_agenda.pdf
-zip_archive: 2020_towards_package_marine_biodiversity_beyond_national_jurisdiction_a.zip
-zip_file_count: '2'
-zip_file_size_mb: '4.8'
 resources:
 - kind: agenda
   title: Conference agenda
@@ -26,13 +23,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2020_towards_package_marine_biodiversity_beyond_national_jurisdiction_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 2 files · 4.8 MB
 ---
 

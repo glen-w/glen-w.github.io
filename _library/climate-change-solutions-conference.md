@@ -12,9 +12,6 @@ categories:
 role: organiser
 preview: 2007_climate_change_solutions_conference
 agenda: 2007_climate_change_solutions_conference_agenda.pdf
-zip_archive: 2007_climate_change_solutions_conference_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.1'
 resources:
 - kind: agenda
   title: Conference agenda
@@ -23,13 +20,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2007_climate_change_solutions_conference_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.1 MB
 ---
 

@@ -7,6 +7,12 @@ year: '2015'
 bibtex_key: Rochette2015b
 is_event: false
 description: Advancing governance of marine areas beyond national jurisdiction
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

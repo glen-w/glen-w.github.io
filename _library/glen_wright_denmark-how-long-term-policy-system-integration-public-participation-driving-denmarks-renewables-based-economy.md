@@ -7,8 +7,24 @@ entry_type: Report
 year: '2026'
 bibtex_key: RBEHub_REN21_Denmark
 is_event: false
-description: 'Denmark: How long-term policy, system integration and public participation
-  are driving Denmark’s renewables-based economy'
+description: Denmark’s contemporary energy system began to emerge in response to the
+  1970s oil crisis, which exposed deep dependence on imported fossil fuels and highlighted
+  the need for diversification.
+standfirst: Denmark’s contemporary energy system began to emerge in response to the
+  1970s oil crisis, which exposed deep dependence on imported fossil fuels and highlighted
+  the need for diversification.
+abstract: 'Denmark’s contemporary energy system began to emerge in response to the
+  1970s oil crisis, which exposed deep dependence on imported fossil fuels and highlighted
+  the need for diversification.
+
+
+  Over subsequent decades, a comprehensive decarbonisation pathway developed, linking
+  energy policy with broader economic and environmental objectives.
+
+
+  Denmark has demonstrated relative decoupling of economic growth from energy consumption
+  and greenhouse gas emissions, with energy intensity declining significantly since
+  2000 and a reduction in primary energy consumption despite continued economic growth.'
 categories:
 - other
 authors:

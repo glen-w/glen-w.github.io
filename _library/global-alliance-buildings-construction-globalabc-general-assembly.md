@@ -47,19 +47,17 @@ gallery:
 - global_alliance_buildings_construction_globalabc_general_assembly_figure_01
 - global_alliance_buildings_construction_globalabc_general_assembly_figure_02
 - global_alliance_buildings_construction_globalabc_general_assembly_photo_01
+pdf: 2025_global_alliance_buildings_construction_globalabc_general_assembly.pdf
 url: https://globalabc.org/events/globalabc-annual-assembly-2025
-zip_archive: 2025_global_alliance_buildings_construction_globalabc_general_assembly_a.zip
-zip_file_count: '3'
-zip_file_size_mb: '0.8'
 resources:
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2025_global_alliance_buildings_construction_globalabc_general_assembly_a.zip
-  format: ZIP
+- kind: pdf
+  title: Global Alliance for Buildings and Construction (GlobalABC) General Assembly
+  label: View primary document
+  url: /assets/pdf/2025_global_alliance_buildings_construction_globalabc_general_assembly.pdf
+  format: PDF
   local: true
   external: false
-  subtitle: 3 files · 0.8 MB
+  primary: true
 - kind: landing
   title: Visit event website
   label: Visit event website

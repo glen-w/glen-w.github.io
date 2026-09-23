@@ -15,9 +15,6 @@ venue: Journal of Ocean Technology
 role: author
 preview: glen_wright_2013_ocean_energy_legal_perspective
 pdf: glen_wright_2013_ocean_energy_legal_perspective.pdf
-zip_archive: glen_wright_2013_ocean_energy_legal_perspective_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.3'
 pages: 26--32
 volume: '8'
 number: '1'
@@ -30,13 +27,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2013_ocean_energy_legal_perspective_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.3 MB
 ---
 

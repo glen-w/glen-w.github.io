@@ -25,6 +25,9 @@ abstract: The MRE industry is at a crucial moment. Devices are now moving from e
   other users of the sea, with policy-makers, amongst MRE companies, and between governments.
   ISSMER aims to support collaboration with these diverse communities, and to coordinate
   international research activities in the social studies of MRE.
+tags:
+- author:glen wright
+- eia / sea
 categories:
 - other
 authors:

@@ -19,8 +19,17 @@ authors:
 venue: The Guardian
 role: author
 preview: glen_wright_2014_halloween_special_spooky_research_cold_depths_academia
+pdf: glen_wright_2014_halloween_special_spooky_research_cold_depths_academia.pdf
 url: https://www.theguardian.com/higher-education-network/blog/2014/oct/31/-sp-halloween-special-spooky-research-from-the-cold-depths-of-academia
 resources:
+- kind: pdf
+  title: 'Halloween special: spooky research from the cold depths of academia'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2014_halloween_special_spooky_research_cold_depths_academia.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 - kind: landing
   title: Visit The Guardian publication page
   label: Visit The Guardian publication page

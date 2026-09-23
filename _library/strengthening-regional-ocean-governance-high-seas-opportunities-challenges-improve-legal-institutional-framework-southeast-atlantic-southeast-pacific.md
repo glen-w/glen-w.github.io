@@ -20,8 +20,19 @@ abstract: The Southeast Atlantic and Southeast Pacific regions are both characte
   uses the issues under discussion in the ongoing negotiations for a new legally binding
   instrument and selected Sustainable Development Goal (SDG) targets as a lens through
   which to assess progress towards conservation and sustainable use.
+tags:
+- fisheries
+- bbnj
+- rfmo
+- not undermine
+- ifb
+- type:grey
+- author:glen wright
+- oa:open
+- regional governance
 categories:
 - other
+- governance
 authors:
 - Carole Durussel
 - Glen Wright
@@ -34,7 +45,7 @@ institution: STRONG High Seas
 role: co-author
 preview: 2018_strengthening_regional_ocean_governance_high_seas_opportunities_challenges_improve_legal_institutional_framework_southeast_atlantic_southeast_pacific
 pdf: 2018_strengthening_regional_ocean_governance_high_seas_opportunities_challenges_improve_legal_institutional_framework_southeast_atlantic_southeast_pacific_b.pdf
-url: https://doi.org/10.2312/iass.2018.025
+url: https://glenwright.earth/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/
 doi: https://doi.org/10.2312/iass.2018.025
 pages: '92'
 resources:
@@ -48,6 +59,13 @@ resources:
   local: true
   external: false
   primary: true
+- kind: landing
+  title: Visit STRONG High Seas publication page
+  label: Visit STRONG High Seas publication page
+  url: https://glenwright.earth/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/
+  format: Web
+  local: false
+  external: true
 - kind: landing
   title: DOI
   label: View DOI

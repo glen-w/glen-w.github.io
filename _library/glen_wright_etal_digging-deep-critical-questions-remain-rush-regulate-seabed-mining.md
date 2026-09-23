@@ -33,6 +33,14 @@ abstract: 'The 1982 United Nations Convention on the Law of the Sea (UNCLOS) def
   of play, with a particular focus on the two-year rule. It outlines possible pathways
   to averting deadlock and instituting a precautionary pause on the development of
   mining activities.'
+tags:
+- bbnj
+- isa
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
+- eia / sea
 categories:
 - other
 authors:

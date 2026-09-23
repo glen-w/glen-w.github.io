@@ -28,11 +28,10 @@ authors:
 - Glen Wright
 venue: Development in Practice
 role: author
-preview: glen_wright_2012_recent_global_developments_marine_renewable_energy
+preview: glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change
 pdf: glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change.pdf
-zip_archive: glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.2'
+url: https://doi.org/10.1080/09614524.2012.634230
+doi: https://doi.org/10.1080/09614524.2012.634230
 pages: 123--134
 volume: '22'
 number: '1'
@@ -45,13 +44,12 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.2 MB
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.1080/09614524.2012.634230
+  format: Web
+  local: false
+  external: true
 ---
 

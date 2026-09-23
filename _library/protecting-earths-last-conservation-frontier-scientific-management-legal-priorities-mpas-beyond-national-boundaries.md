@@ -36,6 +36,19 @@ abstract: 1. Marine areas beyond national jurisdiction (ABNJ) comprise most of E
   aims to encourage further initiatives to protect and preserve our last conservation
   frontier using currently available mechanisms and powers consistent with international
   law.
+tags:
+- bbnj
+- bbnj-architecture-corpus
+- abmt / mpas
+- architecture
+- not undermine
+- cited-by:glen-strong-high-seas
+- ifb
+- source:glen-7pubs-refs
+- author:glen wright
+- mgr / abs
+- oa:open
+- bbnj-dedupe-2026-09-08
 categories:
 - other
 authors:
@@ -99,3 +112,6 @@ resources:
   external: true
 ---
 
+## Notes
+
+Merged duplicates into this item; trashed: JR7UIT3Q

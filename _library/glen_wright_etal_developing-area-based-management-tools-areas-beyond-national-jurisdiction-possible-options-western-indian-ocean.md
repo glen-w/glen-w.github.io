@@ -9,6 +9,13 @@ bibtex_key: Wright2015n
 is_event: false
 description: 'Developing area-based management tools in areas beyond national jurisdiction:
   possible options for the Western Indian Ocean'
+tags:
+- bbnj
+- abmt / mpas
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

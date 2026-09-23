@@ -28,9 +28,6 @@ speakers:
 preview: glen_wright_2024_future_energy_new_technologies_human_development
 pdf: glen_wright_2024_future_energy_new_technologies_human_development.pdf
 agenda: glen_wright_2024_future_energy_new_technologies_human_development_a_agenda.pdf
-zip_archive: glen_wright_2024_future_energy_new_technologies_human_development_a.zip
-zip_file_count: '2'
-zip_file_size_mb: '1.9'
 resources:
 - kind: pdf
   title: 'The Future of Energy: New Technologies and Human Development'
@@ -47,13 +44,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2024_future_energy_new_technologies_human_development_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 2 files · 1.9 MB
 ---
 

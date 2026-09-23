@@ -15,9 +15,6 @@ location: Antananarivo, Madagascar
 role: speaker
 preview: 2017_regional_launch_western_indian_ocean_economy_report_presentation_madagascars_vision_ocean_governance
 pdf: 2017_regional_launch_western_indian_ocean_economy_report_presentation_madagascars_vision_ocean_governance.pdf
-zip_archive: 2017_regional_launch_western_indian_ocean_economy_report_presentation_madagascars_vision_ocean_governance_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.2'
 resources:
 - kind: pdf
   title: Regional launch of Western Indian Ocean Economy Report and presentation of
@@ -28,13 +25,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2017_regional_launch_western_indian_ocean_economy_report_presentation_madagascars_vision_ocean_governance_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.2 MB
 ---
 

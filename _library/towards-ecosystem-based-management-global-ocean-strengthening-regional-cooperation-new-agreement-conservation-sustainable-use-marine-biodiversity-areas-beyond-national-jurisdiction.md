@@ -11,6 +11,12 @@ is_event: false
 description: 'Towards Ecosystem-based Management of the Global Ocean: Strengthening
   Regional Cooperation through a New Agreement for the Conservation and Sustainable
   Use of Marine Biodiversity in Areas Beyond National Jurisdiction'
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

@@ -24,9 +24,6 @@ gallery:
 - chair_students_roundtable_ocean_governance_challenges_opportunities_figure_01
 pdf: 2022_chair_students_roundtable_ocean_governance_challenges_opportunities.pdf
 url: https://webserver07.reims.sciences-po.fr/psia/chair-sustainable-development/2022/03/04/discussion-highlights-chair-and-students-roundtable-3-2/
-zip_archive: 2022_chair_students_roundtable_ocean_governance_challenges_opportunities_a.zip
-zip_file_count: '2'
-zip_file_size_mb: '1.7'
 resources:
 - kind: pdf
   title: 'Chair and Students’ Roundtable: Ocean Governance Challenges and Opportunities'
@@ -36,14 +33,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2022_chair_students_roundtable_ocean_governance_challenges_opportunities_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 2 files · 1.7 MB
 - kind: landing
   title: Visit event website
   label: Visit event website

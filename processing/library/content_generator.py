@@ -260,25 +260,31 @@ class ContentGenerator:
 
         zip_name = self._strip_str(entry.get('zip_archive'))
         if zip_name:
-            meta_bits = []
             count = self._strip_str(entry.get('zip_file_count'))
-            size = self._strip_str(entry.get('zip_file_size_mb'))
-            if count:
-                meta_bits.append(f"{count} files")
-            if size:
-                meta_bits.append(f"{size} MB")
-            subtitle = ' · '.join(meta_bits) if meta_bits else None
-            resource = self._local_file_resource(
-                kind='zip',
-                filename=zip_name,
-                directory=self.config.ZIP_DIR,
-                url_prefix='/assets/zips/',
-                title='Download all files',
-                label='Download all files',
-                subtitle=subtitle,
-            )
-            if resource:
-                candidates.append(resource)
+            # Skip single-file zips — the individual download is enough.
+            try:
+                zip_count_n = int(count) if count else 0
+            except ValueError:
+                zip_count_n = 0
+            if zip_count_n != 1:
+                meta_bits = []
+                size = self._strip_str(entry.get('zip_file_size_mb'))
+                if count:
+                    meta_bits.append(f"{count} files")
+                if size:
+                    meta_bits.append(f"{size} MB")
+                subtitle = ' · '.join(meta_bits) if meta_bits else None
+                resource = self._local_file_resource(
+                    kind='zip',
+                    filename=zip_name,
+                    directory=self.config.ZIP_DIR,
+                    url_prefix='/assets/zips/',
+                    title='Download all files',
+                    label='Download all files',
+                    subtitle=subtitle,
+                )
+                if resource:
+                    candidates.append(resource)
 
         video = self._strip_str(links.get('video') or links.get('youtube'))
         if video:

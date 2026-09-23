@@ -32,9 +32,6 @@ venue: Cork Online Law Review
 role: author
 preview: glen_wright_2010_designing_climate_law_comparative_analysis_us_eu
 pdf: glen_wright_2010_designing_climate_law_comparative_analysis_us_eu.pdf
-zip_archive: glen_wright_2010_designing_climate_law_comparative_analysis_us_eu_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.5'
 resources:
 - kind: pdf
   title: 'Designing Climate Law: A Comparative Analysis of the US and EU'
@@ -44,13 +41,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2010_designing_climate_law_comparative_analysis_us_eu_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.5 MB
 ---
 

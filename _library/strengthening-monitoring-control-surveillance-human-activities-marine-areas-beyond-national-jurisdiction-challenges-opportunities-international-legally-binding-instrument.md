@@ -23,6 +23,14 @@ abstract: Monitoring, control and surveillance (MCS) is critical for the success
   management of this vast global commons. The paper provides some suggested pathways
   for strengthening MCS in ABNJ, as well as three concrete proposals for provisions
   that could be included in the future international instrument.
+tags:
+- fisheries
+- bbnj
+- rfmo
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:
@@ -35,9 +43,6 @@ preview: 2020_strengthening_monitoring_control_surveillance_human_activities_mar
 pdf: 2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument.pdf
 url: https://doi.org/10.1016/j.marpol.2020.103976
 doi: https://doi.org/10.1016/j.marpol.2020.103976
-zip_archive: 2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.3'
 pages: '103976'
 volume: '122'
 resources:
@@ -51,14 +56,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.3 MB
 - kind: landing
   title: DOI
   label: View DOI

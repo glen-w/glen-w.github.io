@@ -27,6 +27,13 @@ abstract: 'Cognisant of the growing threats to biodiversity in marine areas beyo
   conservation and sustainable use by strengthening existing management frameworks
   and providing global oversight, developing capacity, and placing science at the
   heart of decision making.'
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
+- eia / sea
 categories:
 - other
 authors:

@@ -1,0 +1,12 @@
+---
+description: Library fixes go to Zotero my pubs first; never leave site-only edits that re-export would revert
+alwaysApply: true
+---
+
+# Library upstream (Zotero)
+
+Zotero **`my pubs`** is the source of truth. `_bibliography/papers.bib`, `_library/`, and `assets/img/publication_preview/` are derived from export + `processing/`.
+
+**Order:** (1) fix the Zotero parent in `my pubs` via Paperful (`/Users/89298/Documents/paperful`), (2) then pipeline scripts if the behaviour should be permanent, (3) site files only with an immediate push-back to Zotero.
+
+**If you edit** previews, PDFs, or bib fields on the site, **also** update Zotero in the same task (e.g. replace the child titled `thumbnail` with `processing/library/sync_previews_to_zotero.py`). Site-only library fixes that would revert on re-export are not done.

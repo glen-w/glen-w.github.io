@@ -16,9 +16,6 @@ gallery:
 - ocean_governance_covid_19_building_resilience_marine_regions_figure_01
 - ocean_governance_covid_19_building_resilience_marine_regions_photo_01
 agenda: 2021_ocean_governance_covid_19_building_resilience_marine_regions_agenda.pdf
-zip_archive: 2021_ocean_governance_covid_19_building_resilience_marine_regions_a.zip
-zip_file_count: '3'
-zip_file_size_mb: '1.9'
 resources:
 - kind: agenda
   title: Conference agenda
@@ -27,13 +24,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2021_ocean_governance_covid_19_building_resilience_marine_regions_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 3 files · 1.9 MB
 ---
 

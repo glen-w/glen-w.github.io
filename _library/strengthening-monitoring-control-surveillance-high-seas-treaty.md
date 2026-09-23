@@ -33,6 +33,7 @@ speakers:
 preview: 2020_strengthening_monitoring_control_surveillance_high_seas_treaty
 agenda: 2020_strengthening_monitoring_control_surveillance_high_seas_treaty_agenda.pdf
 slides: 2020_strengthening_monitoring_control_surveillance_high_seas_treaty_slides.pdf
+video: https://www.iddri.org/en/publications-and-events/conference/replay-strengthening-monitoring-control-and-surveillance-through
 url: https://www.iddri.org/en/publications-and-events/conference/replay-strengthening-monitoring-control-and-surveillance-through
 resources:
 - kind: agenda
@@ -49,11 +50,11 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: Visit event website
-  label: Visit event website
+- kind: video
+  title: Event recording
+  label: Watch recording
   url: https://www.iddri.org/en/publications-and-events/conference/replay-strengthening-monitoring-control-and-surveillance-through
-  format: Web
+  format: Video
   local: false
   external: true
 ---

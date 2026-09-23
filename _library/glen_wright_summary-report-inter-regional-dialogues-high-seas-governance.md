@@ -21,6 +21,12 @@ abstract: "Member States at the United Nations (UN) are currently negotiating a 
   \ these exchanges, the STRONG High Seas project and regional partners convened four\
   \ inter-regional expert meetings, connecting colleagues across continents to share\
   \ experiences and discuss high seas governance issues."
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

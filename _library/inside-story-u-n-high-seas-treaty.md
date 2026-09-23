@@ -21,9 +21,6 @@ quotes:
 preview: 2023_inside_story_u_n_high_seas_treaty
 pdf: 2023_inside_story_u_n_high_seas_treaty.pdf
 url: https://www.newyorker.com/news/daily-comment/the-inside-story-of-the-un-high-seas-treaty
-zip_archive: 2023_inside_story_u_n_high_seas_treaty_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '4.3'
 resources:
 - kind: pdf
   title: The Inside Story of the U.N. High Seas Treaty
@@ -33,14 +30,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2023_inside_story_u_n_high_seas_treaty_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 4.3 MB
 - kind: landing
   title: Visit The New Yorker publication page
   label: Visit The New Yorker publication page

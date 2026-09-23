@@ -9,6 +9,15 @@ bibtex_key: Warner2018
 is_event: false
 description: Strategic Environmental Assessment (SEA). Envisioning its Application
   to Marine Areas beyond National Jurisdiction (ABNJ)
+tags:
+- eia
+- sea
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- type:grey
+- author:glen wright
 categories:
 - other
 authors:

@@ -272,6 +272,9 @@ class TestCumulativeBadgeFilters:
         items = catalog['items']
 
         def matches(item, typ=None, role=None):
+            # Mirror library.js facet filtering: nocount items are omitted.
+            if item.get('nocount'):
+                return False
             if typ and (item.get('type') or '') != typ:
                 return False
             if role and role not in (item.get('roles') or []):
@@ -285,7 +288,7 @@ class TestCumulativeBadgeFilters:
         assert len(both) < len(conf_only)
         assert len(both) < len(org_only)
         # Opposite-set greying: some types have zero organisers.
-        types = {i.get('type') for i in items if i.get('type')}
+        types = {i.get('type') for i in items if i.get('type') and not i.get('nocount')}
         zero_org_types = [
             t for t in types if not any(matches(i, typ=t, role='organiser') for i in items)
         ]
@@ -295,3 +298,18 @@ class TestCumulativeBadgeFilters:
             i.get('type') for i in org_only if i.get('type') and i.get('type') != 'Conference'
         }
         assert other_org_types
+
+    def test_facet_filters_omit_nocount_items(self):
+        import json
+
+        catalog = json.loads(
+            (PROJECT_ROOT / 'assets' / 'json' / 'library.json').read_text(encoding='utf-8')
+        )
+        quoted = [
+            i for i in catalog['items'] if 'quoted' in (i.get('roles') or [])
+        ]
+        countable = [i for i in quoted if not i.get('nocount')]
+        assert any(i.get('nocount') for i in quoted)
+        assert len(countable) == len(quoted) - 1
+        src = (PROJECT_ROOT / 'assets' / 'js' / 'library.js').read_text(encoding='utf-8')
+        assert 'facetActive && !countsTowardFilters(item)' in src

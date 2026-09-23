@@ -9,6 +9,12 @@ bibtex_key: stronghighseasHighlevelExpertMeeting2019
 is_event: true
 description: 'High-level expert meeting: Towards an Effective High Seas Treaty: Building
   on and Strengthening Regional Ocean Governance'
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

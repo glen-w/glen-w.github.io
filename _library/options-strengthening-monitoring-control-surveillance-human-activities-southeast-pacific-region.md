@@ -32,6 +32,15 @@ abstract: 'This report provides an overview of a range of ongoing initiatives to
   to drive the process and garner support for improved management; and the importance
   of developing a dynamic science-policy interface that can provide policy-relevant
   scientific information to decision makers and stakeholders.'
+tags:
+- fisheries
+- bbnj
+- rfmo
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
+- eia / sea
 categories:
 - other
 authors:

@@ -9,6 +9,12 @@ bibtex_key: neumannMarineRegionsForum2021
 is_event: false
 description: 'Marine Regions Forum: An international stakeholder forum to strengthen
   regional ocean governance'
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

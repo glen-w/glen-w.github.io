@@ -29,9 +29,6 @@ role: author
 preview: glen_wright_2011_international_renewable_energy_agency_global_voice_renewable_energy_era
 pdf: glen_wright_2011_international_renewable_energy_agency_global_voice_renewable_energy_era.pdf
 url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2000433
-zip_archive: glen_wright_2011_international_renewable_energy_agency_global_voice_renewable_energy_era_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.1'
 pages: 251--268
 volume: '4'
 resources:
@@ -44,14 +41,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2011_international_renewable_energy_agency_global_voice_renewable_energy_era_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.1 MB
 - kind: landing
   title: Visit Renewable Energy Law and Policy Review publication page
   label: Visit Renewable Energy Law and Policy Review publication page

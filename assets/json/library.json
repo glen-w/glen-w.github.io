@@ -533,7 +533,7 @@
       "authors": "Glen Wright, Klaudija Cremers, and Julien Rochette",
       "authorsHtml": "<em>Glen Wright</em>, Klaudija Cremers, and Julien Rochette",
       "venue": "Ocean Yearbook",
-      "thumb": "/assets/img/publication_preview/glen_wright_etal_2023_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference-480.webp",
+      "thumb": "/assets/img/publication_preview/glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference-480.webp",
       "pdf": "/assets/pdf/glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference.pdf",
       "url": "https://brill.com/view/journals/ocyo/37/1/article-p30_3.xml",
       "doi": "https://doi.org/10.1163/22116001-03701004",
@@ -1053,7 +1053,7 @@
     },
     {
       "id": "gjerdeGettingYesFasttracking2022",
-      "title": "Getting Beyond Yes: Fast-tracking Implementation of the United Nations Agreement for Marine Biodiversity Beyond National Jurisdiction",
+      "title": "Getting beyond yes: fast-tracking implementation of the United Nations agreement for marine biodiversity beyond national jurisdiction",
       "year": 2022,
       "type": "Journal Article",
       "month": 1,
@@ -1387,7 +1387,7 @@
     },
     {
       "id": "cremersPreliminaryAnalysisDraft2020",
-      "title": "A preliminary analysis of the draft high seas biodiversity treaty",
+      "title": "A preliminary analysis of the drafthigh seas biodiversity treaty",
       "year": 2020,
       "type": "Report",
       "month": 1,
@@ -1397,12 +1397,12 @@
       "authors": "Klaudija Cremers, Glen Wright, Julien Rochette et al.",
       "authorsHtml": "Klaudija Cremers, <em>Glen Wright</em>, Julien Rochette et al.",
       "venue": "IDDRI",
-      "thumb": "/assets/img/publication_preview/2020_preliminary_analysis_draft_high_seas_biodiversity_treaty-480.webp",
-      "pdf": "/assets/pdf/2020_preliminary_analysis_draft_high_seas_biodiversity_treaty.pdf",
+      "thumb": "/assets/img/publication_preview/2020_preliminary_analysis_drafthigh_seas_biodiversity_treaty-480.webp",
+      "pdf": "/assets/pdf/2020_preliminary_analysis_drafthigh_seas_biodiversity_treaty.pdf",
       "flags": [
         "abs"
       ],
-      "info": "/library/preliminary-analysis-draft-high-seas-biodiversity-treaty/"
+      "info": "/library/preliminary-analysis-drafthigh-seas-biodiversity-treaty/"
     },
     {
       "id": "wrightAreabasedManagementTools2020",
@@ -1582,7 +1582,7 @@
     },
     {
       "id": "ProtectingSitesPotential2020",
-      "title": "Protecting sites of potential Outstanding Universal Value in marine Areas Beyond National Jurisdiction:  The practical modalities",
+      "title": "Protecting sites of potential Outstanding Universa l Value in marine Areas Beyond National Jurisdiction: The practical modalities",
       "year": 2020,
       "type": "Report",
       "month": 1,
@@ -1590,10 +1590,10 @@
         "author"
       ],
       "venue": "UNESCO",
-      "thumb": "/assets/img/publication_preview/2020_protecting_sites_potential_outstanding_universal_value_marine_areas_beyond_national_jurisdiction_practical_modalities-480.webp",
-      "pdf": "/assets/pdf/2020_protecting_sites_potential_outstanding_universal_value_marine_areas_beyond_national_jurisdiction_practical_modalities.pdf",
+      "thumb": "/assets/img/publication_preview/2020_protecting_sites_potential_outstanding_universa_l_value_marine_areas_beyond_national_jurisdiction_practical_modalities-480.webp",
+      "pdf": "/assets/pdf/2020_protecting_sites_potential_outstanding_universa_l_value_marine_areas_beyond_national_jurisdiction_practical_modalities.pdf",
       "url": "https://unesdoc.unesco.org/ark:/48223/pf0000374415",
-      "info": "/library/protecting-sites-potential-outstanding-universal-value-marine-areas-beyond-national-jurisdiction-practical-modalities/"
+      "info": "/library/protecting-sites-potential-outstanding-universa-l-value-marine-areas-beyond-national-jurisdiction-practical-modalities/"
     },
     {
       "id": "harden-daviesRightsNaturePerspectives2020",
@@ -2453,8 +2453,9 @@
         "speaker"
       ],
       "venue": "Workshop on Future High Seas Governance, University of British Columbia, Vancouver",
-      "thumb": "/assets/img/publication_preview/2018_fisheries_new_high_seas_treaty_opportunities_challenges-480.webp",
-      "slides": "/assets/pdf/2018_fisheries_new_high_seas_treaty_opportunities_challenges_slides.pdf",
+      "thumb": "/assets/img/publication_preview/glen_wright_2018_fisheries_new_high_seas_treaty_opportunities_challenges-480.webp",
+      "url": "https://glenwright.earth/library/fisheries-new-high-seas-treaty-opportunities-challenges/",
+      "slides": "/assets/pdf/glen_wright_2018_fisheries_new_high_seas_treaty_opportunities_challenges_slides.pdf",
       "info": "/library/fisheries-new-high-seas-treaty-opportunities-challenges/"
     },
     {
@@ -2721,7 +2722,7 @@
       "venue": "STRONG High Seas",
       "thumb": "/assets/img/publication_preview/2018_strengthening_regional_ocean_governance_high_seas_opportunities_challenges_improve_legal_institutional_framework_southeast_atlantic_southeast_pacific-480.webp",
       "pdf": "/assets/pdf/2018_strengthening_regional_ocean_governance_high_seas_opportunities_challenges_improve_legal_institutional_framework_southeast_atlantic_southeast_pacific_b.pdf",
-      "url": "https://doi.org/10.2312/iass.2018.025",
+      "url": "https://glenwright.earth/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/",
       "doi": "https://doi.org/10.2312/iass.2018.025",
       "flags": [
         "abs"
@@ -2890,7 +2891,7 @@
       "info": "/library/glen-wright-etal-coming-soon-towards-formal-negotiations-agreement-high-seas-governance/"
     },
     {
-      "id": "Johnson2017",
+      "id": "OHagan2017",
       "title": "Consenting ocean energy projects: Issues, challenges and opportunities",
       "year": 2017,
       "type": "Book Chapter",
@@ -2901,7 +2902,7 @@
       "authors": "Anne-Marie O'Hagan and Glen Wright",
       "authorsHtml": "Anne-Marie O&#x27;Hagan and <em>Glen Wright</em>",
       "venue": "Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies",
-      "thumb": "/assets/img/publication_preview/2017_marine_planning_ocean_energy_perspective-480.webp",
+      "thumb": "/assets/img/publication_preview/2017_consenting_ocean_energy_projects_issues_challenges_opportunities-480.webp",
       "pdf": "/assets/pdf/2017_consenting_ocean_energy_projects_issues_challenges_opportunities.pdf",
       "info": "/library/consenting-ocean-energy-projects-issues-challenges-opportunities/"
     },
@@ -3308,17 +3309,17 @@
     },
     {
       "id": "ConservationSustainableUse2016",
-      "title": "Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction: Preparing for the PrepCom",
+      "title": "Conservation and Sustainable Use of Marine Biologi cal Diversity of Areas Beyond National Jurisdiction: Preparing for the Prep Com",
       "year": 2016,
       "type": "Workshop",
       "month": 1,
       "roles": [
         "participant"
       ],
-      "thumb": "/assets/img/publication_preview/2016_conservation_sustainable_use_marine_biological_diversity_areas_beyond_national_jurisdiction_preparing_prepcom-480.webp",
-      "pdf": "/assets/pdf/2016_conservation_sustainable_use_marine_biological_diversity_areas_beyond_national_jurisdiction_preparing_prepcom_a.pdf",
-      "agenda": "/assets/pdf/2016_conservation_sustainable_use_marine_biological_diversity_areas_beyond_national_jurisdiction_preparing_prepcom_b_agenda.pdf",
-      "info": "/library/conservation-sustainable-use-marine-biological-diversity-areas-beyond-national-jurisdiction-preparing-prepcom/"
+      "thumb": "/assets/img/publication_preview/2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com-480.webp",
+      "pdf": "/assets/pdf/2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com_a.pdf",
+      "agenda": "/assets/pdf/2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com_b_agenda.pdf",
+      "info": "/library/conservation-sustainable-use-marine-biologi-cal-diversity-areas-beyond-national-jurisdiction-preparing-prep-com/"
     },
     {
       "id": "wrightEnvironmentalImpactAssessment2016b",
@@ -3430,28 +3431,8 @@
       "info": "/library/first-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/"
     },
     {
-      "id": "Wright2016b",
-      "title": "High seas fisheries: what role for a new international instrument?",
-      "year": 2016,
-      "type": "Report",
-      "month": 1,
-      "roles": [
-        "lead author"
-      ],
-      "authors": "Glen Wright, Julien Rochette, Lucie Blom et al.",
-      "authorsHtml": "<em>Glen Wright</em>, Julien Rochette, Lucie Blom et al.",
-      "venue": "IDDRI",
-      "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument-480.webp",
-      "pdf": "/assets/pdf/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf",
-      "url": "https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument",
-      "flags": [
-        "abs"
-      ],
-      "info": "/library/glen-wright-etal-high-seas-fisheries-what-role-new-international-instrument/"
-    },
-    {
       "id": "wrightHistoricTalksCould2016",
-      "title": "Historic UN talks could save the high seas",
+      "title": "Historic UNtalks couldsave the high seas",
       "year": 2016,
       "type": "Journal Article",
       "month": 1,
@@ -3461,14 +3442,14 @@
       "authors": "Glen Wright and Julien Rochette",
       "authorsHtml": "<em>Glen Wright</em> and Julien Rochette",
       "venue": "Australian Environment Review",
-      "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_historic_un_talks_save_high_seas-480.webp",
-      "pdf": "/assets/pdf/glen_wright_etal_2016_historic_un_talks_save_high_seas.pdf",
+      "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_historic_untalks_couldsave_high_seas-480.webp",
+      "pdf": "/assets/pdf/glen_wright_etal_2016_historic_untalks_couldsave_high_seas.pdf",
       "url": "https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas",
       "doi": "https://doi.org/10.64628/aak.jt4fdq3p3",
       "flags": [
         "abs"
       ],
-      "info": "/library/glen-wright-etal-historic-un-talks-save-high-seas/"
+      "info": "/library/glen-wright-etal-historic-untalks-couldsave-high-seas/"
     },
     {
       "id": "druelInterdictionChalutageProfond2016",
@@ -3792,6 +3773,26 @@
         "abs"
       ],
       "info": "/library/glen-wright-vers-un-accord-sur-la-haute-mer-des-mesures-positives-new-york/"
+    },
+    {
+      "id": "Wright2016b",
+      "title": "high seas fisheries: what role for a new international instrument?",
+      "year": 2016,
+      "type": "Report",
+      "month": 1,
+      "roles": [
+        "lead author"
+      ],
+      "authors": "Glen Wright, Julien Rochette, Lucie Blom et al.",
+      "authorsHtml": "<em>Glen Wright</em>, Julien Rochette, Lucie Blom et al.",
+      "venue": "IDDRI",
+      "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument-480.webp",
+      "pdf": "/assets/pdf/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf",
+      "url": "https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument",
+      "flags": [
+        "abs"
+      ],
+      "info": "/library/glen-wright-etal-high-seas-fisheries-what-role-new-international-instrument/"
     },
     {
       "id": "Rochette2015",
@@ -4317,6 +4318,7 @@
       "venue": "IDDRI",
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures-480.webp",
       "pdf": "/assets/pdf/glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures.pdf",
+      "url": "https://glenwright.earth/library/glen-wright-etal-advancing-marine-biodiversity-protection-regional-fisheries-management-review-high-seas-bottom-fisheries-closures/",
       "flags": [
         "abs"
       ],
@@ -4353,6 +4355,7 @@
       "venue": "Potsdam Ocean Governance Workshop",
       "thumb": "/assets/img/publication_preview/2014_governing_high_seas_linking_global_governance_regional_implementation-480.webp",
       "pdf": "/assets/pdf/2014_governing_high_seas_linking_global_governance_regional_implementation.pdf",
+      "url": "https://glenwright.earth/library/governing-high-seas-linking-global-governance-regional-implementation/",
       "flags": [
         "abs"
       ],
@@ -4412,14 +4415,18 @@
     },
     {
       "id": "wrightMarineGovernanceIndustrialised2014",
-      "title": "Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)",
+      "title": "Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study",
       "year": 2014,
       "type": "Poster",
       "month": 1,
+      "roles": [
+        "author",
+        "presenter"
+      ],
       "venue": "International Network on Offshore Renewable Energy (INORE) Symposium",
-      "thumb": "/assets/img/publication_preview/glen_wright_2014_marine_governance_industrialised_ocean_marine_renewable_energy_case_poster-480.webp",
-      "pdf": "/assets/pdf/glen_wright_2014_marine_governance_industrialised_ocean_marine_renewable_energy_case_poster.pdf",
-      "info": "/library/glen-wright-marine-governance-industrialised-ocean-marine-renewable-energy-case-poster/"
+      "thumb": "/assets/img/publication_preview/glen_wright_2014_marine_governance_industrialised_ocean_marine_renewable_energy_case-480.webp",
+      "pdf": "/assets/pdf/glen_wright_2014_marine_governance_industrialised_ocean_marine_renewable_energy_case.pdf",
+      "info": "/library/glen-wright-marine-governance-industrialised-ocean-marine-renewable-energy-case/"
     },
     {
       "id": "wrightMarineGovernanceIndustrialised2014a",
@@ -4517,7 +4524,7 @@
         "author"
       ],
       "venue": "Underwater Technology: The International Journal of the Society for Underwater",
-      "thumb": "/assets/img/publication_preview/glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction-480.webp",
+      "thumb": "/assets/img/publication_preview/glen_wright_2014_regulating_marine_renewable_energy_development_preliminary_assessment_uk_permitting_processes-480.webp",
       "pdf": "/assets/pdf/glen_wright_2014_regulating_marine_renewable_energy_development_preliminary_assessment_uk_permitting_processes.pdf",
       "url": "https://doi.org/10.3723/ut.32.000",
       "doi": "https://doi.org/10.3723/ut.32.000",
@@ -4582,7 +4589,7 @@
       "info": "/library/glen-wright-sustainably-advancing-blue-economy-environmental-impact-assessment-marine-renewable-energy-projects-uk/"
     },
     {
-      "id": "Wright2014",
+      "id": "Wright2014a",
       "title": "The Scores at Half Time: An update on the international discussions on the governance of marine biodiversity in areas beyond national jurisdiction",
       "year": 2014,
       "type": "Report",
@@ -4615,7 +4622,7 @@
     },
     {
       "id": "wrightNewInternationalInstrument2014a",
-      "title": "Towards a new international instrument on the  conservation and sustainable use of marine  biodiversity in ABNJ",
+      "title": "Towards a new international instrument on the conservation and sustainable use of marine biodiversity in ABNJ",
       "year": 2014,
       "type": "Training",
       "month": 1,
@@ -4629,7 +4636,7 @@
     },
     {
       "id": "wrightNewInternationalInstrument2014",
-      "title": "Towards a new international instrument on the  conservation and sustainable use of marine  biodiversity in Areas Beyond National Jurisdiction",
+      "title": "Towards a new international instrument on the conservation and sustainable use of marine biodiversity in Areas Beyond National Jurisdiction",
       "year": 2014,
       "type": "Workshop",
       "month": 1,
@@ -5070,6 +5077,10 @@
       "year": 2012,
       "type": "Poster",
       "month": 1,
+      "roles": [
+        "author",
+        "presenter"
+      ],
       "venue": "ANU School of Law Doctoral Showcase",
       "thumb": "/assets/img/publication_preview/glen_wright_2012_marine_energy_designing_regulatory_framework_abundant_renewable_energy_resource_poster-480.webp",
       "pdf": "/assets/pdf/glen_wright_2012_marine_energy_designing_regulatory_framework_abundant_renewable_energy_resource_poster.pdf",
@@ -5146,7 +5157,7 @@
         "author"
       ],
       "venue": "Development in Practice",
-      "thumb": "/assets/img/publication_preview/glen_wright_2012_recent_global_developments_marine_renewable_energy-480.webp",
+      "thumb": "/assets/img/publication_preview/glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change-480.webp",
       "pdf": "/assets/pdf/glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change.pdf",
       "url": "https://doi.org/10.1080/09614524.2012.634230",
       "doi": "https://doi.org/10.1080/09614524.2012.634230",
@@ -5156,7 +5167,7 @@
       "info": "/library/glen-wright-ngos-western-hegemony-causes-concern-ideas-change/"
     },
     {
-      "id": "Wright2012c",
+      "id": "Wright2012b",
       "title": "Recent global developments in marine renewable energy",
       "year": 2012,
       "type": "Newspaper",
@@ -5491,6 +5502,20 @@
       "info": "/library/glen-wright-wild-law/"
     },
     {
+      "id": "Wright2011",
+      "title": "A Tidal Power Project",
+      "year": 2011,
+      "type": "Journal Article",
+      "month": 1,
+      "roles": [
+        "author"
+      ],
+      "venue": "New Zealand Law Journal",
+      "thumb": "/assets/img/publication_preview/glen_wright_2011_tidal_power_project-480.webp",
+      "pdf": "/assets/pdf/glen_wright_2011_tidal_power_project.pdf",
+      "info": "/library/glen-wright-tidal-power-project/"
+    },
+    {
       "id": "Wright2011b",
       "title": "Conceptualising and combating transnational environmental crime",
       "year": 2011,
@@ -5562,7 +5587,7 @@
       "info": "/library/glen-wright-indigenous-people-customary-land-ownership-domestic-redd-frameworks-case-indonesia/"
     },
     {
-      "id": "Wright2011",
+      "id": "Wright2011e",
       "title": "Marine Energy in Australia and New Zealand: Regulatory Barriers and Policy Measures",
       "year": 2011,
       "type": "Conference",
@@ -5710,6 +5735,20 @@
       "info": "/library/glen-wright-flags-got-flag-it-union-jack-australian-flag/"
     },
     {
+      "id": "Wright2010",
+      "title": "Carbon Offsets and Consumer Protection",
+      "year": 2010,
+      "type": "Journal Article",
+      "month": 1,
+      "roles": [
+        "author"
+      ],
+      "venue": "Impact! A National Journal of Environmental Law",
+      "thumb": "/assets/img/publication_preview/glen_wright_2010_carbon_offsets_consumer_protection-480.webp",
+      "pdf": "/assets/pdf/glen_wright_2010_carbon_offsets_consumer_protection.pdf",
+      "info": "/library/glen-wright-carbon-offsets-consumer-protection/"
+    },
+    {
       "id": "Wright2010a",
       "title": "Designing Climate Law: A Comparative Analysis of the US and EU",
       "year": 2010,
@@ -5727,7 +5766,7 @@
       "info": "/library/glen-wright-designing-climate-law-comparative-analysis-us-eu/"
     },
     {
-      "id": "Wright2010",
+      "id": "Wright2010b",
       "title": "Hart’s Concept of Law: Positivist Legal Theory or Sociology?",
       "year": 2010,
       "type": "Journal Article",

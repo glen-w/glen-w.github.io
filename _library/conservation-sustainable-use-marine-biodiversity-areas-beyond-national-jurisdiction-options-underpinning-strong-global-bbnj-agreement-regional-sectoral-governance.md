@@ -20,8 +20,19 @@ abstract: 'Gjerde, K., Boteler, B., Durussel, C., Rochette, J., Unger, S., Wrigh
   G., ‘Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National
   Jurisdiction: Options for Underpinning a Strong Global BBNJ Agreement through Regional
   and Sectoral Governance’, STRONG High Seas Project, 2018.'
+tags:
+- fisheries
+- bbnj
+- rfmo
+- not undermine
+- ifb
+- type:grey
+- author:glen wright
+- oa:open
+- regional governance
 categories:
 - other
+- governance
 authors:
 - K. Gjerde
 - Kristina Gjerde

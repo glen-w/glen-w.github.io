@@ -21,9 +21,6 @@ gallery:
 pdf: 2015_workshop_linking_global_regional_levels_management_marine_areas_beyond_national_jurisdiction_a.pdf
 agenda: 2015_workshop_linking_global_regional_levels_management_marine_areas_beyond_national_jurisdiction_b_agenda.pdf
 url: https://globaloceanforum.com/wp-content/uploads/2015/03/abnj-workshop-list-of-participants-final.pdf
-zip_archive: 2015_workshop_linking_global_regional_levels_management_marine_areas_beyond_national_jurisdiction_a.zip
-zip_file_count: '3'
-zip_file_size_mb: '5.2'
 resources:
 - kind: pdf
   title: Workshop on Linking Global and Regional Levels in the Management of Marine
@@ -41,14 +38,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2015_workshop_linking_global_regional_levels_management_marine_areas_beyond_national_jurisdiction_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 3 files · 5.2 MB
 - kind: landing
   title: Visit event website
   label: Visit event website

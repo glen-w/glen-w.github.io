@@ -305,6 +305,11 @@
   }
 
   function itemMatches(item) {
+    // Facet filters omit nocount items so chip labels match the list / "showing N".
+    // Text search and the unfiltered catalogue still include them.
+    const facetActive = Boolean(state.type || state.role || state.kind === "lang");
+    if (facetActive && !countsTowardFilters(item)) return false;
+
     if (state.type && (item.type || "") !== state.type) return false;
     if (state.role && !(item.roles || []).includes(state.role)) return false;
 

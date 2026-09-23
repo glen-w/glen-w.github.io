@@ -52,6 +52,7 @@
         (Array.isArray(graph.works) ? graph.works : []).map((work) => [work.id, work])
       );
       renderGraph();
+      clearPanel();
     } catch (error) {
       console.error("Co-author graph failed to load", error);
       setStatus("Could not load the collaboration map.");
@@ -120,9 +121,11 @@
       .interpolator(d3.interpolateYlGnBu);
 
     const maxCount = d3.max(people, (d) => d.count || 1) || 1;
-    const radius = d3.scaleSqrt().domain([1, maxCount]).range([6, 22]);
+    const radius = d3.scaleSqrt().domain([1, maxCount]).range([5, 18]);
     const maxEdge = d3.max(edges, (d) => d.count || 1) || 1;
-    const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1, 5]);
+    const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1, 4]);
+    const crowded = people.length > 35;
+    const edgeOpacity = crowded ? 0.28 : 0.5;
 
     const nodes = people.map((person) => {
       const node = { ...person };
@@ -139,6 +142,18 @@
       target: nodeById.get(edge.target),
       workIds: edge.works || [],
     })).filter((edge) => edge.source && edge.target);
+
+    const labelCap = people.length > 60 ? 8 : people.length > 35 ? 12 : people.length > 20 ? 16 : 24;
+    const labeledIds = new Set(
+      nodes
+        .filter((d) => !d.self)
+        .sort((a, b) => (b.count || 0) - (a.count || 0))
+        .slice(0, labelCap)
+        .map((d) => d.id)
+    );
+    nodes.forEach((d) => {
+      if (d.self) labeledIds.add(d.id);
+    });
 
     const g = els.svg.append("g").attr("class", "coauthors-zoom");
 
@@ -157,7 +172,7 @@
       .data(links)
       .join("line")
       .attr("stroke", "var(--global-text-color-light)")
-      .attr("stroke-opacity", 0.55)
+      .attr("stroke-opacity", edgeOpacity)
       .attr("stroke-width", (d) => thickness(d.count || 1))
       .style("cursor", "pointer")
       .on("click", (event, d) => {
@@ -195,7 +210,9 @@
       .on("click", (event, d) => {
         event.stopPropagation();
         showPerson(d);
-      });
+      })
+      .on("mouseenter", (event, d) => setFocus(d.id))
+      .on("mouseleave", () => setFocus(null));
 
     node
       .append("circle")
@@ -208,15 +225,41 @@
       .append("title")
       .text((d) => `${d.name} · ${d.count || 0} shared`);
 
-    node
-      .filter((d) => d.self || (d.count || 0) >= 3)
+    const labels = node
       .append("text")
+      .attr("class", "network-node-label")
       .text((d) => d.name.split(" ").slice(-1)[0])
       .attr("x", 0)
-      .attr("y", (d) => radius(d.count || 1) + 12)
+      .attr("y", (d) => radius(d.count || 1) + 11)
       .attr("text-anchor", "middle")
-      .attr("font-size", "11px")
-      .attr("fill", "var(--global-text-color)");
+      .attr("font-size", "10px")
+      .attr("fill", "var(--global-text-color)")
+      .attr("stroke", "var(--global-bg-color)")
+      .attr("stroke-width", 3)
+      .attr("paint-order", "stroke")
+      .attr("pointer-events", "none")
+      .style("opacity", (d) => (labeledIds.has(d.id) ? 1 : 0));
+
+    function setFocus(focusId) {
+      if (!focusId) {
+        node.style("opacity", 1);
+        link.attr("stroke-opacity", edgeOpacity);
+        labels.style("opacity", (d) => (labeledIds.has(d.id) ? 1 : 0));
+        return;
+      }
+      const connected = new Set([focusId]);
+      links.forEach((edge) => {
+        if (edge.source.id === focusId || edge.target.id === focusId) {
+          connected.add(edge.source.id);
+          connected.add(edge.target.id);
+        }
+      });
+      node.style("opacity", (d) => (connected.has(d.id) ? 1 : 0.12));
+      link.attr("stroke-opacity", (d) =>
+        d.source.id === focusId || d.target.id === focusId ? 0.85 : 0.05
+      );
+      labels.style("opacity", (d) => (connected.has(d.id) ? 1 : 0));
+    }
 
     els.svg.on("click", () => {
       clearPanel();
@@ -224,6 +267,7 @@
 
     if (state.simulation) state.simulation.stop();
 
+    const charge = crowded ? -240 : -180;
     state.simulation = d3
       .forceSimulation(nodes)
       .force(
@@ -231,12 +275,12 @@
         d3
           .forceLink(links)
           .id((d) => d.id)
-          .distance((d) => 40 + 80 / Math.sqrt(d.count || 1))
-          .strength(0.4)
+          .distance((d) => 45 + 90 / Math.sqrt(d.count || 1))
+          .strength(0.35)
       )
-      .force("charge", d3.forceManyBody().strength(-180))
+      .force("charge", d3.forceManyBody().strength(charge))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius((d) => radius(d.count || 1) + 4));
+      .force("collision", d3.forceCollide().radius((d) => radius(d.count || 1) + 6));
 
     const selfNode = nodes.find((d) => d.self);
     if (selfNode) {
@@ -353,8 +397,29 @@
 
   function clearPanel() {
     state.selected = null;
-    els.panel.innerHTML =
-      '<p class="coauthors-panel-empty">Click a person or a link between people to see the shared works.</p>';
+    const [yearMin, yearMax] = yearExtent(state.people);
+    const yearLabel =
+      yearMin === yearMax
+        ? String(yearMin)
+        : `${yearMin} → ${yearMax}`;
+    els.panel.innerHTML = `
+      <div class="network-legend">
+        <p class="coauthors-panel-empty">Click a person or a link between people to see the shared works.</p>
+        <h4 class="network-legend-title">Key</h4>
+        <ul class="network-legend-list">
+          <li>
+            <span class="network-legend-swatch network-legend-swatch--self" aria-hidden="true"></span>
+            Highlighted node is Glen
+          </li>
+          <li>
+            <span class="network-legend-swatch network-legend-swatch--year" aria-hidden="true"></span>
+            Node colour = first year of collaboration (${escapeHtml(yearLabel)})
+          </li>
+          <li>Larger nodes and thicker links = more shared works</li>
+          <li>Hover a node to label neighbours and highlight links; zoom to explore</li>
+        </ul>
+      </div>
+    `;
   }
 
   function escapeHtml(value) {

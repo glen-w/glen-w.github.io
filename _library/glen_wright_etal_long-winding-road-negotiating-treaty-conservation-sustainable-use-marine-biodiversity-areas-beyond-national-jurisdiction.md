@@ -24,6 +24,12 @@ abstract: Marine areas beyond national jurisdiction (ABNJ) cover nearly half of 
   the history of the process, elements under discussion, State positions to date,
   and the challenges that lie ahead. The Long and Winding Road provides a guide to
   the discussions for both experienced participants and newcomers to the process.
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

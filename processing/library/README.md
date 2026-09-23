@@ -62,7 +62,7 @@ A full library run (or `--catalog-only`) writes:
 - `assets/json/coauthors.json` — collaboration graph for `/network/` (co-authors tab; people, edges, works)
 - `assets/json/citations.json` — citation network for `/network/` (citations tab; OpenAlex, cached Scholar citers, Semantic Scholar)
 - `_data/library_selected.yml` — noscript selected list
-- `_data/library_exclude_from_counts.yml` — optional local list of titles/BibTeX keys omitted from filter counts (gitignored; copy from `library_exclude_from_counts.example.yml`)
+- `_data/library_exclude_from_counts.yml` — optional local list of titles/BibTeX keys omitted from filter chip counts and facet result lists (still in unfiltered catalogue / text search; gitignored; copy from `library_exclude_from_counts.example.yml`)
 - `_data/collaborators.yml` — frequent collaborators (2+ shared works) for the explore list; may include `orcid` / `url` / `scholar` from Twenty (`people_profiles.yml`)
 - `_data/citers.yml` — frequent citers (2+ papers citing Glen) for the explore list; includes `orcid` / website `url` / `scholar` when known
 - `_data/people_profiles.yml` — ORCID + homepage + Scholar export from Twenty CRM (Untangle); see [`PEOPLE_PROFILES.md`](PEOPLE_PROFILES.md)
@@ -84,7 +84,7 @@ PYTHONPATH=. python processing/library/citations.py --seed author
 
 The run re-merges `.cache/scholar/normalized.json` when that cache exists (no new SerpApi searches) and adds Semantic Scholar citation and reference edges for library DOIs. `--no-scholar` and `--no-s2` skip those layers. `--s2-only` repeats the Semantic Scholar merge onto the current `citations.json`. Duplicate works that share a DOI, or a near-identical title and year, are collapsed.
 
-Preview JPEGs in `assets/img/publication_preview/` are fitted to a canonical 3:4 canvas (`480x640`) during paper processing so list and detail views can `object-fit: contain` without cropping. Landscape sources keep a sampled colour mat; portrait sources use a neutral pad so thin side shards do not appear. To refit existing previews without wiping PDFs:
+Preview JPEGs in `assets/img/publication_preview/` are fitted to a canonical 3:4 canvas (`480x640`) during paper processing so list and detail views can `object-fit: contain` without cropping. Undersized sources are scaled up to fill the frame (avoids postage-stamp thumbs). Landscape sources keep a sampled colour mat; portrait sources use a neutral pad so thin side shards do not appear. To refit existing previews without wiping PDFs:
 
 ```bash
 python processing/main.py --normalize-previews

@@ -23,6 +23,14 @@ abstract: Effective monitoring, control and surveillance (MCS) is critical for t
   beyond national jurisdiction (referred to here as the “high seas treaty”). This
   brief explores how the negotiations could strengthen MCS in ABNJ and the contribution
   MCS could make to the implementation of a future treaty.
+tags:
+- fisheries
+- bbnj
+- rfmo
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

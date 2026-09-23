@@ -21,9 +21,6 @@ gallery:
 - regional_ocean_governance_conservation_sustainable_use_marine_biodiversity_figure_01
 pdf: 2015_regional_ocean_governance_conservation_sustainable_use_marine_biodiversity.pdf
 slides: 2015_regional_ocean_governance_conservation_sustainable_use_marine_biodiversity_a_slides.pdf
-zip_archive: 2015_regional_ocean_governance_conservation_sustainable_use_marine_biodiversity_a.zip
-zip_file_count: '3'
-zip_file_size_mb: '4.2'
 resources:
 - kind: pdf
   title: Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity
@@ -40,13 +37,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2015_regional_ocean_governance_conservation_sustainable_use_marine_biodiversity_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 3 files · 4.2 MB
 ---
 

@@ -40,9 +40,6 @@ preview: glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy
 agenda: glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy_agenda.pdf
 url: https://doi.org/10.1016/j.marpol.2015.09.030
 doi: https://doi.org/10.1016/j.marpol.2015.09.030
-zip_archive: glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.2'
 pages: 126--134
 volume: '63'
 resources:
@@ -53,14 +50,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.2 MB
 - kind: landing
   title: DOI
   label: View DOI

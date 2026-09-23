@@ -13,17 +13,5 @@ venue: BBC World Service
 location: New York, NY, USA
 role: interview
 preview: 2016_un_high_seas_treaty_negotiations
-zip_archive: 2016_un_high_seas_treaty_negotiations_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '6.1'
-resources:
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2016_un_high_seas_treaty_negotiations_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 6.1 MB
 ---
 

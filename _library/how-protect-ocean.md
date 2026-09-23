@@ -24,9 +24,6 @@ preview: 2024_how_protect_ocean
 pdf: 2024_how_protect_ocean_a.pdf
 agenda: 2024_how_protect_ocean_b_agenda.pdf
 video: https://www.youtube.com/watch?v=1G8-Qm1J8SU
-zip_archive: 2024_how_protect_ocean_a.zip
-zip_file_count: '2'
-zip_file_size_mb: '26.2'
 resources:
 - kind: pdf
   title: How to Protect Our Ocean
@@ -43,14 +40,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2024_how_protect_ocean_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 2 files · 26.2 MB
 - kind: video
   title: Event recording
   label: Watch recording

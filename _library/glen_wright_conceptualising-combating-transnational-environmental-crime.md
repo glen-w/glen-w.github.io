@@ -38,9 +38,6 @@ preview: glen_wright_2011_conceptualising_combating_transnational_environmental_
 pdf: glen_wright_2011_conceptualising_combating_transnational_environmental_crime.pdf
 url: https://link.springer.com/article/10.1007/s12117-011-9130-4
 doi: https://doi.org/10.1007/s12117-011-9130-4
-zip_archive: glen_wright_2011_conceptualising_combating_transnational_environmental_crime_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.1'
 pages: 332--346
 volume: '14'
 number: '4'
@@ -53,14 +50,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2011_conceptualising_combating_transnational_environmental_crime_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.1 MB
 - kind: landing
   title: Visit Trends in Organized Crime publication page
   label: Visit Trends in Organized Crime publication page

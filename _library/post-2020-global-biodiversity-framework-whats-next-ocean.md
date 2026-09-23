@@ -26,9 +26,6 @@ preview: 2023_post_2020_global_biodiversity_framework_whats_next_ocean
 agenda: 2023_post_2020_global_biodiversity_framework_whats_next_ocean_agenda.pdf
 video: https://www.youtube.com/watch?v=Sfz-xy6UgAQ
 url: https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean
-zip_archive: 2023_post_2020_global_biodiversity_framework_whats_next_ocean_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.2'
 resources:
 - kind: agenda
   title: Conference agenda
@@ -37,14 +34,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2023_post_2020_global_biodiversity_framework_whats_next_ocean_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.2 MB
 - kind: video
   title: Event recording
   label: Watch recording

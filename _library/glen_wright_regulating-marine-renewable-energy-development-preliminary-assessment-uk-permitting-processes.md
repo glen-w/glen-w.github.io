@@ -10,26 +10,23 @@ is_event: false
 description: 'Regulating marine renewable energy development: a preliminary assessment
   of UK permitting processes'
 tags:
-- marine renewable energy
 - crown estate leasing process
 - marine governance
 - marine licensing
+- marine renewable energy
 - seabed leasing
 categories:
 - other
-- energy-policy
 - marine-policy
+- energy-policy
 authors:
 - Glen Wright
 venue: 'Underwater Technology: The International Journal of the Society for Underwater'
 role: author
-preview: glen_wright_etal_2014_scores_half_time_update_international_discussions_governance_marine_biodiversity_areas_beyond_national_jurisdiction
+preview: glen_wright_2014_regulating_marine_renewable_energy_development_preliminary_assessment_uk_permitting_processes
 pdf: glen_wright_2014_regulating_marine_renewable_energy_development_preliminary_assessment_uk_permitting_processes.pdf
 url: https://doi.org/10.3723/ut.32.000
 doi: https://doi.org/10.3723/ut.32.000
-zip_archive: glen_wright_2014_regulating_marine_renewable_energy_development_preliminary_assessment_uk_permitting_processes_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.1'
 pages: 1--12
 volume: '32'
 number: '1'
@@ -43,14 +40,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2014_regulating_marine_renewable_energy_development_preliminary_assessment_uk_permitting_processes_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.1 MB
 - kind: landing
   title: DOI
   label: View DOI

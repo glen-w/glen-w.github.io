@@ -37,7 +37,14 @@ abstract: "Effective monitoring, control and surveillance (MCS) of human activit
   \ of legislation and deterrent sanctions, investing in capacity-building and through\
   \ more involvement in global and regional processes."
 tags:
+- fisheries
+- bbnj
+- rfmo
 - featured
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

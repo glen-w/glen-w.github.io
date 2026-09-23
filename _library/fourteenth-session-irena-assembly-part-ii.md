@@ -34,11 +34,9 @@ preview: 2024_fourteenth_session_irena_assembly_part_ii
 gallery:
 - fourteenth_session_irena_assembly_part_ii_photo_01
 - fourteenth_session_irena_assembly_part_ii_photo_02
+- fourteenth_session_irena_assembly_part_ii_photo_03
 pdf: 2024_fourteenth_session_irena_assembly_part_ii_a.pdf
 url: https://www.irena.org/Events/2024/Apr/Fourteenth-Session-of-the-IRENA-Assembly
-zip_archive: 2024_fourteenth_session_irena_assembly_part_ii_a.zip
-zip_file_count: '3'
-zip_file_size_mb: '4.5'
 resources:
 - kind: pdf
   title: Fourteenth Session of the IRENA Assembly, Part II
@@ -48,14 +46,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2024_fourteenth_session_irena_assembly_part_ii_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 3 files · 4.5 MB
 - kind: landing
   title: Visit event website
   label: Visit event website

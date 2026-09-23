@@ -1,0 +1,79 @@
+---
+layout: library-item
+title: Historic UNtalks couldsave the high seas
+date: '2016-01-01'
+entry_type: Journal article
+year: '2016'
+bibtex_key: wrightHistoricTalksCould2016
+is_event: false
+description: Since the adoption of the United Nations (UN) Convention on the Law of
+  the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction
+  (ABNJ)1 have developed exponentially.
+standfirst: Since the adoption of the United Nations (UN) Convention on the Law of
+  the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction
+  (ABNJ)1 have developed exponentially.
+abstract: Since the adoption of the United Nations (UN) Convention on the Law of the
+  Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction (ABNJ)1
+  have developed exponentially. Existing activities such as shipping and fishing have
+  intensified and expanded, while a range of new activities are under development.2
+  Climate change and ocean acidification are predicted to compound the impacts of
+  these activities and place further pressure on marine ecosystems.3 In 2004, the
+  UN General Assembly (UNGA) created the Ad Hoc Open-ended Informal Working Group
+  to study issues relating to the conservation and sustainable use of marine biological
+  diversity beyond areas of national jurisdiction (the Working Group).4 The focus
+  of the Working Group was mainly been on weaknesses and gaps in the current international
+  framework and whether these necessitate the adoption of a new instrument. In January
+  2015, the Working Group recommended to the UNGA that it “decide to develop an international
+  legallybinding instrument under the Convention on the conservation and sustainable
+  use of marine biological diversity of areas beyond national jurisdiction”.5 A Preparatory
+  Committee (PrepCom) will meet at UN Headquarters for a total of 4 weeks in 2016
+  and 2017 in order to prepare substantive recommendations on elements of a draft
+  text.6 The PrepCom is to report to the UNGA, which will then decide by September
+  2018 on the convening and starting date of an intergovernmental conference.
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
+- eia / sea
+categories:
+- other
+authors:
+- Glen Wright
+- Julien Rochette
+venue: Australian Environment Review
+role: lead author
+preview: glen_wright_etal_2016_historic_untalks_couldsave_high_seas
+pdf: glen_wright_etal_2016_historic_untalks_couldsave_high_seas.pdf
+url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
+doi: https://doi.org/10.64628/aak.jt4fdq3p3
+pages: 164--167
+resources:
+- kind: pdf
+  title: Historic UNtalks couldsave the high seas
+  label: View primary document
+  url: /assets/pdf/glen_wright_etal_2016_historic_untalks_couldsave_high_seas.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit Australian Environment Review publication page
+  label: Visit Australian Environment Review publication page
+  url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
+  format: Web
+  local: false
+  external: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.64628/aak.jt4fdq3p3
+  format: Web
+  local: false
+  external: true
+---
+
+## Notes
+
+TITLE-CLEAN 2026-09-10: local:midword_spaces;

@@ -44,9 +44,6 @@ quotes:
 preview: 2023_el_tratado_de_alta_mar_no_bastara_para_evitar_la_mineria_submarina
 pdf: 2023_el_tratado_de_alta_mar_no_bastara_para_evitar_la_mineria_submarina.pdf
 url: https://efeverde.com/tratado-alta-mar-mineria-submarina/
-zip_archive: 2023_el_tratado_de_alta_mar_no_bastara_para_evitar_la_mineria_submarina_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.0'
 resources:
 - kind: pdf
   title: El Tratado de alta mar no bastara para evitar la mineria submarina
@@ -56,14 +53,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2023_el_tratado_de_alta_mar_no_bastara_para_evitar_la_mineria_submarina_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.0 MB
 - kind: landing
   title: Visit efeverde publication page
   label: Visit efeverde publication page

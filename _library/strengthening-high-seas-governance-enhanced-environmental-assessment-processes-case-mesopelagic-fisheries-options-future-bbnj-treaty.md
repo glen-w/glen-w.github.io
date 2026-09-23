@@ -18,6 +18,13 @@ abstract: This report explores the challenges of addressing emerging activities 
   proposal to develop commercial fisheries in the mesopelagic zone. The case study
   considers how such a proposal might be addressed by existing global and regional
   bodies and processes and the potential future role of the BBNJ Agreement.
+tags:
+- eia
+- bbnj
+- not undermine
+- ifb
+- author:glen wright
+- oa:open
 categories:
 - other
 authors:
@@ -62,3 +69,4 @@ resources:
 ## Notes
 
 Artwork Size: 3MB
+TITLE-CLEAN 2026-09-10: local:midword_spaces;

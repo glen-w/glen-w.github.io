@@ -10,9 +10,17 @@ is_event: false
 description: Initial reflections to support rapid, effective and equitable implementation
   of the BBNJ Agreement
 tags:
+- bbnj
+- equity
+- institutions
 - featured
 - coordinator
 - lead author
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
+- cbtmt
 categories:
 - other
 authors:
@@ -36,9 +44,6 @@ preview: 2023_initial_reflections_support_rapid_effective_equitable_implementati
 gallery:
 - initial_reflections_support_rapid_effective_equitable_implementation_bbnj_agreement_figure_01
 pdf: 2023_initial_reflections_support_rapid_effective_equitable_implementation_bbnj_agreement.pdf
-zip_archive: 2023_initial_reflections_support_rapid_effective_equitable_implementation_bbnj_agreement_a.zip
-zip_file_count: '2'
-zip_file_size_mb: '1.2'
 number: '1'
 resources:
 - kind: pdf
@@ -50,13 +55,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2023_initial_reflections_support_rapid_effective_equitable_implementation_bbnj_agreement_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 2 files · 1.2 MB
 ---
 

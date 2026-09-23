@@ -17,9 +17,8 @@ venue: Marine Policy
 role: author
 preview: glen_wright_2016_regulating_wave_tidal_energy_industry_perspective_scottish_marine_governance_framework
 pdf: glen_wright_2016_regulating_wave_tidal_energy_industry_perspective_scottish_marine_governance_framework.pdf
-zip_archive: glen_wright_2016_regulating_wave_tidal_energy_industry_perspective_scottish_marine_governance_framework_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.4'
+url: https://doi.org/10.1016/j.marpol.2015.12.014
+doi: https://doi.org/10.1016/j.marpol.2015.12.014
 pages: 115--126
 number: '65'
 resources:
@@ -32,13 +31,12 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2016_regulating_wave_tidal_energy_industry_perspective_scottish_marine_governance_framework_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.4 MB
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.1016/j.marpol.2015.12.014
+  format: Web
+  local: false
+  external: true
 ---
 

@@ -17,9 +17,6 @@ preview: glen_wright_2011_flags_got_flag_it_union_jack_australian_flag
 gallery:
 - glen_wright_2011_flags_got_flag_it_union_jack_australian_flag_photo_01
 pdf: glen_wright_2011_flags_got_flag_it_union_jack_australian_flag_a.pdf
-zip_archive: glen_wright_2011_flags_got_flag_it_union_jack_australian_flag_a.zip
-zip_file_count: '2'
-zip_file_size_mb: '0.3'
 pages: 6--11
 volume: '1901'
 number: January
@@ -32,13 +29,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2011_flags_got_flag_it_union_jack_australian_flag_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 2 files · 0.3 MB
 ---
 

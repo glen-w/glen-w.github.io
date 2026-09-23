@@ -16,10 +16,8 @@ preview: 2014_world_parks_congress
 gallery:
 - world_parks_congress_figure_01
 - world_parks_congress_photo_01
+- world_parks_congress_photo_02
 pdf: 2014_world_parks_congress.pdf
-zip_archive: 2014_world_parks_congress_a.zip
-zip_file_count: '3'
-zip_file_size_mb: '4.5'
 resources:
 - kind: pdf
   title: World Parks Congress
@@ -29,13 +27,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2014_world_parks_congress_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 3 files · 4.5 MB
 ---
 

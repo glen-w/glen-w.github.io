@@ -9,6 +9,12 @@ bibtex_key: bouvetEnsuringEffectiveImplementation2022a
 is_event: false
 description: 'Ensuring Effective Implementation of a High Seas Biodiversity Treaty:
   Lessons Learned and Options for an Implementation and Compliance Committee'
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:

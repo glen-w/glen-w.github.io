@@ -22,11 +22,19 @@ abstract: The world’s oceans are critical providers of ecosystem services and 
   and gas resources. In this chapter, we highlight these gaps, outline relevant ongoing
   processes to fill them, and propose ways forward.
 tags:
+- eia
 - marine protected areas
 - environmental impact assessment
 - marine genetic resources
 - areas beyond national jurisdiction
+- bbnj
 - access and benefit sharing
+- abmt / mpas
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
+- mgr / abs
 categories:
 - other
 - marine-policy
@@ -40,9 +48,6 @@ publisher: Springer
 role: lead author
 preview: glen_wright_etal_2016_sustainable_development_oceans_closing_gaps_international_legal_framework
 pdf: glen_wright_etal_2016_sustainable_development_oceans_closing_gaps_international_legal_framework.pdf
-zip_archive: glen_wright_etal_2016_sustainable_development_oceans_closing_gaps_international_legal_framework_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.1'
 resources:
 - kind: pdf
   title: 'Sustainable development of the oceans: Closing the gaps in the international
@@ -53,14 +58,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_etal_2016_sustainable_development_oceans_closing_gaps_international_legal_framework_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.1 MB
 ---
 
 ## Notes

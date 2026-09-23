@@ -42,13 +42,10 @@ authors:
 - Julien Rochette
 venue: Ocean Yearbook
 role: lead author
-preview: glen_wright_etal_2023_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference
+preview: glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference
 pdf: glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference.pdf
 url: https://brill.com/view/journals/ocyo/37/1/article-p30_3.xml
 doi: https://doi.org/10.1163/22116001-03701004
-zip_archive: glen_wright_etal_2023_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '1.7'
 pages: 30--36
 volume: '37'
 number: '1'
@@ -62,14 +59,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_etal_2023_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 1.7 MB
 - kind: landing
   title: Visit Ocean Yearbook publication page
   label: Visit Ocean Yearbook publication page

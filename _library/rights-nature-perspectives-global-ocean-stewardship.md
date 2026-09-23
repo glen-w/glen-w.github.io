@@ -24,6 +24,12 @@ abstract: 'The development of a new international legally binding instrument for
   We argue that a Rights of Nature perspective can reinforce existing ocean governance
   norms, inspire new measures to enhance the effectiveness and equitability of the
   BBNJ agreement and enable global ocean stewardship in ABNJ.'
+tags:
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
 - other
 authors:
@@ -39,9 +45,6 @@ preview: 2020_rights_nature_perspectives_global_ocean_stewardship
 pdf: 2020_rights_nature_perspectives_global_ocean_stewardship.pdf
 url: https://doi.org/10.1016/j.marpol.2020.104059
 doi: https://doi.org/10.1016/j.marpol.2020.104059
-zip_archive: 2020_rights_nature_perspectives_global_ocean_stewardship_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.7'
 pages: '104059'
 volume: '122'
 resources:
@@ -53,14 +56,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2020_rights_nature_perspectives_global_ocean_stewardship_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.7 MB
 - kind: landing
   title: DOI
   label: View DOI

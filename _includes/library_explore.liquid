@@ -60,7 +60,22 @@
           <svg id="coauthorsCanvas" class="coauthors-canvas" role="img" aria-label="Co-author collaboration graph"></svg>
         </div>
         <aside id="coauthorsPanel" class="coauthors-panel" aria-live="polite">
-          <p class="coauthors-panel-empty">Click a person or a link between people to see the shared works.</p>
+          <div class="network-legend">
+            <p class="coauthors-panel-empty">Click a person or a link between people to see the shared works.</p>
+            <h4 class="network-legend-title">Key</h4>
+            <ul class="network-legend-list">
+              <li>
+                <span class="network-legend-swatch network-legend-swatch--self" aria-hidden="true"></span>
+                Highlighted node is Glen
+              </li>
+              <li>
+                <span class="network-legend-swatch network-legend-swatch--year" aria-hidden="true"></span>
+                Node colour = first year of collaboration (earlier → later)
+              </li>
+              <li>Larger nodes and thicker links = more shared works</li>
+              <li>Hover a node to label neighbours and highlight links; zoom to explore</li>
+            </ul>
+          </div>
         </aside>
       </div>
     </div>
@@ -71,7 +86,6 @@
         Frequent collaborators
         <span class="people-list-count">({{ site.data.collaborators.size }})</span>
       </summary>
-      <p>People with at least two shared works. ORCID, website, and Scholar icons come from Twenty when known.</p>
       <ul>
         {% for person in site.data.collaborators %}
           <li>
@@ -147,7 +161,30 @@
           <svg id="citationsCanvas" class="citations-canvas" role="img" aria-label="Author citation network"></svg>
         </div>
         <aside id="citationsPanel" class="citations-panel" aria-live="polite">
-          <p class="citations-panel-empty">Click a person or an arrow to see the papers behind the link.</p>
+          <div class="network-legend">
+            <p class="citations-panel-empty">Click a person or an arrow to see the papers behind the link.</p>
+            <h4 class="network-legend-title">Key</h4>
+            <ul class="network-legend-list">
+              <li>
+                <span class="network-legend-swatch network-legend-swatch--self" aria-hidden="true"></span>
+                Highlighted node is Glen
+              </li>
+              <li>
+                <span class="network-legend-swatch network-legend-swatch--cites-me" aria-hidden="true"></span>
+                Blue = cites Glen
+              </li>
+              <li>
+                <span class="network-legend-swatch network-legend-swatch--i-cite" aria-hidden="true"></span>
+                Orange = Glen cites them
+              </li>
+              <li>
+                <span class="network-legend-swatch network-legend-swatch--both" aria-hidden="true"></span>
+                Grey = both directions (or co-authors on a citing paper)
+              </li>
+              <li>Larger nodes and thicker arrows = more papers</li>
+              <li>Hover a node to label neighbours and highlight links; zoom to explore</li>
+            </ul>
+          </div>
         </aside>
       </div>
     </div>
@@ -158,7 +195,6 @@
         Frequent citers
         <span class="people-list-count">({{ site.data.citers.size }})</span>
       </summary>
-      <p>Authors who cite Glen’s work at least twice. ORCID, website, and Scholar icons come from Twenty when known.</p>
       <ul>
         {% for person in site.data.citers %}
           <li>
@@ -314,7 +350,7 @@
 .citations-toolbar {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
   gap: 1rem;
   margin-bottom: 0.75rem;
 }
@@ -322,17 +358,28 @@
 .coauthors-toggle,
 .citations-toggle {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.4rem;
+  margin: 0;
   font-size: 0.95rem;
+  line-height: 1.4;
   cursor: pointer;
   user-select: none;
+}
+
+.coauthors-toggle input,
+.citations-toggle input {
+  margin: 0;
+  flex-shrink: 0;
+  position: relative;
+  top: 0.12em;
 }
 
 .coauthors-status,
 .citations-status {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
   color: var(--global-text-color-light);
 }
 
@@ -379,8 +426,65 @@
 
 .coauthors-panel-empty,
 .citations-panel-empty {
-  margin: 0;
+  margin: 0 0 0.85rem;
   color: var(--global-text-color-light);
+}
+
+.network-legend-title {
+  margin: 0 0 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+.network-legend-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--global-text-color);
+}
+
+.network-legend-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  margin: 0.4rem 0;
+}
+
+.network-legend-swatch {
+  flex-shrink: 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-top: 0.28em;
+  border-radius: 50%;
+  border: 1px solid var(--global-divider-color);
+}
+
+.network-legend-swatch--self {
+  background: var(--global-theme-color);
+  border-color: var(--global-text-color);
+  border-width: 1.5px;
+}
+
+.network-legend-swatch--year {
+  border-radius: 2px;
+  background: linear-gradient(90deg, #ffffd9, #7fcdbb, #225ea8);
+}
+
+.network-legend-swatch--cites-me {
+  background: #2a6f97;
+}
+
+.network-legend-swatch--i-cite {
+  background: #b5651d;
+}
+
+.network-legend-swatch--both {
+  background: #5c6b73;
 }
 
 .coauthors-panel h3,
@@ -396,14 +500,14 @@
   font-size: 0.9rem;
 }
 
-.coauthors-panel ul,
-.citations-panel ul {
+.coauthors-panel ul:not(.network-legend-list),
+.citations-panel ul:not(.network-legend-list) {
   margin: 0;
   padding-left: 1.1rem;
 }
 
-.coauthors-panel li,
-.citations-panel li {
+.coauthors-panel ul:not(.network-legend-list) li,
+.citations-panel ul:not(.network-legend-list) li {
   margin: 0.35rem 0;
 }
 
@@ -438,16 +542,67 @@
 }
 
 .people-list > summary {
+  background: none;
+  border: none;
+  color: var(--global-theme-color);
   cursor: pointer;
-  font-size: 1.25rem;
-  font-weight: 600;
-  list-style: revert;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  text-decoration: underline dotted;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.people-list > summary::-webkit-details-marker {
+  display: none;
+}
+
+.people-list > summary::after {
+  content: " >";
+}
+
+.people-list[open] > summary::after {
+  content: none;
+}
+
+.people-list[open] > summary::before {
+  content: "< ";
+}
+
+.people-list > summary:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.people-list > summary:focus:not(:hover) {
+  text-decoration: underline dotted;
+}
+
+.people-list > summary:active {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.people-list > summary:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.people-list > summary:focus-visible {
+  color: var(--global-theme-color);
+  text-decoration: underline dotted;
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
 }
 
 .people-list > summary .people-list-count {
-  font-weight: 400;
-  color: var(--global-text-color-light);
-  font-size: 0.95rem;
+  font-weight: inherit;
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
 }
 
 .people-list > p {

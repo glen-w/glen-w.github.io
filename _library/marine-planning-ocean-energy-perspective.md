@@ -17,9 +17,6 @@ publisher: Earthscan
 role: co-author
 preview: 2017_marine_planning_ocean_energy_perspective
 pdf: 2017_marine_planning_ocean_energy_perspective.pdf
-zip_archive: 2017_marine_planning_ocean_energy_perspective_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '0.4'
 resources:
 - kind: pdf
   title: 'Marine planning: an ocean energy perspective'
@@ -29,13 +26,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2017_marine_planning_ocean_energy_perspective_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.4 MB
 ---
 

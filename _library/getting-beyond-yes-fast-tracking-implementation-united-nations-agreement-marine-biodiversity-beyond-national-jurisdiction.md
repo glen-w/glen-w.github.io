@@ -1,7 +1,7 @@
 ---
 layout: library-item
-title: 'Getting Beyond Yes: Fast-tracking Implementation of the United Nations Agreement
-  for Marine Biodiversity Beyond National Jurisdiction'
+title: 'Getting beyond yes: fast-tracking implementation of the United Nations agreement
+  for marine biodiversity beyond national jurisdiction'
 date: '2022-01-01'
 entry_type: Journal article
 year: '2022'
@@ -27,6 +27,16 @@ abstract: 'With a new international agreement on the conservation and sustainabl
   activities on the global ocean necessitate urgent action, so we must begin to work
   on the implementation of the BBNJ Agreement as soon as possible to secure ocean
   health for the benefit of present and future generations.'
+tags:
+- bbnj
+- bbnj-architecture-corpus
+- architecture
+- cooperation modalities
+- not undermine
+- ifb
+- author:glen wright
+- oa:open
+- bbnj-dedupe-2026-09-08
 categories:
 - other
 authors:
@@ -52,8 +62,8 @@ doi: https://doi.org/10.1038/s44183-022-00006-2
 number: '6'
 resources:
 - kind: pdf
-  title: 'Getting Beyond Yes: Fast-tracking Implementation of the United Nations Agreement
-    for Marine Biodiversity Beyond National Jurisdiction'
+  title: 'Getting beyond yes: fast-tracking implementation of the United Nations agreement
+    for marine biodiversity beyond national jurisdiction'
   label: View primary document
   url: /assets/pdf/2022_getting_beyond_yes_fast_tracking_implementation_united_nations_agreement_marine_biodiversity_beyond_national_jurisdiction.pdf
   format: PDF
@@ -76,3 +86,7 @@ resources:
   external: true
 ---
 
+## Notes
+
+Merged duplicates into this item; trashed: BZK3ZQXH
+TITLE-CLEAN 2026-09-10: crossref:10.1038/s44183-022-00006-2;

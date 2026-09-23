@@ -1,5 +1,6 @@
 # Copy to library_exclude_from_counts.yml (gitignored) and list titles or BibTeX keys.
-# Excluded works still appear in /library/; they are omitted from type/role/language counts.
+# Excluded works still appear in the unfiltered catalogue and text search; they are
+# omitted from type/role/language chip counts and from those facet result lists.
 #
 # - "Example Book Title"
 # - DarkFrontier

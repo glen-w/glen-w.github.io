@@ -25,6 +25,25 @@ abstract: Fishing is a significant threat to marine biodiversity in areas beyond
   ongoing fishing activity. Some positive outcomes provide examples of good practice,
   though RFMO/As will need to fully utilise their powers and follow best practice
   before authorising bottom fishing to proceed in ABNJ.
+tags:
+- fisheries
+- bbnj
+- vme
+- rfmo
+- not undermine
+- cited-by:glen-strong-high-seas
+- ifb
+- oa:unknown
+- source:glen-7pubs-refs
+- author:glen wright
+- eia / sea
+- bottom-closures-update-2026
+- theme:vme
+- baseline paper
+- hsbfc
+- theme:baseline paper
+- theme:hsbfc
+- theme:rfmo
 categories:
 - other
 authors:
@@ -39,9 +58,6 @@ preview: glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional
 pdf: glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction.pdf
 url: https://doi.org/10.1016/j.marpol.2015.06.030
 doi: https://doi.org/10.1016/j.marpol.2015.06.030
-zip_archive: glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction_a.zip
-zip_file_count: '1'
-zip_file_size_mb: '3.3'
 pages: 134--148
 volume: '61'
 resources:
@@ -54,14 +70,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 3.3 MB
 - kind: landing
   title: DOI
   label: View DOI
