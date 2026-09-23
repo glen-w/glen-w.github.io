@@ -1540,6 +1540,18 @@ html.transition *:after {
   }
 }
 
+// TinyLetter was a single narrow column. Keep images on their own line.
+.lbl-letter {
+  img {
+    display: block !important;
+    float: none !important;
+    clear: both;
+    height: auto !important;
+    max-width: 100% !important;
+    margin: 0.75rem auto !important;
+  }
+}
+
 progress {
   /* Positioning */
   position: fixed;

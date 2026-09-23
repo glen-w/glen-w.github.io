@@ -260,7 +260,7 @@ function openImageModal(src, alt, galleryImages = null, currentIndex = 0) {
     nextBtn.style.display = "none";
   }
 
-  modal.style.display = "block";
+  modal.style.display = "flex";
 }
 
 // Navigation functions

@@ -117,16 +117,19 @@ $max-content-width: {{ site.max_width }};
   top: 0;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  // 56px matches the fixed navbar. The extra space keeps the photo and close button below it.
+  padding: calc(56px + 2rem) 0 2rem;
   background-color: rgba(0,0,0,0.9);
   
   .image-modal-content {
     position: relative;
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
     width: 90%;
     max-width: 1200px;
-    top: 50%;
-    transform: translateY(-50%);
   }
   
   .image-modal-close {
@@ -147,7 +150,7 @@ $max-content-width: {{ site.max_width }};
   .image-modal-img {
     width: 100%;
     height: auto;
-    max-height: 80vh;
+    max-height: calc(100vh - 56px - 4rem);
     object-fit: contain;
   }
   
@@ -159,7 +162,11 @@ $max-content-width: {{ site.max_width }};
     text-align: center;
     color: #ccc;
     padding: 10px 0;
-    height: 150px;
+    height: auto;
+
+    &:empty {
+      display: none;
+    }
   }
   
   .image-modal-nav {

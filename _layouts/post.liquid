@@ -58,7 +58,7 @@ layout: default
     </p>
   </header>
 
-  <article class="post-content">
+  <article class="post-content{% if page.tags contains 'LittleBlueLetter' %} lbl-letter{% endif %}">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
         {% toc %}
