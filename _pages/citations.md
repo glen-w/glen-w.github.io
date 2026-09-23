@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /citations/
-redirect: /network/#citations
+redirect: /library/#citations
 sitemap: false
 title: citations
 ---
 
-<p>Moved to <a href="{{ '/network/' | relative_url }}#citations">network · citations</a>.</p>
+<p>Moved to <a href="{{ '/library/' | relative_url }}#citations">the library</a>.</p>

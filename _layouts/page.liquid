@@ -44,7 +44,9 @@ layout: default
       {{ project_logo }}
     {% endif %}
     <h1 class="post-title{% if page.wordmark and project_logo != '' %} sr-only{% endif %}">{{ page.title }}</h1>
-    <p class="post-description{% if page.collection == 'projects' %} project-pitch{% endif %}">{{ page.description }}</p>
+    {% if page.description %}
+      <p class="post-description{% if page.collection == 'projects' %} project-pitch{% endif %}">{{ page.description }}</p>
+    {% endif %}
     {% if page.collection == 'projects' %}
       {% assign project = page %}
       {% include project_card_links.liquid %}

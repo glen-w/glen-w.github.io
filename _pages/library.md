@@ -6,6 +6,7 @@ description: Publications on BBNJ, ocean governance, marine renewable energy, an
 nav: true
 nav_order: 10
 medium_zoom: true
+network: true
 ---
 
 <div
@@ -71,14 +72,14 @@ medium_zoom: true
     </div>
 
     <div class="filter-actions">
+      <button type="button" class="view-map-link" id="selectedToggleBtn" aria-pressed="false">
+        <i class="fas fa-eye" aria-hidden="true"></i> show selected publications
+      </button>
       <button type="button" class="view-map-link" id="mapToggleBtn" aria-pressed="false">
         <i class="fas fa-map-marker-alt" aria-hidden="true"></i> view map
       </button>
-      <a href="{{ '/network/' | relative_url }}" class="view-map-link">
-        <i class="fas fa-project-diagram" aria-hidden="true"></i> Visualise
-      </a>
-      <button type="button" class="view-map-link" id="selectedToggleBtn" aria-pressed="false">
-        <i class="fas fa-eye" aria-hidden="true"></i> show selected publications
+      <button type="button" class="view-map-link" id="exploreToggleBtn" aria-pressed="false">
+        <i class="fas fa-project-diagram" aria-hidden="true"></i> explore
       </button>
     </div>
 
@@ -86,6 +87,10 @@ medium_zoom: true
 
   <div id="libraryMapContainer" class="library-map-container" style="display: none;">
     <div id="libraryMap" class="library-map" role="region" aria-label="Publication locations"></div>
+  </div>
+
+  <div id="libraryExploreContainer" class="library-explore-container" style="display: none;">
+    {% include library_explore.liquid %}
   </div>
 
   <div id="itemCountDisplay" class="item-count-display" style="display: none;" aria-live="polite">

@@ -1,5 +1,6 @@
 (() => {
   const EXPAND_FLAGS = new Set(["abs", "photos", "figures", "speakers", "quotes", "audio", "award"]);
+  const VIZ_HASHES = new Set(["explore", "co-authors", "coauthors", "citations", "timeline"]);
   const FLAG_TO_PANEL = {
     abs: "abstract",
     photos: "photos",
@@ -38,11 +39,13 @@
     els.countText = document.getElementById("itemCountText");
     els.selectedBtn = document.getElementById("selectedToggleBtn");
     els.mapBtn = document.getElementById("mapToggleBtn");
+    els.exploreBtn = document.getElementById("exploreToggleBtn");
 
     state.catalogUrl = root.dataset.catalog;
     state.detailsUrl = root.dataset.details;
 
     bindUi();
+    if (isVizHash(currentHash())) setExploreOpen(true, { updateHash: false });
 
     try {
       setStatus("Loading catalogue…", true);
@@ -117,6 +120,15 @@
       });
     }
 
+    if (els.exploreBtn) {
+      els.exploreBtn.addEventListener("click", (event) => {
+        event.preventDefault();
+        toggleExplore();
+      });
+    }
+
+    window.addEventListener("hashchange", onLibraryHashChange);
+
     if (els.results) {
       els.results.addEventListener("click", onResultsClick);
     }
@@ -134,7 +146,7 @@
       return;
     }
 
-    if (action !== "jump" && hash) {
+    if (action !== "jump" && hash && !isVizHash(hash)) {
       if (els.search) els.search.value = hash;
       state.q = hash.toLowerCase();
       state.kind = "text";
@@ -639,17 +651,102 @@
   let libraryMap = null;
   let mapInitialized = false;
 
+  function hashValue() {
+    return decodeURIComponent(window.location.hash.replace(/^#/, ""));
+  }
+
+  function onLibraryHashChange() {
+    const hash = hashValue();
+    if (isVizHash(hash)) {
+      setMapOpen(false);
+      setExploreOpen(true, { updateHash: false });
+      return;
+    }
+    const exploreContainer = document.getElementById("libraryExploreContainer");
+    if (exploreContainer && !isHidden(exploreContainer)) {
+      setExploreOpen(false, { updateHash: false });
+    }
+    const action = new URLSearchParams(window.location.search).get("action");
+    if (!hash || action === "jump") return;
+    state.selectedOnly = false;
+    updateSelectedButton();
+    state.q = hash.toLowerCase();
+    state.kind = "text";
+    state.value = hash;
+    if (els.search) els.search.value = hash;
+    clearActiveChips();
+    render();
+  }
+
+  function currentHash() {
+    return decodeURIComponent(window.location.hash.replace(/^#/, "")).toLowerCase();
+  }
+
+  function isVizHash(hash) {
+    return VIZ_HASHES.has(String(hash || "").toLowerCase());
+  }
+
+  function networkTabFromHash() {
+    const hash = currentHash();
+    if (hash === "citations") return "citations";
+    if (hash === "timeline") return "timeline";
+    if (hash === "co-authors" || hash === "coauthors") return "coauthors";
+    const selected = document.querySelector("#networkApp .network-tab.is-active");
+    return selected?.dataset.tab || "coauthors";
+  }
+
+  function isHidden(el) {
+    if (!el) return true;
+    return el.style.display === "none" || window.getComputedStyle(el).display === "none";
+  }
+
   function toggleMap() {
     const mapContainer = document.getElementById("libraryMapContainer");
+    if (!mapContainer) return;
+    const opening = isHidden(mapContainer);
+    if (opening) setExploreOpen(false);
+    setMapOpen(opening);
+  }
+
+  function toggleExplore() {
+    const exploreContainer = document.getElementById("libraryExploreContainer");
+    if (!exploreContainer) return;
+    const opening = isHidden(exploreContainer);
+    if (opening) setMapOpen(false);
+    setExploreOpen(opening);
+  }
+
+  function setMapOpen(open) {
+    const mapContainer = document.getElementById("libraryMapContainer");
     if (!mapContainer || !els.mapBtn) return;
-    const isHidden = mapContainer.style.display === "none" || window.getComputedStyle(mapContainer).display === "none";
-    if (isHidden) {
-      mapContainer.style.display = "block";
-      els.mapBtn.innerHTML = '<i class="fas fa-map-marker-alt" aria-hidden="true"></i> hide map';
-      if (!mapInitialized) initializeLibraryMap();
-    } else {
-      mapContainer.style.display = "none";
-      els.mapBtn.innerHTML = '<i class="fas fa-map-marker-alt" aria-hidden="true"></i> view map';
+    mapContainer.style.display = open ? "block" : "none";
+    els.mapBtn.setAttribute("aria-pressed", open ? "true" : "false");
+    els.mapBtn.innerHTML = open
+      ? '<i class="fas fa-map-marker-alt" aria-hidden="true"></i> hide map'
+      : '<i class="fas fa-map-marker-alt" aria-hidden="true"></i> view map';
+    if (open && !mapInitialized) initializeLibraryMap();
+  }
+
+  function setExploreOpen(open, { updateHash = true } = {}) {
+    const exploreContainer = document.getElementById("libraryExploreContainer");
+    if (!exploreContainer || !els.exploreBtn) return;
+    exploreContainer.style.display = open ? "block" : "none";
+    els.exploreBtn.setAttribute("aria-pressed", open ? "true" : "false");
+    els.exploreBtn.innerHTML = open
+      ? '<i class="fas fa-project-diagram" aria-hidden="true"></i> hide explore'
+      : '<i class="fas fa-project-diagram" aria-hidden="true"></i> explore';
+    if (open) {
+      if (updateHash && !isVizHash(currentHash())) {
+        const url = new URL(window.location.href);
+        url.hash = "explore";
+        history.replaceState(null, "", url);
+      }
+      window.dispatchEvent(
+        new CustomEvent("network:tab", { detail: { tab: networkTabFromHash() } })
+      );
+    } else if (updateHash && isVizHash(currentHash())) {
+      const url = new URL(window.location.href);
+      history.replaceState(null, "", url.pathname + url.search);
     }
   }
 
