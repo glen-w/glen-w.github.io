@@ -3478,6 +3478,11 @@ ninja.data = [{
           description: "Student Protest on Campus",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-student-protest-campus/";
+            },},{id: "library-carbon-offsets-and-consumer-protection",
+          title: 'Carbon Offsets and Consumer Protection',
+          description: "Carbon Offsets and Consumer Protection",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-carbon-offsets-consumer-protection/";
             },},{id: "library-designing-climate-law-a-comparative-analysis-of-the-us-and-eu",
           title: 'Designing Climate Law: A Comparative Analysis of the US and EU',
           description: "As evidence of anthropogenic climate change mounts there is a growing concern with, and a pressing need for, legal regimes to curtail the problem. This concern culminated in the recent climate change conference in Copenhagen.",
@@ -3563,6 +3568,11 @@ ninja.data = [{
           description: "Submission to the Australian Energy Market Commission (AEMC): National Electricity Amendment (Total Factor Productivity for Distribution Network Regulation) Rule",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-submission-australian-energy-market-commission-aemc-national-electricity-amendment-total-factor-productivity-distribution-network-regulation-rule/";
+            },},{id: "library-a-tidal-power-project",
+          title: 'A Tidal Power Project',
+          description: "A Tidal Power Project",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-tidal-power-project/";
             },},{id: "library-submission-to-the-australian-energy-market-commission-economic-regulation-of-network-service-providers-consultation-on-request-for-a-rule-change",
           title: 'Submission to the Australian Energy Market Commission: Economic Regulation of Network Service Providers...',
           description: "Submission to the Australian Energy Market Commission: Economic Regulation of Network Service Providers (Consultation on Request for a Rule Change)",
@@ -3903,6 +3913,11 @@ ninja.data = [{
           description: "Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-marine-renewable-energy-case-poster/";
+            },},{id: "library-marine-governance-in-an-industrialised-ocean-a-marine-renewable-energy-case-study",
+          title: 'Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study',
+          description: "Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-marine-renewable-energy-case/";
             },},{id: "library-marine-spatial-planning-in-areas-beyond-national-jurisdiction-developing-a-research-agenda",
           title: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: developing a research agenda',
           description: "Marine Spatial Planning in Areas Beyond National Jurisdiction: developing a research agenda",
@@ -3945,12 +3960,12 @@ ninja.data = [{
               window.location.href = "/library/glen-wright-towards-new-international-agreement-high-seas-biodiversity/";
             },},{id: "library-towards-a-new-international-instrument-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-abnj",
           title: 'Towards a new international instrument on the conservation and sustainable use of marine...',
-          description: "Towards a new international instrument on the  conservation and sustainable use of marine  biodiversity in ABNJ",
+          description: "Towards a new international instrument on the conservation and sustainable use of marine biodiversity in ABNJ",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-towards-new-international-instrument-conservation-sustainable-use-marine-biodiversity-abnj/";
             },},{id: "library-towards-a-new-international-instrument-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
           title: 'Towards a new international instrument on the conservation and sustainable use of marine...',
-          description: "Towards a new international instrument on the  conservation and sustainable use of marine  biodiversity in Areas Beyond National Jurisdiction",
+          description: "Towards a new international instrument on the conservation and sustainable use of marine biodiversity in Areas Beyond National Jurisdiction",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-towards-new-international-instrument-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
             },},{id: "library-governing-the-high-seas-linking-global-governance-and-regional-implementation",
@@ -4138,6 +4153,11 @@ ninja.data = [{
           description: "CommOcean: 2nd International Marine Science Communication Conference",
           section: "Library",handler: () => {
               window.location.href = "/library/commocean-2nd-international-marine-science-communication-conference/";
+            },},{id: "library-conservation-and-sustainable-use-of-marine-biologi-cal-diversity-of-areas-beyond-national-jurisdiction-preparing-for-the-prep-com",
+          title: 'Conservation and Sustainable Use of Marine Biologi cal Diversity of Areas Beyond National...',
+          description: "Conservation and Sustainable Use of Marine Biologi cal Diversity of Areas Beyond National Jurisdiction: Preparing for the Prep Com",
+          section: "Library",handler: () => {
+              window.location.href = "/library/conservation-sustainable-use-marine-biologi-cal-diversity-areas-beyond-national-jurisdiction-preparing-prep-com/";
             },},{id: "library-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction-preparing-for-the-prepcom",
           title: 'Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction:...',
           description: "Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction: Preparing for the PrepCom",
@@ -4179,7 +4199,7 @@ ninja.data = [{
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-establishing-legal-research-agenda-ocean-energy/";
             },},{id: "library-high-seas-fisheries-what-role-for-a-new-international-instrument",
-          title: 'High seas fisheries: what role for a new international instrument?',
+          title: 'high seas fisheries: what role for a new international instrument?',
           description: "States are currently discussing the development of a new international legally binding instrument (ILBI) on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction (ABNJ).",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-high-seas-fisheries-what-role-new-international-instrument/";
@@ -4188,6 +4208,11 @@ ninja.data = [{
           description: "Since the adoption of the United Nations (UN) Convention on the Law of the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction (ABNJ)1 have developed exponentially.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-historic-un-talks-save-high-seas/";
+            },},{id: "library-historic-untalks-couldsave-the-high-seas",
+          title: 'Historic UNtalks couldsave the high seas',
+          description: "Since the adoption of the United Nations (UN) Convention on the Law of the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction (ABNJ)1 have developed exponentially.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-historic-untalks-couldsave-high-seas/";
             },},{id: "library-the-long-and-winding-road-continues-towards-a-new-agreement-on-high-seas-governance",
           title: 'The long and winding road continues: Towards a new agreement on high seas...',
           description: "In 2015, States agreed to launch negotiations for the elaboration of an international legally binding instrument dedicated to the conservation and sustainable use of the marine biological diversity of areas beyond national jurisdiction (ABNJ).",
@@ -4478,6 +4503,11 @@ ninja.data = [{
           description: "Role of technology and Monitoring, Control and Surveillance in Marine Conservation and Management",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-role-technology-monitoring-control-surveillance-marine-conservation-management/";
+            },},{id: "library-fisheries-in-a-new-high-seas-treaty-opportunities-and-challenges",
+          title: 'Fisheries in a new high seas treaty: Opportunities and challenges',
+          description: "Fisheries in a new high seas treaty: Opportunities and challenges",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-fisheries-new-high-seas-treaty-opportunities-challenges/";
             },},{id: "library-gobernanza-regional-en-las-zonas-fuera-de-la-jurisdiccion-nacional-que-aprendimos-y-como-avanzar",
           title: 'Gobernanza regional en las zonas fuera de la jurisdiccion nacional: Que aprendimos y...',
           description: "Gobernanza regional en las zonas fuera de la jurisdiccion nacional: Que aprendimos y como avanzar",
@@ -4778,6 +4808,16 @@ ninja.data = [{
           description: "In 2017, following more than a decade of informal discussions, States at the United Nations decided to convene an intergovernmental conference (IGC) to negotiate an international legally binding instrument (ILBI) for the conservation and sustainable use of the biological…",
           section: "Library",handler: () => {
               window.location.href = "/library/preliminary-analysis-draft-high-seas-biodiversity-treaty/";
+            },},{id: "library-a-preliminary-analysis-of-the-drafthigh-seas-biodiversity-treaty",
+          title: 'A preliminary analysis of the drafthigh seas biodiversity treaty',
+          description: "In 2017, following more than a decade of informal discussions, States at the United Nations decided to convene an intergovernmental conference (IGC) to negotiate an international legally binding instrument (ILBI) for the conservation and sustainable use of the biological…",
+          section: "Library",handler: () => {
+              window.location.href = "/library/preliminary-analysis-drafthigh-seas-biodiversity-treaty/";
+            },},{id: "library-protecting-sites-of-potential-outstanding-universa-l-value-in-marine-areas-beyond-national-jurisdiction-the-practical-modalities",
+          title: 'Protecting sites of potential Outstanding Universa l Value in marine Areas Beyond National...',
+          description: "Protecting sites of potential Outstanding Universa l Value in marine Areas Beyond National Jurisdiction: The practical modalities",
+          section: "Library",handler: () => {
+              window.location.href = "/library/protecting-sites-potential-outstanding-universa-l-value-marine-areas-beyond-national-jurisdiction-practical-modalities/";
             },},{id: "library-protecting-sites-of-potential-outstanding-universal-value-in-marine-areas-beyond-national-jurisdiction-the-practical-modalities",
           title: 'Protecting sites of potential Outstanding Universal Value in marine Areas Beyond National Jurisdiction:...',
           description: "Protecting sites of potential Outstanding Universal Value in marine Areas Beyond National Jurisdiction:  The practical modalities",
@@ -4914,7 +4954,7 @@ ninja.data = [{
           section: "Library",handler: () => {
               window.location.href = "/library/fourth-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
             },},{id: "library-getting-beyond-yes-fast-tracking-implementation-of-the-united-nations-agreement-for-marine-biodiversity-beyond-national-jurisdiction",
-          title: 'Getting Beyond Yes: Fast-tracking Implementation of the United Nations Agreement for Marine Biodiversity...',
+          title: 'Getting beyond yes: fast-tracking implementation of the United Nations agreement for marine biodiversity...',
           description: "With a new international agreement on the conservation and sustainable use of marine biodiversity of areas beyond national jurisdiction (BBNJ Agreement) on the horizon, now is the time to start laying the foundation for successful implementation.",
           section: "Library",handler: () => {
               window.location.href = "/library/getting-beyond-yes-fast-tracking-implementation-united-nations-agreement-marine-biodiversity-beyond-national-jurisdiction/";
@@ -5175,7 +5215,7 @@ ninja.data = [{
               window.location.href = "/library/foro-social-mas-alla-del-crecimiento/";
             },},{id: "library-denmark-how-long-term-policy-system-integration-and-public-participation-are-driving-denmark-s-renewables-based-economy",
           title: 'Denmark: How long-term policy, system integration and public participation are driving Denmark’s renewables-based...',
-          description: "Denmark: How long-term policy, system integration and public participation are driving Denmark’s renewables-based economy",
+          description: "Denmark’s contemporary energy system began to emerge in response to the 1970s oil crisis, which exposed deep dependence on imported fossil fuels and highlighted the need for diversification.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-denmark-how-long-term-policy-system-integration-public-participation-driving-denmarks-renewables-based-economy/";
             },},{id: "library-le-traite-sur-la-protection-de-la-biodiversite-en-haute-mer-entre-en-vigueur",
