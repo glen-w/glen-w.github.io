@@ -92,6 +92,8 @@
   function visibleEdges(ids) {
     return state.edges.filter((edge) => {
       if (!ids.has(edge.source) || !ids.has(edge.target)) return false;
+      // Inter-author co-cites stay visible in every direction filter.
+      if (edge.direction === "co_cite") return true;
       if (state.direction === "both") return true;
       return edge.direction === state.direction;
     });
@@ -149,10 +151,16 @@
       .attr("d", "M0,-4L8,0L0,4")
       .attr("fill", "#b5651d");
 
-    const maxCount = d3.max(people, (d) => personScore(d) || 1) || 1;
-    const radius = d3.scaleSqrt().domain([1, maxCount]).range([5, 18]);
+    // Exclude self from the scale — its tally dwarfs everyone else and flattens sizes.
+    const maxCount =
+      d3.max(
+        people.filter((d) => !d.self),
+        (d) => personScore(d) || 1
+      ) || 1;
+    const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([7, 30]);
+    const radius = (d) => (d.self ? 14 : radiusScale(personScore(d) || 1));
     const maxEdge = d3.max(edges, (d) => d.count || 1) || 1;
-    const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1, 3.5]);
+    const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1.25, 5]);
     const crowded = people.length > 35;
     const edgeOpacity = (d) => {
       if (d.direction === "co_cite") return crowded ? 0.2 : 0.4;
@@ -255,15 +263,15 @@
 
     node
       .append("circle")
-      .attr("r", (d) => radius(personScore(d) || 1))
+      .attr("r", radius)
       .attr("fill", (d) => {
-        if (d.self) return "var(--global-theme-color)";
+        if (d.self) return "var(--global-tip-block)";
         if ((d.citedMe || 0) > 0 && (d.citedByMe || 0) > 0) return "#5c6b73";
         if ((d.citedMe || 0) > 0) return "#2a6f97";
         return "#b5651d";
       })
-      .attr("stroke", (d) => (d.self ? "var(--global-text-color)" : "var(--global-bg-color)"))
-      .attr("stroke-width", (d) => (d.self ? 2.5 : 1));
+      .attr("stroke", (d) => (d.self ? "var(--global-tip-block-title)" : "var(--global-bg-color)"))
+      .attr("stroke-width", (d) => (d.self ? 2 : 1));
 
     node
       .append("title")
@@ -276,12 +284,12 @@
       .append("text")
       .attr("class", "network-node-label")
       .text((d) => d.name.split(" ").slice(-1)[0])
-      .attr("y", (d) => radius(personScore(d) || 1) + 11)
+      .attr("y", (d) => radius(d) + 14)
       .attr("text-anchor", "middle")
-      .attr("font-size", "10px")
+      .attr("font-size", "13px")
       .attr("fill", "var(--global-text-color)")
       .attr("stroke", "var(--global-bg-color)")
-      .attr("stroke-width", 3)
+      .attr("stroke-width", 3.5)
       .attr("paint-order", "stroke")
       .attr("pointer-events", "none")
       .style("opacity", (d) => (labeledIds.has(d.id) ? 1 : 0));
@@ -325,7 +333,7 @@
       )
       .force("charge", d3.forceManyBody().strength(charge))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius((d) => radius(personScore(d) || 1) + 6));
+      .force("collision", d3.forceCollide().radius((d) => radius(d) + 8));
 
     const selfNode = nodes.find((d) => d.self);
     if (selfNode) {
@@ -411,6 +419,7 @@
     const relevant = state.edges.filter((edge) => {
       const ends = [edge.source, edge.target];
       if (!ends.includes(person.id)) return false;
+      if (edge.direction === "co_cite") return true;
       if (state.direction === "both") return true;
       return edge.direction === state.direction;
     });

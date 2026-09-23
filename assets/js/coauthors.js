@@ -120,10 +120,16 @@
       .domain([yearMin, yearMax])
       .interpolator(d3.interpolateYlGnBu);
 
-    const maxCount = d3.max(people, (d) => d.count || 1) || 1;
-    const radius = d3.scaleSqrt().domain([1, maxCount]).range([5, 18]);
+    // Exclude self from the scale so its high count does not flatten others.
+    const maxCount =
+      d3.max(
+        people.filter((d) => !d.self),
+        (d) => d.count || 1
+      ) || 1;
+    const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([7, 30]);
+    const radius = (d) => (d.self ? 14 : radiusScale(d.count || 1));
     const maxEdge = d3.max(edges, (d) => d.count || 1) || 1;
-    const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1, 4]);
+    const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1.25, 5]);
     const crowded = people.length > 35;
     const edgeOpacity = crowded ? 0.28 : 0.5;
 
@@ -216,10 +222,10 @@
 
     node
       .append("circle")
-      .attr("r", (d) => radius(d.count || 1))
-      .attr("fill", (d) => (d.self ? "var(--global-theme-color)" : color(d.firstYear || yearMin)))
-      .attr("stroke", (d) => (d.self ? "var(--global-text-color)" : "var(--global-bg-color)"))
-      .attr("stroke-width", (d) => (d.self ? 2.5 : 1));
+      .attr("r", radius)
+      .attr("fill", (d) => (d.self ? "var(--global-tip-block)" : color(d.firstYear || yearMin)))
+      .attr("stroke", (d) => (d.self ? "var(--global-tip-block-title)" : "var(--global-bg-color)"))
+      .attr("stroke-width", (d) => (d.self ? 2 : 1));
 
     node
       .append("title")
@@ -230,12 +236,12 @@
       .attr("class", "network-node-label")
       .text((d) => d.name.split(" ").slice(-1)[0])
       .attr("x", 0)
-      .attr("y", (d) => radius(d.count || 1) + 11)
+      .attr("y", (d) => radius(d) + 14)
       .attr("text-anchor", "middle")
-      .attr("font-size", "10px")
+      .attr("font-size", "13px")
       .attr("fill", "var(--global-text-color)")
       .attr("stroke", "var(--global-bg-color)")
-      .attr("stroke-width", 3)
+      .attr("stroke-width", 3.5)
       .attr("paint-order", "stroke")
       .attr("pointer-events", "none")
       .style("opacity", (d) => (labeledIds.has(d.id) ? 1 : 0));
@@ -280,7 +286,7 @@
       )
       .force("charge", d3.forceManyBody().strength(charge))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius((d) => radius(d.count || 1) + 6));
+      .force("collision", d3.forceCollide().radius((d) => radius(d) + 8));
 
     const selfNode = nodes.find((d) => d.self);
     if (selfNode) {
