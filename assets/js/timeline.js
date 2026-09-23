@@ -30,6 +30,12 @@
       color: "#6c757d",
       types: ["Poster", "Radio"],
     },
+    {
+      id: "code",
+      label: "Code",
+      color: "#2f4858",
+      types: ["Code"],
+    },
   ];
 
   const ROLE_ORDER = [
@@ -44,6 +50,7 @@
     "attendee",
     "interview",
     "quoted",
+    "contributor",
     "unspecified",
   ];
 
@@ -59,6 +66,7 @@
     attendee: "#bab0ac",
     interview: "#b279a2",
     quoted: "#9d755d",
+    contributor: "#2f4858",
     unspecified: "#6c757d",
   };
 
@@ -70,7 +78,6 @@
     from: null,
     to: null,
     selected: null,
-    brush: null,
   };
 
   const els = {};
@@ -83,7 +90,6 @@
 
     els.root = root;
     els.focus = d3.select("#timelineCanvas");
-    els.context = d3.select("#timelineContext");
     els.panel = document.getElementById("timelinePanel");
     els.status = document.getElementById("timelineStatus");
     els.legend = document.getElementById("timelineLegend");
@@ -137,12 +143,25 @@
 
     try {
       setStatus("Loading timeline…");
-      const response = await fetch(root.dataset.catalog || "", { credentials: "same-origin" });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const catalog = await response.json();
-      state.items = (Array.isArray(catalog.items) ? catalog.items : []).filter(
+      const [catalogResponse, codeResponse] = await Promise.all([
+        fetch(root.dataset.catalog || "", { credentials: "same-origin" }),
+        root.dataset.code
+          ? fetch(root.dataset.code, { credentials: "same-origin" }).catch(() => null)
+          : Promise.resolve(null),
+      ]);
+      if (!catalogResponse.ok) throw new Error(`HTTP ${catalogResponse.status}`);
+      const catalog = await catalogResponse.json();
+      const libraryItems = (Array.isArray(catalog.items) ? catalog.items : []).filter(
         (item) => Number.isFinite(item.year)
       );
+      let codeItems = [];
+      if (codeResponse && codeResponse.ok) {
+        const code = await codeResponse.json();
+        codeItems = (Array.isArray(code.items) ? code.items : []).filter((item) =>
+          Number.isFinite(item.year)
+        );
+      }
+      state.items = libraryItems.concat(codeItems);
       const years = state.items.map((item) => item.year);
       state.yearMin = d3.min(years);
       state.yearMax = d3.max(years);
@@ -260,11 +279,9 @@
     const wrap = els.root.querySelector(".timeline-canvas-wrap");
     const width = Math.max(wrap ? wrap.clientWidth - 16 : 640, 280);
     const focusHeight = 280;
-    const contextHeight = 48;
     const margin = { top: 8, right: 12, bottom: 28, left: 32 };
     const keys = seriesKeys();
     const data = rows();
-    const stacked = d3.stack().keys(keys)(data);
     const focusData = data.filter((row) => row.year >= state.from && row.year <= state.to);
     const focusStacked = d3.stack().keys(keys)(focusData);
     const maxY =
@@ -338,69 +355,8 @@
       render();
     });
 
-    renderContext(width, contextHeight, margin, stacked, data);
     renderLegend(keys);
     renderPanel(inRange);
-  }
-
-  function renderContext(width, contextHeight, margin, stacked, data) {
-    const innerW = width - margin.left - margin.right;
-    const innerH = contextHeight - 16;
-    const x = d3
-      .scaleLinear()
-      .domain([state.yearMin - 0.5, state.yearMax + 0.5])
-      .range([0, innerW]);
-    const maxY = d3.max(data, (row) => seriesKeys().reduce((sum, key) => sum + (row[key] || 0), 0)) || 1;
-    const y = d3.scaleLinear().domain([0, maxY]).range([innerH, 0]);
-    const band = innerW / Math.max(data.length, 1);
-
-    els.context
-      .attr("viewBox", `0 0 ${width} ${contextHeight}`)
-      .attr("width", width)
-      .attr("height", contextHeight);
-    els.context.selectAll("*").remove();
-    const context = els.context.append("g").attr("transform", `translate(${margin.left},8)`);
-
-    context
-      .selectAll("g.series")
-      .data(stacked)
-      .join("g")
-      .attr("fill", (layer) => seriesColor(layer.key))
-      .selectAll("rect")
-      .data((layer) => layer.map((segment) => ({ ...segment, key: layer.key })))
-      .join("rect")
-      .attr("x", (segment) => x(segment.data.year) - band * 0.35)
-      .attr("y", (segment) => y(segment[1]))
-      .attr("height", (segment) => Math.max(0, y(segment[0]) - y(segment[1])))
-      .attr("width", Math.max(1, band * 0.7));
-
-    const brush = d3
-      .brushX()
-      .extent([
-        [0, 0],
-        [innerW, innerH],
-      ])
-      .on("end", (event) => {
-        if (state.suppressBrush || !event.sourceEvent) return;
-        if (!event.selection) {
-          state.from = state.yearMin;
-          state.to = state.yearMax;
-        } else {
-          const [x0, x1] = event.selection.map(x.invert);
-          state.from = Math.max(state.yearMin, Math.round(x0));
-          state.to = Math.min(state.yearMax, Math.round(x1));
-          if (state.to < state.from) state.to = state.from;
-        }
-        syncRangeControls();
-        writeRange();
-        render();
-      });
-
-    const brushG = context.append("g").attr("class", "timeline-brush").call(brush);
-    state.suppressBrush = true;
-    brushG.call(brush.move, [x(state.from - 0.5), x(state.to + 0.5)]);
-    state.suppressBrush = false;
-    state.brush = brush;
   }
 
   function renderLegend(keys) {
@@ -437,7 +393,14 @@
     const heading = year != null ? `${year} · ${seriesLabel(key)}` : seriesLabel(key);
     const shown = matches.slice(0, 40);
     const more = matches.length - shown.length;
-    const links = [libraryLinks(key, matches), year != null ? `<a href="/library/#${year}">Search ${year} in the library</a>` : ""]
+    const links = [
+      libraryLinks(key, matches),
+      key === "code" || matches.some((item) => item.type === "Code")
+        ? `<a href="/code/">Open /code/</a>`
+        : year != null
+          ? `<a href="/library/#${year}">Search ${year} in the library</a>`
+          : "",
+    ]
       .filter(Boolean)
       .join(" · ");
 
@@ -448,8 +411,11 @@
       <ul>
         ${shown
           .map((item) => {
-            const href = item.info || "/library/";
-            const detail = [item.type, (item.roles || [])[0], item.venue].filter(Boolean).join(" · ");
+            const href = item.info || item.url || "/library/";
+            const detail =
+              item.type === "Code"
+                ? [item.repo || item.venue, item.description].filter(Boolean).join(" · ")
+                : [item.type, (item.roles || [])[0], item.venue].filter(Boolean).join(" · ");
             return `<li><a href="${escapeAttr(href)}">${escapeHtml(item.title || item.id)}</a>${
               detail ? `<br><span class="meta">${escapeHtml(detail)}</span>` : ""
             }</li>`;
@@ -461,6 +427,9 @@
   }
 
   function libraryLinks(key, matches) {
+    if (key === "code" || matches.some((item) => item.type === "Code")) {
+      return "";
+    }
     if (state.mode === "role" && key !== "unspecified") {
       return `<a href="/library/?filter=${encodeURIComponent(key)}">Open “${escapeHtml(key)}” in the library</a>`;
     }

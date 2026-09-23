@@ -8,7 +8,8 @@
     "format:check": "prettier . --check",
     "check:links": "python3 scripts/check_links.py",
     "check:links:site": "python3 scripts/check_links.py --site _site",
+    "check:links:ci": "python3 scripts/check_links.py --site _site --ci-parity",
     "prerelease:format": "npm run format:check",
-    "prerelease:links": "npm run check:links"
+    "prerelease:links": "npm run check:links && npm run check:links:ci"
   }
 }

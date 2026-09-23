@@ -1,0 +1,346 @@
+{
+  "v": 1,
+  "username": "glen-w",
+  "fetched": "2026-09-23T11:47:48Z",
+  "rule": "unique public non-fork repos per year from created_at and pushed_at",
+  "repos": [
+    {
+      "id": "glen-w/academia_obscura",
+      "name": "academia_obscura",
+      "url": "https://github.com/glen-w/academia_obscura",
+      "description": "Academia Obscura — the lighter side of academia. Silly, not stupid.",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/BBNJ",
+      "name": "BBNJ",
+      "url": "https://github.com/glen-w/BBNJ",
+      "description": null,
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/BBNJ-CHM-proto",
+      "name": "BBNJ-CHM-proto",
+      "url": "https://github.com/glen-w/BBNJ-CHM-proto",
+      "description": "Prototype Clearing-House Mechanism for the UN Agreement on Marine Biological Diversity of Areas beyond National Jurisdiction (BBNJ)",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/cursor-commands",
+      "name": "cursor-commands",
+      "url": "https://github.com/glen-w/cursor-commands",
+      "description": "Project-agnostic Cursor slash commands. Copy them into a repo, fill the project card, and keep the filled copy local.",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/data_dumps",
+      "name": "data_dumps",
+      "url": "https://github.com/glen-w/data_dumps",
+      "description": null,
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/Dossier",
+      "name": "Dossier",
+      "url": "https://github.com/glen-w/Dossier",
+      "description": null,
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/folk-directory",
+      "name": "folk-directory",
+      "url": "https://github.com/glen-w/folk-directory",
+      "description": "A guide to live folk music events in the UK",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/glen-w.github.io",
+      "name": "glen-w.github.io",
+      "url": "https://github.com/glen-w/glen-w.github.io",
+      "description": "Personal website",
+      "created_year": 2025,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/hoops",
+      "name": "hoops",
+      "url": "https://github.com/glen-w/hoops",
+      "description": "🏀",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/IEA-Renweb",
+      "name": "IEA-Renweb",
+      "url": "https://github.com/glen-w/IEA-Renweb",
+      "description": "Processes raw IEA World Energy Balances data and calculates renewable energy statistics.",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/Paperful",
+      "name": "Paperful",
+      "url": "https://github.com/glen-w/Paperful",
+      "description": "Fill the gaps in your Zotero library. Fetch missing PDFs into a folder tree that mirrors your collections, then attach them back.",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/rollup",
+      "name": "rollup",
+      "url": "https://github.com/glen-w/rollup",
+      "description": "Local, read-only tool that reads Thunderbird mbox newsletters and generates weekly Markdown/HTML digests with optional Ollama summarisation.",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/transcribe",
+      "name": "transcribe",
+      "url": "https://github.com/glen-w/transcribe",
+      "description": "Local-first handwritten notebook OCR using Ollama vision models",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    },
+    {
+      "id": "glen-w/TranscriptX",
+      "name": "TranscriptX",
+      "url": "https://github.com/glen-w/TranscriptX",
+      "description": "A local-first transcript analysis toolkit.",
+      "created_year": 2026,
+      "pushed_year": 2026,
+      "archived": false
+    }
+  ],
+  "items": [
+    {
+      "id": "repo:glen-w/academia_obscura:2026",
+      "repo": "glen-w/academia_obscura",
+      "title": "academia_obscura",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/academia_obscura",
+      "info": "https://github.com/glen-w/academia_obscura",
+      "description": "Academia Obscura — the lighter side of academia. Silly, not stupid."
+    },
+    {
+      "id": "repo:glen-w/BBNJ:2026",
+      "repo": "glen-w/BBNJ",
+      "title": "BBNJ",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/BBNJ",
+      "info": "https://github.com/glen-w/BBNJ",
+      "description": null
+    },
+    {
+      "id": "repo:glen-w/BBNJ-CHM-proto:2026",
+      "repo": "glen-w/BBNJ-CHM-proto",
+      "title": "BBNJ-CHM-proto",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/BBNJ-CHM-proto",
+      "info": "https://github.com/glen-w/BBNJ-CHM-proto",
+      "description": "Prototype Clearing-House Mechanism for the UN Agreement on Marine Biological Diversity of Areas beyond National Jurisdiction (BBNJ)"
+    },
+    {
+      "id": "repo:glen-w/cursor-commands:2026",
+      "repo": "glen-w/cursor-commands",
+      "title": "cursor-commands",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/cursor-commands",
+      "info": "https://github.com/glen-w/cursor-commands",
+      "description": "Project-agnostic Cursor slash commands. Copy them into a repo, fill the project card, and keep the filled copy local."
+    },
+    {
+      "id": "repo:glen-w/data_dumps:2026",
+      "repo": "glen-w/data_dumps",
+      "title": "data_dumps",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/data_dumps",
+      "info": "https://github.com/glen-w/data_dumps",
+      "description": null
+    },
+    {
+      "id": "repo:glen-w/Dossier:2026",
+      "repo": "glen-w/Dossier",
+      "title": "Dossier",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/Dossier",
+      "info": "https://github.com/glen-w/Dossier",
+      "description": null
+    },
+    {
+      "id": "repo:glen-w/folk-directory:2026",
+      "repo": "glen-w/folk-directory",
+      "title": "folk-directory",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/folk-directory",
+      "info": "https://github.com/glen-w/folk-directory",
+      "description": "A guide to live folk music events in the UK"
+    },
+    {
+      "id": "repo:glen-w/glen-w.github.io:2026",
+      "repo": "glen-w/glen-w.github.io",
+      "title": "glen-w.github.io",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/glen-w.github.io",
+      "info": "https://github.com/glen-w/glen-w.github.io",
+      "description": "Personal website"
+    },
+    {
+      "id": "repo:glen-w/hoops:2026",
+      "repo": "glen-w/hoops",
+      "title": "hoops",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/hoops",
+      "info": "https://github.com/glen-w/hoops",
+      "description": "🏀"
+    },
+    {
+      "id": "repo:glen-w/IEA-Renweb:2026",
+      "repo": "glen-w/IEA-Renweb",
+      "title": "IEA-Renweb",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/IEA-Renweb",
+      "info": "https://github.com/glen-w/IEA-Renweb",
+      "description": "Processes raw IEA World Energy Balances data and calculates renewable energy statistics."
+    },
+    {
+      "id": "repo:glen-w/Paperful:2026",
+      "repo": "glen-w/Paperful",
+      "title": "Paperful",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/Paperful",
+      "info": "https://github.com/glen-w/Paperful",
+      "description": "Fill the gaps in your Zotero library. Fetch missing PDFs into a folder tree that mirrors your collections, then attach them back."
+    },
+    {
+      "id": "repo:glen-w/rollup:2026",
+      "repo": "glen-w/rollup",
+      "title": "rollup",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/rollup",
+      "info": "https://github.com/glen-w/rollup",
+      "description": "Local, read-only tool that reads Thunderbird mbox newsletters and generates weekly Markdown/HTML digests with optional Ollama summarisation."
+    },
+    {
+      "id": "repo:glen-w/transcribe:2026",
+      "repo": "glen-w/transcribe",
+      "title": "transcribe",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/transcribe",
+      "info": "https://github.com/glen-w/transcribe",
+      "description": "Local-first handwritten notebook OCR using Ollama vision models"
+    },
+    {
+      "id": "repo:glen-w/TranscriptX:2026",
+      "repo": "glen-w/TranscriptX",
+      "title": "TranscriptX",
+      "year": 2026,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/TranscriptX",
+      "info": "https://github.com/glen-w/TranscriptX",
+      "description": "A local-first transcript analysis toolkit."
+    },
+    {
+      "id": "repo:glen-w/glen-w.github.io:2025",
+      "repo": "glen-w/glen-w.github.io",
+      "title": "glen-w.github.io",
+      "year": 2025,
+      "type": "Code",
+      "roles": [
+        "contributor"
+      ],
+      "venue": "GitHub",
+      "url": "https://github.com/glen-w/glen-w.github.io",
+      "info": "https://github.com/glen-w/glen-w.github.io",
+      "description": "Personal website"
+    }
+  ]
+}

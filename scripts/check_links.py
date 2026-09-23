@@ -13,9 +13,18 @@ Default (source) mode scans markdown/HTML/YAML for links and verifies:
 Site mode (`--site _site`) mirrors CI's offline lychee pass: walk built HTML and
 resolve local `href`/`src` against the site tree.
 
+Invalid `http(s):` URLs (spaces in the host, pasted title+URL, empty authority)
+are always reported as errors — the same class of failure CI's offline lychee
+catches when a bad absolute URL collapses to a missing local file.
+
+`--ci-parity` (with `--site`) exits non-zero only for invalid URLs and
+`file://` — the hard failures offline lychee surfaces. Other missing
+permalinks/assets are printed as soft warnings so the gate stays usable.
+
 Usage:
   python3 scripts/check_links.py
   python3 scripts/check_links.py --site _site
+  python3 scripts/check_links.py --site _site --ci-parity
   python3 scripts/check_links.py --external --limit 50
   python3 scripts/check_links.py --out /tmp/link-report.csv
 """
@@ -56,6 +65,7 @@ SOURCE_GLOBS = (
     "_creative/**/*.md",
     "_books/**/*.md",
     "_news/**/*.md",
+    "_library/**/*.md",
     "_includes/**/*.{html,liquid,md}",
     "_layouts/**/*.{html,liquid}",
     "_data/**/*.{yml,yaml}",
@@ -184,6 +194,40 @@ def normalize_external(raw: str) -> str:
     if raw.startswith(("http://", "https://")):
         return raw
     return f"https://{raw}"
+
+
+def invalid_http_reason(url: str) -> str | None:
+    """Structural problems in http(s) URLs that offline lychee also fails on.
+
+    Example CI failure: title pasted into href, producing
+    ``http://Resource depletion … https://elifesciences.org/…`` which lychee
+    resolves as a missing local file under the page directory.
+    """
+    raw = strip_url_noise(url)
+    if not raw.startswith(("http://", "https://")):
+        return None
+
+    # Single slash after scheme (http:/foo) — not a usable absolute URL.
+    if raw.startswith("http:/") and not raw.startswith("http://"):
+        return "malformed scheme separator"
+    if raw.startswith("https:/") and not raw.startswith("https://"):
+        return "malformed scheme separator"
+
+    parsed = urlparse(raw)
+    authority = parsed.netloc or ""
+    if not authority:
+        return "missing host"
+    if any(ch.isspace() for ch in authority):
+        return "whitespace in host"
+    host = parsed.hostname or ""
+    if any(ch.isspace() for ch in host):
+        return "whitespace in host"
+    # Two absolute URLs mashed into the path (not query — ?returnURL=https://… is valid).
+    head = raw.split("#", 1)[0].split("?", 1)[0]
+    rest = head.split("://", 1)[-1]
+    if "://" in rest:
+        return "embedded second URL"
+    return None
 
 
 def classify_external(url: str) -> tuple[str, str]:
@@ -372,6 +416,10 @@ def check_one(
     if not url or is_excluded(url, excludes):
         return None
 
+    bad = invalid_http_reason(url)
+    if bad:
+        return Finding(str(source.relative_to(ROOT)), url, "invalid", bad)
+
     status, detail = check_local(url, source, site_root)
     if status == "external":
         if not external:
@@ -379,6 +427,13 @@ def check_one(
         normalized = normalize_external(url)
         if not normalized:
             return Finding(str(source.relative_to(ROOT)), url, "invalid", "unusable url")
+        if invalid_http_reason(normalized):
+            return Finding(
+                str(source.relative_to(ROOT)),
+                normalized,
+                "invalid",
+                invalid_http_reason(normalized) or "invalid url",
+            )
         status, detail = classify_external(normalized)
         time.sleep(max(0.0, sleep))
         return Finding(str(source.relative_to(ROOT)), normalized, status, detail)
@@ -453,6 +508,17 @@ ERROR_STATUSES = {
     "rate_limited",
 }
 
+# Statuses that always fail --ci-parity (offline lychee catchables).
+# Missing /assets is reported as soft under --ci-parity: CI's offline pass
+# excludes absolute https://…/assets/… URLs, so local missing-asset noise is
+# not a faithful gate. Use check:links:site for a full inventory.
+CI_PARITY_ALWAYS = {"invalid", "file_uri"}
+
+
+def is_ci_parity_error(finding: Finding) -> bool:
+    """Exit-worthy under --ci-parity: invalid absolute URLs and file:// links."""
+    return finding.status in CI_PARITY_ALWAYS
+
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -461,6 +527,11 @@ def main() -> int:
         type=Path,
         default=None,
         help="Built site root (e.g. _site). Offline local check, closest to CI lychee.",
+    )
+    ap.add_argument(
+        "--ci-parity",
+        action="store_true",
+        help="With --site: fail only on invalid URLs / file:// / missing assets (CI-relevant).",
     )
     ap.add_argument(
         "--external",
@@ -472,6 +543,10 @@ def main() -> int:
     ap.add_argument("--out", type=Path, default=None, help="Optional CSV report path")
     args = ap.parse_args()
 
+    if args.ci_parity and args.site is None:
+        print("error: --ci-parity requires --site _site", file=sys.stderr)
+        return 2
+
     excludes = load_excludes()
     site_root = args.site.resolve() if args.site else None
     if site_root is not None and not site_root.is_dir():
@@ -481,12 +556,23 @@ def main() -> int:
     if site_root is not None:
         findings = scan_site(site_root, args, excludes)
         mode = f"site:{site_root.relative_to(ROOT) if site_root.is_relative_to(ROOT) else site_root}"
+        if args.ci_parity:
+            mode += "+ci-parity"
     else:
         findings = scan_source(args, excludes)
         mode = "source"
 
     counts = Counter(f.status for f in findings)
-    errors = [f for f in findings if f.status in ERROR_STATUSES]
+    if args.ci_parity:
+        errors = [f for f in findings if is_ci_parity_error(f)]
+        soft = [
+            f
+            for f in findings
+            if f.status in ERROR_STATUSES and f not in errors
+        ]
+    else:
+        errors = [f for f in findings if f.status in ERROR_STATUSES]
+        soft = []
     warnings = [f for f in findings if f.status == "needs_build"]
 
     if args.out:
@@ -508,6 +594,17 @@ def main() -> int:
             f"\n{len(warnings)} site permalink(s) need a build to verify "
             "(run: bundle exec jekyll build && python3 scripts/check_links.py --site _site)"
         )
+
+    if soft:
+        print(
+            f"\n{len(soft)} soft missing (not failing --ci-parity); "
+            "use npm run check:links:site for the full inventory"
+        )
+        if errors or args.limit:
+            for f in soft[:20]:
+                print(f"  [{f.status}] {f.source}: {f.url} — {f.detail}")
+            if len(soft) > 20:
+                print(f"  … {len(soft) - 20} more")
 
     if errors:
         print(f"\n{len(errors)} error(s):")
