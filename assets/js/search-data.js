@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-library",
           title: "library",
-          description: "Publications on BBNJ, ocean governance, marine renewable energy, and the energy transition — journal articles, reports, and related work by Glen Wright.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/library/";
