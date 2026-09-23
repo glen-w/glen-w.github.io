@@ -1,0 +1,8 @@
+# Copy to library_exclude_from_timeline.yml (gitignored).
+# Repo names or owner/name omitted from the career timeline Code series
+# when processing/library/github_repos.py writes assets/json/code-repos.json.
+# Matched case-insensitively against the repo name and full_name.
+#
+# - hoops
+# - glen-w/hoops
+[]

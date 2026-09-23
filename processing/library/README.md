@@ -63,6 +63,7 @@ A full library run (or `--catalog-only`) writes:
 - `assets/json/citations.json` — citation network for `/network/` (citations tab; OpenAlex, cached Scholar citers, Semantic Scholar)
 - `_data/library_selected.yml` — noscript selected list
 - `_data/library_exclude_from_counts.yml` — optional local list of titles/BibTeX keys omitted from filter chip counts and facet result lists (still in unfiltered catalogue / text search; gitignored; copy from `library_exclude_from_counts.example.yml`)
+- `_data/library_exclude_from_timeline.yml` — optional local list of GitHub repo names or `owner/name` values omitted from the career timeline Code series (`github_repos.py` → `assets/json/code-repos.json`; gitignored; copy from `library_exclude_from_timeline.example.yml`)
 - `_data/collaborators.yml` — frequent collaborators (2+ shared works) for the explore list; may include `orcid` / `url` / `scholar` from Twenty (`people_profiles.yml`)
 - `_data/citers.yml` — frequent citers (2+ papers citing Glen) for the explore list; includes `orcid` / website `url` / `scholar` when known
 - `_data/people_profiles.yml` — ORCID + homepage + Scholar export from Twenty CRM (Untangle); see [`PEOPLE_PROFILES.md`](PEOPLE_PROFILES.md)

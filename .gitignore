@@ -97,6 +97,9 @@ exported items.bib
 # Local library count overrides (still shown in catalogue)
 _data/library_exclude_from_counts.yml
 
+# Local career-timeline code-repo exclusions
+_data/library_exclude_from_timeline.yml
+
 # Test directory for development maps
 _test/
 

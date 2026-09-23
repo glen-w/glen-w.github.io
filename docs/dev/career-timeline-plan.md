@@ -115,7 +115,7 @@ Reuse: [`_pages/network.md`](../../_pages/network.md), [`assets/js/network.js`](
 PYTHONPATH=. python processing/library/github_repos.py
 ```
 
-Writes [`assets/json/code-repos.json`](../../assets/json/code-repos.json). Timeline merges those marks as type `Code`. Optional `GITHUB_TOKEN` / `GH_TOKEN` for higher API limits.
+Writes [`assets/json/code-repos.json`](../../assets/json/code-repos.json). Timeline merges those marks as type `Code`. Names in gitignored `_data/library_exclude_from_timeline.yml` (see the `.example.yml`) are dropped before write. Optional `GITHUB_TOKEN` / `GH_TOKEN` for higher API limits.
 
 ---
 

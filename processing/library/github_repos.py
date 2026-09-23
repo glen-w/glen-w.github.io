@@ -5,6 +5,8 @@ Each public owned repo contributes one timeline item per distinct year among
 ``created_at`` and ``pushed_at`` (unique projects per year — not commit counts).
 
 Writes ``assets/json/code-repos.json`` for the career timeline.
+Repos listed in ``_data/library_exclude_from_timeline.yml`` (gitignored; see
+the ``.example.yml``) are omitted from that file.
 
 Refresh from repo root::
 
@@ -18,6 +20,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import sys
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -26,12 +29,21 @@ from typing import Any, Dict, List, Optional, Set
 
 import yaml
 
+_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if _ROOT not in sys.path:
+    sys.path.insert(0, _ROOT)
+
+from processing.library.exclude_from_counts import (
+    filter_timeline_repos,
+    load_timeline_exclude_names,
+)
+
 USER_AGENT = "glenwright.earth-code-repos/1.0 (+https://glenwright.earth)"
 API_BASE = "https://api.github.com"
 
 
 def project_root() -> str:
-    return os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+    return _ROOT
 
 
 def github_username(root: str) -> str:
@@ -176,11 +188,15 @@ def main() -> None:
     args = parser.parse_args()
     root = project_root()
     username = args.username or github_username(root)
-    repos = fetch_public_repos(username)
+    fetched = fetch_public_repos(username)
+    exclude_names = load_timeline_exclude_names(root)
+    repos = filter_timeline_repos(fetched, exclude_names)
     path = write_catalog(root, username, repos)
     items = timeline_items(repos)
     years = sorted({item["year"] for item in items})
     print(f"Wrote {path}")
+    if exclude_names:
+        print(f"Excluded from timeline: {len(fetched) - len(repos)} (see _data/library_exclude_from_timeline.yml)")
     print(f"{len(repos)} public repos → {len(items)} year marks ({years[0]}–{years[-1]})" if years else "no marks")
 
 

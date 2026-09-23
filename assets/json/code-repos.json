@@ -5,15 +5,6 @@
   "rule": "unique public non-fork repos per year from created_at and pushed_at",
   "repos": [
     {
-      "id": "glen-w/academia_obscura",
-      "name": "academia_obscura",
-      "url": "https://github.com/glen-w/academia_obscura",
-      "description": "Academia Obscura — the lighter side of academia. Silly, not stupid.",
-      "created_year": 2026,
-      "pushed_year": 2026,
-      "archived": false
-    },
-    {
       "id": "glen-w/BBNJ",
       "name": "BBNJ",
       "url": "https://github.com/glen-w/BBNJ",
@@ -54,33 +45,6 @@
       "name": "Dossier",
       "url": "https://github.com/glen-w/Dossier",
       "description": null,
-      "created_year": 2026,
-      "pushed_year": 2026,
-      "archived": false
-    },
-    {
-      "id": "glen-w/folk-directory",
-      "name": "folk-directory",
-      "url": "https://github.com/glen-w/folk-directory",
-      "description": "A guide to live folk music events in the UK",
-      "created_year": 2026,
-      "pushed_year": 2026,
-      "archived": false
-    },
-    {
-      "id": "glen-w/glen-w.github.io",
-      "name": "glen-w.github.io",
-      "url": "https://github.com/glen-w/glen-w.github.io",
-      "description": "Personal website",
-      "created_year": 2025,
-      "pushed_year": 2026,
-      "archived": false
-    },
-    {
-      "id": "glen-w/hoops",
-      "name": "hoops",
-      "url": "https://github.com/glen-w/hoops",
-      "description": "🏀",
       "created_year": 2026,
       "pushed_year": 2026,
       "archived": false
@@ -132,20 +96,6 @@
     }
   ],
   "items": [
-    {
-      "id": "repo:glen-w/academia_obscura:2026",
-      "repo": "glen-w/academia_obscura",
-      "title": "academia_obscura",
-      "year": 2026,
-      "type": "Code",
-      "roles": [
-        "contributor"
-      ],
-      "venue": "GitHub",
-      "url": "https://github.com/glen-w/academia_obscura",
-      "info": "https://github.com/glen-w/academia_obscura",
-      "description": "Academia Obscura — the lighter side of academia. Silly, not stupid."
-    },
     {
       "id": "repo:glen-w/BBNJ:2026",
       "repo": "glen-w/BBNJ",
@@ -217,48 +167,6 @@
       "description": null
     },
     {
-      "id": "repo:glen-w/folk-directory:2026",
-      "repo": "glen-w/folk-directory",
-      "title": "folk-directory",
-      "year": 2026,
-      "type": "Code",
-      "roles": [
-        "contributor"
-      ],
-      "venue": "GitHub",
-      "url": "https://github.com/glen-w/folk-directory",
-      "info": "https://github.com/glen-w/folk-directory",
-      "description": "A guide to live folk music events in the UK"
-    },
-    {
-      "id": "repo:glen-w/glen-w.github.io:2026",
-      "repo": "glen-w/glen-w.github.io",
-      "title": "glen-w.github.io",
-      "year": 2026,
-      "type": "Code",
-      "roles": [
-        "contributor"
-      ],
-      "venue": "GitHub",
-      "url": "https://github.com/glen-w/glen-w.github.io",
-      "info": "https://github.com/glen-w/glen-w.github.io",
-      "description": "Personal website"
-    },
-    {
-      "id": "repo:glen-w/hoops:2026",
-      "repo": "glen-w/hoops",
-      "title": "hoops",
-      "year": 2026,
-      "type": "Code",
-      "roles": [
-        "contributor"
-      ],
-      "venue": "GitHub",
-      "url": "https://github.com/glen-w/hoops",
-      "info": "https://github.com/glen-w/hoops",
-      "description": "🏀"
-    },
-    {
       "id": "repo:glen-w/IEA-Renweb:2026",
       "repo": "glen-w/IEA-Renweb",
       "title": "IEA-Renweb",
@@ -327,20 +235,6 @@
       "url": "https://github.com/glen-w/TranscriptX",
       "info": "https://github.com/glen-w/TranscriptX",
       "description": "A local-first transcript analysis toolkit."
-    },
-    {
-      "id": "repo:glen-w/glen-w.github.io:2025",
-      "repo": "glen-w/glen-w.github.io",
-      "title": "glen-w.github.io",
-      "year": 2025,
-      "type": "Code",
-      "roles": [
-        "contributor"
-      ],
-      "venue": "GitHub",
-      "url": "https://github.com/glen-w/glen-w.github.io",
-      "info": "https://github.com/glen-w/glen-w.github.io",
-      "description": "Personal website"
     }
   ]
 }
