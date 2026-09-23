@@ -488,7 +488,14 @@ def build_citation_graph(
     }
 
 
-def citers_list(graph: Dict[str, Any], *, min_count: int = 2) -> List[Dict[str, Any]]:
+def citers_list(graph: Dict[str, Any], *, min_count: int = 2, project_root: Optional[str] = None) -> List[Dict[str, Any]]:
+    from processing.library.person_profile import attach_profile_fields, load_coauthor_urls
+    from processing.library.twenty_people import load_people_profiles
+    from processing.library.work_identity import normalize_orcid
+
+    twenty_profiles = load_people_profiles(project_root) if project_root else {}
+    coauthor_urls = load_coauthor_urls(project_root) if project_root else {}
+
     rows = []
     for person in graph.get("people") or []:
         if person.get("self"):
@@ -496,12 +503,45 @@ def citers_list(graph: Dict[str, Any], *, min_count: int = 2) -> List[Dict[str, 
         cited_me = int(person.get("citedMe") or 0)
         if cited_me < min_count:
             continue
-        rows.append({"name": person["name"], "count": cited_me})
+        row: Dict[str, Any] = {"name": person["name"], "count": cited_me}
+        orcid = normalize_orcid(str(person.get("orcid") or ""))
+        if orcid:
+            row["orcid"] = orcid
+        scholar = str(person.get("scholar") or "").strip()
+        if scholar:
+            from processing.library.twenty_people import normalize_scholar_id
+
+            sid = normalize_scholar_id(scholar)
+            if sid:
+                row["scholar"] = sid
+        attach_profile_fields(
+            row,
+            person["name"],
+            twenty_profiles=twenty_profiles,
+            coauthor_urls=coauthor_urls,
+        )
+        rows.append(row)
     rows.sort(key=lambda row: (-row["count"], row["name"].lower()))
     return rows
 
 
 def write_artifacts(root: str, graph: Dict[str, Any]) -> Tuple[str, str]:
+    from processing.library.person_profile import attach_profile_fields, load_coauthor_urls
+    from processing.library.twenty_people import load_people_profiles
+
+    twenty_profiles = load_people_profiles(root)
+    coauthor_urls = load_coauthor_urls(root)
+    if twenty_profiles or coauthor_urls:
+        for person in graph.get("people") or []:
+            if not isinstance(person, dict) or person.get("self"):
+                continue
+            attach_profile_fields(
+                person,
+                str(person.get("name") or ""),
+                twenty_profiles=twenty_profiles,
+                coauthor_urls=coauthor_urls,
+            )
+
     json_dir = os.path.join(root, "assets", "json")
     data_dir = os.path.join(root, "_data")
     os.makedirs(json_dir, exist_ok=True)
@@ -515,7 +555,7 @@ def write_artifacts(root: str, graph: Dict[str, Any]) -> Tuple[str, str]:
     list_path = os.path.join(data_dir, "citers.yml")
     with open(list_path, "w", encoding="utf-8") as handle:
         yaml.dump(
-            citers_list(graph),
+            citers_list(graph, project_root=root),
             handle,
             default_flow_style=False,
             allow_unicode=True,

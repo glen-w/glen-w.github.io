@@ -1,66 +1,119 @@
 - name: Julien Rochette
   count: 47
+  orcid: 0009-0003-0588-6226
+  url: https://www.iddri.org/en/about-iddri/team/julien-rochette
 - name: Klaudija Cremers
   count: 20
+  url: https://www.iddri.org/en/about-iddri/team/klaudija-cremers
 - name: Mark Byrne
   count: 16
 - name: Kristina Gjerde
   count: 13
+  orcid: 0000-0001-9025-7632
+  scholar: SUh8nUEAAAAJ
 - name: Sebastian Unger
   count: 10
+  orcid: 0000-0001-5478-7214
+  url: https://www.rifs-potsdam.de/en/news/sebastian-unger-appointed-germanys-first-special-representative-oceans
+  scholar: RuRwcdIAAAAJ
 - name: Carole Durussel
   count: 7
+  orcid: 0000-0002-8235-2960
+  url: https://www.ospar.org
+  scholar: kYN9P0kAAAAJ
 - name: Aurelie Spadone
   count: 6
+  url: https://www.iucn.org/our-team
+  scholar: ypuRttUAAAAJ
 - name: Harriet Harden-davies
   count: 6
+  orcid: 0000-0002-8214-5187
+  url: https://www.ocean-voices.org/team/dr-harriet-harden-davies
+  scholar: nnQCktQAAAAJ
 - name: Kristina M. Gjerde
   count: 6
+  orcid: 0000-0001-9025-7632
+  url: https://iucn.org/news/202512/iucn-statement-passing-kristina-maria-gjerde
+  scholar: SUh8nUEAAAAJ
 - name: Jeff Ardron
   count: 5
+  orcid: 0000-0003-1326-0031
 - name: Duncan Currie
   count: 4
+  orcid: 0009-0004-0403-8601
+  scholar: OfZslTcAAAAJ
 - name: Ben Boteler
   count: 3
+  orcid: 0000-0002-7078-7094
+  url: https://www.rifs-potsdam.de/en/people/ben-boteler
+  scholar: vrZushYAAAAJ
 - name: Elisabeth Druel
   count: 3
+  url: https://www.iddri.org/en/about-iddri/team/elisabeth-druel
 - name: Guillermo Ortuno Crespo
   count: 3
+  orcid: 0000-0001-8029-5387
+  url: https://www.stockholmresilience.org/contact-us/staff/2020-02-11-ortuno-crespo.html
+  scholar: qxpYFzEAAAAJ
 - name: Isabel Seeger
   count: 3
+  url: https://www.ecologic.eu/17829
 - name: Marjo Vierros
   count: 3
+  orcid: 0000-0001-5316-9297
+  url: https://researchportal.helsinki.fi/en/persons/346dc999-52b3-41a5-82ae-977e47a4fdd0
 - name: Morgane Bouvet
   count: 3
 - name: Thomas Greiber
   count: 3
 - name: Alexander Muller
   count: 2
+  orcid: 0000-0003-4202-373X
 - name: Anne-Marie O'Hagan
   count: 2
+  orcid: 0000-0001-9155-150X
+  scholar: YO4zSwoAAAAJ
 - name: Aria Finkelstein
   count: 2
 - name: Clement Chazot
   count: 2
 - name: Cymie R. Payne
   count: 2
+  orcid: 0000-0003-2928-496X
+  scholar: NuHJxZ0AAAAJ
 - name: Daniel Dunn
   count: 2
+  orcid: 0000-0001-8932-0681
+  url: https://cbcs.centre.uq.edu.au/profile/3059/daniel-dunn
+  scholar: W1fQoOoAAAAJ
 - name: Daniel Kachelriess
   count: 2
+  orcid: 0000-0003-2574-0075
+  url: https://highseasalliance.org/meet-the-hsa-staff
+  scholar: gewzAeYAAAAJ
 - name: Gabriele Goettsche-Wanli
   count: 2
+  orcid: 0009-0001-1753-4880
 - name: Jiska De Groot
   count: 2
 - name: Mariamalia Rodriguez-Chaves
   count: 2
+  orcid: 0000-0002-2631-2251
+  url: https://highseasalliance.org/meet-the-hsa-staff/mariamalia-rodriguez-chaves
 - name: Robin Warner
   count: 2
+  orcid: 0000-0002-6453-6344
+  url: https://scholars.uow.edu.au/robin-warner
+  scholar: V2_kyd8AAAAJ
 - name: Romain Schumm
   count: 2
 - name: Stefanie Schmidt
   count: 2
 - name: Torsten Thiele
   count: 2
+  orcid: 0000-0002-8725-2889
+  url: https://www.iofc.ch/torsten-thiele
+  scholar: Qg87PEgAAAAJ
 - name: Yvonne Waweru
   count: 2
+  url: https://oceanaccounts.org/publications/ocean-accounts-fellows

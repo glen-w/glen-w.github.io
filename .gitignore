@@ -51,11 +51,51 @@ test_report.html
 .hypothesis/
 .cache/
 
+# Secrets / private infrastructure (API keys, Tailscale, local hosts)
+# Prefer env vars (.env is ignored above). Never commit real hosts or keys.
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*_credentials*
+*_secrets*
+secrets.yml
+secrets.yaml
+credentials.json
+.secrets/
+.envrc
+.direnv/
+
+# Local-only overrides (private URLs, keys, machine-specific paths)
+*.local
+*.local.*
+!**/*.local.example
+!**/*.local.example.*
+local.env
+*_local.yml
+*_local.yaml
+_data/*.local.yml
+_data/*.local.yaml
+
+# Twenty / CRM scratch dumps (may include private fields / emails).
+# How to refresh committed _data/people_profiles.yml:
+#   processing/library/PEOPLE_PROFILES.md
+.twenty/
+twenty_dump*.json
+people_dump*.json
+**/mcp_people*.json
+
 # Zotero exports (contain local file paths)
 _bibliography/Exported Items.bib
 _bibliography/Exported Items_backup_*.bib
 _bibliography/papers.deduped.bib
 exported items.bib
+
+# Local library count overrides (still shown in catalogue)
+_data/library_exclude_from_counts.yml
 
 # Test directory for development maps
 _test/
@@ -76,7 +116,6 @@ docs/SELECTED_PUBLICATIONS_PLAN.md
 docs/VALIDATION_SUMMARY.md
 docs/processing/README_papers_processing.md
 docs/processing/README_process_papers.md
-.gitignore
 scripts/analyze_citations.py
 scripts/generate_series_pages.py
 scripts/import_collage_images.py

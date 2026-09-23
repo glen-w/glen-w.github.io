@@ -11,6 +11,10 @@ import yaml
 from typing import List, Dict, Any
 
 from processing.core.tag_extractor import TagExtractor
+from processing.library.exclude_from_counts import (
+    entry_is_excluded,
+    load_exclude_tokens,
+)
 
 
 class DynamicFiltersGenerator:
@@ -32,6 +36,8 @@ class DynamicFiltersGenerator:
             entries: List of bibliography entries
         """
         print("Generating dynamic filters data...")
+        exclude_tokens = load_exclude_tokens(self.output_dir)
+        excluded_count = 0
         
         # Initialize sets for collecting filter data
         entry_types = set()
@@ -49,24 +55,31 @@ class DynamicFiltersGenerator:
         
         # Process each entry using unified tag extractor
         for entry in entries:
+            skip_counts = entry_is_excluded(entry, exclude_tokens)
+            if skip_counts:
+                excluded_count += 1
+
             # Extract entry type using unified extractor
             entry_type = self.tag_extractor.extract_type(entry)
             if entry_type:
                 entry_types.add(entry_type)
                 # Count entries for this type (exact match - "Book" won't count "Book Chapter")
-                entry_type_counts[entry_type] = entry_type_counts.get(entry_type, 0) + 1
+                if not skip_counts:
+                    entry_type_counts[entry_type] = entry_type_counts.get(entry_type, 0) + 1
             
             # Extract ALL roles using unified extractor
             roles = self.tag_extractor.extract_roles(entry)
             for role in roles:
                 role_tags.add(role)  # Already lowercased by extractor
-                role_tag_counts[role] = role_tag_counts.get(role, 0) + 1
+                if not skip_counts:
+                    role_tag_counts[role] = role_tag_counts.get(role, 0) + 1
             
             # Extract ALL languages using unified extractor
             languages = self.tag_extractor.extract_languages(entry)
             for language in languages:
                 language_tags.add(language)  # Already lowercased and validated by extractor
-                language_tag_counts[language] = language_tag_counts.get(language, 0) + 1
+                if not skip_counts:
+                    language_tag_counts[language] = language_tag_counts.get(language, 0) + 1
         
         # All entry types are now dynamically discovered from the actual bibliography entries
         # This includes both standard BibTeX types and custom types from ignore tags
@@ -97,6 +110,8 @@ class DynamicFiltersGenerator:
         
         print(f"Generated dynamic filters: {len(display_entry_types)} entry types, {len(role_tags_list)} role tags, {len(language_tags_list)} language tags")
         print(f"Counts calculated: {sum(entry_type_counts.values())} total entries, {sum(role_tag_counts.values())} role assignments, {sum(language_tag_counts.values())} language assignments")
+        if excluded_count:
+            print(f"Excluded from counts: {excluded_count} (see _data/library_exclude_from_counts.yml)")
         print(f"Saved to: {output_file}")
     
     def _load_entries_from_file(self) -> List[Dict[str, Any]]:

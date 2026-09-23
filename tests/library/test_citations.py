@@ -40,3 +40,21 @@ def test_citers_list_threshold():
     }
     rows = citers_list(graph, min_count=2)
     assert [r["name"] for r in rows] == ["A", "C"]
+
+
+def test_citers_list_includes_orcid_or_profile_url():
+    graph = {
+        "people": [
+            {"name": "Glen Wright", "self": True, "citedMe": 10, "orcid": "0000-0002-9162-9618"},
+            {"name": "Ada", "citedMe": 3, "orcid": "0000-0001-2345-6789"},
+            {"name": "Bea", "citedMe": 2, "openalex": "A123"},
+            {"name": "Cid", "citedMe": 2, "scholar": "abcXYZ"},
+            {"name": "Dee", "citedMe": 2},
+        ]
+    }
+    rows = {row["name"]: row for row in citers_list(graph, min_count=2)}
+    assert rows["Ada"]["orcid"] == "0000-0001-2345-6789"
+    # OpenAlex / Scholar are not websites — no globe icon URL.
+    assert "url" not in rows["Bea"]
+    assert "url" not in rows["Cid"]
+    assert "orcid" not in rows["Dee"] and "url" not in rows["Dee"]

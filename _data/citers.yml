@@ -1,394 +1,701 @@
 - name: Kristina Maria Gjerde
   count: 30
+  orcid: 0000-0001-9025-7632
+  scholar: SUh8nUEAAAAJ
 - name: Daniel C. Dunn
   count: 21
+  orcid: 0000-0001-8932-0681
+  scholar: W1fQoOoAAAAJ
 - name: Julien Rochette
   count: 21
+  orcid: 0009-0003-0588-6226
+  url: https://www.iddri.org/en/about-iddri/team/julien-rochette
 - name: Harriet Harden‐Davies
   count: 18
+  orcid: 0000-0002-8214-5187
+  scholar: nnQCktQAAAAJ
+  url: https://www.ocean-voices.org/team/dr-harriet-harden-davies
 - name: Cassandra M. Brooks
   count: 16
+  orcid: 0000-0002-1397-0394
+  scholar: d2BBo1cAAAAJ
+  url: https://www.colorado.edu/envs/cassandra-brooks
 - name: Alice B. M. Vadrot
   count: 15
+  orcid: 0000-0002-6043-9846
+  scholar: n9S4BqcAAAAJ
+  url: https://politikwissenschaft.univie.ac.at/en/about-us/staff/vadrot
 - name: Joanna Mossop
   count: 15
+  orcid: 0000-0002-4038-0103
+  scholar: Ue3xEEEAAAAJ
 - name: J Wang
   count: 14
+  orcid: 0000-0002-7997-7177
 - name: David Edward Johnson
   count: 13
+  orcid: 0000-0003-4695-606X
 - name: Robert Blasiak
   count: 11
+  orcid: 0000-0002-0888-0159
+  scholar: -Gy-hR0AAAAJ
 - name: U. Rashid Sumaila
   count: 11
+  orcid: 0000-0002-1851-1621
+  scholar: ombX57sAAAAJ
 - name: Alex David Rogers
   count: 10
+  orcid: 0000-0002-4864-2980
+  scholar: 2LGffxAAAAAJ
 - name: Diva J. Amon
   count: 10
+  orcid: 0000-0003-3044-107X
+  scholar: XVddC2YAAAAJ
 - name: Guillermo Ortuño Crespo
   count: 10
+  orcid: 0000-0001-8029-5387
+  scholar: qxpYFzEAAAAJ
+  url: https://www.stockholmresilience.org/contact-us/staff/2020-02-11-ortuno-crespo.html
 - name: Ina Tessnow-von Wysocki
   count: 10
+  orcid: 0000-0003-1038-9059
+  scholar: YHiYJiYAAAAJ
+  url: https://www.rifs-potsdam.de/en/people/ina-tamara-tessnow-von-wysocki
 - name: Nathan James Bennett
   count: 10
+  orcid: 0000-0003-4852-3401
+  scholar: uKXwSn0AAAAJ
 - name: Carissa J. Klein
   count: 9
+  orcid: 0000-0002-6299-6451
+  scholar: X_oHMCIAAAAJ
 - name: Lisa M. Campbell
   count: 9
+  orcid: 0000-0001-8731-3699
+  scholar: XkcBaGsAAAAJ
 - name: Patrick N. Halpin
   count: 9
+  orcid: 0000-0001-5845-3588
+  scholar: 5UZKY-oAAAAJ
+  url: https://nicholas.duke.edu/people/faculty/halpin
 - name: Y Liu
   count: 9
 - name: Andrew B. Gill
   count: 8
+  orcid: 0000-0002-3379-6952
+  scholar: kfLGw-IAAAAJ
 - name: Arne Langlet
   count: 8
+  orcid: 0000-0003-4193-6385
+  scholar: 5RkkrjIAAAAJ
 - name: Ashley Alun Rowden
   count: 8
+  orcid: 0000-0003-2975-2524
+  scholar: i5w5bmAAAAAJ
 - name: B Boteler
   count: 8
+  orcid: 0000-0002-7078-7094
+  scholar: vrZushYAAAAJ
 - name: Catarina Frazão Santos
   count: 8
+  orcid: 0000-0001-6988-253X
+  scholar: K1qq8Q8AAAAJ
 - name: Christopher R. S. Barrio Froján
   count: 8
+  orcid: 0000-0001-5562-5508
 - name: Colette C. C. Wabnitz
   count: 8
+  orcid: 0000-0002-5076-9163
+  scholar: NtD4IWsAAAAJ
 - name: Elizabeth Mendenhall
   count: 8
+  orcid: 0000-0001-8006-6488
+  scholar: y_yqq1oAAAAJ
+  url: https://web.uri.edu/maf/meet/elizabeth-mendenhall-2
 - name: Fran Humphries
   count: 8
+  orcid: 0000-0002-5476-4669
+  scholar: a-TXIcMAAAAJ
+  url: https://experts.griffith.edu.au/8143-fran-humphries
 - name: Helena Calado
   count: 8
+  orcid: 0000-0002-4043-4466
 - name: Laura Maureen Pereira
   count: 8
+  orcid: 0000-0002-4996-7234
+  scholar: 6PLTqdIAAAAJ
 - name: Leslie Roberson
   count: 8
+  orcid: 0000-0002-7490-0795
+  scholar: HD67S74AAAAJ
 - name: Lisa Ann Levin
   count: 8
+  orcid: 0000-0002-2858-8622
+  scholar: byZ6O0sAAAAJ
 - name: Sarah Louise Lothian
   count: 8
+  orcid: 0000-0003-1178-7067
+  scholar: k9GlO5kAAAAJ
 - name: W Flannery
   count: 8
+  scholar: ww6N7xQAAAAJ
 - name: A Eitan
   count: 7
+  scholar: ne9cmhYAAAAJ
 - name: Bianca Haas
   count: 7
+  orcid: 0000-0002-7322-2929
+  scholar: EDL40X8AAAAJ
 - name: C Blanchard
   count: 7
+  url: https://www.earthsystemgovernance.org/person/catherine-blanchard
 - name: C Durussel
   count: 7
+  orcid: 0000-0002-8235-2960
 - name: D. Dunn
   count: 7
 - name: David O. Obura
   count: 7
+  orcid: 0000-0003-2256-6649
+  scholar: Z4RL3A8AAAAJ
 - name: Duncan Currie
   count: 7
+  orcid: 0009-0004-0403-8601
+  scholar: OfZslTcAAAAJ
 - name: Elizabeth Havice
   count: 7
+  orcid: 0000-0003-0760-2082
+  scholar: vlv-LVkAAAAJ
 - name: EM De Santo
   count: 7
+  orcid: 0000-0003-0975-1874
+  scholar: wB-EYosAAAAJ
 - name: H. Harden‐Davies
   count: 7
+  orcid: 0000-0002-8214-5187
 - name: Jean‐Baptiste Jouffray
   count: 7
+  orcid: 0000-0002-4105-6372
+  scholar: a4XJ3coAAAAJ
 - name: Klaudija Cremers
   count: 7
+  url: https://www.iddri.org/en/about-iddri/team/klaudija-cremers
 - name: L Wang
   count: 7
 - name: MC Freeman
   count: 7
+  scholar: SOMUunMAAAAJ
 - name: Paul Dunshirn
   count: 7
+  orcid: 0000-0003-3101-4811
+  scholar: TePpm0QAAAAJ
 - name: Rachel Gjelsvik Tiller
   count: 7
+  orcid: 0000-0002-2505-9194
+  scholar: iZkMOjYAAAAJ
 - name: Sandy Kerr
   count: 7
+  orcid: 0000-0002-1307-1655
 - name: Santiago Salvador
   count: 7
+  orcid: 0000-0002-0451-1372
+  scholar: 85R6QJ8AAAAJ
 - name: Sebastián Villasante
   count: 7
+  orcid: 0000-0001-6296-4479
+  scholar: 3de-QZAAAAAJ
 - name: Tundi S. Agardy
   count: 7
+  orcid: 0000-0003-2980-1082
+  scholar: 8XNDvswAAAAJ
 - name: Z Zhang
   count: 7
 - name: Andrés Miguel Cisneros-Montemayor
   count: 6
+  orcid: 0000-0002-4132-5317
+  scholar: uDDZeXgAAAAJ
 - name: Anne Marie O’Hagan
   count: 6
+  orcid: 0000-0001-9155-150X
+  scholar: YO4zSwoAAAAJ
 - name: C Trivedi
   count: 6
+  scholar: KnP7JLMAAAAJ
 - name: Daniel Wagner
   count: 6
+  orcid: 0000-0002-0456-4343
+  scholar: 1NuG-_4AAAAJ
+  url: https://nautiluslive.org/people/daniel-wagner
 - name: E Nyman
   count: 6
+  orcid: 0000-0001-6622-5710
+  scholar: cURq4KsAAAAJ
 - name: Emily S. Nocito
   count: 6
+  orcid: 0000-0003-3123-6326
+  scholar: 5nx1_68AAAAJ
 - name: I MacGill
   count: 6
+  scholar: fqEkWOYAAAAJ
 - name: J Blythe
   count: 6
+  scholar: CFAgvSQAAAAJ
 - name: Julie M. Ayling
   count: 6
+  orcid: 0000-0002-2670-7800
+  scholar: yXzbeFcAAAAJ
 - name: K Johnson
   count: 6
 - name: Kahlil Hassanali
   count: 6
+  orcid: 0000-0001-7432-1307
+  scholar: DhXjolEAAAAJ
+  url: http://conferences.wmu.se/colp47/kahlil-hassanali-3
 - name: Malcolm R. Clark
   count: 6
+  orcid: 0000-0002-0305-0834
+  scholar: d5A8PfoAAAAJ
+  url: https://niwa.co.nz/people/malcolm-clark
 - name: Marjo Vierros
   count: 6
+  orcid: 0000-0001-5316-9297
+  url: https://researchportal.helsinki.fi/en/persons/346dc999-52b3-41a5-82ae-977e47a4fdd0
 - name: Nichola A. Clark
   count: 6
+  orcid: 0000-0002-1440-3260
+  scholar: _tFhs-wAAAAJ
 - name: Sebastian Unger
   count: 6
+  orcid: 0000-0001-5478-7214
+  scholar: RuRwcdIAAAAJ
+  url: https://www.rifs-potsdam.de/en/news/sebastian-unger-appointed-germanys-first-special-representative-oceans
 - name: SP Weir
   count: 6
+  scholar: of8_zq0AAAAJ
 - name: Y Wang
   count: 6
 - name: A. Rogers
   count: 5
+  orcid: 0000-0002-4864-2980
+  scholar: 2LGffxAAAAAJ
 - name: A. Rowden
   count: 5
+  orcid: 0000-0003-2975-2524
+  scholar: i5w5bmAAAAAJ
 - name: B Neumann
   count: 5
+  scholar: 7-w4K1wAAAAJ
 - name: DT Cotfas
   count: 5
+  scholar: VbgbvC0AAAAJ
 - name: Edward H. Allison
   count: 5
+  orcid: 0000-0003-4663-1396
+  scholar: b_nxGfQAAAAJ
 - name: Francisco Javier Sanz Larruga
   count: 5
+  orcid: 0000-0003-1045-5888
 - name: Gabrielle Carmine
   count: 5
+  orcid: 0000-0002-8616-5310
+  scholar: dX_RZOUAAAAJ
 - name: Henrik Österblom
   count: 5
+  orcid: 0000-0002-1913-5197
+  scholar: iJqUEcMAAAAJ
+  url: https://www.anthropocenelab.se
 - name: J Zhang
   count: 5
 - name: Joachim Claudet
   count: 5
+  orcid: 0000-0001-6295-1061
+  scholar: TK8IUGEAAAAJ
 - name: Krystel Wanneau
   count: 5
+  orcid: 0000-0003-4854-1749
+  scholar: _0XbVMgAAAAJ
 - name: LD Acton
   count: 5
+  scholar: SWn4YoIAAAAJ
 - name: Lisa M. Wedding
   count: 5
+  orcid: 0000-0002-3782-915X
+  scholar: GtuoKRUAAAAJ
 - name: Luís Gimeno
   count: 5
+  orcid: 0000-0002-0778-3605
+  scholar: 9DlSXUUAAAAJ
 - name: MA Quirapas-Franco
   count: 5
+  scholar: iHQ1MU8AAAAJ
 - name: Marcus Haward
   count: 5
+  orcid: 0000-0003-4775-0864
+  scholar: _GaMiNUAAAAJ
 - name: MS Karim
   count: 5
+  scholar: whCniYkAAAAJ
 - name: Nicholas J. Bax
   count: 5
+  orcid: 0000-0002-9697-4963
+  scholar: Gg9KQLYAAAAJ
 - name: Noella J. Gray
   count: 5
+  orcid: 0000-0002-6328-4886
+  scholar: 1J0rcGAAAAAJ
 - name: PA Cotfas
   count: 5
+  scholar: 91HUBcgAAAAJ
 - name: R Myers
   count: 5
+  scholar: tzJNO-YAAAAJ
 - name: S Li
   count: 5
 - name: Telmo Morato
   count: 5
+  orcid: 0000-0003-2393-4773
+  scholar: ssEUY3wAAAAJ
 - name: U. Sumaila
   count: 5
+  orcid: 0000-0002-1851-1621
+  scholar: ombX57sAAAAJ
 - name: W Chen
   count: 5
 - name: W. Cheung
   count: 5
+  orcid: 0000-0001-9998-0384
 - name: William W. L. Cheung
   count: 5
+  orcid: 0000-0001-9998-0384
 - name: X Zhang
   count: 5
 - name: Z Wang
   count: 5
 - name: AE Copping
   count: 4
+  scholar: e9Q7N0UAAAAJ
 - name: Alexander Mawyer
   count: 4
+  orcid: 0000-0002-9831-7633
 - name: Amanda Talita Lombard
   count: 4
+  orcid: 0000-0002-4323-1170
 - name: AR Baco
   count: 4
+  scholar: mwOxSiIAAAAJ
 - name: Aysha Fleming
   count: 4
+  orcid: 0000-0001-9895-1928
+  scholar: _Iy4ePEAAAAJ
 - name: Azucena Castro
   count: 4
+  orcid: 0000-0002-1914-7251
 - name: B Harvey
   count: 4
+  scholar: MGBXeNEAAAAJ
 - name: Bethan C. O’Leary
   count: 4
+  orcid: 0000-0001-6595-6634
+  scholar: G6QFYAwAAAAJ
 - name: Brooke Anne Williams
   count: 4
+  orcid: 0000-0002-0692-7507
+  scholar: yDktdWAAAAAJ
 - name: C Li
   count: 4
 - name: C Liu
   count: 4
 - name: C Wang
   count: 4
+  orcid: 0000-0002-7206-9299
 - name: C. Barrio Froján
   count: 4
+  orcid: 0000-0001-5562-5508
 - name: Callum M. Roberts
   count: 4
+  orcid: 0000-0003-2276-4258
+  scholar: lRTJ4IQAAAAJ
 - name: Cymie R. Payne
   count: 4
+  orcid: 0000-0003-2928-496X
+  scholar: NuHJxZ0AAAAJ
 - name: D Diz
   count: 4
+  orcid: 0000-0002-4409-2168
 - name: DS Schoeman
   count: 4
+  scholar: AgD8LIMAAAAJ
 - name: E Jones
   count: 4
+  scholar: 9WKslMEAAAAJ
 - name: Elliott Lee Hazen
   count: 4
+  orcid: 0000-0002-0412-7178
+  scholar: mI9gJxIAAAAJ
 - name: Emily C. Melvin
   count: 4
 - name: Fabrice Stephenson
   count: 4
+  orcid: 0000-0002-9500-5204
+  scholar: laSQ2jQAAAAJ
 - name: G. Crespo
   count: 4
+  orcid: 0000-0001-8029-5387
 - name: GT Pecl
   count: 4
+  orcid: 0000-0003-0192-4339
+  scholar: HCr0uOkAAAAJ
 - name: I Brito-Morales
   count: 4
+  scholar: o0-V01oAAAAJ
 - name: J García-Sanabria
   count: 4
+  scholar: L7KuYq0AAAAJ
 - name: J Riesz
   count: 4
 - name: J. Rochette
   count: 4
+  orcid: 0009-0003-0588-6226
 - name: James E. M. Watson
   count: 4
+  orcid: 0000-0003-4942-1984
+  scholar: T5SGR4cAAAAJ
 - name: Jason D. Everett
   count: 4
+  orcid: 0000-0002-6681-8054
+  scholar: 3EM7jEcAAAAJ
 - name: Jeffrey McGee
   count: 4
+  orcid: 0000-0002-2093-5896
+  scholar: ts0cR9UAAAAJ
 - name: Jon Day
   count: 4
+  orcid: 0000-0003-3906-0759
+  scholar: Tlc4PtAAAAAJ
 - name: Kerry L. Howell
   count: 4
+  orcid: 0000-0003-3359-1778
+  scholar: -To0XesAAAAJ
 - name: L Catalán
   count: 4
+  scholar: md_st78AAAAJ
 - name: L. Campbell
   count: 4
+  orcid: 0000-0001-8731-3699
+  scholar: XkcBaGsAAAAJ
 - name: Lance E. Morgan
   count: 4
+  orcid: 0000-0002-3643-3487
 - name: Larry B. Crowder
   count: 4
+  orcid: 0000-0003-3131-2579
+  scholar: Qjb5DnwAAAAJ
 - name: LR Gonçalves
   count: 4
+  scholar: dMRpuiIAAAAJ
 - name: LR Virto
   count: 4
+  scholar: WG5M-XoAAAAJ
 - name: M Andriamahefazafy
   count: 4
+  scholar: FAAZzdgAAAAJ
 - name: M Araiz
   count: 4
 - name: M Neshat
   count: 4
+  scholar: akyZK9gAAAAJ
 - name: Mariana Caldeira
   count: 4
+  orcid: 0000-0001-5746-1041
 - name: Mark Andrew Hindell
   count: 4
+  orcid: 0000-0002-7823-7185
+  scholar: 8J8xm0kAAAAJ
 - name: Marta Chantal Ribeiro
   count: 4
+  orcid: 0000-0002-7937-988X
+  url: https://www.ciimar.up.pt/teams/deep-sea-biodiversity-and-conservation
 - name: Matthew Gianni
   count: 4
+  orcid: 0000-0002-6746-4649
+  url: https://deep-sea-conservation.org
 - name: MJ Cervantes
   count: 4
+  scholar: p-xTx90AAAAJ
 - name: Natalie C. Ban
   count: 4
+  orcid: 0000-0002-4682-2144
+  scholar: 3DUsAKIAAAAJ
 - name: P. Halpin
   count: 4
+  orcid: 0000-0001-5845-3588
+  scholar: 5UZKY-oAAAAJ
 - name: Pascal Z. Thoya
   count: 4
+  orcid: 0000-0001-6725-0301
+  scholar: 7xKCDZcAAAAJ
 - name: R Mahon
   count: 4
+  orcid: 0000-0002-8503-2452
 - name: R Sioshansi
   count: 4
+  scholar: pBEw09IAAAAJ
 - name: RM Martínez Vázquez
   count: 4
+  scholar: IDZ5Aa0AAAAJ
 - name: Rolf Adriaan Groeneveld
   count: 4
+  orcid: 0000-0002-3699-1200
+  scholar: KBlrKukAAAAJ
 - name: S Darling
   count: 4
 - name: Simon Jude
   count: 4
+  orcid: 0000-0001-6737-7476
 - name: Siv Rebekka Runhovde
   count: 4
+  orcid: 0000-0001-5323-145X
 - name: SNR Birchenough
   count: 4
+  scholar: n_djBPMAAAAJ
 - name: T Kankaanranta
   count: 4
 - name: T Wilberforce
   count: 4
+  scholar: OcOnIEcAAAAJ
 - name: Therezah Achieng
   count: 4
+  orcid: 0000-0002-3009-9043
+  scholar: wfnEXM0AAAAJ
 - name: Torsten Thiele
   count: 4
+  orcid: 0000-0002-8725-2889
+  scholar: Qg87PEgAAAAJ
+  url: https://www.iofc.ch/torsten-thiele
 - name: TR Davies
   count: 4
+  scholar: C-TCpqwAAAAJ
 - name: Trevor Hopper
   count: 4
+  orcid: 0000-0002-4362-1558
+  scholar: hNhEeGEAAAAJ
 - name: Y Zhou
   count: 4
 - name: Z Li
   count: 4
 - name: Ana Beatriz Dutel Hilário
   count: 3
+  orcid: 0000-0001-8287-1528
+  scholar: EZIY4xcAAAAJ
 - name: Ari S. Friedlaender
   count: 3
+  orcid: 0000-0002-2822-233X
+  scholar: UwaIV3EAAAAJ
 - name: Aurélie Spadone
   count: 3
+  scholar: ypuRttUAAAAJ
+  url: https://www.iucn.org/our-team
 - name: Bianca S. Santos
   count: 3
+  orcid: 0000-0002-1293-8149
+  scholar: EfvAoL4AAAAJ
 - name: Crow White
   count: 3
+  orcid: 0000-0002-3141-560X
+  scholar: 9IsZZ0cAAAAJ
 - name: David M. Bailey
   count: 3
+  orcid: 0000-0002-0824-8823
+  scholar: lgmfWacAAAAJ
 - name: Jeff Ardron
   count: 3
+  orcid: 0000-0003-1326-0031
 - name: John N. Kittinger
   count: 3
+  orcid: 0000-0001-8799-7373
+  scholar: s_AYbqsAAAAJ
 - name: Kirsten F. Thompson
   count: 3
+  orcid: 0000-0003-4277-3549
+  scholar: 8yL4fm8AAAAJ
+  url: https://experts.exeter.ac.uk/32260-kirsten-young
 - name: Kirsty McQuaid
   count: 3
+  orcid: 0000-0002-0395-8332
+  scholar: o8-yNisAAAAJ
 - name: Malin L. Pinsky
   count: 3
+  orcid: 0000-0002-8523-8952
 - name: Martin J. Attrill
   count: 3
+  orcid: 0000-0002-4039-031X
+  scholar: IXMDY8EAAAAJ
 - name: Reg A. Watson
   count: 3
+  orcid: 0000-0001-7201-8865
+  scholar: zqd2kZEAAAAJ
 - name: Ruth Fletcher
   count: 3
+  orcid: 0000-0003-2600-0706
 - name: Siddharth Shekhar Yadav
   count: 3
+  scholar: AcVU8A0AAAAJ
 - name: Tammy E. Davies
   count: 3
+  orcid: 0000-0003-2535-1328
+  scholar: aEjnauwAAAAJ
 - name: Vicky W. Y. Lam
   count: 3
+  orcid: 0000-0002-1931-0514
+  scholar: PRymv7YAAAAJ
 - name: Yoshitaka Ota
   count: 3
+  orcid: 0000-0002-3478-2720
+  scholar: rgKor1oAAAAJ
+  url: https://web.uri.edu/maf/meet/yoshitaka-ota
 - name: Andrew Merrie
   count: 2
+  orcid: 0000-0002-4036-3725
+  scholar: Dh_KLCoAAAAJ
+  url: https://radicaloceanfutures.earth
 - name: Craig R. Smith
   count: 2
+  orcid: 0000-0002-3976-0889
+  scholar: Yj8mpPAAAAAJ
+  url: https://craigrsmithlab.com
 - name: D. Obura
   count: 2
+  orcid: 0000-0003-2256-6649
+  scholar: Z4RL3A8AAAAJ
 - name: Dan Laffoley
   count: 2
+  orcid: 0000-0001-6338-6244
+  url: https://danlaffoley.com
 - name: Derek P. Tittensor
   count: 2
+  orcid: 0000-0002-9550-3123
 - name: Douglas J. McCauley
   count: 2
+  orcid: 0000-0002-8100-653X
+  scholar: HYXM3_sAAAAJ
+  url: https://labs.eemb.ucsb.edu/mccauley/doug/index.html
 - name: Erik Jaap Molenaar
   count: 2
+  orcid: 0000-0003-3070-5610
 - name: Giuseppe Notarbartolo di Sciara
   count: 2
+  orcid: 0000-0003-0353-617X
+  scholar: aTgPwm0AAAAJ
 - name: Jesse Cleary
   count: 2
 - name: L. Crowder
   count: 2
+  orcid: 0000-0003-3131-2579
+  scholar: Qjb5DnwAAAAJ
 - name: L. Levin
   count: 2
+  orcid: 0000-0002-2858-8622
+  scholar: byZ6O0sAAAAJ
 - name: Laura L. Watts
   count: 2
+  scholar: rLo56EIAAAAJ

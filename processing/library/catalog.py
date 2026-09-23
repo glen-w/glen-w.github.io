@@ -15,6 +15,11 @@ from processing.core.tag_extractor import TagExtractor
 from processing.library.bib_parser import BibParser
 from processing.library.coauthors import build_coauthor_graph, write_coauthor_artifacts
 from processing.library.content_generator import ContentGenerator
+from processing.library.exclude_from_counts import (
+    catalog_item_is_excluded,
+    entry_is_excluded,
+    load_exclude_tokens,
+)
 
 MAX_AUTHOR_LIMIT = 3
 SELF_LAST = "Wright"
@@ -44,6 +49,7 @@ class CatalogGenerator:
         self.content_generator = ContentGenerator()
         self.tag_extractor = TagExtractor()
         self._library_index: Optional[Dict[str, List[Dict[str, Any]]]] = None
+        self._exclude_tokens = load_exclude_tokens(project_root)
 
     def generate(
         self,
@@ -89,6 +95,7 @@ class CatalogGenerator:
         venue = self._venue(entry)
         links = self.bib_parser.extract_links(entry)
         selected = self._is_selected(entry)
+        nocount = entry_is_excluded(entry, self._exclude_tokens)
 
         thumb = self._thumb_url(entry)
         pdf = self._asset_url(links.get("pdf"), PDF_PREFIX)
@@ -138,6 +145,8 @@ class CatalogGenerator:
             "year": year,
             "type": entry_type,
         }
+        if nocount:
+            item["nocount"] = True
         if month:
             item["month"] = month
         if roles:
@@ -291,27 +300,44 @@ class CatalogGenerator:
         if lang_counts != expected_langs:
             errors.append(f"lang counts drifted: {dict(lang_counts)} vs {dict(expected_langs)}")
 
+        # Filter chip counts omit nocount items (local exclude list).
+        countable = [
+            item
+            for item in items
+            if not catalog_item_is_excluded(item, self._exclude_tokens)
+        ]
+        filter_type_counts = Counter(
+            item.get("type") for item in countable if item.get("type")
+        )
+        filter_role_counts: Counter = Counter()
+        filter_lang_counts: Counter = Counter()
+        for item in countable:
+            for role in item.get("roles") or []:
+                filter_role_counts[role] += 1
+            for lang in item.get("langs") or []:
+                filter_lang_counts[lang] += 1
+
         filters_path = os.path.join(self.project_root, "_data", "dynamic_filters.yml")
         if os.path.isfile(filters_path):
             with open(filters_path, encoding="utf-8") as handle:
                 filters = yaml.safe_load(handle) or {}
             filter_types = filters.get("entry_type_counts") or {}
-            if filter_types and dict(type_counts) != dict(filter_types):
+            if filter_types and dict(filter_type_counts) != dict(filter_types):
                 errors.append(
                     "entry_type_counts in dynamic_filters.yml do not match catalog "
-                    f"({dict(type_counts)} vs {dict(filter_types)})"
+                    f"({dict(filter_type_counts)} vs {dict(filter_types)})"
                 )
             filter_roles = filters.get("role_tag_counts") or {}
-            if filter_roles and dict(role_counts) != dict(filter_roles):
+            if filter_roles and dict(filter_role_counts) != dict(filter_roles):
                 errors.append(
                     "role_tag_counts in dynamic_filters.yml do not match catalog "
-                    f"({dict(role_counts)} vs {dict(filter_roles)})"
+                    f"({dict(filter_role_counts)} vs {dict(filter_roles)})"
                 )
             filter_langs = filters.get("language_tag_counts") or {}
-            if filter_langs and dict(lang_counts) != dict(filter_langs):
+            if filter_langs and dict(filter_lang_counts) != dict(filter_langs):
                 errors.append(
                     "language_tag_counts in dynamic_filters.yml do not match catalog "
-                    f"({dict(lang_counts)} vs {dict(filter_langs)})"
+                    f"({dict(filter_lang_counts)} vs {dict(filter_langs)})"
                 )
 
         library_index = self._get_library_index()

@@ -1,0 +1,793 @@
+# ORCID / website / Scholar profiles from Twenty CRM (Untangle).
+# Refresh: see processing/library/PEOPLE_PROFILES.md
+source: twenty
+people:
+- name: A Eitan
+  scholar: ne9cmhYAAAAJ
+- name: A. Rogers
+  orcid: 0000-0002-4864-2980
+  scholar: 2LGffxAAAAAJ
+- name: A. Rowden
+  orcid: 0000-0003-2975-2524
+  scholar: i5w5bmAAAAAJ
+- name: AE Copping
+  scholar: e9Q7N0UAAAAJ
+- name: Alex David Rogers
+  orcid: 0000-0002-4864-2980
+  scholar: 2LGffxAAAAAJ
+- name: Alex Rogers
+  orcid: 0000-0002-4864-2980
+  url: https://www.noc.ac.uk/n/Alex%20David%20Rogers
+  scholar: 2LGffxAAAAAJ
+- name: Alexander Mawyer
+  orcid: 0000-0002-9831-7633
+- name: Alexander Müller
+  orcid: 0000-0003-4202-373X
+- name: Alice B. M. Vadrot
+  orcid: 0000-0002-6043-9846
+  url: https://politikwissenschaft.univie.ac.at/en/about-us/staff/vadrot
+  scholar: n9S4BqcAAAAJ
+- name: Alistair J. Hobday
+  orcid: 0000-0002-3194-8326
+  url: https://people.csiro.au/H/A/Alistair-Hobday
+  scholar: KqlkGh0AAAAJ
+- name: Amanda Talita Lombard
+  orcid: 0000-0002-4323-1170
+- name: Ana Beatriz Dutel Hilário
+  orcid: 0000-0001-8287-1528
+  scholar: EZIY4xcAAAAJ
+- name: Andrew B. Gill
+  orcid: 0000-0002-3379-6952
+  scholar: kfLGw-IAAAAJ
+- name: Andrew Merrie
+  orcid: 0000-0002-4036-3725
+  url: https://radicaloceanfutures.earth
+  scholar: Dh_KLCoAAAAJ
+- name: Andrés Miguel Cisneros-Montemayor
+  orcid: 0000-0002-4132-5317
+  scholar: uDDZeXgAAAAJ
+- name: Anna Gebruk
+  orcid: 0000-0002-2516-8286
+  url: https://www.research.ed.ac.uk/en/persons/anna-gebruk
+  scholar: Lryq38kAAAAJ
+- name: Anne Marie O’Hagan
+  orcid: 0000-0001-9155-150X
+  scholar: YO4zSwoAAAAJ
+- name: AR Baco
+  scholar: mwOxSiIAAAAJ
+- name: Ari S. Friedlaender
+  orcid: 0000-0002-2822-233X
+  scholar: UwaIV3EAAAAJ
+- name: Arne Langlet
+  orcid: 0000-0003-4193-6385
+  scholar: 5RkkrjIAAAAJ
+- name: Arne Langlet-Uranüs
+  orcid: 0000-0003-4193-6385
+  url: https://politikwissenschaft.univie.ac.at/ueber-uns/mitarbeiterinnen/langlet-uranues
+  scholar: 5RkkrjIAAAAJ
+- name: Ashley a. Rowden
+  orcid: 0000-0003-2975-2524
+  url: https://niwa.co.nz/people/ashley-rowden
+  scholar: i5w5bmAAAAAJ
+- name: Ashley Alun Rowden
+  orcid: 0000-0003-2975-2524
+  scholar: i5w5bmAAAAAJ
+- name: Aulani Wilhelm
+  orcid: 0000-0003-2011-6505
+  url: https://www.niatero.org/our-leadership
+- name: Aurélie Spadone
+  url: https://www.iucn.org/our-team
+  scholar: ypuRttUAAAAJ
+- name: Aysha Fleming
+  orcid: 0000-0001-9895-1928
+  scholar: _Iy4ePEAAAAJ
+- name: Azucena Castro
+  orcid: 0000-0002-1914-7251
+- name: B Boteler
+  orcid: 0000-0002-7078-7094
+  scholar: vrZushYAAAAJ
+- name: B Harvey
+  scholar: MGBXeNEAAAAJ
+- name: B Neumann
+  scholar: 7-w4K1wAAAAJ
+- name: Bastiaan Ewoud Klerk
+  orcid: 0000-0003-4742-8752
+  url: https://uit.no/ansatte/bastiaan.e.klerk
+  scholar: fyweuIAAAAAJ
+- name: Ben Boteler
+  orcid: 0000-0002-7078-7094
+  url: https://www.rifs-potsdam.de/en/people/ben-boteler
+  scholar: vrZushYAAAAJ
+- name: Bethan C. O’Leary
+  orcid: 0000-0001-6595-6634
+  scholar: G6QFYAwAAAAJ
+- name: Bianca Haas
+  orcid: 0000-0002-7322-2929
+  scholar: EDL40X8AAAAJ
+- name: Bianca S. Santos
+  orcid: 0000-0002-1293-8149
+  scholar: EfvAoL4AAAAJ
+- name: Brooke Anne Williams
+  orcid: 0000-0002-0692-7507
+  scholar: yDktdWAAAAAJ
+- name: C Durussel
+  orcid: 0000-0002-8235-2960
+- name: C Trivedi
+  scholar: KnP7JLMAAAAJ
+- name: C Wang
+  orcid: 0000-0002-7206-9299
+- name: C. Barrio Froján
+  orcid: 0000-0001-5562-5508
+- name: Callum M. Roberts
+  orcid: 0000-0003-2276-4258
+  scholar: lRTJ4IQAAAAJ
+- name: Carissa J. Klein
+  orcid: 0000-0002-6299-6451
+  scholar: X_oHMCIAAAAJ
+- name: Carlos M. Duarte
+  orcid: 0000-0002-1213-1361
+  url: https://www.kaust.edu.sa/en/study/faculty/carlos-duarte
+  scholar: T2-L50AAAAAJ
+- name: Carole Durussel
+  orcid: 0000-0002-8235-2960
+  url: https://www.ospar.org
+  scholar: kYN9P0kAAAAJ
+- name: Cassandra M. Brooks
+  orcid: 0000-0002-1397-0394
+  url: https://www.colorado.edu/envs/cassandra-brooks
+  scholar: d2BBo1cAAAAJ
+- name: Catarina Frazão Santos
+  orcid: 0000-0001-6988-253X
+  scholar: K1qq8Q8AAAAJ
+- name: Catherine Blanchard
+  url: https://www.earthsystemgovernance.org/person/catherine-blanchard
+- name: Christine Gaebel
+  orcid: 0000-0003-4347-9616
+  url: https://changingoceans.com/people/christine-gaebel
+  scholar: X-clprwAAAAJ
+- name: Christopher R. S. Barrio Froján
+  orcid: 0000-0001-5562-5508
+- name: Chuanliang Wang
+  orcid: 0000-0002-7206-9299
+  url: https://law.sdnu.edu.cn/info/1331/38081.htm
+- name: Colette C. C. Wabnitz
+  orcid: 0000-0002-5076-9163
+  scholar: NtD4IWsAAAAJ
+- name: Craig R. Smith
+  orcid: 0000-0002-3976-0889
+  url: https://craigrsmithlab.com
+  scholar: Yj8mpPAAAAAJ
+- name: Crow White
+  orcid: 0000-0002-3141-560X
+  scholar: 9IsZZ0cAAAAJ
+- name: Cymie Payne
+  orcid: 0000-0003-2928-496X
+  url: https://humanecology.rutgers.edu/people/faculty/cymie-payne
+  scholar: NuHJxZ0AAAAJ
+- name: Cymie R. Payne
+  orcid: 0000-0003-2928-496X
+  scholar: NuHJxZ0AAAAJ
+- name: D Diz
+  orcid: 0000-0002-4409-2168
+- name: D. Obura
+  orcid: 0000-0003-2256-6649
+  scholar: Z4RL3A8AAAAJ
+- name: Dan Laffoley
+  orcid: 0000-0001-6338-6244
+  url: https://danlaffoley.com
+- name: Daniel Bodansky
+  orcid: 0000-0003-0885-7861
+  url: https://search.asu.edu/profile/1527075
+  scholar: bqmEUsQAAAAJ
+- name: Daniel C. Dunn
+  orcid: 0000-0001-8932-0681
+  scholar: W1fQoOoAAAAJ
+- name: Daniel Dunn
+  orcid: 0000-0001-8932-0681
+  url: https://cbcs.centre.uq.edu.au/profile/3059/daniel-dunn
+  scholar: W1fQoOoAAAAJ
+- name: Daniel Kachelriess
+  orcid: 0000-0003-2574-0075
+  url: https://highseasalliance.org/meet-the-hsa-staff
+  scholar: gewzAeYAAAAJ
+- name: Daniel Wagner
+  orcid: 0000-0002-0456-4343
+  url: https://nautiluslive.org/people/daniel-wagner
+  scholar: 1NuG-_4AAAAJ
+- name: Daniela Diz
+  orcid: 0000-0002-4409-2168
+  url: https://researchportal.hw.ac.uk/en/persons/daniela-diz
+- name: David E. Johnson
+  orcid: 0000-0003-4695-606X
+  url: https://www.seascapeconsultants.co.uk/about-us
+- name: David Edward Johnson
+  orcid: 0000-0003-4695-606X
+- name: David Freestone
+  orcid: 0000-0002-0550-3411
+- name: David Leary
+  orcid: 0000-0003-3852-4769
+  url: https://www.uts.edu.au/staff/david.leary
+  scholar: uXtWiJ0AAAAJ
+- name: David M. Bailey
+  orcid: 0000-0002-0824-8823
+  scholar: lgmfWacAAAAJ
+- name: David O. Obura
+  orcid: 0000-0003-2256-6649
+  scholar: Z4RL3A8AAAAJ
+- name: David Santillo
+  orcid: 0009-0007-1009-3895
+  url: https://experts.exeter.ac.uk/2845-david-santillo
+  scholar: ZedPugMAAAAJ
+- name: Derek P. Tittensor
+  orcid: 0000-0002-9550-3123
+- name: Dire Tladi
+  orcid: 0000-0003-3378-2873
+  url: https://www.icla.up.ac.za/dire-tladi
+  scholar: iZRObWQAAAAJ
+- name: Dirk Zeller
+  orcid: 0000-0001-7304-4125
+  url: https://research-repository.uwa.edu.au/en/persons/dirk-zeller
+  scholar: m4QpSaAAAAAJ
+- name: Diva J. Amon
+  orcid: 0000-0003-3044-107X
+  scholar: XVddC2YAAAAJ
+- name: Douglas J. McCauley
+  orcid: 0000-0002-8100-653X
+  url: https://labs.eemb.ucsb.edu/mccauley/doug/index.html
+  scholar: HYXM3_sAAAAJ
+- name: DS Schoeman
+  scholar: AgD8LIMAAAAJ
+- name: DT Cotfas
+  scholar: VbgbvC0AAAAJ
+- name: Duncan Currie
+  orcid: 0009-0004-0403-8601
+  scholar: OfZslTcAAAAJ
+- name: Duncan Eric James Currie
+  orcid: 0009-0004-0403-8601
+  url: https://loop.frontiersin.org/people/632776/overview
+  scholar: OfZslTcAAAAJ
+- name: E Jones
+  scholar: 9WKslMEAAAAJ
+- name: E Nyman
+  orcid: 0000-0001-6622-5710
+  scholar: cURq4KsAAAAJ
+- name: Edward H. Allison
+  orcid: 0000-0003-4663-1396
+  scholar: b_nxGfQAAAAJ
+- name: Edward T. Game
+  orcid: 0000-0003-4707-9281
+  url: https://www.nature.org/en-us/about-us/who-we-are/our-people/eddie-game
+  scholar: 0sn9Dv4AAAAJ
+- name: Elisabeth Druel
+  url: https://www.iddri.org/en/about-iddri/team/elisabeth-druel
+- name: Elizabeth Havice
+  orcid: 0000-0003-0760-2082
+  scholar: vlv-LVkAAAAJ
+- name: Elizabeth M. De Santo
+  orcid: 0000-0003-0975-1874
+  url: https://www.fandm.edu/directory/elizabeth-desanto.html
+  scholar: wB-EYosAAAAJ
+- name: Elizabeth Mendenhall
+  orcid: 0000-0001-8006-6488
+  url: https://web.uri.edu/maf/meet/elizabeth-mendenhall-2
+  scholar: y_yqq1oAAAAJ
+- name: Elizabeth Nyman
+  orcid: 0000-0001-6622-5710
+  url: https://liznyman.com
+  scholar: cURq4KsAAAAJ
+- name: Elliott Lee Hazen
+  orcid: 0000-0002-0412-7178
+  scholar: mI9gJxIAAAAJ
+- name: EM De Santo
+  orcid: 0000-0003-0975-1874
+  scholar: wB-EYosAAAAJ
+- name: Emily S. Nocito
+  orcid: 0000-0003-3123-6326
+  scholar: 5nx1_68AAAAJ
+- name: Erik Jaap Molenaar
+  orcid: 0000-0003-3070-5610
+- name: Ethan Beringen
+  orcid: 0000-0002-4647-8953
+  url: https://law.uq.edu.au/profile/22543/ethan-beringen
+  scholar: 74_pZYkAAAAJ
+- name: Fabrice Stephenson
+  orcid: 0000-0002-9500-5204
+  scholar: laSQ2jQAAAAJ
+- name: Fran Humphries
+  orcid: 0000-0002-5476-4669
+  url: https://experts.griffith.edu.au/8143-fran-humphries
+  scholar: a-TXIcMAAAAJ
+- name: Francisco Javier Sanz Larruga
+  orcid: 0000-0003-1045-5888
+- name: G. Crespo
+  orcid: 0000-0001-8029-5387
+- name: Gabriele Goettsche-Wanli
+  orcid: 0009-0001-1753-4880
+- name: Gabrielle Carmine
+  orcid: 0000-0002-8616-5310
+  scholar: dX_RZOUAAAAJ
+- name: Gerald Singh
+  orcid: 0000-0003-4333-1988
+  url: https://www.uvic.ca/socialsciences/environmental/faculty-staff/profiles/singh-gerald.php
+  scholar: Icv15lYAAAAJ
+- name: Giulia La Bianca
+  orcid: 0000-0002-9896-0709
+  url: https://researchportal.plymouth.ac.uk/en/persons/4791647d-21a0-48e4-908c-63d156d7c637
+  scholar: 3bIwRPEAAAAJ
+- name: Giuseppe Notarbartolo di Sciara
+  orcid: 0000-0003-0353-617X
+  scholar: aTgPwm0AAAAJ
+- name: GT Pecl
+  orcid: 0000-0003-0192-4339
+  scholar: HCr0uOkAAAAJ
+- name: Guifang (Julia) Xue
+  orcid: 0000-0002-6836-5968
+  url: https://en.law.sjtu.edu.cn/FD/3180.html
+- name: Guillermo Ortuño Crespo
+  orcid: 0000-0001-8029-5387
+  url: https://www.stockholmresilience.org/contact-us/staff/2020-02-11-ortuno-crespo.html
+  scholar: qxpYFzEAAAAJ
+- name: H. Harden‐Davies
+  orcid: 0000-0002-8214-5187
+- name: Hannah L. Thomas
+  orcid: 0009-0005-5218-5865
+- name: Harriet Harden-Davies
+  orcid: 0000-0002-8214-5187
+  url: https://www.ocean-voices.org/team/dr-harriet-harden-davies
+  scholar: nnQCktQAAAAJ
+- name: Helena Calado
+  orcid: 0000-0002-4043-4466
+- name: Henrik Österblom
+  orcid: 0000-0002-1913-5197
+  url: https://www.anthropocenelab.se
+  scholar: iJqUEcMAAAAJ
+- name: Holly Niner
+  orcid: 0000-0002-9567-9225
+  url: https://researchportal.plymouth.ac.uk/en/persons/afba1edc-789f-4dc6-afec-44f6992f3715
+  scholar: h1UF_FAAAAAJ
+- name: I Brito-Morales
+  scholar: o0-V01oAAAAJ
+- name: I MacGill
+  scholar: fqEkWOYAAAAJ
+- name: Ina Tessnow-von Wysocki
+  orcid: 0000-0003-1038-9059
+  url: https://www.rifs-potsdam.de/en/people/ina-tamara-tessnow-von-wysocki
+  scholar: YHiYJiYAAAAJ
+- name: Isabel Seeger
+  url: https://www.ecologic.eu/17829
+- name: J Blythe
+  scholar: CFAgvSQAAAAJ
+- name: J García-Sanabria
+  scholar: L7KuYq0AAAAJ
+- name: J Wang
+  orcid: 0000-0002-7997-7177
+- name: J. Murray Roberts
+  orcid: 0000-0003-1688-5133
+  url: https://changingoceans.com/people/prof-murray-roberts
+  scholar: Vs7NxAEAAAAJ
+- name: J. Rochette
+  orcid: 0009-0003-0588-6226
+- name: James E. M. Watson
+  orcid: 0000-0003-4942-1984
+  scholar: T5SGR4cAAAAJ
+- name: Jason D. Everett
+  orcid: 0000-0002-6681-8054
+  scholar: 3EM7jEcAAAAJ
+- name: Jean‐Baptiste Jouffray
+  orcid: 0000-0002-4105-6372
+  scholar: a4XJ3coAAAAJ
+- name: Jeff A. Ardron
+  orcid: 0000-0003-1326-0031
+  url: https://www.nature.org/en-us/about-us/who-we-are/our-people/jeff-a-ardron
+- name: Jeff Ardron
+  orcid: 0000-0003-1326-0031
+- name: Jeffrey McGee
+  orcid: 0000-0002-2093-5896
+  scholar: ts0cR9UAAAAJ
+- name: Jiahui Wang
+  orcid: 0000-0002-7997-7177
+- name: Joachim Claudet
+  orcid: 0000-0001-6295-1061
+  scholar: TK8IUGEAAAAJ
+- name: Joanna Mossop
+  orcid: 0000-0002-4038-0103
+  scholar: Ue3xEEEAAAAJ
+- name: John M. Guinotte
+  scholar: gLOAT_UAAAAJ
+- name: John N. Kittinger
+  orcid: 0000-0001-8799-7373
+  scholar: s_AYbqsAAAAJ
+- name: Jon Day
+  orcid: 0000-0003-3906-0759
+  scholar: Tlc4PtAAAAAJ
+- name: Jorge A. Jimenez
+  url: https://marviva.net/en/team
+  scholar: tPirGbwAAAAJ
+- name: Julia Schütz Veiga
+  orcid: 0000-0002-2504-7353
+  url: https://novaresearch.unl.pt/en/persons/b733eaba-2f59-4d2c-ad32-d4c87e0cdb2f
+  scholar: Z46JWGoAAAAJ
+- name: Julie M. Ayling
+  orcid: 0000-0002-2670-7800
+  scholar: yXzbeFcAAAAJ
+- name: Julien Rochette
+  orcid: 0009-0003-0588-6226
+  url: https://www.iddri.org/en/about-iddri/team/julien-rochette
+- name: Kahlil Hassanali
+  orcid: 0000-0001-7432-1307
+  url: http://conferences.wmu.se/colp47/kahlil-hassanali-3
+  scholar: DhXjolEAAAAJ
+- name: Katherine G. Sammler
+  orcid: 0000-0003-0404-7597
+  url: https://saltygeographies.net
+  scholar: kzevd-IAAAAJ
+- name: Katherine Houghton
+  url: https://www.iddri.org/en/about-iddri/team/katherine-houghton
+- name: Kathryn A. Miller
+  orcid: 0000-0003-2444-3845
+  url: https://research.lancaster-university.uk/en/persons/c28ba436-0497-4ed7-8e42-f0e77175dbcb
+  scholar: 7sRP0WsAAAAJ
+- name: Kerry Howell
+  orcid: 0000-0003-3359-1778
+  url: https://www.plymouth.ac.uk/staff/kerry-howell-2
+  scholar: -To0XesAAAAJ
+- name: Kerry L. Howell
+  orcid: 0000-0003-3359-1778
+  scholar: -To0XesAAAAJ
+- name: Kirsten F. Thompson
+  orcid: 0000-0003-4277-3549
+  url: https://experts.exeter.ac.uk/32260-kirsten-young
+  scholar: 8yL4fm8AAAAJ
+- name: Kirsty McQuaid
+  orcid: 0000-0002-0395-8332
+  scholar: o8-yNisAAAAJ
+- name: Klaudija Cremers
+  url: https://www.iddri.org/en/about-iddri/team/klaudija-cremers
+- name: Kristin Kaschner
+  orcid: 0000-0002-4061-626X
+  url: https://freidok.uni-freiburg.de/pers/19125
+  scholar: o0WYR70AAAAJ
+- name: Kristina M. Gjerde
+  orcid: 0000-0001-9025-7632
+  url: https://iucn.org/news/202512/iucn-statement-passing-kristina-maria-gjerde
+  scholar: SUh8nUEAAAAJ
+- name: Kristina Maria Gjerde
+  orcid: 0000-0001-9025-7632
+  scholar: SUh8nUEAAAAJ
+- name: Krystel Wanneau
+  orcid: 0000-0003-4854-1749
+  scholar: _0XbVMgAAAAJ
+- name: L Catalán
+  scholar: md_st78AAAAJ
+- name: L. Campbell
+  orcid: 0000-0001-8731-3699
+  scholar: XkcBaGsAAAAJ
+- name: L. Crowder
+  orcid: 0000-0003-3131-2579
+  scholar: Qjb5DnwAAAAJ
+- name: L. Levin
+  orcid: 0000-0002-2858-8622
+  scholar: byZ6O0sAAAAJ
+- name: Lance E. Morgan
+  orcid: 0000-0002-3643-3487
+- name: Larry B. Crowder
+  orcid: 0000-0003-3131-2579
+  scholar: Qjb5DnwAAAAJ
+- name: Laura L. Watts
+  scholar: rLo56EIAAAAJ
+- name: Laura Maureen Pereira
+  orcid: 0000-0002-4996-7234
+  scholar: 6PLTqdIAAAAJ
+- name: LD Acton
+  scholar: SWn4YoIAAAAJ
+- name: Leslie Roberson
+  orcid: 0000-0002-7490-0795
+  scholar: HD67S74AAAAJ
+- name: Lisa Ann Levin
+  orcid: 0000-0002-2858-8622
+  scholar: byZ6O0sAAAAJ
+- name: Lisa M. Campbell
+  orcid: 0000-0001-8731-3699
+  scholar: XkcBaGsAAAAJ
+- name: Lisa M. Wedding
+  orcid: 0000-0002-3782-915X
+  scholar: GtuoKRUAAAAJ
+- name: LR Gonçalves
+  scholar: dMRpuiIAAAAJ
+- name: LR Virto
+  scholar: WG5M-XoAAAAJ
+- name: Lucia Fanning
+  orcid: 0000-0002-0722-3536
+  url: https://www.dal.ca/faculty/science/marine-affairs-program/faculty-staff/our-faculty/lucia-fanning.html
+  scholar: lEEXAQcAAAAJ
+- name: Lucie Blom
+  url: https://www.iddri.org/en/about-iddri/team
+- name: Luís Gimeno
+  orcid: 0000-0002-0778-3605
+  scholar: 9DlSXUUAAAAJ
+- name: Lynne Shannon
+  orcid: 0000-0001-7842-0636
+  url: http://www.eafsa.uct.ac.za
+  scholar: _LU-bqUAAAAJ
+- name: M Andriamahefazafy
+  scholar: FAAZzdgAAAAJ
+- name: M Neshat
+  scholar: akyZK9gAAAAJ
+- name: MA Quirapas-Franco
+  scholar: iHQ1MU8AAAAJ
+- name: Malcolm R. Clark
+  orcid: 0000-0002-0305-0834
+  url: https://niwa.co.nz/people/malcolm-clark
+  scholar: d5A8PfoAAAAJ
+- name: Malin L. Pinsky
+  orcid: 0000-0002-8523-8952
+- name: Marcel Jaspars
+  orcid: 0000-0002-2426-6028
+  url: https://www.abdn.ac.uk/people/m.jaspars
+  scholar: jxIA3pEAAAAJ
+- name: Marcus Haward
+  orcid: 0000-0003-4775-0864
+  scholar: _GaMiNUAAAAJ
+- name: Mariamalia Rodríguez Chaves
+  orcid: 0000-0002-2631-2251
+  url: https://highseasalliance.org/meet-the-hsa-staff/mariamalia-rodriguez-chaves
+- name: Mariana Caldeira
+  orcid: 0000-0001-5746-1041
+- name: Marjo Vierros
+  orcid: 0000-0001-5316-9297
+  url: https://researchportal.helsinki.fi/en/persons/346dc999-52b3-41a5-82ae-977e47a4fdd0
+- name: Mark Andrew Hindell
+  orcid: 0000-0002-7823-7185
+  scholar: 8J8xm0kAAAAJ
+- name: Marta Chantal Ribeiro
+  orcid: 0000-0002-7937-988X
+  url: https://www.ciimar.up.pt/teams/deep-sea-biodiversity-and-conservation
+- name: Martin J. Attrill
+  orcid: 0000-0002-4039-031X
+  scholar: IXMDY8EAAAAJ
+- name: Matthew Gianni
+  orcid: 0000-0002-6746-4649
+  url: https://deep-sea-conservation.org
+- name: MC Freeman
+  scholar: SOMUunMAAAAJ
+- name: MJ Cervantes
+  scholar: p-xTx90AAAAJ
+- name: MS Karim
+  scholar: whCniYkAAAAJ
+- name: N. Shepard, Andrew
+  url: https://www.gulfbase.org/people/andrew-n-shepard
+- name: Natalie C. Ban
+  orcid: 0000-0002-4682-2144
+  scholar: 3DUsAKIAAAAJ
+- name: Nathan James Bennett
+  orcid: 0000-0003-4852-3401
+  scholar: uKXwSn0AAAAJ
+- name: Nengye Liu
+  orcid: 0000-0002-2995-5017
+  url: https://law.smu.edu.sg/faculty/profile/6506/liu-nengye
+  scholar: sm1425MAAAAJ
+- name: Nichola A. Clark
+  orcid: 0000-0002-1440-3260
+  scholar: _tFhs-wAAAAJ
+- name: Nichola Clark
+  orcid: 0000-0002-1440-3260
+  url: https://www.pew.org/en/about/experts/nichola-clark
+  scholar: _tFhs-wAAAAJ
+- name: Nicholas J. Bax
+  orcid: 0000-0002-9697-4963
+  scholar: Gg9KQLYAAAAJ
+- name: Nicole Wienrich
+  orcid: 0000-0001-9621-4924
+- name: Niels Krabbe
+  orcid: 0000-0002-0422-2124
+  url: https://research.abo.fi/en/persons/niels-krabbe
+- name: Nilufer Oral
+  orcid: 0000-0001-5538-0600
+  url: https://law.nus.edu.sg/people/nilufer-oral
+- name: Noella J. Gray
+  orcid: 0000-0002-6328-4886
+  scholar: 1J0rcGAAAAAJ
+- name: P. Halpin
+  orcid: 0000-0001-5845-3588
+  scholar: 5UZKY-oAAAAJ
+- name: PA Cotfas
+  scholar: 91HUBcgAAAAJ
+- name: Pascal Z. Thoya
+  orcid: 0000-0001-6725-0301
+  scholar: 7xKCDZcAAAAJ
+- name: Patrick N. Halpin
+  orcid: 0000-0001-5845-3588
+  url: https://nicholas.duke.edu/people/faculty/halpin
+  scholar: 5UZKY-oAAAAJ
+- name: Paul Dunshirn
+  orcid: 0000-0003-3101-4811
+  scholar: TePpm0QAAAAJ
+- name: Paul Johnston
+  url: https://experts.exeter.ac.uk/43546-paul-johnston
+  scholar: ub1y2ocAAAAJ
+- name: Paula Novo
+  orcid: 0000-0002-5635-3636
+  url: https://environment.leeds.ac.uk/see/staff/10310/dr-paula-novo
+  scholar: RGxROoQAAAAJ
+- name: Peggy Kalas
+  url: https://oceanoazulfoundation.org/who-we-are
+- name: Philippe Maurice Cury
+  orcid: 0000-0002-4622-4208
+  url: https://umr-marbec.fr/membre/philippe-cury
+  scholar: yxbTdqIAAAAJ
+- name: Phillip Turner
+  orcid: 0000-0001-7502-1664
+  scholar: SpiUTz4AAAAJ
+- name: Ping Guo
+  orcid: 0009-0004-7222-0907
+  url: https://law.sysu.edu.cn/teacher/guoping
+- name: Pradeep Singh
+  url: https://www.rifs-potsdam.de/en/people/pradeep-singh
+- name: R Mahon
+  orcid: 0000-0002-8503-2452
+- name: R Myers
+  scholar: tzJNO-YAAAAJ
+- name: R Sioshansi
+  scholar: pBEw09IAAAAJ
+- name: Rachel Gjelsvik Tiller
+  orcid: 0000-0002-2505-9194
+  scholar: iZkMOjYAAAAJ
+- name: Rachel Tiller
+  orcid: 0000-0002-2505-9194
+  url: https://www.sintef.no/alle-ansatte/ansatt/rachel.tiller
+  scholar: iZkMOjYAAAAJ
+- name: Rashid Sumaila
+  orcid: 0000-0002-1851-1621
+  url: https://oceans.ubc.ca/profile/rashid-sumaila
+  scholar: ombX57sAAAAJ
+- name: Rebecca R. Helm
+  orcid: 0000-0002-5904-1267
+  url: https://biology.georgetown.edu/about/people/affiliate-faculty
+  scholar: NYI5GP8AAAAJ
+- name: Reg A. Watson
+  orcid: 0000-0001-7201-8865
+  scholar: zqd2kZEAAAAJ
+- name: Reg Watson
+  orcid: 0000-0001-7201-8865
+  url: http://ecomarres.com/?page_id=92
+  scholar: zqd2kZEAAAAJ
+- name: RM Martínez Vázquez
+  scholar: IDZ5Aa0AAAAJ
+- name: Robert Blasiak
+  orcid: 0000-0002-0888-0159
+  scholar: -Gy-hR0AAAAJ
+- name: Robin Mahon
+  orcid: 0000-0002-8503-2452
+  url: https://www.cavehill.uwi.edu/cermes/staff-profile/prof-robin-mahon
+  scholar: upG_GhcAAAAJ
+- name: Robin Warner
+  orcid: 0000-0002-6453-6344
+  url: https://scholars.uow.edu.au/robin-warner
+  scholar: V2_kyd8AAAAJ
+- name: Rolf Adriaan Groeneveld
+  orcid: 0000-0002-3699-1200
+  scholar: KBlrKukAAAAJ
+- name: Rosemary Rayfuse
+  orcid: 0000-0003-1060-5866
+  url: https://www.unsw.edu.au/staff/rosemary-rayfuse
+- name: Rui Jiang
+  orcid: 0009-0009-0338-6061
+- name: Ruth Fletcher
+  orcid: 0000-0003-2600-0706
+- name: Ryan Dolan
+  orcid: 0000-0002-9465-6814
+  url: https://www.bluenaturealliance.org/about/leadership/ryan-dolan
+- name: Sabine Christiansen
+  orcid: 0000-0001-5950-4607
+  url: https://www.rifs-potsdam.de/en/blog/2022/03/seabed-mining-negotiating-fate-common-heritage-humankind
+- name: Sandy Kerr
+  orcid: 0000-0002-1307-1655
+- name: Santiago Salvador
+  orcid: 0000-0002-0451-1372
+  scholar: 85R6QJ8AAAAJ
+- name: Sara M. Maxwell
+  orcid: 0000-0002-4425-9378
+  url: http://maxwelllab.weebly.com
+  scholar: GXfEF2gAAAAJ
+- name: Sarah Louise Lothian
+  orcid: 0000-0003-1178-7067
+  scholar: k9GlO5kAAAAJ
+- name: Sebastian Unger
+  orcid: 0000-0001-5478-7214
+  url: https://www.rifs-potsdam.de/en/news/sebastian-unger-appointed-germanys-first-special-representative-oceans
+  scholar: RuRwcdIAAAAJ
+- name: Sebastián Villasante
+  orcid: 0000-0001-6296-4479
+  scholar: 3de-QZAAAAAJ
+- name: Sheena Talma
+  orcid: 0000-0003-2971-6523
+  url: https://www.ocean-voices.org/team/sheena-talma
+- name: Sian Rees
+  orcid: 0000-0001-9606-783X
+  url: https://researchportal.plymouth.ac.uk/en/persons/2ebe03d2-fe80-41da-8127-1bd19dee4e2d
+  scholar: OOfLgSwAAAAJ
+- name: Siddharth Shekhar Yadav
+  scholar: AcVU8A0AAAAJ
+- name: Simon Jude
+  orcid: 0000-0001-6737-7476
+- name: Siv Rebekka Runhovde
+  orcid: 0000-0001-5323-145X
+- name: SNR Birchenough
+  scholar: n_djBPMAAAAJ
+- name: Solomon Sebuliba
+  orcid: 0000-0003-2765-8227
+  url: https://solomonsebuliba.com
+- name: SP Weir
+  scholar: of8_zq0AAAAJ
+- name: Sue Lothian
+  orcid: 0000-0003-1178-7067
+  url: https://scholars.uow.edu.au/sarah-lothian
+  scholar: k9GlO5kAAAAJ
+- name: Sylvia Earle
+  orcid: 0009-0004-2777-3844
+  url: https://missionblue.org
+- name: T Wilberforce
+  scholar: OcOnIEcAAAAJ
+- name: Tammy E. Davies
+  orcid: 0000-0003-2535-1328
+  scholar: aEjnauwAAAAJ
+- name: Telmo Morato
+  orcid: 0000-0003-2393-4773
+  scholar: ssEUY3wAAAAJ
+- name: Therezah Achieng
+  orcid: 0000-0002-3009-9043
+  scholar: wfnEXM0AAAAJ
+- name: Torsten Thiele
+  orcid: 0000-0002-8725-2889
+  url: https://www.iofc.ch/torsten-thiele
+  scholar: Qg87PEgAAAAJ
+- name: TR Davies
+  scholar: C-TCpqwAAAAJ
+- name: Trevor Hopper
+  orcid: 0000-0002-4362-1558
+  scholar: hNhEeGEAAAAJ
+- name: Tundi S. Agardy
+  orcid: 0000-0003-2980-1082
+  scholar: 8XNDvswAAAAJ
+- name: U. Rashid Sumaila
+  orcid: 0000-0002-1851-1621
+  scholar: ombX57sAAAAJ
+- name: U. Sumaila
+  orcid: 0000-0002-1851-1621
+  scholar: ombX57sAAAAJ
+- name: Vanessa Ferreira Lopes
+  orcid: 0000-0002-2483-6596
+- name: Vicky W. Y. Lam
+  orcid: 0000-0002-1931-0514
+  scholar: PRymv7YAAAAJ
+- name: Vito De Lucia
+  orcid: 0000-0002-8099-0029
+  url: https://en.uit.no/ansatte/vito.delucia
+  scholar: sASb9LcAAAAJ
+- name: Volker Mauerhofer
+  orcid: 0000-0002-5444-2619
+  url: https://www.miun.se/Personal/volkermauerhofer
+- name: W Flannery
+  scholar: ww6N7xQAAAAJ
+- name: W. Cheung
+  orcid: 0000-0001-9998-0384
+- name: Weikang Wang
+  orcid: 0009-0008-5498-6609
+- name: Weiyu Wu
+  orcid: 0009-0003-4997-0788
+- name: Wenjun Xing
+  orcid: 0000-0002-0356-0578
+  url: https://www.uni-kiel.de/en/person/xing-richard-ww-70790
+- name: William W. L. Cheung
+  orcid: 0000-0001-9998-0384
+- name: Xin Pan
+  orcid: 0000-0003-0130-9301
+  url: https://rwxy.jnu.edu.cn/2024/0409/c30483a828943/page.htm
+- name: Yoshitaka Ota
+  orcid: 0000-0002-3478-2720
+  url: https://web.uri.edu/maf/meet/yoshitaka-ota
+  scholar: rgKor1oAAAAJ
+- name: Yvonne Waweru
+  url: https://oceanaccounts.org/publications/ocean-accounts-fellows
+- name: Zhengkai Mao
+  orcid: 0009-0006-6960-4365

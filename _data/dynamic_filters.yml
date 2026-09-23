@@ -32,7 +32,7 @@ entry_type_counts:
   Submission: 27
   Poster: 3
   Side Event: 9
-  Book: 3
+  Book: 2
   Fellowship: 1
   Radio: 3
   Negotiation: 13
@@ -56,8 +56,8 @@ role_tag_counts:
   facilitator: 25
   organiser: 29
   participant: 27
-  interview: 24
-  quoted: 18
+  interview: 23
+  quoted: 17
   attendee: 19
   delegate: 17
 language_tags:

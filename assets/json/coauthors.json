@@ -15,7 +15,9 @@
       "self": false,
       "count": 47,
       "firstYear": 2014,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0009-0003-0588-6226",
+      "url": "https://www.iddri.org/en/about-iddri/team/julien-rochette"
     },
     {
       "id": "klaudija-cremers",
@@ -23,7 +25,8 @@
       "self": false,
       "count": 20,
       "firstYear": 2019,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "url": "https://www.iddri.org/en/about-iddri/team/klaudija-cremers"
     },
     {
       "id": "mark-byrne",
@@ -39,7 +42,9 @@
       "self": false,
       "count": 13,
       "firstYear": 2014,
-      "lastYear": 2020
+      "lastYear": 2020,
+      "orcid": "0000-0001-9025-7632",
+      "scholar": "SUh8nUEAAAAJ"
     },
     {
       "id": "sebastian-unger",
@@ -47,7 +52,10 @@
       "self": false,
       "count": 10,
       "firstYear": 2014,
-      "lastYear": 2021
+      "lastYear": 2021,
+      "orcid": "0000-0001-5478-7214",
+      "scholar": "RuRwcdIAAAAJ",
+      "url": "https://www.rifs-potsdam.de/en/news/sebastian-unger-appointed-germanys-first-special-representative-oceans"
     },
     {
       "id": "carole-durussel",
@@ -55,7 +63,10 @@
       "self": false,
       "count": 7,
       "firstYear": 2015,
-      "lastYear": 2021
+      "lastYear": 2021,
+      "orcid": "0000-0002-8235-2960",
+      "url": "https://www.ospar.org",
+      "scholar": "kYN9P0kAAAAJ"
     },
     {
       "id": "aurelie-spadone",
@@ -63,7 +74,9 @@
       "self": false,
       "count": 6,
       "firstYear": 2015,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "scholar": "ypuRttUAAAAJ",
+      "url": "https://www.iucn.org/our-team"
     },
     {
       "id": "harriet-harden-davies",
@@ -71,7 +84,10 @@
       "self": false,
       "count": 6,
       "firstYear": 2016,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0000-0002-8214-5187",
+      "scholar": "nnQCktQAAAAJ",
+      "url": "https://www.ocean-voices.org/team/dr-harriet-harden-davies"
     },
     {
       "id": "kristina-m-gjerde",
@@ -79,7 +95,10 @@
       "self": false,
       "count": 6,
       "firstYear": 2016,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0000-0001-9025-7632",
+      "scholar": "SUh8nUEAAAAJ",
+      "url": "https://iucn.org/news/202512/iucn-statement-passing-kristina-maria-gjerde"
     },
     {
       "id": "jeff-ardron",
@@ -87,7 +106,8 @@
       "self": false,
       "count": 5,
       "firstYear": 2014,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0000-0003-1326-0031"
     },
     {
       "id": "duncan-currie",
@@ -95,7 +115,9 @@
       "self": false,
       "count": 4,
       "firstYear": 2015,
-      "lastYear": 2020
+      "lastYear": 2020,
+      "orcid": "0009-0004-0403-8601",
+      "scholar": "OfZslTcAAAAJ"
     },
     {
       "id": "ben-boteler",
@@ -103,7 +125,10 @@
       "self": false,
       "count": 3,
       "firstYear": 2018,
-      "lastYear": 2019
+      "lastYear": 2019,
+      "orcid": "0000-0002-7078-7094",
+      "scholar": "vrZushYAAAAJ",
+      "url": "https://www.rifs-potsdam.de/en/people/ben-boteler"
     },
     {
       "id": "elisabeth-druel",
@@ -111,7 +136,8 @@
       "self": false,
       "count": 3,
       "firstYear": 2015,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "url": "https://www.iddri.org/en/about-iddri/team/elisabeth-druel"
     },
     {
       "id": "guillermo-ortuno-crespo",
@@ -119,7 +145,10 @@
       "self": false,
       "count": 3,
       "firstYear": 2018,
-      "lastYear": 2019
+      "lastYear": 2019,
+      "orcid": "0000-0001-8029-5387",
+      "url": "https://www.stockholmresilience.org/contact-us/staff/2020-02-11-ortuno-crespo.html",
+      "scholar": "qxpYFzEAAAAJ"
     },
     {
       "id": "isabel-seeger",
@@ -127,7 +156,8 @@
       "self": false,
       "count": 3,
       "firstYear": 2018,
-      "lastYear": 2018
+      "lastYear": 2018,
+      "url": "https://www.ecologic.eu/17829"
     },
     {
       "id": "marjo-vierros",
@@ -135,7 +165,9 @@
       "self": false,
       "count": 3,
       "firstYear": 2020,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0000-0001-5316-9297",
+      "url": "https://researchportal.helsinki.fi/en/persons/346dc999-52b3-41a5-82ae-977e47a4fdd0"
     },
     {
       "id": "morgane-bouvet",
@@ -159,7 +191,8 @@
       "self": false,
       "count": 2,
       "firstYear": 2017,
-      "lastYear": 2017
+      "lastYear": 2017,
+      "orcid": "0000-0003-4202-373X"
     },
     {
       "id": "anne-marie-o-hagan",
@@ -167,7 +200,9 @@
       "self": false,
       "count": 2,
       "firstYear": 2015,
-      "lastYear": 2017
+      "lastYear": 2017,
+      "orcid": "0000-0001-9155-150X",
+      "scholar": "YO4zSwoAAAAJ"
     },
     {
       "id": "aria-finkelstein",
@@ -191,7 +226,9 @@
       "self": false,
       "count": 2,
       "firstYear": 2022,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0000-0003-2928-496X",
+      "scholar": "NuHJxZ0AAAAJ"
     },
     {
       "id": "daniel-dunn",
@@ -199,7 +236,10 @@
       "self": false,
       "count": 2,
       "firstYear": 2018,
-      "lastYear": 2019
+      "lastYear": 2019,
+      "orcid": "0000-0001-8932-0681",
+      "scholar": "W1fQoOoAAAAJ",
+      "url": "https://cbcs.centre.uq.edu.au/profile/3059/daniel-dunn"
     },
     {
       "id": "daniel-kachelriess",
@@ -207,7 +247,10 @@
       "self": false,
       "count": 2,
       "firstYear": 2022,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0000-0003-2574-0075",
+      "url": "https://highseasalliance.org/meet-the-hsa-staff",
+      "scholar": "gewzAeYAAAAJ"
     },
     {
       "id": "gabriele-goettsche-wanli",
@@ -215,7 +258,8 @@
       "self": false,
       "count": 2,
       "firstYear": 2022,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0009-0001-1753-4880"
     },
     {
       "id": "jiska-de-groot",
@@ -231,7 +275,9 @@
       "self": false,
       "count": 2,
       "firstYear": 2022,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0000-0002-2631-2251",
+      "url": "https://highseasalliance.org/meet-the-hsa-staff/mariamalia-rodriguez-chaves"
     },
     {
       "id": "robin-warner",
@@ -239,7 +285,10 @@
       "self": false,
       "count": 2,
       "firstYear": 2016,
-      "lastYear": 2018
+      "lastYear": 2018,
+      "orcid": "0000-0002-6453-6344",
+      "url": "https://scholars.uow.edu.au/robin-warner",
+      "scholar": "V2_kyd8AAAAJ"
     },
     {
       "id": "romain-schumm",
@@ -263,7 +312,10 @@
       "self": false,
       "count": 2,
       "firstYear": 2016,
-      "lastYear": 2022
+      "lastYear": 2022,
+      "orcid": "0000-0002-8725-2889",
+      "scholar": "Qg87PEgAAAAJ",
+      "url": "https://www.iofc.ch/torsten-thiele"
     },
     {
       "id": "yvonne-waweru",
@@ -271,7 +323,8 @@
       "self": false,
       "count": 2,
       "firstYear": 2016,
-      "lastYear": 2017
+      "lastYear": 2017,
+      "url": "https://oceanaccounts.org/publications/ocean-accounts-fellows"
     },
     {
       "id": "a-clark",
@@ -303,7 +356,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2023,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0000-0003-4193-6385",
+      "scholar": "5RkkrjIAAAAJ"
     },
     {
       "id": "aulani-wilhelm",
@@ -311,7 +366,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0000-0003-2011-6505",
+      "url": "https://www.niatero.org/our-leadership"
     },
     {
       "id": "barbara-neumann",
@@ -319,7 +376,8 @@
       "self": false,
       "count": 1,
       "firstYear": 2021,
-      "lastYear": 2021
+      "lastYear": 2021,
+      "scholar": "7-w4K1wAAAAJ"
     },
     {
       "id": "costa-rica",
@@ -343,7 +401,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0000-0001-6338-6244",
+      "url": "https://danlaffoley.com"
     },
     {
       "id": "daniel-c-dunn",
@@ -351,7 +411,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2019,
-      "lastYear": 2019
+      "lastYear": 2019,
+      "orcid": "0000-0001-8932-0681",
+      "scholar": "W1fQoOoAAAAJ"
     },
     {
       "id": "daniel-kechelriess",
@@ -367,7 +429,10 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0000-0002-0456-4343",
+      "scholar": "1NuG-_4AAAAJ",
+      "url": "https://nautiluslive.org/people/daniel-wagner"
     },
     {
       "id": "david-leary",
@@ -375,7 +440,10 @@
       "self": false,
       "count": 1,
       "firstYear": 2011,
-      "lastYear": 2011
+      "lastYear": 2011,
+      "orcid": "0000-0003-3852-4769",
+      "url": "https://www.uts.edu.au/staff/david.leary",
+      "scholar": "uXtWiJ0AAAAJ"
     },
     {
       "id": "eleanor-browne",
@@ -407,7 +475,10 @@
       "self": false,
       "count": 1,
       "firstYear": 2020,
-      "lastYear": 2020
+      "lastYear": 2020,
+      "orcid": "0000-0002-5476-4669",
+      "scholar": "a-TXIcMAAAAJ",
+      "url": "https://experts.griffith.edu.au/8143-fran-humphries"
     },
     {
       "id": "francois-simard",
@@ -423,7 +494,10 @@
       "self": false,
       "count": 1,
       "firstYear": 2018,
-      "lastYear": 2018
+      "lastYear": 2018,
+      "orcid": "0000-0003-4333-1988",
+      "url": "https://www.uvic.ca/socialsciences/environmental/faculty-staff/profiles/singh-gerald.php",
+      "scholar": "Icv15lYAAAAJ"
     },
     {
       "id": "graham-steel",
@@ -439,7 +513,8 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0009-0005-5218-5865"
     },
     {
       "id": "ina-tessnow-von-wysocki",
@@ -447,7 +522,10 @@
       "self": false,
       "count": 1,
       "firstYear": 2023,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0000-0003-1038-9059",
+      "scholar": "YHiYJiYAAAAJ",
+      "url": "https://www.rifs-potsdam.de/en/people/ina-tamara-tessnow-von-wysocki"
     },
     {
       "id": "janna-jana-shackeroff",
@@ -479,7 +557,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "url": "https://marviva.net/en/team",
+      "scholar": "tPirGbwAAAAJ"
     },
     {
       "id": "k-gjerde",
@@ -487,7 +567,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2018,
-      "lastYear": 2018
+      "lastYear": 2018,
+      "orcid": "0000-0001-9025-7632",
+      "scholar": "SUh8nUEAAAAJ"
     },
     {
       "id": "kate-johnson",
@@ -503,7 +585,8 @@
       "self": false,
       "count": 1,
       "firstYear": 2015,
-      "lastYear": 2015
+      "lastYear": 2015,
+      "url": "https://www.iddri.org/en/about-iddri/team/katherine-houghton"
     },
     {
       "id": "laura-weiand",
@@ -519,7 +602,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2018,
-      "lastYear": 2018
+      "lastYear": 2018,
+      "orcid": "0000-0002-2858-8622",
+      "scholar": "byZ6O0sAAAAJ"
     },
     {
       "id": "lora-l-nordtvedt",
@@ -543,7 +628,8 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "url": "https://www.iddri.org/en/about-iddri/team"
     },
     {
       "id": "lucien-chabason",
@@ -559,7 +645,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0000-0002-7937-988X",
+      "url": "https://www.ciimar.up.pt/teams/deep-sea-biodiversity-and-conservation"
     },
     {
       "id": "martin-bentley",
@@ -575,7 +663,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2019,
-      "lastYear": 2019
+      "lastYear": 2019,
+      "orcid": "0000-0002-6746-4649",
+      "url": "https://deep-sea-conservation.org"
     },
     {
       "id": "michelle-maloney",
@@ -599,7 +689,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2022,
-      "lastYear": 2022
+      "lastYear": 2022,
+      "orcid": "0000-0002-1440-3260",
+      "scholar": "_tFhs-wAAAAJ"
     },
     {
       "id": "nichola-clark",
@@ -607,7 +699,10 @@
       "self": false,
       "count": 1,
       "firstYear": 2019,
-      "lastYear": 2019
+      "lastYear": 2019,
+      "orcid": "0000-0002-1440-3260",
+      "scholar": "_tFhs-wAAAAJ",
+      "url": "https://www.pew.org/en/about/experts/nichola-clark"
     },
     {
       "id": "nicole-wienrich",
@@ -615,7 +710,8 @@
       "self": false,
       "count": 1,
       "firstYear": 2018,
-      "lastYear": 2018
+      "lastYear": 2018,
+      "orcid": "0000-0001-9621-4924"
     },
     {
       "id": "niko-soininen",
@@ -631,7 +727,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0000-0001-5538-0600",
+      "url": "https://law.nus.edu.sg/people/nilufer-oral"
     },
     {
       "id": "o-hagan",
@@ -647,7 +745,10 @@
       "self": false,
       "count": 1,
       "firstYear": 2019,
-      "lastYear": 2019
+      "lastYear": 2019,
+      "orcid": "0000-0001-5845-3588",
+      "scholar": "5UZKY-oAAAAJ",
+      "url": "https://nicholas.duke.edu/people/faculty/halpin"
     },
     {
       "id": "peggy-kalas",
@@ -655,7 +756,8 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "url": "https://oceanoazulfoundation.org/who-we-are"
     },
     {
       "id": "phenia-marras-ait-razouk",
@@ -671,7 +773,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2018,
-      "lastYear": 2018
+      "lastYear": 2018,
+      "orcid": "0000-0001-7502-1664",
+      "scholar": "SpiUTz4AAAAJ"
     },
     {
       "id": "rachael-salcido",
@@ -695,7 +799,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0000-0002-9465-6814",
+      "url": "https://www.bluenaturealliance.org/about/leadership/ryan-dolan"
     },
     {
       "id": "sabrina-guduff",
@@ -719,7 +825,8 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0000-0002-1307-1655"
     },
     {
       "id": "simon-jude",
@@ -727,7 +834,8 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0000-0001-6737-7476"
     },
     {
       "id": "sylvain-deville",
@@ -743,7 +851,9 @@
       "self": false,
       "count": 1,
       "firstYear": 2016,
-      "lastYear": 2016
+      "lastYear": 2016,
+      "orcid": "0009-0004-2777-3844",
+      "url": "https://missionblue.org"
     },
     {
       "id": "thorsten-thiele",
@@ -751,7 +861,10 @@
       "self": false,
       "count": 1,
       "firstYear": 2023,
-      "lastYear": 2023
+      "lastYear": 2023,
+      "orcid": "0000-0002-8725-2889",
+      "scholar": "Qg87PEgAAAAJ",
+      "url": "https://www.iofc.ch/torsten-thiele"
     },
     {
       "id": "wright-g",

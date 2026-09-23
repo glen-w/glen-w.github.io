@@ -146,6 +146,7 @@
       "title": "The Dark Frontier: Unlocking the Secrets of the Deep Sea",
       "year": 2026,
       "type": "Book",
+      "nocount": true,
       "month": 1,
       "roles": [
         "interview",

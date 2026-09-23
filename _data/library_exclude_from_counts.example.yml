@@ -1,0 +1,6 @@
+# Copy to library_exclude_from_counts.yml (gitignored) and list titles or BibTeX keys.
+# Excluded works still appear in /library/; they are omitted from type/role/language counts.
+#
+# - "Example Book Title"
+# - DarkFrontier
+[]

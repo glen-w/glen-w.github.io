@@ -18,12 +18,15 @@
     q: "",
     kind: null,
     value: "",
+    type: null,
+    role: null,
     selectedOnly: false,
     catalogUrl: "",
     detailsUrl: "",
   };
 
   const els = {};
+  const filterMeta = new Map();
 
   document.addEventListener("DOMContentLoaded", init);
 
@@ -64,9 +67,20 @@
 
   function bindUi() {
     document.querySelectorAll(".library-filters [data-filter]").forEach((chip) => {
+      const value = chip.dataset.filter;
+      const kind = chip.dataset.kind;
+      const text = chip.textContent.trim();
+      const countMatch = text.match(/^(.*)\s+\((\d+)\)\s*$/);
+      filterMeta.set(chip, {
+        kind,
+        value,
+        label: countMatch ? countMatch[1] : text,
+        baseCount: countMatch ? Number(countMatch[2]) : 0,
+      });
       chip.addEventListener("click", (event) => {
         event.preventDefault();
-        applyChip(chip.dataset.filter, chip.dataset.kind);
+        if (chip.disabled) return;
+        applyChip(value, kind);
       });
     });
 
@@ -91,6 +105,9 @@
               state.q = "";
               state.kind = null;
               state.value = "";
+              state.type = null;
+              state.role = null;
+              syncFilterBadges();
             }
             render();
             return;
@@ -100,7 +117,9 @@
           state.q = term.toLowerCase();
           state.kind = "text";
           state.value = term;
-          clearActiveChips();
+          state.type = null;
+          state.role = null;
+          syncFilterBadges();
           render();
         }, 300);
       });
@@ -151,6 +170,8 @@
       state.q = hash.toLowerCase();
       state.kind = "text";
       state.value = hash;
+      state.type = null;
+      state.role = null;
     }
   }
 
@@ -162,11 +183,27 @@
   function applyChip(value, kind, { render: shouldRender = true } = {}) {
     state.selectedOnly = false;
     updateSelectedButton();
+
+    if (kind === "type" || kind === "role") {
+      const key = kind === "type" ? "type" : "role";
+      if (state[key] === value) state[key] = null;
+      else state[key] = value;
+      state.kind = null;
+      state.value = "";
+      state.q = "";
+      if (els.search) els.search.value = "";
+      syncFilterBadges();
+      if (shouldRender) render();
+      return;
+    }
+
+    state.type = null;
+    state.role = null;
     state.kind = kind || "text";
     state.value = value;
     state.q = value.toLowerCase();
     if (els.search) els.search.value = value;
-    setActiveChip(value);
+    syncFilterBadges();
     if (shouldRender) render();
   }
 
@@ -174,9 +211,11 @@
     state.kind = null;
     state.value = "";
     state.q = "";
+    state.type = null;
+    state.role = null;
     state.selectedOnly = false;
     if (!keepSearch && els.search) els.search.value = "";
-    clearActiveChips();
+    syncFilterBadges();
     updateSelectedButton();
   }
 
@@ -186,8 +225,10 @@
       state.kind = null;
       state.value = "";
       state.q = "";
+      state.type = null;
+      state.role = null;
       if (els.search) els.search.value = "";
-      clearActiveChips();
+      syncFilterBadges();
     } else if (state.kind === "selected") {
       state.kind = null;
     }
@@ -203,19 +244,59 @@
       : '<i class="fas fa-eye" aria-hidden="true"></i> show selected publications';
   }
 
-  function setActiveChip(value) {
-    clearActiveChips();
-    document.querySelectorAll(".library-filters [data-filter]").forEach((chip) => {
-      const active = chip.dataset.filter === value;
-      chip.classList.toggle("active", active);
-      chip.setAttribute("aria-pressed", active ? "true" : "false");
-    });
+  function countsTowardFilters(item) {
+    return !item.nocount;
   }
 
-  function clearActiveChips() {
+  function countItemsFor(kind, value) {
+    return state.items.reduce((total, item) => {
+      if (!countsTowardFilters(item)) return total;
+      if (kind === "type") {
+        if ((item.type || "") !== value) return total;
+        if (state.role && !(item.roles || []).includes(state.role)) return total;
+        return total + 1;
+      }
+      if (kind === "role") {
+        if (!(item.roles || []).includes(value)) return total;
+        if (state.type && (item.type || "") !== state.type) return total;
+        return total + 1;
+      }
+      return total;
+    }, 0);
+  }
+
+  function syncFilterBadges() {
     document.querySelectorAll(".library-filters [data-filter]").forEach((chip) => {
-      chip.classList.remove("active");
-      chip.setAttribute("aria-pressed", "false");
+      const meta = filterMeta.get(chip);
+      if (!meta) return;
+      const { kind, value, label, baseCount } = meta;
+      let active = false;
+      let count = baseCount;
+      let unavailable = false;
+
+      if (kind === "type") {
+        active = state.type === value;
+        if (state.role) {
+          count = countItemsFor("type", value);
+          unavailable = count === 0 && !active;
+        }
+      } else if (kind === "role") {
+        active = state.role === value;
+        if (state.type) {
+          count = countItemsFor("role", value);
+          unavailable = count === 0 && !active;
+        }
+      } else if (kind === "lang") {
+        active = state.kind === "lang" && state.value === value;
+      }
+
+      chip.textContent = `${label} (${count})`;
+      chip.classList.toggle("active", active);
+      chip.classList.toggle("is-unavailable", unavailable);
+      chip.disabled = unavailable;
+      chip.setAttribute("aria-pressed", active ? "true" : "false");
+      if (unavailable) chip.setAttribute("aria-disabled", "true");
+      else chip.removeAttribute("aria-disabled");
     });
   }
 
@@ -224,14 +305,11 @@
   }
 
   function itemMatches(item) {
+    if (state.type && (item.type || "") !== state.type) return false;
+    if (state.role && !(item.roles || []).includes(state.role)) return false;
+
     if (!state.kind || !state.value) return true;
 
-    if (state.kind === "type") {
-      return (item.type || "") === state.value;
-    }
-    if (state.kind === "role") {
-      return (item.roles || []).includes(state.value);
-    }
     if (state.kind === "lang") {
       return (item.langs || []).includes(state.value.toLowerCase());
     }
@@ -599,7 +677,7 @@
 
   function updateCount(count) {
     if (!els.countDisplay || !els.countText) return;
-    const filtering = Boolean(state.kind && state.value);
+    const filtering = Boolean(state.type || state.role || (state.kind && state.value));
     if (!filtering) {
       els.countDisplay.style.display = "none";
       els.countDisplay.classList.remove("show");
@@ -673,8 +751,10 @@
     state.q = hash.toLowerCase();
     state.kind = "text";
     state.value = hash;
+    state.type = null;
+    state.role = null;
     if (els.search) els.search.value = hash;
-    clearActiveChips();
+    syncFilterBadges();
     render();
   }
 

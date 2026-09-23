@@ -62,10 +62,14 @@ A full library run (or `--catalog-only`) writes:
 - `assets/json/coauthors.json` — collaboration graph for `/network/` (co-authors tab; people, edges, works)
 - `assets/json/citations.json` — citation network for `/network/` (citations tab; OpenAlex, cached Scholar citers, Semantic Scholar)
 - `_data/library_selected.yml` — noscript selected list
-- `_data/collaborators.yml` — frequent collaborators (2+ shared works) for the noscript list
-- `_data/citers.yml` — frequent citers (2+ papers citing Glen) for `/network/`
+- `_data/library_exclude_from_counts.yml` — optional local list of titles/BibTeX keys omitted from filter counts (gitignored; copy from `library_exclude_from_counts.example.yml`)
+- `_data/collaborators.yml` — frequent collaborators (2+ shared works) for the explore list; may include `orcid` / `url` / `scholar` from Twenty (`people_profiles.yml`)
+- `_data/citers.yml` — frequent citers (2+ papers citing Glen) for the explore list; includes `orcid` / website `url` / `scholar` when known
+- `_data/people_profiles.yml` — ORCID + homepage + Scholar export from Twenty CRM (Untangle); see [`PEOPLE_PROFILES.md`](PEOPLE_PROFILES.md)
 - `_data/coauthor_aliases.yml` — optional forced name merges for the co-author graph
 - `_data/openalex.yml` — citation-network build config (`author_id`, `seed`, caps)
+
+Twenty REST (`twenty_people.py --fetch`) needs `TWENTY_API_KEY` and `TWENTY_BASE_URL` in the environment (see `.env.example`). Scratch dumps go in gitignored paths (`.twenty/`, `people_dump*.json`). Do not put Tailscale MagicDNS hosts or API keys in source.
 
 Refresh the citation graph (needs network; use an API key — never commit it):
 

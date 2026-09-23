@@ -371,10 +371,53 @@ def build_coauthor_graph(
     }
 
 
+def enrich_people_profiles(graph: Dict[str, Any], project_root: str) -> None:
+    """Attach ORCID / website URLs onto co-author people from on-disk sources."""
+    from processing.library.person_profile import (
+        attach_profile_fields,
+        load_citation_profiles,
+        load_coauthor_urls,
+    )
+    from processing.library.twenty_people import load_people_profiles
+
+    twenty_profiles = load_people_profiles(project_root)
+    citation_profiles = load_citation_profiles(project_root)
+    coauthor_urls = load_coauthor_urls(project_root)
+    if not twenty_profiles and not citation_profiles and not coauthor_urls:
+        return
+
+    for person in graph.get("people") or []:
+        if not isinstance(person, dict) or person.get("self"):
+            continue
+        # Drop OpenAlex/Scholar stand-ins so only website icons remain.
+        person.pop("url", None)
+        attach_profile_fields(
+            person,
+            str(person.get("name") or ""),
+            twenty_profiles=twenty_profiles,
+            citation_profiles=citation_profiles,
+            coauthor_urls=coauthor_urls,
+        )
+
+
 def collaborators_list(
-    graph: Dict[str, Any], *, min_count: int = MIN_LIST_COLLABORATIONS
+    graph: Dict[str, Any],
+    *,
+    min_count: int = MIN_LIST_COLLABORATIONS,
+    project_root: Optional[str] = None,
 ) -> List[Dict[str, Any]]:
     """Frequent collaborators for the noscript YAML list (excludes self)."""
+    from processing.library.person_profile import (
+        attach_profile_fields,
+        load_citation_profiles,
+        load_coauthor_urls,
+    )
+    from processing.library.twenty_people import load_people_profiles
+
+    twenty_profiles = load_people_profiles(project_root) if project_root else {}
+    citation_profiles = load_citation_profiles(project_root) if project_root else {}
+    coauthor_urls = load_coauthor_urls(project_root) if project_root else {}
+
     rows = []
     for person in graph.get("people") or []:
         if person.get("self"):
@@ -382,7 +425,22 @@ def collaborators_list(
         count = int(person.get("count") or 0)
         if count < min_count:
             continue
-        rows.append({"name": person["name"], "count": count})
+        row: Dict[str, Any] = {"name": person["name"], "count": count}
+        if person.get("orcid"):
+            row["orcid"] = person["orcid"]
+        if person.get("url"):
+            row["url"] = person["url"]
+        if person.get("scholar"):
+            row["scholar"] = person["scholar"]
+        if "orcid" not in row or "url" not in row or "scholar" not in row:
+            attach_profile_fields(
+                row,
+                person["name"],
+                twenty_profiles=twenty_profiles,
+                citation_profiles=citation_profiles,
+                coauthor_urls=coauthor_urls,
+            )
+        rows.append(row)
     rows.sort(key=lambda row: (-row["count"], row["name"].lower()))
     return rows
 
@@ -392,6 +450,8 @@ def write_coauthor_artifacts(
     graph: Dict[str, Any],
 ) -> Tuple[str, str]:
     """Write ``coauthors.json`` and ``collaborators.yml``; return their paths."""
+    enrich_people_profiles(graph, project_root)
+
     json_dir = os.path.join(project_root, "assets", "json")
     data_dir = os.path.join(project_root, "_data")
     os.makedirs(json_dir, exist_ok=True)
@@ -403,7 +463,7 @@ def write_coauthor_artifacts(
         handle.write("\n")
 
     list_path = os.path.join(data_dir, "collaborators.yml")
-    rows = collaborators_list(graph)
+    rows = collaborators_list(graph, project_root=project_root)
     with open(list_path, "w", encoding="utf-8") as handle:
         yaml.dump(rows, handle, default_flow_style=False, allow_unicode=True, sort_keys=False)
 

@@ -231,5 +231,67 @@ class TestLibraryIndexShell:
         assert 'jumpToHash({ retry: true })' in src
         assert 'function jumpToHash({ retry = false } = {})' in src
         assert 'textContent = "selected publications"' in src
-        assert '(item.type || "") === state.value' in src
+        assert '(item.type || "") !== state.type' in src
+        assert 'state.role && !(item.roles || []).includes(state.role)' in src
+        assert 'function syncFilterBadges()' in src
         assert 'setTimeout(filterItems(searchTerm), 300)' not in src
+
+
+@pytest.mark.library
+class TestCumulativeBadgeFilters:
+    """Contracts for AND type+role filters, toggle-off, and opposite-set greying."""
+
+    def test_js_holds_independent_type_and_role_with_toggle(self):
+        src = (PROJECT_ROOT / 'assets' / 'js' / 'library.js').read_text(encoding='utf-8')
+        assert 'type: null,' in src
+        assert 'role: null,' in src
+        assert 'if (state[key] === value) state[key] = null;' in src
+        assert 'else state[key] = value;' in src
+        assert 'chip.disabled = unavailable;' in src
+        assert 'if (chip.disabled) return;' in src
+        # Type/role must clear search text, not copy the badge label into it.
+        apply_block = src.split('function applyChip(', 1)[1].split('function clearFilters', 1)[0]
+        assert 'if (els.search) els.search.value = "";' in apply_block
+        assert 'if (els.search) els.search.value = value;' in apply_block
+        type_role_arm = apply_block.split('if (kind === "type" || kind === "role")', 1)[1]
+        assert 'els.search.value = "";' in type_role_arm.split('return;', 1)[0]
+        assert 'els.search.value = value;' not in type_role_arm.split('return;', 1)[0]
+
+    def test_unavailable_badge_styles_present(self):
+        src = LIBRARY.read_text(encoding='utf-8')
+        assert '.library-filters .filter-tags button.is-unavailable' in src
+        assert 'cursor: not-allowed' in src
+        assert 'opacity: 0.4' in src
+
+    def test_catalog_intersection_matches_conference_organiser(self):
+        import json
+
+        catalog = json.loads(
+            (PROJECT_ROOT / 'assets' / 'json' / 'library.json').read_text(encoding='utf-8')
+        )
+        items = catalog['items']
+
+        def matches(item, typ=None, role=None):
+            if typ and (item.get('type') or '') != typ:
+                return False
+            if role and role not in (item.get('roles') or []):
+                return False
+            return True
+
+        both = [i for i in items if matches(i, typ='Conference', role='organiser')]
+        conf_only = [i for i in items if matches(i, typ='Conference')]
+        org_only = [i for i in items if matches(i, role='organiser')]
+        assert len(both) >= 1
+        assert len(both) < len(conf_only)
+        assert len(both) < len(org_only)
+        # Opposite-set greying: some types have zero organisers.
+        types = {i.get('type') for i in items if i.get('type')}
+        zero_org_types = [
+            t for t in types if not any(matches(i, typ=t, role='organiser') for i in items)
+        ]
+        assert zero_org_types
+        # Sibling types that share organiser stay available for switching.
+        other_org_types = {
+            i.get('type') for i in org_only if i.get('type') and i.get('type') != 'Conference'
+        }
+        assert other_org_types

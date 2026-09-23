@@ -286,6 +286,28 @@
     return `<ul>${lis}</ul>`;
   }
 
+  function profileLinkHtml(person) {
+    if (!person || person.self) return "";
+    const bits = [];
+    if (person.orcid) {
+      bits.push(
+        `<a href="${escapeAttr(`https://orcid.org/${person.orcid}`)}" rel="noopener noreferrer" target="_blank" title="ORCID">ORCID</a>`
+      );
+    }
+    if (person.url && !String(person.url).includes("orcid.org") && !String(person.url).includes("scholar.google")) {
+      bits.push(
+        `<a href="${escapeAttr(person.url)}" rel="noopener noreferrer" target="_blank" title="Website">Website</a>`
+      );
+    }
+    if (person.scholar) {
+      bits.push(
+        `<a href="${escapeAttr(`https://scholar.google.com/citations?user=${person.scholar}`)}" rel="noopener noreferrer" target="_blank" title="Google Scholar">Scholar</a>`
+      );
+    }
+    if (!bits.length) return "";
+    return `<p class="meta">${bits.join(" · ")}</p>`;
+  }
+
   function showPerson(person) {
     state.selected = { type: "person", id: person.id };
     const years =
@@ -312,6 +334,7 @@
     els.panel.innerHTML = `
       <h3>${escapeHtml(person.name)}</h3>
       <p class="meta">${escapeHtml(meta)}</p>
+      ${profileLinkHtml(person)}
       ${workListHtml(ids)}
     `;
   }

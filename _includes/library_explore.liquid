@@ -66,18 +66,53 @@
     </div>
 
     {% if site.data.collaborators and site.data.collaborators.size > 0 %}
-    <section class="collaborators-list" aria-labelledby="collaborators-list-heading">
-      <h2 id="collaborators-list-heading">Frequent collaborators</h2>
-      <p>People with at least two shared works. Open a name in the library filter.</p>
+    <details class="people-list collaborators-list">
+      <summary id="collaborators-list-heading">
+        Frequent collaborators
+        <span class="people-list-count">({{ site.data.collaborators.size }})</span>
+      </summary>
+      <p>People with at least two shared works. ORCID, website, and Scholar icons come from Twenty when known.</p>
       <ul>
         {% for person in site.data.collaborators %}
           <li>
             <a href="{{ '/library/' | relative_url }}#{{ person.name | url_encode | replace: '+', '%20' }}">{{ person.name }}</a>
+            <span class="person-profile-icons">
+              {% if person.orcid %}
+                <a
+                  class="person-profile-icon"
+                  href="https://orcid.org/{{ person.orcid }}"
+                  title="ORCID"
+                  aria-label="ORCID for {{ person.name }}"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                ><i class="ai ai-orcid" aria-hidden="true"></i></a>
+              {% endif %}
+              {% if person.url %}
+                <a
+                  class="person-profile-icon"
+                  href="{{ person.url }}"
+                  title="Website"
+                  aria-label="Website for {{ person.name }}"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                ><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
+              {% endif %}
+              {% if person.scholar %}
+                <a
+                  class="person-profile-icon"
+                  href="https://scholar.google.com/citations?user={{ person.scholar }}"
+                  title="Google Scholar"
+                  aria-label="Google Scholar for {{ person.name }}"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                ><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+              {% endif %}
+            </span>
             <span class="collaborators-count">({{ person.count }})</span>
           </li>
         {% endfor %}
       </ul>
-    </section>
+    </details>
     {% endif %}
   </div>
 
@@ -118,18 +153,53 @@
     </div>
 
     {% if site.data.citers and site.data.citers.size > 0 %}
-    <section class="citers-list" aria-labelledby="citers-list-heading">
-      <h2 id="citers-list-heading">Frequent citers</h2>
-      <p>Authors who cite Glen’s work at least twice.</p>
+    <details class="people-list citers-list">
+      <summary id="citers-list-heading">
+        Frequent citers
+        <span class="people-list-count">({{ site.data.citers.size }})</span>
+      </summary>
+      <p>Authors who cite Glen’s work at least twice. ORCID, website, and Scholar icons come from Twenty when known.</p>
       <ul>
         {% for person in site.data.citers %}
           <li>
             <span class="citers-name">{{ person.name }}</span>
+            <span class="person-profile-icons">
+              {% if person.orcid %}
+                <a
+                  class="person-profile-icon"
+                  href="https://orcid.org/{{ person.orcid }}"
+                  title="ORCID"
+                  aria-label="ORCID for {{ person.name }}"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                ><i class="ai ai-orcid" aria-hidden="true"></i></a>
+              {% endif %}
+              {% if person.url %}
+                <a
+                  class="person-profile-icon"
+                  href="{{ person.url }}"
+                  title="Website"
+                  aria-label="Website for {{ person.name }}"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                ><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
+              {% endif %}
+              {% if person.scholar %}
+                <a
+                  class="person-profile-icon"
+                  href="https://scholar.google.com/citations?user={{ person.scholar }}"
+                  title="Google Scholar"
+                  aria-label="Google Scholar for {{ person.name }}"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                ><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+              {% endif %}
+            </span>
             <span class="citers-count">({{ person.count }})</span>
           </li>
         {% endfor %}
       </ul>
-    </section>
+    </details>
     {% else %}
     <p class="citations-missing">
       No citation graph yet. Run
@@ -362,20 +432,53 @@
   color: var(--global-theme-color);
 }
 
-.collaborators-list,
-.citers-list {
-  margin-top: 0.5rem;
+.people-list {
+  margin-top: 0.75rem;
   max-width: 40rem;
 }
 
-.collaborators-list h2,
-.citers-list h2 {
+.people-list > summary {
+  cursor: pointer;
   font-size: 1.25rem;
-  margin-bottom: 0.35rem;
+  font-weight: 600;
+  list-style: revert;
 }
 
-.collaborators-list ul {
+.people-list > summary .people-list-count {
+  font-weight: 400;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+.people-list > p {
+  margin: 0.5rem 0 0.35rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+.people-list ul {
   padding-left: 1.2rem;
+  margin: 0.35rem 0 0;
+}
+
+.person-profile-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: 0.2rem;
+  vertical-align: middle;
+}
+
+.person-profile-icon {
+  color: var(--global-text-color-light);
+  font-size: 0.85em;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.person-profile-icon:hover,
+.person-profile-icon:focus {
+  color: var(--global-theme-color);
 }
 
 .collaborators-count,
