@@ -2,7 +2,7 @@
 layout: page
 permalink: /network/
 title: network
-description: Co-author and citation networks drawn from the library catalogue — who Glen has published with and who cites whom.
+description: Co-author and citation networks, plus a career timeline, drawn from the library catalogue.
 nav: false
 network: true
 ---
@@ -10,7 +10,7 @@ network: true
 <p class="network-intro">
   Networks built from the
   <a href="{{ '/library/' | relative_url }}">library</a>.
-  Use the tabs to switch between co-authors (shared publications) and citations (who cites Glen, and who Glen cites).
+  Use the tabs to switch between co-authors, citations, and a timeline of the catalogue by year.
 </p>
 
 <div id="networkApp" class="network-app">
@@ -36,6 +36,17 @@ network: true
       data-tab="citations"
     >
       Citations
+    </button>
+    <button
+      type="button"
+      class="network-tab"
+      role="tab"
+      id="network-tab-timeline"
+      aria-controls="network-panel-timeline"
+      aria-selected="false"
+      data-tab="timeline"
+    >
+      Timeline
     </button>
   </div>
 
@@ -148,10 +159,61 @@ network: true
     {% endif %}
   </div>
 
+  <div
+    role="tabpanel"
+    id="network-panel-timeline"
+    class="network-panel"
+    data-tab="timeline"
+    aria-labelledby="network-tab-timeline"
+    hidden
+  >
+    <p class="network-panel-intro">
+      Catalogue items by year. Bars stack by kind of work; switch to role to see the primary role on each item.
+      Drag the lower chart to focus a span of years.
+    </p>
+
+    <div
+      id="timelineApp"
+      class="timeline-app"
+      data-catalog="{{ '/assets/json/library.json' | relative_url | bust_file_cache }}"
+    >
+      <div class="timeline-toolbar">
+        <div class="timeline-modes" role="group" aria-label="Stack by">
+          <button type="button" class="timeline-mode is-active" data-mode="type" aria-pressed="true">Type</button>
+          <button type="button" class="timeline-mode" data-mode="role" aria-pressed="false">Role</button>
+        </div>
+        <label class="timeline-range">
+          From
+          <select id="timelineFrom" aria-label="From year"></select>
+        </label>
+        <label class="timeline-range">
+          To
+          <select id="timelineTo" aria-label="To year"></select>
+        </label>
+        <p id="timelineStatus" class="timeline-status" aria-live="polite"></p>
+      </div>
+
+      <div class="timeline-layout">
+        <div class="timeline-canvas-wrap">
+          <svg id="timelineCanvas" class="timeline-canvas" role="img" aria-label="Career timeline of library items by year"></svg>
+          <svg id="timelineContext" class="timeline-context" role="img" aria-label="Year range brush"></svg>
+        </div>
+        <aside id="timelinePanel" class="timeline-panel" aria-live="polite">
+          <p class="timeline-panel-empty">Click a bar to see the works in that year.</p>
+        </aside>
+      </div>
+      <ul id="timelineLegend" class="timeline-legend"></ul>
+    </div>
+  </div>
+
   <script>
     (function () {
-      var initial =
-        window.location.hash.toLowerCase() === "#citations" ? "citations" : "coauthors";
+      var hash = window.location.hash.toLowerCase();
+      var initial = hash.indexOf("#citations") === 0
+        ? "citations"
+        : hash.indexOf("#timeline") === 0
+          ? "timeline"
+          : "coauthors";
       var tabs = document.querySelectorAll("#networkApp .network-tab");
       var panels = document.querySelectorAll("#networkApp .network-panel");
       tabs.forEach(function (tab) {
@@ -360,9 +422,167 @@ network: true
   color: var(--global-text-color-light);
 }
 
+.timeline-app {
+  margin: 0 0 2rem;
+}
+
+.timeline-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-modes {
+  display: inline-flex;
+  gap: 0.35rem;
+}
+
+.timeline-mode {
+  border: 1px solid var(--global-divider-color);
+  background: transparent;
+  color: var(--global-text-color);
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.6rem;
+  cursor: pointer;
+}
+
+.timeline-mode.is-active {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+.timeline-range {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.timeline-range select {
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  padding: 0.15rem 0.35rem;
+}
+
+.timeline-status {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+
+.timeline-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.timeline-canvas-wrap {
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-bg-color);
+  min-height: 22rem;
+  padding: 0.5rem 0.5rem 0.25rem;
+}
+
+.timeline-canvas {
+  width: 100%;
+  height: 18rem;
+  display: block;
+}
+
+.timeline-context {
+  width: 100%;
+  height: 3.25rem;
+  display: block;
+  touch-action: none;
+}
+
+.timeline-panel {
+  border: 1px solid var(--global-divider-color);
+  padding: 0.9rem 1rem;
+  font-size: 0.95rem;
+  overflow: auto;
+  max-height: 28rem;
+}
+
+.timeline-panel-empty {
+  margin: 0;
+  color: var(--global-text-color-light);
+}
+
+.timeline-panel h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.timeline-panel .meta,
+.timeline-panel .timeline-links {
+  margin: 0 0 0.75rem;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+.timeline-panel ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.timeline-panel li {
+  margin: 0.35rem 0;
+}
+
+.timeline-panel a {
+  color: var(--global-theme-color);
+}
+
+.timeline-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.9rem;
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+}
+
+.timeline-legend button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 0;
+  background: transparent;
+  color: var(--global-text-color);
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+.timeline-swatch {
+  width: 0.7rem;
+  height: 0.7rem;
+  display: inline-block;
+}
+
+.timeline-brush .selection {
+  fill: var(--global-theme-color);
+  fill-opacity: 0.18;
+  stroke: var(--global-theme-color);
+}
+
+.timeline-brush .handle {
+  fill: var(--global-theme-color);
+}
+
 @media (max-width: 767.98px) {
   .coauthors-layout,
-  .citations-layout {
+  .citations-layout,
+  .timeline-layout {
     grid-template-columns: 1fr;
     min-height: 0;
   }
@@ -375,7 +595,8 @@ network: true
   }
 
   .coauthors-panel,
-  .citations-panel {
+  .citations-panel,
+  .timeline-panel {
     max-height: none;
     min-height: 10rem;
   }

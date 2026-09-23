@@ -29,9 +29,6 @@ medium_zoom: true
     <a href="/library/" id="clearFiltersLink" class="clear-filters-link">
       <i class="fas fa-times" aria-hidden="true"></i> Clear filters
     </a>
-    <a href="{{ '/network/' | relative_url }}" class="view-map-link">
-      <i class="fas fa-project-diagram" aria-hidden="true"></i> View network
-    </a>
   </div>
 
   <div class="library-filters">
@@ -77,6 +74,9 @@ medium_zoom: true
       <button type="button" class="view-map-link" id="mapToggleBtn" aria-pressed="false">
         <i class="fas fa-map-marker-alt" aria-hidden="true"></i> view map
       </button>
+      <a href="{{ '/network/' | relative_url }}" class="view-map-link">
+        <i class="fas fa-project-diagram" aria-hidden="true"></i> Visualise
+      </a>
       <button type="button" class="view-map-link" id="selectedToggleBtn" aria-pressed="false">
         <i class="fas fa-eye" aria-hidden="true"></i> show selected publications
       </button>
@@ -250,6 +250,10 @@ medium_zoom: true
   background-color: #dee2e6 !important;
   color: var(--global-theme-color) !important;
   border-color: var(--global-theme-color) !important;
+}
+
+.selected-publications {
+  margin-bottom: 1rem;
 }
 
 .publications img.preview {

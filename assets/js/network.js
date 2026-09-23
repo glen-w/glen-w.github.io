@@ -17,9 +17,12 @@
       });
 
       if (updateHash) {
-        const hash = id === "citations" ? "#citations" : "#co-authors";
-        if (window.location.hash !== hash) {
-          history.replaceState(null, "", hash);
+        const hash =
+          id === "citations" ? "#citations" : id === "timeline" ? "#timeline" : "#co-authors";
+        if (window.location.hash.toLowerCase() !== hash) {
+          const url = new URL(window.location.href);
+          url.hash = hash;
+          history.replaceState(null, "", url);
         }
       }
 
@@ -35,7 +38,11 @@
 
     function syncFromHash() {
       const hash = window.location.hash.toLowerCase();
-      const id = hash === "#citations" ? "citations" : "coauthors";
+      const id = hash.startsWith("#citations")
+        ? "citations"
+        : hash.startsWith("#timeline")
+          ? "timeline"
+          : "coauthors";
       showTab(id, { updateHash: false });
     }
   });

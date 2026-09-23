@@ -86,7 +86,7 @@
             if (!state.selectedOnly) clearFilters({ keepSearch: false });
             else {
               state.q = "";
-              state.kind = "selected";
+              state.kind = null;
               state.value = "";
             }
             render();
@@ -171,12 +171,12 @@
   function toggleSelected() {
     state.selectedOnly = !state.selectedOnly;
     if (state.selectedOnly) {
-      state.kind = "selected";
+      state.kind = null;
       state.value = "";
       state.q = "";
       if (els.search) els.search.value = "";
       clearActiveChips();
-    } else {
+    } else if (state.kind === "selected") {
       state.kind = null;
     }
     updateSelectedButton();
@@ -212,9 +212,6 @@
   }
 
   function itemMatches(item) {
-    if (state.selectedOnly || state.kind === "selected") {
-      return Boolean(item.selected);
-    }
     if (!state.kind || !state.value) return true;
 
     if (state.kind === "type") {
@@ -236,9 +233,10 @@
 
   function render() {
     const matches = matchingItems();
+    const selected = state.selectedOnly ? state.items.filter((item) => item.selected) : [];
     const fragment = document.createDocumentFragment();
 
-    if (!matches.length) {
+    if (!matches.length && !selected.length) {
       els.results.replaceChildren();
       const empty = document.createElement("p");
       empty.id = "libraryStatus";
@@ -252,28 +250,18 @@
       return;
     }
 
-    if (state.selectedOnly) {
+    if (selected.length) {
+      const block = document.createElement("section");
+      block.className = "selected-publications";
       const selectedHeading = document.createElement("h2");
       selectedHeading.className = "bibliography";
       selectedHeading.textContent = "selected publications";
-      fragment.appendChild(selectedHeading);
+      block.appendChild(selectedHeading);
+      appendYearGroups(block, selected, { idSuffix: "--selected" });
+      fragment.appendChild(block);
     }
 
-    let currentYear = null;
-    let list = null;
-    matches.forEach((item) => {
-      if (item.year !== currentYear) {
-        currentYear = item.year;
-        const heading = document.createElement("h2");
-        heading.className = "bibliography";
-        heading.textContent = String(item.year || "");
-        fragment.appendChild(heading);
-        list = document.createElement("ol");
-        list.className = "bibliography";
-        fragment.appendChild(list);
-      }
-      list.appendChild(renderCard(item));
-    });
+    appendYearGroups(fragment, matches);
 
     els.results.replaceChildren(fragment);
     els.status = null;
@@ -281,6 +269,24 @@
     updateCount(matches.length);
     notifyProgressBar();
     watchResultImages();
+  }
+
+  function appendYearGroups(parent, items, { idSuffix = "" } = {}) {
+    let currentYear = null;
+    let list = null;
+    items.forEach((item) => {
+      if (item.year !== currentYear) {
+        currentYear = item.year;
+        const heading = document.createElement("h2");
+        heading.className = "bibliography";
+        heading.textContent = String(item.year || "");
+        parent.appendChild(heading);
+        list = document.createElement("ol");
+        list.className = "bibliography";
+        parent.appendChild(list);
+      }
+      list.appendChild(renderCard(item, { idSuffix }));
+    });
   }
 
   function notifyProgressBar() {
@@ -298,7 +304,7 @@
     });
   }
 
-  function renderCard(item) {
+  function renderCard(item, { idSuffix = "" } = {}) {
     const li = document.createElement("li");
     const row = document.createElement("div");
     row.className = "row";
@@ -325,7 +331,7 @@
 
     const body = document.createElement("div");
     body.className = "col-sm-8";
-    body.id = item.id;
+    body.id = `${item.id}${idSuffix}`;
 
     const title = document.createElement("div");
     title.className = "title";
@@ -463,7 +469,7 @@
     event.preventDefault();
     const panel = button.dataset.expand;
     const itemId = button.dataset.itemId;
-    const card = document.getElementById(itemId);
+    const card = button.closest(".col-sm-8");
     if (!card) return;
 
     try {
@@ -581,7 +587,7 @@
 
   function updateCount(count) {
     if (!els.countDisplay || !els.countText) return;
-    const filtering = Boolean(state.kind || state.selectedOnly);
+    const filtering = Boolean(state.kind && state.value);
     if (!filtering) {
       els.countDisplay.style.display = "none";
       els.countDisplay.classList.remove("show");
