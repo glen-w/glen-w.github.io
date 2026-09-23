@@ -35,6 +35,12 @@
       });
     }
 
+    window.addEventListener("network:tab", (event) => {
+      if (event.detail?.tab === "coauthors" && state.people.length) {
+        requestAnimationFrame(() => renderGraph());
+      }
+    });
+
     try {
       setStatus("Loading collaboration map…");
       const response = await fetch(state.graphUrl, { credentials: "same-origin" });
@@ -100,6 +106,7 @@
     setStatus(label);
 
     const wrap = els.root.querySelector(".coauthors-canvas-wrap");
+    if (wrap && wrap.clientWidth === 0) return;
     const width = Math.max(wrap ? wrap.clientWidth : 640, 320);
     const height = Math.max(wrap ? wrap.clientHeight : 448, 320);
 

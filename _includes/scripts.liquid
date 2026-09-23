@@ -49,8 +49,8 @@
   <script defer src="{{ '/assets/js/mermaid-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.coauthors %}
-  <!-- Co-author collaboration graph -->
+{% if page.network or page.coauthors or page.citations %}
+  <!-- Publication network graphs -->
   <script
     defer
     src="{{ site.third_party_libraries.d3.url.js }}"
@@ -58,17 +58,10 @@
     crossorigin="anonymous"
   ></script>
   <script defer src="{{ '/assets/js/coauthors.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
-{% endif %}
-
-{% if page.citations %}
-  <!-- Citation network graph -->
-  <script
-    defer
-    src="{{ site.third_party_libraries.d3.url.js }}"
-    integrity="{{ site.third_party_libraries.d3.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
   <script defer src="{{ '/assets/js/citations.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+  {% if page.network %}
+    <script defer src="{{ '/assets/js/network.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+  {% endif %}
 {% endif %}
 
 {% if page.code_diff %}

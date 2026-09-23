@@ -29,11 +29,8 @@ medium_zoom: true
     <a href="/library/" id="clearFiltersLink" class="clear-filters-link">
       <i class="fas fa-times" aria-hidden="true"></i> Clear filters
     </a>
-    <a href="{{ '/collaborators/' | relative_url }}" class="view-map-link">
-      <i class="fas fa-project-diagram" aria-hidden="true"></i> Co-author map
-    </a>
-    <a href="{{ '/citations/' | relative_url }}" class="view-map-link">
-      <i class="fas fa-exchange-alt" aria-hidden="true"></i> Citation map
+    <a href="{{ '/network/' | relative_url }}" class="view-map-link">
+      <i class="fas fa-project-diagram" aria-hidden="true"></i> View network
     </a>
   </div>
 
