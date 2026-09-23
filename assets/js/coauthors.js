@@ -120,14 +120,16 @@
       .domain([yearMin, yearMax])
       .interpolator(d3.interpolateYlGnBu);
 
-    // Exclude self from the scale so its high count does not flatten others.
+    // Glen stays the largest node. Collaborator radii still spread with count,
+    // but the top of that scale stays under him.
+    const selfRadius = 22;
     const maxCount =
       d3.max(
         people.filter((d) => !d.self),
         (d) => d.count || 1
       ) || 1;
-    const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([7, 30]);
-    const radius = (d) => (d.self ? 14 : radiusScale(d.count || 1));
+    const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([7, selfRadius - 4]);
+    const radius = (d) => (d.self ? selfRadius : radiusScale(d.count || 1));
     const maxEdge = d3.max(edges, (d) => d.count || 1) || 1;
     const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1.25, 5]);
     const crowded = people.length > 35;
@@ -231,8 +233,13 @@
       .append("title")
       .text((d) => `${d.name} · ${d.count || 0} shared`);
 
-    const labels = node
-      .append("text")
+    // Labels sit in their own layer so later nodes cannot cover earlier names.
+    const labels = g
+      .append("g")
+      .attr("class", "node-labels")
+      .selectAll("text")
+      .data(nodes)
+      .join("text")
       .attr("class", "network-node-label")
       .text((d) => d.name.split(" ").slice(-1)[0])
       .attr("x", 0)
@@ -301,6 +308,7 @@
         .attr("x2", (d) => d.target.x)
         .attr("y2", (d) => d.target.y);
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+      labels.attr("transform", (d) => `translate(${d.x},${d.y})`);
     });
 
     if (state.reduceMotion) {
@@ -312,6 +320,7 @@
         .attr("x2", (d) => d.target.x)
         .attr("y2", (d) => d.target.y);
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+      labels.attr("transform", (d) => `translate(${d.x},${d.y})`);
     }
   }
 
