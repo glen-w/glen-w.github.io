@@ -1,7 +1,7 @@
 # Career timeline plan — glenwright.earth
 
-**Status:** implemented on `/network/#timeline` (type/role stack, year brush, library links). Month axis and domain mode remain later.  
-**Depends on:** existing `assets/json/library.json` (+ D3 patterns from `/network/`)  
+**Status:** implemented on `/library/#timeline` (type/role stack, From/To year range, library + public GitHub code marks). Month axis and domain mode remain later.  
+**Depends on:** existing `assets/json/library.json` (+ D3 patterns from `/library/#explore`); optional `assets/json/code-repos.json` from `processing/library/github_repos.py`  
 **Related (later):** [Domain engagement timeline](#later-domain-engagement-timeline) — needs durable domain tags from Paperful first
 
 Off-site / life planning lives in Untangle:  
@@ -107,6 +107,15 @@ Reuse: [`_pages/network.md`](../../_pages/network.md), [`assets/js/network.js`](
 - Domain / topic tags (see below).
 - Resume employment blocks (`assets/json/resume.json`) — different story; do not merge unless explicitly requested later.
 - Replacing the library year headings or the map page.
+- Commit-volume or contribution-heatmap metrics (code marks are unique public repos per year from `created_at` / `pushed_at` only).
+
+### Code series refresh
+
+```bash
+PYTHONPATH=. python processing/library/github_repos.py
+```
+
+Writes [`assets/json/code-repos.json`](../../assets/json/code-repos.json). Timeline merges those marks as type `Code`. Optional `GITHUB_TOKEN` / `GH_TOKEN` for higher API limits.
 
 ---
 

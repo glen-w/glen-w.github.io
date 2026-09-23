@@ -52,3 +52,22 @@ This is a **public website**. Visitor-facing UI should not explain internals
 (data sources like Twenty/Zotero, pipeline thresholds, “when known”, how icons
 are populated). Prefer labels and self-evident UI; put docs in `processing/`
 READMEs or agent notes, not in rendered Liquid/HTML.
+
+## Link checking (before merge / after URL or template edits)
+
+CI runs offline lychee on the built site after deploy
+(`.github/workflows/broken-links-site.yml`). Catch the same class of failures
+locally before pushing:
+
+1. **Source (fast):** `npm run check:links` — scans content/templates; flags
+   invalid `http(s)` URLs (pasted title+URL, whitespace in host, mashed URLs)
+   and missing local asset paths.
+2. **CI parity (needs `_site`):** `npm run check:links:ci` — after
+   `bundle exec jekyll build`, fails on invalid URLs and `file://` (what
+   offline lychee treats as hard errors). Soft-reports other missing locals.
+3. **Full site inventory:** `npm run check:links:site` — all missing local
+   targets (noisier; useful for cleanup, not as a gate).
+
+`npm run prerelease:links` runs (1) then (2). If `_site` is missing, build
+first. When editing posts, includes, layouts, or asset paths, run at least
+`check:links`; run `check:links:ci` when the change affects rendered hrefs.
