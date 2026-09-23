@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-library",
           title: "library",
-          description: "",
+          description: "Publications on BBNJ, ocean governance, marine renewable energy, and the energy transition — journal articles, reports, and related work by Glen Wright.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/library/";
@@ -67,7 +67,7 @@ ninja.data = [{
               },
             },{id: "nav-cv",
           title: "cv",
-          description: "",
+          description: "CV for Glen Wright — independent researcher and consultant on ocean governance, energy transition, and facilitation; Sciences Po adjunct.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -2420,7 +2420,7 @@ ninja.data = [{
               window.location.href = "/books/a-general-theory-of-love/";
             },},{id: "books-academia-obscura",
           title: 'Academia Obscura',
-          description: "",
+          description: "Academia Obscura — Glen Wright’s book on the hidden silly side of higher education (Unbound, 2017/2018).",
           section: "Books",handler: () => {
               window.location.href = "/books/academia-obscura/";
             },},{id: "books-adult-children-of-alcoholics",
@@ -3468,16 +3468,16 @@ ninja.data = [{
           description: "Climate Change Solutions Conference",
           section: "Library",handler: () => {
               window.location.href = "/library/climate-change-solutions-conference/";
-            },},{id: "library-student-protest-on-campus",
-          title: 'Student Protest on Campus',
-          description: "Student Protest on Campus",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-student-protest-campus/";
             },},{id: "library-fossil-fools-day",
           title: 'Fossil Fools Day',
           description: "Fossil Fools Day",
           section: "Library",handler: () => {
               window.location.href = "/library/fossil-fools-day/";
+            },},{id: "library-student-protest-on-campus",
+          title: 'Student Protest on Campus',
+          description: "Student Protest on Campus",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-student-protest-campus/";
             },},{id: "library-designing-climate-law-a-comparative-analysis-of-the-us-and-eu",
           title: 'Designing Climate Law: A Comparative Analysis of the US and EU',
           description: "As evidence of anthropogenic climate change mounts there is a growing concern with, and a pressing need for, legal regimes to curtail the problem. This concern culminated in the recent climate change conference in Copenhagen.",
@@ -3498,6 +3498,11 @@ ninja.data = [{
           description: "Model United Nations",
           section: "Library",handler: () => {
               window.location.href = "/library/model-united-nations/";
+            },},{id: "library-environmental-law-in-developing-countries-challenges-and-prospects",
+          title: 'Environmental Law in Developing Countries: Challenges and Prospects',
+          description: "Environmental Law in Developing Countries: Challenges and Prospects",
+          section: "Library",handler: () => {
+              window.location.href = "/library/environmental-law-developing-countries-challenges-prospects/";
             },},{id: "library-conceptualising-and-combating-transnational-environmental-crime",
           title: 'Conceptualising and combating transnational environmental crime',
           description: "To date, transnational environmental crime has been poorly attended to by the transnational organised crime and transnational policing discourse.",
@@ -3533,11 +3538,11 @@ ninja.data = [{
           description: "Marine Energy in Australia and New Zealand: Regulatory Barriers and Policy Measures",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-marine-energy-australia-new-zealand-regulatory-barriers-policy-measures/";
-            },},{id: "library-environmental-law-in-developing-countries-challenges-and-prospects",
-          title: 'Environmental Law in Developing Countries: Challenges and Prospects',
-          description: "Environmental Law in Developing Countries: Challenges and Prospects",
+            },},{id: "library-marine-renewable-energy-an-overview-of-applicable-australian-legistlation-and-regulatory-bodies",
+          title: 'Marine Renewable Energy: an overview of applicable Australian legistlation and regulatory bodies',
+          description: "Marine Renewable Energy: an overview of applicable Australian legistlation and regulatory bodies",
           section: "Library",handler: () => {
-              window.location.href = "/library/environmental-law-developing-countries-challenges-prospects/";
+              window.location.href = "/library/glen-wright-marine-renewable-energy-overview-applicable-australian-legistlation-regulatory-bodies/";
             },},{id: "library-submission-to-the-australian-energy-market-commission-aemc-distribution-network-planning-and-expansion-framework-ministerial-council-on-energy-mce-rule-change-request",
           title: 'Submission to the Australian Energy Market Commission (AEMC): Distribution Network Planning and Expansion...',
           description: "Submission to the Australian Energy Market Commission (AEMC): Distribution Network Planning and Expansion Framework, Ministerial Council on Energy (MCE) Rule Change Request",
@@ -3558,11 +3563,6 @@ ninja.data = [{
           description: "Submission to the Australian Energy Market Commission (AEMC): National Electricity Amendment (Total Factor Productivity for Distribution Network Regulation) Rule",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-submission-australian-energy-market-commission-aemc-national-electricity-amendment-total-factor-productivity-distribution-network-regulation-rule/";
-            },},{id: "library-marine-renewable-energy-an-overview-of-applicable-australian-legistlation-and-regulatory-bodies",
-          title: 'Marine Renewable Energy: an overview of applicable Australian legistlation and regulatory bodies',
-          description: "Marine Renewable Energy: an overview of applicable Australian legistlation and regulatory bodies",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-renewable-energy-overview-applicable-australian-legistlation-regulatory-bodies/";
             },},{id: "library-submission-to-the-australian-energy-market-commission-economic-regulation-of-network-service-providers-consultation-on-request-for-a-rule-change",
           title: 'Submission to the Australian Energy Market Commission: Economic Regulation of Network Service Providers...',
           description: "Submission to the Australian Energy Market Commission: Economic Regulation of Network Service Providers (Consultation on Request for a Rule Change)",
@@ -3573,6 +3573,21 @@ ninja.data = [{
           description: "Australian National University student delegation to Rio+20",
           section: "Library",handler: () => {
               window.location.href = "/library/australian-national-university-student-delegation-rio-20/";
+            },},{id: "library-fair-ideas-sharing-solutions-for-a-sustainable-planet",
+          title: 'Fair Ideas: Sharing Solutions for a Sustainable Planet',
+          description: "Fair Ideas: Sharing Solutions for a Sustainable Planet",
+          section: "Library",handler: () => {
+              window.location.href = "/library/fair-ideas-sharing-solutions-sustainable-planet/";
+            },},{id: "library-animal-rights-and-the-rights-of-nature-a-brief-overview",
+          title: 'Animal Rights and the Rights of Nature, a brief overview',
+          description: "Animal Rights and the Rights of Nature, a brief overview",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-animal-rights-rights-nature-brief-overview/";
+            },},{id: "library-the-anu-rio-20-project-rio-20-lacking-on-energy",
+          title: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy',
+          description: "The ANU Rio+20 Project: Rio+20 Lacking on Energy",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-anu-rio-20-project-rio-20-lacking-energy/";
             },},{id: "library-demand-management-targets-for-networks-in-the-national-electricity-market",
           title: 'Demand management targets for networks in the National Electricity Market',
           description: "Demand management targets for networks in the National Electricity Market",
@@ -3583,16 +3598,56 @@ ninja.data = [{
           description: "The Energy Challenge: Renewables at Rio+20",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-energy-challenge-renewables-rio-20/";
+            },},{id: "library-environmental-implications-of-increasing-demand-management-in-the-national-electricity-market",
+          title: 'Environmental implications of increasing demand management in the National Electricity Market',
+          description: "Environmental implications of increasing demand management in the National Electricity Market",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-environmental-implications-increasing-demand-management-national-electricity-market/";
+            },},{id: "library-submission-to-the-australian-competition-and-consumer-commission-certification-trade-mark-application-no-1435347-australian-poultry-industries-association",
+          title: 'Submission to the Australian Competition and Consumer Commission: Certification Trade Mark Application No....',
+          description: "Submission to the Australian Competition and Consumer Commission: Certification Trade Mark Application No. 1435347 (Australian Poultry Industries Association)",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-submission-australian-competition-consumer-commission-certification-trade-mark-application-no-1435347-australian-poultry-industries-association/";
+            },},{id: "library-unwired-options-for-increasing-network-demand-management-in-the-national-electricity-market",
+          title: 'Unwired: Options for Increasing Network Demand Management in the National Electricity Market',
+          description: "Unwired: Options for Increasing Network Demand Management in the National Electricity Market",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-unwired-options-increasing-network-demand-management-national-electricity-market/";
             },},{id: "library-facilitating-efficient-augmentation-of-transmission-networks-to-connect-renewable-energy-generation-the-australian-experience",
           title: 'Facilitating efficient augmentation of transmission networks to connect renewable energy generation: the Australian...',
           description: "Facilitating efficient augmentation of transmission networks to connect renewable energy generation: the Australian experience",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-facilitating-efficient-augmentation-transmission-networks-connect-renewable-energy-generation-australian-experience/";
+            },},{id: "library-the-future-we-definitely-don-t-want",
+          title: 'The Future we (Definitely Don’t) Want',
+          description: "The Future we (Definitely Don’t) Want",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-future-definitely-dont-want/";
+            },},{id: "library-the-future-of-environmental-law-earth-jurisprudence-wild-law-and-the-rights-of-nature",
+          title: 'The Future of Environmental Law? Earth Jurisprudence, Wild Law and the Rights of...',
+          description: "The Future of Environmental Law? Earth Jurisprudence, Wild Law and the Rights of Nature",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-future-environmental-law-earth-jurisprudence-wild-law-rights-nature/";
             },},{id: "library-marine-energy-designing-a-regulatory-framework-for-an-abundant-renewable-energy-resource-poster",
           title: 'Marine Energy: Designing a Regulatory Framework for an Abundant Renewable Energy Resource (Poster)...',
           description: "Marine Energy: Designing a Regulatory Framework for an Abundant Renewable Energy Resource (Poster)",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-marine-energy-designing-regulatory-framework-abundant-renewable-energy-resource-poster/";
+            },},{id: "library-marine-genetic-resources-in-areas-beyond-national-jurisdiction-an-annotated-bibliography",
+          title: 'Marine Genetic Resources in Areas Beyond National Jurisdiction: an annotated bibliography',
+          description: "Marine Genetic Resources in Areas Beyond National Jurisdiction: an annotated bibliography",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-genetic-resources-areas-beyond-national-jurisdiction-annotated-bibliography/";
+            },},{id: "library-marine-renewable-energy-in-australia-the-urgent-need-for-regulatory-reform",
+          title: 'Marine Renewable Energy in Australia: the urgent need for regulatory reform',
+          description: "Marine Renewable Energy in Australia: the urgent need for regulatory reform",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-renewable-energy-australia-urgent-need-regulatory-reform/";
+            },},{id: "library-marine-renewable-energy-effectively-balancing-the-needs-of-developers-and-potential-environmental-impacts-an-australasian-perspective",
+          title: 'Marine Renewable Energy: Effectively Balancing the Needs of Developers and Potential Environmental Impacts,...',
+          description: "Marine Renewable Energy: Effectively Balancing  the Needs of Developers and  Potential Environmental Impacts, an Australasian Perspective",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-renewable-energy-effectively-balancing-needs-developers-potential-environmental-impacts-australasian-perspective/";
             },},{id: "library-marine-renewable-energy-legal-and-policy-challenges-to-integrating-an-emerging-renewable-energy-source",
           title: 'Marine Renewable Energy: Legal and Policy Challenges to Integrating an Emerging Renewable Energy...',
           description: "Marine Renewable Energy: Legal and Policy Challenges to Integrating an Emerging Renewable Energy Source",
@@ -3603,6 +3658,31 @@ ninja.data = [{
           description: "The National Electricity Market and the Environment: Are we heading in the right direction?",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-national-electricity-market-environment-heading-right-direction/";
+            },},{id: "library-ngos-and-western-hegemony-causes-for-concern-and-ideas-for-change",
+          title: 'NGOs and Western hegemony: causes for concern and ideas for change',
+          description: "Since their rise to prominence in the post-World War II period, NGOs have grown exponentially in size and stature. This growth has occurred most notably under the New Policy Agenda, with Western donor states emphasising the role of NGOs in democratisation and service provision.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-ngos-western-hegemony-causes-concern-ideas-change/";
+            },},{id: "library-recent-global-developments-in-marine-renewable-energy",
+          title: 'Recent global developments in marine renewable energy',
+          description: "Recent global developments in marine renewable energy",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-recent-global-developments-marine-renewable-energy/";
+            },},{id: "library-rio-20-crucial-summit-hard-times",
+          title: 'Rio+20: crucial summit, hard times',
+          description: "Rio+20: crucial summit, hard times",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-rio-20-crucial-summit-hard-times/";
+            },},{id: "library-rio-20-the-end-of-the-road",
+          title: 'Rio+20, The End of the Road',
+          description: "Rio+20, The End of the Road",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-rio-20-end-road/";
+            },},{id: "library-submission-to-the-australian-climate-change-authority-renewable-energy-target-review",
+          title: 'Submission to the Australian Climate Change Authority: Renewable Energy Target review',
+          description: "Submission to the Australian Climate Change Authority: Renewable Energy Target review",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-submission-australian-climate-change-authority-renewable-energy-target-review/";
             },},{id: "library-submission-to-the-australian-energy-market-commission-aemc-small-generation-aggregator-framework",
           title: 'Submission to the Australian Energy Market Commission (AEMC): Small Generation Aggregator Framework',
           description: "Submission to the Australian Energy Market Commission (AEMC): Small Generation Aggregator Framework",
@@ -3613,11 +3693,36 @@ ninja.data = [{
           description: "Submission to the Australian Energy Regulator: Review of Limited Merits Review Regime",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-submission-australian-energy-regulator-review-limited-merits-review-regime/";
+            },},{id: "library-submission-to-national-australian-built-environment-rating-system-nabers-administrator-review-of-nabers-ruling-on-proportioning-of-energy-used-by-cogeneration-or-trigeneration-systems",
+          title: 'Submission to National Australian Built Environment Rating System (NABERS) Administrator: Review of NABERS...',
+          description: "Submission to National Australian Built Environment Rating System (NABERS) Administrator: Review of NABERS Ruling on Proportioning of Energy used by Cogeneration or Trigeneration Systems",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-submission-national-australian-built-environment-rating-system-nabers-administrator-review-nabers-ruling-proportioning-energy-used-cogeneration-trigeneration-systems/";
+            },},{id: "library-systemic-biases-in-the-national-electricity-market-barriers-to-demand-side-participation",
+          title: 'Systemic Biases in the National Electricity Market: Barriers to Demand-side Participation',
+          description: "Systemic Biases in the National Electricity Market: Barriers to Demand-side Participation",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-systemic-biases-national-electricity-market-barriers-demand-side-participation/";
+            },},{id: "library-wild-law",
+          title: 'Wild Law',
+          description: "Wild Law",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-wild-law/";
+            },},{id: "library-international-association-for-impact-assessment-annual-conference",
+          title: 'International Association for Impact Assessment Annual Conference',
+          description: "International Association for Impact Assessment Annual Conference",
+          section: "Library",handler: () => {
+              window.location.href = "/library/international-association-impact-assessment-annual-conference/";
             },},{id: "library-submission-to-the-australian-energy-market-commission-aemc-power-of-choice-review",
           title: 'Submission to the Australian Energy Market Commission (AEMC): Power of Choice Review',
           description: "Submission to the Australian Energy Market Commission (AEMC): Power of Choice Review",
           section: "Library",handler: () => {
               window.location.href = "/library/submission-australian-energy-market-commission-aemc-power-choice-review/";
+            },},{id: "library-submission-to-the-australian-energy-regulator-aer-preliminary-framework-and-approach-ausgrid-endeavour-energy-and-essential-energy-regulatory-control-period-commencing-1-july-2014",
+          title: 'Submission to the Australian Energy Regulator (AER): Preliminary Framework and Approach - Ausgrid,...',
+          description: "Submission to the Australian Energy Regulator (AER): Preliminary Framework and Approach - Ausgrid, Endeavour Energy and Essential Energy Regulatory control period commencing 1 July 2014",
+          section: "Library",handler: () => {
+              window.location.href = "/library/submission-australian-energy-regulator-aer-preliminary-framework-approach-ausgrid-endeavour-energy-essential-energy-regulatory-control-period-commencing-1-july-2014/";
             },},{id: "library-submission-to-the-australian-energy-regulator-powerlink-revenue-determination",
           title: 'Submission to the Australian Energy Regulator: Powerlink Revenue Determination',
           description: "Submission to the Australian Energy Regulator: Powerlink Revenue Determination",
@@ -3633,131 +3738,36 @@ ninja.data = [{
           description: "Submission to the Department of Climate Change and Energy Efficiency: Consultation on a national Energy Savings Initiative",
           section: "Library",handler: () => {
               window.location.href = "/library/submission-department-climate-change-energy-efficiency-consultation-national-energy-savings-initiative/";
-            },},{id: "library-submission-to-the-public-accounts-committee-inquiry-into-the-economics-of-energy-generation",
-          title: 'Submission to the Public Accounts Committee: Inquiry into the Economics of Energy Generation...',
-          description: "Submission to the Public Accounts Committee: Inquiry into the Economics of Energy Generation",
-          section: "Library",handler: () => {
-              window.location.href = "/library/submission-public-accounts-committee-inquiry-economics-energy-generation/";
-            },},{id: "library-marine-genetic-resources-in-areas-beyond-national-jurisdiction-an-annotated-bibliography",
-          title: 'Marine Genetic Resources in Areas Beyond National Jurisdiction: an annotated bibliography',
-          description: "Marine Genetic Resources in Areas Beyond National Jurisdiction: an annotated bibliography",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-genetic-resources-areas-beyond-national-jurisdiction-annotated-bibliography/";
-            },},{id: "library-systemic-biases-in-the-national-electricity-market-barriers-to-demand-side-participation",
-          title: 'Systemic Biases in the National Electricity Market: Barriers to Demand-side Participation',
-          description: "Systemic Biases in the National Electricity Market: Barriers to Demand-side Participation",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-systemic-biases-national-electricity-market-barriers-demand-side-participation/";
-            },},{id: "library-marine-renewable-energy-effectively-balancing-the-needs-of-developers-and-potential-environmental-impacts-an-australasian-perspective",
-          title: 'Marine Renewable Energy: Effectively Balancing the Needs of Developers and Potential Environmental Impacts,...',
-          description: "Marine Renewable Energy: Effectively Balancing  the Needs of Developers and  Potential Environmental Impacts, an Australasian Perspective",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-renewable-energy-effectively-balancing-needs-developers-potential-environmental-impacts-australasian-perspective/";
-            },},{id: "library-international-association-for-impact-assessment-annual-conference",
-          title: 'International Association for Impact Assessment Annual Conference',
-          description: "International Association for Impact Assessment Annual Conference",
-          section: "Library",handler: () => {
-              window.location.href = "/library/international-association-impact-assessment-annual-conference/";
-            },},{id: "library-fair-ideas-sharing-solutions-for-a-sustainable-planet",
-          title: 'Fair Ideas: Sharing Solutions for a Sustainable Planet',
-          description: "Fair Ideas: Sharing Solutions for a Sustainable Planet",
-          section: "Library",handler: () => {
-              window.location.href = "/library/fair-ideas-sharing-solutions-sustainable-planet/";
-            },},{id: "library-the-anu-rio-20-project-rio-20-lacking-on-energy",
-          title: 'The ANU Rio+20 Project: Rio+20 Lacking on Energy',
-          description: "The ANU Rio+20 Project: Rio+20 Lacking on Energy",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-anu-rio-20-project-rio-20-lacking-energy/";
-            },},{id: "library-the-future-we-definitely-don-t-want",
-          title: 'The Future we (Definitely Don’t) Want',
-          description: "The Future we (Definitely Don’t) Want",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-future-definitely-dont-want/";
-            },},{id: "library-rio-20-crucial-summit-hard-times",
-          title: 'Rio+20: crucial summit, hard times',
-          description: "Rio+20: crucial summit, hard times",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-rio-20-crucial-summit-hard-times/";
-            },},{id: "library-rio-20-the-end-of-the-road",
-          title: 'Rio+20, The End of the Road',
-          description: "Rio+20, The End of the Road",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-rio-20-end-road/";
-            },},{id: "library-marine-renewable-energy-in-australia-the-urgent-need-for-regulatory-reform",
-          title: 'Marine Renewable Energy in Australia: the urgent need for regulatory reform',
-          description: "Marine Renewable Energy in Australia: the urgent need for regulatory reform",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-renewable-energy-australia-urgent-need-regulatory-reform/";
-            },},{id: "library-submission-to-the-australian-competition-and-consumer-commission-certification-trade-mark-application-no-1435347-australian-poultry-industries-association",
-          title: 'Submission to the Australian Competition and Consumer Commission: Certification Trade Mark Application No....',
-          description: "Submission to the Australian Competition and Consumer Commission: Certification Trade Mark Application No. 1435347 (Australian Poultry Industries Association)",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-etal-submission-australian-competition-consumer-commission-certification-trade-mark-application-no-1435347-australian-poultry-industries-association/";
-            },},{id: "library-unwired-options-for-increasing-network-demand-management-in-the-national-electricity-market",
-          title: 'Unwired: Options for Increasing Network Demand Management in the National Electricity Market',
-          description: "Unwired: Options for Increasing Network Demand Management in the National Electricity Market",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-etal-unwired-options-increasing-network-demand-management-national-electricity-market/";
-            },},{id: "library-submission-to-the-australian-climate-change-authority-renewable-energy-target-review",
-          title: 'Submission to the Australian Climate Change Authority: Renewable Energy Target review',
-          description: "Submission to the Australian Climate Change Authority: Renewable Energy Target review",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-submission-australian-climate-change-authority-renewable-energy-target-review/";
-            },},{id: "library-submission-to-national-australian-built-environment-rating-system-nabers-administrator-review-of-nabers-ruling-on-proportioning-of-energy-used-by-cogeneration-or-trigeneration-systems",
-          title: 'Submission to National Australian Built Environment Rating System (NABERS) Administrator: Review of NABERS...',
-          description: "Submission to National Australian Built Environment Rating System (NABERS) Administrator: Review of NABERS Ruling on Proportioning of Energy used by Cogeneration or Trigeneration Systems",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-submission-national-australian-built-environment-rating-system-nabers-administrator-review-nabers-ruling-proportioning-energy-used-cogeneration-trigeneration-systems/";
-            },},{id: "library-submission-to-the-australian-energy-regulator-aer-preliminary-framework-and-approach-ausgrid-endeavour-energy-and-essential-energy-regulatory-control-period-commencing-1-july-2014",
-          title: 'Submission to the Australian Energy Regulator (AER): Preliminary Framework and Approach - Ausgrid,...',
-          description: "Submission to the Australian Energy Regulator (AER): Preliminary Framework and Approach - Ausgrid, Endeavour Energy and Essential Energy Regulatory control period commencing 1 July 2014",
-          section: "Library",handler: () => {
-              window.location.href = "/library/submission-australian-energy-regulator-aer-preliminary-framework-approach-ausgrid-endeavour-energy-essential-energy-regulatory-control-period-commencing-1-july-2014/";
-            },},{id: "library-wild-law",
-          title: 'Wild Law',
-          description: "Wild Law",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-wild-law/";
-            },},{id: "library-animal-rights-and-the-rights-of-nature-a-brief-overview",
-          title: 'Animal Rights and the Rights of Nature, a brief overview',
-          description: "Animal Rights and the Rights of Nature, a brief overview",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-animal-rights-rights-nature-brief-overview/";
-            },},{id: "library-ngos-and-western-hegemony-causes-for-concern-and-ideas-for-change",
-          title: 'NGOs and Western hegemony: causes for concern and ideas for change',
-          description: "Since their rise to prominence in the post-World War II period, NGOs have grown exponentially in size and stature. This growth has occurred most notably under the New Policy Agenda, with Western donor states emphasising the role of NGOs in democratisation and service provision.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-ngos-western-hegemony-causes-concern-ideas-change/";
-            },},{id: "library-recent-global-developments-in-marine-renewable-energy",
-          title: 'Recent global developments in marine renewable energy',
-          description: "Recent global developments in marine renewable energy",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-recent-global-developments-marine-renewable-energy/";
             },},{id: "library-submission-to-the-productivity-commission-electricity-network-regulatory-frameworks",
           title: 'Submission to the Productivity Commission: Electricity Network Regulatory Frameworks',
           description: "Submission to the Productivity Commission: Electricity Network Regulatory Frameworks",
           section: "Library",handler: () => {
               window.location.href = "/library/submission-productivity-commission-electricity-network-regulatory-frameworks/";
-            },},{id: "library-environmental-implications-of-increasing-demand-management-in-the-national-electricity-market",
-          title: 'Environmental implications of increasing demand management in the National Electricity Market',
-          description: "Environmental implications of increasing demand management in the National Electricity Market",
+            },},{id: "library-submission-to-the-public-accounts-committee-inquiry-into-the-economics-of-energy-generation",
+          title: 'Submission to the Public Accounts Committee: Inquiry into the Economics of Energy Generation...',
+          description: "Submission to the Public Accounts Committee: Inquiry into the Economics of Energy Generation",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-environmental-implications-increasing-demand-management-national-electricity-market/";
-            },},{id: "library-the-future-of-environmental-law-earth-jurisprudence-wild-law-and-the-rights-of-nature",
-          title: 'The Future of Environmental Law? Earth Jurisprudence, Wild Law and the Rights of...',
-          description: "The Future of Environmental Law? Earth Jurisprudence, Wild Law and the Rights of Nature",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-future-environmental-law-earth-jurisprudence-wild-law-rights-nature/";
+              window.location.href = "/library/submission-public-accounts-committee-inquiry-economics-energy-generation/";
             },},{id: "library-animal-law-and-earth-jurisprudence-a-comparative-analysis-of-the-status-of-animals-in-two-emerging-discourses",
           title: 'Animal Law and Earth Jurisprudence: A Comparative Analysis of the Status of Animals...',
           description: "Animal Law and Earth Jurisprudence: A Comparative Analysis of the Status of Animals in two Emerging Discourses",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-animal-law-earth-jurisprudence-comparative-analysis-status-animals-two-emerging-discourses/";
+            },},{id: "library-book-review-animal-harm-perspectives-on-why-people-harm-and-kill-animals",
+          title: 'Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals',
+          description: "Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-book-review-animal-harm-perspectives-why-people-harm-kill-animals/";
             },},{id: "library-climate-regulation-as-if-the-planet-mattered-the-earth-jurisprudence-approach-to-climate-change",
           title: 'Climate Regulation as if the Planet Mattered: the Earth Jurisprudence Approach to Climate...',
           description: "Climate Regulation as if the Planet Mattered: the Earth Jurisprudence Approach to Climate Change",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-climate-regulation-as-if-planet-mattered-earth-jurisprudence-approach-climate-change/";
+            },},{id: "library-control-mechanisms-for-new-south-wales-nsw-distribitution-network-service-providers-dnsps-2014-2019",
+          title: 'Control Mechanisms for New South Wales (NSW) Distribitution Network Service Providers (DNSPs), 2014-2019...',
+          description: "Control Mechanisms for New South Wales (NSW) Distribitution Network Service Providers (DNSPs), 2014-2019",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-control-mechanisms-new-south-wales-nsw-distribitution-network-service-providers-dnsps-2014-2019/";
             },},{id: "library-ocean-energy-a-legal-perspective",
           title: 'Ocean Energy: A Legal Perspective',
           description: "Ocean Energy: A Legal Perspective",
@@ -3768,11 +3778,21 @@ ninja.data = [{
           description: "The past year has seen several processes to reduce the price of electricity to consumers. Each has highlighted the importance of “demand management” - consumers reducing use at peak times to reduce the...",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-reducing-peak-demand-lowering-prices-what-emissions/";
+            },},{id: "library-reducing-peak-demand-targets-are-good-practice",
+          title: 'Reducing peak demand: targets are good practice',
+          description: "Better managing peak demand, the primary culprit behind recent rapid price rises across Australia, is a key challenge facing Eastern Australia’s National Electricity Market (NEM). To deal with peak demand...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-reducing-peak-demand-targets-good-practice/";
             },},{id: "library-reforming-the-national-electricity-objective",
           title: 'Reforming the National Electricity Objective',
           description: "Reforming the National Electricity Objective",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-reforming-national-electricity-objective/";
+            },},{id: "library-tackling-peak-power-demands",
+          title: 'Tackling peak power demands',
+          description: "Tackling peak power demands",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-tackling-peak-power-demands/";
             },},{id: "library-twitter-for-academics-amp-researchers",
           title: 'Twitter for Academics &amp;amp; Researchers',
           description: "Twitter for Academics &amp; Researchers",
@@ -3783,11 +3803,26 @@ ninja.data = [{
           description: "Virtual Net Metering",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-virtual-net-metering/";
+            },},{id: "library-submission-to-the-australian-energy-market-commission-aemc-draft-regulatory-investment-test-for-disctribution-and-application-guidelines-rit-d",
+          title: 'Submission to the Australian Energy Market Commission (AEMC): Draft regulatory investment test for...',
+          description: "Submission to the Australian Energy Market Commission (AEMC): Draft regulatory investment test for disctribution and application guidelines (RIT-D)",
+          section: "Library",handler: () => {
+              window.location.href = "/library/submission-australian-energy-market-commission-aemc-draft-regulatory-investment-test-disctribution-application-guidelines-rit-d/";
             },},{id: "library-submission-to-the-australian-energy-market-commission-aemc-review-of-distribution-reliability-outcomes-and-standards",
           title: 'Submission to the Australian Energy Market Commission (AEMC): Review of Distribution Reliability Outcomes...',
           description: "Submission to the Australian Energy Market Commission (AEMC): Review of Distribution Reliability Outcomes and Standards",
           section: "Library",handler: () => {
               window.location.href = "/library/submission-australian-energy-market-commission-aemc-review-distribution-reliability-outcomes-standards/";
+            },},{id: "library-submission-to-the-australian-energy-regulator-aer-regulatory-investment-test-distribution",
+          title: 'Submission to the Australian Energy Regulator (AER): Regulatory Investment Test - Distribution',
+          description: "Submission to the Australian Energy Regulator (AER): Regulatory Investment Test - Distribution",
+          section: "Library",handler: () => {
+              window.location.href = "/library/submission-australian-energy-regulator-aer-regulatory-investment-test-distribution/";
+            },},{id: "library-submission-to-the-department-of-resources-energy-amp-tourism-energy-efficiency-opportunities-program-new-developments-regulations",
+          title: 'Submission to the Department of Resources, Energy &amp;amp; Tourism: Energy Efficiency Opportunities Program...',
+          description: "Submission to the Department of Resources, Energy &amp; Tourism: Energy Efficiency Opportunities Program New Developments Regulations",
+          section: "Library",handler: () => {
+              window.location.href = "/library/submission-department-resources-energy-tourism-energy-efficiency-opportunities-program-new-developments-regulations/";
             },},{id: "library-submission-to-energy-consumer-advocacy-secretariat-a-national-electricity-consumer-body",
           title: 'Submission to Energy Consumer Advocacy Secretariat: A National Electricity Consumer Body',
           description: "Submission to Energy Consumer Advocacy Secretariat: A National Electricity Consumer Body",
@@ -3803,51 +3838,31 @@ ninja.data = [{
           description: "Submission to Queensland Government Department of Energy and Water Supply: 30-Year Electricity Strategy",
           section: "Library",handler: () => {
               window.location.href = "/library/submission-queensland-government-department-energy-water-supply-30-year-electricity-strategy/";
-            },},{id: "library-reducing-peak-demand-targets-are-good-practice",
-          title: 'Reducing peak demand: targets are good practice',
-          description: "Better managing peak demand, the primary culprit behind recent rapid price rises across Australia, is a key challenge facing Eastern Australia’s National Electricity Market (NEM). To deal with peak demand...",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-reducing-peak-demand-targets-good-practice/";
-            },},{id: "library-submission-to-the-australian-energy-regulator-aer-regulatory-investment-test-distribution",
-          title: 'Submission to the Australian Energy Regulator (AER): Regulatory Investment Test - Distribution',
-          description: "Submission to the Australian Energy Regulator (AER): Regulatory Investment Test - Distribution",
-          section: "Library",handler: () => {
-              window.location.href = "/library/submission-australian-energy-regulator-aer-regulatory-investment-test-distribution/";
-            },},{id: "library-tackling-peak-power-demands",
-          title: 'Tackling peak power demands',
-          description: "Tackling peak power demands",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-tackling-peak-power-demands/";
-            },},{id: "library-control-mechanisms-for-new-south-wales-nsw-distribitution-network-service-providers-dnsps-2014-2019",
-          title: 'Control Mechanisms for New South Wales (NSW) Distribitution Network Service Providers (DNSPs), 2014-2019...',
-          description: "Control Mechanisms for New South Wales (NSW) Distribitution Network Service Providers (DNSPs), 2014-2019",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-control-mechanisms-new-south-wales-nsw-distribitution-network-service-providers-dnsps-2014-2019/";
-            },},{id: "library-submission-to-the-department-of-resources-energy-amp-tourism-energy-efficiency-opportunities-program-new-developments-regulations",
-          title: 'Submission to the Department of Resources, Energy &amp;amp; Tourism: Energy Efficiency Opportunities Program...',
-          description: "Submission to the Department of Resources, Energy &amp; Tourism: Energy Efficiency Opportunities Program New Developments Regulations",
-          section: "Library",handler: () => {
-              window.location.href = "/library/submission-department-resources-energy-tourism-energy-efficiency-opportunities-program-new-developments-regulations/";
-            },},{id: "library-book-review-animal-harm-perspectives-on-why-people-harm-and-kill-animals",
-          title: 'Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals',
-          description: "Book Review: Animal Harm: Perspectives on Why People Harm and Kill Animals",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-book-review-animal-harm-perspectives-why-people-harm-kill-animals/";
             },},{id: "library-sumbission-to-the-australian-energy-market-commission-aemc-strategic-priorities",
           title: 'Sumbission to the Australian Energy Market Commission (AEMC): Strategic priorities',
           description: "Sumbission to the Australian Energy Market Commission (AEMC): Strategic priorities",
           section: "Library",handler: () => {
               window.location.href = "/library/sumbission-australian-energy-market-commission-aemc-strategic-priorities/";
-            },},{id: "library-submission-to-the-australian-energy-market-commission-aemc-draft-regulatory-investment-test-for-disctribution-and-application-guidelines-rit-d",
-          title: 'Submission to the Australian Energy Market Commission (AEMC): Draft regulatory investment test for...',
-          description: "Submission to the Australian Energy Market Commission (AEMC): Draft regulatory investment test for disctribution and application guidelines (RIT-D)",
-          section: "Library",handler: () => {
-              window.location.href = "/library/submission-australian-energy-market-commission-aemc-draft-regulatory-investment-test-disctribution-application-guidelines-rit-d/";
             },},{id: "library-visiting-fellowship-international-centre-for-island-technology",
           title: 'Visiting Fellowship: International Centre for Island Technology',
           description: "Visiting Fellowship: International Centre for Island Technology",
           section: "Library",handler: () => {
               window.location.href = "/library/visiting-fellowship-international-centre-island-technology/";
+            },},{id: "library-eighth-meeting-of-the-ad-hoc-open-ended-informal-working-group-to-study-issues-relating-to-the-conservation-and-sustainable-use-of-marine-biological-diversity-beyond-areas-of-national-jurisdiction",
+          title: 'Eighth meeting of the Ad Hoc Open-ended Informal Working Group to study issues...',
+          description: "Eighth meeting of the Ad Hoc Open-ended Informal Working Group to study issues relating to the conservation and sustainable use of marine biological diversity beyond areas of national jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/eighth-meeting-ad-hoc-open-ended-informal-working-group-issues-relating-conservation-sustainable-use-marine-biological-diversity-beyond-areas-national-jurisdiction/";
+            },},{id: "library-academia-and-food-stale-snacks-and-strange-research",
+          title: 'Academia and food: stale snacks and strange research',
+          description: "Are you a PhD student surviving on left-over crisps? Studies show that sound effects alone can help freshen up old food",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-academia-food-stale-snacks-strange-research/";
+            },},{id: "library-will-climate-change-kill-santa-claus-this-and-more-festive-themed-research",
+          title: 'Will climate change kill Santa Claus? This and more festive-themed research',
+          description: "From diagnosing Rudolph’s red nose to festive spices that make you happy, Glen Wright picks out some of the best Christmassy research",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-climate-change-kill-santa-claus-festive-themed-research/";
             },},{id: "library-advancing-marine-biodiversity-protection-through-regional-fisheries-management-a-review-of-high-seas-bottom-fisheries-closures",
           title: 'Advancing marine biodiversity protection through regional fisheries management: a review of high seas...',
           description: "Ocean regions that do not fall under the jurisdiction of any State, areas beyond national jurisdiction (ABNJ or the “high seas”), 1 represent almost half of the planet’s surface and a significant portion of its biodiversity.",
@@ -3858,61 +3873,11 @@ ninja.data = [{
           description: "Marine areas beyond national jurisdiction (ABNJ) represent around half of the Planet’s surface and a significant amount of its biodiversity. Over the past decades, the international community has become increasingly cognisant of the growing threats to ABNJ.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-scores-half-time-update-international-discussions-governance-marine-biodiversity-areas-beyond-national-jurisdiction/";
-            },},{id: "library-marine-governance-in-an-industrialised-ocean-a-marine-renewable-energy-case-study-poster",
-          title: 'Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)...',
-          description: "Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)",
+            },},{id: "library-a-guide-to-the-ref-for-the-shameless-academic",
+          title: 'A guide to the REF for the shameless academic',
+          description: "Palm your teaching off on gullible colleagues and get yourself a TV show - Glen Wright shares his tips for success in the Research Excellence Framework",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-marine-renewable-energy-case-poster/";
-            },},{id: "library-regulating-marine-renewable-energy-development-a-preliminary-assessment-of-uk-permitting-processes",
-          title: 'Regulating marine renewable energy development: a preliminary assessment of UK permitting processes',
-          description: "Regulating marine renewable energy development: a preliminary assessment of UK permitting processes",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-regulating-marine-renewable-energy-development-preliminary-assessment-uk-permitting-processes/";
-            },},{id: "library-governing-the-high-seas-linking-global-governance-and-regional-implementation",
-          title: 'Governing the “High Seas” - Linking global governance and regional implementation',
-          description: "Marine areas beyond national jurisdiction (ABJN), often referred to as the “High Seas1”, represent around half of the Planet’s surface and host a significant portion of its biodiversity.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/governing-high-seas-linking-global-governance-regional-implementation/";
-            },},{id: "library-renewables-2014-global-status-report",
-          title: 'Renewables 2014 Global Status Report',
-          description: "Renewables 2014 Global Status Report",
-          section: "Library",handler: () => {
-              window.location.href = "/library/renewables-2014-global-status-report/";
-            },},{id: "library-marine-spatial-planning-in-areas-beyond-national-jurisdiction-developing-a-research-agenda",
-          title: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: developing a research agenda',
-          description: "Marine Spatial Planning in Areas Beyond National Jurisdiction: developing a research agenda",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-spatial-planning-areas-beyond-national-jurisdiction-developing-research-agenda/";
-            },},{id: "library-sumbission-to-department-of-industry-energy-white-paper",
-          title: 'Sumbission to Department of Industry: Energy White Paper',
-          description: "Sumbission to Department of Industry: Energy White Paper",
-          section: "Library",handler: () => {
-              window.location.href = "/library/sumbission-department-industry-energy-white/";
-            },},{id: "library-reforming-and-harmonising-the-nsw-energy-savings-scheme",
-          title: 'Reforming and Harmonising the NSW Energy Savings Scheme',
-          description: "Reforming and Harmonising the NSW Energy Savings Scheme",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-reforming-harmonising-nsw-energy-savings-scheme/";
-            },},{id: "library-eighth-meeting-of-the-ad-hoc-open-ended-informal-working-group-to-study-issues-relating-to-the-conservation-and-sustainable-use-of-marine-biological-diversity-beyond-areas-of-national-jurisdiction",
-          title: 'Eighth meeting of the Ad Hoc Open-ended Informal Working Group to study issues...',
-          description: "Eighth meeting of the Ad Hoc Open-ended Informal Working Group to study issues relating to the conservation and sustainable use of marine biological diversity beyond areas of national jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/eighth-meeting-ad-hoc-open-ended-informal-working-group-issues-relating-conservation-sustainable-use-marine-biological-diversity-beyond-areas-national-jurisdiction/";
-            },},{id: "library-la-gobernanza-de-las-zonas-fuera-de-la-jurisdiccion-nacional",
-          title: 'La Gobernanza de las zonas fuera de la jurisdiccion nacional',
-          description: "La Gobernanza de las zonas fuera de la jurisdiccion nacional",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-la-gobernanza-de-las-zonas-fuera-de-la-jurisdiccion-nacional/";
-            },},{id: "library-marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uk-39-s-emerging-marine-renewable-energy-industry",
-          title: 'Marine Governance in an Industrialised Ocean: a case study of the UK&amp;#39;s emerging...',
-          description: "Marine Governance in an Industrialised Ocean: a case study of the UK&#39;s emerging marine renewable energy industry",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-case-uks-emerging-marine-renewable-energy-industry/";
-            },},{id: "library-sustainably-advancing-the-blue-economy-environmental-impact-assessment-of-of-marine-renewable-energy-projects-in-the-uk",
-          title: 'Sustainably advancing the Blue Economy: Environmental Impact Assessment of of Marine Renewable Energy...',
-          description: "Sustainably advancing the Blue Economy: Environmental Impact Assessment of of Marine Renewable Energy projects in the UK",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-sustainably-advancing-blue-economy-environmental-impact-assessment-marine-renewable-energy-projects-uk/";
+              window.location.href = "/library/glen-wright-guide-ref-shameless-academic/";
             },},{id: "library-halloween-special-spooky-research-from-the-cold-depths-of-academia",
           title: 'Halloween special: spooky research from the cold depths of academia',
           description: "Could vampires exist (mathematically speaking)? What causes ghostly cold chills? And what does death smell like? Researcher Glen Wright investigates",
@@ -3923,71 +3888,126 @@ ninja.data = [{
           description: "Ever wondered where all the bloody teaspoons are? Or how to avoid that pesky dribble down the underside of the teapot spout? Thankfully researchers have tackled these pressing issues",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-how-make-cup-tea-academic/";
+            },},{id: "library-la-gobernanza-de-las-zonas-fuera-de-la-jurisdiccion-nacional",
+          title: 'La Gobernanza de las zonas fuera de la jurisdiccion nacional',
+          description: "La Gobernanza de las zonas fuera de la jurisdiccion nacional",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-la-gobernanza-de-las-zonas-fuera-de-la-jurisdiccion-nacional/";
+            },},{id: "library-marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uk-39-s-emerging-marine-renewable-energy-industry",
+          title: 'Marine Governance in an Industrialised Ocean: a case study of the UK&amp;#39;s emerging...',
+          description: "Marine Governance in an Industrialised Ocean: a case study of the UK&#39;s emerging marine renewable energy industry",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-case-uks-emerging-marine-renewable-energy-industry/";
+            },},{id: "library-marine-governance-in-an-industrialised-ocean-a-marine-renewable-energy-case-study-poster",
+          title: 'Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)...',
+          description: "Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-marine-renewable-energy-case-poster/";
+            },},{id: "library-marine-spatial-planning-in-areas-beyond-national-jurisdiction-developing-a-research-agenda",
+          title: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: developing a research agenda',
+          description: "Marine Spatial Planning in Areas Beyond National Jurisdiction: developing a research agenda",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-spatial-planning-areas-beyond-national-jurisdiction-developing-research-agenda/";
             },},{id: "library-proof-that-academia-is-teeming-with-humour-wit-and-general-oddness",
           title: 'Proof that academia is teeming with humour, wit... and general oddness',
           description: "In a new fortnightly series, researcher Glen Wright attempts to prove academia is not entirely full of stuffiness by sharing some amusing oddities",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-proof-academia-teeming-humour-wit-general-oddness/";
-            },},{id: "library-strengthening-the-role-of-science-in-marine-governance-through-environmental-impact-assessment-a-case-study-of-the-marine-renewable-energy-industry",
-          title: 'Strengthening the role of science in marine governance through environmental impact assessment: a...',
-          description: "Strengthening the role of science in marine governance through environmental impact assessment: a case study of the marine renewable energy industry",
+            },},{id: "library-reforming-and-harmonising-the-nsw-energy-savings-scheme",
+          title: 'Reforming and Harmonising the NSW Energy Savings Scheme',
+          description: "Reforming and Harmonising the NSW Energy Savings Scheme",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-strengthening-role-science-marine-governance-environmental-impact-assessment-case-marine-renewable-energy-industry/";
-            },},{id: "library-potsdam-ocean-governance-workshop-entry-points-to-sustainability",
-          title: 'Potsdam Ocean Governance Workshop: Entry Points to Sustainability',
-          description: "Potsdam Ocean Governance Workshop: Entry Points to Sustainability",
+              window.location.href = "/library/glen-wright-reforming-harmonising-nsw-energy-savings-scheme/";
+            },},{id: "library-regulating-marine-renewable-energy-development-a-preliminary-assessment-of-uk-permitting-processes",
+          title: 'Regulating marine renewable energy development: a preliminary assessment of UK permitting processes',
+          description: "Regulating marine renewable energy development: a preliminary assessment of UK permitting processes",
           section: "Library",handler: () => {
-              window.location.href = "/library/potsdam-ocean-governance-workshop-entry-points-sustainability/";
-            },},{id: "library-academia-and-food-stale-snacks-and-strange-research",
-          title: 'Academia and food: stale snacks and strange research',
-          description: "Are you a PhD student surviving on left-over crisps? Studies show that sound effects alone can help freshen up old food",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-academia-food-stale-snacks-strange-research/";
+              window.location.href = "/library/glen-wright-regulating-marine-renewable-energy-development-preliminary-assessment-uk-permitting-processes/";
             },},{id: "library-rights-and-ownership-in-marine-spaces",
           title: 'Rights and Ownership in Marine Spaces',
           description: "Rights and Ownership in Marine Spaces",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-rights-ownership-marine-spaces/";
+            },},{id: "library-strengthening-the-role-of-science-in-marine-governance-through-environmental-impact-assessment-a-case-study-of-the-marine-renewable-energy-industry",
+          title: 'Strengthening the role of science in marine governance through environmental impact assessment: a...',
+          description: "Strengthening the role of science in marine governance through environmental impact assessment: a case study of the marine renewable energy industry",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-strengthening-role-science-marine-governance-environmental-impact-assessment-case-marine-renewable-energy-industry/";
+            },},{id: "library-sustainably-advancing-the-blue-economy-environmental-impact-assessment-of-of-marine-renewable-energy-projects-in-the-uk",
+          title: 'Sustainably advancing the Blue Economy: Environmental Impact Assessment of of Marine Renewable Energy...',
+          description: "Sustainably advancing the Blue Economy: Environmental Impact Assessment of of Marine Renewable Energy projects in the UK",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-sustainably-advancing-blue-economy-environmental-impact-assessment-marine-renewable-energy-projects-uk/";
             },},{id: "library-towards-a-new-international-agreement-on-high-seas-biodiversity",
           title: 'Towards a New International Agreement on High Seas Biodiversity',
           description: "Towards a New International Agreement on High Seas Biodiversity",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-towards-new-international-agreement-high-seas-biodiversity/";
-            },},{id: "library-towards-a-new-international-instrument-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
-          title: 'Towards a new international instrument on the conservation and sustainable use of marine...',
-          description: "Towards a new international instrument on the  conservation and sustainable use of marine  biodiversity in Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-towards-new-international-instrument-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
-            },},{id: "library-world-parks-congress",
-          title: 'World Parks Congress',
-          description: "World Parks Congress",
-          section: "Library",handler: () => {
-              window.location.href = "/library/world-parks-congress/";
-            },},{id: "library-will-climate-change-kill-santa-claus-this-and-more-festive-themed-research",
-          title: 'Will climate change kill Santa Claus? This and more festive-themed research',
-          description: "From diagnosing Rudolph’s red nose to festive spices that make you happy, Glen Wright picks out some of the best Christmassy research",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-climate-change-kill-santa-claus-festive-themed-research/";
-            },},{id: "library-a-guide-to-the-ref-for-the-shameless-academic",
-          title: 'A guide to the REF for the shameless academic',
-          description: "Palm your teaching off on gullible colleagues and get yourself a TV show - Glen Wright shares his tips for success in the Research Excellence Framework",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-guide-ref-shameless-academic/";
             },},{id: "library-towards-a-new-international-instrument-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-abnj",
           title: 'Towards a new international instrument on the conservation and sustainable use of marine...',
           description: "Towards a new international instrument on the  conservation and sustainable use of marine  biodiversity in ABNJ",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-towards-new-international-instrument-conservation-sustainable-use-marine-biodiversity-abnj/";
+            },},{id: "library-towards-a-new-international-instrument-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
+          title: 'Towards a new international instrument on the conservation and sustainable use of marine...',
+          description: "Towards a new international instrument on the  conservation and sustainable use of marine  biodiversity in Areas Beyond National Jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-towards-new-international-instrument-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
+            },},{id: "library-governing-the-high-seas-linking-global-governance-and-regional-implementation",
+          title: 'Governing the “High Seas” - Linking global governance and regional implementation',
+          description: "Marine areas beyond national jurisdiction (ABJN), often referred to as the “High Seas1”, represent around half of the Planet’s surface and host a significant portion of its biodiversity.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/governing-high-seas-linking-global-governance-regional-implementation/";
+            },},{id: "library-potsdam-ocean-governance-workshop-entry-points-to-sustainability",
+          title: 'Potsdam Ocean Governance Workshop: Entry Points to Sustainability',
+          description: "Potsdam Ocean Governance Workshop: Entry Points to Sustainability",
+          section: "Library",handler: () => {
+              window.location.href = "/library/potsdam-ocean-governance-workshop-entry-points-sustainability/";
+            },},{id: "library-renewables-2014-global-status-report",
+          title: 'Renewables 2014 Global Status Report',
+          description: "Renewables 2014 Global Status Report",
+          section: "Library",handler: () => {
+              window.location.href = "/library/renewables-2014-global-status-report/";
+            },},{id: "library-sumbission-to-department-of-industry-energy-white-paper",
+          title: 'Sumbission to Department of Industry: Energy White Paper',
+          description: "Sumbission to Department of Industry: Energy White Paper",
+          section: "Library",handler: () => {
+              window.location.href = "/library/sumbission-department-industry-energy-white/";
+            },},{id: "library-world-parks-congress",
+          title: 'World Parks Congress',
+          description: "World Parks Congress",
+          section: "Library",handler: () => {
+              window.location.href = "/library/world-parks-congress/";
             },},{id: "library-advancing-governance-of-marine-areas-beyond-national-jurisdiction",
           title: 'Advancing governance of marine areas beyond national jurisdiction',
           description: "Advancing governance of marine areas beyond national jurisdiction",
           section: "Library",handler: () => {
               window.location.href = "/library/advancing-governance-marine-areas-beyond-national-jurisdiction/";
+            },},{id: "library-collation-of-building-blocks-and-different-options-for-an-unclos-implementing-agreement",
+          title: 'Collation of Building Blocks and Different Options for an UNCLOS Implementing Agreement',
+          description: "Collation of Building Blocks and Different Options for an UNCLOS Implementing Agreement",
+          section: "Library",handler: () => {
+              window.location.href = "/library/collation-building-blocks-different-options-unclos-implementing-agreement/";
+            },},{id: "library-dealing-with-the-risk-of-licensing-marine-renewables-the-role-and-experience-of-regulators",
+          title: 'Dealing with the risk of licensing marine renewables: The role and experience of...',
+          description: "The RiCORE project aims at designing ways to accelerate and streamline the environmental requirements associated with consents for novel marine renewable technologies, including offshore wind, wave and tidal projects.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/dealing-risk-licensing-marine-renewables-role-experience-regulators/";
             },},{id: "library-accommodating-ocean-energy-in-marine-spatial-planning-processes",
           title: 'Accommodating Ocean Energy in Marine Spatial Planning Processes',
           description: "Accommodating Ocean Energy in Marine Spatial Planning Processes",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-accommodating-ocean-energy-marine-spatial-planning-processes/";
+            },},{id: "library-bottom-fisheries-closures-in-areas-beyond-national-jurisdiction",
+          title: 'Bottom Fisheries Closures in Areas Beyond National Jurisdiction',
+          description: "Bottom Fisheries Closures in Areas Beyond National Jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-bottom-fisheries-closures-areas-beyond-national-jurisdiction/";
+            },},{id: "library-dreading-valentine-39-s-here-39-s-a-rigorously-academic-research-backed-guide-to-love",
+          title: 'Dreading Valentine&amp;#39;s? Here&amp;#39;s a rigorously academic, research-backed guide to love',
+          description: "Love is no simple matter. Fortunately, there’s plenty of academic research to help you find - and satisfy - your soulmate",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-dreading-valentines-heres-rigorously-academic-research-backed-guide-love/";
             },},{id: "library-advancing-marine-biodiversity-protection-through-regional-fisheries-management-a-review-of-bottom-fisheries-closures-in-areas-beyond-national-jurisdiction",
           title: 'Advancing marine biodiversity protection through regional fisheries management: A review of bottom fisheries...',
           description: "Fishing is a significant threat to marine biodiversity in areas beyond national jurisdiction (ABNJ).",
@@ -4013,6 +4033,16 @@ ninja.data = [{
           description: "Ocean energy: key legal issues and challenges",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-ocean-energy-key-legal-issues-challenges/";
+            },},{id: "library-implementing-the-ocean-sdg-from-knowledge-to-action",
+          title: 'Implementing the Ocean SDG: from knowledge to action',
+          description: "Implementing the Ocean SDG: from knowledge to action",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-implementing-ocean-sdg-knowledge-action/";
+            },},{id: "library-la-haute-mer-historique-et-perspectives",
+          title: 'La Haute Mer: Historique et perspectives',
+          description: "La Haute Mer: Historique et perspectives",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-la-haute-mer-historique-et-perspectives/";
             },},{id: "library-marine-governance-in-an-industrialised-ocean-a-case-study-of-the-emerging-marine-renewable-energy-industry",
           title: 'Marine governance in an industrialised ocean: A case study of the emerging marine...',
           description: "The world&#39;s oceans are currently undergoing an unprecedented period of industrialisation, made possible by advances in technology and driven by our growing need for food, energy and resources.",
@@ -4023,6 +4053,21 @@ ninja.data = [{
           description: "The MRE industry is at a crucial moment. Devices are now moving from engineering drawings to full-scale prototypes, and the first commercial scale wave and tide energy farms have been announced and are being planned.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-marine-renewable-energy-community-consultation-planning-summary-international-network-social-studies-marine-energy-issmer-online-seminar-series-november-2014-january-2015/";
+            },},{id: "library-the-northwest-passage-legal-status-and-issues",
+          title: 'The Northwest Passage: Legal status and issues',
+          description: "The Northwest Passage: Legal status and issues",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-northwest-passage-legal-status-issues/";
+            },},{id: "library-top-five-university-pranks-to-watch-out-for-on-april-fools-39-day",
+          title: 'Top five university pranks to watch out for on April Fools&amp;#39; day',
+          description: "Hoisted cars, fake students and remodeled buildings - practical jokes have a long history on university campuses. Here are some of the most notorious",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-top-five-university-pranks-watch-april-fools-day/";
+            },},{id: "library-an-international-instrument-on-conservation-and-sustainable-use-of-biodiversity-in-marine-areas-beyond-national-jurisdiction-matrix-of-suggestions",
+          title: 'An International Instrument on Conservation and Sustainable Use of Biodiversity in Marine Areas...',
+          description: "An International Instrument on Conservation and Sustainable Use of Biodiversity in Marine Areas beyond National Jurisdiction: Matrix of Suggestions",
+          section: "Library",handler: () => {
+              window.location.href = "/library/international-instrument-conservation-sustainable-use-biodiversity-marine-areas-beyond-national-jurisdiction-matrix-suggestions/";
             },},{id: "library-a-new-chapter-for-the-high-seas-historic-decision-to-negotiate-an-international-legally-binding-instrument-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
           title: 'A new chapter for the high seas? Historic decision to negotiate an international...',
           description: "Marine areas beyond national jurisdiction (ABNJ) represent around half of the Planet’s surface and a significant amount of its biodiversity.",
@@ -4033,106 +4078,96 @@ ninja.data = [{
           description: "Ninth meeting of the Ad Hoc Open-ended Informal Working Group to study issues relating to the conservation and sustainable use of marine biological diversity beyond areas of national jurisdiction",
           section: "Library",handler: () => {
               window.location.href = "/library/ninth-meeting-ad-hoc-open-ended-informal-working-group-issues-relating-conservation-sustainable-use-marine-biological-diversity-beyond-areas-national-jurisdiction/";
-            },},{id: "library-strengthening-the-international-regulation-of-offshore-oil-and-gas-activities",
-          title: 'Strengthening the international regulation of offshore oil and gas activities',
-          description: "Strengthening the international regulation of offshore oil and gas activities",
-          section: "Library",handler: () => {
-              window.location.href = "/library/strengthening-international-regulation-offshore-oil-gas-activities/";
-            },},{id: "library-dreading-valentine-39-s-here-39-s-a-rigorously-academic-research-backed-guide-to-love",
-          title: 'Dreading Valentine&amp;#39;s? Here&amp;#39;s a rigorously academic, research-backed guide to love',
-          description: "Love is no simple matter. Fortunately, there’s plenty of academic research to help you find - and satisfy - your soulmate",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-dreading-valentines-heres-rigorously-academic-research-backed-guide-love/";
             },},{id: "library-regional-approaches-for-abnj-state-of-play",
           title: 'Regional approaches for ABNJ - state of play',
           description: "Regional approaches for ABNJ - state of play",
           section: "Library",handler: () => {
               window.location.href = "/library/regional-approaches-abnj-state-play/";
-            },},{id: "library-rights-and-ownership-in-sea-country-implications-of-marine-renewable-energy-for-indigenous-and-local-communities",
-          title: 'Rights and ownership in sea country: implications of marine renewable energy for indigenous...',
-          description: "The adoption of UN Convention of the Law of the Sea in 1982 created optimism for indigenous peoples and marginalised coastal communities that they may (re)gain control of, or improve access to, marine resources.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/rights-ownership-sea-country-implications-marine-renewable-energy-indigenous-local-communities/";
-            },},{id: "library-workshop-on-linking-global-and-regional-levels-in-the-management-of-marine-areas-beyond-national-jurisdiction",
-          title: 'Workshop on Linking Global and Regional Levels in the Management of Marine Areas...',
-          description: "Workshop on Linking Global and Regional Levels in the Management of Marine Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/workshop-linking-global-regional-levels-management-marine-areas-beyond-national-jurisdiction/";
-            },},{id: "library-climate-clubs-overcoming-free-riding-in-international-climate-policy",
-          title: 'Climate Clubs: Overcoming Free-Riding in International Climate Policy',
-          description: "Notwithstanding great progress in scientific and economic understanding of climate change, it has proven difficult to forge international agreements because of free-riding, as seen in the defunct Kyoto Protocol.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/climate-clubs-overcoming-free-riding-international-climate-policy/";
-            },},{id: "library-top-five-university-pranks-to-watch-out-for-on-april-fools-39-day",
-          title: 'Top five university pranks to watch out for on April Fools&amp;#39; day',
-          description: "Hoisted cars, fake students and remodeled buildings - practical jokes have a long history on university campuses. Here are some of the most notorious",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-top-five-university-pranks-watch-april-fools-day/";
-            },},{id: "library-dealing-with-the-risk-of-licensing-marine-renewables-the-role-and-experience-of-regulators",
-          title: 'Dealing with the risk of licensing marine renewables: The role and experience of...',
-          description: "The RiCORE project aims at designing ways to accelerate and streamline the environmental requirements associated with consents for novel marine renewable technologies, including offshore wind, wave and tidal projects.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/dealing-risk-licensing-marine-renewables-role-experience-regulators/";
-            },},{id: "library-researcher-glen-wright-to-take-over-wiley-s-exchanges-blog",
-          title: 'Researcher Glen Wright to take over Wiley’s Exchanges Blog',
-          description: "Hoboken, NJ - May 7, 2015 - John Wiley &amp; Sons, Inc., is pleased to welcome Glen Wright, a research fellow at the Institute for Sustainable Development and International Relations (IDDRI) in Paris, as the first guest editor of Wiley’s Exchanges blog.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/researcher-glen-wright-take-wileys-exchanges-blog/";
-            },},{id: "library-towards-a-european-research-agenda-for-ocean-governance-an-expert-workshop",
-          title: 'Towards a European Research Agenda for Ocean Governance: An Expert Workshop',
-          description: "Towards a European Research Agenda for Ocean Governance: An Expert Workshop",
-          section: "Library",handler: () => {
-              window.location.href = "/library/towards-european-research-agenda-ocean-governance-expert-workshop/";
-            },},{id: "library-scoping-workshop-supporting-the-development-of-regional-initiatives-for-abnj-in-the-abidjan-convention-region",
-          title: 'Scoping Workshop: Supporting the development of regional initiatives for ABNJ in the Abidjan...',
-          description: "1. The Convention for Cooperation in the Protection, Management and Development of the Marine and Coastal Environment of the Atlantic Coast of the West, Central and Southern Africa Region (Abidjan Convention) decided at the eleventh meeting of its Conference of the Parties (COP)…",
-          section: "Library",handler: () => {
-              window.location.href = "/library/scoping-workshop-supporting-development-regional-initiatives-abnj-abidjan-convention-region/";
-            },},{id: "library-what-role-for-the-nairobi-convention-in-the-high-seas",
-          title: 'What role for the Nairobi Convention in the high seas?',
-          description: "What role for the Nairobi Convention in the high seas?",
-          section: "Library",handler: () => {
-              window.location.href = "/library/what-role-nairobi-convention-high-seas/";
-            },},{id: "library-collation-of-building-blocks-and-different-options-for-an-unclos-implementing-agreement",
-          title: 'Collation of Building Blocks and Different Options for an UNCLOS Implementing Agreement',
-          description: "Collation of Building Blocks and Different Options for an UNCLOS Implementing Agreement",
-          section: "Library",handler: () => {
-              window.location.href = "/library/collation-building-blocks-different-options-unclos-implementing-agreement/";
-            },},{id: "library-bottom-fisheries-closures-in-areas-beyond-national-jurisdiction",
-          title: 'Bottom Fisheries Closures in Areas Beyond National Jurisdiction',
-          description: "Bottom Fisheries Closures in Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-bottom-fisheries-closures-areas-beyond-national-jurisdiction/";
-            },},{id: "library-la-haute-mer-historique-et-perspectives",
-          title: 'La Haute Mer: Historique et perspectives',
-          description: "La Haute Mer: Historique et perspectives",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-la-haute-mer-historique-et-perspectives/";
             },},{id: "library-regional-ocean-governance-conservation-and-sustainable-use-of-marine-biodiversity",
           title: 'Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity',
           description: "Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity",
           section: "Library",handler: () => {
               window.location.href = "/library/regional-ocean-governance-conservation-sustainable-use-marine-biodiversity/";
-            },},{id: "library-implementing-the-ocean-sdg-from-knowledge-to-action",
-          title: 'Implementing the Ocean SDG: from knowledge to action',
-          description: "Implementing the Ocean SDG: from knowledge to action",
+            },},{id: "library-researcher-glen-wright-to-take-over-wiley-s-exchanges-blog",
+          title: 'Researcher Glen Wright to take over Wiley’s Exchanges Blog',
+          description: "Hoboken, NJ - May 7, 2015 - John Wiley &amp; Sons, Inc., is pleased to welcome Glen Wright, a research fellow at the Institute for Sustainable Development and International Relations (IDDRI) in Paris, as the first guest editor of Wiley’s Exchanges blog.",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-implementing-ocean-sdg-knowledge-action/";
-            },},{id: "library-the-northwest-passage-legal-status-and-issues",
-          title: 'The Northwest Passage: Legal status and issues',
-          description: "The Northwest Passage: Legal status and issues",
+              window.location.href = "/library/researcher-glen-wright-take-wileys-exchanges-blog/";
+            },},{id: "library-rights-and-ownership-in-sea-country-implications-of-marine-renewable-energy-for-indigenous-and-local-communities",
+          title: 'Rights and ownership in sea country: implications of marine renewable energy for indigenous...',
+          description: "The adoption of UN Convention of the Law of the Sea in 1982 created optimism for indigenous peoples and marginalised coastal communities that they may (re)gain control of, or improve access to, marine resources.",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-northwest-passage-legal-status-issues/";
-            },},{id: "library-an-international-instrument-on-conservation-and-sustainable-use-of-biodiversity-in-marine-areas-beyond-national-jurisdiction-matrix-of-suggestions",
-          title: 'An International Instrument on Conservation and Sustainable Use of Biodiversity in Marine Areas...',
-          description: "An International Instrument on Conservation and Sustainable Use of Biodiversity in Marine Areas beyond National Jurisdiction: Matrix of Suggestions",
+              window.location.href = "/library/rights-ownership-sea-country-implications-marine-renewable-energy-indigenous-local-communities/";
+            },},{id: "library-scoping-workshop-supporting-the-development-of-regional-initiatives-for-abnj-in-the-abidjan-convention-region",
+          title: 'Scoping Workshop: Supporting the development of regional initiatives for ABNJ in the Abidjan...',
+          description: "1. The Convention for Cooperation in the Protection, Management and Development of the Marine and Coastal Environment of the Atlantic Coast of the West, Central and Southern Africa Region (Abidjan Convention) decided at the eleventh meeting of its Conference of the Parties (COP)…",
           section: "Library",handler: () => {
-              window.location.href = "/library/international-instrument-conservation-sustainable-use-biodiversity-marine-areas-beyond-national-jurisdiction-matrix-suggestions/";
+              window.location.href = "/library/scoping-workshop-supporting-development-regional-initiatives-abnj-abidjan-convention-region/";
+            },},{id: "library-strengthening-the-international-regulation-of-offshore-oil-and-gas-activities",
+          title: 'Strengthening the international regulation of offshore oil and gas activities',
+          description: "Strengthening the international regulation of offshore oil and gas activities",
+          section: "Library",handler: () => {
+              window.location.href = "/library/strengthening-international-regulation-offshore-oil-gas-activities/";
+            },},{id: "library-towards-a-european-research-agenda-for-ocean-governance-an-expert-workshop",
+          title: 'Towards a European Research Agenda for Ocean Governance: An Expert Workshop',
+          description: "Towards a European Research Agenda for Ocean Governance: An Expert Workshop",
+          section: "Library",handler: () => {
+              window.location.href = "/library/towards-european-research-agenda-ocean-governance-expert-workshop/";
+            },},{id: "library-what-role-for-the-nairobi-convention-in-the-high-seas",
+          title: 'What role for the Nairobi Convention in the high seas?',
+          description: "What role for the Nairobi Convention in the high seas?",
+          section: "Library",handler: () => {
+              window.location.href = "/library/what-role-nairobi-convention-high-seas/";
+            },},{id: "library-workshop-on-linking-global-and-regional-levels-in-the-management-of-marine-areas-beyond-national-jurisdiction",
+          title: 'Workshop on Linking Global and Regional Levels in the Management of Marine Areas...',
+          description: "Workshop on Linking Global and Regional Levels in the Management of Marine Areas Beyond National Jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/workshop-linking-global-regional-levels-management-marine-areas-beyond-national-jurisdiction/";
+            },},{id: "library-1ere-reunion-du-groupe-de-reflexion-et-de-travail-sur-la-gouvernance-de-la-haute-mer",
+          title: '1ere reunion du groupe de reflexion et de travail sur la gouvernance de...',
+          description: "1ere reunion du groupe de reflexion et de travail sur la gouvernance de la haute mer",
+          section: "Library",handler: () => {
+              window.location.href = "/library/1ere-reunion-du-groupe-de-reflexion-et-de-travail-sur-la-gouvernance-de-la-haute-mer/";
+            },},{id: "library-atelier-littocean-pour-des-espaces-maritimes-equitables-les-energies-marines-renouvelables-illusion-ou-realite",
+          title: 'Atelier LittOcean: Pour des espaces maritimes equitables : les energies marines renouvelables, illusion...',
+          description: "Atelier LittOcean: Pour des espaces maritimes equitables : les energies marines renouvelables, illusion ou realite",
+          section: "Library",handler: () => {
+              window.location.href = "/library/atelier-littocean-pour-des-espaces-maritimes-equitables-les-energies-marines-renouvelables-illusion-ou-realite/";
+            },},{id: "library-commocean-2nd-international-marine-science-communication-conference",
+          title: 'CommOcean: 2nd International Marine Science Communication Conference',
+          description: "CommOcean: 2nd International Marine Science Communication Conference",
+          section: "Library",handler: () => {
+              window.location.href = "/library/commocean-2nd-international-marine-science-communication-conference/";
+            },},{id: "library-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction-preparing-for-the-prepcom",
+          title: 'Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction:...',
+          description: "Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction: Preparing for the PrepCom",
+          section: "Library",handler: () => {
+              window.location.href = "/library/conservation-sustainable-use-marine-biological-diversity-areas-beyond-national-jurisdiction-preparing-prepcom/";
+            },},{id: "library-first-session-of-the-preparatory-committee-established-by-the-un-general-assembly-resolution-69-292-development-of-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
+          title: 'First Session of the Preparatory Committee Established by the UN General Assembly Resolution...',
+          description: "First Session of the Preparatory Committee Established by the UN General Assembly Resolution 69/292 “Development of an International Legally Binding Instrument under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction”",
+          section: "Library",handler: () => {
+              window.location.href = "/library/first-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/";
             },},{id: "library-academics-with-cats-2016-the-winning-photographs",
           title: 'Academics With Cats 2016: the winning photographs',
           description: "Academics With Cats 2016: the winning photographs",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-academics-cats-2016-winning-photographs/";
+            },},{id: "library-cautious-steps-towards-a-new-high-seas-agreement",
+          title: 'Cautious steps towards a new high seas agreement',
+          description: "Seeking to fill the gaps in the international legal framework for ocean governance, States gathered at the UN headquarters in New York (26 August-9 September) to discuss elements of an agreement on the conservation and sustainable use of biodiversity in areas beyond national…",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-cautious-steps-towards-new-high-seas-agreement/";
+            },},{id: "library-environmental-impact-assessment-developing-options-for-abnj",
+          title: 'Environmental Impact Assessment: Developing options for ABNJ',
+          description: "Environmental Impact Assessment: Developing options for ABNJ",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-environmental-impact-assessment-developing-options-abnj/";
+            },},{id: "library-environmental-impact-assessment-and-overarching-provisions",
+          title: 'Environmental Impact Assessment and Overarching Provisions',
+          description: "Environmental Impact Assessment and Overarching Provisions",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-environmental-impact-assessment-overarching-provisions/";
             },},{id: "library-environmental-impact-assessment-to-support-marine-innovation-the-rochdale-envelope-and-deploy-amp-monitor-in-the-uk-39-s-ocean-energy-industry",
           title: 'Environmental Impact Assessment to Support Marine Innovation: The ‘Rochdale Envelope’ and ‘Deploy &amp;amp;...',
           description: "A new industrial revolution is taking place in the oceans, as humankind increasing looks offshore to meet its needs for energy, resources and food. This growing demand for marine space and resources is placing further pressure on an ocean whose health is already declining.",
@@ -4148,6 +4183,11 @@ ninja.data = [{
           description: "States are currently discussing the development of a new international legally binding instrument (ILBI) on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction (ABNJ).",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-high-seas-fisheries-what-role-new-international-instrument/";
+            },},{id: "library-historic-un-talks-could-save-the-high-seas",
+          title: 'Historic UN talks could save the high seas',
+          description: "Since the adoption of the United Nations (UN) Convention on the Law of the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction (ABNJ)1 have developed exponentially.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-historic-un-talks-save-high-seas/";
             },},{id: "library-the-long-and-winding-road-continues-towards-a-new-agreement-on-high-seas-governance",
           title: 'The long and winding road continues: Towards a new agreement on high seas...',
           description: "In 2015, States agreed to launch negotiations for the elaboration of an international legally binding instrument dedicated to the conservation and sustainable use of the marine biological diversity of areas beyond national jurisdiction (ABNJ).",
@@ -4168,31 +4208,66 @@ ninja.data = [{
           description: "The world’s oceans are critical providers of ecosystem services and they are under increasing pressure from expanding and intensifying human activities.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-sustainable-development-oceans-closing-gaps-international-legal-framework/";
+            },},{id: "library-negotiations-for-a-new-agreement-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-abnj",
+          title: 'Negotiations for a new agreement on the conservation and sustainable use of marine...',
+          description: "Negotiations for a new agreement on the conservation and sustainable use of marine biodiversity in ABNJ",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-negotiations-new-agreement-conservation-sustainable-use-marine-biodiversity-abnj/";
+            },},{id: "library-quel-statut-pour-la-haute-mer",
+          title: 'Quel statut pour la haute mer ?',
+          description: "Quel statut pour la haute mer ?",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-quel-statut-pour-la-haute-mer/";
             },},{id: "library-regulating-wave-and-tidal-energy-an-industry-perspective-on-the-scottish-marine-governance-framework",
           title: 'Regulating wave and tidal energy: An industry perspective on the Scottish marine governance...',
           description: "Regulating wave and tidal energy: An industry perspective on the Scottish marine governance framework",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-regulating-wave-tidal-energy-industry-perspective-scottish-marine-governance-framework/";
+            },},{id: "library-vers-un-accord-sur-la-haute-mer-des-mesures-positives-a-new-york",
+          title: 'Vers un accord sur la haute mer : des mesures positives a New...',
+          description: "Alors que nous sommes a un moment decisif pour l&#39;avenir de l&#39;ocean, plus de 80 Etats se sont reunis au siege de l&#39;ONU a New York (30 Mars - 8 Avril) pour lancer les negociations d&#39;un nouvel accord sur la conservation et l&#39;utilisation durable de la biodiversite marine dans des…",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-vers-un-accord-sur-la-haute-mer-des-mesures-positives-new-york/";
+            },},{id: "library-interdiction-du-chalutage-profond-une-belle-victoire-et-quelques-concessions",
+          title: 'Interdiction du chalutage profond : une belle victoire et quelques concessions',
+          description: "Le 30 juin dernier, l’Union europeenne decidait apres des annees d’apres negociations d’interdire la peche en eau profonde au-dela de 800 metres. Retour sur cet accord historique.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/interdiction-du-chalutage-profond-une-belle-victoire-et-quelques-concessions/";
+            },},{id: "library-l-union-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond",
+          title: 'L’Union europeenne va-t-elle enfin mettre un terme au chalutage profond ?',
+          description: "Desastreuse pour les ecosystemes marins, la peche en eaux profondes fait l’objet de vifs debats a Bruxelles. Une nouvelle reglementation europeenne encadrant cette pratique est attendue a l’ete 2016.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/lunion-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond/";
+            },},{id: "library-the-partnership-on-science-to-policy-forum",
+          title: 'The Partnership on Science to Policy Forum',
+          description: "The meeting on the Partnership on Science to Policy Forum was organized by the Secretariat of the Nairobi Convention for the Protection, Management and Development of the Marine and Coastal Environment of the Western Indian Ocean region in collaboration with the Western Indian…",
+          section: "Library",handler: () => {
+              window.location.href = "/library/partnership-science-policy-forum/";
             },},{id: "library-protecting-earth-39-s-last-conservation-frontier-scientific-management-and-legal-priorities-for-mpas-beyond-national-boundaries",
           title: 'Protecting Earth&amp;#39;s last conservation frontier: scientific, management and legal priorities for MPAs beyond...',
           description: "1. Marine areas beyond national jurisdiction (ABNJ) comprise most of Earth&#39;s interconnected ocean, hosting complex ecosystems that play key roles in sustaining life and providing important goods and services. 2.",
           section: "Library",handler: () => {
               window.location.href = "/library/protecting-earths-last-conservation-frontier-scientific-management-legal-priorities-mpas-beyond-national-boundaries/";
-            },},{id: "library-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction-preparing-for-the-prepcom",
-          title: 'Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction:...',
-          description: "Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction: Preparing for the PrepCom",
+            },},{id: "library-the-role-of-science-in-implementing-the-2030-agenda",
+          title: 'The Role of Science in Implementing the 2030 Agenda',
+          description: "The Role of Science in Implementing the 2030 Agenda",
           section: "Library",handler: () => {
-              window.location.href = "/library/conservation-sustainable-use-marine-biological-diversity-areas-beyond-national-jurisdiction-preparing-prepcom/";
-            },},{id: "library-environmental-impact-assessment-developing-options-for-abnj",
-          title: 'Environmental Impact Assessment: Developing options for ABNJ',
-          description: "Environmental Impact Assessment: Developing options for ABNJ",
+              window.location.href = "/library/role-science-implementing-2030-agenda/";
+            },},{id: "library-second-session-of-the-preparatory-committee-established-by-the-un-general-assembly-resolution-69-292-development-of-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
+          title: 'Second Session of the Preparatory Committee Established by the UN General Assembly Resolution...',
+          description: "Second Session of the Preparatory Committee Established by the UN General Assembly Resolution 69/292 “Development of an International Legally Binding Instrument under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-environmental-impact-assessment-developing-options-abnj/";
-            },},{id: "library-atelier-littocean-pour-des-espaces-maritimes-equitables-les-energies-marines-renouvelables-illusion-ou-realite",
-          title: 'Atelier LittOcean: Pour des espaces maritimes equitables : les energies marines renouvelables, illusion...',
-          description: "Atelier LittOcean: Pour des espaces maritimes equitables : les energies marines renouvelables, illusion ou realite",
+              window.location.href = "/library/second-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/";
+            },},{id: "library-talks-aim-to-tame-marine-wild-west-nations-debate-how-to-protect-biodiversity-in-the-high-seas",
+          title: 'Talks aim to tame marine Wild West: Nations debate how to protect biodiversity...',
+          description: "Talks aim to tame marine Wild West: Nations debate how to protect biodiversity in the high seas",
           section: "Library",handler: () => {
-              window.location.href = "/library/atelier-littocean-pour-des-espaces-maritimes-equitables-les-energies-marines-renouvelables-illusion-ou-realite/";
+              window.location.href = "/library/talks-aim-tame-marine-wild-west-nations-debate-how-protect-biodiversity-high-seas/";
+            },},{id: "library-time-to-act-for-oceans-in-the-2030-agenda-collaborative-partnerships-for-sdg14",
+          title: 'Time to act for oceans in the 2030 Agenda: collaborative partnerships for SDG14...',
+          description: "Time to act for oceans in the 2030 Agenda: collaborative partnerships for SDG14",
+          section: "Library",handler: () => {
+              window.location.href = "/library/time-act-oceans-2030-agenda-collaborative-partnerships-sdg14/";
             },},{id: "library-tout-comprendre-des-prochaines-negociations-sur-la-gouvernance-de-la-haute-mer",
           title: 'Tout comprendre des prochaines negociations sur la gouvernance de la haute mer',
           description: "Tout comprendre des prochaines negociations sur la gouvernance de la haute mer",
@@ -4213,101 +4288,56 @@ ninja.data = [{
           description: "Un rendez-vous historique pour proteger la haute mer des convoitises",
           section: "Library",handler: () => {
               window.location.href = "/library/un-rendez-vous-historique-pour-proteger-la-haute-mer-des-convoitises/";
-            },},{id: "library-first-session-of-the-preparatory-committee-established-by-the-un-general-assembly-resolution-69-292-development-of-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
-          title: 'First Session of the Preparatory Committee Established by the UN General Assembly Resolution...',
-          description: "First Session of the Preparatory Committee Established by the UN General Assembly Resolution 69/292 “Development of an International Legally Binding Instrument under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction”",
+            },},{id: "library-2nd-international-conference-on-marine-maritime-spatial-planning",
+          title: '2nd International Conference on Marine/Maritime Spatial Planning',
+          description: "2nd International Conference on Marine/Maritime Spatial Planning",
           section: "Library",handler: () => {
-              window.location.href = "/library/first-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/";
-            },},{id: "library-vers-un-accord-sur-la-haute-mer-des-mesures-positives-a-new-york",
-          title: 'Vers un accord sur la haute mer : des mesures positives a New...',
-          description: "Alors que nous sommes a un moment decisif pour l&#39;avenir de l&#39;ocean, plus de 80 Etats se sont reunis au siege de l&#39;ONU a New York (30 Mars - 8 Avril) pour lancer les negociations d&#39;un nouvel accord sur la conservation et l&#39;utilisation durable de la biodiversite marine dans des…",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-vers-un-accord-sur-la-haute-mer-des-mesures-positives-new-york/";
-            },},{id: "library-l-union-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond",
-          title: 'L’Union europeenne va-t-elle enfin mettre un terme au chalutage profond ?',
-          description: "Desastreuse pour les ecosystemes marins, la peche en eaux profondes fait l’objet de vifs debats a Bruxelles. Une nouvelle reglementation europeenne encadrant cette pratique est attendue a l’ete 2016.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/lunion-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond/";
-            },},{id: "library-talks-aim-to-tame-marine-wild-west-nations-debate-how-to-protect-biodiversity-in-the-high-seas",
-          title: 'Talks aim to tame marine Wild West: Nations debate how to protect biodiversity...',
-          description: "Talks aim to tame marine Wild West: Nations debate how to protect biodiversity in the high seas",
-          section: "Library",handler: () => {
-              window.location.href = "/library/talks-aim-tame-marine-wild-west-nations-debate-how-protect-biodiversity-high-seas/";
-            },},{id: "library-interdiction-du-chalutage-profond-une-belle-victoire-et-quelques-concessions",
-          title: 'Interdiction du chalutage profond : une belle victoire et quelques concessions',
-          description: "Le 30 juin dernier, l’Union europeenne decidait apres des annees d’apres negociations d’interdire la peche en eau profonde au-dela de 800 metres. Retour sur cet accord historique.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/interdiction-du-chalutage-profond-une-belle-victoire-et-quelques-concessions/";
-            },},{id: "library-historic-un-talks-could-save-the-high-seas",
-          title: 'Historic UN talks could save the high seas',
-          description: "Since the adoption of the United Nations (UN) Convention on the Law of the Sea (UNCLOS) in 1982, human activities in areas beyond national jurisdiction (ABNJ)1 have developed exponentially.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-etal-historic-un-talks-save-high-seas/";
-            },},{id: "library-cautious-steps-towards-a-new-high-seas-agreement",
-          title: 'Cautious steps towards a new high seas agreement',
-          description: "Seeking to fill the gaps in the international legal framework for ocean governance, States gathered at the UN headquarters in New York (26 August-9 September) to discuss elements of an agreement on the conservation and sustainable use of biodiversity in areas beyond national…",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-cautious-steps-towards-new-high-seas-agreement/";
-            },},{id: "library-environmental-impact-assessment-and-overarching-provisions",
-          title: 'Environmental Impact Assessment and Overarching Provisions',
-          description: "Environmental Impact Assessment and Overarching Provisions",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-environmental-impact-assessment-overarching-provisions/";
-            },},{id: "library-second-session-of-the-preparatory-committee-established-by-the-un-general-assembly-resolution-69-292-development-of-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
-          title: 'Second Session of the Preparatory Committee Established by the UN General Assembly Resolution...',
-          description: "Second Session of the Preparatory Committee Established by the UN General Assembly Resolution 69/292 “Development of an International Legally Binding Instrument under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/second-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/";
-            },},{id: "library-time-to-act-for-oceans-in-the-2030-agenda-collaborative-partnerships-for-sdg14",
-          title: 'Time to act for oceans in the 2030 Agenda: collaborative partnerships for SDG14...',
-          description: "Time to act for oceans in the 2030 Agenda: collaborative partnerships for SDG14",
-          section: "Library",handler: () => {
-              window.location.href = "/library/time-act-oceans-2030-agenda-collaborative-partnerships-sdg14/";
-            },},{id: "library-negotiations-for-a-new-agreement-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-abnj",
-          title: 'Negotiations for a new agreement on the conservation and sustainable use of marine...',
-          description: "Negotiations for a new agreement on the conservation and sustainable use of marine biodiversity in ABNJ",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-negotiations-new-agreement-conservation-sustainable-use-marine-biodiversity-abnj/";
-            },},{id: "library-the-partnership-on-science-to-policy-forum",
-          title: 'The Partnership on Science to Policy Forum',
-          description: "The meeting on the Partnership on Science to Policy Forum was organized by the Secretariat of the Nairobi Convention for the Protection, Management and Development of the Marine and Coastal Environment of the Western Indian Ocean region in collaboration with the Western Indian…",
-          section: "Library",handler: () => {
-              window.location.href = "/library/partnership-science-policy-forum/";
-            },},{id: "library-the-role-of-science-in-implementing-the-2030-agenda",
-          title: 'The Role of Science in Implementing the 2030 Agenda',
-          description: "The Role of Science in Implementing the 2030 Agenda",
-          section: "Library",handler: () => {
-              window.location.href = "/library/role-science-implementing-2030-agenda/";
-            },},{id: "library-1ere-reunion-du-groupe-de-reflexion-et-de-travail-sur-la-gouvernance-de-la-haute-mer",
-          title: '1ere reunion du groupe de reflexion et de travail sur la gouvernance de...',
-          description: "1ere reunion du groupe de reflexion et de travail sur la gouvernance de la haute mer",
-          section: "Library",handler: () => {
-              window.location.href = "/library/1ere-reunion-du-groupe-de-reflexion-et-de-travail-sur-la-gouvernance-de-la-haute-mer/";
-            },},{id: "library-quel-statut-pour-la-haute-mer",
-          title: 'Quel statut pour la haute mer ?',
-          description: "Quel statut pour la haute mer ?",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-quel-statut-pour-la-haute-mer/";
-            },},{id: "library-commocean-2nd-international-marine-science-communication-conference",
-          title: 'CommOcean: 2nd International Marine Science Communication Conference',
-          description: "CommOcean: 2nd International Marine Science Communication Conference",
-          section: "Library",handler: () => {
-              window.location.href = "/library/commocean-2nd-international-marine-science-communication-conference/";
+              window.location.href = "/library/2nd-international-conference-marine-maritime-spatial-planning/";
             },},{id: "library-achieving-the-sustainable-development-goal-for-the-oceans",
           title: 'Achieving the Sustainable Development Goal for the Oceans',
           description: "The United Nations 2030 Agenda for Sustainable Development and its comprehensive set of 17 interlinking Sustainable Development Goals (SDGs) offer a unique opportunity to advance ocean sustainability.",
           section: "Library",handler: () => {
               window.location.href = "/library/achieving-sustainable-development-goal-oceans/";
+            },},{id: "library-biodiversity-beyond-national-jurisdictions-area-based-management-tools-including-marine-protected-areas",
+          title: 'Biodiversity Beyond National Jurisdictions: Area-based Management Tools, including Marine Protected Areas',
+          description: "Biodiversity Beyond National Jurisdictions: Area-based Management Tools, including Marine Protected Areas",
+          section: "Library",handler: () => {
+              window.location.href = "/library/biodiversity-beyond-national-jurisdictions-area-based-management-tools-including-marine-protected-areas/";
             },},{id: "library-consenting-ocean-energy-projects-issues-challenges-and-opportunities",
           title: 'Consenting ocean energy projects: Issues, challenges and opportunities',
           description: "Consenting ocean energy projects: Issues, challenges and opportunities",
           section: "Library",handler: () => {
               window.location.href = "/library/consenting-ocean-energy-projects-issues-challenges-opportunities/";
+            },},{id: "library-dixieme-reunion-du-groupe-national-informel-haute-mer",
+          title: 'Dixieme reunion du Groupe national informel haute mer',
+          description: "Dixieme reunion du Groupe national informel haute mer",
+          section: "Library",handler: () => {
+              window.location.href = "/library/dixieme-reunion-du-groupe-national-informel-haute-mer/";
+            },},{id: "library-fourth-session-of-the-preparatory-committee-established-by-the-un-general-assembly-resolution-69-292-development-of-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
+          title: 'Fourth Session of the Preparatory Committee Established by the UN General Assembly Resolution...',
+          description: "Fourth Session of the Preparatory Committee Established by the UN General Assembly Resolution 69/292 “Development of an International Legally Binding Instrument under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/fourth-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/";
+            },},{id: "library-areas-beyond-national-jurisdiction-in-the-western-indian-ocean-options-for-governance-amp-management",
+          title: 'Areas Beyond National Jurisdiction in the Western Indian Ocean: Options for Governance &amp;amp;...',
+          description: "Areas Beyond National Jurisdiction in the Western Indian Ocean: Options for Governance &amp; Management",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-areas-beyond-national-jurisdiction-western-indian-ocean-options-governance-management/";
+            },},{id: "library-environmental-impact-assessment-in-areas-beyond-national-jurisdiction-challenges-and-opportunities-for-small-island-developing-states",
+          title: 'Environmental impact assessment in Areas Beyond National Jurisdiction: challenges and opportunities for Small-Island...',
+          description: "Environmental impact assessment in Areas Beyond National Jurisdiction: challenges and opportunities for Small-Island Developing States",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-environmental-impact-assessment-areas-beyond-national-jurisdiction-challenges-opportunities-small-island-developing-states/";
             },},{id: "library-environmental-impact-assessment-in-areas-beyond-national-jurisdiction-options-for-a-new-international-agreement",
           title: 'Environmental Impact Assessment in Areas beyond National Jurisdiction: Options for a New International...',
           description: "Environmental Impact Assessment in Areas beyond National Jurisdiction: Options for a New International Agreement",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-environmental-impact-assessment-areas-beyond-national-jurisdiction-options-new-international-agreement/";
+            },},{id: "library-coming-soon-towards-formal-negotiations-for-a-agreement-on-high-seas-governance",
+          title: 'Coming soon: towards formal negotiations for a agreement on high seas governance',
+          description: "Late in the evening of Friday, 21 July, States meeting at the UN headquarters in New York quietly took a significant step in a longrunning process aiming to close gaps in the international rules covering marine areas beyond national jurisdiction (ABNJ, commonly referred to as…",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-coming-soon-towards-formal-negotiations-agreement-high-seas-governance/";
             },},{id: "library-partnering-for-a-sustainable-ocean-the-role-of-regional-ocean-governance-in-implementing-sdg14",
           title: 'Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing...',
           description: "This report highlights the relevance of regional ocean governance (ROG) for the implementation of the 2030 Agenda, the achievement of SDG14, and the transition to ecosystem-based management more generally.",
@@ -4318,11 +4348,26 @@ ninja.data = [{
           description: "Regional Management of Areas beyond National Jurisdiction in the Western Indian Ocean: State of Play and Possible Ways Forward",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-regional-management-areas-beyond-national-jurisdiction-western-indian-ocean-state-play-possible-ways-forward/";
+            },},{id: "library-partnering-for-a-sustainable-ocean-the-role-of-regional-ocean-governance-in-implementing-sdg14",
+          title: 'Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing...',
+          description: "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing SDG14",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-partnering-sustainable-ocean-role-regional-ocean-governance-implementing-sdg14/";
+            },},{id: "library-protecting-our-blue-planet-too-the-year-in-ocean-conservation",
+          title: 'Protecting our Blue Planet too: the year in ocean conservation',
+          description: "Protecting our Blue Planet too: the year in ocean conservation - watched in awe as Sir David Attenborough and the Blue Planet II team showed us spellbinding images of an underwater world.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-protecting-blue-planet-too-year-ocean-conservation/";
             },},{id: "library-risky-business-enterprise-liability-corporate-groups-and-torts",
           title: 'Risky Business: Enterprise Liability, Corporate Groups and Torts',
           description: "Risky Business: Enterprise Liability, Corporate Groups and Torts",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-risky-business-enterprise-liability-corporate-groups-torts/";
+            },},{id: "library-high-seas-governance-understanding-the-upcoming-negotiations-in-10-points",
+          title: 'High seas governance: Understanding the upcoming negotiations in 10 points',
+          description: "The United Nations General Assembly just launched a new initiative to address the increasing number of threats to marine areas beyond national jurisdiction (ABNJ).",
+          section: "Library",handler: () => {
+              window.location.href = "/library/high-seas-governance-understanding-upcoming-negotiations-10-points/";
             },},{id: "library-marine-planning-an-ocean-energy-perspective",
           title: 'Marine planning: an ocean energy perspective',
           description: "Marine planning: an ocean energy perspective",
@@ -4333,181 +4378,36 @@ ninja.data = [{
           description: "Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies",
           section: "Library",handler: () => {
               window.location.href = "/library/ocean-energy-governance-challenges-wave-tidal-stream-technologies/";
-            },},{id: "library-regional-launch-of-western-indian-ocean-economy-report-and-presentation-of-madagascar-s-vision-on-ocean-governance",
-          title: 'Regional launch of Western Indian Ocean Economy Report and presentation of Madagascar’s vision...',
-          description: "Regional launch of Western Indian Ocean Economy Report and presentation of Madagascar’s vision on Ocean Governance",
-          section: "Library",handler: () => {
-              window.location.href = "/library/regional-launch-western-indian-ocean-economy-report-presentation-madagascars-vision-ocean-governance/";
-            },},{id: "library-2nd-international-conference-on-marine-maritime-spatial-planning",
-          title: '2nd International Conference on Marine/Maritime Spatial Planning',
-          description: "2nd International Conference on Marine/Maritime Spatial Planning",
-          section: "Library",handler: () => {
-              window.location.href = "/library/2nd-international-conference-marine-maritime-spatial-planning/";
-            },},{id: "library-environmental-impact-assessment-in-areas-beyond-national-jurisdiction-challenges-and-opportunities-for-small-island-developing-states",
-          title: 'Environmental impact assessment in Areas Beyond National Jurisdiction: challenges and opportunities for Small-Island...',
-          description: "Environmental impact assessment in Areas Beyond National Jurisdiction: challenges and opportunities for Small-Island Developing States",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-environmental-impact-assessment-areas-beyond-national-jurisdiction-challenges-opportunities-small-island-developing-states/";
-            },},{id: "library-partnering-for-a-sustainable-ocean-the-role-of-regional-ocean-governance-in-implementing-sdg14",
-          title: 'Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing...',
-          description: "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing SDG14",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-partnering-sustainable-ocean-role-regional-ocean-governance-implementing-sdg14/";
-            },},{id: "library-third-session-of-the-preparatory-committee-established-by-the-un-general-assembly-resolution-69-292-development-of-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
-          title: 'Third Session of the Preparatory Committee Established by the UN General Assembly Resolution...',
-          description: "Third Session of the Preparatory Committee Established by the UN General Assembly Resolution 69/292 “Development of an International Legally Binding Instrument under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/third-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/";
-            },},{id: "library-biodiversity-beyond-national-jurisdictions-area-based-management-tools-including-marine-protected-areas",
-          title: 'Biodiversity Beyond National Jurisdictions: Area-based Management Tools, including Marine Protected Areas',
-          description: "Biodiversity Beyond National Jurisdictions: Area-based Management Tools, including Marine Protected Areas",
-          section: "Library",handler: () => {
-              window.location.href = "/library/biodiversity-beyond-national-jurisdictions-area-based-management-tools-including-marine-protected-areas/";
-            },},{id: "library-dixieme-reunion-du-groupe-national-informel-haute-mer",
-          title: 'Dixieme reunion du Groupe national informel haute mer',
-          description: "Dixieme reunion du Groupe national informel haute mer",
-          section: "Library",handler: () => {
-              window.location.href = "/library/dixieme-reunion-du-groupe-national-informel-haute-mer/";
-            },},{id: "library-oceans-in-the-2030-agenda-the-role-of-regional-governance",
-          title: 'Oceans in the 2030 Agenda: The role of Regional Governance',
-          description: "Oceans in the 2030 Agenda: The role of Regional Governance",
-          section: "Library",handler: () => {
-              window.location.href = "/library/oceans-2030-agenda-role-regional-governance/";
-            },},{id: "library-united-nations-ocean-conference",
-          title: 'United Nations Ocean Conference',
-          description: "United Nations Ocean Conference",
-          section: "Library",handler: () => {
-              window.location.href = "/library/united-nations-ocean-conference/";
-            },},{id: "library-fourth-session-of-the-preparatory-committee-established-by-the-un-general-assembly-resolution-69-292-development-of-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
-          title: 'Fourth Session of the Preparatory Committee Established by the UN General Assembly Resolution...',
-          description: "Fourth Session of the Preparatory Committee Established by the UN General Assembly Resolution 69/292 “Development of an International Legally Binding Instrument under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/fourth-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/";
-            },},{id: "library-coming-soon-towards-formal-negotiations-for-a-agreement-on-high-seas-governance",
-          title: 'Coming soon: towards formal negotiations for a agreement on high seas governance',
-          description: "Late in the evening of Friday, 21 July, States meeting at the UN headquarters in New York quietly took a significant step in a longrunning process aiming to close gaps in the international rules covering marine areas beyond national jurisdiction (ABNJ, commonly referred to as…",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-etal-coming-soon-towards-formal-negotiations-agreement-high-seas-governance/";
             },},{id: "library-our-ocean",
           title: 'Our Ocean',
           description: "Our Ocean",
           section: "Library",handler: () => {
               window.location.href = "/library/ocean/";
-            },},{id: "library-areas-beyond-national-jurisdiction-in-the-western-indian-ocean-options-for-governance-amp-management",
-          title: 'Areas Beyond National Jurisdiction in the Western Indian Ocean: Options for Governance &amp;amp;...',
-          description: "Areas Beyond National Jurisdiction in the Western Indian Ocean: Options for Governance &amp; Management",
+            },},{id: "library-oceans-in-the-2030-agenda-the-role-of-regional-governance",
+          title: 'Oceans in the 2030 Agenda: The role of Regional Governance',
+          description: "Oceans in the 2030 Agenda: The role of Regional Governance",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-areas-beyond-national-jurisdiction-western-indian-ocean-options-governance-management/";
-            },},{id: "library-protecting-our-blue-planet-too-the-year-in-ocean-conservation",
-          title: 'Protecting our Blue Planet too: the year in ocean conservation',
-          description: "Protecting our Blue Planet too: the year in ocean conservation - watched in awe as Sir David Attenborough and the Blue Planet II team showed us spellbinding images of an underwater world.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-protecting-blue-planet-too-year-ocean-conservation/";
-            },},{id: "library-high-seas-governance-understanding-the-upcoming-negotiations-in-10-points",
-          title: 'High seas governance: Understanding the upcoming negotiations in 10 points',
-          description: "The United Nations General Assembly just launched a new initiative to address the increasing number of threats to marine areas beyond national jurisdiction (ABNJ).",
-          section: "Library",handler: () => {
-              window.location.href = "/library/high-seas-governance-understanding-upcoming-negotiations-10-points/";
+              window.location.href = "/library/oceans-2030-agenda-role-regional-governance/";
             },},{id: "library-potsdam-ocean-governance-workshop-the-ocean-in-2030-how-to-get-to-the-future-we-want",
           title: 'Potsdam Ocean Governance Workshop: The Ocean in 2030 - How to get to...',
           description: "Potsdam Ocean Governance Workshop: The Ocean in 2030 - How to get to the future we want?",
           section: "Library",handler: () => {
               window.location.href = "/library/potsdam-ocean-governance-workshop-ocean-2030-how-get-future-want/";
-            },},{id: "library-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction-options-for-underpinning-a-strong-global-bbnj-agreement-through-regional-and-sectoral-governance",
-          title: 'Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction: Options...',
-          description: "Gjerde, K., Boteler, B., Durussel, C., Rochette, J., Unger, S., Wright, G., ‘Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction: Options for Underpinning a Strong Global BBNJ Agreement through Regional and Sectoral Governance’, STRONG…",
+            },},{id: "library-regional-launch-of-western-indian-ocean-economy-report-and-presentation-of-madagascar-s-vision-on-ocean-governance",
+          title: 'Regional launch of Western Indian Ocean Economy Report and presentation of Madagascar’s vision...',
+          description: "Regional launch of Western Indian Ocean Economy Report and presentation of Madagascar’s vision on Ocean Governance",
           section: "Library",handler: () => {
-              window.location.href = "/library/conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction-options-underpinning-strong-global-bbnj-agreement-regional-sectoral-governance/";
-            },},{id: "library-academia-obscura-the-hidden-silly-side-of-higher-education",
-          title: 'Academia Obscura: The Hidden Silly Side of Higher Education',
-          description: "Academia Obscura: The Hidden Silly Side of Higher Education",
+              window.location.href = "/library/regional-launch-western-indian-ocean-economy-report-presentation-madagascars-vision-ocean-governance/";
+            },},{id: "library-third-session-of-the-preparatory-committee-established-by-the-un-general-assembly-resolution-69-292-development-of-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
+          title: 'Third Session of the Preparatory Committee Established by the UN General Assembly Resolution...',
+          description: "Third Session of the Preparatory Committee Established by the UN General Assembly Resolution 69/292 “Development of an International Legally Binding Instrument under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-academia-obscura-hidden-silly-side-higher-education/";
-            },},{id: "library-the-long-and-winding-road-negotiating-a-treaty-for-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
-          title: 'The Long and Winding Road: negotiating a treaty for the conservation and sustainable...',
-          description: "Marine areas beyond national jurisdiction (ABNJ) cover nearly half of the Earth’s surface and host a significant portion of its biodiversity.",
+              window.location.href = "/library/third-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/";
+            },},{id: "library-united-nations-ocean-conference",
+          title: 'United Nations Ocean Conference',
+          description: "United Nations Ocean Conference",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-etal-long-winding-road-negotiating-treaty-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
-            },},{id: "library-laying-the-foundations-for-management-of-a-seamount-beyond-national-jurisdiction-a-case-study-of-the-walters-shoal-in-the-south-west-indian-ocean",
-          title: 'Laying the Foundations for Management of a Seamount Beyond National Jurisdiction: A case...',
-          description: "Laying the Foundations for Management of a Seamount Beyond National Jurisdiction: A case study of the Walters Shoal in the South West Indian Ocean",
-          section: "Library",handler: () => {
-              window.location.href = "/library/laying-foundations-management-seamount-beyond-national-jurisdiction-case-walters-shoal-south-west-indian-ocean/";
-            },},{id: "library-strategic-environmental-assessment-sea-envisioning-its-application-to-marine-areas-beyond-national-jurisdiction-abnj",
-          title: 'Strategic Environmental Assessment (SEA). Envisioning its Application to Marine Areas beyond National Jurisdiction...',
-          description: "Strategic Environmental Assessment (SEA). Envisioning its Application to Marine Areas beyond National Jurisdiction (ABNJ)",
-          section: "Library",handler: () => {
-              window.location.href = "/library/strategic-environmental-assessment-sea-envisioning-application-marine-areas-beyond-national-jurisdiction-abnj/";
-            },},{id: "library-strengthening-regional-ocean-governance-for-the-high-seas-opportunities-and-challenges-to-improve-the-legal-and-institutional-framework-of-the-southeast-atlantic-and-southeast-pacific",
-          title: 'Strengthening Regional Ocean Governance for the High Seas: Opportunities and Challenges to Improve...',
-          description: "The Southeast Atlantic and Southeast Pacific regions are both characterised by their high biological productivity, supported by important oceanic currents.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/";
-            },},{id: "library-collective-action-in-an-asymmetric-world",
-          title: 'Collective action in an asymmetric world',
-          description: "A central authority possessing tax and expenditure responsibilities can readily provide an efficient level of a public good. Absent a central authority, voluntary arrangements must replace coercive ones, and significant under-provision must be expected.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/collective-action-asymmetric-world/";
-            },},{id: "library-protect-the-neglected-half-of-our-blue-planet",
-          title: 'Protect the neglected half of our blue planet',
-          description: "At the close of 2017, 14 million UK viewers tuned into the acclaimed second series of David Attenborough’s Blue Planet, making it the year’s most-watched television show.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-etal-protect-neglected-half-blue-planet/";
-            },},{id: "library-international-network-for-social-studies-of-marine-energy-issmer-shape-workshop-social-sciences-and-humanities-for-advancing-policy-in-european-energy",
-          title: 'International network for Social Studies of Marine Energy (ISSMER) SHAPE workshop (Social Sciences...',
-          description: "International network for Social Studies of Marine Energy (ISSMER) SHAPE workshop (Social Sciences and Humanities for Advancing Policy in European Energy)",
-          section: "Library",handler: () => {
-              window.location.href = "/library/international-network-social-studies-marine-energy-issmer-shape-workshop-social-sciences-humanities-advancing-policy-european-energy/";
-            },},{id: "library-gobernanza-regional-en-las-zonas-fuera-de-la-jurisdiccion-nacional-que-aprendimos-y-como-avanzar",
-          title: 'Gobernanza regional en las zonas fuera de la jurisdiccion nacional: Que aprendimos y...',
-          description: "Gobernanza regional en las zonas fuera de la jurisdiccion nacional: Que aprendimos y como avanzar",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-gobernanza-regional-en-las-zonas-fuera-de-la-jurisdiccion-nacional-que-aprendimos-y-como-avanzar/";
-            },},{id: "library-second-meeting-of-the-sustainable-ocean-initiative-global-dialogue-with-regional-seras-organizations-and-regional-fisheries-bodies-on-accelerating-progress-towards-the-aichi-biodiversity-targets-and-sustainable-development-goals",
-          title: 'Second Meeting of the Sustainable Ocean Initiative Global Dialogue with Regional Seras Organizations...',
-          description: "Second Meeting of the Sustainable Ocean Initiative Global Dialogue with Regional Seras Organizations and Regional Fisheries Bodies on Accelerating Progress Towards the Aichi Biodiversity Targets and Sustainable Development Goals",
-          section: "Library",handler: () => {
-              window.location.href = "/library/second-meeting-sustainable-ocean-initiative-global-dialogue-regional-seras-organizations-regional-fisheries-bodies-accelerating-progress-towards-aichi-biodiversity-targets-sustainable-development/";
-            },},{id: "library-area-based-management-tools",
-          title: 'Area-based management tools',
-          description: "Area-based management tools",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-area-based-management-tools/";
-            },},{id: "library-regional-amp-global-governance-of-areas-beyond-national-jurisdiction",
-          title: 'Regional &amp;amp; Global Governance of Areas Beyond National Jurisdiction',
-          description: "Regional &amp; Global Governance of Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-regional-global-governance-areas-beyond-national-jurisdiction/";
-            },},{id: "library-high-seas-governance-and-fisheries-management",
-          title: 'High seas governance and fisheries management',
-          description: "High seas governance and fisheries management",
-          section: "Library",handler: () => {
-              window.location.href = "/library/high-seas-governance-fisheries-management/";
-            },},{id: "library-making-reform-happen-for-sustainable-fisheries",
-          title: 'Making reform happen for sustainable fisheries',
-          description: "Making reform happen for sustainable fisheries",
-          section: "Library",handler: () => {
-              window.location.href = "/library/making-reform-happen-sustainable-fisheries/";
-            },},{id: "library-marine-planning-on-the-high-seas",
-          title: 'Marine Planning on the High Seas',
-          description: "Marine Planning on the High Seas",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-planning-high-seas/";
-            },},{id: "library-opportunities-for-strengthening-ocean-governance-in-the-southeast-pacific",
-          title: 'Opportunities for Strengthening Ocean Governance in the Southeast Pacific',
-          description: "Opportunities for Strengthening Ocean Governance in the Southeast Pacific",
-          section: "Library",handler: () => {
-              window.location.href = "/library/opportunities-strengthening-ocean-governance-southeast-pacific/";
-            },},{id: "library-pollution-des-oceans-le-probleme-est-il-sous-estime",
-          title: 'Pollution des oceans: le probleme est-il sous-estime ?',
-          description: "Pollution des oceans: le probleme est-il sous-estime ?",
-          section: "Library",handler: () => {
-              window.location.href = "/library/pollution-des-oceans-le-probleme-est-il-sous-estime/";
-            },},{id: "library-technological-tools-for-monitoring-control-and-surveillance-in-marine-areas-beyond-national-jurisdiction",
-          title: 'Technological tools for Monitoring, Control and Surveillance in Marine Areas Beyond National Jurisdiction...',
-          description: "Monitoring Control and Surveillance (MCS) will be crucial to ensuring compliance with management measures developed under a future international agreement on Areas Beyond National Jurisdiction (ABNJ).",
-          section: "Library",handler: () => {
-              window.location.href = "/library/technological-tools-monitoring-control-surveillance-marine-areas-beyond-national-jurisdiction/";
+              window.location.href = "/library/united-nations-ocean-conference/";
             },},{id: "library-bbnj-training-for-un-negotiations",
           title: 'BBNJ Training for UN Negotiations',
           description: "BBNJ Training for UN Negotiations",
@@ -4523,26 +4423,81 @@ ninja.data = [{
           description: "Capacity Building Workshop: UN Biodiversity Beyond National Jurisdiction (BBNJ) Negotiations",
           section: "Library",handler: () => {
               window.location.href = "/library/capacity-building-workshop-un-biodiversity-beyond-national-jurisdiction-bbnj-negotiations/";
+            },},{id: "library-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction-options-for-underpinning-a-strong-global-bbnj-agreement-through-regional-and-sectoral-governance",
+          title: 'Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction: Options...',
+          description: "Gjerde, K., Boteler, B., Durussel, C., Rochette, J., Unger, S., Wright, G., ‘Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction: Options for Underpinning a Strong Global BBNJ Agreement through Regional and Sectoral Governance’, STRONG…",
+          section: "Library",handler: () => {
+              window.location.href = "/library/conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction-options-underpinning-strong-global-bbnj-agreement-regional-sectoral-governance/";
+            },},{id: "library-exploring-the-world-heritage-convention-for-high-seas-conservation",
+          title: 'Exploring the World Heritage Convention for High Seas Conservation',
+          description: "Exploring the World Heritage Convention for High Seas Conservation",
+          section: "Library",handler: () => {
+              window.location.href = "/library/exploring-world-heritage-convention-high-seas-conservation/";
             },},{id: "library-first-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
           title: 'First session of the Intergovernmental conference on an international legally binding instrument under...',
           description: "First session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
           section: "Library",handler: () => {
               window.location.href = "/library/first-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
+            },},{id: "library-fisheries-in-a-new-high-seas-treaty-opportunities-and-challenges",
+          title: 'Fisheries in a new high seas treaty: Opportunities and challenges',
+          description: "Fisheries in a new high seas treaty: Opportunities and challenges",
+          section: "Library",handler: () => {
+              window.location.href = "/library/fisheries-new-high-seas-treaty-opportunities-challenges/";
+            },},{id: "library-academia-obscura-the-hidden-silly-side-of-higher-education",
+          title: 'Academia Obscura: The Hidden Silly Side of Higher Education',
+          description: "Academia Obscura: The Hidden Silly Side of Higher Education",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-academia-obscura-hidden-silly-side-higher-education/";
+            },},{id: "library-area-based-management-tools",
+          title: 'Area-based management tools',
+          description: "Area-based management tools",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-area-based-management-tools/";
             },},{id: "library-bbnj-negotiations-state-of-play",
           title: 'BBNJ Negotiations: State of play',
           description: "BBNJ Negotiations: State of play",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-bbnj-negotiations-state-play/";
+            },},{id: "library-engaging-audiences-with-a-fun-and-friendly-newsletter-the-little-blue-letter-story",
+          title: 'Engaging audiences with a fun and friendly newsletter: The Little Blue Letter Story...',
+          description: "Engaging audiences with a fun and friendly newsletter: The Little Blue Letter Story",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-engaging-audiences-fun-friendly-newsletter-little-blue-letter-story/";
+            },},{id: "library-the-long-and-winding-road-negotiating-a-treaty-for-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
+          title: 'The Long and Winding Road: negotiating a treaty for the conservation and sustainable...',
+          description: "Marine areas beyond national jurisdiction (ABNJ) cover nearly half of the Earth’s surface and host a significant portion of its biodiversity.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-long-winding-road-negotiating-treaty-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
+            },},{id: "library-protect-the-neglected-half-of-our-blue-planet",
+          title: 'Protect the neglected half of our blue planet',
+          description: "At the close of 2017, 14 million UK viewers tuned into the acclaimed second series of David Attenborough’s Blue Planet, making it the year’s most-watched television show.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-protect-neglected-half-blue-planet/";
             },},{id: "library-role-of-technology-and-monitoring-control-and-surveillance-in-marine-conservation-and-management",
           title: 'Role of technology and Monitoring, Control and Surveillance in Marine Conservation and Management...',
           description: "Role of technology and Monitoring, Control and Surveillance in Marine Conservation and Management",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-role-technology-monitoring-control-surveillance-marine-conservation-management/";
+            },},{id: "library-gobernanza-regional-en-las-zonas-fuera-de-la-jurisdiccion-nacional-que-aprendimos-y-como-avanzar",
+          title: 'Gobernanza regional en las zonas fuera de la jurisdiccion nacional: Que aprendimos y...',
+          description: "Gobernanza regional en las zonas fuera de la jurisdiccion nacional: Que aprendimos y como avanzar",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-gobernanza-regional-en-las-zonas-fuera-de-la-jurisdiccion-nacional-que-aprendimos-y-como-avanzar/";
+            },},{id: "library-marine-planning-on-the-high-seas",
+          title: 'Marine Planning on the High Seas',
+          description: "Marine Planning on the High Seas",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-planning-high-seas/";
             },},{id: "library-marine-spatial-planning-in-areas-beyond-national-jurisdiction-opportunities-and-challenges",
           title: 'Marine Spatial Planning in Areas Beyond National Jurisdiction: Opportunities and challenges',
           description: "Marine Spatial Planning in Areas Beyond National Jurisdiction: Opportunities and challenges",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-marine-spatial-planning-areas-beyond-national-jurisdiction-opportunities-challenges/";
+            },},{id: "library-regional-amp-global-governance-of-areas-beyond-national-jurisdiction",
+          title: 'Regional &amp;amp; Global Governance of Areas Beyond National Jurisdiction',
+          description: "Regional &amp; Global Governance of Areas Beyond National Jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-regional-global-governance-areas-beyond-national-jurisdiction/";
             },},{id: "library-underpinning-a-high-seas-treaty-through-strong-regional-and-sectoral-governance",
           title: 'Underpinning a High Seas Treaty through Strong Regional and Sectoral Governance',
           description: "Underpinning a High Seas Treaty through Strong Regional and Sectoral Governance",
@@ -4553,31 +4508,81 @@ ninja.data = [{
           description: "High-Level Expert Meeting: Building a Strong High Seas Treaty: What is the Role for Regional Ocean Governance?",
           section: "Library",handler: () => {
               window.location.href = "/library/high-level-expert-meeting-building-strong-high-seas-treaty-what-role-regional-ocean-governance/";
+            },},{id: "library-high-seas-governance-and-fisheries-management",
+          title: 'High seas governance and fisheries management',
+          description: "High seas governance and fisheries management",
+          section: "Library",handler: () => {
+              window.location.href = "/library/high-seas-governance-fisheries-management/";
+            },},{id: "library-international-network-for-social-studies-of-marine-energy-issmer-shape-workshop-social-sciences-and-humanities-for-advancing-policy-in-european-energy",
+          title: 'International network for Social Studies of Marine Energy (ISSMER) SHAPE workshop (Social Sciences...',
+          description: "International network for Social Studies of Marine Energy (ISSMER) SHAPE workshop (Social Sciences and Humanities for Advancing Policy in European Energy)",
+          section: "Library",handler: () => {
+              window.location.href = "/library/international-network-social-studies-marine-energy-issmer-shape-workshop-social-sciences-humanities-advancing-policy-european-energy/";
+            },},{id: "library-laying-the-foundations-for-management-of-a-seamount-beyond-national-jurisdiction-a-case-study-of-the-walters-shoal-in-the-south-west-indian-ocean",
+          title: 'Laying the Foundations for Management of a Seamount Beyond National Jurisdiction: A case...',
+          description: "Laying the Foundations for Management of a Seamount Beyond National Jurisdiction: A case study of the Walters Shoal in the South West Indian Ocean",
+          section: "Library",handler: () => {
+              window.location.href = "/library/laying-foundations-management-seamount-beyond-national-jurisdiction-case-walters-shoal-south-west-indian-ocean/";
+            },},{id: "library-making-reform-happen-for-sustainable-fisheries",
+          title: 'Making reform happen for sustainable fisheries',
+          description: "Making reform happen for sustainable fisheries",
+          section: "Library",handler: () => {
+              window.location.href = "/library/making-reform-happen-sustainable-fisheries/";
+            },},{id: "library-opportunities-for-strengthening-ocean-governance-in-the-southeast-pacific",
+          title: 'Opportunities for Strengthening Ocean Governance in the Southeast Pacific',
+          description: "Opportunities for Strengthening Ocean Governance in the Southeast Pacific",
+          section: "Library",handler: () => {
+              window.location.href = "/library/opportunities-strengthening-ocean-governance-southeast-pacific/";
+            },},{id: "library-pollution-des-oceans-le-probleme-est-il-sous-estime",
+          title: 'Pollution des oceans: le probleme est-il sous-estime ?',
+          description: "Pollution des oceans: le probleme est-il sous-estime ?",
+          section: "Library",handler: () => {
+              window.location.href = "/library/pollution-des-oceans-le-probleme-est-il-sous-estime/";
+            },},{id: "library-second-meeting-of-the-sustainable-ocean-initiative-global-dialogue-with-regional-seras-organizations-and-regional-fisheries-bodies-on-accelerating-progress-towards-the-aichi-biodiversity-targets-and-sustainable-development-goals",
+          title: 'Second Meeting of the Sustainable Ocean Initiative Global Dialogue with Regional Seras Organizations...',
+          description: "Second Meeting of the Sustainable Ocean Initiative Global Dialogue with Regional Seras Organizations and Regional Fisheries Bodies on Accelerating Progress Towards the Aichi Biodiversity Targets and Sustainable Development Goals",
+          section: "Library",handler: () => {
+              window.location.href = "/library/second-meeting-sustainable-ocean-initiative-global-dialogue-regional-seras-organizations-regional-fisheries-bodies-accelerating-progress-towards-aichi-biodiversity-targets-sustainable-development/";
+            },},{id: "library-strategic-environmental-assessment-sea-envisioning-its-application-to-marine-areas-beyond-national-jurisdiction-abnj",
+          title: 'Strategic Environmental Assessment (SEA). Envisioning its Application to Marine Areas beyond National Jurisdiction...',
+          description: "Strategic Environmental Assessment (SEA). Envisioning its Application to Marine Areas beyond National Jurisdiction (ABNJ)",
+          section: "Library",handler: () => {
+              window.location.href = "/library/strategic-environmental-assessment-sea-envisioning-application-marine-areas-beyond-national-jurisdiction-abnj/";
+            },},{id: "library-strengthening-regional-ocean-governance-for-the-high-seas-opportunities-and-challenges-to-improve-the-legal-and-institutional-framework-of-the-southeast-atlantic-and-southeast-pacific",
+          title: 'Strengthening Regional Ocean Governance for the High Seas: Opportunities and Challenges to Improve...',
+          description: "The Southeast Atlantic and Southeast Pacific regions are both characterised by their high biological productivity, supported by important oceanic currents.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/";
+            },},{id: "library-technological-tools-for-monitoring-control-and-surveillance-in-marine-areas-beyond-national-jurisdiction",
+          title: 'Technological tools for Monitoring, Control and Surveillance in Marine Areas Beyond National Jurisdiction...',
+          description: "Monitoring Control and Surveillance (MCS) will be crucial to ensuring compliance with management measures developed under a future international agreement on Areas Beyond National Jurisdiction (ABNJ).",
+          section: "Library",handler: () => {
+              window.location.href = "/library/technological-tools-monitoring-control-surveillance-marine-areas-beyond-national-jurisdiction/";
             },},{id: "library-vers-une-protection-de-la-haute-mer",
           title: 'Vers une protection de la haute mer',
           description: "Un traite international devrait mieux proteger la haute mer, de plus en plus touchee par l’activite humaine. Mais le processus reste encore long.",
           section: "Library",handler: () => {
               window.location.href = "/library/vers-une-protection-de-la-haute-mer/";
-            },},{id: "library-fisheries-in-a-new-high-seas-treaty-opportunities-and-challenges",
-          title: 'Fisheries in a new high seas treaty: Opportunities and challenges',
-          description: "Fisheries in a new high seas treaty: Opportunities and challenges",
-          section: "Library",handler: () => {
-              window.location.href = "/library/fisheries-new-high-seas-treaty-opportunities-challenges/";
-            },},{id: "library-exploring-the-world-heritage-convention-for-high-seas-conservation",
-          title: 'Exploring the World Heritage Convention for High Seas Conservation',
-          description: "Exploring the World Heritage Convention for High Seas Conservation",
-          section: "Library",handler: () => {
-              window.location.href = "/library/exploring-world-heritage-convention-high-seas-conservation/";
-            },},{id: "library-engaging-audiences-with-a-fun-and-friendly-newsletter-the-little-blue-letter-story",
-          title: 'Engaging audiences with a fun and friendly newsletter: The Little Blue Letter Story...',
-          description: "Engaging audiences with a fun and friendly newsletter: The Little Blue Letter Story",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-engaging-audiences-fun-friendly-newsletter-little-blue-letter-story/";
             },},{id: "library-achieving-a-healthy-ocean-regional-ocean-governance-beyond-2020-marine-regions-forum-2019-conference-report",
           title: 'Achieving a Healthy Ocean - Regional Ocean Governance Beyond 2020 (Marine Regions Forum...',
           description: "Achieving a Healthy Ocean - Regional Ocean Governance Beyond 2020 (Marine Regions Forum 2019 Conference Report)",
           section: "Library",handler: () => {
               window.location.href = "/library/achieving-healthy-ocean-regional-ocean-governance-beyond-2020-marine-regions-forum-2019-conference-report/";
+            },},{id: "library-building-capacities-for-regional-ocean-governance-marine-genetic-resources-and-area-based-management-tools",
+          title: 'Building Capacities for Regional Ocean Governance: Marine Genetic Resources and Area-based Management Tools...',
+          description: "Building Capacities for Regional Ocean Governance: Marine Genetic Resources and Area-based Management Tools",
+          section: "Library",handler: () => {
+              window.location.href = "/library/building-capacities-regional-ocean-governance-marine-genetic-resources-area-based-management-tools/";
+            },},{id: "library-connectivity-in-a-future-high-seas-treaty",
+          title: 'Connectivity in a Future High Seas Treaty',
+          description: "Connectivity in a Future High Seas Treaty",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-connectivity-future-high-seas-treaty/";
+            },},{id: "library-environmental-impact-assessment-in-areas-beyond-national-jurisdiction",
+          title: 'Environmental Impact Assessment in Areas Beyond National Jurisdiction',
+          description: "Environmental Impact Assessment in Areas Beyond National Jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-environmental-impact-assessment-areas-beyond-national-jurisdiction/";
             },},{id: "library-high-hopes-for-the-high-seas-beyond-the-package-deal-towards-an-ambitious-treaty",
           title: 'High Hopes for the High Seas: beyond the package deal towards an ambitious...',
           description: "Cognisant of the growing threats to biodiversity in marine areas beyond national jurisdiction (ABNJ), States at the United Nations are negotiating a treaty to ensure the conservation and sustainable use of this vast global commons.",
@@ -4588,136 +4593,121 @@ ninja.data = [{
           description: "Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-regional-ocean-governance-areas-beyond-national-jurisdiction-lessons-learnt-ways-forward/";
-            },},{id: "library-regional-governance-of-areas-beyond-national-jurisdiction",
-          title: 'Regional Governance of Areas Beyond National Jurisdiction',
-          description: "Regional Governance of Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-regional-governance-areas-beyond-national-jurisdiction/";
-            },},{id: "library-keeping-an-eye-on-the-high-seas-strengthening-monitoring-control-and-surveillance-through-a-new-marine-biodiversity-treaty",
-          title: 'Keeping an Eye on the High Seas Strengthening Monitoring, Control and Surveillance through...',
-          description: "Effective monitoring, control and surveillance (MCS) is critical for the success of marine conservation and management measures.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/keeping-eye-high-seas-strengthening-monitoring-control-surveillance-new-marine-biodiversity-treaty/";
-            },},{id: "library-marine-regions-forum-2019-key-messages-achieving-a-healthy-ocean-regional-ocean-governance-beyond-2020",
-          title: 'Marine Regions Forum 2019 Key Messages: Achieving a Healthy Ocean - Regional Ocean...',
-          description: "Marine Regions Forum 2019 Key Messages: Achieving a Healthy Ocean - Regional Ocean Governance Beyond 2020",
-          section: "Library",handler: () => {
-              window.location.href = "/library/marine-regions-forum-2019-key-messages-achieving-healthy-ocean-regional-ocean-governance-beyond-2020/";
-            },},{id: "library-towards-ecosystem-based-management-of-the-global-ocean-strengthening-regional-cooperation-through-a-new-agreement-for-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
-          title: 'Towards Ecosystem-based Management of the Global Ocean: Strengthening Regional Cooperation through a New...',
-          description: "Towards Ecosystem-based Management of the Global Ocean: Strengthening Regional Cooperation through a New Agreement for the Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/towards-ecosystem-based-management-global-ocean-strengthening-regional-cooperation-new-agreement-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
-            },},{id: "library-the-high-seas-how-can-we-govern-half-of-the-planet-for-the-benefit-of-all-the-world-s-people",
-          title: 'The high seas: how can we govern half of the planet for the...',
-          description: "The high seas: how can we govern half of the  planet for the benefit of all the world’s people?",
-          section: "Library",handler: () => {
-              window.location.href = "/library/high-seas-how-govern-half-planet-benefit-worlds-people/";
-            },},{id: "library-strategic-workshop-towards-an-inclusive-blue-economy",
-          title: 'Strategic workshop: towards an inclusive blue economy',
-          description: "Strategic workshop: towards an inclusive blue economy",
-          section: "Library",handler: () => {
-              window.location.href = "/library/strategic-workshop-towards-inclusive-blue-economy/";
-            },},{id: "library-connectivity-in-a-future-high-seas-treaty",
-          title: 'Connectivity in a Future High Seas Treaty',
-          description: "Connectivity in a Future High Seas Treaty",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-connectivity-future-high-seas-treaty/";
-            },},{id: "library-overview-of-regional-initiatives-for-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
-          title: 'Overview of regional initiatives for the conservation and sustainable use of marine biodiversity...',
-          description: "Overview of regional initiatives for the conservation and sustainable use of marine biodiversity in areas beyond national jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-overview-regional-initiatives-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
-            },},{id: "library-regional-ocean-governance-of-areas-beyond-national-jurisdiction-lessons-learnt-and-ways-forward",
-          title: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward...',
-          description: "Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-regional-ocean-governance-areas-beyond-national-jurisdiction-lessons-learnt-ways-forward/";
-            },},{id: "library-high-level-expert-meeting-towards-an-effective-high-seas-treaty-building-on-and-strengthening-regional-ocean-governance",
-          title: 'High-level expert meeting: Towards an Effective High Seas Treaty: Building on and Strengthening...',
-          description: "High-level expert meeting: Towards an Effective High Seas Treaty: Building on and Strengthening Regional Ocean Governance",
-          section: "Library",handler: () => {
-              window.location.href = "/library/high-level-expert-meeting-towards-effective-high-seas-treaty-building-strengthening-regional-ocean-governance/";
-            },},{id: "library-science-for-solutions-bringing-stakeholders-together-to-improve-ocean-planning-and-governance-in-abnj-of-the-south-east-pacific",
-          title: 'Science for Solutions: Bringing Stakeholders Together to Improve Ocean Planning and Governance in...',
-          description: "Science for Solutions: Bringing Stakeholders Together to Improve Ocean Planning and Governance in ABNJ of the South-East Pacific",
-          section: "Library",handler: () => {
-              window.location.href = "/library/science-solutions-bringing-stakeholders-together-improve-ocean-planning-governance-abnj-south-east-pacific/";
-            },},{id: "library-towards-an-effective-high-seas-treaty-building-on-and-strengthening-regional-ocean-governance",
-          title: 'Towards an Effective High Seas Treaty - Building on and Strengthening Regional Ocean...',
-          description: "Towards an Effective High Seas Treaty - Building on and Strengthening Regional Ocean Governance",
-          section: "Library",handler: () => {
-              window.location.href = "/library/towards-effective-high-seas-treaty-building-strengthening-regional-ocean-governance/";
             },},{id: "library-strengthening-monitoring-control-and-surveillance-mcs-through-an-international-instrument-on-high-seas-biodiversity",
           title: 'Strengthening Monitoring, Control and Surveillance (MCS) through an international instrument on high seas...',
           description: "The workshop covered four different themes: improving transparency at sea, lessons learnt from national experiences, lessons learnt from regional experiences and future policy options.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-strengthening-monitoring-control-surveillance-mcs-international-instrument-high-seas-biodiversity/";
-            },},{id: "library-haute-mer-une-version-quot-zero-quot-du-traite-attendue-d-ici-a-la-fin-juillet",
-          title: 'Haute mer : une version &amp;quot;zero&amp;quot; du traite attendue d’ici a la fin...',
-          description: "La deuxieme session de negociations sur la preservation et l’utilisation durable de la biodiversite en haute mer s’est conclue le 5 avril dernier. L’occasion...",
-          section: "Library",handler: () => {
-              window.location.href = "/library/haute-mer-une-version-zero-du-traite-attendue-dici-la-fin-juillet/";
-            },},{id: "library-la-haute-mer-a-l-epreuve-de-la-diplomatie",
-          title: 'La haute mer a l’epreuve de la diplomatie',
-          description: "Elle n’appartient a personne et echappe a toute reglementation. Face aux pressions humaines et climatiques, l’Onu tente de negocier un traite sur le statut juridique de cette vaste etendue d’eau pour en reguler l’exploitation.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/la-haute-mer-lepreuve-de-la-diplomatie/";
-            },},{id: "library-second-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
-          title: 'Second session of the Intergovernmental conference on an international legally binding instrument under...',
-          description: "Second session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/second-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
-            },},{id: "library-building-capacities-for-regional-ocean-governance-marine-genetic-resources-and-area-based-management-tools",
-          title: 'Building Capacities for Regional Ocean Governance: Marine Genetic Resources and Area-based Management Tools...',
-          description: "Building Capacities for Regional Ocean Governance: Marine Genetic Resources and Area-based Management Tools",
-          section: "Library",handler: () => {
-              window.location.href = "/library/building-capacities-regional-ocean-governance-marine-genetic-resources-area-based-management-tools/";
-            },},{id: "library-les-negociations-sur-la-biodiversite-en-haute-mer-reprennent-a-new",
-          title: 'Les negociations sur la biodiversite en haute mer reprennent a New...',
-          description: "La troisieme session de negociations d’un traite sur la preservation et l’utilisation durable de la biodiversite en haute mer s’ouvre ce lundi 19 aout...",
-          section: "Library",handler: () => {
-              window.location.href = "/library/les-negociations-sur-la-biodiversite-en-haute-mer-reprennent-new/";
-            },},{id: "library-one-ocean-symposium",
-          title: 'One Ocean Symposium',
-          description: "One Ocean Symposium",
-          section: "Library",handler: () => {
-              window.location.href = "/library/one-ocean-symposium/";
-            },},{id: "library-third-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
-          title: 'Third session of the Intergovernmental conference on an international legally binding instrument under...',
-          description: "Third session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/third-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
             },},{id: "library-interview-with-ocean-university-initiative",
           title: 'Interview with Ocean University Initiative',
           description: "Interview with Ocean University Initiative",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-interview-ocean-university-initiative/";
+            },},{id: "library-overview-of-regional-initiatives-for-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
+          title: 'Overview of regional initiatives for the conservation and sustainable use of marine biodiversity...',
+          description: "Overview of regional initiatives for the conservation and sustainable use of marine biodiversity in areas beyond national jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-overview-regional-initiatives-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
+            },},{id: "library-regional-governance-of-areas-beyond-national-jurisdiction",
+          title: 'Regional Governance of Areas Beyond National Jurisdiction',
+          description: "Regional Governance of Areas Beyond National Jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-regional-governance-areas-beyond-national-jurisdiction/";
+            },},{id: "library-regional-ocean-governance-of-areas-beyond-national-jurisdiction-lessons-learnt-and-ways-forward",
+          title: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward...',
+          description: "Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-regional-ocean-governance-areas-beyond-national-jurisdiction-lessons-learnt-ways-forward/";
+            },},{id: "library-haute-mer-une-version-quot-zero-quot-du-traite-attendue-d-ici-a-la-fin-juillet",
+          title: 'Haute mer : une version &amp;quot;zero&amp;quot; du traite attendue d’ici a la fin...',
+          description: "La deuxieme session de negociations sur la preservation et l’utilisation durable de la biodiversite en haute mer s’est conclue le 5 avril dernier. L’occasion...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/haute-mer-une-version-zero-du-traite-attendue-dici-la-fin-juillet/";
+            },},{id: "library-high-level-expert-meeting-towards-an-effective-high-seas-treaty-building-on-and-strengthening-regional-ocean-governance",
+          title: 'High-level expert meeting: Towards an Effective High Seas Treaty: Building on and Strengthening...',
+          description: "High-level expert meeting: Towards an Effective High Seas Treaty: Building on and Strengthening Regional Ocean Governance",
+          section: "Library",handler: () => {
+              window.location.href = "/library/high-level-expert-meeting-towards-effective-high-seas-treaty-building-strengthening-regional-ocean-governance/";
             },},{id: "library-high-seas-fish-biodiversity-is-slipping-through-the-governance-net",
           title: 'High-seas fish biodiversity is slipping through the governance net',
           description: "States at the United Nations have begun negotiating a new treaty to strengthen the legal regime for marine biodiversity in areas beyond national jurisdiction.",
           section: "Library",handler: () => {
               window.location.href = "/library/high-seas-fish-biodiversity-slipping-governance-net/";
-            },},{id: "library-traite-sur-la-haute-mer-comment-proteger-les-ecosystemes-marins",
-          title: 'Traite sur la haute mer: comment proteger les ecosystemes marins ?',
-          description: "Traite sur la haute mer: comment proteger les ecosystemes marins ?",
+            },},{id: "library-the-high-seas-how-can-we-govern-half-of-the-planet-for-the-benefit-of-all-the-world-s-people",
+          title: 'The high seas: how can we govern half of the planet for the...',
+          description: "The high seas: how can we govern half of the  planet for the benefit of all the world’s people?",
           section: "Library",handler: () => {
-              window.location.href = "/library/traite-sur-la-haute-mer-comment-proteger-les-ecosystemes-marins/";
+              window.location.href = "/library/high-seas-how-govern-half-planet-benefit-worlds-people/";
+            },},{id: "library-keeping-an-eye-on-the-high-seas-strengthening-monitoring-control-and-surveillance-through-a-new-marine-biodiversity-treaty",
+          title: 'Keeping an Eye on the High Seas Strengthening Monitoring, Control and Surveillance through...',
+          description: "Effective monitoring, control and surveillance (MCS) is critical for the success of marine conservation and management measures.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/keeping-eye-high-seas-strengthening-monitoring-control-surveillance-new-marine-biodiversity-treaty/";
+            },},{id: "library-la-haute-mer-a-l-epreuve-de-la-diplomatie",
+          title: 'La haute mer a l’epreuve de la diplomatie',
+          description: "Elle n’appartient a personne et echappe a toute reglementation. Face aux pressions humaines et climatiques, l’Onu tente de negocier un traite sur le statut juridique de cette vaste etendue d’eau pour en reguler l’exploitation.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/la-haute-mer-lepreuve-de-la-diplomatie/";
+            },},{id: "library-les-negociations-sur-la-biodiversite-en-haute-mer-reprennent-a-new",
+          title: 'Les negociations sur la biodiversite en haute mer reprennent a New...',
+          description: "La troisieme session de negociations d’un traite sur la preservation et l’utilisation durable de la biodiversite en haute mer s’ouvre ce lundi 19 aout...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/les-negociations-sur-la-biodiversite-en-haute-mer-reprennent-new/";
+            },},{id: "library-marine-regions-forum-2019-key-messages-achieving-a-healthy-ocean-regional-ocean-governance-beyond-2020",
+          title: 'Marine Regions Forum 2019 Key Messages: Achieving a Healthy Ocean - Regional Ocean...',
+          description: "Marine Regions Forum 2019 Key Messages: Achieving a Healthy Ocean - Regional Ocean Governance Beyond 2020",
+          section: "Library",handler: () => {
+              window.location.href = "/library/marine-regions-forum-2019-key-messages-achieving-healthy-ocean-regional-ocean-governance-beyond-2020/";
             },},{id: "library-marine-regions-forum",
           title: 'Marine Regions Forum',
           description: "Marine Regions Forum",
           section: "Library",handler: () => {
               window.location.href = "/library/marine-regions-forum/";
-            },},{id: "library-environmental-impact-assessment-in-areas-beyond-national-jurisdiction",
-          title: 'Environmental Impact Assessment in Areas Beyond National Jurisdiction',
-          description: "Environmental Impact Assessment in Areas Beyond National Jurisdiction",
+            },},{id: "library-one-ocean-symposium",
+          title: 'One Ocean Symposium',
+          description: "One Ocean Symposium",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-environmental-impact-assessment-areas-beyond-national-jurisdiction/";
+              window.location.href = "/library/one-ocean-symposium/";
+            },},{id: "library-science-for-solutions-bringing-stakeholders-together-to-improve-ocean-planning-and-governance-in-abnj-of-the-south-east-pacific",
+          title: 'Science for Solutions: Bringing Stakeholders Together to Improve Ocean Planning and Governance in...',
+          description: "Science for Solutions: Bringing Stakeholders Together to Improve Ocean Planning and Governance in ABNJ of the South-East Pacific",
+          section: "Library",handler: () => {
+              window.location.href = "/library/science-solutions-bringing-stakeholders-together-improve-ocean-planning-governance-abnj-south-east-pacific/";
+            },},{id: "library-second-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
+          title: 'Second session of the Intergovernmental conference on an international legally binding instrument under...',
+          description: "Second session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/second-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
+            },},{id: "library-strategic-workshop-towards-an-inclusive-blue-economy",
+          title: 'Strategic workshop: towards an inclusive blue economy',
+          description: "Strategic workshop: towards an inclusive blue economy",
+          section: "Library",handler: () => {
+              window.location.href = "/library/strategic-workshop-towards-inclusive-blue-economy/";
             },},{id: "library-strengthening-monitoring-control-and-surveillance-mcs-through-an-international-instrument-on-high-seas-biodiversity",
           title: 'Strengthening Monitoring, Control and Surveillance (MCS) through an international instrument on high seas...',
           description: "Strengthening Monitoring, Control and Surveillance (MCS) through an international instrument on high seas biodiversity",
           section: "Library",handler: () => {
               window.location.href = "/library/strengthening-monitoring-control-surveillance-mcs-international-instrument-high-seas-biodiversity/";
+            },},{id: "library-third-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
+          title: 'Third session of the Intergovernmental conference on an international legally binding instrument under...',
+          description: "Third session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/third-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
+            },},{id: "library-towards-ecosystem-based-management-of-the-global-ocean-strengthening-regional-cooperation-through-a-new-agreement-for-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
+          title: 'Towards Ecosystem-based Management of the Global Ocean: Strengthening Regional Cooperation through a New...',
+          description: "Towards Ecosystem-based Management of the Global Ocean: Strengthening Regional Cooperation through a New Agreement for the Conservation and Sustainable Use of Marine Biodiversity in Areas Beyond National Jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/towards-ecosystem-based-management-global-ocean-strengthening-regional-cooperation-new-agreement-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
+            },},{id: "library-towards-an-effective-high-seas-treaty-building-on-and-strengthening-regional-ocean-governance",
+          title: 'Towards an Effective High Seas Treaty - Building on and Strengthening Regional Ocean...',
+          description: "Towards an Effective High Seas Treaty - Building on and Strengthening Regional Ocean Governance",
+          section: "Library",handler: () => {
+              window.location.href = "/library/towards-effective-high-seas-treaty-building-strengthening-regional-ocean-governance/";
+            },},{id: "library-traite-sur-la-haute-mer-comment-proteger-les-ecosystemes-marins",
+          title: 'Traite sur la haute mer: comment proteger les ecosystemes marins ?',
+          description: "Traite sur la haute mer: comment proteger les ecosystemes marins ?",
+          section: "Library",handler: () => {
+              window.location.href = "/library/traite-sur-la-haute-mer-comment-proteger-les-ecosystemes-marins/";
             },},{id: "library-2020-a-super-year-for-the-ocean",
           title: '2020: a “Super Year” for the ocean?',
           description: "After the “Blue COP”, whose real political impacts will need to be assessed beyond the strong mobilisation of civil society, 2020 is presented as a “super year” for the ocean, marked with several important events and political deadlines on the horizon.",
@@ -4728,61 +4718,31 @@ ninja.data = [{
           description: "Combatting marine plastic litter: state of play and perspectives",
           section: "Library",handler: () => {
               window.location.href = "/library/combatting-marine-plastic-litter-state-play-perspectives/";
+            },},{id: "library-area-based-management-tools-including-marine-protected-areas",
+          title: 'Area-based Management Tools (Including Marine Protected Areas)',
+          description: "Area-based Management Tools (Including Marine Protected Areas)",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-area-based-management-tools-including-marine-protected-areas/";
             },},{id: "library-fishing-in-the-twilight-zone-illuminating-governance-challenges-at-the-next-fisheries-frontier",
           title: 'Fishing in the Twilight Zone: Illuminating governance challenges at the next fisheries frontier...',
           description: "Fishing in the Twilight Zone: Illuminating governance challenges at the next fisheries frontier",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/";
+            },},{id: "library-the-ocean-39-s-quot-twilight-zone-quot-climate-risks-at-the-next-fisheries-frontier",
+          title: 'The Ocean&amp;#39;s &amp;quot;twilight zone&amp;quot;: climate risks at the next fisheries frontier',
+          description: "We have known since the 1970s that the Ocean&#39;s vast mesopelagic, or &quot;twilight&quot;, zone could contain huge quantities of fish.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-oceans-twilight-zone-climate-risks-next-fisheries-frontier/";
+            },},{id: "library-fishing-in-the-twilight-zone-illuminating-governance-challenges-at-the-next-fisheries-frontier",
+          title: 'Fishing in the Twilight Zone: illuminating governance challenges at the next fisheries frontier...',
+          description: "The mesopelagic, or &quot;twilight zone&quot; - the waters of the open ocean at a depth of approximately 150-1, 000 metres - hosts significant fish stocks. These fish are unpalatable but proposals are emerging to process them into fishmeal and nutritional supplements.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/";
             },},{id: "library-the-history-of-ocean-power",
           title: 'The History of Ocean Power',
           description: "The History of Ocean Power",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-history-ocean-power/";
-            },},{id: "library-options-for-strengthening-monitoring-control-and-surveillance-of-human-activities-in-the-southeast-pacific-region",
-          title: 'Options for Strengthening Monitoring, Control and Surveillance of Human Activities in the Southeast...',
-          description: "This report provides an overview of a range of ongoing initiatives to improve governance of ABNJ at the regional level, including: novel modalities, such as the “Collective Arrange- ment for the North-East Atlantic”, whereby the OSPAR Commission and the North East Atlantic…",
-          section: "Library",handler: () => {
-              window.location.href = "/library/options-strengthening-monitoring-control-surveillance-human-activities-southeast-pacific-region/";
-            },},{id: "library-a-preliminary-analysis-of-the-draft-high-seas-biodiversity-treaty",
-          title: 'A preliminary analysis of the draft high seas biodiversity treaty',
-          description: "In 2017, following more than a decade of informal discussions, States at the United Nations decided to convene an intergovernmental conference (IGC) to negotiate an international legally binding instrument (ILBI) for the conservation and sustainable use of the biological…",
-          section: "Library",handler: () => {
-              window.location.href = "/library/preliminary-analysis-draft-high-seas-biodiversity-treaty/";
-            },},{id: "library-protecting-sites-of-potential-outstanding-universal-value-in-marine-areas-beyond-national-jurisdiction-the-practical-modalities",
-          title: 'Protecting sites of potential Outstanding Universal Value in marine Areas Beyond National Jurisdiction:...',
-          description: "Protecting sites of potential Outstanding Universal Value in marine Areas Beyond National Jurisdiction:  The practical modalities",
-          section: "Library",handler: () => {
-              window.location.href = "/library/protecting-sites-potential-outstanding-universal-value-marine-areas-beyond-national-jurisdiction-practical-modalities/";
-            },},{id: "library-strengthening-monitoring-control-and-surveillance-in-areas-beyond-national-jurisdiction",
-          title: 'Strengthening Monitoring, Control and Surveillance in Areas Beyond National Jurisdiction',
-          description: "Monitoring, control and surveillance (MCS) is critical for the success of marine conservation and management, but effective MCS remains challenging.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/strengthening-monitoring-control-surveillance-areas-beyond-national-jurisdiction/";
-            },},{id: "library-technical-but-strategic-reflections-on-the-institutional-mechanisms-of-a-future-high-seas-treaty",
-          title: 'Technical but strategic: reflections on the institutional mechanisms of a future High Seas...',
-          description: "The negotiations for the development of a legally binding instrument on high seas biodiversity began at the end of 2017 and are currently suspended due to the public health crisis.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/technical-strategic-reflections-institutional-mechanisms-future-high-seas-treaty/";
-            },},{id: "library-towards-a-package-marine-biodiversity-beyond-national-jurisdiction",
-          title: 'Towards a Package: Marine Biodiversity Beyond National Jurisdiction',
-          description: "Towards a Package: Marine Biodiversity Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/towards-package-marine-biodiversity-beyond-national-jurisdiction/";
-            },},{id: "library-workshop-on-environmental-impact-assessments-eias-and-strategic-environmental-assessments-seas",
-          title: 'Workshop on Environmental Impact Assessments (EIAs) and Strategic Environmental Assessments (SEAs)',
-          description: "Workshop on Environmental Impact Assessments (EIAs) and Strategic Environmental Assessments (SEAs)",
-          section: "Library",handler: () => {
-              window.location.href = "/library/workshop-environmental-impact-assessments-eias-strategic-environmental-assessments-seas/";
-            },},{id: "library-ocean-action",
-          title: 'Ocean Action',
-          description: "Ocean Action",
-          section: "Library",handler: () => {
-              window.location.href = "/library/ocean-action/";
-            },},{id: "library-un-discussions-on-marine-genetic-resources-shape-the-future-of-marine-biotechnology",
-          title: 'UN discussions on marine genetic resources shape the future of marine biotechnology',
-          description: "The first recorded medicinal use of marine species dates from almost 3000 BCE in China. In 400 BCE, Hippocrates noted the antibiotic properties of sponges and recommended they be applied to soldiers&#39; wounds.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/un-discussions-marine-genetic-resources-shape-future-marine-biotechnology/";
             },},{id: "library-marine-plastic-pollution-state-of-play-amp-perspectives",
           title: 'Marine Plastic Pollution: State of Play &amp;amp; Perspectives',
           description: "Plastic pollution of the ocean is now reaching an alarming level, threatening species and ecosystems, affecting the well-being of populations and costing billions of euros every year, in particular through its impact on sectors such as tourism and fishing.",
@@ -4798,46 +4758,86 @@ ninja.data = [{
           description: "Les enjeux de coordination entre le futur traite haute mer et les organisations existantes",
           section: "Library",handler: () => {
               window.location.href = "/library/les-enjeux-de-coordination-entre-le-futur-traite-haute-mer-et-les-organisations-existantes/";
-            },},{id: "library-area-based-management-tools-including-marine-protected-areas",
-          title: 'Area-based Management Tools (Including Marine Protected Areas)',
-          description: "Area-based Management Tools (Including Marine Protected Areas)",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-area-based-management-tools-including-marine-protected-areas/";
             },},{id: "library-the-mesopelagic-zone",
           title: 'The Mesopelagic Zone',
           description: "The Mesopelagic Zone",
           section: "Library",handler: () => {
               window.location.href = "/library/mesopelagic-zone/";
-            },},{id: "library-the-ocean-39-s-quot-twilight-zone-quot-climate-risks-at-the-next-fisheries-frontier",
-          title: 'The Ocean&amp;#39;s &amp;quot;twilight zone&amp;quot;: climate risks at the next fisheries frontier',
-          description: "We have known since the 1970s that the Ocean&#39;s vast mesopelagic, or &quot;twilight&quot;, zone could contain huge quantities of fish.",
+            },},{id: "library-ocean-action",
+          title: 'Ocean Action',
+          description: "Ocean Action",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-etal-oceans-twilight-zone-climate-risks-next-fisheries-frontier/";
-            },},{id: "library-strengthening-monitoring-control-and-surveillance-through-a-high-seas-treaty",
-          title: 'Strengthening Monitoring Control and Surveillance through a High Seas Treaty',
-          description: "The high seas treaty is expected to provide for the establishment of marine protected areas (MPAs) beyond national jurisdiction, but there are significant challenges for ensuring that such areas are truly protected through effective monitoring, control and surveillance.",
+              window.location.href = "/library/ocean-action/";
+            },},{id: "library-options-for-strengthening-monitoring-control-and-surveillance-of-human-activities-in-the-southeast-pacific-region",
+          title: 'Options for Strengthening Monitoring, Control and Surveillance of Human Activities in the Southeast...',
+          description: "This report provides an overview of a range of ongoing initiatives to improve governance of ABNJ at the regional level, including: novel modalities, such as the “Collective Arrange- ment for the North-East Atlantic”, whereby the OSPAR Commission and the North East Atlantic…",
           section: "Library",handler: () => {
-              window.location.href = "/library/strengthening-monitoring-control-surveillance-high-seas-treaty/";
-            },},{id: "library-fishing-in-the-twilight-zone-illuminating-governance-challenges-at-the-next-fisheries-frontier",
-          title: 'Fishing in the Twilight Zone: illuminating governance challenges at the next fisheries frontier...',
-          description: "The mesopelagic, or &quot;twilight zone&quot; - the waters of the open ocean at a depth of approximately 150-1, 000 metres - hosts significant fish stocks. These fish are unpalatable but proposals are emerging to process them into fishmeal and nutritional supplements.",
+              window.location.href = "/library/options-strengthening-monitoring-control-surveillance-human-activities-southeast-pacific-region/";
+            },},{id: "library-a-preliminary-analysis-of-the-draft-high-seas-biodiversity-treaty",
+          title: 'A preliminary analysis of the draft high seas biodiversity treaty',
+          description: "In 2017, following more than a decade of informal discussions, States at the United Nations decided to convene an intergovernmental conference (IGC) to negotiate an international legally binding instrument (ILBI) for the conservation and sustainable use of the biological…",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/";
+              window.location.href = "/library/preliminary-analysis-draft-high-seas-biodiversity-treaty/";
+            },},{id: "library-protecting-sites-of-potential-outstanding-universal-value-in-marine-areas-beyond-national-jurisdiction-the-practical-modalities",
+          title: 'Protecting sites of potential Outstanding Universal Value in marine Areas Beyond National Jurisdiction:...',
+          description: "Protecting sites of potential Outstanding Universal Value in marine Areas Beyond National Jurisdiction:  The practical modalities",
+          section: "Library",handler: () => {
+              window.location.href = "/library/protecting-sites-potential-outstanding-universal-value-marine-areas-beyond-national-jurisdiction-practical-modalities/";
             },},{id: "library-rights-of-nature-perspectives-for-global-ocean-stewardship",
           title: 'Rights of Nature: Perspectives for Global Ocean Stewardship',
           description: "The development of a new international legally binding instrument for the conservation and sustainable use of marine biodiversity beyond national jurisdiction (BBNJ agreement) is in the final negotiation phase.",
           section: "Library",handler: () => {
               window.location.href = "/library/rights-nature-perspectives-global-ocean-stewardship/";
+            },},{id: "library-strengthening-monitoring-control-and-surveillance-in-areas-beyond-national-jurisdiction",
+          title: 'Strengthening Monitoring, Control and Surveillance in Areas Beyond National Jurisdiction',
+          description: "Monitoring, control and surveillance (MCS) is critical for the success of marine conservation and management, but effective MCS remains challenging.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/strengthening-monitoring-control-surveillance-areas-beyond-national-jurisdiction/";
+            },},{id: "library-strengthening-monitoring-control-and-surveillance-through-a-high-seas-treaty",
+          title: 'Strengthening Monitoring Control and Surveillance through a High Seas Treaty',
+          description: "The high seas treaty is expected to provide for the establishment of marine protected areas (MPAs) beyond national jurisdiction, but there are significant challenges for ensuring that such areas are truly protected through effective monitoring, control and surveillance.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/strengthening-monitoring-control-surveillance-high-seas-treaty/";
             },},{id: "library-strengthening-monitoring-control-and-surveillance-of-human-activities-in-marine-areas-beyond-national-jurisdiction-challenges-and-opportunities-for-an-international-legally-binding-instrument",
           title: 'Strengthening monitoring, control and surveillance of human activities in marine areas beyond national...',
           description: "Monitoring, control and surveillance (MCS) is critical for the success of marine conservation and management.",
           section: "Library",handler: () => {
               window.location.href = "/library/strengthening-monitoring-control-surveillance-human-activities-marine-areas-beyond-national-jurisdiction-challenges-opportunities-international-legally-binding-instrument/";
+            },},{id: "library-technical-but-strategic-reflections-on-the-institutional-mechanisms-of-a-future-high-seas-treaty",
+          title: 'Technical but strategic: reflections on the institutional mechanisms of a future High Seas...',
+          description: "The negotiations for the development of a legally binding instrument on high seas biodiversity began at the end of 2017 and are currently suspended due to the public health crisis.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/technical-strategic-reflections-institutional-mechanisms-future-high-seas-treaty/";
+            },},{id: "library-towards-a-package-marine-biodiversity-beyond-national-jurisdiction",
+          title: 'Towards a Package: Marine Biodiversity Beyond National Jurisdiction',
+          description: "Towards a Package: Marine Biodiversity Beyond National Jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/towards-package-marine-biodiversity-beyond-national-jurisdiction/";
+            },},{id: "library-un-discussions-on-marine-genetic-resources-shape-the-future-of-marine-biotechnology",
+          title: 'UN discussions on marine genetic resources shape the future of marine biotechnology',
+          description: "The first recorded medicinal use of marine species dates from almost 3000 BCE in China. In 400 BCE, Hippocrates noted the antibiotic properties of sponges and recommended they be applied to soldiers&#39; wounds.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/un-discussions-marine-genetic-resources-shape-future-marine-biotechnology/";
+            },},{id: "library-workshop-on-environmental-impact-assessments-eias-and-strategic-environmental-assessments-seas",
+          title: 'Workshop on Environmental Impact Assessments (EIAs) and Strategic Environmental Assessments (SEAs)',
+          description: "Workshop on Environmental Impact Assessments (EIAs) and Strategic Environmental Assessments (SEAs)",
+          section: "Library",handler: () => {
+              window.location.href = "/library/workshop-environmental-impact-assessments-eias-strategic-environmental-assessments-seas/";
+            },},{id: "library-strengthening-monitoring-control-and-surveillance-through-a-high-seas-treaty",
+          title: 'Strengthening Monitoring, Control and Surveillance through a High Seas Treaty',
+          description: "Strengthening Monitoring, Control and Surveillance through a High Seas Treaty",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-strengthening-monitoring-control-surveillance-high-seas-treaty/";
             },},{id: "library-ocean-power",
           title: 'Ocean Power',
           description: "Ocean Power",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-ocean-power/";
+            },},{id: "library-high-hopes-for-the-high-seas-protecting-biodiversity-in-the-global-ocean",
+          title: 'High Hopes for the High Seas: Protecting biodiversity in the global ocean',
+          description: "High Hopes for the High Seas: Protecting biodiversity in the global ocean",
+          section: "Library",handler: () => {
+              window.location.href = "/library/high-hopes-high-seas-protecting-biodiversity-global-ocean/";
             },},{id: "library-marine-regions-forum-an-international-stakeholder-forum-to-strengthen-regional-ocean-governance",
           title: 'Marine Regions Forum: An international stakeholder forum to strengthen regional ocean governance',
           description: "Marine Regions Forum: An international stakeholder forum to strengthen regional ocean governance",
@@ -4853,6 +4853,11 @@ ninja.data = [{
           description: "Effective monitoring, control and surveillance (MCS) of human activities is critical for the conservation and sustainable use of the ocean. This is particularly important in the Southeast Atlantic, where highly productive waters foster strong fishing pressure.",
           section: "Library",handler: () => {
               window.location.href = "/library/options-strengthening-monitoring-control-surveillance-human-activities-southeast-atlantic-region/";
+            },},{id: "library-the-role-of-regional-cooperation-efforts-for-the-high-seas-of-the-southeast-pacific",
+          title: 'The Role of Regional Cooperation Efforts for the High Seas of the Southeast...',
+          description: "The Role of Regional Cooperation Efforts for the High Seas of the Southeast Pacific",
+          section: "Library",handler: () => {
+              window.location.href = "/library/role-regional-cooperation-efforts-high-seas-southeast-pacific/";
             },},{id: "library-strengthening-high-seas-governance-through-enhanced-environmental-assessment-processes-a-case-study-of-mesopelagic-fisheries-and-options-for-a-future-bbnj-treaty",
           title: 'Strengthening high seas governance through enhanced environmental assessment processes: A case study of...',
           description: "This report explores the challenges of addressing emerging activities in areas beyond national jurisdiction (ABNJ) through a case study - a hypothetical proposal to develop commercial fisheries in the mesopelagic zone.",
@@ -4863,26 +4868,51 @@ ninja.data = [{
           description: "Toward a Strategic Action Roadmap on Oceans and Climate: 2016 to 2021",
           section: "Library",handler: () => {
               window.location.href = "/library/toward-strategic-action-roadmap-oceans-climate-2016-2021/";
-            },},{id: "library-the-role-of-regional-cooperation-efforts-for-the-high-seas-of-the-southeast-pacific",
-          title: 'The Role of Regional Cooperation Efforts for the High Seas of the Southeast...',
-          description: "The Role of Regional Cooperation Efforts for the High Seas of the Southeast Pacific",
+            },},{id: "library-areas-beyond-national-jurisdiction",
+          title: 'Areas Beyond National Jurisdiction',
+          description: "Areas Beyond National Jurisdiction",
           section: "Library",handler: () => {
-              window.location.href = "/library/role-regional-cooperation-efforts-high-seas-southeast-pacific/";
-            },},{id: "library-high-hopes-for-the-high-seas-protecting-biodiversity-in-the-global-ocean",
-          title: 'High Hopes for the High Seas: Protecting biodiversity in the global ocean',
-          description: "High Hopes for the High Seas: Protecting biodiversity in the global ocean",
+              window.location.href = "/library/areas-beyond-national-jurisdiction/";
+            },},{id: "library-biodiversite-en-haute-mer-cinquieme-et-potentiel-dernier-round-pour",
+          title: 'Biodiversite en haute mer : cinquieme et potentiel dernier round pour...',
+          description: "La 5e et potentielle derniere session de negociations sur le futur traite international sur la conservation et l’utilisation durable de la biodiversite...",
           section: "Library",handler: () => {
-              window.location.href = "/library/high-hopes-high-seas-protecting-biodiversity-global-ocean/";
-            },},{id: "library-strengthening-monitoring-control-and-surveillance-through-a-high-seas-treaty",
-          title: 'Strengthening Monitoring, Control and Surveillance through a High Seas Treaty',
-          description: "Strengthening Monitoring, Control and Surveillance through a High Seas Treaty",
+              window.location.href = "/library/biodiversite-en-haute-mer-cinquieme-et-potentiel-dernier-round-pour/";
+            },},{id: "library-biodiversite-en-haute-mer-craintes-sur-l-ambition-des-aires-marines",
+          title: 'Biodiversite en haute mer : craintes sur l’ambition des aires marines...',
+          description: "Les negociations sur le traite de conservation et d’utilisation durable de la biodiversite en haute mer sont entrees dans une nouvelle phase avec la publication, ...",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-etal-strengthening-monitoring-control-surveillance-high-seas-treaty/";
+              window.location.href = "/library/biodiversite-en-haute-mer-craintes-sur-lambition-des-aires-marines/";
+            },},{id: "library-biodiversite-en-haute-mer-le-traite-reste-hors-de-portee-malgre-une",
+          title: 'Biodiversite en haute mer : le traite reste hors de portee malgre une......',
+          description: "Ce que les observateurs pressentaient debut mars s’est verifie: a New York, la quatrieme session de negociations sur le futur traite international sur...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/biodiversite-en-haute-mer-le-traite-reste-hors-de-portee-malgre-une/";
+            },},{id: "library-chair-and-students-roundtable-ocean-governance-challenges-and-opportunities",
+          title: 'Chair and Students’ Roundtable: Ocean Governance Challenges and Opportunities',
+          description: "The third Chair and Students’ Roundtable was held on February 24. It was a virtual event. The topic was “Ocean Governance Challenges and Opportunities”. We were delighted to welcome Glen Wright (PSIA Professor, IDDRI) as our guest expert.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/chair-students-roundtable-ocean-governance-challenges-opportunities/";
+            },},{id: "library-from-commitment-to-action-exploring-ocean-linked-political-and-finance-solutions-to-climate-change",
+          title: 'From Commitment to Action: Exploring Ocean-Linked Political and Finance Solutions to Climate Change...',
+          description: "From Commitment to Action: Exploring Ocean-Linked Political and Finance Solutions to Climate Change",
+          section: "Library",handler: () => {
+              window.location.href = "/library/commitment-action-exploring-ocean-linked-political-finance-solutions-climate-change/";
             },},{id: "library-ensuring-effective-implementation-of-a-high-seas-biodiversity-treaty-lessons-learned-and-options-for-an-implementation-and-compliance-committee",
           title: 'Ensuring Effective Implementation of a High Seas Biodiversity Treaty: Lessons Learned and Options...',
           description: "Ensuring Effective Implementation of a High Seas Biodiversity Treaty: Lessons Learned and Options for an Implementation and Compliance Committee",
           section: "Library",handler: () => {
               window.location.href = "/library/ensuring-effective-implementation-high-seas-biodiversity-treaty-lessons-learned-options-implementation-compliance-committee/";
+            },},{id: "library-fifth-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
+          title: 'Fifth session of the Intergovernmental conference on an international legally binding instrument under...',
+          description: "Fifth session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/fifth-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
+            },},{id: "library-fourth-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
+          title: 'Fourth session of the Intergovernmental conference on an international legally binding instrument under...',
+          description: "Fourth session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/fourth-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
             },},{id: "library-getting-beyond-yes-fast-tracking-implementation-of-the-united-nations-agreement-for-marine-biodiversity-beyond-national-jurisdiction",
           title: 'Getting Beyond Yes: Fast-tracking Implementation of the United Nations Agreement for Marine Biodiversity...',
           description: "With a new international agreement on the conservation and sustainable use of marine biodiversity of areas beyond national jurisdiction (BBNJ Agreement) on the horizon, now is the time to start laying the foundation for successful implementation.",
@@ -4903,6 +4933,11 @@ ninja.data = [{
           description: "The 1982 United Nations Convention on the Law of the Sea (UNCLOS) defines areas of maritime jurisdiction and sets out the rights and obligations of States, thus serving as a “Constitution for the ocean”.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-digging-deep-critical-questions-remain-rush-regulate-seabed-mining/";
+            },},{id: "library-marine-spatial-planning",
+          title: 'Marine Spatial Planning',
+          description: "Marine Spatial Planning",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-spatial-planning/";
             },},{id: "library-summary-report-inter-regional-dialogues-on-high-seas-governance",
           title: 'Summary report: Inter-regional Dialogues on High Seas Governance',
           description: "Member States at the United Nations (UN) are currently negotiating a new treaty for the conservation and sustainable use of high seas biodiversity in areas beyond national jurisdiction (ABNJ).",
@@ -4913,76 +4948,61 @@ ninja.data = [{
           description: "Organised by IDDRI in the context of the STRONG High Seas project, in cooperation with the International Monitoring, Control and Surveillance (IMCS) Network and the International Union for Conservation of Nature (IUCN), this online informal workshop will gather around 50…",
           section: "Library",handler: () => {
               window.location.href = "/library/high-seas-marine-protected-areas-vast-remote-costly/";
-            },},{id: "library-biodiversite-en-haute-mer-le-traite-reste-hors-de-portee-malgre-une",
-          title: 'Biodiversite en haute mer : le traite reste hors de portee malgre une......',
-          description: "Ce que les observateurs pressentaient debut mars s’est verifie: a New York, la quatrieme session de negociations sur le futur traite international sur...",
-          section: "Library",handler: () => {
-              window.location.href = "/library/biodiversite-en-haute-mer-le-traite-reste-hors-de-portee-malgre-une/";
-            },},{id: "library-chair-and-students-roundtable-ocean-governance-challenges-and-opportunities",
-          title: 'Chair and Students’ Roundtable: Ocean Governance Challenges and Opportunities',
-          description: "The third Chair and Students’ Roundtable was held on February 24. It was a virtual event. The topic was “Ocean Governance Challenges and Opportunities”. We were delighted to welcome Glen Wright (PSIA Professor, IDDRI) as our guest expert.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/chair-students-roundtable-ocean-governance-challenges-opportunities/";
-            },},{id: "library-fourth-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
-          title: 'Fourth session of the Intergovernmental conference on an international legally binding instrument under...',
-          description: "Fourth session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/fourth-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
-            },},{id: "library-la-quatrieme-session-de-negociations-sur-le-futur-traite-de-protection",
-          title: 'La quatrieme session de negociations sur le futur traite de protection...',
-          description: "Apres une pause de plus de deux ans et demi due a la pandemie de Covid-19, les negociations sur le futur traite international sur la preservation et l’utilisation...",
-          section: "Library",handler: () => {
-              window.location.href = "/library/la-quatrieme-session-de-negociations-sur-le-futur-traite-de-protection/";
-            },},{id: "library-towards-integrated-ocean-management-of-the-high-seas-lessons-learnt-for-regional-and-global-action",
-          title: 'Towards Integrated Ocean Management of the High Seas: Lessons Learnt for Regional and...',
-          description: "Towards Integrated Ocean Management of the High Seas: Lessons Learnt for Regional and Global Action",
-          section: "Library",handler: () => {
-              window.location.href = "/library/towards-integrated-ocean-management-high-seas-lessons-learnt-regional-global-action/";
-            },},{id: "library-from-commitment-to-action-exploring-ocean-linked-political-and-finance-solutions-to-climate-change",
-          title: 'From Commitment to Action: Exploring Ocean-Linked Political and Finance Solutions to Climate Change...',
-          description: "From Commitment to Action: Exploring Ocean-Linked Political and Finance Solutions to Climate Change",
-          section: "Library",handler: () => {
-              window.location.href = "/library/commitment-action-exploring-ocean-linked-political-finance-solutions-climate-change/";
-            },},{id: "library-areas-beyond-national-jurisdiction",
-          title: 'Areas Beyond National Jurisdiction',
-          description: "Areas Beyond National Jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/areas-beyond-national-jurisdiction/";
             },},{id: "library-high-seas-treaty-dialogues",
           title: 'High Seas Treaty Dialogues',
           description: "High Seas Treaty Dialogues",
           section: "Library",handler: () => {
               window.location.href = "/library/high-seas-treaty-dialogues/";
+            },},{id: "library-la-quatrieme-session-de-negociations-sur-le-futur-traite-de-protection",
+          title: 'La quatrieme session de negociations sur le futur traite de protection...',
+          description: "Apres une pause de plus de deux ans et demi due a la pandemie de Covid-19, les negociations sur le futur traite international sur la preservation et l’utilisation...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/la-quatrieme-session-de-negociations-sur-le-futur-traite-de-protection/";
             },},{id: "library-meeso-modelling-amp-stakeholder-concern-workshop",
           title: 'MEESO Modelling &amp;amp; stakeholder concern workshop',
           description: "MEESO Modelling &amp; stakeholder concern workshop",
           section: "Library",handler: () => {
               window.location.href = "/library/meeso-modelling-stakeholder-concern-workshop/";
-            },},{id: "library-marine-spatial-planning",
-          title: 'Marine Spatial Planning',
-          description: "Marine Spatial Planning",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-spatial-planning/";
             },},{id: "library-oceans-as-archives",
           title: 'Oceans as Archives',
           description: "The Oceans as Archives conference contributes to the growing field of critical ocean studies, while intervening in the erasures and occlusions performed in scripting the field as a new terrain of inquiry.",
           section: "Library",handler: () => {
               window.location.href = "/library/oceans-as-archives/";
-            },},{id: "library-biodiversite-en-haute-mer-cinquieme-et-potentiel-dernier-round-pour",
-          title: 'Biodiversite en haute mer : cinquieme et potentiel dernier round pour...',
-          description: "La 5e et potentielle derniere session de negociations sur le futur traite international sur la conservation et l’utilisation durable de la biodiversite...",
+            },},{id: "library-towards-integrated-ocean-management-of-the-high-seas-lessons-learnt-for-regional-and-global-action",
+          title: 'Towards Integrated Ocean Management of the High Seas: Lessons Learnt for Regional and...',
+          description: "Towards Integrated Ocean Management of the High Seas: Lessons Learnt for Regional and Global Action",
           section: "Library",handler: () => {
-              window.location.href = "/library/biodiversite-en-haute-mer-cinquieme-et-potentiel-dernier-round-pour/";
-            },},{id: "library-biodiversite-en-haute-mer-craintes-sur-l-ambition-des-aires-marines",
-          title: 'Biodiversite en haute mer : craintes sur l’ambition des aires marines...',
-          description: "Les negociations sur le traite de conservation et d’utilisation durable de la biodiversite en haute mer sont entrees dans une nouvelle phase avec la publication, ...",
+              window.location.href = "/library/towards-integrated-ocean-management-high-seas-lessons-learnt-regional-global-action/";
+            },},{id: "library-1st-part-of-the-28th-annual-session-of-the-international-seabed-authority-isa",
+          title: '1st Part of the 28th Annual Session of the International Seabed Authority (ISA)...',
+          description: "1st Part of the 28th Annual Session of the International Seabed Authority (ISA)",
           section: "Library",handler: () => {
-              window.location.href = "/library/biodiversite-en-haute-mer-craintes-sur-lambition-des-aires-marines/";
-            },},{id: "library-fifth-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
-          title: 'Fifth session of the Intergovernmental conference on an international legally binding instrument under...',
-          description: "Fifth session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
+              window.location.href = "/library/1st-part-28th-annual-session-international-seabed-authority-isa/";
+            },},{id: "library-biodiversite-en-haute-mer-suspendues-depuis-l-ete-2022-les-negociations-rouvrent-pour-un-potentiel-dernier-round",
+          title: 'Biodiversite en haute mer : suspendues depuis l’ete 2022, les negociations rouvrent pour...',
+          description: "Cette session sera-t-elle la derniere ? Suspendues en aout dernier, les negociations sur le futur traite juridiquement contraignant visant a conserver...",
           section: "Library",handler: () => {
-              window.location.href = "/library/fifth-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond-national/";
+              window.location.href = "/library/biodiversite-en-haute-mer-suspendues-depuis-lete-2022-les-negociations-rouvrent-pour-un-potentiel-dernier-round/";
+            },},{id: "library-el-tratado-de-alta-mar-no-bastara-para-evitar-la-mineria-submarina",
+          title: 'El Tratado de alta mar no bastara para evitar la mineria submarina',
+          description: "El experto en politica internacional Glen Wright aclara que el Tratado de alta mar de la ONU no podra por si solo frenar la mineria submarina",
+          section: "Library",handler: () => {
+              window.location.href = "/library/el-tratado-de-alta-mar-no-bastara-para-evitar-la-mineria-submarina/";
+            },},{id: "library-cilmate-change-international-law-amp-negotiations",
+          title: 'Cilmate Change: International Law &amp;amp; Negotiations',
+          description: "Cilmate Change: International Law &amp; Negotiations",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-cilmate-change-international-law-negotiations/";
+            },},{id: "library-environmental-impact-assessments-on-the-high-seas",
+          title: 'Environmental Impact Assessments on the High Seas',
+          description: "Environmental Impact Assessments on the High Seas",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-environmental-impact-assessments-high-seas/";
+            },},{id: "library-commentary-a-high-seas-treaty-on-the-horizon-progress-and-prospects-for-the-intergovernmental-conference",
+          title: 'Commentary-A High Seas Treaty on the Horizon: Progress and Prospects for the Intergovernmental...',
+          description: "After more than a decade of discussions, States at the United Nations are nearing agreement on a new international legally binding instrument for the conservation and sustainable use of biodiversity in marine areas beyond national jurisdiction.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-commentary-a-high-seas-treaty-horizon-progress-prospects-intergovernmental-conference/";
             },},{id: "library-a-high-seas-treaty-on-the-horizon-progress-and-prospects-for-the-intergovernmental-conference",
           title: 'A High Seas Treaty on the Horizon: Progress and Prospects for the Intergovernmental...',
           description: "After more than a decade of discussions, States at the United Nations are nearing agreement on a new international legally binding instrument for the conservation and sustainable use of biodiversity in marine areas beyond national jurisdiction.",
@@ -4993,81 +5013,6 @@ ninja.data = [{
           description: "On Saturday March 4, 2023, the President of the Intergovernmental Conference (IGC) tasked with elaborating an Agreement to protect global ocean biodiversity declared, “The ship has reached the shore”.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-the-ship-reached-shore-why-historic-agreement-protect-high-seas-matters-what-happens-next/";
-            },},{id: "library-initial-reflections-to-support-rapid-effective-and-equitable-implementation-of-the-bbnj-agreement",
-          title: 'Initial reflections to support rapid, effective and equitable implementation of the BBNJ Agreement...',
-          description: "Initial reflections to support rapid, effective and equitable implementation of the BBNJ Agreement",
-          section: "Library",handler: () => {
-              window.location.href = "/library/initial-reflections-support-rapid-effective-equitable-implementation-bbnj-agreement/";
-            },},{id: "library-renewable-energy-and-sustainability-report",
-          title: 'Renewable Energy and Sustainability Report',
-          description: "Renewable Energy and Sustainability Report",
-          section: "Library",handler: () => {
-              window.location.href = "/library/renewable-energy-sustainability-report/";
-            },},{id: "library-biodiversite-en-haute-mer-suspendues-depuis-l-ete-2022-les-negociations-rouvrent-pour-un-potentiel-dernier-round",
-          title: 'Biodiversite en haute mer : suspendues depuis l’ete 2022, les negociations rouvrent pour...',
-          description: "Cette session sera-t-elle la derniere ? Suspendues en aout dernier, les negociations sur le futur traite juridiquement contraignant visant a conserver...",
-          section: "Library",handler: () => {
-              window.location.href = "/library/biodiversite-en-haute-mer-suspendues-depuis-lete-2022-les-negociations-rouvrent-pour-un-potentiel-dernier-round/";
-            },},{id: "library-traite-sur-la-haute-mer-a-qui-appartiennent-les-ressources-de-l-ocean",
-          title: 'Traite sur la haute mer : a qui appartiennent les ressources de l’ocean...',
-          description: "Les Etats membres de l’ONU reprennent les negociations d’un traite sur la haute mer ce lundi 20 fevrier pour reglementer et mieux proteger les eaux internationales.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/traite-sur-la-haute-mer-qui-appartiennent-les-ressources-de-locean/";
-            },},{id: "library-1st-part-of-the-28th-annual-session-of-the-international-seabed-authority-isa",
-          title: '1st Part of the 28th Annual Session of the International Seabed Authority (ISA)...',
-          description: "1st Part of the 28th Annual Session of the International Seabed Authority (ISA)",
-          section: "Library",handler: () => {
-              window.location.href = "/library/1st-part-28th-annual-session-international-seabed-authority-isa/";
-            },},{id: "library-el-tratado-de-alta-mar-no-bastara-para-evitar-la-mineria-submarina",
-          title: 'El Tratado de alta mar no bastara para evitar la mineria submarina',
-          description: "El experto en politica internacional Glen Wright aclara que el Tratado de alta mar de la ONU no podra por si solo frenar la mineria submarina",
-          section: "Library",handler: () => {
-              window.location.href = "/library/el-tratado-de-alta-mar-no-bastara-para-evitar-la-mineria-submarina/";
-            },},{id: "library-environmental-impact-assessments-on-the-high-seas",
-          title: 'Environmental Impact Assessments on the High Seas',
-          description: "Environmental Impact Assessments on the High Seas",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-environmental-impact-assessments-high-seas/";
-            },},{id: "library-high-seas-treaty-preliminary-analysis-and-implementation-challenges",
-          title: 'High Seas Treaty: preliminary analysis and implementation challenges',
-          description: "High Seas Treaty: preliminary analysis and implementation challenges",
-          section: "Library",handler: () => {
-              window.location.href = "/library/high-seas-treaty-preliminary-analysis-implementation-challenges/";
-            },},{id: "library-the-inside-story-of-the-u-n-high-seas-treaty",
-          title: 'The Inside Story of the U.N. High Seas Treaty',
-          description: "The Inside Story of the U.N. High Seas Treaty",
-          section: "Library",handler: () => {
-              window.location.href = "/library/inside-story-u-n-high-seas-treaty/";
-            },},{id: "library-negocie-depuis-2018-a-new-york-l-accord-quot-historique-quot-sur-la-biodiversite-en-haute-mer-est-enfin-acte",
-          title: 'Negocie depuis 2018 a New York, l’accord &amp;quot;historique&amp;quot; sur la biodiversite en haute...',
-          description: "Apres cinq sessions de negociations commencees en 2018, les Etats ont enfin acte le 4 mars 2023 a New York le futur traite international juridiquement...",
-          section: "Library",handler: () => {
-              window.location.href = "/library/negocie-depuis-2018-new-york-laccord-historique-sur-la-biodiversite-en-haute-mer-est-enfin-acte/";
-            },},{id: "library-post-2020-global-biodiversity-framework-what-s-next-for-the-ocean",
-          title: 'Post-2020 Global Biodiversity Framework: what’s next for the Ocean?',
-          description: "Post-2020 Global Biodiversity Framework: what’s next for the Ocean?",
-          section: "Library",handler: () => {
-              window.location.href = "/library/post-2020-global-biodiversity-framework-whats-next-ocean/";
-            },},{id: "library-non-use-measures-in-international-law",
-          title: 'Non-use Measures in International Law',
-          description: "Non-use Measures in International Law",
-          section: "Library",handler: () => {
-              window.location.href = "/library/non-use-measures-international-law/";
-            },},{id: "library-much-still-pending-on-how-high-seas-sanctions-will-work",
-          title: 'Much still pending on how high seas sanctions will work',
-          description: "A new global treaty on the high seas will enable the creation of sanctuaries deemed vital for the oceans, but many questions remain unanswered. Among them: How can we protect marine areas far from the...",
-          section: "Library",handler: () => {
-              window.location.href = "/library/pending-how-high-seas-sanctions-work/";
-            },},{id: "library-further-resumed-fifth-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
-          title: 'Further resumed fifth session of the Intergovernmental conference on an international legally binding...',
-          description: "Further resumed fifth session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
-          section: "Library",handler: () => {
-              window.location.href = "/library/resumed-fifth-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond/";
-            },},{id: "library-workshop-on-supplementary-indicators-towards-climate-targets",
-          title: 'Workshop on supplementary indicators towards climate targets',
-          description: "Building on recent work by DIW Berlin, Ecologic, and Client Earth, practices established by the UK Climate Change Committee, and global tracking such as the IEA Tracking Clean Energy Progress reports, and as part of the International Climate Initiative (IKI) project “Strengthen…",
-          section: "Library",handler: () => {
-              window.location.href = "/library/workshop-supplementary-indicators-towards-climate-targets/";
             },},{id: "library-global-status-of-renewables",
           title: 'Global Status of Renewables',
           description: "Global Status of Renewables",
@@ -5078,41 +5023,66 @@ ninja.data = [{
           description: "GWEC-GWO Wind Workforce Outlook webinar",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-gwec-gwo-wind-workforce-outlook-webinar/";
-            },},{id: "library-cilmate-change-international-law-amp-negotiations",
-          title: 'Cilmate Change: International Law &amp;amp; Negotiations',
-          description: "Cilmate Change: International Law &amp; Negotiations",
+            },},{id: "library-high-seas-treaty-preliminary-analysis-and-implementation-challenges",
+          title: 'High Seas Treaty: preliminary analysis and implementation challenges',
+          description: "High Seas Treaty: preliminary analysis and implementation challenges",
           section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-cilmate-change-international-law-negotiations/";
-            },},{id: "library-renewables-2024-global-status-report-economic-and-social-value-creation",
-          title: 'Renewables 2024 Global Status Report: Economic and Social Value Creation',
-          description: "Renewables 2024 Global Status Report: Economic and Social Value Creation",
+              window.location.href = "/library/high-seas-treaty-preliminary-analysis-implementation-challenges/";
+            },},{id: "library-initial-reflections-to-support-rapid-effective-and-equitable-implementation-of-the-bbnj-agreement",
+          title: 'Initial reflections to support rapid, effective and equitable implementation of the BBNJ Agreement...',
+          description: "Initial reflections to support rapid, effective and equitable implementation of the BBNJ Agreement",
           section: "Library",handler: () => {
-              window.location.href = "/library/renewables-2024-global-status-report-economic-social-value-creation/";
-            },},{id: "library-renewables-2024-global-status-report-energy-demand",
-          title: 'Renewables 2024 Global Status Report: Energy Demand',
-          description: "Despite a notable decline in the prices of fossil fuels and other energy commodities in the first half of 2023, wholesale electricity prices remained high in many countries, negatively affecting energy-consuming sectors.",
+              window.location.href = "/library/initial-reflections-support-rapid-effective-equitable-implementation-bbnj-agreement/";
+            },},{id: "library-the-inside-story-of-the-u-n-high-seas-treaty",
+          title: 'The Inside Story of the U.N. High Seas Treaty',
+          description: "The Inside Story of the U.N. High Seas Treaty",
           section: "Library",handler: () => {
-              window.location.href = "/library/renewables-2024-global-status-report-energy-demand/";
-            },},{id: "library-renewables-2024-global-status-report-energy-supply",
-          title: 'Renewables 2024 Global Status Report: Energy Supply',
-          description: "Global investment in and deployment of renewables reached an all-time high in 2023, despite high interest rates and higher costs of raw materials.",
+              window.location.href = "/library/inside-story-u-n-high-seas-treaty/";
+            },},{id: "library-negocie-depuis-2018-a-new-york-l-accord-quot-historique-quot-sur-la-biodiversite-en-haute-mer-est-enfin-acte",
+          title: 'Negocie depuis 2018 a New York, l’accord &amp;quot;historique&amp;quot; sur la biodiversite en haute...',
+          description: "Apres cinq sessions de negociations commencees en 2018, les Etats ont enfin acte le 4 mars 2023 a New York le futur traite international juridiquement...",
           section: "Library",handler: () => {
-              window.location.href = "/library/renewables-2024-global-status-report-energy-supply/";
-            },},{id: "library-renewables-2024-global-status-report-energy-systems-and-infrastructure",
-          title: 'Renewables 2024 Global Status Report: Energy Systems and Infrastructure',
-          description: "This module explores the status and recent trends of some of the building blocks of the energy system, as well as technology advancements that are enabling the integration of higher shares of variable renewable electricity.",
+              window.location.href = "/library/negocie-depuis-2018-new-york-laccord-historique-sur-la-biodiversite-en-haute-mer-est-enfin-acte/";
+            },},{id: "library-non-use-measures-in-international-law",
+          title: 'Non-use Measures in International Law',
+          description: "Non-use Measures in International Law",
           section: "Library",handler: () => {
-              window.location.href = "/library/renewables-2024-global-status-report-energy-systems-infrastructure/";
+              window.location.href = "/library/non-use-measures-international-law/";
+            },},{id: "library-much-still-pending-on-how-high-seas-sanctions-will-work",
+          title: 'Much still pending on how high seas sanctions will work',
+          description: "A new global treaty on the high seas will enable the creation of sanctuaries deemed vital for the oceans, but many questions remain unanswered. Among them: How can we protect marine areas far from the...",
+          section: "Library",handler: () => {
+              window.location.href = "/library/pending-how-high-seas-sanctions-work/";
+            },},{id: "library-post-2020-global-biodiversity-framework-what-s-next-for-the-ocean",
+          title: 'Post-2020 Global Biodiversity Framework: what’s next for the Ocean?',
+          description: "Post-2020 Global Biodiversity Framework: what’s next for the Ocean?",
+          section: "Library",handler: () => {
+              window.location.href = "/library/post-2020-global-biodiversity-framework-whats-next-ocean/";
+            },},{id: "library-renewable-energy-and-sustainability-report",
+          title: 'Renewable Energy and Sustainability Report',
+          description: "Renewable Energy and Sustainability Report",
+          section: "Library",handler: () => {
+              window.location.href = "/library/renewable-energy-sustainability-report/";
+            },},{id: "library-further-resumed-fifth-session-of-the-intergovernmental-conference-on-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
+          title: 'Further resumed fifth session of the Intergovernmental conference on an international legally binding...',
+          description: "Further resumed fifth session of the Intergovernmental conference on an international legally binding instrument under the United Nations Convention on the Law of the Sea on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
+          section: "Library",handler: () => {
+              window.location.href = "/library/resumed-fifth-session-intergovernmental-conference-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable-use-marine-biological-diversity-areas-beyond/";
+            },},{id: "library-traite-sur-la-haute-mer-a-qui-appartiennent-les-ressources-de-l-ocean",
+          title: 'Traite sur la haute mer : a qui appartiennent les ressources de l’ocean...',
+          description: "Les Etats membres de l’ONU reprennent les negociations d’un traite sur la haute mer ce lundi 20 fevrier pour reglementer et mieux proteger les eaux internationales.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/traite-sur-la-haute-mer-qui-appartiennent-les-ressources-de-locean/";
+            },},{id: "library-workshop-on-supplementary-indicators-towards-climate-targets",
+          title: 'Workshop on supplementary indicators towards climate targets',
+          description: "Building on recent work by DIW Berlin, Ecologic, and Client Earth, practices established by the UK Climate Change Committee, and global tracking such as the IEA Tracking Clean Energy Progress reports, and as part of the International Climate Initiative (IKI) project “Strengthen…",
+          section: "Library",handler: () => {
+              window.location.href = "/library/workshop-supplementary-indicators-towards-climate-targets/";
             },},{id: "library-buildings-and-climate-global-forum",
           title: 'Buildings and Climate Global Forum',
           description: "The Buildings and Climate Global Forum, co-organised by France and the United Nations Environment Programme (UNEP), with the support of the Global Alliance for Buildings and Construction, gathered for the first time ministers and high-level representatives of key organisations…",
           section: "Library",handler: () => {
               window.location.href = "/library/buildings-climate-global-forum/";
-            },},{id: "library-how-to-protect-our-ocean",
-          title: 'How to Protect Our Ocean',
-          description: "How to Protect Our Ocean",
-          section: "Library",handler: () => {
-              window.location.href = "/library/how-protect-ocean/";
             },},{id: "library-energies-renouvelables-quot-une-capacite-trop-faible-pour-suivre-l-39-augmentation-de-la-consommation",
           title: 'Energies renouvelables: &amp;quot;Une capacite trop faible pour suivre l&amp;#39;augmentation de la consommation',
           description: "Energies renouvelables: &quot;Une capacite trop faible pour suivre l&#39;augmentation de la consommation",
@@ -5133,51 +5103,86 @@ ninja.data = [{
           description: "Policy responses to geopolitical developments and global commitments accelerated the deployment and use of renewable energy in 2023, especially in the power sector.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-renewables-2024-global-status-report-global-overview/";
-            },},{id: "library-renewables-2025-global-status-report-global-overview",
-          title: 'Renewables 2025 Global Status Report: Global Overview',
-          description: "In 2024, global renewable energy growth was primarily driven by the power sector, where capacity expanded by 741 gigawatts (GW), the largest annual increase ever recorded.",
+            },},{id: "library-how-to-protect-our-ocean",
+          title: 'How to Protect Our Ocean',
+          description: "How to Protect Our Ocean",
           section: "Library",handler: () => {
-              window.location.href = "/library/renewables-2025-global-status-report-global-overview/";
-            },},{id: "library-global-alliance-for-buildings-and-construction-globalabc-general-assembly",
-          title: 'Global Alliance for Buildings and Construction (GlobalABC) General Assembly',
-          description: "Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 2023), GlobalABC has been highly active, strengthening its role as a community and a collaborative force for a zero-emission, resilient buildings and construction sector.",
+              window.location.href = "/library/how-protect-ocean/";
+            },},{id: "library-renewables-2024-global-status-report-economic-and-social-value-creation",
+          title: 'Renewables 2024 Global Status Report: Economic and Social Value Creation',
+          description: "Renewables 2024 Global Status Report: Economic and Social Value Creation",
           section: "Library",handler: () => {
-              window.location.href = "/library/global-alliance-buildings-construction-globalabc-general-assembly/";
+              window.location.href = "/library/renewables-2024-global-status-report-economic-social-value-creation/";
+            },},{id: "library-renewables-2024-global-status-report-energy-demand",
+          title: 'Renewables 2024 Global Status Report: Energy Demand',
+          description: "Despite a notable decline in the prices of fossil fuels and other energy commodities in the first half of 2023, wholesale electricity prices remained high in many countries, negatively affecting energy-consuming sectors.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/renewables-2024-global-status-report-energy-demand/";
+            },},{id: "library-renewables-2024-global-status-report-energy-supply",
+          title: 'Renewables 2024 Global Status Report: Energy Supply',
+          description: "Global investment in and deployment of renewables reached an all-time high in 2023, despite high interest rates and higher costs of raw materials.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/renewables-2024-global-status-report-energy-supply/";
+            },},{id: "library-renewables-2024-global-status-report-energy-systems-and-infrastructure",
+          title: 'Renewables 2024 Global Status Report: Energy Systems and Infrastructure',
+          description: "This module explores the status and recent trends of some of the building blocks of the energy system, as well as technology advancements that are enabling the integration of higher shares of variable renewable electricity.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/renewables-2024-global-status-report-energy-systems-infrastructure/";
             },},{id: "library-governing-marine-spaces-in-the-context-of-the-energy-transitions-challenges-and-cooperation",
           title: 'Governing marine spaces in the context of the energy transitions: challenges and cooperation...',
           description: "Governing marine spaces in the context of the energy transitions: challenges and cooperation",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-governing-marine-spaces-context-energy-transitions-challenges-cooperation/";
-            },},{id: "library-renewables-for-nature-integrating-biodiversity-amp-communities-in-energy-policy",
-          title: 'Renewables for Nature: Integrating Biodiversity &amp;amp; Communities in Energy Policy',
-          description: "How can renewable energy accelerate the energy transition while also delivering tangible benefits for nature and communities?",
-          section: "Library",handler: () => {
-              window.location.href = "/library/renewables-nature-integrating-biodiversity-communities-energy-policy/";
             },},{id: "library-renewables-in-energy-supply-ocean-power",
           title: 'Renewables in Energy Supply: Ocean Power',
           description: "Renewables in Energy Supply: Ocean Power",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-renewables-energy-supply-ocean-power/";
+            },},{id: "library-global-alliance-for-buildings-and-construction-globalabc-general-assembly",
+          title: 'Global Alliance for Buildings and Construction (GlobalABC) General Assembly',
+          description: "Since the 2023 GlobalABC Annual Assembly in Helsinki (1 and 2 June 2023), GlobalABC has been highly active, strengthening its role as a community and a collaborative force for a zero-emission, resilient buildings and construction sector.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/global-alliance-buildings-construction-globalabc-general-assembly/";
             },},{id: "library-a-new-york-une-ceremonie-acte-l-entree-en-vigueur-debut-2026-du-traite-sur-la-biodiversite-en-haute-mer",
           title: 'A New York, une ceremonie acte l’entree en vigueur debut 2026 du traite...',
           description: "Les representants des 68 Etats ayant a ce jour ratifie le traite sur la preservation et l’utilisation durable de la biodiversite en haute mer se sont reunis le 23 septembre 2025 a New York, en marge de l’Assemblee generale des Nations unies, pour celebrer son entree en vigueur…",
           section: "Library",handler: () => {
               window.location.href = "/library/new-york-une-ceremonie-acte-lentree-en-vigueur-debut-2026-du-traite-sur-la-biodiversite-en-haute-mer/";
+            },},{id: "library-renewables-2025-global-status-report-global-overview",
+          title: 'Renewables 2025 Global Status Report: Global Overview',
+          description: "In 2024, global renewable energy growth was primarily driven by the power sector, where capacity expanded by 741 gigawatts (GW), the largest annual increase ever recorded.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/renewables-2025-global-status-report-global-overview/";
+            },},{id: "library-renewables-for-nature-integrating-biodiversity-amp-communities-in-energy-policy",
+          title: 'Renewables for Nature: Integrating Biodiversity &amp;amp; Communities in Energy Policy',
+          description: "How can renewable energy accelerate the energy transition while also delivering tangible benefits for nature and communities?",
+          section: "Library",handler: () => {
+              window.location.href = "/library/renewables-nature-integrating-biodiversity-communities-energy-policy/";
             },},{id: "library-the-dark-frontier-unlocking-the-secrets-of-the-deep-sea",
           title: 'The Dark Frontier: Unlocking the Secrets of the Deep Sea',
-          description: "The Dark Frontier: Unlocking the Secrets of the Deep Sea",
+          description: "An awe-inspiring and panoramic investigation into the hidden world of the deep sea - a mysterious, unforgiving landscape whose secrets radically revise our understanding of life on earth.",
           section: "Library",handler: () => {
               window.location.href = "/library/dark-frontier-unlocking-secrets-deep-sea/";
-            },},{id: "library-le-traite-sur-la-protection-de-la-biodiversite-en-haute-mer-entre-en-vigueur",
-          title: 'Le traite sur la protection de la biodiversite en haute mer entre en...',
-          description: "Le traite sur la protection de la biodiversite en haute mer entre en vigueur",
+            },},{id: "library-european-society-for-ecological-economics-16th-annual-conference",
+          title: 'European Society for Ecological Economics 16th annual conference',
+          description: "European Society for Ecological Economics 16th annual conference",
           section: "Library",handler: () => {
-              window.location.href = "/library/le-traite-sur-la-protection-de-la-biodiversite-en-haute-mer-entre-en-vigueur/";
+              window.location.href = "/library/european-society-ecological-economics-16th-annual-conference/";
             },},{id: "library-foro-social-mas-alla-del-crecimiento",
           title: 'Foro Social Mas Alla del Crecimiento',
           description: "Un espacio de encuentro para construir democraticamente las bases de una transicion ecosocial justa que cuestione el capitalismo verde y proponga alternativas mas alla del crecimiento basadas en el decrecimiento y la economia del bienestar, para superar el modelo economico…",
           section: "Library",handler: () => {
               window.location.href = "/library/foro-social-mas-alla-del-crecimiento/";
+            },},{id: "library-denmark-how-long-term-policy-system-integration-and-public-participation-are-driving-denmark-s-renewables-based-economy",
+          title: 'Denmark: How long-term policy, system integration and public participation are driving Denmark’s renewables-based...',
+          description: "Denmark: How long-term policy, system integration and public participation are driving Denmark’s renewables-based economy",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-denmark-how-long-term-policy-system-integration-public-participation-driving-denmarks-renewables-based-economy/";
+            },},{id: "library-le-traite-sur-la-protection-de-la-biodiversite-en-haute-mer-entre-en-vigueur",
+          title: 'Le traite sur la protection de la biodiversite en haute mer entre en...',
+          description: "Le traite sur la protection de la biodiversite en haute mer entre en vigueur",
+          section: "Library",handler: () => {
+              window.location.href = "/library/le-traite-sur-la-protection-de-la-biodiversite-en-haute-mer-entre-en-vigueur/";
             },},{id: "library-neptune-forum",
           title: 'Neptune Forum',
           description: "Neptune Forum",
@@ -5188,6 +5193,11 @@ ninja.data = [{
           description: "Reimagining Paris: Sufficiency in Practice",
           section: "Library",handler: () => {
               window.location.href = "/library/reimagining-paris-sufficiency-practice/";
+            },},{id: "library-renewables-based-economy-tracker-2026-how-renewables-are-transforming-economies-and-societies",
+          title: 'Renewables-Based Economy Tracker 2026: How Renewables are Transforming Economies and Societies',
+          description: "Renewables-Based Economy Tracker 2026: How Renewables are Transforming Economies and Societies",
+          section: "Library",handler: () => {
+              window.location.href = "/library/renewables-based-economy-tracker-2026-how-renewables-transforming-economies-societies/";
             },},{id: "library-sufficiency-the-backbone-of-eu-strategic-autonomy",
           title: 'Sufficiency: The Backbone of EU Strategic Autonomy',
           description: "Sufficiency: The Backbone of EU Strategic Autonomy",
@@ -5198,24 +5208,9 @@ ninja.data = [{
           description: "Writing Workshop: From Policy Brief to Publishable Paper",
           section: "Library",handler: () => {
               window.location.href = "/library/writing-workshop-policy-brief-publishable/";
-            },},{id: "library-european-society-for-ecological-economics-16th-annual-conference",
-          title: 'European Society for Ecological Economics 16th annual conference',
-          description: "European Society for Ecological Economics 16th annual conference",
-          section: "Library",handler: () => {
-              window.location.href = "/library/european-society-ecological-economics-16th-annual-conference/";
-            },},{id: "library-denmark-how-long-term-policy-system-integration-and-public-participation-are-driving-denmark-s-renewables-based-economy",
-          title: 'Denmark: How long-term policy, system integration and public participation are driving Denmark’s renewables-based...',
-          description: "Denmark: How long-term policy, system integration and public participation are driving Denmark’s renewables-based economy",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-denmark-how-long-term-policy-system-integration-public-participation-driving-denmarks-renewables-based-economy/";
-            },},{id: "library-renewables-based-economy-tracker-2026-how-renewables-are-transforming-economies-and-societies",
-          title: 'Renewables-Based Economy Tracker 2026: How Renewables are Transforming Economies and Societies',
-          description: "Renewables-Based Economy Tracker 2026: How Renewables are Transforming Economies and Societies",
-          section: "Library",handler: () => {
-              window.location.href = "/library/renewables-based-economy-tracker-2026-how-renewables-transforming-economies-societies/";
             },},{id: "projects-academia-obscura",
           title: 'Academia Obscura',
-          description: "The hidden silly side of higher education",
+          description: "Academia Obscura — the hidden silly side of higher education. Blog, book (Unbound), and ongoing cabinet of academic curiosities by Glen Wright.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/academia_obscura/";
             },},{id: "projects-bbnj-chm-prototype",
@@ -5400,13 +5395,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0000-0002-9162-9618", "_blank");
-        },
-      },{
-        id: 'social-researchgate',
-        title: 'ResearchGate',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.researchgate.net/profile/Glen-Wright/", "_blank");
         },
       },{
         id: 'social-scholar',
