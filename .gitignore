@@ -140,3 +140,8 @@ processing/config.py
 processing/__init__.py
 mapping.csv
 docs/dev/seo-findability-plan.md
+
+# Catalogue of failures (local-only; public repo must not contain cards or materials)
+_pages/failures.md
+_failures/
+assets/failures/
