@@ -141,7 +141,16 @@ processing/__init__.py
 mapping.csv
 docs/dev/seo-findability-plan.md
 
-# Catalogue of failures (local-only; public repo must not contain cards or materials)
-_pages/failures.md
-_failures/
-assets/failures/
+# Catalogue of failures — publish the cards; keep the local build inputs off GitHub
+assets/failures/__pycache__/
+assets/failures/_build.py
+assets/failures/_polish.py
+assets/failures/_redact.py
+assets/failures/_write_cards.py
+assets/failures/build-summary.json
+assets/failures/link-audit.json
+assets/failures/link-audit.md
+assets/failures/manifest.yml
+assets/failures/**/meta.json
+assets/failures/**/cv.pdf
+assets/failures/**/cv.doc

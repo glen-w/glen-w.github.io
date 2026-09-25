@@ -6,6 +6,7 @@
   "scripts": {
     "format": "prettier . --write",
     "format:check": "prettier . --check",
+    "check:failures": "python3 scripts/check_failures_readiness.py",
     "check:links": "python3 scripts/check_links.py",
     "check:links:site": "python3 scripts/check_links.py --site _site",
     "check:links:ci": "python3 scripts/check_links.py --site _site --ci-parity",
