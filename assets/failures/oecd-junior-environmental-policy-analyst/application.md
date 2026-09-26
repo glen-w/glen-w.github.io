@@ -13,10 +13,10 @@ Preﬁx                                                 ████ of Residenc
 City                                                  Paris
 State of Residence
 Address (line 2)
-Email Address                                         glen.w.wright@gmail.com Preferred Phone Number                                [REDACTED PHONE]
+Email Address                                         glen.w.wright@gmail.com Preferred Phone Number                                ████████
 Other Phone Number
 Gender                                                Male
-Date of Birth                                         [REDACTED PHONE]
+Date of Birth                                         ████████
 OECD Citzenship                                       GBR United Kingdom
 Other Citizenship, if applicable                      Not Applicable
 Additional Citizenship, if applicable                 Not Applicable
@@ -53,19 +53,19 @@ Location (Institution)                                AUS Australia
 Education Level                                       Master's Degree major / program                                       Environmental law
 
 Major Other
-Graduation Date                                       [REDACTED PHONE]
+Graduation Date                                       ████████
 Institution (select 'Other US Institution' if value not found and complete ﬁeld below)                    University of New South Wales (UNSW Sydney) Other Institution
 Location (Institution)                                AUS Australia
 
 Education Level                                       Bachelor's Degree major / program                                       Law
 Major Other                                           American Law
-Graduation Date                                       [REDACTED PHONE]
+Graduation Date                                       ████████
 Institution (select 'Other US Institution' if value not found and complete ﬁeld below)                    University of Nottingham Other Institution
 Location (Institution)                                GBR United Kingdom
 
 Education Level                                       Bachelor's Degree major / program                                       Law
 Major Other
-Graduation Date                                       [REDACTED PHONE]
+Graduation Date                                       ████████
 Institution (select 'Other US Institution' if value not found and complete ﬁeld below)                    University of Texas at Austin Other Institution
 Location (Institution)                                USA United States
 
@@ -73,7 +73,7 @@ Work Experience
 
 Work Experience
 
-Start Date                                            [REDACTED PHONE]
+Start Date                                            ████████
 End Date
 Current Job                                           Yes
 Title                                                 Research Fellow, International Marine Policy Employer                                              Institute for Sustainable Development and International Relations (IDDRI)
@@ -92,7 +92,7 @@ workshops and expert meetings.
 
 Conducted media interviews in both English and French for outlets such as the BBC, Le Monde and RFI.
 
-Start Date            [REDACTED PHONE]
+Start Date            ████████
 End Date
 Current Job           Yes
 Title                 Consultant, Marine World Heritage
@@ -107,8 +107,8 @@ Drafting a report presented to UNESCO Member States at the annual meeting of the
 
 Provision of strategic advice regarding the engagement of the Programme in ongoing UN negotiations and other international policy processes.
 
-Start Date            [REDACTED PHONE]
-End Date              [REDACTED PHONE]
+Start Date            ████████
+End Date              ████████
 Current Job           No
 Title                 Researcher
 Employer              Renewable Energy Network for the 21st Century (REN21,
@@ -121,8 +121,8 @@ Status of Renewables Report, I coordinated a community of experts, liaised with 
 
 Using my extensive computing expertise, I streamlined community and project management processes, putting in place systems that are still in use today.
 
-Start Date            [REDACTED PHONE]
-End Date              [REDACTED PHONE]
+Start Date            ████████
+End Date              ████████
 Current Job           No
 Title                 Energy Advocate
 Employer              Total Environment Centre
@@ -132,8 +132,8 @@ Achievements          Ran a successful campaign to improve environmental outcome
 
 Used my research and advocacy skills to draft submissions to various national bodies and wrote accessible discussion papers on complex topics.
 
-Start Date            [REDACTED PHONE]
-End Date              [REDACTED PHONE]
+Start Date            ████████
+End Date              ████████
 Current Job           No
 Title                 Paralegal
 Employer              Herbert ████ Freehills
@@ -142,8 +142,8 @@ Sector                1. Private Sector (e.g. ﬁnancial, industrial, service, e
 
 presentations and wrote memoranda on a range of topics, including the regulation of coal exploration and mining, the Renewable Energy Target and carbon pricing.
 
-Start Date             [REDACTED PHONE]
-End Date               [REDACTED PHONE]
+Start Date             ████████
+End Date               ████████
 Current Job            No
 Title                  Research Assistant
 Employer               University of New South Wales (UNSW)
@@ -196,17 +196,17 @@ References
 
 Last Name                                            ████
 First Name                                           ████
-Email Address                                        [REDACTED EMAIL]
+Email Address                                        ██████████████
 Title                                                Ocean Programme Director Relationship                                         Manager
 
 Last Name                                            Gjerde
 First Name                                           Kristina
-Email Address                                        [REDACTED EMAIL]
+Email Address                                        ██████████████
 Title                                                High Seas Policy Advisor Relationship                                         Colleague/mentor
 
 Last Name                                            Delpeuch
 First Name                                           Claire
-Email Address                                        [REDACTED EMAIL]
+Email Address                                        ██████████████
 Title                                                Policy Analyst
 Relationship                                         Colleague
 
@@ -253,7 +253,7 @@ Job Search        My Jobpage
 
 Search | All Jobs
 
-Job 20 out of 28 Previous[REDACTED PHONE] 19 20 Next
+Job 20 out of 28 Previous████████ 19 20 Next
 
 Apply Online
 Job Description
@@ -313,6 +313,6 @@ The OECD is an equal opportunity employer and welcomes the applications of all q
 The OECD promotes an optimal use of resources in order to improve its efficiency and effectiveness. Staff members are encouraged to actively contribute to this goal.
 
 Apply Online
-Job 20 out of 28 Previous[REDACTED PHONE] 19 20 Next
+Job 20 out of 28 Previous████████ 19 20 Next
 
 Help

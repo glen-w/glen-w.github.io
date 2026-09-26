@@ -35,7 +35,7 @@ Applicants should have completed, or be near to completing a Bachelor of Laws de
 The Associate provides clerical research assistance to the Judge and attends court with him/her for the purpose of calling on cases, empanelling juries and recording details of proceedings. The successful applicant will be expected to carry out legal research, analyse transcripts of evidence and prepare summaries of evidence and draft findings of fact.
 
 Enquiries seeking further assistance may be made by telephoning the Registrar on
-[REDACTED PHONE].
+████████.
 
 The successful applicant will be engaged as a temporary employee on a fixed term contract in the ACT Public Service for a term of one year. No extension of contract is possible. The gross annual salary of the position is currently $53,616.00. For Associate to the Chief Justice the gross annual salary is currently $59,800.00.
 

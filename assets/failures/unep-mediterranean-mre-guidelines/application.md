@@ -1,7 +1,7 @@
 # Application for Consultant – Guidelines for Promoting Sustainable Marine Renewable Energies in the Mediterranean Sea ([UNEP / MAP MED POL](https://www.unep.org/unepmap))
 
 Candidate Profile                                                                                                      Roster Status: No UNCS Status (Appointment Type): Never Employed
-[REDACTED PHONE] Wright, Glen                                                                        Current Address: St Ouen sur Seine, France
+████████ Wright, Glen                                                                        Current Address: St Ouen sur Seine, France
 
 ## MOTIVATION STATEMENT
 
@@ -43,7 +43,7 @@ For nine years at IDDRI, I specialised in marine governance, offshore activities
 
 For five years, I authored the ocean energy section of the Renewables Global Status Report. For three of those years, I also contributed to the broader flagship report and related work on renewable energy systems, sustainability, and grid integration.
 
-Glen WRIGHT ([REDACTED PHONE])                                                                                                 Application Date: 30 July 2026 Printed On: 09 September 2026                                    Job Opening ID: [REDACTED PHONE]                                                  Page 1 of 3
+Glen WRIGHT (████████)                                                                                                 Application Date: 30 July 2026 Printed On: 09 September 2026                                    Job Opening ID: ████████                                                  Page 1 of 3
 
 I have also taught Master's courses at Sciences Po for seven years covering marine policy, marine spatial planning, offshore governance, and sustainable ocean management. Earlier in my career, I worked on advocacy for integration of renewable energy into national electricity grids and policy.
 
@@ -52,42 +52,42 @@ Working experience in Mediterranean region is desirable. Please explain how you 
 For seven years, I have taught Master's courses at Sciences Po, where I regularly use the Mediterranean as a major case study for Regional Seas efforts, marine spatial planning, and transboundary governance.
 
 EMPLOYMENT DETAILS (13.7 years of experience)
-Lead - Knowledge & Data                                                                                           03-Jul-2023 to 17-Apr-2026 REN21 (NGO)                                                                                                     2 years, 10 months (Full Time) Supervisor: Rana Adib | [REDACTED EMAIL] | [REDACTED PHONE]                                                                      Paris,France
+Lead - Knowledge & Data                                                                                           03-Jul-2023 to 17-Apr-2026 REN21 (NGO)                                                                                                     2 years, 10 months (Full Time) Supervisor: Rana Adib | ██████████████ | ████████                                                                      Paris,France
 
 At this international multistakeholder network focused on the global energy transition, my responsibilities included delivering strategic research, data analysis and visualisation, and written outputs for flagship publications on renewables, energy systems/transition, and sustainability. I coordinated international contributors and supported the production of complex, multi-author outputs, while also contributing to strategic planning around data management, communication, and knowledge production processes. Through this role, I developed extensive knowledge of renewable energy technologies, energy systems, policy frameworks, sustainability issues, and sectoral transitions across areas such as buildings, industry, and supply chains. I took a leading role in developing agile and collaborative working practices within the institution, including leading projects within my team, facilitating cross-team coordination, running internal workshops, and supporting knowledge-sharing and process improvement initiatives. I also modernised internal data systems and workflows.
 
-█████                                                                                                             14-Jan-2019 to Present Sciences Po (Other)                                                                                              3 years, 8 months (Part Time) Supervisor: ████████ | [REDACTED EMAIL] | +33                                                                Paris,France
-[REDACTED PHONE]
+█████                                                                                                             14-Jan-2019 to Present Sciences Po (Other)                                                                                              3 years, 8 months (Part Time) Supervisor: ████████ | ██████████████ | +33                                                                Paris,France
+████████
 
 At Sciences Po, I have taught Master s-level courses in Ocean Governance and Marine Policy since 2019, developing and delivering applied, scenario-driven teaching on international environmental governance, marine biodiversity, energy policy, and ocean-related geopolitical issues. My responsibilities include designing curricula, preparing lectures and course materials, leading seminars and simulations, assessing student work, and adapting complex legal and policy frameworks into accessible and actionable concepts for students from diverse academic and professional backgrounds. I supervise and mentor students in the preparation of policy briefs, presentations, and research projects, including Master s thesis supervision and methodological guidance. This includes supporting students in refining research questions, developing analytical frameworks, structuring arguments, and connecting academic work to real-world policy processes and institutional dynamics. I also integrate innovative teaching methods and digital tools into my courses, including governance simulations, stakeholder mapping exercises, collaborative workshops, and reverse-classroom approaches. In addition to classroom teaching, I regularly facilitate group work, mentor student teams, and support professional skills development related to policy analysis, strategic communication, negotiation, and public presentation.
 
 Consultant                                                                                                       03-Dec-2018 to 29-Nov-2019 UNESCO - World Marine Heritage Programme (International                                                          0 years, 6 months (Part Time) Organization)
-Supervisor: ███████ | [REDACTED EMAIL] | [REDACTED PHONE]                                                                   Paris,France
+Supervisor: ███████ | ██████████████ | ████████                                                                   Paris,France
 
 As a consultant to UNESCO s Marine World Heritage Programme, I advised on the potential designation of World Heritage sites in areas beyond national jurisdiction and contributed to the strategic development of the initiative. My responsibilities included research and policy analysis relating to international ocean governance, biodiversity protection, and the legal and institutional frameworks applicable to the high seas. I participated as an invited expert in a high-level international workshop involving governments, researchers, international organisations, and civil society representatives. I drafted a report presented to the World Heritage Committee and provided strategic advice on future programme development, stakeholder engagement, and opportunities for advancing international cooperation on marine biodiversity conservation beyond national jurisdiction. The role required coordination with international experts and institutional partners, synthesis of complex scientific and legal information for policy audiences, and the preparation of concise, decision-oriented outputs for senior stakeholders and intergovernmental processes.
 
-Senior Research Fellow                                                                                           01-Apr-2014 to 31-May-2023 IDDRI (NGO)                                                                                                      9 years, 2 months (Full Time) Supervisor: ████████ | [REDACTED EMAIL] | [REDACTED PHONE]                                                          Paris,France 60
+Senior Research Fellow                                                                                           01-Apr-2014 to 31-May-2023 IDDRI (NGO)                                                                                                      9 years, 2 months (Full Time) Supervisor: ████████ | ██████████████ | ████████                                                          Paris,France 60
 
 I focused on global ocean biodiversity and international ocean governance, including areas beyond national jurisdiction (ABNJ). My work involved developing strategy, producing publications, advancing proposals in international forums, and representing the organisation at UN
 
-Glen WRIGHT ([REDACTED PHONE])                                                                                                Application Date: 30 July 2026 Printed On: 09 September 2026                                     Job Opening ID: [REDACTED PHONE]                                                Page 2 of 3
+Glen WRIGHT (████████)                                                                                                Application Date: 30 July 2026 Printed On: 09 September 2026                                     Job Opening ID: ████████                                                Page 2 of 3
 
 meetings and other high-level events. I worked closely with colleagues and strategic partners to secure funding and deliver international policy projects. As part of the STRONG High Seas project, I supported regional bodies to strengthen cooperation and participate effectively in international processes. My responsibilities included leading research outputs, coordinating partners, organising workshops and stakeholder meetings, contributing to project management and administration, and supporting outreach and engagement activities. I also contributed to the organisation and design of the Marine Regions Forum, a high-level international event convening ocean governance leaders and stakeholders. I supervised one colleague and one intern, including coordination and review of research tasks, support for publications and workshop preparation, and mentoring in project delivery and stakeholder engagement.
 
-Energy Advocate                                                                                              01-Sep-2011 to 30-Aug-2013 Total Environment Centre (NGO)                                                                               1 years, 0 months (Part Time) Supervisor: ████ Angel | [REDACTED EMAIL] | [REDACTED PHONE]                                                         Sydney,Australia
+Energy Advocate                                                                                              01-Sep-2011 to 30-Aug-2013 Total Environment Centre (NGO)                                                                               1 years, 0 months (Part Time) Supervisor: ████ Angel | ██████████████ | ████████                                                         Sydney,Australia
 
 Ran a campaign to improve environmental outcomes in Australia s National Electricity Market through improved regulation: research; advocacy; making submissions to various national bodies; drafting discussion papers; managing consultants. Submission of rule changes to the regulatory authority; production of a range of submissions and influential papers; expanded and strengthened campaign.
 
-Paralegal - Energy & Resources                                                                                01-Sep-2010 to 03-Oct-2011 Herbert ████ Freehills (Private Sector)                                                                     0 years, 7 months (Part Time) Supervisor: Robert de Boer | [REDACTED EMAIL] | +61 2                                                         Sydney,Australia
-[REDACTED PHONE]
+Paralegal - Energy & Resources                                                                                01-Sep-2010 to 03-Oct-2011 Herbert ████ Freehills (Private Sector)                                                                     0 years, 7 months (Part Time) Supervisor: Robert de Boer | ██████████████ | +61 2                                                         Sydney,Australia
+████████
 
 Research; drafting; creating presentations; administration. Drafted a range of research documents.
 
 ## REFERENCES
 
-Klaudija Cremers, Senior Research Fellow, IDDRI, colleague, supervisee | [REDACTED PHONE] | [REDACTED EMAIL] ███████, Director, Seascape Consultants, collaborator, mentor | [REDACTED PHONE] | [REDACTED EMAIL] █████ Ünger, Commissioner for the Ocean, German Federal Government, collaborator | [REDACTED PHONE] | sebastian.
-[REDACTED EMAIL]
-Dr. Céline Cantat, Program Manager, Sciences Po, CARE Program, colleague | [REDACTED PHONE] | [REDACTED EMAIL] Rochelle Gluzman, Communications, Mission Possible Partnership, colleague | [REDACTED PHONE] | [REDACTED EMAIL]
+Klaudija Cremers, Senior Research Fellow, IDDRI, colleague, supervisee | ████████ | ██████████████ ███████, Director, Seascape Consultants, collaborator, mentor | ████████ | ██████████████ █████ Ünger, Commissioner for the Ocean, German Federal Government, collaborator | ████████ | sebastian.
+██████████████
+Dr. Céline Cantat, Program Manager, Sciences Po, CARE Program, colleague | ████████ | ██████████████ Rochelle Gluzman, Communications, Mission Possible Partnership, colleague | ████████ | ██████████████
 
 BIOGRAPHICAL INFORMATION
 Family name: Wright
@@ -96,7 +96,7 @@ Country of nationality: United Kingdom
 Country of Nationality at birth: United Kingdom - Active
 Date of birth: 26-Aug-1988
 Gender: Male
-Contact information: glen.w.wright@gmail.com | [REDACTED PHONE](Cell) Living location at time of application (Current Address): 16 Rue Edouard Vaillant, St Ouen sur Seine, FRA Permanent address: 16 Rue Edouard Vaillant, St Ouen sur Seine, FRA
+Contact information: glen.w.wright@gmail.com | ████████(Cell) Living location at time of application (Current Address): 16 Rue Edouard Vaillant, St Ouen sur Seine, FRA Permanent address: 16 Rue Edouard Vaillant, St Ouen sur Seine, FRA
 UNCS status: Never Employed
 Current UN type of appointment or relationship with the organization:
 Roster status: No
@@ -104,7 +104,7 @@ UN Start Date of appointment:
 UN End date (If any):
 YPP / NCRE / G-to-P successful candidate: N/A
 
-Glen WRIGHT ([REDACTED PHONE])                                                                                            Application Date: 30 July 2026 Printed On: 09 September 2026                                    Job Opening ID: [REDACTED PHONE]                                             Page 3 of 3
+Glen WRIGHT (████████)                                                                                            Application Date: 30 July 2026 Printed On: 09 September 2026                                    Job Opening ID: ████████                                             Page 3 of 3
 
 Climate Change Jobs
 About     Submit Job   Subscribe

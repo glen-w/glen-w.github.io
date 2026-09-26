@@ -69,7 +69,7 @@ This is a consultant contract for 11 months (including a probationary period of 
 
 ## HOW TO APPLY
 
-Please       submit       a        full      CV         (using        the      UNESCO        template        at http://uis.unesco.org/sites/default/files/documents/unesco-cv-form_pa-ft_0.pdf), a motivation letter, a proposed work plan for the activities included in this ToR, proof of language knowledge, three references from different countries and/or institutions that may be contacted, to: [REDACTED EMAIL] by 30 June 2019 (23.59h, Paris time).
+Please       submit       a        full      CV         (using        the      UNESCO        template        at http://uis.unesco.org/sites/default/files/documents/unesco-cv-form_pa-ft_0.pdf), a motivation letter, a proposed work plan for the activities included in this ToR, proof of language knowledge, three references from different countries and/or institutions that may be contacted, to: ██████████████ by 30 June 2019 (23.59h, Paris time).
 
 IOC-UNESCO is committed to achieving workforce diversity in terms of gender, nationality and culture. Individuals from minority groups, indigenous groups and persons with disabilities are equally encouraged to apply. All applications will be treated with the strictest confidence.
 

@@ -4,7 +4,7 @@
 - London WC1B 4DA
 - United Kingdom
 
-t: +44 (0)[REDACTED PHONE] e: [REDACTED EMAIL] www.ospar.org
+t: +44 (0)████████ e: ██████████████ www.ospar.org
 
 Vacancy Announcement and Job Description for the post of Deputy Secretary, Environmental Impacts of
 Human Activities under OSPAR’s Biodiversity Strategy
@@ -46,7 +46,7 @@ Terms of Service and Remuneration
 16. The terms and conditions of service will be those set out in the Commission’s Staff Regulations (Agreement 2000‐14). Remuneration will be in accordance with Grade A3 of the scales of remuneration of the Coordinated Organisations for staff serving in the United Kingdom. Further details on the salary and on allowances which may be payable are contained in the “Remuneration” document.
 Procedure
 17. Further details of this post and the way in which applications should be made is included in the “Application Instructions” document.
-18. The closing date for applications is 23 October 2017 and applications should be sent for the attention of the Executive Secretary to [REDACTED EMAIL]. The Secretariat will acknowledge receipt of your application by email. If you do not receive an acknowledgement within a few days, please contact the Secretariat to check that your application has been received. Please include the following in the subject line of your email: “Application Deputy Secretary 2018”.
+18. The closing date for applications is 23 October 2017 and applications should be sent for the attention of the Executive Secretary to ██████████████. The Secretariat will acknowledge receipt of your application by email. If you do not receive an acknowledgement within a few days, please contact the Secretariat to check that your application has been received. Please include the following in the subject line of your email: “Application Deputy Secretary 2018”.
 19.   The indicative timetable for this appointment procedure is as follows:
 
 Step                                                             Date

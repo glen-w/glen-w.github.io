@@ -53,12 +53,13 @@ ADDRESS_RE = re.compile(
     re.I,
 )
 SHARPIE_EMAIL_RE = re.compile(r"█+\s*<\[REDACTED EMAIL\]>")
+PLACEHOLDER_RE = re.compile(r"\[REDACTED (?:EMAIL|PHONE|ADDRESS|PASSPORT|DOB)\]")
 PATH_RE = re.compile(r"/Users/|Admin/job applications|job applications\.sbd")
 PAGE_FURNITURE_RE = re.compile(r"(?m)^\s*\d+\s+of\s+\d+\s*$")
 GLEN_LINE_RE = re.compile(r"(?m)^\s*Glen (?:William )?Wright\s*$")
 WRAP_RE_LINE = re.compile(r"[A-Za-z,]$")
 APP_TITLE_RE = re.compile(r"^# Application for .+ \(.+\)\s*$")
-DATE_CORRUPT_RE = re.compile(r"\[REDACTED PHONE\]T\d{2}:")
+DATE_CORRUPT_RE = re.compile(r"(?:\[REDACTED PHONE\]|█{4,})T\d{2}:")
 
 
 class Finding:
@@ -106,6 +107,8 @@ def check_file(path: Path, findings: list[Finding]) -> None:
         findings.append(Finding("blocker", path, "local path or mailbox name"))
     if SHARPIE_EMAIL_RE.search(text):
         findings.append(Finding("blocker", path, "redacted name still followed by <[REDACTED EMAIL]>"))
+    if PLACEHOLDER_RE.search(text):
+        findings.append(Finding("blocker", path, "bracket redaction label; use a blackout bar"))
     if any(PHONE_RE.search(line) and "REDACTED PHONE" not in line for line in text.splitlines()):
         findings.append(Finding("blocker", path, "phone number that is not redacted"))
     add_line_hits(findings, path, text, ADDRESS_RE, "blocker", "address leftover")

@@ -36,7 +36,7 @@ just sources). You may arrange the brief in any style you wish, using any
 word processing tool that you choose.
 
 Your response, with the briefing attached, should be returned to █████
-and I ([REDACTED EMAIL] and [REDACTED EMAIL])
+and I (██████████████ and ██████████████)
 by the end of *Tuesday 19 May*. This exercise will be judged on quality,
 content, grammar and written prose.
 
@@ -49,12 +49,12 @@ Kind regards,
 Global Program Manager
 ```
 
-## 2. Invitation: GFW Program Officer Interview @ Tue 19 May [REDACTED PHONE]:15 -
+## 2. Invitation: GFW Program Officer Interview @ Tue 19 May ████████:15 -
  18:45 (CEST) (glen.w.wright@gmail.com)
 
 - **Date:** 2020-05-14T12:28:07+00:00
-- **From:** [REDACTED EMAIL]
-- **To:** glen.w.wright@gmail.com, [REDACTED EMAIL]
+- **From:** ██████████████
+- **To:** glen.w.wright@gmail.com, ██████████████
 
 ```
 You have been invited to the following event.
@@ -69,20 +69,20 @@ don't need a Gmail account, any email address will work.
 We're looking forward to speaking soon,
 
 ████
-When: Tue 19 May [REDACTED PHONE]:15 – 18:45 Central European Time - Paris
+When: Tue 19 May ████████:15 – 18:45 Central European Time - Paris
 
 Joining info: Join with Google Meet
 https://meet.google.com/mnp-mtje-vse
 
 Join by phone
-[REDACTED PHONE] (PIN: [REDACTED PHONE])
+████████ (PIN: ████████)
 
 More phone numbers: https://tel.meet/mnp-mtje-vse?pin=2618954232353&hs=0
 
 Calendar: glen.w.wright@gmail.com
 Who:
-     * [REDACTED EMAIL]- organiser
-     * [REDACTED EMAIL]
+     * ██████████████- organiser
+     * ██████████████
      * glen.w.wright@gmail.com
 
 Event details:

@@ -1,6 +1,6 @@
 # Project card — glen-w.github.io
 
-Filled from cursor_commands instantiate (2026-09-04). Slash commands stay self-contained; this file is the source of truth for re-fills.
+Filled from cursor_commands instantiate (2026-09-24). Slash commands stay self-contained; this file is the source of truth for re-fills.
 
 ```yaml
 project: glen-w.github.io
@@ -9,6 +9,8 @@ src_package: processing
 ui_kind: none                 # Jekyll via Docker, not Streamlit — streamlit.md skipped
 ui_port: 8080                 # docker-compose jekyll
 ui_entry: docker compose up
+compose_service: jekyll
+image_names: amirpourmand/al-folio:v0.14.6 / local compose jekyll build
 sibling_ports:
   - 8501                      # TranscriptX
   - 8510                      # Transcribe

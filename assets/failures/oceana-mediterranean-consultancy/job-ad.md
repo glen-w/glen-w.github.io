@@ -57,4 +57,4 @@ Submitted proposals will be reviewed on a rolling basis with a deadline of 4th S
 
 ## Data protection
 
-The proposer is hereby informed that any personal data provided as part of this ‘Request for Proposals’ process will be managed by Fundación Oceana (G[REDACTED PHONE]), located at C/ Gran Vía 62, 7º Izq., 28013 Madrid, email: <[REDACTED EMAIL]>, in accordance with applicable data protection legislation.
+The proposer is hereby informed that any personal data provided as part of this ‘Request for Proposals’ process will be managed by Fundación Oceana (G████████), located at C/ Gran Vía 62, 7º Izq., 28013 Madrid, email: <██████████████>, in accordance with applicable data protection legislation.

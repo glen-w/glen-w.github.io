@@ -10,9 +10,9 @@ Hello,
 ██████████████ ocean
 This inbox is not monitored regularly. For a timely response, please contact the appropriate team using the emails below:
 
-- Fundraising and donations: [REDACTED EMAIL]
-- Grants: [REDACTED EMAIL]
-- ██████████████  [REDACTED EMAIL]
+- Fundraising and donations: ██████████████
+- Grants: ██████████████
+- ██████████████  ██████████████
 - █████████████  [please complete the contact form](https://airtable.com/appm3DUxH3G85pu8D/pagItItC34zM5TJms/form)
 
 Thank you in advance for your understanding, and we appreciate your interest in SOA.
@@ -31,9 +31,9 @@ Hello,
 ██████████████ ocean
 This inbox is not monitored regularly. For a timely response, please contact the appropriate team using the emails below:
 
-- Fundraising and donations: [REDACTED EMAIL]
-- Grants: [REDACTED EMAIL]
-- ██████████████  [REDACTED EMAIL]
+- Fundraising and donations: ██████████████
+- Grants: ██████████████
+- ██████████████  ██████████████
 - █████████████  [please complete the contact form](https://airtable.com/appm3DUxH3G85pu8D/pagItItC34zM5TJms/form)
 
 Thank you in advance for your understanding, and we appreciate your interest in SOA.
@@ -85,7 +85,7 @@ On Mon, May 4, 2026 at 11:57 AM Glen Wright <glen.w.wright@gmail.com> wrote:
 >
 > --
 > 🌐 GlenWright.earth <https://www.glenwright.earth> |  LinkedIn
-> <https://www.linkedin.com/in/glen-wright-[REDACTED PHONE]/>
+> <https://www.linkedin.com/in/glen-wright-████████/>
 >
 ```
 
@@ -165,7 +165,7 @@ On Mon, May 25, 2026 at 9:19 AM Glen Wright <glen.w.wright@gmail.com> wrote:
 >
 > --
 > 🌐 GlenWright.earth <https://www.glenwright.earth> |  LinkedIn
-> <https://www.linkedin.com/in/glen-wright-[REDACTED PHONE]/>
+> <https://www.linkedin.com/in/glen-wright-████████/>
 >
 >
 ```

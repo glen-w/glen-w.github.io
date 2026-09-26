@@ -1,7 +1,7 @@
 ## 1. RE: Application Deputy Secretary 2017
 
 - **Date:** 2016-09-30T15:05:51+00:00
-- **From:** secretariat <[REDACTED EMAIL]>
+- **From:** secretariat <██████████████>
 - **To:** 'Glen Wright' <glen.w.wright@gmail.com>
 
 ```
@@ -12,7 +12,7 @@ Kind regards
 
 -----Original Message-----
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: 30 September [REDACTED PHONE]:01
+Sent: 30 September ████████:01
 To: secretariat
 Subject: Application Deputy Secretary 2017
 
@@ -46,8 +46,8 @@ Victoria House
 37-63 Southampton Row
 London WC1B 4DA
 United Kingdom
-Tel: +44 (0) [REDACTED PHONE]
-Email: [REDACTED EMAIL]<blocked::mailto:[REDACTED EMAIL]> / [REDACTED EMAIL]<blocked::mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████
+Email: ██████████████<blocked::██████████████> / ██████████████<blocked::██████████████>
 http://www.ospar.org<blocked::http://www.ospar.org/> http://www.bonnagreement.org<http://www.bonnagreement.org/>
 _____________________________________________________________________
 ```
@@ -67,7 +67,7 @@ recruitment and the various missions in nice places. But I can anyway
 understand you are frustrated (and you can certainly understand that I
 am very happy for the Ocean team!).
 
-Le 17/10/[REDACTED PHONE]:01, Glen Wright a écrit :
+Le 17/10/████████:01, Glen Wright a écrit :
 >
 > Hi ████,
 >
@@ -96,7 +96,7 @@ Le 17/10/[REDACTED PHONE]:01, Glen Wright a écrit :
 > -------- Message transféré --------
 > Sujet : 	Letter from ████████ about the outcome of the
 > shortlisting procedure
-> Date : 	Mon, 17 Oct [REDACTED PHONE]:51:19 [REDACTED PHONE]
+> Date : 	Mon, 17 Oct ████████:51:19 ████████
 > ███████████
 > Pour : 	Glen Wright (glen.w.wright@gmail.com) <glen.w.wright@gmail.com>
 >
@@ -127,11 +127,11 @@ Le 17/10/[REDACTED PHONE]:01, Glen Wright a écrit :
 >
 > *United Kingdom*
 >
-> Tel: +44 (0) [REDACTED PHONE]
+> Tel: +44 (0) ████████
 >
-> Email: [REDACTED EMAIL] <blocked::mailto:[REDACTED EMAIL]>/
-> [REDACTED EMAIL]
-> <blocked::mailto:[REDACTED EMAIL]>
+> Email: ██████████████ <blocked::██████████████>/
+> ██████████████
+> <blocked::██████████████>
 >
 > http://www.ospar.org
 > <blocked::http://www.ospar.org/>http://www.bonnagreement.org
@@ -145,6 +145,6 @@ Le 17/10/[REDACTED PHONE]:01, Glen Wright a écrit :
 --
 <http://www.iddri.org>
 	*████████ * *| Programme Coordinator, Oceans and Coasts*
-*t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+*t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 <http://www.iddri.org>
 ```

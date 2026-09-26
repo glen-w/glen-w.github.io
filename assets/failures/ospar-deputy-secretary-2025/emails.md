@@ -1,7 +1,7 @@
 ## 1. RE: Confidential: Application Deputy Secretary OSPAR_Bonn_Agreement
 
 - **Date:** 2025-10-31T07:48:20+00:00
-- **From:** Secretariat - OSPAR <[REDACTED EMAIL]>
+- **From:** Secretariat - OSPAR <██████████████>
 - **To:** Glen Wright <glen.w.wright@gmail.com>
 
 ```
@@ -11,8 +11,8 @@ Kind regards
 ████
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: 30 October [REDACTED PHONE]:32
-To: Secretariat - OSPAR <[REDACTED EMAIL]>
+Sent: 30 October ████████:32
+To: Secretariat - OSPAR <██████████████>
 Subject: Confidential: Application Deputy Secretary OSPAR_Bonn_Agreement
 
 For the attention of the Executive Secretary:
@@ -42,7 +42,7 @@ Best regards
 █████████
 Admin Officer
 
-Tel: +44 (0) [REDACTED PHONE] Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████ Email: ██████████████
 Web: http://www.ospar.org/
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 ```
@@ -70,14 +70,14 @@ Kind regards,
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -85,7 +85,7 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: 01 December [REDACTED PHONE]:49
+Sent: 01 December ████████:49
 ███████████
 █████████
 Subject: Re: Interview letter
@@ -100,7 +100,7 @@ Warm regards,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Monday, 1 December 2025 at 11:25
 To: glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com> <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: Interview letter
@@ -115,7 +115,7 @@ Best regards
 █████████
 Admin Officer
 
-Tel: +44 (0) [REDACTED PHONE] Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████ Email: ██████████████
 Web: http://www.ospar.org/
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 ```
@@ -141,14 +141,14 @@ Kind regards,
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -156,7 +156,7 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: 04 December [REDACTED PHONE]:38
+Sent: 04 December ████████:38
 █████████
 Subject: Re: Interview travel reimbursement
 
@@ -166,10 +166,10 @@ Many thanks,
 
 Glen
 
-From: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: ███████ <██████████████>
 Date: Monday, 1 December 2025 at 15:55
-To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>, █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
-Cc: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>, █████████ <██████████████>
+Cc: █████████ <██████████████>
 Subject: RE: Interview letter
 Dear Glen,
 
@@ -187,14 +187,14 @@ Kind regards,
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -202,9 +202,9 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 01 December [REDACTED PHONE]:49
-To: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
-Cc: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 01 December ████████:49
+To: █████████ <██████████████>
+Cc: ███████ <██████████████>
 Subject: Re: Interview letter
 
 Hi ████,
@@ -217,7 +217,7 @@ Warm regards,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Monday, 1 December 2025 at 11:25
 To: glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com> <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: Interview letter
@@ -232,7 +232,7 @@ Best regards
 █████████
 Admin Officer
 
-Tel: +44 (0) [REDACTED PHONE] Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████ Email: ██████████████
 Web: http://www.ospar.org/
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 ```
@@ -250,13 +250,13 @@ Looking forward to meeting you next week.
 
 As a change to what was included in your interview letter, the panel will be: Chair of OSPAR, Chair of Bonn Agreement, Chair of Radioactive Substances Committee, Head of French Delegation to OSPAR, Susana Salvador (Executive Secretary), and Laura de la Torre (Deputy Secretary). - I don't think I have forgotten anyone.
 
-Also, if when you arrive at 12 Finsbury Square, the security guard is on a building walk about, please feel free to phone: [REDACTED PHONE], so I can come down to meet you and show you up to the first floor.
+Also, if when you arrive at 12 Finsbury Square, the security guard is on a building walk about, please feel free to phone: ████████, so I can come down to meet you and show you up to the first floor.
 
 Best wishes
 ████
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: 10 December [REDACTED PHONE]:30
+Sent: 10 December ████████:30
 ███████████
 Subject: Briefing note [Re: Interview letter]
 
@@ -268,7 +268,7 @@ Many thanks,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Monday, 1 December 2025 at 11:25
 To: glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com> <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: Interview letter
@@ -283,7 +283,7 @@ Best regards
 █████████
 Admin Officer
 
-Tel: +44 (0) [REDACTED PHONE] Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████ Email: ██████████████
 Web: http://www.ospar.org/
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 ```
@@ -302,7 +302,7 @@ Best,
 ████
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: 11 December [REDACTED PHONE]:26
+Sent: 11 December ████████:26
 ███████████
 Subject: Re: Briefing note [Re: Interview letter]
 
@@ -314,7 +314,7 @@ Many thanks,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Thursday, 11 December 2025 at 09:33
 To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: RE: Briefing note [Re: Interview letter]
@@ -324,14 +324,14 @@ Looking forward to meeting you next week.
 
 As a change to what was included in your interview letter, the panel will be: Chair of OSPAR, Chair of Bonn Agreement, Chair of Radioactive Substances Committee, Head of French Delegation to OSPAR, Susana Salvador (Executive Secretary), and Laura de la Torre (Deputy Secretary). - I don't think I have forgotten anyone.
 
-Also, if when you arrive at 12 Finsbury Square, the security guard is on a building walk about, please feel free to phone: [REDACTED PHONE], so I can come down to meet you and show you up to the first floor.
+Also, if when you arrive at 12 Finsbury Square, the security guard is on a building walk about, please feel free to phone: ████████, so I can come down to meet you and show you up to the first floor.
 
 Best wishes
 ████
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 10 December [REDACTED PHONE]:30
-To: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 10 December ████████:30
+To: █████████ <██████████████>
 Subject: Briefing note [Re: Interview letter]
 
 Dear ████,
@@ -342,7 +342,7 @@ Many thanks,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Monday, 1 December 2025 at 11:25
 To: glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com> <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: Interview letter
@@ -353,11 +353,11 @@ Please could you confirm attendance by close of business today.
 Best regards
 ████
 
-[cid:image001.png@01DC6A[REDACTED PHONE]]
+[cid:image001.png@01DC6A████████]
 █████████
 Admin Officer
 
-Tel: +44 (0) [REDACTED PHONE] Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████ Email: ██████████████
 Web: http://www.ospar.org/
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 ```
@@ -372,7 +372,7 @@ The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 Thank you!
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: 17 December [REDACTED PHONE]:10
+Sent: 17 December ████████:10
 ███████████
 Subject: Re: Briefing note [Re: Interview letter]
 
@@ -382,7 +382,7 @@ Slides attached. See you soon!
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Thursday, 11 December 2025 at 12:27
 To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: RE: Briefing note [Re: Interview letter]
@@ -393,8 +393,8 @@ Best,
 ████
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 11 December [REDACTED PHONE]:26
-To: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 11 December ████████:26
+To: █████████ <██████████████>
 Subject: Re: Briefing note [Re: Interview letter]
 
 Great, thanks ████.
@@ -405,7 +405,7 @@ Many thanks,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Thursday, 11 December 2025 at 09:33
 To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: RE: Briefing note [Re: Interview letter]
@@ -415,14 +415,14 @@ Looking forward to meeting you next week.
 
 As a change to what was included in your interview letter, the panel will be: Chair of OSPAR, Chair of Bonn Agreement, Chair of Radioactive Substances Committee, Head of French Delegation to OSPAR, Susana Salvador (Executive Secretary), and Laura de la Torre (Deputy Secretary). - I don't think I have forgotten anyone.
 
-Also, if when you arrive at 12 Finsbury Square, the security guard is on a building walk about, please feel free to phone: [REDACTED PHONE], so I can come down to meet you and show you up to the first floor.
+Also, if when you arrive at 12 Finsbury Square, the security guard is on a building walk about, please feel free to phone: ████████, so I can come down to meet you and show you up to the first floor.
 
 Best wishes
 ████
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 10 December [REDACTED PHONE]:30
-To: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 10 December ████████:30
+To: █████████ <██████████████>
 Subject: Briefing note [Re: Interview letter]
 
 Dear ████,
@@ -433,7 +433,7 @@ Many thanks,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Monday, 1 December 2025 at 11:25
 To: glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com> <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: Interview letter
@@ -448,7 +448,7 @@ Best regards
 █████████
 Admin Officer
 
-Tel: +44 (0) [REDACTED PHONE] Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████ Email: ██████████████
 Web: http://www.ospar.org/
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 ```
@@ -478,14 +478,14 @@ Best of luck!
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -493,7 +493,7 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: ███████
-Sent: 01 December [REDACTED PHONE]:55
+Sent: 01 December ████████:55
 To: Glen Wright <glen.w.wright@gmail.com>; █████████
 ███████████
 Subject: RE: Interview letter
@@ -514,14 +514,14 @@ Kind regards,
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -529,9 +529,9 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 01 December [REDACTED PHONE]:49
-To: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
-Cc: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 01 December ████████:49
+To: █████████ <██████████████>
+Cc: ███████ <██████████████>
 Subject: Re: Interview letter
 
 Hi ████,
@@ -544,7 +544,7 @@ Warm regards,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Monday, 1 December 2025 at 11:25
 To: glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com> <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: Interview letter
@@ -559,7 +559,7 @@ Best regards
 █████████
 Admin Officer
 
-Tel: +44 (0) [REDACTED PHONE] Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████ Email: ██████████████
 Web: http://www.ospar.org/
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 ```
@@ -587,14 +587,14 @@ Many thanks and kind regards
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -602,17 +602,17 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: 04 December [REDACTED PHONE]:05
+Sent: 04 December ████████:05
 █████████
 ███████████
 Subject: Re: Interview travel reimbursement
 
 No problem, thanks ████
 
-From: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: ███████ <██████████████>
 Date: Thursday, 4 December 2025 at 14:55
 To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Cc: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Cc: █████████ <██████████████>
 Subject: RE: Interview travel reimbursement
 Dear Glen,
 
@@ -628,14 +628,14 @@ Kind regards,
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -643,8 +643,8 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 04 December [REDACTED PHONE]:38
-To: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 04 December ████████:38
+To: ███████ <██████████████>
 Subject: Re: Interview travel reimbursement
 
 Thank you very much ████. Attached are the receipts for the two trains. In order to make the timings work around prior commitments I decided to stay overnight in London, hence the Birmingham train ticket is for the next morning.
@@ -653,10 +653,10 @@ Many thanks,
 
 Glen
 
-From: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: ███████ <██████████████>
 Date: Monday, 1 December 2025 at 15:55
-To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>, █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
-Cc: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>, █████████ <██████████████>
+Cc: █████████ <██████████████>
 Subject: RE: Interview letter
 Dear Glen,
 
@@ -674,14 +674,14 @@ Kind regards,
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -689,9 +689,9 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 01 December [REDACTED PHONE]:49
-To: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
-Cc: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 01 December ████████:49
+To: █████████ <██████████████>
+Cc: ███████ <██████████████>
 Subject: Re: Interview letter
 
 Hi ████,
@@ -704,7 +704,7 @@ Warm regards,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Monday, 1 December 2025 at 11:25
 To: glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com> <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: Interview letter
@@ -719,7 +719,7 @@ Best regards
 █████████
 Admin Officer
 
-Tel: +44 (0) [REDACTED PHONE] Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████ Email: ██████████████
 Web: http://www.ospar.org/
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 ```
@@ -736,21 +736,21 @@ That's perfect Glen. Thank you so much.
 Kind regards,
 ████
 
-[cid:image001.png@01DC7F22.7D[REDACTED PHONE]]
+[cid:image001.png@01DC7F22.7D████████]
 
 [Icon  Description automatically generated with low confidence]
 ███████
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -758,7 +758,7 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: 06 January [REDACTED PHONE]:35
+Sent: 06 January ████████:35
 █████████
 ███████████
 Subject: Re: Interview travel reimbursement
@@ -774,8 +774,8 @@ I did take the tube, though I tapped in using my bank card. Here is a screenshot
 Bank details:
 
 UK
-Account: [REDACTED PHONE]
-Sort Code: [REDACTED PHONE]
+Account: ████████
+Sort Code: ████████
 IBAN: GB92NWBK60154971782931
 BIC: NWBKGB2L
 
@@ -791,10 +791,10 @@ Thank you very much,
 
 Glen
 
-From: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: ███████ <██████████████>
 Date: Tuesday, 6 January 2026 at 09:41
 To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Cc: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Cc: █████████ <██████████████>
 Subject: RE: Interview travel reimbursement
 Dear Glen,
 
@@ -805,21 +805,21 @@ I wanted to check whether you had any tube tickets to add to the reimbursement. 
 Many thanks and kind regards
 ████
 
-[cid:image001.png@01DC7F22.7D[REDACTED PHONE]]
+[cid:image001.png@01DC7F22.7D████████]
 
 [Icon  Description automatically generated with low confidence]
 ███████
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -827,17 +827,17 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 04 December [REDACTED PHONE]:05
-To: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
-Cc: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 04 December ████████:05
+To: ███████ <██████████████>
+Cc: █████████ <██████████████>
 Subject: Re: Interview travel reimbursement
 
 No problem, thanks ████
 
-From: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: ███████ <██████████████>
 Date: Thursday, 4 December 2025 at 14:55
 To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Cc: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Cc: █████████ <██████████████>
 Subject: RE: Interview travel reimbursement
 Dear Glen,
 
@@ -846,21 +846,21 @@ Thank you for the receipts. If that's ok with you, I will wait for any tube / bu
 Kind regards,
 ████
 
-[cid:image001.png@01DC7F22.7D[REDACTED PHONE]]
+[cid:image001.png@01DC7F22.7D████████]
 
 [Icon  Description automatically generated with low confidence]
 ███████
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -868,8 +868,8 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 04 December [REDACTED PHONE]:38
-To: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 04 December ████████:38
+To: ███████ <██████████████>
 Subject: Re: Interview travel reimbursement
 
 Thank you very much ████. Attached are the receipts for the two trains. In order to make the timings work around prior commitments I decided to stay overnight in London, hence the Birmingham train ticket is for the next morning.
@@ -878,10 +878,10 @@ Many thanks,
 
 Glen
 
-From: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: ███████ <██████████████>
 Date: Monday, 1 December 2025 at 15:55
-To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>, █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
-Cc: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>, █████████ <██████████████>
+Cc: █████████ <██████████████>
 Subject: RE: Interview letter
 Dear Glen,
 
@@ -892,21 +892,21 @@ You can certainly travel from Paris to London and then onward travel to Birmingh
 Kind regards,
 ███████
 
-[cid:image001.png@01DC7F22.7D[REDACTED PHONE]]
+[cid:image001.png@01DC7F22.7D████████]
 
 [Icon  Description automatically generated with low confidence]
 ███████
 OSPAR Commission Secretariat
 Finance Officer
 
-Tel: +44 (0) [REDACTED PHONE] (d) /
-         +44 (0) [REDACTED PHONE]  (main)
+Tel: +44 (0) ████████ (d) /
+         +44 (0) ████████  (main)
 Web: http://www.ospar.org/
 Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 
-[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/[REDACTED PHONE]>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
+[Title: LinkedIn - Description: image of LinkedIn icon]<https://www.linkedin.com/company/████████>[Title: Twitter - Description: image of Twitter icon]<http://twitter.com/osparcomm>
 
 [A screenshot of a video game  Description automatically generated with medium confidence]
 Web: https://www.bonnagreement.org/
@@ -914,9 +914,9 @@ Web: https://www.bonnagreement.org/
 [Title: Twitter - Description: image of Twitter icon]<https://twitter.com/bonnagreement>
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: 01 December [REDACTED PHONE]:49
-To: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
-Cc: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: 01 December ████████:49
+To: █████████ <██████████████>
+Cc: ███████ <██████████████>
 Subject: Re: Interview letter
 
 Hi ████,
@@ -929,7 +929,7 @@ Warm regards,
 
 Glen
 
-From: █████████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: █████████ <██████████████>
 Date: Monday, 1 December 2025 at 11:25
 To: glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com> <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: Interview letter
@@ -940,11 +940,11 @@ Please could you confirm attendance by close of business today.
 Best regards
 ████
 
-[cid:image001.png@01DC7F22.7D[REDACTED PHONE]]
+[cid:image001.png@01DC7F22.7D████████]
 █████████
 Admin Officer
 
-Tel: +44 (0) [REDACTED PHONE] Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████ Email: ██████████████
 Web: http://www.ospar.org/
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK
 ```
@@ -971,8 +971,8 @@ ____________________________________________________________________
 Susana Salvador
 Executive Secretary
 
-Tel: +44 (0) [REDACTED PHONE]
-Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +44 (0) ████████
+Email: ██████████████
 Web: http://www.ospar.org/ Data: https://odims.ospar.org<https://odims.ospar.org/>
 Assessments: https://oap.ospar.org<https://oap.ospar.org/>
 The Aspect, 12 Finsbury Square, London, EC2A 1AS, UK

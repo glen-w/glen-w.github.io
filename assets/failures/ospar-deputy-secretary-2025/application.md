@@ -66,8 +66,8 @@ Paris 75020
 France
 
 4. Telephone number(s)
-[REDACTED PHONE]
-[REDACTED PHONE]
+████████
+████████
 
 Email address glen.w.wright@gmail.com
 
@@ -211,20 +211,20 @@ I prefer that my current employer not be contacted at this stage.
 Previous employer
 •   ████████
 Director, Ocean programme, IDDRI
-[REDACTED EMAIL]
+██████████████
 
 Colleagues
 •   ███████
 Director, Seascape Consultants
-[REDACTED EMAIL]
+██████████████
 
 •   Kristina Gjerde
 Senior Advisor, IUCN
-[REDACTED EMAIL]
+██████████████
 
 •   Sebastian Ünger
 Commissioner for the Ocean, German Federal Government
-[REDACTED EMAIL]
+██████████████
 
 ### H. Declaration
 
@@ -274,7 +274,7 @@ By email
 1 December 2025
 
 Dear Mr Wright,
-OSPAR DEPUTY SECRETARY POST – OFFSHORE INDUSTRY, RADIOACTIVE SUBSTANCES, BONN AGREEMENT I have tried to contact you by telephone, but without success. I am very pleased to inform you that you have been shortlisted for the post of OSPAR Deputy Secretary – offshore industry, radioactive substances, Bonn Agreement. The interviews will be held on 17 December 2025. You are invited to attend for interview at the Secretariat’s offices at 15.00. We consider that it should be possible to do the return journey from your home within the day and you will be entitled to reimbursement of the return travel costs between your home and the OSPAR Secretariat offices. If you require guidance with respect to the reimbursement process please contact [REDACTED EMAIL]. Please endeavour to travel by the most economic means possible, and contact █████████ ([REDACTED EMAIL]  to confirm that you will be attending the interview. Please respond by close of business today (1 December). Interview panel and process
+OSPAR DEPUTY SECRETARY POST – OFFSHORE INDUSTRY, RADIOACTIVE SUBSTANCES, BONN AGREEMENT I have tried to contact you by telephone, but without success. I am very pleased to inform you that you have been shortlisted for the post of OSPAR Deputy Secretary – offshore industry, radioactive substances, Bonn Agreement. The interviews will be held on 17 December 2025. You are invited to attend for interview at the Secretariat’s offices at 15.00. We consider that it should be possible to do the return journey from your home within the day and you will be entitled to reimbursement of the return travel costs between your home and the OSPAR Secretariat offices. If you require guidance with respect to the reimbursement process please contact ██████████████. Please endeavour to travel by the most economic means possible, and contact █████████ (██████████████  to confirm that you will be attending the interview. Please respond by close of business today (1 December). Interview panel and process
 The interview panel will consist of the Chair of OSPAR, the Chair of the Bonn Agreement, the Chair of the Radioactive Substances Committee, a couple of Heads of Delegation from the OSPAR Commission/Bonn Agreement, and me. Candidates selected for interview will be asked to submit a short (2 page) note on  how OSPAR and the Bonn Agreement can add value to action taken by national authorities and other regional and global organisations in preventing pollution from industry and shipping. Please submit this note by 10 December 2025. In addition, candidates are asked to prepare a 5-minute presentation based on this note and should expect to be asked questions on this note at the interview, as well as about other relevant topics. Afterwards you will be asked questions relating to your presentation and to the skills and abilities required for the post as set out in the vacancy announcement. This will include your experience of implementing marine environment policies; how to deliver in the context of an intergovernmental organisation; the use of scientific knowledge and information to deliver OSPAR objectives; and teamworking. The interview will take approximately 45 minutes. You will also have the opportunity to meet other members of the team. References
 Please note that we shall shortly be contacting the people you have nominated in order to obtain references. If you have not already done so, you may wish to advise them in advance. Please contact █████████ if you require further information regarding the interview process. We look forward to seeing you on 17 December 2025.
 Best wishes,
@@ -335,7 +335,7 @@ The Bonn Agreement
 8.    The Bonn Agreement is the mechanism by which ten Governments, together with the European Union, cooperate in dealing with pollution of the Greater North Sea and its Approaches by oil and other harmful substances. The signatories to the Agreement are the Governments of Belgium, Denmark, France, Germany, Ireland, the Netherlands, Norway, Spain, Sweden, the United Kingdom of Great Britain and Northern Ireland and the European Union. Further information can be obtained from its website at: www.bonnagreement.org. Description of the post, main duties and requirements
 9.    The person to be appointed will have attained a general educational standard equivalent to a good university degree, preferably in maritime or environment law, environmental engineering, environmental management, natural or environmental sciences and will have had at least five years' relevant work experience.
 10. All members of the team report to the Executive Secretary and work together to deliver the priorities of the Commission and the Bonn Agreement. The responsibilities of the Secretariat are to help the Commission/Bonn Agreement develop and implement its policies and regulations and maintain effective relations with the Contracting Parties, the public, the media, and inter-governmental and non-governmental organisations. In addition, the Secretariat carries out general secretariat duties connected with the smooth running of the activities of the Commission/Bonn Agreement.
-11. Deputy Secretaries are expected to make themselves familiar with the full range of the Secretariat’s activities and to help ensure integration across the different themes of work. The work of the OSPAR Commission and the Bonn Agreement is guided by their respective strategies, the North-East Atlantic Environment Strategy 2030 and the Bonn Agreement Strategy [REDACTED PHONE]. The work involves supporting relevant Committees and Working Groups to deliver against the agreed strategic and operational objectives and includes, inter alia, preparation of, and assistance at, meetings, the preparation of reports and documents for these meetings (including drafting technical reports, tracking implementation progress, editing draft background documents and measures on specific problems), writing the summary records of those meetings and ensuring appropriate follow-up to the conclusions of the meetings.
+11. Deputy Secretaries are expected to make themselves familiar with the full range of the Secretariat’s activities and to help ensure integration across the different themes of work. The work of the OSPAR Commission and the Bonn Agreement is guided by their respective strategies, the North-East Atlantic Environment Strategy 2030 and the Bonn Agreement Strategy ████████. The work involves supporting relevant Committees and Working Groups to deliver against the agreed strategic and operational objectives and includes, inter alia, preparation of, and assistance at, meetings, the preparation of reports and documents for these meetings (including drafting technical reports, tracking implementation progress, editing draft background documents and measures on specific problems), writing the summary records of those meetings and ensuring appropriate follow-up to the conclusions of the meetings.
 
 12. The person appointed to this particular role is responsible for the many strands of work that are under the Offshore Industry Committee (OIC), the Radioactive Substances Committee (RSC), and the Bonn Agreement. The person appointed will also support the work of the Hazardous Substances and Eutrophication Committee (HASEC) and will be expected to support other areas of OSPAR’s work.
 13.     Specific duties associated with this role are: a. With regard to the OSPAR Commission: i. responsibility for supporting the work of OSPAR’s Offshore Industry Committee (OIC) and Radioactive Substances Committee (RSC), including their subsidiary groups, to ensure progress against relevant objectives under the North-East Atlantic Environment Strategy 2030; ii. promoting cooperation with other relevant international organisations including the International Maritime Organisation (IMO), the London Convention and London Protocol and the International Atomic Energy Agency;
@@ -362,10 +362,10 @@ Terms of Service and Remuneration
 
 3
 
-conditions of service are set out in the Commission’s Staff Regulations (Agreement [REDACTED PHONE]), as amended from time to time.
+conditions of service are set out in the Commission’s Staff Regulations (Agreement ████████), as amended from time to time.
 Procedure
 17. Further details of this post and the way in which applications should be made is included in the “Application Instructions” document.
-18. The closing date for applications is 31 October 2025 and applications should be sent for the attention of the Executive Secretary to [REDACTED EMAIL]. The Secretariat will acknowledge receipt of your application by email. If you do not receive an acknowledgement within a few days, please contact the Secretariat to check that your application has been received. Please include the following in the subject line of your email: “Confidential: Application Deputy Secretary OSPAR_Bonn_Agreement”.
+18. The closing date for applications is 31 October 2025 and applications should be sent for the attention of the Executive Secretary to ██████████████. The Secretariat will acknowledge receipt of your application by email. If you do not receive an acknowledgement within a few days, please contact the Secretariat to check that your application has been received. Please include the following in the subject line of your email: “Confidential: Application Deputy Secretary OSPAR_Bonn_Agreement”.
 19.   The indicative timetable for this appointment procedure is as follows: Step                                                              Date Applications to be sent to the Executive Secretary by             31 October 2025 Shortlisting of candidates                                        [30 November 2025] Interview with shortlisted candidates resulting in                [17 December 2025] recommendations for appointment
 Approval procedure finalised                                      [16 January 2026]* Successful applicant to take up appointment by                    [End of June 2026] Please note that the above timings are indicative only and, in particular, the date of the interview may change depending upon the availability of the interview panel.
 

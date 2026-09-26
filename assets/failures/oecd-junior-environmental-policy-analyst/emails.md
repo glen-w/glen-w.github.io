@@ -42,7 +42,7 @@
 ## 5. OECD - Confirmation of Application / OCDE - Confirmation de votre candidature
 
 - **Date:** 2025-09-15T21:59:28+00:00
-- **From:** IEA <[REDACTED EMAIL]>
+- **From:** IEA <██████████████>
 - **To:** glen.w.wright@gmail.com
 
 ```

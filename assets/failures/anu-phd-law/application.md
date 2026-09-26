@@ -3,7 +3,7 @@
 9030 Doctor of Philosophy, Faculty of Law
 The Australian National University
 
-Name:               Wright, Glen Application number: W[REDACTED PHONE] Applicant number: [REDACTED PHONE]
+Name:               Wright, Glen Application number: W████████ Applicant number: ████████
 
 Contents                                                                         Page Carbon offsets and Consumer Protection.pdf                          15
 Conceptualising and Combating Transnational Environmental Crime.pdf 29
@@ -23,14 +23,14 @@ Masters transcript (at September 2011), certified.PDF               195
 CV.pdf                                                              197
 PhD proposal (full).pdf                                             207
 
-A-[REDACTED PHONE] / S-[REDACTED PHONE] / C-[REDACTED PHONE] / T-14060
+A-████████ / S-████████ / C-████████ / T-14060
 
 Graduate Research Application
 
 CRICOS Provider Number: 00120C
 
 •      The University will not process or consider your application until all sections have been satisfactorily completed and all specified documentation has been provided. For International Applications payment of the Application Fee must also be received prior to consideration or processing of your application.
-•      Visual Arts and Music Programs: These programs have specific application and selection requirements. Contact the ANU College of Arts and Social Sciences [REDACTED EMAIL] for a Prospectus.
+•      Visual Arts and Music Programs: These programs have specific application and selection requirements. Contact the ANU College of Arts and Social Sciences ██████████████ for a Prospectus.
 
 1. Program of Study
 If you are applying for both PhD and Master by Research programs, please indicate so in the Preference fields:
@@ -103,8 +103,8 @@ Previous Family Name (if any):                                                  
 Mailing Address: (The address where official documentation mailed to, do not use a PO Box address)
 
 Phone: ( )
-[REDACTED PHONE]
-Mobile: [REDACTED PHONE] Fax: ( )
+████████
+Mobile: ████████ Fax: ( )
 
 Country                                          Australia
 Home Address: (This is your permanent home address)
@@ -214,7 +214,7 @@ If yes, attach details on a separate sheet
 Please attach your CV or resume.
 Please detail your current employment.
 
-Name of current Employer         University of New South Wales                                                                   Phone      [REDACTED PHONE] Business address of current      ██████, School of Law                                                                  Mobile Employer                         Sydney                                                                                          Fax Postcode      2052               Stat                                                          Email NSW                                                               [REDACTED EMAIL] e
+Name of current Employer         University of New South Wales                                                                   Phone      ████████ Business address of current      ██████, School of Law                                                                  Mobile Employer                         Sydney                                                                                          Fax Postcode      2052               Stat                                                          Email NSW                                                               ██████████████ e
 
 ### Country if outside Australia
 
@@ -240,20 +240,20 @@ D    D     M    M        Y       Y
 
 1.                                                                                                                          09 Aug 2011 University of New South Wales, School of Law, Sydney 2052 ██████                                                                           Senior Research Fellow
 
-Email:       [REDACTED EMAIL]
+Email:       ██████████████
 
 Name                                            Address                                               Position              Date report requested
 D    D     M    M        Y       Y
 2.                                                                                                                          12 Aug 2011 University of New South Wales, School of Law, Sydney 2052 Michael Grewcock                                                                      Senior Lecturer
 
-Email:       [REDACTED EMAIL]
+Email:       ██████████████
 
 Name                                            Address                                               Position              Date report requested
 D    D     M    M        Y       Y
 3.
 Freehills, Level 38, MLC Centre, Sydney, NSW 2000 ██████                                                                           Senior Associate
 
-Email:       [REDACTED EMAIL]
+Email:       ██████████████
 
 9. Finance for Study (Please indicate how you intend to finance your studies)
 
@@ -298,7 +298,7 @@ Other    
 •   I authorise the University to obtain official records from any institution I have attended.
 •   I understand that ANU may disclose the personal information I have given in this application to the Department of Immigration and Citizenship (DIAC)(International Students only) and the Department of Education, Employment and Workplace Relations (DEEWR) and that DEEWR will collect and store my personal information for use in connection with the Higher Education Information Management System (HEIMS) or the Provider Registration and International Students Management System (PRISMS). DEEWR may also disclose the information to the Australian Taxation Office (ATO).
 •   I understand that I am responsible for payment of all tuition fees by the due dates and for my living expenses unless I have been awarded a scholarship or sponsorship, which covers these costs. I have read and understood the tuition fee refund policy available at http://www.anu.edu.au/sas/fees/#refunds.
-•   I understand that international students who are made an offer of admission will be required to provide [REDACTED PASSPORT] upon acceptance of offer and that the University may provide information, personal and academic to any authority legally entitled to request it.
+•   I understand that international students who are made an offer of admission will be required to provide ████████ upon acceptance of offer and that the University may provide information, personal and academic to any authority legally entitled to request it.
 
 D      D     M    M      Y     Y
 
@@ -334,7 +334,7 @@ In addition, those involved with environmental crime are often involved in other
 2. The Neglect of TEC
 Despite the effects and scale of TEC, it has been woefully neglected at all levels. The UN notes that Governments tend to approach TEC solely from a natural resource management and conservation perspective (COP 2010: 10), thus neglecting to criminalise TEC, or otherwise attend to it with the same level of urgency commanded by the traditional forms of transnational organised crime (TOC). There is often “no exclusive competence on organised environmental crime” (Fröhlich 2003: iv) in national enforcement systems and the enforcement agencies responsible for TEC are usually poorly trained, inefficient and lacking in resources (Hayman and Brack 2002: 16).
 
-Environmental crime “relies on individual states to implement national legislation and actively enforce against environmentally criminal behaviour as they occur within their borders” (Bricknell 2010: 11). In this regard, countries in the Global North tend to have extensive legislative regimes for environmental crime (see Fröhlich 2003 for a comprehensive overview of the EU, for example), but low conviction rates. An extensive study into the prosecution of TEC cases in the national courts of the EU member states found a “relatively low number of cases compared to other classical segments of organised crime” (Fröhlich 2003: i). Only 122 cases were found between [REDACTED PHONE] (Fröhlich 2003: i). Even when a conviction is secured, the penalties are “often inadequate to deter re-offending or disrupt established criminal networks in any meaningful way” (EIA 2007: 2). Given the extent of TEC and the wide range of crimes it encompasses, it seems unthinkable that such a low number of cases would be prosecuted; such is the low level of priority accorded to TEC.
+Environmental crime “relies on individual states to implement national legislation and actively enforce against environmentally criminal behaviour as they occur within their borders” (Bricknell 2010: 11). In this regard, countries in the Global North tend to have extensive legislative regimes for environmental crime (see Fröhlich 2003 for a comprehensive overview of the EU, for example), but low conviction rates. An extensive study into the prosecution of TEC cases in the national courts of the EU member states found a “relatively low number of cases compared to other classical segments of organised crime” (Fröhlich 2003: i). Only 122 cases were found between ████████ (Fröhlich 2003: i). Even when a conviction is secured, the penalties are “often inadequate to deter re-offending or disrupt established criminal networks in any meaningful way” (EIA 2007: 2). Given the extent of TEC and the wide range of crimes it encompasses, it seems unthinkable that such a low number of cases would be prosecuted; such is the low level of priority accorded to TEC.
 
 In some instances however, the national legislation of Northern countries, or lack thereof, undermines other states‟ efforts to combat TEC. For example, when Indonesia banned certain logging activities, the failure of importing countries to also criminalise products of such activities undermined the domestic legislation (EIA 2007: 10).
 
@@ -579,7 +579,7 @@ Legambiente (2007) Rapporto Ecomafia: i numeri e le storie della criminalità am
 
 Schmidt C (2004) Environmental Crimes: Profiting at the Earth‟s Expense. Environmental Health Perspectives 112(2): 96-103.
 
-Snowdon K (2009) UN report warns Afghanistan must control drugs trade. ABC Radio. Transcript available at http://www.radioaustralia.net.au/asiapac/stories/[REDACTED PHONE]/s[REDACTED PHONE].htm. Cited 7 March 2011.
+Snowdon K (2009) UN report warns Afghanistan must control drugs trade. ABC Radio. Transcript available at http://www.radioaustralia.net.au/asiapac/stories/████████/s████████.htm. Cited 7 March 2011.
 
 Takizawa H (1997) Interview with Hiroaki Takizawa, Assistant Director, Economic and Financial Crime Sub- Directorate, Interpol, Lyon, France, October 1997. Trends in Organized Crime 3: 6.
 
@@ -609,7 +609,7 @@ White R (2009) Environmental Crime: a reader. Willan Publishing, Devon.
 
 Wisotsky S (1986) Breaking the Impasse in the War on Drugs. Greenwood Publishing, Westport.
 
-Zimmerman M (2003) The Black Market for Wildlife: Combating Transnational Organized Crime in the Illegal Wildlife Trade. Vanderbilt Journal of International Law 36: [REDACTED PHONE].
+Zimmerman M (2003) The Black Market for Wildlife: Combating Transnational Organized Crime in the Illegal Wildlife Trade. Vanderbilt Journal of International Law 36: ████████.
 
 14
 
@@ -649,7 +649,7 @@ Northland Regional Council (NRC), to whom the resource consent
 application was made.
 
 *
-University of New South Wales (LLM). The Law Building, University of New South Wales, Sydney, NSW 2052, Australia. [REDACTED EMAIL].
+University of New South Wales (LLM). The Law Building, University of New South Wales, Sydney, NSW 2052, Australia. ██████████████.
 1
 Re: Crest Energy Kaipara Limited [2009] NZEnvC A132 (18 June 2009), [1]. 2
 See ibid.
@@ -1179,7 +1179,7 @@ companies into how best to approach the resource consent process.
 Designing a Rule to Facilitate the Efficient Augmentation of Transmission Networks to Connect Renewable Energy Generation The Australian Experience
 
 University of New South Wales (LLM), glen.w.wright@gmail.com, The Law Building, University of New South Wales, Sydney, NSW 2052, Australia,
-[REDACTED PHONE]
+████████
 
 ### Abstract
 
@@ -2675,7 +2675,7 @@ AER, 2011, Submission to Draft Rule Determination: National Electricity Amendmen
 
 39
 
-Ausgrid, 2011, Submission to Draft Rule Determination: National Electricity Amendment (Scale Efficient Network Extensions) Rule 2011. Australian Energy Market Commission Establishment Act 2004 (SA). Australian Government, 2011, Transmission Network Service Providers Electricity Performance Report for [REDACTED PHONE].
+Ausgrid, 2011, Submission to Draft Rule Determination: National Electricity Amendment (Scale Efficient Network Extensions) Rule 2011. Australian Energy Market Commission Establishment Act 2004 (SA). Australian Government, 2011, Transmission Network Service Providers Electricity Performance Report for ████████.
 Brookfield Infrastructure Group, 2011, Submission to Draft Rule Determination: National Electricity Amendment (Scale Efficient Network Extensions) Rule 2011.
 CEC, 2011, Submission to Draft Rule Determination: National Electricity Amendment (Scale Efficient Network Extensions) Rule 2011. COAG, 2004, Australian Energy Market Agreement.
 Collyer, A. and Green, F., 2011, Focus: Not-so-dramatic SENEs – Draft Rule on scale efficient network extensions issued, AAR
@@ -2927,7 +2927,7 @@ Tandon, „Civil Society, the State & Roles of NGOs‟ (1991) 8(3) Institute for
 
 Wallace, „NGO Dilemmas: Trojan Horses for Global Neoliberalism‟ in Pantich and Leys (eds), Socialist Register (Merlin Press, London 2004) 202-19.
 
-Whewell, „The Giving Game - Part 2‟ (2003) ABC Radio National, available at http://www.abc.net.au/rn/talks/bbing/stories/s[REDACTED PHONE].htm accessed 2 September 2010.
+Whewell, „The Giving Game - Part 2‟ (2003) ABC Radio National, available at http://www.abc.net.au/rn/talks/bbing/stories/s████████.htm accessed 2 September 2010.
 
 World Bank, Participation Sourcebook (Washington DC 1995).
 
@@ -2939,7 +2939,7 @@ Zadek and Gatward, „Social Auditing or Bust? Transforming the transnational de
 
 The Case for Enterprise Analysis at the Intersection of Corporate Groups and Torts
 
-Student ID: [REDACTED PHONE]
+Student ID: ████████
 LLB final year dissertation
 
 Image: Asbestos Fibre, Unrehabilitated Cape Industries Mining site, Koegas, South Africa (Hein du Plessis).
@@ -3116,7 +3116,7 @@ Pine Tree Association v Doctors’ Association, Inc, 654 So 2d 735, 736, 738 (La
 
 Salomon v A Salomon & Co Ltd [1897] AC 22.
 
-Sithole v Thor Chemicals Holdings Ltd A2/2000/2894, 28 September 2000, 2000 WL [REDACTED PHONE].
+Sithole v Thor Chemicals Holdings Ltd A2/2000/2894, 28 September 2000, 2000 WL ████████.
 
 SSP Partners and Metro Novelties, Inc v Gladstrong Investments (USA) Corporation (2008) 05-
 
@@ -3142,7 +3142,7 @@ Alien Tort Claims Act 28 U.S.C. § 1350.
 
 Código das Sociedades Comercais 1986 (Portugese Code on Companies).
 
-Companies Act [REDACTED PHONE] & 26 Vict c89.
+Companies Act ████████ & 26 Vict c89.
 
 Council Regulation (EC) No 2157/2001 of 8 October 2001 on the Statute for a European
 
@@ -3250,12 +3250,12 @@ accepted in English law‖.10 The dominance of limited liability was affirmed by
 
 4
 ████, ‗Limited Liability and Corporate Groups‘ (1986) 11 J of Corporation L 573, 579. 5
-Goebel (ed), DuBois, The English Company After the Bubble Act [REDACTED PHONE] (Publications of the Foundation for Research in Legal History, Columbia university School of Law, OUP, Oxford 1938) 95-97. 6
+Goebel (ed), DuBois, The English Company After the Bubble Act ████████ (Publications of the Foundation for Research in Legal History, Columbia university School of Law, OUP, Oxford 1938) 95-97. 6
 ████, ‗Limited Liability‘ (n 4) 580 (citations omitted).
 7
 Kenyon, Case and Opinion of January 29, 1784, Boulton and Watt MSS, Birmingham Collection, Assay Office, cited in DuBois, The English Company (n 5) 95-96. Kenyon later reiterated this opinion in his new role on the bench in In re Southard & Co. (1979) 1 WLR 1198, 1208 (CA)..
 8
-████, ‗Limited Liability‘ (n 4) 583. Nevertheless, nearly 1000 unlimited companies were registered under the Act until it was replaced by the Limited Liability Act 1855. Hunt, The Development of the Business Corporation in England [REDACTED PHONE] (Harvard Economic Studies, vol 52, Harvard University Press, Cambridge, Massachusetts, 1936). 9
+████, ‗Limited Liability‘ (n 4) 583. Nevertheless, nearly 1000 unlimited companies were registered under the Act until it was replaced by the Limited Liability Act 1855. Hunt, The Development of the Business Corporation in England ████████ (Harvard Economic Studies, vol 52, Harvard University Press, Cambridge, Massachusetts, 1936). 9
 ████, ‗Limited Liability‘ (n 4) 584.
 10
 ████, ‗Limited Liability‘ (n 4) 585.
@@ -3285,7 +3285,7 @@ Whereas general limited liability was a ―deliberate political decision in the 
 
 pressures to achieve economic objectives‖, 16 corporate groups seem to have emerged almost
 
-by accident. The Companies Act [REDACTED PHONE] provided for incorporation, giving companies the
+by accident. The Companies Act ████████ provided for incorporation, giving companies the
 
 powers specified in their memorandum of association, meaning that a company could be given
 
@@ -3311,7 +3311,7 @@ Ibid.
 14
 One academic modestly described limited liability thusly: ―[C]ertainly it has its theoretical flaws. It is not a thing of perfect beauty, but at least it works.‖ Grundfest, ‗The Limited Future of Limited Liability‘ (1992) 102 Yale L J 387, 420.
 15
-Isaacs, [Untitled] (1936) 31 (196) J of the American Statistical Association, 774 reviewing Hunt, The Development of the Business Corporation in England [REDACTED PHONE] (Harvard Economic Studies, vol 52, Harvard University Press, Cambridge, Massachusetts, 1936).
+Isaacs, [Untitled] (1936) 31 (196) J of the American Statistical Association, 774 reviewing Hunt, The Development of the Business Corporation in England ████████ (Harvard Economic Studies, vol 52, Harvard University Press, Cambridge, Massachusetts, 1936).
 16
 ████, ‗Limited Liability‘ (n 4) 585.
 17
@@ -3893,7 +3893,7 @@ Dearborn (n 75) 210.
 Antunes, Liability of Corporate Groups: Autonomy and Control in Parent-Subsidiary Relationships in US, German, and EEC law: an international and comparative perspective (Kluwer Law, Boston 1994). 80
 Aronofsky, ‗Piercing the Transnational Corporate Veil: Trends, Developments, and the Need for Widespread Adoption of Enterprise Analysis‘ (1985) 10 North Carolina J of Intl L and Commercial Regulation 31, 42 (footnote omitted).
 81
-Bainbridge and Cole, ‗The Bishop‘s Alter Ego: Enterprise Liability and the Catholic Priest Sex Abuse Scandal‘ ([REDACTED PHONE] J of Catholic Legal Studies 65, 81. 82
+Bainbridge and Cole, ‗The Bishop‘s Alter Ego: Enterprise Liability and the Catholic Priest Sex Abuse Scandal‘ (████████ J of Catholic Legal Studies 65, 81. 82
 Hofstetter, ‗Parent Responsibility for Subsidiary Corporations: Evaluating European Trends‘ (1990) 39 Intl & Comparative Law Quarterly 576, 578. See also Presser, ‗The Bogalusa Explosion. ―Singe Business Enterprise,‖ ―Alter Ego,‖ and Other Errors: Academics, Economics, Democracy, and Shareholder Limited Liability: Back Towards a Unitary ―Abuse‖ Theory of Piercing the Corporate Veil‘ (2006) Northwestern U L Rev 405, 425 (Noting that the Louisiana development of a single business enterprise theory is not premised on illegitimate use of the corporate form). 83
 Hofstetter, ibid.
 13
@@ -4188,7 +4188,7 @@ Código das Sociedades Comercais 1986 (Portugese Code on Companies).
 125
 Antunes (n 93) 326-327.
 126
-See Ventoruzzo, ‗Experiments in Comparative Law: The Recent Italian Reform and the Dubious Virtues of a Market for Rules in the Absence of Effective Regulatory Competition‘ (2004) < http://papers.ssrn.com/sol3/papers.cfm?abstract_id=[REDACTED PHONE]> accessed 27 th February 2010, 40. 127
+See Ventoruzzo, ‗Experiments in Comparative Law: The Recent Italian Reform and the Dubious Virtues of a Market for Rules in the Absence of Effective Regulatory Competition‘ (2004) < http://papers.ssrn.com/sol3/papers.cfm?abstract_id=████████> accessed 27 th February 2010, 40. 127
 See Ventoruzzo (n 126) 45.
 128
 Ibid 40 (―In contrast to the German approach and that of other countries that took inspiration from it, Italy does not have a comprehensive regulation of corporate groups‖).
@@ -4711,7 +4711,7 @@ Ibid.
 191
 Ibid.
 192
-Sithole v Thor Chemicals Holdings Ltd A2/2000/2894, 28 September 2000, 2000 WL [REDACTED PHONE]. 27
+Sithole v Thor Chemicals Holdings Ltd A2/2000/2894, 28 September 2000, 2000 WL ████████. 27
 
 hazardous activity, Thor continued their substandard safety practices, resulting in three deaths. 193
 
@@ -5699,7 +5699,7 @@ Ibid 467 (footnote omitted).
 See Eckerman (n 195).
 273
 The Government of India‘s position is illustrated by its assumption of parens patriae responsibility for the cases in the New York Courts and the arguments it put forward in that capacity. See Brief of the Plaintiffs (n 160). 274
-M.C. Mehta v Union of India and Shriram Food and Fertilizer Industries, Writ Petition 12739/1985 ([REDACTED PHONE]) available at <http://www.elaw.org/node/2719>, accessed 17th February 2010 [2] (Bhagwati CJ). 44
+M.C. Mehta v Union of India and Shriram Food and Fertilizer Industries, Writ Petition 12739/1985 (████████) available at <http://www.elaw.org/node/2719>, accessed 17th February 2010 [2] (Bhagwati CJ). 44
 
 to take a considered approach to corporate groups and it prejudices tort victims.
 
@@ -5845,7 +5845,7 @@ Responsibility in International Law (2006) 37 Columbia Human Rights L Rev 287.
 
 Bainbridge and Cole, ‗The Bishop‘s Alter Ego: Enterprise Liability and the Catholic Priest Sex
 
-Abuse Scandal‘ ([REDACTED PHONE] J of Catholic Legal Studies 65.
+Abuse Scandal‘ (████████ J of Catholic Legal Studies 65.
 
 Baxi and Paul, Mass Disasters and Multinational Liability: the Bhopal case (N.M. Tripathi,
 
@@ -5910,7 +5910,7 @@ Eckerman, The Bhopal saga: causes and consequences of the world's largest indust
 
 (Universities Press (India), Hyderabad 2005).
 
-Goebel (ed), DuBois, The English Company After the Bubble Act [REDACTED PHONE] (Publications of the
+Goebel (ed), DuBois, The English Company After the Bubble Act ████████ (Publications of the
 
 48
 
@@ -6218,7 +6218,7 @@ See UN Department of Economic and Social Affairs Division for Sustainable Develo
 16
 See Report of the First Session of the Committee on New and Renewable Sources of Energy and on Energy for Development , UN Doc. E/1994/25, 23 February 1996.
 17
-See Economic and Social Council Resolution [REDACTED PHONE], Further measures for the restructuring and revitalization of the United Nations in the economic, social and related fields UN Doc. E/RES/1998/46, 31 July 1998.
+See Economic and Social Council Resolution ████████, Further measures for the restructuring and revitalization of the United Nations in the economic, social and related fields UN Doc. E/RES/1998/46, 31 July 1998.
 18
 Annex to the Report of the World Summit on Sustainable Development, Johannesburg, South Africa, Plan of Implementation of the World Summit on Sustainable Development, UN Doc. A/CONF.199/20, 4 September 2002, at chs. II-III. 19
 Douglas Bushey et al., “WIREC 2008 Ministerial Bulletin”, 95(6) IISD Reporting Services (2008), at p. 2. 20
@@ -6231,7 +6231,7 @@ In light of this, and his tireless efforts to raise the profile of renewable ene
 III.         Establishme nt of IRENA
 
 1.           First Preparatory Conference and Works hops
-In April 2008, little more than a month after WIREC, the first meeting of the Preparatory Conference for the Foundation of IRENA (First Preparatory Conference) was convened in Berlin. The First Preparatory Conference was attended by representatives of 60 countries, expressing broad support for the establishment of IRENA. 22 Following the First Preparatory Conference, two preparatory workshops, attended by representatives from 44 countries, were held in June and July [REDACTED PHONE] At the first workshop, participants expressed their desire for IRENA to be established quickly and the need to avoid IRENA becoming a funding agency. 24 The second workshop developed the Statute, financial mechanisms and organs of the proposed agency. 25
+In April 2008, little more than a month after WIREC, the first meeting of the Preparatory Conference for the Foundation of IRENA (First Preparatory Conference) was convened in Berlin. The First Preparatory Conference was attended by representatives of 60 countries, expressing broad support for the establishment of IRENA. 22 Following the First Preparatory Conference, two preparatory workshops, attended by representatives from 44 countries, were held in June and July ████████ At the first workshop, participants expressed their desire for IRENA to be established quickly and the need to avoid IRENA becoming a funding agency. 24 The second workshop developed the Statute, financial mechanisms and organs of the proposed agency. 25
 
 2.           Final Preparatory Conference
 The second and final Preparatory Conference was held in October 2008 and was attended by representatives from both developing and industrialised countries. Discussions regarding the Statute were finalised and a Preparatory Commission was founded as an interim body to lead the Agency between the establishment of IRENA and the first session of the Assembly (First Assembly). Participants, in line with prior discussions, decided that “emphasis will be placed on providing, upon request, policy advice for national governments, facilitating technology transfer and capacity building”. 26 The Conference also highlighted the need to work in close coordination with other organisations.
@@ -6273,7 +6273,7 @@ Ibid, art. 10.
 31
 See “ History of IRENA”, supra note 8. For a detailed summary of the outcomes of each session of the Preparatory Commission, see Alice Bisiaux et al., supra note 20.
 32
-Leaked diplomatic documents provide insight on these considerations. See Terry Macalister, “WikiLeaks shines light on shady backroom deals that ██████████████ <http://www.rechargenews.com/business_area/politics/article[REDACTED PHONE].ece> (last accessed on 26 June 2011). 33
+Leaked diplomatic documents provide insight on these considerations. See Terry Macalister, “WikiLeaks shines light on shady backroom deals that ██████████████ <http://www.rechargenews.com/business_area/politics/article████████.ece> (last accessed on 26 June 2011). 33
 Draft decision regarding the work programme and Budget for 2011, Doc. IRENA A/1/DC/L.11, 4 April 2011. 34
 ██████████████ <http://www.masdarcit y.ae/en/86/about-masdar> (last accessed on 26 June 2011). 35
 ██████████████ <http://www.masdarcity.ae/userfiles/files/brochures/7714_masdar_city_ad.pdf > (last accessed 27 June 2011), at p. 5. 36
@@ -6435,7 +6435,7 @@ Ibid.
 See T erry Macalister, supra note 32.
 78
 Suzanne Goldberg, “ Barack Obama██████████████ <http://www.guardian.co.uk/environment/2009/may/12/us-climate-bill-oil-gas?intcmp=239> (last accessed on 27 June 2009). 79
-██████████████ <http://www.businessgreen.com/bg/news/[REDACTED PHONE]/international-renewable-energy-agency-launches> (last accessed on 27 June 2011). 80
+██████████████ <http://www.businessgreen.com/bg/news/████████/international-renewable-energy-agency-launches> (last accessed on 27 June 2011). 80
 ██████████████ <http://www.iaea.org/About/budget.html> (last accessed on 27 June 2011).
 81
 Draft decision regarding the work programme, supra note 74. Note that while this paper refers to this as the first work programme and budget, the preparatory commission previously had a work programme and budget . See, e.g., Decision on the Interim work programme 2009/2010, Doc. IRENA/PC.2/dc.1, 29 June 2009 and Decision regarding the Provisional work programme and Budget of the Preparatory Commission for 2011, Doc. IRENA/PC.3/dc.6, 24 October 2010.
@@ -6444,7 +6444,7 @@ Draft decision regarding the work programme, supra note 74. Note that while this
 
 Agency. The first work programme divides the activities of the Agency into three sub-programmes. These are: knowledge management and technology cooperation; policy advisory services and capacity building; and innovation and technology. Each sub-programme is described in more detail below.
 
-The Assembly also urged the Council and Director-General to prepare a strategic framework for [REDACTED PHONE] to be considered at the second session of the Assembly. This framework will clearly define “vision, strategic direction, objectives, and activities”. 82 The Assembly also requested that the Council and Director-General expand upon the work programme and begin early development of the 2012 work programme and budget. 83
+The Assembly also urged the Council and Director-General to prepare a strategic framework for ████████ to be considered at the second session of the Assembly. This framework will clearly define “vision, strategic direction, objectives, and activities”. 82 The Assembly also requested that the Council and Director-General expand upon the work programme and begin early development of the 2012 work programme and budget. 83
 
 1.            Sub-Programme 1: Knowledge Management and Technology Cooperation The first sub-programme aims to facilitate the transition to an increased role for renewable energy. This sub-programme aims to “create processes and systems that facilitate knowledge sharing across global and regional networks of governmental and non- governmental stakeholders”. 84 The projects proposed are: the systematisation of knowledge on renewable energy; development of regional collaboration and platforms for engaging with stakeholders and technical experts; and encouragement of North-South and South-South technology cooperation.
 
@@ -6532,8 +6532,8 @@ In this section, some thoughts on IRENA will be offered and some key issues will
 
 1.         Overlapping Mandates
 While IRENA is unique in its international and near-universal nature, its focus on renewables, and its broad mandate, there is some concern over the extent to which the Agency‟s mandate will overlap with those of other organisations in the field. This issue is one that concerned both the US 101
-Government of the Kingdom of Tonga, Tonga Renewable Energy Road Map [REDACTED PHONE], Final Report (Tonga: 2010), at p. 1. 102
-IRENA, “One year after the official Signing Ceremony of the [REDACTED PHONE] Tonga Energy Road Map (TERM) in Abu Dhabi”, 3 June 2011, available on the Internet at <http://www.irena.org/News/Description.aspx?PriMenuID=16&News_ID=116&mnu=pri&NType=Nws> (last accessed on 27 June 2011).
+Government of the Kingdom of Tonga, Tonga Renewable Energy Road Map ████████, Final Report (Tonga: 2010), at p. 1. 102
+IRENA, “One year after the official Signing Ceremony of the ████████ Tonga Energy Road Map (TERM) in Abu Dhabi”, 3 June 2011, available on the Internet at <http://www.irena.org/News/Description.aspx?PriMenuID=16&News_ID=116&mnu=pri&NType=Nws> (last accessed on 27 June 2011).
 103
 Ibid.
 104
@@ -6554,7 +6554,7 @@ While IRENA will have to navigate this universe and find its place, there are op
 Given the foregoing, a key challenge for IRENA in its early years as an international organisation will be establishing itself in the field, discerning the gaps in the institutional landscape, and distilling the Agency‟s core strategic priorities. IRENA is clearly aware of the challenges it faces in
 
 105
---, “ UK Plans to Join the International Renewable Energy Agency, Working on Final Steps”, The Telegraph, 4 February 2011, available on the Internet at <http://www.telegraph.co.uk/news/wikileaks-files/london-wikileaks/[REDACTED PHONE]/UK-PLANS-T O-JOIN-THE-INTERNATIONAL- RENEWABLE-ENERGY-AGENCY-WORKING-ON-FINAL-STEPS.html> (last accessed on 27 June 2011). 106
+--, “ UK Plans to Join the International Renewable Energy Agency, Working on Final Steps”, The Telegraph, 4 February 2011, available on the Internet at <http://www.telegraph.co.uk/news/wikileaks-files/london-wikileaks/████████/UK-PLANS-T O-JOIN-THE-INTERNATIONAL- RENEWABLE-ENERGY-AGENCY-WORKING-ON-FINAL-STEPS.html> (last accessed on 27 June 2011). 106
 ██████████████ <http://www.reeep. org/48/about-reeep. htm> (last accessed 27 June 2011). 107
 REN21, “About REN21”, available on the Internet at <http://www.ren21.net/AboutREN21/tabid/5017/Default.aspx> (last accessed 27 June 2011). 108
 T he Statute, supra note 5, art. IV.B.3.
@@ -6610,7 +6610,7 @@ Ibid, at p. 5.
 ██████████████ <http://www.guardian.co.uk/environment/2009/jan/26/irena-renewable-energy-summit> (last accessed on 27 June 2011). 121
 T om Young, supra note 79.
 122
-James Murray, “IEA accused of "deliberately" undermining global renewables industry”, Business Green, 12 January 2009, available on the Internet at <http://www.businessgreen.com/bg/news/[REDACTED PHONE]/iea-accused-deliberately-undermining-global-renewables-industry> (last accessed on 27 June 2011).
+James Murray, “IEA accused of "deliberately" undermining global renewables industry”, Business Green, 12 January 2009, available on the Internet at <http://www.businessgreen.com/bg/news/████████/iea-accused-deliberately-undermining-global-renewables-industry> (last accessed on 27 June 2011).
 123
 Rudolf Rechsteiner, Wind Power in Context – A clean Revolution in the Energy Sector (Berlin: Energy Watch Group 2008), at p. 10. 124
 T erry Macalister, “ Key oil figures were distorted by US pressure, says whistleblower”, The Guardian, 9 November 2009, available on the Internet at <http://www.guardian.co.uk/environment/2009/nov/09/peak-oil-international-energy-agency> (last accessed on 27 June 2009). 125
@@ -6661,7 +6661,7 @@ Ibid, at p. 9.
 
 19
 
-not simply become a development agency and may already harbour concerns about the Agency, given that the first work programme‟s initial focus will be Africa and the Pacific. Yet developing countries have understandably focused their attention on development, and some have contemplated the possibility that IRENA could become a source of funding itself. 134 The balancing of these priorities is likely to become clearer as IRENA determines what gaps need to be filled in the international effort to promote renewable energy and with the publication of IRENA‟s strategic framework for [REDACTED PHONE].
+not simply become a development agency and may already harbour concerns about the Agency, given that the first work programme‟s initial focus will be Africa and the Pacific. Yet developing countries have understandably focused their attention on development, and some have contemplated the possibility that IRENA could become a source of funding itself. 134 The balancing of these priorities is likely to become clearer as IRENA determines what gaps need to be filled in the international effort to promote renewable energy and with the publication of IRENA‟s strategic framework for ████████.
 
 XI.           Conclusion
 The International Renewable Energy Agency has come into being at a time of unprecedented energy challenges and opportunities. Although the Agency is well aware of the international community‟s high expectations, 135 and despite a clear intention to quickly establish itself, progress has been slow. IRENA‟s formative period was marked by a “lack of transparency and reported mismanagement”, 136 and the incoming Director-General described the period leading up to the First Assembly as being full of “missed opportunities”. 137 One commentator was less diplomatic, describing the speed of progress as “glacial”. 138 Given that the first work programme is largely concerned with establishing the early foundations and relationships for ambitious and long-term initiatives, it is unlikely that the progress of the Agency in terms of substantive output will feel much quicker for some time, though the commencement of some practical work in the field is cause for some positivity in this regard.
@@ -6726,7 +6726,7 @@ Theses
 Peer-reviewed publications
 ‘Marine Energy in New Zealand: an overview of law and policy’ (2011) New Zealand Law Journal 227.
 
-‘Conceptualising and Combating Transnational Environmental Crime’ (2011) Trends in Organized Crime (in press, available online). See http://www.springerlink.com/content/9x5x[REDACTED PHONE]w94/.
+‘Conceptualising and Combating Transnational Environmental Crime’ (2011) Trends in Organized Crime (in press, available online). See http://www.springerlink.com/content/9x5x████████w94/.
 
 ‘Carbon Offsets and Consumer Protection: The Role of the ACCC’ (2011) 90 Impact! A National Journal of Environmental Law.
 
@@ -6771,7 +6771,7 @@ University of New South Wales                       LLM Environmental Law
 2010 - 2011 (in progress)                            Average mark of 82% to date  Exchange course at the University of the South Pacific University of Texas at Austin                       Exchange program
 2008 - 2009                                          Focus on environmental law and human rights University of Nottingham                            LLB Law with American Law (Honours) 2006 - 2010                                          Upper second class honours (2:1)  Dissertation: first class
  World Model United Nations Delegate, Taipei (2010)  Mooting: semi-finalist (2007, 2008); Judge (2007)
- Debating Society ([REDACTED PHONE]) Further Qualifications                               AQA Introduction to Counselling (2008)  GNVQ Information and Communication Technology (2002)  CACDP British Sign Language Level 1 (1998)
+ Debating Society (████████) Further Qualifications                               AQA Introduction to Counselling (2008)  GNVQ Information and Communication Technology (2002)  CACDP British Sign Language Level 1 (1998)
 
 Employment
 Total                        National Electricity Market Advocate
@@ -6818,7 +6818,7 @@ Referees
 ██████████ Grewcock                                      ██████
 Senior Research Fellow                              Senior Lecturer                                       Senior Legal Associate University of New South Wales                       University of New South Wales                         Freehills
 
-The Law Building, UNSW                              The Law Building, UNSW                                Level 38, Sydney NSW 2052                                     Sydney NSW 2052                                       Sydney NSW 2000 [REDACTED EMAIL]                                  [REDACTED EMAIL]                                [REDACTED EMAIL] [REDACTED PHONE]                                        [REDACTED PHONE]                                          [REDACTED PHONE]
+The Law Building, UNSW                              The Law Building, UNSW                                Level 38, Sydney NSW 2052                                     Sydney NSW 2052                                       Sydney NSW 2000 ██████████████                                  ██████████████                                ██████████████ ████████                                        ████████                                          ████████
 
 Glen   Wright
 Curriculum Vitae
@@ -7068,13 +7068,13 @@ PhD proposal
 ### Selected Bibliography
 
 Ana Brito e Melo, ‘Marine Renewable Energy in Portugal’ (Paper presented at Energy of the Sea, Madrid, 2 February 2010). Carbon Trust, ‘Future Marine Energy. Results of the Marine Energy Challenge: Cost competitiveness and growth of wave and tidal stream energy’ (2006).
-Chris ████, ‘Are we there yet? Making renewable ocean energy resources a world‐solution for climate action and energy security’ (Paper presented at Ocean Renewable Energy Group Marine Law Symposium, Rhode Island, USA, October [REDACTED PHONE]). Clean Energy Council, Marine Energy Sector report (2010).
+Chris ████, ‘Are we there yet? Making renewable ocean energy resources a world‐solution for climate action and energy security’ (Paper presented at Ocean Renewable Energy Group Marine Law Symposium, Rhode Island, USA, October ████████). Clean Energy Council, Marine Energy Sector report (2010).
 ████ Griffin and Mark Hemer, ‘Ocean Power for Australia– Waves, Tides and Ocean Currents’. ██████ and Miguel Esteban, 'Climate change and renewable energy from the ocean and tides: calming the sea of regulatory uncertainty' (2009) 24 (4) International Journal of Marine & Coastal Law 617-651. ██████ and Miguel Esteban, 'Recent developments in offshore renewable energy in the Asia-Pacific' (2011) 42(1) Ocean Development and International Law 94-119.
 ██████ and Miguel Esteban, 'Renewable Energy from the ocean and tides: A viable renewable energy resources in search of a suitable regulatory framework' (2009) 4 Carbon and Climate Law Review 417-425. ██████, Planning Law Challenges and Options for Marine Energy (19 May 2010) Centre for Energy and Environmental Markets.
-European Ocean Energy Association, ‘Oceans of Energy: European Ocean Energy Roadmap 2010 – 2050’ (2010). George Boehlert, Gregory McMurray and Cathryn Tortorici (eds), ‘Ecological Effects of Wave Energy Development in the Pacific Northwest: A Scientific Workshop’ (U.S. Department of Commerce, October 11–[REDACTED PHONE]). George Boehlert, ‘Perspectives on Evaluating Environmental Effects’ (Northwest National Marine Renewable Energy Center). Geoscience Australia and the Australian Bureau of Agricultural and Resource Economics, Australian Energy Resources Assessment (2010).
+European Ocean Energy Association, ‘Oceans of Energy: European Ocean Energy Roadmap 2010 – 2050’ (2010). George Boehlert, Gregory McMurray and Cathryn Tortorici (eds), ‘Ecological Effects of Wave Energy Development in the Pacific Northwest: A Scientific Workshop’ (U.S. Department of Commerce, October 11–████████). George Boehlert, ‘Perspectives on Evaluating Environmental Effects’ (Northwest National Marine Renewable Energy Center). Geoscience Australia and the Australian Bureau of Agricultural and Resource Economics, Australian Energy Resources Assessment (2010).
 
-Giles Parkinson, ‘Hiccups in catching wave power’, The Australian (Sydney) May [REDACTED PHONE]. Hollier, ‘International Development of Marine Energy’ (Paper presented at All-Energy Australia conference, Melbourne, October 2009).
-International Energy Agency, ‘Annual Report 2010: Implementing Agreement on Ocean Energy Systems’ (2010). Jennifer Hayward, Paul Graham and Peter ████, ‘Projections of the future costs of electricity generation technologies: An application of CSIRO’s Global and Local Learning Model (GALLM)’ (CSIRO, February 2011). Jessica McIlroy, ‘Ocean Energy: Policy and Progress’ (Paper presented at Ocean Renewable Energy Group Marine Law Symposium, Rhode Island, USA, October [REDACTED PHONE]).
+Giles Parkinson, ‘Hiccups in catching wave power’, The Australian (Sydney) May ████████. Hollier, ‘International Development of Marine Energy’ (Paper presented at All-Energy Australia conference, Melbourne, October 2009).
+International Energy Agency, ‘Annual Report 2010: Implementing Agreement on Ocean Energy Systems’ (2010). Jennifer Hayward, Paul Graham and Peter ████, ‘Projections of the future costs of electricity generation technologies: An application of CSIRO’s Global and Local Learning Model (GALLM)’ (CSIRO, February 2011). Jessica McIlroy, ‘Ocean Energy: Policy and Progress’ (Paper presented at Ocean Renewable Energy Group Marine Law Symposium, Rhode Island, USA, October ████████).
 Michelle Portman, ‘Marine Renewable Energy Policy: Some US and International Perspectives Compared’ (2010) 23(10) Oceanography.
 Parliament of Victoria Environment and Natural Resources Committee, ‘Inquiry into the Approvals Process for Renewable Energy Projects in Victoria’ (2010).
 Srian Abeysuriya, ‘Accelerating the Commercial Deployment of Marine Energy – Challenges and Opportunities’ (Paper presented at AWATEA Conference, Wellington, New Zealand, 15 March 2007). rd Stoel Rivers, The Law of Ocean and tidal energy: A Guide to Business and Legal Issues (3 ed, 2010). Terry Macalister, ‘UK marine energy sector 'could be worth £76bn and support 68,000 jobs’', The Guardian (London) 2 May 2011.
@@ -7089,17 +7089,17 @@ Victorian Government Department of Sustainability and Environment, ‘Marine ene
 
 ## DIVISION OF REGISTRAR AND STUDENT SERVICES
 
-Admissions Office                                                                       T: [REDACTED PHONE] Division of Registrar and Student Services                                              F: [REDACTED PHONE] Building X-005
-E: [REDACTED EMAIL]
+Admissions Office                                                                       T: ████████ Division of Registrar and Student Services                                              F: ████████ Building X-005
+E: ██████████████
 Canberra ACT 0200 Australia
 CRICOS Provider Number: 00120C www.anu.edu.au
 
-Application ID:        [REDACTED PHONE] Student ID:            [REDACTED PHONE] DOB:                   26 August 1988
+Application ID:        ████████ Student ID:            ████████ DOB:                   26 August 1988
 
 09 November 2011
 OFFER ACCEPTANCE DECLARATION AND PAYMENT ADVICE
 
-Name:                                ██████████:                             Doctor of Philosophy, Faculty of Law Majoring in: Law (CRICOS Code: [REDACTED PHONE]K) Program Type:                        Research
+Name:                                ██████████:                             Doctor of Philosophy, Faculty of Law Majoring in: Law (CRICOS Code: ████████K) Program Type:                        Research
 Commencing:                          First Semester, 2012
 
 Intended Date of Commencement: ________________________________________________
@@ -7109,8 +7109,8 @@ _____________________________ Your citizenship: United Kingdom _________________
 
 Diplomatic Mission where you will apply for your Student Visa (ie. Country)#: _________________________________
 
-# If you are not applying for a student visa, please indicate your current visa subclass:           ______________________ 820 Your [REDACTED PASSPORT]:            ___________________________________________________________________________
-[REDACTED PHONE]
+# If you are not applying for a student visa, please indicate your current visa subclass:           ______________________ 820 Your ████████:            ___________________________________________________________________________
+████████
 Overseas Student Health Cover (OSHC)
 ( ) I require and authorise the University to organise my OSHC through OSHC Worldcare ( ) Single
 ( ) Family

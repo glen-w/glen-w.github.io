@@ -27,11 +27,11 @@ Helena Alvarez| Senior Marine Scientist, Europe
 
 Gran Vía, 62 7º Izq. 28013 Madrid, Spain
 
-E [REDACTED EMAIL] | P [REDACTED PHONE] 98 57
+E ██████████████ | P ████████ 98 57
 X @Oceans_Helena   | S helena.alvarez.oceana
 
 AVISO LEGAL: Este mensaje y sus archivos adjuntos van dirigidos exclusivamente a su destinatario, pudiendo contener información confidencial sometida a secreto profesional. No está permitida su comunicación, reproducción o distribución sin la autorización expresa deFUNDACION OCEANA. Si usted no es el destinatario final, por favor elimínelo e infórmenos por esta vía.
-PROTECCIÓN DE DATOS: De conformidad con lo dispuesto en las normativas vigentes en protección de datos personales, el Reglamento(UE) 2016/679 de 27 de abril de 2016 (GDPR) y la Ley Orgánica (ES) 15/1999 de 13 de diciembre (LOPD), le informamos que los datos personales y dirección de correo electrónico, recabados del propio interesado o de fuentes públicas, serán tratados bajo la responsabilidad deFUNDACION OCEANA para el envío de comunicaciones sobre nuestros servicios y se conservarán mientras exista un interés mutuo para ello.Los datos no serán comunicados a terceros, salvo obligación legal. Le informamos que puede ejercer los derechos de acceso, rectificación, portabilidad y supresión de sus datos y los de limitación y oposición a su tratamiento dirigiéndose a [REDACTED EMAIL]  Si considera que el tratamiento no se ajusta a la normativa vigente, podrá presentar una reclamación ante la autoridad de control en www.agpd.es.
+PROTECCIÓN DE DATOS: De conformidad con lo dispuesto en las normativas vigentes en protección de datos personales, el Reglamento(UE) 2016/679 de 27 de abril de 2016 (GDPR) y la Ley Orgánica (ES) 15/1999 de 13 de diciembre (LOPD), le informamos que los datos personales y dirección de correo electrónico, recabados del propio interesado o de fuentes públicas, serán tratados bajo la responsabilidad deFUNDACION OCEANA para el envío de comunicaciones sobre nuestros servicios y se conservarán mientras exista un interés mutuo para ello.Los datos no serán comunicados a terceros, salvo obligación legal. Le informamos que puede ejercer los derechos de acceso, rectificación, portabilidad y supresión de sus datos y los de limitación y oposición a su tratamiento dirigiéndose a ██████████████  Si considera que el tratamiento no se ajusta a la normativa vigente, podrá presentar una reclamación ante la autoridad de control en www.agpd.es.
 
 -----Original Message-----
 From: Glen Wright <glen.w.wright@gmail.com>

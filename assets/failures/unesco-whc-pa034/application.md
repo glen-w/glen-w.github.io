@@ -62,7 +62,7 @@ Type of contract: Project Appointment
 Annual salary: 61 950 euros approx.
 PA number: WHC/PA 034
 Deadline (midnight, Paris time): 23 March 2016
-Application to be sent to: [REDACTED EMAIL]
+Application to be sent to: ██████████████
 
 ## OVERVIEW OF THE FUNCTIONS OF THE PROJECT APPOINTMENT
 
@@ -131,7 +131,7 @@ Other benefits include: 30 days annual leave, family allowance, home travel, edu
 
 ## HOW TO APPLY
 
-To apply, please send your application letter together with the UNESCO CV (CV Form to be used, which can be found at: https://en.unesco.org/careers/media/3705, including contact details of 3 references) in English directly to the World Heritage Recruitment Team to the following e-mail address: [REDACTED EMAIL] before 23 March 2016 midnight (Paris, France time).
+To apply, please send your application letter together with the UNESCO CV (CV Form to be used, which can be found at: https://en.unesco.org/careers/media/3705, including contact details of 3 references) in English directly to the World Heritage Recruitment Team to the following e-mail address: ██████████████ before 23 March 2016 midnight (Paris, France time).
 
 For more information on the UNESCO World Heritage Marine Programme, please consult our website: http://whc.unesco.org
 

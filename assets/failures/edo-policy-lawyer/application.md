@@ -66,7 +66,7 @@ POLICY LAWYER
 ### Environmental Defenders Office Ltd
 
 The EDO is a community legal centre specialising in public interest advocacy regarding environmental law and policy. We are seeking a Policy Lawyer to be part of a highly active and successful legal policy team. The Policy Lawyer will research and write submissions on high profile government proposals, develop discussion papers and other active policy initiatives, play a key stakeholder role in issues relating to environmental law and policy and provide legal policy advice to environmental groups. Salary $40,266 to $64,878 (depending on experience) plus superannuation.
-Applications should be submitted via email to  HYPERLINK "mailto:[REDACTED EMAIL]" recruitment with 'Application for position of Policy Lawyer' in the subject line. Applications must include a CV and a letter that clearly addresses each of the selection criteria. Applications which do not address the selection criteria will not be considered. For further information contact ████████ on [REDACTED PHONE] or email  HYPERLINK "mailto:[REDACTED EMAIL]" recruitment Applications close: Friday 4th February 2011, 5pm.
+Applications should be submitted via email to  HYPERLINK "██████████████" recruitment with 'Application for position of Policy Lawyer' in the subject line. Applications must include a CV and a letter that clearly addresses each of the selection criteria. Applications which do not address the selection criteria will not be considered. For further information contact ████████ on ████████ or email  HYPERLINK "██████████████" recruitment Applications close: Friday 4th February 2011, 5pm.
 
 Selection Criteria
 An undergraduate degree in law

@@ -1,6 +1,6 @@
 # Application for Expression of interest ([BBNJ Clearing-House Mechanism](https://www.un.org/bbnjagreement/))
 
-Ocean governance & energy policy · Data analysis & visualisation · Software development glen.w.wright@gmail.com · glenwright.earth · [REDACTED PHONE]
+Ocean governance & energy policy · Data analysis & visualisation · Software development glen.w.wright@gmail.com · glenwright.earth · ████████
 
 Ocean governance and energy policy specialist with a decade of experience working on BBNJ; adjunct █████ teaching marine policy, biodiversity protection and energy transition. Recently Knowledge & Data Lead working on renewable energy and information systems at REN21. Now an independent software developer building local-first open-source tools to support researchers and knowledge workers and integrate cutting-edge AI into their workflows.
 

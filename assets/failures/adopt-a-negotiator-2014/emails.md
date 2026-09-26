@@ -45,11 +45,11 @@ Start your application today! (http://adoptanegotiator.org/cop20-fellowship-appl
 ------------------------------------------------------------
  You are receiving this email because you applied for an Adopt a Negotiator fellowship
 
-Unsubscribe (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=d3303ec6bd&e=b66b4b7795&c=ae9d8ff93d) glen.w.wright@gmail.com from this list.
+Unsubscribe (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c████████bceae1e01c92425&id=d3303ec6bd&e=b66b4b7795&c=ae9d8ff93d) glen.w.wright@gmail.com from this list.
 
-Forward (http://us5.forward-to-friend1.com/forward?u=785c[REDACTED PHONE]bceae1e01c92425&id=ae9d8ff93d&e=b66b4b7795) this email to a friend
+Forward (http://us5.forward-to-friend1.com/forward?u=785c████████bceae1e01c92425&id=ae9d8ff93d&e=b66b4b7795) this email to a friend
 
-Update your profile (http://tcktcktck.us5.list-manage.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=d3303ec6bd&e=b66b4b7795)
+Update your profile (http://tcktcktck.us5.list-manage.com/profile?u=785c████████bceae1e01c92425&id=d3303ec6bd&e=b66b4b7795)
 ```
 
 ## 2. Adopt a Negotiator COP20 Update
@@ -95,17 +95,17 @@ part of the Global Call for Climate Action
 
 ============================================================
 You're receiving this newsletter because you recently applied for an Adopt a Negotiator Fellowship.
-** Adopt a Negotiator (http://tcktcktck.us5.list-manage.com/track/click?u=785c[REDACTED PHONE]bceae1e01c92425&id=9a110e0c5d&e=[REDACTED PHONE]fa3)
-is a project of the ** Global Call for Climate Action (http://tcktcktck.us5.list-manage1.com/track/click?u=785c[REDACTED PHONE]bceae1e01c92425&id=181f8b09cd&e=[REDACTED PHONE]fa3)
+** Adopt a Negotiator (http://tcktcktck.us5.list-manage.com/track/click?u=785c████████bceae1e01c92425&id=9a110e0c5d&e=████████fa3)
+is a project of the ** Global Call for Climate Action (http://tcktcktck.us5.list-manage1.com/track/click?u=785c████████bceae1e01c92425&id=181f8b09cd&e=████████fa3)
 (GCCA).
-To send feedback, questions or content submissions, please email ** the Project Director (mailto:[REDACTED EMAIL])
+To send feedback, questions or content submissions, please email ** the Project Director (██████████████)
 .
 Copyright © 2013, Global Call for Climate Action, All rights reserved
-** unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=27b[REDACTED PHONE]d&e=[REDACTED PHONE]fa3&c=[REDACTED PHONE]f1a8)
-** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=27b[REDACTED PHONE]d&e=[REDACTED PHONE]fa3)
+** unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c████████bceae1e01c92425&id=27b████████d&e=████████fa3&c=████████f1a8)
+** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c████████bceae1e01c92425&id=27b████████d&e=████████fa3)
 
 This email was sent to glen.w.wright@gmail.com
-why did I get this? (http://tcktcktck.us5.list-manage2.com/about?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=6822b2826c)     unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=6822b2826c)     update subscription preferences (http://tcktcktck.us5.list-manage.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795)
+why did I get this? (http://tcktcktck.us5.list-manage2.com/about?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=6822b2826c)     unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=6822b2826c)     update subscription preferences (http://tcktcktck.us5.list-manage.com/profile?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795)
 Global Call for Climate Action · 50, rue Sainte-Catherine Ouest, bureau 340 · Montreal, Quebec H2X 3V4 · Canada
 ```
 
@@ -118,7 +118,7 @@ Global Call for Climate Action · 50, rue Sainte-Catherine Ouest, bureau 340 · 
 ```
 A dispatch from the GCCA team at the UN climate change conference in Bonn, Germany. Runs June 4 - 15.
 ------------------------------------------------------------
-http://us5.campaign-archive1.com/?u=785c[REDACTED PHONE]bceae1e01c92425&id=0e9fc3ffe5&e=b66b4b7795
+http://us5.campaign-archive1.com/?u=785c████████bceae1e01c92425&id=0e9fc3ffe5&e=b66b4b7795
 http://tcktcktck.org/
 
 ** Day 10 of the UN climate talks in Bonn
@@ -157,7 +157,7 @@ He also sat down with WWF UK’s Bernadette Fischer to talk about the Sustainabl
 
 Michalina, our Polish Tracker took some time to break down theINDC’s (Intended Nationally Determined Contributions), (http://adoptanegotiator.org/2014/06/13/indcs-for-dummies/) and explain what the negotiators have been arguing about all week.
 
-Lastly, CAN International is posting daily ECO newsletters (http://tcktcktck.us5.list-manage.com/track/click?u=785c[REDACTED PHONE]bceae1e01c92425&id=0c77cdc7a8&e=[REDACTED PHONE]e) with reflections and advice from civil society aimed at negotiators.
+Lastly, CAN International is posting daily ECO newsletters (http://tcktcktck.us5.list-manage.com/track/click?u=785c████████bceae1e01c92425&id=0c77cdc7a8&e=████████e) with reflections and advice from civil society aimed at negotiators.
 
 ------------------------------------------------------------
 Partner banner
@@ -165,17 +165,17 @@ The Global Call for Climate Action is a network of more than 450 leading environ
 
 ============================================================
 ** Find us on Facebook (http://facebook.com/tcktcktck)
-** Forward to a Friend (http://us5.forward-to-friend.com/forward?u=785c[REDACTED PHONE]bceae1e01c92425&id=0e9fc3ffe5&e=b66b4b7795)
+** Forward to a Friend (http://us5.forward-to-friend.com/forward?u=785c████████bceae1e01c92425&id=0e9fc3ffe5&e=b66b4b7795)
 ** Follow us on Twitter (http:www.twitter.com/tcktcktck)
 You're receiving this newsletter because you've requested information from the Global Call for Climate Action (GCCA).
 
-To send feedback, questions or content submissions, please email ** the Editor (mailto:[REDACTED EMAIL])
+To send feedback, questions or content submissions, please email ** the Editor (██████████████)
 .
 
 Copyright © 2013, Global Call for Climate Action, All rights reserved.
 ** TckTckTck logo (http://tcktcktck.org)
-** unsubscribe from this list (http://tcktcktck.us5.list-manage2.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=066bc2074d&e=b66b4b7795&c=0e9fc3ffe5)
-| ** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=066bc2074d&e=b66b4b7795)
+** unsubscribe from this list (http://tcktcktck.us5.list-manage2.com/unsubscribe?u=785c████████bceae1e01c92425&id=066bc2074d&e=b66b4b7795&c=0e9fc3ffe5)
+| ** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c████████bceae1e01c92425&id=066bc2074d&e=b66b4b7795)
 ```
 
 ## 4. Update on your COP20 Fellowship application | Adopt a Negotiator
@@ -240,17 +240,17 @@ part of the Global Call for Climate Action
 
 ============================================================
 You're receiving this newsletter because you recently applied for an Adopt a Negotiator Fellowship.
-** Adopt a Negotiator (http://tcktcktck.us5.list-manage.com/track/click?u=785c[REDACTED PHONE]bceae1e01c92425&id=9a110e0c5d&e=[REDACTED PHONE]fa3)
-is a project of the ** Global Call for Climate Action (http://tcktcktck.us5.list-manage1.com/track/click?u=785c[REDACTED PHONE]bceae1e01c92425&id=181f8b09cd&e=[REDACTED PHONE]fa3)
+** Adopt a Negotiator (http://tcktcktck.us5.list-manage.com/track/click?u=785c████████bceae1e01c92425&id=9a110e0c5d&e=████████fa3)
+is a project of the ** Global Call for Climate Action (http://tcktcktck.us5.list-manage1.com/track/click?u=785c████████bceae1e01c92425&id=181f8b09cd&e=████████fa3)
 (GCCA).
-To send feedback, questions or content submissions, please email ** the Project Director (mailto:[REDACTED EMAIL])
+To send feedback, questions or content submissions, please email ** the Project Director (██████████████)
 .
 Copyright © 2013, Global Call for Climate Action, All rights reserved
-** unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=27b[REDACTED PHONE]d&e=[REDACTED PHONE]fa3&c=[REDACTED PHONE]f1a8)
-** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=27b[REDACTED PHONE]d&e=[REDACTED PHONE]fa3)
+** unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c████████bceae1e01c92425&id=27b████████d&e=████████fa3&c=████████f1a8)
+** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c████████bceae1e01c92425&id=27b████████d&e=████████fa3)
 
 This email was sent to glen.w.wright@gmail.com
-why did I get this? (http://tcktcktck.us5.list-manage2.com/about?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=[REDACTED PHONE]f0b5)     unsubscribe from this list (http://tcktcktck.us5.list-manage1.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=[REDACTED PHONE]f0b5)     update subscription preferences (http://tcktcktck.us5.list-manage.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795)
+why did I get this? (http://tcktcktck.us5.list-manage2.com/about?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=████████f0b5)     unsubscribe from this list (http://tcktcktck.us5.list-manage1.com/unsubscribe?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=████████f0b5)     update subscription preferences (http://tcktcktck.us5.list-manage.com/profile?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795)
 Global Call for Climate Action · 50, rue Sainte-Catherine Ouest, bureau 340 · Montreal, Quebec H2X 3V4 · Canada
 ```
 
@@ -299,17 +299,17 @@ part of the Global Call for Climate Action
 
 ============================================================
 You're receiving this newsletter because you recently applied for an Adopt a Negotiator Fellowship.
-** Adopt a Negotiator (http://tcktcktck.us5.list-manage.com/track/click?u=785c[REDACTED PHONE]bceae1e01c92425&id=9a110e0c5d&e=[REDACTED PHONE]fa3)
-is a project of the ** Global Call for Climate Action (http://tcktcktck.us5.list-manage1.com/track/click?u=785c[REDACTED PHONE]bceae1e01c92425&id=181f8b09cd&e=[REDACTED PHONE]fa3)
+** Adopt a Negotiator (http://tcktcktck.us5.list-manage.com/track/click?u=785c████████bceae1e01c92425&id=9a110e0c5d&e=████████fa3)
+is a project of the ** Global Call for Climate Action (http://tcktcktck.us5.list-manage1.com/track/click?u=785c████████bceae1e01c92425&id=181f8b09cd&e=████████fa3)
 (GCCA).
-To send feedback, questions or content submissions, please email ** the Project Director (mailto:[REDACTED EMAIL])
+To send feedback, questions or content submissions, please email ** the Project Director (██████████████)
 .
 Copyright © 2013, Global Call for Climate Action, All rights reserved
-** unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=27b[REDACTED PHONE]d&e=[REDACTED PHONE]fa3&c=[REDACTED PHONE]f1a8)
-** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=27b[REDACTED PHONE]d&e=[REDACTED PHONE]fa3)
+** unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c████████bceae1e01c92425&id=27b████████d&e=████████fa3&c=████████f1a8)
+** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c████████bceae1e01c92425&id=27b████████d&e=████████fa3)
 
 This email was sent to glen.w.wright@gmail.com (mailto:glen.w.wright@gmail.com)
-why did I get this? (http://tcktcktck.us5.list-manage1.com/about?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=c6142f8e89)     unsubscribe from this list (http://tcktcktck.us5.list-manage1.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=c6142f8e89)     update subscription preferences (http://tcktcktck.us5.list-manage.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795)
+why did I get this? (http://tcktcktck.us5.list-manage1.com/about?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=c6142f8e89)     unsubscribe from this list (http://tcktcktck.us5.list-manage1.com/unsubscribe?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=c6142f8e89)     update subscription preferences (http://tcktcktck.us5.list-manage.com/profile?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795)
 Global Call for Climate Action · 50, rue Sainte-Catherine Ouest, bureau 340 · Montreal, Quebec H2X 3V4 · Canada
 ```
 
@@ -358,7 +358,7 @@ Next comes the hard part! You made it this far in the application process becaus
 
 Complete your assignment by September 1st
 We're keeping the rules loose and giving you lots of time to complete this assignment. You can keep it simple and publish your work on a friend's blog, or really impress us by publishing your blog as an oped in a newspaper with a major readership. Anywhere is fine as long as your work is published on a site managed by someone other than you. Whatever the topic and audience, follow your passion, publish it and fill out this form to complete the assignment (https://docs.google.com/forms/d/18WQf_dHT1Pb6tCqp-t9PzZvMQv6GMJsy2vrkgSUdexI/viewform) by September 1st!
-If you have any questions, you can email me directly, or get in touch with my colleague Chris Wright (http://[REDACTED EMAIL]) . Thanks for reading and for your participation! Good luck!
+If you have any questions, you can email me directly, or get in touch with my colleague Chris Wright (http://██████████████) . Thanks for reading and for your participation! Good luck!
 
 ██████
 Project Director, Adopt a Negotiator
@@ -366,16 +366,16 @@ part of the Global Call for Climate Action
 
 ============================================================
 You're receiving this newsletter because you recently applied for an Adopt a Negotiator Fellowship.
-** Adopt a Negotiator (http://tcktcktck.us5.list-manage.com/track/click?u=785c[REDACTED PHONE]bceae1e01c92425&id=9a110e0c5d&e=[REDACTED PHONE]fa3)
-is a project of the ** Global Call for Climate Action (http://tcktcktck.us5.list-manage1.com/track/click?u=785c[REDACTED PHONE]bceae1e01c92425&id=181f8b09cd&e=[REDACTED PHONE]fa3)
+** Adopt a Negotiator (http://tcktcktck.us5.list-manage.com/track/click?u=785c████████bceae1e01c92425&id=9a110e0c5d&e=████████fa3)
+is a project of the ** Global Call for Climate Action (http://tcktcktck.us5.list-manage1.com/track/click?u=785c████████bceae1e01c92425&id=181f8b09cd&e=████████fa3)
 (GCCA).
-To send feedback, questions or content submissions, please email ** the Project Director (mailto:[REDACTED EMAIL])
+To send feedback, questions or content submissions, please email ** the Project Director (██████████████)
 .
 Copyright © 2013, Global Call for Climate Action, All rights reserved
-** unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=27b[REDACTED PHONE]d&e=[REDACTED PHONE]fa3&c=[REDACTED PHONE]f1a8)
-** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=27b[REDACTED PHONE]d&e=[REDACTED PHONE]fa3)
+** unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c████████bceae1e01c92425&id=27b████████d&e=████████fa3&c=████████f1a8)
+** update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c████████bceae1e01c92425&id=27b████████d&e=████████fa3)
 
 This email was sent to glen.w.wright@gmail.com (mailto:glen.w.wright@gmail.com)
-why did I get this? (http://tcktcktck.us5.list-manage.com/about?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=15f2314d65)     unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=15f2314d65)     update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c[REDACTED PHONE]bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795)
+why did I get this? (http://tcktcktck.us5.list-manage.com/about?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=15f2314d65)     unsubscribe from this list (http://tcktcktck.us5.list-manage.com/unsubscribe?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795&c=15f2314d65)     update subscription preferences (http://tcktcktck.us5.list-manage1.com/profile?u=785c████████bceae1e01c92425&id=c4d6afd6cd&e=b66b4b7795)
 Global Call for Climate Action · 50, rue Sainte-Catherine Ouest, bureau 340 · Montreal, Quebec H2X 3V4 · Canada
 ```
