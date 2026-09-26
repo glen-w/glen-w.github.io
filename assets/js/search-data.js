@@ -5588,6 +5588,11 @@ ninja.data = [{
           description: "A splash of uplifting ocean stuff, lovingly curated by young ocean leaders",
           section: "Projects",handler: () => {
               window.location.href = "/projects/little_blue_letter/";
+            },},{id: "projects-lowdee",
+          title: 'lowDee',
+          description: "Practice companion for the Irish low D, on this machine, from the first sound through one slow air.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lowdee/";
             },},{id: "projects-marine-policy-amp-ocean-governance",
           title: 'Marine Policy &amp;amp; Ocean Governance',
           description: "A graduate seminar exploring the political, legal and institutional frameworks governing the ocean.",
