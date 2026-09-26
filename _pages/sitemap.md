@@ -35,5 +35,6 @@ A short index of this site. Search engines can also use the [XML sitemap]({{ '/s
 ## More
 
 - [bookshelf]({{ '/books/' | relative_url }})
+- [catalogue of failures]({{ '/failures/' | relative_url }})
 - [jingle]({{ '/jingle/' | relative_url }})
 - [map]({{ '/map.html' | relative_url }})

@@ -11,6 +11,9 @@ children:
   - title: bookshelf
     permalink: /books/
 
+  - title: catalogue of failures
+    permalink: /failures/
+
   - title: jingle
     permalink: /jingle/
 
