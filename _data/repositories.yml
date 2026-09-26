@@ -17,6 +17,11 @@ github_repos:
     name: IEA-Renweb
     img: /assets/img/projects/thumbs/iea_renweb.png
     description: Library and CLI to turn an IEA World Energy Balances extract into renewable energy statistics. The balances are not included.
+  - repo: glen-w/lowDee
+    name: lowDee
+    description: Offline desktop app for practising the Irish low D. One local path from the first note through a slow air; the microphone and takes stay on the machine.
+    url: /projects/lowdee/
+    url_label: Project page
   - repo: glen-w/Paperful
     name: Paperful
     img: /assets/img/projects/thumbs/paperful_icon.png
