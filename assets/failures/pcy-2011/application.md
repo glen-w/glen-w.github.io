@@ -108,9 +108,9 @@ Nationality
 UK
 
 6.
-[REDACTED PASSPORT]:
+████████:
 
-[REDACTED PHONE]
+████████
 
 7.
 First language:
@@ -174,10 +174,10 @@ Fax:
 
 +61
 02
-[REDACTED PHONE]
+████████
 
 +61
-[REDACTED PHONE]
+████████
 
 *Include country code
 + area code
@@ -209,7 +209,7 @@ E-‐mail:
 
 2
 
-[REDACTED EMAIL]
+██████████████
 
 3.
 EMERGENCY
@@ -276,17 +276,17 @@ Fax:
 
 +61
 02
-[REDACTED PHONE]
+████████
 
 +61
-[REDACTED PHONE]
+████████
 
 *Include country code
 + area code
 
 E-‐mail:
 
-[REDACTED EMAIL]
+██████████████
 
 4.
 QUESTIONS

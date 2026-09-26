@@ -1,7 +1,7 @@
 ## 1. Welcome To The Bloomberg Talent Community
 
 - **Date:** 2013-12-04T03:10:25-06:00
-- **From:** [REDACTED EMAIL]
+- **From:** ██████████████
 - **To:** Glen Wright <glen.w.wright@gmail.com>
 
 ```
@@ -9,25 +9,25 @@ Bloomberg Logohttp://jobs.bloomberg.com/█████████████�
 
 Please login now to update your profile and area of interest:
 
-[Update my Agent/Profile.](http://jobs.bloomberg.com/talentcommunity/login/?email=glen.w.wright@gmail.com&from=email&panel=agents&refid=[REDACTED PHONE]&utm_source=J2WEmail&source=2&eid=367-201312040310-1373141800&locale=en_US)
+[Update my Agent/Profile.](http://jobs.bloomberg.com/talentcommunity/login/?email=glen.w.wright@gmail.com&from=email&panel=agents&refid=████████&utm_source=J2WEmail&source=2&eid=367-201312040310-1373141800&locale=en_US)
 
-Use the following link to change your password. It will expire in 72 hours. [http://jobs.bloomberg.com/reset/BCDF[REDACTED PHONE]-03477D99B0A633DF/](http://jobs.bloomberg.com/reset/BCDF[REDACTED PHONE]-03477D99B0A633DF/?from=email&refid=[REDACTED PHONE]&utm_source=J2WEmail&source=2&eid=367-201312040310-1373141800&locale=en_US)
+Use the following link to change your password. It will expire in 72 hours. [http://jobs.bloomberg.com/reset/BCDF████████-03477D99B0A633DF/](http://jobs.bloomberg.com/reset/BCDF████████-03477D99B0A633DF/?from=email&refid=████████&utm_source=J2WEmail&source=2&eid=367-201312040310-1373141800&locale=en_US)
 
 ████████
 Facebook logo buttonhttp://www.facebook.com/BloombergCareersTwitter logo buttonhttps://twitter.com/#!/bloombergcareerLinkedIn logo buttonhttp://www.linkedin.com/company/2494
 
-[click here to unsubscribe.](http://jobs.bloomberg.com/unsubscribe/?email=glen.w.wright@gmail.com&siteid=367&from=email&refid=[REDACTED PHONE]&utm_source=J2WEmailAdmin&source=2&eid=367-201312040310-1373141800&locale=en_US)
+[click here to unsubscribe.](http://jobs.bloomberg.com/unsubscribe/?email=glen.w.wright@gmail.com&siteid=367&from=email&refid=████████&utm_source=J2WEmailAdmin&source=2&eid=367-201312040310-1373141800&locale=en_US)
 
 Powered by [Jobs2web](http://www.jobs2web.com/)
-* To ensure delivery to your inbox, please add [REDACTED EMAIL] to your address book.
-* Please do not reply to this email, as we are unable to respond from this address.  [Manage your preferences](http://jobs.bloomberg.com/talentcommunity/login/?email=glen.w.wright@gmail.com&from=email&panel=agents&refid=[REDACTED PHONE]&utm_source=J2WEmail&source=2&eid=367-201312040310-1373141800&locale=en_US).
+* To ensure delivery to your inbox, please add ██████████████ to your address book.
+* Please do not reply to this email, as we are unable to respond from this address.  [Manage your preferences](http://jobs.bloomberg.com/talentcommunity/login/?email=glen.w.wright@gmail.com&from=email&panel=agents&refid=████████&utm_source=J2WEmail&source=2&eid=367-201312040310-1373141800&locale=en_US).
 ```
 
 ## 2. Password reset request
 
 - **Date:** 2014-01-01T13:41:31-05:00
 - **From:** "BLOOMBERG SUPPORT"
- <[REDACTED EMAIL]>
+ <██████████████>
 - **To:** glen.w.wright@gmail.com
 
 ```

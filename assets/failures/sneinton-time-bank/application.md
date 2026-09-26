@@ -57,8 +57,8 @@ PERSONAL DETAILS
 
 Name: Glen William Wright
 
-Daytime tel: [REDACTED PHONE] 	Evening tel:  [REDACTED PHONE]
-Email: [REDACTED EMAIL]
+Daytime tel: ████████ 	Evening tel:  ████████
+Email: ██████████████
 
 CURRENT OR MOST RECENT EMPLOYMENT
 
@@ -103,10 +103,10 @@ Reference one – your Current or Most Recent Employer
 Contact Name: ████████-Jones	Job Title: Judge
 Address: Queen Elizabeth II Law Courts,
 West Midlands 	Postcode: B4 7NA
-Telephone: [REDACTED PHONE]
+Telephone: ████████
 Reference two – Please state whether personal or business reference Personal
 Contact Name: Jeffrey Kenner 	Job Title: █████ of European Law
-Telephone: [REDACTED PHONE]
+Telephone: ████████
 
 REHABILITATION OF OFFENDERS ACT 1974
 Please declare any criminal convictions against you, excluding any convictions which are ‘spent’ under the above act.

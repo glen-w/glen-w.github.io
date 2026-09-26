@@ -5,7 +5,7 @@ The University of Sydney - Direct
 
 Name:               Wright, Glen
 Application number: SLUSYD-02210
-Applicant number: SL[REDACTED PHONE]
+Applicant number: SL████████
 
 Contents       Page
 [Not provided] 6
@@ -14,7 +14,7 @@ Contents       Page
 [Not provided] 9
 [Not provided] 10
 
-A-[REDACTED PHONE] / S-[REDACTED PHONE] / C-[REDACTED PHONE] / T-13080
+A-████████ / S-████████ / C-████████ / T-13080
 
 Postgraduate Coursework
 Application Form
@@ -42,12 +42,12 @@ Postcode / zip:                        Country:
 United Kingdom                   Agent Stamp
 
 Tel:
-[REDACTED PHONE]               Fax:
+████████               Fax:
 (Include Country code+Area code )
-[REDACTED PHONE]
+████████
 Mobile :
 (Include Country code+Area code )                                    3 Previous applications Applicant’s Email:
-[REDACTED EMAIL]                                        Have you applied to, or been enrolled at, the University of Sydney before? (compulsory)                                                                              ✔ No         Yes          If yes, what was your reference number / Student ID or Country of citizenship:
+██████████████                                        Have you applied to, or been enrolled at, the University of Sydney before? (compulsory)                                                                              ✔ No         Yes          If yes, what was your reference number / Student ID or Country of citizenship:
 United Kingdom year of application?
 
 4 Course choice
@@ -192,8 +192,8 @@ University or the Australian Department of Immigration
 University.
 
 The information set out in this brochure was based upon the information available at the time of printing. It is an expression of intent only and should not be taken as a   International Office firm offer or undertaking.
-Level 4, Jane Foss Russell Building (G02) The University reserves the right to make alteration to any information contained within this publication without notice. As details may change you should check the      The University of Sydney University’s website or contact the International Office for the latest information.    NSW 2006, AUSTRALIA For more information on study at the University of Sydney please refer to the           Phone [REDACTED PHONE] University website (www.usyd.edu.au) or our print publications.
-Fax [REDACTED PHONE] CRICOS Provider Code: 00026A
+Level 4, Jane Foss Russell Building (G02) The University reserves the right to make alteration to any information contained within this publication without notice. As details may change you should check the      The University of Sydney University’s website or contact the International Office for the latest information.    NSW 2006, AUSTRALIA For more information on study at the University of Sydney please refer to the           Phone ████████ University website (www.usyd.edu.au) or our print publications.
+Fax ████████ CRICOS Provider Code: 00026A
 © The University of Sydney, March 2005
 
 The University of Sydney
@@ -207,7 +207,7 @@ CRICOS Provider No: 00026A www.usyd.edu.au
 [Not provided]
 
 Curriculum Vitae of
-[REDACTED EMAIL], [REDACTED PHONE]
+██████████████, ████████
 
 Education History
 
@@ -238,7 +238,7 @@ No.5 Chambers, Birmingham, mini-pupilage, September 2009
 
 Additional Experience
 
-The University of Nottingham Debating Society, Team Member, [REDACTED PHONE]
+The University of Nottingham Debating Society, Team Member, ████████
 
 The University of Nottingham Mooting Tournaments, semi-finalist, 2007 and 2008, Judge, 2007
 
@@ -246,7 +246,7 @@ Nottingham Student Peace Movement, General Secretary, 2007
 
 The Activist Legal Project, Research Assistant, 2007
 
-Nottingham Vegetarian & Vegan Society, Founder, 2007, President, [REDACTED PHONE]
+Nottingham Vegetarian & Vegan Society, Founder, 2007, President, ████████
 
 World Model United Nations Conference, Delegate, 2010
 
@@ -254,10 +254,10 @@ Referees
 
 Judge ████████-Jones, Birmingham Crown Court
 Queen Elizabeth II Law Courts,
-[REDACTED PHONE]
+████████
 
 Antonio Benjamin, Lecturer, University of Texas at Austin; Justice of the Supreme Court of Brazil c/o Joelyn Piercy, 727 E. Dean Keeton Street, Austin, TX 78705, USA.
-[REDACTED PHONE]. [REDACTED EMAIL].
+████████. ██████████████.
 
 Further referees available upon request.
 

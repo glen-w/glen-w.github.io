@@ -44,7 +44,7 @@ These will be based on desk research, including qualitative and/or quantitative 
 The precise topics, formats, and timelines of deliverables will be agreed upon collaboratively at the start of the contract, based on the consultant’s expertise and the Chair’s current priorities.
 
 27 rue Saint-Guillaume - 75337 Paris cedex 07
-T. (33)1 [REDACTED PHONE] 50 – www.sciencespo.fr
+T. (33)1 ████████ 50 – www.sciencespo.fr
 
 Budget
 The maximum budget available is €12,000, exclusive of any applicable VAT but inclusive of all other fees and expenses associated with the delivery of the assignment.
@@ -54,7 +54,7 @@ Applicants should submit a financial proposal within this ceiling, indicating, w
 ### Documents to provide
 
 Should you be interested in this opportunity, please send the following documents to
-[REDACTED EMAIL]:
+██████████████:
 • A brief proposal (½ to 1 page) outlining: o The research topics you would propose for the articles o A short financial proposal
 • Your CV outlining relevant academic background and research experience
 • One writing sample of previous academic or research-based work

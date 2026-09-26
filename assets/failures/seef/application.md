@@ -3,7 +3,7 @@
 Student Extracurricular Enrichment Fund application
 
 glen.w.wright@gmail.com
-[REDACTED PHONE] (currently overseas)
+████████ (currently overseas)
 
 ### Activity
 

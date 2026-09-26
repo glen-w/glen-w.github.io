@@ -36,7 +36,7 @@ just sources). You may arrange the brief in any style you wish, using any
 word processing tool that you choose.
 
 Your response, with the briefing attached, should be returned to █████
-and I ([REDACTED EMAIL] and [REDACTED EMAIL])
+and I (██████████████ and ██████████████)
 by the end of *Tuesday 19 May*. This exercise will be judged on quality,
 content, grammar and written prose.
 
@@ -87,7 +87,7 @@ Global Program Manager
 ## 3. Thank you for applying to Global Fishing Watch
 
 - **Date:** 2020-06-29T22:44:04+00:00
-- **From:** [REDACTED EMAIL]
+- **From:** ██████████████
 - **To:** glen.w.wright@gmail.com
 
 ```

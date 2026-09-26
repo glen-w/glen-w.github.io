@@ -117,7 +117,7 @@ Facebook           upcoming events, publications,
 - 7600
 - Maps
 - FAX +1 (202)
-- [REDACTED PHONE]
+- ████████
 - Presentations
 - Support
 - Videos

@@ -4,7 +4,7 @@
 - London WC1B 4DA
 - United Kingdom
 
-t: +44 (0)[REDACTED PHONE] e: [REDACTED EMAIL] www.ospar.org
+t: +44 (0)████████ e: ██████████████ www.ospar.org
 
 Vacancy Announcement and Job Description for the post of Deputy Secretary, Biodiversity
 
@@ -38,7 +38,7 @@ Terms of Service and Remuneration
 16. The terms and conditions of service will be those set out in the Commission’s Staff regulations (Agreement 2000‐14). Remuneration will be in accordance with Grade A3 of the scales of remuneration of the Coordinated Organisations for staff serving in the United Kingdom. Further details on the salary and on allowances which may be payable are contained in the “Remuneration” document.
 Procedure
 17. Further details of this post and the way in which applications should be made is included in the “Application Instructions” document.
-18. The closing date for applications is 30 September 2016 and applications should be sent for the attention of the Executive Secretary to [REDACTED EMAIL]. The Secretariat will acknowledge receipt of your application by email. If you do not receive an acknowledgement within a few days, please contact the Secretariat to check that your application has been received. Please include the following in the subject line of your email: “Application Deputy Secretary 2017”.
+18. The closing date for applications is 30 September 2016 and applications should be sent for the attention of the Executive Secretary to ██████████████. The Secretariat will acknowledge receipt of your application by email. If you do not receive an acknowledgement within a few days, please contact the Secretariat to check that your application has been received. Please include the following in the subject line of your email: “Application Deputy Secretary 2017”.
 19.   The indicative timetable for this appointment procedure is as follows:
 
 Step                                                           Date
@@ -80,13 +80,13 @@ English and French are the working languages of the OSPAR Secretariat. For this 
      representational skills to present material to the Commission and its subsidiary bodies and to represent the views and policies of the Commission in other forums;      experience that would help to further develop the Data and Information Strategy within OSPAR would be an advantage;
      ideally – particular experience or knowledge of global marine environmental regulation/ European Union’s Marine Strategy Framework Directive or equivalent EU regulation and processes.
 For further details please see the “job description” and the “application instructions” documents. For further information about OSPAR, please consult the website: www.ospar.org or telephone the Secretariat:
-[REDACTED PHONE].
+████████.
 
 2
 
 Victoria House 37-63 Southampton Row London WC1B 4DA
 
-t: +44 (0)[REDACTED PHONE] e: [REDACTED EMAIL] www.ospar.org
+t: +44 (0)████████ e: ██████████████ www.ospar.org
 
 Instructions for applications for the post of Deputy
 Secretary
@@ -108,9 +108,9 @@ Commission OSPAR pour la Protection du Milieu Marin de l’Atlantique du Nord-Es
 
 APPLICATION REQUIREMENTS                              IMPERATIFS APPLICABLES AUX DEMANDES DE
 CANDIDATURE
-Applications should be sent by email for the attention of the Executive Secretariat to the         La demande de candidature doit être renvoyée à following address: [REDACTED EMAIL].             l’attention du Secrétaire exécutif par courrier électronique à l’adresse suivante :
+Applications should be sent by email for the attention of the Executive Secretariat to the         La demande de candidature doit être renvoyée à following address: ██████████████.             l’attention du Secrétaire exécutif par courrier électronique à l’adresse suivante :
 Applications can be submitted in English or
-[REDACTED EMAIL].
+██████████████.
 French and should contain the information requested under the following headings, in the        La demande de candidature peut être soumise en order in which they are given. The full details       anglais ou en français. Elle doit donner les requested should be given.                            renseignements demandés sous les titres suivants, dans l’ordre dans lequel ils sont demandés. Tous les Please include the following in the subject line of renseignements demandés doivent être donnés. your email: “Application Deputy Secretary 2017”.
 La ligne « Objet » de votre courriel doit inclure le texte suivant : « Application Deputy Secretary 2017 »
 The deadline for receipt of applications is: 30

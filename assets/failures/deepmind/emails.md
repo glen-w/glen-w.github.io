@@ -1,7 +1,7 @@
 ## 1. DeepMind - Thanks for applying!
 
 - **Date:** 2019-06-18T15:18:10+00:00
-- **From:** [REDACTED EMAIL]
+- **From:** ██████████████
 - **To:** glen.w.wright@gmail.com
 
 ```

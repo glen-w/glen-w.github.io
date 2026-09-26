@@ -15,7 +15,7 @@ Notified in the APS Employment Gazette	:	Thursday, 20 January 2011
 
 Closing date for applications: 		Thursday, 3 February 2011
 
-Once you have read the information about the duties of this position, please contact Gary Hartop on [REDACTED PHONE] if you have any questions.
+Once you have read the information about the duties of this position, please contact Gary Hartop on ████████ if you have any questions.
 
 HOW TO APPLY FOR THIS POSITION
 
@@ -30,14 +30,14 @@ Please Note: Receipt of email applications will be acknowledged, however mailed 
 
 Please submit your application to:
 
-Email:	[REDACTED EMAIL]
+Email:	██████████████
 
 Postal Address:	Human Resources
 FMC Corporate Services Provider
 GPO Box 9991
 CANBERRA  ACT  2601
 
-Fax:	[REDACTED PHONE]
+Fax:	████████
 
 Please Note: Late or incomplete applications will not be accepted without prior approval.  Please advise in writing or email if you decide to withdraw from the selection process.
 

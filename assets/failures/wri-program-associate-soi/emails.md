@@ -29,13 +29,13 @@ to sail or to watch, we are going back from whence we came."*
 A New Ocean Agenda
 The *High Level Panel for Sustainable Ocean Economy* has launched an
 ambitious call to action
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-oceanpanel.org/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>,
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-oceanpanel.org/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>,
 with the leaders of 14 countries committing to sustainably manage 100% of
 their waters by 2025 and to support global ocean protection targets. The
 announcement is a "rare show of solidarity
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.nationalgeographic.com/environment/2020/12/in-rare-show-of-solidarity-14-key-nations-commit-to-protect-oceans/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>",
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.nationalgeographic.com/environment/2020/12/in-rare-show-of-solidarity-14-key-nations-commit-to-protect-oceans/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>",
 providing a bright spot in the Ocean super Year
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.iddri.org/en/publications-and-events/blog-post/2020-super-year-ocean?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.iddri.org/en/publications-and-events/blog-post/2020-super-year-ocean?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
 that
 never was.
 🌊  🇦🇺 🇨🇦 🇨🇱 🇫🇯 🇬🇭 🇮🇩 🇯🇲 🇯🇵 🇰🇪 🇲🇽 🇳🇦 🇳🇴 🇵🇼 🇵🇹
@@ -57,11 +57,11 @@ While the Panel does not shy away from calling for strong conservation
 action, they also stress need to sustainably manage all marine spaces and
 highlight the human dimension of ocean sustainability: increasing protein
 supply
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.oceanpanel.org/blue-papers/future-food-sea?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.oceanpanel.org/blue-papers/future-food-sea?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
 for a growing population, implementing nature-based solutions
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.wri.org/blog/2020/07/investments-ocean-health-wealth?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.wri.org/blog/2020/07/investments-ocean-health-wealth?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
 to limit temperature rise, and ending forced labour
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-advances.sciencemag.org/content/4/7/e[REDACTED PHONE]?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-advances.sciencemag.org/content/4/7/e████████?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
 and other human rights abuses.
 [image: Image]
 ------------------------------
@@ -72,7 +72,7 @@ Ocean update
 
    - Members of the Inter-American Tropical Tuna Commission (IATTC) failed
    to agree measures
-   <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.undercurrentnews.com/2020/12/09/tuna-buyer-alliance-calls-for-emergency-iattc-measures/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+   <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.undercurrentnews.com/2020/12/09/tuna-buyer-alliance-calls-for-emergency-iattc-measures/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
 for
    the management of tropical tunas (nor did they agree to maintain current
    measures). This leaves tropical tunas unmanaged, in clear contradiction to
@@ -80,26 +80,26 @@ for
    Alliance, a group of major suppliers and retailers, said it is "astonished"
    and "profoundly disappointed and frustrated".
    - Two new reports consider the ecology of mesopelagic fishes
-   <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.bluemarinefoundation.com/wp-content/uploads/2020/12/entering-the-twilight-zone-final.pdf?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+   <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.bluemarinefoundation.com/wp-content/uploads/2020/12/entering-the-twilight-zone-final.pdf?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
    and the potential governance challenges
-   <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.iddri.org/en/publications-and-events/study/fishing-twilight-zone-illuminating-governance-challenges-next?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+   <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.iddri.org/en/publications-and-events/study/fishing-twilight-zone-illuminating-governance-challenges-next?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
    of commercial exploitation. A recording of a webinar launching the reports
    is available here
-   <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.iddri.org/en/publications-and-events/conference/replay-fishing-twilight-zone-illuminating-governance-challenges?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+   <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.iddri.org/en/publications-and-events/conference/replay-fishing-twilight-zone-illuminating-governance-challenges?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
    .
 
 *Mesopelagic lanternfish © Paul Caiger, Woods Hole Oceanographic
 Institution*
 ------------------------------
 Tiny seascape
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.twitter.com/tiny_seascape?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.twitter.com/tiny_seascape?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
 ------------------------------
 
 *Written this week by Glen Wright
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.glenwright.net/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>,
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.glenwright.net/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>,
 a researcher studying marine governance.  Glen is a drinker of tea, lover
 of the sea, and an Oxford comma user.  He is the author of Academia
-██████████████ <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-amzn.to/2hyddvd?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>.*
+██████████████ <http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-amzn.to/2hyddvd?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>.*
 
 ------------------------------
 🌊🌊🌊
@@ -109,12 +109,12 @@ lovingly curated by young ocean leaders
 and shipped straight to your inbox every Friday.
 
 Sign up
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.littleblueletter.com/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>,
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.littleblueletter.com/?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>,
 pass it on, follow
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-www.twitter.com/littlebluelette?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-www.twitter.com/littlebluelette?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
 on
 twitter, or write
-<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/[REDACTED PHONE]-docs.google.com/spreadsheets/d/1smp_umzb7fb_sauf3jwwvcthyxsmybovjuvzaclz2wm/edit?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
+<http://mail01.tinyletterapp.com/LittleBlueLetter/ocean-update-from-little-blue-letter-80/████████-docs.google.com/spreadsheets/d/1smp_umzb7fb_sauf3jwwvcthyxsmybovjuvzaclz2wm/edit?c=e22b91e7-3ad9-4b15-ac4f-fef8c0d79ffe>
 an
 edition.
 
@@ -132,13 +132,13 @@ Sent to glen.wright@iddri.org
 Chercheur, Gouvernance internationale de l'Océan
 *Research Fellow, International Ocean Governance*
 
-Tel. : [REDACTED PHONE]
+Tel. : ████████
 Twitter <http://www.twitter.com/marinepolicy>  |   Linkedin
-<https://www.linkedin.com/in/glen-wright-[REDACTED PHONE]/>
+<https://www.linkedin.com/in/glen-wright-████████/>
 
 *Institut du développement durable et des relations internationales*
 41, rue du Four - 75006 Paris
-<https://maps.google.com/?q=41,+rue+du+Four+-[REDACTED PHONE]+Paris&entry=gmail&source=g>
+<https://maps.google.com/?q=41,+rue+du+Four+-████████+Paris&entry=gmail&source=g>
 *www.iddri.org* <http://www.iddri.org/>
 ```
 

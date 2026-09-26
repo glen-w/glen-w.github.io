@@ -22,9 +22,9 @@ We believe Social Media is important, so if you are active online, now is your c
 Please share links to your social pages: facebook, twitter, instagram, linkedin, etc.
 
 Twitter: https://www.facebook.com/glen.w.wright
-Linkedin: https://www.linkedin.com/profile/view?id=[REDACTED PHONE]
+Linkedin: https://www.linkedin.com/profile/view?id=████████
 Facebook: https://www.facebook.com/glen.w.wright
-Flickr: https://www.flickr.com/photos/[REDACTED PHONE]@N04/
+Flickr: https://www.flickr.com/photos/████████@N04/
 Blog: http://www.glenwright.net
 
 Have any of your social media posts gone viral?

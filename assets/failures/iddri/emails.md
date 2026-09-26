@@ -52,14 +52,14 @@ Secretary general
 Iddri
 Adresse physique: 41 rue du Four - 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE]
-Cell: + 33 6 [REDACTED PHONE] 17
-Fax: [REDACTED PHONE]
+Tel : ████████
+Cell: + 33 6 ████████ 17
+Fax: ████████
  <http://www.iddri.org/> http://www.iddri.org
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : samedi 4 janvier [REDACTED PHONE]:24
-À : [REDACTED EMAIL]; [REDACTED EMAIL]
+Envoyé : samedi 4 janvier ████████:24
+À : ██████████████; ██████████████
 Objet : Application for International Marine Policy Officer
 
 Dear ████████ and ██████,
@@ -101,7 +101,7 @@ Best regards,
 ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : lundi 20 janvier [REDACTED PHONE]:01
+Envoyé : lundi 20 janvier ████████:01
 À : ██████
 Objet : Re: Application for International Marine Policy Officer
 
@@ -174,14 +174,14 @@ Secretary general
 Iddri
 Adresse physique: 41 rue du Four - 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2061>
-Cell: + 33 6 [REDACTED PHONE] 17 <tel:%2B%2033%206%2027%2019%2056%2017>
-Fax: [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2085>
+Tel : ████████ <tel:%2B331%2045%2049%2076%2061>
+Cell: + 33 6 ████████ 17 <tel:%2B%2033%206%2027%2019%2056%2017>
+Fax: ████████ <tel:%2B331%2045%2049%2076%2085>
 http://www.iddri.org <http://www.iddri.org/>
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : samedi 4 janvier [REDACTED PHONE]:24
-À : [REDACTED EMAIL]; [REDACTED EMAIL]
+Envoyé : samedi 4 janvier ████████:24
+À : ██████████████; ██████████████
 Objet : Application for International Marine Policy Officer
 
 Dear ████████ and ██████,
@@ -211,8 +211,8 @@ tialite
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
 
-t [REDACTED PHONE] | www.  <http://www.glenwright.net/> GlenWright.net | @
-<mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ | www.  <http://www.glenwright.net/> GlenWright.net | @
+<mailto:glen.w.wright@gmail.com> ██████████████
 
 --
 --------------------------------------------------------------------------
@@ -249,7 +249,7 @@ Looking forward to hearing from you.
 Best regards, ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : vendredi 7 février [REDACTED PHONE]:13
+Envoyé : vendredi 7 février ████████:13
 À : ██████
 Objet : Re: Application for International Marine Policy Officer
 
@@ -289,7 +289,7 @@ we do mean marine spatial planning !
 Best, ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : mercredi 12 février [REDACTED PHONE]:29
+Envoyé : mercredi 12 février ████████:29
 À : ██████
 Objet : Re: Application for International Marine Policy Officer
 
@@ -340,7 +340,7 @@ Looking forward to hearing from you.
 Best regards, ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : vendredi 7 février [REDACTED PHONE]:13
+Envoyé : vendredi 7 février ████████:13
 
 À : ██████
 Objet : Re: Application for International Marine Policy Officer
@@ -374,8 +374,8 @@ tialite
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
 
-t [REDACTED PHONE] | www.  <http://www.glenwright.net/> GlenWright.net | @
-<mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ | www.  <http://www.glenwright.net/> GlenWright.net | @
+<mailto:glen.w.wright@gmail.com> ██████████████
 
 --
 --------------------------------------------------------------------------
@@ -400,7 +400,7 @@ presentation (or prezi if you prefer !).
 Best, ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : mercredi 12 février [REDACTED PHONE]:48
+Envoyé : mercredi 12 février ████████:48
 À : ██████
 Objet : Re: Application for International Marine Policy Officer
 
@@ -419,7 +419,7 @@ we do mean marine spatial planning !
 Best, ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : mercredi 12 février [REDACTED PHONE]:29
+Envoyé : mercredi 12 février ████████:29
 
 À : ██████
 Objet : Re: Application for International Marine Policy Officer
@@ -471,7 +471,7 @@ Looking forward to hearing from you.
 Best regards, ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : vendredi 7 février [REDACTED PHONE]:13
+Envoyé : vendredi 7 février ████████:13
 
 À : ██████
 Objet : Re: Application for International Marine Policy Officer
@@ -505,9 +505,9 @@ tialite
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
 
-t [REDACTED PHONE] <tel:%2B61%202%[REDACTED PHONE]%[REDACTED PHONE]>  | www.
+t ████████ <tel:%2B61%202%████████%████████>  | www.
 <http://www.glenwright.net/> GlenWright.net | @
-<mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+<mailto:glen.w.wright@gmail.com> ██████████████
 
 --------------------------------------------------------------------------
 
@@ -525,8 +525,8 @@ tialite
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
 
-t [REDACTED PHONE] | www.  <http://www.glenwright.net/> GlenWright.net | @
-<mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ | www.  <http://www.glenwright.net/> GlenWright.net | @
+<mailto:glen.w.wright@gmail.com> ██████████████
 
 --
 --------------------------------------------------------------------------
@@ -600,9 +600,9 @@ Faculty of Law
 University of Technology, Sydney
 PO Box 123 Broadway
 
-(61) [REDACTED PHONE] Tel
-(61) [REDACTED PHONE] Mob
-(61) [REDACTED PHONE] Fax
+(61) ████████ Tel
+(61) ████████ Mob
+(61) ████████ Fax
 
 UTS Cricos Provider Code: 00099F
 
@@ -617,7 +617,7 @@ Think. Green. Do.
 
 Please consider the environment before printing this email.
 
-██████████████ <mailto:[mailto:[REDACTED EMAIL]]>
+██████████████
 Sent: Thursday, 20 February 2014 3:55 AM
 To: ██████
 Cc: ''████████''
@@ -637,9 +637,9 @@ Chargé d'études, Gouvernance de la Biodiversité
 Institut du développement durable et des relations internationales (Iddri)
 Adresse physique: 41, rue du Four 75006 Paris - France
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel:  +33 (0)1 [REDACTED PHONE]
-Fax: +33 (0)1 [REDACTED PHONE]
-Email: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel:  +33 (0)1 ████████
+Fax: +33 (0)1 ████████
+Email: ██████████████
 
 Website: http://www.iddri.org/L%27iddri/Equipe/Claudio-Chiarolla
 ██████████████ <http://www.iddri.org/Publications/Ouvrages-en-partenariat/Intellectual-Property,Agriculture-and-Global-Food-Security>, Cheltenham, UK * Northampton, MA, USA: Edward Elgar (2011).
@@ -679,7 +679,7 @@ meeting with ████████, advisor to the IDDRI Director.
 Would it possible for you to come to our office next Tuesday, during
 lunch break (i.e. 12h30 for instance) ?
 
-Do not hesitate to call me if you need more information [REDACTED PHONE] 36).
+Do not hesitate to call me if you need more information ████████ 36).
 
 Thanks a lot in advance for your reply.
 
@@ -710,7 +710,7 @@ therefore a strong supporter of the regional approach.
 
 ████
 
-Le 20/02/[REDACTED PHONE]:27, Glen Wright a écrit :
+Le 20/02/████████:27, Glen Wright a écrit :
 > Dear ████,
 >
 > My apologies, my cell phone was turned off while at work. I think that
@@ -724,7 +724,7 @@ Le 20/02/[REDACTED PHONE]:27, Glen Wright a écrit :
 >
 >
 > On Thu, Feb 20, 2014 at 1:18 PM, ████████
-> <[REDACTED EMAIL] <mailto:[REDACTED EMAIL]>>
+> <██████████████>
 > wrote:
 >
 >     Dear Glenn,
@@ -735,7 +735,7 @@ Le 20/02/[REDACTED PHONE]:27, Glen Wright a écrit :
 >     Would it possible for you to come to our office next Tuesday,
 >     during lunch break (i.e. 12h30 for instance) ?
 >
->     Do not hesitate to call me if you need more information ([REDACTED PHONE]
+>     Do not hesitate to call me if you need more information (████████
 >     45 36).
 >
 >     Thanks a lot in advance for your reply.
@@ -819,9 +819,9 @@ Secretary general
 Iddri
 Adresse physique: 41 rue du Four - 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE]
-Cell: + 33 6 [REDACTED PHONE] 17
-Fax: [REDACTED PHONE]
+Tel : ████████
+Cell: + 33 6 ████████ 17
+Fax: ████████
 http://www.iddri.org <http://www.iddri.org/>
 
 --
@@ -852,7 +852,7 @@ Do not hesitate to contact me should you have any question concerning IDDRI and 
 Best, ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : mercredi 26 février [REDACTED PHONE]:25
+Envoyé : mercredi 26 février ████████:25
 À : ██████
 Objet : Re: Job offer at IDDRI
 
@@ -920,9 +920,9 @@ Secretary general
 Iddri
 Adresse physique: 41 rue du Four - 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2061>
-Cell: + 33 6 [REDACTED PHONE] 17 <tel:%2B%2033%206%2027%2019%2056%2017>
-Fax: [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2085>
+Tel : ████████ <tel:%2B331%2045%2049%2076%2061>
+Cell: + 33 6 ████████ 17 <tel:%2B%2033%206%2027%2019%2056%2017>
+Fax: ████████ <tel:%2B331%2045%2049%2076%2085>
 http://www.iddri.org <http://www.iddri.org/>
 
 --------------------------------------------------------------------------
@@ -936,7 +936,7 @@ Pour les consulter rendez-vous sur :
 --
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
-t [REDACTED PHONE] | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> ██████████████
 
 --
 --------------------------------------------------------------------------
@@ -970,12 +970,12 @@ Responsable Administrative
 Iddri
 Adresse physique: 41 rue du Four- 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE]
-Fax: [REDACTED PHONE]
+Tel : ████████
+Fax: ████████
 http://www.iddri.org <BLOCKED::http://www.iddri.org/>
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : mercredi 26 février [REDACTED PHONE]:25
+Envoyé : mercredi 26 février ████████:25
 À : ██████
 Objet : Re: Job offer at IDDRI
 
@@ -1043,9 +1043,9 @@ Secretary general
 Iddri
 Adresse physique: 41 rue du Four - 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2061>
-Cell: + 33 6 [REDACTED PHONE] 17 <tel:%2B%2033%206%2027%2019%2056%2017>
-Fax: [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2085>
+Tel : ████████ <tel:%2B331%2045%2049%2076%2061>
+Cell: + 33 6 ████████ 17 <tel:%2B%2033%206%2027%2019%2056%2017>
+Fax: ████████ <tel:%2B331%2045%2049%2076%2085>
 http://www.iddri.org <http://www.iddri.org/>
 
 --------------------------------------------------------------------------
@@ -1059,7 +1059,7 @@ Pour les consulter rendez-vous sur :
 --
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
-t [REDACTED PHONE] | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> ██████████████
 
 --------------------------------------------------------------------------
 
@@ -1081,7 +1081,7 @@ http://www.sciencespo.fr/ressources-numeriques/fr/content/regles-de-confidential
 
 - **Date:** 2014-03-14T17:02:40+01:00
 - **From:** ██████
-- **To:** <[REDACTED EMAIL]>,
+- **To:** <██████████████>,
 	<glen.w.wright@gmail.com>
 
 ```
@@ -1095,8 +1095,8 @@ Thanks and I hope you are enjoying your holidays !
 
 Best, ████
 
-De : █████████ [mailto:[REDACTED EMAIL]]
-Envoyé : vendredi 14 mars [REDACTED PHONE]:57
+De : █████████ ██████████████
+Envoyé : vendredi 14 mars ████████:57
 À : glen.w.wright@gmail.com
 Cc : ██████
 Objet : RE: recructement
@@ -1119,12 +1119,12 @@ Responsable Administrative
 Iddri
 Adresse physique: 41 rue du Four- 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE]
-Fax: [REDACTED PHONE]
+Tel : ████████
+Fax: ████████
 http://www.iddri.org <BLOCKED::http://www.iddri.org/>
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : mercredi 26 février [REDACTED PHONE]:25
+Envoyé : mercredi 26 février ████████:25
 À : ██████
 Objet : Re: Job offer at IDDRI
 
@@ -1192,9 +1192,9 @@ Secretary general
 Iddri
 Adresse physique: 41 rue du Four - 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2061>
-Cell: + 33 6 [REDACTED PHONE] 17 <tel:%2B%2033%206%2027%2019%2056%2017>
-Fax: [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2085>
+Tel : ████████ <tel:%2B331%2045%2049%2076%2061>
+Cell: + 33 6 ████████ 17 <tel:%2B%2033%206%2027%2019%2056%2017>
+Fax: ████████ <tel:%2B331%2045%2049%2076%2085>
 http://www.iddri.org <http://www.iddri.org/>
 
 --------------------------------------------------------------------------
@@ -1208,7 +1208,7 @@ Pour les consulter rendez-vous sur :
 --
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
-t [REDACTED PHONE] | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> ██████████████
 
 --------------------------------------------------------------------------
 
@@ -1250,9 +1250,9 @@ Best regards,
 ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : lundi 17 mars [REDACTED PHONE]:06
+Envoyé : lundi 17 mars ████████:06
 À : ██████
-Cc : [REDACTED EMAIL]
+Cc : ██████████████
 Objet : Re: recructement
 
 Salut ████ et ████,
@@ -1279,8 +1279,8 @@ Thanks and I hope you are enjoying your holidays !
 
 Best, ████
 
-De : █████████ [mailto:[REDACTED EMAIL]]
-Envoyé : vendredi 14 mars [REDACTED PHONE]:57
+De : █████████ ██████████████
+Envoyé : vendredi 14 mars ████████:57
 À : glen.w.wright@gmail.com
 Cc : ██████
 Objet : RE: recructement
@@ -1303,12 +1303,12 @@ Responsable Administrative
 Iddri
 Adresse physique: 41 rue du Four- 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2063>
-Fax: [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2085>
+Tel : ████████ <tel:%2B331%2045%2049%2076%2063>
+Fax: ████████ <tel:%2B331%2045%2049%2076%2085>
 http://www.iddri.org
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : mercredi 26 février [REDACTED PHONE]:25
+Envoyé : mercredi 26 février ████████:25
 À : ██████
 Objet : Re: Job offer at IDDRI
 
@@ -1376,9 +1376,9 @@ Secretary general
 Iddri
 Adresse physique: 41 rue du Four - 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2061>
-Cell: + 33 6 [REDACTED PHONE] 17 <tel:%2B%2033%206%2027%2019%2056%2017>
-Fax: [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2085>
+Tel : ████████ <tel:%2B331%2045%2049%2076%2061>
+Cell: + 33 6 ████████ 17 <tel:%2B%2033%206%2027%2019%2056%2017>
+Fax: ████████ <tel:%2B331%2045%2049%2076%2085>
 http://www.iddri.org <http://www.iddri.org/>
 
 --------------------------------------------------------------------------
@@ -1392,7 +1392,7 @@ Pour les consulter rendez-vous sur :
 --
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
-t [REDACTED PHONE] <tel:%2B61%202%[REDACTED PHONE]%[REDACTED PHONE]>  | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ <tel:%2B61%202%████████%████████>  | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> ██████████████
 
 --------------------------------------------------------------------------
 
@@ -1421,7 +1421,7 @@ Pour les consulter rendez-vous sur :
 --
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
-t [REDACTED PHONE] | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> ██████████████
 
 --
 --------------------------------------------------------------------------
@@ -1448,10 +1448,10 @@ A bientôt.
 
 Luicilia
 
-De : ██████ [mailto:[REDACTED EMAIL]] De la part de ██████
-Envoyé : lundi 17 mars [REDACTED PHONE]:58
+De : ██████ ██████████████ De la part de ██████
+Envoyé : lundi 17 mars ████████:58
 À : 'Glen Wright'
-Cc : [REDACTED EMAIL]; '████████'
+Cc : ██████████████; '████████'
 Objet : RE: recructement
 
 Merci beaucoup Glen, your French is amazing ! I don’t think it’s a problem if we transfer your first salary on someone else’s bank account, but i’ll let ████ answer on that.
@@ -1463,9 +1463,9 @@ Best regards,
 ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : lundi 17 mars [REDACTED PHONE]:06
+Envoyé : lundi 17 mars ████████:06
 À : ██████
-Cc : [REDACTED EMAIL]
+Cc : ██████████████
 Objet : Re: recructement
 
 Salut ████ et ████,
@@ -1492,8 +1492,8 @@ Thanks and I hope you are enjoying your holidays !
 
 Best, ████
 
-De : █████████ [mailto:[REDACTED EMAIL]]
-Envoyé : vendredi 14 mars [REDACTED PHONE]:57
+De : █████████ ██████████████
+Envoyé : vendredi 14 mars ████████:57
 À : glen.w.wright@gmail.com
 Cc : ██████
 Objet : RE: recructement
@@ -1516,12 +1516,12 @@ Responsable Administrative
 Iddri
 Adresse physique: 41 rue du Four- 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2063>
-Fax: [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2085>
+Tel : ████████ <tel:%2B331%2045%2049%2076%2063>
+Fax: ████████ <tel:%2B331%2045%2049%2076%2085>
 http://www.iddri.org
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : mercredi 26 février [REDACTED PHONE]:25
+Envoyé : mercredi 26 février ████████:25
 À : ██████
 Objet : Re: Job offer at IDDRI
 
@@ -1589,9 +1589,9 @@ Secretary general
 Iddri
 Adresse physique: 41 rue du Four - 75006 Paris
 Adresse postale: 27 rue Saint Guillaume - 75337 Paris Cedex 07
-Tel : [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2061>
-Cell: + 33 6 [REDACTED PHONE] 17 <tel:%2B%2033%206%2027%2019%2056%2017>
-Fax: [REDACTED PHONE] <tel:%2B331%2045%2049%2076%2085>
+Tel : ████████ <tel:%2B331%2045%2049%2076%2061>
+Cell: + 33 6 ████████ 17 <tel:%2B%2033%206%2027%2019%2056%2017>
+Fax: ████████ <tel:%2B331%2045%2049%2076%2085>
 http://www.iddri.org <http://www.iddri.org/>
 
 --------------------------------------------------------------------------
@@ -1605,7 +1605,7 @@ Pour les consulter rendez-vous sur :
 --
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
-t [REDACTED PHONE] <tel:%2B61%202%[REDACTED PHONE]%[REDACTED PHONE]>  | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ <tel:%2B61%202%████████%████████>  | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> ██████████████
 
 --------------------------------------------------------------------------
 
@@ -1634,7 +1634,7 @@ Pour les consulter rendez-vous sur :
 --
 
 Glen Wright | PhD Candidate | College of Law, Australian National University
-t [REDACTED PHONE] | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> [REDACTED EMAIL]
+t ████████ | www.  <http://www.glenwright.net/> GlenWright.net | @  <mailto:glen.w.wright@gmail.com> ██████████████
 
 --------------------------------------------------------------------------
 

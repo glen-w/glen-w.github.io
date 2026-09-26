@@ -142,7 +142,7 @@ Kind regards,
 Glen
 Wright
 
-[REDACTED EMAIL]
+██████████████
 
 +33
 6

@@ -20,9 +20,9 @@ Best regards,
 *███████
 *██████████████ <http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL] <mailto:[REDACTED EMAIL]>
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net <http://www.ren21.net/>
 
 *REN21 Secretariat
@@ -51,9 +51,9 @@ Kind regards,
 *███████
 *██████████████ <http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL] <mailto:[REDACTED EMAIL]>
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net <http://www.ren21.net/>
 
 *REN21 Secretariat
@@ -63,7 +63,7 @@ United Nations Environment Programme
 ██████████████ <http://www.ren21.net/gsr><http://www.ren21.net/gfr>
 
 > Glen Wright <mailto:glen.w.wright@gmail.com>
-> 1. August [REDACTED PHONE]:27
+> 1. August ████████:27
 > Dear ████,
 >
 > No problem at all. 10 AM Paris time tomorrow is fine for me.
@@ -76,8 +76,8 @@ United Nations Environment Programme
 > --
 > On 1/08/2013 2:04 PM, ███████ wrote:
 >
-> ███████ <mailto:[REDACTED EMAIL]>
-> 1. August [REDACTED PHONE]:04
+> ███████ <██████████████>
+> 1. August ████████:04
 > Dear Mr. Wright,
 >
 > Thank you very much for getting back to us. Would you be available for
@@ -138,9 +138,9 @@ Kind regards from Paris,
 *███████
 *██████████████ <http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL] <mailto:[REDACTED EMAIL]>
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net <http://www.ren21.net/>
 
 *REN21 Secretariat
@@ -176,9 +176,9 @@ Kind regards from Paris,
 *███████
 *██████████████ <http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL] <mailto:[REDACTED EMAIL]>
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net <http://www.ren21.net/>
 
 *REN21 Secretariat
@@ -188,7 +188,7 @@ United Nations Environment Programme
 ██████████████ <http://www.ren21.net/gsr>
 
 > Glen Wright <mailto:glen.w.wright@gmail.com>
-> 12. August [REDACTED PHONE]:52
+> 12. August ████████:52
 > Hi ████,
 >
 > Just wanted to confirm that I would be receiving a contract from you
@@ -200,8 +200,8 @@ United Nations Environment Programme
 > --
 > On 2/08/2013 9:28 AM, ███████ wrote:
 >
-> ███████ <mailto:[REDACTED EMAIL]>
-> 2. August [REDACTED PHONE]:28
+> ███████ <██████████████>
+> 2. August ████████:28
 >
 > Dear Glen,
 >
@@ -264,9 +264,9 @@ Best regards,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -278,8 +278,8 @@ F-75441 Paris CEDEX 09 • France
 [image: http://www.ren21.net/portals/0/Images/GSR2013.PNG]<http://www.ren21.net/gsr>[image:
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
-*From:* ███████ [mailto:[REDACTED EMAIL]]
-*Sent:* Dienstag, 13. August [REDACTED PHONE]:13
+*From:* ███████ ██████████████
+*Sent:* Dienstag, 13. August ████████:13
 *To:* ███████
 *Subject:* Fwd: REN21 Research Internship
 
@@ -302,9 +302,9 @@ Kind regards from Paris,
 *███████
 *██████████████ <http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -315,7 +315,7 @@ United Nations Environment Programme
 
 *Glen Wright* <glen.w.wright@gmail.com>
 
-12. August [REDACTED PHONE]:52
+12. August ████████:52
 
 Hi ████,
 
@@ -330,7 +330,7 @@ On 2/08/2013 9:28 AM, ███████ wrote:
 
 *███████
 
-2. August [REDACTED PHONE]:28
+2. August ████████:28
 
 Dear Glen,
 
@@ -384,7 +384,7 @@ The starting date works very well for us and should aid your hunt for
 suiting accommodation. Please find some links below, that might be helpful.
 I have also gotten in touch with a UNEP interns across the street, to see
 if they might have any suggestion. Please feel free to contact him, and he
-will circulate your email within their group ([REDACTED EMAIL])
+will circulate your email within their group (██████████████)
 :
 
 ·        www.pap.fr
@@ -415,9 +415,9 @@ Kind regards,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -430,7 +430,7 @@ F-75441 Paris CEDEX 09 • France
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
 *From:* Glen Wright [mailto:glen.w.wright@gmail.com]
-*Sent:* Montag, 19. August [REDACTED PHONE]:09
+*Sent:* Montag, 19. August ████████:09
 *To:* ███████
 *Subject:* Re: REN21 Research Internship
 
@@ -458,8 +458,8 @@ Glen
 
 *Glen Wright** **|** *PhD Candidate *|** **College of Law, Australian
 National University** *
-*t** *[REDACTED PHONE] *|** **www.** *GlenWright.net<http://www.glenwright.net>
-*|** **@** *[REDACTED EMAIL] <glen.w.wright@gmail.com>
+*t** *████████ *|** **www.** *GlenWright.net<http://www.glenwright.net>
+*|** **@** *██████████████ <glen.w.wright@gmail.com>
 
 On 13/08/2013 2:20 PM, ███████ wrote:
 
@@ -476,9 +476,9 @@ Best regards,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -490,8 +490,8 @@ F-75441 Paris CEDEX 09 • France
 [image: http://www.ren21.net/portals/0/Images/GSR2013.PNG]<http://www.ren21.net/gsr>[image:
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
-*From:* ███████ [mailto:[REDACTED EMAIL]]
-*Sent:* Dienstag, 13. August [REDACTED PHONE]:13
+*From:* ███████ ██████████████
+*Sent:* Dienstag, 13. August ████████:13
 *To:* ███████
 *Subject:* Fwd: REN21 Research Internship
 
@@ -514,9 +514,9 @@ Kind regards from Paris,
 *███████
 *██████████████ <http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -527,7 +527,7 @@ United Nations Environment Programme
 
 *Glen Wright* <glen.w.wright@gmail.com>
 
-12. August [REDACTED PHONE]:52
+12. August ████████:52
 
 Hi ████,
 
@@ -542,7 +542,7 @@ On 2/08/2013 9:28 AM, ███████ wrote:
 
 *███████
 
-2. August [REDACTED PHONE]:28
+2. August ████████:28
 
 Dear Glen,
 
@@ -599,9 +599,9 @@ Best,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -614,7 +614,7 @@ F-75441 Paris CEDEX 09 • France
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
 *From:* Glen Wright [mailto:glen.w.wright@gmail.com]
-*Sent:* Donnerstag, 29. August [REDACTED PHONE]:43
+*Sent:* Donnerstag, 29. August ████████:43
 *To:* ███████
 *Subject:* Re: REN21 Research Internship
 
@@ -631,8 +631,8 @@ Glen
 
 *Glen Wright** **|** *PhD Candidate *|** **College of Law, Australian
 National University** *
-*t** *[REDACTED PHONE] *|** **www.** *GlenWright.net<http://www.glenwright.net>
-*|** **@** *[REDACTED EMAIL] <glen.w.wright@gmail.com>
+*t** *████████ *|** **www.** *GlenWright.net<http://www.glenwright.net>
+*|** **@** *██████████████ <glen.w.wright@gmail.com>
 
 On 20/08/2013 2:03 PM, ███████ wrote:
 
@@ -644,7 +644,7 @@ The starting date works very well for us and should aid your hunt for
 suiting accommodation. Please find some links below, that might be helpful.
 I have also gotten in touch with a UNEP interns across the street, to see
 if they might have any suggestion. Please feel free to contact him, and he
-will circulate your email within their group ([REDACTED EMAIL])
+will circulate your email within their group (██████████████)
 :
 
 ·        www.pap.fr
@@ -675,9 +675,9 @@ Kind regards,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -690,7 +690,7 @@ F-75441 Paris CEDEX 09 • France
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
 *From:* Glen Wright [mailto:glen.w.wright@gmail.com]
-*Sent:* Montag, 19. August [REDACTED PHONE]:09
+*Sent:* Montag, 19. August ████████:09
 *To:* ███████
 *Subject:* Re: REN21 Research Internship
 
@@ -718,8 +718,8 @@ Glen
 
 *Glen Wright **| *PhD Candidate *| **College of Law, Australian National
 University *
-*t *[REDACTED PHONE] *| **www. *GlenWright.net <http://www.glenwright.net> *|
-**@ *[REDACTED EMAIL] <glen.w.wright@gmail.com>
+*t *████████ *| **www. *GlenWright.net <http://www.glenwright.net> *|
+**@ *██████████████ <glen.w.wright@gmail.com>
 
 On 13/08/2013 2:20 PM, ███████ wrote:
 
@@ -736,9 +736,9 @@ Best regards,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -750,8 +750,8 @@ F-75441 Paris CEDEX 09 • France
 [image: http://www.ren21.net/portals/0/Images/GSR2013.PNG]<http://www.ren21.net/gsr>[image:
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
-*From:* ███████ [mailto:[REDACTED EMAIL]]
-*Sent:* Dienstag, 13. August [REDACTED PHONE]:13
+*From:* ███████ ██████████████
+*Sent:* Dienstag, 13. August ████████:13
 *To:* ███████
 *Subject:* Fwd: REN21 Research Internship
 
@@ -774,9 +774,9 @@ Kind regards from Paris,
 *███████
 *██████████████ <http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -787,7 +787,7 @@ United Nations Environment Programme
 
 *Glen Wright* <glen.w.wright@gmail.com>
 
-12. August [REDACTED PHONE]:52
+12. August ████████:52
 
 Hi ████,
 
@@ -802,7 +802,7 @@ On 2/08/2013 9:28 AM, ███████ wrote:
 
 *███████
 
-2. August [REDACTED PHONE]:28
+2. August ████████:28
 
 Dear Glen,
 
@@ -859,9 +859,9 @@ See you on Monday,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -874,7 +874,7 @@ F-75441 Paris CEDEX 09 • France
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
 *From:* Glen Wright [mailto:glen.w.wright@gmail.com]
-*Sent:* Dienstag, 3. September [REDACTED PHONE]:10
+*Sent:* Dienstag, 3. September ████████:10
 *To:* ███████
 *Subject:* Re: REN21 Research Internship
 
@@ -896,10 +896,10 @@ Glen
 
 *Glen Wright** **|** *PhD Candidate *|** **College of Law, Australian
 National University** *
-*t** *[REDACTED PHONE] *|** **www.** *GlenWright.net<http://www.glenwright.net>
-*|** **@** *[REDACTED EMAIL] <glen.w.wright@gmail.com>
+*t** *████████ *|** **www.** *GlenWright.net<http://www.glenwright.net>
+*|** **@** *██████████████ <glen.w.wright@gmail.com>
 
-On 29/08/[REDACTED PHONE]:47 AM, ███████ wrote:
+On 29/08/████████:47 AM, ███████ wrote:
 
 Dear Glen,
 
@@ -912,9 +912,9 @@ Best,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -927,7 +927,7 @@ F-75441 Paris CEDEX 09 • France
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
 *From:* Glen Wright [mailto:glen.w.wright@gmail.com]
-*Sent:* Donnerstag, 29. August [REDACTED PHONE]:43
+*Sent:* Donnerstag, 29. August ████████:43
 *To:* ███████
 *Subject:* Re: REN21 Research Internship
 
@@ -944,8 +944,8 @@ Glen
 
 *Glen Wright **| *PhD Candidate *| **College of Law, Australian National
 University *
-*t *[REDACTED PHONE] *| **www. *GlenWright.net <http://www.glenwright.net> *|
-**@ *[REDACTED EMAIL] <glen.w.wright@gmail.com>
+*t *████████ *| **www. *GlenWright.net <http://www.glenwright.net> *|
+**@ *██████████████ <glen.w.wright@gmail.com>
 
 On 20/08/2013 2:03 PM, ███████ wrote:
 
@@ -957,7 +957,7 @@ The starting date works very well for us and should aid your hunt for
 suiting accommodation. Please find some links below, that might be helpful.
 I have also gotten in touch with a UNEP interns across the street, to see
 if they might have any suggestion. Please feel free to contact him, and he
-will circulate your email within their group ([REDACTED EMAIL])
+will circulate your email within their group (██████████████)
 :
 
 ·        www.pap.fr
@@ -988,9 +988,9 @@ Kind regards,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -1003,7 +1003,7 @@ F-75441 Paris CEDEX 09 • France
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
 *From:* Glen Wright [mailto:glen.w.wright@gmail.com]
-*Sent:* Montag, 19. August [REDACTED PHONE]:09
+*Sent:* Montag, 19. August ████████:09
 *To:* ███████
 *Subject:* Re: REN21 Research Internship
 
@@ -1031,8 +1031,8 @@ Glen
 
 *Glen Wright **| *PhD Candidate *| **College of Law, Australian National
 University *
-*t *[REDACTED PHONE] *| **www. *GlenWright.net <http://www.glenwright.net> *|
-**@ *[REDACTED EMAIL] <glen.w.wright@gmail.com>
+*t *████████ *| **www. *GlenWright.net <http://www.glenwright.net> *|
+**@ *██████████████ <glen.w.wright@gmail.com>
 
 On 13/08/2013 2:20 PM, ███████ wrote:
 
@@ -1049,9 +1049,9 @@ Best regards,
 
 [image: http://ren21.net/Portals/97/images/LogoREN21small.jpg]<http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -1063,8 +1063,8 @@ F-75441 Paris CEDEX 09 • France
 [image: http://www.ren21.net/portals/0/Images/GSR2013.PNG]<http://www.ren21.net/gsr>[image:
 http://www.ren21.net/portals/97/Gallery/GFRbanner1.png]<http://www.ren21.net/gfr>
 
-*From:* ███████ [mailto:[REDACTED EMAIL]]
-*Sent:* Dienstag, 13. August [REDACTED PHONE]:13
+*From:* ███████ ██████████████
+*Sent:* Dienstag, 13. August ████████:13
 *To:* ███████
 *Subject:* Fwd: REN21 Research Internship
 
@@ -1087,9 +1087,9 @@ Kind regards from Paris,
 *███████
 *██████████████ <http://ren21.net/>
 
-Phone: [REDACTED PHONE]
-Fax: [REDACTED PHONE]
-[REDACTED EMAIL]
+Phone: ████████
+Fax: ████████
+██████████████
 www.ren21.net
 
 *REN21 Secretariat
@@ -1100,7 +1100,7 @@ United Nations Environment Programme
 
 *Glen Wright* <glen.w.wright@gmail.com>
 
-12. August [REDACTED PHONE]:52
+12. August ████████:52
 
 Hi ████,
 
@@ -1115,7 +1115,7 @@ On 2/08/2013 9:28 AM, ███████ wrote:
 
 *███████
 
-2. August [REDACTED PHONE]:28
+2. August ████████:28
 
 Dear Glen,
 
@@ -1177,8 +1177,8 @@ Rana Adib
 Executive Director
 
 REN21
-www.ren21.net [REDACTED EMAIL]
-[REDACTED PHONE]
+www.ren21.net ██████████████
+████████
 
 Le mar. 28 févr. 2023, 19:11, Glen Wright <glen.w.wright@gmail.com> a
 écrit :

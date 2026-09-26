@@ -27,14 +27,14 @@ pour l'éducation, la science et la culture
 
 7, place de Fontenoy
 F-75352 Paris 07 SP
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
-Fax: +33 (0) 1 [REDACTED PHONE] 70
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tél.: +33 (0) 1 ████████ 33
+Fax: +33 (0) 1 ████████ 70
+██████████████
 http://whc.unesco.org/en/
 
 ________________________________
 From: Glen Wright [glen.w.wright@gmail.com]
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 To: World Heritage Recruitment
 Subject: Application - UNESCO WHC/PA 034
 To whom it may concern,
@@ -61,7 +61,7 @@ Thank you!
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -69,7 +69,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -99,14 +99,14 @@ pour l'éducation, la science et la culture
 
 7, place de Fontenoy
 F-75352 Paris 07 SP
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
-Fax: +33 (0) 1 [REDACTED PHONE] 70
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tél.: +33 (0) 1 ████████ 33
+Fax: +33 (0) 1 ████████ 70
+██████████████
 http://whc.unesco.org/en/
 
 ________________________________
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>]
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 To: World Heritage Recruitment
 Subject: Application - UNESCO WHC/PA 034
 To whom it may concern,
@@ -134,7 +134,7 @@ Best
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -142,7 +142,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -172,14 +172,14 @@ pour l'éducation, la science et la culture
 
 7, place de Fontenoy
 F-75352 Paris 07 SP
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
-Fax: +33 (0) 1 [REDACTED PHONE] 70
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tél.: +33 (0) 1 ████████ 33
+Fax: +33 (0) 1 ████████ 70
+██████████████
 http://whc.unesco.org/en/
 
 ________________________________
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>]
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 To: World Heritage Recruitment
 Subject: Application - UNESCO WHC/PA 034
 To whom it may concern,
@@ -204,7 +204,7 @@ Glen Wright
 
 --
 ██████████████ █████████████ [www.gobi.org](http://www.gobi.org), [www.seascpeconsultants.co.uk](http://www.seascpeconsultants.co.uk)
-██████████████ t:  [REDACTED PHONE] | Skype: ████.johnson12347 | Blog: http://profoutofoffice.tumblr.com
+██████████████ t:  ████████ | Skype: ████.johnson12347 | Blog: http://profoutofoffice.tumblr.com
 
  http://www.seascapeconsultants.co.uk/
 ```
@@ -222,7 +222,7 @@ Thank you,
 █████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -237,7 +237,7 @@ Best
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -245,7 +245,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -275,14 +275,14 @@ pour l'éducation, la science et la culture
 
 7, place de Fontenoy
 F-75352 Paris 07 SP
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
-Fax: +33 (0) 1 [REDACTED PHONE] 70
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tél.: +33 (0) 1 ████████ 33
+Fax: +33 (0) 1 ████████ 70
+██████████████
 http://whc.unesco.org/en/
 
 ________________________________
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>]
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 To: World Heritage Recruitment
 Subject: Application - UNESCO WHC/PA 034
 To whom it may concern,
@@ -316,12 +316,12 @@ On 28 April 2016 at 09:57, Glen Wright <glen.wright@sciencespo.fr> wrote:
 > --
 > <http://www.iddri.org>
 > *Glen Wright* *| Research Fellow, International Marine Policy*
-> *t *[REDACTED PHONE] | *@* glen.wright@iddri.org | *www*.iddri.org
+> *t *████████ | *@* glen.wright@iddri.org | *www*.iddri.org
 > <http://www.iddri.org/Iddri/Equipe/Wright>
 > Le 28/04/2016 à 10:54, ███████ a écrit :
 >
 > ███████ is in meetings with ya'all in Montreal. Returning Monday 2
-> May 2016. Isn't that a Bank Holiday? For urgent business +44(0)[REDACTED PHONE].
+> May 2016. Isn't that a Bank Holiday? For urgent business +44(0)████████.
 > (4 more …….. <http://profoutofoffice.tumblr.com/>
 > http://profoutofoffice.tumblr.com )
 >
@@ -332,7 +332,7 @@ On 28 April 2016 at 09:57, Glen Wright <glen.wright@sciencespo.fr> wrote:
 > █████████████ <http://www.gobi.org>www.gobi.org,
 > www.seascpeconsultants.co.uk
 > Director, Seascape Consultants Ltd | Belbins Valley, Romsey, UK SO51 0PE
-> t:  [REDACTED PHONE] | Skype: ████.johnson12347 | Blog:
+> t:  ████████ | Skype: ████.johnson12347 | Blog:
 > <http://profoutofoffice.tumblr.com>http://profoutofoffice.tumblr.com
 >
 >   <http://www.seascapeconsultants.co.uk/>
@@ -344,7 +344,7 @@ On 28 April 2016 at 09:57, Glen Wright <glen.wright@sciencespo.fr> wrote:
 ████ E ████ FRGS FCIWEM
 GOBI Programme Coordinator www.gobi.org, www.seascpeconsultants.co.uk
 Director, Seascape Consultants Ltd | Belbins Valley, Romsey, UK SO51 0PE
-t:  [REDACTED PHONE] | Skype: ████.johnson12347 | Blog:
+t:  ████████ | Skype: ████.johnson12347 | Blog:
 http://profoutofoffice.tumblr.com
 
   <http://www.seascapeconsultants.co.uk/>
@@ -361,7 +361,7 @@ Well recieved, thanks !
 m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -388,7 +388,7 @@ Thank you,
 █████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -403,7 +403,7 @@ Best
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -411,7 +411,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -441,14 +441,14 @@ pour l'éducation, la science et la culture
 
 7, place de Fontenoy
 F-75352 Paris 07 SP
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
-Fax: +33 (0) 1 [REDACTED PHONE] 70
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tél.: +33 (0) 1 ████████ 33
+Fax: +33 (0) 1 ████████ 70
+██████████████
 http://whc.unesco.org/en/
 
 ________________________________
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>]
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 To: World Heritage Recruitment
 Subject: Application - UNESCO WHC/PA 034
 To whom it may concern,
@@ -489,13 +489,13 @@ pour l'éducation, la science et la culture
 
 7, place de Fontenoy
 F-75352 Paris 07 SP
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
-Fax: +33 (0) 1 [REDACTED PHONE] 70
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tél.: +33 (0) 1 ████████ 33
+Fax: +33 (0) 1 ████████ 70
+██████████████
 http://whc.unesco.org/en/
 
 From: ██████
-Sent: vendredi 29 avril [REDACTED PHONE]:26
+Sent: vendredi 29 avril ████████:26
 To: 'Glen Wright'
 Subject: RE: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -503,7 +503,7 @@ Well recieved, thanks !
 m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -529,7 +529,7 @@ Thank you,
 █████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -544,7 +544,7 @@ Best
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -552,7 +552,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -582,14 +582,14 @@ pour l'éducation, la science et la culture
 
 7, place de Fontenoy
 F-75352 Paris 07 SP
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
-Fax: +33 (0) 1 [REDACTED PHONE] 70
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tél.: +33 (0) 1 ████████ 33
+Fax: +33 (0) 1 ████████ 70
+██████████████
 http://whc.unesco.org/en/
 
 ________________________________
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>]
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 To: World Heritage Recruitment
 Subject: Application - UNESCO WHC/PA 034
 To whom it may concern,
@@ -650,13 +650,13 @@ pour l’éducation, la science et la culture
 
 7, place de Fontenoy
 F-75352 Paris 07 SP
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
-Fax: +33 (0) 1 [REDACTED PHONE] 70
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tél.: +33 (0) 1 ████████ 33
+Fax: +33 (0) 1 ████████ 70
+██████████████
 http://whc.unesco.org/en/
 
 From: ██████
-Sent: vendredi 29 avril [REDACTED PHONE]:26
+Sent: vendredi 29 avril ████████:26
 To: 'Glen Wright'
 Subject: RE: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -664,7 +664,7 @@ Well recieved, thanks !
 m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -690,7 +690,7 @@ Thank you,
 █████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -705,7 +705,7 @@ Best
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 To: ██████
 Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 
@@ -713,7 +713,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -743,14 +743,14 @@ pour l’éducation, la science et la culture
 
 7, place de Fontenoy
 F-75352 Paris 07 SP
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
-Fax: +33 (0) 1 [REDACTED PHONE] 70
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tél.: +33 (0) 1 ████████ 33
+Fax: +33 (0) 1 ████████ 70
+██████████████
 http://whc.unesco.org/en/
 
 ________________________________
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>]
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 To: World Heritage Recruitment
 Subject: Application - UNESCO WHC/PA 034
 To whom it may concern,
@@ -842,16 +842,16 @@ Le 02/06/2016 à 23:45, ███████ a écrit :
 >
 > 7, place de Fontenoy
 > F-75352 Paris 07 SP
-> Tél.: +33 (0) 1 [REDACTED PHONE] 33
-> Fax: +33 (0) 1 [REDACTED PHONE] 70
-> [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+> Tél.: +33 (0) 1 ████████ 33
+> Fax: +33 (0) 1 ████████ 70
+> ██████████████
 > http://whc.unesco.org/en/
 >
 >
 >
 >
 > From: ██████
-> Sent: vendredi 29 avril [REDACTED PHONE]:26
+> Sent: vendredi 29 avril ████████:26
 > To: 'Glen Wright'
 > Subject: RE: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 >
@@ -859,7 +859,7 @@ Le 02/06/2016 à 23:45, ███████ a écrit :
 > m
 >
 > From: Glen Wright [mailto:glen.w.wright@gmail.com]
-> Sent: vendredi 29 avril [REDACTED PHONE]:31
+> Sent: vendredi 29 avril ████████:31
 > To: ██████
 > Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 >
@@ -886,7 +886,7 @@ Le 02/06/2016 à 23:45, ███████ a écrit :
 >
 >
 > From: Glen Wright [mailto:glen.w.wright@gmail.com]
-> Sent: mardi 26 avril [REDACTED PHONE]:48
+> Sent: mardi 26 avril ████████:48
 > To: ██████
 > Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 >
@@ -902,7 +902,7 @@ Le 02/06/2016 à 23:45, ███████ a écrit :
 >
 >
 > From: Glen Wright [mailto:glen.w.wright@gmail.com]
-> Sent: mardi 26 avril [REDACTED PHONE]:30
+> Sent: mardi 26 avril ████████:30
 > To: ██████
 > Subject: Re: Application - UNESCO WHC/PA 034 - entreien avec le panel de sélection
 >
@@ -910,7 +910,7 @@ Le 02/06/2016 à 23:45, ███████ a écrit :
 >
 > Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 >
-> Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+> Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 >
 > Est-ce que l'entretien sera effectuée en anglais ou en français?
 >
@@ -943,9 +943,9 @@ Le 02/06/2016 à 23:45, ███████ a écrit :
 >
 > 7, place de Fontenoy
 > F-75352 Paris 07 SP
-> Tél.: +33 (0) 1 [REDACTED PHONE] 33
-> Fax: +33 (0) 1 [REDACTED PHONE] 70
-> [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+> Tél.: +33 (0) 1 ████████ 33
+> Fax: +33 (0) 1 ████████ 70
+> ██████████████
 > http://whc.unesco.org/en/
 >
 >
@@ -954,7 +954,7 @@ Le 02/06/2016 à 23:45, ███████ a écrit :
 >
 > ________________________________
 > From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>]
-> Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+> Sent: Wednesday, March 23, ████████:44 PM
 > To: World Heritage Recruitment
 > Subject: Application - UNESCO WHC/PA 034
 > To whom it may concern,
@@ -992,7 +992,7 @@ Kind regards
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 7 octobre [REDACTED PHONE]:03
+Sent: vendredi 7 octobre ████████:03
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -1135,17 +1135,17 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
 From: ██████
 
-Sent: vendredi 29 avril [REDACTED PHONE]:26
+Sent: vendredi 29 avril ████████:26
 
 To: 'Glen Wright'
 
@@ -1157,7 +1157,7 @@ m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 
 To: ██████
 
@@ -1193,7 +1193,7 @@ Thank you,
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 
 To: ██████
 
@@ -1217,7 +1217,7 @@ Best
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 
 To: ██████
 
@@ -1227,7 +1227,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -1273,11 +1273,11 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
@@ -1285,7 +1285,7 @@ ________________________________
 
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com>]
 
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 
 To: World Heritage Recruitment
 
@@ -1352,7 +1352,7 @@ Le 12/11/2016 à 22:00, Glen Wright a écrit :
 > -------- Message transféré --------
 > Sujet : 	RE: FW: Application - UNESCO WHC/PA 034 - Résultats du
 > processus de sélection
-> Date : 	Thu, 10 Nov [REDACTED PHONE]:35:20 [REDACTED PHONE]
+> Date : 	Thu, 10 Nov ████████:35:20 ████████
 > ██████████
 > Pour : 	Glen Wright <glen.w.wright@gmail.com>
 >
@@ -1390,7 +1390,7 @@ Le 12/11/2016 à 22:00, Glen Wright a écrit :
 --
 <http://www.iddri.org>
 	*████████ * *| Programme Coordinator, Oceans and Coasts*
-*t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+*t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 <http://www.iddri.org>
 ```
 
@@ -1405,7 +1405,7 @@ Excellent. I'll await your return for a timing.
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: samedi 12 novembre [REDACTED PHONE]:50
+Sent: samedi 12 novembre ████████:50
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -1431,7 +1431,7 @@ Kind regards
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 7 octobre [REDACTED PHONE]:03
+Sent: vendredi 7 octobre ████████:03
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -1574,17 +1574,17 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
 From: ██████
 
-Sent: vendredi 29 avril [REDACTED PHONE]:26
+Sent: vendredi 29 avril ████████:26
 
 To: 'Glen Wright'
 
@@ -1596,7 +1596,7 @@ m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 
 To: ██████
 
@@ -1632,7 +1632,7 @@ Thank you,
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 
 To: ██████
 
@@ -1656,7 +1656,7 @@ Best
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 
 To: ██████
 
@@ -1666,7 +1666,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -1712,11 +1712,11 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
@@ -1724,7 +1724,7 @@ ________________________________
 
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com>]
 
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 
 To: World Heritage Recruitment
 
@@ -1761,7 +1761,7 @@ Glen Wright
 --
 <http://www.iddri.org>
 	*████████ * *| Programme Coordinator, Oceans and Coasts*
-*t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+*t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 <http://www.iddri.org>
 ```
 
@@ -1780,7 +1780,7 @@ Is there no time at all this year where we could meet the Director - this would 
 F.
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mercredi 16 novembre [REDACTED PHONE]:54
+Sent: mercredi 16 novembre ████████:54
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -1799,7 +1799,7 @@ Excellent. I'll await your return for a timing.
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: samedi 12 novembre [REDACTED PHONE]:50
+Sent: samedi 12 novembre ████████:50
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -1825,7 +1825,7 @@ Kind regards
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 7 octobre [REDACTED PHONE]:03
+Sent: vendredi 7 octobre ████████:03
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -1968,17 +1968,17 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
 From: ██████
 
-Sent: vendredi 29 avril [REDACTED PHONE]:26
+Sent: vendredi 29 avril ████████:26
 
 To: 'Glen Wright'
 
@@ -1990,7 +1990,7 @@ m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 
 To: ██████
 
@@ -2026,7 +2026,7 @@ Thank you,
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 
 To: ██████
 
@@ -2050,7 +2050,7 @@ Best
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 
 To: ██████
 
@@ -2060,7 +2060,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -2106,11 +2106,11 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
@@ -2118,7 +2118,7 @@ ________________________________
 
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com>]
 
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 
 To: World Heritage Recruitment
 
@@ -2161,7 +2161,7 @@ Le 16/11/2016 à 12:23, Glen Wright a écrit :
 > -------- Message transféré --------
 > Sujet : 	RE: FW: Application - UNESCO WHC/PA 034 - Résultats du
 > processus de sélection
-> Date : 	Wed, 16 Nov [REDACTED PHONE]:57:03 [REDACTED PHONE]
+> Date : 	Wed, 16 Nov ████████:57:03 ████████
 > ██████████
 > Pour : 	Glen Wright <glen.w.wright@gmail.com>
 > ████████████
@@ -2184,7 +2184,7 @@ Le 16/11/2016 à 12:23, Glen Wright a écrit :
 > F.
 >
 > *From:*Glen Wright [mailto:glen.w.wright@gmail.com]
-> *Sent:* mercredi 16 novembre [REDACTED PHONE]:54
+> *Sent:* mercredi 16 novembre ████████:54
 > *To:* ███████
 > *Subject:* Re: FW: Application - UNESCO WHC/PA 034 - Résultats du
 > processus de sélection
@@ -2209,7 +2209,7 @@ Le 16/11/2016 à 12:23, Glen Wright a écrit :
 >     ████
 >
 >     *From:*Glen Wright [mailto:glen.w.wright@gmail.com]
->     *Sent:* samedi 12 novembre [REDACTED PHONE]:50
+>     *Sent:* samedi 12 novembre ████████:50
 >     *To:* ███████
 >     *Subject:* Re: FW: Application - UNESCO WHC/PA 034 - Résultats du
 >     processus de sélection
@@ -2264,7 +2264,7 @@ Le 16/11/2016 à 12:23, Glen Wright a écrit :
 --
 <http://www.iddri.org>
 	*████████ * *| Programme Coordinator, Oceans and Coasts*
-*t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+*t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 <http://www.iddri.org>
 ```
 
@@ -2313,7 +2313,7 @@ Le 16/11/2016 à 14:03, Glen Wright a écrit :
 >>> -------- Message transféré --------
 >>> Sujet : 	RE: FW: Application - UNESCO WHC/PA 034 - Résultats du
 >>> processus de sélection
->>> Date : 	Wed, 16 Nov [REDACTED PHONE]:57:03 [REDACTED PHONE]
+>>> Date : 	Wed, 16 Nov ████████:57:03 ████████
 >>> ██████████
 >>> Pour : 	Glen Wright <glen.w.wright@gmail.com>
 >>> ████████████
@@ -2336,7 +2336,7 @@ Le 16/11/2016 à 14:03, Glen Wright a écrit :
 >>> F.
 >>>
 >>> *From:*Glen Wright [mailto:glen.w.wright@gmail.com]
->>> *Sent:* mercredi 16 novembre [REDACTED PHONE]:54
+>>> *Sent:* mercredi 16 novembre ████████:54
 >>> *To:* ███████
 >>> *Subject:* Re: FW: Application - UNESCO WHC/PA 034 - Résultats du
 >>> processus de sélection
@@ -2361,7 +2361,7 @@ Le 16/11/2016 à 14:03, Glen Wright a écrit :
 >>>     ████
 >>>
 >>>     *From:*Glen Wright [mailto:glen.w.wright@gmail.com]
->>>     *Sent:* samedi 12 novembre [REDACTED PHONE]:50
+>>>     *Sent:* samedi 12 novembre ████████:50
 >>>     *To:* ███████
 >>>     *Subject:* Re: FW: Application - UNESCO WHC/PA 034 - Résultats
 >>>     du processus de sélection
@@ -2417,7 +2417,7 @@ Le 16/11/2016 à 14:03, Glen Wright a écrit :
 >> --
 >> <http://www.iddri.org>
 >> 	*████████ * *| Programme Coordinator, Oceans and Coasts*
->> *t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+>> *t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 >> <http://www.iddri.org>
 >>
 >>
@@ -2428,7 +2428,7 @@ Le 16/11/2016 à 14:03, Glen Wright a écrit :
 --
 <http://www.iddri.org>
 	*████████ * *| Programme Coordinator, Oceans and Coasts*
-*t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+*t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 <http://www.iddri.org>
 ```
 
@@ -2453,12 +2453,12 @@ Best regards,
 UNESCO World Heritage Centre
 Programme Assistant
 World Heritage Marine Programme
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
-Tel. +33 (0) 1 [REDACTED PHONE] 55
+██████████████
+Tel. +33 (0) 1 ████████ 55
 [Logo_EN_website]
 
 De : ███████
-Envoyé : mercredi 16 novembre [REDACTED PHONE]:57
+Envoyé : mercredi 16 novembre ████████:57
 À : Glen Wright <glen.w.wright@gmail.com>
 ██████████
 Objet : RE: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
@@ -2471,7 +2471,7 @@ Is there no time at all this year where we could meet the Director - this would 
 F.
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mercredi 16 novembre [REDACTED PHONE]:54
+Sent: mercredi 16 novembre ████████:54
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -2489,7 +2489,7 @@ Excellent. I'll await your return for a timing.
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: samedi 12 novembre [REDACTED PHONE]:50
+Sent: samedi 12 novembre ████████:50
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -2515,7 +2515,7 @@ Kind regards
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 7 octobre [REDACTED PHONE]:03
+Sent: vendredi 7 octobre ████████:03
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -2658,17 +2658,17 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
 From: ██████
 
-Sent: vendredi 29 avril [REDACTED PHONE]:26
+Sent: vendredi 29 avril ████████:26
 
 To: 'Glen Wright'
 
@@ -2680,7 +2680,7 @@ m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 
 To: ██████
 
@@ -2716,7 +2716,7 @@ Thank you,
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 
 To: ██████
 
@@ -2740,7 +2740,7 @@ Best
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 
 To: ██████
 
@@ -2750,7 +2750,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -2796,11 +2796,11 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
@@ -2808,7 +2808,7 @@ ________________________________
 
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com>]
 
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 
 To: World Heritage Recruitment
 
@@ -2841,7 +2841,7 @@ Best regards,
 ████
 
 De : Glen Wright [mailto:glen.w.wright@gmail.com]
-Envoyé : mercredi 16 novembre [REDACTED PHONE]:51
+Envoyé : mercredi 16 novembre ████████:51
 █████████
 ██████████
 Objet : Re: Meeting IDDRI - 1st December
@@ -2868,14 +2868,14 @@ Best regards,
 UNESCO World Heritage Centre
 Programme Assistant
 World Heritage Marine Programme
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
-Tel. +33 (0) 1 [REDACTED PHONE] 55
+██████████████
+Tel. +33 (0) 1 ████████ 55
 [Logo_EN_website]
 
 De : ███████
-Envoyé : mercredi 16 novembre [REDACTED PHONE]:57
+Envoyé : mercredi 16 novembre ████████:57
 À : Glen Wright <glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com>
-██████████<mailto:[REDACTED EMAIL]>
+██████████
 Objet : RE: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
 Hi Glen,
@@ -2886,7 +2886,7 @@ Is there no time at all this year where we could meet the Director - this would 
 F.
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mercredi 16 novembre [REDACTED PHONE]:54
+Sent: mercredi 16 novembre ████████:54
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -2904,7 +2904,7 @@ Excellent. I'll await your return for a timing.
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: samedi 12 novembre [REDACTED PHONE]:50
+Sent: samedi 12 novembre ████████:50
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -2930,7 +2930,7 @@ Kind regards
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 7 octobre [REDACTED PHONE]:03
+Sent: vendredi 7 octobre ████████:03
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -3073,17 +3073,17 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
 From: ██████
 
-Sent: vendredi 29 avril [REDACTED PHONE]:26
+Sent: vendredi 29 avril ████████:26
 
 To: 'Glen Wright'
 
@@ -3095,7 +3095,7 @@ m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 
 To: ██████
 
@@ -3131,7 +3131,7 @@ Thank you,
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 
 To: ██████
 
@@ -3155,7 +3155,7 @@ Best
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 
 To: ██████
 
@@ -3165,7 +3165,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -3211,11 +3211,11 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
@@ -3223,7 +3223,7 @@ ________________________________
 
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com>]
 
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 
 To: World Heritage Recruitment
 
@@ -3250,7 +3250,7 @@ Glen Wright
 HI Glen,
 All good. Have a look with ████ for a call in advance preferably not next week as I'm travelling.
 
-What I have in mind is an initial contract for 4-6 months for an amount somewhere between [REDACTED PHONE] euros/month. The tasks would be a combination of:
+What I have in mind is an initial contract for 4-6 months for an amount somewhere between ████████ euros/month. The tasks would be a combination of:
 
 a.       Assistance to some of the core state of conservation dossiers, most likely Banc d'Arguin in Mauritania where we try to get the site a PSSA and Belize Barrier Reef which we try to get off the Danger list. There might be others along the way where on an occasional basis we would need some extra help with some research;
 
@@ -3269,7 +3269,7 @@ Let me know your thoughts.
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mercredi 16 novembre [REDACTED PHONE]:01
+Sent: mercredi 16 novembre ████████:01
 To: ███████
 Cc: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
@@ -3294,7 +3294,7 @@ Is there no time at all this year where we could meet the Director - this would 
 F.
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mercredi 16 novembre [REDACTED PHONE]:54
+Sent: mercredi 16 novembre ████████:54
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -3313,7 +3313,7 @@ Excellent. I'll await your return for a timing.
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: samedi 12 novembre [REDACTED PHONE]:50
+Sent: samedi 12 novembre ████████:50
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -3339,7 +3339,7 @@ Kind regards
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 7 octobre [REDACTED PHONE]:03
+Sent: vendredi 7 octobre ████████:03
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -3482,17 +3482,17 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
 From: ██████
 
-Sent: vendredi 29 avril [REDACTED PHONE]:26
+Sent: vendredi 29 avril ████████:26
 
 To: 'Glen Wright'
 
@@ -3504,7 +3504,7 @@ m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 
 To: ██████
 
@@ -3540,7 +3540,7 @@ Thank you,
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 
 To: ██████
 
@@ -3564,7 +3564,7 @@ Best
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 
 To: ██████
 
@@ -3574,7 +3574,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -3620,11 +3620,11 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
@@ -3632,7 +3632,7 @@ ________________________________
 
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com>]
 
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 
 To: World Heritage Recruitment
 
@@ -3665,7 +3665,7 @@ Best wishes
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 18 novembre [REDACTED PHONE]:09
+Sent: vendredi 18 novembre ████████:09
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -3683,7 +3683,7 @@ Le 18/11/2016 à 12:49, ███████ a écrit :
 HI Glen,
 All good. Have a look with ████ for a call in advance preferably not next week as I'm travelling.
 
-What I have in mind is an initial contract for 4-6 months for an amount somewhere between [REDACTED PHONE] euros/month. The tasks would be a combination of:
+What I have in mind is an initial contract for 4-6 months for an amount somewhere between ████████ euros/month. The tasks would be a combination of:
 
 a.       Assistance to some of the core state of conservation dossiers, most likely Banc d'Arguin in Mauritania where we try to get the site a PSSA and Belize Barrier Reef which we try to get off the Danger list. There might be others along the way where on an occasional basis we would need some extra help with some research;
 
@@ -3702,7 +3702,7 @@ Let me know your thoughts.
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mercredi 16 novembre [REDACTED PHONE]:01
+Sent: mercredi 16 novembre ████████:01
 To: ███████
 Cc: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
@@ -3727,7 +3727,7 @@ Is there no time at all this year where we could meet the Director - this would 
 F.
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mercredi 16 novembre [REDACTED PHONE]:54
+Sent: mercredi 16 novembre ████████:54
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -3746,7 +3746,7 @@ Excellent. I'll await your return for a timing.
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: samedi 12 novembre [REDACTED PHONE]:50
+Sent: samedi 12 novembre ████████:50
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -3772,7 +3772,7 @@ Kind regards
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: vendredi 7 octobre [REDACTED PHONE]:03
+Sent: vendredi 7 octobre ████████:03
 To: ███████
 Subject: Re: FW: Application - UNESCO WHC/PA 034 - Résultats du processus de sélection
 
@@ -3915,17 +3915,17 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
 From: ██████
 
-Sent: vendredi 29 avril [REDACTED PHONE]:26
+Sent: vendredi 29 avril ████████:26
 
 To: 'Glen Wright'
 
@@ -3937,7 +3937,7 @@ m
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: vendredi 29 avril [REDACTED PHONE]:31
+Sent: vendredi 29 avril ████████:31
 
 To: ██████
 
@@ -3973,7 +3973,7 @@ Thank you,
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:48
+Sent: mardi 26 avril ████████:48
 
 To: ██████
 
@@ -3997,7 +3997,7 @@ Best
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
 
-Sent: mardi 26 avril [REDACTED PHONE]:30
+Sent: mardi 26 avril ████████:30
 
 To: ██████
 
@@ -4007,7 +4007,7 @@ Bonjour Monsieur ████,
 
 Je vous remercie pour ces bonnes nouvelles - je suis très heureux d'avoir été sélectionné pour un entretien.
 
-Je serai disponible vendredi à 12h. Mon numéro est [REDACTED PHONE] (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
+Je serai disponible vendredi à 12h. Mon numéro est ████████ (je serai au Royaume-Uni - je crois que c'est nécessaire d'ajouter le code de pays).
 
 Est-ce que l'entretien sera effectuée en anglais ou en français?
 
@@ -4053,11 +4053,11 @@ pour l'éducation, la science et la culture
 
 F-75352 Paris 07 SP
 
-Tél.: +33 (0) 1 [REDACTED PHONE] 33
+Tél.: +33 (0) 1 ████████ 33
 
-Fax: +33 (0) 1 [REDACTED PHONE] 70
+Fax: +33 (0) 1 ████████ 70
 
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]><mailto:[REDACTED EMAIL]>
+██████████████
 
 http://whc.unesco.org/en/
 
@@ -4065,7 +4065,7 @@ ________________________________
 
 From: Glen Wright [glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com><mailto:glen.w.wright@gmail.com>]
 
-Sent: Wednesday, March 23, [REDACTED PHONE]:44 PM
+Sent: Wednesday, March 23, ████████:44 PM
 
 To: World Heritage Recruitment
 
@@ -4135,7 +4135,7 @@ Le 18/11/2016 à 15:46, Glen Wright a écrit :
 > --
 > <http://www.iddri.org>
 > 	*Glen Wright* *| Research Fellow, International Marine Policy*
-> *t *[REDACTED PHONE] | *@* glen.wright@iddri.org | *www*.iddri.org
+> *t *████████ | *@* glen.wright@iddri.org | *www*.iddri.org
 > <http://www.iddri.org/Iddri/Equipe/Wright>
 >
 >
@@ -4145,7 +4145,7 @@ Le 18/11/2016 à 15:46, Glen Wright a écrit :
 --
 <http://www.iddri.org>
 	*████████ * *| Programme Coordinator, Oceans and Coasts*
-*t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+*t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 <http://www.iddri.org>
 ```
 
@@ -4199,7 +4199,7 @@ Le 18/11/2016 à 17:33, Glen Wright a écrit :
 > --
 > <http://www.iddri.org>
 > 	*Glen Wright* *| Research Fellow, International Marine Policy*
-> *t *[REDACTED PHONE] | *@* glen.wright@iddri.org | *www*.iddri.org
+> *t *████████ | *@* glen.wright@iddri.org | *www*.iddri.org
 > <http://www.iddri.org/Iddri/Equipe/Wright>
 >
 >
@@ -4250,7 +4250,7 @@ Le 18/11/2016 à 17:33, Glen Wright a écrit :
 >>> --
 >>> <http://www.iddri.org>
 >>> 	*Glen Wright* *| Research Fellow, International Marine Policy*
->>> *t *[REDACTED PHONE] | *@* glen.wright@iddri.org | *www*.iddri.org
+>>> *t *████████ | *@* glen.wright@iddri.org | *www*.iddri.org
 >>> <http://www.iddri.org/Iddri/Equipe/Wright>
 >>>
 >>>
@@ -4261,7 +4261,7 @@ Le 18/11/2016 à 17:33, Glen Wright a écrit :
 >> --
 >> <http://www.iddri.org>
 >> 	*████████ * *| Programme Coordinator, Oceans and Coasts*
->> *t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+>> *t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 >> <http://www.iddri.org>
 >>
 >>
@@ -4272,7 +4272,7 @@ Le 18/11/2016 à 17:33, Glen Wright a écrit :
 --
 <http://www.iddri.org>
 	*████████ * *| Programme Coordinator, Oceans and Coasts*
-*t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+*t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 <http://www.iddri.org>
 ```
 
@@ -4309,7 +4309,7 @@ Bien à toi,
 --
 <http://www.iddri.org>
 	*████████ * *| Programme Coordinator, Oceans and Coasts*
-*t *+33(0)[REDACTED PHONE] | *@* [REDACTED EMAIL] | *www*.iddri.org
+*t *+33(0)████████ | *@* ██████████████ | *www*.iddri.org
 <http://www.iddri.org>
 ```
 
@@ -4337,15 +4337,15 @@ Très bonne journée.
 [██████████████ <http://whc.unesco.org/en/marine-programme/>
 
 ███████ / Coordinator Marine Programme
-[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+██████████████
 UNESCO World Heritage Centre
-[REDACTED PHONE]
+████████
 Place Fontenoy, 7, 75007 Paris, FRANCE
 http://whc.unesco.org/en/marine-programme/
 [Facebook] <https://www.facebook.com/marineworldheritage> [Twitter]  <https://twitter.com/Fdouvere> [Youtube] <https://www.youtube.com/watch?v=LQlDpZJa49s>
 
-From: ████████ [mailto:[REDACTED EMAIL]]
-Sent: mercredi 14 décembre [REDACTED PHONE]:29
+From: ████████ ██████████████
+Sent: mercredi 14 décembre ████████:29
 To: ███████
 Cc: Glen WRIGHT
 Subject: Suite de notre discussion
@@ -4365,10 +4365,10 @@ Bien à toi,
 --
 
 --
-[cid:image007.png@01D2561A.[REDACTED PHONE]B0]<http://www.iddri.org>
+[cid:image007.png@01D2561A.████████B0]<http://www.iddri.org>
 
 ████████ | Programme Coordinator, Oceans and Coasts
-t +33(0)[REDACTED PHONE] | @ [REDACTED EMAIL]<mailto:[REDACTED EMAIL]> | www.iddri.org<http://www.iddri.org>
+t +33(0)████████ | @ ██████████████ | www.iddri.org<http://www.iddri.org>
 ```
 
 ## 26. Re: Working with World Heritage Marine Programme
@@ -4422,7 +4422,7 @@ The work package would include different dossiers and assistance to the programm
 ████
 
 From: Glen Wright [mailto:glen.w.wright@gmail.com]
-Sent: mercredi 16 août [REDACTED PHONE]:31
+Sent: mercredi 16 août ████████:31
 █████████
 Subject: Re: Working with World Heritage Marine Programme
 
@@ -4447,7 +4447,7 @@ Kind regards,
 
 Glen
 
-On 11 July 2017 at 12:51, ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>> wrote:
+On 11 July 2017 at 12:51, ███████ <██████████████> wrote:
 Hi Glen,
 
 I hope you are well.
@@ -4464,7 +4464,7 @@ Kind regards
 
 -----Original Message-----
 From: ███████
-Sent: dimanche 28 mai [REDACTED PHONE]:29
+Sent: dimanche 28 mai ████████:29
 To: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Subject: Re: Working with World Heritage Marine Programme
 
@@ -4510,7 +4510,7 @@ wrote:
 
 > ---------- Message transféré ----------
 > De : ███████
-> Date : 21 août [REDACTED PHONE]:06
+> Date : 21 août ████████:06
 > Objet : RE: Working with World Heritage Marine Programme
 > À : "Glen Wright" <glen.w.wright@gmail.com>
 > Cc :
@@ -4548,7 +4548,7 @@ wrote:
 >
 >
 > *From:* Glen Wright [mailto:glen.w.wright@gmail.com]
-> *Sent:* mercredi 16 août [REDACTED PHONE]:31
+> *Sent:* mercredi 16 août ████████:31
 > *██████████
 > *Subject:* Re: Working with World Heritage Marine Programme
 >
@@ -4644,7 +4644,7 @@ wrote:
 >
 > -----Original Message-----
 > From: ███████
-> Sent: dimanche 28 mai [REDACTED PHONE]:29
+> Sent: dimanche 28 mai ████████:29
 > To: Glen Wright <glen.w.wright@gmail.com>
 > Subject: Re: Working with World Heritage Marine Programme
 >
@@ -4699,7 +4699,7 @@ wrote:
 
 ```
 September News from UNESCO's World Heritage Marine Programme.
-View this email in your browser (http://mailchi.mp/unesco/june-news-from-the-unesco-world-heritage-marine-programme-[REDACTED PHONE]?e=3a3bf8b815)
+View this email in your browser (http://mailchi.mp/unesco/june-news-from-the-unesco-world-heritage-marine-programme-████████?e=3a3bf8b815)
 
 ** Marine World Heritage News:
 September 2017
@@ -4743,7 +4743,7 @@ Read more (http://whc.unesco.org/en/news/1718)
 UNESCO's World Heritage Centre and the Aquarium of Paris are launching a major new exhibit on "Coral Reefs on UNESCO's World Heritage List" starting on 3 October. Through photo panels, short films and virtual reality experiences, the exhibit will showcase the Outstanding Universal Value of World Heritage coral reefs and shed light on the devastating impacts of climate change on these iconic places. Special educational events will be held for families and children on the effects of climate change and coral reefs.
 
 For more information contact:
-[REDACTED EMAIL] (mailto:[REDACTED EMAIL]?subject=Photo%20expo)
+██████████████ (██████████████?subject=Photo%20expo)
 
 ============================================================
 ** (http://www.facebook.com/marineworldheritage)
@@ -4753,10 +4753,10 @@ For more information contact:
 Copyright © 2017, UNESCO World Heritage Centre Marine Programme, All rights reserved.
 
 Our mailing address is:
-[REDACTED EMAIL]
+██████████████
 
-** unsubscribe from this list (http://unesco.us10.list-manage.com/unsubscribe?u=092a6e3d744a0abb40ba528fe&id=a8d[REDACTED PHONE]&e=3a3bf8b815&c=41297e612a)
-** update subscription preferences (http://unesco.us10.list-manage1.com/profile?u=092a6e3d744a0abb40ba528fe&id=a8d[REDACTED PHONE]&e=3a3bf8b815)
+** unsubscribe from this list (http://unesco.us10.list-manage.com/unsubscribe?u=092a6e3d744a0abb40ba528fe&id=a8d████████&e=3a3bf8b815&c=41297e612a)
+** update subscription preferences (http://unesco.us10.list-manage1.com/profile?u=092a6e3d744a0abb40ba528fe&id=a8d████████&e=3a3bf8b815)
 ```
 
 ## 30. Marine world Heritage
@@ -4830,7 +4830,7 @@ Kind regards
 Dear Sir, Madam,
 Please be informed that the World Heritage Centre is soliciting proposals for a review of the Operational Guidelines (for the implementation of the World Heritage Convention) which would enable the nomination and protection of World Heritage sites in marine ABNJ.
 The offer is available on the World Heritage Centre's website:  https://whc.unesco.org/en/employment/
-Proposals should be submitted by e-mail no later than Sunday, 5 January 2020 to: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Proposals should be submitted by e-mail no later than Sunday, 5 January 2020 to: ██████████████
 Many thanks in advance for sharing this opportunity with your networks.
 Best regards,
 World Heritage Marine Programme
@@ -4841,7 +4841,7 @@ World Heritage Centre, UNESCO
 
 7, place de Fontenoy 75352
 Paris 07 SP France
-E-mail: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+E-mail: ██████████████
 http://whc.unesco.org/en/marine-programme
 ```
 
@@ -4867,16 +4867,16 @@ World Heritage Centre, UNESCO
 
 7, place de Fontenoy 75352
 Paris 07 SP France
-Tel: +33(0)1 [REDACTED PHONE] 62
-E-mail: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +33(0)1 ████████ 62
+E-mail: ██████████████
 http://whc.unesco.org/en/marine-programme
 
 Get daily updates from the world’s most iconic MPAs
 
-[icon_tw]<https://twitter.com/Fdouvere>  [icon_linked] <https://fr.linkedin.com/in/████-████-a[REDACTED PHONE]b>   [icon_insta] <https://www.instagram.com/marineworldheritage>   [icon_fac] <https://www.facebook.com/marineworldheritage/>
+[icon_tw]<https://twitter.com/Fdouvere>  [icon_linked] <https://fr.linkedin.com/in/████-████-a████████b>   [icon_insta] <https://www.instagram.com/marineworldheritage>   [icon_fac] <https://www.facebook.com/marineworldheritage/>
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: mardi 7 janvier [REDACTED PHONE]:55
+Sent: mardi 7 janvier ████████:55
 █████████
 Subject: Proposal for Operational Guidelines assignment
 
@@ -4918,12 +4918,12 @@ World Heritage Centre, UNESCO
 
 7, place de Fontenoy 75352
 Paris 07 SP France
-Tel: +33(0)1 [REDACTED PHONE] 55
-E-mail: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +33(0)1 ████████ 55
+E-mail: ██████████████
 http://whc.unesco.org/en/marine-programme
 
 De : Glen Wright <glen.w.wright@gmail.com>
-Envoyé : mardi 7 janvier [REDACTED PHONE]:56
+Envoyé : mardi 7 janvier ████████:56
 █████████
 ██████████
 Objet : Re: Proposal for Operational Guidelines assignment
@@ -4936,7 +4936,7 @@ Cheers,
 
 Glen
 
-On Tue, 7 Jan 2020 at 17:53, ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>> wrote:
+On Tue, 7 Jan 2020 at 17:53, ███████ <██████████████> wrote:
 Hi Glen,
 Thank you.
 It is taken into account for the evaluation. No worries.
@@ -4952,17 +4952,17 @@ World Heritage Centre, UNESCO
 
 7, place de Fontenoy 75352
 Paris 07 SP France
-Tel: +33(0)1 [REDACTED PHONE] 62
-E-mail: [REDACTED EMAIL]<mailto:[REDACTED EMAIL]>
+Tel: +33(0)1 ████████ 62
+E-mail: ██████████████
 http://whc.unesco.org/en/marine-programme
 
 Get daily updates from the world’s most iconic MPAs
 
-[icon_tw]<https://twitter.com/Fdouvere>  [icon_linked] <https://fr.linkedin.com/in/████-████-a[REDACTED PHONE]b>   [icon_insta] <https://www.instagram.com/marineworldheritage>   [icon_fac] <https://www.facebook.com/marineworldheritage/>
+[icon_tw]<https://twitter.com/Fdouvere>  [icon_linked] <https://fr.linkedin.com/in/████-████-a████████b>   [icon_insta] <https://www.instagram.com/marineworldheritage>   [icon_fac] <https://www.facebook.com/marineworldheritage/>
 
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
-Sent: mardi 7 janvier [REDACTED PHONE]:55
-To: ███████ <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+Sent: mardi 7 janvier ████████:55
+To: ███████ <██████████████>
 Subject: Proposal for Operational Guidelines assignment
 
 Dear ████,

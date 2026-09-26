@@ -1,7 +1,7 @@
 ## 1. IUCN HR Management System
 
 - **Date:** 2019-06-17T16:12:09+02:00
-- **From:** <[REDACTED EMAIL]>
+- **From:** <██████████████>
 - **To:** <glen.w.wright@gmail.com>
 
 ```
@@ -26,7 +26,7 @@ This communication, together with any attachment, may contain confidential infor
 ## 2. IUCN HR Management System
 
 - **Date:** 2019-06-17T16:12:10+02:00
-- **From:** <[REDACTED EMAIL]>
+- **From:** <██████████████>
 - **To:** <glen.w.wright@gmail.com>
 
 ```
@@ -75,7 +75,7 @@ This communication, together with any attachment, may contain confidential infor
 ## 3. Your application to vacancy #4080 Junior Professional, IUCN
 
 - **Date:** 2019-07-11T14:19:17+02:00
-- **From:** <[REDACTED EMAIL]>
+- **From:** <██████████████>
 - **To:** <glen.w.wright@gmail.com>
 
 ```
@@ -99,7 +99,7 @@ This communication, together with any attachment, may contain confidential infor
 ## 4. Interview for vacancy #5568 Marine Programme Officer (P1), IUCN
 
 - **Date:** 2021-03-19T14:33:16+01:00
-- **From:** <[REDACTED EMAIL]>
+- **From:** <██████████████>
 - **To:** <glen.w.wright@gmail.com>
 
 ```
@@ -115,7 +115,7 @@ The composition of the interview panel comprises:
   Katherine Zischka, World Heritage Conservation Officer, World Heritage Programme
   Tennessee Chappuis, Human Resources Representative, Support Services, Human Resources Management Group
 
-Prior to the interview, you will need to send a written response to the following (in English to [REDACTED EMAIL]):
+Prior to the interview, you will need to send a written response to the following (in English to ██████████████):
 
 "In  250 words, please describe the priorities for how IUCN should address the protection of ocean services and the sustainability of natural resources management in light of climate change."
 
@@ -154,9 +154,9 @@ Best regards,
 ████
 
 From: Glen Wright <glen.w.wright@gmail.com>
-Sent: 18 March [REDACTED PHONE]:11
+Sent: 18 March ████████:11
 ███████
-Cc: [REDACTED EMAIL]
+Cc: ██████████████
 Subject: Application for Marine Program Officer position
 
 Dear ████,
@@ -174,7 +174,7 @@ Glen
 From: Glen Wright <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
 Date: Wed, 17 Mar 2021 at 17:08
 Subject: Fwd: Reminder: International Union for Conservation of Nature is inviting you to attend an assessment.
-To: <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+To: <██████████████>
 
 Good afternoon,
 
@@ -184,7 +184,7 @@ Many thanks,
 
 Glen
 ---------- Forwarded message ---------
-From: International Union for Conservation of Nature <[REDACTED EMAIL]<mailto:[REDACTED EMAIL]>>
+From: International Union for Conservation of Nature <██████████████>
 Date: Tue, 9 Mar 2021 at 10:13
 Subject: Reminder: International Union for Conservation of Nature is inviting you to attend an assessment.
 To: <glen.w.wright@gmail.com<mailto:glen.w.wright@gmail.com>>
@@ -193,7 +193,7 @@ Dear WRIGHT Glen ,
 
 You have been invited to attend an assessment with International Union for Conservation of Nature for the position of HQ - Marine Programme Officer - Video Interview. Last date to complete the assessment is Friday, March 19, 2021 at 11:30:00 AM India Standard Time.
 
-In case this is the first time you are attending an assessment from Talview you can refer to the Candidate Guide.<https://info.talview.com/candidatehub>. ██████████████ <https://attend.talview.com/as/[REDACTED PHONE]/landing>
+In case this is the first time you are attending an assessment from Talview you can refer to the Candidate Guide.<https://info.talview.com/candidatehub>. ██████████████ <https://attend.talview.com/as/████████/landing>
 
 ██████████████ <https://talview.freshdesk.com/support/tickets/new> in case of any assistance with your assessment at the time of taking the assessment itself.
 
@@ -201,11 +201,11 @@ Once you are ready to take your official assessment please click 'Attend' link b
 
 Attend<https://talview.page.link/nAo8W3CPj1DUZuNT6>
 
-Your verification code is [REDACTED PHONE]
+Your verification code is ████████
 
-Your QR CODE is [https://apiv4.talview.com/qrcode/[REDACTED PHONE]]
+Your QR CODE is [https://apiv4.talview.com/qrcode/████████]
 
-Kindly call [REDACTED PHONE] or do write to us at [REDACTED EMAIL]<mailto:[REDACTED EMAIL]> in case of any assistance with your assessment at the time of taking the assessment itself.
+Kindly call ████████ or do write to us at ██████████████ in case of any assistance with your assessment at the time of taking the assessment itself.
 
 Note:
 
@@ -230,7 +230,7 @@ This communication, together with any attachment, may contain confidential infor
 ## 6. Interview for vacancy #5568 Marine Programme Officer (P1), IUCN
 
 - **Date:** 2021-03-31T18:45:33+02:00
-- **From:** <[REDACTED EMAIL]>
+- **From:** <██████████████>
 - **To:** <glen.w.wright@gmail.com>
 
 ```
@@ -278,9 +278,9 @@ Kindly find below the link for your interview on 12 April 2021.
 ________________________________________________________________________________
 Microsoft Teams meeting
 Join on your computer or mobile app
-Click here to join the meeting<https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmE1ZTk2NWItMGZlYS00ZTY1LTllNzEtMGQ4YjcxYjhhNjY2%40thread.v2/0?context=%7b%22Tid%22%3a%22c97d0f97-825f-4aeb-95a5-51b65b8beb9d%22%2c%22Oid%22%3a%22aea76439-fe3f-[REDACTED PHONE]d-678e4db6ddd6%22%7d>
+Click here to join the meeting<https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmE1ZTk2NWItMGZlYS00ZTY1LTllNzEtMGQ4YjcxYjhhNjY2%40thread.v2/0?context=%7b%22Tid%22%3a%22c97d0f97-825f-4aeb-95a5-51b65b8beb9d%22%2c%22Oid%22%3a%22aea76439-fe3f-████████d-678e4db6ddd6%22%7d>
 [https://www.iucn.org/sites/dev/files/iucn_logo-small_0.png]
-█████ <https://aka.ms/JoinTeamsMeeting> | Help<https://serviceportal.iucn.org/> | Meeting options<https://teams.microsoft.com/meetingOptions/?organizerId=aea76439-fe3f-[REDACTED PHONE]d-678e4db6ddd6&tenantId=c97d0f97-825f-4aeb-95a5-51b65b8beb9d&threadId=19_meeting_YmE1ZTk2NWItMGZlYS00ZTY1LTllNzEtMGQ4YjcxYjhhNjY2@thread.v2&messageId=0&language=en-US>
+█████ <https://aka.ms/JoinTeamsMeeting> | Help<https://serviceportal.iucn.org/> | Meeting options<https://teams.microsoft.com/meetingOptions/?organizerId=aea76439-fe3f-████████d-678e4db6ddd6&tenantId=c97d0f97-825f-4aeb-95a5-51b65b8beb9d&threadId=19_meeting_YmE1ZTk2NWItMGZlYS00ZTY1LTllNzEtMGQ4YjcxYjhhNjY2@thread.v2&messageId=0&language=en-US>
 ________________________________________________________________________________
 
 With best regards,
@@ -291,7 +291,7 @@ IUCN (International Union for Conservation of Nature)
 www.iucn.org<http://www.iucn.org/>
 www.iucncongress2020.org<http://www.iucncongress2020.org/>
 [cid:image001.png@01D72AF8.F1FD14F0]<https://www.iucncongress2020.org/>
-   [cid:image002.jpg@01D[REDACTED PHONE]C0E0] <http://twitter.com/iucn>   [cid:image003.jpg@01D[REDACTED PHONE]C0E0] <http://www.facebook.com/iucn.org>   [cid:image004.jpg@01D72AF8.F1FD14F0] <https://www.instagram.com/iucn_congress/>
+   [cid:image002.jpg@01D████████C0E0] <http://twitter.com/iucn>   [cid:image003.jpg@01D████████C0E0] <http://www.facebook.com/iucn.org>   [cid:image004.jpg@01D72AF8.F1FD14F0] <https://www.instagram.com/iucn_congress/>
 
 ________________________________
 
@@ -311,7 +311,7 @@ We would like to thank you most sincerely for your time and the effort you inves
 
 Our decision process was quite difficult, but after careful consideration and comparison of the interviewees’ respective skills, competencies and experience, we regret to inform you that we have decided not to pursue your application for this position any further.
 
-██████████████ <mailto:[REDACTED EMAIL]>) remains at your disposal should you wish to receive feedback on your interview.  Please feel free to contact him directly.
+██████████████) remains at your disposal should you wish to receive feedback on your interview.  Please feel free to contact him directly.
 
 On behalf of all the panellists, we would like to thank you again for your interest in working with IUCN and wish you every success in your future endeavours.
 
@@ -325,7 +325,7 @@ IUCN (International Union for Conservation of Nature)
 www.iucn.org<http://www.iucn.org/>
 www.iucncongress2020.org<http://www.iucncongress2020.org/>
 [cid:image001.png@01D73867.D319CF70]<https://www.iucncongress2020.org/>
-   [cid:image002.jpg@01D[REDACTED PHONE]C0E0] <http://twitter.com/iucn>   [cid:image003.jpg@01D[REDACTED PHONE]C0E0] <http://www.facebook.com/iucn.org>   [cid:image004.jpg@01D73867.D319CF70] <https://www.instagram.com/iucn_congress/>
+   [cid:image002.jpg@01D████████C0E0] <http://twitter.com/iucn>   [cid:image003.jpg@01D████████C0E0] <http://www.facebook.com/iucn.org>   [cid:image004.jpg@01D73867.D319CF70] <https://www.instagram.com/iucn_congress/>
 
 ________________________________
 

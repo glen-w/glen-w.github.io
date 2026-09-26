@@ -78,7 +78,7 @@ Legal Graduate Employment and Summer Clerkship Guidelines
 Contact Details declined.                                            Bridget Sordo
 Large Law Firm Relationships Manager (g) An offer of a summer clerkship shall not be made conditional upon acceptance of an offer         The Law Society of New South Wales of graduate employment.
 DX 362 Sydney
-5. Candidate’s Responsibilities                              E [REDACTED EMAIL] (a) There is an expectation that candidates will be      T [REDACTED PHONE] straightforward, honest and sincere in their dealings with firms.                                 F [REDACTED PHONE] (b) It is desirable, although not a requirement, that students applying for a summer clerkship should be in their penultimate year of obtaining a law degree.
+5. Candidate’s Responsibilities                              E ██████████████ (a) There is an expectation that candidates will be      T ████████ straightforward, honest and sincere in their dealings with firms.                                 F ████████ (b) It is desirable, although not a requirement, that students applying for a summer clerkship should be in their penultimate year of obtaining a law degree.
 (c) It is desirable, although not a requirement, that students applying for graduate employment should be in their final year of obtaining a law degree.
 (d) Candidates must accept or decline an offer
 (graduate employment or summer clerkships) by
