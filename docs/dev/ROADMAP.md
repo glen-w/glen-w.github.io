@@ -67,7 +67,7 @@ After the now list, or whenever a slice is free.
 - [ ] **Library shell weight** — `/library/` HTML is still ~159 KB (collaborator list + graph chrome). Keep the JSON catalogue; lazy-mount the network graph; collapse frequent collaborators behind interaction. Goal from the earlier refactor: shell closer to ~22 KB. Measure before inventing virtual scroll.
 - [ ] **Blog in 2026** — sitemap has ~588 blog URLs, almost all 2012–2020. Decide: `noindex` pre-2021, split an archive sitemap, or curate a short notes index. Leaving 500+ thin posts in the main sitemap dilutes crawl next to the library. (Untangle also has “address blog”.)
 - [ ] **`/media/`** — nearly empty (“No media so far…”). Populate a short press/talk list **or** drop from sitemap/footer until there are a few real items.
-- [x] **Library zips 404** — closed 28 Sep 2026: drop public “Download all” links; keep local `assets/zips/` + pipeline. Not on `vps-helper`. [`library-zips.md`](library-zips.md) · Untangle `decisions/library-zips-not-public.md`.
+- [x] **Library zips 404** — closed 28 Sep 2026: drop public “Download all” links; keep local `assets/zips/` + pipeline. Not on `vps-helper`. [`library-zips.md`](library-zips.md).
 - [ ] **Thin / missing project writeups** — Ocean webinars sheet, Tiny Seascape, Twitter analysis sheet, Tiny Bunyscape. (Untangle)
 - [ ] **Book-with-me CTA** — only after Cal.com (or equivalent) is confirmed. See Untangle `decisions/booking-calendar.md`.
 - [ ] **Creative page as unexpected artist portfolio** — `/creative/` currently reads like a craft dump. Thicken it so the first impression is a portfolio, not a folder listing. Bundle:

@@ -1,8 +1,7 @@
 # Library zips — local only
 
 **Decision:** 28 Sep 2026  
-**Status:** closed  
-**Also:** Untangle `decisions/library-zips-not-public.md`
+**Status:** closed
 
 ## Call
 
