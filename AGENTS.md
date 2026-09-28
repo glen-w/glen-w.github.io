@@ -1,5 +1,7 @@
 # Agent instructions
 
+Living site checklist: [`docs/dev/ROADMAP.md`](docs/dev/ROADMAP.md). The old public `/roadmap/` page is unpublished.
+
 ## Library / publications: fix upstream first
 
 Zotero is the source of truth for the publications library. Site files

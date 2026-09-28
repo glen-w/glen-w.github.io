@@ -16,13 +16,11 @@ Required:
 - `name` — Title Case display name (project `title` overrides this when `github` matches)
 - `description` — one code-audience sentence (see Pitch)
 
-Optional, only for real URLs and assets:
+Optional, only for real assets:
 
-- `img` — thumb under `assets/img/projects/thumbs/`, copied from the product repo’s own logo (e.g. `assets/logo.png`, `website/images/logo.png`). Do not invent a mark that does not live in that repository.
-- `url` — project page, only when the matching project has neither `website` nor `docs`
-- `url_label` — label for that fallback, usually `Project page`
+- `img` — thumb under `assets/img/projects/thumbs/`, copied from the product repo’s own logo (e.g. `assets/logo.png`, `website/images/logo.png`). Use the on-light mark on this page. Do not invent a mark that does not live in that repository.
 
-Site and docs icons come from the matching project (`website`, `docs`), not from this file.
+The card title links to the matching project page when `github` matches. Site and docs icons come from the matching project (`website`, `docs`), not from this file. Do not add a yaml `url` / `url_label` fallback.
 
 ## 3. Pitch
 
@@ -36,7 +34,7 @@ Do not reuse the project-page `description`. That pitch is for `/projects/`. YAM
 
 ## 4. Links
 
-Every card always links to GitHub. Also show the live site and the docs when the matching project has `website` or `docs`. Use `url` only when neither exists.
+Every card always links to GitHub. Also show the live site and the docs when the matching project has `website` or `docs`. The heading is the project-page link when `github` matches.
 
 If the matching project page should show a GitHub icon, set `github` on that project to `https://github.com/owner/name`.
 
@@ -54,6 +52,6 @@ On `/code/`:
 
 - Cards are alphabetical by display name.
 - Each blurb reads as a clone/run pitch, not a personal project pitch.
-- GitHub opens the repository. The site and docs icons open their own URLs. A project-page link appears only when those two are absent.
-- A repository with a project `github` match uses that project’s `title` as the heading.
+- GitHub opens the repository. The site and docs icons open their own URLs.
+- A repository with a project `github` match uses that project’s `title` as the heading, linked to the project page. No separate “Project page” text link.
 - `/projects/` pitches are unchanged.
