@@ -39,13 +39,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2016_quel_statut_pour_la_haute_mer.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 5 files · 5.2 MB
 ---
 

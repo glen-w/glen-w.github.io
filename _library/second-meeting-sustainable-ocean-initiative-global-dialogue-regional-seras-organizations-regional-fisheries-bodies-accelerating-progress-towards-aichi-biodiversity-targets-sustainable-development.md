@@ -44,13 +44,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2018_second_meeting_sustainable_ocean_initiative_global_dialogue_regional_seras_organizations_regional_fisheries_bodies_accelerating_progress_towards_aichi_biodiversity_targets_sustainable.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 5 files · 15.0 MB
 ---
 

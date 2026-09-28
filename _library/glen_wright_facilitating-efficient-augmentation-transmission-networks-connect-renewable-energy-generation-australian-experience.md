@@ -34,14 +34,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2012_facilitating_efficient_augmentation_transmission_networks_connect_renewable_energy_generation_australian_experience_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.2 MB
 - kind: landing
   title: Visit Energy Policy publication page
   label: Visit Energy Policy publication page

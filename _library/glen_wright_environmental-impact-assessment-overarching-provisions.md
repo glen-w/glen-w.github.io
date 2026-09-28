@@ -41,14 +41,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2016_environmental_impact_assessment_overarching_provisions.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 5 files · 8.4 MB
 - kind: landing
   title: Visit High seas fisheries in a new international legally binding instrument
     publication page

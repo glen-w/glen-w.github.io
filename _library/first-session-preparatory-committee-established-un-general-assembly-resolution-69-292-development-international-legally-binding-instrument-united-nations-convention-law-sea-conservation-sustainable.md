@@ -43,14 +43,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2016_first_session_preparatory_committee_established_un_general_assembly_resolution_69_292_development_international_legally_binding_instrument_united_nations_convention_law_sea_conservation.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 8 files · 12.1 MB
 - kind: landing
   title: Visit publication page
   label: Visit publication page

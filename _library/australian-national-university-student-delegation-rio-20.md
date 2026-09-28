@@ -33,13 +33,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2012_australian_national_university_student_delegation_rio_20.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 8 files · 34.2 MB
 ---
 

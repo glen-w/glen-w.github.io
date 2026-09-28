@@ -56,14 +56,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_etal_2023_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 1.7 MB
 - kind: landing
   title: Visit Ocean Yearbook publication page
   label: Visit Ocean Yearbook publication page

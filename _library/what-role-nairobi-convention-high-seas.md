@@ -52,14 +52,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2015_what_role_nairobi_convention_high_seas.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 9 files · 15.0 MB
 - kind: landing
   title: Visit 8th Conference of Parties to the Nairobi Convention for the Protection,
     Management and Development of the Marine and Coastal Environment of the Western

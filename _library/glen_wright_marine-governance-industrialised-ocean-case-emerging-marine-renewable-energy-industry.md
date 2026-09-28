@@ -60,14 +60,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/glen_wright_2015_marine_governance_industrialised_ocean_case_emerging_marine_renewable_energy_industry_a.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 1 files · 0.2 MB
 - kind: landing
   title: DOI
   label: View DOI

@@ -44,13 +44,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2017_ocean.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 10 files · 16.5 MB
 ---
 

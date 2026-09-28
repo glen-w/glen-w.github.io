@@ -23,14 +23,5 @@ gallery:
 zip_archive: 2010_model_united_nations.zip
 zip_file_count: '5'
 zip_file_size_mb: '9.0'
-resources:
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2010_model_united_nations.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 5 files · 9.0 MB
 ---
 

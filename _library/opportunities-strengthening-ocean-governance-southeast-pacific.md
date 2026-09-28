@@ -29,13 +29,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2018_opportunities_strengthening_ocean_governance_southeast_pacific.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 4 files · 18.1 MB
 ---
 

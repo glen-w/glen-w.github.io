@@ -225,7 +225,7 @@ exclude:
   - vendor
   - "*.py"
   - tests/
-  - assets/zips/ # too large for GitHub Pages; host elsewhere if downloads are needed
+  - assets/zips/ # local packaging only; not public (docs/dev/library-zips.md)
   - processing/ # pipeline source, not site content
   - sandbox/ # local preview clones; not site content
   - pytest.ini

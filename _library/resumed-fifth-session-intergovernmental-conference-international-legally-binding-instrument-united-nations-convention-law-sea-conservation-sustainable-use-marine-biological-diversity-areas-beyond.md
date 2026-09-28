@@ -48,14 +48,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2023_resumed_fifth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 13 files · 15.0 MB
 - kind: landing
   title: Visit publication page
   label: Visit publication page

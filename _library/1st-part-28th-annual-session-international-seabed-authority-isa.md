@@ -34,14 +34,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2023_1st_part_28th_annual_session_international_seabed_authority_isa.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 6 files · 1.8 MB
 - kind: landing
   title: Visit event website
   label: Visit event website

@@ -258,33 +258,9 @@ class ContentGenerator:
             if resource:
                 candidates.append(resource)
 
-        zip_name = self._strip_str(entry.get('zip_archive'))
-        if zip_name:
-            count = self._strip_str(entry.get('zip_file_count'))
-            # Skip single-file zips — the individual download is enough.
-            try:
-                zip_count_n = int(count) if count else 0
-            except ValueError:
-                zip_count_n = 0
-            if zip_count_n != 1:
-                meta_bits = []
-                size = self._strip_str(entry.get('zip_file_size_mb'))
-                if count:
-                    meta_bits.append(f"{count} files")
-                if size:
-                    meta_bits.append(f"{size} MB")
-                subtitle = ' · '.join(meta_bits) if meta_bits else None
-                resource = self._local_file_resource(
-                    kind='zip',
-                    filename=zip_name,
-                    directory=self.config.ZIP_DIR,
-                    url_prefix='/assets/zips/',
-                    title='Download all files',
-                    label='Download all files',
-                    subtitle=subtitle,
-                )
-                if resource:
-                    candidates.append(resource)
+        # Zip packages stay local-only (assets/zips/ excluded from Pages).
+        # zip_archive / zip_file_* are still written on the page for plumbing;
+        # do not emit a public resources entry. See docs/dev/library-zips.md.
 
         video = self._strip_str(links.get('video') or links.get('youtube'))
         if video:

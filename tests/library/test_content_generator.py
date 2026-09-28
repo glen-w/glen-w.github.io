@@ -256,7 +256,7 @@ class TestResources:
         assert content_generator._format_from_filename('a.zip') == 'ZIP'
         assert content_generator._format_from_filename('a.unknown') == 'UNKNOWN'
 
-    def test_zip_resource_with_metadata(self, content_generator, tmp_path):
+    def test_zip_metadata_kept_without_public_resource(self, content_generator, tmp_path):
         zip_dir = tmp_path / 'zips'
         zip_dir.mkdir()
         (zip_dir / 'bundle.zip').write_bytes(b'PK')
@@ -274,10 +274,10 @@ class TestResources:
              patch.object(content_generator.config, 'PDF_DIR', str(tmp_path)):
             fm = _parse_front_matter(content_generator.generate_front_matter(entry))
         assert fm['zip_archive'] == 'bundle.zip'
-        zip_res = [r for r in fm['resources'] if r['kind'] == 'zip']
-        assert len(zip_res) == 1
-        assert '3 files' in zip_res[0]['subtitle']
-        assert '12.5 MB' in zip_res[0]['subtitle']
+        assert fm['zip_file_count'] == '3'
+        assert fm['zip_file_size_mb'] == '12.5'
+        # Zips are local plumbing only — not linked from public Materials.
+        assert not any(r.get('kind') == 'zip' for r in fm.get('resources', []))
 
     def test_missing_local_file_emits_warning(self, content_generator, capsys):
         entry = {

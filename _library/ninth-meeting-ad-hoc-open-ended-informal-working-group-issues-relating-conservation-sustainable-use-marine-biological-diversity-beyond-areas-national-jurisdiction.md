@@ -40,14 +40,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2015_ninth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 8 files · 10.8 MB
 - kind: landing
   title: Visit publication page
   label: Visit publication page

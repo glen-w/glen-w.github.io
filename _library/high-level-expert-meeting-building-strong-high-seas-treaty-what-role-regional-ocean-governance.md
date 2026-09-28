@@ -35,13 +35,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2018_high_level_expert_meeting_building_strong_high_seas_treaty_what_role_regional_ocean_governance.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 7 files · 16.0 MB
 ---
 

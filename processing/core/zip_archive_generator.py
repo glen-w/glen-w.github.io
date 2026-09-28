@@ -2,6 +2,9 @@
 """
 ZipArchiveGenerator class for process_papers.py
 Generates zip archives containing all attachments for each library item.
+
+Archives live under assets/zips/ for local packaging only — they are excluded
+from the Pages build and are not linked publicly (docs/dev/library-zips.md).
 """
 
 import os

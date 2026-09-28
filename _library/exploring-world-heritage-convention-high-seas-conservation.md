@@ -29,13 +29,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2018_exploring_world_heritage_convention_high_seas_conservation.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 4 files · 3.4 MB
 ---
 

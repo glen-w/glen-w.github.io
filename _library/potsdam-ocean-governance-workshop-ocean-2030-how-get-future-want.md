@@ -47,14 +47,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2017_potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 11 files · 6.5 MB
 - kind: landing
   title: Visit event website
   label: Visit event website

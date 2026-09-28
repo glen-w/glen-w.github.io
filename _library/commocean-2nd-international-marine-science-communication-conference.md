@@ -29,13 +29,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: zip
-  title: Download all files
-  label: Download all files
-  url: /assets/zips/2016_commocean_2nd_international_marine_science_communication_conference.zip
-  format: ZIP
-  local: true
-  external: false
-  subtitle: 4 files · 9.3 MB
 ---
 
