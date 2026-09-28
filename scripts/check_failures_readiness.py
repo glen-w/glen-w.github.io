@@ -201,16 +201,14 @@ def check_pages(findings: list[Finding]) -> None:
         slug = page.stem
         if "](/assets/failures/" in text and "/emails.md)" in text:
             findings.append(Finding("blocker", page, "still links to an email thread"))
-        for kind, filename in (
-            ("Application", "application.md"),
-            ("Job advertisement", "job-ad.md"),
-        ):
+        for filename in ("application.md", "job-ad.md"):
             if f"](/assets/failures/{slug}/{filename})" in text and not (CARDS / slug / filename).exists():
                 findings.append(Finding("blocker", page, f"links to missing {filename}"))
-            if kind == "Job advertisement" and (CARDS / slug / filename).exists():
-                body = (CARDS / slug / filename).read_text(encoding="utf-8", errors="replace")[:200]
-                if "No job ad" in body and f"](/assets/failures/{slug}/{filename})" in text:
-                    findings.append(Finding("warning", page, "links to a placeholder job ad"))
+        job_ad = CARDS / slug / "job-ad.md"
+        if job_ad.exists():
+            body = job_ad.read_text(encoding="utf-8", errors="replace")[:200]
+            if "No job ad" in body:
+                findings.append(Finding("warning", job_ad, "placeholder job ad — delete the file instead"))
 
 
 def check_publication(findings: list[Finding]) -> None:

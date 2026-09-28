@@ -29,22 +29,23 @@
       "url": "https://www.iddri.org/en/about-iddri/team/klaudija-cremers"
     },
     {
+      "id": "kristina-maria-gjerde",
+      "name": "Kristina Maria Gjerde",
+      "self": false,
+      "count": 19,
+      "firstYear": 2014,
+      "lastYear": 2023,
+      "orcid": "0000-0001-9025-7632",
+      "url": "https://iucn.org/news/202512/iucn-statement-passing-kristina-maria-gjerde",
+      "scholar": "SUh8nUEAAAAJ"
+    },
+    {
       "id": "mark-byrne",
       "name": "Mark Byrne",
       "self": false,
       "count": 16,
       "firstYear": 2012,
       "lastYear": 2014
-    },
-    {
-      "id": "kristina-gjerde",
-      "name": "Kristina Gjerde",
-      "self": false,
-      "count": 13,
-      "firstYear": 2014,
-      "lastYear": 2020,
-      "orcid": "0000-0001-9025-7632",
-      "scholar": "SUh8nUEAAAAJ"
     },
     {
       "id": "sebastian-unger",
@@ -88,17 +89,6 @@
       "orcid": "0000-0002-8214-5187",
       "url": "https://www.ocean-voices.org/team/dr-harriet-harden-davies",
       "scholar": "nnQCktQAAAAJ"
-    },
-    {
-      "id": "kristina-m-gjerde",
-      "name": "Kristina M. Gjerde",
-      "self": false,
-      "count": 6,
-      "firstYear": 2016,
-      "lastYear": 2023,
-      "orcid": "0000-0001-9025-7632",
-      "url": "https://iucn.org/news/202512/iucn-statement-passing-kristina-maria-gjerde",
-      "scholar": "SUh8nUEAAAAJ"
     },
     {
       "id": "jeff-ardron",
@@ -562,16 +552,6 @@
       "scholar": "tPirGbwAAAAJ"
     },
     {
-      "id": "k-gjerde",
-      "name": "K. Gjerde",
-      "self": false,
-      "count": 1,
-      "firstYear": 2018,
-      "lastYear": 2018,
-      "orcid": "0000-0001-9025-7632",
-      "scholar": "SUh8nUEAAAAJ"
-    },
-    {
       "id": "kate-johnson",
       "name": "Kate Johnson",
       "self": false,
@@ -867,14 +847,6 @@
       "scholar": "Qg87PEgAAAAJ"
     },
     {
-      "id": "wright-g",
-      "name": "Wright G.",
-      "self": false,
-      "count": 1,
-      "firstYear": 2018,
-      "lastYear": 2018
-    },
-    {
       "id": "yannick-leroy",
       "name": "Yannick Leroy",
       "self": false,
@@ -967,6 +939,32 @@
     },
     {
       "source": "glen-wright",
+      "target": "kristina-maria-gjerde",
+      "count": 19,
+      "works": [
+        "Wright2014a",
+        "Wright2014b",
+        "Rochette2015",
+        "Wright2016b",
+        "Wright2019a",
+        "gjerdeGettingYesFasttracking2022",
+        "Wright2015c",
+        "Wright2018b",
+        "Gjerde2016",
+        "Wright2018c",
+        "Crespo2019",
+        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a",
+        "harden-daviesRightsNaturePerspectives2020",
+        "wrightFishingTwilightZone2020",
+        "wrightglenOceansTwilightZone2020",
+        "cremersPreliminaryAnalysisDraft2020",
+        "gjerdeInitialReflectionsSupport2023",
+        "gjerdeStrengtheningHighSeas2021",
+        "gjerdeEcosystembasedManagementGlobal2019"
+      ]
+    },
+    {
+      "source": "glen-wright",
       "target": "mark-byrne",
       "count": 16,
       "works": [
@@ -1011,26 +1009,6 @@
     },
     {
       "source": "glen-wright",
-      "target": "kristina-gjerde",
-      "count": 13,
-      "works": [
-        "Wright2014a",
-        "Wright2014b",
-        "Rochette2015",
-        "Wright2016b",
-        "Wright2015c",
-        "Wright2018c",
-        "Crespo2019",
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a",
-        "harden-daviesRightsNaturePerspectives2020",
-        "wrightFishingTwilightZone2020",
-        "wrightglenOceansTwilightZone2020",
-        "cremersPreliminaryAnalysisDraft2020",
-        "gjerdeEcosystembasedManagementGlobal2019"
-      ]
-    },
-    {
-      "source": "glen-wright",
       "target": "sebastian-unger",
       "count": 10,
       "works": [
@@ -1065,14 +1043,15 @@
     },
     {
       "source": "julien-rochette",
-      "target": "kristina-gjerde",
-      "count": 8,
+      "target": "kristina-maria-gjerde",
+      "count": 9,
       "works": [
         "Wright2014a",
         "Wright2014b",
         "Rochette2015",
         "Wright2016b",
         "Wright2015c",
+        "Wright2018b",
         "Wright2018c",
         "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a",
         "cremersPreliminaryAnalysisDraft2020"
@@ -1120,19 +1099,6 @@
     },
     {
       "source": "glen-wright",
-      "target": "kristina-m-gjerde",
-      "count": 6,
-      "works": [
-        "Wright2019a",
-        "gjerdeGettingYesFasttracking2022",
-        "Wright2018b",
-        "Gjerde2016",
-        "gjerdeInitialReflectionsSupport2023",
-        "gjerdeStrengtheningHighSeas2021"
-      ]
-    },
-    {
-      "source": "glen-wright",
       "target": "jeff-ardron",
       "count": 5,
       "works": [
@@ -1141,6 +1107,17 @@
         "Rochette2015b",
         "Wright2015c",
         "Gjerde2016"
+      ]
+    },
+    {
+      "source": "carole-durussel",
+      "target": "kristina-maria-gjerde",
+      "count": 4,
+      "works": [
+        "Wright2016b",
+        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a",
+        "gjerdeStrengtheningHighSeas2021",
+        "gjerdeEcosystembasedManagementGlobal2019"
       ]
     },
     {
@@ -1156,7 +1133,7 @@
     },
     {
       "source": "duncan-currie",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 4,
       "works": [
         "Wright2016b",
@@ -1177,7 +1154,7 @@
       ]
     },
     {
-      "source": "kristina-gjerde",
+      "source": "kristina-maria-gjerde",
       "target": "sebastian-unger",
       "count": 4,
       "works": [
@@ -1225,16 +1202,6 @@
         "Wright2016b",
         "Durussel2018",
         "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "carole-durussel",
-      "target": "kristina-gjerde",
-      "count": 3,
-      "works": [
-        "Wright2016b",
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a",
-        "gjerdeEcosystembasedManagementGlobal2019"
       ]
     },
     {
@@ -1309,7 +1276,7 @@
     },
     {
       "source": "jeff-ardron",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 3,
       "works": [
         "Wright2014a",
@@ -1402,7 +1369,7 @@
     },
     {
       "source": "aria-finkelstein",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 2,
       "works": [
         "wrightFishingTwilightZone2020",
@@ -1420,7 +1387,7 @@
     },
     {
       "source": "ben-boteler",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 2,
       "works": [
         "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a",
@@ -1555,7 +1522,7 @@
     },
     {
       "source": "harriet-harden-davies",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 2,
       "works": [
         "harden-daviesRightsNaturePerspectives2020",
@@ -1715,7 +1682,7 @@
     },
     {
       "source": "aurelie-spadone",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 1,
       "works": [
         "Rochette2015"
@@ -1779,26 +1746,10 @@
     },
     {
       "source": "ben-boteler",
-      "target": "k-gjerde",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "ben-boteler",
       "target": "nicole-wienrich",
       "count": 1,
       "works": [
         "Durussel2018"
-      ]
-    },
-    {
-      "source": "ben-boteler",
-      "target": "wright-g",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
       ]
     },
     {
@@ -1807,22 +1758,6 @@
       "count": 1,
       "works": [
         "Wright2016b"
-      ]
-    },
-    {
-      "source": "carole-durussel",
-      "target": "k-gjerde",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "carole-durussel",
-      "target": "kristina-m-gjerde",
-      "count": 1,
-      "works": [
-        "gjerdeStrengtheningHighSeas2021"
       ]
     },
     {
@@ -1839,14 +1774,6 @@
       "count": 1,
       "works": [
         "Durussel2018"
-      ]
-    },
-    {
-      "source": "carole-durussel",
-      "target": "wright-g",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
       ]
     },
     {
@@ -1915,7 +1842,7 @@
     },
     {
       "source": "daniel-c-dunn",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 1,
       "works": [
         "Crespo2019"
@@ -2115,7 +2042,7 @@
     },
     {
       "source": "fran-humphries",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 1,
       "works": [
         "harden-daviesRightsNaturePerspectives2020"
@@ -2247,14 +2174,6 @@
       "count": 1,
       "works": [
         "Gjerde2016"
-      ]
-    },
-    {
-      "source": "glen-wright",
-      "target": "k-gjerde",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
       ]
     },
     {
@@ -2523,14 +2442,6 @@
     },
     {
       "source": "glen-wright",
-      "target": "wright-g",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "glen-wright",
       "target": "yannick-leroy",
       "count": 1,
       "works": [
@@ -2555,7 +2466,7 @@
     },
     {
       "source": "guillermo-ortuno-crespo",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 1,
       "works": [
         "Crespo2019"
@@ -2627,7 +2538,7 @@
     },
     {
       "source": "isabel-seeger",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 1,
       "works": [
         "Wright2018c"
@@ -2707,26 +2618,10 @@
     },
     {
       "source": "julien-rochette",
-      "target": "k-gjerde",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "julien-rochette",
       "target": "katherine-houghton",
       "count": 1,
       "works": [
         "Rochette2015b"
-      ]
-    },
-    {
-      "source": "julien-rochette",
-      "target": "kristina-m-gjerde",
-      "count": 1,
-      "works": [
-        "Wright2018b"
       ]
     },
     {
@@ -2787,42 +2682,10 @@
     },
     {
       "source": "julien-rochette",
-      "target": "wright-g",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "julien-rochette",
       "target": "yvonne-waweru",
       "count": 1,
       "works": [
         "Iddri2017"
-      ]
-    },
-    {
-      "source": "k-gjerde",
-      "target": "kristina-gjerde",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "k-gjerde",
-      "target": "sebastian-unger",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "k-gjerde",
-      "target": "wright-g",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
       ]
     },
     {
@@ -2843,7 +2706,7 @@
     },
     {
       "source": "klaudija-cremers",
-      "target": "kristina-gjerde",
+      "target": "kristina-maria-gjerde",
       "count": 1,
       "works": [
         "cremersPreliminaryAnalysisDraft2020"
@@ -2858,7 +2721,15 @@
       ]
     },
     {
-      "source": "kristina-gjerde",
+      "source": "kristina-maria-gjerde",
+      "target": "lisa-a-levin",
+      "count": 1,
+      "works": [
+        "Wright2018b"
+      ]
+    },
+    {
+      "source": "kristina-maria-gjerde",
       "target": "lucie-blom",
       "count": 1,
       "works": [
@@ -2866,7 +2737,7 @@
       ]
     },
     {
-      "source": "kristina-gjerde",
+      "source": "kristina-maria-gjerde",
       "target": "marjo-vierros",
       "count": 1,
       "works": [
@@ -2874,7 +2745,7 @@
       ]
     },
     {
-      "source": "kristina-gjerde",
+      "source": "kristina-maria-gjerde",
       "target": "matthew-gianni",
       "count": 1,
       "works": [
@@ -2882,7 +2753,7 @@
       ]
     },
     {
-      "source": "kristina-gjerde",
+      "source": "kristina-maria-gjerde",
       "target": "michelle-maloney",
       "count": 1,
       "works": [
@@ -2890,7 +2761,7 @@
       ]
     },
     {
-      "source": "kristina-gjerde",
+      "source": "kristina-maria-gjerde",
       "target": "patrick-n-halpin",
       "count": 1,
       "works": [
@@ -2898,27 +2769,11 @@
       ]
     },
     {
-      "source": "kristina-gjerde",
+      "source": "kristina-maria-gjerde",
       "target": "thomas-greiber",
       "count": 1,
       "works": [
         "Rochette2015"
-      ]
-    },
-    {
-      "source": "kristina-gjerde",
-      "target": "wright-g",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "kristina-m-gjerde",
-      "target": "lisa-a-levin",
-      "count": 1,
-      "works": [
-        "Wright2018b"
       ]
     },
     {
@@ -2991,14 +2846,6 @@
       "count": 1,
       "works": [
         "Rochette2015"
-      ]
-    },
-    {
-      "source": "sebastian-unger",
-      "target": "wright-g",
-      "count": 1,
-      "works": [
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
       ]
     },
     {

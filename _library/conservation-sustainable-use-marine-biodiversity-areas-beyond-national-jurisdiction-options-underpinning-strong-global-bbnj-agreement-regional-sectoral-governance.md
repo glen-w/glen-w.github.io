@@ -34,14 +34,12 @@ categories:
 - other
 - governance
 authors:
-- K. Gjerde
 - Kristina Gjerde
 - Ben Boteler
 - Carole Durussel
 - Julien Rochette
 - Sebastian Unger
 - Glen Wright
-- Wright G.
 venue: STRONG High Seas
 institution: STRONG High Seas
 role: co-author

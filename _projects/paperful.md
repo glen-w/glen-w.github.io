@@ -6,8 +6,8 @@ img: /assets/img/projects/thumbs/paperful_icon.png
 importance: 5
 category: ongoing
 github: https://github.com/glen-w/Paperful
-website: https://glenwright.earth/Paperful/
-docs: https://glenwright.earth/Paperful/guide/
+website: https://paperful.app/
+docs: https://paperful.app/guide/
 ---
 
 <div align="center">

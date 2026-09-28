@@ -5,12 +5,13 @@
 - name: Klaudija Cremers
   count: 20
   url: https://www.iddri.org/en/about-iddri/team/klaudija-cremers
+- name: Kristina Maria Gjerde
+  count: 19
+  orcid: 0000-0001-9025-7632
+  url: https://iucn.org/news/202512/iucn-statement-passing-kristina-maria-gjerde
+  scholar: SUh8nUEAAAAJ
 - name: Mark Byrne
   count: 16
-- name: Kristina Gjerde
-  count: 13
-  orcid: 0000-0001-9025-7632
-  scholar: SUh8nUEAAAAJ
 - name: Sebastian Unger
   count: 10
   orcid: 0000-0001-5478-7214
@@ -30,11 +31,6 @@
   orcid: 0000-0002-8214-5187
   url: https://www.ocean-voices.org/team/dr-harriet-harden-davies
   scholar: nnQCktQAAAAJ
-- name: Kristina M. Gjerde
-  count: 6
-  orcid: 0000-0001-9025-7632
-  url: https://iucn.org/news/202512/iucn-statement-passing-kristina-maria-gjerde
-  scholar: SUh8nUEAAAAJ
 - name: Jeff Ardron
   count: 5
   orcid: 0000-0003-1326-0031

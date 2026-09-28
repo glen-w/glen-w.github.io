@@ -65,7 +65,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: https://glenwright.earth/assets/img/prof_pic.jpg # site-wide Open Graph preview (absolute URL)
+og_image: https://glenwright.earth/assets/img/og-card.jpg # site-wide Open Graph preview (absolute URL)
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -7,12 +7,7 @@
 {% assign repo_img = include.repository.img %}
 {% assign repo_name = include.repository.name %}
 {% assign repo_description = include.repository.description %}
-{% assign repo_page = include.repository.url %}
-{% assign repo_page_label = include.repository.url_label %}
 {% assign repo_parts = repo_full | split: '/' %}
-{% unless repo_page_label %}
-  {% assign repo_page_label = 'Project page' %}
-{% endunless %}
 {% assign repo_github = 'https://github.com/' | append: repo_full %}
 {% assign matched_project = site.projects | where: 'github', repo_github | first %}
 {% assign repo_website = matched_project.website | default: include.repository.website %}
@@ -23,11 +18,7 @@
 {% unless repo_name %}
   {% assign repo_name = repo_parts.last %}
 {% endunless %}
-{% if repo_page and repo_page != '' %}
-  {% unless repo_page contains '://' %}
-    {% assign repo_page = repo_page | relative_url %}
-  {% endunless %}
-{% endif %}
+{% assign project_href = matched_project.url %}
 
 <article class="repo-card">
   <div class="repo-heading">
@@ -37,17 +28,18 @@
       <i class="fa-brands fa-github repo-logo-icon" aria-hidden="true"></i>
     {% endif %}
     <div class="repo-body">
-      <h2 class="repo-name">{{ repo_name }}</h2>
+      <h2 class="repo-name">
+        {% if project_href %}
+          <a href="{{ project_href | relative_url }}">{{ repo_name }}</a>
+        {% else %}
+          {{ repo_name }}
+        {% endif %}
+      </h2>
       {% if repo_description %}
         <p class="repo-description">{{ repo_description }}</p>
       {% endif %}
       <div class="repo-links">
         {% include project_card_links.liquid github=repo_github website=repo_website docs=repo_docs %}
-        {% unless repo_website or repo_docs %}
-          {% if repo_page and repo_page != '' %}
-            <a href="{{ repo_page }}">{{ repo_page_label }}</a>
-          {% endif %}
-        {% endunless %}
       </div>
     </div>
   </div>
