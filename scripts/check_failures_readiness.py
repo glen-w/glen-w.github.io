@@ -9,6 +9,7 @@ Blockers are privacy leaks and machinery that should not be on a public page.
 Warnings are formatting leftovers that do not by themselves expose someone.
 
 Exit status is 0 when there are no blockers. --strict also fails on warnings.
+Person names are found with spaCy NER (scripts/failure_ner.py).
 
 Usage:
   python3 scripts/check_failures_readiness.py
@@ -38,6 +39,27 @@ EMAIL_RE = re.compile(r"\b[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}\b")
 PHONE_RE = re.compile(
     r"\b(?:\+61[\s\-]?|0[2-478][\s\-]?)(?:\d[\s\-]?){8}\d\b"
     r"|\b\+\d{1,3}[\s\-]\d{2,4}[\s\-]\d{3,4}[\s\-]\d{3,4}\b"
+)
+# Country-code leftovers after a partial blackout (+61 2, +33, +44 (0)█…).
+# Skip conference tags like Rio+20 and timezone tags like GMT+1.
+PHONE_FRAGMENT_RE = re.compile(
+    r"(?<![A-Za-z0-9])"
+    r"(?:"
+    r"\+\d{1,3}(?:[\s\-]?\(?0?\)?)?(?:[\s\-]?\d){0,4}"
+    r"|(?:PHONE|FAX|Tel\.?|t:|Mobile)\s*[:.]?\s*\+\d"
+    r")"
+    r"(?![\w./]*\b(?:20\b|GMT|UTC))",
+    re.I,
+)
+PHONE_FRAGMENT_SKIP_RE = re.compile(r"Rio\+20|GMT\+|UTC\+", re.I)
+# Employment-history "Supervisor: Name | email | phone" rows must be fully barred.
+# Catch clear names and partial blackouts that still leak letters; ignore form
+# prompts like "Proposed Supervisor: (if discussed…)".
+SUPERVISOR_NAME_RE = re.compile(
+    r"Supervisor:\s*(?:"
+    r"(?=[A-Za-zÀ-ÖØ-öø-ÿ])[^|\n]+"
+    r"|█[^|\n]*[A-Za-zÀ-ÖØ-öø-ÿ][^|\n]*"
+    r")"
 )
 CONTROL_RE = re.compile(r"[\x00-\x08\x0b-\x1f\u2028\u2029\u0085]")
 HTML_RE = re.compile(
@@ -79,7 +101,7 @@ def card_files() -> list[Path]:
     return sorted(
         p
         for p in CARDS.glob("*/*.md")
-        if p.name in {"application.md", "job-ad.md", "emails.md"}
+        if p.name in {"application.md", "job-ad.md"}
     )
 
 
@@ -111,6 +133,18 @@ def check_file(path: Path, findings: list[Finding]) -> None:
         findings.append(Finding("blocker", path, "bracket redaction label; use a blackout bar"))
     if any(PHONE_RE.search(line) and "REDACTED PHONE" not in line for line in text.splitlines()):
         findings.append(Finding("blocker", path, "phone number that is not redacted"))
+    phone_frag_lines = [
+        i
+        for i, line in enumerate(text.splitlines(), 1)
+        if PHONE_FRAGMENT_RE.search(line) and not PHONE_FRAGMENT_SKIP_RE.search(line)
+    ]
+    if phone_frag_lines:
+        shown = ", ".join(map(str, phone_frag_lines[:5]))
+        more = "+" if len(phone_frag_lines) > 5 else ""
+        findings.append(
+            Finding("blocker", path, f"phone country-code or dialling leftover on line(s) {shown}{more}")
+        )
+    add_line_hits(findings, path, text, SUPERVISOR_NAME_RE, "blocker", "unredacted supervisor name")
     add_line_hits(findings, path, text, ADDRESS_RE, "blocker", "address leftover")
     emails = sorted({m.group(0).lower() for m in EMAIL_RE.finditer(text)} - KEEP_EMAILS)
     if emails:
@@ -137,15 +171,38 @@ def check_file(path: Path, findings: list[Finding]) -> None:
             findings.append(Finding("warning", path, f"{wraps} mid-paragraph line break(s)"))
 
 
+def check_person_names(findings: list[Finding]) -> None:
+    try:
+        from failure_ner import iter_person_hits
+    except ImportError as exc:
+        findings.append(Finding("blocker", ROOT / "scripts" / "failure_ner.py", f"name scan unavailable: {exc}"))
+        return
+    try:
+        hits = iter_person_hits()
+    except OSError as exc:
+        findings.append(Finding("blocker", ROOT / "scripts" / "failure_ner.py", f"spaCy model unavailable: {exc}"))
+        return
+    for hit in hits:
+        findings.append(Finding("blocker", hit.path, f"person name on line {hit.line}: {hit.surface}"))
+
+
+def check_emails_abandoned(findings: list[Finding]) -> None:
+    if not CARDS.is_dir():
+        return
+    for path in sorted(CARDS.glob("*/emails.md")):
+        findings.append(Finding("blocker", path, "email threads are not part of the catalogue"))
+
+
 def check_pages(findings: list[Finding]) -> None:
     if not PAGES.is_dir():
         return
     for page in sorted(PAGES.glob("*.md")):
         text = page.read_text(encoding="utf-8", errors="replace")
         slug = page.stem
+        if "](/assets/failures/" in text and "/emails.md)" in text:
+            findings.append(Finding("blocker", page, "still links to an email thread"))
         for kind, filename in (
             ("Application", "application.md"),
-            ("Related emails", "emails.md"),
             ("Job advertisement", "job-ad.md"),
         ):
             if f"](/assets/failures/{slug}/{filename})" in text and not (CARDS / slug / filename).exists():
@@ -183,7 +240,9 @@ def main() -> int:
         return 1
     for path in files:
         check_file(path, findings)
+    check_emails_abandoned(findings)
     check_pages(findings)
+    check_person_names(findings)
     check_publication(findings)
 
     blockers = [f for f in findings if f.severity == "blocker"]
