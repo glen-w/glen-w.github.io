@@ -83,9 +83,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/a-quick-website-update/";
           
         },
-      },{id: "post-10-march-2023-the-ship-has-reached-the-shore",
+      },{id: "post-the-ship-has-reached-the-shore",
         
-          title: "10 March 2023 — The ship has reached the shore",
+          title: "The ship has reached the shore",
         
         description: "The ship has reached the shore",
         section: "Posts",
@@ -94,9 +94,9 @@ ninja.data = [{
             window.location.href = "/blog/2023/little-blue-letter-2023-03-10/";
           
         },
-      },{id: "post-12-november-2021-update-from-cop26",
+      },{id: "post-update-from-cop26",
         
-          title: "12 November 2021 — Update from COP26",
+          title: "Update from COP26",
         
         description: "Update from COP26",
         section: "Posts",
@@ -105,9 +105,9 @@ ninja.data = [{
             window.location.href = "/blog/2021/little-blue-letter-2021-11-12/";
           
         },
-      },{id: "post-23-july-2021-celebrating-the-mighty-mangrove",
+      },{id: "post-celebrating-the-mighty-mangrove",
         
-          title: "23 July 2021 — Celebrating the mighty mangrove 🌱🌊🌍",
+          title: "Celebrating the mighty mangrove 🌱🌊🌍",
         
         description: "Celebrating the mighty mangrove 🌱🌊🌍",
         section: "Posts",
@@ -116,9 +116,9 @@ ninja.data = [{
             window.location.href = "/blog/2021/little-blue-letter-2021-07-23/";
           
         },
-      },{id: "post-29-april-2021-women-and-data-collection",
+      },{id: "post-women-and-data-collection",
         
-          title: "29 April 2021 — Women and data collection 🎣",
+          title: "Women and data collection 🎣",
         
         description: "Women and data collection 🎣",
         section: "Posts",
@@ -127,9 +127,9 @@ ninja.data = [{
             window.location.href = "/blog/2021/little-blue-letter-2021-04-29/";
           
         },
-      },{id: "post-11-march-2021-the-ocean-is-more-ancient-than-the-mountains-and-freighted-with-the-m",
+      },{id: "post-the-ocean-is-more-ancient-than-the-mountains-and-freighted-with-the-m",
         
-          title: "11 March 2021 — The Ocean is more ancient than the mountains, and...",
+          title: "The Ocean is more ancient than the mountains, and freighted with the m...",
         
         description: "The Ocean is more ancient than the mountains, and freighted with the memories and the dreams of Time.",
         section: "Posts",
@@ -138,9 +138,9 @@ ninja.data = [{
             window.location.href = "/blog/2021/little-blue-letter-2021-03-11/";
           
         },
-      },{id: "post-17-december-2020-drift-gillnets-to-be-phased-out-in-california",
+      },{id: "post-drift-gillnets-to-be-phased-out-in-california",
         
-          title: "17 December 2020 — Drift gillnets to be phased out in California",
+          title: "Drift gillnets to be phased out in California",
         
         description: "Drift gillnets to be phased out in California",
         section: "Posts",
@@ -149,9 +149,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-12-17/";
           
         },
-      },{id: "post-11-december-2020-we-are-tied-to-the-ocean-and-when-we-go-back-to-the-sea-whether-it-i",
+      },{id: "post-we-are-tied-to-the-ocean-and-when-we-go-back-to-the-sea-whether-it-i",
         
-          title: "11 December 2020 — We are tied to the ocean. And when we...",
+          title: "We are tied to the ocean. And when we go back to the...",
         
         description: "We are tied to the ocean. And when we go back to the sea, whether it is to sail or to watch, we are going back from whence we came.",
         section: "Posts",
@@ -160,9 +160,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-12-11/";
           
         },
-      },{id: "post-4-december-2020-for-civilization-to-survive-the-human-race-has-to-remain-civilized",
+      },{id: "post-for-civilization-to-survive-the-human-race-has-to-remain-civilized",
         
-          title: "4 December 2020 — For civilization to survive, the human race has to...",
+          title: "For civilization to survive, the human race has to remain civilized.",
         
         description: "For civilization to survive, the human race has to remain civilized.",
         section: "Posts",
@@ -171,9 +171,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-12-04/";
           
         },
-      },{id: "post-27-november-2020-bigfin-squid-sightings-in-australia",
+      },{id: "post-bigfin-squid-sightings-in-australia",
         
-          title: "27 November 2020 — Bigfin squid sightings in Australia",
+          title: "Bigfin squid sightings in Australia",
         
         description: "Bigfin squid sightings in Australia",
         section: "Posts",
@@ -182,9 +182,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-11-27/";
           
         },
-      },{id: "post-20-november-2020-world-fisheries-day",
+      },{id: "post-world-fisheries-day",
         
-          title: "20 November 2020 — World Fisheries Day 🎣🦐🐟",
+          title: "World Fisheries Day 🎣🦐🐟",
         
         description: "World Fisheries Day 🎣🦐🐟",
         section: "Posts",
@@ -193,9 +193,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-11-20/";
           
         },
-      },{id: "post-30-october-2020-conservationists-act-to-protect-antarctic-seas",
+      },{id: "post-conservationists-act-to-protect-antarctic-seas",
         
-          title: "30 October 2020 — Conservationists act to protect Antarctic seas",
+          title: "Conservationists act to protect Antarctic seas",
         
         description: "Conservationists act to protect Antarctic seas",
         section: "Posts",
@@ -204,9 +204,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-10-30/";
           
         },
-      },{id: "post-24-july-2020-on-the-box",
+      },{id: "post-on-the-box",
         
-          title: "24 July 2020 — On the box",
+          title: "On the box",
         
         description: "On the box",
         section: "Posts",
@@ -215,9 +215,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-07-24/";
           
         },
-      },{id: "post-3-july-2020-finding-the-deep-curator-s-story",
+      },{id: "post-finding-the-deep-curator-s-story",
         
-          title: "3 July 2020 — Finding the Deep - Curator’s Story",
+          title: "Finding the Deep - Curator’s Story",
         
         description: "Finding the Deep - Curator’s Story",
         section: "Posts",
@@ -226,9 +226,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-07-03/";
           
         },
-      },{id: "post-19-june-2020-quick-reads",
+      },{id: "post-quick-reads",
         
-          title: "19 June 2020 — Quick reads",
+          title: "Quick reads",
         
         description: "Quick reads",
         section: "Posts",
@@ -237,9 +237,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-06-19/";
           
         },
-      },{id: "post-22-may-2020-read-more",
+      },{id: "post-read-more",
         
-          title: "22 May 2020 — Read more",
+          title: "Read more",
         
         description: "Read more",
         section: "Posts",
@@ -248,9 +248,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-05-22/";
           
         },
-      },{id: "post-28-april-2020-read-more",
+      },{id: "post-read-more",
         
-          title: "28 April 2020 — Read more:",
+          title: "Read more:",
         
         description: "Read more:",
         section: "Posts",
@@ -259,9 +259,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-04-28/";
           
         },
-      },{id: "post-24-april-2020-if-you-39-re-having-a-bad-day-catch-a-wave",
+      },{id: "post-if-you-39-re-having-a-bad-day-catch-a-wave",
         
-          title: "24 April 2020 — If you&#39;re having a bad day, catch a wave....",
+          title: "If you&#39;re having a bad day, catch a wave.",
         
         description: "If you&#39;re having a bad day, catch a wave.",
         section: "Posts",
@@ -270,9 +270,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-04-24/";
           
         },
-      },{id: "post-10-april-2020-see-the-sea",
+      },{id: "post-see-the-sea",
         
-          title: "10 April 2020 — See the sea",
+          title: "See the sea",
         
         description: "See the sea",
         section: "Posts",
@@ -281,9 +281,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-04-10/";
           
         },
-      },{id: "post-3-april-2020-sponges-that-look-like-people",
+      },{id: "post-sponges-that-look-like-people",
         
-          title: "3 April 2020 — Sponges that look like people 😂😂😂",
+          title: "Sponges that look like people 😂😂😂",
         
         description: "Sponges that look like people 😂😂😂",
         section: "Posts",
@@ -292,9 +292,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-04-03/";
           
         },
-      },{id: "post-17-february-2020-ocean-update",
+      },{id: "post-ocean-update",
         
-          title: "17 February 2020 — Ocean update",
+          title: "Ocean update",
         
         description: "Ocean update",
         section: "Posts",
@@ -303,9 +303,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-02-17/";
           
         },
-      },{id: "post-7-february-2020-da-minha-língua-vê-se-o-mar-from-my-language-you-can-see-the-sea",
+      },{id: "post-da-minha-língua-vê-se-o-mar-from-my-language-you-can-see-the-sea",
         
-          title: "7 February 2020 — Da minha língua vê-se o mar.” (From my language,...",
+          title: "Da minha língua vê-se o mar.” (From my language, you can see the...",
         
         description: "Da minha língua vê-se o mar.” (From my language, you can see the sea.)",
         section: "Posts",
@@ -314,9 +314,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-02-07/";
           
         },
-      },{id: "post-30-january-2020-ah-well-a-day-what-evil-looks",
+      },{id: "post-ah-well-a-day-what-evil-looks",
         
-          title: "30 January 2020 — Ah! well a-day! what evil looks",
+          title: "Ah! well a-day! what evil looks",
         
         description: "Ah! well a-day! what evil looks",
         section: "Posts",
@@ -325,9 +325,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-01-30/";
           
         },
-      },{id: "post-6-january-2020-have-your-say",
+      },{id: "post-have-your-say",
         
-          title: "6 January 2020 — Have your say",
+          title: "Have your say",
         
         description: "Have your say",
         section: "Posts",
@@ -336,9 +336,9 @@ ninja.data = [{
             window.location.href = "/blog/2020/little-blue-letter-2020-01-06/";
           
         },
-      },{id: "post-9-december-2019-first-aid-kit-for-ocean-communications-launched",
+      },{id: "post-first-aid-kit-for-ocean-communications-launched",
         
-          title: "9 December 2019 — First aid kit for ocean communications launched",
+          title: "First aid kit for ocean communications launched",
         
         description: "First aid kit for ocean communications launched",
         section: "Posts",
@@ -347,9 +347,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-12-09/";
           
         },
-      },{id: "post-4-november-2019-hark-now-hear-the-sailors-cry-smell-the-sea-and-feel-the-sky-let-y",
+      },{id: "post-hark-now-hear-the-sailors-cry-smell-the-sea-and-feel-the-sky-let-y",
         
-          title: "4 November 2019 — Hark, now hear the sailors cry, Smell the sea,...",
+          title: "Hark, now hear the sailors cry, Smell the sea, and feel the sky,...",
         
         description: "Hark, now hear the sailors cry, Smell the sea, and feel the sky, Let your soul &amp; spirit fly...",
         section: "Posts",
@@ -358,9 +358,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-11-04/";
           
         },
-      },{id: "post-21-october-2019-ocean-update",
+      },{id: "post-ocean-update",
         
-          title: "21 October 2019 — Ocean update",
+          title: "Ocean update",
         
         description: "Ocean update",
         section: "Posts",
@@ -369,9 +369,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-10-21/";
           
         },
-      },{id: "post-11-october-2019-ugly-deep-sea-creature-of-the-week",
+      },{id: "post-ugly-deep-sea-creature-of-the-week",
         
-          title: "11 October 2019 — Ugly deep-sea creature of the week",
+          title: "Ugly deep-sea creature of the week",
         
         description: "Ugly deep-sea creature of the week",
         section: "Posts",
@@ -380,9 +380,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-10-11-2/";
           
         },
-      },{id: "post-11-october-2019-pass-it-on",
+      },{id: "post-pass-it-on",
         
-          title: "11 October 2019 — Pass it on!",
+          title: "Pass it on!",
         
         description: "Pass it on!",
         section: "Posts",
@@ -391,9 +391,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-10-11/";
           
         },
-      },{id: "post-26-september-2019-note-from-the-editor",
+      },{id: "post-note-from-the-editor",
         
-          title: "26 September 2019 — Note from the editor",
+          title: "Note from the editor",
         
         description: "Note from the editor",
         section: "Posts",
@@ -402,9 +402,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-09-26/";
           
         },
-      },{id: "post-19-september-2019-everyday-is-world-oceans-day-for-me-i-39-m-either-in-on-or-around-ocean",
+      },{id: "post-everyday-is-world-oceans-day-for-me-i-39-m-either-in-on-or-around-ocean",
         
-          title: "19 September 2019 — Everyday is World Oceans Day for me. I&#39;m either...",
+          title: "Everyday is World Oceans Day for me. I&#39;m either in, on or around...",
         
         description: "Everyday is World Oceans Day for me. I&#39;m either in, on or around ocean or I&#39;m thinking about how to drive change. I feel intensely responsible about leaving this world a better pla",
         section: "Posts",
@@ -413,9 +413,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-09-19/";
           
         },
-      },{id: "post-8-september-2019-hello-there",
+      },{id: "post-hello-there",
         
-          title: "8 September 2019 — Hello there!",
+          title: "Hello there!",
         
         description: "Hello there!",
         section: "Posts",
@@ -424,9 +424,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-09-08/";
           
         },
-      },{id: "post-26-july-2019-lombok-s-tourism-future",
+      },{id: "post-lombok-s-tourism-future",
         
-          title: "26 July 2019 — Lombok’s tourism future",
+          title: "Lombok’s tourism future",
         
         description: "Lombok’s tourism future",
         section: "Posts",
@@ -435,9 +435,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-07-26/";
           
         },
-      },{id: "post-28-june-2019-special-interest-group-on-offshore-renewables",
+      },{id: "post-special-interest-group-on-offshore-renewables",
         
-          title: "28 June 2019 — ​ Special Interest Group on Offshore Renewables",
+          title: "​ Special Interest Group on Offshore Renewables",
         
         description: "​ Special Interest Group on Offshore Renewables",
         section: "Posts",
@@ -446,9 +446,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-06-28/";
           
         },
-      },{id: "post-6-june-2019-stubby-squid-was-discovered-at-3-000-feet-depth-looking-a-bit-like-an-octopus-and-a-squi",
+      },{id: "post-stubby-squid-was-discovered-at-3-000-feet-depth-looking-a-bit-like-an-octopus-and-a-squi",
         
-          title: "6 June 2019 — Stubby squid was discovered at 3.000 feet depth ,...",
+          title: "Stubby squid was discovered at 3.000 feet depth , looking a bit like...",
         
         description: "Stubby squid was discovered at 3.000 feet depth , looking a bit like an octopus and a squi",
         section: "Posts",
@@ -457,9 +457,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-06-06/";
           
         },
-      },{id: "post-10-may-2019-protecting-a-volcanic-island-oasis",
+      },{id: "post-protecting-a-volcanic-island-oasis",
         
-          title: "10 May 2019 — Protecting a volcanic island oasis",
+          title: "Protecting a volcanic island oasis",
         
         description: "Protecting a volcanic island oasis",
         section: "Posts",
@@ -468,9 +468,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-05-10/";
           
         },
-      },{id: "post-12-april-2019-what-would-an-ocean-be-without-a-monster-lurking-in-the-dark-it-would",
+      },{id: "post-what-would-an-ocean-be-without-a-monster-lurking-in-the-dark-it-would",
         
-          title: "12 April 2019 — What would an ocean be without a monster lurking...",
+          title: "What would an ocean be without a monster lurking in the dark? It...",
         
         description: "What would an ocean be without a monster lurking in the dark? It would be like sleep without dreams.",
         section: "Posts",
@@ -479,9 +479,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-04-12/";
           
         },
-      },{id: "post-5-april-2019-g",
+      },{id: "post-g",
         
-          title: "5 April 2019 — G",
+          title: "G",
         
         description: "G",
         section: "Posts",
@@ -490,9 +490,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-04-05/";
           
         },
-      },{id: "post-19-march-2019-taxonomistappreciationday",
+      },{id: "post-taxonomistappreciationday",
         
-          title: "19 March 2019 — #TaxonomistAppreciationDay",
+          title: "#TaxonomistAppreciationDay",
         
         description: "#TaxonomistAppreciationDay",
         section: "Posts",
@@ -501,9 +501,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-03-19/";
           
         },
-      },{id: "post-6-march-2019-first",
+      },{id: "post-first",
         
-          title: "6 March 2019 — First",
+          title: "First",
         
         description: "First",
         section: "Posts",
@@ -512,9 +512,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-03-06/";
           
         },
-      },{id: "post-21-february-2019-life-below-water",
+      },{id: "post-life-below-water",
         
-          title: "21 February 2019 — Life below water",
+          title: "Life below water",
         
         description: "Life below water",
         section: "Posts",
@@ -523,9 +523,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-02-21/";
           
         },
-      },{id: "post-6-february-2019-ocean-opportunity",
+      },{id: "post-ocean-opportunity",
         
-          title: "6 February 2019 — Ocean opportunity",
+          title: "Ocean opportunity",
         
         description: "Ocean opportunity",
         section: "Posts",
@@ -534,9 +534,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-02-06/";
           
         },
-      },{id: "post-31-january-2019-you-must-not-lose-faith-in-humanity-humanity-is-like-an-ocean-if-a-f",
+      },{id: "post-you-must-not-lose-faith-in-humanity-humanity-is-like-an-ocean-if-a-f",
         
-          title: "31 January 2019 — You must not lose faith in humanity. Humanity is...",
+          title: "You must not lose faith in humanity. Humanity is like an ocean; if...",
         
         description: "You must not lose faith in humanity. Humanity is like an ocean; if a few drops of the ocean are dirty, the ocean does not become dirty.",
         section: "Posts",
@@ -545,9 +545,9 @@ ninja.data = [{
             window.location.href = "/blog/2019/little-blue-letter-2019-01-31/";
           
         },
-      },{id: "post-23-january-2019-marine-science-update",
+      },{id: "post-marine-science-update",
         
-          title: "23 January 2019 — Marine science update",
+          title: "Marine science update",
         
         description: "Marine science update",
         section: "Posts",
@@ -567,9 +567,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/This-is-the-last-academic-conference-that-I-will-ever-go-to/";
           
         },
-      },{id: "post-3-december-2018-ocean-update",
+      },{id: "post-ocean-update",
         
-          title: "3 December 2018 — Ocean update",
+          title: "Ocean update",
         
         description: "Ocean update",
         section: "Posts",
@@ -578,9 +578,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-12-03/";
           
         },
-      },{id: "post-21-november-2018-shipping-regulator-takes-on-marine-plastic",
+      },{id: "post-shipping-regulator-takes-on-marine-plastic",
         
-          title: "21 November 2018 — Shipping regulator takes on marine plastic",
+          title: "Shipping regulator takes on marine plastic",
         
         description: "Shipping regulator takes on marine plastic",
         section: "Posts",
@@ -589,9 +589,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-11-21/";
           
         },
-      },{id: "post-17-november-2018-wetlands-in-the-world-spotlight",
+      },{id: "post-wetlands-in-the-world-spotlight",
         
-          title: "17 November 2018 — Wetlands in the world spotlight",
+          title: "Wetlands in the world spotlight",
         
         description: "Wetlands in the world spotlight",
         section: "Posts",
@@ -600,9 +600,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-11-17/";
           
         },
-      },{id: "post-12-october-2018-39-blue-economy-39-deal-sparks-concern-in-madagascar",
+      },{id: "post-39-blue-economy-39-deal-sparks-concern-in-madagascar",
         
-          title: "12 October 2018 — &#39;Blue economy&#39; deal sparks concern in Madagascar",
+          title: "&#39;Blue economy&#39; deal sparks concern in Madagascar",
         
         description: "&#39;Blue economy&#39; deal sparks concern in Madagascar",
         section: "Posts",
@@ -611,9 +611,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-10-12/";
           
         },
-      },{id: "post-26-september-2018-deeply-surprising",
+      },{id: "post-deeply-surprising",
         
-          title: "26 September 2018 — Deeply surprising",
+          title: "Deeply surprising",
         
         description: "Deeply surprising",
         section: "Posts",
@@ -622,9 +622,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-09-26/";
           
         },
-      },{id: "post-17-september-2018-ready-salted",
+      },{id: "post-ready-salted",
         
-          title: "17 September 2018 — Ready salted",
+          title: "Ready salted",
         
         description: "Ready salted",
         section: "Posts",
@@ -633,9 +633,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-09-17/";
           
         },
-      },{id: "post-12-september-2018-we-are-all-in-the-same-canoe-and-have-to-paddle-together",
+      },{id: "post-we-are-all-in-the-same-canoe-and-have-to-paddle-together",
         
-          title: "12 September 2018 — We are all in the same canoe and have...",
+          title: "We are all in the same canoe and have to paddle together.",
         
         description: "We are all in the same canoe and have to paddle together.",
         section: "Posts",
@@ -644,9 +644,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-09-12/";
           
         },
-      },{id: "post-3-august-2018-the-plight-of-the-penguins",
+      },{id: "post-the-plight-of-the-penguins",
         
-          title: "3 August 2018 — The plight of the penguins",
+          title: "The plight of the penguins",
         
         description: "The plight of the penguins",
         section: "Posts",
@@ -655,9 +655,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-08-03/";
           
         },
-      },{id: "post-13-july-2018-kriller-move-to-protect-the-antarctic",
+      },{id: "post-kriller-move-to-protect-the-antarctic",
         
-          title: "13 July 2018 — Kriller move to protect the Antarctic",
+          title: "Kriller move to protect the Antarctic",
         
         description: "Kriller move to protect the Antarctic",
         section: "Posts",
@@ -666,9 +666,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-07-13/";
           
         },
-      },{id: "post-27-june-2018-sustainable-development-are-we-nearly-there-yet",
+      },{id: "post-sustainable-development-are-we-nearly-there-yet",
         
-          title: "27 June 2018 — Sustainable development – are we nearly there yet?",
+          title: "Sustainable development – are we nearly there yet?",
         
         description: "Sustainable development – are we nearly there yet?",
         section: "Posts",
@@ -677,9 +677,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-06-27/";
           
         },
-      },{id: "post-22-june-2018-from-the-darkness",
+      },{id: "post-from-the-darkness",
         
-          title: "22 June 2018 — From the darkness...",
+          title: "From the darkness...",
         
         description: "From the darkness...",
         section: "Posts",
@@ -688,9 +688,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-06-22/";
           
         },
-      },{id: "post-8-june-2018-the-ocean-is-for-life-not-just-a-day",
+      },{id: "post-the-ocean-is-for-life-not-just-a-day",
         
-          title: "8 June 2018 — The Ocean is for Life, not just a Day...",
+          title: "The Ocean is for Life, not just a Day",
         
         description: "The Ocean is for Life, not just a Day",
         section: "Posts",
@@ -699,9 +699,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-06-08/";
           
         },
-      },{id: "post-1-june-2018-longing-for-beauty",
+      },{id: "post-longing-for-beauty",
         
-          title: "1 June 2018 — Longing for beauty?",
+          title: "Longing for beauty?",
         
         description: "Longing for beauty?",
         section: "Posts",
@@ -710,9 +710,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-06-01/";
           
         },
-      },{id: "post-26-may-2018-slip-slop-slap",
+      },{id: "post-slip-slop-slap",
         
-          title: "26 May 2018 — Slip slop slap",
+          title: "Slip slop slap",
         
         description: "Slip slop slap",
         section: "Posts",
@@ -721,9 +721,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-05-26/";
           
         },
-      },{id: "post-18-may-2018-hfo-ghg-imo-omg",
+      },{id: "post-hfo-ghg-imo-omg",
         
-          title: "18 May 2018 — HFO, GHG, IMO, OMG",
+          title: "HFO, GHG, IMO, OMG",
         
         description: "HFO, GHG, IMO, OMG",
         section: "Posts",
@@ -732,9 +732,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-05-18/";
           
         },
-      },{id: "post-11-may-2018-grand-plans-in-vietnam",
+      },{id: "post-grand-plans-in-vietnam",
         
-          title: "11 May 2018 — Grand plans in Vietnam",
+          title: "Grand plans in Vietnam",
         
         description: "Grand plans in Vietnam",
         section: "Posts",
@@ -743,9 +743,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-05-11/";
           
         },
-      },{id: "post-4-may-2018-voices-from-a-changing-frontier",
+      },{id: "post-voices-from-a-changing-frontier",
         
-          title: "4 May 2018 — Voices from a changing frontier",
+          title: "Voices from a changing frontier",
         
         description: "Voices from a changing frontier",
         section: "Posts",
@@ -754,9 +754,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-05-04/";
           
         },
-      },{id: "post-28-april-2018-world-penguin-day",
+      },{id: "post-world-penguin-day",
         
-          title: "28 April 2018 — World Penguin Day",
+          title: "World Penguin Day",
         
         description: "World Penguin Day",
         section: "Posts",
@@ -765,9 +765,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-04-28/";
           
         },
-      },{id: "post-19-april-2018-the-cure-for-everything-is-salt-water-sweat-tears-or-the-sea",
+      },{id: "post-the-cure-for-everything-is-salt-water-sweat-tears-or-the-sea",
         
-          title: "19 April 2018 — The cure for everything is salt water: sweat, tears,...",
+          title: "The cure for everything is salt water: sweat, tears, or the sea",
         
         description: "The cure for everything is salt water: sweat, tears, or the sea",
         section: "Posts",
@@ -776,9 +776,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-04-19/";
           
         },
-      },{id: "post-14-april-2018-without-water-our-planet-would-be-one-of-the-billions-of-lifeless-roc",
+      },{id: "post-without-water-our-planet-would-be-one-of-the-billions-of-lifeless-roc",
         
-          title: "14 April 2018 — Without water, our planet would be one of the...",
+          title: "Without water, our planet would be one of the billions of lifeless roc...",
         
         description: "Without water, our planet would be one of the billions of lifeless rocks floating endlessly in the vastness of the inky-black void",
         section: "Posts",
@@ -787,9 +787,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-04-14-2/";
           
         },
-      },{id: "post-14-april-2018-taking-cues-from-nature",
+      },{id: "post-taking-cues-from-nature",
         
-          title: "14 April 2018 — Taking cues from nature",
+          title: "Taking cues from nature",
         
         description: "Taking cues from nature",
         section: "Posts",
@@ -798,9 +798,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-04-14/";
           
         },
-      },{id: "post-30-march-2018-in-the-mix",
+      },{id: "post-in-the-mix",
         
-          title: "30 March 2018 — In the mix",
+          title: "In the mix",
         
         description: "In the mix",
         section: "Posts",
@@ -809,9 +809,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-03-30/";
           
         },
-      },{id: "post-22-march-2018-keeping-your-head-above-water",
+      },{id: "post-keeping-your-head-above-water",
         
-          title: "22 March 2018 — Keeping your head above water",
+          title: "Keeping your head above water",
         
         description: "Keeping your head above water",
         section: "Posts",
@@ -820,9 +820,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-03-22/";
           
         },
-      },{id: "post-16-march-2018-surprising-narwhal-fact",
+      },{id: "post-surprising-narwhal-fact",
         
-          title: "16 March 2018 — Surprising narwhal fact",
+          title: "Surprising narwhal fact",
         
         description: "Surprising narwhal fact",
         section: "Posts",
@@ -831,9 +831,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-03-16/";
           
         },
-      },{id: "post-1-march-2018-little-blue-letter-was-curated-this-week-by-aneika-angus",
+      },{id: "post-little-blue-letter-was-curated-this-week-by-aneika-angus",
         
-          title: "1 March 2018 — Little Blue Letter was curated this week by Aneika...",
+          title: "Little Blue Letter was curated this week by Aneika Angus",
         
         description: "Little Blue Letter was curated this week by Aneika Angus",
         section: "Posts",
@@ -842,9 +842,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-03-01/";
           
         },
-      },{id: "post-23-february-2018-turtle-power",
+      },{id: "post-turtle-power",
         
-          title: "23 February 2018 — Turtle power",
+          title: "Turtle power",
         
         description: "Turtle power",
         section: "Posts",
@@ -853,9 +853,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-02-23/";
           
         },
-      },{id: "post-31-january-2018-speaking-in-tongues",
+      },{id: "post-speaking-in-tongues",
         
-          title: "31 January 2018 — Speaking in tongues",
+          title: "Speaking in tongues",
         
         description: "Speaking in tongues",
         section: "Posts",
@@ -864,9 +864,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-01-31-2/";
           
         },
-      },{id: "post-31-january-2018-cyber-pirates",
+      },{id: "post-cyber-pirates",
         
-          title: "31 January 2018 — Cyber pirates",
+          title: "Cyber pirates",
         
         description: "Cyber pirates",
         section: "Posts",
@@ -875,9 +875,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-01-31/";
           
         },
-      },{id: "post-25-january-2018-quot-tesla-of-the-canals-quot",
+      },{id: "post-quot-tesla-of-the-canals-quot",
         
-          title: "25 January 2018 — &quot;Tesla of the Canals&quot;",
+          title: "&quot;Tesla of the Canals&quot;",
         
         description: "&quot;Tesla of the Canals&quot;",
         section: "Posts",
@@ -886,9 +886,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-01-25/";
           
         },
-      },{id: "post-18-january-2018-eu-joins-the-war-on-plastic-waste",
+      },{id: "post-eu-joins-the-war-on-plastic-waste",
         
-          title: "18 January 2018 — EU joins the war on plastic waste",
+          title: "EU joins the war on plastic waste",
         
         description: "EU joins the war on plastic waste",
         section: "Posts",
@@ -897,9 +897,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-01-18-2/";
           
         },
-      },{id: "post-18-january-2018-ocean-update",
+      },{id: "post-ocean-update",
         
-          title: "18 January 2018 — Ocean update",
+          title: "Ocean update",
         
         description: "Ocean update from Little Blue Letter",
         section: "Posts",
@@ -908,9 +908,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-01-18/";
           
         },
-      },{id: "post-11-january-2018-it-39-s-getting-hot-in-here",
+      },{id: "post-it-39-s-getting-hot-in-here",
         
-          title: "11 January 2018 — It&#39;s getting hot in here!",
+          title: "It&#39;s getting hot in here!",
         
         description: "It&#39;s getting hot in here!",
         section: "Posts",
@@ -919,9 +919,9 @@ ninja.data = [{
             window.location.href = "/blog/2018/little-blue-letter-2018-01-11/";
           
         },
-      },{id: "post-5-january-2018-what-to-watch-in-2018",
+      },{id: "post-what-to-watch-in-2018",
         
-          title: "5 January 2018 — What to watch in 2018",
+          title: "What to watch in 2018",
         
         description: "What to watch in 2018",
         section: "Posts",
@@ -941,9 +941,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/The-Fourth-Annual-Academics-with-Cats-Awards-2017-Winners!/";
           
         },
-      },{id: "post-24-december-2017-rising-from-the-ashes",
+      },{id: "post-rising-from-the-ashes",
         
-          title: "24 December 2017 — Rising from the ashes",
+          title: "Rising from the ashes",
         
         description: "Rising from the ashes",
         section: "Posts",
@@ -952,9 +952,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/little-blue-letter-2017-12-24/";
           
         },
-      },{id: "post-19-december-2017-life-in-plastic-not-so-fantastic",
+      },{id: "post-life-in-plastic-not-so-fantastic",
         
-          title: "19 December 2017 — Life in plastic, not so fantastic",
+          title: "Life in plastic, not so fantastic",
         
         description: "Life in plastic, not so fantastic",
         section: "Posts",
@@ -974,9 +974,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/13-Great-Gifts-for-Academics/";
           
         },
-      },{id: "post-8-december-2017-you-can-you-should-and-if-you-39-re-brave-enough-to-start-you-will",
+      },{id: "post-you-can-you-should-and-if-you-39-re-brave-enough-to-start-you-will",
         
-          title: "8 December 2017 — You can, you should, and if you&#39;re brave enough...",
+          title: "You can, you should, and if you&#39;re brave enough to start, you will....",
         
         description: "You can, you should, and if you&#39;re brave enough to start, you will.",
         section: "Posts",
@@ -985,9 +985,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/little-blue-letter-2017-12-08/";
           
         },
-      },{id: "post-29-november-2017-viva-méxico",
+      },{id: "post-viva-méxico",
         
-          title: "29 November 2017 — ¡Viva México!",
+          title: "¡Viva México!",
         
         description: "¡Viva México!",
         section: "Posts",
@@ -1007,9 +1007,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/The-Fourth-Annual-Academics-with-Cats-Awards/";
           
         },
-      },{id: "post-22-november-2017-ice-ice-baby",
+      },{id: "post-ice-ice-baby",
         
-          title: "22 November 2017 — Ice ice baby",
+          title: "Ice ice baby",
         
         description: "Ice ice baby",
         section: "Posts",
@@ -1040,9 +1040,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/404-Buffalo-not-found/";
           
         },
-      },{id: "post-10-november-2017-flotsam-and-jetsam",
+      },{id: "post-flotsam-and-jetsam",
         
-          title: "10 November 2017 — Flotsam and jetsam",
+          title: "Flotsam and jetsam",
         
         description: "Flotsam and jetsam",
         section: "Posts",
@@ -1051,9 +1051,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/little-blue-letter-2017-11-10/";
           
         },
-      },{id: "post-2-november-2017-calming-manatee",
+      },{id: "post-calming-manatee",
         
-          title: "2 November 2017 — Calming Manatee",
+          title: "Calming Manatee",
         
         description: "Calming Manatee",
         section: "Posts",
@@ -1062,9 +1062,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/little-blue-letter-2017-11-02/";
           
         },
-      },{id: "post-30-october-2017-food-for-thought",
+      },{id: "post-food-for-thought",
         
-          title: "30 October 2017 — Food for thought",
+          title: "Food for thought",
         
         description: "Food for thought",
         section: "Posts",
@@ -1073,9 +1073,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/little-blue-letter-2017-10-30/";
           
         },
-      },{id: "post-23-october-2017-tweet-tweet",
+      },{id: "post-tweet-tweet",
         
-          title: "23 October 2017 — Tweet tweet",
+          title: "Tweet tweet",
         
         description: "Tweet tweet",
         section: "Posts",
@@ -1084,9 +1084,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/little-blue-letter-2017-10-23/";
           
         },
-      },{id: "post-21-october-2017-i-39-m-not-joking",
+      },{id: "post-i-39-m-not-joking",
         
-          title: "21 October 2017 — I&#39;m not joking",
+          title: "I&#39;m not joking",
         
         description: "I&#39;m not joking",
         section: "Posts",
@@ -1095,9 +1095,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/little-blue-letter-2017-10-21/";
           
         },
-      },{id: "post-17-october-2017-congratulations",
+      },{id: "post-congratulations",
         
-          title: "17 October 2017 — Congratulations",
+          title: "Congratulations",
         
         description: "Congratulations",
         section: "Posts",
@@ -1106,9 +1106,9 @@ ninja.data = [{
             window.location.href = "/blog/2017/little-blue-letter-2017-10-17/";
           
         },
-      },{id: "post-8-october-2017-optimism",
+      },{id: "post-optimism",
         
-          title: "8 October 2017 — Optimism",
+          title: "Optimism",
         
         description: "Optimism",
         section: "Posts",
