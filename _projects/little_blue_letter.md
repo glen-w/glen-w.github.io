@@ -16,6 +16,6 @@ A lot of ocean news is heavy. Younger people doing the work did not have a frien
 
 It went out on Fridays: a quote, a lead, a gif, and a note from a young curator. Eighty-eight letters, from October 2017 to March 2023.
 
-They live here: the [letters](/blog/tag/littleblueletter/), and a [home page](https://littleblueletter.com/) in the old colours. The mailing list is not moving yet.
+They live on [littleblueletter.com](https://littleblueletter.com/) (home + [archive](https://littleblueletter.com/archive/)), and still here as [blog posts](/blog/tag/littleblueletter/). The mailing list is not moving yet.
 
 I spoke about it at CommOCEAN in Southampton in December 2018: [Engaging audiences with a fun and friendly newsletter: The Little Blue Letter Story](/library/glen_wright_engaging-audiences-fun-friendly-newsletter-little-blue-letter-story/).
