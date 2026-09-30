@@ -141,6 +141,7 @@ processing/__init__.py
 mapping.csv
 docs/dev/seo-findability-plan.md
 docs/dev/own-tld-pattern.local.md
+docs/dev/lbl-listmonk-relay.local.md
 
 # Catalogue of failures — local only until redaction is finished
 _failures/
