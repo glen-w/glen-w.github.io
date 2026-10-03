@@ -5,7 +5,7 @@ description: Academia Obscura — the hidden silly side of higher education. Blo
 img: /assets/img/projects/thumbs/academia_obscura_cover.jpg
 wordmark: true
 importance:
-category: ongoing
+category: featured
 website: https://academiaobscura.com
 shop: https://www.amazon.com/Academia-Obscura-Hidden-Higher-Education/dp/1783526947
 ---

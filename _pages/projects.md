@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 20
-display_categories: [ongoing, aspirations, archive]
+display_categories: [featured, ongoing, backburner, archive]
 horizontal: false
 ---
 
@@ -14,7 +14,7 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  {% unless category == "ongoing" %}
+  {% unless category == "featured" %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>

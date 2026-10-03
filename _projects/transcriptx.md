@@ -5,7 +5,7 @@ description: A local-first transcript analysis toolkit
 img: /assets/img/projects/thumbs/transcriptx_logo.png
 wordmark: true
 importance: 5
-category: ongoing
+category: featured
 github: https://github.com/glen-w/TranscriptX
 website: https://glenwright.earth/TranscriptX/
 docs: https://glenwright.earth/TranscriptX/guide/

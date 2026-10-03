@@ -5,7 +5,7 @@ description: Handwritten notebooks to text you keep, on your machine.
 img: /assets/img/projects/thumbs/transcribe_logo.png
 wordmark: true
 importance: 5
-category: ongoing
+category: featured
 github: https://github.com/glen-w/transcribe
 website: https://glenwright.earth/transcribe/
 docs: https://glenwright.earth/transcribe/guide/

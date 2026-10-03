@@ -4,7 +4,7 @@ title: Paperful
 description: Fill the gaps in your Zotero library.
 img: /assets/img/projects/thumbs/paperful_icon.png
 importance: 5
-category: ongoing
+category: featured
 github: https://github.com/glen-w/Paperful
 website: https://paperful.app/
 docs: https://paperful.app/guide/

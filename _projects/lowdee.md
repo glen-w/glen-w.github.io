@@ -6,7 +6,7 @@ img: /assets/img/projects/thumbs/lowdee_on_light.png
 img_dark: /assets/img/projects/thumbs/lowdee.png
 wordmark: true
 importance: 4
-category: ongoing
+category: backburner
 github: https://github.com/glen-w/lowDee
 ---
 

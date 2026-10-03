@@ -4,7 +4,7 @@ title: Data Dumps
 description: Ingest your own GDPR and app exports into DuckDB, then explore them locally.
 img: /assets/img/projects/thumbs/data_dumps.png
 importance: 7
-category: ongoing
+category: backburner
 github: https://github.com/glen-w/data_dumps
 website: https://glenwright.earth/data_dumps/
 docs: https://github.com/glen-w/data_dumps/blob/main/docs/guides/getting-your-data.md

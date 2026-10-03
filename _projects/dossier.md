@@ -6,10 +6,8 @@ img: /assets/img/projects/thumbs/dossier_logo_on_light.png
 img_dark: /assets/img/projects/thumbs/dossier_logo.png
 wordmark: true
 importance: 9
-category: ongoing
+category: backburner
 github: https://github.com/glen-w/Dossier
-website: https://glenwright.earth/Dossier/
-docs: https://glenwright.earth/Dossier/guide/
 ---
 
 <div align="center">
