@@ -27,7 +27,7 @@ latest_posts:
 
 Hello 👋🏻
 
-I'm Glen, <span class="role-typewriter-static">a researcher, writer, facilitator and workshopper</span><span class="role-typewriter-article" hidden>a</span> <span class="role-typewriter" hidden data-roles="consultant,researcher,writer,facilitator,workshopper,developer,lecturer,mentor,miro-master,vibe-coder,author,collager,academic"><span class="role-typewriter__slot"><span class="role-typewriter__word"></span></span></span> with expertise in oceans and energy.<br><br>
+I'm Glen, <span class="role-typewriter-static">a researcher, writer, facilitator and workshopper</span><span class="role-typewriter-article" hidden>a</span> <span class="role-typewriter" hidden data-roles="consultant,researcher,writer,facilitator,workshopper,developer,lecturer,mentor,miro-master,author,collager,academic"><span class="role-typewriter__slot"><span class="role-typewriter__word"></span></span></span> with expertise in oceans and energy.<br><br>
 This work-in-progress website is an attempt to gather all my bits & bobs into a semi-organised [body of work](/library/) and share my [side-projects](/projects/) and [cut-and-paste creations](/creative/).
 
 Please [get in touch](mailto:glen.w.wright@gmail.com), ask me anything, tell me a secret, offer me money in exchange for my labour, or just say hi :)
