@@ -24,6 +24,6 @@ For NGOs, research groups and consultancies that already know their question and
 
 [Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions__link }
 
-[Book a 50-minute call](https://meet.glenwright.earth/u/book/50-minute-call){: .contact-actions__link }
+[Book a 30-minute call](https://meet.glenwright.earth/u/book/half-hour){: .contact-actions__link }
 
 </div>

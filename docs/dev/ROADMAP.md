@@ -22,7 +22,7 @@ Source: 28 Sep 2026 deep dive. Default job of a share card is **hire-me** (consu
 
 ### 2. Services — offer set live
 
-Three lanes on `/services/` (nav on, after CV): **Ocean & marine policy** (marine renewables inside), **Evidence & research ops** (TranscriptX + Paperful named; AI as method), **Workshops & facilitation** (orientation folded in; 1:1 as a 50-minute call line). Cut: standalone energy, coaching card, copyediting, applied-AI product page. Index CTA: Schedule a meeting → `meet.glenwright.earth` ([`booking-cta.md`](booking-cta.md)). Per-page CTAs: email + 50-minute call.
+Three lanes on `/services/` (nav on, after CV): **Ocean & marine policy** (marine renewables inside), **Evidence & research ops** (TranscriptX + Paperful named; AI as method), **Workshops & facilitation** (orientation folded in; 1:1 as a 30-minute call line). Cut: standalone energy, coaching card, copyediting, applied-AI product page. Index CTA: Schedule a meeting → `meet.glenwright.earth/u/book/half-hour` ([`booking-cta.md`](booking-cta.md)). Per-page CTAs: email + 30-minute call.
 
 - [x] Decide the real offer set: keep, merge, or cut.
 - [x] Rewrite the index and remaining pages. Booking CTA on the index.

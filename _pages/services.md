@@ -20,6 +20,6 @@ nav_order: 72
 
 <div class="contact-actions contact-actions--center" markdown="1">
 
-[Schedule a meeting](https://meet.glenwright.earth){: .contact-actions__link }
+[Schedule a meeting](https://meet.glenwright.earth/u/book/half-hour){: .contact-actions__link }
 
 </div>

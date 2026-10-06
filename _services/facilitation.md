@@ -28,4 +28,4 @@ I teach [_Marine Policy & Ocean Governance_](/projects/marine-policy-ocean-gover
 
 Booked at a day rate, for a single workshop or a short series.
 
-Not sure a full workshop is what you need? [Book a 50-minute call](https://meet.glenwright.earth/u/book/50-minute-call) and we'll work out the right format together.
+Not sure a full workshop is what you need? [Book a 30-minute call](https://meet.glenwright.earth/u/book/half-hour) and we'll work out the right format together.
