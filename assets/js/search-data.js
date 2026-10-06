@@ -72,6 +72,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-services",
+          title: "services",
+          description: "Ocean &amp; marine policy, evidence &amp; research ops, and workshops &amp; facilitation for ocean, energy and climate teams.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/services/";
+          },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
+          },
         },{id: "post-a-quick-website-update",
         
           title: "a quick website update",
@@ -5378,41 +5392,21 @@ ninja.data = [{
           description: "Building an online homespace",
           section: "Projects",handler: () => {
               window.location.href = "/projects/website/";
-            },},{id: "services-applied-ai-amp-workflow-design",
-          title: 'Applied AI &amp;amp; Workflow Design',
-          description: "Help NGOs, research groups, and small teams make practical, ethical use of AI and lightweight digital tools in their everyday work.",
+            },},{id: "services-workshops-amp-facilitation",
+          title: 'Workshops &amp;amp; facilitation',
+          description: "Workshops and strategy sessions for ocean, energy and climate teams.",
           section: "Services",handler: () => {
-              window.location.href = "/services/applied-ai-workflow-design/";
-            },},{id: "services-coaching-amp-career-support",
-          title: 'Coaching &amp;amp; Career Support',
-          description: "One-to-one coaching for students, early-career professionals, and mid-career practitioners working in oceans, energy, climate, and adjacent fields.",
-          section: "Services",handler: () => {
-              window.location.href = "/services/coaching-career-support/";
-            },},{id: "services-copyediting-amp-proofing",
-          title: 'Copyediting &amp;amp; Proofing',
-          description: "Copyediting and proofing services for reports, academic articles, policy briefs, funding proposals, and other written outputs.",
-          section: "Services",handler: () => {
-              window.location.href = "/services/copyediting-proofing/";
-            },},{id: "services-energy-transition-amp-renewables",
-          title: 'Energy Transition &amp;amp; Renewables',
-          description: "Support for organisations working on renewable energy and energy systems to interpret global trends and apply them to their specific context.",
-          section: "Services",handler: () => {
-              window.location.href = "/services/energy-transition-renewables/";
+              window.location.href = "/services/facilitation/";
             },},{id: "services-ocean-amp-marine-policy",
-          title: 'Ocean &amp;amp; Marine Policy',
-          description: "Strategic advice on international ocean governance, with a particular focus on the high seas, seabed mining, and regional cooperation.",
+          title: 'Ocean &amp;amp; marine policy',
+          description: "Advice on the high seas, the BBNJ Agreement, marine spatial planning and fisheries bodies, for NGOs, alliances and funders who need a clear read of the process.",
           section: "Services",handler: () => {
-              window.location.href = "/services/ocean-marine-policy/";
-            },},{id: "services-orientation-sessions",
-          title: 'Orientation Sessions',
-          description: "Design and facilitation of workshops, retreats, and learning journeys for teams working on oceans, energy, and climate.",
+              window.location.href = "/services/ocean/";
+            },},{id: "services-evidence-amp-research-ops",
+          title: 'Evidence &amp;amp; research ops',
+          description: "Interviews, meeting analysis and literature work done carefully, so your team ends up with evidence it can trust, find and reuse.",
           section: "Services",handler: () => {
-              window.location.href = "/services/orientation-sessions/";
-            },},{id: "services-workshops-facilitation-amp-learning-design",
-          title: 'Workshops, Facilitation &amp;amp; Learning Design',
-          description: "Design and facilitation of workshops, retreats, and learning journeys for teams working on oceans, energy, and climate.",
-          section: "Services",handler: () => {
-              window.location.href = "/services/workshops-facilitation-learning/";
+              window.location.href = "/services/research/";
             },},{
         id: 'social-email',
         title: 'email',

@@ -55,6 +55,13 @@ This is a **public website**. Visitor-facing UI should not explain internals
 are populated). Prefer labels and self-evident UI; put docs in `processing/`
 READMEs or agent notes, not in rendered Liquid/HTML.
 
+## Brand colors
+
+Sea green + earth neutrals: `--brand-sea` (`#3d5f5c`), `--brand-sea-deep`
+(`#215d42`), `--brand-rock`, `--brand-linen`, `--brand-ink`, `--brand-taupe`.
+Defined in `_sass/_variables.scss` / `_sass/_themes.scss`. Follow
+[`.cursor/rules/brand-colors.mdc`](.cursor/rules/brand-colors.mdc) for new UI.
+
 ## Link checking (before merge / after URL or template edits)
 
 CI runs offline lychee on the built site after deploy
