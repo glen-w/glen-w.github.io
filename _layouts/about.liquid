@@ -65,6 +65,10 @@ layout: default
   </article>
 </div>
 
+{% if page.permalink == '/' %}
+  <script defer src="{{ '/assets/js/role-typewriter.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
 <!-- Selected Publications Styles -->
 <style>
   #selectedPublicationsContainer {

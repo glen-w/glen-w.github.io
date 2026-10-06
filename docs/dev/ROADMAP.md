@@ -1,6 +1,6 @@
 # Site roadmap — glenwright.earth
 
-**Updated:** 28 Sep 2026  
+**Updated:** 6 Oct 2026  
 **This file is the living checklist.** Off-site / life-planning notes stay in Untangle: `/Users/89298/Documents/untangle/projects/website-updates.md`. Findability audit detail (what already shipped) is in [`seo-findability-plan.md`](seo-findability-plan.md) (gitignored). The old public `/roadmap/` tagging dump is unpublished.
 
 Do not put this list on a visitor-facing page.
@@ -17,19 +17,19 @@ Source: 28 Sep 2026 deep dive. Default job of a share card is **hire-me** (consu
 
 - [x] Point `og:image` / `twitter:image` at a dedicated **1200×630** social crop (<300 KB), or at least `prof_pic-800.webp` / a JPG export under ~200 KB — not `assets/img/prof_pic.jpg` (~1 MB). Add `og:image:width` / `og:image:height` once the asset is final. (`_config.yml` `og_image`, `_includes/metadata.liquid`)
 - [x] Switch Twitter card to `summary_large_image` sitewide (or at least home, CV, services, projects).
-- [ ] Unique `<title>` and meta descriptions for primary hubs. Pattern: human title, not the slug. Minimum: `/`, `/library/`, `/projects/`, `/code/`, `/creative/`, `/cv/` (already good), `/services/`, `/blog/`. Stop shipping Twitter title = `about` / `library` / `cv`.
+- [ ] Unique `<title>` and meta descriptions for primary hubs. Pattern: human title, not the slug. Minimum: `/`, `/library/`, `/projects/`, `/code/`, `/creative/`, `/cv/` (already good), `/blog/`. `/services/` done with the offer rewrite. Stop shipping Twitter title = `about` / `library` / `cv`.
 - [ ] After the image swap, paste a link in Slack or iMessage and check the preview.
 
-### 2. Services — rethink, then finalise
+### 2. Services — offer set live
 
-`/services/` exists (ocean, energy, facilitation, applied AI, coaching, copyediting, orientation) but it is not a finished offer. Nav is off (`nav: false`). Copy is seven parallel “I provide…” pages; orientation and coaching overlap; workshops and orientation share a thumbnail; there is no CTA.
+Three lanes on `/services/` (nav on, after CV): **Ocean & marine policy** (marine renewables inside), **Evidence & research ops** (TranscriptX + Paperful named; AI as method), **Workshops & facilitation** (orientation folded in; 1:1 as a 50-minute call line). Cut: standalone energy, coaching card, copyediting, applied-AI product page. Index CTA: Schedule a meeting → `meet.glenwright.earth` ([`booking-cta.md`](booking-cta.md)). Per-page CTAs: email + 50-minute call.
 
-- [ ] Decide the real offer set: keep, merge, or cut. Orientation is a different voice on purpose — keep it only if it is still an offer.
-- [ ] Rewrite the index and remaining pages so the offer is obvious (who it is for, what you actually do). No pipeline talk. Soft mailto with subject presets is enough until a booking tool is confirmed.
-- [ ] Unique title + description for `/services/` and each remaining service URL.
-- [ ] Then put **Services** in primary nav (or the ⦿ menu) and add a quiet homepage pointer. Do not elevate a half-finished page.
-
-Homepage “three quiet exits” (hire → `/services/`, use tool → `paperful.app`, read work → `/library/`) wait on this rewrite. Text + weight, not three primary buttons.
+- [x] Decide the real offer set: keep, merge, or cut.
+- [x] Rewrite the index and remaining pages. Booking CTA on the index.
+- [x] Unique title + description for `/services/` and each service URL.
+- [x] Put **Services** in primary nav (after CV).
+- [x] Expand service page copy (cards + bodies + CTAs) — 6 Oct 2026 draft.
+- [ ] Quiet homepage pointer (hire → `/services/`). Text + weight, not three primary buttons.
 
 ### 3. Catalogue of failures — check, mark outcomes, then go live
 
@@ -69,7 +69,7 @@ After the now list, or whenever a slice is free.
 - [ ] **`/media/`** — nearly empty (“No media so far…”). Populate a short press/talk list **or** drop from sitemap/footer until there are a few real items.
 - [x] **Library zips 404** — closed 28 Sep 2026: drop public “Download all” links; keep local `assets/zips/` + pipeline. Not on `vps-helper`. [`library-zips.md`](library-zips.md).
 - [ ] **Thin / missing project writeups** — Ocean webinars sheet, Tiny Seascape, Twitter analysis sheet, Tiny Bunyscape. (Untangle)
-- [ ] **Book-with-me CTA** — only after Cal.com (or equivalent) is confirmed. See Untangle `decisions/booking-calendar.md`.
+- [x] **Book-with-me CTA** — Cal.rs live at `meet.glenwright.earth`; services index CTA shipped. Optional homepage / about paste still open ([`booking-cta.md`](booking-cta.md)).
 - [ ] **Creative page as unexpected artist portfolio** — `/creative/` currently reads like a craft dump. Thicken it so the first impression is a portfolio, not a folder listing. Bundle:
   - Update collages (refresh the set; short alt/caption on image-heavy items).
   - Build out the poetry collection (enough pieces that it feels like a body of work, not a stub).

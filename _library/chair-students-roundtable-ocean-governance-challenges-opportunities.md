@@ -21,7 +21,7 @@ location: Sciences Po, Paris, France
 role: speaker
 preview: 2022_chair_students_roundtable_ocean_governance_challenges_opportunities
 gallery:
-- chair_students_roundtable_ocean_governance_challenges_opportunities_figure_01
+- chair_students_roundtable_ocean_governance_challenges_opportunities_photo_01
 pdf: 2022_chair_students_roundtable_ocean_governance_challenges_opportunities.pdf
 url: https://webserver07.reims.sciences-po.fr/psia/chair-sustainable-development/2022/03/04/discussion-highlights-chair-and-students-roundtable-3-2/
 resources:

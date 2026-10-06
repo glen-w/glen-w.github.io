@@ -1,0 +1,53 @@
+// Homepage rotating role line (see assets/js/role-typewriter.js)
+
+.role-typewriter-static[hidden],
+.role-typewriter-article[hidden] {
+  display: none;
+}
+
+.role-typewriter__slot {
+  display: inline-block;
+  position: relative;
+  vertical-align: baseline;
+  max-width: 100%;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.06em;
+    border-bottom: 2px dashed var(--brand-sea-deep);
+    box-shadow: 0 3px 8px color-mix(in srgb, var(--brand-sea-deep) 32%, transparent);
+    pointer-events: none;
+  }
+}
+
+.role-typewriter__word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.role-typewriter__word.is-active:not(.is-paused)::after {
+  content: "|";
+  margin-left: 1px;
+  color: var(--brand-sea-deep);
+  animation: role-typewriter-blink 1s step-end infinite;
+}
+
+@keyframes role-typewriter-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .role-typewriter__word.is-active::after {
+    display: none;
+  }
+}

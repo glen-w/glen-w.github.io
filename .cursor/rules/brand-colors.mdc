@@ -1,0 +1,30 @@
+---
+description: Site brand palette — sea green + earth neutrals for UI and styling
+alwaysApply: true
+---
+
+# Brand color palette
+
+Use this palette for new UI (buttons, accents, embeds, illustrations). Tokens are defined in `_sass/_variables.scss` and exposed on `:root` as `--brand-*` in `_sass/_themes.scss`.
+
+| Token | Hex | Role |
+| --- | --- | --- |
+| `--brand-sea` | `#3d5f5c` | Primary sea accent (hairlines, gentle fills, links) |
+| `--brand-sea-deep` | `#215d42` | Deeper sea (text on light CTAs, tip blocks) |
+| `--brand-rock` | `#32302d` | Dark neutral surfaces |
+| `--brand-linen` | `#f8f7f5` | Page / card background |
+| `--brand-ink` | `#141412` | Body text |
+| `--brand-taupe` | `#8c8478` | Muted text, borders |
+
+## Do
+
+- Prefer `var(--brand-sea)` and siblings over one-off hex in SCSS or inline styles.
+- Reuse existing patterns: `--personality-accent` maps to `--brand-sea`; earth tones in al-folio `$grey-*` / `--global-theme-color` stay for general chrome unless a feature is explicitly “sea” branded.
+- For visitor CTAs, use gentle sea styling (e.g. `.contact-actions__link` in `_sass/_contact.scss`) rather than Bootstrap `btn-primary`.
+
+## Do not
+
+- Introduce unrelated accent colors for on-brand surfaces (no default Bootstrap blue primary for site CTAs).
+- Hardcode the hex table above in multiple files — add or adjust tokens in `_variables.scss` / `_themes.scss` once.
+
+External tools (e.g. Cal.rs) should align with linen, ink, and sea accents where configurable.

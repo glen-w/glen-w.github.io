@@ -6,6 +6,12 @@
 
 :root {
   color-scheme: light;
+  --brand-sea: #{$brand-sea};
+  --brand-sea-deep: #{$brand-sea-deep};
+  --brand-rock: #{$brand-rock};
+  --brand-linen: #{$brand-linen};
+  --brand-ink: #{$brand-ink};
+  --brand-taupe: #{$brand-taupe};
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};

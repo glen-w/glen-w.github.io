@@ -38,13 +38,13 @@ layout: default
   {% endif %}
 {% endif %}
 
-<div class="post">
+<div class="post{% if page.collection == 'services' %} service-page{% endif %}">
   <header class="post-header">
     {% if project_logo != '' %}
       {{ project_logo }}
     {% endif %}
     <h1 class="post-title{% if page.wordmark and project_logo != '' %} sr-only{% endif %}">{{ page.title }}</h1>
-    {% if page.description %}
+    {% if page.description and page.collection != 'services' %}
       <p class="post-description{% if page.collection == 'projects' %} project-pitch{% endif %}">{{ page.description }}</p>
     {% endif %}
     {% if page.collection == 'projects' %}

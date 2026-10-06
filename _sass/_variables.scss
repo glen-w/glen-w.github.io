@@ -29,6 +29,15 @@ $grey-color-dark: #242320 !default; // midnight soil
 $grey-900: #32302d !default; // wet rock
 $white-color: #f8f7f5 !default; // misted linen
 $black-color: #141412 !default; // deep cave
+
+// Brand palette (sea + earth) — CSS tokens in _themes.scss; see .cursor/rules/brand-colors.mdc
+$brand-sea: #3d5f5c !default;
+$brand-sea-deep: #215d42 !default;
+$brand-rock: $grey-900 !default;
+$brand-linen: $white-color !default;
+$brand-ink: $black-color !default;
+$brand-taupe: $grey-color !default;
+
 // Theme colors
 $code-bg-color-light: rgba(#32302d, 0.05); // wet rock with alpha
 $code-bg-color-dark: #242320 !default; // midnight soil
