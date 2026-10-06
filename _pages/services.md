@@ -8,12 +8,6 @@ nav_order: 72
 ---
 
 <!-- pages/services.md -->
-<div class="contact-actions contact-actions--lead" markdown="1">
-
-[Schedule a meeting](https://meet.glenwright.earth){: .contact-actions__link }
-
-</div>
-
 <div class="services">
 {% assign sorted_services = site.services | sort: "importance" %}
 
@@ -22,4 +16,10 @@ nav_order: 72
       {% include services.liquid %}
     {% endfor %}
   </div>
+</div>
+
+<div class="contact-actions contact-actions--center" markdown="1">
+
+[Schedule a meeting](https://meet.glenwright.earth){: .contact-actions__link }
+
 </div>
