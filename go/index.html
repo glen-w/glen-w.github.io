@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--
+      Short-link redirector: https://glenwright.earth/go/#code
+
+      To add a link: add one entry to LINKS below, commit, and push.
+      Example:   webinar: "https://example.com",
+      Then share: https://glenwright.earth/go/#webinar
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Glen Wright</title>
+    <script
+      defer
+      src="https://analytics.glenwright.earth/script.js"
+      data-website-id="591578b7-7945-4429-88b4-c1ea8bf39f9e"
+    ></script>
+    <style>
+      :root {
+        --brand-sea: #3d5f5c;
+        --brand-linen: #f8f7f5;
+        --brand-ink: #141412;
+        --brand-taupe: #8c8478;
+      }
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        background: var(--brand-linen);
+        color: var(--brand-ink);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        box-sizing: border-box;
+      }
+      main {
+        max-width: 28rem;
+        text-align: center;
+        line-height: 1.5;
+      }
+      a {
+        color: var(--brand-sea);
+      }
+      #status {
+        color: var(--brand-taupe);
+      }
+      #miss {
+        display: none;
+      }
+      #miss[data-show] {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p id="status">Redirecting…</p>
+      <div id="miss">
+        <p>Link not found</p>
+        <p><a href="/">Home</a></p>
+      </div>
+    </main>
+    <noscript>
+      <p>JavaScript is required for this link. <a href="/">Go to the homepage</a>.</p>
+    </noscript>
+    <script>
+      const LINKS = {
+        HSA-BBNJ-CHM-webinar: "https://us06web.zoom.us/webinar/register/WN_NvlqQrDmR8WISTqMw-vSeg",
+      };
+
+      const WAIT_MS = 600;
+
+      function whenUmamiReady(done) {
+        const start = Date.now();
+        (function poll() {
+          if (typeof umami !== "undefined" && typeof umami.track === "function") {
+            done(true);
+            return;
+          }
+          if (Date.now() - start >= WAIT_MS) {
+            done(false);
+            return;
+          }
+          setTimeout(poll, 40);
+        })();
+      }
+
+      function trackThen(eventName, data, next) {
+        whenUmamiReady(function (ready) {
+          if (ready) {
+            try {
+              umami.track(eventName, data);
+            } catch (_) {
+              /* never block redirect on analytics */
+            }
+          }
+          next();
+        });
+      }
+
+      const code = (location.hash || "").replace(/^#/, "").trim().toLowerCase();
+      const url = Object.prototype.hasOwnProperty.call(LINKS, code) ? LINKS[code] : null;
+
+      if (url) {
+        trackThen("go", { code: code }, function () {
+          location.replace(url);
+        });
+      } else {
+        document.getElementById("status").hidden = true;
+        document.getElementById("miss").setAttribute("data-show", "");
+        trackThen("go-miss", { code: code }, function () {});
+      }
+    </script>
+  </body>
+</html>
