@@ -263,6 +263,10 @@ defaults:
     values:
       sitemap: false
   - scope:
+      path: "go"
+    values:
+      sitemap: false # hash redirector; not for indexing
+  - scope:
       path: ""
       type: books
     values:
