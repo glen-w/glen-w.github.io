@@ -16,10 +16,34 @@
     return;
   }
 
-  const roles = (root.getAttribute("data-roles") || "")
-    .split(",")
-    .map((s) => s.trim())
-    .filter(Boolean);
+  function parseRoles(raw) {
+    const trimmed = (raw || "").trim();
+    if (!trimmed) {
+      return [];
+    }
+    if (trimmed.startsWith("[")) {
+      try {
+        const parsed = JSON.parse(trimmed);
+        if (!Array.isArray(parsed)) {
+          return [];
+        }
+        return parsed
+          .map((entry) => ({
+            word: String(entry.word || "").trim(),
+            href: String(entry.href || "").trim(),
+          }))
+          .filter((entry) => entry.word);
+      } catch (_err) {
+        return [];
+      }
+    }
+    return trimmed
+      .split(",")
+      .map((s) => ({ word: s.trim(), href: "" }))
+      .filter((entry) => entry.word);
+  }
+
+  const roles = parseRoles(root.getAttribute("data-roles"));
 
   if (roles.length === 0) {
     return;
@@ -80,15 +104,33 @@
   wordEl.textContent = "";
   wordEl.classList.add("is-active");
 
-  function currentWord() {
+  function currentRole() {
     return roles[roleIndex];
   }
 
+  function currentWord() {
+    return currentRole().word;
+  }
+
   function setWordSlice(length) {
-    wordEl.textContent = currentWord().slice(0, length);
-    if (length > 0) {
-      syncArticle();
+    const role = currentRole();
+    const text = role.word.slice(0, length);
+
+    wordEl.textContent = "";
+    if (length === 0) {
+      return;
     }
+
+    if (role.href) {
+      const link = document.createElement("a");
+      link.className = "role-typewriter__link";
+      link.href = role.href;
+      link.textContent = text;
+      wordEl.appendChild(link);
+    } else {
+      wordEl.textContent = text;
+    }
+    syncArticle();
   }
 
   function schedule(delay, fn) {

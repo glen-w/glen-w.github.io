@@ -28,6 +28,18 @@
   white-space: nowrap;
 }
 
+.role-typewriter__link {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--brand-sea-deep);
+    text-decoration: underline;
+    text-decoration-color: var(--brand-sea);
+  }
+}
+
 .role-typewriter__word.is-active:not(.is-paused)::after {
   content: "|";
   margin-left: 1px;
