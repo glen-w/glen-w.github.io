@@ -4359,7 +4359,7 @@ ninja.data = [{
               window.location.href = "/projects/website/";
             },},{id: "services-workshops-amp-facilitation",
           title: 'Workshops &amp;amp; facilitation',
-          description: "Workshops and strategy sessions for ocean, energy and climate teams.",
+          description: "Workshops and strategy sessions for ocean, energy and climate teams, run by someone who teaches ocean governance at Sciences Po.",
           section: "Services",handler: () => {
               window.location.href = "/services/facilitation/";
             },},{id: "services-ocean-amp-marine-policy",
@@ -4369,7 +4369,7 @@ ninja.data = [{
               window.location.href = "/services/ocean/";
             },},{id: "services-evidence-amp-research-ops",
           title: 'Evidence &amp;amp; research ops',
-          description: "Interviews, meeting analysis and literature work done carefully, so your team ends up with evidence it can trust, find and reuse.",
+          description: "Interviews, meeting analysis and literature work, so your team has evidence it can cite and find again.",
           section: "Services",handler: () => {
               window.location.href = "/services/research/";
             },},{
