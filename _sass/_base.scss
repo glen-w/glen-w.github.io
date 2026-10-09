@@ -1082,10 +1082,14 @@ h2.category {
           margin-left: 0;
           background: transparent;
           cursor: pointer;
+          text-decoration: none;
 
-          &:hover {
+          &:hover,
+          &:focus-visible {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            text-decoration: none;
+            background-color: color-mix(in srgb, var(--brand-sea) 14%, transparent);
           }
         }
         a.award.btn {

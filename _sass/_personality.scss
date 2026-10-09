@@ -240,14 +240,18 @@ article a:not(.btn):not(.nav-link):not(.badge):not(.tag):not(.read-more-toggle) 
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   transition:
     color var(--personality-hover-ms) var(--personality-ease),
     border-color var(--personality-hover-ms) var(--personality-ease),
     background-color var(--personality-hover-ms) var(--personality-ease);
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     color: var(--personality-accent);
     border-color: var(--personality-accent);
+    text-decoration: none;
+    background-color: color-mix(in srgb, var(--brand-sea) 14%, transparent);
   }
 
   &:focus-visible {
