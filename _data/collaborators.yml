@@ -38,6 +38,8 @@
   count: 4
   orcid: 0009-0004-0403-8601
   scholar: OfZslTcAAAAJ
+- name: Aria Finkelstein
+  count: 3
 - name: Ben Boteler
   count: 3
   orcid: 0000-0002-7078-7094
@@ -54,6 +56,10 @@
 - name: Isabel Seeger
   count: 3
   url: https://www.ecologic.eu/17829
+- name: Mariamalia Rodriguez-Chaves
+  count: 3
+  orcid: 0000-0002-2631-2251
+  url: https://highseasalliance.org/meet-the-hsa-staff/mariamalia-rodriguez-chaves
 - name: Marjo Vierros
   count: 3
   orcid: 0000-0001-5316-9297
@@ -69,8 +75,6 @@
   count: 2
   orcid: 0000-0001-9155-150X
   scholar: YO4zSwoAAAAJ
-- name: Aria Finkelstein
-  count: 2
 - name: Clement Chazot
   count: 2
 - name: Cymie R. Payne
@@ -92,10 +96,6 @@
   orcid: 0009-0001-1753-4880
 - name: Jiska De Groot
   count: 2
-- name: Mariamalia Rodriguez-Chaves
-  count: 2
-  orcid: 0000-0002-2631-2251
-  url: https://highseasalliance.org/meet-the-hsa-staff/mariamalia-rodriguez-chaves
 - name: Robin Warner
   count: 2
   orcid: 0000-0002-6453-6344

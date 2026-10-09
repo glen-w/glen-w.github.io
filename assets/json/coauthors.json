@@ -5,7 +5,7 @@
       "id": "glen-wright",
       "name": "Glen Wright",
       "self": true,
-      "count": 90,
+      "count": 91,
       "firstYear": 2011,
       "lastYear": 2026
     },
@@ -110,6 +110,14 @@
       "scholar": "OfZslTcAAAAJ"
     },
     {
+      "id": "aria-finkelstein",
+      "name": "Aria Finkelstein",
+      "self": false,
+      "count": 3,
+      "firstYear": 2019,
+      "lastYear": 2020
+    },
+    {
       "id": "ben-boteler",
       "name": "Ben Boteler",
       "self": false,
@@ -148,6 +156,16 @@
       "firstYear": 2018,
       "lastYear": 2018,
       "url": "https://www.ecologic.eu/17829"
+    },
+    {
+      "id": "mariamalia-rodriguez-chaves",
+      "name": "Mariamalia Rodriguez-Chaves",
+      "self": false,
+      "count": 3,
+      "firstYear": 2019,
+      "lastYear": 2023,
+      "orcid": "0000-0002-2631-2251",
+      "url": "https://highseasalliance.org/meet-the-hsa-staff/mariamalia-rodriguez-chaves"
     },
     {
       "id": "marjo-vierros",
@@ -193,14 +211,6 @@
       "lastYear": 2017,
       "orcid": "0000-0001-9155-150X",
       "scholar": "YO4zSwoAAAAJ"
-    },
-    {
-      "id": "aria-finkelstein",
-      "name": "Aria Finkelstein",
-      "self": false,
-      "count": 2,
-      "firstYear": 2020,
-      "lastYear": 2020
     },
     {
       "id": "clement-chazot",
@@ -258,16 +268,6 @@
       "count": 2,
       "firstYear": 2015,
       "lastYear": 2016
-    },
-    {
-      "id": "mariamalia-rodriguez-chaves",
-      "name": "Mariamalia Rodriguez-Chaves",
-      "self": false,
-      "count": 2,
-      "firstYear": 2022,
-      "lastYear": 2023,
-      "orcid": "0000-0002-2631-2251",
-      "url": "https://highseasalliance.org/meet-the-hsa-staff/mariamalia-rodriguez-chaves"
     },
     {
       "id": "robin-warner",
@@ -341,6 +341,14 @@
       "lastYear": 2016
     },
     {
+      "id": "anthony-grehan",
+      "name": "Anthony Grehan",
+      "self": false,
+      "count": 1,
+      "firstYear": 2019,
+      "lastYear": 2019
+    },
+    {
       "id": "arne-langlet",
       "name": "Arne Langlet",
       "self": false,
@@ -386,6 +394,15 @@
       "lastYear": 2020
     },
     {
+      "id": "d-e-david-e-johnson",
+      "name": "D.E. David E. Johnson",
+      "self": false,
+      "count": 1,
+      "firstYear": 2019,
+      "lastYear": 2019,
+      "orcid": "0000-0003-4695-606X"
+    },
+    {
       "id": "dan-laffoley",
       "name": "Dan Laffoley",
       "self": false,
@@ -394,6 +411,16 @@
       "lastYear": 2016,
       "orcid": "0000-0001-6338-6244",
       "url": "https://danlaffoley.com"
+    },
+    {
+      "id": "daniel-c-d-c-dunn",
+      "name": "Daniel C. D.C. Dunn",
+      "self": false,
+      "count": 1,
+      "firstYear": 2019,
+      "lastYear": 2019,
+      "orcid": "0000-0001-8932-0681",
+      "scholar": "W1fQoOoAAAAJ"
     },
     {
       "id": "daniel-c-dunn",
@@ -569,6 +596,17 @@
       "url": "https://www.iddri.org/en/about-iddri/team/katherine-houghton"
     },
     {
+      "id": "kristina-m-k-m-gjerde",
+      "name": "Kristina M. K.M. Gjerde",
+      "self": false,
+      "count": 1,
+      "firstYear": 2019,
+      "lastYear": 2019,
+      "orcid": "0000-0001-9025-7632",
+      "url": "https://iucn.org/news/202512/iucn-statement-passing-kristina-maria-gjerde",
+      "scholar": "SUh8nUEAAAAJ"
+    },
+    {
       "id": "laura-weiand",
       "name": "Laura Weiand",
       "self": false,
@@ -618,6 +656,14 @@
       "count": 1,
       "firstYear": 2015,
       "lastYear": 2015
+    },
+    {
+      "id": "maria-adelaide-m-a-ferreira",
+      "name": "Maria Adelaide M.A. Ferreira",
+      "self": false,
+      "count": 1,
+      "firstYear": 2019,
+      "lastYear": 2019
     },
     {
       "id": "marta-chantal-ribeiro",
@@ -1165,6 +1211,16 @@
       ]
     },
     {
+      "source": "aria-finkelstein",
+      "target": "glen-wright",
+      "count": 3,
+      "works": [
+        "wrightFishingTwilightZone2020",
+        "wrightglenOceansTwilightZone2020",
+        "Wright2019"
+      ]
+    },
+    {
       "source": "aurelie-spadone",
       "target": "julien-rochette",
       "count": 3,
@@ -1242,6 +1298,16 @@
         "Wright2018c",
         "rochetteVersProtectionHaute2018",
         "wrightRoleTechnologyMonitoring2018"
+      ]
+    },
+    {
+      "source": "glen-wright",
+      "target": "mariamalia-rodriguez-chaves",
+      "count": 3,
+      "works": [
+        "gjerdeGettingYesFasttracking2022",
+        "gjerdeInitialReflectionsSupport2023",
+        "Wright2019"
       ]
     },
     {
@@ -1360,15 +1426,6 @@
     },
     {
       "source": "aria-finkelstein",
-      "target": "glen-wright",
-      "count": 2,
-      "works": [
-        "wrightFishingTwilightZone2020",
-        "wrightglenOceansTwilightZone2020"
-      ]
-    },
-    {
-      "source": "aria-finkelstein",
       "target": "kristina-maria-gjerde",
       "count": 2,
       "works": [
@@ -1464,15 +1521,6 @@
       "works": [
         "Wright2016a",
         "wrightOceanEnergyKey2015"
-      ]
-    },
-    {
-      "source": "glen-wright",
-      "target": "mariamalia-rodriguez-chaves",
-      "count": 2,
-      "works": [
-        "gjerdeGettingYesFasttracking2022",
-        "gjerdeInitialReflectionsSupport2023"
       ]
     },
     {
@@ -1649,6 +1697,102 @@
       ]
     },
     {
+      "source": "anthony-grehan",
+      "target": "aria-finkelstein",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "anthony-grehan",
+      "target": "d-e-david-e-johnson",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "anthony-grehan",
+      "target": "daniel-c-d-c-dunn",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "anthony-grehan",
+      "target": "glen-wright",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "anthony-grehan",
+      "target": "kristina-m-k-m-gjerde",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "anthony-grehan",
+      "target": "maria-adelaide-m-a-ferreira",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "anthony-grehan",
+      "target": "mariamalia-rodriguez-chaves",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "aria-finkelstein",
+      "target": "d-e-david-e-johnson",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "aria-finkelstein",
+      "target": "daniel-c-d-c-dunn",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "aria-finkelstein",
+      "target": "kristina-m-k-m-gjerde",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "aria-finkelstein",
+      "target": "maria-adelaide-m-a-ferreira",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "aria-finkelstein",
+      "target": "mariamalia-rodriguez-chaves",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
       "source": "arne-langlet",
       "target": "glen-wright",
       "count": 1,
@@ -1817,11 +1961,83 @@
       ]
     },
     {
+      "source": "d-e-david-e-johnson",
+      "target": "daniel-c-d-c-dunn",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "d-e-david-e-johnson",
+      "target": "glen-wright",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "d-e-david-e-johnson",
+      "target": "kristina-m-k-m-gjerde",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "d-e-david-e-johnson",
+      "target": "maria-adelaide-m-a-ferreira",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "d-e-david-e-johnson",
+      "target": "mariamalia-rodriguez-chaves",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
       "source": "dan-laffoley",
       "target": "glen-wright",
       "count": 1,
       "works": [
         "Gjerde2016"
+      ]
+    },
+    {
+      "source": "daniel-c-d-c-dunn",
+      "target": "glen-wright",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "daniel-c-d-c-dunn",
+      "target": "kristina-m-k-m-gjerde",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "daniel-c-d-c-dunn",
+      "target": "maria-adelaide-m-a-ferreira",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "daniel-c-d-c-dunn",
+      "target": "mariamalia-rodriguez-chaves",
+      "count": 1,
+      "works": [
+        "Wright2019"
       ]
     },
     {
@@ -2194,6 +2410,14 @@
     },
     {
       "source": "glen-wright",
+      "target": "kristina-m-k-m-gjerde",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "glen-wright",
       "target": "laura-weiand",
       "count": 1,
       "works": [
@@ -2238,6 +2462,14 @@
       "count": 1,
       "works": [
         "Rochette2015b"
+      ]
+    },
+    {
+      "source": "glen-wright",
+      "target": "maria-adelaide-m-a-ferreira",
+      "count": 1,
+      "works": [
+        "Wright2019"
       ]
     },
     {
@@ -2721,6 +2953,22 @@
       ]
     },
     {
+      "source": "kristina-m-k-m-gjerde",
+      "target": "maria-adelaide-m-a-ferreira",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
+      "source": "kristina-m-k-m-gjerde",
+      "target": "mariamalia-rodriguez-chaves",
+      "count": 1,
+      "works": [
+        "Wright2019"
+      ]
+    },
+    {
       "source": "kristina-maria-gjerde",
       "target": "lisa-a-levin",
       "count": 1,
@@ -2798,6 +3046,14 @@
       "count": 1,
       "works": [
         "Rochette2015b"
+      ]
+    },
+    {
+      "source": "maria-adelaide-m-a-ferreira",
+      "target": "mariamalia-rodriguez-chaves",
+      "count": 1,
+      "works": [
+        "Wright2019"
       ]
     },
     {
@@ -3029,6 +3285,12 @@
       "path": "/library/keeping-eye-high-seas-strengthening-monitoring-control-surveillance-new-marine-biodiversity-treaty/"
     },
     {
+      "id": "Wright2019",
+      "title": "Marine spatial planning in areas beyond national jurisdiction",
+      "year": 2019,
+      "path": "/library/glen-wright-etal-marine-spatial-planning-areas-beyond-national-jurisdiction/"
+    },
+    {
       "id": "wrightRegionalOceanGovernance2019",
       "title": "Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward",
       "year": 2019,
@@ -3246,7 +3508,7 @@
     },
     {
       "id": "durusselRegionalOceanGovernance2015",
-      "title": "Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity",
+      "title": "Regional Ocean Governance Conservation and Sustainable Use of Marine Biodiversity",
       "year": 2015,
       "path": "/library/regional-ocean-governance-conservation-sustainable-use-marine-biodiversity/"
     },

@@ -725,8 +725,10 @@
         "organiser",
         "facilitator"
       ],
+      "venue": "Climate Change and Law Collection",
       "thumb": "/assets/img/publication_preview/2023_post_2020_global_biodiversity_framework_whats_next_ocean-480.webp",
       "url": "https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean",
+      "doi": "https://doi.org/10.1163/9789004322714_cclc_2022-0019-0073",
       "video": "https://www.youtube.com/watch?v=Sfz-xy6UgAQ",
       "agenda": "/assets/pdf/2023_post_2020_global_biodiversity_framework_whats_next_ocean_agenda.pdf",
       "flags": [
@@ -1178,6 +1180,7 @@
       ],
       "thumb": "/assets/img/publication_preview/2022_oceans_as_archives-480.webp",
       "url": "https://www.nica-institute.com/event-conference-oceans-as-archives/",
+      "doi": "https://doi.org/10.4324/9781003594086",
       "flags": [
         "abs"
       ],
@@ -1452,27 +1455,6 @@
       "info": "/library/glen-wright-etal-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/"
     },
     {
-      "id": "wrightFishingTwilightZone2020a",
-      "title": "Fishing in the Twilight Zone: illuminating governance challenges at the next fisheries frontier",
-      "year": 2020,
-      "type": "Webinar",
-      "month": 1,
-      "roles": [
-        "facilitator",
-        "organiser"
-      ],
-      "thumb": "/assets/img/publication_preview/glen_wright_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier-480.webp",
-      "pdf": "/assets/pdf/glen_wright_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier.pdf",
-      "video": "https://www.youtube.com/watch?v=FtCScw3Tvxw",
-      "agenda": "/assets/pdf/glen_wright_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier_a_agenda.pdf",
-      "flags": [
-        "abs",
-        "video",
-        "speakers"
-      ],
-      "info": "/library/glen-wright-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/"
-    },
-    {
       "id": "otterCooperationMondialeNouveau2020",
       "title": "La cooperation mondiale, nouveau defi dans la lutte contre la pollution...",
       "year": 2020,
@@ -1671,7 +1653,7 @@
       "authorsHtml": "Klaudija Cremers, <em>Glen Wright</em>, and Julien Rochette",
       "venue": "Marine Policy",
       "thumb": "/assets/img/publication_preview/2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument-480.webp",
-      "pdf": "/assets/pdf/2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument.pdf",
+      "pdf": "/assets/pdf/2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument_a.pdf",
       "url": "https://doi.org/10.1016/j.marpol.2020.103976",
       "doi": "https://doi.org/10.1016/j.marpol.2020.103976",
       "flags": [
@@ -2044,6 +2026,29 @@
       "info": "/library/marine-regions-forum-2019-key-messages-achieving-healthy-ocean-regional-ocean-governance-beyond-2020/"
     },
     {
+      "id": "Wright2019",
+      "title": "Marine spatial planning in areas beyond national jurisdiction",
+      "year": 2019,
+      "type": "Side Event",
+      "month": 1,
+      "roles": [
+        "speaker"
+      ],
+      "authors": "Glen Wright, Kristina M. K.M. Gjerde, D.E. David E. Johnson et al.",
+      "authorsHtml": "<em>Glen Wright</em>, Kristina M. K.M. Gjerde, D.E. David E. Johnson et al.",
+      "venue": "Marine Policy",
+      "thumb": "/assets/img/publication_preview/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction-480.webp",
+      "pdf": "/assets/pdf/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction.pdf",
+      "url": "https://doi.org/10.1016/j.marpol.2018.12.003",
+      "doi": "https://doi.org/10.1016/j.marpol.2018.12.003",
+      "slides": "/assets/pdf/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction_a_slides.pdf",
+      "agenda": "/assets/pdf/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction_a_agenda.pdf",
+      "flags": [
+        "abs"
+      ],
+      "info": "/library/glen-wright-etal-marine-spatial-planning-areas-beyond-national-jurisdiction/"
+    },
+    {
       "id": "OneOceanSymposium2019",
       "title": "One Ocean Symposium",
       "year": 2019,
@@ -2218,35 +2223,15 @@
       "id": "EffectiveHighSeas2019",
       "title": "Towards an Effective High Seas Treaty - Building on and Strengthening Regional Ocean Governance",
       "year": 2019,
-      "type": "Side Event",
+      "type": "Conference Paper",
       "month": 1,
-      "roles": [
-        "organiser",
-        "facilitator",
-        "speaker"
-      ],
       "venue": "STRONG High Seas",
       "thumb": "/assets/img/publication_preview/2019_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance-480.webp",
       "slides": "/assets/pdf/2019_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance_slides.pdf",
+      "agenda": "/assets/pdf/2019_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance_agenda.pdf",
       "flags": [
         "photos"
       ]
-    },
-    {
-      "id": "EffectiveHighSeas2019a",
-      "title": "Towards an Effective High Seas Treaty - Building on and Strengthening Regional Ocean Governance",
-      "year": 2019,
-      "type": "Workshop",
-      "month": 1,
-      "roles": [
-        "organiser",
-        "facilitator",
-        "speaker"
-      ],
-      "venue": "STRONG High Seas",
-      "thumb": "/assets/img/publication_preview/2019_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance-480.webp",
-      "agenda": "/assets/pdf/2019_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance_agenda.pdf",
-      "info": "/library/towards-effective-high-seas-treaty-building-strengthening-regional-ocean-governance/"
     },
     {
       "id": "TraiteHauteMer2019",
@@ -2571,21 +2556,6 @@
       "info": "/library/glen-wright-marine-planning-high-seas/"
     },
     {
-      "id": "wrightMarineSpatialPlanning2018",
-      "title": "Marine Spatial Planning in Areas Beyond National Jurisdiction: Opportunities and challenges",
-      "year": 2018,
-      "type": "Side Event",
-      "month": 1,
-      "roles": [
-        "speaker"
-      ],
-      "venue": "Building MSP frameworks to enable Blue Growth",
-      "thumb": "/assets/img/publication_preview/glen_wright_2018_marine_spatial_planning_areas_beyond_national_jurisdiction_opportunities_challenges-480.webp",
-      "slides": "/assets/pdf/glen_wright_2018_marine_spatial_planning_areas_beyond_national_jurisdiction_opportunities_challenges_slides.pdf",
-      "agenda": "/assets/pdf/glen_wright_2018_marine_spatial_planning_areas_beyond_national_jurisdiction_opportunities_challenges_agenda.pdf",
-      "info": "/library/glen-wright-marine-spatial-planning-areas-beyond-national-jurisdiction-opportunities-challenges/"
-    },
-    {
       "id": "OpportunitiesStrengtheningOcean2018",
       "title": "Opportunities for Strengthening Ocean Governance in the Southeast Pacific",
       "year": 2018,
@@ -2838,6 +2808,7 @@
       "thumb": "/assets/img/publication_preview/2017_achieving_sustainable_development_goal_oceans-480.webp",
       "pdf": "/assets/pdf/2017_achieving_sustainable_development_goal_oceans.pdf",
       "url": "http://publications.iass-potsdam.de/pubman/item/escidoc:2041892:3&title=eSciDoc PubMan: Achieving the Sustainable Development Goal for the Oceans",
+      "doi": "https://doi.org/10.2312/IASS.2017.004",
       "flags": [
         "abs"
       ],
@@ -3072,34 +3043,19 @@
       ],
       "authors": "Glen Wright, Stefanie Schmidt, Julien Rochette et al.",
       "authorsHtml": "<em>Glen Wright</em>, Stefanie Schmidt, Julien Rochette et al.",
-      "venue": "Partnership for Regional Ocean Governance",
+      "venue": "International Oceans Institute",
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14-480.webp",
       "pdf": "/assets/pdf/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14.pdf",
       "url": "https://www.iddri.org/en/publications-and-events/report/partnering-sustainable-ocean-role-regional-ocean-governance",
       "doi": "https://doi.org/10.2312/iass.2017.011",
+      "slides": "/assets/pdf/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_slides.pdf",
+      "agenda": "/assets/pdf/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_agenda.pdf",
       "selected": true,
       "flags": [
-        "abs"
-      ],
-      "info": "/library/glen-wright-etal-partnering-sustainable-ocean-role-regional-ocean-governance-implementing-sdg14/"
-    },
-    {
-      "id": "wrightPartneringSustainableOcean2017",
-      "title": "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing SDG14",
-      "year": 2017,
-      "type": "Conference",
-      "month": 1,
-      "roles": [
-        "speaker"
-      ],
-      "venue": "International Oceans Institute",
-      "thumb": "/assets/img/publication_preview/glen_wright_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14-480.webp",
-      "slides": "/assets/pdf/glen_wright_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_slides.pdf",
-      "agenda": "/assets/pdf/glen_wright_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_agenda.pdf",
-      "flags": [
+        "abs",
         "photos"
       ],
-      "info": "/library/glen-wright-partnering-sustainable-ocean-role-regional-ocean-governance-implementing-sdg14/"
+      "info": "/library/glen-wright-etal-partnering-sustainable-ocean-role-regional-ocean-governance-implementing-sdg14/"
     },
     {
       "id": "PotsdamOceanGovernance2017",
@@ -3318,6 +3274,8 @@
       ],
       "thumb": "/assets/img/publication_preview/2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com-480.webp",
       "pdf": "/assets/pdf/2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com_a.pdf",
+      "url": "https://doi.org/10.18356/29045c1f-en",
+      "doi": "https://doi.org/10.18356/29045c1f-en",
       "agenda": "/assets/pdf/2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com_b_agenda.pdf",
       "info": "/library/conservation-sustainable-use-marine-biologi-cal-diversity-areas-beyond-national-jurisdiction-preparing-prep-com/"
     },
@@ -3469,6 +3427,7 @@
       "thumb": "/assets/img/publication_preview/2016_interdiction_du_chalutage_profond_une_belle_victoire_et_quelques_concessions-480.webp",
       "pdf": "/assets/pdf/2016_interdiction_du_chalutage_profond_une_belle_victoire_et_quelques_concessions.pdf",
       "url": "http://theconversation.com/interdiction-du-chalutage-profond-une-belle-victoire-et-quelques-concessions-62645",
+      "doi": "https://doi.org/10.64628/aak.9samnga79",
       "flags": [
         "abs"
       ],
@@ -3492,6 +3451,7 @@
       "thumb": "/assets/img/publication_preview/2016_lunion_europeenne_va_t_elle_enfin_mettre_un_terme_au_chalutage_profond-480.webp",
       "pdf": "/assets/pdf/2016_lunion_europeenne_va_t_elle_enfin_mettre_un_terme_au_chalutage_profond.pdf",
       "url": "http://theconversation.com/lunion-europeenne-va-t-elle-enfin-mettre-un-terme-au-chalutage-profond-58469",
+      "doi": "https://doi.org/10.64628/aak.naugqwwcx",
       "flags": [
         "abs"
       ],
@@ -3615,6 +3575,8 @@
       "venue": "Legal Aspects of Sustainable Development: Horizontal and Sectorial Policy Issues",
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_sustainable_development_oceans_closing_gaps_international_legal_framework-480.webp",
       "pdf": "/assets/pdf/glen_wright_etal_2016_sustainable_development_oceans_closing_gaps_international_legal_framework.pdf",
+      "url": "https://doi.org/10.1007/978-3-319-26021-1_27",
+      "doi": "https://doi.org/10.1007/978-3-319-26021-1_27",
       "flags": [
         "abs"
       ],
@@ -3751,6 +3713,8 @@
       "venue": "The Conversation",
       "thumb": "/assets/img/publication_preview/2016_un_rendez_vous_historique_pour_proteger_la_haute_mer_des_convoitises-480.webp",
       "pdf": "/assets/pdf/2016_un_rendez_vous_historique_pour_proteger_la_haute_mer_des_convoitises.pdf",
+      "url": "https://doi.org/10.64628/aak.ys6fr77dm",
+      "doi": "https://doi.org/10.64628/aak.ys6fr77dm",
       "info": "/library/un-rendez-vous-historique-pour-proteger-la-haute-mer-des-convoitises/"
     },
     {
@@ -3863,7 +3827,7 @@
       "venue": "Marine Policy",
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction-480.webp",
       "pdf": "/assets/pdf/glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction.pdf",
-      "url": "https://doi.org/10.1016/j.marpol.2015.06.030",
+      "url": "http://dx.doi.org/10.1016/j.marpol.2015.06.030",
       "doi": "https://doi.org/10.1016/j.marpol.2015.06.030",
       "flags": [
         "abs"
@@ -4029,8 +3993,28 @@
       "authorsHtml": "<em>Glen Wright</em>, Julien Rochette, and Elisabeth Druel",
       "venue": "Research Handbook on International Marine Environmental Law",
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2015_marine_protected_areas_areas_beyond_national_jurisdiction-480.webp",
-      "pdf": "/assets/pdf/glen_wright_etal_2015_marine_protected_areas_areas_beyond_national_jurisdiction.pdf",
+      "pdf": "/assets/pdf/glen_wright_etal_2015_marine_protected_areas_areas_beyond_national_jurisdiction_a.pdf",
+      "url": "http://www.iddri.org/Publications/Marine-protected-areas-in-areas-beyond-national-jurisdiction-The-state-of-play",
+      "doi": "https://doi.org/10.4337/9781781004777.00023",
       "info": "/library/glen-wright-etal-marine-protected-areas-areas-beyond-national-jurisdiction/"
+    },
+    {
+      "id": "kolowichMeet26YearOldAcademic2015",
+      "title": "Meet the 26-Year-Old Behind Academic Twitter’s Most Popular Hashtags",
+      "year": 2015,
+      "type": "Newspaper",
+      "month": 1,
+      "roles": [
+        "interview"
+      ],
+      "venue": "The Chronicle of Higher Education",
+      "thumb": "/assets/img/publication_preview/2015_meet_26_year_old_behind_academic_twitters_popular_hashtags-480.webp",
+      "pdf": "/assets/pdf/2015_meet_26_year_old_behind_academic_twitters_popular_hashtags.pdf",
+      "url": "https://www.chronicle.com/blogs/wiredcampus/meet-the-26-year-old-behind-academic-twitters-most-popular-hashtags",
+      "flags": [
+        "abs"
+      ],
+      "info": "/library/meet-26-year-old-behind-academic-twitters-popular-hashtags/"
     },
     {
       "id": "NinthMeetingAd2015",
@@ -4067,7 +4051,7 @@
     },
     {
       "id": "durusselRegionalOceanGovernance2015",
-      "title": "Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity",
+      "title": "Regional Ocean Governance Conservation and Sustainable Use of Marine Biodiversity",
       "year": 2015,
       "type": "Workshop",
       "month": 1,
@@ -4429,18 +4413,6 @@
       "info": "/library/glen-wright-marine-governance-industrialised-ocean-marine-renewable-energy-case/"
     },
     {
-      "id": "wrightMarineGovernanceIndustrialised2014a",
-      "title": "Marine Governance in an Industrialised Ocean: a case study of the UK's emerging marine renewable energy industry",
-      "year": 2014,
-      "type": "Workshop",
-      "month": 1,
-      "roles": [
-        "speaker"
-      ],
-      "thumb": "/assets/img/publication_preview/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry-480.webp",
-      "url": "https://prezi.com/xskk1cyjorqg/marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uks-emerging-marine-renewable-energy-industry/?present=1"
-    },
-    {
       "id": "wrightMarineGovernanceIndustrialised2014b",
       "title": "Marine Governance in an Industrialised Ocean: a case study of the UK's emerging marine renewable energy industry",
       "year": 2014,
@@ -4449,26 +4421,16 @@
       "roles": [
         "speaker"
       ],
+      "venue": "Marine Policy",
       "thumb": "/assets/img/publication_preview/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry-480.webp",
       "pdf": "/assets/pdf/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry.pdf",
+      "url": "https://prezi.com/xskk1cyjorqg/marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uks-emerging-marine-renewable-energy-industry/?present=1",
+      "doi": "https://doi.org/10.1016/j.marpol.2014.10.021",
       "flags": [
+        "abs",
         "photos"
       ],
       "info": "/library/glen-wright-marine-governance-industrialised-ocean-case-uks-emerging-marine-renewable-energy-industry/"
-    },
-    {
-      "id": "wrightMarineSpatialPlanning2014",
-      "title": "Marine Spatial Planning in Areas Beyond National Jurisdiction: developing a research agenda",
-      "year": 2014,
-      "type": "Workshop",
-      "month": 1,
-      "roles": [
-        "speaker"
-      ],
-      "thumb": "/assets/img/publication_preview/glen_wright_2014_marine_spatial_planning_areas_beyond_national_jurisdiction_developing_research_agenda-480.webp",
-      "url": "https://prezi.com/428z2rbqi05u/marine-spatial-planning-in-areas-beyond-national-jurisdiction/?present=1",
-      "agenda": "/assets/pdf/glen_wright_2014_marine_spatial_planning_areas_beyond_national_jurisdiction_developing_research_agenda_agenda.pdf",
-      "info": "/library/glen-wright-marine-spatial-planning-areas-beyond-national-jurisdiction-developing-research-agenda/"
     },
     {
       "id": "instituteforadvancedsustainabilitystudiesPotsdamOceanGovernance2014",
@@ -4763,6 +4725,7 @@
       "thumb": "/assets/img/publication_preview/glen_wright_2013_reducing_peak_demand_lowering_prices_what_emissions-480.webp",
       "pdf": "/assets/pdf/glen_wright_2013_reducing_peak_demand_lowering_prices_what_emissions.pdf",
       "url": "http://theconversation.com/reducing-peak-demand-lowering-prices-but-what-about-emissions-11564",
+      "doi": "https://doi.org/10.64628/aa.4nuy3ys65",
       "flags": [
         "abs"
       ],
@@ -4781,6 +4744,7 @@
       "thumb": "/assets/img/publication_preview/glen_wright_2013_reducing_peak_demand_targets_good_practice-480.webp",
       "pdf": "/assets/pdf/glen_wright_2013_reducing_peak_demand_targets_good_practice.pdf",
       "url": "http://theconversation.com/reducing-peak-demand-targets-are-good-practice-11749",
+      "doi": "https://doi.org/10.64628/aa.peu5knujt",
       "flags": [
         "abs"
       ],
@@ -5115,7 +5079,7 @@
     },
     {
       "id": "wrightMarineRenewableEnergy2012",
-      "title": "Marine Renewable Energy: Effectively Balancing  the Needs of Developers and  Potential Environmental Impacts, an Australasian Perspective",
+      "title": "Marine Renewable Energy: Effectively Balancing the Needs of Developers and Potential Environmental Impacts, an Australasian Perspective",
       "year": 2012,
       "type": "Conference",
       "month": 1,

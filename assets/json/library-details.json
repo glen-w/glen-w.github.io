@@ -61,7 +61,7 @@
     "authors": "<em>Glen Wright</em>, F.X. Coudert, Martin Bentley, Graham Steel, and Sylvain Deville"
   },
   "Wright2015": {
-    "abstract": "The world’s oceans are critical providers of ecosystem services and they are under increasing pressure from expanding and intensifying human activities. A range of international instruments and institutions aim to regulate maritime activities, though some legal gaps in the international framework remain. In particular, areas beyond national jurisdiction (ABNJ) lack an overarching regulatory framework, with no provisions for marine protected areas, environmental impact assessment, or access and benefit sharing in relation to marine genetic resources. There are also gaps and weakness in the international framework for the exploitation of offshore oil and gas resources. In this chapter, we highlight these gaps, outline relevant ongoing processes to fill them, and propose ways forward."
+    "abstract": "(c) Springer International Publishing Switzerland 2016. The world's oceans are critical providers of ecosystem services and they are under increasing pressure from expanding and intensifying human activities. A range of international instruments and institutions aim to regulate maritime activities, though some legal gaps in the international framework remain. In particular, areas beyond national jurisdiction (ABNJ) lack an overarching regulatory framework, with no provisions for marine protected areas, environmental impact assessment, or access and benefit sharing in relation to marine genetic resources. There are also gaps and weakness in the international framework for the exploitation of offshore oil and gas resources. In this chapter, we highlight these gaps, outline relevant ongoing processes to fill them, and propose ways forward."
   },
   "Unger2017a": {
     "abstract": "The United Nations 2030 Agenda for Sustainable Development and its comprehensive set of 17 interlinking Sustainable Development Goals (SDGs) offer a unique opportunity to advance ocean sustainability. The development of a robust implementation framework for the Sustainable Development Goal for the Oceans (SDG 14) is a critical step towards this overarching objective. 2017 could become a landmark year for efforts to put the world’s oceans on a pathway towards sustainability. Complemented by numerous regional and national initiatives, the UN Ocean Conference in June and the EU-hosted Our Ocean Conference in October are important opportunities for the international community to establish a firm foundation for future action and to agree on tangible measures to reverse the cycle of declining ocean health. While there is no lack in global ambition, the global community should now agree on concrete steps to develop coherent regional and international implementation frameworks for achieving oceans sustainability. To advance these efforts, this policy brief offers three key recommendations:",
@@ -112,6 +112,12 @@
   },
   "Iddri2017": {
     "abstract": "This report highlights the relevance of regional ocean governance (ROG) for the implementation of the 2030 Agenda, the achievement of SDG14, and the transition to ecosystem-based management more generally. The report assesses the roles and mandates of different regional approaches and frameworks, and showcases some pragmatic and practical examples of ROG efforts that may provide useful lessons for the implementation of SDG14. The report also highlights some of the key contributions that regional approaches can make to some of the overarching challenges of the 2030 Agenda, including capacity development, institutional transformation, and sustainable financing.",
+    "photos": [
+      {
+        "src": "/assets/img/publications/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_photo_01.jpg",
+        "alt": "Photo"
+      }
+    ],
     "authors": "<em>Glen Wright</em>, Stefanie Schmidt, Julien Rochette, Janna Jana Shackeroff, Sebastian Unger, Yvonne Waweru, Alexander Muller, and Alexander Muller"
   },
   "Wright2018b": {
@@ -175,15 +181,6 @@
       "Tony Long, CEO, Global Fishing Watch",
       "Klaudija Cremers, Senior Research Fellow, IDDRI",
       "Sophie Mirgaux, Belgian Special Envoy for the Ocean"
-    ]
-  },
-  "wrightFishingTwilightZone2020a": {
-    "abstract": "The mesopelagic, or \"twilight zone\" - the waters of the open ocean at a depth of approximately 150-1, 000 metres - hosts significant fish stocks. These fish are unpalatable but proposals are emerging to process them into fishmeal and nutritional supplements. As this vast midwater realm plays a role in the carbon cycle and food webs, the development of new fisheries could have global ramifications. Yet our scientific understanding is limited and the existing governance framework may not be ready to effectively manage mesopelagic fisheries.\n\nThis webinar introduces the science and ecology of the mesopelagic zone and explores the potential governance challenges for the sustainable development of new fisheries.",
-    "speakers": [
-      "Heidi Sosik, Woods Hole Oceanographic Institute",
-      "Callum Roberts, University of Exeter",
-      "Rachel Tiller, SINTEF Ocean, Norway (SUMMER Project - Sustainable Management of Mesopelagic Resources)",
-      "Kristina Gjerde, IUCN"
     ]
   },
   "cremersPreliminaryAnalysisDraft2020": {
@@ -404,14 +401,6 @@
       "João Neves, NEAFC"
     ]
   },
-  "wrightPartneringSustainableOcean2017": {
-    "photos": [
-      {
-        "src": "/assets/img/publications/glen_wright_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_photo_01.jpg",
-        "alt": "Photo"
-      }
-    ]
-  },
   "wrightFutureEnergyNew2024": {
     "speakers": [
       "Muhammad Asif, Professor, King Fahd University of Petroleum and Minerals, Saudi Arabia",
@@ -561,6 +550,7 @@
     ]
   },
   "wrightMarineGovernanceIndustrialised2014b": {
+    "abstract": "The world's oceans are currently undergoing an unprecedented period of industrialisation, made possible by advances in technology and driven by our growing need for food, energy and resources. This is placing the oceans are under intense pressure, and the ability of existing marine governance frameworks to sustainably manage the marine environment is increasingly being called into question. Emerging industries are challenging all aspects of these frameworks, raising questions regarding ownership and rights of the sea and its resources, management of environmental impacts, and management of ocean space. This paper uses the emerging marine renewable energy (MRE) industry, particularly in the United Kingdom (UK), as a case study to introduce and explore some of the key challenges. The paper concludes that the challenges are likely to be extensive and argues for development of a comprehensive legal research agenda to advance both MRE technologies and marine governance frameworks.",
     "photos": [
       {
         "src": "/assets/img/publications/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_photo_01.jpg",
@@ -568,6 +558,10 @@
       },
       {
         "src": "/assets/img/publications/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_photo_02.jpg",
+        "alt": "Photo"
+      },
+      {
+        "src": "/assets/img/publications/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_photo_03.png",
         "alt": "Photo"
       }
     ]
@@ -1002,10 +996,6 @@
       {
         "src": "/assets/img/publications/ocean_photo_07.jpg",
         "alt": "Photo"
-      },
-      {
-        "src": "/assets/img/publications/ocean_photo_08.jpg",
-        "alt": "Photo"
       }
     ]
   },
@@ -1372,5 +1362,12 @@
   },
   "RBEHub_REN21_Denmark": {
     "abstract": "Denmark’s contemporary energy system began to emerge in response to the 1970s oil crisis, which exposed deep dependence on imported fossil fuels and highlighted the need for diversification.\n\nOver subsequent decades, a comprehensive decarbonisation pathway developed, linking energy policy with broader economic and environmental objectives.\n\nDenmark has demonstrated relative decoupling of economic growth from energy consumption and greenhouse gas emissions, with energy intensity declining significantly since 2000 and a reduction in primary energy consumption despite continued economic growth."
+  },
+  "Wright2019": {
+    "abstract": "Pressure on marine areas beyond national jurisdiction (ABNJ) has increased significantly in recent decades, prompting the international community to begin formal negotiations for a legally binding agreement on the conservation and sustainable use of biodiversity in these areas. The current international legal framework does not provide for the creation of holistic and cross-sectoral area-based management tools (ABMTs) in ABNJ. The forthcoming negotiations will consider how to fill this gap. Marine spatial planning (MSP) is one ABMT that could be covered in a new agreement, alongside marine protected areas (MPAs) and other measures. This article introduces the current framework for MSP in ABNJ, provides discussion of selected ongoing initiatives, and proposes some avenues for inclusion of MSP in a new agreement, including general provisions, institutional implications, and possible models for an international MSP process.",
+    "authors": "<em>Glen Wright</em>, Kristina M. K.M. Gjerde, D.E. David E. Johnson, Aria Finkelstein, Maria Adelaide M.A. Ferreira, Daniel C. D.C. Dunn, Mariamalia Rodriguez Chaves, and Anthony Grehan"
+  },
+  "kolowichMeet26YearOldAcademic2015": {
+    "abstract": "It didn’t take much for Glen Wright to figure out that academics on Twitter are just like everyone else."
   }
 }
