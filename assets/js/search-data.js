@@ -3052,6 +3052,11 @@ ninja.data = [{
           description: "An International Instrument on Conservation and Sustainable Use of Biodiversity in Marine Areas beyond National Jurisdiction: Matrix of Suggestions",
           section: "Library",handler: () => {
               window.location.href = "/library/international-instrument-conservation-sustainable-use-biodiversity-marine-areas-beyond-national-jurisdiction-matrix-suggestions/";
+            },},{id: "library-meet-the-26-year-old-behind-academic-twitter-s-most-popular-hashtags",
+          title: 'Meet the 26-Year-Old Behind Academic Twitter’s Most Popular Hashtags',
+          description: "It didn’t take much for Glen Wright to figure out that academics on Twitter are just like everyone else.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/meet-26-year-old-behind-academic-twitters-popular-hashtags/";
             },},{id: "library-a-new-chapter-for-the-high-seas-historic-decision-to-negotiate-an-international-legally-binding-instrument-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-areas-beyond-national-jurisdiction",
           title: 'A new chapter for the high seas? Historic decision to negotiate an international...',
           description: "Marine areas beyond national jurisdiction (ABNJ) represent around half of the Planet’s surface and a significant amount of its biodiversity.",
@@ -3587,6 +3592,11 @@ ninja.data = [{
           description: "Cognisant of the growing threats to biodiversity in marine areas beyond national jurisdiction (ABNJ), States at the United Nations are negotiating a treaty to ensure the conservation and sustainable use of this vast global commons.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-high-hopes-high-seas-beyond-package-deal-towards-ambitious-treaty/";
+            },},{id: "library-marine-spatial-planning-in-areas-beyond-national-jurisdiction",
+          title: 'Marine spatial planning in areas beyond national jurisdiction',
+          description: "Pressure on marine areas beyond national jurisdiction (ABNJ) has increased significantly in recent decades, prompting the international community to begin formal negotiations for a legally binding agreement on the conservation and sustainable use of biodiversity in these areas.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-etal-marine-spatial-planning-areas-beyond-national-jurisdiction/";
             },},{id: "library-regional-ocean-governance-of-areas-beyond-national-jurisdiction-lessons-learnt-and-ways-forward",
           title: 'Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward...',
           description: "Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward",
