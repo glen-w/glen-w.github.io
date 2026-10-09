@@ -132,8 +132,9 @@ html[data-personality="off"] {
 .post
   a:not(.btn):not(.nav-link):not(.navbar-brand):not(.badge):not(.tag):not(.dropdown-item):not(.clear-filters-link):not(.view-map-link):not(
     .read-more-toggle
-  ),
-article a:not(.btn):not(.nav-link):not(.badge):not(.tag):not(.read-more-toggle) {
+  ):not(.contact-actions__link),
+article
+  a:not(.btn):not(.nav-link):not(.badge):not(.tag):not(.read-more-toggle):not(.contact-actions__link) {
   text-decoration: underline dotted;
   text-decoration-color: var(--global-theme-color);
   text-underline-offset: 0.18em;

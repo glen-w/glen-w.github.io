@@ -5,7 +5,8 @@
   <div class="row">
     {% if service.img %}
       <div class="col-md-3">
-        {% include figure.liquid loading="eager" path=service.img sizes="(min-width: 768px) 200px, 50vw" alt="service thumbnail" %}
+        {% assign thumb_alt = service.img_alt | default: service.title %}
+        {% include figure.liquid loading="eager" path=service.img sizes="(min-width: 768px) 200px, 50vw" alt=thumb_alt %}
       </div>
     {% endif %}
     <div class="{% if service.img %}col-md-9{% else %}col-md-12{% endif %}">
