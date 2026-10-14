@@ -1,7 +1,7 @@
 ---
 layout: page
 title: BBNJ CHM Prototype
-description: A working desk for the BBNJ Clearing-House Mechanism: submit, review, publish, notify, audit.
+description: A working prototype of a Clearing-House Mechanism for the High Seas Treaty
 img: /assets/img/projects/thumbs/bbnj_chm.png
 importance: 1
 category: ongoing
