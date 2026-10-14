@@ -3,7 +3,6 @@ layout: default
 ---
 <div class="post">
   <article>
-    <h1 class="about-identity">Glen Wright</h1>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -77,12 +76,6 @@ layout: default
 
   #selectedPublicationsContainer h2 {
     font-size: 1.25rem;
-  }
-
-  .about-identity {
-    font-size: 1.75rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
   }
 
   /* Home page selected publications styling */

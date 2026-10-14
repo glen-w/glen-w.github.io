@@ -21,7 +21,7 @@
     ".projects > a",
   ].join(",");
 
-  var SKIP_CLOSEST = "#libraryResults, .profile, .about-identity";
+  var SKIP_CLOSEST = "#libraryResults, .profile";
 
   function inFirstViewport(el) {
     var rect = el.getBoundingClientRect();

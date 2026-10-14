@@ -117,9 +117,9 @@ class TestHomepageChrome:
         assert 'Skip to main content' in header
         assert 'href="#main-content"' in header
 
-    def test_about_has_h1_and_webp_portrait(self):
+    def test_about_has_webp_portrait(self):
         about = ABOUT.read_text(encoding='utf-8')
-        assert '<h1 class="about-identity">Glen Wright</h1>' in about
+        assert 'about-identity' not in about
         assert 'Portrait of Glen Wright' in about
         assert 'prof_pic-800.webp' in about or "-800.webp" in about
 
