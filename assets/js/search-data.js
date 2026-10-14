@@ -4232,9 +4232,9 @@ ninja.data = [{
           description: "Academia Obscura — the hidden silly side of higher education. Blog, book (Unbound), and ongoing cabinet of academic curiosities by Glen Wright.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/academia_obscura/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-bbnj-chm-prototype",
+          title: 'BBNJ CHM Prototype',
+          description: "A working prototype of a Clearing-House Mechanism for the High Seas Treaty",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bbnj-chm-proto/";
             },},{id: "projects-crossword",
