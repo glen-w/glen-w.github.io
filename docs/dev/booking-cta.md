@@ -1,6 +1,6 @@
 # Booking CTA — Cal.rs (`meet.glenwright.earth`)
 
-**Public booking URL:** [https://meet.glenwright.earth/u/book/half-hour](https://meet.glenwright.earth/u/book/half-hour) (30-minute call — only duration offered)
+**Public booking URL:** [https://meet.glenwright.earth/u/book/meeting](https://meet.glenwright.earth/u/book/meeting) (30-minute call — only duration offered)
 
 Cal.rs should align with the site brand palette (`--brand-linen`, `--brand-ink`, `--brand-sea` — see `.cursor/rules/brand-colors.mdc`). Infra runbook lives in the **homeserver** repo: `server/docs/apps/calrs.md` and `server/docs/operations/calrs-meet-bringup-2026-10-06.md`.
 
@@ -11,7 +11,7 @@ A nav item or button on `/`, `/services/`, or `/cv/` is simpler than embedding (
 Prefer the contact page pattern (`_pages/contact.md`, `.contact-actions__link` in `_sass/_contact.scss`):
 
 ```markdown
-[Book a meeting](https://meet.glenwright.earth/u/book/half-hour){: .contact-actions__link }
+[Book a meeting](https://meet.glenwright.earth/u/book/meeting){: .contact-actions__link }
 ```
 
 (Jekyll/kramdown attribute syntax — confirm in local `bundle exec jekyll serve` before deploy.)
@@ -22,7 +22,7 @@ Cal.rs supports `?embed=1` on **booking** URLs only. In Cal.rs admin (Tailscale)
 
 ```html
 <iframe
-  src="https://meet.glenwright.earth/u/book/half-hour?embed=1&amp;theme=light"
+  src="https://meet.glenwright.earth/u/book/meeting?embed=1&amp;theme=light"
   title="Book a 30-minute call"
   style="width:100%;min-height:720px;border:0;border-radius:8px;"
   loading="lazy"

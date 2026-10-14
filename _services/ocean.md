@@ -37,6 +37,6 @@ Offshore wind, wave and tidal energy sit here too, as ocean-governance questions
 
 [Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions__link }
 
-[Book a 30-minute call](https://meet.glenwright.earth/u/book/half-hour){: .contact-actions__link }
+[Book a 30-minute call](https://meet.glenwright.earth/u/book/meeting){: .contact-actions__link }
 
 </div>

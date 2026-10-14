@@ -36,6 +36,6 @@ Not sure a full workshop is what you need? A 30-minute call is enough to work ou
 
 [Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions__link }
 
-[Book a 30-minute call](https://meet.glenwright.earth/u/book/half-hour){: .contact-actions__link }
+[Book a 30-minute call](https://meet.glenwright.earth/u/book/meeting){: .contact-actions__link }
 
 </div>
