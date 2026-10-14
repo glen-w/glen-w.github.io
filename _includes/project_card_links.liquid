@@ -2,7 +2,8 @@
 {% assign card_website = include.website | default: project.website %}
 {% assign card_docs = include.docs | default: project.docs %}
 {% assign card_shop = include.shop | default: project.shop %}
-{% if card_github or card_website or card_docs or card_shop %}
+{% assign card_links = include.links | default: project.links %}
+{% if card_github or card_website or card_docs or card_shop or card_links %}
   <div class="project-card-links">
     {% if card_github %}
       <a href="{{ card_github }}" data-toggle="tooltip" title="Code repository" aria-label="Code repository">
@@ -29,6 +30,13 @@
       <a href="{{ card_shop }}" data-toggle="tooltip" title="Buy" aria-label="Buy">
         <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
       </a>
+    {% endif %}
+    {% if card_links %}
+      <span class="project-card-text-links">
+        {% for link in card_links %}
+          · <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      </span>
     {% endif %}
   </div>
 {% endif %}
