@@ -4274,7 +4274,7 @@ ninja.data = [{
               window.location.href = "/projects/iea-renweb/";
             },},{id: "projects-little-blue-letter",
           title: 'Little Blue Letter',
-          description: "A splash of uplifting ocean stuff, lovingly curated by young ocean leaders",
+          description: "A splash of uplifting ocean stuff, lovingly curated by young ocean leaders and shipped straight to your inbox every Friday.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/little_blue_letter/";
             },},{id: "projects-lowdee",
