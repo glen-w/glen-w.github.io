@@ -228,6 +228,8 @@ class TestLibraryIndexShell:
 
     def test_library_js_jump_retries_and_exact_type_match(self):
         src = (PROJECT_ROOT / 'assets' / 'js' / 'library.js').read_text(encoding='utf-8')
+        assert 'fa-cart-shopping' in src
+        assert 'sameHref(item.url, item.shop)' in src
         assert 'jumpToHash({ retry: true })' in src
         assert 'function jumpToHash({ retry = false } = {})' in src
         assert 'textContent = "selected publications"' in src

@@ -2081,11 +2081,8 @@
       "id": "wrightRegionalGovernanceAreas2019",
       "title": "Regional Governance of Areas Beyond National Jurisdiction",
       "year": 2019,
-      "type": "Workshop",
+      "type": "Conference Paper",
       "month": 1,
-      "roles": [
-        "speaker"
-      ],
       "venue": "Biological Diversity Beyond National Jurisdiction Pacific Workshop, Pacific Islands Forum",
       "thumb": "/assets/img/publication_preview/glen_wright_2019_regional_governance_areas_beyond_national_jurisdiction-480.webp",
       "pdf": "/assets/pdf/glen_wright_2019_regional_governance_areas_beyond_national_jurisdiction.pdf",
@@ -2231,7 +2228,8 @@
       "agenda": "/assets/pdf/2019_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance_agenda.pdf",
       "flags": [
         "photos"
-      ]
+      ],
+      "info": "/library/towards-effective-high-seas-treaty-building-strengthening-regional-ocean-governance/"
     },
     {
       "id": "TraiteHauteMer2019",
@@ -2264,7 +2262,7 @@
       "venue": "Penguin Random House (Unbound)",
       "thumb": "/assets/img/publication_preview/glen_wright_2018_academia_obscura_hidden_silly_side_higher_education-480.webp",
       "pdf": "/assets/pdf/glen_wright_2018_academia_obscura_hidden_silly_side_higher_education.pdf",
-      "url": "https://www.amazon.com/Academia-Obscura-Hidden-Higher-Education/dp/1783523417",
+      "shop": "https://link.amazon/B0hlPnq2x",
       "selected": true,
       "info": "/library/glen-wright-academia-obscura-hidden-silly-side-higher-education/"
     },

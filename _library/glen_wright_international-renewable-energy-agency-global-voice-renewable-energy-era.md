@@ -20,8 +20,12 @@ abstract: The International Renewable Energy Agency held the first session of it
   The paper will note some points of interest that warrant further discussion before
   outlining the Agency’s activities to date and assessing the potential contribution
   the Agency can make to the development of renewables.
+tags:
+- irena
+- renewables
 categories:
 - other
+- renewable-energy
 authors:
 - Glen Wright
 venue: Renewable Energy Law and Policy Review
@@ -50,3 +54,6 @@ resources:
   external: true
 ---
 
+## Notes
+
+tex.mendeley-tags: IRENA, renewables

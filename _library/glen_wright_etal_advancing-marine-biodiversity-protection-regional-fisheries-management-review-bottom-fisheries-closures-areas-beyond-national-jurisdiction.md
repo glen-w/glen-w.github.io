@@ -26,6 +26,7 @@ abstract: Fishing is a significant threat to marine biodiversity in areas beyond
   though RFMO/As will need to fully utilise their powers and follow best practice
   before authorising bottom fishing to proceed in ABNJ.
 tags:
+- governance
 - fisheries
 - bbnj
 - vme
@@ -44,8 +45,12 @@ tags:
 - theme:baseline paper
 - theme:hsbfc
 - theme:rfmo
+- mesopelagic
+- baseline-cites
+- from-iddri-2020
 categories:
 - other
+- governance
 authors:
 - Glen Wright
 - Jeff Ardron
@@ -53,10 +58,11 @@ authors:
 - Duncan Currie
 - Julien Rochette
 venue: Marine Policy
+publisher: Elsevier BV
 role: lead author
 preview: glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction
 pdf: glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction.pdf
-url: https://doi.org/10.1016/j.marpol.2015.06.030
+url: http://dx.doi.org/10.1016/j.marpol.2015.06.030
 doi: https://doi.org/10.1016/j.marpol.2015.06.030
 pages: 134--148
 volume: '61'
@@ -70,6 +76,13 @@ resources:
   local: true
   external: false
   primary: true
+- kind: landing
+  title: Visit Marine Policy publication page
+  label: Visit Marine Policy publication page
+  url: http://dx.doi.org/10.1016/j.marpol.2015.06.030
+  format: Web
+  local: false
+  external: true
 - kind: landing
   title: DOI
   label: View DOI

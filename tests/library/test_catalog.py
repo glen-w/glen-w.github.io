@@ -192,6 +192,29 @@ class TestCatalogBuild:
         assert item["roles"] == ["co-author"]
         assert item["langs"] == ["french"]
 
+    def test_shop_from_annote_replaces_matching_url(self, generator):
+        buy = "https://link.amazon/B0hlPnq2x"
+        item, _detail = generator.build_item(
+            _entry(
+                website=buy,
+                annote=f"[type]\nbook\n[role]\nauthor\n[shop]\n{buy}",
+            )
+        )
+        assert item["shop"] == buy
+        assert "url" not in item
+
+    def test_shop_and_distinct_url_both_kept(self, generator):
+        site = "https://academiaobscura.com"
+        buy = "https://link.amazon/B0hlPnq2x"
+        item, _detail = generator.build_item(
+            _entry(
+                website=site,
+                annote=f"[type]\nbook\n[role]\nauthor\n[shop]\nBuy here {buy}",
+            )
+        )
+        assert item["url"] == site
+        assert item["shop"] == buy
+
     def test_extra_links_dedupe_against_typed_urls(self, generator):
         """Annote [link] that matches website/url/doi/pdf must not become a second icon."""
         site = "https://example.org/event/"

@@ -41,6 +41,7 @@ preview: 2017_achieving_sustainable_development_goal_oceans
 pdf: 2017_achieving_sustainable_development_goal_oceans.pdf
 url: 'http://publications.iass-potsdam.de/pubman/item/escidoc:2041892:3&title=eSciDoc
   PubMan: Achieving the Sustainable Development Goal for the Oceans'
+doi: https://doi.org/10.2312/IASS.2017.004
 pages: 1--12
 resources:
 - kind: pdf
@@ -56,6 +57,13 @@ resources:
   label: Visit IASS publication page
   url: 'http://publications.iass-potsdam.de/pubman/item/escidoc:2041892:3&title=eSciDoc
     PubMan: Achieving the Sustainable Development Goal for the Oceans'
+  format: Web
+  local: false
+  external: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.2312/IASS.2017.004
   format: Web
   local: false
   external: true

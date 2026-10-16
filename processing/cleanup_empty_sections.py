@@ -3,7 +3,7 @@
 Empty Sections Cleanup Script
 
 This script helps clean up empty sections in BibTeX entries that come from Zotero.
-It removes empty [video], [audio], [links], [quotes], [role], [speakers], [type] sections
+It removes empty [video], [audio], [links], [quotes], [role], [speakers], [type], [shop] sections
 that contain only whitespace, braces, or brackets.
 """
 
@@ -23,7 +23,7 @@ def clean_empty_sections(content):
         str: Cleaned content
     """
     # Define the sections to clean
-    sections_to_clean = ['video', 'audio', 'links', 'quotes', 'role', 'speakers', 'type']
+    sections_to_clean = ['video', 'audio', 'links', 'quotes', 'role', 'speakers', 'type', 'shop']
     
     for section in sections_to_clean:
         # Pattern to match [section] followed by optional whitespace and closing brace

@@ -24,6 +24,7 @@ abstract: Monitoring, control and surveillance (MCS) is critical for the success
   for strengthening MCS in ABNJ, as well as three concrete proposals for provisions
   that could be included in the future international instrument.
 tags:
+- governance
 - fisheries
 - bbnj
 - rfmo
@@ -31,16 +32,21 @@ tags:
 - ifb
 - oa:unknown
 - author:glen wright
+- mesopelagic
+- baseline-cites
+- from-iass-2021
 categories:
 - other
+- governance
 authors:
 - Klaudija Cremers
 - Glen Wright
 - Julien Rochette
 venue: Marine Policy
+publisher: Elsevier BV
 role: co-author
 preview: 2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument
-pdf: 2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument.pdf
+pdf: 2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument_a.pdf
 url: https://doi.org/10.1016/j.marpol.2020.103976
 doi: https://doi.org/10.1016/j.marpol.2020.103976
 pages: '103976'
@@ -51,7 +57,7 @@ resources:
     marine areas beyond national jurisdiction: Challenges and opportunities for an
     international legally binding instrument'
   label: View primary document
-  url: /assets/pdf/2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument.pdf
+  url: /assets/pdf/2020_strengthening_monitoring_control_surveillance_human_activities_marine_areas_beyond_national_jurisdiction_challenges_opportunities_international_legally_binding_instrument_a.pdf
   format: PDF
   local: true
   external: false

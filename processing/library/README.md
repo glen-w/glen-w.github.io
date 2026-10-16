@@ -57,7 +57,7 @@ python generate_library_pages.py --output-dir _custom_library
 
 A full library run (or `--catalog-only`) writes:
 
-- `assets/json/library.json` — list fields for `/library/` (title, year, type, roles, authors, venue, pdf/url/doi, one 480px thumb)
+- `assets/json/library.json` — list fields for `/library/` (title, year, type, roles, authors, venue, pdf/url/doi/shop, one 480px thumb)
 - `assets/json/library-details.json` — abstracts, speakers, photos; fetched on first card expand
 - `assets/json/coauthors.json` — collaboration graph for `/network/` (co-authors tab; people, edges, works)
 - `assets/json/citations.json` — citation network for `/network/` (citations tab; OpenAlex, cached Scholar citers, Semantic Scholar)

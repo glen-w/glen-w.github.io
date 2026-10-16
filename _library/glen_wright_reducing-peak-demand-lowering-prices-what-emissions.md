@@ -24,6 +24,7 @@ role: author
 preview: glen_wright_2013_reducing_peak_demand_lowering_prices_what_emissions
 pdf: glen_wright_2013_reducing_peak_demand_lowering_prices_what_emissions.pdf
 url: http://theconversation.com/reducing-peak-demand-lowering-prices-but-what-about-emissions-11564
+doi: https://doi.org/10.64628/aa.4nuy3ys65
 resources:
 - kind: pdf
   title: 'Reducing peak demand: lowering prices, but what about emissions?'
@@ -37,6 +38,13 @@ resources:
   title: Visit The Conversation publication page
   label: Visit The Conversation publication page
   url: http://theconversation.com/reducing-peak-demand-lowering-prices-but-what-about-emissions-11564
+  format: Web
+  local: false
+  external: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.64628/aa.4nuy3ys65
   format: Web
   local: false
   external: true

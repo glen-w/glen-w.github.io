@@ -165,6 +165,8 @@ class NotesProcessor:
         if video_links:
             # Add the first video link as a video field
             entry['video'] = video_links[0]
+
+        # [shop] stays in annote; do not promote it to url (that would become a globe)
         
         # Extract other links and add to appropriate fields
         other_links = self._extract_other_links(notes)
@@ -180,21 +182,21 @@ class NotesProcessor:
         """Remove trailing punctuation commonly stuck to URLs in prose."""
         return url.rstrip('.,);')
 
-    def _extract_video_links(self, notes: str) -> List[str]:
-        """Extract video links from notes (any http(s) URL in the [video] section)."""
-        if not notes or '[video]' not in notes:
+    def _extract_section_urls(self, notes: str, marker: str) -> List[str]:
+        """Extract http(s) URLs from one annote section (stops at the next ``[``)."""
+        if not notes or marker not in notes:
             return []
-        
-        video_section = notes.split('[video]')[-1].split('[')[0].strip()
-        video_lines = video_section.split('\n')
-        
-        video_links = []
-        for line in video_lines:
+        section = notes.split(marker)[-1].split('[')[0].strip()
+        urls = []
+        for line in section.split('\n'):
             clean_line = self._strip_trailing_url_punctuation(line.strip())
             if clean_line and re.match(r'https?://', clean_line, re.IGNORECASE):
-                video_links.append(clean_line)
-        
-        return video_links
+                urls.append(clean_line)
+        return urls
+
+    def _extract_video_links(self, notes: str) -> List[str]:
+        """Extract video links from notes (any http(s) URL in the [video] section)."""
+        return self._extract_section_urls(notes, '[video]')
     
     def _extract_other_links(self, notes: str) -> List[str]:
         """Extract non-video links from notes."""
@@ -202,16 +204,17 @@ class NotesProcessor:
             return []
         
         video_links = set(self._extract_video_links(notes))
+        shop_links = set(self._extract_section_urls(notes, '[shop]'))
         
         # Find all URLs in the notes
         url_pattern = r'https?://[^\s]+'
         all_urls = re.findall(url_pattern, notes)
         
-        # Filter out video URLs (including those listed under [video])
+        # Filter out video / shop URLs (typed annote sections)
         other_links = []
         for url in all_urls:
             clean_url = self._strip_trailing_url_punctuation(url)
-            if clean_url in video_links:
+            if clean_url in video_links or clean_url in shop_links:
                 continue
             if 'youtube' in clean_url or 'youtu.be' in clean_url:
                 continue

@@ -31,3 +31,7 @@ resources:
   primary: true
 ---
 
+## Notes
+
+TITLE-FINAL 2026-09-10: ocr_local_collapse; was: Your flag's got my flag on it: the union jack and the australian flag
+TITLE-REVERT 2026-09-10: restored pre-strict; bad note=ocr_local_collapse

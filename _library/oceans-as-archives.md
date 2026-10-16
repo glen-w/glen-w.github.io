@@ -29,11 +29,19 @@ location: University of Amsterdam
 role: attendee
 preview: 2022_oceans_as_archives
 url: https://www.nica-institute.com/event-conference-oceans-as-archives/
+doi: https://doi.org/10.4324/9781003594086
 resources:
 - kind: landing
   title: Visit event website
   label: Visit event website
   url: https://www.nica-institute.com/event-conference-oceans-as-archives/
+  format: Web
+  local: false
+  external: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.4324/9781003594086
   format: Web
   local: false
   external: true

@@ -24,6 +24,7 @@ role: author
 preview: glen_wright_2013_reducing_peak_demand_targets_good_practice
 pdf: glen_wright_2013_reducing_peak_demand_targets_good_practice.pdf
 url: http://theconversation.com/reducing-peak-demand-targets-are-good-practice-11749
+doi: https://doi.org/10.64628/aa.peu5knujt
 resources:
 - kind: pdf
   title: 'Reducing peak demand: targets are good practice'
@@ -37,6 +38,13 @@ resources:
   title: Visit The Conversation publication page
   label: Visit The Conversation publication page
   url: http://theconversation.com/reducing-peak-demand-targets-are-good-practice-11749
+  format: Web
+  local: false
+  external: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.64628/aa.peu5knujt
   format: Web
   local: false
   external: true

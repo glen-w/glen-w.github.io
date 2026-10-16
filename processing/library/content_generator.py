@@ -48,11 +48,14 @@ class ContentGenerator:
         'poster': 50,
         'pdf': 40,
         'video': 30,
+        'shop': 25,
         'zip': 20,
         'landing': 10,
     }
 
-    KIND_ORDER = ('pdf', 'agenda', 'slides', 'poster', 'zip', 'video', 'landing')
+    KIND_ORDER = ('pdf', 'agenda', 'slides', 'poster', 'zip', 'video', 'shop', 'landing')
+
+    _HTTP_URL_RE = re.compile(r'https?://[^\s<>]+', re.IGNORECASE)
 
     FORMAT_BY_EXT = {
         '.pdf': 'PDF',
@@ -116,6 +119,7 @@ class ContentGenerator:
 
         processed_images = self._find_processed_images(entry)
         preview = self._resolve_preview(entry, processed_images)
+        shop = self.shop_url(entry)
 
         resources = self._build_resources(
             entry=entry,
@@ -124,6 +128,7 @@ class ContentGenerator:
             entry_type=entry_type,
             is_event=is_event,
             institution=institution or venue,
+            shop=shop,
         )
 
         front_matter: Dict[str, Any] = {
@@ -160,6 +165,8 @@ class ContentGenerator:
             value = self._strip_str(links.get(key))
             if value:
                 front_matter[key] = value
+        if shop:
+            front_matter['shop'] = shop
 
         zip_name = self._strip_str(entry.get('zip_archive'))
         if zip_name:
@@ -201,6 +208,7 @@ class ContentGenerator:
         entry_type: str,
         is_event: bool,
         institution: Optional[str],
+        shop: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """Build normalized resources list with verification and deduplication."""
         candidates: List[Dict[str, Any]] = []
@@ -270,6 +278,18 @@ class ContentGenerator:
                 'label': 'Watch recording',
                 'url': video,
                 'format': 'Video',
+                'local': False,
+                'external': True,
+            })
+
+        shop = self._strip_str(shop)
+        if shop:
+            candidates.append({
+                'kind': 'shop',
+                'title': 'Buy',
+                'label': 'Buy',
+                'url': shop,
+                'format': 'Web',
                 'local': False,
                 'external': True,
             })
@@ -489,6 +509,17 @@ class ContentGenerator:
     # ------------------------------------------------------------------
     # Annote helpers / preview / normalisation utilities
     # ------------------------------------------------------------------
+
+    def shop_url(self, entry: Dict[str, Any]) -> Optional[str]:
+        """First http(s) URL in the Zotero Notes ``[shop]`` section."""
+        return self._first_http_url(self._extract_annote_lines(entry, '[shop]'))
+
+    def _first_http_url(self, lines: List[str]) -> Optional[str]:
+        for line in lines:
+            match = self._HTTP_URL_RE.search(line)
+            if match:
+                return match.group(0).rstrip('.,);>')
+        return None
 
     def _extract_annote_lines(self, entry: Dict[str, Any], marker: str) -> List[str]:
         annote = entry.get('annote', '')

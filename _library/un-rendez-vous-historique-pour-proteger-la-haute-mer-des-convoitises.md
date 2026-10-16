@@ -16,6 +16,8 @@ venue: The Conversation
 role: co-author
 preview: 2016_un_rendez_vous_historique_pour_proteger_la_haute_mer_des_convoitises
 pdf: 2016_un_rendez_vous_historique_pour_proteger_la_haute_mer_des_convoitises.pdf
+url: https://doi.org/10.64628/aak.ys6fr77dm
+doi: https://doi.org/10.64628/aak.ys6fr77dm
 resources:
 - kind: pdf
   title: Un rendez-vous historique pour proteger la haute mer des convoitises
@@ -25,5 +27,12 @@ resources:
   local: true
   external: false
   primary: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.64628/aak.ys6fr77dm
+  format: Web
+  local: false
+  external: true
 ---
 

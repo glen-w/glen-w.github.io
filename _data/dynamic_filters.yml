@@ -28,11 +28,11 @@ entry_type_counts:
   Oped: 2
   Blog: 24
   Webinar: 15
-  Workshop: 56
+  Workshop: 55
   Training: 16
   Submission: 27
   Poster: 3
-  Conference Paper: 1
+  Conference Paper: 2
   Book: 2
   Side Event: 8
   Fellowship: 1
@@ -54,7 +54,7 @@ role_tags:
 role_tag_counts:
   lead author: 27
   author: 75
-  speaker: 75
+  speaker: 74
   co-author: 67
   facilitator: 22
   organiser: 26

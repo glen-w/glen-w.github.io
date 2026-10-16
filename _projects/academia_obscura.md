@@ -7,7 +7,7 @@ wordmark: true
 importance:
 category: featured
 website: https://academiaobscura.com
-shop: https://www.amazon.com/Academia-Obscura-Hidden-Higher-Education/dp/1783526947
+shop: https://link.amazon/B0hlPnq2x
 ---
 
 <div align="center">

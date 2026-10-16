@@ -15,7 +15,8 @@ publisher: Penguin Random House (Unbound)
 role: author
 preview: glen_wright_2018_academia_obscura_hidden_silly_side_higher_education
 pdf: glen_wright_2018_academia_obscura_hidden_silly_side_higher_education.pdf
-url: https://www.amazon.com/Academia-Obscura-Hidden-Higher-Education/dp/1783523417
+url: https://link.amazon/B0hlPnq2x
+shop: https://link.amazon/B0hlPnq2x
 resources:
 - kind: pdf
   title: 'Academia Obscura: The Hidden Silly Side of Higher Education'
@@ -25,10 +26,10 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.amazon.com/Academia-Obscura-Hidden-Higher-Education/dp/1783523417
+- kind: shop
+  title: Buy
+  label: Buy
+  url: https://link.amazon/B0hlPnq2x
   format: Web
   local: false
   external: true

@@ -2,10 +2,10 @@
 layout: library-item
 title: Regional Governance of Areas Beyond National Jurisdiction
 date: '2019-01-01'
-entry_type: Workshop
+entry_type: Other
 year: '2019'
 bibtex_key: wrightRegionalGovernanceAreas2019
-is_event: true
+is_event: false
 description: Regional Governance of Areas Beyond National Jurisdiction
 categories:
 - other
@@ -14,7 +14,6 @@ authors:
 venue: Biological Diversity Beyond National Jurisdiction Pacific Workshop, Pacific
   Islands Forum
 location: Suva, Fiji
-role: speaker
 preview: glen_wright_2019_regional_governance_areas_beyond_national_jurisdiction
 gallery:
 - glen_wright_2019_regional_governance_areas_beyond_national_jurisdiction_photo_01

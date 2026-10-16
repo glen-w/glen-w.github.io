@@ -468,7 +468,10 @@
     if (item.pdf) {
       links.appendChild(iconLink(item.pdf, "fa-file-pdf", "View PDF"));
     }
-    if (item.url) {
+    if (item.shop) {
+      links.appendChild(iconLink(item.shop, "fa-cart-shopping", "Buy"));
+    }
+    if (item.url && !sameHref(item.url, item.shop)) {
       links.appendChild(iconLink(item.url, "fa-globe", "Open website"));
     }
     if (item.doi) {
@@ -529,6 +532,12 @@
       applyChip(value, kind);
     });
     return btn;
+  }
+
+  function sameHref(left, right) {
+    if (!left || !right) return false;
+    const norm = (value) => String(value).trim().replace(/\/+$/, "").toLowerCase();
+    return norm(left) === norm(right);
   }
 
   function iconLink(href, icon, label, { internal = false } = {}) {

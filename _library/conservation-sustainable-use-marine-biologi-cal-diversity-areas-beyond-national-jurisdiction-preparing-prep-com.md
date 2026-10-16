@@ -18,6 +18,8 @@ role: participant
 preview: 2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com
 pdf: 2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com_a.pdf
 agenda: 2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com_b_agenda.pdf
+url: https://doi.org/10.18356/29045c1f-en
+doi: https://doi.org/10.18356/29045c1f-en
 resources:
 - kind: pdf
   title: 'Conservation and Sustainable Use of Marine Biologi cal Diversity of Areas
@@ -35,6 +37,13 @@ resources:
   format: PDF
   local: true
   external: false
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.18356/29045c1f-en
+  format: Web
+  local: false
+  external: true
 ---
 
 ## Notes

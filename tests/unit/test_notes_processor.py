@@ -51,6 +51,18 @@ class TestNotesProcessor:
         assert notes_processor._extract_video_links('no videos') == []
         assert notes_processor._extract_video_links('') == []
 
+    def test_shop_url_not_promoted_to_url(self, notes_processor):
+        entry = {'ENTRYTYPE': 'book'}
+        notes = (
+            '[type]\nbook\n'
+            '[shop]\nhttps://link.amazon/B0hlPnq2x\n'
+            '[links]\nhttps://academiaobscura.com'
+        )
+        result = notes_processor.process_notes_for_entry(entry, notes)
+        assert result.get('url') == 'https://academiaobscura.com'
+        assert '[shop]' in result['annote']
+        assert 'https://link.amazon/B0hlPnq2x' in result['annote']
+
     def test_video_populated_on_entry(self, notes_processor):
         entry = {'ENTRYTYPE': 'misc'}
         notes = '[type]\nwebinar\n[video]\nhttps://youtu.be/xyz'

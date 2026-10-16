@@ -20,8 +20,16 @@ abstract: 'The literature on ocean energy has, to date, largely focussed on tech
   research structured around the core themes of marine governance: (i) international
   law; (ii) environmental impacts; (iii) rights and ownership; (iv) consenting processes;
   and (v) management of marine space and resources were identified.'
+tags:
+- wave energy
+- ocean energy
+- tidal energy
+- marine governance
 categories:
 - other
+- energy-policy
+- ocean-governance
+- marine-policy
 authors:
 - Glen Wright
 - Anne Marie
@@ -59,3 +67,6 @@ resources:
   external: true
 ---
 
+## Notes
+
+tex.mendeley-tags: marine governance, ocean energy, tidal energy, wave energy

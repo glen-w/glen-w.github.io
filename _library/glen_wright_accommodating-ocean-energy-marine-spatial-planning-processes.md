@@ -26,6 +26,8 @@ slides: glen_wright_2015_accommodating_ocean_energy_marine_spatial_planning_proc
 zip_archive: glen_wright_2015_accommodating_ocean_energy_marine_spatial_planning_processes.zip
 zip_file_count: '7'
 zip_file_size_mb: '19.1'
+pages: 1--6
+number: June
 resources:
 - kind: pdf
   title: Accommodating Ocean Energy in Marine Spatial Planning Processes

@@ -16,6 +16,7 @@ abstract: States at the United Nations have begun negotiating a new treaty to st
   thousands of species continuing to slip through the cracks of a fragmented global
   ocean governance framework.
 tags:
+- governance
 - fisheries
 - bbnj
 - rfmo
@@ -23,8 +24,13 @@ tags:
 - ifb
 - oa:unknown
 - author:glen wright
+- mesopelagic
+- baseline-cites
+- from-iddri-2020
+- from-iass-2021
 categories:
 - other
+- governance
 authors:
 - Guillermo Ortuno Crespo
 - Daniel C. Dunn

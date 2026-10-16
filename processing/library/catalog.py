@@ -101,6 +101,7 @@ class CatalogGenerator:
         pdf = self._asset_url(links.get("pdf"), PDF_PREFIX)
         url = self._http_url(links.get("url"))
         doi = self._doi_url(links.get("doi") or entry.get("doi"))
+        shop = self._http_url(self.content_generator.shop_url(entry))
         video = self._http_url(links.get("video")) or self._first_http(
             self._annote_lines(entry, "[video]")
         )
@@ -117,8 +118,17 @@ class CatalogGenerator:
             entry, "[link]"
         )
         extra_links = self._dedupe_extra_links(
-            extra_links, url=url, doi=doi, pdf=pdf, video=video, slides=slides, agenda=agenda
+            extra_links,
+            url=url,
+            doi=doi,
+            pdf=pdf,
+            video=video,
+            slides=slides,
+            agenda=agenda,
+            shop=shop,
         )
+        if url and shop and self._normalize_url_key(url) == self._normalize_url_key(shop):
+            url = None
         award = self._strip(entry.get("award") or entry.get("award_name"))
 
         flags: List[str] = []
@@ -164,6 +174,8 @@ class CatalogGenerator:
             item["pdf"] = pdf
         if url:
             item["url"] = url
+        if shop:
+            item["shop"] = shop
         if doi:
             item["doi"] = doi
         if video:
@@ -636,13 +648,14 @@ class CatalogGenerator:
         video: Optional[str] = None,
         slides: Optional[str] = None,
         agenda: Optional[str] = None,
+        shop: Optional[str] = None,
     ) -> List[str]:
         """Drop annote links that already appear as typed catalog URL fields."""
         if not extra_links:
             return []
         typed = {
             self._normalize_url_key(value)
-            for value in (url, doi, pdf, video, slides, agenda)
+            for value in (url, doi, pdf, video, slides, agenda, shop)
             if value
         }
         typed.discard("")

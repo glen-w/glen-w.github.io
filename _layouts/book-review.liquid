@@ -27,7 +27,7 @@ layout: default
       </p>
     {% endif %}
 
-    {% if page.started or page.finished or page.stars %}
+    {% if page.started or page.finished or page.stars or page.buy_link %}
       <p class="post-meta">
         {% if page.started %}
           <i class="fa-solid fa-play fa-sm" style="color: var(--global-tip-block) !important"></i> <em>{{ page.started }}</em>
@@ -68,8 +68,7 @@ layout: default
           {% endif %}
           <a target="_blank" href="{{ page.buy_link }}"
             ><i class="fa-solid fa-cart-shopping"></i>
-            {% assign is_amazon_link = page.buy_link | slice: 0, 19 %}
-            {% if is_amazon_link == 'https://www.amazon.' %}
+            {% if page.buy_link contains 'amazon' %}
               <i class="fa-brands fa-amazon"></i>
             {% endif %}
           </a>

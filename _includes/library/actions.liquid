@@ -12,7 +12,7 @@
 
   {% assign has_secondary = false %}
   {% for resource in page.resources %}
-    {% if resource.kind == 'landing' or resource.kind == 'video' %}
+    {% if resource.kind == 'landing' or resource.kind == 'video' or resource.kind == 'shop' %}
       {% assign skip = false %}
       {% if primary_resource and resource.url == primary_resource.url %}
         {% assign skip = true %}
@@ -47,7 +47,7 @@
       {% endif %}
 
       {% for resource in page.resources %}
-        {% if resource.kind == 'video' or resource.kind == 'landing' %}
+        {% if resource.kind == 'video' or resource.kind == 'landing' or resource.kind == 'shop' %}
           {% assign skip = false %}
           {% if primary_resource and resource.url == primary_resource.url %}
             {% assign skip = true %}
@@ -65,6 +65,8 @@
             >
               {% if resource.kind == 'video' %}
                 <i class="fa-solid fa-play" aria-hidden="true"></i>
+              {% elsif resource.kind == 'shop' %}
+                <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
               {% else %}
                 <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
               {% endif %}

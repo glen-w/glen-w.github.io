@@ -205,6 +205,26 @@ class TestResources:
         assert content_generator._pdf_action_label('Report') == 'View report PDF'
         assert content_generator._pdf_action_label('Journal Article') == 'View primary document'
 
+    def test_shop_resource_from_annote(self, content_generator):
+        buy = 'https://link.amazon/B0hlPnq2x'
+        entry = {
+            'ID': 'shop2024',
+            'type': 'book',
+            'title': 'A Book',
+            'author': 'Wright, Glen',
+            'year': '2018',
+            'website': buy,
+            'annote': f'[type]\nbook\n[shop]\n{buy}',
+        }
+        fm = _parse_front_matter(content_generator.generate_front_matter(entry))
+        assert fm['shop'] == buy
+        kinds = [r['kind'] for r in fm['resources']]
+        assert 'shop' in kinds
+        assert 'landing' not in kinds
+        shop = next(r for r in fm['resources'] if r['kind'] == 'shop')
+        assert shop['label'] == 'Buy'
+        assert shop['url'] == buy
+
     def test_landing_labels(self, content_generator):
         assert 'IDDRI' in content_generator._landing_label('IDDRI', False)
         assert content_generator._landing_label(None, True) == 'Visit event website'

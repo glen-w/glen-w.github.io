@@ -1,14 +1,14 @@
 ---
 layout: library-item
-title: 'Marine Renewable Energy: Effectively Balancing  the Needs of Developers and  Potential
-  Environmental Impacts, an Australasian Perspective'
+title: 'Marine Renewable Energy: Effectively Balancing the Needs of Developers and
+  Potential Environmental Impacts, an Australasian Perspective'
 date: '2012-01-01'
 entry_type: Conference
 year: '2012'
 bibtex_key: wrightMarineRenewableEnergy2012
 is_event: true
-description: 'Marine Renewable Energy: Effectively Balancing  the Needs of Developers
-  and  Potential Environmental Impacts, an Australasian Perspective'
+description: 'Marine Renewable Energy: Effectively Balancing the Needs of Developers
+  and Potential Environmental Impacts, an Australasian Perspective'
 categories:
 - other
 authors:
@@ -47,3 +47,6 @@ resources:
   external: true
 ---
 
+## Notes
+
+Number: May

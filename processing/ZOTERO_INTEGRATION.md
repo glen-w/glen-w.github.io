@@ -128,9 +128,16 @@ Speaker Name 2
 [video]
 https://www.youtube.com/watch?v=example
 
+[shop]
+https://link.amazon/example
+
 [abstract]
 This is the abstract text...
 ```
+
+### Shop (`[shop]`)
+
+Buy / storefront URL. First `http(s)` line after `[shop]` becomes a cart icon on `/library/` and a Buy action on the item page. If that URL is the same as the item URL field, the globe is omitted so only the cart shows.
 
 ## Processing Flow
 
@@ -283,4 +290,7 @@ Speaker 2
 
 [video]
 https://www.youtube.com/watch?v=example
+
+[shop]
+https://link.amazon/example
 ```

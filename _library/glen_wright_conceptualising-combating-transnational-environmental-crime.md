@@ -28,6 +28,12 @@ abstract: To date, transnational environmental crime has been poorly attended to
   should guide the approach to developing countermeasures. The development of effective
   countermeasures, it is concluded, requires a significant change in policy at every
   level.
+tags:
+- environmental crime
+- organised crime
+- trade in endangered species
+- transnational policing
+- wildlife crime
 categories:
 - other
 authors:
@@ -66,3 +72,6 @@ resources:
   external: true
 ---
 
+## Notes
+
+tex.mendeley-tags: environmental crime, organised crime, trade in endangered species, transnational policing, wildlife crime

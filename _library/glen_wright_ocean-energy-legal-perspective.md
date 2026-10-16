@@ -7,8 +7,14 @@ year: '2013'
 bibtex_key: Wright2013
 is_event: false
 description: 'Ocean Energy: A Legal Perspective'
+tags:
+- wave energy
+- ocean energy
+- tidal energy
 categories:
 - other
+- energy-policy
+- ocean-governance
 authors:
 - Glen Wright
 venue: Journal of Ocean Technology
@@ -29,3 +35,6 @@ resources:
   primary: true
 ---
 
+## Notes
+
+tex.mendeley-tags: ocean energy, tidal energy, wave energy
