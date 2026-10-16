@@ -44,11 +44,11 @@
               e.preventDefault();
               e.stopPropagation();
               const galleryImagesList = contentImageList.map(function(galleryImg) {
-                return { src: galleryImg.src, alt: galleryImg.alt || "Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity" };
+                return { src: galleryImg.src, alt: galleryImg.alt || "Regional Ocean Governance Conservation and Sustainable Use of Marine Biodiversity" };
               });
               const currentIndex = contentImageList.indexOf(img);
               if (typeof openImageModal === 'function') {
-                openImageModal(img.src, img.alt || "Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity", galleryImagesList, currentIndex);
+                openImageModal(img.src, img.alt || "Regional Ocean Governance Conservation and Sustainable Use of Marine Biodiversity", galleryImagesList, currentIndex);
               }
             });
           });
@@ -67,12 +67,12 @@
               galleryImages.forEach(function (galleryImg) {
                 galleryImagesList.push({
                   src: galleryImg.src,
-                  alt: galleryImg.alt || 'Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity',
+                  alt: galleryImg.alt || 'Regional Ocean Governance Conservation and Sustainable Use of Marine Biodiversity',
                 });
               });
 
               if (typeof openImageModal === 'function') {
-                openImageModal(img.src, img.alt || 'Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity', galleryImagesList, index);
+                openImageModal(img.src, img.alt || 'Regional Ocean Governance Conservation and Sustainable Use of Marine Biodiversity', galleryImagesList, index);
               } else {
                 console.error('openImageModal function not found. Make sure common.js is loaded.');
               }

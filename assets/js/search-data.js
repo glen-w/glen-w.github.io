@@ -2624,7 +2624,7 @@ ninja.data = [{
               window.location.href = "/library/glen-wright-marine-renewable-energy-australia-urgent-need-regulatory-reform/";
             },},{id: "library-marine-renewable-energy-effectively-balancing-the-needs-of-developers-and-potential-environmental-impacts-an-australasian-perspective",
           title: 'Marine Renewable Energy: Effectively Balancing the Needs of Developers and Potential Environmental Impacts,...',
-          description: "Marine Renewable Energy: Effectively Balancing  the Needs of Developers and  Potential Environmental Impacts, an Australasian Perspective",
+          description: "Marine Renewable Energy: Effectively Balancing the Needs of Developers and Potential Environmental Impacts, an Australasian Perspective",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-marine-renewable-energy-effectively-balancing-needs-developers-potential-environmental-impacts-australasian-perspective/";
             },},{id: "library-marine-renewable-energy-legal-and-policy-challenges-to-integrating-an-emerging-renewable-energy-source",
@@ -2874,7 +2874,7 @@ ninja.data = [{
               window.location.href = "/library/glen-wright-la-gobernanza-de-las-zonas-fuera-de-la-jurisdiccion-nacional/";
             },},{id: "library-marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uk-39-s-emerging-marine-renewable-energy-industry",
           title: 'Marine Governance in an Industrialised Ocean: a case study of the UK&amp;#39;s emerging...',
-          description: "Marine Governance in an Industrialised Ocean: a case study of the UK&#39;s emerging marine renewable energy industry",
+          description: "The world&#39;s oceans are currently undergoing an unprecedented period of industrialisation, made possible by advances in technology and driven by our growing need for food, energy and resources.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-case-uks-emerging-marine-renewable-energy-industry/";
             },},{id: "library-marine-governance-in-an-industrialised-ocean-a-marine-renewable-energy-case-study-poster",
@@ -3073,8 +3073,8 @@ ninja.data = [{
           section: "Library",handler: () => {
               window.location.href = "/library/regional-approaches-abnj-state-play/";
             },},{id: "library-regional-ocean-governance-conservation-and-sustainable-use-of-marine-biodiversity",
-          title: 'Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity',
-          description: "Regional Ocean Governance  Conservation and Sustainable Use of Marine Biodiversity",
+          title: 'Regional Ocean Governance Conservation and Sustainable Use of Marine Biodiversity',
+          description: "Regional Ocean Governance Conservation and Sustainable Use of Marine Biodiversity",
           section: "Library",handler: () => {
               window.location.href = "/library/regional-ocean-governance-conservation-sustainable-use-marine-biodiversity/";
             },},{id: "library-researcher-glen-wright-to-take-over-wiley-s-exchanges-blog",
@@ -3204,7 +3204,7 @@ ninja.data = [{
               window.location.href = "/library/glen-wright-etal-sea-change-negotiating-new-agreement-conservation-sustainable-use-marine-biodiversity-areas-beyond-national-jurisdiction/";
             },},{id: "library-sustainable-development-of-the-oceans-closing-the-gaps-in-the-international-legal-framework",
           title: 'Sustainable development of the oceans: Closing the gaps in the international legal framework...',
-          description: "The world’s oceans are critical providers of ecosystem services and they are under increasing pressure from expanding and intensifying human activities.",
+          description: "(c) Springer International Publishing Switzerland 2016. The world&#39;s oceans are critical providers of ecosystem services and they are under increasing pressure from expanding and intensifying human activities.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-sustainable-development-oceans-closing-gaps-international-legal-framework/";
             },},{id: "library-negotiations-for-a-new-agreement-on-the-conservation-and-sustainable-use-of-marine-biodiversity-in-abnj",
