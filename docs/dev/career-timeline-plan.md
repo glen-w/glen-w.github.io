@@ -21,16 +21,16 @@ A D3 visualization of Glen’s public catalogue over time: scrub by year, stack 
 
 Source of truth: [`assets/json/library.json`](../../assets/json/library.json) (`v: 1`, ~350 items). Built by `processing/library/`.
 
-| Field | Coverage (approx.) | Timeline use |
-| --- | --- | --- |
-| `year` | 100% (2007–2026) | X-axis / brush extent |
-| `month` | 100% present, but **all `1` today** | Treat as year-only until month is real |
-| `type` | 100% | Stack / colour by publication or event kind |
-| `roles` | ~99% (4 items missing) | Alternate stack; filter chips |
-| `venue` | ~73% | Tooltip / detail panel |
-| `authors` / `authorsHtml` | ~27% | Tooltip only; do not require for layout |
-| `title`, `id`, `info` | near-complete | Label + deep link to library item |
-| `thumb`, `pdf`, `url`, `flags`, … | optional | Detail panel / icons — not required for v1 |
+| Field                             | Coverage (approx.)                  | Timeline use                                |
+| --------------------------------- | ----------------------------------- | ------------------------------------------- |
+| `year`                            | 100% (2007–2026)                    | X-axis / brush extent                       |
+| `month`                           | 100% present, but **all `1` today** | Treat as year-only until month is real      |
+| `type`                            | 100%                                | Stack / colour by publication or event kind |
+| `roles`                           | ~99% (4 items missing)              | Alternate stack; filter chips               |
+| `venue`                           | ~73%                                | Tooltip / detail panel                      |
+| `authors` / `authorsHtml`         | ~27%                                | Tooltip only; do not require for layout     |
+| `title`, `id`, `info`             | near-complete                       | Label + deep link to library item           |
+| `thumb`, `pdf`, `url`, `flags`, … | optional                            | Detail panel / icons — not required for v1  |
 
 **No keywords / tags / domains in `library.json` today.** Career timeline does **not** wait on tagging. Domain timeline does (see later section).
 
@@ -48,11 +48,11 @@ Source of truth: [`assets/json/library.json`](../../assets/json/library.json) (`
 
 Fits the network / library pattern the user already likes (“View network” from library → `/network/` tabs).
 
-| Option | Pros | Cons |
-| --- | --- | --- |
-| **A. Third `/network/` tab** (“Timeline”) | Same shell as Co-authors / Citations; hash already (`#co-authors`, `#citations` → add `#timeline`); one bookmarkable hub | Network page title/description becomes broader than “networks” |
-| **B. Library companion link** only (“View timeline”) → Option A or C | Discoverable next to “View network” | Still needs a destination page |
-| **C. New `/timeline/` page** | Clear IA; network page stays graph-only | Extra nav surface; duplicates tab chrome unless shared |
+| Option                                                               | Pros                                                                                                                     | Cons                                                           |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------- |
+| **A. Third `/network/` tab** (“Timeline”)                            | Same shell as Co-authors / Citations; hash already (`#co-authors`, `#citations` → add `#timeline`); one bookmarkable hub | Network page title/description becomes broader than “networks” |
+| **B. Library companion link** only (“View timeline”) → Option A or C | Discoverable next to “View network”                                                                                      | Still needs a destination page                                 |
+| **C. New `/timeline/` page**                                         | Clear IA; network page stays graph-only                                                                                  | Extra nav surface; duplicates tab chrome unless shared         |
 
 **Recommendation:** **A + B** — third Network tab, plus a library header link parallel to “View network”. Rename network intro copy slightly (“networks and timeline”) rather than inventing a third top-level nav item.
 
@@ -123,7 +123,7 @@ Writes [`assets/json/code-repos.json`](../../assets/json/code-repos.json). Timel
 
 **Status:** roadmap stub — **after** durable domain tags exist on catalogue items  
 **Distinct from career timeline:** career = type/role over years; domain = topic/domain tags over years  
-**Upstream:** Paperful staged auto-tagging — [`/Users/89298/Documents/paperful/docs/ROADMAP.md`](/Users/89298/Documents/paperful/docs/ROADMAP.md) (section *Auto-tagging library items*)  
+**Upstream:** Paperful staged auto-tagging — [`/Users/89298/Documents/paperful/docs/ROADMAP.md`](/Users/89298/Documents/paperful/docs/ROADMAP.md) (section _Auto-tagging library items_)  
 **Downstream site:** tags must land in `library.json` (or a sibling JSON) via the website processing pipeline before any D3 work here
 
 ### When unblocked

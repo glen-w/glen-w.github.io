@@ -4197,6 +4197,16 @@ ninja.data = [{
           description: "Denmark’s contemporary energy system began to emerge in response to the 1970s oil crisis, which exposed deep dependence on imported fossil fuels and highlighted the need for diversification.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-denmark-how-long-term-policy-system-integration-public-participation-driving-denmarks-renewables-based-economy/";
+            },},{id: "library-paris-basketball-vision-2030-stakeholder-workshop",
+          title: 'Paris Basketball - Vision 2030 Stakeholder Workshop',
+          description: "Paris Basketball - Vision 2030 Stakeholder Workshop",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-paris-basketball-vision-2030-stakeholder-workshop/";
+            },},{id: "library-putting-it-into-practice-a-demonstration-of-the-bbnj-clearing-house-mechanism",
+          title: 'Putting it into practice: a demonstration of the BBNJ Clearing-House Mechanism',
+          description: "Putting it into practice: a demonstration of the BBNJ Clearing-House Mechanism",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-putting-practice-demonstration-bbnj-clearing-house-mechanism/";
             },},{id: "library-le-traite-sur-la-protection-de-la-biodiversite-en-haute-mer-entre-en-vigueur",
           title: 'Le traite sur la protection de la biodiversite en haute mer entre en...',
           description: "Le traite sur la protection de la biodiversite en haute mer entre en vigueur",
@@ -4359,7 +4369,7 @@ ninja.data = [{
               window.location.href = "/projects/website/";
             },},{id: "services-workshops-amp-facilitation",
           title: 'Workshops &amp;amp; facilitation',
-          description: "Workshops and strategy sessions for ocean, energy and climate teams, run by someone who teaches ocean governance at Sciences Po.",
+          description: "Workshops and strategy sessions for ocean, energy and climate teams.",
           section: "Services",handler: () => {
               window.location.href = "/services/facilitation/";
             },},{id: "services-ocean-amp-marine-policy",

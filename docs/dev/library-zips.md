@@ -15,11 +15,11 @@ Do **not** publish packaged “Download all” zips on glenwright.earth. Keep ge
 
 ## What stays
 
-| Keep | Drop from public |
-| --- | --- |
-| `assets/zips/` on disk + in git | Materials “Download all” links |
-| Pipeline `ZipArchiveGenerator` | `kind: zip` entries in `page.resources` |
-| Front matter `zip_archive` / `zip_file_*` | Any visitor-facing zip URL |
+| Keep                                      | Drop from public                        |
+| ----------------------------------------- | --------------------------------------- |
+| `assets/zips/` on disk + in git           | Materials “Download all” links          |
+| Pipeline `ZipArchiveGenerator`            | `kind: zip` entries in `page.resources` |
+| Front matter `zip_archive` / `zip_file_*` | Any visitor-facing zip URL              |
 
 ## Code
 
