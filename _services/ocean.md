@@ -33,10 +33,7 @@ Offshore wind, wave and tidal energy sit here too, as ocean-governance questions
 - [Strengthening the role of science in marine governance through EIA](/library/glen-wright-strengthening-role-science-marine-governance-environmental-impact-assessment-case-marine-renewable-energy-industry/) (Ocean & Coastal Management, 2014)
 - [More in the library](/library/#bbnj)
 
-<div class="contact-actions" markdown="1">
-
-[Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions\_\_link }
-
-[Book a 30-minute call](https://meet.glenwright.earth/u/book/meeting){: .contact-actions\_\_link }
-
+<div class="contact-actions">
+  <a class="contact-actions__link" href="mailto:glen.w.wright@gmail.com">Tell me what you're working on</a>
+  <a class="contact-actions__link" href="https://meet.glenwright.earth/u/book/meeting">Book a 30-minute call</a>
 </div>

@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: "high seas fisheries: what role for a new international instrument?"
-date: "2016-01-01"
+title: 'High Seas Fisheries: What Role for a New International Instrument?'
+date: '2016-01-01'
 entry_type: Report
-year: "2016"
+year: '2016'
 bibtex_key: Wright2016b
 is_event: false
 description: States are currently discussing the development of a new international
@@ -28,47 +28,53 @@ abstract: States are currently discussing the development of a new international
   and place complementary obligations on States, as well as provide over- arching
   principles to improve coherence of the global system of ocean governance.
 tags:
-  - fisheries
-  - bbnj
-  - rfmo
-  - not undermine
-  - ifb
-  - type:grey
-  - author:glen wright
-  - oa:open
+- governance
+- fisheries
+- bbnj
+- rfmo
+- not undermine
+- ifb
+- type:grey
+- author:glen wright
+- oa:open
+- grey-literature
+- mesopelagic
+- baseline-cites
+- from-iddri-2020
 categories:
-  - other
+- other
+- governance
 authors:
-  - Glen Wright
-  - Julien Rochette
-  - Lucie Blom
-  - Duncan Currie
-  - Carole Durussel
-  - Kristina Gjerde
-  - Sebastian Unger
+- Glen Wright
+- Julien Rochette
+- Lucie Blom
+- Duncan Currie
+- Carole Durussel
+- Kristina Gjerde
+- Sebastian Unger
 venue: IDDRI
 institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument
 pdf: glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf
 url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
-pages: "20"
+pages: '20'
 resources:
-  - kind: pdf
-    title: "high seas fisheries: what role for a new international instrument?"
-    label: View report PDF
-    url: /assets/pdf/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: landing
-    title: Visit IDDRI publication page
-    label: Visit IDDRI publication page
-    url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: 'High Seas Fisheries: What Role for a New International Instrument?'
+  label: View report PDF
+  url: /assets/pdf/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit IDDRI publication page
+  label: Visit IDDRI publication page
+  url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
+  format: Web
+  local: false
+  external: true
 ---
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: "Designing Climate Law: A Comparative Analysis of the US and EU"
-date: "2010-01-01"
+title: 'Designing Climate Law: A Comparative Analysis of the US and EU'
+date: '2010-01-01'
 entry_type: Journal article
-year: "2010"
+year: '2010'
 bibtex_key: Wright2010a
 is_event: false
 description: As evidence of anthropogenic climate change mounts there is a growing
@@ -25,20 +25,21 @@ abstract: As evidence of anthropogenic climate change mounts there is a growing 
   for the design of climate change law will be discerned, suggesting ways in which
   future climate change law can be more effective.
 categories:
-  - other
+- other
 authors:
-  - Glen Wright
+- Glen Wright
 venue: Cork Online Law Review
 role: author
 preview: glen_wright_2010_designing_climate_law_comparative_analysis_us_eu
 pdf: glen_wright_2010_designing_climate_law_comparative_analysis_us_eu.pdf
 resources:
-  - kind: pdf
-    title: "Designing Climate Law: A Comparative Analysis of the US and EU"
-    label: View primary document
-    url: /assets/pdf/glen_wright_2010_designing_climate_law_comparative_analysis_us_eu.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
+- kind: pdf
+  title: 'Designing Climate Law: A Comparative Analysis of the US and EU'
+  label: View primary document
+  url: /assets/pdf/glen_wright_2010_designing_climate_law_comparative_analysis_us_eu.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
+

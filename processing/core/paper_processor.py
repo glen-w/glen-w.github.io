@@ -392,9 +392,13 @@ class PaperProcessor:
                 blocks = []
                 url_renames = 0
                 for entry in entries:
-                    # Skipped entries keep their exact original block (idempotent incremental).
+                    # Skipped entries keep their original block (idempotent incremental),
+                    # but still sync chronology fields from the export so bare
+                    # months (month = oct) are not stuck as missing forever.
                     if entry.get('_skipped') and entry.get('_original_content'):
-                        updated = entry['_original_content']
+                        updated = self._sync_chronology_fields(
+                            entry['_original_content'], entry.get('fields') or {}
+                        )
                     else:
                         # Rebuild from export content and re-apply pipeline output fields.
                         updated = self._update_entry_content(entry['content'], entry['fields'])
@@ -462,6 +466,64 @@ class PaperProcessor:
                 if depth == 0:
                     return i
         return -1
+
+    def _sync_chronology_fields(self, entry_content: str, fields: Dict) -> str:
+        """Ensure month/year/day from the export are present in a skipped entry block.
+
+        Zotero BibTeX exports ``month = oct`` without braces; older pipeline writes
+        dropped those fields. Re-inject so library sort (year, month, title) works.
+        """
+        last_brace = self._find_entry_closing_brace(entry_content)
+        if last_brace == -1:
+            return entry_content
+
+        before_brace = entry_content[:last_brace]
+        after_brace = entry_content[last_brace:]
+        changed = False
+
+        for field_name in ('month', 'year', 'day'):
+            value = fields.get(field_name)
+            if not value or (isinstance(value, str) and not str(value).strip()):
+                continue
+            value = str(value).strip()
+            if value.startswith('{') and value.endswith('}'):
+                formatted = value
+            else:
+                formatted = f'{{{value}}}'
+
+            pattern = rf'{field_name}\s*=\s*(?:\{{[^}}]*\}}|[^\s,]+)'
+            if re.search(pattern, before_brace):
+                before_brace, n = re.subn(
+                    pattern, f'{field_name} = {formatted}', before_brace, count=1
+                )
+                if n:
+                    changed = True
+                continue
+
+            before_brace = before_brace.rstrip()
+            if before_brace.endswith(','):
+                before_brace = before_brace[:-1].rstrip()
+            line = f'\t{field_name} = {formatted},'
+            # Prefer inserting month immediately before year
+            year_match = re.search(r'(\n\tyear\s*=\s*)', before_brace)
+            if field_name == 'month' and year_match:
+                before_brace = (
+                    before_brace[: year_match.start()]
+                    + '\n'
+                    + line
+                    + before_brace[year_match.start() :]
+                )
+            else:
+                before_brace = before_brace + ',\n' + line.rstrip(',')
+            changed = True
+
+        if not changed:
+            return entry_content
+
+        before_brace = before_brace.rstrip()
+        if before_brace.endswith(','):
+            before_brace = before_brace[:-1].rstrip()
+        return before_brace + '\n' + after_brace
 
     def _update_entry_content(self, entry_content: str, fields: Dict) -> str:
         """Update an entry's content with new fields."""

@@ -150,10 +150,8 @@ Line three},
         assert fields2['url'] == url
         assert url in formatted
 
-    def test_unbraced_year_current_behavior(self, processor):
-        """CURRENT: braced years parse; bare `year = 2025` is not captured by the
-        brace-first parser (unbraced regex requires a non-brace value that still
-        matches — document that unbraced years are unsupported today)."""
+    def test_unbraced_month_and_year_are_parsed(self, processor):
+        """Zotero BibTeX exports bare months (`month = oct`); those must survive."""
         braced = """@article{braced,
     title = {Year Test},
     year = {2025}
@@ -163,11 +161,12 @@ Line three},
 
         unbraced = """@article{unbraced,
     title = {Year Test},
+    month = oct,
     year = 2025
 }"""
         _, fields_unbraced = processor.parse_bibtex_entry(unbraced)
-        # Explicit current behavior: unbraced year is omitted
-        assert 'year' not in fields_unbraced
+        assert fields_unbraced['month'] == 'oct'
+        assert fields_unbraced['year'] == '2025'
         assert fields_unbraced['title'] == 'Year Test'
 
     def test_consecutive_entries_no_field_leak(self, processor):

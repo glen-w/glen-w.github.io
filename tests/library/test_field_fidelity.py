@@ -206,6 +206,37 @@ class TestAbstractAndEmptyKeys:
         fm = _parse_front_matter(content_generator.generate_front_matter(entry))
         assert fm.get('abstract') == 'A substantive abstract about ocean governance.'
 
+    def test_notes_abstract_block_used_when_no_abstract_field(self, content_generator):
+        entry = {
+            'ID': 'notesabs2024',
+            'ENTRYTYPE': 'inproceedings',
+            'type': 'workshop',
+            'title': 'Notes Abstract Workshop',
+            'year': '2024',
+            'month': '3',
+            'annote': (
+                '[type]\nworkshop\n[role]\nfacilitator\n[abstract]\n'
+                'Workshop blurb from Zotero Notes.\nSecond line stays.\n'
+                '[language]\nFrench'
+            ),
+        }
+        fm = _parse_front_matter(content_generator.generate_front_matter(entry))
+        assert fm.get('abstract') == 'Workshop blurb from Zotero Notes.\nSecond line stays.'
+
+    def test_abstract_field_wins_over_notes_block(self, content_generator):
+        entry = {
+            'ID': 'bothabs2024',
+            'ENTRYTYPE': 'article',
+            'type': 'article',
+            'title': 'Both Abstracts',
+            'year': '2024',
+            'month': '4',
+            'abstract': 'Canonical BibTeX abstract.',
+            'annote': '[abstract]\nNotes abstract should lose.',
+        }
+        fm = _parse_front_matter(content_generator.generate_front_matter(entry))
+        assert fm.get('abstract') == 'Canonical BibTeX abstract.'
+
     def test_empty_and_whitespace_abstract_omitted(self, content_generator):
         for abstract in ('', '   ', '\t\n  '):
             entry = {

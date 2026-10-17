@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: "Renewables 2024 Global Status Report: Energy Supply"
-date: "2024-01-01"
+title: 'Renewables 2024 Global Status Report: Energy Supply'
+date: '2024-01-01'
 entry_type: Report
-year: "2024"
+year: '2024'
 bibtex_key: ren21Renewables2024Global2024c
 is_event: false
 description: Global investment in and deployment of renewables reached an all-time
@@ -19,9 +19,9 @@ abstract: "Global investment in and deployment of renewables reached an all-time
   \ PV and batteries. \n\nIn 2023, 24 countries updated their targets for the share\
   \ of renewables in the electricity supply."
 categories:
-  - other
+- other
 authors:
-  - REN21
+- REN21
 venue: REN21
 institution: REN21
 role: co-author
@@ -29,19 +29,20 @@ preview: 2024_renewables_2024_global_status_report_energy_supply
 pdf: 2024_renewables_2024_global_status_report_energy_supply.pdf
 url: https://www.ren21.net/gsr-2024/modules/energy_supply/01_global_trends/
 resources:
-  - kind: pdf
-    title: "Renewables 2024 Global Status Report: Energy Supply"
-    label: View report PDF
-    url: /assets/pdf/2024_renewables_2024_global_status_report_energy_supply.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: landing
-    title: Visit REN21 publication page
-    label: Visit REN21 publication page
-    url: https://www.ren21.net/gsr-2024/modules/energy_supply/01_global_trends/
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: 'Renewables 2024 Global Status Report: Energy Supply'
+  label: View report PDF
+  url: /assets/pdf/2024_renewables_2024_global_status_report_energy_supply.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit REN21 publication page
+  label: Visit REN21 publication page
+  url: https://www.ren21.net/gsr-2024/modules/energy_supply/01_global_trends/
+  format: Web
+  local: false
+  external: true
 ---
+

@@ -27,14 +27,14 @@ entry_type_counts:
   Book Chapter: 6
   Oped: 2
   Blog: 24
-  Webinar: 15
-  Workshop: 56
-  Training: 16
+  Webinar: 16
+  Workshop: 54
+  Training: 14
   Submission: 27
   Poster: 3
-  Conference Paper: 3
+  Conference Paper: 7
   Book: 2
-  Side Event: 8
+  Side Event: 7
   Fellowship: 1
   Radio: 3
   Negotiation: 13
@@ -52,12 +52,12 @@ role_tags:
 - quoted
 - speaker
 role_tag_counts:
-  lead author: 27
-  author: 75
-  speaker: 74
-  co-author: 67
-  facilitator: 23
-  organiser: 26
+  lead author: 25
+  author: 74
+  speaker: 69
+  co-author: 66
+  facilitator: 21
+  organiser: 23
   presenter: 2
   participant: 27
   interview: 24

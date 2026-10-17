@@ -10,11 +10,11 @@ A nav item or button on `/`, `/services/`, or `/cv/` is simpler than embedding (
 
 Prefer the contact page pattern (`_pages/contact.md`, `.contact-actions__link` in `_sass/_contact.scss`):
 
-```markdown
-[Book a meeting](https://meet.glenwright.earth/u/book/meeting){: .contact-actions\_\_link }
+```html
+<a class="contact-actions__link" href="https://meet.glenwright.earth/u/book/meeting">Book a meeting</a>
 ```
 
-(Jekyll/kramdown attribute syntax — confirm in local `bundle exec jekyll serve` before deploy.)
+(Use an HTML anchor — Prettier mangling `\_\_` in kramdown IALs breaks the BEM class match.)
 
 ## Optional: iframe embed
 

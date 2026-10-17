@@ -98,7 +98,7 @@
     },
     {
       "id": "zotero-item-127513",
-      "title": "Paris Basketball - Vision 2030 Stakeholder Workshop",
+      "title": "Paris Basketball: Vision 2030 Stakeholder Workshop",
       "year": 2026,
       "type": "Workshop",
       "month": 1,
@@ -885,11 +885,8 @@
       "id": "AreasNationalJurisdiction2022",
       "title": "Areas Beyond National Jurisdiction",
       "year": 2022,
-      "type": "Training",
+      "type": "Conference Paper",
       "month": 1,
-      "roles": [
-        "speaker"
-      ],
       "venue": "8th Training Programme on the Sustainable Development and Governance of the Caspian Sea",
       "thumb": "/assets/img/publication_preview/2022_areas_beyond_national_jurisdiction-480.webp",
       "pdf": "/assets/pdf/2022_areas_beyond_national_jurisdiction.pdf",
@@ -1017,15 +1014,11 @@
       "year": 2022,
       "type": "Report",
       "month": 1,
-      "roles": [
-        "lead author"
-      ],
       "authors": "Glen Wright, Klaudija Cremers, and Julien Rochette",
       "authorsHtml": "<em>Glen Wright</em>, Klaudija Cremers, and Julien Rochette",
       "venue": "IDDRI",
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2022_digging_deep_critical_questions_remain_rush_regulate_seabed_mining-480.webp",
       "pdf": "/assets/pdf/glen_wright_etal_2022_digging_deep_critical_questions_remain_rush_regulate_seabed_mining.pdf",
-      "selected": true,
       "flags": [
         "abs"
       ],
@@ -1229,9 +1222,6 @@
       "year": 2022,
       "type": "Report",
       "month": 1,
-      "roles": [
-        "author"
-      ],
       "venue": "STRONG High Seas",
       "thumb": "/assets/img/publication_preview/glen_wright_2022_summary_report_inter_regional_dialogues_high_seas_governance-480.webp",
       "pdf": "/assets/pdf/glen_wright_2022_summary_report_inter_regional_dialogues_high_seas_governance.pdf",
@@ -1370,7 +1360,7 @@
       "authorsHtml": "Kristina M. Gjerde, <em>Glen Wright</em>, and Carole Durussel",
       "venue": "STRONG High Seas",
       "thumb": "/assets/img/publication_preview/2021_strengthening_high_seas_governance_enhanced_environmental_assessment_processes_case_mesopelagic_fisheries_options_future_bbnj_treaty-480.webp",
-      "pdf": "/assets/pdf/2021_strengthening_high_seas_governance_enhanced_environmental_assessment_processes_case_mesopelagic_fisheries_options_future_bbnj_treaty_b.pdf",
+      "pdf": "/assets/pdf/2021_strengthening_high_seas_governance_enhanced_environmental_assessment_processes_case_mesopelagic_fisheries_options_future_bbnj_treaty_c.pdf",
       "url": "https://publications.rifs-potsdam.de/pubman/item/item_6000701",
       "doi": "https://doi.org/10.48440/IASS.2021.001",
       "flags": [
@@ -1478,17 +1468,25 @@
       "id": "wrightFishingTwilightZone2020",
       "title": "Fishing in the Twilight Zone: Illuminating governance challenges at the next fisheries frontier",
       "year": 2020,
-      "type": "Report",
+      "type": "Webinar",
       "month": 1,
       "roles": [
-        "lead author"
+        "facilitator",
+        "organiser"
       ],
       "authors": "Glen Wright, Kristina Gjerde, Aria Finkelstein et al.",
       "authorsHtml": "<em>Glen Wright</em>, Kristina Gjerde, Aria Finkelstein et al.",
       "venue": "IDDRI",
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier-480.webp",
-      "pdf": "/assets/pdf/glen_wright_etal_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier.pdf",
-      "selected": true,
+      "pdf": "/assets/pdf/glen_wright_etal_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier_a.pdf",
+      "url": "https://www.iddri.org/sites/default/files/PDF/Publications/Catalogue%20Iddri/Etude/202011-ST0620EN-mesopelagic_0.pdf",
+      "video": "https://www.youtube.com/watch?v=FtCScw3Tvxw",
+      "agenda": "/assets/pdf/glen_wright_etal_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier_b_agenda.pdf",
+      "flags": [
+        "abs",
+        "video",
+        "speakers"
+      ],
       "info": "/library/glen-wright-etal-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/"
     },
     {
@@ -1824,12 +1822,8 @@
       "year": 2019,
       "type": "Report",
       "month": 1,
-      "roles": [
-        "co-author"
-      ],
       "thumb": "/assets/img/publication_preview/2019_achieving_healthy_ocean_regional_ocean_governance_beyond_2020_marine_regions_forum_2019_conference_report-480.webp",
       "pdf": "/assets/pdf/2019_achieving_healthy_ocean_regional_ocean_governance_beyond_2020_marine_regions_forum_2019_conference_report.pdf",
-      "selected": true,
       "info": "/library/achieving-healthy-ocean-regional-ocean-governance-beyond-2020-marine-regions-forum-2019-conference-report/"
     },
     {
@@ -1921,13 +1915,8 @@
       "id": "stronghighseasHighlevelExpertMeeting2019",
       "title": "High-level expert meeting: Towards an Effective High Seas Treaty: Building on and Strengthening Regional Ocean Governance",
       "year": 2019,
-      "type": "Workshop",
+      "type": "Report",
       "month": 1,
-      "roles": [
-        "organiser",
-        "facilitator",
-        "speaker"
-      ],
       "venue": "STRONG High Seas",
       "thumb": "/assets/img/publication_preview/2019_high_level_expert_meeting_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance-480.webp",
       "pdf": "/assets/pdf/2019_high_level_expert_meeting_towards_effective_high_seas_treaty_building_strengthening_regional_ocean_governance.pdf",
@@ -2102,13 +2091,8 @@
       "id": "wrightOverviewRegionalInitiatives2019",
       "title": "Overview of regional initiatives for the conservation and sustainable use of marine biodiversity in areas beyond national jurisdiction",
       "year": 2019,
-      "type": "Side Event",
+      "type": "Conference Paper",
       "month": 1,
-      "roles": [
-        "organiser",
-        "facilitator",
-        "speaker"
-      ],
       "venue": "Towards an Effective High Seas Treaty - Building on and Strengthening Regional Ocean Governance",
       "thumb": "/assets/img/publication_preview/glen_wright_2019_overview_regional_initiatives_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction-480.webp",
       "slides": "/assets/pdf/glen_wright_2019_overview_regional_initiatives_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction_slides.pdf",
@@ -2191,13 +2175,8 @@
       "id": "wrightStrengtheningMonitoringControl2019",
       "title": "Strengthening Monitoring, Control and Surveillance (MCS) through an international instrument on high seas biodiversity",
       "year": 2019,
-      "type": "Workshop",
+      "type": "Conference Paper",
       "month": 1,
-      "roles": [
-        "organiser",
-        "facilitator",
-        "speaker"
-      ],
       "authors": "Glen Wright and Klaudija Cremers",
       "authorsHtml": "<em>Glen Wright</em> and Klaudija Cremers",
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2019_strengthening_monitoring_control_surveillance_mcs_international_instrument_high_seas_biodiversity-480.webp",
@@ -2210,7 +2189,7 @@
     },
     {
       "id": "HighSeasHow2019",
-      "title": "The high seas: how can we govern half of the  planet for the benefit of all the world’s people?",
+      "title": "The high seas: how can we govern half of the planet for the benefit of all the world’s people?",
       "year": 2019,
       "type": "Workshop",
       "month": 1,
@@ -2369,12 +2348,8 @@
       "id": "CapacityBuildingWorkshop2018",
       "title": "Capacity Building Workshop: UN Biodiversity Beyond National Jurisdiction (BBNJ) Negotiations",
       "year": 2018,
-      "type": "Training",
+      "type": "Conference Paper",
       "month": 1,
-      "roles": [
-        "organiser",
-        "speaker"
-      ],
       "venue": "STRONG High Seas",
       "thumb": "/assets/img/publication_preview/2018_capacity_building_workshop_un_biodiversity_beyond_national_jurisdiction_bbnj_negotiations-480.webp",
       "pdf": "/assets/pdf/2018_capacity_building_workshop_un_biodiversity_beyond_national_jurisdiction_bbnj_negotiations.pdf",
@@ -2767,7 +2742,7 @@
       "authorsHtml": "<em>Glen Wright</em>, Julien Rochette, Kristina Gjerde et al.",
       "venue": "IDDRI",
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2018_long_winding_road_negotiating_treaty_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction-480.webp",
-      "pdf": "/assets/pdf/glen_wright_etal_2018_long_winding_road_negotiating_treaty_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction.pdf",
+      "pdf": "/assets/pdf/glen_wright_etal_2018_long_winding_road_negotiating_treaty_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction_a.pdf",
       "url": "https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty",
       "selected": true,
       "flags": [
@@ -3207,7 +3182,7 @@
     },
     {
       "id": "1ereReunionGroupe2016",
-      "title": "1ere reunion du groupe de reflexion et de travail sur la gouvernance de la haute mer",
+      "title": "1ere Reunion DU Groupe DE Reflexion ET DE Travail Sur LA Gouvernance DE LA Haute Mer",
       "year": 2016,
       "type": "Workshop",
       "month": 1,
@@ -3307,6 +3282,8 @@
       "roles": [
         "participant"
       ],
+      "authors": "O F Areas and Beyond National",
+      "authorsHtml": "O F Areas and Beyond National",
       "thumb": "/assets/img/publication_preview/2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com-480.webp",
       "pdf": "/assets/pdf/2016_conservation_sustainable_use_marine_biologi_cal_diversity_areas_beyond_national_jurisdiction_preparing_prep_com_a.pdf",
       "url": "https://doi.org/10.18356/29045c1f-en",
@@ -3379,10 +3356,12 @@
       "roles": [
         "speaker"
       ],
+      "authors": "Julien Rochette and Glen Wright",
+      "authorsHtml": "Julien Rochette and <em>Glen Wright</em>",
       "venue": "Informal Meeting to Consider the Substantive Aspects of a New International Instrument for the Conservation and Sustainable Use of Marine Biodiversity beyond National Jurisdiction",
-      "thumb": "/assets/img/publication_preview/glen_wright_2016_environmental_impact_assessment_developing_options_abnj-480.webp",
-      "slides": "/assets/pdf/glen_wright_2016_environmental_impact_assessment_developing_options_abnj_slides.pdf",
-      "info": "/library/glen-wright-environmental-impact-assessment-developing-options-abnj/"
+      "thumb": "/assets/img/publication_preview/2016_environmental_impact_assessment_developing_options_abnj-480.webp",
+      "slides": "/assets/pdf/2016_environmental_impact_assessment_developing_options_abnj_slides.pdf",
+      "info": "/library/environmental-impact-assessment-developing-options-abnj/"
     },
     {
       "id": "Wright2016a",
@@ -3422,6 +3401,26 @@
         "photos"
       ],
       "info": "/library/first-session-preparatory-committee-established-un-general-assembly-resolution-69-292-development-international-legally-binding-instrument-united-nations-convention-law-sea-conservation-sustainable/"
+    },
+    {
+      "id": "Wright2016b",
+      "title": "High Seas Fisheries: What Role for a New International Instrument?",
+      "year": 2016,
+      "type": "Report",
+      "month": 1,
+      "roles": [
+        "lead author"
+      ],
+      "authors": "Glen Wright, Julien Rochette, Lucie Blom et al.",
+      "authorsHtml": "<em>Glen Wright</em>, Julien Rochette, Lucie Blom et al.",
+      "venue": "IDDRI",
+      "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument-480.webp",
+      "pdf": "/assets/pdf/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf",
+      "url": "https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument",
+      "flags": [
+        "abs"
+      ],
+      "info": "/library/glen-wright-etal-high-seas-fisheries-what-role-new-international-instrument/"
     },
     {
       "id": "wrightHistoricTalksCould2016",
@@ -3772,26 +3771,6 @@
         "abs"
       ],
       "info": "/library/glen-wright-vers-un-accord-sur-la-haute-mer-des-mesures-positives-new-york/"
-    },
-    {
-      "id": "Wright2016b",
-      "title": "high seas fisheries: what role for a new international instrument?",
-      "year": 2016,
-      "type": "Report",
-      "month": 1,
-      "roles": [
-        "lead author"
-      ],
-      "authors": "Glen Wright, Julien Rochette, Lucie Blom et al.",
-      "authorsHtml": "<em>Glen Wright</em>, Julien Rochette, Lucie Blom et al.",
-      "venue": "IDDRI",
-      "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument-480.webp",
-      "pdf": "/assets/pdf/glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf",
-      "url": "https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument",
-      "flags": [
-        "abs"
-      ],
-      "info": "/library/glen-wright-etal-high-seas-fisheries-what-role-new-international-instrument/"
     },
     {
       "id": "Rochette2015",
@@ -4168,7 +4147,7 @@
       ],
       "authors": "Julien Rochette and Glen Wright",
       "authorsHtml": "Julien Rochette and <em>Glen Wright</em>",
-      "venue": "Global Sustainable Development Report",
+      "venue": "Brief for GSDR",
       "thumb": "/assets/img/publication_preview/2015_strengthening_international_regulation_offshore_oil_gas_activities-480.webp",
       "pdf": "/assets/pdf/2015_strengthening_international_regulation_offshore_oil_gas_activities_a.pdf",
       "info": "/library/strengthening-international-regulation-offshore-oil-gas-activities/"

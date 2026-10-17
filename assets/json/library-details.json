@@ -169,6 +169,13 @@
     "authors": "Julien Rochette, Klaudija Cremers, <em>Glen Wright</em>, Cyrille Barnerias, and Phenia Marras-Ait Razouk"
   },
   "wrightFishingTwilightZone2020": {
+    "abstract": "The mesopelagic, or \"twilight zone\" - the waters of the open ocean at a depth of approximately 150-1, 000 metres - hosts significant fish stocks. These fish are unpalatable but proposals are emerging to process them into fishmeal and nutritional supplements. As this vast midwater realm plays a role in the carbon cycle and food webs, the development of new fisheries could have global ramifications. Yet our scientific understanding is limited and the existing governance framework may not be ready to effectively manage mesopelagic fisheries.\n\nThis webinar introduces the science and ecology of the mesopelagic zone and explores the potential governance challenges for the sustainable development of new fisheries.",
+    "speakers": [
+      "Heidi Sosik, Woods Hole Oceanographic Institute",
+      "Callum Roberts, University of Exeter",
+      "Rachel Tiller, SINTEF Ocean, Norway (SUMMER Project - Sustainable Management of Mesopelagic Resources)",
+      "Kristina Gjerde, IUCN"
+    ],
     "authors": "<em>Glen Wright</em>, Kristina Gjerde, Aria Finkelstein, and Duncan Currie"
   },
   "wrightglenOceansTwilightZone2020": {
@@ -348,7 +355,7 @@
     "authors": "Klaudija Cremers, Morgane Bouvet, <em>Glen Wright</em>, and Julien Rochette"
   },
   "gjerdeStrengtheningHighSeas2021": {
-    "abstract": "This report explores the challenges of addressing emerging activities in areas beyond national jurisdiction (ABNJ) through a case study - a hypothetical proposal to develop commercial fisheries in the mesopelagic zone. The case study considers how such a proposal might be addressed by existing global and regional bodies and processes and the potential future role of the BBNJ Agreement."
+    "abstract": "This report explores the challenges of address-ing emerging activities in areas beyond national jurisdiction (ABNJ) through a case study - a hy-pothetical proposal to develop commercial fish-eries in the mesopelagic zone. The case study considers how such a proposal might be ad-dressed by existing global and regional bodies and processes and the potential future role of the BBNJ Agreement."
   },
   "gjerdeEcosystembasedManagementGlobal2019": {
     "authors": "Kristina Gjerde, <em>Glen Wright</em>, Ben Boteler, and Carole Durussel"
@@ -1225,7 +1232,7 @@
         "alt": "Photo"
       },
       {
-        "src": "/assets/img/publications/1st_part_28th_annual_session_international_seabed_authority_isa_photo_05.png",
+        "src": "/assets/img/publications/1st_part_28th_annual_session_international_seabed_authority_isa_photo_05.jpg",
         "alt": "Photo"
       }
     ]

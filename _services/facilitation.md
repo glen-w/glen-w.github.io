@@ -32,10 +32,7 @@ Booked at a day rate, for a single workshop or a short series.
 
 Not sure a full workshop is what you need? A 30-minute call is enough to work out the right format.
 
-<div class="contact-actions" markdown="1">
-
-[Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions\_\_link }
-
-[Book a 30-minute call](https://meet.glenwright.earth/u/book/meeting){: .contact-actions\_\_link }
-
+<div class="contact-actions">
+  <a class="contact-actions__link" href="mailto:glen.w.wright@gmail.com">Tell me what you're working on</a>
+  <a class="contact-actions__link" href="https://meet.glenwright.earth/u/book/meeting">Book a 30-minute call</a>
 </div>

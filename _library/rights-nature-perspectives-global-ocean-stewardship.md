@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: "Rights of Nature: Perspectives for Global Ocean Stewardship"
-date: "2020-01-01"
+title: 'Rights of Nature: Perspectives for Global Ocean Stewardship'
+date: '2020-01-01'
 entry_type: Journal article
-year: "2020"
+year: '2020'
 bibtex_key: harden-daviesRightsNaturePerspectives2020
 is_event: false
 description: The development of a new international legally binding instrument for
@@ -12,7 +12,7 @@ description: The development of a new international legally binding instrument f
 standfirst: The development of a new international legally binding instrument for
   the conservation and sustainable use of marine biodiversity beyond national jurisdiction
   (BBNJ agreement) is in the final negotiation phase.
-abstract: "The development of a new international legally binding instrument for the
+abstract: 'The development of a new international legally binding instrument for the
   conservation and sustainable use of marine biodiversity beyond national jurisdiction
   (BBNJ agreement) is in the final negotiation phase. Legal recognition of rights
   of nature is emerging worldwide as a fresh imperative to preserve ecological integrity,
@@ -23,44 +23,45 @@ abstract: "The development of a new international legally binding instrument for
   i) rights; ii) connectivity; iii) reciprocity; and iv) representation and implementation.
   We argue that a Rights of Nature perspective can reinforce existing ocean governance
   norms, inspire new measures to enhance the effectiveness and equitability of the
-  BBNJ agreement and enable global ocean stewardship in ABNJ."
+  BBNJ agreement and enable global ocean stewardship in ABNJ.'
 tags:
-  - bbnj
-  - not undermine
-  - ifb
-  - oa:unknown
-  - author:glen wright
+- bbnj
+- not undermine
+- ifb
+- oa:unknown
+- author:glen wright
 categories:
-  - other
+- other
 authors:
-  - Harriet Harden-Davies
-  - Fran Humphries
-  - Michelle Maloney
-  - Glen Wright
-  - Kristina Gjerde
-  - Marjo Vierros
+- Harriet Harden-Davies
+- Fran Humphries
+- Michelle Maloney
+- Glen Wright
+- Kristina Gjerde
+- Marjo Vierros
 venue: Marine Policy
 role: co-author
 preview: 2020_rights_nature_perspectives_global_ocean_stewardship
 pdf: 2020_rights_nature_perspectives_global_ocean_stewardship.pdf
 url: https://doi.org/10.1016/j.marpol.2020.104059
 doi: https://doi.org/10.1016/j.marpol.2020.104059
-pages: "104059"
-volume: "122"
+pages: '104059'
+volume: '122'
 resources:
-  - kind: pdf
-    title: "Rights of Nature: Perspectives for Global Ocean Stewardship"
-    label: View primary document
-    url: /assets/pdf/2020_rights_nature_perspectives_global_ocean_stewardship.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: landing
-    title: DOI
-    label: View DOI
-    url: https://doi.org/10.1016/j.marpol.2020.104059
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: 'Rights of Nature: Perspectives for Global Ocean Stewardship'
+  label: View primary document
+  url: /assets/pdf/2020_rights_nature_perspectives_global_ocean_stewardship.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.1016/j.marpol.2020.104059
+  format: Web
+  local: false
+  external: true
 ---
+

@@ -18,8 +18,6 @@ nav_order: 72
   </div>
 </div>
 
-<div class="contact-actions contact-actions--center" markdown="1">
-
-[Schedule a meeting](https://meet.glenwright.earth/u/book/meeting){: .contact-actions\_\_link }
-
+<div class="contact-actions contact-actions--center">
+  <a class="contact-actions__link" href="https://meet.glenwright.earth/u/book/meeting">Schedule a meeting</a>
 </div>

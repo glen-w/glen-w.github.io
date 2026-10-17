@@ -50,6 +50,16 @@ class TestBibTeXFormatter:
         assert '@article{old,' in formatted
         assert 'title' in formatted
 
+    def test_format_entry_from_content_preserves_bare_month(self, formatter):
+        content = """@inproceedings{zotero-item-127516,
+	title = {Putting it into practice},
+	month = oct,
+	year = {2026},
+}"""
+        formatted = formatter.format_entry_from_content(content)
+        assert 'month = {oct}' in formatted
+        assert 'year = {2026}' in formatted
+
     def test_empty_fields(self, formatter):
         result = formatter.format_entry('misc', 'empty', {})
         assert result == '@misc{empty,\n}'

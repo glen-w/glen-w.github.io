@@ -5,7 +5,7 @@
       "id": "glen-wright",
       "name": "Glen Wright",
       "self": true,
-      "count": 91,
+      "count": 92,
       "firstYear": 2011,
       "lastYear": 2026
     },
@@ -13,7 +13,7 @@
       "id": "julien-rochette",
       "name": "Julien Rochette",
       "self": false,
-      "count": 47,
+      "count": 48,
       "firstYear": 2014,
       "lastYear": 2023,
       "orcid": "0009-0003-0588-6226",
@@ -905,7 +905,7 @@
     {
       "source": "glen-wright",
       "target": "julien-rochette",
-      "count": 47,
+      "count": 48,
       "works": [
         "Wright2014a",
         "Wright2014b",
@@ -948,6 +948,7 @@
         "wrightSeaChangeNegotiating2016",
         "rochetteRendezvousHistoriquePour2016",
         "cremersOptionsStrengtheningMonitoring2021",
+        "wrightEnvironmentalImpactAssessment2016",
         "neumannMarineRegionsForum2021",
         "cremersStrengtheningMonitoringControl2020a",
         "wrightRegionalOceanGovernance2019",
@@ -3405,10 +3406,22 @@
       "path": "/library/glen-wright-etal-overview-vulnerable-marine-ecosystem-closures/"
     },
     {
+      "id": "wrightEnvironmentalImpactAssessment2016",
+      "title": "Environmental Impact Assessment: Developing options for ABNJ",
+      "year": 2016,
+      "path": "/library/environmental-impact-assessment-developing-options-abnj/"
+    },
+    {
       "id": "Wright2016a",
       "title": "Establishing a legal research agenda for ocean energy",
       "year": 2016,
       "path": "/library/glen-wright-etal-establishing-legal-research-agenda-ocean-energy/"
+    },
+    {
+      "id": "Wright2016b",
+      "title": "High Seas Fisheries: What Role for a New International Instrument?",
+      "year": 2016,
+      "path": "/library/glen-wright-etal-high-seas-fisheries-what-role-new-international-instrument/"
     },
     {
       "id": "wrightHistoricTalksCould2016",
@@ -3463,12 +3476,6 @@
       "title": "Un rendez-vous historique pour proteger la haute mer des convoitises",
       "year": 2016,
       "path": "/library/un-rendez-vous-historique-pour-proteger-la-haute-mer-des-convoitises/"
-    },
-    {
-      "id": "Wright2016b",
-      "title": "high seas fisheries: what role for a new international instrument?",
-      "year": 2016,
-      "path": "/library/glen-wright-etal-high-seas-fisheries-what-role-new-international-instrument/"
     },
     {
       "id": "Rochette2015",

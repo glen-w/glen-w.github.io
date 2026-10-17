@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: The Standard of Reasonable Care and Skill Expected of an Accountant
-date: "2010-01-01"
+date: '2010-01-01'
 entry_type: Journal article
-year: "2010"
+year: '2010'
 bibtex_key: wrightStandardReasonableCare2010
 is_event: false
 description: The case concerns the standard of reasonable care and skill expected
@@ -30,21 +30,22 @@ abstract: The case concerns the standard of reasonable care and skill expected o
   1958 section 24AH that there must be a causal relationship between the loss caused
   by one wrongdoer and the loss caused by the other.
 categories:
-  - other
+- other
 authors:
-  - Glen Wright
+- Glen Wright
 venue: Global Corporate Law Bulletin
 role: author
 preview: glen_wright_2010_standard_reasonable_care_skill_expected_accountant
 pdf: glen_wright_2010_standard_reasonable_care_skill_expected_accountant.pdf
-number: "159"
+number: '159'
 resources:
-  - kind: pdf
-    title: The Standard of Reasonable Care and Skill Expected of an Accountant
-    label: View primary document
-    url: /assets/pdf/glen_wright_2010_standard_reasonable_care_skill_expected_accountant.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
+- kind: pdf
+  title: The Standard of Reasonable Care and Skill Expected of an Accountant
+  label: View primary document
+  url: /assets/pdf/glen_wright_2010_standard_reasonable_care_skill_expected_accountant.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
+

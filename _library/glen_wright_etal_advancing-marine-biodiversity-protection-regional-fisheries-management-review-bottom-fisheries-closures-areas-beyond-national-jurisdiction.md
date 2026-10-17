@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: "Advancing marine biodiversity protection through regional fisheries management:
-  A review of bottom fisheries closures in areas beyond national jurisdiction"
-date: "2015-01-01"
+title: 'Advancing marine biodiversity protection through regional fisheries management:
+  A review of bottom fisheries closures in areas beyond national jurisdiction'
+date: '2015-01-01'
 entry_type: Journal article
-year: "2015"
+year: '2015'
 bibtex_key: Wright2015c
 is_event: false
 description: Fishing is a significant threat to marine biodiversity in areas beyond
@@ -26,37 +26,37 @@ abstract: Fishing is a significant threat to marine biodiversity in areas beyond
   though RFMO/As will need to fully utilise their powers and follow best practice
   before authorising bottom fishing to proceed in ABNJ.
 tags:
-  - governance
-  - fisheries
-  - bbnj
-  - vme
-  - rfmo
-  - not undermine
-  - cited-by:glen-strong-high-seas
-  - ifb
-  - oa:unknown
-  - source:glen-7pubs-refs
-  - author:glen wright
-  - eia / sea
-  - bottom-closures-update-2026
-  - theme:vme
-  - baseline paper
-  - hsbfc
-  - theme:baseline paper
-  - theme:hsbfc
-  - theme:rfmo
-  - mesopelagic
-  - baseline-cites
-  - from-iddri-2020
+- governance
+- fisheries
+- bbnj
+- vme
+- rfmo
+- not undermine
+- cited-by:glen-strong-high-seas
+- ifb
+- oa:unknown
+- source:glen-7pubs-refs
+- author:glen wright
+- eia / sea
+- bottom-closures-update-2026
+- theme:vme
+- baseline paper
+- hsbfc
+- theme:baseline paper
+- theme:hsbfc
+- theme:rfmo
+- mesopelagic
+- baseline-cites
+- from-iddri-2020
 categories:
-  - other
-  - governance
+- other
+- governance
 authors:
-  - Glen Wright
-  - Jeff Ardron
-  - Kristina Gjerde
-  - Duncan Currie
-  - Julien Rochette
+- Glen Wright
+- Jeff Ardron
+- Kristina Gjerde
+- Duncan Currie
+- Julien Rochette
 venue: Marine Policy
 publisher: Elsevier BV
 role: lead author
@@ -65,29 +65,30 @@ pdf: glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fis
 url: http://dx.doi.org/10.1016/j.marpol.2015.06.030
 doi: https://doi.org/10.1016/j.marpol.2015.06.030
 pages: 134--148
-volume: "61"
+volume: '61'
 resources:
-  - kind: pdf
-    title: "Advancing marine biodiversity protection through regional fisheries management:
-      A review of bottom fisheries closures in areas beyond national jurisdiction"
-    label: View primary document
-    url: /assets/pdf/glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: landing
-    title: Visit Marine Policy publication page
-    label: Visit Marine Policy publication page
-    url: http://dx.doi.org/10.1016/j.marpol.2015.06.030
-    format: Web
-    local: false
-    external: true
-  - kind: landing
-    title: DOI
-    label: View DOI
-    url: https://doi.org/10.1016/j.marpol.2015.06.030
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: 'Advancing marine biodiversity protection through regional fisheries management:
+    A review of bottom fisheries closures in areas beyond national jurisdiction'
+  label: View primary document
+  url: /assets/pdf/glen_wright_etal_2015_advancing_marine_biodiversity_protection_regional_fisheries_management_review_bottom_fisheries_closures_areas_beyond_national_jurisdiction.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: landing
+  title: Visit Marine Policy publication page
+  label: Visit Marine Policy publication page
+  url: http://dx.doi.org/10.1016/j.marpol.2015.06.030
+  format: Web
+  local: false
+  external: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.1016/j.marpol.2015.06.030
+  format: Web
+  local: false
+  external: true
 ---
+

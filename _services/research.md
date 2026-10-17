@@ -25,10 +25,7 @@ For NGOs, research groups and consultancies that already know their question and
 - A coded transcript dataset with citable quotes
 - A clean shared reference library
 
-<div class="contact-actions" markdown="1">
-
-[Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions\_\_link }
-
-[Book a 30-minute call](https://meet.glenwright.earth/u/book/meeting){: .contact-actions\_\_link }
-
+<div class="contact-actions">
+  <a class="contact-actions__link" href="mailto:glen.w.wright@gmail.com">Tell me what you're working on</a>
+  <a class="contact-actions__link" href="https://meet.glenwright.earth/u/book/meeting">Book a 30-minute call</a>
 </div>

@@ -103,7 +103,7 @@ class ContentGenerator:
         entry_type = self._strip_str(self.bib_parser.get_entry_type_display(entry)) or 'Other'
         is_event = self._compute_is_event(entry_type)
 
-        abstract = self._strip_str(self.bib_parser.get_abstract(entry))
+        abstract = self._resolve_abstract(entry)
         standfirst = self._build_standfirst(entry, abstract)
         description = self._build_description(entry, abstract, title, standfirst)
 
@@ -421,6 +421,16 @@ class ContentGenerator:
     # ------------------------------------------------------------------
     # Standfirst / description / event
     # ------------------------------------------------------------------
+
+    def _resolve_abstract(self, entry: Dict[str, Any]) -> Optional[str]:
+        """BibTeX abstract field, else Zotero Notes ``[abstract]`` block (matches catalog)."""
+        abstract = self._strip_str(self.bib_parser.get_abstract(entry))
+        if abstract:
+            return abstract
+        lines = self._extract_annote_lines(entry, '[abstract]')
+        if not lines:
+            return None
+        return '\n'.join(lines)
 
     def _build_standfirst(self, entry: Dict[str, Any], abstract: Optional[str]) -> Optional[str]:
         """Emit standfirst from description/summary, else first abstract paragraph."""

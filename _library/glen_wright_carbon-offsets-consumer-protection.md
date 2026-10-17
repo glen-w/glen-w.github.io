@@ -1,29 +1,36 @@
 ---
 layout: library-item
 title: Carbon Offsets and Consumer Protection
-date: "2010-01-01"
+date: '2010-01-01'
 entry_type: Journal article
-year: "2010"
+year: '2010'
 bibtex_key: Wright2010
 is_event: false
 description: Carbon Offsets and Consumer Protection
+tags:
+- carbon offsets
+- vcm
 categories:
-  - other
+- other
 authors:
-  - Glen Wright
+- Glen Wright
 venue: Impact! A National Journal of Environmental Law
 role: author
 preview: glen_wright_2010_carbon_offsets_consumer_protection
 pdf: glen_wright_2010_carbon_offsets_consumer_protection.pdf
 volume: December
-number: "90"
+number: '90'
 resources:
-  - kind: pdf
-    title: Carbon Offsets and Consumer Protection
-    label: View primary document
-    url: /assets/pdf/glen_wright_2010_carbon_offsets_consumer_protection.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
+- kind: pdf
+  title: Carbon Offsets and Consumer Protection
+  label: View primary document
+  url: /assets/pdf/glen_wright_2010_carbon_offsets_consumer_protection.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
 ---
+
+## Notes
+
+tex.mendeley-tags: VCM, carbon offsets

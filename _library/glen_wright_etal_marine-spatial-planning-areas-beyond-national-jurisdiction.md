@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: Marine spatial planning in areas beyond national jurisdiction
-date: "2019-01-01"
+date: '2019-01-01'
 entry_type: Side event
-year: "2019"
+year: '2019'
 bibtex_key: Wright2019
 is_event: true
 description: Pressure on marine areas beyond national jurisdiction (ABNJ) has increased
@@ -27,28 +27,28 @@ abstract: Pressure on marine areas beyond national jurisdiction (ABNJ) has incre
   provisions, institutional implications, and possible models for an international
   MSP process.
 tags:
-  - abnj
-  - bbnj
-  - marine spatial planning (msp)
-  - areas beyond national jurisdiction (abnj)
-  - law of the sea
-  - marine spatial planning (msp)
-  - brown bag
-  - area-based management tools (abmts)
-  - international ocean governance
+- abnj
+- bbnj
+- marine spatial planning (msp)
+- areas beyond national jurisdiction (abnj)
+- law of the sea
+- marine spatial planning (msp)
+- brown bag
+- area-based management tools (abmts)
+- international ocean governance
 categories:
-  - other
-  - marine-policy
-  - ocean-governance
+- other
+- marine-policy
+- ocean-governance
 authors:
-  - Glen Wright
-  - Kristina M. K.M. Gjerde
-  - D.E. David E. Johnson
-  - Aria Finkelstein
-  - Maria Adelaide M.A. Ferreira
-  - Daniel C. D.C. Dunn
-  - Mariamalia Rodriguez Chaves
-  - Anthony Grehan
+- Glen Wright
+- Kristina M. K.M. Gjerde
+- D.E. David E. Johnson
+- Aria Finkelstein
+- Maria Adelaide M.A. Ferreira
+- Daniel C. D.C. Dunn
+- Mariamalia Rodriguez Chaves
+- Anthony Grehan
 venue: Marine Policy
 publisher: Elsevier Ltd
 role: speaker
@@ -61,35 +61,35 @@ doi: https://doi.org/10.1016/j.marpol.2018.12.003
 pages: 0--1
 number: December
 resources:
-  - kind: pdf
-    title: Marine spatial planning in areas beyond national jurisdiction
-    label: View primary document
-    url: /assets/pdf/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction.pdf
-    format: PDF
-    local: true
-    external: false
-    primary: true
-  - kind: agenda
-    title: Conference agenda
-    label: View conference programme
-    url: /assets/pdf/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction_a_agenda.pdf
-    format: PDF
-    local: true
-    external: false
-  - kind: slides
-    title: Presentation slides
-    label: View presentation
-    url: /assets/pdf/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction_a_slides.pdf
-    format: PDF
-    local: true
-    external: false
-  - kind: landing
-    title: DOI
-    label: View DOI
-    url: https://doi.org/10.1016/j.marpol.2018.12.003
-    format: Web
-    local: false
-    external: true
+- kind: pdf
+  title: Marine spatial planning in areas beyond national jurisdiction
+  label: View primary document
+  url: /assets/pdf/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction.pdf
+  format: PDF
+  local: true
+  external: false
+  primary: true
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction_a_agenda.pdf
+  format: PDF
+  local: true
+  external: false
+- kind: slides
+  title: Presentation slides
+  label: View presentation
+  url: /assets/pdf/glen_wright_etal_2019_marine_spatial_planning_areas_beyond_national_jurisdiction_a_slides.pdf
+  format: PDF
+  local: true
+  external: false
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.1016/j.marpol.2018.12.003
+  format: Web
+  local: false
+  external: true
 ---
 
 ## Notes

@@ -135,21 +135,22 @@ class BibTeXFormatter:
         }
     
     def _parse_fields(self, fields_content: str) -> Dict[str, str]:
-        """Parse fields from BibTeX entry content."""
+        """Parse fields from BibTeX entry content.
+
+        Supports braced values (`year = {2026}`) and bare BibTeX month macros
+        from Zotero export (`month = oct`). Bare fields must be preserved so
+        library chronology is not collapsed to January within a year.
+        """
         fields = {}
-        
-        # Handle both single-line and multi-line field formats
-        # First, try to split by field patterns
+
+        # Braced fields (nested braces OK)
         field_pattern = r'(\w+)\s*=\s*\{'
-        
-        # Find all field matches
         matches = list(re.finditer(field_pattern, fields_content))
-        
-        for i, match in enumerate(matches):
+
+        for match in matches:
             field_name = match.group(1)
             start_pos = match.end() - 1  # Position of opening brace
-            
-            # Find the end position of this field by looking for the closing brace
+
             brace_count = 0
             end_pos = start_pos
             for j in range(start_pos, len(fields_content)):
@@ -160,27 +161,29 @@ class BibTeXFormatter:
                     if brace_count == 0:
                         end_pos = j
                         break
-            
-            # Extract the field value
-            field_value = fields_content[start_pos + 1:end_pos]
-            
-            # Clean up the field value
-            field_value = field_value.strip()
-            
-            # Remove trailing comma if present
+
+            field_value = fields_content[start_pos + 1:end_pos].strip()
+
             if field_value.endswith(','):
                 field_value = field_value[:-1].strip()
-            
-            # Remove any trailing closing braces
+
             while field_value.endswith('}'):
                 field_value = field_value[:-1].strip()
-            
-            # Remove any trailing commas that might be left
+
             if field_value.endswith(','):
                 field_value = field_value[:-1].strip()
-            
+
             fields[field_name] = field_value
-        
+
+        # Bare fields on their own line (Zotero BibTeX: month = jul). Line-anchored
+        # so query strings like https://example.com?a=1 are not treated as fields.
+        bare_pattern = r'(?m)^[ \t]*(\w+)\s*=\s*([^{,\s][^,\n]*?)(?=\s*,\s*$|\s*$)'
+        for match in re.finditer(bare_pattern, fields_content):
+            field_name = match.group(1).strip()
+            field_value = match.group(2).strip().rstrip(',').strip()
+            if field_name not in fields and field_value and not field_value.startswith('{'):
+                fields[field_name] = field_value
+
         return fields
     
     def format_bibtex_file(self, input_file: str, output_file: str = None) -> bool:

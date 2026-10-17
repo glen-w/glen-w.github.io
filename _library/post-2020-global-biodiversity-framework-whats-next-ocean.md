@@ -1,60 +1,61 @@
 ---
 layout: library-item
-title: "Post-2020 Global Biodiversity Framework: what’s next for the Ocean?"
-date: "2023-01-01"
+title: 'Post-2020 Global Biodiversity Framework: what’s next for the Ocean?'
+date: '2023-01-01'
 entry_type: Webinar
-year: "2023"
+year: '2023'
 bibtex_key: Post2020GlobalBiodiversity2023
 is_event: true
-description: "Post-2020 Global Biodiversity Framework: what’s next for the Ocean?"
+description: 'Post-2020 Global Biodiversity Framework: what’s next for the Ocean?'
 categories:
-  - other
+- other
 venue: Climate Change and Law Collection
 role: organiser
 speakers:
-  - Julien Rochette, Institute for Sustainable Development and International Relations
-    (IDDRI)
-  - Cyrille Barnerias, French Biodiversity Agency (OFB)
-  - Gabino Gonzalez Deogracia, Barcelona Convention Secretariat
-  - Raphaël Goulet, DG Mare, European Commission
-  - Darius Campbell, North East Atlantic Fisheries Commission (NEAFC)
-  - Fanny Douvere, World Heritage Centre Marine Programme, United Nations Education,
-    Science and Cultural Organisation, United Nations Educational, Scientific and Cultural
-    Organization (UNESCO)
-  - Jorge Jiménez, MarViva Foundation
-  - Tim White, Global Fishing Watch
+- Julien Rochette, Institute for Sustainable Development and International Relations
+  (IDDRI)
+- Cyrille Barnerias, French Biodiversity Agency (OFB)
+- Gabino Gonzalez Deogracia, Barcelona Convention Secretariat
+- Raphaël Goulet, DG Mare, European Commission
+- Darius Campbell, North East Atlantic Fisheries Commission (NEAFC)
+- Fanny Douvere, World Heritage Centre Marine Programme, United Nations Education,
+  Science and Cultural Organisation, United Nations Educational, Scientific and Cultural
+  Organization (UNESCO)
+- Jorge Jiménez, MarViva Foundation
+- Tim White, Global Fishing Watch
 preview: 2023_post_2020_global_biodiversity_framework_whats_next_ocean
 agenda: 2023_post_2020_global_biodiversity_framework_whats_next_ocean_agenda.pdf
 video: https://www.youtube.com/watch?v=Sfz-xy6UgAQ
 url: https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean
 doi: https://doi.org/10.1163/9789004322714_cclc_2022-0019-0073
 resources:
-  - kind: agenda
-    title: Conference agenda
-    label: View conference programme
-    url: /assets/pdf/2023_post_2020_global_biodiversity_framework_whats_next_ocean_agenda.pdf
-    format: PDF
-    local: true
-    external: false
-  - kind: video
-    title: Event recording
-    label: Watch recording
-    url: https://www.youtube.com/watch?v=Sfz-xy6UgAQ
-    format: Video
-    local: false
-    external: true
-  - kind: landing
-    title: Visit Climate Change and Law Collection publication page
-    label: Visit Climate Change and Law Collection publication page
-    url: https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean
-    format: Web
-    local: false
-    external: true
-  - kind: landing
-    title: DOI
-    label: View DOI
-    url: https://doi.org/10.1163/9789004322714_cclc_2022-0019-0073
-    format: Web
-    local: false
-    external: true
+- kind: agenda
+  title: Conference agenda
+  label: View conference programme
+  url: /assets/pdf/2023_post_2020_global_biodiversity_framework_whats_next_ocean_agenda.pdf
+  format: PDF
+  local: true
+  external: false
+- kind: video
+  title: Event recording
+  label: Watch recording
+  url: https://www.youtube.com/watch?v=Sfz-xy6UgAQ
+  format: Video
+  local: false
+  external: true
+- kind: landing
+  title: Visit Climate Change and Law Collection publication page
+  label: Visit Climate Change and Law Collection publication page
+  url: https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean
+  format: Web
+  local: false
+  external: true
+- kind: landing
+  title: DOI
+  label: View DOI
+  url: https://doi.org/10.1163/9789004322714_cclc_2022-0019-0073
+  format: Web
+  local: false
+  external: true
 ---
+

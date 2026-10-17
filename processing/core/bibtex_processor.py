@@ -82,11 +82,13 @@ class BibTeXProcessor:
                 # Unmatched braces, skip this field
                 pos = pos + field_start_match.end()
         
-        # Then, find fields without braces (but not already processed)
-        for match in re.finditer(r'(\w+)\s*=\s*([^{,\n][^,\n]*?)(?=,\s*\w+\s*=|$)', entry_content):
+        # Bare fields on their own line (Zotero BibTeX: month = oct). Line-anchored
+        # so URL query strings (?a=1) are not mistaken for fields.
+        bare_pattern = r'(?m)^[ \t]*(\w+)\s*=\s*([^{,\s][^,\n]*?)(?=\s*,\s*$|\s*$)'
+        for match in re.finditer(bare_pattern, entry_content):
             field_name = match.group(1).strip()
-            field_value = match.group(2).strip()
-            
+            field_value = match.group(2).strip().rstrip(',').strip()
+
             # Only add if we don't already have this field, value is not empty, and doesn't start with {
             if field_name not in fields and field_value and not field_value.startswith('{'):
                 fields[field_name] = field_value
