@@ -5,12 +5,12 @@ How to refresh ORCID / website / Google Scholar icons on Library → Explore
 
 ## What lives where
 
-| Path | Tracked? | Role |
-|------|----------|------|
-| `_data/people_profiles.yml` | yes | Committed snapshot: `name`, optional `orcid`, `url`, `scholar` |
-| `_data/collaborators.yml` / `_data/citers.yml` | yes | List rows enriched from profiles (+ citation ORCID/scholar) |
-| `.env` | **no** | `TWENTY_API_KEY`, `TWENTY_BASE_URL` (see `.env.example`) |
-| `.twenty/` · `twenty_dump*.json` · `people_dump*.json` · `**/mcp_people*.json` | **no** | MCP/REST scratch dumps (may include emails) — see root `.gitignore` |
+| Path                                                                           | Tracked? | Role                                                                |
+| ------------------------------------------------------------------------------ | -------- | ------------------------------------------------------------------- |
+| `_data/people_profiles.yml`                                                    | yes      | Committed snapshot: `name`, optional `orcid`, `url`, `scholar`      |
+| `_data/collaborators.yml` / `_data/citers.yml`                                 | yes      | List rows enriched from profiles (+ citation ORCID/scholar)         |
+| `.env`                                                                         | **no**   | `TWENTY_API_KEY`, `TWENTY_BASE_URL` (see `.env.example`)            |
+| `.twenty/` · `twenty_dump*.json` · `people_dump*.json` · `**/mcp_people*.json` | **no**   | MCP/REST scratch dumps (may include emails) — see root `.gitignore` |
 
 Untangle context: `decisions/twenty-crm-os.md`, `systems/work.md` (Twenty = person CRM; `homepage` = personal/faculty URL, not LinkedIn).
 

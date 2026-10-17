@@ -835,9 +835,7 @@
         url.hash = "explore";
         history.replaceState(null, "", url);
       }
-      window.dispatchEvent(
-        new CustomEvent("network:tab", { detail: { tab: networkTabFromHash() } })
-      );
+      window.dispatchEvent(new CustomEvent("network:tab", { detail: { tab: networkTabFromHash() } }));
     } else if (updateHash && isVizHash(currentHash())) {
       const url = new URL(window.location.href);
       history.replaceState(null, "", url.pathname + url.search);

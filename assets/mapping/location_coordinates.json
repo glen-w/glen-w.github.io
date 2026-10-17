@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-10-09 10:49:48",
-    "total_locations": 63,
-    "successfully_geocoded": 63,
+    "generated_at": "2026-10-17 19:32:09",
+    "total_locations": 64,
+    "successfully_geocoded": 64,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
     "refresh_mode": false,
@@ -62,6 +62,20 @@
       "coordinates": {
         "lat": 51.0078485,
         "lng": 3.7108831
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "zotero-item-127513",
+      "title": "Paris Basketball - Vision 2030 Stakeholder Workshop",
+      "address": "Paris",
+      "year": "2026",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Workshop",
+      "coordinates": {
+        "lat": 48.8588897,
+        "lng": 2.320041
       },
       "geocoded": true
     },

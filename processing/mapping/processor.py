@@ -21,6 +21,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime
 
+from processing.config import Configuration
 from processing.core.tag_extractor import TagExtractor
 
 
@@ -371,9 +372,9 @@ class MappingProcessor:
     
     def _update_map_html(self) -> None:
         """Update map.html to use correct library page URLs."""
-        map_file = Path("map.html")
+        map_file = Path(Configuration._root) / "map.html"
         if not map_file.exists():
-            print("Warning: map.html not found, skipping map update")
+            print(f"Warning: map.html not found at {map_file}, skipping map update")
             return
         
         # Read the current map.html

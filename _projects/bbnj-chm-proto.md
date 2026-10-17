@@ -22,4 +22,4 @@ This prototype provides an example of how this could work.
 
 Intake can be a form or a spreadsheet. Identifiers are issued in order. Roles are enforced. Confidentiality settings follow every list and export. There's no public host; you run it yourself. It's MIT-licensed and without prejudice to COP1.
 
-**See it live.** I'll be presenting the prototype at the High Seas Alliance's first webinar on designing the Clearing-House Mechanism, on Thursday 15 October at 3pm CEST (9am EDT). 👉🏻 [Register here](https://bit.ly/clhmreg1) or [read about the series](https://highseasalliance.org/2026/09/28/webinar-alert-designing-the-clearing-house-mechanism-under-the-bbnj-agreement/).
+The prototype is [open source on GitHub](https://github.com/glen-w/BBNJ-CHM-proto), so you can try it out for yourself. If you need help setting it up or want a live walk-through, [get in touch](/contact/).

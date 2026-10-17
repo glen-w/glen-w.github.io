@@ -27,8 +27,8 @@ For NGOs, research groups and consultancies that already know their question and
 
 <div class="contact-actions" markdown="1">
 
-[Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions__link }
+[Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions\_\_link }
 
-[Book a 30-minute call](https://meet.glenwright.earth/u/book/meeting){: .contact-actions__link }
+[Book a 30-minute call](https://meet.glenwright.earth/u/book/meeting){: .contact-actions\_\_link }
 
 </div>

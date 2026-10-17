@@ -17,7 +17,7 @@ github: https://github.com/glen-w/lowDee
 
 The tutors I can find are for the small high D, or they score you and want an account. The low D is a wider tube. The first months are whether the holes seal, and whether the octave was something you meant.
 
-lowDee is that first path, on this machine. Hold the low note, find the next ones a finger at a time, join them on the breath, then play *The May Morning Dew* bare and with a cut, a tap, and a roll. The reply is one remark. There is no score.
+lowDee is that first path, on this machine. Hold the low note, find the next ones a finger at a time, join them on the breath, then play _The May Morning Dew_ bare and with a cut, a tap, and a roll. The reply is one remark. There is no score.
 
 Listening stays on the device. Once a note will hold, the later notes are taken from this whistle. A take can be heard and is then dropped. Nothing is uploaded. The book stays on the table; this does not replace it.
 

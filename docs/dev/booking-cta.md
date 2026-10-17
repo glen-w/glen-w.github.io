@@ -11,7 +11,7 @@ A nav item or button on `/`, `/services/`, or `/cv/` is simpler than embedding (
 Prefer the contact page pattern (`_pages/contact.md`, `.contact-actions__link` in `_sass/_contact.scss`):
 
 ```markdown
-[Book a meeting](https://meet.glenwright.earth/u/book/meeting){: .contact-actions__link }
+[Book a meeting](https://meet.glenwright.earth/u/book/meeting){: .contact-actions\_\_link }
 ```
 
 (Jekyll/kramdown attribute syntax — confirm in local `bundle exec jekyll serve` before deploy.)
@@ -29,11 +29,11 @@ Cal.rs supports `?embed=1` on **booking** URLs only. In Cal.rs admin (Tailscale)
 ></iframe>
 ```
 
-| | Link | iframe |
-| --- | --- | --- |
-| Setup | One URL | Tune `min-height` |
-| Cap widget | On Cal.rs | Inside iframe |
-| SEO / a11y | Better | OK with `title` |
+|            | Link      | iframe            |
+| ---------- | --------- | ----------------- |
+| Setup      | One URL   | Tune `min-height` |
+| Cap widget | On Cal.rs | Inside iframe     |
+| SEO / a11y | Better    | OK with `title`   |
 
 **Preference:** link from the main site; iframe only on a dedicated page (e.g. `/meet/`) if you want the slot picker inline.
 

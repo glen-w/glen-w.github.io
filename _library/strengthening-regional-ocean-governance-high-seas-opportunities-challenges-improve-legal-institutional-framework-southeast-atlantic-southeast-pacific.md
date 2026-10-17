@@ -1,11 +1,11 @@
 ---
 layout: library-item
-title: 'Strengthening Regional Ocean Governance for the High Seas: Opportunities and
+title: "Strengthening Regional Ocean Governance for the High Seas: Opportunities and
   Challenges to Improve the Legal and Institutional Framework of the Southeast Atlantic
-  and Southeast Pacific'
-date: '2018-01-01'
+  and Southeast Pacific"
+date: "2018-01-01"
 entry_type: Report
-year: '2018'
+year: "2018"
 bibtex_key: Durussel2018
 is_event: false
 description: The Southeast Atlantic and Southeast Pacific regions are both characterised
@@ -21,25 +21,25 @@ abstract: The Southeast Atlantic and Southeast Pacific regions are both characte
   instrument and selected Sustainable Development Goal (SDG) targets as a lens through
   which to assess progress towards conservation and sustainable use.
 tags:
-- fisheries
-- bbnj
-- rfmo
-- not undermine
-- ifb
-- type:grey
-- author:glen wright
-- oa:open
-- regional governance
+  - fisheries
+  - bbnj
+  - rfmo
+  - not undermine
+  - ifb
+  - type:grey
+  - author:glen wright
+  - oa:open
+  - regional governance
 categories:
-- other
-- governance
+  - other
+  - governance
 authors:
-- Carole Durussel
-- Glen Wright
-- Nicole Wienrich
-- Ben Boteler
-- Sebastian Unger
-- Julien Rochette
+  - Carole Durussel
+  - Glen Wright
+  - Nicole Wienrich
+  - Ben Boteler
+  - Sebastian Unger
+  - Julien Rochette
 venue: STRONG High Seas
 institution: STRONG High Seas
 role: co-author
@@ -47,31 +47,30 @@ preview: 2018_strengthening_regional_ocean_governance_high_seas_opportunities_ch
 pdf: 2018_strengthening_regional_ocean_governance_high_seas_opportunities_challenges_improve_legal_institutional_framework_southeast_atlantic_southeast_pacific_b.pdf
 url: https://glenwright.earth/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/
 doi: https://doi.org/10.2312/iass.2018.025
-pages: '92'
+pages: "92"
 resources:
-- kind: pdf
-  title: 'Strengthening Regional Ocean Governance for the High Seas: Opportunities
-    and Challenges to Improve the Legal and Institutional Framework of the Southeast
-    Atlantic and Southeast Pacific'
-  label: View report PDF
-  url: /assets/pdf/2018_strengthening_regional_ocean_governance_high_seas_opportunities_challenges_improve_legal_institutional_framework_southeast_atlantic_southeast_pacific_b.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: Visit STRONG High Seas publication page
-  label: Visit STRONG High Seas publication page
-  url: https://glenwright.earth/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/
-  format: Web
-  local: false
-  external: true
-- kind: landing
-  title: DOI
-  label: View DOI
-  url: https://doi.org/10.2312/iass.2018.025
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: "Strengthening Regional Ocean Governance for the High Seas: Opportunities
+      and Challenges to Improve the Legal and Institutional Framework of the Southeast
+      Atlantic and Southeast Pacific"
+    label: View report PDF
+    url: /assets/pdf/2018_strengthening_regional_ocean_governance_high_seas_opportunities_challenges_improve_legal_institutional_framework_southeast_atlantic_southeast_pacific_b.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: Visit STRONG High Seas publication page
+    label: Visit STRONG High Seas publication page
+    url: https://glenwright.earth/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/
+    format: Web
+    local: false
+    external: true
+  - kind: landing
+    title: DOI
+    label: View DOI
+    url: https://doi.org/10.2312/iass.2018.025
+    format: Web
+    local: false
+    external: true
 ---
-

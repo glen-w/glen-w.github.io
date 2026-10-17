@@ -49,7 +49,7 @@
     >
       <div class="coauthors-toolbar">
         <label class="coauthors-toggle">
-          <input type="checkbox" id="coauthorsShowOccasional" />
+          <input type="checkbox" id="coauthorsShowOccasional">
           Show occasional collaborators
         </label>
         <p id="coauthorsStatus" class="coauthors-status" aria-live="polite"></p>
@@ -81,52 +81,55 @@
     </div>
 
     {% if site.data.collaborators and site.data.collaborators.size > 0 %}
-    <details class="people-list collaborators-list">
-      <summary id="collaborators-list-heading">
-        Frequent collaborators
-        <span class="people-list-count">({{ site.data.collaborators.size }})</span>
-      </summary>
-      <ul>
-        {% for person in site.data.collaborators %}
-          <li>
-            <a href="{{ '/library/' | relative_url }}#{{ person.name | url_encode | replace: '+', '%20' }}">{{ person.name }}</a>
-            <span class="person-profile-icons">
-              {% if person.orcid %}
-                <a
-                  class="person-profile-icon"
-                  href="https://orcid.org/{{ person.orcid }}"
-                  title="ORCID"
-                  aria-label="ORCID for {{ person.name }}"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                ><i class="ai ai-orcid" aria-hidden="true"></i></a>
-              {% endif %}
-              {% if person.url %}
-                <a
-                  class="person-profile-icon"
-                  href="{{ person.url }}"
-                  title="Website"
-                  aria-label="Website for {{ person.name }}"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                ><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
-              {% endif %}
-              {% if person.scholar %}
-                <a
-                  class="person-profile-icon"
-                  href="https://scholar.google.com/citations?user={{ person.scholar }}"
-                  title="Google Scholar"
-                  aria-label="Google Scholar for {{ person.name }}"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                ><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
-              {% endif %}
-            </span>
-            <span class="collaborators-count">({{ person.count }})</span>
-          </li>
-        {% endfor %}
-      </ul>
-    </details>
+      <details class="people-list collaborators-list">
+        <summary id="collaborators-list-heading">
+          Frequent collaborators
+          <span class="people-list-count">({{ site.data.collaborators.size }})</span>
+        </summary>
+        <ul>
+          {% for person in site.data.collaborators %}
+            <li>
+              <a href="{{ '/library/' | relative_url }}#{{ person.name | url_encode | replace: '+', '%20' }}">{{ person.name }}</a>
+              <span class="person-profile-icons">
+                {% if person.orcid %}
+                  <a
+                    class="person-profile-icon"
+                    href="https://orcid.org/{{ person.orcid }}"
+                    title="ORCID"
+                    aria-label="ORCID for {{ person.name }}"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    ><i class="ai ai-orcid" aria-hidden="true"></i
+                  ></a>
+                {% endif %}
+                {% if person.url %}
+                  <a
+                    class="person-profile-icon"
+                    href="{{ person.url }}"
+                    title="Website"
+                    aria-label="Website for {{ person.name }}"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    ><i class="fa-solid fa-globe" aria-hidden="true"></i
+                  ></a>
+                {% endif %}
+                {% if person.scholar %}
+                  <a
+                    class="person-profile-icon"
+                    href="https://scholar.google.com/citations?user={{ person.scholar }}"
+                    title="Google Scholar"
+                    aria-label="Google Scholar for {{ person.name }}"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    ><i class="ai ai-google-scholar" aria-hidden="true"></i
+                  ></a>
+                {% endif %}
+              </span>
+              <span class="collaborators-count">({{ person.count }})</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </details>
     {% endif %}
   </div>
 
@@ -150,7 +153,7 @@
           <button type="button" class="citations-filter" data-direction="i_cite" aria-pressed="false">I cite</button>
         </div>
         <label class="citations-toggle">
-          <input type="checkbox" id="citationsShowOccasional" />
+          <input type="checkbox" id="citationsShowOccasional">
           Show occasional links
         </label>
         <p id="citationsStatus" class="citations-status" aria-live="polite"></p>
@@ -190,58 +193,61 @@
     </div>
 
     {% if site.data.citers and site.data.citers.size > 0 %}
-    <details class="people-list citers-list">
-      <summary id="citers-list-heading">
-        Frequent citers
-        <span class="people-list-count">({{ site.data.citers.size }})</span>
-      </summary>
-      <ul>
-        {% for person in site.data.citers %}
-          <li>
-            <span class="citers-name">{{ person.name }}</span>
-            <span class="person-profile-icons">
-              {% if person.orcid %}
-                <a
-                  class="person-profile-icon"
-                  href="https://orcid.org/{{ person.orcid }}"
-                  title="ORCID"
-                  aria-label="ORCID for {{ person.name }}"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                ><i class="ai ai-orcid" aria-hidden="true"></i></a>
-              {% endif %}
-              {% if person.url %}
-                <a
-                  class="person-profile-icon"
-                  href="{{ person.url }}"
-                  title="Website"
-                  aria-label="Website for {{ person.name }}"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                ><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
-              {% endif %}
-              {% if person.scholar %}
-                <a
-                  class="person-profile-icon"
-                  href="https://scholar.google.com/citations?user={{ person.scholar }}"
-                  title="Google Scholar"
-                  aria-label="Google Scholar for {{ person.name }}"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                ><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
-              {% endif %}
-            </span>
-            <span class="citers-count">({{ person.count }})</span>
-          </li>
-        {% endfor %}
-      </ul>
-    </details>
+      <details class="people-list citers-list">
+        <summary id="citers-list-heading">
+          Frequent citers
+          <span class="people-list-count">({{ site.data.citers.size }})</span>
+        </summary>
+        <ul>
+          {% for person in site.data.citers %}
+            <li>
+              <span class="citers-name">{{ person.name }}</span>
+              <span class="person-profile-icons">
+                {% if person.orcid %}
+                  <a
+                    class="person-profile-icon"
+                    href="https://orcid.org/{{ person.orcid }}"
+                    title="ORCID"
+                    aria-label="ORCID for {{ person.name }}"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    ><i class="ai ai-orcid" aria-hidden="true"></i
+                  ></a>
+                {% endif %}
+                {% if person.url %}
+                  <a
+                    class="person-profile-icon"
+                    href="{{ person.url }}"
+                    title="Website"
+                    aria-label="Website for {{ person.name }}"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    ><i class="fa-solid fa-globe" aria-hidden="true"></i
+                  ></a>
+                {% endif %}
+                {% if person.scholar %}
+                  <a
+                    class="person-profile-icon"
+                    href="https://scholar.google.com/citations?user={{ person.scholar }}"
+                    title="Google Scholar"
+                    aria-label="Google Scholar for {{ person.name }}"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    ><i class="ai ai-google-scholar" aria-hidden="true"></i
+                  ></a>
+                {% endif %}
+              </span>
+              <span class="citers-count">({{ person.count }})</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </details>
     {% else %}
-    <p class="citations-missing">
-      No citation graph yet. Run
-      <code>PYTHONPATH=. python processing/library/citations.py</code>
-      then rebuild the site.
-    </p>
+      <p class="citations-missing">
+        No citation graph yet. Run
+        <code>PYTHONPATH=. python processing/library/citations.py</code>
+        then rebuild the site.
+      </p>
     {% endif %}
   </div>
 
@@ -290,17 +296,13 @@
   <script>
     (function () {
       var hash = window.location.hash.toLowerCase();
-      var initial = hash.indexOf("#citations") === 0
-        ? "citations"
-        : hash.indexOf("#timeline") === 0
-          ? "timeline"
-          : "coauthors";
-      var tabs = document.querySelectorAll("#networkApp .network-tab");
-      var panels = document.querySelectorAll("#networkApp .network-panel");
+      var initial = hash.indexOf('#citations') === 0 ? 'citations' : hash.indexOf('#timeline') === 0 ? 'timeline' : 'coauthors';
+      var tabs = document.querySelectorAll('#networkApp .network-tab');
+      var panels = document.querySelectorAll('#networkApp .network-panel');
       tabs.forEach(function (tab) {
         var active = tab.dataset.tab === initial;
-        tab.classList.toggle("is-active", active);
-        tab.setAttribute("aria-selected", active ? "true" : "false");
+        tab.classList.toggle('is-active', active);
+        tab.setAttribute('aria-selected', active ? 'true' : 'false');
       });
       panels.forEach(function (panel) {
         panel.hidden = panel.dataset.tab !== initial;
@@ -310,503 +312,503 @@
 </div>
 
 <style>
-.library-explore-container {
-  margin: 2rem 0;
-}
+  .library-explore-container {
+    margin: 2rem 0;
+  }
+
+  .network-tabs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.5rem;
+  }
+
+  .network-tab {
+    border: 1px solid transparent;
+    border-bottom: none;
+    background: transparent;
+    color: var(--global-text-color-light);
+    font: inherit;
+    font-size: 0.95rem;
+    padding: 0.35rem 0.75rem;
+    cursor: pointer;
+    margin-bottom: -1px;
+  }
+
+  .network-tab.is-active {
+    border-color: var(--global-divider-color);
+    border-bottom-color: var(--global-bg-color);
+    color: var(--global-theme-color);
+  }
+
+  .coauthors-app,
+  .citations-app {
+    margin: 0 0 2rem;
+  }
+
+  .coauthors-toolbar,
+  .citations-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .coauthors-toggle,
+  .citations-toggle {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .coauthors-toggle input,
+  .citations-toggle input {
+    margin: 0;
+    flex-shrink: 0;
+    position: relative;
+    top: 0.12em;
+  }
+
+  .coauthors-status,
+  .citations-status {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
+  }
 
-.network-tabs {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-bottom: 1.25rem;
-  border-bottom: 1px solid var(--global-divider-color);
-  padding-bottom: 0.5rem;
-}
-
-.network-tab {
-  border: 1px solid transparent;
-  border-bottom: none;
-  background: transparent;
-  color: var(--global-text-color-light);
-  font: inherit;
-  font-size: 0.95rem;
-  padding: 0.35rem 0.75rem;
-  cursor: pointer;
-  margin-bottom: -1px;
-}
-
-.network-tab.is-active {
-  border-color: var(--global-divider-color);
-  border-bottom-color: var(--global-bg-color);
-  color: var(--global-theme-color);
-}
-
-.coauthors-app,
-.citations-app {
-  margin: 0 0 2rem;
-}
-
-.coauthors-toolbar,
-.citations-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
-}
-
-.coauthors-toggle,
-.citations-toggle {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.4rem;
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.4;
-  cursor: pointer;
-  user-select: none;
-}
-
-.coauthors-toggle input,
-.citations-toggle input {
-  margin: 0;
-  flex-shrink: 0;
-  position: relative;
-  top: 0.12em;
-}
-
-.coauthors-status,
-.citations-status {
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.4;
-  color: var(--global-text-color-light);
-}
-
-.coauthors-layout,
-.citations-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem);
-  gap: 1rem;
-  align-items: stretch;
-  min-height: 28rem;
-}
-
-.coauthors-canvas-wrap,
-.citations-canvas-wrap {
-  border: 1px solid var(--global-divider-color);
-  background: var(--global-bg-color);
-  min-height: 28rem;
-  overflow: hidden;
-}
-
-.coauthors-canvas,
-.citations-canvas {
-  width: 100%;
-  height: 100%;
-  min-height: 28rem;
-  display: block;
-  cursor: grab;
-  touch-action: none;
-}
-
-.coauthors-canvas:active,
-.citations-canvas:active {
-  cursor: grabbing;
-}
-
-.coauthors-panel,
-.citations-panel {
-  border: 1px solid var(--global-divider-color);
-  padding: 0.9rem 1rem;
-  font-size: 0.95rem;
-  overflow: auto;
-  max-height: 32rem;
-}
-
-.coauthors-panel-empty,
-.citations-panel-empty {
-  margin: 0 0 0.85rem;
-  color: var(--global-text-color-light);
-}
-
-.network-legend-title {
-  margin: 0 0 0.4rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: var(--global-text-color-light);
-}
-
-.network-legend-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-size: 0.9rem;
-  line-height: 1.45;
-  color: var(--global-text-color);
-}
-
-.network-legend-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.45rem;
-  margin: 0.4rem 0;
-}
-
-.network-legend-swatch {
-  flex-shrink: 0;
-  width: 0.75rem;
-  height: 0.75rem;
-  margin-top: 0.28em;
-  border-radius: 50%;
-  border: 1px solid var(--global-divider-color);
-}
-
-.network-legend-swatch--self {
-  background: var(--global-tip-block);
-  border-color: var(--global-tip-block-title);
-  border-width: 1.5px;
-}
-
-.network-legend-swatch--year {
-  border-radius: 2px;
-  background: linear-gradient(90deg, #ffffd9, #7fcdbb, #225ea8);
-}
-
-.network-legend-swatch--cites-me {
-  background: #2a6f97;
-}
-
-.network-legend-swatch--i-cite {
-  background: #b5651d;
-}
-
-.network-legend-swatch--both {
-  background: #5c6b73;
-}
-
-.coauthors-panel h3,
-.citations-panel h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1.05rem;
-}
-
-.coauthors-panel .meta,
-.citations-panel .meta {
-  margin: 0 0 0.75rem;
-  color: var(--global-text-color-light);
-  font-size: 0.9rem;
-}
-
-.coauthors-panel ul:not(.network-legend-list),
-.citations-panel ul:not(.network-legend-list) {
-  margin: 0;
-  padding-left: 1.1rem;
-}
-
-.coauthors-panel ul:not(.network-legend-list) li,
-.citations-panel ul:not(.network-legend-list) li {
-  margin: 0.35rem 0;
-}
-
-.coauthors-panel a,
-.citations-panel a {
-  color: var(--global-theme-color);
-}
-
-.citations-filters {
-  display: inline-flex;
-  gap: 0.35rem;
-}
-
-.citations-filter {
-  border: 1px solid var(--global-divider-color);
-  background: transparent;
-  color: var(--global-text-color);
-  font: inherit;
-  font-size: 0.9rem;
-  padding: 0.25rem 0.6rem;
-  cursor: pointer;
-}
-
-.citations-filter.is-active {
-  border-color: var(--global-theme-color);
-  color: var(--global-theme-color);
-}
-
-.people-list {
-  margin-top: 0.75rem;
-  max-width: 40rem;
-}
-
-.people-list > summary {
-  background: none;
-  border: none;
-  color: var(--global-theme-color);
-  cursor: pointer;
-  display: inline-block;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  list-style: none;
-  margin: 1rem 0;
-  padding: 0;
-  text-decoration: underline dotted;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.people-list > summary::-webkit-details-marker {
-  display: none;
-}
-
-.people-list > summary::after {
-  content: " >";
-}
-
-.people-list[open] > summary::after {
-  content: none;
-}
-
-.people-list[open] > summary::before {
-  content: "< ";
-}
-
-.people-list > summary:hover {
-  color: var(--global-theme-color);
-  text-decoration: underline;
-}
-
-.people-list > summary:focus:not(:hover) {
-  text-decoration: underline dotted;
-}
-
-.people-list > summary:active {
-  color: var(--global-theme-color);
-  text-decoration: underline;
-}
-
-.people-list > summary:focus:not(:focus-visible) {
-  outline: none;
-}
-
-.people-list > summary:focus-visible {
-  color: var(--global-theme-color);
-  text-decoration: underline dotted;
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
-}
-
-.people-list > summary .people-list-count {
-  font-weight: inherit;
-  color: inherit;
-  font-size: inherit;
-  text-decoration: inherit;
-}
-
-.people-list > p {
-  margin: 0.5rem 0 0.35rem;
-  color: var(--global-text-color-light);
-  font-size: 0.95rem;
-}
-
-.people-list ul {
-  padding-left: 1.2rem;
-  margin: 0.35rem 0 0;
-}
-
-.person-profile-icons {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  margin-left: 0.2rem;
-  vertical-align: middle;
-}
-
-.person-profile-icon {
-  color: var(--global-text-color-light);
-  font-size: 0.85em;
-  line-height: 1;
-  text-decoration: none;
-}
-
-.person-profile-icon:hover,
-.person-profile-icon:focus {
-  color: var(--global-theme-color);
-}
-
-.collaborators-count,
-.citers-count {
-  color: var(--global-text-color-light);
-  font-size: 0.9rem;
-}
-
-.citations-missing {
-  max-width: 42rem;
-  color: var(--global-text-color-light);
-}
-
-.timeline-app {
-  margin: 0 0 2rem;
-}
-
-.timeline-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
-}
-
-.timeline-modes {
-  display: inline-flex;
-  gap: 0.35rem;
-}
-
-.timeline-mode {
-  border: 1px solid var(--global-divider-color);
-  background: transparent;
-  color: var(--global-text-color);
-  font: inherit;
-  font-size: 0.9rem;
-  padding: 0.25rem 0.6rem;
-  cursor: pointer;
-}
-
-.timeline-mode.is-active {
-  border-color: var(--global-theme-color);
-  color: var(--global-theme-color);
-}
-
-.timeline-range {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: 0.9rem;
-}
-
-.timeline-range select {
-  font: inherit;
-  font-size: 0.9rem;
-  color: var(--global-text-color);
-  background: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
-  padding: 0.15rem 0.35rem;
-}
-
-.timeline-status {
-  margin: 0;
-  font-size: 0.9rem;
-  color: var(--global-text-color-light);
-}
-
-.timeline-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem);
-  gap: 1rem;
-  align-items: stretch;
-}
-
-.timeline-canvas-wrap {
-  border: 1px solid var(--global-divider-color);
-  background: var(--global-bg-color);
-  min-height: 19rem;
-  padding: 0.5rem;
-}
-
-.timeline-canvas {
-  width: 100%;
-  height: 18rem;
-  display: block;
-}
-
-.timeline-panel {
-  border: 1px solid var(--global-divider-color);
-  padding: 0.9rem 1rem;
-  font-size: 0.95rem;
-  overflow: auto;
-  max-height: 28rem;
-}
-
-.timeline-panel-empty {
-  margin: 0;
-  color: var(--global-text-color-light);
-}
-
-.timeline-panel h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1.05rem;
-}
-
-.timeline-panel .meta,
-.timeline-panel .timeline-links {
-  margin: 0 0 0.75rem;
-  color: var(--global-text-color-light);
-  font-size: 0.9rem;
-}
-
-.timeline-panel ul {
-  margin: 0;
-  padding-left: 1.1rem;
-}
-
-.timeline-panel li {
-  margin: 0.35rem 0;
-}
-
-.timeline-panel a {
-  color: var(--global-theme-color);
-}
-
-.timeline-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 0.9rem;
-  list-style: none;
-  margin: 0.75rem 0 0;
-  padding: 0;
-}
-
-.timeline-legend button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  border: 0;
-  background: transparent;
-  color: var(--global-text-color);
-  font: inherit;
-  font-size: 0.85rem;
-  padding: 0;
-  cursor: pointer;
-}
-
-.timeline-swatch {
-  width: 0.7rem;
-  height: 0.7rem;
-  display: inline-block;
-}
-
-@media (max-width: 767.98px) {
   .coauthors-layout,
-  .citations-layout,
-  .timeline-layout {
-    grid-template-columns: 1fr;
-    min-height: 0;
+  .citations-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem);
+    gap: 1rem;
+    align-items: stretch;
+    min-height: 28rem;
   }
 
   .coauthors-canvas-wrap,
+  .citations-canvas-wrap {
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+    min-height: 28rem;
+    overflow: hidden;
+  }
+
   .coauthors-canvas,
-  .citations-canvas-wrap,
   .citations-canvas {
-    min-height: 22rem;
+    width: 100%;
+    height: 100%;
+    min-height: 28rem;
+    display: block;
+    cursor: grab;
+    touch-action: none;
+  }
+
+  .coauthors-canvas:active,
+  .citations-canvas:active {
+    cursor: grabbing;
   }
 
   .coauthors-panel,
-  .citations-panel,
-  .timeline-panel {
-    max-height: none;
-    min-height: 10rem;
+  .citations-panel {
+    border: 1px solid var(--global-divider-color);
+    padding: 0.9rem 1rem;
+    font-size: 0.95rem;
+    overflow: auto;
+    max-height: 32rem;
   }
-}
+
+  .coauthors-panel-empty,
+  .citations-panel-empty {
+    margin: 0 0 0.85rem;
+    color: var(--global-text-color-light);
+  }
+
+  .network-legend-title {
+    margin: 0 0 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+
+  .network-legend-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: var(--global-text-color);
+  }
+
+  .network-legend-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.45rem;
+    margin: 0.4rem 0;
+  }
+
+  .network-legend-swatch {
+    flex-shrink: 0;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-top: 0.28em;
+    border-radius: 50%;
+    border: 1px solid var(--global-divider-color);
+  }
+
+  .network-legend-swatch--self {
+    background: var(--global-tip-block);
+    border-color: var(--global-tip-block-title);
+    border-width: 1.5px;
+  }
+
+  .network-legend-swatch--year {
+    border-radius: 2px;
+    background: linear-gradient(90deg, #ffffd9, #7fcdbb, #225ea8);
+  }
+
+  .network-legend-swatch--cites-me {
+    background: #2a6f97;
+  }
+
+  .network-legend-swatch--i-cite {
+    background: #b5651d;
+  }
+
+  .network-legend-swatch--both {
+    background: #5c6b73;
+  }
+
+  .coauthors-panel h3,
+  .citations-panel h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+  }
+
+  .coauthors-panel .meta,
+  .citations-panel .meta {
+    margin: 0 0 0.75rem;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .coauthors-panel ul:not(.network-legend-list),
+  .citations-panel ul:not(.network-legend-list) {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+
+  .coauthors-panel ul:not(.network-legend-list) li,
+  .citations-panel ul:not(.network-legend-list) li {
+    margin: 0.35rem 0;
+  }
+
+  .coauthors-panel a,
+  .citations-panel a {
+    color: var(--global-theme-color);
+  }
+
+  .citations-filters {
+    display: inline-flex;
+    gap: 0.35rem;
+  }
+
+  .citations-filter {
+    border: 1px solid var(--global-divider-color);
+    background: transparent;
+    color: var(--global-text-color);
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.6rem;
+    cursor: pointer;
+  }
+
+  .citations-filter.is-active {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  .people-list {
+    margin-top: 0.75rem;
+    max-width: 40rem;
+  }
+
+  .people-list > summary {
+    background: none;
+    border: none;
+    color: var(--global-theme-color);
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+    text-decoration: underline dotted;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .people-list > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .people-list > summary::after {
+    content: ' >';
+  }
+
+  .people-list[open] > summary::after {
+    content: none;
+  }
+
+  .people-list[open] > summary::before {
+    content: '< ';
+  }
+
+  .people-list > summary:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+
+  .people-list > summary:focus:not(:hover) {
+    text-decoration: underline dotted;
+  }
+
+  .people-list > summary:active {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+
+  .people-list > summary:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  .people-list > summary:focus-visible {
+    color: var(--global-theme-color);
+    text-decoration: underline dotted;
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+
+  .people-list > summary .people-list-count {
+    font-weight: inherit;
+    color: inherit;
+    font-size: inherit;
+    text-decoration: inherit;
+  }
+
+  .people-list > p {
+    margin: 0.5rem 0 0.35rem;
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+  }
+
+  .people-list ul {
+    padding-left: 1.2rem;
+    margin: 0.35rem 0 0;
+  }
+
+  .person-profile-icons {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-left: 0.2rem;
+    vertical-align: middle;
+  }
+
+  .person-profile-icon {
+    color: var(--global-text-color-light);
+    font-size: 0.85em;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  .person-profile-icon:hover,
+  .person-profile-icon:focus {
+    color: var(--global-theme-color);
+  }
+
+  .collaborators-count,
+  .citers-count {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .citations-missing {
+    max-width: 42rem;
+    color: var(--global-text-color-light);
+  }
+
+  .timeline-app {
+    margin: 0 0 2rem;
+  }
+
+  .timeline-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .timeline-modes {
+    display: inline-flex;
+    gap: 0.35rem;
+  }
+
+  .timeline-mode {
+    border: 1px solid var(--global-divider-color);
+    background: transparent;
+    color: var(--global-text-color);
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.6rem;
+    cursor: pointer;
+  }
+
+  .timeline-mode.is-active {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  .timeline-range {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+  }
+
+  .timeline-range select {
+    font: inherit;
+    font-size: 0.9rem;
+    color: var(--global-text-color);
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    padding: 0.15rem 0.35rem;
+  }
+
+  .timeline-status {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+
+  .timeline-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem);
+    gap: 1rem;
+    align-items: stretch;
+  }
+
+  .timeline-canvas-wrap {
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+    min-height: 19rem;
+    padding: 0.5rem;
+  }
+
+  .timeline-canvas {
+    width: 100%;
+    height: 18rem;
+    display: block;
+  }
+
+  .timeline-panel {
+    border: 1px solid var(--global-divider-color);
+    padding: 0.9rem 1rem;
+    font-size: 0.95rem;
+    overflow: auto;
+    max-height: 28rem;
+  }
+
+  .timeline-panel-empty {
+    margin: 0;
+    color: var(--global-text-color-light);
+  }
+
+  .timeline-panel h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.05rem;
+  }
+
+  .timeline-panel .meta,
+  .timeline-panel .timeline-links {
+    margin: 0 0 0.75rem;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .timeline-panel ul {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+
+  .timeline-panel li {
+    margin: 0.35rem 0;
+  }
+
+  .timeline-panel a {
+    color: var(--global-theme-color);
+  }
+
+  .timeline-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    list-style: none;
+    margin: 0.75rem 0 0;
+    padding: 0;
+  }
+
+  .timeline-legend button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 0;
+    background: transparent;
+    color: var(--global-text-color);
+    font: inherit;
+    font-size: 0.85rem;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .timeline-swatch {
+    width: 0.7rem;
+    height: 0.7rem;
+    display: inline-block;
+  }
+
+  @media (max-width: 767.98px) {
+    .coauthors-layout,
+    .citations-layout,
+    .timeline-layout {
+      grid-template-columns: 1fr;
+      min-height: 0;
+    }
+
+    .coauthors-canvas-wrap,
+    .coauthors-canvas,
+    .citations-canvas-wrap,
+    .citations-canvas {
+      min-height: 22rem;
+    }
+
+    .coauthors-panel,
+    .citations-panel,
+    .timeline-panel {
+      max-height: none;
+      min-height: 10rem;
+    }
+  }
 </style>

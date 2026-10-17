@@ -1,9 +1,9 @@
 ---
 layout: library-item
 title: Governing the “High Seas” - Linking global governance and regional implementation
-date: '2014-01-01'
+date: "2014-01-01"
 entry_type: Report
-year: '2014'
+year: "2014"
 bibtex_key: Rochette2014c
 is_event: false
 description: Marine areas beyond national jurisdiction (ABJN), often referred to as
@@ -34,20 +34,20 @@ abstract: Marine areas beyond national jurisdiction (ABJN), often referred to as
   other regional mechanisms such as Large Marine Ecosystems) and consider options
   for filling governance gaps.
 tags:
-- bbnj
-- abmt / mpas
-- not undermine
-- ifb
-- author:glen wright
-- oa:open
-- regional governance
+  - bbnj
+  - abmt / mpas
+  - not undermine
+  - ifb
+  - author:glen wright
+  - oa:open
+  - regional governance
 categories:
-- other
-- governance
+  - other
+  - governance
 authors:
-- Julien Rochette
-- Sebastian Unger
-- Glen Wright
+  - Julien Rochette
+  - Sebastian Unger
+  - Glen Wright
 venue: Potsdam Ocean Governance Workshop
 location: Potsdam, Germany
 role: co-author
@@ -56,20 +56,19 @@ pdf: 2014_governing_high_seas_linking_global_governance_regional_implementation.
 url: https://glenwright.earth/library/governing-high-seas-linking-global-governance-regional-implementation/
 pages: 1--14
 resources:
-- kind: pdf
-  title: Governing the “High Seas” - Linking global governance and regional implementation
-  label: View report PDF
-  url: /assets/pdf/2014_governing_high_seas_linking_global_governance_regional_implementation.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: Visit Potsdam Ocean Governance Workshop publication page
-  label: Visit Potsdam Ocean Governance Workshop publication page
-  url: https://glenwright.earth/library/governing-high-seas-linking-global-governance-regional-implementation/
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: Governing the “High Seas” - Linking global governance and regional implementation
+    label: View report PDF
+    url: /assets/pdf/2014_governing_high_seas_linking_global_governance_regional_implementation.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: Visit Potsdam Ocean Governance Workshop publication page
+    label: Visit Potsdam Ocean Governance Workshop publication page
+    url: https://glenwright.earth/library/governing-high-seas-linking-global-governance-regional-implementation/
+    format: Web
+    local: false
+    external: true
 ---
-

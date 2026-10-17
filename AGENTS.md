@@ -33,12 +33,12 @@ before finishing. Do not leave site-only diffs that the next export will clobber
 
 Concrete patterns:
 
-| Site change | Push back to Zotero |
-| --- | --- |
-| Better preview JPEG | Replace the child’s attachment titled **`thumbnail`** (see `processing/library/sync_previews_to_zotero.py`) |
-| PDF / slides / agenda | Attach or replace the matching child file via Paperful |
-| Notes / type / role tags | Edit the Zotero **Notes** field (`[type]` / `[role]` / …) |
-| Title, DOI, authors, ISBN | Patch the Zotero parent item fields |
+| Site change               | Push back to Zotero                                                                                         |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Better preview JPEG       | Replace the child’s attachment titled **`thumbnail`** (see `processing/library/sync_previews_to_zotero.py`) |
+| PDF / slides / agenda     | Attach or replace the matching child file via Paperful                                                      |
+| Notes / type / role tags  | Edit the Zotero **Notes** field (`[type]` / `[role]` / …)                                                   |
+| Title, DOI, authors, ISBN | Patch the Zotero parent item fields                                                                         |
 
 ### Do not
 

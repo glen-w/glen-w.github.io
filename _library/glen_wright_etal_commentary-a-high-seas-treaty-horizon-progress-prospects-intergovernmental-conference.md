@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: 'Commentary-A High Seas Treaty on the Horizon: Progress and Prospects for the
-  Intergovernmental Conference'
-date: '2023-01-01'
+title: "Commentary-A High Seas Treaty on the Horizon: Progress and Prospects for the
+  Intergovernmental Conference"
+date: "2023-01-01"
 entry_type: Journal article
-year: '2023'
+year: "2023"
 bibtex_key: wrightHighSeasTreaty2023
 is_event: false
 description: After more than a decade of discussions, States at the United Nations
@@ -29,17 +29,17 @@ abstract: "After more than a decade of discussions, States at the United Nations
   \ made, identifies key outstanding issues, and highlights the next steps in the\
   \ process to finalize the high seas treaty."
 tags:
-- bbnj
-- not undermine
-- ifb
-- oa:unknown
-- author:glen wright
+  - bbnj
+  - not undermine
+  - ifb
+  - oa:unknown
+  - author:glen wright
 categories:
-- other
+  - other
 authors:
-- Glen Wright
-- Klaudija Cremers
-- Julien Rochette
+  - Glen Wright
+  - Klaudija Cremers
+  - Julien Rochette
 venue: Ocean Yearbook
 role: lead author
 preview: glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference
@@ -47,32 +47,32 @@ pdf: glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospe
 url: https://brill.com/view/journals/ocyo/37/1/article-p30_3.xml
 doi: https://doi.org/10.1163/22116001-03701004
 pages: 30--36
-volume: '37'
-number: '1'
+volume: "37"
+number: "1"
 resources:
-- kind: pdf
-  title: 'Commentary-A High Seas Treaty on the Horizon: Progress and Prospects for
-    the Intergovernmental Conference'
-  label: View primary document
-  url: /assets/pdf/glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: Visit Ocean Yearbook publication page
-  label: Visit Ocean Yearbook publication page
-  url: https://brill.com/view/journals/ocyo/37/1/article-p30_3.xml
-  format: Web
-  local: false
-  external: true
-- kind: landing
-  title: DOI
-  label: View DOI
-  url: https://doi.org/10.1163/22116001-03701004
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: "Commentary-A High Seas Treaty on the Horizon: Progress and Prospects for
+      the Intergovernmental Conference"
+    label: View primary document
+    url: /assets/pdf/glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: Visit Ocean Yearbook publication page
+    label: Visit Ocean Yearbook publication page
+    url: https://brill.com/view/journals/ocyo/37/1/article-p30_3.xml
+    format: Web
+    local: false
+    external: true
+  - kind: landing
+    title: DOI
+    label: View DOI
+    url: https://doi.org/10.1163/22116001-03701004
+    format: Web
+    local: false
+    external: true
 ---
 
 ## Notes

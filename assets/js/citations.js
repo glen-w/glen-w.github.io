@@ -59,9 +59,7 @@
       const graph = await response.json();
       state.people = Array.isArray(graph.people) ? graph.people : [];
       state.edges = Array.isArray(graph.edges) ? graph.edges : [];
-      state.worksById = new Map(
-        (Array.isArray(graph.works) ? graph.works : []).map((work) => [work.id, work])
-      );
+      state.worksById = new Map((Array.isArray(graph.works) ? graph.works : []).map((work) => [work.id, work]));
       renderGraph();
       clearPanel();
     } catch (error) {
@@ -159,7 +157,10 @@
         people.filter((d) => !d.self),
         (d) => personScore(d) || 1
       ) || 1;
-    const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([7, selfRadius - 4]);
+    const radiusScale = d3
+      .scaleSqrt()
+      .domain([1, maxCount])
+      .range([7, selfRadius - 4]);
     const radius = (d) => (d.self ? selfRadius : radiusScale(personScore(d) || 1));
     const maxEdge = d3.max(edges, (d) => d.count || 1) || 1;
     const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1.25, 5]);
@@ -275,12 +276,7 @@
       .attr("stroke", (d) => (d.self ? "var(--global-tip-block-title)" : "var(--global-bg-color)"))
       .attr("stroke-width", (d) => (d.self ? 2 : 1));
 
-    node
-      .append("title")
-      .text(
-        (d) =>
-          `${d.name} · cites me ${d.citedMe || 0} · I cite ${d.citedByMe || 0}`
-      );
+    node.append("title").text((d) => `${d.name} · cites me ${d.citedMe || 0} · I cite ${d.citedByMe || 0}`);
 
     // Labels sit in their own layer so later nodes cannot cover earlier names.
     const labels = g
@@ -316,9 +312,7 @@
         }
       });
       node.style("opacity", (d) => (connected.has(d.id) ? 1 : 0.12));
-      link.attr("stroke-opacity", (d) =>
-        d.source.id === focusId || d.target.id === focusId ? 0.9 : 0.04
-      );
+      link.attr("stroke-opacity", (d) => (d.source.id === focusId || d.target.id === focusId ? 0.9 : 0.04));
       labels.style("opacity", (d) => (connected.has(d.id) ? 1 : 0));
     }
 
@@ -333,14 +327,15 @@
         d3
           .forceLink(links)
           .id((d) => d.id)
-          .distance((d) =>
-            d.direction === "co_cite" ? 150 : 55 + 85 / Math.sqrt(d.count || 1)
-          )
+          .distance((d) => (d.direction === "co_cite" ? 150 : 55 + 85 / Math.sqrt(d.count || 1)))
           .strength((d) => (d.direction === "co_cite" ? 0.04 : 0.3))
       )
       .force("charge", d3.forceManyBody().strength(charge))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius((d) => radius(d) + 8));
+      .force(
+        "collision",
+        d3.forceCollide().radius((d) => radius(d) + 8)
+      );
 
     const selfNode = nodes.find((d) => d.self);
     if (selfNode) {
@@ -402,18 +397,16 @@
     if (!person || person.self) return "";
     const bits = [];
     if (person.orcid) {
-      bits.push(
-        `<a href="${escapeAttr(`https://orcid.org/${person.orcid}`)}" rel="noopener noreferrer" target="_blank" title="ORCID">ORCID</a>`
-      );
+      bits.push(`<a href="${escapeAttr(`https://orcid.org/${person.orcid}`)}" rel="noopener noreferrer" target="_blank" title="ORCID">ORCID</a>`);
     }
     if (person.url && !String(person.url).includes("orcid.org") && !String(person.url).includes("scholar.google")) {
-      bits.push(
-        `<a href="${escapeAttr(person.url)}" rel="noopener noreferrer" target="_blank" title="Website">Website</a>`
-      );
+      bits.push(`<a href="${escapeAttr(person.url)}" rel="noopener noreferrer" target="_blank" title="Website">Website</a>`);
     }
     if (person.scholar) {
       bits.push(
-        `<a href="${escapeAttr(`https://scholar.google.com/citations?user=${person.scholar}`)}" rel="noopener noreferrer" target="_blank" title="Google Scholar">Scholar</a>`
+        `<a href="${escapeAttr(
+          `https://scholar.google.com/citations?user=${person.scholar}`
+        )}" rel="noopener noreferrer" target="_blank" title="Google Scholar">Scholar</a>`
       );
     }
     if (!bits.length) return "";
@@ -488,11 +481,7 @@
   }
 
   function escapeHtml(value) {
-    return String(value)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
+    return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
   function escapeAttr(value) {

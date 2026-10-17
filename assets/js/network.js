@@ -17,8 +17,7 @@
       });
 
       if (updateHash) {
-        const hash =
-          id === "citations" ? "#citations" : id === "timeline" ? "#timeline" : "#co-authors";
+        const hash = id === "citations" ? "#citations" : id === "timeline" ? "#timeline" : "#co-authors";
         if (window.location.hash.toLowerCase() !== hash) {
           const url = new URL(window.location.href);
           url.hash = hash;
@@ -38,11 +37,7 @@
 
     function syncFromHash() {
       const hash = window.location.hash.toLowerCase();
-      const id = hash.startsWith("#citations")
-        ? "citations"
-        : hash.startsWith("#timeline")
-          ? "timeline"
-          : "coauthors";
+      const id = hash.startsWith("#citations") ? "citations" : hash.startsWith("#timeline") ? "timeline" : "coauthors";
       showTab(id, { updateHash: false });
     }
   });

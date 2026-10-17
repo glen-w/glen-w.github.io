@@ -28,11 +28,11 @@ entry_type_counts:
   Oped: 2
   Blog: 24
   Webinar: 15
-  Workshop: 55
+  Workshop: 56
   Training: 16
   Submission: 27
   Poster: 3
-  Conference Paper: 2
+  Conference Paper: 3
   Book: 2
   Side Event: 8
   Fellowship: 1
@@ -56,7 +56,7 @@ role_tag_counts:
   author: 75
   speaker: 74
   co-author: 67
-  facilitator: 22
+  facilitator: 23
   organiser: 26
   presenter: 2
   participant: 27
@@ -68,5 +68,5 @@ language_tags:
 - french
 - spanish
 language_tag_counts:
-  french: 23
+  french: 25
   spanish: 4

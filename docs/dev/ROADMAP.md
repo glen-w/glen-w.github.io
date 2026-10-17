@@ -108,12 +108,12 @@ Paperful product work (OG logo weight on `paperful.app`, install friction) lives
 
 ## Related
 
-| | |
-| --- | --- |
-| Untangle site lane | `/Users/89298/Documents/untangle/projects/website-updates.md` |
-| On-site findability (shipped P0/P1) | [`seo-findability-plan.md`](seo-findability-plan.md) |
-| Career / domain timeline | [`career-timeline-plan.md`](career-timeline-plan.md) |
-| Project / code page passes | [`project-page-pass.md`](project-page-pass.md), [`code-page-pass.md`](code-page-pass.md) |
-| Personality pack | [`personality-pack-notes.md`](personality-pack-notes.md) |
-| Failures publish gate | `scripts/check_failures_readiness.py` |
-| Deep dive (28 Sep 2026) | `/Users/89298/Downloads/glenwright-earth-deep-dive-2026-09-28.md` |
+|                                     |                                                                                          |
+| ----------------------------------- | ---------------------------------------------------------------------------------------- |
+| Untangle site lane                  | `/Users/89298/Documents/untangle/projects/website-updates.md`                            |
+| On-site findability (shipped P0/P1) | [`seo-findability-plan.md`](seo-findability-plan.md)                                     |
+| Career / domain timeline            | [`career-timeline-plan.md`](career-timeline-plan.md)                                     |
+| Project / code page passes          | [`project-page-pass.md`](project-page-pass.md), [`code-page-pass.md`](code-page-pass.md) |
+| Personality pack                    | [`personality-pack-notes.md`](personality-pack-notes.md)                                 |
+| Failures publish gate               | `scripts/check_failures_readiness.py`                                                    |
+| Deep dive (28 Sep 2026)             | `/Users/89298/Downloads/glenwright-earth-deep-dive-2026-09-28.md`                        |

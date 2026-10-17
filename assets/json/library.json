@@ -97,6 +97,40 @@
       "info": "/library/neptune-forum/"
     },
     {
+      "id": "zotero-item-127513",
+      "title": "Paris Basketball - Vision 2030 Stakeholder Workshop",
+      "year": 2026,
+      "type": "Workshop",
+      "month": 1,
+      "roles": [
+        "facilitator"
+      ],
+      "langs": [
+        "french"
+      ],
+      "thumb": "/assets/img/publication_preview/glen_wright_2026_paris_basketball_vision_2030_stakeholder_workshop-480.webp",
+      "url": "https://miro.com/app/board/uXjVGL3gmjo=/?share_link_id=553127409753",
+      "flags": [
+        "abs",
+        "photos"
+      ],
+      "info": "/library/glen-wright-paris-basketball-vision-2030-stakeholder-workshop/"
+    },
+    {
+      "id": "zotero-item-127516",
+      "title": "Putting it into practice: a demonstration of the BBNJ Clearing-House Mechanism",
+      "year": 2026,
+      "type": "Conference Paper",
+      "month": 1,
+      "venue": "High Seas Alliance",
+      "thumb": "/assets/img/publication_preview/glen_wright_2026_putting_practice_demonstration_bbnj_clearing_house_mechanism-480.webp",
+      "agenda": "/assets/pdf/glen_wright_2026_putting_practice_demonstration_bbnj_clearing_house_mechanism_agenda.pdf",
+      "flags": [
+        "photos"
+      ],
+      "info": "/library/glen-wright-putting-practice-demonstration-bbnj-clearing-house-mechanism/"
+    },
+    {
       "id": "zotero-item-51271",
       "title": "Reimagining Paris: Sufficiency in Practice",
       "year": 2026,
@@ -319,6 +353,9 @@
       "roles": [
         "quoted",
         "interview"
+      ],
+      "langs": [
+        "french"
       ],
       "venue": "News Tank Energies",
       "thumb": "/assets/img/publication_preview/2024_energies_renouvelables_une_capacite_trop_faible_pour_suivre_laugmentation_de_la_consommation-480.webp",

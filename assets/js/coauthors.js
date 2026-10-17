@@ -48,9 +48,7 @@
       const graph = await response.json();
       state.people = Array.isArray(graph.people) ? graph.people : [];
       state.edges = Array.isArray(graph.edges) ? graph.edges : [];
-      state.worksById = new Map(
-        (Array.isArray(graph.works) ? graph.works : []).map((work) => [work.id, work])
-      );
+      state.worksById = new Map((Array.isArray(graph.works) ? graph.works : []).map((work) => [work.id, work]));
       renderGraph();
       clearPanel();
     } catch (error) {
@@ -64,9 +62,7 @@
   }
 
   function visiblePeople() {
-    return state.people.filter(
-      (person) => person.self || state.showOccasional || (person.count || 0) >= MIN_DEFAULT_COUNT
-    );
+    return state.people.filter((person) => person.self || state.showOccasional || (person.count || 0) >= MIN_DEFAULT_COUNT);
   }
 
   function visibleIds(people) {
@@ -74,15 +70,11 @@
   }
 
   function visibleEdges(ids) {
-    return state.edges.filter(
-      (edge) => ids.has(edge.source) && ids.has(edge.target)
-    );
+    return state.edges.filter((edge) => ids.has(edge.source) && ids.has(edge.target));
   }
 
   function yearExtent(people) {
-    const years = people
-      .map((person) => person.firstYear)
-      .filter((year) => typeof year === "number" && year > 0);
+    const years = people.map((person) => person.firstYear).filter((year) => typeof year === "number" && year > 0);
     if (!years.length) return [2000, 2026];
     return [Math.min(...years), Math.max(...years)];
   }
@@ -98,12 +90,8 @@
       return;
     }
 
-    const occasionalHidden = state.people.filter(
-      (person) => !person.self && (person.count || 0) < MIN_DEFAULT_COUNT
-    ).length;
-    const label = state.showOccasional
-      ? `${people.length} people`
-      : `${people.length} people (${occasionalHidden} occasional hidden)`;
+    const occasionalHidden = state.people.filter((person) => !person.self && (person.count || 0) < MIN_DEFAULT_COUNT).length;
+    const label = state.showOccasional ? `${people.length} people` : `${people.length} people (${occasionalHidden} occasional hidden)`;
     setStatus(label);
 
     const wrap = els.root.querySelector(".coauthors-canvas-wrap");
@@ -115,10 +103,7 @@
     els.svg.selectAll("*").remove();
 
     const [yearMin, yearMax] = yearExtent(people);
-    const color = d3
-      .scaleSequential()
-      .domain([yearMin, yearMax])
-      .interpolator(d3.interpolateYlGnBu);
+    const color = d3.scaleSequential().domain([yearMin, yearMax]).interpolator(d3.interpolateYlGnBu);
 
     // Glen stays the largest node. Collaborator radii still spread with count,
     // but the top of that scale stays under him.
@@ -128,7 +113,10 @@
         people.filter((d) => !d.self),
         (d) => d.count || 1
       ) || 1;
-    const radiusScale = d3.scaleSqrt().domain([1, maxCount]).range([7, selfRadius - 4]);
+    const radiusScale = d3
+      .scaleSqrt()
+      .domain([1, maxCount])
+      .range([7, selfRadius - 4]);
     const radius = (d) => (d.self ? selfRadius : radiusScale(d.count || 1));
     const maxEdge = d3.max(edges, (d) => d.count || 1) || 1;
     const thickness = d3.scaleLinear().domain([1, maxEdge]).range([1.25, 5]);
@@ -144,12 +132,14 @@
       return node;
     });
     const nodeById = new Map(nodes.map((node) => [node.id, node]));
-    const links = edges.map((edge) => ({
-      ...edge,
-      source: nodeById.get(edge.source),
-      target: nodeById.get(edge.target),
-      workIds: edge.works || [],
-    })).filter((edge) => edge.source && edge.target);
+    const links = edges
+      .map((edge) => ({
+        ...edge,
+        source: nodeById.get(edge.source),
+        target: nodeById.get(edge.target),
+        workIds: edge.works || [],
+      }))
+      .filter((edge) => edge.source && edge.target);
 
     const labelCap = people.length > 60 ? 8 : people.length > 35 ? 12 : people.length > 20 ? 16 : 24;
     const labeledIds = new Set(
@@ -229,9 +219,7 @@
       .attr("stroke", (d) => (d.self ? "var(--global-tip-block-title)" : "var(--global-bg-color)"))
       .attr("stroke-width", (d) => (d.self ? 2 : 1));
 
-    node
-      .append("title")
-      .text((d) => `${d.name} · ${d.count || 0} shared`);
+    node.append("title").text((d) => `${d.name} · ${d.count || 0} shared`);
 
     // Labels sit in their own layer so later nodes cannot cover earlier names.
     const labels = g
@@ -268,9 +256,7 @@
         }
       });
       node.style("opacity", (d) => (connected.has(d.id) ? 1 : 0.12));
-      link.attr("stroke-opacity", (d) =>
-        d.source.id === focusId || d.target.id === focusId ? 0.85 : 0.05
-      );
+      link.attr("stroke-opacity", (d) => (d.source.id === focusId || d.target.id === focusId ? 0.85 : 0.05));
       labels.style("opacity", (d) => (connected.has(d.id) ? 1 : 0));
     }
 
@@ -293,7 +279,10 @@
       )
       .force("charge", d3.forceManyBody().strength(charge))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius((d) => radius(d) + 8));
+      .force(
+        "collision",
+        d3.forceCollide().radius((d) => radius(d) + 8)
+      );
 
     const selfNode = nodes.find((d) => d.self);
     if (selfNode) {
@@ -330,7 +319,7 @@
       .filter(Boolean)
       .sort((a, b) => (b.year || 0) - (a.year || 0) || String(a.title).localeCompare(String(b.title)));
 
-    if (!items.length) return "<p class=\"meta\">No linked library pages.</p>";
+    if (!items.length) return '<p class="meta">No linked library pages.</p>';
 
     const lis = items
       .map((work) => {
@@ -349,18 +338,16 @@
     if (!person || person.self) return "";
     const bits = [];
     if (person.orcid) {
-      bits.push(
-        `<a href="${escapeAttr(`https://orcid.org/${person.orcid}`)}" rel="noopener noreferrer" target="_blank" title="ORCID">ORCID</a>`
-      );
+      bits.push(`<a href="${escapeAttr(`https://orcid.org/${person.orcid}`)}" rel="noopener noreferrer" target="_blank" title="ORCID">ORCID</a>`);
     }
     if (person.url && !String(person.url).includes("orcid.org") && !String(person.url).includes("scholar.google")) {
-      bits.push(
-        `<a href="${escapeAttr(person.url)}" rel="noopener noreferrer" target="_blank" title="Website">Website</a>`
-      );
+      bits.push(`<a href="${escapeAttr(person.url)}" rel="noopener noreferrer" target="_blank" title="Website">Website</a>`);
     }
     if (person.scholar) {
       bits.push(
-        `<a href="${escapeAttr(`https://scholar.google.com/citations?user=${person.scholar}`)}" rel="noopener noreferrer" target="_blank" title="Google Scholar">Scholar</a>`
+        `<a href="${escapeAttr(
+          `https://scholar.google.com/citations?user=${person.scholar}`
+        )}" rel="noopener noreferrer" target="_blank" title="Google Scholar">Scholar</a>`
       );
     }
     if (!bits.length) return "";
@@ -375,9 +362,7 @@
           ? String(person.firstYear)
           : `${person.firstYear}–${person.lastYear}`
         : "";
-    const meta = person.self
-      ? `${person.count || 0} co-authored works`
-      : `${person.count || 0} shared works${years ? ` · ${years}` : ""}`;
+    const meta = person.self ? `${person.count || 0} co-authored works` : `${person.count || 0} shared works${years ? ` · ${years}` : ""}`;
 
     let ids;
     if (person.self) {
@@ -413,10 +398,7 @@
   function clearPanel() {
     state.selected = null;
     const [yearMin, yearMax] = yearExtent(state.people);
-    const yearLabel =
-      yearMin === yearMax
-        ? String(yearMin)
-        : `${yearMin} → ${yearMax}`;
+    const yearLabel = yearMin === yearMax ? String(yearMin) : `${yearMin} → ${yearMax}`;
     els.panel.innerHTML = `
       <div class="network-legend">
         <p class="coauthors-panel-empty">Click a person or a link between people to see the shared works.</p>
@@ -438,11 +420,7 @@
   }
 
   function escapeHtml(value) {
-    return String(value)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
+    return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
   function escapeAttr(value) {

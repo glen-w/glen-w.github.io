@@ -13,12 +13,7 @@
     {% if resource.kind == 'zip' %}
       {% continue %}
     {% endif %}
-    {% if resource.local
-      or resource.kind == 'pdf'
-      or resource.kind == 'agenda'
-      or resource.kind == 'slides'
-      or resource.kind == 'poster'
-    %}
+    {% if resource.local or resource.kind == 'pdf' or resource.kind == 'agenda' or resource.kind == 'slides' or resource.kind == 'poster' %}
       {% assign materials_count = materials_count | plus: 1 %}
     {% endif %}
   {% endfor %}
@@ -49,12 +44,7 @@
         {% endif %}
 
         {% assign include_material = false %}
-        {% if resource.local
-          or resource.kind == 'pdf'
-          or resource.kind == 'agenda'
-          or resource.kind == 'slides'
-          or resource.kind == 'poster'
-        %}
+        {% if resource.local or resource.kind == 'pdf' or resource.kind == 'agenda' or resource.kind == 'slides' or resource.kind == 'poster' %}
           {% assign include_material = true %}
         {% endif %}
 

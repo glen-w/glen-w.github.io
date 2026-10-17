@@ -145,21 +145,15 @@
       setStatus("Loading timeline…");
       const [catalogResponse, codeResponse] = await Promise.all([
         fetch(root.dataset.catalog || "", { credentials: "same-origin" }),
-        root.dataset.code
-          ? fetch(root.dataset.code, { credentials: "same-origin" }).catch(() => null)
-          : Promise.resolve(null),
+        root.dataset.code ? fetch(root.dataset.code, { credentials: "same-origin" }).catch(() => null) : Promise.resolve(null),
       ]);
       if (!catalogResponse.ok) throw new Error(`HTTP ${catalogResponse.status}`);
       const catalog = await catalogResponse.json();
-      const libraryItems = (Array.isArray(catalog.items) ? catalog.items : []).filter(
-        (item) => Number.isFinite(item.year)
-      );
+      const libraryItems = (Array.isArray(catalog.items) ? catalog.items : []).filter((item) => Number.isFinite(item.year));
       let codeItems = [];
       if (codeResponse && codeResponse.ok) {
         const code = await codeResponse.json();
-        codeItems = (Array.isArray(code.items) ? code.items : []).filter((item) =>
-          Number.isFinite(item.year)
-        );
+        codeItems = (Array.isArray(code.items) ? code.items : []).filter((item) => Number.isFinite(item.year));
       }
       state.items = libraryItems.concat(codeItems);
       const years = state.items.map((item) => item.year);
@@ -168,8 +162,7 @@
       const params = new URLSearchParams(window.location.search);
       const from = Number(params.get("from"));
       const to = Number(params.get("to"));
-      state.from =
-        Number.isFinite(from) && from >= state.yearMin && from <= state.yearMax ? from : state.yearMin;
+      state.from = Number.isFinite(from) && from >= state.yearMin && from <= state.yearMax ? from : state.yearMin;
       state.to = Number.isFinite(to) && to >= state.from && to <= state.yearMax ? to : state.yearMax;
       fillYearSelects();
       render();
@@ -204,9 +197,7 @@
       const extra = [...present].filter((role) => !ROLE_ORDER.includes(role)).sort();
       return known.concat(extra);
     }
-    return GROUPS.map((group) => group.id).filter((id) =>
-      state.items.some((item) => groupForType(item.type).id === id)
-    );
+    return GROUPS.map((group) => group.id).filter((id) => state.items.some((item) => groupForType(item.type).id === id));
   }
 
   function seriesLabel(key) {
@@ -284,14 +275,10 @@
     const data = rows();
     const focusData = data.filter((row) => row.year >= state.from && row.year <= state.to);
     const focusStacked = d3.stack().keys(keys)(focusData);
-    const maxY =
-      d3.max(focusData, (row) => keys.reduce((sum, key) => sum + (row[key] || 0), 0)) || 1;
+    const maxY = d3.max(focusData, (row) => keys.reduce((sum, key) => sum + (row[key] || 0), 0)) || 1;
     const inRange = state.items.filter((item) => item.year >= state.from && item.year <= state.to);
 
-    setStatus(
-      `${inRange.length} items · ${state.from}–${state.to}` +
-        (state.mode === "role" ? " · primary role" : "")
-    );
+    setStatus(`${inRange.length} items · ${state.from}–${state.to}` + (state.mode === "role" ? " · primary role" : ""));
 
     const innerW = width - margin.left - margin.right;
     const innerH = focusHeight - margin.top - margin.bottom;
@@ -437,20 +424,11 @@
     if (!group) return "";
     const types = [...new Set(matches.map((item) => item.type).filter((type) => group.types.includes(type)))];
     if (!types.length) return "";
-    return types
-      .map(
-        (type) =>
-          `<a href="/library/?filter=${encodeURIComponent(type)}">${escapeHtml(type)}</a>`
-      )
-      .join(" · ");
+    return types.map((type) => `<a href="/library/?filter=${encodeURIComponent(type)}">${escapeHtml(type)}</a>`).join(" · ");
   }
 
   function escapeHtml(value) {
-    return String(value)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
+    return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
   function escapeAttr(value) {

@@ -2,7 +2,7 @@
 layout: page
 title: Workshops & facilitation
 permalink: /services/facilitation/
-description: Workshops and strategy sessions for ocean, energy and climate teams, run by someone who teaches ocean governance at Sciences Po.
+description: Workshops and strategy sessions for ocean, energy and climate teams.
 img: /assets/img/services/workshops-facilitation.jpg
 img_alt: Glen Wright speaking at a meeting table with colleagues
 importance: 3
@@ -34,8 +34,8 @@ Not sure a full workshop is what you need? A 30-minute call is enough to work ou
 
 <div class="contact-actions" markdown="1">
 
-[Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions__link }
+[Tell me what you're working on](mailto:glen.w.wright@gmail.com){: .contact-actions\_\_link }
 
-[Book a 30-minute call](https://meet.glenwright.earth/u/book/meeting){: .contact-actions__link }
+[Book a 30-minute call](https://meet.glenwright.earth/u/book/meeting){: .contact-actions\_\_link }
 
 </div>

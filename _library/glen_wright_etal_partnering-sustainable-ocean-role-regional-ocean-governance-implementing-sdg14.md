@@ -1,10 +1,10 @@
 ---
 layout: library-item
-title: 'Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance
-  in Implementing SDG14'
-date: '2017-01-01'
+title: "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance
+  in Implementing SDG14"
+date: "2017-01-01"
 entry_type: Report
-year: '2017'
+year: "2017"
 bibtex_key: Iddri2017
 is_event: false
 description: This report highlights the relevance of regional ocean governance (ROG)
@@ -22,80 +22,80 @@ abstract: This report highlights the relevance of regional ocean governance (ROG
   approaches can make to some of the overarching challenges of the 2030 Agenda, including
   capacity development, institutional transformation, and sustainable financing.
 tags:
-- governance
-- fisheries
-- bbnj
-- not undermine
-- cited-by:glen-strong-high-seas
-- ifb
-- oa:unknown
-- source:glen-7pubs-refs
-- type:grey
-- author:glen wright
-- mesopelagic
-- baseline-cites
-- from-iass-2021
+  - governance
+  - fisheries
+  - bbnj
+  - not undermine
+  - cited-by:glen-strong-high-seas
+  - ifb
+  - oa:unknown
+  - source:glen-7pubs-refs
+  - type:grey
+  - author:glen wright
+  - mesopelagic
+  - baseline-cites
+  - from-iass-2021
 categories:
-- other
-- governance
+  - other
+  - governance
 authors:
-- Glen Wright
-- Stefanie Schmidt
-- Julien Rochette
-- Janna Jana Shackeroff
-- Sebastian Unger
-- Yvonne Waweru
-- Alexander Muller
+  - Glen Wright
+  - Stefanie Schmidt
+  - Julien Rochette
+  - Janna Jana Shackeroff
+  - Sebastian Unger
+  - Yvonne Waweru
+  - Alexander Muller
 venue: International Oceans Institute
 institution: International Oceans Institute
 role: lead author
 preview: glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14
 gallery:
-- glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_photo_01
+  - glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_photo_01
 pdf: glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14.pdf
 agenda: glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_agenda.pdf
 slides: glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_slides.pdf
 url: https://www.iddri.org/en/publications-and-events/report/partnering-sustainable-ocean-role-regional-ocean-governance
 doi: https://doi.org/10.2312/iass.2017.011
-pages: '80'
+pages: "80"
 resources:
-- kind: pdf
-  title: 'Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance
-    in Implementing SDG14'
-  label: View report PDF
-  url: /assets/pdf/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: agenda
-  title: Conference agenda
-  label: View conference programme
-  url: /assets/pdf/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_agenda.pdf
-  format: PDF
-  local: true
-  external: false
-- kind: slides
-  title: Presentation slides
-  label: View presentation
-  url: /assets/pdf/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_slides.pdf
-  format: PDF
-  local: true
-  external: false
-- kind: landing
-  title: Visit International Oceans Institute publication page
-  label: Visit International Oceans Institute publication page
-  url: https://www.iddri.org/en/publications-and-events/report/partnering-sustainable-ocean-role-regional-ocean-governance
-  format: Web
-  local: false
-  external: true
-- kind: landing
-  title: DOI
-  label: View DOI
-  url: https://doi.org/10.2312/iass.2017.011
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance
+      in Implementing SDG14"
+    label: View report PDF
+    url: /assets/pdf/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: agenda
+    title: Conference agenda
+    label: View conference programme
+    url: /assets/pdf/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_agenda.pdf
+    format: PDF
+    local: true
+    external: false
+  - kind: slides
+    title: Presentation slides
+    label: View presentation
+    url: /assets/pdf/glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_slides.pdf
+    format: PDF
+    local: true
+    external: false
+  - kind: landing
+    title: Visit International Oceans Institute publication page
+    label: Visit International Oceans Institute publication page
+    url: https://www.iddri.org/en/publications-and-events/report/partnering-sustainable-ocean-role-regional-ocean-governance
+    format: Web
+    local: false
+    external: true
+  - kind: landing
+    title: DOI
+    label: View DOI
+    url: https://doi.org/10.2312/iass.2017.011
+    format: Web
+    local: false
+    external: true
 ---
 
 ## Notes

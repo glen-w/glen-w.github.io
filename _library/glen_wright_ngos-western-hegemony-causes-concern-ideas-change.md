@@ -1,9 +1,9 @@
 ---
 layout: library-item
-title: 'NGOs and Western hegemony: causes for concern and ideas for change'
-date: '2012-01-01'
+title: "NGOs and Western hegemony: causes for concern and ideas for change"
+date: "2012-01-01"
 entry_type: Journal article
-year: '2012'
+year: "2012"
 bibtex_key: Wright2012c
 is_event: false
 description: Since their rise to prominence in the post-World War II period, NGOs
@@ -23,9 +23,9 @@ abstract: Since their rise to prominence in the post-World War II period, NGOs h
   promotion of Western hegemony in the developing world and presents some ideas for
   change.
 categories:
-- other
+  - other
 authors:
-- Glen Wright
+  - Glen Wright
 venue: Development in Practice
 role: author
 preview: glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change
@@ -33,23 +33,22 @@ pdf: glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change.pdf
 url: https://doi.org/10.1080/09614524.2012.634230
 doi: https://doi.org/10.1080/09614524.2012.634230
 pages: 123--134
-volume: '22'
-number: '1'
+volume: "22"
+number: "1"
 resources:
-- kind: pdf
-  title: 'NGOs and Western hegemony: causes for concern and ideas for change'
-  label: View primary document
-  url: /assets/pdf/glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change.pdf
-  format: PDF
-  local: true
-  external: false
-  primary: true
-- kind: landing
-  title: DOI
-  label: View DOI
-  url: https://doi.org/10.1080/09614524.2012.634230
-  format: Web
-  local: false
-  external: true
+  - kind: pdf
+    title: "NGOs and Western hegemony: causes for concern and ideas for change"
+    label: View primary document
+    url: /assets/pdf/glen_wright_2012_ngos_western_hegemony_causes_concern_ideas_change.pdf
+    format: PDF
+    local: true
+    external: false
+    primary: true
+  - kind: landing
+    title: DOI
+    label: View DOI
+    url: https://doi.org/10.1080/09614524.2012.634230
+    format: Web
+    local: false
+    external: true
 ---
-
