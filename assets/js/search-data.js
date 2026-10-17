@@ -3113,8 +3113,8 @@ ninja.data = [{
           section: "Library",handler: () => {
               window.location.href = "/library/workshop-linking-global-regional-levels-management-marine-areas-beyond-national-jurisdiction/";
             },},{id: "library-1ere-reunion-du-groupe-de-reflexion-et-de-travail-sur-la-gouvernance-de-la-haute-mer",
-          title: '1ere reunion du groupe de reflexion et de travail sur la gouvernance de...',
-          description: "1ere reunion du groupe de reflexion et de travail sur la gouvernance de la haute mer",
+          title: '1ere Reunion DU Groupe DE Reflexion ET DE Travail Sur LA Gouvernance DE...',
+          description: "1ere Reunion DU Groupe DE Reflexion ET DE Travail Sur LA Gouvernance DE LA Haute Mer",
           section: "Library",handler: () => {
               window.location.href = "/library/1ere-reunion-du-groupe-de-reflexion-et-de-travail-sur-la-gouvernance-de-la-haute-mer/";
             },},{id: "library-atelier-littocean-pour-des-espaces-maritimes-equitables-les-energies-marines-renouvelables-illusion-ou-realite",
@@ -3137,6 +3137,11 @@ ninja.data = [{
           description: "Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction: Preparing for the PrepCom",
           section: "Library",handler: () => {
               window.location.href = "/library/conservation-sustainable-use-marine-biological-diversity-areas-beyond-national-jurisdiction-preparing-prepcom/";
+            },},{id: "library-environmental-impact-assessment-developing-options-for-abnj",
+          title: 'Environmental Impact Assessment: Developing options for ABNJ',
+          description: "Environmental Impact Assessment: Developing options for ABNJ",
+          section: "Library",handler: () => {
+              window.location.href = "/library/environmental-impact-assessment-developing-options-abnj/";
             },},{id: "library-first-session-of-the-preparatory-committee-established-by-the-un-general-assembly-resolution-69-292-development-of-an-international-legally-binding-instrument-under-the-united-nations-convention-on-the-law-of-the-sea-on-the-conservation-and-sustainable-use-of-marine-biological-diversity-of-areas-beyond-national-jurisdiction",
           title: 'First Session of the Preparatory Committee Established by the UN General Assembly Resolution...',
           description: "First Session of the Preparatory Committee Established by the UN General Assembly Resolution 69/292 “Development of an International Legally Binding Instrument under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction”",
@@ -3152,11 +3157,6 @@ ninja.data = [{
           description: "Seeking to fill the gaps in the international legal framework for ocean governance, States gathered at the UN headquarters in New York (26 August-9 September) to discuss elements of an agreement on the conservation and sustainable use of biodiversity in areas beyond national…",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-cautious-steps-towards-new-high-seas-agreement/";
-            },},{id: "library-environmental-impact-assessment-developing-options-for-abnj",
-          title: 'Environmental Impact Assessment: Developing options for ABNJ',
-          description: "Environmental Impact Assessment: Developing options for ABNJ",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-environmental-impact-assessment-developing-options-abnj/";
             },},{id: "library-environmental-impact-assessment-and-overarching-provisions",
           title: 'Environmental Impact Assessment and Overarching Provisions',
           description: "Environmental Impact Assessment and Overarching Provisions",
@@ -3173,7 +3173,7 @@ ninja.data = [{
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-establishing-legal-research-agenda-ocean-energy/";
             },},{id: "library-high-seas-fisheries-what-role-for-a-new-international-instrument",
-          title: 'high seas fisheries: what role for a new international instrument?',
+          title: 'High Seas Fisheries: What Role for a New International Instrument?',
           description: "States are currently discussing the development of a new international legally binding instrument (ILBI) on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction (ABNJ).",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-high-seas-fisheries-what-role-new-international-instrument/";
@@ -3287,6 +3287,11 @@ ninja.data = [{
           description: "Un rendez-vous historique pour proteger la haute mer des convoitises",
           section: "Library",handler: () => {
               window.location.href = "/library/un-rendez-vous-historique-pour-proteger-la-haute-mer-des-convoitises/";
+            },},{id: "library-environmental-impact-assessment-developing-options-for-abnj",
+          title: 'Environmental Impact Assessment: Developing options for ABNJ',
+          description: "Environmental Impact Assessment: Developing options for ABNJ",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-environmental-impact-assessment-developing-options-abnj/";
             },},{id: "library-2nd-international-conference-on-marine-maritime-spatial-planning",
           title: '2nd International Conference on Marine/Maritime Spatial Planning',
           description: "2nd International Conference on Marine/Maritime Spatial Planning",
@@ -3644,7 +3649,7 @@ ninja.data = [{
               window.location.href = "/library/high-seas-fish-biodiversity-slipping-governance-net/";
             },},{id: "library-the-high-seas-how-can-we-govern-half-of-the-planet-for-the-benefit-of-all-the-world-s-people",
           title: 'The high seas: how can we govern half of the planet for the...',
-          description: "The high seas: how can we govern half of the  planet for the benefit of all the world’s people?",
+          description: "The high seas: how can we govern half of the planet for the benefit of all the world’s people?",
           section: "Library",handler: () => {
               window.location.href = "/library/high-seas-how-govern-half-planet-benefit-worlds-people/";
             },},{id: "library-keeping-an-eye-on-the-high-seas-strengthening-monitoring-control-and-surveillance-through-a-new-marine-biodiversity-treaty",
@@ -3734,7 +3739,7 @@ ninja.data = [{
               window.location.href = "/library/glen-wright-area-based-management-tools-including-marine-protected-areas/";
             },},{id: "library-fishing-in-the-twilight-zone-illuminating-governance-challenges-at-the-next-fisheries-frontier",
           title: 'Fishing in the Twilight Zone: Illuminating governance challenges at the next fisheries frontier...',
-          description: "Fishing in the Twilight Zone: Illuminating governance challenges at the next fisheries frontier",
+          description: "The mesopelagic, or &quot;twilight zone&quot; - the waters of the open ocean at a depth of approximately 150-1, 000 metres - hosts significant fish stocks. These fish are unpalatable but proposals are emerging to process them into fishmeal and nutritional supplements.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/";
             },},{id: "library-the-ocean-39-s-quot-twilight-zone-quot-climate-risks-at-the-next-fisheries-frontier",
@@ -3879,7 +3884,7 @@ ninja.data = [{
               window.location.href = "/library/role-regional-cooperation-efforts-high-seas-southeast-pacific/";
             },},{id: "library-strengthening-high-seas-governance-through-enhanced-environmental-assessment-processes-a-case-study-of-mesopelagic-fisheries-and-options-for-a-future-bbnj-treaty",
           title: 'Strengthening high seas governance through enhanced environmental assessment processes: A case study of...',
-          description: "This report explores the challenges of addressing emerging activities in areas beyond national jurisdiction (ABNJ) through a case study - a hypothetical proposal to develop commercial fisheries in the mesopelagic zone.",
+          description: "This report explores the challenges of address-ing emerging activities in areas beyond national jurisdiction (ABNJ) through a case study - a hy-pothetical proposal to develop commercial fish-eries in the mesopelagic zone.",
           section: "Library",handler: () => {
               window.location.href = "/library/strengthening-high-seas-governance-enhanced-environmental-assessment-processes-case-mesopelagic-fisheries-options-future-bbnj-treaty/";
             },},{id: "library-toward-a-strategic-action-roadmap-on-oceans-and-climate-2016-to-2021",
@@ -4184,7 +4189,7 @@ ninja.data = [{
               window.location.href = "/library/dark-frontier-unlocking-secrets-deep-sea/";
             },},{id: "library-european-society-for-ecological-economics-16th-annual-conference",
           title: 'European Society for Ecological Economics 16th annual conference',
-          description: "European Society for Ecological Economics 16th annual conference",
+          description: "The title of the conference is “Looking for (the) Just Judges – Promoting Sustainable and Inclusive Well-Being in Turbulent Times” referencing to the missing panel in the alterpiece of the Saint Bavo cathedral in Ghent.The conference brings together ecological economists from…",
           section: "Library",handler: () => {
               window.location.href = "/library/european-society-ecological-economics-16th-annual-conference/";
             },},{id: "library-foro-social-mas-alla-del-crecimiento",
@@ -4198,8 +4203,8 @@ ninja.data = [{
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-denmark-how-long-term-policy-system-integration-public-participation-driving-denmarks-renewables-based-economy/";
             },},{id: "library-paris-basketball-vision-2030-stakeholder-workshop",
-          title: 'Paris Basketball - Vision 2030 Stakeholder Workshop',
-          description: "Paris Basketball - Vision 2030 Stakeholder Workshop",
+          title: 'Paris Basketball: Vision 2030 Stakeholder Workshop',
+          description: "When Paris Basketball needed a more engaging way to consult with stakeholders on their 2030 Vision process, I created an interactive basketball-themed workshop, including fun group exercises and guidance notes for facilitators.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-paris-basketball-vision-2030-stakeholder-workshop/";
             },},{id: "library-putting-it-into-practice-a-demonstration-of-the-bbnj-clearing-house-mechanism",
@@ -4214,7 +4219,7 @@ ninja.data = [{
               window.location.href = "/library/le-traite-sur-la-protection-de-la-biodiversite-en-haute-mer-entre-en-vigueur/";
             },},{id: "library-neptune-forum",
           title: 'Neptune Forum',
-          description: "Neptune Forum",
+          description: "Convening in Paris one year after UNOC3 in Nice, on the occasion of the United Nations World Ocean Day, the Neptune Forum is a high-level global gathering organised by Mission Neptune.Conceived as a &#39;Davos of Ocean Exploration&#39;, it invites leaders, heads of scientific…",
           section: "Library",handler: () => {
               window.location.href = "/library/neptune-forum/";
             },},{id: "library-reimagining-paris-sufficiency-in-practice",
@@ -4229,7 +4234,7 @@ ninja.data = [{
               window.location.href = "/library/renewables-based-economy-tracker-2026-how-renewables-transforming-economies-societies/";
             },},{id: "library-sufficiency-the-backbone-of-eu-strategic-autonomy",
           title: 'Sufficiency: The Backbone of EU Strategic Autonomy',
-          description: "Sufficiency: The Backbone of EU Strategic Autonomy",
+          description: "Sufficiency is neither an environmental concession nor an economic constraint. It is the precondition for genuine European strategic autonomy in an era of contested globalisation, weaponised interdependence, and accelerating resource competition.Every unit of energy and every…",
           section: "Library",handler: () => {
               window.location.href = "/library/sufficiency-backbone-eu-strategic-autonomy/";
             },},{id: "library-writing-workshop-from-policy-brief-to-publishable-paper",

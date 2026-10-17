@@ -44,11 +44,11 @@
               e.preventDefault();
               e.stopPropagation();
               const galleryImagesList = contentImageList.map(function(galleryImg) {
-                return { src: galleryImg.src, alt: galleryImg.alt || "The high seas: how can we govern half of the  planet for the benefit of all the world’s people?" };
+                return { src: galleryImg.src, alt: galleryImg.alt || "The high seas: how can we govern half of the planet for the benefit of all the world’s people?" };
               });
               const currentIndex = contentImageList.indexOf(img);
               if (typeof openImageModal === 'function') {
-                openImageModal(img.src, img.alt || "The high seas: how can we govern half of the  planet for the benefit of all the world’s people?", galleryImagesList, currentIndex);
+                openImageModal(img.src, img.alt || "The high seas: how can we govern half of the planet for the benefit of all the world’s people?", galleryImagesList, currentIndex);
               }
             });
           });
