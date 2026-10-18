@@ -300,7 +300,6 @@
       "video": "https://www.youtube.com/watch?v=iMmbqMbH8go",
       "flags": [
         "abs",
-        "video",
         "speakers"
       ],
       "info": "/library/renewables-nature-integrating-biodiversity-communities-energy-policy/"
@@ -339,8 +338,7 @@
         "https://www.unep.org/news-and-stories/press-release/buildings-and-climate-global-forum-declaration-de-chaillot"
       ],
       "flags": [
-        "abs",
-        "video"
+        "abs"
       ],
       "info": "/library/buildings-climate-global-forum/"
     },
@@ -394,7 +392,6 @@
       "video": "https://www.youtube.com/watch?v=1G8-Qm1J8SU",
       "agenda": "/assets/pdf/2024_how_protect_ocean_b_agenda.pdf",
       "flags": [
-        "video",
         "speakers",
         "quotes"
       ],
@@ -615,9 +612,6 @@
       "thumb": "/assets/img/publication_preview/glen_wright_2023_environmental_impact_assessments_high_seas-480.webp",
       "pdf": "/assets/pdf/glen_wright_2023_environmental_impact_assessments_high_seas.pdf",
       "video": "https://www.youtube.com/watch?v=BmQHtQYfhQg",
-      "flags": [
-        "video"
-      ],
       "info": "/library/glen-wright-environmental-impact-assessments-high-seas/"
     },
     {
@@ -673,7 +667,6 @@
       "video": "https://www.youtube.com/watch?v=BmQHtQYfhQg",
       "agenda": "/assets/pdf/2023_high_seas_treaty_preliminary_analysis_implementation_challenges_agenda.pdf",
       "flags": [
-        "video",
         "speakers"
       ],
       "info": "/library/high-seas-treaty-preliminary-analysis-implementation-challenges/"
@@ -769,7 +762,6 @@
       "video": "https://www.youtube.com/watch?v=Sfz-xy6UgAQ",
       "agenda": "/assets/pdf/2023_post_2020_global_biodiversity_framework_whats_next_ocean_agenda.pdf",
       "flags": [
-        "video",
         "speakers"
       ],
       "info": "/library/post-2020-global-biodiversity-framework-whats-next-ocean/"
@@ -802,7 +794,8 @@
       "pdf": "/assets/pdf/2023_resumed_fifth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_c.pdf",
       "url": "https://www.un.org/bbnj/fifth_substantive_session",
       "flags": [
-        "photos"
+        "photos",
+        "video"
       ]
     },
     {
@@ -861,6 +854,27 @@
         "abs"
       ],
       "info": "/library/traite-sur-la-haute-mer-qui-appartiennent-les-ressources-de-locean/"
+    },
+    {
+      "id": "teamTweetingBiodiversityNational",
+      "title": "Tweeting Biodiversity Beyond National Jurisdiction (#BBNJ): the story of a hashtag - Maripoldata",
+      "year": 2023,
+      "type": "Blog",
+      "month": 1,
+      "roles": [
+        "co-author"
+      ],
+      "authors": "Arne Langlet, Paul Dunshirn, and Glen Wright",
+      "authorsHtml": "Arne Langlet, Paul Dunshirn, and <em>Glen Wright</em>",
+      "venue": "MARIPOLDATA",
+      "thumb": "/assets/img/publication_preview/2023_tweeting_biodiversity_beyond_national_jurisdiction_bbnj_story_hashtag_maripoldata-480.webp",
+      "pdf": "/assets/pdf/2023_tweeting_biodiversity_beyond_national_jurisdiction_bbnj_story_hashtag_maripoldata.pdf",
+      "url": "https://www.maripoldata.eu/bbnj-on-twitter/",
+      "flags": [
+        "photos",
+        "video"
+      ],
+      "info": "/library/tweeting-biodiversity-beyond-national-jurisdiction-bbnj-story-hashtag-maripoldata/"
     },
     {
       "id": "WorkshopSupplementaryIndicators2023",
@@ -1484,7 +1498,6 @@
       "agenda": "/assets/pdf/glen_wright_etal_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier_b_agenda.pdf",
       "flags": [
         "abs",
-        "video",
         "speakers"
       ],
       "info": "/library/glen-wright-etal-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/"
@@ -1545,7 +1558,6 @@
       "slides": "/assets/pdf/glen_wright_2020_marine_plastic_pollution_state_play_perspectives_slides.pdf",
       "flags": [
         "abs",
-        "video",
         "speakers"
       ],
       "info": "/library/glen-wright-marine-plastic-pollution-state-play-perspectives/"
@@ -1651,7 +1663,6 @@
       "agenda": "/assets/pdf/2020_strengthening_monitoring_control_surveillance_high_seas_treaty_agenda.pdf",
       "flags": [
         "abs",
-        "video",
         "speakers"
       ],
       "info": "/library/strengthening-monitoring-control-surveillance-high-seas-treaty/"

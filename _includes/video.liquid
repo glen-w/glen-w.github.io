@@ -1,9 +1,20 @@
 {% assign extension = include.path | split: '.' | last %}
+{% if include.cache_bust %}
+  {% assign video_src = include.path | relative_url | bust_file_cache %}
+{% else %}
+  {% assign video_src = include.path | relative_url %}
+{% endif %}
 
 <figure>
   {% if extension == 'mp4' or extension == 'webm' or extension == 'ogg' %}
     <video
-      src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
+      {% if include.lazy %}
+        data-src="{{ video_src }}"
+        preload="none"
+      {% else %}
+        src="{{ video_src }}"
+        preload="{{ include.preload | default: 'metadata' }}"
+      {% endif %}
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
@@ -50,7 +61,7 @@
       {% if include.poster %}
         poster="{{ include.poster }}"
       {% endif %}
-    />
+    ></video>
 
   {% else %}
     <iframe

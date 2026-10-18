@@ -103,6 +103,19 @@ class TestFileFieldParser:
         assert entry1.is_audio() is True
         assert entry2.is_audio() is True
         assert entry3.is_audio() is False
+
+    def test_file_entry_is_video(self, parser):
+        """Test FileEntry.is_video() method."""
+        entry1 = FileEntry("", "/path/to/clip.mp4", "video/mp4")
+        entry2 = FileEntry("", "/path/to/clip.webm", "")
+        entry3 = FileEntry("", "/path/to/audio.mp3", "audio/mpeg")
+        entry4 = FileEntry("", "/path/to/audio.m4a", "audio/mp4")
+
+        assert entry1.is_video() is True
+        assert entry2.is_video() is True
+        assert entry3.is_video() is False
+        assert entry4.is_video() is False
+        assert entry4.is_audio() is True
     
     def test_file_entry_is_thumbnail(self, parser):
         """Test FileEntry.is_thumbnail() method."""
@@ -186,6 +199,21 @@ class TestFileFieldParser:
         assert len(audio) == 2
         assert "/path/to/audio1.mp3" in audio
         assert "/path/to/audio2.wav" in audio
+
+    def test_extract_video(self, parser):
+        """Test extracting video files from file field."""
+        file_field = (
+            "clip:/path/to/a.mp4:video/mp4; "
+            "PDF:/path/to/file.pdf:application/pdf; "
+            "clip:/path/to/b.webm:video/webm; "
+            "audio:/path/to/audio.m4a:audio/mp4"
+        )
+        videos = parser.extract_video(file_field)
+
+        assert len(videos) == 2
+        assert "/path/to/a.mp4" in videos
+        assert "/path/to/b.webm" in videos
+        assert "/path/to/audio.m4a" not in videos
     
     def test_extract_agenda_pdfs(self, parser):
         """Test extracting agenda PDF files."""

@@ -203,6 +203,7 @@ class TestEntryProcessor:
              patch.object(entry_processor, '_process_slides_pdfs', return_value=True), \
              patch.object(entry_processor, '_process_images') as mock_images, \
              patch.object(entry_processor, '_process_audio_files', return_value=True), \
+             patch.object(entry_processor, '_process_video_files', return_value=True), \
              patch.object(entry_processor, '_process_thumbnails_with_priority') as mock_thumbnails, \
              patch.object(entry_processor, 'file_field_manager') as mock_manager, \
              patch.object(entry_processor, 'zip_archive_generator') as mock_zip:
@@ -211,6 +212,7 @@ class TestEntryProcessor:
             mock_bibtex.extract_agenda_pdfs.return_value = []
             mock_bibtex.extract_slides_pdfs.return_value = []
             mock_bibtex.extract_audio_files.return_value = []
+            mock_bibtex.extract_video_files.return_value = []
             mock_pdfs.return_value = True
             mock_images.return_value = True
             mock_thumbnails.return_value = True

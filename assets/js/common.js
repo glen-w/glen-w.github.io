@@ -69,8 +69,21 @@ $(document).ready(function () {
         ".abstract.hidden.open, .award.hidden.open, .bibtex.hidden.open, .quotes.hidden.open, .speakers.hidden.open, .audio.hidden.open, .figures.hidden.open, .photos.hidden.open, .documents.hidden.open, .gallery.hidden.open"
       )
       .removeClass("open");
-    // Toggle the video section
-    $(this).parent().parent().find(".video.hidden").toggleClass("open");
+    // Toggle the video section; hydrate lazy sources only when opening
+    const $panel = $(this).parent().parent().find(".video.hidden");
+    const willOpen = !$panel.hasClass("open");
+    if (willOpen) {
+      $panel.find("video[data-src]").each(function () {
+        if (!this.getAttribute("src")) {
+          this.setAttribute("src", this.getAttribute("data-src"));
+        }
+      });
+    } else {
+      $panel.find("video").each(function () {
+        this.pause();
+      });
+    }
+    $panel.toggleClass("open");
   });
   $("a.audio").click(function () {
     // Close all other sections in this item
@@ -83,6 +96,18 @@ $(document).ready(function () {
       .removeClass("open");
     // Toggle the audio section
     $(this).parent().parent().find(".audio.hidden").toggleClass("open");
+  });
+  // Pause local videos whenever another collapsible opens in the same entry
+  $(
+    "a.abstract, a.award, a.bibtex, a.quotes, a.speakers, a.audio, a.figures, a.photos, a.documents, a.gallery"
+  ).on("click", function () {
+    $(this)
+      .parent()
+      .parent()
+      .find(".video.hidden video")
+      .each(function () {
+        this.pause();
+      });
   });
   $("a.figures").click(function () {
     // Close all other sections in this item

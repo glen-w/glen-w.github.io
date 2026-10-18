@@ -102,11 +102,13 @@ class TestPaperProcessor:
             ['a.zip'],                        # ZIP_DIR
             ['img.jpg'],                      # IMAGES_DIR
             ['clip.mp3'],                     # AUDIO_DIR
+            ['clip.mp4', 'tutorial_al_folio.mp4'],  # VIDEO_DIR
         ]
         
         processor._cleanup_existing_files()
         
-        assert mock_remove.call_count == 7  # 2 PDFs + 2 thumbs + 1 zip + 1 image + 1 audio
+        # 2 PDFs + 2 thumbs + 1 zip + 1 image + 1 audio + 1 video (tutorial preserved)
+        assert mock_remove.call_count == 8
 
     @patch.object(PaperProcessor, '_read_bibtex_file')
     @patch.object(PaperProcessor, '_process_entries')

@@ -137,6 +137,16 @@ class ZipArchiveGenerator:
                         print(f"  ✅ Added to zip (audio): {filename}")
                     else:
                         print(f"  ⚠️  File not found for zip: {source_path}")
+
+                # Add video files to video/ folder
+                for filename in file_map.get('video', []):
+                    source_path = os.path.join(self.config.VIDEO_DIR, filename)
+                    if os.path.exists(source_path):
+                        zip_path_in_archive = os.path.join('video', filename)
+                        zipf.write(source_path, zip_path_in_archive)
+                        print(f"  ✅ Added to zip (video): {filename}")
+                    else:
+                        print(f"  ⚠️  File not found for zip: {source_path}")
             
             # Validate zip file was created
             if os.path.exists(zip_path) and os.path.getsize(zip_path) > 0:
@@ -200,7 +210,8 @@ class ZipArchiveGenerator:
                 'documents': [agenda_filename, slides_filename, ...],
                 'photos': [photo_filenames],
                 'figures': [figure_filenames],
-                'audio': [audio_filenames]
+                'audio': [audio_filenames],
+                'video': [video_filenames],
             }
         """
         file_map: Dict[str, List[str]] = {
@@ -208,7 +219,8 @@ class ZipArchiveGenerator:
             'documents': [],
             'photos': [],
             'figures': [],
-            'audio': []
+            'audio': [],
+            'video': [],
         }
         
         # Main PDF goes in root
@@ -234,10 +246,10 @@ class ZipArchiveGenerator:
             figures = [f.strip() for f in fields['figures'].split(',')]
             file_map['figures'].extend(figures)
         
-        # Audio files - need to extract from annote field
+        # Audio/video files - extract from annote field
         if 'annote' in fields and fields['annote']:
-            audio_files = self._extract_audio_from_annote(fields['annote'])
-            file_map['audio'].extend(audio_files)
+            file_map['audio'].extend(self._extract_audio_from_annote(fields['annote']))
+            file_map['video'].extend(self._extract_video_from_annote(fields['annote']))
         
         return file_map
     
@@ -280,6 +292,28 @@ class ZipArchiveGenerator:
                         audio_files.append(filename)
         
         return audio_files
+
+    def _extract_video_from_annote(self, annote: Optional[str]) -> List[str]:
+        """Extract local video filenames from the annote [video] section."""
+        video_files: List[str] = []
+        if not annote:
+            return video_files
+
+        in_video_section = False
+        for line in annote.split('\n'):
+            line = line.strip()
+            if line == '[video]':
+                in_video_section = True
+                continue
+            if in_video_section:
+                if not line or (line.startswith('[') and line.endswith(']')):
+                    break
+                if 'assets/video/' in line:
+                    filename = os.path.basename(line)
+                    if filename:
+                        video_files.append(filename)
+
+        return video_files
     
     def _find_existing_zip_for_base(self, base_filename: str) -> Optional[str]:
         """

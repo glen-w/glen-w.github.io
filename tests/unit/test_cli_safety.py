@@ -194,7 +194,8 @@ class TestForceAndRegenerate:
         zip_dir = tmp_path / 'zips'
         images_dir = tmp_path / 'images'
         audio_dir = tmp_path / 'audio'
-        for d in (pdf_dir, preview_dir, zip_dir, images_dir, audio_dir):
+        video_dir = tmp_path / 'video'
+        for d in (pdf_dir, preview_dir, zip_dir, images_dir, audio_dir, video_dir):
             d.mkdir()
 
         (pdf_dir / 'paper.pdf').write_text('x')
@@ -203,6 +204,9 @@ class TestForceAndRegenerate:
         (preview_dir / 'notes.md').write_text('keep')
         (zip_dir / 'a.zip').write_text('x')
         (zip_dir / 'readme.txt').write_text('keep')
+        (video_dir / 'clip.mp4').write_text('x')
+        (video_dir / 'tutorial_al_folio.mp4').write_text('keep')
+        (video_dir / 'notes.txt').write_text('keep')
 
         processor = PaperProcessor(config)
         processor.config.PDF_DIR = str(pdf_dir)
@@ -210,6 +214,7 @@ class TestForceAndRegenerate:
         processor.config.ZIP_DIR = str(zip_dir)
         processor.config.IMAGES_DIR = str(images_dir)
         processor.config.AUDIO_DIR = str(audio_dir)
+        processor.config.VIDEO_DIR = str(video_dir)
 
         processor._cleanup_existing_files()
 
@@ -219,6 +224,9 @@ class TestForceAndRegenerate:
         assert (preview_dir / 'notes.md').exists()
         assert not (zip_dir / 'a.zip').exists()
         assert (zip_dir / 'readme.txt').exists()
+        assert not (video_dir / 'clip.mp4').exists()
+        assert (video_dir / 'tutorial_al_folio.mp4').exists()
+        assert (video_dir / 'notes.txt').exists()
 
     def test_filename_collision_produces_unique_names(self, config):
         text_processor = TextProcessor(config)

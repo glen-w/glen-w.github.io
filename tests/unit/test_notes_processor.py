@@ -171,6 +171,39 @@ class TestNotesProcessor:
         assert fields['annote'].count('clip.mp3') == 1
         assert fields['annote'].count('[audio]') == 1
 
+    def test_add_video_preserves_remote_urls(self):
+        from processing.config import Configuration
+        from processing.core.entry_processor import EntryProcessor
+
+        ep = object.__new__(EntryProcessor)
+        ep.config = Configuration
+        fields = {
+            'annote': (
+                '[type]\nwebinar\n\n'
+                '[video]\nhttps://youtu.be/abc\nassets/video/old.mp4\n\n'
+                '[role]\nspeaker'
+            )
+        }
+        ep._add_video_to_annote(fields, ['assets/video/new.mp4'])
+        annote = fields['annote']
+        assert 'https://youtu.be/abc' in annote
+        assert 'assets/video/new.mp4' in annote
+        assert 'assets/video/old.mp4' not in annote
+        assert '[role]' in annote
+        assert annote.count('[video]') == 1
+
+    def test_add_video_reprocess_does_not_duplicate_paths(self):
+        from processing.config import Configuration
+        from processing.core.entry_processor import EntryProcessor
+
+        ep = object.__new__(EntryProcessor)
+        ep.config = Configuration
+        fields = {'annote': '[type]\npanel'}
+        ep._add_video_to_annote(fields, ['assets/video/clip.mp4'])
+        ep._add_video_to_annote(fields, ['assets/video/clip.mp4'])
+        assert fields['annote'].count('assets/video/clip.mp4') == 1
+        assert fields['annote'].count('[video]') == 1
+
     def test_other_links_set_url_when_missing(self, notes_processor):
         entry = {'ENTRYTYPE': 'misc'}
         notes = '[type]\nother\nhttps://example.com/page'

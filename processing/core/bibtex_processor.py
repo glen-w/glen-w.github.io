@@ -701,6 +701,10 @@ class BibTeXProcessor:
     def extract_audio_files(self, file_field: str) -> List[str]:
         """Extract audio file paths from a BibTeX file field."""
         return self.file_field_parser.extract_audio(file_field)
+
+    def extract_video_files(self, file_field: str) -> List[str]:
+        """Extract video file paths from a BibTeX file field."""
+        return self.file_field_parser.extract_video(file_field)
     
     def extract_slides_pdfs(self, file_field: str) -> List[str]:
         """Extract PDF files with 'slides' in filename or description."""

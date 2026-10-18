@@ -779,21 +779,32 @@
         </a>
       {% endif %}
 
-      <!-- Check for video in block_video (structured format from [video] section) OR legacy video field -->
+      <!-- Video: local attachments expand in-place; remote-only opens externally -->
       {% assign has_block_video = block_video | to_s | strip | size | plus: 0 %}
       {% assign has_video_field = entry.video | to_s | strip | size | plus: 0 %}
       {% assign has_video = false %}
+      {% assign has_local_video = false %}
       {% assign video_url = '' %}
       {% if has_block_video > 0 %}
         {% assign has_video = true %}
-        {% comment %}Extract first URL from video block{% endcomment %}
         {% assign video_with_br = block_video | newline_to_br %}
         {% assign video_lines = video_with_br | split: '<br />' %}
         {% for line in video_lines %}
           {% assign clean_line = line | strip %}
-          {% if clean_line != '' and (clean_line contains 'http' or clean_line contains 'www.') %}
-            {% assign video_url = clean_line %}
-            {% break %}
+          {% if clean_line != '' %}
+            {% assign clean_lower = clean_line | downcase %}
+            {% if clean_line contains 'http' or clean_line contains 'www.' %}
+              {% if video_url == '' %}
+                {% assign video_url = clean_line %}
+              {% endif %}
+            {% elsif clean_lower contains 'assets/video/'
+              or clean_lower contains '.mp4'
+              or clean_lower contains '.webm'
+              or clean_lower contains '.mov'
+              or clean_lower contains '.m4v'
+            %}
+              {% assign has_local_video = true %}
+            {% endif %}
           {% endif %}
         {% endfor %}
       {% elsif has_video_field > 0 %}
@@ -801,7 +812,11 @@
         {% assign video_url = entry.video %}
       {% endif %}
       {% if has_video %}
-        {% if video_url != '' %}
+        {% if has_local_video %}
+          <a class="video btn btn-sm z-depth-0" role="button" title="View video">
+            <i class="fa-solid fa-circle-play"></i>
+          </a>
+        {% elsif video_url != '' %}
           <a class="video btn btn-sm z-depth-0" href="{{ video_url }}" target="_blank" rel="noopener" title="View video">
             <i class="fa-solid fa-circle-play"></i>
           </a>
@@ -1152,41 +1167,82 @@
         </div>
       {% endif %}
 
-      <!-- Video from video field OR block_video -->
+      <!-- Video from video field OR block_video (local players + remote links) -->
       {% if has_video %}
         <div class="video hidden">
           <div class="video-label">Video:</div>
           <div class="video-embed">
-            {% assign has_video_field = entry.video | to_s | strip | size | plus: 0 %}
-            {% if has_video_field > 0 %}
-              {% if entry.video contains 'youtube' or entry.video contains 'youtu.be' %}
+            {% if has_local_video %}
+              {% assign video_with_br = block_video | newline_to_br %}
+              {% assign video_lines = video_with_br | split: '<br />' %}
+              {% for line in video_lines %}
+                {% assign clean_line = line | strip %}
+                {% if clean_line != '' %}
+                  {% assign clean_lower = clean_line | downcase %}
+                  {% if clean_line contains '://' %}
+                    <p>
+                      <a href="{{ clean_line }}" target="_blank" rel="noopener">
+                        <i class="fa-solid fa-play"></i>
+                        {{ clean_line }}
+                      </a>
+                    </p>
+                  {% elsif clean_lower contains 'assets/video/'
+                    or clean_lower contains '.mp4'
+                    or clean_lower contains '.webm'
+                    or clean_lower contains '.mov'
+                    or clean_lower contains '.m4v'
+                  %}
+                    {% assign video_path = clean_line %}
+                    {% unless video_path contains 'assets/' %}
+                      {% assign video_path = 'assets/video/' | append: video_path %}
+                    {% endunless %}
+                    <div class="video-item">
+                      {% include video.liquid path=video_path controls=true lazy=true %}
+                    </div>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              {% assign has_video_field = entry.video | to_s | strip | size | plus: 0 %}
+              {% if has_video_field > 0 %}
                 <p>
-                  <a href="{{ entry.video }}" target="_blank" rel="noopener"> <i class="fa-solid fa-play"></i> {{ entry.video }} </a>
-                </p>
-              {% else %}
-                <p>
-                  <a href="{{ entry.video }}" target="_blank" rel="noopener">{{ entry.video }}</a>
+                  <a href="{{ entry.video }}" target="_blank" rel="noopener">
+                    <i class="fa-solid fa-play"></i>
+                    {{ entry.video }}
+                  </a>
                 </p>
               {% endif %}
             {% else %}
-              {% assign has_block_video = block_video | to_s | strip | size | plus: 0 %}
-              {% if has_block_video > 0 %}
-                {% assign video_with_br = block_video | newline_to_br %}
-                {% assign video_lines = video_with_br | split: '<br />' %}
-                {% for line in video_lines %}
-                  {% assign clean_line = line | strip %}
-                  {% if clean_line != '' %}
-                    {% if clean_line contains 'youtube' or clean_line contains 'youtu.be' %}
-                      <p>
-                        <a href="{{ clean_line }}" target="_blank" rel="noopener"> <i class="fa-solid fa-play"></i> {{ clean_line }} </a>
-                      </p>
-                    {% else %}
-                      <p>
-                        <a href="{{ clean_line }}" target="_blank" rel="noopener">{{ clean_line }}</a>
-                      </p>
+              {% assign has_video_field = entry.video | to_s | strip | size | plus: 0 %}
+              {% if has_video_field > 0 %}
+                {% if entry.video contains 'youtube' or entry.video contains 'youtu.be' %}
+                  <p>
+                    <a href="{{ entry.video }}" target="_blank" rel="noopener"> <i class="fa-solid fa-play"></i> {{ entry.video }} </a>
+                  </p>
+                {% else %}
+                  <p>
+                    <a href="{{ entry.video }}" target="_blank" rel="noopener">{{ entry.video }}</a>
+                  </p>
+                {% endif %}
+              {% else %}
+                {% assign has_block_video = block_video | to_s | strip | size | plus: 0 %}
+                {% if has_block_video > 0 %}
+                  {% assign video_with_br = block_video | newline_to_br %}
+                  {% assign video_lines = video_with_br | split: '<br />' %}
+                  {% for line in video_lines %}
+                    {% assign clean_line = line | strip %}
+                    {% if clean_line != '' %}
+                      {% if clean_line contains 'youtube' or clean_line contains 'youtu.be' %}
+                        <p>
+                          <a href="{{ clean_line }}" target="_blank" rel="noopener"> <i class="fa-solid fa-play"></i> {{ clean_line }} </a>
+                        </p>
+                      {% else %}
+                        <p>
+                          <a href="{{ clean_line }}" target="_blank" rel="noopener">{{ clean_line }}</a>
+                        </p>
+                      {% endif %}
                     {% endif %}
-                  {% endif %}
-                {% endfor %}
+                  {% endfor %}
+                {% endif %}
               {% endif %}
             {% endif %}
           </div>

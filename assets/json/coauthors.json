@@ -5,7 +5,7 @@
       "id": "glen-wright",
       "name": "Glen Wright",
       "self": true,
-      "count": 92,
+      "count": 93,
       "firstYear": 2011,
       "lastYear": 2026
     },
@@ -213,6 +213,16 @@
       "scholar": "YO4zSwoAAAAJ"
     },
     {
+      "id": "arne-langlet",
+      "name": "Arne Langlet",
+      "self": false,
+      "count": 2,
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "orcid": "0000-0003-4193-6385",
+      "scholar": "5RkkrjIAAAAJ"
+    },
+    {
       "id": "clement-chazot",
       "name": "Clement Chazot",
       "self": false,
@@ -347,16 +357,6 @@
       "count": 1,
       "firstYear": 2019,
       "lastYear": 2019
-    },
-    {
-      "id": "arne-langlet",
-      "name": "Arne Langlet",
-      "self": false,
-      "count": 1,
-      "firstYear": 2023,
-      "lastYear": 2023,
-      "orcid": "0000-0003-4193-6385",
-      "scholar": "5RkkrjIAAAAJ"
     },
     {
       "id": "aulani-wilhelm",
@@ -775,6 +775,16 @@
       "orcid": "0000-0001-5845-3588",
       "url": "https://nicholas.duke.edu/people/faculty/halpin",
       "scholar": "5UZKY-oAAAAJ"
+    },
+    {
+      "id": "paul-dunshirn",
+      "name": "Paul Dunshirn",
+      "self": false,
+      "count": 1,
+      "firstYear": 2023,
+      "lastYear": 2023,
+      "orcid": "0000-0003-3101-4811",
+      "scholar": "TePpm0QAAAAJ"
     },
     {
       "id": "peggy-kalas",
@@ -1435,6 +1445,15 @@
       ]
     },
     {
+      "source": "arne-langlet",
+      "target": "glen-wright",
+      "count": 2,
+      "works": [
+        "wrightShipHasReached2023",
+        "teamTweetingBiodiversityNational"
+      ]
+    },
+    {
       "source": "ben-boteler",
       "target": "julien-rochette",
       "count": 2,
@@ -1795,7 +1814,7 @@
     },
     {
       "source": "arne-langlet",
-      "target": "glen-wright",
+      "target": "ina-tessnow-von-wysocki",
       "count": 1,
       "works": [
         "wrightShipHasReached2023"
@@ -1803,10 +1822,10 @@
     },
     {
       "source": "arne-langlet",
-      "target": "ina-tessnow-von-wysocki",
+      "target": "paul-dunshirn",
       "count": 1,
       "works": [
-        "wrightShipHasReached2023"
+        "teamTweetingBiodiversityNational"
       ]
     },
     {
@@ -2571,6 +2590,14 @@
     },
     {
       "source": "glen-wright",
+      "target": "paul-dunshirn",
+      "count": 1,
+      "works": [
+        "teamTweetingBiodiversityNational"
+      ]
+    },
+    {
+      "source": "glen-wright",
       "target": "peggy-kalas",
       "count": 1,
       "works": [
@@ -3146,6 +3173,12 @@
       "title": "The ship has reached the shore\": why the historic Agreement to protect the High Seas matters and what happens next",
       "year": 2023,
       "path": "/library/glen-wright-etal-the-ship-reached-shore-why-historic-agreement-protect-high-seas-matters-what-happens-next/"
+    },
+    {
+      "id": "teamTweetingBiodiversityNational",
+      "title": "Tweeting Biodiversity Beyond National Jurisdiction (#BBNJ): the story of a hashtag - Maripoldata",
+      "year": 2023,
+      "path": "/library/tweeting-biodiversity-beyond-national-jurisdiction-bbnj-story-hashtag-maripoldata/"
     },
     {
       "id": "Wright2022",

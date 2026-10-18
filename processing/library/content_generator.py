@@ -282,6 +282,26 @@ class ContentGenerator:
                 'external': True,
             })
 
+        for line in self._extract_annote_lines(entry, '[video]'):
+            text = self._strip_str(line)
+            if not text or '://' in text:
+                continue
+            lower = text.lower()
+            if not (lower.startswith('assets/video/') or lower.endswith(('.mp4', '.webm', '.mov', '.m4v'))):
+                continue
+            filename = os.path.basename(text)
+            resource = self._local_file_resource(
+                kind='video',
+                filename=filename,
+                directory=self.config.VIDEO_DIR,
+                url_prefix='/assets/video/',
+                title='Video',
+                label='Watch video',
+            )
+            if resource:
+                resource['format'] = 'Video'
+                candidates.append(resource)
+
         shop = self._strip_str(shop)
         if shop:
             candidates.append({

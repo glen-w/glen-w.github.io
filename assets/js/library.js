@@ -1,5 +1,5 @@
 (() => {
-  const EXPAND_FLAGS = new Set(["abs", "photos", "figures", "speakers", "quotes", "audio", "award"]);
+  const EXPAND_FLAGS = new Set(["abs", "photos", "figures", "speakers", "quotes", "audio", "video", "award"]);
   const VIZ_HASHES = new Set(["explore", "co-authors", "coauthors", "citations", "timeline"]);
   const FLAG_TO_PANEL = {
     abs: "abstract",
@@ -8,6 +8,7 @@
     speakers: "speakers",
     quotes: "quotes",
     audio: "audio",
+    video: "video",
     award: "award",
   };
 
@@ -483,7 +484,7 @@
     if (item.agenda) {
       links.appendChild(iconLink(item.agenda, "fa-file-lines", "View agenda"));
     }
-    if (item.video) {
+    if (item.video && !(item.flags || []).includes("video")) {
       links.appendChild(iconLink(item.video, "fa-circle-play", "View video"));
     }
     (item.links || []).forEach((href) => {
@@ -499,6 +500,7 @@
         speakers: ["fa-users", "View speakers"],
         quotes: ["fa-quote-left", "View quotes"],
         audio: ["fa-volume-high", "View audio"],
+        video: ["fa-circle-play", "View video"],
         award: ["fa-trophy", "View award"],
       };
       const [icon, label] = labels[flag];
@@ -665,6 +667,37 @@
         audio.src = src.startsWith("/") || src.includes("://") ? src : `/assets/audio/${src}`;
         wrapper.appendChild(audio);
       });
+    } else if (panel === "video") {
+      wrapper.innerHTML = `<div class="video-label">Video:</div>`;
+      (detail.videos || []).forEach((src) => {
+        const item = document.createElement("div");
+        item.className = "video-item";
+        const video = document.createElement("video");
+        video.controls = true;
+        video.preload = "none";
+        let href;
+        if (src.startsWith("/") || src.includes("://")) {
+          href = src;
+        } else if (src.startsWith("assets/")) {
+          href = `/${src}`;
+        } else {
+          href = `/assets/video/${src}`;
+        }
+        // Defer network until the panel is opened (togglePanel hydrates data-src)
+        video.dataset.src = href;
+        item.appendChild(video);
+        wrapper.appendChild(item);
+      });
+      (detail.videoLinks || []).forEach((href) => {
+        const p = document.createElement("p");
+        const a = document.createElement("a");
+        a.href = href;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.innerHTML = `<i class="fa-solid fa-play" aria-hidden="true"></i> ${href}`;
+        p.appendChild(a);
+        wrapper.appendChild(p);
+      });
     } else if (panel === "award") {
       wrapper.innerHTML = `<div class="award-label">Award:</div>`;
       const p = document.createElement("p");
@@ -677,11 +710,23 @@
 
   function togglePanel(card, panel, button) {
     card.querySelectorAll(".hidden.open").forEach((open) => {
-      if (!open.classList.contains(panel)) open.classList.remove("open");
+      if (!open.classList.contains(panel)) {
+        open.classList.remove("open");
+        open.querySelectorAll("video").forEach((video) => video.pause());
+      }
     });
     const target = card.querySelector(`.${panel}.hidden`);
     if (!target) return;
     const willOpen = !target.classList.contains("open");
+    if (willOpen) {
+      target.querySelectorAll("video[data-src]").forEach((video) => {
+        if (!video.getAttribute("src")) {
+          video.setAttribute("src", video.dataset.src);
+        }
+      });
+    } else {
+      target.querySelectorAll("video").forEach((video) => video.pause());
+    }
     target.classList.toggle("open", willOpen);
     button.setAttribute("aria-expanded", willOpen ? "true" : "false");
     card.querySelectorAll("[data-expand]").forEach((other) => {

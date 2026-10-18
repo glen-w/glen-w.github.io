@@ -102,9 +102,9 @@ class CatalogGenerator:
         url = self._http_url(links.get("url"))
         doi = self._doi_url(links.get("doi") or entry.get("doi"))
         shop = self._http_url(self.content_generator.shop_url(entry))
-        video = self._http_url(links.get("video")) or self._first_http(
-            self._annote_lines(entry, "[video]")
-        )
+        video_lines = self._annote_lines(entry, "[video]")
+        local_videos = self._local_video_paths(video_lines)
+        video = self._http_url(links.get("video")) or self._first_http(video_lines)
         slides = self._asset_url(links.get("slides"), PDF_PREFIX)
         agenda = self._asset_url(links.get("agenda"), PDF_PREFIX)
 
@@ -138,7 +138,8 @@ class CatalogGenerator:
             flags.append("photos")
         if figures:
             flags.append("figures")
-        if video:
+        # Expandable panel for local MP4/etc.; remote-only stays a link via item.video
+        if local_videos:
             flags.append("video")
         if speakers:
             flags.append("speakers")
@@ -178,7 +179,8 @@ class CatalogGenerator:
             item["shop"] = shop
         if doi:
             item["doi"] = doi
-        if video:
+        # Remote video link only when there is no local file panel
+        if video and not local_videos:
             item["video"] = video
         if slides:
             item["slides"] = slides
@@ -208,6 +210,10 @@ class CatalogGenerator:
             detail["quotes"] = quotes
         if audio:
             detail["audio"] = audio
+        if local_videos:
+            detail["videos"] = local_videos
+            if video:
+                detail["videoLinks"] = [video]
         if award:
             detail["award"] = award
         if len(authors) > MAX_AUTHOR_LIMIT:
@@ -677,6 +683,22 @@ class CatalogGenerator:
         if text.startswith("http://") or text.startswith("https://") or text.startswith("/"):
             return text
         return None
+
+    @staticmethod
+    def _local_video_paths(lines: List[str]) -> List[str]:
+        """Return site-relative local video asset paths from a [video] section."""
+        local: List[str] = []
+        video_exts = (".mp4", ".webm", ".mov", ".m4v")
+        for line in lines:
+            text = str(line).strip()
+            if not text or "://" in text:
+                continue
+            lower = text.lower()
+            if lower.startswith("assets/video/") or lower.endswith(video_exts):
+                if not text.startswith("/") and not text.startswith("assets/"):
+                    text = f"assets/video/{os.path.basename(text)}"
+                local.append(text)
+        return local
 
     @staticmethod
     def _first_http(lines: List[str]) -> Optional[str]:

@@ -220,6 +220,23 @@ class PaperProcessor:
             deleted_counts['audio'] = count
             if count > 0:
                 print(f"  🗑️  Deleted {count} audio files from {self.config.AUDIO_DIR}")
+
+        # Clean up video files (site-managed copies; keep unrelated assets untouched by extension)
+        if os.path.exists(self.config.VIDEO_DIR):
+            count = 0
+            for file in os.listdir(self.config.VIDEO_DIR):
+                if any(file.lower().endswith(ext) for ext in self.config.VIDEO_EXTENSIONS):
+                    # Preserve template / non-library demo clips
+                    if file in ('tutorial_al_folio.mp4',):
+                        continue
+                    try:
+                        os.remove(os.path.join(self.config.VIDEO_DIR, file))
+                        count += 1
+                    except Exception as e:
+                        print(f"  ⚠️  Could not delete video {file}: {e}")
+            deleted_counts['video'] = count
+            if count > 0:
+                print(f"  🗑️  Deleted {count} video files from {self.config.VIDEO_DIR}")
         
         total_deleted = sum(deleted_counts.values())
         if total_deleted > 0:
@@ -540,7 +557,7 @@ class PaperProcessor:
         if 'preview' in fields or 'pdf' in fields or 'photos' in fields or 'figures' in fields:
             before_brace = self._clean_file_field_in_content(before_brace, fields)
         
-        # Update annote field if it was modified (e.g., by audio processing)
+        # Update annote field if it was modified (e.g., by audio/video processing)
         if 'annote' in fields and fields['annote']:
             # Replace existing annote field or add new one
             annote_pattern = r'annote\s*=\s*\{[^}]*\}'

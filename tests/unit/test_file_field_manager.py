@@ -170,3 +170,23 @@ class TestFileFieldManager:
         result = manager.remove_audio(file_field)
         
         assert result == ""
+
+    def test_remove_video_keeps_other_files(self, manager):
+        """Test that remove_video keeps non-video files."""
+        file_field = (
+            "PDF:/path/to/file.pdf:application/pdf; "
+            "clip:/path/to/clip.mp4:video/mp4; "
+            "audio:/path/to/audio.mp3:audio/mpeg"
+        )
+        result = manager.remove_video(file_field)
+
+        assert "PDF:/path/to/file.pdf:application/pdf" in result
+        assert "audio:/path/to/audio.mp3:audio/mpeg" in result
+        assert "clip.mp4" not in result
+
+    def test_remove_video_returns_empty_when_all_removed(self, manager):
+        """Test that remove_video returns empty string when all entries are video."""
+        file_field = "clip:/path/to/a.mp4:video/mp4; clip:/path/to/b.webm:video/webm"
+        result = manager.remove_video(file_field)
+
+        assert result == ""

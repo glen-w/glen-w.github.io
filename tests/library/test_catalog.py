@@ -179,8 +179,25 @@ class TestCatalogBuild:
         assert item["roles"] == ["facilitator", "speaker"]
         assert "authors" not in item
         assert item["video"] == "https://youtu.be/abc"
-        assert "video" in item["flags"]
+        # Remote-only video is a link, not an expandable panel flag
+        assert "video" not in item.get("flags", [])
         assert "speakers" not in item.get("flags", [])
+
+    def test_local_video_attachment_expands(self, generator):
+        entry = _entry(
+            ID="LocalVideo",
+            author="",
+            ENTRYTYPE="misc",
+            annote=(
+                "[type]\nwebinar\n"
+                "[video]\nhttps://youtu.be/abc\nassets/video/clip.mp4"
+            ),
+        )
+        item, detail = generator.build_item(entry)
+        assert "video" in item["flags"]
+        assert "video" not in item  # panel instead of outbound link
+        assert detail["videos"] == ["assets/video/clip.mp4"]
+        assert detail["videoLinks"] == ["https://youtu.be/abc"]
 
     def test_language_and_odd_type(self, generator):
         entry = _entry(

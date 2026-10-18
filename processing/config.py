@@ -38,12 +38,14 @@ class Configuration:
     PREVIEW_DIR = str(_root / "assets" / "img" / "publication_preview")
     IMAGES_DIR = str(_root / "assets" / "img" / "publications")
     AUDIO_DIR = str(_root / "assets" / "audio")
+    VIDEO_DIR = str(_root / "assets" / "video")
     ZIP_DIR = str(_root / "assets" / "zips")
     
     # File extensions
     PDF_EXTENSIONS = ['.pdf']
     IMAGE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.gif']
     PREVIEW_EXTENSIONS = ['.jpeg', '.jpg']
+    VIDEO_EXTENSIONS = ['.mp4', '.webm', '.mov', '.m4v']
     
     # API settings
     SEMANTIC_SCHOLAR_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
@@ -157,7 +159,10 @@ class Configuration:
     @classmethod
     def ensure_directories_exist(cls) -> None:
         """Ensure all required directories exist."""
-        directories = [cls.PDF_DIR, cls.PREVIEW_DIR, cls.IMAGES_DIR, cls.AUDIO_DIR, cls.ZIP_DIR]
+        directories = [
+            cls.PDF_DIR, cls.PREVIEW_DIR, cls.IMAGES_DIR,
+            cls.AUDIO_DIR, cls.VIDEO_DIR, cls.ZIP_DIR,
+        ]
         for directory in directories:
             os.makedirs(directory, exist_ok=True)
     

@@ -1199,6 +1199,10 @@
         "src": "/assets/img/publications/resumed_fifth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_photo_12.png",
         "alt": "Photo"
       }
+    ],
+    "videos": [
+      "assets/video/2023-03-04 21.37.50.mp4",
+      "assets/video/PXL_20230305_022724535.mp4"
     ]
   },
   "MarineRegionsForum30": {
@@ -1420,6 +1424,21 @@
         "src": "/assets/img/publications/glen_wright_2026_putting_practice_demonstration_bbnj_clearing_house_mechanism_photo_05.jpg",
         "alt": "Photo"
       }
+    ]
+  },
+  "teamTweetingBiodiversityNational": {
+    "photos": [
+      {
+        "src": "/assets/img/publications/tweeting_biodiversity_beyond_national_jurisdiction_bbnj_story_hashtag_maripoldata_photo_01.png",
+        "alt": "Photo"
+      },
+      {
+        "src": "/assets/img/publications/tweeting_biodiversity_beyond_national_jurisdiction_bbnj_story_hashtag_maripoldata_photo_02.png",
+        "alt": "Photo"
+      }
+    ],
+    "videos": [
+      "assets/video/BBNJ-twitter-network.mp4"
     ]
   }
 }

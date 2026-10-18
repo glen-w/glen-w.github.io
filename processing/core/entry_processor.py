@@ -162,6 +162,7 @@ class EntryProcessor:
         slides_paths = self.bibtex_processor.extract_slides_pdfs(fields['file'])
         image_paths = self.bibtex_processor.extract_image_files(fields['file'])
         audio_paths = self.bibtex_processor.extract_audio_files(fields['file'])
+        video_paths = self.bibtex_processor.extract_video_files(fields['file'])
         
         # Remove agenda and slides PDFs from regular PDF list to avoid double processing
         regular_pdf_paths = [p for p in all_pdf_paths if p not in agenda_paths and p not in slides_paths]
@@ -191,20 +192,32 @@ class EntryProcessor:
         # Clean file field to remove audio entries if audio files were processed
         if audio_success and audio_paths:
             fields['file'] = self.file_field_manager.remove_audio(fields['file'])
+
+        # Process video files (e.g. Zotero MP4 attachments)
+        video_success = self._process_video_files(citation_key, fields, video_paths, regenerate, force, verbose)
+
+        if video_success and video_paths:
+            fields['file'] = self.file_field_manager.remove_video(fields['file'])
         
         # Process thumbnails with priority logic
         thumbnail_success = self._process_thumbnails_with_priority(citation_key, fields,
                                                                   regenerate, force, thumbnail_size, verbose)
         
-        # Clean file field to remove all processed files (PDFs, images, thumbnails, audio)
+        # Clean file field to remove all processed files (PDFs, images, thumbnails, audio, video)
         # Only keep the file field if there are unprocessed files
-        if pdf_success or agenda_success or slides_success or image_success or audio_success or thumbnail_success:
+        if (
+            pdf_success or agenda_success or slides_success or image_success
+            or audio_success or video_success or thumbnail_success
+        ):
             fields['file'] = self.file_field_manager.replace_with_processed(fields['file'], fields)
         
         # Create zip archive if entry has been successfully processed
         # Only create zip if there are files to archive (pdf/slides and/or images)
         # Zip is only created when there are more than 3 attached PDFs/images/audio etc.
-        has_files = (pdf_success and ('pdf' in fields or 'slides' in fields)) or image_success or audio_success
+        has_files = (
+            (pdf_success and ('pdf' in fields or 'slides' in fields))
+            or image_success or audio_success or video_success
+        )
         if has_files:
             zip_metadata = self.zip_archive_generator.create_archive(citation_key, fields, skip_if_exists=not regenerate)
             if zip_metadata:
@@ -218,7 +231,10 @@ class EntryProcessor:
                 fields.pop('zip_file_count', None)
                 fields.pop('zip_file_size_mb', None)
         
-        return pdf_success and agenda_success and slides_success and image_success and audio_success and thumbnail_success
+        return (
+            pdf_success and agenda_success and slides_success and image_success
+            and audio_success and video_success and thumbnail_success
+        )
     
     def _process_pdfs(self, citation_key: str, fields: Dict, pdf_paths: List[str],
                      regenerate: bool, force: bool, verbose: bool,
@@ -468,6 +484,95 @@ class EntryProcessor:
         else:
             # Create new annote field with [audio] section
             fields['annote'] = f"[audio]\n{audio_section}"
+
+    def _process_video_files(self, citation_key: str, fields: Dict, video_paths: List[str],
+                             regenerate: bool, force: bool, verbose: bool) -> bool:
+        """Process video files for an entry (copy to assets/video/, record in [video])."""
+        import os
+
+        if not video_paths:
+            return True
+
+        os.makedirs(self.config.VIDEO_DIR, exist_ok=True)
+
+        processed_video_paths = []
+
+        for video_path in video_paths:
+            if not os.path.exists(video_path):
+                if verbose:
+                    print(f"  ⚠️  Video file not found: {video_path}")
+                continue
+
+            video_filename = os.path.basename(video_path)
+            dest_path = os.path.join(self.config.VIDEO_DIR, video_filename)
+
+            if not os.path.exists(dest_path) or force:
+                if not self.file_manager.copy_file(video_path, dest_path, force):
+                    if verbose:
+                        print(f"  ❌ Failed to copy video file: {video_path}")
+                    continue
+
+            relative_path = f"assets/video/{video_filename}"
+            processed_video_paths.append(relative_path)
+
+            if verbose:
+                print(f"  ✅ Processed video: {video_filename}")
+
+        if processed_video_paths:
+            self._add_video_to_annote(fields, processed_video_paths)
+
+        return True
+
+    def _add_video_to_annote(self, fields: Dict, video_paths: List[str]) -> None:
+        """Add local video paths to annote [video], preserving existing remote URLs."""
+        import re
+
+        local_exts = tuple(self.config.VIDEO_EXTENSIONS)
+
+        def is_local_video_line(line: str) -> bool:
+            clean = line.strip()
+            if not clean or '://' in clean:
+                return False
+            lower = clean.lower()
+            return lower.startswith('assets/video/') or lower.endswith(local_exts)
+
+        kept_remote: List[str] = []
+        annote_content = (fields.get('annote') or '').strip()
+        after_video = ''
+        before_video = annote_content
+
+        if annote_content and '[video]' in annote_content:
+            parts = annote_content.split('[video]')
+            before_video = parts[0].strip()
+            rest = parts[1] if len(parts) > 1 else ''
+            next_tag_match = re.search(r'\[', rest)
+            if next_tag_match:
+                existing_section = rest[:next_tag_match.start()]
+                after_video = rest[next_tag_match.start():].strip()
+            else:
+                existing_section = rest
+            for line in existing_section.split('\n'):
+                clean = line.strip()
+                if clean and not is_local_video_line(clean):
+                    kept_remote.append(clean)
+
+        # Dedupe while preserving order: remotes first, then new local paths
+        seen = set()
+        merged: List[str] = []
+        for path in kept_remote + video_paths:
+            if path not in seen:
+                seen.add(path)
+                merged.append(path)
+
+        video_section = '\n'.join(merged)
+
+        if before_video:
+            fields['annote'] = f"{before_video}\n\n[video]\n{video_section}"
+        else:
+            fields['annote'] = f"[video]\n{video_section}"
+
+        if after_video:
+            fields['annote'] += f"\n\n{after_video}"
     
     def _process_thumbnails_with_priority(self, citation_key: str, fields: Dict,
                                         regenerate: bool, force: bool, thumbnail_size: str, verbose: bool) -> bool:

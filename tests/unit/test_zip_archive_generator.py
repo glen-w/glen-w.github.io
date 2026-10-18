@@ -27,6 +27,7 @@ class TestZipArchiveGenerator:
         config.PDF_DIR = str(temp_dir / "assets" / "pdf")
         config.IMAGES_DIR = str(temp_dir / "assets" / "img" / "publications")
         config.AUDIO_DIR = str(temp_dir / "assets" / "audio")
+        config.VIDEO_DIR = str(temp_dir / "assets" / "video")
         config.ZIP_DIR = str(temp_dir / "assets" / "zips")
         config.PREVIEW_DIR = str(temp_dir / "assets" / "img" / "publication_preview")
         
@@ -34,6 +35,7 @@ class TestZipArchiveGenerator:
         os.makedirs(config.PDF_DIR, exist_ok=True)
         os.makedirs(config.IMAGES_DIR, exist_ok=True)
         os.makedirs(config.AUDIO_DIR, exist_ok=True)
+        os.makedirs(config.VIDEO_DIR, exist_ok=True)
         os.makedirs(config.ZIP_DIR, exist_ok=True)
         os.makedirs(config.PREVIEW_DIR, exist_ok=True)
         
@@ -169,6 +171,18 @@ Some notes here"""
         assert 'test.mp3' in audio_files
         assert len(audio_files) == 1
     
+    def test_extract_video_from_annote(self, zip_generator):
+        """Test extracting video filenames from annote [video] section."""
+        annote = """[video]
+https://youtu.be/abc
+assets/video/clip.mp4
+assets/video/talk.webm
+
+[role]
+speaker"""
+        video_files = zip_generator._extract_video_from_annote(annote)
+        assert video_files == ['clip.mp4', 'talk.webm']
+
     def test_extract_audio_from_empty_annote(self, zip_generator):
         """Test extracting audio from empty annote field."""
         audio_files = zip_generator._extract_audio_from_annote('')
