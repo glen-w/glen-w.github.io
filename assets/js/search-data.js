@@ -4097,6 +4097,11 @@ ninja.data = [{
           description: "Les Etats membres de l’ONU reprennent les negociations d’un traite sur la haute mer ce lundi 20 fevrier pour reglementer et mieux proteger les eaux internationales.",
           section: "Library",handler: () => {
               window.location.href = "/library/traite-sur-la-haute-mer-qui-appartiennent-les-ressources-de-locean/";
+            },},{id: "library-tweeting-biodiversity-beyond-national-jurisdiction-bbnj-the-story-of-a-hashtag-maripoldata",
+          title: 'Tweeting Biodiversity Beyond National Jurisdiction (#BBNJ): the story of a hashtag - Maripoldata...',
+          description: "Tweeting Biodiversity Beyond National Jurisdiction (#BBNJ): the story of a hashtag - Maripoldata",
+          section: "Library",handler: () => {
+              window.location.href = "/library/tweeting-biodiversity-beyond-national-jurisdiction-bbnj-story-hashtag-maripoldata/";
             },},{id: "library-workshop-on-supplementary-indicators-towards-climate-targets",
           title: 'Workshop on supplementary indicators towards climate targets',
           description: "Building on recent work by DIW Berlin, Ecologic, and Client Earth, practices established by the UK Climate Change Committee, and global tracking such as the IEA Tracking Clean Energy Progress reports, and as part of the International Climate Initiative (IKI) project “Strengthen…",
