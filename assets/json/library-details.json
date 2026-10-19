@@ -557,7 +557,6 @@
     ]
   },
   "wrightMarineGovernanceIndustrialised2014b": {
-    "abstract": "The world's oceans are currently undergoing an unprecedented period of industrialisation, made possible by advances in technology and driven by our growing need for food, energy and resources. This is placing the oceans are under intense pressure, and the ability of existing marine governance frameworks to sustainably manage the marine environment is increasingly being called into question. Emerging industries are challenging all aspects of these frameworks, raising questions regarding ownership and rights of the sea and its resources, management of environmental impacts, and management of ocean space. This paper uses the emerging marine renewable energy (MRE) industry, particularly in the United Kingdom (UK), as a case study to introduce and explore some of the key challenges. The paper concludes that the challenges are likely to be extensive and argues for development of a comprehensive legal research agenda to advance both MRE technologies and marine governance frameworks.",
     "photos": [
       {
         "src": "/assets/img/publications/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_photo_01.jpg",
@@ -565,10 +564,6 @@
       },
       {
         "src": "/assets/img/publications/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_photo_02.jpg",
-        "alt": "Photo"
-      },
-      {
-        "src": "/assets/img/publications/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry_photo_03.png",
         "alt": "Photo"
       }
     ]
@@ -1440,5 +1435,8 @@
     "videos": [
       "assets/video/BBNJ-twitter-network.mp4"
     ]
+  },
+  "wrightMarineGovernanceIndustrialised2015": {
+    "abstract": "The world's oceans are currently undergoing an unprecedented period of industrialisation, made possible by advances in technology and driven by our growing need for food, energy and resources. This is placing the oceans are under intense pressure, and the ability of existing marine governance frameworks to sustainably manage the marine environment is increasingly being called into question. Emerging industries are challenging all aspects of these frameworks, raising questions regarding ownership and rights of the sea and its resources, management of environmental impacts, and management of ocean space. This paper uses the emerging marine renewable energy (MRE) industry, particularly in the United Kingdom (UK), as a case study to introduce and explore some of the key challenges. The paper concludes that the challenges are likely to be extensive and argues for development of a comprehensive legal research agenda to advance both MRE technologies and marine governance frameworks."
   }
 }

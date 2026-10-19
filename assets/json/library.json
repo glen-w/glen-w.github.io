@@ -3989,6 +3989,24 @@
       "info": "/library/glen-wright-la-haute-mer-historique-et-perspectives/"
     },
     {
+      "id": "wrightMarineGovernanceIndustrialised2015",
+      "title": "Marine Governance in an Industrialised Ocean: a case study of the UK's emerging marine renewable energy industry",
+      "year": 2015,
+      "type": "Journal Article",
+      "month": 1,
+      "roles": [
+        "author"
+      ],
+      "venue": "Marine Policy",
+      "thumb": "/assets/img/publication_preview/glen_wright_2015_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry-480.webp",
+      "pdf": "/assets/pdf/glen_wright_2015_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry.pdf",
+      "url": "https://prezi.com/xskk1cyjorqg/marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uks-emerging-marine-renewable-energy-industry/?present=1",
+      "doi": "https://doi.org/10.1016/j.marpol.2014.10.021",
+      "flags": [
+        "abs"
+      ]
+    },
+    {
       "id": "glenwrightMarineRenewableEnergy2015",
       "title": "Marine Renewable Energy: Community, Consultation and Planning (Summary of the International network for Social Studies of Marine Energy (ISSMER) online seminar series, November 2014 - January 2015)",
       "year": 2015,
@@ -4446,16 +4464,25 @@
       "roles": [
         "speaker"
       ],
-      "venue": "Marine Policy",
       "thumb": "/assets/img/publication_preview/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry-480.webp",
       "pdf": "/assets/pdf/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry.pdf",
       "url": "https://prezi.com/xskk1cyjorqg/marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uks-emerging-marine-renewable-energy-industry/?present=1",
-      "doi": "https://doi.org/10.1016/j.marpol.2014.10.021",
       "flags": [
-        "abs",
         "photos"
       ],
       "info": "/library/glen-wright-marine-governance-industrialised-ocean-case-uks-emerging-marine-renewable-energy-industry/"
+    },
+    {
+      "id": "wrightMarineGovernanceIndustrialised2014a",
+      "title": "Marine Governance in an Industrialised Ocean: a case study of the UK's emerging marine renewable energy industry",
+      "year": 2014,
+      "type": "Workshop",
+      "month": 1,
+      "roles": [
+        "speaker"
+      ],
+      "thumb": "/assets/img/publication_preview/glen_wright_2014_marine_governance_industrialised_ocean_case_uks_emerging_marine_renewable_energy_industry-480.webp",
+      "url": "https://prezi.com/xskk1cyjorqg/marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uks-emerging-marine-renewable-energy-industry/?present=1"
     },
     {
       "id": "instituteforadvancedsustainabilitystudiesPotsdamOceanGovernance2014",
