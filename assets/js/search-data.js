@@ -3083,8 +3083,8 @@ ninja.data = [{
           section: "Library",handler: () => {
               window.location.href = "/library/researcher-glen-wright-take-wileys-exchanges-blog/";
             },},{id: "library-rights-and-ownership-in-sea-country-implications-of-marine-renewable-energy-for-indigenous-and-local-communities",
-          title: 'Rights and ownership in sea country: implications of marine renewable energy for indigenous...',
-          description: "The adoption of UN Convention of the Law of the Sea in 1982 created optimism for indigenous peoples and marginalised coastal communities that they may (re)gain control of, or improve access to, marine resources.",
+          title: 'Rights and Ownership in Sea Country: Implications of Marine Renewable Energy for Indigenous...',
+          description: "(c) 2014 Elsevier Ltd. The adoption of UN Convention of the Law of the Sea in 1982 created optimism for indigenous peoples and marginalised coastal communities that they may (re)gain control of, or improve access to, marine resources.",
           section: "Library",handler: () => {
               window.location.href = "/library/rights-ownership-sea-country-implications-marine-renewable-energy-indigenous-local-communities/";
             },},{id: "library-scoping-workshop-supporting-the-development-of-regional-initiatives-for-abnj-in-the-abidjan-convention-region",
