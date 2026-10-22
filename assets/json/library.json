@@ -755,10 +755,8 @@
         "organiser",
         "facilitator"
       ],
-      "venue": "Climate Change and Law Collection",
       "thumb": "/assets/img/publication_preview/2023_post_2020_global_biodiversity_framework_whats_next_ocean-480.webp",
       "url": "https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean",
-      "doi": "https://doi.org/10.1163/9789004322714_cclc_2022-0019-0073",
       "video": "https://www.youtube.com/watch?v=Sfz-xy6UgAQ",
       "agenda": "/assets/pdf/2023_post_2020_global_biodiversity_framework_whats_next_ocean_agenda.pdf",
       "flags": [
@@ -1224,7 +1222,6 @@
       ],
       "thumb": "/assets/img/publication_preview/2022_oceans_as_archives-480.webp",
       "url": "https://www.nica-institute.com/event-conference-oceans-as-archives/",
-      "doi": "https://doi.org/10.4324/9781003594086",
       "flags": [
         "abs"
       ],
@@ -1501,6 +1498,26 @@
         "speakers"
       ],
       "info": "/library/glen-wright-etal-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/"
+    },
+    {
+      "id": "wrightFishingTwilightZone2020a",
+      "title": "Fishing in the Twilight Zone: illuminating governance challenges at the next fisheries frontier",
+      "year": 2020,
+      "type": "Webinar",
+      "month": 1,
+      "roles": [
+        "facilitator",
+        "organiser"
+      ],
+      "thumb": "/assets/img/publication_preview/glen_wright_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier-480.webp",
+      "pdf": "/assets/pdf/glen_wright_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier.pdf",
+      "video": "https://www.youtube.com/watch?v=FtCScw3Tvxw",
+      "agenda": "/assets/pdf/glen_wright_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier_a_agenda.pdf",
+      "flags": [
+        "abs",
+        "speakers"
+      ],
+      "info": "/library/glen-wright-fishing-twilight-zone-illuminating-governance-challenges-next-fisheries-frontier/"
     },
     {
       "id": "otterCooperationMondialeNouveau2020",
@@ -2141,6 +2158,20 @@
       "info": "/library/glen-wright-etal-regional-ocean-governance-areas-beyond-national-jurisdiction-lessons-learnt-ways-forward/"
     },
     {
+      "id": "wrightRegionalOceanGovernance2019a",
+      "title": "Regional Ocean Governance of Areas Beyond National Jurisdiction: Lessons Learnt and Ways Forward",
+      "year": 2019,
+      "type": "Side Event",
+      "month": 1,
+      "roles": [
+        "organiser",
+        "speaker"
+      ],
+      "url": "https://doi.org/10.2139/ssrn.3597317",
+      "doi": "https://doi.org/10.2139/ssrn.3597317",
+      "info": "/library/glen-wright-regional-ocean-governance-areas-beyond-national-jurisdiction-lessons-learnt-ways-forward/"
+    },
+    {
       "id": "ScienceSolutionsBringing2019",
       "title": "Science for Solutions: Bringing Stakeholders Together to Improve Ocean Planning and Governance in ABNJ of the South-East Pacific",
       "year": 2019,
@@ -2575,6 +2606,21 @@
         "photos"
       ],
       "info": "/library/glen-wright-marine-planning-high-seas/"
+    },
+    {
+      "id": "wrightMarineSpatialPlanning2018",
+      "title": "Marine Spatial Planning in Areas Beyond National Jurisdiction: Opportunities and challenges",
+      "year": 2018,
+      "type": "Side Event",
+      "month": 1,
+      "roles": [
+        "speaker"
+      ],
+      "venue": "Building MSP frameworks to enable Blue Growth",
+      "thumb": "/assets/img/publication_preview/glen_wright_2018_marine_spatial_planning_areas_beyond_national_jurisdiction_opportunities_challenges-480.webp",
+      "slides": "/assets/pdf/glen_wright_2018_marine_spatial_planning_areas_beyond_national_jurisdiction_opportunities_challenges_slides.pdf",
+      "agenda": "/assets/pdf/glen_wright_2018_marine_spatial_planning_areas_beyond_national_jurisdiction_opportunities_challenges_agenda.pdf",
+      "info": "/library/glen-wright-marine-spatial-planning-areas-beyond-national-jurisdiction-opportunities-challenges/"
     },
     {
       "id": "OpportunitiesStrengtheningOcean2018",
@@ -3077,6 +3123,24 @@
         "photos"
       ],
       "info": "/library/glen-wright-etal-partnering-sustainable-ocean-role-regional-ocean-governance-implementing-sdg14/"
+    },
+    {
+      "id": "wrightPartneringSustainableOcean2017",
+      "title": "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing SDG14",
+      "year": 2017,
+      "type": "Conference",
+      "month": 1,
+      "roles": [
+        "speaker"
+      ],
+      "venue": "International Oceans Institute",
+      "thumb": "/assets/img/publication_preview/glen_wright_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14-480.webp",
+      "slides": "/assets/pdf/glen_wright_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_slides.pdf",
+      "agenda": "/assets/pdf/glen_wright_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_agenda.pdf",
+      "flags": [
+        "photos"
+      ],
+      "info": "/library/glen-wright-partnering-sustainable-ocean-role-regional-ocean-governance-implementing-sdg14/"
     },
     {
       "id": "PotsdamOceanGovernance2017",
@@ -3643,6 +3707,26 @@
       "info": "/library/talks-aim-tame-marine-wild-west-nations-debate-how-protect-biodiversity-high-seas/"
     },
     {
+      "id": "Wright2016f",
+      "title": "The Long and Winding Road Continues: Towards a New Agreement on High Seas Governance",
+      "year": 2016,
+      "type": "Report",
+      "month": 1,
+      "roles": [
+        "lead author"
+      ],
+      "authors": "Glen Wright, Julien Rochette, Elisabeth Druel et al.",
+      "authorsHtml": "<em>Glen Wright</em>, Julien Rochette, Elisabeth Druel et al.",
+      "venue": "IDDRI",
+      "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_long_winding_road_continues_towards_new_agreement_high_seas_governance-480.webp",
+      "pdf": "/assets/pdf/glen_wright_etal_2016_long_winding_road_continues_towards_new_agreement_high_seas_governance.pdf",
+      "url": "https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-continues-towards-new-agreement-high-seas",
+      "flags": [
+        "abs"
+      ],
+      "info": "/library/glen-wright-etal-long-winding-road-continues-towards-new-agreement-high-seas-governance/"
+    },
+    {
       "id": "PartnershipSciencePolicy2016",
       "title": "The Partnership on Science to Policy Forum",
       "year": 2016,
@@ -4149,6 +4233,28 @@
       "info": "/library/researcher-glen-wright-take-wileys-exchanges-blog/"
     },
     {
+      "id": "Kerr2015a",
+      "title": "Rights and Ownership in Sea Country: Implications of Marine Renewable Energy for Indigenous and Local Communities",
+      "year": 2015,
+      "type": "Journal Article",
+      "month": 1,
+      "roles": [
+        "co-author"
+      ],
+      "authors": "Sandy Kerr, John Colton, Kate Johnson et al.",
+      "authorsHtml": "Sandy Kerr, John Colton, Kate Johnson et al.",
+      "venue": "Marine Policy",
+      "thumb": "/assets/img/publication_preview/2015_rights_ownership_sea_country_implications_marine_renewable_energy_indigenous_local_communities-480.webp",
+      "pdf": "/assets/pdf/2015_rights_ownership_sea_country_implications_marine_renewable_energy_indigenous_local_communities.pdf",
+      "url": "https://doi.org/10.1016/j.marpol.2014.11.002",
+      "doi": "https://doi.org/10.1016/j.marpol.2014.11.002",
+      "selected": true,
+      "flags": [
+        "abs"
+      ],
+      "info": "/library/rights-ownership-sea-country-implications-marine-renewable-energy-indigenous-local-communities/"
+    },
+    {
       "id": "ScopingWorkshopSupporting2015",
       "title": "Scoping Workshop: Supporting the development of regional initiatives for ABNJ in the Abidjan Convention Region",
       "year": 2015,
@@ -4485,6 +4591,19 @@
       "url": "https://prezi.com/xskk1cyjorqg/marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uks-emerging-marine-renewable-energy-industry/?present=1"
     },
     {
+      "id": "wrightMarineSpatialPlanning2014",
+      "title": "Marine Spatial Planning in Areas Beyond National Jurisdiction: developing a research agenda",
+      "year": 2014,
+      "type": "Workshop",
+      "month": 1,
+      "roles": [
+        "speaker"
+      ],
+      "thumb": "/assets/img/publication_preview/glen_wright_2014_marine_spatial_planning_areas_beyond_national_jurisdiction_developing_research_agenda-480.webp",
+      "url": "https://prezi.com/428z2rbqi05u/marine-spatial-planning-in-areas-beyond-national-jurisdiction/?present=1",
+      "info": "/library/glen-wright-marine-spatial-planning-areas-beyond-national-jurisdiction-developing-research-agenda/"
+    },
+    {
       "id": "instituteforadvancedsustainabilitystudiesPotsdamOceanGovernance2014",
       "title": "Potsdam Ocean Governance Workshop: Entry Points to Sustainability",
       "year": 2014,
@@ -4573,6 +4692,22 @@
       "info": "/library/glen-wright-rights-ownership-marine-spaces/"
     },
     {
+      "id": "Wright2014a",
+      "title": "Strengthening the role of science in marine governance through environmental impact assessment: a case study of the marine renewable energy industry",
+      "year": 2014,
+      "type": "Journal Article",
+      "month": 1,
+      "roles": [
+        "author"
+      ],
+      "venue": "Ocean & Coastal Management",
+      "thumb": "/assets/img/publication_preview/glen_wright_2014_strengthening_role_science_marine_governance_environmental_impact_assessment_case_marine_renewable_energy_industry-480.webp",
+      "pdf": "/assets/pdf/glen_wright_2014_strengthening_role_science_marine_governance_environmental_impact_assessment_case_marine_renewable_energy_industry.pdf",
+      "url": "https://doi.org/10.1016/j.ocecoaman.2014.07.004",
+      "doi": "https://doi.org/10.1016/j.ocecoaman.2014.07.004",
+      "info": "/library/glen-wright-strengthening-role-science-marine-governance-environmental-impact-assessment-case-marine-renewable-energy-industry/"
+    },
+    {
       "id": "byrneSumbissionDepartmentIndustry2014",
       "title": "Sumbission to Department of Industry: Energy White Paper",
       "year": 2014,
@@ -4603,7 +4738,7 @@
       "info": "/library/glen-wright-sustainably-advancing-blue-economy-environmental-impact-assessment-marine-renewable-energy-projects-uk/"
     },
     {
-      "id": "Wright2014a",
+      "id": "WrightScores2014",
       "title": "The Scores at Half Time: An update on the international discussions on the governance of marine biodiversity in areas beyond national jurisdiction",
       "year": 2014,
       "type": "Report",

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-10-19 15:04:58",
-    "total_locations": 64,
-    "successfully_geocoded": 64,
+    "generated_at": "2026-10-22 18:11:59",
+    "total_locations": 65,
+    "successfully_geocoded": 65,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
     "refresh_mode": false,
@@ -468,6 +468,20 @@
       "coordinates": {
         "lat": -18.9100122,
         "lng": 47.5255809
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightPartneringSustainableOcean2017",
+      "title": "Partnering for a Sustainable Ocean: The Role of Regional Ocean Governance in Implementing SDG14",
+      "address": "Hong Kong",
+      "year": "2017",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Conference",
+      "coordinates": {
+        "lat": 22.2818333,
+        "lng": 114.1582831
       },
       "geocoded": true
     },

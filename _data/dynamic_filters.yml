@@ -19,22 +19,22 @@ entry_types:
 - Webinar
 - Workshop
 entry_type_counts:
-  Journal Article: 32
+  Journal Article: 34
   Newspaper: 28
-  Conference: 44
-  Report: 61
+  Conference: 45
+  Report: 62
   Report Section: 6
   Book Chapter: 6
   Oped: 2
   Blog: 25
-  Webinar: 16
-  Workshop: 55
+  Webinar: 17
+  Workshop: 56
   Training: 14
   Submission: 27
   Poster: 3
   Conference Paper: 7
   Book: 2
-  Side Event: 7
+  Side Event: 9
   Fellowship: 1
   Radio: 3
   Negotiation: 13
@@ -52,12 +52,12 @@ role_tags:
 - quoted
 - speaker
 role_tag_counts:
-  lead author: 25
-  author: 75
-  speaker: 70
-  co-author: 67
-  facilitator: 21
-  organiser: 23
+  lead author: 26
+  author: 76
+  speaker: 74
+  co-author: 68
+  facilitator: 22
+  organiser: 25
   presenter: 2
   participant: 27
   interview: 24

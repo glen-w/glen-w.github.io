@@ -5,7 +5,7 @@
       "id": "glen-wright",
       "name": "Glen Wright",
       "self": true,
-      "count": 93,
+      "count": 95,
       "firstYear": 2011,
       "lastYear": 2026
     },
@@ -13,7 +13,7 @@
       "id": "julien-rochette",
       "name": "Julien Rochette",
       "self": false,
-      "count": 48,
+      "count": 49,
       "firstYear": 2014,
       "lastYear": 2023,
       "orcid": "0009-0003-0588-6226",
@@ -32,7 +32,7 @@
       "id": "kristina-maria-gjerde",
       "name": "Kristina Maria Gjerde",
       "self": false,
-      "count": 19,
+      "count": 20,
       "firstYear": 2014,
       "lastYear": 2023,
       "orcid": "0000-0001-9025-7632",
@@ -110,6 +110,15 @@
       "scholar": "OfZslTcAAAAJ"
     },
     {
+      "id": "elisabeth-druel",
+      "name": "Elisabeth Druel",
+      "self": false,
+      "count": 4,
+      "firstYear": 2015,
+      "lastYear": 2016,
+      "url": "https://www.iddri.org/en/about-iddri/team/elisabeth-druel"
+    },
+    {
       "id": "aria-finkelstein",
       "name": "Aria Finkelstein",
       "self": false,
@@ -127,15 +136,6 @@
       "orcid": "0000-0002-7078-7094",
       "url": "https://www.rifs-potsdam.de/en/people/ben-boteler",
       "scholar": "vrZushYAAAAJ"
-    },
-    {
-      "id": "elisabeth-druel",
-      "name": "Elisabeth Druel",
-      "self": false,
-      "count": 3,
-      "firstYear": 2015,
-      "lastYear": 2016,
-      "url": "https://www.iddri.org/en/about-iddri/team/elisabeth-druel"
     },
     {
       "id": "guillermo-ortuno-crespo",
@@ -280,6 +280,14 @@
       "lastYear": 2016
     },
     {
+      "id": "kate-johnson",
+      "name": "Kate Johnson",
+      "self": false,
+      "count": 2,
+      "firstYear": 2015,
+      "lastYear": 2017
+    },
+    {
       "id": "robin-warner",
       "name": "Robin Warner",
       "self": false,
@@ -297,6 +305,15 @@
       "count": 2,
       "firstYear": 2020,
       "lastYear": 2020
+    },
+    {
+      "id": "sandy-kerr",
+      "name": "Sandy Kerr",
+      "self": false,
+      "count": 2,
+      "firstYear": 2015,
+      "lastYear": 2016,
+      "orcid": "0000-0002-1307-1655"
     },
     {
       "id": "stefanie-schmidt",
@@ -569,6 +586,14 @@
       "lastYear": 2012
     },
     {
+      "id": "john-colton",
+      "name": "John Colton",
+      "self": false,
+      "count": 1,
+      "firstYear": 2015,
+      "lastYear": 2015
+    },
+    {
       "id": "jorge-a-jimenez",
       "name": "Jorge A. Jimenez",
       "self": false,
@@ -577,14 +602,6 @@
       "lastYear": 2016,
       "url": "https://marviva.net/en/team",
       "scholar": "tPirGbwAAAAJ"
-    },
-    {
-      "id": "kate-johnson",
-      "name": "Kate Johnson",
-      "self": false,
-      "count": 1,
-      "firstYear": 2017,
-      "lastYear": 2017
     },
     {
       "id": "katherine-houghton",
@@ -856,15 +873,6 @@
       "lastYear": 2016
     },
     {
-      "id": "sandy-kerr",
-      "name": "Sandy Kerr",
-      "self": false,
-      "count": 1,
-      "firstYear": 2016,
-      "lastYear": 2016,
-      "orcid": "0000-0002-1307-1655"
-    },
-    {
       "id": "simon-jude",
       "name": "Simon Jude",
       "self": false,
@@ -915,9 +923,9 @@
     {
       "source": "glen-wright",
       "target": "julien-rochette",
-      "count": 48,
+      "count": 49,
       "works": [
-        "Wright2014a",
+        "WrightScores2014",
         "Wright2014b",
         "Rochette2015",
         "Wright2016a",
@@ -964,7 +972,8 @@
         "wrightRegionalOceanGovernance2019",
         "bouvetEnsuringEffectiveImplementation2022a",
         "rochetteWhatRoleNairobi2015",
-        "rochetteEnjeuxCoordinationEntre2020"
+        "rochetteEnjeuxCoordinationEntre2020",
+        "Wright2016f"
       ]
     },
     {
@@ -997,9 +1006,9 @@
     {
       "source": "glen-wright",
       "target": "kristina-maria-gjerde",
-      "count": 19,
+      "count": 20,
       "works": [
-        "Wright2014a",
+        "WrightScores2014",
         "Wright2014b",
         "Rochette2015",
         "Wright2016b",
@@ -1017,7 +1026,8 @@
         "cremersPreliminaryAnalysisDraft2020",
         "gjerdeInitialReflectionsSupport2023",
         "gjerdeStrengtheningHighSeas2021",
-        "gjerdeEcosystembasedManagementGlobal2019"
+        "gjerdeEcosystembasedManagementGlobal2019",
+        "Wright2016f"
       ]
     },
     {
@@ -1069,24 +1079,7 @@
       "target": "sebastian-unger",
       "count": 10,
       "works": [
-        "Wright2014a",
-        "Rochette2015",
-        "Wright2016b",
-        "Rochette2015b",
-        "Unger2017a",
-        "Durussel2018",
-        "Rochette2014c",
-        "Iddri2017",
-        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a",
-        "neumannMarineRegionsForum2021"
-      ]
-    },
-    {
-      "source": "julien-rochette",
-      "target": "sebastian-unger",
-      "count": 10,
-      "works": [
-        "Wright2014a",
+        "WrightScores2014",
         "Rochette2015",
         "Wright2016b",
         "Rochette2015b",
@@ -1101,9 +1094,9 @@
     {
       "source": "julien-rochette",
       "target": "kristina-maria-gjerde",
-      "count": 9,
+      "count": 10,
       "works": [
-        "Wright2014a",
+        "WrightScores2014",
         "Wright2014b",
         "Rochette2015",
         "Wright2016b",
@@ -1111,7 +1104,25 @@
         "Wright2018b",
         "Wright2018c",
         "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a",
-        "cremersPreliminaryAnalysisDraft2020"
+        "cremersPreliminaryAnalysisDraft2020",
+        "Wright2016f"
+      ]
+    },
+    {
+      "source": "julien-rochette",
+      "target": "sebastian-unger",
+      "count": 10,
+      "works": [
+        "WrightScores2014",
+        "Rochette2015",
+        "Wright2016b",
+        "Rochette2015b",
+        "Unger2017a",
+        "Durussel2018",
+        "Rochette2014c",
+        "Iddri2017",
+        "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a",
+        "neumannMarineRegionsForum2021"
       ]
     },
     {
@@ -1159,7 +1170,7 @@
       "target": "jeff-ardron",
       "count": 5,
       "works": [
-        "Wright2014a",
+        "WrightScores2014",
         "Wright2014b",
         "Rochette2015b",
         "Wright2015c",
@@ -1200,11 +1211,22 @@
       ]
     },
     {
+      "source": "elisabeth-druel",
+      "target": "glen-wright",
+      "count": 4,
+      "works": [
+        "wrightMarineProtectedAreas2015",
+        "druelInterdictionChalutageProfond2016",
+        "druelLUnionEuropeenneVatelle2016",
+        "Wright2016f"
+      ]
+    },
+    {
       "source": "jeff-ardron",
       "target": "julien-rochette",
       "count": 4,
       "works": [
-        "Wright2014a",
+        "WrightScores2014",
         "Wright2014b",
         "Rochette2015b",
         "Wright2015c"
@@ -1215,7 +1237,7 @@
       "target": "sebastian-unger",
       "count": 4,
       "works": [
-        "Wright2014a",
+        "WrightScores2014",
         "Rochette2015",
         "Wright2016b",
         "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
@@ -1279,16 +1301,6 @@
         "Wright2016b",
         "Durussel2018",
         "GjerdeK.BotelerB.DurusselC.RochetteJ.UngerS.2018a"
-      ]
-    },
-    {
-      "source": "elisabeth-druel",
-      "target": "glen-wright",
-      "count": 3,
-      "works": [
-        "wrightMarineProtectedAreas2015",
-        "druelInterdictionChalutageProfond2016",
-        "druelLUnionEuropeenneVatelle2016"
       ]
     },
     {
@@ -1356,7 +1368,7 @@
       "target": "kristina-maria-gjerde",
       "count": 3,
       "works": [
-        "Wright2014a",
+        "WrightScores2014",
         "Wright2014b",
         "Wright2015c"
       ]
@@ -1526,6 +1538,15 @@
       ]
     },
     {
+      "source": "elisabeth-druel",
+      "target": "julien-rochette",
+      "count": 2,
+      "works": [
+        "wrightMarineProtectedAreas2015",
+        "Wright2016f"
+      ]
+    },
+    {
       "source": "gabriele-goettsche-wanli",
       "target": "glen-wright",
       "count": 2,
@@ -1545,6 +1566,15 @@
     },
     {
       "source": "glen-wright",
+      "target": "kate-johnson",
+      "count": 2,
+      "works": [
+        "Kerr2015a",
+        "Johnson2017"
+      ]
+    },
+    {
+      "source": "glen-wright",
       "target": "robin-warner",
       "count": 2,
       "works": [
@@ -1559,6 +1589,15 @@
       "works": [
         "rochette2020SuperYear2020",
         "rochetteCombattingMarinePlastic2020"
+      ]
+    },
+    {
+      "source": "glen-wright",
+      "target": "sandy-kerr",
+      "count": 2,
+      "works": [
+        "Wright2016a",
+        "Kerr2015a"
       ]
     },
     {
@@ -1611,7 +1650,7 @@
       "target": "sebastian-unger",
       "count": 2,
       "works": [
-        "Wright2014a",
+        "WrightScores2014",
         "Rochette2015b"
       ]
     },
@@ -2214,10 +2253,10 @@
     },
     {
       "source": "elisabeth-druel",
-      "target": "julien-rochette",
+      "target": "kristina-maria-gjerde",
       "count": 1,
       "works": [
-        "wrightMarineProtectedAreas2015"
+        "Wright2016f"
       ]
     },
     {
@@ -2406,18 +2445,18 @@
     },
     {
       "source": "glen-wright",
-      "target": "jorge-a-jimenez",
+      "target": "john-colton",
       "count": 1,
       "works": [
-        "Gjerde2016"
+        "Kerr2015a"
       ]
     },
     {
       "source": "glen-wright",
-      "target": "kate-johnson",
+      "target": "jorge-a-jimenez",
       "count": 1,
       "works": [
-        "Johnson2017"
+        "Gjerde2016"
       ]
     },
     {
@@ -2662,14 +2701,6 @@
     },
     {
       "source": "glen-wright",
-      "target": "sandy-kerr",
-      "count": 1,
-      "works": [
-        "Wright2016a"
-      ]
-    },
-    {
-      "source": "glen-wright",
       "target": "simon-jude",
       "count": 1,
       "works": [
@@ -2877,6 +2908,22 @@
       ]
     },
     {
+      "source": "john-colton",
+      "target": "kate-johnson",
+      "count": 1,
+      "works": [
+        "Kerr2015a"
+      ]
+    },
+    {
+      "source": "john-colton",
+      "target": "sandy-kerr",
+      "count": 1,
+      "works": [
+        "Kerr2015a"
+      ]
+    },
+    {
       "source": "julien-rochette",
       "target": "katherine-houghton",
       "count": 1,
@@ -2946,6 +2993,14 @@
       "count": 1,
       "works": [
         "Iddri2017"
+      ]
+    },
+    {
+      "source": "kate-johnson",
+      "target": "sandy-kerr",
+      "count": 1,
+      "works": [
+        "Kerr2015a"
       ]
     },
     {
@@ -3493,6 +3548,12 @@
       "path": "/library/glen-wright-etal-sustainable-development-oceans-closing-gaps-international-legal-framework/"
     },
     {
+      "id": "Wright2016f",
+      "title": "The Long and Winding Road Continues: Towards a New Agreement on High Seas Governance",
+      "year": 2016,
+      "path": "/library/glen-wright-etal-long-winding-road-continues-towards-new-agreement-high-seas-governance/"
+    },
+    {
       "id": "waweruRoleScienceImplementing2016",
       "title": "The Role of Science in Implementing the 2030 Agenda",
       "year": 2016,
@@ -3559,6 +3620,12 @@
       "path": "/library/regional-approaches-abnj-state-play/"
     },
     {
+      "id": "Kerr2015a",
+      "title": "Rights and Ownership in Sea Country: Implications of Marine Renewable Energy for Indigenous and Local Communities",
+      "year": 2015,
+      "path": "/library/rights-ownership-sea-country-implications-marine-renewable-energy-indigenous-local-communities/"
+    },
+    {
       "id": "Rochette2015a",
       "title": "Strengthening the international regulation of offshore oil and gas activities",
       "year": 2015,
@@ -3595,7 +3662,7 @@
       "path": "/library/sumbission-department-industry-energy-white/"
     },
     {
-      "id": "Wright2014a",
+      "id": "WrightScores2014",
       "title": "The Scores at Half Time: An update on the international discussions on the governance of marine biodiversity in areas beyond national jurisdiction",
       "year": 2014,
       "path": "/library/glen-wright-etal-scores-half-time-update-international-discussions-governance-marine-biodiversity-areas-beyond-national-jurisdiction/"

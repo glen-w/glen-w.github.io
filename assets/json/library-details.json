@@ -34,7 +34,7 @@
       }
     ]
   },
-  "Wright2014a": {
+  "WrightScores2014": {
     "abstract": "Marine areas beyond national jurisdiction (ABNJ) represent around half of the Planet’s surface and a significant amount of its biodiversity. Over the past decades, the international community has become increasingly cognisant of the growing threats to ABNJ. To address this issue, the United Nations General Assembly (UNGA) created an Ad-Hoc Open-ended Informal Working Group (“BBNJ Working Group”) to engage in discussions on the conservation and sustainable use of marine biodiversity in ABNJ. Since the commencement of discussions in 2006, the focus has mainly been on gaps in the current international framework and whether these necessitate the adoption of a new instrument. In particular, States have discussed the possible adoption of an Implementing Agreement to the United Nations Convention on the Law of the Sea (UNCLOS) on the conservation and sustainable use of marine biodiversity in ABNJ (UNCLOS IA). At the 2012 United Nations Conference on Sustainable Development (“Rio+20”), States agreed to decide by the end of the 69th session of the UNGA (September 2015) whether or not to launch the negotiations for the conclusion of such a new global agreement. This decision-making process spans three meetings of the BBNJ Working Group, specifically convened to discuss “the scope, parameters and feasibility of an international instrument under UNCLOS”. Two of these meetings have already taken place, in April 1-4 and June 16-19, 2014. This paper highlights the remaining challenges on the “long and winding road” towards the conservation and sustainable use of marine biodiversity in ABNJ.",
     "authors": "<em>Glen Wright</em>, Julien Rochette, Sebastian Unger, Kristina Gjerde, and Jeff Ardron"
   },
@@ -83,6 +83,10 @@
   },
   "Rochette2014c": {
     "abstract": "Marine areas beyond national jurisdiction (ABJN), often referred to as the “High Seas1”, represent around half of the Planet’s surface and host a significant portion of its biodiversity. Despite their global importance, there are significant governance gaps that impede effective conservation and sustainable use. Since the beginning of the 21st century, States have started to discuss, in various arenas, integrated approaches to the conservation and sustainable use of marine biodiversity in ABNJ. This debate was prompted by increased evidence of threats to these areas (e.g. through overexploitation of living marine resources, climate change, ocean acidification or pollution). At the same time, new scientific discoveries demonstrated the importance of marine genetic resources in ABNJ. Following a commitment from the Rio +20 UN Conference on Sustainable Development, current global discussions focus on the opportunity to elaborate a new international agreement under the United Nations Convention on the Law of the Sea (UNCLOS) (an “Implementing Agreement”). In parallel, some Regional Seas Conventions have progressively extended their activities into ABNJ. In this regard, the most advanced efforts take place in the Mediterranean Sea, the North-East Atlantic and the Southern Ocean, where MPAs have already been designated in ABNJ. This workshop will explore the relationship between global (i.e. international conventions and organisations) and regional level governance in ABNJ (i.e. Regional Seas programmes, Regional Fisheries Management Organisations and other regional mechanisms such as Large Marine Ecosystems) and consider options for filling governance gaps."
+  },
+  "Kerr2015a": {
+    "abstract": "(c) 2014 Elsevier Ltd. The adoption of UN Convention of the Law of the Sea in 1982 created optimism for indigenous peoples and marginalised coastal communities that they may (re)gain control of, or improve access to, marine resources. However concerns were also raised that opening the seas to industrial development might create threats for traditional users of the sea. Twenty-five years later the potential enclosure of large areas of coastal seas to marine renewable energy development is reigniting debates about marine governance, access and control over marine resources. Case studies in Scotland, Canada, New Zealand and Australia reveal a dynamic tension between: an economic development 'blue growth' agenda requiring the creation of private rights in the sea; and socio-political drivers which seek to address historic injustices and increase access to natural resources by indigenous and marginalised coastal communities. As yet there is little evidence of this tension being adequately addressed by emerging institutional frameworks for managing marine resources.",
+    "authors": "Sandy Kerr, John Colton, Kate Johnson, and <em>Glen Wright</em>"
   },
   "Warner2018": {
     "authors": "Robin Warner, <em>Glen Wright</em>, Phillip Turner, Guillermo Ortuno Crespo, Daniel Dunn, and Gerald Singh"
@@ -1438,5 +1442,26 @@
   },
   "wrightMarineGovernanceIndustrialised2015": {
     "abstract": "The world's oceans are currently undergoing an unprecedented period of industrialisation, made possible by advances in technology and driven by our growing need for food, energy and resources. This is placing the oceans are under intense pressure, and the ability of existing marine governance frameworks to sustainably manage the marine environment is increasingly being called into question. Emerging industries are challenging all aspects of these frameworks, raising questions regarding ownership and rights of the sea and its resources, management of environmental impacts, and management of ocean space. This paper uses the emerging marine renewable energy (MRE) industry, particularly in the United Kingdom (UK), as a case study to introduce and explore some of the key challenges. The paper concludes that the challenges are likely to be extensive and argues for development of a comprehensive legal research agenda to advance both MRE technologies and marine governance frameworks."
+  },
+  "wrightPartneringSustainableOcean2017": {
+    "photos": [
+      {
+        "src": "/assets/img/publications/glen_wright_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_photo_01.jpg",
+        "alt": "Photo"
+      }
+    ]
+  },
+  "Wright2016f": {
+    "abstract": "In 2015, States agreed to launch negotiations for the elaboration of an international legally binding instrument dedicated to the conservation and sustainable use of the marine biological diversity of areas beyond national jurisdiction (ABNJ). States have expressed a wide range of positions to date: some have focussed on the issue of marine genetic resources (MGRs); others have been primarily concerned with conservation and sustainable use; a few have been sceptical of the need for a new instrument. The negotiations starting at the United Nation as on March 28, 2016, will focus on a \"Package Deal\" of issues: marine genetic resources (MGRs), including questions on the sharing of benefits; measures for conservation and sustainable use, such as area-based management tools, including marine protected areas; environmental impact assessments; capacity-building and the transfer of marine technology. Complex issues and challenges will face negotiators, especially the crea­tion of an access and benefit sharing mechanism for MGRs and a mecha­nism for the creation of marine protected areas in ABNJ. Additional challenges will arise in the creation of an appropriate institu­tional structure and the negotiation of an agreement that does not under­mine the mandates of existing organisations, especially fisheries manage­ment bodies.",
+    "authors": "<em>Glen Wright</em>, Julien Rochette, Elisabeth Druel, and Kristina M Gjerde"
+  },
+  "wrightFishingTwilightZone2020a": {
+    "abstract": "The mesopelagic, or \"twilight zone\" - the waters of the open ocean at a depth of approximately 150-1, 000 metres - hosts significant fish stocks. These fish are unpalatable but proposals are emerging to process them into fishmeal and nutritional supplements. As this vast midwater realm plays a role in the carbon cycle and food webs, the development of new fisheries could have global ramifications. Yet our scientific understanding is limited and the existing governance framework may not be ready to effectively manage mesopelagic fisheries.\n\nThis webinar introduces the science and ecology of the mesopelagic zone and explores the potential governance challenges for the sustainable development of new fisheries.",
+    "speakers": [
+      "Heidi Sosik, Woods Hole Oceanographic Institute",
+      "Callum Roberts, University of Exeter",
+      "Rachel Tiller, SINTEF Ocean, Norway (SUMMER Project - Sustainable Management of Mesopelagic Resources)",
+      "Kristina Gjerde, IUCN"
+    ]
   }
 }

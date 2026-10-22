@@ -5,7 +5,7 @@ title: 'The Scores at Half Time: An update on the international discussions on t
 date: '2014-01-01'
 entry_type: Report
 year: '2014'
-bibtex_key: Wright2014a
+bibtex_key: WrightScores2014
 is_event: false
 description: Marine areas beyond national jurisdiction (ABNJ) represent around half
   of the Planet’s surface and a significant amount of its biodiversity. Over the past
@@ -36,15 +36,15 @@ abstract: Marine areas beyond national jurisdiction (ABNJ) represent around half
   on the “long and winding road” towards the conservation and sustainable use of marine
   biodiversity in ABNJ.
 tags:
+- author:glen wright
 - bbnj
-- not undermine
 - cited-by:glen-strong-high-seas
+- eia / sea
 - ifb
+- not undermine
 - oa:unknown
 - source:glen-7pubs-refs
 - type:grey
-- author:glen wright
-- eia / sea
 categories:
 - other
 authors:
