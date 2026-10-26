@@ -2872,11 +2872,6 @@ ninja.data = [{
           description: "La Gobernanza de las zonas fuera de la jurisdiccion nacional",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-la-gobernanza-de-las-zonas-fuera-de-la-jurisdiccion-nacional/";
-            },},{id: "library-marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uk-39-s-emerging-marine-renewable-energy-industry",
-          title: 'Marine Governance in an Industrialised Ocean: a case study of the UK&amp;#39;s emerging...',
-          description: "The world&#39;s oceans are currently undergoing an unprecedented period of industrialisation, made possible by advances in technology and driven by our growing need for food, energy and resources.",
-          section: "Library",handler: () => {
-              window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-case-uks-emerging-marine-renewable-energy-industry/";
             },},{id: "library-marine-governance-in-an-industrialised-ocean-a-marine-renewable-energy-case-study-poster",
           title: 'Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)...',
           description: "Marine Governance in an Industrialised Ocean A Marine Renewable Energy case study (poster)",
@@ -3032,6 +3027,11 @@ ninja.data = [{
           description: "The world&#39;s oceans are currently undergoing an unprecedented period of industrialisation, made possible by advances in technology and driven by our growing need for food, energy and resources.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-case-emerging-marine-renewable-energy-industry/";
+            },},{id: "library-marine-governance-in-an-industrialised-ocean-a-case-study-of-the-uk-39-s-emerging-marine-renewable-energy-industry",
+          title: 'Marine Governance in an Industrialised Ocean: a case study of the UK&amp;#39;s emerging...',
+          description: "The world&#39;s oceans are currently undergoing an unprecedented period of industrialisation, made possible by advances in technology and driven by our growing need for food, energy and resources.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-marine-governance-industrialised-ocean-case-uks-emerging-marine-renewable-energy-industry/";
             },},{id: "library-marine-renewable-energy-community-consultation-and-planning-summary-of-the-international-network-for-social-studies-of-marine-energy-issmer-online-seminar-series-november-2014-january-2015",
           title: 'Marine Renewable Energy: Community, Consultation and Planning (Summary of the International network for...',
           description: "The MRE industry is at a crucial moment. Devices are now moving from engineering drawings to full-scale prototypes, and the first commercial scale wave and tide energy farms have been announced and are being planned.",
@@ -3188,7 +3188,7 @@ ninja.data = [{
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-historic-untalks-couldsave-high-seas/";
             },},{id: "library-the-long-and-winding-road-continues-towards-a-new-agreement-on-high-seas-governance",
-          title: 'The long and winding road continues: Towards a new agreement on high seas...',
+          title: 'The Long and Winding Road Continues: Towards a New Agreement on High Seas...',
           description: "In 2015, States agreed to launch negotiations for the elaboration of an international legally binding instrument dedicated to the conservation and sustainable use of the marine biological diversity of areas beyond national jurisdiction (ABNJ).",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-etal-long-winding-road-continues-towards-new-agreement-high-seas-governance/";
