@@ -23,7 +23,6 @@ venue: Blue Planet Society
 role: author
 preview: glen_wright_2017_protecting_blue_planet_too_year_ocean_conservation
 pdf: glen_wright_2017_protecting_blue_planet_too_year_ocean_conservation.pdf
-url: https://blueplanetsociety.org/protecting-blue-planet/
 resources:
 - kind: pdf
   title: 'Protecting our Blue Planet too: the year in ocean conservation'
@@ -33,12 +32,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Blue Planet Society publication page
-  label: Visit Blue Planet Society publication page
-  url: https://blueplanetsociety.org/protecting-blue-planet/
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -21,7 +21,6 @@ gallery:
 - glen_wright_2012_marine_renewable_energy_legal_policy_challenges_integrating_emerging_renewable_energy_source_photo_01
 - glen_wright_2012_marine_renewable_energy_legal_policy_challenges_integrating_emerging_renewable_energy_source_photo_02
 pdf: glen_wright_2012_marine_renewable_energy_legal_policy_challenges_integrating_emerging_renewable_energy_source.pdf
-url: https://www.ikem.de/en/summer-academy-2012/
 number: July
 resources:
 - kind: pdf
@@ -33,14 +32,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IKEM International Summer Academy on Energy and the Environment publication
-    page
-  label: Visit IKEM International Summer Academy on Energy and the Environment publication
-    page
-  url: https://www.ikem.de/en/summer-academy-2012/
-  format: Web
-  local: false
-  external: true
 ---
 

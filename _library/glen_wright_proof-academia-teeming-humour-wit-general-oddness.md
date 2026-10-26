@@ -19,14 +19,5 @@ authors:
 venue: The Guardian
 role: author
 preview: glen_wright_2014_proof_academia_teeming_humour_wit_general_oddness
-url: https://www.theguardian.com/higher-education-network/blog/2014/oct/03/-sp-academia-is-teeming-with-humour-wit-and-general-oddness
-resources:
-- kind: landing
-  title: Visit The Guardian publication page
-  label: Visit The Guardian publication page
-  url: https://www.theguardian.com/higher-education-network/blog/2014/oct/03/-sp-academia-is-teeming-with-humour-wit-and-general-oddness
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -16,7 +16,6 @@ location: Sciences Po, Paris, France
 role: facilitator
 preview: 2022_commitment_action_exploring_ocean_linked_political_finance_solutions_climate_change
 pdf: 2022_commitment_action_exploring_ocean_linked_political_finance_solutions_climate_change.pdf
-url: https://www.sciencespo.fr/psia/events/worldwide-teach-climate-and-justice/
 resources:
 - kind: pdf
   title: 'From Commitment to Action: Exploring Ocean-Linked Political and Finance
@@ -27,12 +26,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Worldwide Teach-in on Climate & Justice publication page
-  label: Visit Worldwide Teach-in on Climate & Justice publication page
-  url: https://www.sciencespo.fr/psia/events/worldwide-teach-climate-and-justice/
-  format: Web
-  local: false
-  external: true
 ---
 

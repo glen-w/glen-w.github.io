@@ -32,7 +32,6 @@ venue: IDDRI
 role: lead author
 preview: glen_wright_etal_2017_coming_soon_towards_formal_negotiations_agreement_high_seas_governance
 pdf: glen_wright_etal_2017_coming_soon_towards_formal_negotiations_agreement_high_seas_governance.pdf
-url: https://www.iddri.org/en/publications-and-events/blog-post/coming-soon-towards-formal-negotiations-agreement-high-seas
 resources:
 - kind: pdf
   title: 'Coming soon: towards formal negotiations for a agreement on high seas governance'
@@ -42,12 +41,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/blog-post/coming-soon-towards-formal-negotiations-agreement-high-seas
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -42,14 +42,5 @@ quotes:
   protégées une fois réalisées. "Qui va les surveiller, comment et avec quels financements ?",
   interroge Glen Wright.'
 preview: 2019_haute_mer_une_version_zero_du_traite_attendue_dici_la_fin_juillet
-url: https://www.aefinfo.fr/depeche/604641-haute-mer-une-version-zero-du-traite-attendue-d-ici-a-la-fin-juillet-2019
-resources:
-- kind: landing
-  title: Visit AEF Info publication page
-  label: Visit AEF Info publication page
-  url: https://www.aefinfo.fr/depeche/604641-haute-mer-une-version-zero-du-traite-attendue-d-ici-a-la-fin-juillet-2019
-  format: Web
-  local: false
-  external: true
 ---
 

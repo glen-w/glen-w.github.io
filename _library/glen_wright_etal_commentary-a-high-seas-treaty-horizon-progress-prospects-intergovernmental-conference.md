@@ -44,7 +44,7 @@ venue: Ocean Yearbook
 role: lead author
 preview: glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference
 pdf: glen_wright_etal_2023_commentary_a_high_seas_treaty_horizon_progress_prospects_intergovernmental_conference.pdf
-url: https://brill.com/view/journals/ocyo/37/1/article-p30_3.xml
+url: https://doi.org/10.1163/22116001-03701004
 doi: https://doi.org/10.1163/22116001-03701004
 pages: 30--36
 volume: '37'
@@ -59,13 +59,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Ocean Yearbook publication page
-  label: Visit Ocean Yearbook publication page
-  url: https://brill.com/view/journals/ocyo/37/1/article-p30_3.xml
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

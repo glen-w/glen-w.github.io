@@ -46,7 +46,6 @@ speakers:
 preview: 2023_workshop_supplementary_indicators_towards_climate_targets
 pdf: 2023_workshop_supplementary_indicators_towards_climate_targets.pdf
 agenda: 2023_workshop_supplementary_indicators_towards_climate_targets_a_agenda.pdf
-url: https://www.diw.de/en/diw_01.c.897050.en/events/supplementary_indicators_towards_climate_targets.html
 resources:
 - kind: pdf
   title: Workshop on supplementary indicators towards climate targets
@@ -63,12 +62,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://www.diw.de/en/diw_01.c.897050.en/events/supplementary_indicators_towards_climate_targets.html
-  format: Web
-  local: false
-  external: true
 ---
 

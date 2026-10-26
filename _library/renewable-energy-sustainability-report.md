@@ -17,7 +17,6 @@ authors:
 role: co-author
 preview: 2023_renewable_energy_sustainability_report
 pdf: 2023_renewable_energy_sustainability_report.pdf
-url: https://www.ren21.net/renewable-energy-and-sustainability-report-2024/
 resources:
 - kind: pdf
   title: Renewable Energy and Sustainability Report
@@ -27,12 +26,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.ren21.net/renewable-energy-and-sustainability-report-2024/
-  format: Web
-  local: false
-  external: true
 ---
 

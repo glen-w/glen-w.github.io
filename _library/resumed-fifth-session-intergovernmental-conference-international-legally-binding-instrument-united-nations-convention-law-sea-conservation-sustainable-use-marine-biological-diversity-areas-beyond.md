@@ -32,7 +32,6 @@ gallery:
 - resumed_fifth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_photo_11
 - resumed_fifth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_photo_12
 pdf: 2023_resumed_fifth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_d.pdf
-url: https://www.un.org/bbnj/fifth_substantive_session
 zip_archive: 2023_resumed_fifth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas.zip
 zip_file_count: '13'
 zip_file_size_mb: '15.0'
@@ -48,12 +47,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.un.org/bbnj/fifth_substantive_session
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -24,7 +24,6 @@ gallery:
 - eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_05
 - eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_photo_06
 pdf: 2014_eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction_b.pdf
-url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
 zip_archive: 2014_eighth_meeting_ad_hoc_open_ended_informal_working_group_issues_relating_conservation_sustainable_use_marine_biological_diversity_beyond_areas_national_jurisdiction.zip
 zip_file_count: '7'
 zip_file_size_mb: '29.6'
@@ -39,12 +38,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.un.org/depts/los/biodiversityworkinggroup/biodiversityworkinggroup.htm
-  format: Web
-  local: false
-  external: true
 ---
 

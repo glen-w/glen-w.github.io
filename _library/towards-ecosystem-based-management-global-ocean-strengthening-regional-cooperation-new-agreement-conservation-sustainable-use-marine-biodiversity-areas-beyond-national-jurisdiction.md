@@ -29,7 +29,6 @@ institution: Institute for Advanced Sustainability Studies (IASS)
 role: co-author
 preview: 2019_towards_ecosystem_based_management_global_ocean_strengthening_regional_cooperation_new_agreement_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction
 pdf: 2019_towards_ecosystem_based_management_global_ocean_strengthening_regional_cooperation_new_agreement_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction_b.pdf
-url: https://publications.rifs-potsdam.de/pubman/item/item_4979888
 pages: '28'
 resources:
 - kind: pdf
@@ -42,13 +41,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Institute for Advanced Sustainability Studies (IASS) publication page
-  label: Visit Institute for Advanced Sustainability Studies (IASS) publication page
-  url: https://publications.rifs-potsdam.de/pubman/item/item_4979888
-  format: Web
-  local: false
-  external: true
 ---
 
 ## Notes

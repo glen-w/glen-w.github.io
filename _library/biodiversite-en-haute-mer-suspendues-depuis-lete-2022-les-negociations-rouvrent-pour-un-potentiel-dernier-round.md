@@ -34,7 +34,6 @@ quotes:
   du traité".
 preview: 2023_biodiversite_en_haute_mer_suspendues_depuis_lete_2022_les_negociations_rouvrent_pour_un_potentiel_dernier_round
 pdf: 2023_biodiversite_en_haute_mer_suspendues_depuis_lete_2022_les_negociations_rouvrent_pour_un_potentiel_dernier_round.pdf
-url: https://www.aefinfo.fr/depeche/687707-biodiversite-en-haute-mer-suspendues-depuis-l-ete-2022-les-negociations-rouvrent-pour-un-potentiel-dernier-round
 resources:
 - kind: pdf
   title: 'Biodiversite en haute mer : suspendues depuis l’ete 2022, les negociations
@@ -45,12 +44,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit AEF Info publication page
-  label: Visit AEF Info publication page
-  url: https://www.aefinfo.fr/depeche/687707-biodiversite-en-haute-mer-suspendues-depuis-l-ete-2022-les-negociations-rouvrent-pour-un-potentiel-dernier-round
-  format: Web
-  local: false
-  external: true
 ---
 

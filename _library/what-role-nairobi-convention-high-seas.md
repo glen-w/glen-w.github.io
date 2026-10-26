@@ -39,7 +39,6 @@ gallery:
 - what_role_nairobi_convention_high_seas_photo_06
 - what_role_nairobi_convention_high_seas_photo_07
 pdf: 2015_what_role_nairobi_convention_high_seas.pdf
-url: https://glenwright.earth/library/what-role-nairobi-convention-high-seas/
 zip_archive: 2015_what_role_nairobi_convention_high_seas.zip
 zip_file_count: '9'
 zip_file_size_mb: '15.0'
@@ -52,16 +51,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit 8th Conference of Parties to the Nairobi Convention for the Protection,
-    Management and Development of the Marine and Coastal Environment of the Western
-    Indian Ocean Region publication page
-  label: Visit 8th Conference of Parties to the Nairobi Convention for the Protection,
-    Management and Development of the Marine and Coastal Environment of the Western
-    Indian Ocean Region publication page
-  url: https://glenwright.earth/library/what-role-nairobi-convention-high-seas/
-  format: Web
-  local: false
-  external: true
 ---
 

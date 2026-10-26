@@ -31,7 +31,6 @@ location: Ghent University; Ghent, Belgium
 role: attendee
 preview: 2026_european_society_ecological_economics_16th_annual_conference
 agenda: 2026_european_society_ecological_economics_16th_annual_conference_agenda.pdf
-url: https://esee2026ghent.be/
 resources:
 - kind: agenda
   title: Conference agenda
@@ -40,12 +39,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://esee2026ghent.be/
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -59,7 +59,6 @@ preview: 2024_buildings_climate_global_forum
 pdf: 2024_buildings_climate_global_forum_a.pdf
 agenda: 2024_buildings_climate_global_forum_b_agenda.pdf
 video: https://www.youtube.com/playlist?list=PL-_BDHp9SAKLrn_IwwsosgMnRMOPDEdRu
-url: https://www.ecologie.gouv.fr/rendez-vous/forum-mondial-batiments-climat/english-version
 resources:
 - kind: pdf
   title: Buildings and Climate Global Forum
@@ -81,13 +80,6 @@ resources:
   label: Watch recording
   url: https://www.youtube.com/playlist?list=PL-_BDHp9SAKLrn_IwwsosgMnRMOPDEdRu
   format: Video
-  local: false
-  external: true
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://www.ecologie.gouv.fr/rendez-vous/forum-mondial-batiments-climat/english-version
-  format: Web
   local: false
   external: true
 ---

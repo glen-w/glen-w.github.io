@@ -54,7 +54,6 @@ institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures
 pdf: glen_wright_etal_2014_advancing_marine_biodiversity_protection_regional_fisheries_management_review_high_seas_bottom_fisheries_closures.pdf
-url: https://glenwright.earth/library/glen-wright-etal-advancing-marine-biodiversity-protection-regional-fisheries-management-review-high-seas-bottom-fisheries-closures/
 pages: '28'
 resources:
 - kind: pdf
@@ -66,12 +65,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://glenwright.earth/library/glen-wright-etal-advancing-marine-biodiversity-protection-regional-fisheries-management-review-high-seas-bottom-fisheries-closures/
-  format: Web
-  local: false
-  external: true
 ---
 

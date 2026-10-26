@@ -33,7 +33,6 @@ venue: IDDRI
 role: author
 preview: glen_wright_2016_cautious_steps_towards_new_high_seas_agreement
 pdf: glen_wright_2016_cautious_steps_towards_new_high_seas_agreement.pdf
-url: https://www.iddri.org/en/publications-and-events/blog-post/cautious-steps-towards-new-high-seas-agreement
 resources:
 - kind: pdf
   title: Cautious steps towards a new high seas agreement
@@ -43,12 +42,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/blog-post/cautious-steps-towards-new-high-seas-agreement
-  format: Web
-  local: false
-  external: true
 ---
 

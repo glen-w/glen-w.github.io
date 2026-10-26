@@ -29,7 +29,6 @@ speakers:
 - Martin Visbeck, Deputy Director, Leibniz Institute of Marine Sciences (IFM-GEOMAR)
 preview: glen_wright_2015_implementing_ocean_sdg_knowledge_action
 pdf: glen_wright_2015_implementing_ocean_sdg_knowledge_action.pdf
-url: https://prezi.com/1vl0zy-_eild/implementing-the-ocean-sdg/?present=1
 resources:
 - kind: pdf
   title: 'Implementing the Ocean SDG: from knowledge to action'
@@ -39,12 +38,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://prezi.com/1vl0zy-_eild/implementing-the-ocean-sdg/?present=1
-  format: Web
-  local: false
-  external: true
 ---
 

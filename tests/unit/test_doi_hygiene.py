@@ -13,7 +13,7 @@ def test_doi_fill_from_config():
     assert proc.apply_doi_hygiene('gjerdeGettingYesFasttracking2022', fields) is False
 
 
-def test_prefer_doi_over_sciencedirect():
+def test_clear_pii_and_doi_duplicate_website():
     proc = BibTeXProcessor()
     doi = '10.1016/j.marpol.2020.104059'
     fields = {
@@ -21,7 +21,11 @@ def test_prefer_doi_over_sciencedirect():
         'website': 'https://www.sciencedirect.com/science/article/pii/S0308597X20303365',
     }
     assert proc.apply_doi_hygiene('harden-daviesRightsNaturePerspectives2020', fields) is True
-    assert fields['website'] == f'https://doi.org/{doi}'
+    assert fields['website'] == ''
+
+    fields = {'doi': doi, 'website': f'https://doi.org/{doi}'}
+    assert proc.apply_doi_hygiene('harden-daviesRightsNaturePerspectives2020', fields) is True
+    assert fields['website'] == ''
 
 
 def test_inject_adds_missing_doi_field():

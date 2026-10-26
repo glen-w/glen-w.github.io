@@ -24,7 +24,6 @@ venue: Workshop on Future High Seas Governance, University of British Columbia, 
 role: speaker
 preview: glen_wright_2018_fisheries_new_high_seas_treaty_opportunities_challenges
 slides: glen_wright_2018_fisheries_new_high_seas_treaty_opportunities_challenges_slides.pdf
-url: https://glenwright.earth/library/fisheries-new-high-seas-treaty-opportunities-challenges/
 resources:
 - kind: slides
   title: Presentation slides
@@ -33,14 +32,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: Visit Workshop on Future High Seas Governance, University of British Columbia,
-    Vancouver publication page
-  label: Visit Workshop on Future High Seas Governance, University of British Columbia,
-    Vancouver publication page
-  url: https://glenwright.earth/library/fisheries-new-high-seas-treaty-opportunities-challenges/
-  format: Web
-  local: false
-  external: true
 ---
 

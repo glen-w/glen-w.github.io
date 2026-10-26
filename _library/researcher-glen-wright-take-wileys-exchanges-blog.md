@@ -32,14 +32,5 @@ categories:
 venue: Wiley
 role: interview
 preview: 2015_researcher_glen_wright_take_wileys_exchanges_blog
-url: https://johnwiley2020news.q4web.com/press-releases/press-release-details/2015/Researcher-Glen-Wright-to-take-over-Wileys-Exchanges-Blog-0f3e3e7e5/default.aspx
-resources:
-- kind: landing
-  title: Visit Wiley publication page
-  label: Visit Wiley publication page
-  url: https://johnwiley2020news.q4web.com/press-releases/press-release-details/2015/Researcher-Glen-Wright-to-take-over-Wileys-Exchanges-Blog-0f3e3e7e5/default.aspx
-  format: Web
-  local: false
-  external: true
 ---
 

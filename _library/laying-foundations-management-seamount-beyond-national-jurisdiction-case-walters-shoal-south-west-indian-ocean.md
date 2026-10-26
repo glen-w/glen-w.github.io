@@ -29,7 +29,6 @@ institution: IDDRI, IUCN, FFEM
 role: co-author
 preview: 2018_laying_foundations_management_seamount_beyond_national_jurisdiction_case_walters_shoal_south_west_indian_ocean
 pdf: 2018_laying_foundations_management_seamount_beyond_national_jurisdiction_case_walters_shoal_south_west_indian_ocean.pdf
-url: https://www.iddri.org/en/publications-and-events/report/laying-foundations-management-seamount-beyond-national-jurisdiction
 pages: 1--40
 resources:
 - kind: pdf
@@ -41,13 +40,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI, IUCN, FFEM publication page
-  label: Visit IDDRI, IUCN, FFEM publication page
-  url: https://www.iddri.org/en/publications-and-events/report/laying-foundations-management-seamount-beyond-national-jurisdiction
-  format: Web
-  local: false
-  external: true
 ---
 
 ## Notes

@@ -80,7 +80,7 @@ venue: 'Aquatic Conservation: Marine and Freshwater Ecosystems'
 role: co-author
 preview: 2016_protecting_earths_last_conservation_frontier_scientific_management_legal_priorities_mpas_beyond_national_boundaries
 pdf: 2016_protecting_earths_last_conservation_frontier_scientific_management_legal_priorities_mpas_beyond_national_boundaries.pdf
-url: http://doi.wiley.com/10.1002/aqc.2646
+url: https://doi.org/10.1002/aqc.2646
 doi: https://doi.org/10.1002/aqc.2646
 pages: 45--60
 volume: '26'
@@ -94,15 +94,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: 'Visit Aquatic Conservation: Marine and Freshwater Ecosystems publication
-    page'
-  label: 'Visit Aquatic Conservation: Marine and Freshwater Ecosystems publication
-    page'
-  url: http://doi.wiley.com/10.1002/aqc.2646
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

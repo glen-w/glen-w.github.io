@@ -24,7 +24,7 @@ venue: The Conversation
 role: co-author
 preview: 2016_interdiction_du_chalutage_profond_une_belle_victoire_et_quelques_concessions
 pdf: 2016_interdiction_du_chalutage_profond_une_belle_victoire_et_quelques_concessions.pdf
-url: http://theconversation.com/interdiction-du-chalutage-profond-une-belle-victoire-et-quelques-concessions-62645
+url: https://doi.org/10.64628/aak.9samnga79
 doi: https://doi.org/10.64628/aak.9samnga79
 resources:
 - kind: pdf
@@ -35,13 +35,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit The Conversation publication page
-  label: Visit The Conversation publication page
-  url: http://theconversation.com/interdiction-du-chalutage-profond-une-belle-victoire-et-quelques-concessions-62645
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

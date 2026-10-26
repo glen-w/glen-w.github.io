@@ -20,7 +20,6 @@ quotes:
   They carry a moral and political weight that resonates far into the future.”
 preview: 2023_inside_story_u_n_high_seas_treaty
 pdf: 2023_inside_story_u_n_high_seas_treaty.pdf
-url: https://www.newyorker.com/news/daily-comment/the-inside-story-of-the-un-high-seas-treaty
 resources:
 - kind: pdf
   title: The Inside Story of the U.N. High Seas Treaty
@@ -30,13 +29,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit The New Yorker publication page
-  label: Visit The New Yorker publication page
-  url: https://www.newyorker.com/news/daily-comment/the-inside-story-of-the-un-high-seas-treaty
-  format: Web
-  local: false
-  external: true
 ---
 
 ## Notes

@@ -30,7 +30,6 @@ venue: IDDRI
 role: co-author
 preview: 2020_technical_strategic_reflections_institutional_mechanisms_future_high_seas_treaty
 pdf: 2020_technical_strategic_reflections_institutional_mechanisms_future_high_seas_treaty.pdf
-url: https://www.iddri.org/en/publications-and-events/billet-de-blog/technical-strategic-reflections-institutional-mechanisms
 resources:
 - kind: pdf
   title: 'Technical but strategic: reflections on the institutional mechanisms of
@@ -41,12 +40,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/billet-de-blog/technical-strategic-reflections-institutional-mechanisms
-  format: Web
-  local: false
-  external: true
 ---
 

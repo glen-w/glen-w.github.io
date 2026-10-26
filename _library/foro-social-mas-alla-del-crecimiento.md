@@ -23,14 +23,5 @@ categories:
 location: Universidad Autónoma de Madrid, Madrid, Spain
 role: participant
 preview: 2026_foro_social_mas_alla_del_crecimiento
-url: https://beyondgrowth.es/foro-social-2026/
-resources:
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://beyondgrowth.es/foro-social-2026/
-  format: Web
-  local: false
-  external: true
 ---
 

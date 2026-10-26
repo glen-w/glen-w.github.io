@@ -21,7 +21,6 @@ gallery:
 - glen_wright_2016_environmental_impact_assessment_overarching_provisions_photo_03
 pdf: glen_wright_2016_environmental_impact_assessment_overarching_provisions.pdf
 slides: glen_wright_2016_environmental_impact_assessment_overarching_provisions_a_slides.pdf
-url: https://www.iddri.org/en/publications-and-events/intervention/high-seas-fisheries-new-international-legally-binding
 zip_archive: glen_wright_2016_environmental_impact_assessment_overarching_provisions.zip
 zip_file_count: '5'
 zip_file_size_mb: '8.4'
@@ -41,14 +40,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: Visit High seas fisheries in a new international legally binding instrument
-    publication page
-  label: Visit High seas fisheries in a new international legally binding instrument
-    publication page
-  url: https://www.iddri.org/en/publications-and-events/intervention/high-seas-fisheries-new-international-legally-binding
-  format: Web
-  local: false
-  external: true
 ---
 

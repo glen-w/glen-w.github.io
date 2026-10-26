@@ -24,7 +24,6 @@ gallery:
 - first_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond_photo_03
 - first_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond_photo_04
 pdf: 2018_first_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond_c.pdf
-url: https://www.un.org/bbnj/content/first-substantive-session
 zip_archive: 2018_first_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond.zip
 zip_file_count: '5'
 zip_file_size_mb: '7.1'
@@ -40,12 +39,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.un.org/bbnj/content/first-substantive-session
-  format: Web
-  local: false
-  external: true
 ---
 

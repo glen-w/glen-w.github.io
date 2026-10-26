@@ -33,7 +33,6 @@ venue: IDDRI
 role: author
 preview: glen_wright_2016_vers_un_accord_sur_la_haute_mer_des_mesures_positives_new_york
 pdf: glen_wright_2016_vers_un_accord_sur_la_haute_mer_des_mesures_positives_new_york.pdf
-url: https://www.iddri.org/fr/publications-et-evenements/billet-de-blog/vers-un-accord-sur-la-haute-mer-des-mesures-positives-new
 resources:
 - kind: pdf
   title: 'Vers un accord sur la haute mer : des mesures positives a New York'
@@ -43,12 +42,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/fr/publications-et-evenements/billet-de-blog/vers-un-accord-sur-la-haute-mer-des-mesures-positives-new
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -31,7 +31,6 @@ publisher: United Nations, Nairobi Convention
 role: attendee
 preview: 2016_partnership_science_policy_forum
 pdf: 2016_partnership_science_policy_forum.pdf
-url: https://nairobiconvention.org/clearinghouse/sites/default/files/Report%20of%20the%20Science%20to%20Policy%20Forum%2011-12Oct2016_Final.pdf
 resources:
 - kind: pdf
   title: The Partnership on Science to Policy Forum
@@ -41,12 +40,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://nairobiconvention.org/clearinghouse/sites/default/files/Report%20of%20the%20Science%20to%20Policy%20Forum%2011-12Oct2016_Final.pdf
-  format: Web
-  local: false
-  external: true
 ---
 

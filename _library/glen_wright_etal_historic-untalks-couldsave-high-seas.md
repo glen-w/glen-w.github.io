@@ -46,7 +46,7 @@ venue: Australian Environment Review
 role: lead author
 preview: glen_wright_etal_2016_historic_untalks_couldsave_high_seas
 pdf: glen_wright_etal_2016_historic_untalks_couldsave_high_seas.pdf
-url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
+url: https://doi.org/10.64628/aak.jt4fdq3p3
 doi: https://doi.org/10.64628/aak.jt4fdq3p3
 pages: 164--167
 resources:
@@ -58,13 +58,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Australian Environment Review publication page
-  label: Visit Australian Environment Review publication page
-  url: https://www.iddri.org/fr/publications-et-evenements/publication-scientifique/historic-un-talks-could-save-high-seas
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

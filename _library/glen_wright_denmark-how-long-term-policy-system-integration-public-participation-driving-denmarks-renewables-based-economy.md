@@ -34,7 +34,6 @@ institution: REN21
 role: lead author
 preview: glen_wright_2026_denmark_how_long_term_policy_system_integration_public_participation_driving_denmarks_renewables_based_economy
 pdf: glen_wright_2026_denmark_how_long_term_policy_system_integration_public_participation_driving_denmarks_renewables_based_economy.pdf
-url: https://rbe.ren21.net/case-study/denmark
 resources:
 - kind: pdf
   title: 'Denmark: How long-term policy, system integration and public participation
@@ -45,12 +44,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit REN21 publication page
-  label: Visit REN21 publication page
-  url: https://rbe.ren21.net/case-study/denmark
-  format: Web
-  local: false
-  external: true
 ---
 

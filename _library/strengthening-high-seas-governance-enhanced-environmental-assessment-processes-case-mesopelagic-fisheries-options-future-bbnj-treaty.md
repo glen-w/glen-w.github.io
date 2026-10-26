@@ -42,7 +42,7 @@ institution: STRONG High Seas
 role: co-author
 preview: 2021_strengthening_high_seas_governance_enhanced_environmental_assessment_processes_case_mesopelagic_fisheries_options_future_bbnj_treaty
 pdf: 2021_strengthening_high_seas_governance_enhanced_environmental_assessment_processes_case_mesopelagic_fisheries_options_future_bbnj_treaty_c.pdf
-url: https://publications.rifs-potsdam.de/pubman/item/item_6000701
+url: https://doi.org/10.48440/IASS.2021.001
 doi: https://doi.org/10.48440/IASS.2021.001
 pages: '56'
 resources:
@@ -56,13 +56,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit STRONG High Seas publication page
-  label: Visit STRONG High Seas publication page
-  url: https://publications.rifs-potsdam.de/pubman/item/item_6000701
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

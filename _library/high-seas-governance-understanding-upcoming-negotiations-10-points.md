@@ -26,7 +26,6 @@ venue: IDDRI
 role: co-author
 preview: 2017_high_seas_governance_understanding_upcoming_negotiations_10_points
 pdf: 2017_high_seas_governance_understanding_upcoming_negotiations_10_points.pdf
-url: https://www.iddri.org/en/publications-and-events/blog-post/high-seas-governance-understanding-upcoming-negotiations-10
 resources:
 - kind: pdf
   title: 'High seas governance: Understanding the upcoming negotiations in 10 points'
@@ -36,12 +35,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/blog-post/high-seas-governance-understanding-upcoming-negotiations-10
-  format: Web
-  local: false
-  external: true
 ---
 

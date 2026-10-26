@@ -64,14 +64,5 @@ quotes:
   agreements matter. They carry a moral and political weight that resonates far into
   the future.”
 preview: 2026_dark_frontier_unlocking_secrets_deep_sea
-url: https://www.marlowscience.com/about-1
-resources:
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.marlowscience.com/about-1
-  format: Web
-  local: false
-  external: true
 ---
 

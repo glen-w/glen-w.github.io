@@ -55,7 +55,7 @@ gallery:
 pdf: glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14.pdf
 agenda: glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_agenda.pdf
 slides: glen_wright_etal_2017_partnering_sustainable_ocean_role_regional_ocean_governance_implementing_sdg14_a_slides.pdf
-url: https://www.iddri.org/en/publications-and-events/report/partnering-sustainable-ocean-role-regional-ocean-governance
+url: https://doi.org/10.2312/iass.2017.011
 doi: https://doi.org/10.2312/iass.2017.011
 pages: '80'
 resources:
@@ -82,13 +82,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: Visit International Oceans Institute publication page
-  label: Visit International Oceans Institute publication page
-  url: https://www.iddri.org/en/publications-and-events/report/partnering-sustainable-ocean-role-regional-ocean-governance
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

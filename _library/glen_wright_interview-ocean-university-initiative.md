@@ -15,14 +15,5 @@ authors:
 - Glen Wright
 role: interview
 preview: glen_wright_2019_interview_ocean_university_initiative
-url: https://www.youtube.com/watch?v=ytn3CgFJNZw
-resources:
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://www.youtube.com/watch?v=ytn3CgFJNZw
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -14,14 +14,5 @@ authors:
 venue: The ANU Rio+20 Project
 role: author
 preview: glen_wright_2012_rio_20_end_road
-url: http://anurio20.blogspot.com/2012/06/rio20-end-of-road.html
-resources:
-- kind: landing
-  title: Visit The ANU Rio+20 Project publication page
-  label: Visit The ANU Rio+20 Project publication page
-  url: http://anurio20.blogspot.com/2012/06/rio20-end-of-road.html
-  format: Web
-  local: false
-  external: true
 ---
 

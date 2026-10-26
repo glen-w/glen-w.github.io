@@ -25,11 +25,11 @@ abstract: 'The development of a new international legally binding instrument for
   norms, inspire new measures to enhance the effectiveness and equitability of the
   BBNJ agreement and enable global ocean stewardship in ABNJ.'
 tags:
-- bbnj
-- not undermine
-- ifb
-- oa:unknown
 - author:glen wright
+- bbnj
+- ifb
+- not undermine
+- oa:unknown
 categories:
 - other
 authors:

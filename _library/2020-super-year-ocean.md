@@ -30,7 +30,6 @@ venue: IDDRI
 role: co-author
 preview: 2020_2020_super_year_ocean
 pdf: 2020_2020_super_year_ocean.pdf
-url: https://www.iddri.org/en/publications-and-events/blog-post/2020-super-year-ocean
 resources:
 - kind: pdf
   title: '2020: a “Super Year” for the ocean?'
@@ -40,12 +39,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/blog-post/2020-super-year-ocean
-  format: Web
-  local: false
-  external: true
 ---
 

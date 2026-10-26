@@ -34,7 +34,7 @@ publisher: Nature Publishing Group
 role: lead author
 preview: glen_wright_etal_2018_protect_neglected_half_blue_planet
 pdf: glen_wright_etal_2018_protect_neglected_half_blue_planet.pdf
-url: https://www.nature.com/articles/d41586-018-01594-1
+url: https://doi.org/10.1038/d41586-018-01594-1
 doi: https://doi.org/10.1038/d41586-018-01594-1
 volume: '554'
 number: '7691'
@@ -47,13 +47,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Nature publication page
-  label: Visit Nature publication page
-  url: https://www.nature.com/articles/d41586-018-01594-1
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

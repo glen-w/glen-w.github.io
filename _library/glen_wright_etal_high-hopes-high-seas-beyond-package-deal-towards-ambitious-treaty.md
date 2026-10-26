@@ -58,7 +58,6 @@ institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2019_high_hopes_high_seas_beyond_package_deal_towards_ambitious_treaty
 pdf: glen_wright_etal_2019_high_hopes_high_seas_beyond_package_deal_towards_ambitious_treaty.pdf
-url: https://www.iddri.org/en/publications-and-events/issue-brief/high-hopes-high-seas-beyond-package-deal-towards-ambitious
 pages: '8'
 number: '9'
 resources:
@@ -71,12 +70,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/issue-brief/high-hopes-high-seas-beyond-package-deal-towards-ambitious
-  format: Web
-  local: false
-  external: true
 ---
 

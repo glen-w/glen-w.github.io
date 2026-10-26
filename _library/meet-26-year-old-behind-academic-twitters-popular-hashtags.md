@@ -20,7 +20,6 @@ venue: The Chronicle of Higher Education
 role: interview
 preview: 2015_meet_26_year_old_behind_academic_twitters_popular_hashtags
 pdf: 2015_meet_26_year_old_behind_academic_twitters_popular_hashtags.pdf
-url: https://www.chronicle.com/blogs/wiredcampus/meet-the-26-year-old-behind-academic-twitters-most-popular-hashtags
 resources:
 - kind: pdf
   title: Meet the 26-Year-Old Behind Academic Twitter’s Most Popular Hashtags
@@ -30,12 +29,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit The Chronicle of Higher Education publication page
-  label: Visit The Chronicle of Higher Education publication page
-  url: https://www.chronicle.com/blogs/wiredcampus/meet-the-26-year-old-behind-academic-twitters-most-popular-hashtags
-  format: Web
-  local: false
-  external: true
 ---
 

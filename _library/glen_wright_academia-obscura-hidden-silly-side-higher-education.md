@@ -15,7 +15,6 @@ publisher: Penguin Random House (Unbound)
 role: author
 preview: glen_wright_2018_academia_obscura_hidden_silly_side_higher_education
 pdf: glen_wright_2018_academia_obscura_hidden_silly_side_higher_education.pdf
-url: https://link.amazon/B0hlPnq2x
 shop: https://link.amazon/B0hlPnq2x
 resources:
 - kind: pdf

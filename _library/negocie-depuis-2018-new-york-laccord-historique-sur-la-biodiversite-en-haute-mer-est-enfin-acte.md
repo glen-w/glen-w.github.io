@@ -41,14 +41,5 @@ quotes:
   la ratification du traité et sa mise en œuvre initiale", indique Glen Wright, et
   30 M\$ seront également apportés par des fondations.
 preview: 2023_negocie_depuis_2018_new_york_laccord_historique_sur_la_biodiversite_en_haute_mer_est_enfin_acte
-url: https://www.aefinfo.fr/depeche/688493-negocie-depuis-2018-a-new-york-l-accord-historique-sur-la-biodiversite-en-haute-mer-est-enfin-acte
-resources:
-- kind: landing
-  title: Visit AEF Info publication page
-  label: Visit AEF Info publication page
-  url: https://www.aefinfo.fr/depeche/688493-negocie-depuis-2018-a-new-york-l-accord-historique-sur-la-biodiversite-en-haute-mer-est-enfin-acte
-  format: Web
-  local: false
-  external: true
 ---
 

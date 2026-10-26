@@ -2,14 +2,14 @@
   count: 49
   orcid: 0009-0003-0588-6226
   url: https://www.iddri.org/en/about-iddri/team/julien-rochette
-- name: Klaudija Cremers
-  count: 20
-  url: https://www.iddri.org/en/about-iddri/team/klaudija-cremers
 - name: Kristina Maria Gjerde
-  count: 20
+  count: 21
   orcid: 0000-0001-9025-7632
   url: https://iucn.org/news/202512/iucn-statement-passing-kristina-maria-gjerde
   scholar: SUh8nUEAAAAJ
+- name: Klaudija Cremers
+  count: 20
+  url: https://www.iddri.org/en/about-iddri/team/klaudija-cremers
 - name: Mark Byrne
   count: 16
 - name: Sebastian Unger
@@ -85,6 +85,10 @@
   count: 2
   orcid: 0000-0003-2928-496X
   scholar: NuHJxZ0AAAAJ
+- name: Daniel C. Dunn
+  count: 2
+  orcid: 0000-0001-8932-0681
+  scholar: W1fQoOoAAAAJ
 - name: Daniel Dunn
   count: 2
   orcid: 0000-0001-8932-0681

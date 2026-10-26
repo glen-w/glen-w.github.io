@@ -15,14 +15,5 @@ authors:
 - Glen Wright
 role: speaker
 preview: glen_wright_2013_twitter_academics_researchers
-url: https://prezi.com/9zyvkzuijvdo/twitter-for-academics-researchers/?present=1
-resources:
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://prezi.com/9zyvkzuijvdo/twitter-for-academics-researchers/?present=1
-  format: Web
-  local: false
-  external: true
 ---
 

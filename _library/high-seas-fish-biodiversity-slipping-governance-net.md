@@ -43,7 +43,7 @@ publisher: Nature Publishing Group
 role: co-author
 preview: 2019_high_seas_fish_biodiversity_slipping_governance_net
 pdf: 2019_high_seas_fish_biodiversity_slipping_governance_net.pdf
-url: https://www.nature.com/articles/s41559-019-0981-4
+url: https://doi.org/10.1038/s41559-019-0981-4
 doi: https://doi.org/10.1038/s41559-019-0981-4
 pages: 1273--1276
 volume: '3'
@@ -57,13 +57,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Nature Ecology & Evolution publication page
-  label: Visit Nature Ecology & Evolution publication page
-  url: https://www.nature.com/articles/s41559-019-0981-4
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

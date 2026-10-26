@@ -32,7 +32,6 @@ venue: Renewable Energy Law and Policy Review
 role: author
 preview: glen_wright_2011_international_renewable_energy_agency_global_voice_renewable_energy_era
 pdf: glen_wright_2011_international_renewable_energy_agency_global_voice_renewable_energy_era.pdf
-url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2000433
 pages: 251--268
 volume: '4'
 resources:
@@ -45,13 +44,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Renewable Energy Law and Policy Review publication page
-  label: Visit Renewable Energy Law and Policy Review publication page
-  url: http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2000433
-  format: Web
-  local: false
-  external: true
 ---
 
 ## Notes

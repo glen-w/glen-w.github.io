@@ -26,7 +26,6 @@ venue: IDDRI
 role: co-author
 preview: 2020_un_discussions_marine_genetic_resources_shape_future_marine_biotechnology
 pdf: 2020_un_discussions_marine_genetic_resources_shape_future_marine_biotechnology.pdf
-url: https://www.iddri.org/en/publications-and-events/blog-post/un-discussions-marine-genetic-resources-shape-future-marine
 resources:
 - kind: pdf
   title: UN discussions on marine genetic resources shape the future of marine biotechnology
@@ -36,12 +35,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/blog-post/un-discussions-marine-genetic-resources-shape-future-marine
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -42,7 +42,7 @@ venue: Trends in Organized Crime
 role: author
 preview: glen_wright_2011_conceptualising_combating_transnational_environmental_crime
 pdf: glen_wright_2011_conceptualising_combating_transnational_environmental_crime.pdf
-url: https://link.springer.com/article/10.1007/s12117-011-9130-4
+url: https://doi.org/10.1007/s12117-011-9130-4
 doi: https://doi.org/10.1007/s12117-011-9130-4
 pages: 332--346
 volume: '14'
@@ -56,13 +56,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Trends in Organized Crime publication page
-  label: Visit Trends in Organized Crime publication page
-  url: https://link.springer.com/article/10.1007/s12117-011-9130-4
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

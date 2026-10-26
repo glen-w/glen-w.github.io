@@ -129,6 +129,9 @@ class CatalogGenerator:
         )
         if url and shop and self._normalize_url_key(url) == self._normalize_url_key(shop):
             url = None
+        # DOI already has its own button — don't also show a globe for doi.org
+        if url and doi and self._normalize_url_key(url) == self._normalize_url_key(doi):
+            url = None
         award = self._strip(entry.get("award") or entry.get("award_name"))
 
         flags: List[str] = []

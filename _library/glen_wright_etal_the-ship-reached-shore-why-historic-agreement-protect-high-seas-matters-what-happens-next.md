@@ -29,7 +29,6 @@ authors:
 venue: IDDRI
 preview: glen_wright_etal_2023_the_ship_reached_shore_why_historic_agreement_protect_high_seas_matters_what_happens_next
 pdf: glen_wright_etal_2023_the_ship_reached_shore_why_historic_agreement_protect_high_seas_matters_what_happens_next.pdf
-url: https://www.iddri.org/en/publications-and-events/blog-post/ship-has-reached-shore-why-historic-agreement-protect-high-seas
 resources:
 - kind: pdf
   title: 'The ship has reached the shore": why the historic Agreement to protect the
@@ -40,12 +39,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/blog-post/ship-has-reached-shore-why-historic-agreement-protect-high-seas
-  format: Web
-  local: false
-  external: true
 ---
 

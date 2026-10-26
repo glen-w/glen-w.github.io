@@ -34,7 +34,6 @@ quotes:
   measures -- perhaps seasonally enforced to protect breeding or migrating species.
 preview: 2023_pending_how_high_seas_sanctions_work
 pdf: 2023_pending_how_high_seas_sanctions_work.pdf
-url: https://www.france24.com/en/live-news/20230619-much-still-pending-on-how-high-seas-sanctions-will-work
 resources:
 - kind: pdf
   title: Much still pending on how high seas sanctions will work
@@ -44,12 +43,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit France 24 publication page
-  label: Visit France 24 publication page
-  url: https://www.france24.com/en/live-news/20230619-much-still-pending-on-how-high-seas-sanctions-will-work
-  format: Web
-  local: false
-  external: true
 ---
 

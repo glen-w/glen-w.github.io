@@ -57,7 +57,7 @@ venue: npj Ocean Sustainability
 role: co-author
 preview: 2022_getting_beyond_yes_fast_tracking_implementation_united_nations_agreement_marine_biodiversity_beyond_national_jurisdiction
 pdf: 2022_getting_beyond_yes_fast_tracking_implementation_united_nations_agreement_marine_biodiversity_beyond_national_jurisdiction.pdf
-url: https://www.nature.com/articles/s44183-022-00006-2
+url: https://doi.org/10.1038/s44183-022-00006-2
 doi: https://doi.org/10.1038/s44183-022-00006-2
 number: '6'
 resources:
@@ -70,13 +70,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit npj Ocean Sustainability publication page
-  label: Visit npj Ocean Sustainability publication page
-  url: https://www.nature.com/articles/s44183-022-00006-2
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

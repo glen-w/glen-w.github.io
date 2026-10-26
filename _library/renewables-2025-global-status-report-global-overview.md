@@ -56,7 +56,6 @@ institution: REN21
 role: co-author
 preview: 2025_renewables_2025_global_status_report_global_overview
 pdf: 2025_renewables_2025_global_status_report_global_overview.pdf
-url: https://www.ren21.net/gsr-2025/
 resources:
 - kind: pdf
   title: 'Renewables 2025 Global Status Report: Global Overview'
@@ -66,12 +65,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit REN21 publication page
-  label: Visit REN21 publication page
-  url: https://www.ren21.net/gsr-2025/
-  format: Web
-  local: false
-  external: true
 ---
 

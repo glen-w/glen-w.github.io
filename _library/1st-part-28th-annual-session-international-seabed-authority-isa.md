@@ -20,7 +20,6 @@ gallery:
 - 1st_part_28th_annual_session_international_seabed_authority_isa_photo_03
 - 1st_part_28th_annual_session_international_seabed_authority_isa_photo_05
 pdf: 2023_1st_part_28th_annual_session_international_seabed_authority_isa.pdf
-url: https://isa.org.jm/sessions/28th-session-2023/
 zip_archive: 2023_1st_part_28th_annual_session_international_seabed_authority_isa.zip
 zip_file_count: '6'
 zip_file_size_mb: '1.8'
@@ -34,12 +33,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://isa.org.jm/sessions/28th-session-2023/
-  format: Web
-  local: false
-  external: true
 ---
 

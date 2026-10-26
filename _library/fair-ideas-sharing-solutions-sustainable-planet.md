@@ -40,7 +40,6 @@ speakers:
   Network (South Africa)
 preview: 2012_fair_ideas_sharing_solutions_sustainable_planet
 pdf: 2012_fair_ideas_sharing_solutions_sustainable_planet.pdf
-url: https://www.iied.org/g03347
 resources:
 - kind: pdf
   title: 'Fair Ideas: Sharing Solutions for a Sustainable Planet'
@@ -50,12 +49,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://www.iied.org/g03347
-  format: Web
-  local: false
-  external: true
 ---
 

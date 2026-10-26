@@ -54,7 +54,6 @@ preview: glen_wright_etal_2020_fishing_twilight_zone_illuminating_governance_cha
 pdf: glen_wright_etal_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier_a.pdf
 agenda: glen_wright_etal_2020_fishing_twilight_zone_illuminating_governance_challenges_next_fisheries_frontier_b_agenda.pdf
 video: https://www.youtube.com/watch?v=FtCScw3Tvxw
-url: https://www.iddri.org/sites/default/files/PDF/Publications/Catalogue%20Iddri/Etude/202011-ST0620EN-mesopelagic_0.pdf
 resources:
 - kind: pdf
   title: 'Fishing in the Twilight Zone: Illuminating governance challenges at the
@@ -77,13 +76,6 @@ resources:
   label: Watch recording
   url: https://www.youtube.com/watch?v=FtCScw3Tvxw
   format: Video
-  local: false
-  external: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/sites/default/files/PDF/Publications/Catalogue%20Iddri/Etude/202011-ST0620EN-mesopelagic_0.pdf
-  format: Web
   local: false
   external: true
 ---

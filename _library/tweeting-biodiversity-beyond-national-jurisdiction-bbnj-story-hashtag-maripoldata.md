@@ -22,7 +22,6 @@ gallery:
 - tweeting_biodiversity_beyond_national_jurisdiction_bbnj_story_hashtag_maripoldata_photo_01
 - tweeting_biodiversity_beyond_national_jurisdiction_bbnj_story_hashtag_maripoldata_photo_02
 pdf: 2023_tweeting_biodiversity_beyond_national_jurisdiction_bbnj_story_hashtag_maripoldata.pdf
-url: https://www.maripoldata.eu/bbnj-on-twitter/
 zip_archive: 2023_tweeting_biodiversity_beyond_national_jurisdiction_bbnj_story_hashtag_maripoldata.zip
 zip_file_count: '4'
 zip_file_size_mb: '1.7'
@@ -43,12 +42,5 @@ resources:
   format: Video
   local: true
   external: false
-- kind: landing
-  title: Visit MARIPOLDATA publication page
-  label: Visit MARIPOLDATA publication page
-  url: https://www.maripoldata.eu/bbnj-on-twitter/
-  format: Web
-  local: false
-  external: true
 ---
 

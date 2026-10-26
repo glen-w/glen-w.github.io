@@ -25,7 +25,7 @@ publisher: Edward Elgar
 role: lead author
 preview: glen_wright_etal_2015_marine_protected_areas_areas_beyond_national_jurisdiction
 pdf: glen_wright_etal_2015_marine_protected_areas_areas_beyond_national_jurisdiction_a.pdf
-url: http://www.iddri.org/Publications/Marine-protected-areas-in-areas-beyond-national-jurisdiction-The-state-of-play
+url: https://doi.org/10.4337/9781781004777.00023
 doi: https://doi.org/10.4337/9781781004777.00023
 resources:
 - kind: pdf
@@ -36,15 +36,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Research Handbook on International Marine Environmental Law publication
-    page
-  label: Visit Research Handbook on International Marine Environmental Law publication
-    page
-  url: http://www.iddri.org/Publications/Marine-protected-areas-in-areas-beyond-national-jurisdiction-The-state-of-play
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

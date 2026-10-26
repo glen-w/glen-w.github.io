@@ -42,7 +42,7 @@ institution: STRONG High Seas
 role: co-author
 preview: 2019_keeping_eye_high_seas_strengthening_monitoring_control_surveillance_new_marine_biodiversity_treaty
 pdf: 2019_keeping_eye_high_seas_strengthening_monitoring_control_surveillance_new_marine_biodiversity_treaty_b.pdf
-url: https://www.iddri.org/en/publications-and-events/report/keeping-eye-high-seas
+url: https://doi.org/10.2312/iass.2018.015
 doi: https://doi.org/10.2312/iass.2018.015
 pages: '14'
 resources:
@@ -55,13 +55,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit STRONG High Seas publication page
-  label: Visit STRONG High Seas publication page
-  url: https://www.iddri.org/en/publications-and-events/report/keeping-eye-high-seas
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

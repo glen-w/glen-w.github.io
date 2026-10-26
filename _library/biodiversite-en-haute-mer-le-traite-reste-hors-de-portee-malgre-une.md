@@ -22,14 +22,5 @@ venue: AEF Info
 location: Paris, France
 role: interview
 preview: 2022_biodiversite_en_haute_mer_le_traite_reste_hors_de_portee_malgre_une
-url: https://www.aefinfo.fr/depeche/669772-biodiversite-en-haute-mer-le-traite-reste-hors-de-portee-malgre-une-dynamique-de-negociations-relancee
-resources:
-- kind: landing
-  title: Visit AEF Info publication page
-  label: Visit AEF Info publication page
-  url: https://www.aefinfo.fr/depeche/669772-biodiversite-en-haute-mer-le-traite-reste-hors-de-portee-malgre-une-dynamique-de-negociations-relancee
-  format: Web
-  local: false
-  external: true
 ---
 

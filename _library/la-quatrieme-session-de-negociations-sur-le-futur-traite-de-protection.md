@@ -28,14 +28,5 @@ quotes:
   dans ces dispositions, certes techniques mais particulièrement stratégiques", estime
   l’Iddri dans une note de blog.”
 preview: 2022_la_quatrieme_session_de_negociations_sur_le_futur_traite_de_protection
-url: https://www.aefinfo.fr/depeche/668802-la-quatrieme-session-de-negociations-sur-le-futur-traite-de-protection-de-la-haute-mer-pourrait-ne-pas-etre-la-derniere
-resources:
-- kind: landing
-  title: Visit AEF Info publication page
-  label: Visit AEF Info publication page
-  url: https://www.aefinfo.fr/depeche/668802-la-quatrieme-session-de-negociations-sur-le-futur-traite-de-protection-de-la-haute-mer-pourrait-ne-pas-etre-la-derniere
-  format: Web
-  local: false
-  external: true
 ---
 

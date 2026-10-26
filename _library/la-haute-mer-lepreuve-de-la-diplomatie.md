@@ -30,14 +30,5 @@ quotes:
   du développement durable et des relations internationales (Iddri).
 - (More… paywall…)
 preview: 2019_la_haute_mer_lepreuve_de_la_diplomatie
-url: https://www.humanite.fr/societe/mers-et-oceans/oceans-la-haute-mer-a-lepreuve-de-la-diplomatie
-resources:
-- kind: landing
-  title: Visit l'Humanite publication page
-  label: Visit l'Humanite publication page
-  url: https://www.humanite.fr/societe/mers-et-oceans/oceans-la-haute-mer-a-lepreuve-de-la-diplomatie
-  format: Web
-  local: false
-  external: true
 ---
 

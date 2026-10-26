@@ -49,7 +49,7 @@ publisher: Intersentia
 role: author
 preview: glen_wright_2016_environmental_impact_assessment_support_marine_innovation_rochdale_envelope_deploy_monitor_uks_ocean_energy_industry
 pdf: glen_wright_2016_environmental_impact_assessment_support_marine_innovation_rochdale_envelope_deploy_monitor_uks_ocean_energy_industry.pdf
-url: https://www.cambridge.org/core/books/eu-environmental-and-planning-law-aspects-of-largescale-projects/environmental-impact-assessment-to-support-marine-innovation-the-rochdale-envelope-and-deploy-monitor-in-the-uks-ocean-energy-industry/CEAE84E1FF0A437372F0E985F8121445
+url: https://doi.org/10.1017/9781780687360.010
 doi: https://doi.org/10.1017/9781780687360.010
 pages: 189--212
 volume: '2'
@@ -63,15 +63,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit EU Environmental and Planning Law Aspects of Large-Scale Projects publication
-    page
-  label: Visit EU Environmental and Planning Law Aspects of Large-Scale Projects publication
-    page
-  url: https://www.cambridge.org/core/books/eu-environmental-and-planning-law-aspects-of-largescale-projects/environmental-impact-assessment-to-support-marine-innovation-the-rochdale-envelope-and-deploy-monitor-in-the-uks-ocean-energy-industry/CEAE84E1FF0A437372F0E985F8121445
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

@@ -21,15 +21,15 @@ abstract: 'The literature on ocean energy has, to date, largely focussed on tech
   law; (ii) environmental impacts; (iii) rights and ownership; (iv) consenting processes;
   and (v) management of marine space and resources were identified.'
 tags:
-- wave energy
+- marine governance
 - ocean energy
 - tidal energy
-- marine governance
+- wave energy
 categories:
 - other
-- energy-policy
-- ocean-governance
 - marine-policy
+- ocean-governance
+- energy-policy
 authors:
 - Glen Wright
 - Anne Marie
@@ -45,19 +45,20 @@ authors:
 venue: Marine Policy
 role: lead author
 preview: glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy
-agenda: glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy_agenda.pdf
+pdf: glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy.pdf
 url: https://doi.org/10.1016/j.marpol.2015.09.030
 doi: https://doi.org/10.1016/j.marpol.2015.09.030
 pages: 126--134
 volume: '63'
 resources:
-- kind: agenda
-  title: Conference agenda
-  label: View conference programme
-  url: /assets/pdf/glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy_agenda.pdf
+- kind: pdf
+  title: Establishing a legal research agenda for ocean energy
+  label: View primary document
+  url: /assets/pdf/glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy.pdf
   format: PDF
   local: true
   external: false
+  primary: true
 - kind: landing
   title: DOI
   label: View DOI

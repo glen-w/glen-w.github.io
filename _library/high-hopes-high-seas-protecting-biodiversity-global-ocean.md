@@ -20,7 +20,6 @@ speakers:
 - Guillermo Ortuño-Crespo, Stockholm Resilience Centre
 preview: 2021_high_hopes_high_seas_protecting_biodiversity_global_ocean
 agenda: 2021_high_hopes_high_seas_protecting_biodiversity_global_ocean_agenda.pdf
-url: https://www.iucncongress2020.org/programme/official-programme/session-43542
 resources:
 - kind: agenda
   title: Conference agenda
@@ -29,12 +28,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: Visit IUCN World Conservation Congress publication page
-  label: Visit IUCN World Conservation Congress publication page
-  url: https://www.iucncongress2020.org/programme/official-programme/session-43542
-  format: Web
-  local: false
-  external: true
 ---
 

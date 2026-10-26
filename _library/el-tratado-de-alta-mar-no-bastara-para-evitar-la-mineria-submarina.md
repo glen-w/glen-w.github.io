@@ -43,7 +43,6 @@ quotes:
   comité de cumplimiento.
 preview: 2023_el_tratado_de_alta_mar_no_bastara_para_evitar_la_mineria_submarina
 pdf: 2023_el_tratado_de_alta_mar_no_bastara_para_evitar_la_mineria_submarina.pdf
-url: https://efeverde.com/tratado-alta-mar-mineria-submarina/
 resources:
 - kind: pdf
   title: El Tratado de alta mar no bastara para evitar la mineria submarina
@@ -53,12 +52,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit efeverde publication page
-  label: Visit efeverde publication page
-  url: https://efeverde.com/tratado-alta-mar-mineria-submarina/
-  format: Web
-  local: false
-  external: true
 ---
 

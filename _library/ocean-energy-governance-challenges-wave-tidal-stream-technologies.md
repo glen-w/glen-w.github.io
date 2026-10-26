@@ -13,7 +13,6 @@ publisher: Earthscan
 role: lead author
 preview: 2017_ocean_energy_governance_challenges_wave_tidal_stream_technologies
 pdf: 2017_ocean_energy_governance_challenges_wave_tidal_stream_technologies.pdf
-url: https://www.routledge.com/Ocean-Energy-Governance-Challenges-for-Wave-and-Tidal-Stream-Technologies/Wright-Kerr-Johnson/p/book/9780367403812
 resources:
 - kind: pdf
   title: 'Ocean Energy: Governance Challenges for Wave and Tidal Stream Technologies'
@@ -23,12 +22,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.routledge.com/Ocean-Energy-Governance-Challenges-for-Wave-and-Tidal-Stream-Technologies/Wright-Kerr-Johnson/p/book/9780367403812
-  format: Web
-  local: false
-  external: true
 ---
 

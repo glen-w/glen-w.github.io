@@ -31,14 +31,5 @@ quotes:
   pour que ces études soient systématiquement réalisées pour toutes les activités
   envisagées et que des lignes directrices soient établies.”
 preview: 2022_biodiversite_en_haute_mer_craintes_sur_lambition_des_aires_marines
-url: https://www.aefinfo.fr/depeche/677666-biodiversite-en-haute-mer-craintes-sur-l-ambition-des-aires-marines-protegees-a-mi-chemin-des-negociations
-resources:
-- kind: landing
-  title: Visit AEF Info publication page
-  label: Visit AEF Info publication page
-  url: https://www.aefinfo.fr/depeche/677666-biodiversite-en-haute-mer-craintes-sur-l-ambition-des-aires-marines-protegees-a-mi-chemin-des-negociations
-  format: Web
-  local: false
-  external: true
 ---
 

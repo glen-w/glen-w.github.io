@@ -14,14 +14,5 @@ authors:
 venue: The ANU Rio+20 Project
 role: author
 preview: glen_wright_2012_anu_rio_20_project_rio_20_lacking_energy
-url: http://anurio20.blogspot.com/2012/06/rio20-lacking-on-energy.html
-resources:
-- kind: landing
-  title: Visit The ANU Rio+20 Project publication page
-  label: Visit The ANU Rio+20 Project publication page
-  url: http://anurio20.blogspot.com/2012/06/rio20-lacking-on-energy.html
-  format: Web
-  local: false
-  external: true
 ---
 

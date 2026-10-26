@@ -12,14 +12,5 @@ categories:
 location: Académie du Climat, Paris, France
 role: attendee
 preview: 2026_reimagining_paris_sufficiency_practice
-url: https://www.care-climate.com/events/care-wsl-conference-reimagining-paris-sufficiency-in-practice/
-resources:
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://www.care-climate.com/events/care-wsl-conference-reimagining-paris-sufficiency-in-practice/
-  format: Web
-  local: false
-  external: true
 ---
 

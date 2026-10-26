@@ -38,14 +38,5 @@ quotes:
   en mars 2023 Glen Wright, chercheur sur la gouvernance internationale de l’océan
   à l’Iddri.
 preview: 2025_new_york_une_ceremonie_acte_lentree_en_vigueur_debut_2026_du_traite_sur_la_biodiversite_en_haute_mer
-url: https://www.aefinfo.fr/depeche/737833-a-new-york-une-ceremonie-acte-l-entree-en-vigueur-debut-2026-du-traite-sur-la-biodiversite-en-haute-mer
-resources:
-- kind: landing
-  title: Visit AEF Info publication page
-  label: Visit AEF Info publication page
-  url: https://www.aefinfo.fr/depeche/737833-a-new-york-une-ceremonie-acte-l-entree-en-vigueur-debut-2026-du-traite-sur-la-biodiversite-en-haute-mer
-  format: Web
-  local: false
-  external: true
 ---
 

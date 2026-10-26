@@ -26,7 +26,6 @@ gallery:
 - potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_photo_08
 pdf: 2017_potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_c.pdf
 agenda: 2017_potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want_d_agenda.pdf
-url: https://www.prog-ocean.org/blog/2017/12/14/4th-potsdam-ocean-governance-workshop/
 zip_archive: 2017_potsdam_ocean_governance_workshop_ocean_2030_how_get_future_want.zip
 zip_file_count: '11'
 zip_file_size_mb: '6.5'
@@ -47,12 +46,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://www.prog-ocean.org/blog/2017/12/14/4th-potsdam-ocean-governance-workshop/
-  format: Web
-  local: false
-  external: true
 ---
 

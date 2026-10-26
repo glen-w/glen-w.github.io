@@ -30,7 +30,6 @@ preview: glen_wright_etal_2022_conserving_global_ocean_initial_indications_effec
 gallery:
 - glen_wright_etal_2022_conserving_global_ocean_initial_indications_effective_area_based_management_tools_high_seas_figure_01
 pdf: glen_wright_etal_2022_conserving_global_ocean_initial_indications_effective_area_based_management_tools_high_seas.pdf
-url: www.prog-ocean.org/our-work/strong-high-seas/
 resources:
 - kind: pdf
   title: 'Conserving the Global Ocean: Initial Indications for Effective Area-based
@@ -41,12 +40,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit STRONG High Seas publication page
-  label: Visit STRONG High Seas publication page
-  url: www.prog-ocean.org/our-work/strong-high-seas/
-  format: Web
-  local: false
-  external: true
 ---
 

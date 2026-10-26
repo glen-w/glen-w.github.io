@@ -32,7 +32,6 @@ institution: DOSI
 role: co-author
 preview: 2018_strategic_environmental_assessment_sea_envisioning_application_marine_areas_beyond_national_jurisdiction_abnj
 pdf: 2018_strategic_environmental_assessment_sea_envisioning_application_marine_areas_beyond_national_jurisdiction_abnj.pdf
-url: www.dosi-project.org
 pages: '4'
 resources:
 - kind: pdf
@@ -44,12 +43,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit DOSI publication page
-  label: Visit DOSI publication page
-  url: www.dosi-project.org
-  format: Web
-  local: false
-  external: true
 ---
 

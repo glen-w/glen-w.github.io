@@ -20,14 +20,5 @@ authors:
 venue: The Guardian
 role: author
 preview: glen_wright_2015_dreading_valentines_heres_rigorously_academic_research_backed_guide_love
-url: https://www.theguardian.com/higher-education-network/2015/feb/13/dreading-valentines-heres-a-rigorously-academic-research-backed-guide-to-love
-resources:
-- kind: landing
-  title: Visit The Guardian publication page
-  label: Visit The Guardian publication page
-  url: https://www.theguardian.com/higher-education-network/2015/feb/13/dreading-valentines-heres-a-rigorously-academic-research-backed-guide-to-love
-  format: Web
-  local: false
-  external: true
 ---
 

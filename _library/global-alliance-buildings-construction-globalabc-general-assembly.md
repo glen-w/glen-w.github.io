@@ -48,7 +48,6 @@ gallery:
 - global_alliance_buildings_construction_globalabc_general_assembly_photo_02
 - global_alliance_buildings_construction_globalabc_general_assembly_photo_03
 pdf: 2025_global_alliance_buildings_construction_globalabc_general_assembly.pdf
-url: https://globalabc.org/events/globalabc-annual-assembly-2025
 resources:
 - kind: pdf
   title: Global Alliance for Buildings and Construction (GlobalABC) General Assembly
@@ -58,12 +57,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://globalabc.org/events/globalabc-annual-assembly-2025
-  format: Web
-  local: false
-  external: true
 ---
 

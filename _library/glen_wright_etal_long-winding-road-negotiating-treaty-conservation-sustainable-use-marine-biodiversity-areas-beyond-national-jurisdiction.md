@@ -50,7 +50,6 @@ institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2018_long_winding_road_negotiating_treaty_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction
 pdf: glen_wright_etal_2018_long_winding_road_negotiating_treaty_conservation_sustainable_use_marine_biodiversity_areas_beyond_national_jurisdiction_a.pdf
-url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty
 pages: '82'
 resources:
 - kind: pdf
@@ -62,12 +61,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/study/long-and-winding-road-negotiating-high-seas-treaty
-  format: Web
-  local: false
-  external: true
 ---
 

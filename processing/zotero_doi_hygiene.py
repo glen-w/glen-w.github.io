@@ -118,13 +118,13 @@ def propose_patches(
                 after["doi"] = want
                 reasons.append(f"DOI_FILLS[{citekey}]")
 
-        # 2) Prefer doi.org over publisher PII URLs when a DOI exists (or will)
+        # 2) Drop publisher PII / doi.org URLs when a DOI exists — DOI stands alone;
+        #    website/url should only remain for a distinct landing page.
         effective_doi = normalize_doi(after.get("doi")) or current_doi
-        if effective_doi and is_pii_url(current_url):
-            want_url = doi_url(effective_doi)
-            if want_url and current_url != want_url:
-                after["url"] = want_url
-                reasons.append("prefer doi.org over PII url")
+        if effective_doi and current_url:
+            if is_pii_url(current_url) or normalize_doi(current_url) == effective_doi:
+                after["url"] = ""
+                reasons.append("clear DOI-duplicate url")
 
         if not after:
             continue

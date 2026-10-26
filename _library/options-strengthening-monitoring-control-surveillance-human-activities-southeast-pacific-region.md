@@ -52,7 +52,6 @@ institution: STRONG High Seas
 role: co-author
 preview: 2020_options_strengthening_monitoring_control_surveillance_human_activities_southeast_pacific_region
 pdf: 2020_options_strengthening_monitoring_control_surveillance_human_activities_southeast_pacific_region_a.pdf
-url: https://www.iddri.org/en/publications-and-events/report/regional-ocean-governance-areas-beyond-national-jurisdiction-lessons
 pages: '46'
 resources:
 - kind: pdf
@@ -64,12 +63,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit STRONG High Seas publication page
-  label: Visit STRONG High Seas publication page
-  url: https://www.iddri.org/en/publications-and-events/report/regional-ocean-governance-areas-beyond-national-jurisdiction-lessons
-  format: Web
-  local: false
-  external: true
 ---
 

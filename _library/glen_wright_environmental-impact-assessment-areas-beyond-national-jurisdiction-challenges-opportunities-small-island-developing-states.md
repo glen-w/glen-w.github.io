@@ -21,7 +21,6 @@ role: speaker
 preview: glen_wright_2017_environmental_impact_assessment_areas_beyond_national_jurisdiction_challenges_opportunities_small_island_developing_states
 pdf: glen_wright_2017_environmental_impact_assessment_areas_beyond_national_jurisdiction_challenges_opportunities_small_island_developing_states.pdf
 slides: glen_wright_2017_environmental_impact_assessment_areas_beyond_national_jurisdiction_challenges_opportunities_small_island_developing_states_a_slides.pdf
-url: https://sidsworkshop.iode.org/docs/Bookofabstracts.pdf
 resources:
 - kind: pdf
   title: 'Environmental impact assessment in Areas Beyond National Jurisdiction: challenges
@@ -39,14 +38,5 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: 'Visit Healthy Oceans, Resilient Islands: SIDS Capacity Development Aspects
-    in the BBNJ Process publication page'
-  label: 'Visit Healthy Oceans, Resilient Islands: SIDS Capacity Development Aspects
-    in the BBNJ Process publication page'
-  url: https://sidsworkshop.iode.org/docs/Bookofabstracts.pdf
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -9,7 +9,6 @@ is_event: true
 description: 'Post-2020 Global Biodiversity Framework: what’s next for the Ocean?'
 categories:
 - other
-venue: Climate Change and Law Collection
 role: organiser
 speakers:
 - Julien Rochette, Institute for Sustainable Development and International Relations
@@ -26,8 +25,6 @@ speakers:
 preview: 2023_post_2020_global_biodiversity_framework_whats_next_ocean
 agenda: 2023_post_2020_global_biodiversity_framework_whats_next_ocean_agenda.pdf
 video: https://www.youtube.com/watch?v=Sfz-xy6UgAQ
-url: https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean
-doi: https://doi.org/10.1163/9789004322714_cclc_2022-0019-0073
 resources:
 - kind: agenda
   title: Conference agenda
@@ -43,19 +40,8 @@ resources:
   format: Video
   local: false
   external: true
-- kind: landing
-  title: Visit Climate Change and Law Collection publication page
-  label: Visit Climate Change and Law Collection publication page
-  url: https://www.iddri.org/en/publications-and-events/conference/replay-post-2020-global-biodiversity-framework-whats-next-ocean
-  format: Web
-  local: false
-  external: true
-- kind: landing
-  title: DOI
-  label: View DOI
-  url: https://doi.org/10.1163/9789004322714_cclc_2022-0019-0073
-  format: Web
-  local: false
-  external: true
 ---
 
+## Notes
+
+Removed wrong DOI 10.1163/9789004322714_cclc_2022-0019-0073 on 2026-10-21 (Brill Climate Change and Law Collection dataset record matched by title, added by Paperful lint 2026-10-06; not this presentation); also cleared sessionTitle 'Climate Change and Law Collection' from the same bad match

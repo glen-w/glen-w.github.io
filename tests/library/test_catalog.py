@@ -220,6 +220,17 @@ class TestCatalogBuild:
         assert item["shop"] == buy
         assert "url" not in item
 
+    def test_doi_duplicate_website_omitted(self, generator):
+        doi = "10.1016/j.marpol.2018.12.003"
+        item, _detail = generator.build_item(
+            _entry(
+                website=f"https://doi.org/{doi}",
+                doi=doi,
+            )
+        )
+        assert item["doi"] == f"https://doi.org/{doi}"
+        assert "url" not in item
+
     def test_shop_and_distinct_url_both_kept(self, generator):
         site = "https://academiaobscura.com"
         buy = "https://link.amazon/B0hlPnq2x"

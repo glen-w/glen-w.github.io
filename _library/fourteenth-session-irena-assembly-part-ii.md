@@ -36,7 +36,6 @@ gallery:
 - fourteenth_session_irena_assembly_part_ii_photo_02
 - fourteenth_session_irena_assembly_part_ii_photo_03
 pdf: 2024_fourteenth_session_irena_assembly_part_ii_a.pdf
-url: https://www.irena.org/Events/2024/Apr/Fourteenth-Session-of-the-IRENA-Assembly
 resources:
 - kind: pdf
   title: Fourteenth Session of the IRENA Assembly, Part II
@@ -46,12 +45,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://www.irena.org/Events/2024/Apr/Fourteenth-Session-of-the-IRENA-Assembly
-  format: Web
-  local: false
-  external: true
 ---
 

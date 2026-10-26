@@ -17,7 +17,6 @@ venue: Nature
 role: interview
 preview: 2016_talks_aim_tame_marine_wild_west_nations_debate_how_protect_biodiversity_high_seas
 pdf: 2016_talks_aim_tame_marine_wild_west_nations_debate_how_protect_biodiversity_high_seas.pdf
-url: https://www.nature.com/articles/532018a
 resources:
 - kind: pdf
   title: 'Talks aim to tame marine Wild West: Nations debate how to protect biodiversity
@@ -28,12 +27,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Nature publication page
-  label: Visit Nature publication page
-  url: https://www.nature.com/articles/532018a
-  format: Web
-  local: false
-  external: true
 ---
 

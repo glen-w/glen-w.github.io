@@ -20,7 +20,6 @@ role: speaker
 preview: glen_wright_2012_marine_renewable_energy_effectively_balancing_needs_developers_potential_environmental_impacts_australasian_perspective
 agenda: glen_wright_2012_marine_renewable_energy_effectively_balancing_needs_developers_potential_environmental_impacts_australasian_perspective_agenda.pdf
 slides: glen_wright_2012_marine_renewable_energy_effectively_balancing_needs_developers_potential_environmental_impacts_australasian_perspective_slides.pdf
-url: https://www.uhi.ac.uk/en/research-enterprise/events-and-seminars/eimr/eimr-2012/
 resources:
 - kind: agenda
   title: Conference agenda
@@ -36,15 +35,6 @@ resources:
   format: PDF
   local: true
   external: false
-- kind: landing
-  title: Visit International Conference on the Environmental Interactions of Marine
-    Renewable Energy Technologies publication page
-  label: Visit International Conference on the Environmental Interactions of Marine
-    Renewable Energy Technologies publication page
-  url: https://www.uhi.ac.uk/en/research-enterprise/events-and-seminars/eimr/eimr-2012/
-  format: Web
-  local: false
-  external: true
 ---
 
 ## Notes

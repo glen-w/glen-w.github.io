@@ -53,7 +53,6 @@ location: Potsdam, Germany
 role: co-author
 preview: 2014_governing_high_seas_linking_global_governance_regional_implementation
 pdf: 2014_governing_high_seas_linking_global_governance_regional_implementation.pdf
-url: https://glenwright.earth/library/governing-high-seas-linking-global-governance-regional-implementation/
 pages: 1--14
 resources:
 - kind: pdf
@@ -64,12 +63,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit Potsdam Ocean Governance Workshop publication page
-  label: Visit Potsdam Ocean Governance Workshop publication page
-  url: https://glenwright.earth/library/governing-high-seas-linking-global-governance-regional-implementation/
-  format: Web
-  local: false
-  external: true
 ---
 

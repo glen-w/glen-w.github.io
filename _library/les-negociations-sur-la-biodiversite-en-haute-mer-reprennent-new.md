@@ -26,14 +26,5 @@ quotes:
   protégées une fois réalisées. "Qui va les surveiller, comment et avec quels financements ?",
   interrogeait alors Glen Wright.'
 preview: 2019_les_negociations_sur_la_biodiversite_en_haute_mer_reprennent_new
-url: https://www.aefinfo.fr/depeche/611291-les-negociations-sur-la-biodiversite-en-haute-mer-reprennent-a-new-york-pour-debattre-d-une-premiere-version-du-traite
-resources:
-- kind: landing
-  title: Visit AEF Info publication page
-  label: Visit AEF Info publication page
-  url: https://www.aefinfo.fr/depeche/611291-les-negociations-sur-la-biodiversite-en-haute-mer-reprennent-a-new-york-pour-debattre-d-une-premiere-version-du-traite
-  format: Web
-  local: false
-  external: true
 ---
 

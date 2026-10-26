@@ -57,7 +57,6 @@ institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument
 pdf: glen_wright_etal_2016_high_seas_fisheries_what_role_new_international_instrument.pdf
-url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
 pages: '20'
 resources:
 - kind: pdf
@@ -68,13 +67,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/study/high-seas-fisheries-what-role-new-international-instrument
-  format: Web
-  local: false
-  external: true
 ---
 
 ## Notes

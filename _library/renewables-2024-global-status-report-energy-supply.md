@@ -27,7 +27,6 @@ institution: REN21
 role: co-author
 preview: 2024_renewables_2024_global_status_report_energy_supply
 pdf: 2024_renewables_2024_global_status_report_energy_supply.pdf
-url: https://www.ren21.net/gsr-2024/modules/energy_supply/01_global_trends/
 resources:
 - kind: pdf
   title: 'Renewables 2024 Global Status Report: Energy Supply'
@@ -37,12 +36,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit REN21 publication page
-  label: Visit REN21 publication page
-  url: https://www.ren21.net/gsr-2024/modules/energy_supply/01_global_trends/
-  format: Web
-  local: false
-  external: true
 ---
 

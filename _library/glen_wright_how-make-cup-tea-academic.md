@@ -22,14 +22,5 @@ authors:
 venue: The Guardian
 role: author
 preview: glen_wright_2014_how_make_cup_tea_academic
-url: https://www.theguardian.com/higher-education-network/blog/2014/oct/17/-sp-how-to-make-a-cup-of-tea-for-an-academic
-resources:
-- kind: landing
-  title: Visit The Guardian publication page
-  label: Visit The Guardian publication page
-  url: https://www.theguardian.com/higher-education-network/blog/2014/oct/17/-sp-how-to-make-a-cup-of-tea-for-an-academic
-  format: Web
-  local: false
-  external: true
 ---
 

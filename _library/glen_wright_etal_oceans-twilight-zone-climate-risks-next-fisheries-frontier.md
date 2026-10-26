@@ -31,7 +31,6 @@ venue: IDDRI
 role: lead author
 preview: glen_wright_etal_2020_oceans_twilight_zone_climate_risks_next_fisheries_frontier
 pdf: glen_wright_etal_2020_oceans_twilight_zone_climate_risks_next_fisheries_frontier.pdf
-url: https://www.iddri.org/en/publications-and-events/blog-post/oceans-twilight-zone-climate-risks-next-fisheries-frontier
 resources:
 - kind: pdf
   title: 'The Ocean''s "twilight zone": climate risks at the next fisheries frontier'
@@ -41,12 +40,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/blog-post/oceans-twilight-zone-climate-risks-next-fisheries-frontier
-  format: Web
-  local: false
-  external: true
 ---
 

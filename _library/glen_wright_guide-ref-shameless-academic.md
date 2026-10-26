@@ -20,7 +20,6 @@ venue: The Guardian
 role: author
 preview: glen_wright_2014_guide_ref_shameless_academic
 pdf: glen_wright_2014_guide_ref_shameless_academic.pdf
-url: https://www.theguardian.com/higher-education-network/2014/dec/12/research-excellence-framework-success-academic
 resources:
 - kind: pdf
   title: A guide to the REF for the shameless academic
@@ -30,12 +29,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit The Guardian publication page
-  label: Visit The Guardian publication page
-  url: https://www.theguardian.com/higher-education-network/2014/dec/12/research-excellence-framework-success-academic
-  format: Web
-  local: false
-  external: true
 ---
 

@@ -49,7 +49,7 @@ institution: STRONG High Seas
 role: co-author
 preview: 2018_strengthening_regional_ocean_governance_high_seas_opportunities_challenges_improve_legal_institutional_framework_southeast_atlantic_southeast_pacific
 pdf: 2018_strengthening_regional_ocean_governance_high_seas_opportunities_challenges_improve_legal_institutional_framework_southeast_atlantic_southeast_pacific_b.pdf
-url: https://glenwright.earth/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/
+url: https://doi.org/10.2312/iass.2018.025
 doi: https://doi.org/10.2312/iass.2018.025
 pages: '92'
 resources:
@@ -63,13 +63,6 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit STRONG High Seas publication page
-  label: Visit STRONG High Seas publication page
-  url: https://glenwright.earth/library/strengthening-regional-ocean-governance-high-seas-opportunities-challenges-improve-legal-institutional-framework-southeast-atlantic-southeast-pacific/
-  format: Web
-  local: false
-  external: true
 - kind: landing
   title: DOI
   label: View DOI

@@ -19,14 +19,5 @@ authors:
 venue: The Guardian
 role: author
 preview: glen_wright_2015_top_five_university_pranks_watch_april_fools_day
-url: https://www.theguardian.com/higher-education-network/2015/apr/01/top-five-university-pranks-to-watch-out-for-on-april-fools-day
-resources:
-- kind: landing
-  title: Visit The Guardian publication page
-  label: Visit The Guardian publication page
-  url: https://www.theguardian.com/higher-education-network/2015/apr/01/top-five-university-pranks-to-watch-out-for-on-april-fools-day
-  format: Web
-  local: false
-  external: true
 ---
 

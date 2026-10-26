@@ -30,7 +30,6 @@ institution: REN21
 role: co-author
 preview: 2024_renewables_2024_global_status_report_energy_systems_infrastructure
 pdf: 2024_renewables_2024_global_status_report_energy_systems_infrastructure.pdf
-url: https://www.ren21.net/gsr-2024/modules/energy_systems_infrastructure/
 resources:
 - kind: pdf
   title: 'Renewables 2024 Global Status Report: Energy Systems and Infrastructure'
@@ -40,12 +39,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit REN21 publication page
-  label: Visit REN21 publication page
-  url: https://www.ren21.net/gsr-2024/modules/energy_systems_infrastructure/
-  format: Web
-  local: false
-  external: true
 ---
 

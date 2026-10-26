@@ -19,7 +19,6 @@ location: United Nations, New York City, NY, USA
 role: delegate
 preview: 2022_fourth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond
 pdf: 2022_fourth_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond_b.pdf
-url: https://www.un.org/bbnj/content/fourth-substantive-session
 resources:
 - kind: pdf
   title: Fourth session of the Intergovernmental conference on an international legally
@@ -32,12 +31,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.un.org/bbnj/content/fourth-substantive-session
-  format: Web
-  local: false
-  external: true
 ---
 

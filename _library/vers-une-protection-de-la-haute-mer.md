@@ -21,14 +21,5 @@ authors:
 venue: Alternatives Economiques
 role: co-author
 preview: 2018_vers_une_protection_de_la_haute_mer
-url: https://www.alternatives-economiques.fr/vers-une-protection-de-haute-mer/00086327
-resources:
-- kind: landing
-  title: Visit Alternatives Economiques publication page
-  label: Visit Alternatives Economiques publication page
-  url: https://www.alternatives-economiques.fr/vers-une-protection-de-haute-mer/00086327
-  format: Web
-  local: false
-  external: true
 ---
 

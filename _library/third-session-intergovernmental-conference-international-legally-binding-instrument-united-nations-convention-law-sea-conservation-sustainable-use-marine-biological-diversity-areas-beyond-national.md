@@ -19,7 +19,6 @@ location: United Nations, New York City, NY, USA
 role: delegate
 preview: 2019_third_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond
 pdf: 2019_third_session_intergovernmental_conference_international_legally_binding_instrument_united_nations_convention_law_sea_conservation_sustainable_use_marine_biological_diversity_areas_beyond_c.pdf
-url: https://www.un.org/bbnj/content/third-substantive-session
 resources:
 - kind: pdf
   title: Third session of the Intergovernmental conference on an international legally
@@ -32,12 +31,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit publication page
-  label: Visit publication page
-  url: https://www.un.org/bbnj/content/third-substantive-session
-  format: Web
-  local: false
-  external: true
 ---
 

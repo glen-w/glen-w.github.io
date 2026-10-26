@@ -31,7 +31,6 @@ location: Jardin des Plantes, Paris
 role: attendee
 preview: 2026_neptune_forum
 pdf: 2026_neptune_forum.pdf
-url: https://mission-neptune.com/en/the-forum
 resources:
 - kind: pdf
   title: Neptune Forum
@@ -41,12 +40,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://mission-neptune.com/en/the-forum
-  format: Web
-  local: false
-  external: true
 ---
 

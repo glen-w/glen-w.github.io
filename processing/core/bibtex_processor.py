@@ -628,10 +628,15 @@ class BibTeXProcessor:
 
         for field_name in ('website', 'url'):
             current = fields.get(field_name)
-            if current and self.is_publisher_pii_url(current):
-                fields[field_name] = doi_href
+            if not current:
+                continue
+            # Drop PII landing pages and bare doi.org mirrors — DOI stands alone.
+            if self.is_publisher_pii_url(current) or self.normalize_doi(current) == self.normalize_doi(
+                fields.get('doi')
+            ):
+                fields[field_name] = ''
                 changed = True
-                print(f"  🔗 Prefer DOI over PII ({field_name}): {key}")
+                print(f"  🔗 Clear DOI-duplicate {field_name}: {key}")
         return changed
 
     def inject_doi_hygiene_into_content(
@@ -656,26 +661,13 @@ class BibTeXProcessor:
                     count=1,
                 )
 
-        doi_href = self.doi_url(bare)
-        if doi_href:
-            for field_name in ('website', 'url'):
-                current = fields.get(field_name)
-                if not current:
-                    continue
-                # fields may already be rewritten to doi.org by apply_doi_hygiene;
-                # also rewrite leftover PII still present only in the content block.
-                pattern = rf'(?im)^(\s*{field_name}\s*=\s*)\{{([^}}]*)\}}'
-                match = re.search(pattern, content)
-                if not match:
-                    continue
-                existing = match.group(2)
-                if self.is_publisher_pii_url(existing) or (
-                    self.is_publisher_pii_url(current) is False
-                    and existing != current
-                    and current == doi_href
-                ):
-                    content = re.sub(pattern, rf'\1{{{doi_href}}}', content, count=1)
-                    fields[field_name] = doi_href
+        # Reflect cleared website/url (DOI-duplicate / PII) in the BibTeX block.
+        for field_name in ('website', 'url'):
+            if fields.get(field_name):
+                continue
+            pattern = rf'(?im)^\s*{field_name}\s*=\s*\{{[^}}]*\}},?\n?'
+            if re.search(pattern, content):
+                content = re.sub(pattern, '', content, count=1)
         return content
     
     def extract_file_paths(self, file_field: str) -> List[str]:

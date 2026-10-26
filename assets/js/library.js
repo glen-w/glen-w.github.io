@@ -472,7 +472,7 @@
     if (item.shop) {
       links.appendChild(iconLink(item.shop, "fa-cart-shopping", "Buy"));
     }
-    if (item.url && !sameHref(item.url, item.shop)) {
+    if (item.url && !sameHref(item.url, item.shop) && !sameHref(item.url, item.doi)) {
       links.appendChild(iconLink(item.url, "fa-globe", "Open website"));
     }
     if (item.doi) {

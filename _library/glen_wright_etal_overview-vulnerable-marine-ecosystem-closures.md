@@ -17,7 +17,6 @@ institution: IDDRI
 role: lead author
 preview: glen_wright_etal_2016_overview_vulnerable_marine_ecosystem_closures
 pdf: glen_wright_etal_2016_overview_vulnerable_marine_ecosystem_closures.pdf
-url: https://www.iddri.org/en/publications-and-events/decryptage/overview-vulnerable-marine-ecosystem-closures
 pages: '2'
 resources:
 - kind: pdf
@@ -28,12 +27,5 @@ resources:
   local: true
   external: false
   primary: true
-- kind: landing
-  title: Visit IDDRI publication page
-  label: Visit IDDRI publication page
-  url: https://www.iddri.org/en/publications-and-events/decryptage/overview-vulnerable-marine-ecosystem-closures
-  format: Web
-  local: false
-  external: true
 ---
 

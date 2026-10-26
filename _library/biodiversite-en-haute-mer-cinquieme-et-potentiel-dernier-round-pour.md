@@ -51,14 +51,5 @@ quotes:
   Russie a bloqué les négociations — les autres pays, Chine, Japon, Islande se montraient
   constructifs, ouverts au compromis et plus flexibles qu’avant", relate Glen Wright.
 preview: 2022_biodiversite_en_haute_mer_cinquieme_et_potentiel_dernier_round_pour
-url: https://www.aefinfo.fr/depeche/677421-biodiversite-en-haute-mer-cinquieme-et-potentiel-dernier-round-pour-les-negociations-sur-le-futur-traite-international
-resources:
-- kind: landing
-  title: Visit AEF Info publication page
-  label: Visit AEF Info publication page
-  url: https://www.aefinfo.fr/depeche/677421-biodiversite-en-haute-mer-cinquieme-et-potentiel-dernier-round-pour-les-negociations-sur-le-futur-traite-international
-  format: Web
-  local: false
-  external: true
 ---
 

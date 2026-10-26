@@ -27,17 +27,8 @@ gallery:
 - glen_wright_2026_paris_basketball_vision_2030_stakeholder_workshop_photo_02
 - glen_wright_2026_paris_basketball_vision_2030_stakeholder_workshop_photo_03
 - glen_wright_2026_paris_basketball_vision_2030_stakeholder_workshop_photo_04
-url: https://miro.com/app/board/uXjVGL3gmjo=/?share_link_id=553127409753
 zip_archive: glen_wright_2026_paris_basketball_vision_2030_stakeholder_workshop.zip
 zip_file_count: '4'
 zip_file_size_mb: '4.3'
-resources:
-- kind: landing
-  title: Visit event website
-  label: Visit event website
-  url: https://miro.com/app/board/uXjVGL3gmjo=/?share_link_id=553127409753
-  format: Web
-  local: false
-  external: true
 ---
 
