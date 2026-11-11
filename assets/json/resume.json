@@ -249,35 +249,10 @@
   ],
   "volunteer": [
     {
-      "organization": "NSW Greens",
-      "position": "Volunteer",
-      "startDate": "2011-04-01"
-    },
-    {
-      "organization": "Amnesty International",
-      "position": "Volunteer",
-      "startDate": "2010-07-01",
-      "endDate": "2010-08-31"
-    },
-    {
-      "organization": "Nottingham University Vegetarian & Vegan Society",
-      "position": "Founder & President",
-      "startDate": "2007-01-01"
-    },
-    {
-      "organization": "Nottingham Student Peace Movement",
-      "position": "General Secretary",
-      "startDate": "2007-01-01"
-    },
-    {
-      "organization": "The Activist Legal Project",
-      "position": "Researcher",
-      "startDate": "2007-01-01"
-    },
-    {
-      "organization": "FolkDirectory.co.uk",
-      "position": "Founder & Webmaster",
-      "startDate": "2005-01-01"
+      "organization": "Marine Spatial Planning Research Network (MSPRN)",
+      "position": "Member, Steering Group",
+      "url": "https://www.msprn.net/",
+      "startDate": "2026-10-01"
     }
   ],
   "publications": [

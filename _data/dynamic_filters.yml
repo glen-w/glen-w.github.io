@@ -22,17 +22,17 @@ entry_type_counts:
   Journal Article: 35
   Newspaper: 28
   Conference: 45
-  Report: 62
+  Report: 63
   Report Section: 6
   Book Chapter: 6
   Oped: 2
   Blog: 25
-  Webinar: 17
-  Workshop: 56
+  Webinar: 18
+  Workshop: 57
   Training: 14
   Submission: 27
   Poster: 3
-  Conference Paper: 7
+  Conference Paper: 6
   Book: 2
   Side Event: 8
   Fellowship: 1
@@ -43,6 +43,7 @@ role_tags:
 - author
 - co-author
 - delegate
+- editor
 - facilitator
 - interview
 - lead author
@@ -54,7 +55,7 @@ role_tags:
 role_tag_counts:
   lead author: 27
   author: 76
-  speaker: 73
+  speaker: 75
   co-author: 68
   facilitator: 22
   organiser: 25
@@ -64,6 +65,7 @@ role_tag_counts:
   quoted: 17
   attendee: 19
   delegate: 17
+  editor: 1
 language_tags:
 - french
 - spanish

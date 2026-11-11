@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-10-26 18:08:04",
-    "total_locations": 65,
-    "successfully_geocoded": 65,
+    "generated_at": "2026-11-11 13:31:24",
+    "total_locations": 66,
+    "successfully_geocoded": 66,
     "source_file": "../_bibliography/papers.bib",
     "cache_enabled": true,
     "refresh_mode": false,
@@ -76,6 +76,20 @@
       "coordinates": {
         "lat": 48.8588897,
         "lng": 2.320041
+      },
+      "geocoded": true
+    },
+    {
+      "bibtex_key": "wrightPuttingPracticeBBNJ2026",
+      "title": "Putting in practice the BBNJ Clearing-House Mechanism",
+      "address": "Bangkok, Thailand",
+      "year": "2026",
+      "month": "",
+      "entry_type": "inproceedings",
+      "tag": "Workshop",
+      "coordinates": {
+        "lat": 13.7524938,
+        "lng": 100.4935089
       },
       "geocoded": true
     },

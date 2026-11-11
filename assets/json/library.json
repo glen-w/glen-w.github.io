@@ -118,15 +118,37 @@
       "info": "/library/glen-wright-paris-basketball-vision-2030-stakeholder-workshop/"
     },
     {
+      "id": "wrightPuttingPracticeBBNJ2026",
+      "title": "Putting in practice the BBNJ Clearing-House Mechanism",
+      "year": 2026,
+      "type": "Workshop",
+      "month": 1,
+      "roles": [
+        "speaker"
+      ],
+      "venue": "High Seas Alliance",
+      "thumb": "/assets/img/publication_preview/glen_wright_2026_putting_practice_bbnj_clearing_house_mechanism-480.webp",
+      "agenda": "/assets/pdf/glen_wright_2026_putting_practice_bbnj_clearing_house_mechanism_agenda.pdf",
+      "flags": [
+        "abs",
+        "photos"
+      ],
+      "info": "/library/glen-wright-putting-practice-bbnj-clearing-house-mechanism/"
+    },
+    {
       "id": "zotero-item-127516",
       "title": "Putting it into practice: a demonstration of the BBNJ Clearing-House Mechanism",
       "year": 2026,
-      "type": "Conference Paper",
+      "type": "Webinar",
       "month": 1,
+      "roles": [
+        "speaker"
+      ],
       "venue": "High Seas Alliance",
       "thumb": "/assets/img/publication_preview/glen_wright_2026_putting_practice_demonstration_bbnj_clearing_house_mechanism-480.webp",
       "agenda": "/assets/pdf/glen_wright_2026_putting_practice_demonstration_bbnj_clearing_house_mechanism_agenda.pdf",
       "flags": [
+        "abs",
         "photos"
       ],
       "info": "/library/glen-wright-putting-practice-demonstration-bbnj-clearing-house-mechanism/"
@@ -3365,6 +3387,7 @@
       "thumb": "/assets/img/publication_preview/glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy-480.webp",
       "pdf": "/assets/pdf/glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy.pdf",
       "doi": "https://doi.org/10.1016/j.marpol.2015.09.030",
+      "agenda": "/assets/pdf/glen_wright_etal_2016_establishing_legal_research_agenda_ocean_energy_a_agenda.pdf",
       "selected": true,
       "flags": [
         "abs"
@@ -3528,6 +3551,20 @@
         "photos"
       ],
       "info": "/library/glen-wright-quel-statut-pour-la-haute-mer/"
+    },
+    {
+      "id": "programmeRegionalOceansGovernance2016",
+      "title": "Regional oceans governance: Making regional seas programmes, regional fishery bodies and large marine ecosystem mechanisms work better together",
+      "year": 2016,
+      "type": "Report",
+      "month": 1,
+      "roles": [
+        "editor"
+      ],
+      "venue": "United Nations Environment Programme",
+      "thumb": "/assets/img/publication_preview/2016_regional_oceans_governance_making_regional_seas_programmes_regional_fishery_bodies_large_marine_ecosystem_mechanisms_work_better_together-480.webp",
+      "pdf": "/assets/pdf/2016_regional_oceans_governance_making_regional_seas_programmes_regional_fishery_bodies_large_marine_ecosystem_mechanisms_work_better_together.pdf",
+      "info": "/library/regional-oceans-governance-making-regional-seas-programmes-regional-fishery-bodies-large-marine-ecosystem-mechanisms-work-better-together/"
     },
     {
       "id": "Wright2016",
