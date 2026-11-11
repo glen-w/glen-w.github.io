@@ -277,3 +277,26 @@ class TestPaperProcessor:
         assert len(merged) == 1
         assert merged[0]['fields'].get('preview') == 'existing_preview.jpg'
         assert merged[0]['_original_content'].rstrip() == working_content.rstrip()
+
+    def test_export_chronology_survives_malformed_clean(self, processor):
+        """Bare Zotero months must survive clean_malformed_entries via pre-clean capture."""
+        export = """@techreport{RBEHub_REN21_Denmark,
+\ttitle = {Case study},
+\tmonth = jul,
+\tyear = {2026}
+}
+"""
+        assert processor._export_chronology_by_key(export) == {
+            'RBEHub_REN21_Denmark': {'month': 'jul', 'year': '2026'}
+        }
+        cleaned = processor.bibtex_processor.clean_malformed_entries(export)
+        merged = processor._merge_export_with_existing(cleaned, '')
+        processor._apply_export_chronology(
+            merged, processor._export_chronology_by_key(export)
+        )
+        assert merged[0]['fields'].get('month') == 'jul'
+        synced = processor._sync_chronology_fields(
+            "@techreport{RBEHub_REN21_Denmark,\n\ttitle = {Case study},\n\tyear = {2026}\n}",
+            merged[0]['fields'],
+        )
+        assert 'month = {jul}' in synced or 'month = jul' in synced

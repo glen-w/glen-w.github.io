@@ -89,10 +89,12 @@ class PaperProcessor:
             working_content = self._read_bibtex_file(working_file)
             if not working_content:
                 return
+            chrono_by_key = self._export_chronology_by_key(source_content)
             # Clean/notes on export content only (new entries get same cleaning as today)
             cleaned_export = self.bibtex_processor.clean_malformed_entries(source_content)
             cleaned_export = self.bibtex_processor.process_notes_from_zotero(cleaned_export)
             entries = self._merge_export_with_existing(cleaned_export, working_content)
+            self._apply_export_chronology(entries, chrono_by_key)
             if test_mode:
                 entries = entries[:test_count]
                 print(f"  🧪 Test mode: Processing only {len(entries)} entries")
@@ -265,6 +267,38 @@ class PaperProcessor:
             print(f"  ❌ Error reading {file_path}: {e}")
             return None
 
+    _CHRONOLOGY_FIELDS = ('month', 'year', 'day')
+
+    def _export_chronology_by_key(self, source_content: str) -> Dict[str, Dict[str, str]]:
+        """Month/year/day from the raw Zotero export (before clean_malformed_entries)."""
+        out: Dict[str, Dict[str, str]] = {}
+        for entry in self.bibtex_processor.parse_bibtex_entries(source_content):
+            key = entry.get('citation_key', '')
+            if not key:
+                continue
+            fields = entry.get('fields') or {}
+            chrono = {
+                name: str(fields[name]).strip()
+                for name in self._CHRONOLOGY_FIELDS
+                if fields.get(name) and str(fields[name]).strip()
+            }
+            if chrono:
+                out[key] = chrono
+        return out
+
+    @staticmethod
+    def _apply_export_chronology(
+        entries: List[Dict], chrono_by_key: Dict[str, Dict[str, str]]
+    ) -> None:
+        for entry in entries:
+            key = entry.get('citation_key', '')
+            chrono = chrono_by_key.get(key)
+            if not chrono:
+                continue
+            fields = entry.setdefault('fields', {})
+            for name, value in chrono.items():
+                fields[name] = value
+
     def _merge_export_with_existing(self, source_content: str, working_content: str) -> List[Dict]:
         """Merge export content with existing papers.bib; export is source of truth, preserve pipeline output fields from existing."""
         existing_list = self.bibtex_processor.parse_bibtex_entries(working_content)
@@ -413,15 +447,16 @@ class PaperProcessor:
                     # but still sync chronology fields from the export so bare
                     # months (month = oct) are not stuck as missing forever.
                     if entry.get('_skipped') and entry.get('_original_content'):
-                        updated = self._sync_chronology_fields(
-                            entry['_original_content'], entry.get('fields') or {}
-                        )
+                        base = entry['_original_content']
                     else:
                         # Rebuild from export content and re-apply pipeline output fields.
-                        updated = self._update_entry_content(entry['content'], entry['fields'])
+                        base = self._update_entry_content(entry['content'], entry['fields'])
                         if rename_urls:
-                            updated, url_count = self.bibtex_processor.rename_url_fields(updated)
+                            base, url_count = self.bibtex_processor.rename_url_fields(base)
                             url_renames += url_count
+                    updated = self._sync_chronology_fields(
+                        base, entry.get('fields') or {}
+                    )
                     updated = self.bibtex_processor.inject_doi_hygiene_into_content(
                         updated, entry.get('citation_key', ''), entry.get('fields') or {}
                     )
