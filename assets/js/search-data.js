@@ -3247,6 +3247,11 @@ ninja.data = [{
           description: "1. Marine areas beyond national jurisdiction (ABNJ) comprise most of Earth&#39;s interconnected ocean, hosting complex ecosystems that play key roles in sustaining life and providing important goods and services. 2.",
           section: "Library",handler: () => {
               window.location.href = "/library/protecting-earths-last-conservation-frontier-scientific-management-legal-priorities-mpas-beyond-national-boundaries/";
+            },},{id: "library-regional-oceans-governance-making-regional-seas-programmes-regional-fishery-bodies-and-large-marine-ecosystem-mechanisms-work-better-together",
+          title: 'Regional oceans governance: Making regional seas programmes, regional fishery bodies and large marine...',
+          description: "Regional oceans governance: Making regional seas programmes, regional fishery bodies and large marine ecosystem mechanisms work better together",
+          section: "Library",handler: () => {
+              window.location.href = "/library/regional-oceans-governance-making-regional-seas-programmes-regional-fishery-bodies-large-marine-ecosystem-mechanisms-work-better-together/";
             },},{id: "library-the-role-of-science-in-implementing-the-2030-agenda",
           title: 'The Role of Science in Implementing the 2030 Agenda',
           description: "The Role of Science in Implementing the 2030 Agenda",
@@ -4212,6 +4217,11 @@ ninja.data = [{
           description: "When Paris Basketball needed a more engaging way to consult with stakeholders on their 2030 Vision process, I created an interactive basketball-themed workshop, including fun group exercises and guidance notes for facilitators.",
           section: "Library",handler: () => {
               window.location.href = "/library/glen-wright-paris-basketball-vision-2030-stakeholder-workshop/";
+            },},{id: "library-putting-in-practice-the-bbnj-clearing-house-mechanism",
+          title: 'Putting in practice the BBNJ Clearing-House Mechanism',
+          description: "The much anticipated first meeting of the Conference of the Parties (CoP1) is happening on 11-22 January 2027, one year after the BBNJ Agreement has entered into force and became an international law.",
+          section: "Library",handler: () => {
+              window.location.href = "/library/glen-wright-putting-practice-bbnj-clearing-house-mechanism/";
             },},{id: "library-putting-it-into-practice-a-demonstration-of-the-bbnj-clearing-house-mechanism",
           title: 'Putting it into practice: a demonstration of the BBNJ Clearing-House Mechanism',
           description: "Putting it into practice: a demonstration of the BBNJ Clearing-House Mechanism",
